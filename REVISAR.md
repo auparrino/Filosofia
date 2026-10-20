@@ -317,3 +317,12 @@ edición cotejada.
 - **Schopenhauer**, «El hombre puede hacer lo que quiere…» (trampa: se le atribuye a Einstein): va con la obra (1839), sin capítulo.
 - **Chisholm** (1964), el «primer motor inmóvil»: traducción propia.
 - **Casos reales de los dilemas:** Owen y otros (2006, el paciente que imagina jugar al tenis) y Burns y Swerdlow (2003, el tumor orbitofrontal), en términos generales.
+
+## Semanas 95-97
+
+- **Turing 1950** (seminario de la 97, traducción propia de memoria): cotejar con el original. Las «nine inches» pasan a «veinte centímetros» (con glosa); la suma equivocada (105621 por 105721) es del original; Jefferson y Lovelace (nota G), citados a través de Turing.
+- **Putnam,** «no puede ser verdadera… se refuta a sí misma»: traducción propia; el planeta sin árboles en el cap. 1 de *Razón, verdad e historia*, el «ojo de Dios» en el cap. 3.
+- **Fricker:** Carmita Wood en el cap. 7; Tom Robinson y Marge Sherwood sin capítulo.
+- **Reid,** *Investigación sobre la mente humana* VI § 24 (credulidad y veracidad).
+- **Sin capítulo o en resumen:** el reloj parado de Russell (*El conocimiento humano*, 1948), el silbato de Huxley (1874), la máquina de gaseosas de Block (1980), el ejemplo de Dharmottara («según los historiadores»).
+- **El chatbot de 2014** que «pasó» el test, como anuncio de los organizadores discutido por los críticos; la anécdota de por qué Gettier escribió el artículo, como anécdota.
