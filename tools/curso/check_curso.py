@@ -52,7 +52,8 @@ waiting = [w["week"] for w in curso.WRITTEN if w not in curso.WEEKS]
 OLD = re.compile(r"La Via|Rumo C1|Weg C1|\bC1\b|[Ii]talian|[Pp]ortugu|[Aa]lemán")
 visible = [os.path.join(ROOT, "docs", "index.html"), os.path.join(ROOT, "docs", "manifest.webmanifest")]
 for dirpath, _, files in os.walk(os.path.join(ROOT, "docs", "lang")):
-    visible += [os.path.join(dirpath, f) for f in files if f.endswith((".js", ".json", ".css"))]
+    # the interface of the edition, not the course: in philosophy «el idealismo alemán» is content
+    visible += [os.path.join(dirpath, f) for f in files if f.endswith((".js", ".css"))]
 for f in visible:
     text = open(f, encoding="utf-8").read()
     # the comments of the code may tell where it comes from

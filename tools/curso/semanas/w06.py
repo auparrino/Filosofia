@@ -300,7 +300,7 @@ WEEK = {
         ch(2, "Elegí.", "¿Qué sabemos de Laozi?", "casi nada seguro: es probablemente legendario y el libro, una compilación",
            ["casi nada seguro: es probablemente legendario y el libro, una compilación", "que fue alumno de Confucio", "que escribió el libro en 551 a. C."],
            "La biografía viene de Sima Qian (*Memorias históricas*, cap. 63, siglo I a. C.), que ya dudaba entre varias versiones. Los manuscritos más antiguos son de c. 300 a. C. (Guodian)."),
-        cz(2, "Completá.", "Actuar sin forzar, siguiendo el curso de las cosas, es el ___ ___.", "wu wei",
+        cz(2, "Completá.", "Actuar sin forzar, siguiendo el curso de las cosas, es el ___ (dos sílabas chinas).", "wu wei",
            ["wu wei", "wuwei", "wu-wei"], "*Wu wei* (無為): «no-acción», que no es pasividad sino la acción que no impone."),
         ap(ch(2, "¿Qué diría el *Dao De Jing*?", "Un ministro de Economía cambia todas las reglas cada mes para «ordenar» el país.", "que gobernar un gran país es como freír un pescado chico: si lo revolvés de más, se deshace",
               ["que gobernar un gran país es como freír un pescado chico: si lo revolvés de más, se deshace", "que hacen falta más castigos", "que hay que volver a los ritos de los Zhou"],

@@ -131,3 +131,14 @@ edición cotejada.
   - *Teeteto* 184c-d;
   - *Tópicos* VI 1, 139a28-31;
   - *Metafísica* I 9, 990b1-8, 991a8-11 y 991a20-22.
+
+## Semanas 8, 9 y 10
+
+- **Diógenes Laercio:** la respuesta de Sócrates sobre casarse va como
+  *Vidas* II, sin parágrafo (sería II 33).
+- **Wordsworth:** la estrofa V de la «Oda» está en traducción abreviada.
+- **Fuentes modernas de memoria:**
+  - David Sachs (1963);
+  - Santayana, *Soliloquios en Inglaterra* (1922), y la atribución falsa a
+    Platón en 1962;
+  - Hume, «Del contrato original» (1748).

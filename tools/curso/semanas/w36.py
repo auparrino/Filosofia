@@ -323,7 +323,7 @@ WEEK = {
            "*Suma teológica* I, q. 2, a. 3. Las otras vías terminan parecido: «a la que todos llaman Dios», «y a esto lo llamamos Dios»."),
         ch(1, "Elegí.", "¿Qué ejemplo usa Tomás para los motores segundos que no mueven si no son movidos?", "el bastón que mueve la mano",
            ["el bastón que mueve la mano", "el reloj y el relojero", "la isla perdida"],
-           "*Suma teológica* I, q. 2, a. 3. El reloj es de autores del siglo XVIII (Paley); la isla, de Gaunilo (semana 31)."),
+           "*Suma teológica* I, q. 2, a. 3. El reloj es de la teología natural moderna (Paley, 1802); la isla, de Gaunilo (semana 31)."),
         ch(1, "Elegí.", "La quinta vía compara las cosas naturales que tienden a un fin con…", "la flecha dirigida por el arquero",
            ["la flecha dirigida por el arquero", "un reloj hecho por un relojero", "la luz del sol que ilumina la caverna"],
            "*Suma teológica* I, q. 2, a. 3. Ojo: no es el argumento del diseño por complejidad (semana 57), sino de la finalidad."),
