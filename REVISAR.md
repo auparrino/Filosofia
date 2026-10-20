@@ -386,3 +386,10 @@ edición cotejada.
 - **Singer:** «3.000 dólares, más o menos una vida», estimación aproximada en la línea de GiveWell.
 - ***Frankenstein*,** cap. 10 según la edición de 1831. Tolstói, la fábula de *Confesión*, cap. IV. Los puentes de Moses, como caso discutido.
 - **Nagel,** «Lo absurdo»: la última frase va traducida por nosotros (unas 40 palabras).
+
+## Semanas 108-110
+
+- **Woolf,** *Un cuarto propio* cap. 3 (seminario de la 110): traducción propia de memoria (Trevelyan, Judith, «Anónimo fue muchas veces una mujer»); cotejar el orden y la letra.
+- **Arendt:** «donde todos son culpables, nadie lo es», atribuida a «Responsabilidad personal bajo una dictadura» (1964); Anton Schmid, sin capítulo. Las de la posdata, la carta a Scholem (24/7/1963) y la entrevista con Fest (1964), con bastante seguridad.
+- **Datos argentinos:** la Penitenciaría Nacional de Las Heras (1877, planta radial, demolida en 1962); la ley de cupo 24.012 como «de las primeras del mundo»; las cifras del CONICET del texto modelo.
+- **Otras:** «segunda ola» en el artículo de Martha Weinman Lear (1968); «Hombres necios» en *Inundación castálida* (1689); Agustín, *La ciudad de Dios* XII 21 (la numeración cambia según la edición); que *Imposturas intelectuales* casi no trata a Foucault ni a Derrida.
