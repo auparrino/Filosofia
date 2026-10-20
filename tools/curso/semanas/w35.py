@@ -205,7 +205,7 @@ WEEK = {
             },
             {
                 "h": "Toledo: del árabe al latín",
-                "r": "Después de que Castilla tomó Toledo (1085), la ciudad, con cristianos, judíos y mozárabes que sabían árabe, se volvió un taller de traducciones. Bajo el arzobispo **Raimundo** (1125-1152) y después, el arcediano **Domingo Gundisalvo**, el judío **Avendaut** y **Gerardo de Cremona** pasaron al latín a Avicena, Algazel, Avicebrón, Ptolomeo y muchos más. En el siglo XIII se tradujo a Averroes (Miguel Escoto) y, con **Alfonso X**, se tradujo también al castellano.",
+                "r": "Después de que Castilla tomó Toledo (1085), la ciudad, con cristianos, judíos y mozárabes que sabían árabe, se volvió un taller de traducciones. Bajo el arzobispo **Raimundo** (1125-1152) y después, el arcediano **Domingo Gundisalvo**, el judío **Avendaut** y **Gerardo de Cremona** pasaron al latín a Avicena, Algazel, Avicebrón, Ptolomeo y muchos más. En el siglo XIII, Miguel Escoto, que había trabajado en Toledo, tradujo a Averroes, y con **Alfonso X** se tradujo también al castellano.",
                 "ex": [
                     ["Yo decía cada palabra en lengua vulgar, y el arcediano Domingo la pasaba al latín.", "Avendaut, prólogo de la traducción latina del *Libro del alma* de Avicena (en resumen): el método a dos voces"],
                 ],
