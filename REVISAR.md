@@ -326,3 +326,12 @@ edición cotejada.
 - **Reid,** *Investigación sobre la mente humana* VI § 24 (credulidad y veracidad).
 - **Sin capítulo o en resumen:** el reloj parado de Russell (*El conocimiento humano*, 1948), el silbato de Huxley (1874), la máquina de gaseosas de Block (1980), el ejemplo de Dharmottara («según los historiadores»).
 - **El chatbot de 2014** que «pasó» el test, como anuncio de los organizadores discutido por los críticos; la anécdota de por qué Gettier escribió el artículo, como anécdota.
+
+## Semanas 101-103
+
+- **Mackie:** «positivamente irracional» y la pregunta sobre el libre albedrío, traducción propia de memoria; que en *El milagro del teísmo* (1982) concede que no hay contradicción estricta va como «una lectura frecuente».
+- **Russell,** «¿Hay un Dios?» (1952, póstumo): fecha sin verificar. El hotel de Hilbert, «atribuido a una conferencia de 1924»; Calvino, *Institución* I 3, 1, en resumen.
+- **Lógica paraconsistente:** F. G. Asenjo (1966) y el nombre propuesto por Miró Quesada (1976), de memoria; Newton da Costa sin fechas de vida.
+- **Hilbert:** «juego con marcas sin sentido» marcada como apócrifa; el telescopio y el boxeador (1927), en resumen. Filetas de Cos según Ateneo IX, como anécdota; Leibniz, *Elementos de derecho natural* (c. 1671), en resumen.
+- **León Ferrari** en el Recoleta (2004): clausura judicial y reapertura por la Cámara, de memoria.
+- **«La belleza está en el ojo del que mira»:** atribuida a Hungerford, *Molly Bawn* (1878), sin confirmar. La *Fuente* por Freytag-Loringhoven, como hipótesis discutida.
