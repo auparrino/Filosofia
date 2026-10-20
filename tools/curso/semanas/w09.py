@@ -345,7 +345,7 @@ WEEK = {
            "*Fedón* 117b-e. La escena final es la prueba vivida de lo que argumentó en 64a-69e: el que filosofó no teme la separación del alma y el cuerpo.")),
         ap(ch(2, "¿Platón o Wordsworth?", "«Nuestro nacimiento no es sino un sueño y un olvido: el alma que se levanta con nosotros viene de lejos.» Y por eso el niño está más cerca de esa luz que el adulto.", "Wordsworth, que usa la idea platónica a su modo",
            ["Wordsworth, que usa la idea platónica a su modo", "Platón, en el *Fedón*", "Platón, en el *Menón*"],
-           "Wordsworth, «Oda: Indicios de inmortalidad» (1807), estrofa V. En Platón el que recuerda mejor es el que estudia y pregunta, no el niño; en el poema, la infancia es la que recuerda y crecer es olvidar.")),
+           "Wordsworth, «Oda: Indicios de inmortalidad» (1807), estrofa V (traducción nuestra, abreviada). En Platón el que recuerda mejor es el que estudia y pregunta, no el niño; en el poema, la infancia es la que recuerda y crecer es olvidar.")),
         ch(2, "Elegí.", "¿Cuál es el último argumento del *Fedón* (102a-107b)?", "el alma trae la vida y no puede admitir su contrario, la muerte",
            ["el alma trae la vida y no puede admitir su contrario, la muerte", "el alma se parece a lo divino", "lo vivo viene de lo muerto"],
            "Como el fuego no admite el frío ni el tres lo par, el alma, que trae vida a lo que ocupa, no admite la muerte: es inmortal (105c-e)."),
