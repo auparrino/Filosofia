@@ -20,32 +20,31 @@ sys.path.insert(0, HERE)
 from ej import ch, cz, q, ty  # noqa: E402,F401  (las semanas los importan de ej)
 
 
-# Las cuatro estaciones, como en la carrera (antigua, medieval y moderna,
-# de Kant al siglo XX, contemporánea): el temario sale de comparar los
-# planes de estudio de UBA, UNLP, UNC, Complutense, Bologna, USP, FU Berlin
-# y Oxford (ver PLAN.md).
-SEASONS = [
-    {"n": 1, "name": "La Antigüedad", "weeks": [1, 13], "level": "Nivel 1",
-     "blurb": "Del mito al logos: los presocráticos, Sócrates, Platón, Aristóteles y los helenísticos. "
-              "Y las herramientas para leer y armar un argumento."},
-    {"n": 2, "name": "Del Medioevo a la Modernidad", "weeks": [14, 26], "level": "Nivel 2",
-     "blurb": "De Agustín a Hume: fe y razón, los universales, la ciencia nueva, el Estado moderno, la duda y la experiencia."},
-    {"n": 3, "name": "De Kant al siglo XX", "weeks": [27, 39], "level": "Nivel 3",
-     "blurb": "Kant, Hegel, Marx, Nietzsche, el utilitarismo, el giro lingüístico, la fenomenología y Heidegger."},
-    {"n": 4, "name": "La filosofía de hoy", "weeks": [40, 52], "level": "Nivel 4",
-     "blurb": "Los problemas abiertos: el lenguaje, la ciencia, la mente, la justicia, el feminismo, el pensamiento argentino y latinoamericano, la técnica."},
-]
+import temario  # noqa: E402
+
+# Las estaciones: de a 13 semanas, la última de cada una es de examen.  El
+# temario (tools/curso/temario.py) sale de comparar los planes de estudio
+# de las carreras de Filosofía (UBA, UNLP, UNC, Complutense, Bologna, USP,
+# FU Berlin, Oxford; ver PLAN.md) y de sumar las tradiciones no
+# occidentales en su momento.
+NWEEKS = len(temario.TEMARIO)
+SEASONS = [{"n": n, "name": name, "weeks": [13 * (n - 1) + 1, min(13 * n, NWEEKS)], "level": "Nivel %d" % n,
+            "blurb": "; ".join(t["title"] for t in temario.TEMARIO[13 * (n - 1):13 * n - 1]) + "."}
+           for n, name in temario.SEASON_NAMES]
 
 # Las épocas: la estética de la app avanza con la historia (data-era en
 # <html>, docs/lang/<edición>/theme.css).  Cada semana cae en una.
 ERAS = [
-    {"n": 1, "id": "antigua", "name": "El ágora", "weeks": [1, 13]},
-    {"n": 2, "id": "medieval", "name": "El scriptorium", "weeks": [14, 18]},
-    {"n": 3, "id": "moderna", "name": "El taller del Renacimiento", "weeks": [19, 26]},
-    {"n": 4, "id": "ilustrada", "name": "El salón", "weeks": [27, 33]},
-    {"n": 5, "id": "vanguardia", "name": "La vanguardia", "weeks": [34, 45]},
-    {"n": 6, "id": "hoy", "name": "La red", "weeks": [46, 52]},
+    {"n": 1, "id": "antigua", "name": "El ágora", "weeks": [1, 19]},
+    {"n": 2, "id": "romana", "name": "La stoa", "weeks": [20, 26]},
+    {"n": 3, "id": "medieval", "name": "El scriptorium", "weeks": [27, 39]},
+    {"n": 4, "id": "moderna", "name": "El taller del Renacimiento", "weeks": [40, 52]},
+    {"n": 5, "id": "ilustrada", "name": "El salón", "weeks": [53, 66]},
+    {"n": 6, "id": "industrial", "name": "La imprenta de vapor", "weeks": [67, 78]},
+    {"n": 7, "id": "vanguardia", "name": "La vanguardia", "weeks": [79, 91]},
+    {"n": 8, "id": "hoy", "name": "La red", "weeks": [92, NWEEKS]},
 ]
+EXAMS = [t["n"] for t in temario.TEMARIO if t["exam"]]
 
 
 def era_of(week):
@@ -63,17 +62,25 @@ def season_of(week):
 
 
 def _load():
-    weeks = []
-    for f in sorted(glob.glob(os.path.join(HERE, "semanas", "w[0-9][0-9].py"))):
+    """The authored weeks (semanas/wNN.py): every week of the syllabus that
+    is not an exam, in order from week 1, as far as they are written."""
+    weeks = {}
+    for f in sorted(glob.glob(os.path.join(HERE, "semanas", "w[0-9][0-9]*.py"))):
         spec = importlib.util.spec_from_file_location("semana_" + os.path.basename(f)[:-3], f)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
-        weeks.append(mod.WEEK)
-    weeks.sort(key=lambda w: w["week"])
-    for k, w in enumerate(weeks, 1):
-        if w["week"] != k:
-            raise SystemExit("las semanas tienen que ir seguidas desde la 1: falta la %d" % k)
-    return weeks
+        weeks[mod.WEEK["week"]] = mod.WEEK
+    out = []
+    for t in temario.TEMARIO:
+        if t["exam"]:
+            continue
+        if t["n"] not in weeks:
+            break
+        out.append(weeks[t["n"]])
+    extra = sorted(set(weeks) - {w["week"] for w in out})
+    if extra:
+        raise SystemExit("hay semanas escritas después de un hueco (falta una anterior): %s" % extra)
+    return out
 
 
 WEEKS = _load()

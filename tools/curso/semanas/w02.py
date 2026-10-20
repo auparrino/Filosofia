@@ -128,9 +128,9 @@ WEEK = {
                 "h": "Lo que dejaron",
                 "r": "Ninguna de estas respuestas sobrevivió tal cual, pero dejaron tres ideas que siguen: que debajo del cambio hay algo que **permanece**; que la naturaleza se explica por la **naturaleza** (sin dioses que intervengan); y que una tesis se **corrige** con otra mejor argumentada. Los antiguos los ordenaron en una cadena de maestros y discípulos.",
                 "table": {"head": ["Idea", "De quién", "Dónde vuelve"], "rows": [
-                    ["un principio único de todo", "los milesios", "Parménides (semana 3), Spinoza (semana 20)"],
-                    ["cantidad en lugar de cualidad", "Anaxímenes, los pitagóricos", "Galileo y la ciencia moderna (semana 17)"],
-                    ["la matemática como estructura del mundo", "los pitagóricos", "Platón (semana 7)"],
+                    ["un principio único de todo", "los milesios", "Parménides (semana 3), Spinoza (semana 49)"],
+                    ["cantidad en lugar de cualidad", "Anaxímenes, los pitagóricos", "Galileo y la ciencia moderna (semana 44)"],
+                    ["la matemática como estructura del mundo", "los pitagóricos", "Platón (semanas 9-12)"],
                 ]},
                 "q": [
                     q("¿Qué idea de los milesios sigue viva en la ciencia?", "que la naturaleza se explica por causas naturales", ["que la naturaleza se explica por causas naturales", "que todo es agua", "que el alma transmigra"]),
@@ -217,7 +217,7 @@ WEEK = {
     ],
     "vocab": [
         ["arjé", "el principio u origen: aquello de lo que todo está hecho y a lo que todo vuelve", "Para Tales, el arjé es el agua.", "También quiere decir «mando»: de ahí *monarquía*."],
-        ["phýsis", "la naturaleza: lo que las cosas son por sí mismas, lo que nace y crece", "Los milesios explican la phýsis por la phýsis.", "De ahí *física*. Lo opuesto será *nómos*, la convención (semana 5)."],
+        ["phýsis", "la naturaleza: lo que las cosas son por sí mismas, lo que nace y crece", "Los milesios explican la phýsis por la phýsis.", "De ahí *física*. Lo opuesto será *nómos*, la convención (semana 7)."],
         ["presocráticos", "los filósofos griegos anteriores a Sócrates (o contemporáneos que no siguen su camino)", "Tales, Heráclito, Parménides, Demócrito.", "El nombre es moderno (siglo XIX): ellos no se llamaban así."],
         ["ápeiron", "lo indeterminado, sin límite: el principio según Anaximandro", "Del ápeiron se separan los contrarios.", "No es el vacío ni un elemento."],
         ["condensación y rarefacción", "el mecanismo de Anaxímenes: el aire más denso o más sutil se vuelve las otras cosas", "Aire condensado: nube, agua, tierra, piedra.", "Explica cualidades por cantidades."],

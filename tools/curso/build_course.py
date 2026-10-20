@@ -1,4 +1,4 @@
-"""Arma docs/lang/<edición>/data/course.json desde tools/curso/semanas/.
+"""Arma docs/lang/<edición>/data/course.json desde tools/curso/semanas/ y temario.py.
 
 Una sola fuente para las cuatro ediciones (es, it, pt, de): cada texto del
 curso es un str (castellano) o un dict {"es": …, "it": …, "pt": …, "de": …}.
@@ -21,6 +21,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, HERE)
 import curso  # noqa: E402
+import literatura  # noqa: E402
+import temario  # noqa: E402
 
 # Las ediciones que se arman hoy (las otras, cuando estén traducidas).
 EDITIONS = ["es"]
@@ -62,45 +64,97 @@ def pick(x, ed, where, missing):
     return x
 
 
+def week_json(w, ed, missing, items):
+    """One authored week: its items go to items, the week is returned."""
+    n = w["week"]
+    tag = "semana %d" % n
+    lesson = pick(w["lesson"], ed, tag + " lección", missing)
+    parts = [{"h": p["h"], "blocks": list(p["blocks"]), "items": []} for p in lesson["parts"]]
+    ids = []
+    for k, raw in enumerate(w["items"], 1):
+        it = pick(raw, ed, "%s ejercicio %d" % (tag, k), missing)
+        if it["type"] not in TYPES:
+            raise SystemExit("%s, ejercicio %d: tipo %r" % (tag, k, it["type"]))
+        iid = "f%02d-%03d" % (n, k) if n < 100 else "f%03d-%03d" % (n, k)
+        out = {"id": iid, "src": "autore", "level": w["level"], "topic": "f%d" % n, "wk": n}
+        for key in ("type", "prompt", "stem", "answer", "options", "note", "apl"):
+            if it.get(key) not in (None, ""):
+                out[key] = it[key]
+        acc = list(it.get("accept") or [])
+        if it["answer"] not in acc:
+            acc.insert(0, it["answer"])
+        out["accept"] = acc
+        items.append(out)
+        ids.append(iid)
+        parts[it.get("part", 0)]["items"].append(iid)
+    g = lambda key, dflt="": pick(w.get(key, dflt), ed, "%s %s" % (tag, key), missing)  # noqa: E731
+    return {
+        "week": n, "season": curso.season_of(n), "era": curso.era_of(n), "title": g("title"), "level": w["level"],
+        "focus": g("focus"), "fare": g("fare"), "tema": g("tema"), "keys": g("keys", []),
+        "rama": w.get("rama", []),
+        "lesson": {"intro": lesson["intro"], "parts": [{"h": p["h"], "blocks": p["blocks"]} for p in parts],
+                   "blocks": lesson["blocks"]},
+        "boss": False,
+        "refs": {"dummies": [], "routledge": [], "sections": []},
+        "items": ids, "challenges": [], "verbs": [], "persons": None, "tenses": [], "known": [],
+        "gymShare": 0, "extra": [],
+        "parts": parts,
+        "vocab": [list(v) for v in g("vocab", [])],
+        "seminario": g("seminario", None),
+        "dilemas": g("dilemas", []),
+        "literatura": [dict(o, obra=pick(o["obra"], ed, tag + " literatura", missing),
+                            por_que=pick(o["por_que"], ed, tag + " literatura", missing))
+                       for o in literatura.LITERATURA.get(n, [])],
+    }
+
+
+def exam_json(t, season_weeks):
+    """An exam week, made from its season: every exercise of the season, and
+    a review lesson with one block per week (its keys and one of its checks)."""
+    n = t["n"]
+    blocks = []
+    for w in season_weeks:
+        b0 = w["lesson"]["blocks"][0]
+        blocks.append({"h": "Semana %d · %s" % (w["week"], w["title"]),
+                       "r": " ".join(w["keys"]),
+                       "q": (b0.get("q") or [])[:1]})
+    k = len(blocks)
+    cut = [0, (k + 2) // 3, 2 * (k + 2) // 3, k]
+    parts = [{"h": "Repaso %d" % (i + 1), "blocks": list(range(cut[i], cut[i + 1])), "items": []}
+             for i in range(3) if cut[i] < cut[i + 1]]
+    ids = [i for w in season_weeks for i in w["items"]]
+    for p in parts:
+        p["items"] = [i for b in p["blocks"] for i in season_weeks[b]["items"]]
+    return {
+        "week": n, "season": curso.season_of(n), "era": curso.era_of(n), "title": t["title"],
+        "level": "Nivel %d" % curso.season_of(n),
+        "focus": "El examen de la estación: todo lo anterior, mezclado, por destreza (comprensión, conceptos, argumentos y contexto).",
+        "fare": "Mostrar que dominás la estación entera.", "tema": "Repaso de la estación",
+        "keys": [w["title"] for w in season_weeks], "rama": [],
+        "lesson": {"intro": "Antes del examen, un repaso semana por semana: las claves de cada una y un chequeo.",
+                   "parts": [{"h": p["h"], "blocks": p["blocks"]} for p in parts], "blocks": blocks},
+        "boss": True,
+        "refs": {"dummies": [], "routledge": [], "sections": []},
+        "items": ids, "challenges": [], "verbs": [], "persons": None, "tenses": [], "known": [],
+        "gymShare": 0, "extra": [], "parts": parts, "vocab": [],
+        "seminario": None, "dilemas": [], "literatura": [],
+    }
+
+
 def build(ed="es"):
     missing = []
     weeks, items = [], []
-    for w in curso.WEEKS:
-        n = w["week"]
-        tag = "semana %d" % n
-        lesson = pick(w["lesson"], ed, tag + " lección", missing)
-        parts = [{"h": p["h"], "blocks": list(p["blocks"]), "items": []} for p in lesson["parts"]]
-        ids = []
-        for k, raw in enumerate(w["items"], 1):
-            it = pick(raw, ed, "%s ejercicio %d" % (tag, k), missing)
-            if it["type"] not in TYPES:
-                raise SystemExit("%s, ejercicio %d: tipo %r" % (tag, k, it["type"]))
-            iid = "f%02d-%03d" % (n, k)
-            out = {"id": iid, "src": "autore", "level": w["level"], "topic": "f%d" % n, "wk": n}
-            for key in ("type", "prompt", "stem", "answer", "options", "note"):
-                if it.get(key) not in (None, ""):
-                    out[key] = it[key]
-            acc = list(it.get("accept") or [])
-            if it["answer"] not in acc:
-                acc.insert(0, it["answer"])
-            out["accept"] = acc
-            items.append(out)
-            ids.append(iid)
-            parts[it.get("part", 0)]["items"].append(iid)
-        g = lambda key, dflt="": pick(w.get(key, dflt), ed, "%s %s" % (tag, key), missing)  # noqa: E731
-        weeks.append({
-            "week": n, "season": curso.season_of(n), "era": curso.era_of(n), "title": g("title"), "level": w["level"],
-            "focus": g("focus"), "fare": g("fare"), "tema": g("tema"), "keys": g("keys", []),
-            "rama": w.get("rama", []),
-            "lesson": {"intro": lesson["intro"], "parts": [{"h": p["h"], "blocks": p["blocks"]} for p in parts],
-                       "blocks": lesson["blocks"]},
-            "boss": False,
-            "refs": {"dummies": [], "routledge": [], "sections": []},
-            "items": ids, "challenges": [], "verbs": [], "persons": None, "tenses": [], "known": [],
-            "gymShare": 0, "extra": [],
-            "parts": parts,
-            "vocab": [list(v) for v in g("vocab", [])],
-        })
+    written = {w["week"]: w for w in curso.WEEKS}
+    for t in temario.TEMARIO:
+        if t["exam"]:
+            season = [w for w in weeks if w["season"] == curso.season_of(t["n"])]
+            if len(season) != 12:
+                break                      # the season is not written yet: no exam
+            weeks.append(exam_json(t, season))
+            continue
+        if t["n"] not in written:
+            break
+        weeks.append(week_json(written[t["n"]], ed, missing, items))
     last = len(weeks)
     seasons = []
     for s in curso.SEASONS:
@@ -108,11 +162,11 @@ def build(ed="es"):
             break
         s = pick(s, ed, "estación %d" % s["n"], missing)
         seasons.append(dict(s, weeks=[s["weeks"][0], min(s["weeks"][1], last)]))
+    eras = [dict(e, name=pick(e["name"], ed, "época %d" % e["n"], missing)) for e in curso.ERAS]
     if missing:
         raise SystemExit("la edición %s no está completa (%d textos sin traducir), por ejemplo: %s"
                          % (ed, len(missing), "; ".join(missing[:5])))
-    eras = [dict(e, name=pick(e["name"], ed, "época %d" % e["n"], missing)) for e in curso.ERAS]
-    course = {"title": TITLE[ed], "lang": ed, "seasons": seasons, "eras": eras,
+    course = {"title": TITLE[ed], "lang": ed, "nweeks": curso.NWEEKS, "seasons": seasons, "eras": eras,
               "weeks": weeks, "items": items, "challenges": [], "sources": []}
     return nfc(course)
 
