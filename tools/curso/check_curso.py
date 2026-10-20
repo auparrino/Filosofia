@@ -48,6 +48,16 @@ for w in curso.WRITTEN:
     check_week(w, err, seen_vocab)
 waiting = [w["week"] for w in curso.WRITTEN if w not in curso.WEEKS]
 
+# the same exercise in two weeks (same prompt, stem and answer): the sim fails on it
+_seen = {}
+for w in curso.WRITTEN:
+    for k, it in enumerate(w["items"], 1):
+        sig = "|".join(" ".join(str(it.get(f) or "").lower().split()) for f in ("prompt", "stem", "answer"))
+        if sig in _seen:
+            err("semana %d ejercicio %d" % (w["week"], k), "repite el ejercicio %s" % _seen[sig])
+        else:
+            _seen[sig] = "%d de la semana %d" % (k, w["week"])
+
 # what is seen of the app does not say La Via
 OLD = re.compile(r"La Via|Rumo C1|Weg C1|\bC1\b|[Ii]talian|[Pp]ortugu|[Aa]lemán")
 visible = [os.path.join(ROOT, "docs", "index.html"), os.path.join(ROOT, "docs", "manifest.webmanifest")]
