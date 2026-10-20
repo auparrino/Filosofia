@@ -307,3 +307,13 @@ edición cotejada.
 - **Berkeley, «percipi o percipere»:** atribuida a los *Comentarios filosóficos* sin número de entrada (probablemente la 429).
 - **El limerick del patio:** va como «atribuido a Ronald Knox; respuesta anónima».
 - **La tesis de Haití** (Buck-Morss) va como hipótesis discutida, no como dato.
+
+## Semanas 98-100
+
+- **Reid:** «No soy pensamiento, no soy acción, no soy sentimiento: soy algo que piensa, y actúa, y padece» va como *Ensayos sobre las facultades intelectuales* III, sin capítulo (probablemente el 4); el oficial valiente, como III 6.
+- **Parfit:** «Vivo ahora al aire libre» va como cap. 13 de *Razones y personas*; «la identidad no es lo que importa», como resumen del cap. 12.
+- **Searle** («no entiende una palabra») y **Strawson** («la oscura y pánica metafísica del libertarismo»): traducciones de memoria.
+- **Borges** («Creía en infinitas series de tiempos…», «El tiempo es la sustancia de que estoy hecho…»): de memoria, cotejar.
+- **Schopenhauer**, «El hombre puede hacer lo que quiere…» (trampa: se le atribuye a Einstein): va con la obra (1839), sin capítulo.
+- **Chisholm** (1964), el «primer motor inmóvil»: traducción propia.
+- **Casos reales de los dilemas:** Owen y otros (2006, el paciente que imagina jugar al tenis) y Burns y Swerdlow (2003, el tumor orbitofrontal), en términos generales.
