@@ -228,3 +228,17 @@ edición cotejada.
   - Montaigne según la edición Villey: en algunas, I 31 es I 30.
 - **Brecht:** «¡Desgraciada la tierra que necesita héroes!» va en la escena
   13 de *Vida de Galileo*, según la versión de Berlín.
+
+## Semanas 30, 31 y 32
+
+- **Abelardo, *Glosas a Porfirio*:** el seminario es una traducción muy
+  abreviada y en parte resumida.
+- **Numeraciones dudosas:**
+  - la *Historia calamitatum*, caps. 2, 7 y 9 (cambian según la edición);
+  - Juan de Salisbury, *Metalogicon* II 17, y las atribuciones de esa lista
+    (Gauslen, Gilberto);
+  - Eriúgena, *Periphyseon* I y II, sin columna;
+  - Boecio, *Segundo comentario a la Isagoge* I 11;
+  - Anselmo, *Respuesta a Gaunilo* 5.
+- **Fechas aproximadas:** Eloísa, Roscelino, Eriúgena y la cesión del
+  Paráclito.
