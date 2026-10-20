@@ -335,3 +335,10 @@ edición cotejada.
 - **Hilbert:** «juego con marcas sin sentido» marcada como apócrifa; el telescopio y el boxeador (1927), en resumen. Filetas de Cos según Ateneo IX, como anécdota; Leibniz, *Elementos de derecho natural* (c. 1671), en resumen.
 - **León Ferrari** en el Recoleta (2004): clausura judicial y reapertura por la Cámara, de memoria.
 - **«La belleza está en el ojo del que mira»:** atribuida a Hungerford, *Molly Bawn* (1878), sin confirmar. La *Fuente* por Freytag-Loringhoven, como hipótesis discutida.
+
+## Semanas 85-87
+
+- **Ortega:** «El bosque verdadero se compone de los árboles que no veo» y «¡Circum-stantia!…», sin cotejar (ubicadas en la «Meditación preliminar» y en «Lector...»); «¡Argentinos, a las cosas!», conferencia de 1939 recogida en *Meditación del pueblo joven*; que la visita de 1916 cerró la etapa positivista, como «suele contarse».
+- **Einstein y Bergson (1922),** parafraseado; «el asceta de la vida» de Scheler, como expresión dentro de un resumen.
+- **Merleau-Ponty,** «yo puedo» en *Fenomenología de la percepción*, primera parte, cap. III: capítulo sin verificar.
+- **Beauvoir:** la primera traducción castellana (Buenos Aires, Siglo Veinte, 1954, Pablo Palant) y la prohibición en la España de Franco, de memoria; Freud, «la anatomía es el destino», en *El sepultamiento del complejo de Edipo* (1924); revisar los nombres de Simons y Fullbrook en el debate sobre la influencia en Sartre.
