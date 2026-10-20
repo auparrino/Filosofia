@@ -179,3 +179,20 @@ edición cotejada.
   amante de Wittgenstein* (Markson).
 - **Celan, «Todtnauberg»:** 1968 es la edición limitada; en libro, 1970.
 - **Pizarnik, *El infierno musical*:** se describe el libro en general.
+
+## Semanas 49, 50 y 51
+
+- **Atribuciones dudosas:**
+  - Einstein, el telegrama de 1929 sobre el Dios de Spinoza, va como
+    «atribuido»;
+  - el «calculemus» de Leibniz va sin el escrito exacto;
+  - «hombre ebrio de Dios» va como «atribuido a Novalis».
+- **Borges, soneto «Spinoza»:** los versos se citan de memoria; hay que
+  cotejarlos con *El otro, el mismo*.
+- **Singer, el final de «El Spinoza de la calle Market»:** de memoria.
+- **Numeraciones para cotejar:**
+  - *Ética* II, axioma 5;
+  - *Tratado de la reforma del entendimiento* § 20;
+  - la tercera carta a Clarke § 5;
+  - *Teodicea* § 8 y § 21;
+  - la *Segunda aclaración del Nuevo sistema* (1696).
