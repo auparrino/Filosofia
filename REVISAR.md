@@ -275,3 +275,26 @@ edición cotejada.
   - la lectura de Villey sobre Ockham.
 - **Traducciones del seminario:** hechas de memoria del latín; en Ockham, I
   15, conviene cotejar el orden de los argumentos.
+
+## Semanas 33, 34 y 35
+
+- **Citas sin cotejar:**
+  - Averroes, *Tratado decisivo*: «la verdad no contradice a la verdad»;
+  - Avicena, *Metafísica* V 1: «la equinidad no es sino equinidad»;
+  - el verso de Halevi «Mi corazón está en Oriente»;
+  - Dante, *Infierno* IV 144.
+- **Los seminarios** (Avicena, al-Ghazali, Maimónides) están reconstruidos
+  desde las traducciones inglesas de Marmura y Pines; hay que cotejarlos.
+- **Capítulos citados en paráfrasis:**
+  - al-Kindi, cap. 1;
+  - al-Farabi, *Catálogo de las ciencias*, cap. 2;
+  - *Cuzarí* I 11 y II 36;
+  - *Guía de perplejos* I 26, 35, 60, II 17, 25, III 32, 54;
+  - el prólogo de Avendaut;
+  - Avicena, *Metafísica* I 8.
+- **Fechas discutidas:**
+  - el nacimiento de Maimónides (1138 o 1135);
+  - al-Kindi (c. 870);
+  - el *Shifa'*;
+  - la muerte de Halevi;
+  - la caída de Averroes en 1195.
