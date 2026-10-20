@@ -348,3 +348,10 @@ edición cotejada.
 - **Russell y Papá Noel** (crítica a James), resumen citado a *Historia de la filosofía occidental*, sin cotejar. «El mayor descubrimiento de mi generación…», marcada como apócrifa de James; «la educación no es preparación para la vida…», como paráfrasis de *Mi credo pedagógico*.
 - **Husserl:** el seminario (*Meditaciones cartesianas* §§ 8, 14 y 15) está reconstruido de memoria y rotulado «en partes resumida»; que la reseña de Frege «convirtió» a Husserl, como discutido.
 - **Heidegger,** *Ser y tiempo* § 16: los nombres de los tres modos de la falla (llamativo, apremiante, rebelde) son traducción nuestra. Que Carlos Astrada asistió a los cursos de Heidegger (1927-1931), sin verificar.
+
+## Semanas 79-81
+
+- **Frege,** *Sobre sentido y referencia* (seminario de la 79): traducción propia de memoria, sin cotejar palabra por palabra. *Fundamentos de la aritmética* § 53 (la existencia y la prueba ontológica) y § 70 (el mozo y los cuchillos), sin cotejar.
+- **Neurath,** «hay que callar, pero no sobre algo»: sin fuente exacta, va en resumen.
+- **Anécdotas:** Wittgenstein leyendo a Tagore de espaldas al Círculo (autobiografía de Carnap); los hechos negativos y el «casi tumulto» en Harvard (*La filosofía del atomismo lógico*, conferencia III); el barbero (conferencia VII).
+- **Russell,** «nunca moriría por mis creencias», como atribución dudosa. **Ramsey,** «paradigma de la filosofía», en una nota de *Filosofía* (1929).
