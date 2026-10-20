@@ -22,3 +22,21 @@ edición cotejada.
   verificar la fuente.
 - **Agatías y Lactancio:** Agatías II 30-31 y Lactancio V 14 y V 16 son de
   memoria.
+
+## Semanas 15, 16 y 17
+
+- **Aristóteles, números Bekker sin cotejar:**
+  - *Física* II 8, 199a26 y IV 1, 208b8-22;
+  - *Acerca del alma* II 3, 414b18-19 y II 4, 415a23-26;
+  - *Metafísica* XII 6, 1071b17-22;
+  - *Analíticos primeros* I 5, 27a36-b3;
+  - *Refutaciones sofísticas* 4-5: 165b30, 166b37, 167a11-14, 167a36-39 y
+    167b38.
+- **Darwin:** no se sabe en qué edición de *El origen de las especies*
+  aparece la nota sobre Aristóteles del «Bosquejo histórico».
+- **Atribuciones presentadas como dudosas:** que Galeno inventó la cuarta
+  figura del silogismo, y la anécdota de la torre de Pisa (la cuenta
+  Viviani).
+- **Avicena:** la frase «al que niega el principio hay que pegarle y
+  quemarlo» se atribuye a la *Metafísica* del *Shifāʾ* I 8.
+- **La fecha de los *Analíticos primeros*.**
