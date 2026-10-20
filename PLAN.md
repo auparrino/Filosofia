@@ -295,9 +295,10 @@ aplicada, técnica e IA) queda, más comprimido.
 
 ## 4. La literatura de cada semana
 
-Son **169 obras** de ficción, teatro, poesía, diálogo o testimonio que caen
-dentro de la corriente o la muestran, cada una con el porqué: **114 de
-dominio público** (📖) y **31 argentinas o latinoamericanas** (🇦🇷). Las
+Son **590 entradas** (522 obras distintas, de 4 a 7 por semana) de ficción, teatro, poesía, diálogo o testimonio que caen
+dentro de la corriente o la muestran, cada una con el porqué: **353 de
+dominio público** (📖) y **144 argentinas o latinoamericanas** (🇦🇷). La
+base está en `tools/curso/literatura.py` y las que se sumaron después, en `tools/curso/lit/`; la tabla de abajo es la base. Las
 semanas de examen no traen obra nueva.
 - **Los datos:** `tools/curso/literatura.py`.
 - **En la app:** la tarjeta «📚 En la literatura» de cada semana.

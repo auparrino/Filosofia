@@ -172,3 +172,10 @@ edición cotejada.
 - **Lispector, *Cerca del corazón salvaje*:** que Joana copie a Spinoza está
   tomado de Moser y no se cotejó con el texto.
 - **Baroja (murió en 1956):** queda sin dp.
+
+## Literatura, semanas 79 a 116 (lit/contemporanea.py)
+
+- **Títulos en castellano:** *Condiciones nerviosas* (Dangarembga) y *La
+  amante de Wittgenstein* (Markson).
+- **Celan, «Todtnauberg»:** 1968 es la edición limitada; en libro, 1970.
+- **Pizarnik, *El infierno musical*:** se describe el libro en general.

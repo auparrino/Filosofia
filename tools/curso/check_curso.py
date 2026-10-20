@@ -76,8 +76,8 @@ for wk in range(1, len(temario.TEMARIO) + 1):
         if obras:
             err("literatura", "la semana %d es de examen: repasa, no trae obra nueva" % wk)
         continue
-    if not obras:
-        err("literatura", "la semana %d no tiene ninguna obra" % wk)
+    if len(obras) < 4:
+        err("literatura", "la semana %d tiene %d obras (mínimo 4)" % (wk, len(obras)))
     for ob in obras:
         n_obras += 1
         tag = "literatura semana %d «%s»" % (wk, ob.get("obra", "?"))
@@ -88,8 +88,8 @@ for wk in range(1, len(temario.TEMARIO) + 1):
         if len(ob.get("por_que") or "") < 40:
             err(tag, "falta decir por qué va en esta semana")
 n_arg = sum(1 for obs in literatura.LITERATURA.values() for ob in obs if ob["arg"])
-if n_arg < 25:
-    err("literatura", "pocas obras argentinas o latinoamericanas: %d (mínimo 25)" % n_arg)
+if n_arg < 100:
+    err("literatura", "pocas obras argentinas o latinoamericanas: %d (mínimo 100)" % n_arg)
 
 # the syllabus: its branches are known ones
 for t in temario.TEMARIO:

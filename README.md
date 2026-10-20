@@ -49,8 +49,9 @@ con sus propias preguntas.
 
 **La literatura.** Cada semana trae ficción que cae dentro de la corriente o
 la muestra, con el porqué: Borges, Voltaire, Kafka, Camus, Sor Juana, el
-*Martín Fierro*, Ishiguro y más. Son 169 obras: 114 de dominio público y 31
-argentinas o latinoamericanas.
+*Martín Fierro*, Pizarnik, Rulfo, Rumi, Ishiguro y muchos más. Son 590 entradas
+(522 obras distintas), entre 4 y 7 por semana: 353 de dominio público y 144
+argentinas o latinoamericanas, con poesía, teatro, cuento y novela.
 
 **Los exámenes.** Hay uno al final de cada estación (las semanas 13, 26,
 39, …) y el examen final en la 117.
