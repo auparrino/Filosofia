@@ -4,18 +4,18 @@
  * Sin servidor de la app (auditoría 3.0, B 4.5, escalón 3): el alumno pega
  * un token personal de GitHub con permiso solo de gist, y la app sube el
  * mismo sobre que exporta «💾 Guardar copia» ({app, lang, brand, v, at,
- * save}) a un gist secreto suyo, un gist por idioma (el archivo
- * «laviac1.json» o «rumoc1.json», con un LEEME.md que dice qué es).  En
+ * save}) a un gist secreto suyo, un gist por edición (el archivo
+ * «agora-es.json», con un LEEME.md que dice qué es).  En
  * otro teléfono, con el mismo token, «Traer de la nube» encuentra el gist
  * por el nombre del archivo y restaura el sobre por el mismo camino que un
  * archivo (app.js: restoreEnvelope → Engine.fromRaw, con el control de
- * idioma).
+ * edición).
  *
  * Lo que queda en este teléfono y nunca entra en la copia (localStorage,
  * fuera del guardado, como las claves de IA):
- *   c1.gist.token        el token, uno para los dos idiomas
+ *   agora.gist.token     el token, uno para todas las ediciones
  *   <prefijo>.gist       {id, auto, gistAt, up, down, day, conflict}: el
- *                        gist de este idioma, la subida automática, la
+ *                        gist de esta edición, la subida automática, la
  *                        fecha del gist en la última subida o bajada
  *                        (gistAt, la del servidor) y el día de la última
  *                        subida automática
@@ -39,18 +39,18 @@
   "use strict";
 
   var API = "https://api.github.com";
-  var DESC = "La Via C1 · Rumo C1: copia del progreso (la sube la app; no la edites a mano)";
-  var TOKEN_KEY = "c1.gist.token";
-  var README = "# Copia de La Via C1 / Rumo C1\n\n" +
-    "La sube la app desde «Io / Eu → Tu copia → Sincronizar con tu GitHub Gist». " +
+  var DESC = "Ágora: copia del progreso (la sube la app; no la edites a mano)";
+  var TOKEN_KEY = "agora.gist.token";
+  var README = "# Copia de Ágora\n\n" +
+    "La sube la app desde «Yo → Tu copia → Sincronizar con tu GitHub Gist». " +
     "Es el mismo archivo que «💾 Guardar copia»: tu progreso, sin claves ni tokens. " +
     "No lo edites a mano; para dejar de usarla, borrá el gist y el token.\n";
   // Up to 300 gists are looked at to find the copy on a new phone.
   var PAGES = 3;
   // The token GitHub makes for this: a classic one with only «gist».
-  var TOKEN_URL = "https://github.com/settings/tokens/new?scopes=gist&description=La%20Via%20C1%20%C2%B7%20Rumo%20C1";
+  var TOKEN_URL = "https://github.com/settings/tokens/new?scopes=gist&description=%C3%81gora";
 
-  function fileName(storage) { return (storage || "c1") + ".json"; }
+  function fileName(storage) { return (storage || "agora") + ".json"; }
 
   function fail(code, status) {
     var e = new Error(code);
@@ -139,10 +139,10 @@
     return byList(1, null, null);
   }
 
-  /* An envelope is a copy: {app: "c1", save} with a save that has xp and
+  /* An envelope is a copy: {app: "agora", save} with a save that has xp and
      cards (the same test as importing a file).  Returns the save or null. */
   function saveOf(env) {
-    var s = env && env.app === "c1" && env.save ? env.save : null;
+    var s = env && env.app === "agora" && env.save ? env.save : null;
     return s && typeof s.xp === "number" && s.cards && typeof s.cards === "object" ? s : null;
   }
 
@@ -207,7 +207,7 @@
      {lang, brand, v}; now: ms (tests). */
   function envelope(state, meta, now) {
     meta = meta || {};
-    return { app: "c1", lang: meta.lang, brand: meta.brand, v: meta.v, at: new Date(now || Date.now()).toISOString(), save: state };
+    return { app: "agora", lang: meta.lang, brand: meta.brand, v: meta.v, at: new Date(now || Date.now()).toISOString(), save: state };
   }
 
   // When the save of an envelope was last changed (ms): its savedAt, else

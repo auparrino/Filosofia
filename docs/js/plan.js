@@ -148,7 +148,7 @@
     var budget = minutes * 60, used = 0, steps = [], notes = [];
     var week = ctx.week || {}, lvl = levelOf(week);
     var missions = (ctx.missions || []).map(function (m) {
-      return Object.assign({ level: lvl, boss: !!week.boss, exam: !!week.boss && week.week === 52 }, m, { mission: true });
+      return Object.assign({ level: lvl, boss: !!week.boss, exam: !!week.boss && week.week === root.Engine.finalWeek() }, m, { mission: true });
     });
     var inputs = ctx.inputs || {};
     var change = ctx.change || "";

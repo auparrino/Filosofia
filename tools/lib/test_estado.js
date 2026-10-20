@@ -5,7 +5,7 @@
 "use strict";
 var pack = require("./pack.js");
 var T = require("./testkit.js")("lib");
-["it", "pt"].forEach(function (code) {
+pack.ALL.forEach(function (code) {
   var E = pack(code, { upTo: "app.js" }).Engine;
   var s = E.fromRaw({ xp: 10, cards: {} });
   T.ok(s.v === E.SAVE_V && E.SAVE_V >= 3, code + ": el guardado lleva su versión (" + s.v + ")");

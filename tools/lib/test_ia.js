@@ -10,7 +10,7 @@
    Run: node tools/lib/test_ia.js */
 "use strict";
 var pack = require("./pack.js");
-var ctx = pack("it", { upTo: "diagnosi.js" });
+var ctx = pack("es", { upTo: "diagnosi.js" });
 ctx.TextDecoder = TextDecoder;
 ctx.TextEncoder = TextEncoder;
 ctx.AbortController = AbortController;

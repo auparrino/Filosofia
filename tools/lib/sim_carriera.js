@@ -61,6 +61,7 @@ var ctx = pack(CODE, { extra: { Date: FakeDate, Math: SeededMath } });
 var Engine = ctx.Engine, Drills = ctx.Drills, Frasi = ctx.Frasi, Lab = ctx.Lab, Letture = ctx.Letture,
     Lezione = ctx.Lezione, Banca = ctx.Banca, Conj = ctx.Conjugator || ctx.Conj;
 var course = pack.data(CODE, "course.json");
+ctx.Engine.setCourse(course);      // the length of the course and the final exam (engine.js)
 // a language that is starting (Boot.LANGS.de) may have only its course
 var optData = function (name) { return fs.existsSync(pack.dataPath(CODE, name)) ? pack.data(CODE, name) : null; };
 var bank = optData("bank.json");
@@ -297,7 +298,7 @@ course.weeks.forEach(function (w) {
     var tries = 1;
     while (pct < 0.85 && tries < 4) { tries++; bacc = play(Drills.buildBoss(course, w, state, { map: map }), "boss", w.week); pct = bacc.asked ? bacc.right / bacc.asked : 0; }
     ws0.bossPassed = pct >= 0.85;
-    if (ws0.bossPassed) { Engine.addXp(state, Engine.XP.boss, new FakeDate()); state.unlocked = Math.min(52, w.week + 1); }
+    if (ws0.bossPassed) { Engine.addXp(state, Engine.XP.boss, new FakeDate()); state.unlocked = Math.min(course.weeks.length, w.week + 1); }
     // composición: de qué semanas vienen los ítems del jefe
     var comp = {};
     Drills.buildBoss(course, w, state).forEach(function (it) { var k = it.src === "coniugatore" ? "gym" : (map[it.id] ? "sem " + map[it.id].wk : it.src); comp[k] = (comp[k] || 0) + 1; });
@@ -333,7 +334,14 @@ course.weeks.forEach(function (w) {
       if (dacc.firstAsked && dacc.firstRight / dacc.firstAsked >= 0.85) ws.dominated = true;
       else { var r2 = play(Drills.buildRound(course, w, { map: map, state: state }), "round", w.week); roundAsked += r2.asked; roundSec += r2.sec; }
     }
-    if (ws.right >= 20) state.unlocked = Math.min(52, w.week + 1);
+    if (ws.right >= 20) state.unlocked = Math.min(course.weeks.length, w.week + 1);
+    // the seminar of the week (seminario.js): read, map, write
+    if (ctx.Seminario && w.seminario) {
+      var sxp = ctx.Seminario.simulate(state, w);
+      Engine.addXp(state, sxp, new FakeDate());
+      if (!ctx.Seminario.semDone(w.seminario, ctx.Seminario.rec(state, w.week))) errors.push("semana " + w.week + ": el seminario simulado no quedó hecho");
+      missions.push({ m: "seminario", xp: sxp, tramos: w.seminario.tramos.length });
+    }
     var distinct = Object.keys(poolServed).length;
     var maxRep = 0; Object.keys(poolServed).forEach(function (k) { maxRep = Math.max(maxRep, poolServed[k]); });
     missions.push({ m: "entrenamiento", rounds: rounds, asked: roundAsked, sec: roundSec, pool: pool.length,

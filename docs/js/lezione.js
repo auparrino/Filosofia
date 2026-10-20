@@ -79,7 +79,7 @@
      capital that the dictionary knows is not a name). */
   var TOKEN = TR.tokenRe || /^([«"(¿¡]*)([A-Za-zÀ-ÿ']+(?:-[A-Za-zÀ-ÿ']+)*)([.,;:!?»")…]*)$/;
   function traps(sentence, rnd, week, isWord, safe) {
-    week = week || 52;
+    week = week || 999;
     var toks = sentence.split(" ");
     var rule = [], loose = [];
     toks.forEach(function (t, i) {

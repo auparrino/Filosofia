@@ -250,7 +250,7 @@
     return String(s == null ? "" : s).normalize("NFC").replace(/[’‘`´]/g, "'").toLowerCase().replace(/\s+/g, " ")
       .replace(/^[\s.,;:!?¡¿«»"]+|[\s.,;:!?¡¿«»"]+$/g, "");
   }
-  function storeKey() { return (LG().storage || "c1") + ".ia.cache"; }
+  function storeKey() { return (LG().storage || "agora") + ".ia.cache"; }
   var MEM = null;
   function cacheLoad() {
     if (MEM) return MEM;
@@ -300,7 +300,7 @@
      sus tres categorías flojas y lo que ya marcó la app (seguro). */
   function levelOfWeek(w) { return w <= 8 ? "A1" : w <= 18 ? "A2" : w <= 30 ? "B1" : w <= 42 ? "B2" : "C1"; }
   function courseCtx(course, state, week, extra) {
-    week = Math.max(1, Math.min(52, +week || 1));
+    week = Math.max(1, Math.min(root.Engine.weeks(), +week || 1));
     var weeks = (course && course.weeks) || [], w = weeks[week - 1] || {};
     var C = root.Conj, TL = (C && C.TENSE_LABELS) || {};
     var titles = weeks.slice(0, week).filter(function (x) { return x && !x.boss && x.title; }).map(function (x) { return x.title; });
@@ -318,7 +318,7 @@
     if (!c) return "";
     if (typeof c === "string") return c;
     var lines = [];
-    if (c.week) lines.push("El alumno está en la semana " + c.week + " de 52 (nivel " + (c.level || levelOfWeek(c.week)) + ").");
+    if (c.week) lines.push("El alumno está en la semana " + c.week + " de " + root.Engine.planned() + " (nivel " + (c.level || levelOfWeek(c.week)) + ").");
     if (c.grammar && c.grammar.length) lines.push("Gramática vista hasta ahora (las últimas lecciones): " + c.grammar.join("; ") + ".");
     if (c.tenses && c.tenses.length) lines.push("Tiempos verbales que ya conoce: " + c.tenses.join(", ") + ". No uses nombres de tiempos que todavía no vio: describilos con palabras simples.");
     if (c.structs && c.structs.length) lines.push("Lo que practica esta semana: " + c.structs.join("; ") + ".");

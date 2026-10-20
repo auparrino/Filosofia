@@ -65,7 +65,7 @@
     return (h >>> 0).toString(36);
   }
   function strip(s) { return String(s == null ? "" : s).replace(/\*\*([^*]+)\*\*/g, "$1").replace(/\*([^*]+)\*/g, "$1").trim(); }
-  function unlocked(state) { return Math.min(52, (state && state.unlocked) || 1); }
+  function unlocked(state) { return Math.min(root.Engine.weeks(), (state && state.unlocked) || 1); }
 
   /* ------------------------------------------------------ la regla de un ítem */
 
@@ -83,7 +83,7 @@
     var base = MAP && MAP[it.id], r = null;
     if (base || /^b:(gap|tr|err):/.test(it.id)) {
       var b = null;
-      try { b = root.Porque.blockFor(base || it, { course: COURSE, week: base ? base.week : undefined, unlocked: 52 }); } catch (e) { b = null; }
+      try { b = root.Porque.blockFor(base || it, { course: COURSE, week: base ? base.week : undefined, unlocked: 999 }); } catch (e) { b = null; }
       if (b && (base || b.sure)) r = "r:" + b.week + ":" + b.i;
     }
     RULE[it.id] = r;
@@ -115,7 +115,7 @@
       BANK = {};
       ((B.bank() || {}).sentences || []).forEach(function (s, i) {
         var it = B.gapItem(i) || B.translateItem(i), b = null;
-        try { b = root.Porque.blockFor(it, { course: COURSE, unlocked: 52 }); } catch (e) { b = null; }
+        try { b = root.Porque.blockFor(it, { course: COURSE, unlocked: 999 }); } catch (e) { b = null; }
         if (b && b.sure) { var k = "r:" + b.week + ":" + b.i; (BANK[k] = BANK[k] || []).push(i); }
       });
     }

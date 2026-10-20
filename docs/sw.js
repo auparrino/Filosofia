@@ -1,27 +1,24 @@
 /*
- * Service worker de la app (La Via C1 · Rumo C1): la app queda en el
- * teléfono y anda sin red.  Estrategia: responder enseguida desde la caché
- * y actualizar por detrás.
+ * Service worker de Ágora: la app queda en el teléfono y anda sin red.
+ * Estrategia: responder enseguida desde la caché y actualizar por detrás.
  *
- * Qué se guarda al instalar: el caparazón, el núcleo (docs/js/) y los
- * paquetes de idioma que ya se usan en este teléfono.  El paquete de un
- * idioma (≈ 4-5 MB) se guarda entero cuando la app avisa que se eligió
- * (postMessage {keep: código}); el otro, recién si alguna vez se usa.  La
- * lista de archivos de cada idioma sale de js/boot.js (Boot.langFiles).
+ * Qué se guarda al instalar: el caparazón, el núcleo (docs/js/) y las
+ * ediciones que ya se usan en este teléfono.  El paquete de una edición se
+ * guarda entero cuando la app avisa que se eligió (postMessage {keep:
+ * código}); las otras, recién si alguna vez se usan.  La lista de archivos
+ * de cada edición sale de js/boot.js (Boot.langFiles).
  *
  * Cambiar VERSION en cada versión para tirar la caché vieja (y APP_VERSION
- * en js/app.js, que se ve en el perfil: test_game.js y el CI comprueban que
- * «c1-vN» y «vN» coincidan).
+ * en js/app.js, que se ve en el perfil: test_version.js y el CI comprueban
+ * que «agora-vN» y «vN» coincidan).
  *
- * Las cachés llevan el prefijo «c1-»: en el mismo origen pueden vivir
- * otras apps (auparrino.github.io/pt) y sus cachés no se tocan nunca.  De
- * las viejas de esta misma app (La Via C1: «laviac1-v…») se borran las
- * versiones; las voces ya descargadas («laviac1-voci») se siguen leyendo.
+ * Las cachés llevan el prefijo «agora-»: en el mismo origen viven otras
+ * apps (La Via C1, con «c1-», en auparrino.github.io/It) y sus cachés no
+ * se tocan nunca.
  */
-var VERSION = "c1-v3.11.4";
-var PREFIX = "c1-";
-var VOCI = "c1-voci";
-var LEGACY = /^laviac1-v\d/;          // the old versions of this same app
+var VERSION = "agora-v0.1.0";
+var PREFIX = "agora-";
+var VOCI = "agora-voci";
 importScripts("js/boot.js");
 
 var SHELL = [
@@ -52,7 +49,7 @@ function fill(cache, files, mode) {
 }
 // Whether this phone already had a version of the app (then an install is an update).
 function firstInstall() {
-  return caches.keys().then(function (keys) { return !keys.some(function (k) { return k.indexOf(PREFIX) === 0 || LEGACY.test(k); }); });
+  return caches.keys().then(function (keys) { return !keys.some(function (k) { return k.indexOf(PREFIX) === 0; }); });
 }
 // The copy in the background skips the HTTP cache too (it revalidates, a
 // 304 when nothing changed): otherwise an old app.js could be stored next
@@ -62,15 +59,14 @@ function fresh(req) {
   return fetch(new Request(req, { cache: "no-cache" }));
 }
 
-// The languages this phone already uses: those whose lang.js is in one of
-// our caches (or, for La Via C1 before the two languages, its old cache).
+// The editions this phone already uses: those whose lang.js is in one of our caches.
 function langsInUse() {
   return caches.keys().then(function (keys) {
-    return Promise.all(keys.filter(function (k) { return k.indexOf(PREFIX) === 0 || LEGACY.test(k); }).map(function (k) {
+    return Promise.all(keys.filter(function (k) { return k.indexOf(PREFIX) === 0; }).map(function (k) {
       return caches.open(k).then(function (c) {
         return Promise.all(Object.keys(Boot.LANGS).map(function (code) {
           return c.match("lang/" + code + "/lang.js").then(function (hit) {
-            return hit || (LEGACY.test(k) && code === "it") ? code : null;
+            return hit ? code : null;
           });
         }));
       });
@@ -99,7 +95,7 @@ self.addEventListener("activate", function (e) {
   e.waitUntil(caches.keys().then(function (keys) {
     // only our own old caches: never those of another app on this origin
     return Promise.all(keys.filter(function (k) {
-      return (k.indexOf(PREFIX) === 0 && k !== VERSION && k !== VOCI) || LEGACY.test(k);
+      return (k.indexOf(PREFIX) === 0 && k !== VERSION && k !== VOCI);
     }).map(function (k) { return caches.delete(k); }));
   }).then(function () { return self.clients.claim(); }));
 });
@@ -118,8 +114,8 @@ self.addEventListener("message", function (e) {
   }));
 });
 
-// A lasting cache for the voices: a word heard once plays offline.  It is
-// looked up first in any cache (the old «laviac1-voci» of La Via C1 too).
+// A lasting cache for the voices and the books: what was opened once works
+// offline.
 function lasting(req, key, ok) {
   return caches.match(key || req).then(function (hit) {
     return hit || fetch(key || req).then(function (res) {

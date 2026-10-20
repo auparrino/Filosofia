@@ -211,7 +211,7 @@
   function variaciones(state, arg, course) {
     if (!root.Variaciones) return [];
     root.Variaciones.pastWeek(course);
-    var m = /^w:(\d+)$/.exec(arg || ""), week = m ? +m[1] : Math.min(state.unlocked || 1, 52);
+    var m = /^w:(\d+)$/.exec(arg || ""), week = m ? +m[1] : Math.min(state.unlocked || 1, root.Engine.weeks());
     return root.Variaciones.session(state, { week: week, focus: m ? week : null, n: 8 });
   }
   function roundDone(round, pct) {
@@ -289,7 +289,7 @@
   /* ------------------------------------------------------------- Treino */
 
   function treinoHtml(state) {
-    var nv = root.Variaciones ? root.Variaciones.eligible(state, Math.min(state.unlocked || 1, 52)).length : 0;
+    var nv = root.Variaciones ? root.Variaciones.eligible(state, Math.min(state.unlocked || 1, root.Engine.weeks())).length : 0;
     var ns = sources(state).length;
     var lab = function (id, e, name, desc, meta, off) {
       return '<button class="lab" data-esc="' + id + '"' + (off ? " disabled" : "") + '><span class="e">' + e + "</span><b>" + name + "</b>" +
@@ -317,7 +317,7 @@
     cur = { kind: kind, src: src, week: opts.week || null, from: opts.from || "frasi", mode: opts.mode || null, pickFor: opts.pickFor || null,
             part: opts.part || 0 };
     // the week sets the difficulty: the mission's, else the learner's
-    var lv = cur.week || Math.min((H && H.state().unlocked) || 1, 52);
+    var lv = cur.week || Math.min((H && H.state().unlocked) || 1, root.Engine.weeks());
     if (src) { cur.pas = passage(src, lv, cur.part); cur.text = cur.pas.text; }
     if (kind === "ctest") {
       cur.mode = cur.mode || "ctest";

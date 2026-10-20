@@ -270,7 +270,7 @@
   function weekFrom(fn) { WEEK_OF = typeof fn === "function" ? fn : null; }
   function weekNow(w) {
     if (w != null && !isNaN(w)) return +w;
-    try { var n = WEEK_OF ? WEEK_OF() : null; return n == null || isNaN(n) ? 52 : +n; } catch (e) { return 52; }
+    try { var n = WEEK_OF ? WEEK_OF() : null; return n == null || isNaN(n) ? 999 : +n; } catch (e) { return 999; }
   }
   var COMPILED = null;
   function terms() {

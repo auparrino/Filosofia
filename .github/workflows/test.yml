@@ -47,11 +47,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version-file: .python-version
-      # los .txt de GITenberg y las listas de palabras de la Biblioteca
-      - uses: actions/cache@v4
-        with:
-          path: tools/.cache/biblioteca
-          key: biblioteca-${{ hashFiles('tools/lib/biblioteca_fuentes.js') }}
       - name: npm run build
         run: npm run build > /dev/null
       - name: Lo generado en docs/ coincide con lo commiteado
@@ -68,7 +63,7 @@ jobs:
           fi
 
   sim:
-    name: un año simulado por idioma
+    name: un año simulado por edición
     if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name != github.repository
     runs-on: ubuntu-latest
     timeout-minutes: 10
@@ -100,11 +95,5 @@ jobs:
         run: |
           npm install --no-save --no-package-lock playwright@1.56
           npx playwright install --with-deps chromium
-      - name: La app entera en Chromium (tools/lib/smoke_browser.js)
-        run: node tools/lib/smoke_browser.js
-      - name: Cada misión jugada entera queda hecha (tools/lib/smoke_misiones.js)
-        run: node tools/lib/smoke_misiones.js
-      - name: El teclado de la app en cada idioma (tools/lib/smoke_teclado.js)
-        run: node tools/lib/smoke_teclado.js
-      - name: El alemán en Chromium (tools/lib/smoke_aleman.js)
-        run: node tools/lib/smoke_aleman.js
+      - name: Ágora en Chromium (tools/lib/smoke_curso.js)
+        run: node tools/lib/smoke_curso.js

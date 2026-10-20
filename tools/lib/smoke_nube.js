@@ -1,8 +1,8 @@
 /* La prueba de humo de «Sincronizar con tu GitHub Gist» (js/nube.js y la
-   sección de la copia en Io / Eu), llamada desde smoke_browser.js para
-   cada idioma, con la API de gists simulada (page.route: la red del CI no
+   sección de la copia en Yo), llamada desde smoke_curso.js para cada
+   edición, con la API de gists simulada (page.route: la red del CI no
    llega a GitHub): se pega un token, «Subir ahora» crea el gist secreto
-   con el sobre del idioma y sin el token; otro teléfono sube una copia más
+   con el sobre de la edición y sin el token; otro teléfono sube una copia más
    nueva y «Traer de la nube» pregunta diciendo que es más nueva y la
    restaura; la subida automática al ocultar la app sube una vez y la
    segunda vez, el mismo día, no.  Al final deja el teléfono como estaba
@@ -16,7 +16,7 @@ const TOKEN = "ghp_smoke0123456789";
 module.exports = async function nube(page, ctx) {
   const { code, errors, note, snap } = ctx;
   const fail = (m) => errors.push(code + " · nube: " + m);
-  const storage = { it: "laviac1", pt: "rumoc1" }[code], file = storage + ".json";
+  const storage = "agora-" + code, file = storage + ".json";
   const gists = {}, calls = [];
   let n = 0, clock = Date.parse("2026-09-28T10:00:00Z");
   const iso = () => new Date(clock += 60000).toISOString();
@@ -64,7 +64,7 @@ module.exports = async function nube(page, ctx) {
   const sent = JSON.parse(post.body);
   if (sent.public !== false) fail("el gist no es secreto");
   const env = JSON.parse(sent.files[file] ? sent.files[file].content : "{}");
-  if (env.app !== "c1" || env.lang !== code || !env.save || typeof env.save.xp !== "number") fail("lo subido no es el sobre del idioma: " + Object.keys(env).join(","));
+  if (env.app !== "agora" || env.lang !== code || !env.save || typeof env.save.xp !== "number") fail("lo subido no es el sobre de la edición: " + Object.keys(env).join(","));
   if (post.body.indexOf(TOKEN) >= 0) fail("el token va dentro de la copia");
   const saved = await page.evaluate((k) => localStorage.getItem(k) || "", storage + ".save.v1");
   if (saved.indexOf(TOKEN) >= 0 || /gist/.test(Object.keys(JSON.parse(saved || "{}")).join(","))) fail("el token o el gist quedaron en el guardado");
@@ -114,6 +114,6 @@ module.exports = async function nube(page, ctx) {
   }
 
   // leave the phone as it was
-  await page.evaluate((k) => { localStorage.removeItem("c1.gist.token"); localStorage.removeItem(k); }, storage + ".gist");
+  await page.evaluate((k) => { localStorage.removeItem("agora.gist.token"); localStorage.removeItem(k); }, storage + ".gist");
   await page.unroute("https://api.github.com/**");
 };

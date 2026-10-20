@@ -2,7 +2,7 @@
  * Tu progreso: lo que un alumno entiende, en el tiempo.
  *
  *   · el nivel estimado y la fecha de cada jefe al ritmo actual (y la de
- *     llegada a C1);
+ *     llegada al final);
  *   · las palabras que sabés por banda de frecuencia, como serie: un punto
  *     por semana en state.history (pocos números por punto);
  *   · las horas de estudio por semana y por destreza (input, output, forma,
@@ -28,7 +28,14 @@
   var DAY = 864e5;
   var STRANDS = ["input", "output", "forma", "fluidez"];
   var BANDS = ["A1", "A2", "B1", "B2", "C1"];
-  var BOSSES = [[13, "A2"], [26, "B1"], [39, "B2"], [52, "C1"]];
+  // The exams: one at the end of every season of 13 weeks, and the final
+  // one, as long as the syllabus (Engine.finalWeek()); [week, level].
+  function BOSSLIST() {
+    var out = [], fin = root.Engine.finalWeek();
+    for (var w = 13; w < fin; w += 13) out.push([w, "Nivel " + (w / 13)]);
+    out.push([fin, "Examen final"]);
+    return out;
+  }
   // Minutes a course week takes, by season (the simulation of the year:
   // medians 137, 146, 145, 154; about 21 minutes a day).
   var WEEK_MIN = [137, 146, 145, 154];
@@ -185,16 +192,16 @@
     return { pace: p, src: "meta", planned: p };
   }
 
-  /* Estimated date of each boss and of C1 at the current pace. */
+  /* Estimated date of each exam and of the end of the course at the current pace. */
   function eta(state, now) {
     now = now || new Date();
     var P = pace(state, now), u = state.unlocked || 1, ws = state.weekStats || {};
-    var bosses = BOSSES.map(function (b) {
+    var bosses = BOSSLIST().map(function (b) {
       var passed = !!(ws[b[0]] && ws[b[0]].bossPassed);
       var weeks = passed ? 0 : Math.max(0, b[0] - u + 1) / Math.max(0.05, P.pace);
       return { week: b[0], level: b[1], passed: passed, date: passed ? null : addDays(now, weeks * 7) };
     });
-    return { pace: P.pace, src: P.src, planned: P.planned, bosses: bosses, c1: bosses[3].date };
+    return { pace: P.pace, src: P.src, planned: P.planned, bosses: bosses, c1: bosses[bosses.length - 1].date };
   }
   // A goal with a date: the pace it asks for, and the minutes a day.
   function target(state, now) {
@@ -211,8 +218,8 @@
 
   function levelNow(course, state) {
     var ws = state.weekStats || {};
-    if (ws[52] && ws[52].bossPassed) return "C1";
-    var w = course && course.weeks ? course.weeks[Math.min(state.unlocked || 1, 52) - 1] : null;
+    if (ws[root.Engine.finalWeek()] && ws[root.Engine.finalWeek()].bossPassed) return "Examen final aprobado";
+    var w = course && course.weeks ? course.weeks[Math.min(state.unlocked || 1, root.Engine.weeks()) - 1] : null;
     return w ? String(w.level || "A1") : "A1";
   }
 
@@ -233,8 +240,8 @@
      that).  And what the course teaches up to the next boss. */
   var BANK_SESSION = 12;
   function wordQuota(course, state, now, bank) {
-    var u = Math.min(state.unlocked || 1, 52), weeks = (course && course.weeks) || [];
-    var w = weeks[u - 1] || {}, boss = BOSSES.filter(function (b) { return b[0] >= u; })[0] || BOSSES[3];
+    var u = Math.min(state.unlocked || 1, root.Engine.weeks()), weeks = (course && course.weeks) || [], BL = BOSSLIST();
+    var w = weeks[u - 1] || {}, boss = BL.filter(function (b) { return b[0] >= u; })[0] || BL[BL.length - 1];
     var plus = bank === false ? 0 : BANK_SESSION;
     var taught = 0;
     weeks.forEach(function (x) { if (x.week <= boss[0]) taught += ((x.vocab || []).length || 0) + (x.boss || bank === false ? 0 : BANK_SESSION); });
@@ -321,15 +328,15 @@
   // The line of the pace, for Oggi and Io.
   function etaLine(state, now) {
     var E = eta(state, now);
-    if (E.bosses[3].passed) return "🎓 Llegaste a C1.";
+    if (E.bosses[E.bosses.length - 1].passed) return "🎓 Terminaste las " + root.Engine.finalWeek() + " semanas.";
     var src = E.src === "meta" ? "con tu meta de " + ritmo(state).min + " min × " + ritmo(state).days + " días" : "a tu ritmo de las últimas semanas";
-    return "C1 en <b>" + fmtMonth(E.c1) + "</b> " + src + ".";
+    return "Fin del curso en <b>" + fmtMonth(E.c1) + "</b> " + src + ".";
   }
 
   function summaryCard() {
     var st = S(), E = eta(st), lv = levelNow(H.course(), st), wk = thisWeek(st);
     return '<div class="card prog-sum"><h2>📈 Tu progreso</h2>' +
-      '<p class="lead-s">Nivel estimado <b>' + esc(lv) + "</b> · semana " + Math.min(st.unlocked || 1, 52) + " de 52</p>" +
+      '<p class="lead-s">Nivel estimado <b>' + esc(lv) + "</b> · semana " + Math.min(st.unlocked || 1, root.Engine.weeks()) + " de " + root.Engine.finalWeek() + "</p>" +
       '<p class="muted">' + etaLine(st) + " Esta semana: " + fmtH(wk.sec) + " de estudio.</p>" +
       '<div class="row"><button class="btn" id="toprog">Ver tu progreso</button></div></div>';
   }
@@ -353,11 +360,11 @@
 
     // 1. level and the bosses
     html += '<div class="card"><h2>Nivel estimado: ' + esc(lv) + "</h2>" +
-      '<p class="muted">Semana ' + Math.min(st.unlocked || 1, 52) + " de 52 · " +
+      '<p class="muted">Semana ' + Math.min(st.unlocked || 1, root.Engine.weeks()) + " de " + root.Engine.finalWeek() + " · " +
       (E.src === "meta" ? "con tu meta (" + R.min + " min × " + R.days + " días por semana) avanzás unas "
                         : "a tu ritmo de las últimas semanas avanzás ") + semanas(E.pace) + " del curso por semana.</p>" +
       '<table class="res prog-boss">' + E.bosses.map(function (b) {
-        return "<tr><td>" + (b.passed ? "✓ " : "") + "Jefe de la semana " + b.week + " · " + b.level + "</td><td>" +
+        return "<tr><td>" + (b.passed ? "✓ " : "") + "Examen de la semana " + b.week + " · " + b.level + "</td><td>" +
           (b.passed ? "vencido" : fmtMonth(b.date)) + "</td></tr>";
       }).join("") + "</table>" +
       (T ? '<p class="muted small">' + targetText(T) + "</p>" : "") + "</div>";
@@ -474,7 +481,7 @@
   function owns(s) { return s === "progreso"; }
 
   var api = {
-    STRANDS: STRANDS, BANDS: BANDS, BOSSES: BOSSES, WEEK_MIN: WEEK_MIN, MINUTES: MINUTES, GOAL_XP: GOAL_XP,
+    STRANDS: STRANDS, BANDS: BANDS, BOSSES: BOSSLIST, WEEK_MIN: WEEK_MIN, MINUTES: MINUTES, GOAL_XP: GOAL_XP,
     dayKey: dayKey, weekKey: weekKey, ritmo: ritmo, setRitmo: setRitmo, weekMinutes: weekMinutes,
     addTime: addTime, timeIn: timeIn, todaySec: todaySec, thisWeek: thisWeek, weeksSeries: weeksSeries, daysThisWeek: daysThisWeek,
     inputWeek: inputWeek, inputTarget: inputTarget, observedPace: observedPace, plannedPace: plannedPace, pace: pace,

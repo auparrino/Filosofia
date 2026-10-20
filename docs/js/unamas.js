@@ -138,7 +138,7 @@
     var R = Rg();
     if (!R || !R.courseOf || !map) return null;
     var p = R.parse ? R.parse(rule) : null;
-    if (p && p.week > Math.min(52, (state && state.unlocked) || 1)) return null;
+    if (p && p.week > Math.min(root.Engine.weeks(), (state && state.unlocked) || 1)) return null;
     var cards = (state && state.cards) || {};
     var ids = R.courseOf(rule).filter(function (id) { var x = map[id]; return written(x) && !used(x); });
     var rank = function (id) {
