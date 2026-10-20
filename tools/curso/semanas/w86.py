@@ -42,7 +42,7 @@ WEEK = {
                 "warn": "El existencialismo no es una escuela con un programa: es un nombre de época para pensadores muy distintos, varios de los cuales lo rechazaron. Y no es lo mismo que el pesimismo o la desesperación: Sartre insiste en que es una doctrina de la acción.",
                 "q": [
                     q("¿Qué tesis comparten, según Sartre, los dos existencialismos?", "que en el hombre la existencia precede a la esencia", ["que en el hombre la existencia precede a la esencia", "que Dios no existe", "que la vida no tiene sentido"]),
-                    q("¿Quién rechazó la etiqueta de existencialista?", "Camus", ["Camus", "Sartre", "Beauvoir"]),
+                    q("¿Quién rechazó la etiqueta de existencialista?", "Camus", ["Camus", "Sartre", "Merleau-Ponty"]),
                 ],
             },
             {
