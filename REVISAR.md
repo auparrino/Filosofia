@@ -196,3 +196,19 @@ edición cotejada.
   - la tercera carta a Clarke § 5;
   - *Teodicea* § 8 y § 21;
   - la *Segunda aclaración del Nuevo sistema* (1696).
+
+## Semanas 46, 47 y 48
+
+- **Cartas de Isabel y Descartes (1643):** la traducción es de memoria. Lo
+  más delicado es la carta de Isabel del 20 de junio.
+- **Páginas AT:** las de las *Meditaciones* y el *Discurso* se dan por
+  seguras, pero conviene cotejarlas.
+- **Pascal:** B 77, 78, 142, 253, 272, 278 y 455 van solo con el número de
+  Brunschvicg, sin la equivalencia en Lafuma.
+- **Lecturas y atribuciones:**
+  - Diderot, «un imán podría razonar igual» (*Pensamientos filosóficos*,
+    1746), va sin parágrafo;
+  - que Pascal escribió «effroyable» y lo tachó va como «según Borges»;
+  - la lectura de Leibniz va citada como *Monadología* 80;
+  - la apuesta en tres argumentos es de Hacking (1972) y la «extorsión de
+    Pascal», de Bostrom (2009).

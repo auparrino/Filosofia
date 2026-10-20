@@ -163,7 +163,7 @@ WEEK = {
                 "ex": [
                     ["«Je pense, donc je suis» («pienso, luego existo»).", "Descartes, *Discurso del método* IV (AT VI 32): la «primera verdad» de su filosofía"],
                     ["*Ego cogito, ergo sum.*", "la versión latina está en los *Principios de la filosofía* I 7 (1644), no en las *Meditaciones*"],
-                    ["Si me engaño, existo (*si fallor, sum*).", "Agustín, *La ciudad de Dios* XI 26 (semana 29): Arnauld le señaló a Descartes el antecedente en las *Cuartas objeciones*"],
+                    ["Si me engaño, existo (*si fallor, sum*).", "Agustín, *La ciudad de Dios* XI 26 (semana 29); Arnauld, en las *Cuartas objeciones*, le señaló a Descartes un pasaje parecido de Agustín (*Del libre albedrío* II 3)"],
                 ],
                 "warn": "La fórmula «cogito, ergo sum» **no aparece** en las *Meditaciones*: ahí la certeza es «ego sum, ego existo». Y «dudo, luego pienso, luego existo» es una fórmula de manual: Descartes no la escribió así.",
                 "tip": "Fijate en el «cada vez que»: la certeza es del presente y en primera persona. «Descartes existía» no es indudable para vos; «yo existo», pensado por vos ahora, sí.",
@@ -342,7 +342,7 @@ WEEK = {
            "Es la objeción de Lichtenberg (siglo XVIII). Hume dirá algo parecido sobre el yo (semana 57).")),
         ch(2, "Elegí.", "Arnauld le hizo notar a Descartes que un argumento parecido al cogito ya estaba en…", "Agustín: «si me engaño, existo»",
            ["Agustín: «si me engaño, existo»", "Aristóteles: «todos los hombres desean saber»", "Montaigne: «¿qué sé yo?»"],
-           "Agustín, *La ciudad de Dios* XI 26 (semana 29); Arnauld lo señala en las *Cuartas objeciones*. Agustín lo usa contra los académicos, no para fundar una ciencia."),
+           "Agustín, *La ciudad de Dios* XI 26 (semana 29); Arnauld, en las *Cuartas objeciones*, cita un pasaje parecido de *Del libre albedrío* II 3. Agustín lo usa contra los académicos, no para fundar una ciencia."),
         ch(2, "Elegí.", "En la *Meditación* II, ¿con qué imagen describe Descartes lo que busca?", "el punto fijo de Arquímedes",
            ["el punto fijo de Arquímedes", "la caverna de Platón", "el barco de Teseo"],
            "Arquímedes pedía un solo punto firme para mover la Tierra (AT VII 24): Descartes busca una sola verdad cierta."),
