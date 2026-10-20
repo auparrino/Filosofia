@@ -362,3 +362,11 @@ edición cotejada.
 - ***Investigaciones filosóficas*,** parágrafos citados de memoria: §§ 31, 38, 40, 89, 98, 109, 124, 133, 199, 202, 217, 241, 244, 246, 258, 304, 307, 309 y 580.
 - **Benjamin,** el freno de emergencia (notas preparatorias de las tesis), en resumen. **Habermas,** el principio D en *Conciencia moral y acción comunicativa* (1983). **Marcuse,** «falta de libertad cómoda…», resumen de la primera oración de *El hombre unidimensional*.
 - **Gadamer y Wittgenstein:** el «parentesco» va en general, sin cita.
+
+## Semanas 92-94
+
+- **Popper:** Neurath lo llamaba «la oposición oficial» (*Búsqueda sin término*, sin parágrafo); la conferencia de Cambridge (1953, publicada en 1957), detalle de edición de memoria; la dedicatoria de *La miseria del historicismo* y «Puedo estar equivocado…» (*La sociedad abierta*, cap. 24), entre comillas, con bastante seguridad; la retractación sobre el darwinismo, fechada en 1978.
+- **Kuhn y Lakatos:** «no hay criterio más alto que el asentimiento de la comunidad pertinente» (*La estructura*, cap. IX) y la «psicología de masas» de Lakatos (1970), con bastante seguridad.
+- **Feyerabend:** la torre de Galileo y la medicina china en *Contra el método*, sin capítulo; «El extraño caso de la astrología», en *La ciencia en una sociedad libre*; que «todo vale» es la exclamación de un racionalista, sin fuente exacta (¿prefacio de la 3.ª edición o *Adiós a la razón*?).
+- ***Solaris*,** «no buscamos otros mundos, buscamos espejos», atribuida a Snaut, en resumen.
+- **Quine:** «ser es ser el valor de una variable», como lema sin comillas; el matemático ciclista en *Palabra y objeto* § 41. El caso «Madagascar», de Evans (1973), en resumen.
