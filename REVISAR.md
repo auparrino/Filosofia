@@ -212,3 +212,19 @@ edición cotejada.
   - la lectura de Leibniz va citada como *Monadología* 80;
   - la apuesta en tres argumentos es de Hacking (1972) y la «extorsión de
     Pascal», de Bostrom (2009).
+
+## Semanas 43, 44 y 45
+
+- **Atribuciones marcadas «según la tradición»:**
+  - el lema «Je ne sais» de Charron;
+  - dónde nació Sanches;
+  - la visita de Hobbes a Galileo;
+  - la anécdota de Euclides según Aubrey;
+  - el frontispicio del *Leviatán* atribuido a Bosse;
+  - la influencia de Montaigne en *Hamlet*.
+- **Números de memoria:**
+  - Galileo, *El ensayador* § 6 y § 48;
+  - Bacon, *Novum Organum* I 60, 70, 95, 105, II 11-20 y II 36;
+  - Montaigne según la edición Villey: en algunas, I 31 es I 30.
+- **Brecht:** «¡Desgraciada la tierra que necesita héroes!» va en la escena
+  13 de *Vida de Galileo*, según la versión de Berlín.

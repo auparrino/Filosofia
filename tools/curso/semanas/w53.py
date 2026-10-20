@@ -235,7 +235,7 @@ WEEK = {
         ap(ch(0, "¿Qué supuesto usa Locke?", "El innatista insiste: «Los chicos tienen el principio en la mente, solo que no lo perciben». Locke contesta que eso es casi contradictorio. ¿Qué supone?", "que estar en la mente es ser percibido, o poder serlo",
               ["que estar en la mente es ser percibido, o poder serlo", "que los chicos no tienen mente", "que solo existe lo que se ve"],
               "*Ensayo* I 2, 5. Si «estar en la mente» solo quiere decir que se puede llegar a conocer, entonces todas las verdades que alguna vez aprendamos serían innatas, y la tesis no dice nada.")),
-        ap(ch(0, "¿Qué ataca la objeción?", "El innatista: «Son innatos porque se aceptan apenas se llega al uso de razón». Locke: «Entonces también "uno y dos son tres" sería innato».", "el criterio de innatismo, que probaría demasiado",
+        ap(ch(0, "¿Qué ataca la objeción?", "El innatista: «Son innatos porque se aceptan apenas se llega al uso de razón». Locke: «Entonces también que uno y dos son tres sería innato».", "el criterio de innatismo, que probaría demasiado",
               ["el criterio de innatismo, que probaría demasiado", "la verdad de la aritmética", "la existencia de la razón"],
               "*Ensayo* I 2, 18. Es una reducción al absurdo: si el criterio vale, convierte en innatas miles de verdades que todos admiten haber aprendido.")),
         ap(ch(0, "¿Sensación o reflexión?", "La idea del amarillo de un limón.", "sensación", ["sensación", "reflexión"],

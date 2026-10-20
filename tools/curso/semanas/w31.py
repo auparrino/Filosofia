@@ -451,7 +451,7 @@ WEEK = {
         ["objeción por parodia", "mostrar que un argumento falla construyendo otro de la misma forma que prueba algo absurdo", "La isla perdida; la pizzería perfecta.", "No dice qué premisa falla; exige que la forma sea realmente la misma."],
         ["existencia como perfección", "la tesis de que existir hace mejor o «mayor» a algo, que el argumento necesita", "Descartes: a Dios no le puede faltar la existencia, como a la montaña no le falta el valle.", "Gassendi y Kant la niegan: la existencia no es una propiedad más."],
         ["predicado real", "en Kant, una determinación que agrega algo al concepto de una cosa", "«Ser no es, evidentemente, un predicado real» (*Crítica de la razón pura* A598/B626).", "No es lo mismo que predicado gramatical: «existe» es gramaticalmente un predicado."],
-        ["evidente en sí y evidente para nosotros", "en Tomás: lo que se conoce por sí mismo a partir de su concepto, en sí o para quien lo comprende", "«Dios existe» es evidente en sí, pero no para nosotros (*Suma teológica* I, q. 2, a. 1).", "Por eso Tomás rechaza el argumento ontológico y prueba a Dios por los efectos."],
+        ["el pintor y el cuadro", "el ejemplo de *Proslogion* 2 para distinguir lo que está en el entendimiento de lo que existe en la realidad", "Antes de pintarlo, el pintor tiene el cuadro en la mente; después, en la mente y en la tela.", "No prueba nada sobre Dios: muestra que Anselmo sabe que lo pensado no siempre existe."],
         ["prueba a priori de Dios", "la que parte del concepto de Dios, antes de toda experiencia del mundo", "*Proslogion* 2; *Meditaciones* V.", "Las pruebas a posteriori parten de los efectos: el movimiento, la causa, el orden (semana 36)."],
     ],
 }
