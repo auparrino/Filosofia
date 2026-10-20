@@ -220,7 +220,8 @@ WEEK = {
            ["dualismo interaccionista", "epifenomenismo", "funcionalismo"],
            "Dos sustancias que se afectan causalmente: es la tesis de Descartes.")),
         ap(ch(0, "¿Qué posición es?", "«El dolor existe y es algo más que neuronas, pero no causa nada: tu mano se retira por las neuronas, no por el dolor.»", "epifenomenismo",
-              "Los estados mentales serían un subproducto sin efectos, como el silbato de la locomotora de Huxley.")),
+           ["epifenomenismo", "conductismo", "dualismo interaccionista"],
+           "Los estados mentales serían un subproducto sin efectos, como el silbato de la locomotora de Huxley.")),
         ap(ch(0, "¿Qué principio usa la objeción?", "«Si una mente no física moviera neuronas, los físicos encontrarían en el cerebro efectos sin causa física. No los encuentran.»", "la clausura causal de lo físico",
            ["la clausura causal de lo físico", "la realizabilidad múltiple", "el error categorial"],
            "Todo efecto físico tiene una causa física suficiente: no queda lugar para un empujón de la mente.")),
@@ -445,7 +446,6 @@ WEEK = {
     "vocab": [
         ["problema mente-cuerpo", "la pregunta por la relación entre lo mental (pensar, sentir) y lo físico (el cuerpo, el cerebro)", "¿Cómo un proceso de neuronas es, o produce, un dolor?", "No es solo el problema de la interacción de Descartes: también lo tiene el materialista."],
         ["clausura causal de lo físico", "todo efecto físico tiene una causa física suficiente", "La objeción más fuerte al dualismo interaccionista.", "No es el principio de clausura epistémica (semana 96)."],
-        ["epifenomenismo", "los estados mentales existen, pero no causan nada: son subproductos de lo físico", "El silbato de la locomotora (Huxley, 1874).", "No es el eliminativismo: no niega los estados mentales, les niega efectos."],
         ["dualismo de propiedades", "hay una sola sustancia, física, pero con propiedades mentales que no se reducen a las físicas", "El dolor sería una propiedad no física del cerebro.", "No es el dualismo de sustancias de Descartes (semana 47)."],
         ["fantasma en la máquina", "el nombre burlón que Ryle le da a la doctrina cartesiana de la mente como cosa aparte que habita el cuerpo", "«El dogma del fantasma en la máquina» (*El concepto de lo mental*, cap. 1).", "Ryle no niega la mente: niega que sea una cosa escondida."],
         ["error categorial", "tratar un concepto como si perteneciera a un tipo lógico que no es el suyo", "Buscar la universidad aparte de sus colegios y bibliotecas.", "No es una contradicción ni una falsedad empírica: es una confusión de tipo."],
