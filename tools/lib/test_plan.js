@@ -21,9 +21,7 @@ function missionsOf(w) {
   for (var k = 0; k < 3; k++) out.push({ kind: "lez", arg: String(k), title: "Lección " + (k + 1) + "/3", ico: "📘", done: false });
   out.push({ kind: "vocab", title: "Palabras de la semana", ico: "📚", done: false });
   out.push({ kind: "play", title: "Superá la semana", ico: "🎯", done: false });
-  out.push({ kind: "scrivi", title: "Scrivi", ico: "✍️", done: false });
-  out.push({ kind: "ep", arg: "m1", title: "Lectura: Martín", ico: "🧳", done: false, words: 240 });
-  out.push({ kind: "dictogloss", title: "Dictogloss", ico: "📝", done: false });
+  out.push({ kind: "sem", arg: "5", title: "Seminario", ico: "📜", done: false });
   out.push({ kind: "play2", title: "Dominala", ico: "🏆", done: false });
   void w;
   return out;
@@ -40,8 +38,8 @@ pack.LANGS.forEach(function (code) {
   var course = pack.data(code, "course.json");
   var w = course.weeks[4];
   var base = function (extra) {
-    return Object.assign({ now: WED, due: 40, week: w, missions: missionsOf(w), strands: { input: 50, output: 40, forma: 60, fluidez: 30 },
-                           inputs: { biblio: true, facile: 3, btr: true, pausa: true }, days: 5, daysDone: 2 }, extra || {});
+    return Object.assign({ now: WED, due: 40, week: w, missions: missionsOf(w),
+                           inputs: { biblio: true, pausa: true }, days: 5, daysDone: 2 }, extra || {});
   };
   var st = E.blankSave();
 
@@ -61,7 +59,7 @@ pack.LANGS.forEach(function (code) {
   var p15 = Plan.today(course, st, 15, base());
   ok(kinds(p15).indexOf("lez") >= 0, tag + "15 min: el paso siguiente de la semana (la lección)");
   ok(p15.steps.some(function (s) { return s.block === "input"; }), tag + "15 min: un bloque de input");
-  ok(p15.steps.filter(function (s) { return s.kind === "ep"; }).length === 1, tag + "15 min: la lectura que falta es el input");
+  ok(p15.steps.filter(function (s) { return s.kind === "biblio"; }).length === 1, tag + "15 min: el input es la Biblioteca");
   var p30 = Plan.today(course, st, 30, base());
   ok(p30.steps.filter(function (s) { return s.block === "paso"; }).length >= 2, tag + "30 min: entra más de una misión");
   ok(Plan.today(course, st, 7, base()).minutes === 15, tag + "una duración desconocida vale 15");
@@ -71,30 +69,18 @@ pack.LANGS.forEach(function (code) {
   ok(Plan.today(course, st, 15, base()).steps[0].kind === "review", tag + "15 min: el repaso del día (20)");
   ok(Plan.today(course, st, 15, base({ due: 0 })).steps.every(function (s) { return s.block !== "repaso"; }), tag + "sin vencidas, sin repaso");
 
-  // input: when the week's readings are done, the Library or Ascolto facile
-  var noIn = missionsOf(w).map(function (m) { return Object.assign({}, m, { done: m.kind === "ep" || m.kind === "dictogloss" }); });
-  var pb = Plan.today(course, st, 15, base({ missions: noIn }));
-  ok(kinds(pb).indexOf("biblio") >= 0, tag + "sin lecturas pendientes: la Biblioteca");
-  ok(kinds(Plan.today(course, st, 15, base({ missions: noIn, inputs: { biblio: false, facile: 3, pausa: true } }))).indexOf("facile") >= 0,
-     tag + "sin Biblioteca: Ascolto facile");
-  ok(kinds(Plan.today(course, st, 15, base({ missions: noIn, change: "escucha" }))).indexOf("facile") >= 0, tag + "«más escucha»: Ascolto facile primero");
-
-  // output when it comes low (or asked for)
-  var low = { input: 200, output: 5, forma: 300, fluidez: 80 };
-  var noScrivi = missionsOf(w).map(function (m) { return Object.assign({}, m, { done: m.kind === "scrivi" }); });
-  ok(Plan.today(course, st, 30, base({ strands: low })).steps.some(function (s) { return s.block === "output"; }), tag + "output bajo: un bloque de producción");
-  ok(kinds(Plan.today(course, st, 30, base({ strands: low, missions: noScrivi }))).indexOf("b-tr") >= 0, tag + "output bajo sin Scrivi pendiente: traducir");
-  ok(!Plan.today(course, st, 15, base()).steps.some(function (s) { return s.block === "output"; }), tag + "output parejo: sin bloque de producción");
-  ok(Plan.today(course, st, 30, base({ change: "escritura", missions: noScrivi })).steps.some(function (s) { return s.block === "output"; }), tag + "«más escritura»: producción");
+  // without the Library there is no input block
+  ok(!Plan.today(course, st, 15, base({ inputs: { biblio: false, pausa: true } })).steps.some(function (s) { return s.block === "input"; }),
+     tag + "sin Biblioteca: sin bloque de input");
 
   // the weekend is light once the week's days are done; not before
   ok(!Plan.today(course, st, 15, base({ now: SAT, daysDone: 5 })).steps.some(function (s) { return s.block === "paso"; }), tag + "sábado con la semana cumplida: sin misión");
   ok(Plan.today(course, st, 15, base({ now: SAT, daysDone: 2 })).steps.some(function (s) { return s.block === "paso"; }), tag + "sábado con días pendientes: con misión");
 
-  // a long task waits for a day with time, with 5 minutes
-  var onlyTask = [{ kind: "tr-scr", arg: "30", title: "Tarea", ico: "🖋️", done: false }, { kind: "play", title: "Superá", ico: "🎯", done: false }];
+  // a long mission waits for a day with time, with 5 minutes
+  var onlyTask = [{ kind: "play2", title: "Dominala", ico: "🏆", done: false }, { kind: "play", title: "Superá", ico: "🎯", done: false }];
   var p5 = Plan.today(course, st, 5, base({ missions: onlyTask, due: 0 }));
-  ok(kinds(p5).indexOf("tr-scr") < 0 && kinds(p5).indexOf("play") >= 0, tag + "5 min: la tarea larga espera, entra una ronda: " + kinds(p5).join(","));
+  ok(kinds(p5).indexOf("play2") < 0 && kinds(p5).indexOf("play") >= 0, tag + "5 min: la misión larga espera, entra una ronda: " + kinds(p5).join(","));
 
   /* ------------------------------------------------ calibration */
   ok(Plan.secPerCard(st) === Plan.CARD_SEC, tag + "sin tiempos: los segundos de la simulación");
@@ -105,23 +91,17 @@ pack.LANGS.forEach(function (code) {
   var vocabSlow = Plan.minutesFor({ kind: "vocab" }, slow), vocabBase = Plan.minutesFor({ kind: "vocab" }, st);
   ok(vocabSlow > vocabBase, tag + "los minutos de una sesión crecen con el alumno lento (" + vocabBase + " → " + vocabSlow + ")");
   ok(Plan.minutesFor({ kind: "lez" }, slow) === Plan.minutesFor({ kind: "lez" }, st), tag + "la lección no depende del tiempo de respuesta");
-  ok(Plan.readMinutes(900, "C1") > Plan.readMinutes(200, "A1"), tag + "leer 900 palabras lleva más que 200");
   ok(Plan.inputTarget("A1") === 40 && Plan.inputTarget("B1") === 90 && Plan.inputTarget("B2") === 150 && Pr.inputTarget("C1") === 150, tag + "minutos de input por nivel");
 
   /* ------------------------------------------------ maintenance */
   var mt = E.blankSave(); mt.phase = "mantenimiento";
-  var maint = { reads: [{ id: "l1", title: "Una lectura larga", words: 700 }], asc: [{ week: 30, title: "Una escucha" }, { week: 31, title: "Otra" }],
-                scr: [{ week: 30, title: "Carta formal" }], lastTask: 0, lastSim: WED.getTime() - 10 * DAY };
-  var m30 = Plan.today(course, mt, 30, base({ maint: maint }));
+  var m30 = Plan.today(course, mt, 30, base());
   ok(m30.phase === "mantenimiento", tag + "mantenimiento: otra fase");
   ok(kinds(m30).indexOf("lez") < 0 && kinds(m30).indexOf("play") < 0, tag + "mantenimiento: sin misiones del curso");
-  ok(kinds(m30).indexOf("tr-scr") >= 0, tag + "mantenimiento: una tarea al azar (hace más de 6 días)");
+  ok(kinds(m30)[0] === "review" && kinds(m30).indexOf("biblio") >= 0, tag + "mantenimiento: repaso y lectura extensiva");
   ok(sum(m30) <= 36, tag + "mantenimiento 30 min: cerca de lo pedido (" + sum(m30) + ")");
-  var m15 = Plan.today(course, mt, 15, base({ maint: maint }));
-  ok(m15.steps.some(function (s) { return s.block === "input"; }), tag + "mantenimiento 15 min: lectura o escucha larga");
-  var simOld = Object.assign({}, maint, { lastSim: WED.getTime() - 100 * DAY });
-  ok(kinds(Plan.today(course, mt, 30, base({ maint: simOld }))).indexOf("esame") >= 0, tag + "mantenimiento: simulacro cada tres meses");
-  ok(Plan.today(course, mt, 15, base({ maint: simOld })).notes.length === 1, tag + "mantenimiento: con 15 min, el simulacro como aviso");
+  var m15 = Plan.today(course, mt, 15, base({ inputs: { biblio: false, pausa: true } }));
+  ok(m15.steps.every(function (s) { return s.block === "repaso"; }), tag + "mantenimiento sin Biblioteca: solo el repaso");
 
   /* ------------------------------------------------ progreso: la meta y el ritmo */
   var s2 = E.blankSave();
@@ -159,10 +139,10 @@ pack.LANGS.forEach(function (code) {
   ok(Pr.thisWeek(s3, WED).sec === 900 + 0, tag + "esta semana empieza el lunes (el domingo anterior no cuenta)");
   var ser = Pr.weeksSeries(s3, 8, WED);
   ok(ser.length === 8 && ser[7].sec === 900 && ser[6].output === 120, tag + "serie de 8 semanas, la actual al final");
-  ok(Pr.strandFor("gioco", "scene") === "fluidez" && Pr.strandFor("lettura") === "input" && Pr.strandFor("oggi", "", false) === null &&
-     Pr.strandFor("oggi", "", true) === "input" && Pr.strandFor("tramo-scr") === "output", tag + "cada pantalla con su destreza");
-  s3.ascolto = {}; s3.ascolto[Pr.dayKey(WED)] = { sec: 600, xp: 0 };
-  ok(Pr.inputWeek(s3, null, WED) === 10, tag + "input de la semana: lo registrado cuando es más que lo medido");
+  ok(Pr.strandFor("gioco", "round") === "forma" && Pr.strandFor("libro") === "input" && Pr.strandFor("oggi", "", false) === null &&
+     Pr.strandFor("oggi", "", true) === "input" && Pr.strandFor("escritos") === "output", tag + "cada pantalla con su destreza");
+  s3.biblio = { days: {} }; s3.biblio.days[Pr.dayKey(WED)] = { s: 600 };
+  ok(Pr.inputWeek(s3, WED) === 10, tag + "lectura de la semana: lo registrado cuando es más que lo medido");
 
   /* ------------------------------------------------ la serie y la tendencia */
   var s4 = E.blankSave();
@@ -186,9 +166,9 @@ pack.LANGS.forEach(function (code) {
   /* ------------------------------------------------ la cuota de palabras */
   // a week the course already has (the edition may be shorter than 52 weeks)
   var s5 = E.blankSave(); s5.unlocked = Math.min(21, course.weeks.length);
-  var q = Pr.wordQuota(course, s5, WED, true), sg = E.subGoals(s5);
+  var q = Pr.wordQuota(course, s5, WED), sg = E.subGoals(s5);
   var wkN = (course.weeks[s5.unlocked - 1].vocab || []).length;
-  ok(q.target === wkN + 12, tag + "cuota: los conceptos de la semana y una sesión más (" + q.target + ")");
+  ok(q.target === wkN, tag + "cuota: los conceptos de la semana (" + q.target + ")");
   ok(sg.wordsPerWeek > 0 && sg.boss >= s5.unlocked && sg.boss % 13 === 0, tag + "metas: los conceptos que faltan hasta el examen de la estación (" + sg.wordsPerWeek + " por semana)");
   ok(q.boss >= s5.unlocked && q.boss % 13 === 0 && q.byBoss > 0, tag + "cuota: lo que el curso enseña hasta el jefe (" + q.boss + ": " + q.byBoss + ")");
 

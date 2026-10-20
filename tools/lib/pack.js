@@ -4,9 +4,9 @@
  * (docs/js/boot.js ORDER), para los tests y la simulación.
  *
  *   var pack = require("../lib/pack.js");
- *   var ctx = pack("pt");            // ctx.Engine, ctx.Drills, ctx.Conj, ctx.LANG…
- *   var ctx = pack("it", { upTo: "drills.js" });   // sin app.js
- *   pack.data("pt", "course.json")   // docs/lang/pt/data/course.json, parseado
+ *   var ctx = pack("es");            // ctx.Engine, ctx.Drills, ctx.LANG…
+ *   var ctx = pack("es", { upTo: "drills.js" });   // sin app.js
+ *   pack.data("es", "course.json")   // docs/lang/es/data/course.json, parseado
  *
  * Por defecto no carga app.js (necesita el DOM).  opts.extra agrega globals
  * al contexto (localStorage, Date simulado…).

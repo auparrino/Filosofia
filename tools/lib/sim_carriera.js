@@ -1,25 +1,24 @@
 /*
  * Una carrera entera: un estudiante aplicado (acierta el 90 % en opciones,
- * el 80 % escribiendo) juega las 52 semanas siguiendo las misiones del
+ * el 80 % escribiendo) juega todas las semanas siguiendo las misiones del
  * percorso, con un reloj simulado de un día por sesión.  Mide por semana
  * cuánto hay que jugar, cuánto tarda, qué se repite, qué queda sin usar,
  * cuánto ripasso se acumula, y verifica la integridad de cada ítem y de
  * los chequeos de cada lección.
  *
- *   node tools/lib/sim_carriera.js it              resumen por pantalla
- *   node tools/lib/sim_carriera.js pt --json       todo, en JSON
- *   node tools/lib/sim_carriera.js it --seed 7     otra semilla (por defecto 12345)
+ *   node tools/lib/sim_carriera.js es              resumen por pantalla
+ *   node tools/lib/sim_carriera.js es --json       todo, en JSON
+ *   node tools/lib/sim_carriera.js es --seed 7     otra semilla (por defecto 12345)
  *
  * Todo el azar (el del jugador y el de los módulos, que usan Math.random)
  * sale de la misma semilla: la misma corrida da siempre lo mismo.
  *
  * Termina con código 1 (y así falla `npm run sim` y el CI) si una semana
- * queda sin dominar, si un jefe no se pasa, si hay errores (el gimnasio, la
- * pausa, el repaso), ítems duplicados o chequeos de lección rotos.  Los
+ * queda sin dominar, si un jefe no se pasa, si hay errores (la pausa, el
+ * repaso, el seminario), ítems duplicados o chequeos de lección rotos.  Los
  * avisos de ítems (respuestas largas…) se informan pero no fallan.
  */
 "use strict";
-var fs = require("fs"), path = require("path"), vm = require("vm");
 
 var pack = require("./pack.js");
 var args = process.argv.slice(2);
@@ -55,36 +54,27 @@ function mulberry(a) {
 var SeededMath = Object.create(Math);
 SeededMath.random = mulberry(Math.imul(SEED, 2654435761) ^ 0x5bd1e995);
 
-// The whole language (package + core, in the order of boot.js), with the
+// The whole edition (package + core, in the order of boot.js), with the
 // simulated clock.
 var ctx = pack(CODE, { extra: { Date: FakeDate, Math: SeededMath } });
-var Engine = ctx.Engine, Drills = ctx.Drills, Frasi = ctx.Frasi, Lab = ctx.Lab, Letture = ctx.Letture,
-    Lezione = ctx.Lezione, Banca = ctx.Banca, Conj = ctx.Conjugator || ctx.Conj;
+var Engine = ctx.Engine, Drills = ctx.Drills, Lezione = ctx.Lezione;
 var course = pack.data(CODE, "course.json");
 ctx.Engine.setCourse(course);      // the length of the course and the final exam (engine.js)
-// a language that is starting (Boot.LANGS.de) may have only its course
-var optData = function (name) { return fs.existsSync(pack.dataPath(CODE, name)) ? pack.data(CODE, name) : null; };
-var bank = optData("bank.json");
-if (bank) Banca.load(bank);
 var map = Drills.itemsById(course);
-var Scrivi = ctx.Scrivi;
-var glossario = optData("glossario.json") || {};
-if (Scrivi) Scrivi.learnCourse({ items: course.items, bank: Banca.bank(), phrases: Frasi.ALL, readings: Letture.EPISODI, glossario: glossario });
-var isTarget = function (w) { return !!glossario[String(w).toLowerCase()]; };
 
 /* ------------------------------------------------------------ el jugador */
 
 var rnd = mulberry(SEED);
 var P = { choice: 0.9, typed: 0.8, retry: 0.95, lesson: 0.85, boss: 0.9 };
-var SEC = { choice: 8, typed: 20, intro: 6, word: 6, card: 10, guess: 6, hunt: 40, flash: 8, tiles: 14, listen: 12, dictation: 25 };
-var TYPED = { cloze: 1, translate: 1, conjugate: 1, typed: 1, write: 1, dictation: 1, plural: 1, numbers: 1, qa: 1, fixerr: 1 };
-var SKIP = { intro: 1, word: 1, card: 1 };
-var COUNT_KINDS = { round: 1, gym: 1, pausa: 1, boss: 1, vocab: 1 };
+var SEC = { choice: 8, typed: 20, word: 6, card: 10, flash: 8, tiles: 14, listen: 12 };
+var TYPED = { cloze: 1, translate: 1, typed: 1, qa: 1 };
+var SKIP = { word: 1, card: 1 };
+var COUNT_KINDS = { round: 1, pausa: 1, boss: 1, vocab: 1 };
 var DOMINA_TRIES = 8;
 
 var state = Engine.blankSave();
 var day = 0;
-var log = { weeks: [], issues: [], itemIssues: [], lessonIssues: [], errors: [], gymSkipped: [] };
+var log = { weeks: [], issues: [], itemIssues: [], lessonIssues: [], errors: [] };
 var served = {};                                 // id -> veces servido (ítems del curso)
 var totalSec = 0;
 
@@ -95,8 +85,7 @@ function newDay() {
 }
 
 function secondsFor(it) {
-  if (SKIP[it.type] || it.type === "guess") return SEC[it.type] || 6;
-  if (it.type === "hunt") return SEC.hunt;
+  if (SKIP[it.type]) return SEC[it.type] || 6;
   if (TYPED[it.type]) return SEC.typed;
   return SEC[it.type] || SEC.choice;
 }
@@ -111,10 +100,8 @@ function play(items, kind, week, acc) {
     if (!it) { log.errors.push("ítem nulo en " + kind + " semana " + week); continue; }
     acc.sec += secondsFor(it);
     if (SKIP[it.type]) continue;
-    if (it.type === "guess") { Engine.addXp(state, 3, new FakeDate()); acc.xp += 3; continue; }
     if (map[it.id]) served[it.id] = (served[it.id] || 0) + 1;
     var p = kind === "boss" ? P.boss : it.retry ? P.retry : TYPED[it.type] ? P.typed : P.choice;
-    if (it.type === "hunt") p = 0.95;
     var right = rnd() < p;
     var q = right ? 2 : 0;
     // A third of the misses on what you write are slips (a typo, an accent).
@@ -135,13 +122,12 @@ function play(items, kind, week, acc) {
     ctx.Reglas.afterAnswer(state, it, q, { kind: kind, now: clock.t, ekind: ekind });
     state.totals.attempts++;
     if (right) state.totals.right++; else state.totals.wrong++;
-    if (!it.frase && it.src !== "lab" && it.src !== "lettura" && it.src !== "banca" &&
-        it.src !== "coniugatore" && it.src !== "vocab" && COUNT_KINDS[kind]) {
+    if (it.src !== "vocab" && COUNT_KINDS[kind]) {
       var ws = state.weekStats[week] || (state.weekStats[week] = { attempts: 0, right: 0, bossPassed: false });
       ws.attempts++; if (right) ws.right++;
       ws.last = (ws.last || []).concat([right ? 1 : 0]).slice(-30);
     }
-    if (!right && kind !== "boss" && it.src !== "lettura" && !it.retry && !again[it.id]) {
+    if (!right && kind !== "boss" && !it.retry && !again[it.id]) {
       again[it.id] = 1;
       var copy = Object.assign({}, it, { retry: true });
       items.splice(Math.min(items.length, i + 3), 0, copy);
@@ -152,22 +138,13 @@ function play(items, kind, week, acc) {
   return acc;
 }
 
-function readingWeek(ep) {
-  if (ep.series !== "martin") return ep.week;
-  var wk = 1;
-  Letture.ofSeries("martin").forEach(function (e) { if (e.n <= ep.n) wk = Math.max(wk, e.week); });
-  return wk;
-}
-var PONTE_WEEK = { zione: 2, ta: 3, bile: 4, tt: 5, dittonghi: 6, effe: 7, pi: 8, aggio: 9, colte: 10 };
-var FALSI_WEEK = 11;
-
 /* ------------------------------------------------- integridad de los ítems */
 
 function norm(s) { return Engine.normalise(String(s == null ? "" : s)); }
 course.items.forEach(function (it) {
   var iss = function (m) { log.itemIssues.push({ id: it.id, wk: it.wk, type: it.type, msg: m }); };
   if (!it.type) iss("sin tipo");
-  if (!it.answer && it.type !== "hunt") iss("sin respuesta");
+  if (!it.answer) iss("sin respuesta");
   if (it.options) {
     var os = it.options.map(norm);
     if (os.indexOf(norm(it.answer)) < 0 && !(it.accept || []).some(function (a) { return os.indexOf(norm(a)) >= 0; })) iss("la respuesta no está entre las opciones");
@@ -183,7 +160,7 @@ course.items.forEach(function (it) {
   if (/corchetes/i.test(it.prompt || "")) txt = txt.replace(/[\[\]]/g, "");
   txt = txt.replace(/\[[^\[\]]{1,4}\]/g, "");   // notación fonética: [k], [ʎ], [dʒ]
   if (/[{}<>\[\]\\]|\bnull\b|undefined/.test(txt)) iss("restos de formato en el texto");
-  if (!it.prompt && it.type !== "hunt") iss("sin consigna");
+  if (!it.prompt) iss("sin consigna");
   if (it.type === "listen" && !it.stem) iss("escucha sin texto que leer en voz alta");
 });
 // Duplicados: misma consigna, mismo enunciado y misma respuesta con ids distintos
@@ -202,7 +179,7 @@ course.weeks.forEach(function (w) {
   var binary = 0, quizzes = 0, blocks = w.lesson.blocks.length, noCheck = 0;
   for (var s = 0; s < 5; s++) {
     var steps;
-    try { steps = Lezione.steps(w.lesson, rnd, w.week, isTarget); }
+    try { steps = Lezione.steps(w.lesson, rnd, w.week, null); }
     catch (e) { log.lessonIssues.push({ wk: w.week, msg: "Lezione.steps lanza: " + e.message }); break; }
     var qs = steps.filter(function (x) { return x.kind === "quiz"; });
     qs.forEach(function (x) {
@@ -219,12 +196,6 @@ course.weeks.forEach(function (w) {
 });
 
 /* -------------------------------------------------------- la carrera */
-
-var by = { scene: {}, ep: {}, ponte: {}, capire: {} };
-Frasi.SCENES.forEach(function (s) { (by.scene[Drills.sceneWeek(s.id)] = by.scene[Drills.sceneWeek(s.id)] || []).push(s); });
-Letture.EPISODI.forEach(function (e) { (by.ep[readingWeek(e)] = by.ep[readingWeek(e)] || []).push(e); });
-Lab.RULES.forEach(function (r) { (by.ponte[PONTE_WEEK[r.id] || 52] = by.ponte[PONTE_WEEK[r.id] || 52] || []).push(r); });
-Lab.CAPIRE.forEach(function (c) { (by.capire[c.week] = by.capire[c.week] || []).push(c); });
 
 var dueSeries = [];
 function dailyExtras(taught) {
@@ -249,7 +220,7 @@ course.weeks.forEach(function (w) {
   // 1. lección
   newDay();
   if (w.lesson) {
-    var steps = Lezione.steps(w.lesson, rnd, w.week, isTarget), right = 0, asked = 0;
+    var steps = Lezione.steps(w.lesson, rnd, w.week, null), right = 0, asked = 0;
     steps.forEach(function (s) {
       totalSec += s.kind === "quiz" ? 8 : 14;
       if (s.kind === "quiz") { asked++; if (rnd() < P.lesson) right++; }
@@ -259,19 +230,6 @@ course.weeks.forEach(function (w) {
     missions.push({ m: "lección", screens: steps.length, checks: asked });
   }
   extras();
-
-  // 1b. Scrivi: el texto de la semana (la simulación entrega el modelo y
-  // comprueba que cumpla la consigna; escribir, a unas 8 palabras por minuto)
-  if (Scrivi && Scrivi.TASKS[w.week]) {
-    var sr = Scrivi.check(Scrivi.TASKS[w.week].model, w.week);
-    if (!sr.ok || sr.hard) log.itemIssues.push({ id: "scrivi:" + w.week, wk: w.week, type: "scrivi", msg: "el modelo no cumple la consigna o tiene errores marcados" });
-    totalSec += Math.round(sr.words / 8 * 60) + 120;
-    state.scritti = state.scritti || {}; state.scritti[w.week] = { n: sr.words, errs: sr.hard, at: clock.t };
-    state.written = (state.written || 0) + 1;
-    Engine.addXp(state, Engine.xpText ? Engine.xpText(sr.words, sr.reqs.filter(function (q) { return q.ok && q.id; }).length, !sr.hard)
-                                      : 40 + Math.min(40, Math.floor(sr.words / 5)) + 20, new FakeDate());
-    missions.push({ m: "scrivi", words: sr.words });
-  }
 
   // 2. palabras de la semana
   if (w.vocab && w.vocab.length) {
@@ -301,7 +259,7 @@ course.weeks.forEach(function (w) {
     if (ws0.bossPassed) { Engine.addXp(state, Engine.XP.boss, new FakeDate()); state.unlocked = Math.min(course.weeks.length, w.week + 1); }
     // composición: de qué semanas vienen los ítems del jefe
     var comp = {};
-    Drills.buildBoss(course, w, state).forEach(function (it) { var k = it.src === "coniugatore" ? "gym" : (map[it.id] ? "sem " + map[it.id].wk : it.src); comp[k] = (comp[k] || 0) + 1; });
+    Drills.buildBoss(course, w, state).forEach(function (it) { var k = map[it.id] ? "sem " + map[it.id].wk : it.src; comp[k] = (comp[k] || 0) + 1; });
     missions.push({ m: "jefe", tries: tries, pct: Math.round(pct * 100), items: bacc.asked, composition: comp });
     extras();
   } else {
@@ -339,80 +297,16 @@ course.weeks.forEach(function (w) {
     if (ctx.Seminario && w.seminario) {
       var sxp = ctx.Seminario.simulate(state, w);
       Engine.addXp(state, sxp, new FakeDate());
-      if (!ctx.Seminario.semDone(w.seminario, ctx.Seminario.rec(state, w.week))) errors.push("semana " + w.week + ": el seminario simulado no quedó hecho");
+      if (!ctx.Seminario.semDone(w.seminario, ctx.Seminario.rec(state, w.week))) log.errors.push("semana " + w.week + ": el seminario simulado no quedó hecho");
       missions.push({ m: "seminario", xp: sxp, tramos: w.seminario.tramos.length });
     }
     var distinct = Object.keys(poolServed).length;
     var maxRep = 0; Object.keys(poolServed).forEach(function (k) { maxRep = Math.max(maxRep, poolServed[k]); });
     missions.push({ m: "entrenamiento", rounds: rounds, asked: roundAsked, sec: roundSec, pool: pool.length,
                     distinctServed: distinct, maxRepeat: maxRep, mastered: Drills.dominated(ws, w, state), domTries: domTries });
-    // gimnasio: una sesión, y todas las combinaciones verbo × tiempo
-    // (una forma que el verbo no tiene, como el imperativo de poder, no se
-    // pide: no es un error)
-    var gymErr = 0, gymItems = [];
-    (w.verbs || []).forEach(function (v) { (w.tenses || []).forEach(function (t) {
-      if (Drills.lacksForm && Drills.lacksForm(v, t)) { log.gymSkipped.push(w.week + " " + v + "/" + t); return; }
-      try {
-        var gd = Drills.conjugationDrill(v, t, w.known, w.persons), gt = Drills.conjugationTyped(v, t, w.persons);
-        gymItems.push(gd);
-        [gd, gt].forEach(function (g) {
-          var bad = !g.answer ? "sin respuesta" : g.options && g.options.indexOf(g.answer) < 0 ? "la respuesta no está entre las opciones"
-                  : g.options && new Set(g.options).size !== g.options.length ? "opciones repetidas"
-                  : g.options && g.options.length < 2 ? "menos de dos opciones" : /undefined|null/.test(g.stem + g.prompt) ? "restos en el texto" : "";
-          if (bad) throw new Error(g.id + ": " + bad);
-        });
-      }
-      catch (e) { gymErr++; log.errors.push("gimnasio semana " + w.week + " " + v + "/" + t + ": " + e.message); }
-    }); });
-    var gacc = play(Drills.firstRecognize(gymItems.slice(0, 15), state, w.week), "gym", w.week);
-    missions.push({ m: "gimnasio", verbs: (w.verbs || []).length, tenses: (w.tenses || []).length, errors: gymErr, asked: gacc.asked, sec: gacc.sec });
   }
 
-  // 4. frases de la semana
   newDay(); extras();
-  (by.scene[w.week] || []).forEach(function (sc) {
-    var sessions = 0, sacc = { asked: 0, right: 0, sec: 0, xp: 0, repeats: 0 }, pr;
-    do { sessions++; play(Frasi.sceneSession(sc.id, state.cards, {}), "scene", w.week, sacc); pr = Frasi.progress(sc.id, state.cards); }
-    while (pr.seen < pr.total && sessions < 10);
-    missions.push({ m: "frases", scene: sc.name, sessions: sessions, phrases: pr.total, asked: sacc.asked, sec: sacc.sec });
-  });
-
-  // 5. lecturas
-  (by.ep[w.week] || []).forEach(function (ep) {
-    var eacc = play(Letture.session(ep), "lettura", w.week);
-    state.letture = state.letture || {}; state.letture[ep.id] = { pct: Math.round(eacc.right / Math.max(1, eacc.asked) * 100), at: clock.t };
-    Engine.addXp(state, 20, new FakeDate());
-    var words = Letture.tokens(ep.text).length;
-    missions.push({ m: ep.series === "martin" ? "lectura" : "cultura", title: ep.title, words: words, questions: eacc.asked, sec: eacc.sec + words * 0.6 });
-    totalSec += words * 0.6;
-  });
-
-  // 5b. la serie Radio (radio.js, semanas 6-25): dos escuchas a ~130 palabras
-  // por minuto y las preguntas; los minutos cuentan como input
-  var rad = ctx.Radio && ctx.Radio.episode(w.week);
-  if (rad && !w.boss) {
-    var rw = ctx.Radio.words(rad), rsec = Math.round(rw / 130 * 60 * 2 + (rad.questions.length + rad.info.length) * 12);
-    ctx.Radio.record(state, w.week, { pct: 80, ok: 4, n: 5 });
-    Engine.addStrand(state, "input", Math.round(rsec / 10), new FakeDate());
-    missions.push({ m: "radio", title: rad.title, words: rw, sec: rsec });
-    totalSec += rsec;
-  }
-
-  // 6. laboratorio
-  (by.ponte[w.week] || []).forEach(function (r) {
-    var pacc = play(Lab.ponteSession(state.cards, r.id), "ponte", w.week);
-    missions.push({ m: "ponte", rule: r.h, asked: pacc.asked, sec: pacc.sec });
-  });
-  if (w.week === FALSI_WEEK) { var facc = play(Lab.falsiSession(state.cards), "falsi", w.week); missions.push({ m: "falsi amici", asked: facc.asked, sec: facc.sec }); }
-  (by.capire[w.week] || []).forEach(function (c) {
-    var cacc = play(Lab.capireSession(state.cards, c.id, w.week), "capire", w.week);
-    missions.push({ m: "capire", set: c.h, asked: cacc.asked, sec: cacc.sec });
-  });
-
-  // 7. banco (si el idioma lo tiene)
-  if (Banca.loaded() && w.week === Banca.FORME_WEEK) { var fo = play(Banca.formsSession(state, 12), "b-forme", w.week); missions.push({ m: "banco forme", asked: fo.asked, sec: fo.sec }); }
-  if (Banca.loaded() && w.week === Banca.TR_WEEK) { var tr = play(Banca.translateSession(state, 8), "b-tr", w.week); missions.push({ m: "banco traduci", asked: tr.asked, sec: tr.sec }); }
-  if (Banca.loaded() && w.week === Banca.GAP_WEEK) { var ga = play(Banca.gapSession(state, 10), "b-gap", w.week); missions.push({ m: "banco coniuga", asked: ga.asked, sec: ga.sec }); }
 
   // 8. sfide del maestro
   var ch = (w.challenges || []).map(function (id) { return course.challenges.filter(function (c) { return c.id === id; })[0]; }).filter(Boolean);
@@ -467,10 +361,7 @@ var summary = {
   badges: state.badges, badgesTotal: Engine.BADGES.length, unlocked: state.unlocked,
   bossPassed: course.weeks.filter(function (w) { return w.boss; }).map(function (w) { return { week: w.week, passed: !!(state.weekStats[w.week] || {}).bossPassed }; }),
   cards: Object.keys(state.cards).length,
-  wordsPractised: Object.keys(state.cards).filter(function (k) { return k.indexOf("v:") === 0 || k.indexOf("b:voc:") === 0; }).length,
-  phrasesSeen: Object.keys(state.cards).filter(function (k) { return k.indexOf("frase:") === 0; }).length,
-  phrasesTotal: Frasi.ALL.length,
-  readings: Object.keys(state.letture || {}).length, readingsTotal: Letture.EPISODI.length,
+  wordsPractised: Object.keys(state.cards).filter(function (k) { return k.indexOf("v:") === 0; }).length,
   totals: state.totals,
   items: course.items.length, itemsServed: Object.keys(served).length,
   neverServed: neverServed.length,
@@ -504,7 +395,6 @@ if (process.argv.indexOf("--json") >= 0) {
       String(tr.maxRepeat || "-").padStart(8), String(W.dueMax).padStart(8), (sf.groups ? sf.playable + "/" + sf.selfScored : "-").padStart(10),
       W.boss ? " ⚔️" : "", W.title.slice(0, 40));
   });
-  if (log.gymSkipped.length) console.log("\ngimnasio, formas que el verbo no tiene (no se piden): " + log.gymSkipped.join(", "));
   if (log.errors.length) console.log("\nERRORES:\n" + log.errors.slice(0, 40).join("\n"));
   if (log.itemIssues.length) console.log("\nÍTEMS:\n" + log.itemIssues.slice(0, 60).map(function (x) { return x.id + " (sem " + x.wk + ", " + x.type + "): " + x.msg; }).join("\n"));
   if (log.lessonIssues.length) console.log("\nLECCIONES:\n" + log.lessonIssues.slice(0, 40).map(function (x) { return "sem " + x.wk + ": " + x.msg; }).join("\n"));

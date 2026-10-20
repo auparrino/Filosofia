@@ -1,10 +1,12 @@
 /* Ágora en el navegador (cada edición de docs/lang/: por ahora, la
    castellana).  Abre la app (con una sola edición no hay selector), pasa el
-   primer arranque, recorre Hoy, el camino, la semana 1 con su lección y su
-   ronda, la pausa, el repaso y Yo; mira que la época se pinte (data-era) y
-   que nada quede de La Via C1 (título, claves del guardado, cachés):
-   ningún error de la página, ningún archivo pedido que no exista, y lo que
-   la edición todavía no tiene (frases, lecturas, examen…) no aparece.
+   primer arranque, recorre Hoy, la semana 1 con su lección, su ronda y su
+   seminario, la pausa, Yo, el camino (el mapa de semanas) y las pantallas
+   de «Todo el material» (Entrenar, Leer, Consultar, Tu progreso); mira que
+   la época se pinte (data-era) y que nada quede de La Via C1 (título,
+   claves del guardado, cachés): ningún error de la página ni de la
+   consola, ningún archivo pedido que no exista, ningún texto roto
+   («undefined», «NaN»).
      NODE_PATH=$(npm root -g) node tools/lib/smoke_curso.js
      SHOTS=dir   capturas a 390×844 (también una por época, con ?era=N) */
 "use strict";
@@ -163,6 +165,48 @@ function chromiumPath() {
   await page.click("#nav button >> nth=2").catch(() => {});
   await page.waitForTimeout(600);
   await snap("yo", true);
+  // the map of weeks and the screens of «Todo el material»: they draw, with no broken text
+  const broken = async (label) => {
+    const t = await text();
+    if (/undefined|NaN|\[object /.test(t)) errors.push(label + ": texto roto: " + (t.match(/.{0,40}(undefined|NaN|\[object ).{0,40}/) || [""])[0]);
+    return t;
+  };
+  await broken("Yo");
+  await page.click("#nav button >> nth=1");
+  await page.waitForTimeout(600);
+  await snap("camino", true);
+  const nodes = (await page.$$(".node")).length, nweeks = await page.evaluate(() => document.querySelectorAll(".season").length);
+  note("camino: " + nodes + " semanas en " + nweeks + " estaciones");
+  if (!nodes) errors.push("el camino no muestra las semanas");
+  await broken("el camino");
+  const screens = [["frasi", "Entrenar"], ["leggi", "Leer"], ["consultar", "Consultar"]];
+  for (const sc of screens) {
+    await page.click("#nav button >> nth=2");
+    await page.waitForTimeout(400);
+    await page.click('[data-goto="' + sc[0] + '"]').catch(() => errors.push("Yo no tiene el botón de " + sc[1]));
+    await page.waitForTimeout(500);
+    const scr = await page.evaluate(() => window.__test.screen());
+    if (scr !== sc[0]) errors.push(sc[1] + ": abrió «" + scr + "»");
+    await broken(sc[1]);
+    await snap("material-" + sc[0], true);
+  }
+  // Consultar: a concept of the course
+  if (await page.$("#cq")) {
+    await page.fill("#cq", "arj");
+    await page.waitForTimeout(400);
+    const sug = (await page.$$("[data-cword]")).length;
+    note("consultar «arj»: " + sug + " conceptos");
+    if (!sug) errors.push("Consultar no encuentra conceptos del curso");
+    if (sug) { await page.click("[data-cword] >> nth=0"); await page.waitForTimeout(300); await broken("Consultar, un concepto"); }
+  }
+  await page.click("#nav button >> nth=2");
+  await page.waitForTimeout(400);
+  if (await page.$("#toprog")) {
+    await page.click("#toprog");
+    await page.waitForTimeout(500);
+    await broken("Tu progreso");
+    await snap("progreso", true);
+  } else errors.push("Yo no tiene «Tu progreso»");
   // the copy in a GitHub Gist, with the API simulated (smoke_nube.js)
   await require("./smoke_nube.js")(page, { code: "es", errors, note, snap: (p, name) => snap(name) });
   await page.evaluate(() => { location.hash = ""; });
