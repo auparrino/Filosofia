@@ -5,141 +5,51 @@
 | Paso | Qué | Estado |
 |---|---|---|
 | 1 | Copiar la base (La Via C1 v3.11.4, sin historial) a `main` | hecho |
-| 2 | Diagnóstico: qué es motor, qué es idioma, temario, ejercicios, modos | hecho (abajo) |
-| 3 | Separar la app de La Via C1: prefijos, marca, íconos, la edición `es` con las semanas 1-3, las seis épocas; borrar los paquetes de idioma y sus tests | **hecho** (v0.1.0) |
-| 4 | Limpiar el núcleo: sacar los módulos de idioma, renombrar los modos, malentendidos en lugar de errores de lengua | pendiente |
-| 5 | Ejercicios nuevos: relacioná, tabla de verdad, experimento mental, premisa floja, la pregunta abierta con IA y su rúbrica | pendiente |
-| 6 | Contenido `es`: semanas 4-13 y el examen de la Antigüedad; después las estaciones 2, 3 y 4 | pendiente (3 de 52 semanas) |
-| 7 | Ediciones it y pt desde la misma fuente, con un test de paridad; después de | pendiente |
-| 8 | Lecturas de fuentes y Biblioteca, diálogos a dos voces, «el mismo concepto en cuatro lenguas» | pendiente |
-| — | La literatura de las 52 semanas (§7) | **hecho** (los datos; cómo se muestra depende del formato) |
-| — | Investigar si el formato de La Via sirve ([FORMATO.md](FORMATO.md)) | **hecho**; falta decidir |
+| 2 | Diagnóstico: qué es motor y qué es idioma | hecho (§6) |
+| 3 | Separar la app de La Via C1: prefijos, marca, íconos, la edición `es`; borrar los paquetes de idioma | hecho (v0.1.0) |
+| 4 | El temario: 117 semanas en 9 estaciones, comparado con los planes de estudio y con las tradiciones no occidentales | **hecho** (§2) |
+| 5 | La literatura de cada semana | **hecho** (§4) |
+| 6 | El formato: investigar ([FORMATO.md](FORMATO.md)) y elegir | **hecho**: el híbrido |
+| 7 | El motor sin 52 semanas: un examen cada 13 y el final en la última | **hecho** |
+| 8 | El seminario semanal, los dilemas y la tarjeta de literatura (`docs/js/seminario.js`) | **hecho** |
+| 9 | Ocho épocas en la estética | **hecho** (§3) |
+| 10 | El contenido: 108 semanas de contenido (las 9 de examen se arman solas) | **en curso** |
+| 11 | Limpiar el núcleo: sacar los módulos de idioma, renombrar los modos y pasar los errores a malentendidos | pendiente (§6) |
+| 12 | Ejercicios nuevos: relacioná, tabla de verdad, la premisa floja | pendiente |
+| 13 | Ediciones it y pt desde la misma fuente, con un test de paridad; después de | pendiente |
+| 14 | Leer las obras de dominio público dentro de la app (la Biblioteca) | pendiente |
 
-Decisiones ya tomadas:
-- **La base** es `main` v3.11.4. La rama `ccr-f31ce70c-nyfpin` no existe, y
-  la v1.55 era la rama por defecto, un mes más vieja.
-- **El temario** sale de comparar los planes de estudio de las universidades
-  (§3).
-- **La estética avanza con la historia**, en seis épocas (§4).
-- **Una sola fuente de contenido** para las cuatro ediciones.
-- **La interfaz, en castellano** en todas las ediciones; lo que cambia es el
-  contenido.
-- **El nombre** es **Ágora**, provisorio: se cambia en `lang.js`, el
-  `manifest`, `index.html` y `boot.js`.
+**Decisiones tomadas:**
+- **La base** es `main` v3.11.4 de La Via C1.
+- **El nombre** es Ágora.
+- **El temario** sale de comparar los planes de estudio de las carreras de
+  Filosofía, más las tradiciones no occidentales en su momento.
+- **El formato** es el híbrido: lo diario corto, con preguntas de
+  aplicación, y un seminario semanal con un tutor socrático que no da
+  respuestas.
+- **La estética** avanza con la historia.
+- **Una sola fuente de contenido** para las cuatro ediciones, y la interfaz
+  en castellano.
+- **La extensión** es la que haga falta: hoy son 117 semanas.
 
-## 1. Qué se hizo en el paso 3
+## 1. Cómo se escribe el contenido
 
-- **Separada de La Via C1.** Las dos apps quedan en el mismo dominio
-  (`auparrino.github.io`) y por eso comparten `localStorage` y cachés. Ahora
-  todo lo de Ágora lleva el prefijo `agora`:
-  - el guardado (`agora-es.save.v1`);
-  - las claves (`agora.lang`, `agora.era`, `agora.kb2`,
-    `agora.gist.token`);
-  - las cachés del service worker (`agora-v0.1.0`, `agora-voci`), que ya no
-    borran las `c1-…` de La Via;
-  - las copias exportadas (`{app: "agora"}`).
+Cada semana es un archivo `tools/curso/semanas/wNN.py`. Las reglas están en
+[CONTENIDO.md](CONTENIDO.md), y `tools/curso/validar_semana.py NN` controla
+cada semana. Una semana tiene:
+- una lección de al menos 9 bloques en 3 partes;
+- al menos 45 ejercicios, con el 40 % de aplicación;
+- al menos 12 conceptos;
+- uno o más dilemas;
+- el seminario: de 3 a 6 tramos de texto, el mapa del argumento, la
+  escritura con rúbrica y modelo, y las preguntas socráticas.
 
-  `boot.js` ya no abre el progreso de italiano. Lo controlan `test_curso.js`
-  y `smoke_curso.js`. **Ya se puede activar GitHub Pages** (*Settings →
-  Pages → main → /docs*).
-- **Marca nueva.** El nombre es Ágora en el título, el `manifest` (nombre,
-  descripción, colores y atajos), los metas, la tarjeta para compartir y el
-  confetti. El ícono es la lechuza de Atenea en figuras negras sobre
-  terracota, con una greca, en SVG y en PNG de 192, 512, maskable y
-  apple-touch. Un chequeo (`check_curso.py`) falla si en lo que se ve queda
-  «La Via», «C1», «italiano», «portugués» o «alemán».
-- **La edición `es`.** Arranca como arrancó el alemán en La Via: `lang.js`,
-  `rules.js`, `theme.css` y el curso, y `missing` con todo lo demás. Trae
-  las semanas 1 a 3 (108 ejercicios y 36 conceptos, con todas las citas
-  con su fuente):
-  - ¿Qué es la filosofía?;
-  - los milesios, Pitágoras y Jenófanes;
-  - Heráclito, Parménides, Zenón y los atomistas.
+Las semanas se escriben en paralelo, por estación. Cada una se valida sola,
+y después `npm test` y `npm run sim` controlan el curso entero. Lo que
+queda por revisar a mano son las citas, las fechas y las referencias: los
+agentes que escriben anotan las que no pudieron verificar.
 
-  La corrección no cuenta las tildes (`grade.ignoreMarks`, una opción nueva
-  del motor) y las respuestas se escriben con el teclado del teléfono.
-- **Las épocas.** `data-era` en `<html>` sigue a la semana en que vas, y
-  `?era=N` muestra cualquiera (§4).
-- **Se borró lo del idioma:**
-  - los paquetes `it`, `pt` y `de`;
-  - sus herramientas y fuentes (los manuales, el banco, los lexicones, el
-    tramo, la radio, la Biblioteca);
-  - Tres lenguas;
-  - las auditorías y los README de cada idioma;
-  - el chequeo de enlaces.
-
-  La app pasó de 43 MB a 2 MB. Todo eso sigue en `auparrino/It`.
-- **Tests.**
-  - `npm test` corre `check_curso.py`, `test_curso.js` (unos 2.000
-    controles) y los tests del núcleo que no dependen de un idioma: versión,
-    rutas, estado, racha, «2 minutos», huecos, IA, nube y plan.
-  - `npm run sim` simula las tres semanas, y las domina todas.
-  - `npm run smoke` recorre en Chromium Hoy, la lección, la ronda, la
-    pausa, Yo, la copia en un Gist, las claves, las cachés y las seis épocas.
-  - El lint no tiene errores.
-  - **Se borraron 51 tests y chequeos de La Via** que probaban contenido de
-    idioma:
-    - 24 del italiano, el portugués y el alemán (12 + 11 + 1, entre tests y
-      chequeos de contenido);
-    - 27 de los comunes, entre ellos:
-      - los del banco, el glosario, el conjugador, el diagnóstico, lecturas,
-        radio, tramo, Biblioteca, «Fuera», trabajo y Tres lenguas;
-      - los que probaban **módulos del núcleo sobre ese contenido**: reglas,
-        «¿Por qué?», referencia, capas, «una más», lecciones, orden de las
-        lecciones, ubicación y mapas, escritura guiada, corrección y
-        devoluciones, errores.
-
-    También se fue el chequeo semanal de enlaces de «Fuera de la app».
-
-    Esos últimos se reescriben en el paso 4, cuando cada módulo tenga
-    contenido de filosofía.
-
-## 2. Diagnóstico: motor y contenido
-
-### El motor, que se reutiliza
-
-| Pieza | Dónde | Para filosofía |
-|---|---|---|
-| Arranque y paquetes | `docs/js/boot.js` | tal cual: los paquetes son ediciones |
-| Motor | `docs/js/engine.js` | tal cual: estado, guardado, xp, niveles, racha, meta diaria, FSRS |
-| Lecciones en pasos | `docs/js/lezione.js` | tal cual: un bloque es una idea, una tesis o un argumento |
-| Rondas | `docs/js/drills.js` | tal cual: ronda, Dominala, jefe por destreza, repaso, pausa |
-| Camino, misiones, estaciones | `docs/js/app.js`, `docs/js/capas.js` | tal cual |
-| Hoy, plan del día, progreso | `docs/js/inicio.js`, `docs/js/plan.js`, `docs/js/progreso.js` | tal cual |
-| La regla como ficha, «¿Por qué?» | `docs/js/reglas.js`, `docs/js/porque.js` | se adapta: «¿por qué es esta la respuesta?» lleva al bloque de la idea |
-| Corrección y errores | `docs/js/errores.js` | el motor queda; las categorías pasan a ser malentendidos (abajo) |
-| IA | `docs/js/ia.js` | tal cual: es la pieza central de las preguntas abiertas |
-| Mi gramática → Mis ideas; «Consultar» → diccionario filosófico | `docs/js/referencia.js` | se adapta |
-| Ubicación | `docs/js/ubicacion.js` | tal cual: «¿ya sabés algo de filosofía?» |
-| Lecturas y Biblioteca | `docs/js/letture.js`, `docs/js/biblioteca.js` | se adaptan: fragmentos de fuentes primarias y obras de dominio público (Platón, Descartes, Hume, Kant, Mill y Nietzsche están en los cuatro idiomas) |
-| Escritura guiada, Tres vueltas, Reformulación | `docs/js/escritos.js`, `docs/js/escritura_plus.js` | se adaptan: el argumento escrito tres veces, la objeción |
-| Ordená el texto | `docs/js/ordenar.js` | la base para reconstruir argumentos y armar líneas de tiempo |
-| Duelos | `docs/js/duelli.js` | duelo de escuelas |
-| Modo oficina, PWA, copia en la nube, calendario | `docs/sw.js`, `docs/js/nube.js`, `docs/js/app.js` | tal cual |
-| Herramientas | `tools/lib/pack.js`, `tools/lib/sim_carriera.js`, `tools/lib/smoke_curso.js` | tal cual |
-
-**Lo que cambia de contenido, no de mecánica:**
-- las categorías de error pasan a ser los **malentendidos**: el autor
-  equivocado, la escuela vecina, la cita apócrifa, el anacronismo, validez
-  contra verdad, el hombre de paja. El cuaderno es el «📓 Cuaderno de
-  malentendidos»;
-- las cuatro cuerdas pasan a ser **leer, argumentar, conceptos y rapidez**;
-- la frase del día pasa a ser la **cita del día**;
-- la palabra del día pasa a ser el **concepto del día**.
-
-### Lo del idioma, que se saca
-
-Ya se borraron los paquetes y las herramientas (paso 3). En el núcleo quedan
-módulos que se cargan sin datos y se sacan en el paso 4:
-- se borran: el conjugador y el gimnasio de verbos, los sonidos y las voces
-  grabadas, el dictado, el dictogloss, el C-test, las variaciones, el
-  desglose, los mapas de preposiciones, las fórmulas, la frecuencia, «Para
-  el trabajo» y Tres lenguas;
-- se adaptan: las frases (pasan a ser citas por autor), la radio (pasa a ser
-  diálogos filosóficos a dos voces) y el tramo C1 (pasa a ser una fuente
-  larga con un ensayo breve).
-
-## 3. Temario: 52 semanas, según los planes de estudio
+## 2. El temario: 117 semanas
 
 **Fuentes.** Comparé las materias obligatorias de las carreras de grado en
 Filosofía de 14 universidades:
@@ -189,225 +99,361 @@ aplicada, técnica e IA) queda, más comprimido.
 - FU Berlin: https://www.fu-berlin.de/service/zuvdocs/amtsblatt/2022/ab212022.pdf
 - Oxford: https://www.some.ox.ac.uk/wp-content/uploads/2026/08/Prelim-Philosophy-PPE-letter-2026.pdf
 
-**Estación 1 · La Antigüedad** (nivel 1)
+**Lo que sumó la segunda vuelta:**
+- **La extensión:** las 52 semanas pasan a 117, en 9 estaciones.
+- **Tradiciones no occidentales, cada una en su momento:**
+  - la India antigua (5) y China antigua (6), junto a los presocráticos;
+  - el islam (33-34) y el judaísmo medieval (35);
+  - África (113) y Asia (114: Nagarjuna, el neoconfucianismo, la Escuela de
+    Kioto, Gandhi).
+- **Medioevo:** pasa de 5 a 12 semanas.
+- **Autores con semana propia o compartida:** Pascal, los cínicos, el
+  escepticismo antiguo, la Escuela de Salamanca y la conquista, Bergson y
+  la antropología filosófica, Beauvoir, Arendt, Quine y Kripke, la
+  filosofía de la religión contemporánea, la filosofía de la matemática.
+- **Pensamiento latinoamericano y argentino:** el XIX en la semana 75 y dos
+  semanas propias (111-112).
 
-| # | Semana | Rama | |
-|---|---|---|---|
-| 1 | ¿Qué es la filosofía? Asombro, mito y logos, las ramas, premisas y conclusión | introducción, lógica | ✓ |
-| 2 | Los milesios, Pitágoras y Jenófanes: el *arjé* | metafísica | ✓ |
-| 3 | Heráclito, Parménides, Zenón y los atomistas: el devenir y el ser | metafísica, epistemología | ✓ |
-| 4 | **Lógica I**: validez y verdad, deducción e inducción, *modus ponens* y *tollens* | lógica | |
-| 5 | Los sofistas y Sócrates (*Apología*, *Eutifrón*): relativismo, *élenchos* | ética | |
-| 6 | Platón I (*Menón*, *Fedón*): las Ideas, la reminiscencia, el alma | epistemología, metafísica | |
-| 7 | Platón II (*República*): la justicia, la línea y la caverna, el filósofo-rey | filosofía política | |
-| 8 | Aristóteles I (*Categorías*, *Metafísica*): sustancia, cuatro causas, acto y potencia | metafísica | |
-| 9 | **Lógica II**: el silogismo y las falacias | lógica | |
-| 10 | Aristóteles II (*Ética a Nicómaco*): *eudaimonía*, virtud, prudencia | ética | |
-| 11 | **Estética I**: *mímesis* y catarsis (*República* X contra la *Poética*) | estética | |
-| 12 | Los helenísticos: estoicos, epicúreos y escépticos (Sexto Empírico) | ética, epistemología | |
-| 13 | 🏛️ **Examen de la Antigüedad** | — | |
 
-**Estación 2 · Del Medioevo a la Modernidad** (nivel 2)
+**Estación 1 · Grecia: del mito a Platón**
 
-| # | Semana | Rama |
+| # | Semana | Ramas |
 |---|---|---|
-| 14 | Plotino y Agustín: lo Uno, el mal, el tiempo, el maestro interior | antropología filosófica, metafísica |
-| 15 | Boecio, Anselmo (el argumento ontológico) y Abelardo (los universales) | filosofía de la religión, del lenguaje |
-| 16 | Avicena, Averroes y Maimónides: fe y razón, esencia y existencia | metafísica, filosofía de la religión |
-| 17 | Tomás de Aquino: las cinco vías, la ley natural, el alma | metafísica, ética |
-| 18 | Escoto y Ockham: univocidad, nominalismo, la navaja | filosofía del lenguaje, metafísica |
-| 19 | Renacimiento y ciencia nueva: Pico, Galileo, Bacon; Las Casas contra Sepúlveda | antropología filosófica, filosofía de la ciencia |
-| 20 | **Política I**: Maquiavelo y Hobbes | filosofía política |
-| 21 | Descartes: la duda, el *cogito*, el dualismo | epistemología |
-| 22 | Spinoza y Leibniz: sustancia, mónadas, necesidad | metafísica |
-| 23 | Locke y Berkeley: ideas, cualidades, inmaterialismo | epistemología |
-| 24 | Hume: causalidad, inducción, el yo, el «es» y el «debe» | epistemología, ética |
-| 25 | **Política II**: Locke, Montesquieu y Rousseau | filosofía política |
-| 26 | 📜 **Examen del Medioevo y la Modernidad** | — |
+| 1 | ¿Qué es la filosofía? | introducción, lógica |
+| 2 | Los milesios, Pitágoras y Jenófanes | metafísica |
+| 3 | Heráclito, Parménides, Zenón y los atomistas | metafísica, epistemología |
+| 4 | Lógica I: validez, verdad y forma | lógica |
+| 5 | La India antigua: Upanishads, Buda y Mahavira | metafísica, ética, antropología filosófica |
+| 6 | China antigua: Confucio, Laozi, Mozi y Zhuangzi | ética, filosofía política, metafísica |
+| 7 | Los sofistas | ética, epistemología, filosofía política |
+| 8 | Sócrates | ética, lógica |
+| 9 | Platón I: el alma y el conocimiento | epistemología, metafísica |
+| 10 | Platón II: la justicia (República I-IV) | filosofía política, ética |
+| 11 | Platón III: el filósofo y el Bien (República V-VII, Banquete) | metafísica, epistemología, filosofía política |
+| 12 | Platón IV: el conocimiento y la crítica de las Ideas | epistemología, metafísica |
+| 13 | 🎓 **Examen: Grecia, del mito a Platón** | — |
 
-**Estación 3 · De Kant al siglo XX** (nivel 3)
+**Estación 2 · Aristóteles, helenísticos y Roma**
 
-| # | Semana | Rama |
+| # | Semana | Ramas |
 |---|---|---|
-| 27 | Kant I (*Crítica de la razón pura*): el giro copernicano, los juicios sintéticos *a priori* | epistemología, metafísica |
-| 28 | Kant II (*Fundamentación*, «¿Qué es la Ilustración?»): el imperativo categórico | ética |
-| 29 | El idealismo alemán y Hegel: dialéctica, amo y esclavo, la historia | filosofía de la historia |
-| 30 | Schopenhauer y Kierkegaard: la voluntad, el arte, la angustia, los estadios | antropología filosófica |
-| 31 | **Ética III**: el utilitarismo de Bentham y Mill | ética |
-| 32 | Marx: alienación, materialismo histórico, ideología | filosofía política, de la historia |
-| 33 | Nietzsche: la genealogía de la moral, la muerte de Dios | ética, antropología filosófica |
-| 34 | **Lógica III y lenguaje I**: Frege y Russell; lógica proposicional y cuantificadores | lógica, filosofía del lenguaje |
-| 35 | El pragmatismo: Peirce, James, Dewey | epistemología |
-| 36 | Wittgenstein I (*Tractatus*) y el Círculo de Viena | filosofía del lenguaje, de la ciencia |
-| 37 | Husserl: intencionalidad y *epojé* | epistemología |
-| 38 | Heidegger (*Ser y tiempo*): la pregunta por el ser, el *Dasein* | metafísica |
-| 39 | ☕ **Examen de Kant al siglo XX** | — |
+| 14 | Aristóteles I: categorías y sustancia | metafísica, lógica |
+| 15 | Aristóteles II: la naturaleza (Física) | metafísica, filosofía de la ciencia |
+| 16 | Aristóteles III: el ser y el alma (Metafísica, Acerca del alma) | metafísica, antropología filosófica |
+| 17 | Lógica II: el silogismo y las falacias | lógica |
+| 18 | Aristóteles IV: la ética (Ética a Nicómaco) | ética |
+| 19 | Aristóteles V: política, retórica y poética | filosofía política, estética |
+| 20 | Cínicos y cirenaicos | ética |
+| 21 | Epicuro y el epicureísmo | ética, metafísica |
+| 22 | Los estoicos griegos: lógica, física y ética | ética, lógica, metafísica |
+| 23 | El estoicismo en Roma | ética, filosofía política |
+| 24 | Los escépticos | epistemología |
+| 25 | Plotino y el neoplatonismo | metafísica, antropología filosófica |
+| 26 | 🎓 **Examen: Aristóteles, helenísticos y Roma** | — |
 
-**Estación 4 · La filosofía de hoy** (nivel 4)
+**Estación 3 · El Medioevo**
 
-| # | Semana | Rama |
+| # | Semana | Ramas |
 |---|---|---|
-| 40 | Antropología filosófica y existencialismo: Scheler, Sartre, Beauvoir, Camus | antropología filosófica |
-| 41 | **Lenguaje II y hermenéutica**: Wittgenstein II, Austin, Gadamer | filosofía del lenguaje, hermenéutica |
-| 42 | Filosofía de la ciencia: Popper, Kuhn, Lakatos | filosofía de la ciencia |
-| 43 | **Epistemología II**: Gettier, internismo y externismo, el escepticismo | epistemología |
-| 44 | Filosofía de la mente: dualismo, identidad, funcionalismo, Nagel, la habitación china | filosofía de la mente |
-| 45 | **Metafísica**: identidad personal, libre albedrío, modalidad | metafísica |
-| 46 | La Escuela de Frankfurt, Foucault y Derrida | filosofía política |
-| 47 | **Política III**: Rawls, Nozick, Arendt | filosofía política |
-| 48 | Filosofía feminista: Beauvoir, Butler, Fraser, las epistemologías situadas | ética, filosofía política |
-| 49 | Pensamiento argentino y latinoamericano: Alberdi, Korn, Astrada, Kusch, Roig, Zea y Salazar Bondy, Dussel | pensamiento argentino y latinoamericano |
-| 50 | **Estética II**: Kant (*Crítica del juicio*), Hegel, Benjamin, Danto | estética |
-| 51 | Ética aplicada (el tranvía, la bioética), técnica e IA, el sentido de la vida | ética |
-| 52 | 🎓 **Examen final** (tres versiones) | — |
+| 27 | Fe y razón: los primeros cristianos | filosofía de la religión, metafísica |
+| 28 | Agustín I: el mal, la libertad y el tiempo | metafísica, ética, antropología filosófica |
+| 29 | Agustín II: la verdad y la historia | epistemología, filosofía de la historia, filosofía política |
+| 30 | Boecio, el Pseudo-Dionisio y Eriúgena | metafísica, filosofía de la religión |
+| 31 | Anselmo y el argumento ontológico | filosofía de la religión, lógica |
+| 32 | La querella de los universales | metafísica, filosofía del lenguaje |
+| 33 | La filosofía en el islam I: al-Kindi, al-Farabi y Avicena | metafísica, filosofía de la religión, antropología filosófica |
+| 34 | La filosofía en el islam II: al-Ghazali, Averroes e Ibn Jaldún | filosofía de la religión, metafísica, filosofía de la historia |
+| 35 | La filosofía judía medieval: Saadia, Halevi y Maimónides | filosofía de la religión, metafísica |
+| 36 | Tomás de Aquino I: fe, razón y las cinco vías | filosofía de la religión, metafísica |
+| 37 | Tomás de Aquino II: el alma, la ley y la acción | ética, filosofía política, antropología filosófica |
+| 38 | Duns Escoto, Ockham y el fin de la escolástica | metafísica, filosofía del lenguaje, epistemología |
+| 39 | 🎓 **Examen: el Medioevo** | — |
 
-Los exámenes de estación son por destreza (`Drills.buildBoss` ya lo hace):
-**comprensión** de un fragmento, **conceptos**, **argumentos**
-(reconstruir y evaluar) y **contexto** (autor, escuela, época). Cada uno pide
-su 55 %.
+**Estación 4 · Renacimiento y siglo XVII**
 
-## 4. La estética, por época
-
-`tools/curso/curso.py` (`ERAS`) define seis épocas. La app las pinta con
-`data-era`, sin tipografías descargadas:
-
-| Época | Semanas | Colores y letra | Filete y ornamento |
-|---|---|---|---|
-| 1 El ágora | 1-13 | mármol, terracota, figuras negras; Georgia | la greca |
-| 2 El scriptorium | 14-18 | pergamino, tinta ferrogálica, bermellón, lapislázuli y oro; Palatino | las bandas de un códice, la capitular en rojo |
-| 3 El taller del Renacimiento | 19-26 | sepia, verdín, ocre; Garamond | el rayado de un grabado |
-| 4 El salón | 27-33 | crema, burdeos, azul de Prusia; Didot o Bodoni | bandas de salón |
-| 5 La vanguardia | 34-45 | rojo, amarillo, azul y negro; palo seco | bloques de color, sin esquinas redondeadas |
-| 6 La red | 46-52 | violeta y verde azulado; la letra del sistema | un degradé |
-
-Cada época tiene su versión oscura. Se pueden mirar con `?era=1` a `?era=6`.
-
-## 5. Ejercicios para filosofía
-
-| Ejercicio | Ejemplo | Sale de | Estado |
-|---|---|---|---|
-| ¿Quién lo dijo? | «Lo mismo es pensar y ser» → Parménides | `choice` | en uso |
-| ¿De qué escuela, de qué rama? | «¿Cómo sé que no estoy soñando?» → epistemología | `choice` | en uso |
-| ¿Cuál es la conclusión? | separar premisas y conclusión | `choice` | en uso |
-| ¿Mito o logos?, ¿Heráclito o Parménides? | dos opciones | `choice` | en uso |
-| La trampa | *panta rhei* no está en Heráclito | `choice` con nota | en uso |
-| Completá el concepto | «el *___* de Anaximandro» → ápeiron | `cloze` | en uso |
-| Escribí el término | *dóxa* | `typed` | en uso |
-| ¿Es válido?, detectá la falacia | afirmación del consecuente, hombre de paja | `choice` | semanas 4 y 9 |
-| La premisa floja | tocá la premisa falsa | `fixerr` adaptado | paso 5 |
-| Reconstruí el argumento, línea de tiempo | ordenar premisas o autores | `ordenar.js` | paso 5 |
-| Relacioná | 4 conceptos con 4 escuelas | renderer nuevo | paso 5 |
-| Tabla de verdad | *p → q* | renderer nuevo | paso 5 (semanas 4 y 34) |
-| Experimento mental | el tranvía, el velo de Rawls: sin respuesta correcta, con la objeción | renderer nuevo | paso 5 |
-| Lectura de fuente | un fragmento con preguntas | `letture.js` | paso 8 |
-| Pregunta abierta con IA | «¿Por qué Hume duda de la causalidad?», con rúbrica (tesis, razones, conceptos, objeción) | Scrivi + `errores.js` + `ia.js` | paso 5 |
-| Diálogo socrático con IA | la IA hace de Sócrates | el role-play (Parla) | paso 5 |
-
-## 6. Los modos
-
-| Modo de La Via | En Ágora | Estado |
+| # | Semana | Ramas |
 |---|---|---|
-| ☕ Pausa caffè | ☕ **Pausa**: 3 minutos con lo de tu semana | anda |
-| 🎯 Sfida del giorno | 🎯 **Desafío del día**: 6 preguntas a doble xp | anda |
-| 🔁 Repaso, repaso de 2 min, «2 minutos», Dominala | tal cual | anda |
-| ⚡ Lampo 60″ | ⚡ **¿Quién lo dijo? 60″**: citas contra reloj | nombre listo; las citas, en el paso 4 |
-| 🧠 Parola o no? | 🧠 **¿Lo dijo o no?**: citas reales y apócrifas | nombre listo; las citas, en el paso 4 |
-| 🩺 Clínica y cuaderno de errores | 🩺 **Clínica** y 📓 **Cuaderno de malentendidos** | paso 4 |
-| Frase / palabra del día | **Cita** / **concepto del día** | el concepto del día anda |
-| Escenas y frases, Parla | **Citas** por autor y **diálogo socrático** | paso 5 |
-| ⚔️ Duelos | ⚔️ **Duelo de escuelas** | paso 5 |
-| ✍️ Scrivi, Tres vueltas, Reformulación | ✍️ **Argumentá** | paso 5 |
-| 📖 Leggi, Biblioteca, Radio, Tramo | 📖 **Leer**: fuentes, obras enteras, diálogos, ensayo | paso 8 |
-| Ubicación, jefes, examen C1 | **¿Ya sabés filosofía?**, exámenes de estación, examen final | paso 6 |
-| 🤫 Modo oficina, plan del día, progreso, racha, meta, copia, nube, calendario | tal cual | anda |
-| Gimnasio de verbos, sonidos, dictado, dictogloss, C-test, variaciones, desglose, mapas, fórmulas, frecuencia, trabajo, Tres lenguas | se eliminan | Tres lenguas ya está afuera; el resto, en el paso 4 |
+| 40 | El humanismo renacentista | antropología filosófica, ética |
+| 41 | Maquiavelo | filosofía política |
+| 42 | La conquista y la Escuela de Salamanca | filosofía política, ética, pensamiento argentino y latinoamericano |
+| 43 | Montaigne y el escepticismo renacentista | epistemología, ética, antropología filosófica |
+| 44 | La revolución científica | filosofía de la ciencia, epistemología |
+| 45 | Hobbes | filosofía política, metafísica |
+| 46 | Descartes I: la duda y el cogito | epistemología |
+| 47 | Descartes II: Dios, el mundo y el dualismo | metafísica, filosofía de la mente, filosofía de la religión |
+| 48 | Pascal | filosofía de la religión, antropología filosófica, lógica |
+| 49 | Spinoza I: Dios o la naturaleza | metafísica, filosofía de la religión |
+| 50 | Spinoza II: los afectos, la libertad y la política | ética, filosofía política, antropología filosófica |
+| 51 | Leibniz | metafísica, lógica, filosofía de la religión |
+| 52 | 🎓 **Examen: Renacimiento y siglo XVII** | — |
 
-## 7. La literatura de cada semana
+**Estación 5 · La Ilustración**
 
-Cada semana trae una o más obras de ficción que caen dentro de la corriente
-o la ejemplifican: una novela, un cuento, un poema, una obra de teatro o un
-diálogo. Cada una va con el porqué: qué idea muestra y en qué escena o
-pasaje. Son **103 obras**, de las cuales **65 son de dominio público** (📖:
-se pueden leer enteras en la app) y **21 son argentinas o
-latinoamericanas** (🇦🇷). Borges aparece casi en cada estación.
+| # | Semana | Ramas |
+|---|---|---|
+| 53 | Locke I: la experiencia | epistemología, metafísica |
+| 54 | Locke II: el gobierno y la tolerancia | filosofía política |
+| 55 | Berkeley | metafísica, epistemología |
+| 56 | Hume I: la causalidad y la inducción | epistemología |
+| 57 | Hume II: el yo, la religión y la moral | ética, metafísica, filosofía de la religión |
+| 58 | La Ilustración francesa | filosofía política, metafísica, filosofía de la religión |
+| 59 | Montesquieu y Rousseau I | filosofía política, antropología filosófica |
+| 60 | Rousseau II y la Ilustración escocesa | filosofía política, ética |
+| 61 | Los derechos y la revolución: Wollstonecraft, Burke y Paine | filosofía política, ética |
+| 62 | Kant I: el giro copernicano | epistemología, metafísica |
+| 63 | Kant II: los límites de la razón | epistemología, metafísica, filosofía de la religión |
+| 64 | Kant III: la ética del deber | ética |
+| 65 | 🎓 **Examen: la Ilustración** | — |
+
+**Estación 6 · El siglo XIX**
+
+| # | Semana | Ramas |
+|---|---|---|
+| 66 | Kant IV: lo bello, lo sublime y la paz | estética, filosofía política |
+| 67 | El idealismo alemán y el romanticismo | metafísica, estética |
+| 68 | Hegel I: la Fenomenología del espíritu | metafísica, epistemología, antropología filosófica |
+| 69 | Hegel II: el Estado y la historia | filosofía de la historia, filosofía política, estética |
+| 70 | Schopenhauer | metafísica, ética, estética |
+| 71 | Kierkegaard | ética, filosofía de la religión, antropología filosófica |
+| 72 | Feuerbach y Marx I: la alienación | filosofía política, antropología filosófica, filosofía de la religión |
+| 73 | Marx II: la historia y el capital | filosofía política, filosofía de la historia |
+| 74 | El utilitarismo: Bentham y Mill | ética, filosofía política |
+| 75 | Positivismo, evolución y el siglo XIX latinoamericano | filosofía de la ciencia, pensamiento argentino y latinoamericano, filosofía de la historia |
+| 76 | Nietzsche I: la tragedia y la verdad | estética, epistemología |
+| 77 | Nietzsche II: la moral y la muerte de Dios | ética, antropología filosófica, filosofía de la religión |
+| 78 | 🎓 **Examen: el siglo XIX** | — |
+
+**Estación 7 · El siglo XX**
+
+| # | Semana | Ramas |
+|---|---|---|
+| 79 | Frege y la lógica moderna | lógica, filosofía del lenguaje |
+| 80 | Russell y Moore | lógica, filosofía del lenguaje, metafísica, ética |
+| 81 | Wittgenstein I y el Círculo de Viena | filosofía del lenguaje, filosofía de la ciencia, lógica |
+| 82 | El pragmatismo | epistemología, filosofía de la ciencia, filosofía de la religión |
+| 83 | Husserl y la fenomenología | epistemología, metafísica |
+| 84 | Heidegger | metafísica, antropología filosófica |
+| 85 | Bergson y la antropología filosófica | antropología filosófica, metafísica |
+| 86 | El existencialismo: Sartre, Camus y Merleau-Ponty | ética, antropología filosófica, metafísica |
+| 87 | Simone de Beauvoir | ética, filosofía política, antropología filosófica |
+| 88 | Wittgenstein II y el lenguaje ordinario | filosofía del lenguaje |
+| 89 | La Escuela de Frankfurt y Habermas | filosofía política, estética, filosofía de la historia |
+| 90 | La hermenéutica: Gadamer y Ricoeur | hermenéutica, filosofía del lenguaje, epistemología |
+| 91 | 🎓 **Examen: el siglo XX** | — |
+
+**Estación 8 · Hoy I: conocimiento, ciencia, mente y ser**
+
+| # | Semana | Ramas |
+|---|---|---|
+| 92 | Popper | filosofía de la ciencia, filosofía política |
+| 93 | Kuhn, Lakatos y Feyerabend | filosofía de la ciencia |
+| 94 | Quine y Kripke: el lenguaje y la necesidad | filosofía del lenguaje, metafísica, epistemología |
+| 95 | Epistemología contemporánea I: el conocimiento | epistemología |
+| 96 | Epistemología contemporánea II: escepticismo, testimonio e injusticia | epistemología, ética |
+| 97 | Filosofía de la mente I: ¿qué es la mente? | filosofía de la mente, metafísica |
+| 98 | Filosofía de la mente II: la conciencia | filosofía de la mente |
+| 99 | Metafísica contemporánea I: la identidad personal | metafísica, antropología filosófica |
+| 100 | Metafísica contemporánea II: libertad, posibilidad y tiempo | metafísica, ética |
+| 101 | Filosofía de la religión contemporánea | filosofía de la religión, epistemología |
+| 102 | Filosofía de la matemática y lógicas no clásicas | lógica, metafísica, epistemología |
+| 103 | Estética II: ¿qué es arte? | estética |
+| 104 | 🎓 **Examen: hoy I** | — |
+
+**Estación 9 · Hoy II: ética, política y otras tradiciones**
+
+| # | Semana | Ramas |
+|---|---|---|
+| 105 | Metaética: ¿hay hechos morales? | ética, epistemología |
+| 106 | Ética normativa hoy: el tranvía, las virtudes y el cuidado | ética |
+| 107 | Justicia: Rawls, Nozick y sus críticos | filosofía política, ética |
+| 108 | Hannah Arendt | filosofía política, ética |
+| 109 | Foucault, Derrida y Deleuze | filosofía política, filosofía del lenguaje, epistemología |
+| 110 | Feminismos y filosofía del género | ética, filosofía política, epistemología |
+| 111 | Pensamiento latinoamericano I: identidad y liberación | pensamiento argentino y latinoamericano, filosofía política, filosofía de la historia |
+| 112 | Pensamiento argentino | pensamiento argentino y latinoamericano, antropología filosófica, metafísica |
+| 113 | Filosofía africana y de la diáspora | ética, antropología filosófica, filosofía política |
+| 114 | Asia: el budismo madhyamaka, el neoconfucianismo y la Escuela de Kioto | metafísica, ética, antropología filosófica |
+| 115 | Ética aplicada: la vida, los animales y la tierra | ética |
+| 116 | La técnica, la IA y el sentido de la vida | ética, filosofía de la mente, antropología filosófica |
+| 117 | 🎓 **Examen final** | — |
+
+## 3. La estética, por época
+
+`tools/curso/curso.py` (`ERAS`) define ocho épocas; la app las pinta con
+`data-era` en claro y en oscuro, y `?era=N` las muestra todas:
+
+| Época | Semanas | Colores, letra y ornamento |
+|---|---|---|
+| 1 El ágora | 1-19 | mármol, terracota, figuras negras; Georgia; la greca |
+| 2 La stoa | 20-26 | travertino, pórfido, bronce; Optima; bandas imperiales |
+| 3 El scriptorium | 27-39 | pergamino, tinta, bermellón, lapislázuli y oro; Palatino; la capitular en rojo |
+| 4 El taller del Renacimiento | 40-52 | sepia, verdín, ocre; Garamond; el rayado de un grabado |
+| 5 El salón | 53-66 | crema, burdeos, azul de Prusia; Didot |
+| 6 La imprenta de vapor | 67-78 | papel de diario, hollín, bronce, el verde de las oficinas; Century o Rockwell; las columnas de un diario |
+| 7 La vanguardia | 79-91 | rojo, amarillo, azul y negro; palo seco; sin esquinas redondeadas |
+| 8 La red | 92-117 | violeta y verde azulado; la letra del sistema |
+
+## 4. La literatura de cada semana
+
+Son **169 obras** de ficción, teatro, poesía, diálogo o testimonio que caen
+dentro de la corriente o la muestran, cada una con el porqué: **114 de
+dominio público** (📖) y **31 argentinas o latinoamericanas** (🇦🇷). Las
+semanas de examen no traen obra nueva.
 - **Los datos:** `tools/curso/literatura.py`.
-- **Qué controla `check_curso.py`:** que todas las semanas tengan obra,
-  salvo las de examen, que cada una diga por qué está y que haya por lo menos
-  15 obras argentinas o latinoamericanas.
-- **Cómo se muestra:** depende del formato que se elija (ver
-  [FORMATO.md](FORMATO.md)). Puede ser un bloque «En la literatura» en la
-  lección, una lectura de la semana o un caso para discutir.
+- **En la app:** la tarjeta «📚 En la literatura» de cada semana.
 
 | # | Obras |
 |---|---|
 | 1 | Jostein Gaarder, *El mundo de Sofía*; Antoine de Saint-Exupéry, *El principito* |
 | 2 | Hesíodo, *Teogonía* 📖; Ovidio, *Metamorfosis, libro XV* 📖 |
-| 3 | Lucrecio, *De la naturaleza de las cosas* 📖; Hermann Hesse, *Siddhartha*; Jorge Luis Borges, *«La perpetua carrera de Aquiles y la tortuga» y «Avatares de la tortuga» (Discusión)* 🇦🇷 |
+| 3 | Lucrecio, *De la naturaleza de las cosas* 📖; Jorge Luis Borges, *«La perpetua carrera de Aquiles y la tortuga» y «Avatares de la tortuga» (Discusión)* 🇦🇷 |
 | 4 | Lewis Carroll, *«Lo que la tortuga le dijo a Aquiles»* 📖; Arthur Conan Doyle, *Estudio en escarlata* 📖 |
-| 5 | Aristófanes, *Las nubes* 📖; Platón, *Apología de Sócrates* 📖 |
-| 6 | William Wordsworth, *Oda: Indicios de inmortalidad* 📖; Platón, *Fedón (la muerte de Sócrates)* 📖 |
-| 7 | José Saramago, *La caverna*; Aldous Huxley, *Un mundo feliz* |
-| 8 | Jorge Luis Borges, *«El idioma analítico de John Wilkins» (Otras inquisiciones)* 🇦🇷; Mary Shelley, *Frankenstein* 📖 |
-| 9 | Lewis Carroll, *Alicia en el país de las maravillas* 📖; Jonathan Swift, *Una modesta proposición* 📖 |
-| 10 | Homero, *Ilíada* 📖; Jane Austen, *Orgullo y prejuicio* 📖 |
-| 11 | Sófocles, *Edipo rey* 📖; Umberto Eco, *El nombre de la rosa* |
-| 12 | Marguerite Yourcenar, *Memorias de Adriano*; Séneca, *Fedra* 📖 |
-| 13 | *(examen: repasa las obras de la estación)* |
-| 14 | Agustín de Hipona, *Confesiones* 📖; Dante Alighieri, *Divina comedia, Paraíso* 📖 |
-| 15 | Boecio, *La consolación de la filosofía* 📖; Abelardo y Eloísa, *Cartas* 📖 |
-| 16 | Jorge Luis Borges, *«La busca de Averroes» (El Aleph)* 🇦🇷; Las mil y una noches, *(anónimo; versión de Galland)* 📖 |
-| 17 | Dante Alighieri, *Divina comedia, Paraíso, cantos X-XIII* 📖 |
-| 18 | Umberto Eco, *El nombre de la rosa*; Jorge Luis Borges, *«Funes el memorioso» (Ficciones)* 🇦🇷 |
-| 19 | Tomás Moro, *Utopía* 📖; William Shakespeare, *La tempestad* 📖; Bertolt Brecht, *Vida de Galileo* |
-| 20 | Nicolás Maquiavelo, *La mandrágora* 📖; William Golding, *El señor de las moscas* |
-| 21 | Pedro Calderón de la Barca, *La vida es sueño* 📖; Jorge Luis Borges, *«Las ruinas circulares» (Ficciones)* 🇦🇷 |
-| 22 | Voltaire, *Cándido o el optimismo* 📖; Jorge Luis Borges, *«Spinoza» y «Baruch Spinoza» (poemas)* 🇦🇷 |
-| 23 | Jorge Luis Borges, *«Tlön, Uqbar, Orbis Tertius» (Ficciones)* 🇦🇷; Laurence Sterne, *Tristram Shandy* 📖 |
-| 24 | Luigi Pirandello, *Uno, ninguno y cien mil* 📖; Jorge Luis Borges, *«Nueva refutación del tiempo» (Otras inquisiciones)* 🇦🇷 |
-| 25 | Montesquieu, *Cartas persas* 📖; Daniel Defoe, *Robinson Crusoe* 📖; Jean-Jacques Rousseau, *Emilio* 📖 |
-| 26 | *(examen: repasa las obras de la estación)* |
-| 27 | Heinrich von Kleist, *Carta a Wilhelmine von Zenge (22 de marzo de 1801) y «Sobre el teatro de marionetas»* 📖; Thomas De Quincey, *Los últimos días de Immanuel Kant* 📖 |
-| 28 | Heinrich von Kleist, *Michael Kohlhaas* 📖; Mark Twain, *Las aventuras de Huckleberry Finn* 📖 |
-| 29 | Sófocles, *Antígona* 📖; Johann Wolfgang von Goethe, *Fausto* 📖 |
-| 30 | Thomas Mann, *Los Buddenbrook* 📖; Søren Kierkegaard, *Diario de un seductor (en O lo uno o lo otro)* 📖 |
-| 31 | Charles Dickens, *Tiempos difíciles* 📖; Fiódor Dostoievski, *Los hermanos Karamázov (la rebelión de Iván, libro V)* 📖 |
-| 32 | Émile Zola, *Germinal* 📖; Roberto Arlt, *Los siete locos* 📖 🇦🇷 |
-| 33 | Fiódor Dostoievski, *Crimen y castigo* 📖; Hermann Hesse, *Demian* |
-| 34 | Lewis Carroll, *A través del espejo, cap. VII* 📖; Lewis Carroll, *A través del espejo, cap. VI (Humpty Dumpty)* 📖 |
-| 35 | Ursula K. Le Guin, *«Los que se alejan de Omelas»*; Henry James, *Otra vuelta de tuerca* 📖 |
-| 36 | Hugo von Hofmannsthal, *Carta de Lord Chandos* 📖; Robert Musil, *Las tribulaciones del estudiante Törless* 📖 |
-| 37 | Marcel Proust, *Por el camino de Swann* 📖 |
-| 38 | León Tolstói, *La muerte de Iván Ilich* 📖; Rainer Maria Rilke, *Elegías de Duino* 📖 |
-| 39 | *(examen: repasa las obras de la estación)* |
-| 40 | Albert Camus, *El extranjero*; Jean-Paul Sartre, *La náusea*; Ernesto Sabato, *El túnel* 🇦🇷 |
-| 41 | Jorge Luis Borges, *«Pierre Menard, autor del Quijote» (Ficciones)* 🇦🇷; Julio Cortázar, *Historias de cronopios y de famas* 🇦🇷 |
-| 42 | Stanisław Lem, *Solaris*; Jorge Luis Borges, *«Del rigor en la ciencia» (El hacedor)* 🇦🇷 |
-| 43 | Ryūnosuke Akutagawa, *«En el bosque»* 📖; Adolfo Bioy Casares, *La invención de Morel* 🇦🇷 |
-| 44 | Franz Kafka, *La metamorfosis* 📖; Philip K. Dick, *¿Sueñan los androides con ovejas eléctricas?* |
-| 45 | Jorge Luis Borges, *«Borges y yo» (El hacedor) y «El otro» (El libro de arena)* 🇦🇷; Robert Louis Stevenson, *El extraño caso del doctor Jekyll y míster Hyde* 📖; Jorge Luis Borges, *«El jardín de senderos que se bifurcan» (Ficciones)* 🇦🇷 |
-| 46 | Franz Kafka, *El proceso* 📖; George Orwell, *1984* 📖 |
-| 47 | Ursula K. Le Guin, *Los desposeídos*; Primo Levi, *Si esto es un hombre* |
-| 48 | Sor Juana Inés de la Cruz, *Respuesta a sor Filotea de la Cruz* 📖 🇦🇷; Virginia Woolf, *Un cuarto propio* 📖; Margaret Atwood, *El cuento de la criada* |
-| 49 | Domingo Faustino Sarmiento, *Facundo* 📖 🇦🇷; José Hernández, *Martín Fierro* 📖 🇦🇷; Leopoldo Marechal, *Adán Buenosayres* 🇦🇷; Juan Rulfo, *Pedro Páramo* 🇦🇷 |
-| 50 | Oscar Wilde, *El retrato de Dorian Gray* 📖; Thomas Mann, *La muerte en Venecia* 📖 |
-| 51 | Mary Shelley, *Frankenstein* 📖; Kazuo Ishiguro, *Nunca me abandones*; Kazuo Ishiguro, *Klara y el sol* |
-| 52 | *(examen: repasa las obras de la estación)* |
+| 5 | Hermann Hesse, *Siddhartha*; Milindapañha (anónimo), *Las preguntas del rey Milinda* 📖 |
+| 6 | Ursula K. Le Guin, *La rueda celeste*; Bertolt Brecht, *«Leyenda del origen del libro Tao Te King durante el camino de Laozi a la emigración»* |
+| 7 | Aristófanes, *Las nubes* 📖; Gorgias, *Encomio de Helena* 📖 |
+| 8 | Platón, *Apología de Sócrates* 📖; Platón, *Critón* 📖 |
+| 9 | William Wordsworth, *Oda: Indicios de inmortalidad* 📖; Platón, *Fedón (la muerte de Sócrates)* 📖 |
+| 10 | Aldous Huxley, *Un mundo feliz*; H. G. Wells, *El hombre invisible* 📖 |
+| 11 | José Saramago, *La caverna*; Platón, *Banquete* 📖 |
+| 12 | Platón, *Timeo y Critias (la Atlántida)* 📖 |
+| 14 | Jorge Luis Borges, *«El idioma analítico de John Wilkins» (Otras inquisiciones)* 🇦🇷 |
+| 15 | Mary Shelley, *Frankenstein* 📖 |
+| 16 | Ovidio, *Metamorfosis, libro X (Pigmalión)* 📖 |
+| 17 | Lewis Carroll, *Alicia en el país de las maravillas* 📖; Jonathan Swift, *Una modesta proposición* 📖 |
+| 18 | Homero, *Ilíada* 📖; Jane Austen, *Orgullo y prejuicio* 📖 |
+| 19 | Sófocles, *Edipo rey* 📖; Umberto Eco, *El nombre de la rosa* |
+| 20 | Diógenes Laercio, *Vidas de los filósofos ilustres, libro VI* 📖; Luciano de Samósata, *Diálogos de los muertos* 📖 |
+| 21 | Horacio, *Odas I 11 («carpe diem»)* 📖; Lucrecio, *De la naturaleza de las cosas, libro III* 📖 |
+| 22 | Cicerón, *El sueño de Escipión (República VI)* 📖 |
+| 23 | Marguerite Yourcenar, *Memorias de Adriano*; Séneca, *Fedra* 📖 |
+| 24 | Luciano de Samósata, *Hermótimo* 📖 |
+| 25 | Jorge Luis Borges, *«Historia de la eternidad» (Historia de la eternidad)* 🇦🇷; Porfirio, *Vida de Plotino* 📖 |
+| 27 | Evangelio de Juan, *Prólogo (1, 1-14)* 📖; Fiódor Dostoievski, *Los hermanos Karamázov, «El gran inquisidor» (libro V, cap. 5)* 📖 |
+| 28 | Agustín de Hipona, *Confesiones* 📖 |
+| 29 | Jorge Luis Borges, *«Los teólogos» (El Aleph)* 🇦🇷 |
+| 30 | Boecio, *La consolación de la filosofía* 📖; Dante Alighieri, *Divina comedia, Paraíso* 📖 |
+| 31 | Anselmo de Canterbury, *Proslogion, cap. 1 (la oración inicial)* 📖 |
+| 32 | Abelardo y Eloísa, *Cartas* 📖; Jorge Luis Borges, *«Funes el memorioso» (Ficciones)* 🇦🇷 |
+| 33 | Las mil y una noches, *(anónimo; versión de Galland)* 📖; Avicena, *Hayy ibn Yaqzan (El vivo, hijo del despierto)* 📖 |
+| 34 | Jorge Luis Borges, *«La busca de Averroes» (El Aleph)* 🇦🇷; Ibn Tufail, *El filósofo autodidacta* 📖 |
+| 35 | Yehudá Halevi, *El Cuzarí* 📖; Jorge Luis Borges, *«El Golem» (El otro, el mismo)* 🇦🇷 |
+| 36 | Dante Alighieri, *Divina comedia, Paraíso, cantos X-XIII* 📖 |
+| 37 | Dante Alighieri, *Divina comedia, Purgatorio, cantos XVII-XVIII* 📖 |
+| 38 | Umberto Eco, *El nombre de la rosa* |
+| 40 | Tomás Moro, *Utopía* 📖; Erasmo de Rotterdam, *Elogio de la locura* 📖 |
+| 41 | Nicolás Maquiavelo, *La mandrágora* 📖 |
+| 42 | William Shakespeare, *La tempestad* 📖; Bartolomé de las Casas, *Brevísima relación de la destrucción de las Indias* 📖 🇦🇷 |
+| 43 | Miguel de Cervantes, *Don Quijote de la Mancha* 📖; William Shakespeare, *Hamlet* 📖 |
+| 44 | Bertolt Brecht, *Vida de Galileo*; Johannes Kepler, *El sueño (Somnium)* 📖; Francis Bacon, *La nueva Atlántida* 📖 |
+| 45 | William Golding, *El señor de las moscas* |
+| 46 | Pedro Calderón de la Barca, *La vida es sueño* 📖; Jorge Luis Borges, *«Las ruinas circulares» (Ficciones)* 🇦🇷 |
+| 47 | Auguste Villiers de l'Isle-Adam, *La Eva futura* 📖 |
+| 48 | Jorge Luis Borges, *«La esfera de Pascal» (Otras inquisiciones)* 🇦🇷; Blaise Pascal, *Pensamientos* 📖 |
+| 49 | Jorge Luis Borges, *«Spinoza» y «Baruch Spinoza» (poemas)* 🇦🇷 |
+| 50 | Isaac Bashevis Singer, *«El Spinoza de la calle Market»* |
+| 51 | Voltaire, *Cándido o el optimismo* 📖 |
+| 53 | Laurence Sterne, *Tristram Shandy* 📖 |
+| 54 | Daniel Defoe, *Robinson Crusoe* 📖 |
+| 55 | Jorge Luis Borges, *«Tlön, Uqbar, Orbis Tertius» (Ficciones)* 🇦🇷 |
+| 56 | Jorge Luis Borges, *«Nueva refutación del tiempo» (Otras inquisiciones)* 🇦🇷 |
+| 57 | Luigi Pirandello, *Uno, ninguno y cien mil* 📖 |
+| 58 | Denis Diderot, *Jacques el fatalista* 📖; Voltaire, *Micromegas* 📖 |
+| 59 | Montesquieu, *Cartas persas* 📖; Voltaire, *El ingenuo* 📖 |
+| 60 | Jean-Jacques Rousseau, *Emilio* 📖 |
+| 61 | Mary Wollstonecraft, *María, o los agravios de la mujer* 📖; Olaudah Equiano, *La interesante narración de la vida de Olaudah Equiano* 📖 |
+| 62 | Heinrich von Kleist, *Carta a Wilhelmine von Zenge (22 de marzo de 1801) y «Sobre el teatro de marionetas»* 📖; Thomas De Quincey, *Los últimos días de Immanuel Kant* 📖 |
+| 63 | Jorge Luis Borges, *«El libro de arena» (El libro de arena)* 🇦🇷 |
+| 64 | Heinrich von Kleist, *Michael Kohlhaas* 📖; Mark Twain, *Las aventuras de Huckleberry Finn* 📖 |
+| 66 | Friedrich Schiller, *Cartas sobre la educación estética del hombre* 📖; Friedrich Hölderlin, *Hiperión* 📖 |
+| 67 | Johann Wolfgang von Goethe, *Fausto* 📖; Novalis, *Enrique de Ofterdingen* 📖 |
+| 68 | Sófocles, *Antígona* 📖 |
+| 69 | León Tolstói, *Guerra y paz, epílogo, segunda parte* 📖 |
+| 70 | Thomas Mann, *Los Buddenbrook* 📖 |
+| 71 | Søren Kierkegaard, *Diario de un seductor (en O lo uno o lo otro)* 📖 |
+| 72 | Herman Melville, *«Bartleby, el escribiente»* 📖 |
+| 73 | Émile Zola, *Germinal* 📖; Roberto Arlt, *Los siete locos* 📖 🇦🇷 |
+| 74 | Charles Dickens, *Tiempos difíciles* 📖; Fiódor Dostoievski, *Los hermanos Karamázov (la rebelión de Iván, libro V)* 📖 |
+| 75 | Domingo Faustino Sarmiento, *Facundo* 📖 🇦🇷; H. G. Wells, *La máquina del tiempo* 📖 |
+| 76 | Thomas Mann, *La muerte en Venecia* 📖 |
+| 77 | Fiódor Dostoievski, *Crimen y castigo* 📖; Hermann Hesse, *Demian* |
+| 79 | Lewis Carroll, *A través del espejo, cap. VI (Humpty Dumpty)* 📖 |
+| 80 | Lewis Carroll, *A través del espejo, cap. VII* 📖 |
+| 81 | Hugo von Hofmannsthal, *Carta de Lord Chandos* 📖; Robert Musil, *Las tribulaciones del estudiante Törless* 📖 |
+| 82 | Ursula K. Le Guin, *«Los que se alejan de Omelas»*; Henry James, *Otra vuelta de tuerca* 📖 |
+| 83 | Marcel Proust, *Por el camino de Swann* 📖 |
+| 84 | León Tolstói, *La muerte de Iván Ilich* 📖; Rainer Maria Rilke, *Elegías de Duino* 📖 |
+| 85 | Thomas Mann, *La montaña mágica* 📖; Franz Kafka, *«Informe para una academia»* 📖 |
+| 86 | Albert Camus, *El extranjero*; Jean-Paul Sartre, *La náusea*; Ernesto Sabato, *El túnel* 🇦🇷 |
+| 87 | Virginia Woolf, *Orlando* 📖 |
+| 88 | Julio Cortázar, *Historias de cronopios y de famas* 🇦🇷 |
+| 89 | Ray Bradbury, *Fahrenheit 451*; Aldous Huxley, *Un mundo feliz* |
+| 90 | Jorge Luis Borges, *«Pierre Menard, autor del Quijote» (Ficciones)* 🇦🇷 |
+| 92 | Jorge Luis Borges, *«Del rigor en la ciencia» (El hacedor)* 🇦🇷 |
+| 93 | Stanisław Lem, *Solaris* |
+| 94 | Italo Calvino, *Las ciudades invisibles* |
+| 95 | Ryūnosuke Akutagawa, *«En el bosque»* 📖 |
+| 96 | Adolfo Bioy Casares, *La invención de Morel* 🇦🇷 |
+| 97 | Franz Kafka, *La metamorfosis* 📖 |
+| 98 | Philip K. Dick, *¿Sueñan los androides con ovejas eléctricas?* |
+| 99 | Jorge Luis Borges, *«Borges y yo» (El hacedor) y «El otro» (El libro de arena)* 🇦🇷; Robert Louis Stevenson, *El extraño caso del doctor Jekyll y míster Hyde* 📖 |
+| 100 | Jorge Luis Borges, *«El jardín de senderos que se bifurcan» (Ficciones)* 🇦🇷 |
+| 101 | Albert Camus, *La peste*; Jorge Luis Borges, *«Tres versiones de Judas» (Ficciones)* 🇦🇷 |
+| 102 | Edwin A. Abbott, *Planilandia* 📖; Jorge Luis Borges, *«La biblioteca de Babel» (Ficciones)* 🇦🇷 |
+| 103 | Oscar Wilde, *El retrato de Dorian Gray* 📖 |
+| 105 | Herman Melville, *Billy Budd, marinero* 📖 |
+| 106 | William Styron, *La decisión de Sophie* |
+| 107 | Ursula K. Le Guin, *Los desposeídos* |
+| 108 | Primo Levi, *Si esto es un hombre* |
+| 109 | Franz Kafka, *El proceso* 📖; George Orwell, *1984* 📖 |
+| 110 | Sor Juana Inés de la Cruz, *Respuesta a sor Filotea de la Cruz* 📖 🇦🇷; Virginia Woolf, *Un cuarto propio* 📖; Margaret Atwood, *El cuento de la criada* |
+| 111 | José Martí, *Nuestra América* 📖 🇦🇷; José Enrique Rodó, *Ariel* 📖 🇦🇷 |
+| 112 | José Hernández, *Martín Fierro* 📖 🇦🇷; Leopoldo Marechal, *Adán Buenosayres* 🇦🇷; Juan Rulfo, *Pedro Páramo* 🇦🇷 |
+| 113 | Chinua Achebe, *Todo se desmorona* |
+| 114 | Natsume Sōseki, *Kokoro* 📖; Rabindranath Tagore, *Gitanjali* 📖 |
+| 115 | Kazuo Ishiguro, *Nunca me abandones*; Mary Shelley, *Frankenstein* 📖 |
+| 116 | Kazuo Ishiguro, *Klara y el sol*; Douglas Adams, *Guía del autoestopista galáctico* |
 
-## Para decidir
+## 5. El formato híbrido
 
-0. **El formato.** La investigación ([FORMATO.md](FORMATO.md)) dice que el
-   curso-juego sirve para los conceptos y la estructura de los argumentos,
-   pero no para practicar filosofía: reconstruir, objetar y escribir.
-   Recomienda un **híbrido**: el motor actual como práctica diaria de 5 a 8
-   minutos, con preguntas de aplicación y dilemas, más una sesión semanal con
-   un texto en tramos, un mapa del argumento y un párrafo propio con
-   devolución socrática de la IA.
+La investigación está en [FORMATO.md](FORMATO.md), y en la app quedó así:
+- **Lo diario:** la lección, las rondas, el repaso espaciado y los
+  conceptos, con preguntas de aplicación (al menos el 40 %%), la pausa y el
+  desafío del día. Además, los **dilemas** (`seminario.js`): tomás
+  posición, ves quién más la sostiene y la objeción, después una vuelta del
+  caso, y «Tus posiciones» junta todo para mirar la consistencia.
+- **Lo semanal:** el **seminario** (`seminario.js`, misión obligatoria de la
+  semana):
+  1. el texto en tramos, con glosas, chequeos y preguntas abiertas con lugar
+     para anotar;
+  2. el mapa del argumento: ordenar las premisas, la premisa implícita, la
+     objeción y la réplica;
+  3. el escrito, con la cuenta de palabras, la rúbrica para autoevaluarse,
+     el tutor y el modelo.
 
-1. **La filosofía no occidental.** Ningún plan de estudio la tiene como
-   obligatoria, por eso la investigación la sacó de las 52 semanas. Hay tres
-   opciones:
-   - dejarla como contenido opcional (una ficha extra en la estación 1:
-     Confucio, Laozi, el budismo);
-   - fundirla con la semana 51;
-   - devolverle una semana propia y comprimir otra.
-2. **El nombre.** ¿Queda «Ágora»?
+  El **tutor socrático** es la IA con tu clave. Tiene límites estrictos: no
+  da la respuesta, no reescribe el texto, no dice qué posición es la
+  correcta, hace como mucho dos preguntas y señala una tensión. Esos límites
+  vienen de la evidencia de Bastani y otros (2025). Sin clave, el tutor son
+  las preguntas del curso.
+- **Los exámenes de estación** se arman con los ejercicios de su estación y
+  un bloque de repaso por semana. Son por destreza.
+
+## 6. Lo que queda de La Via C1 en el núcleo
+
+El núcleo todavía carga módulos de idioma que no tienen datos: frases,
+laboratorio, lecturas, duelos, sonidos, voces, escritura guiada, C-test,
+variaciones, desglose, mapas, frecuencia, Biblioteca, radio, tramo, «Fuera
+de la app» y «Para el trabajo». No se ven, porque la edición los declara en
+`missing`, pero pesan.
+
+El paso 11 hace lo siguiente:
+- saca los módulos que no sirven;
+- adapta los que sí: la Biblioteca para leer las obras 📖, el duelo como
+  duelo de escuelas, Parla como diálogo socrático;
+- pasa las categorías de error a **malentendidos**: el autor equivocado, la
+  escuela vecina, la cita apócrifa, el anacronismo, validez contra verdad,
+  el hombre de paja.
+
+Los tests de La Via que probaban esos módulos con contenido de idioma se
+borraron en el paso 3, y se reescriben cuando cada módulo tenga contenido de
+filosofía.

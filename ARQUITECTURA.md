@@ -11,8 +11,8 @@ docs/
   index.html            el caparazón: carga js/boot.js
   js/boot.js            elige la edición y carga paquete + núcleo en ORDER
   js/*.js               el núcleo: engine, drills, lezione, plan, progreso,
-                        inicio, capas, ia, nube, app y los módulos que
-                        todavía esperan contenido (ver abajo)
+                        inicio, capas, ia, nube, seminario, app y los
+                        módulos que todavía esperan contenido (ver abajo)
   css/app.css           la estructura (usa los tokens del tema)
   fonts/, icons/        lo común (Atkinson Hyperlegible, la lechuza)
   sw.js                 el service worker: el núcleo siempre, la edición en uso
@@ -22,14 +22,18 @@ docs/
                         textos de la interfaz
     rules.js            LANG.rules: corrección, rangos, medallas, lo que el
                         núcleo les pide a todas las ediciones
-    theme.css           la estética de las seis épocas (data-era)
+    theme.css           la estética de las ocho épocas (data-era)
     data/course.json    el curso compilado (lo arma tools/curso/build_course.py)
 tools/
   curso/                el contenido y sus herramientas:
+    temario.py          las 117 semanas: título, ramas, qué cubre, el seminario
+    literatura.py       las obras de ficción de cada semana, con el porqué
     curso.py            las estaciones, las épocas y la carga de las semanas
-    ej.py               las funciones de los ejercicios (q, ch, cz, ty)
+    ej.py               las funciones del contenido (q, ch, cz, ty, ap,
+                        tramo, mapa, seminario, opcion, dilema)
     semanas/wNN.py      una semana por archivo
-    build_course.py     arma el course.json de cada edición
+    build_course.py     arma el course.json de cada edición (y los exámenes)
+    validar_semana.py   los chequeos de una semana (también sola: NN)
     check_curso.py      los chequeos del contenido (en npm test)
     test_curso.js       el curso jugado por el núcleo (en npm test)
   lib/
@@ -77,8 +81,41 @@ Así la app puede vivir en el mismo origen que La Via C1
 que se llaman `c1-…`. `tools/curso/test_curso.js` y `smoke_curso.js` lo
 controlan.
 
+**El largo del curso.** El temario tiene 117 semanas
+(`tools/curso/temario.py`) y el curso compilado trae las que ya están
+escritas, en orden. `course.nweeks` es el total. `Engine.setCourse(course)`,
+que llama `app.js` al cargar el curso, fija dos valores:
+- `Engine.weeks()`: las semanas que hay, y el tope de `state.unlocked`;
+- `Engine.finalWeek()`: el examen final, la última semana del temario.
+
+Hay un examen al final de cada estación de 13 semanas (`Engine.isBoss`,
+`Engine.bossOf`). `build_course.py` arma la semana de examen cuando su
+estación está entera: todos los ejercicios de la estación y un bloque de
+repaso por semana. Nada en el núcleo supone 52 semanas.
+
+**El formato híbrido** ([FORMATO.md](FORMATO.md)). Lo diario es el motor de
+siempre (lecciones, rondas, repaso), con ejercicios marcados `apl` (de
+aplicación). Lo semanal está en `js/seminario.js`:
+- **La misión «📜 Seminario»**, obligatoria. Tiene tres partes: el texto en
+  tramos (glosas, chequeos, preguntas abiertas con notas), el mapa del
+  argumento (ordenar las premisas y después ver el mapa con la implícita, la
+  objeción y la réplica) y el escrito (rúbrica, tutor y modelo). Se cumple
+  con el escrito a su largo mínimo y la rúbrica marcada.
+- **El tutor socrático.** Usa `IA.llm` con un *system* que prohíbe dar la
+  respuesta, reescribir el texto o elegir una posición, y le pide un JSON
+  `{respuesta}`. Sin clave, el tutor son las `socraticas` de la semana, una
+  por vez.
+- **Las misiones «🤔 Dilema»**, opcionales: tomar posición, ver quién más la
+  sostiene y la objeción, después la vuelta del caso. Todo queda en «Tus
+  posiciones», en Yo.
+- **La tarjeta «📚 En la literatura»** de cada semana (`Seminario.litCard`).
+
+Guarda en `state.sem` y `state.dil` (en `Engine.MODULE_OBJ`). La simulación
+hace el seminario con `Seminario.simulate`, y `smoke_curso.js` lo recorre en
+Chromium.
+
 **Las épocas.** La estética avanza con la historia. `tools/curso/curso.py`
-define seis épocas (`ERAS`) con sus semanas, y cada semana del curso lleva su
+define ocho épocas (`ERAS`) con sus semanas, y cada semana del curso lleva su
 `era`. `app.js` (`applyEra`, en cada `render`) pone `<html data-era="N">`:
 - normalmente, la época de la semana en que vas (`state.unlocked`);
 - en las pantallas de una semana (la lección, la teoría), la de esa semana.
