@@ -397,7 +397,7 @@ WEEK = {
               "Cualquiera se pone nervioso en un interrogatorio. Un clásico de las malas pruebas judiciales.")),
     ],
     "seminario": seminario(
-        "Lewis Carroll", "«Lo que la tortuga le dijo a Aquiles»", "*Mind* 4 (1895), texto completo, abreviado", "dp",
+        "Lewis Carroll", "«Lo que la tortuga le dijo a Aquiles»", "*Mind* 4 (1895), 278-280 (abreviado)", "dp",
         "Lewis Carroll (Charles L. Dodgson, 1832-1898) enseñaba matemática en Oxford y escribió *Alicia en el país de las maravillas*. En 1895 publicó en *Mind*, la revista de filosofía más importante de Inglaterra, este diálogo breve, que retoma a los personajes de Zenón (semana 3). No dice cuál es su conclusión: la reconstrucción del mapa es la lectura habitual. La traducción es nuestra y abreviada.",
         [
             tramo("Aquiles había alcanzado a la tortuga y se había sentado cómodamente sobre su caparazón. —¿Así que llegaste al final de nuestra carrera? —dijo la tortuga—. ¿Aunque consista en una serie infinita de distancias? Yo creía que algún sabelotodo había demostrado que eso no se podía hacer. —Se puede —dijo Aquiles—. Se hizo. *Solvitur ambulando*. Mirá: las distancias se iban achicando cada vez más, y así… —¿Y si se hubieran ido agrandando cada vez más? —lo interrumpió la tortuga—. ¿Qué pasaría? —Entonces no estaría acá —contestó Aquiles con modestia—, y vos ya habrías dado varias vueltas al mundo. —Me halagás… me aplastás, quiero decir —dijo la tortuga—, porque pesás bastante. Bueno, ¿querés oír hablar de una carrera que la mayoría cree terminar en dos o tres pasos, cuando en realidad consiste en infinitas distancias, cada una más larga que la anterior? —¡Me encantaría! —dijo el guerrero griego, y sacó del casco un cuaderno enorme y un lápiz.",
@@ -482,7 +482,7 @@ WEEK = {
         ["abducción", "la inferencia de un hecho sorprendente a la hipótesis que mejor lo explicaría", "El pasto está mojado: probablemente llovió.", "Holmes la llama «deducción», pero no lo es."],
         ["forma lógica", "la estructura de un argumento cuando se reemplazan sus contenidos por letras", "Si p, q; p; luego q.", "La validez depende de ella, no del tema."],
         ["contraejemplo", "un argumento con la misma forma, premisas verdaderas y conclusión falsa: prueba que la forma es inválida", "Todos los perros son mamíferos; todos los gatos también; luego los gatos son perros.", "Un contraejemplo a una premisa (un caso que la desmiente) es otra cosa."],
-        ["condicional", "una proposición de la forma «si p, entonces q»; p es el antecedente y q el consecuente", "Si llueve, el piso se moja.", "No es un argumento: no afirma que p pase."],
+        ["antecedente y consecuente", "las dos partes de un condicional «si p, entonces q»: p es el antecedente; q, el consecuente", "En «si llueve, el piso se moja», «llueve» es el antecedente.", "Un condicional no es un argumento: no afirma que el antecedente pase. El condicional estoico, en la semana 22."],
         ["condición suficiente", "lo que alcanza para que algo pase: en «si p, q», p es suficiente para q", "Que te caiga un balde de agua basta para mojarte.", "No hace falta: te podés mojar de otro modo."],
         ["condición necesaria", "lo que hace falta para que algo pase: en «si p, q», q es necesaria para p", "Sin oxígeno no hay fuego.", "No alcanza: el oxígeno solo no enciende nada."],
         ["modus ponens", "la forma válida «si p, q; p; luego q»", "Si es de día, hay luz; es de día; luego hay luz.", "No confundir con la afirmación del consecuente (si p, q; q; luego p)."],
