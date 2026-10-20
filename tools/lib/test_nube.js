@@ -193,7 +193,7 @@ step("conflictos", function () {
     eq(Nube.compare(cloud, save(200, 5000)), "older", "la nube más vieja que el teléfono");
     eq(Nube.compare(cloud, save(180, 3000)), "same", "la misma");
     eq(Nube.compare(cloud, { xp: 0, cards: {} }), "newer", "un teléfono sin fecha de guardado: la nube es más nueva");
-    var noStamp = { app: "c1", lang: "pt", at: "2026-09-28T10:00:00.000Z", save: { xp: 1, cards: {} } };
+    var noStamp = { app: "agora", lang: "pt", at: "2026-09-28T10:00:00.000Z", save: { xp: 1, cards: {} } };
     eq(Nube.stamp(noStamp), Date.parse("2026-09-28T10:00:00.000Z"), "un sobre sin savedAt usa su «at»");
   });
 });
@@ -285,12 +285,12 @@ step("lo guardado en el teléfono", function () {
   eq(S.sync("rumoc1").id, "g1", "el id del gist, por idioma");
   eq(S.sync("laviac1"), {}, "el otro idioma, sin gist propio todavía");
   eq(Nube.store(ls).token(), TOKEN, "un token para los dos idiomas");
-  eq(ls.keys().sort(), ["c1.gist.token", "rumoc1.gist"], "fuera de las claves del guardado (<prefijo>.save.v1)");
+  eq(ls.keys().sort(), ["agora.gist.token", "rumoc1.gist"], "fuera de las claves del guardado (<prefijo>.save.v1)");
   var st = save(10, 10), env = Nube.envelope(st, { lang: "pt" });
   ok(JSON.stringify(env).indexOf(TOKEN) < 0 && JSON.stringify(env).indexOf("gist") < 0, "la copia no lleva el token ni el gist");
   S.setToken("");
   eq(S.token(), "", "olvidar el token lo borra");
-  ok(ls.keys().indexOf("c1.gist.token") < 0, "y no queda la clave");
+  ok(ls.keys().indexOf("agora.gist.token") < 0, "y no queda la clave");
   var broken = memStorage(); broken.setItem("rumoc1.gist", "{roto");
   eq(Nube.store(broken).sync("rumoc1"), {}, "un registro roto no rompe nada");
   var throwing = { getItem: function () { throw new Error("bloqueado"); }, setItem: function () { throw new Error("bloqueado"); }, removeItem: function () {} };

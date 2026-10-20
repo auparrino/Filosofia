@@ -347,7 +347,7 @@
   function entryHtml(compact) {
     if (compact) return '<button class="btn ghost cq-entry" data-consultar="">📖 Consultar: diccionario y gramática</button>';
     return '<button class="card cq-card" data-consultar=""><span class="e">📖</span><span><b>Consultar</b>' +
-      '<span class="muted">Diccionario del curso, Mi gramática, Palabra por palabra, mapas, fórmulas y contrastes.</span></span><span class="go">›</span></button>';
+      '<span class="muted">El diccionario del curso y todas las ideas de las lecciones.</span></span><span class="go">›</span></button>';
   }
 
   function attach(host) {

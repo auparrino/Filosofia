@@ -85,14 +85,14 @@
   function etaFor(min, days) {
     if (!P()) return "";
     var pace = min * days / P().weekMinutes(1), d = new Date(Date.now() + 52 / Math.max(0.05, pace) * 7 * DAY);
-    return "A ese ritmo, llegás a C1 en " + P().fmtMonth(d) + ".";
+    return "A ese ritmo, terminás las 52 semanas en " + P().fmtMonth(d) + ".";
   }
 
   function onbStep2() {
     return dots(2) + '<h1 class="onb-h">¿Empezás de cero o ya sabés algo?</h1>' +
       '<div class="onb-pick">' +
       '<button class="card onb-opt" id="obzero"><span class="e">🌱</span><b>Empiezo de cero</b>' +
-        '<span class="muted">Arrancás en la semana 1: el alfabeto, los saludos, los primeros verbos.</span></button>' +
+        '<span class="muted">Arrancás en la semana 1: qué es la filosofía y cómo se lee un argumento.</span></button>' +
       '<button class="card onb-opt" id="obtest"><span class="e">🧭</span><b>Ya sé algo</b>' +
         '<span class="muted">Un test de unas 25 preguntas escritas (cinco a ocho minutos) te dice en qué semana arrancar. ' +
         "Las anteriores quedan abiertas.</span></button></div>" +
@@ -103,17 +103,17 @@
     var st = S(), U = UI(), tabs = U.tabs || [];
     var TAB = {
       oggi: "la próxima misión de tu semana, el repaso y atajos.",
-      frasi: "para practicar más: frases, palabras, sonidos, la Clínica de tus errores.",
-      leggi: "lecturas y escuchas de tu nivel, y la Biblioteca de libros enteros.",
-      percorso: "las 52 semanas en cuatro estaciones; cada semana trae sus palabras, sus misiones y más práctica; cada estación termina con un " + esc(U.boss || "jefe") + ".",
+      frasi: "para practicar más: los ejercicios de todas las semanas, los conceptos, la Clínica de tus errores.",
+      leggi: "fragmentos de las fuentes y obras enteras.",
+      percorso: "las 52 semanas en cuatro estaciones; cada semana trae sus conceptos, sus misiones y más práctica; cada estación termina con un " + esc(U.boss || "jefe") + ".",
       io: "tu progreso, tus ajustes, la copia de seguridad y todo el material junto: lecturas, Biblioteca, práctica, Consultar."
     };
     var start = st.unlocked > 1 ? "Arrancás en la semana " + st.unlocked + "." : "Arrancás en la semana 1.";
     return dots(3) + '<h1 class="onb-h">Cómo funciona</h1>' +
       '<div class="card onb"><h2>Una semana, un tema</h2>' +
-      '<p class="muted">Cada semana tiene su gramática y sus palabras. El camino es siempre el mismo:</p>' +
-      '<ol class="onb-week"><li>📘 la lección, en pasos cortos</li><li>📚 las palabras</li><li>🎯 entrenar hasta 20 respuestas bien</li>' +
-      "<li>✍️ un texto tuyo</li><li>💬 frases para usar</li><li>📖 una lectura</li><li>🏆 «Dominala»: una sesión que muestra que la sabés</li></ol>" +
+      '<p class="muted">Cada semana tiene sus autores, sus ideas y sus conceptos. El camino es siempre el mismo:</p>' +
+      '<ol class="onb-week"><li>📘 la lección, en pasos cortos</li><li>📚 los conceptos</li><li>🎯 entrenar hasta 20 respuestas bien</li>' +
+      "<li>🏆 «Dominala»: una sesión que muestra que la sabés</li></ol>" +
       '<p class="muted small">Cuando terminás las misiones se abre la semana siguiente. En ' + esc(U.today || "Hoy") + " siempre está la próxima misión de tu semana.</p></div>" +
       '<div class="card onb"><h2>Las ' + (tabs.length === 3 ? "tres" : tabs.length) + ' pestañas</h2><ul class="onb-tabs">' +
       tabs.map(function (t) { return "<li><span>" + t[1] + "</span><span><b>" + esc(t[2]) + "</b> · " + (TAB[t[0]] || "") + "</span></li>"; }).join("") + "</ul></div>" +

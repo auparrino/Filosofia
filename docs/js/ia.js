@@ -32,7 +32,7 @@
   var PROVIDERS = [{ id: "claude", name: "Claude", url: URL, model: MODEL }];
   var P = PROVIDERS[0];
 
-  function prefix() { return (root.LANG && root.LANG.storage) || "c1"; }
+  function prefix() { return (root.LANG && root.LANG.storage) || "agora"; }
   function readJSON(k, d) { try { var v = JSON.parse(root.localStorage.getItem(k) || "null"); return v == null ? d : v; } catch (e) { return d; } }
   function writeJSON(k, v) { try { root.localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* lleno o sin permiso */ } }
 

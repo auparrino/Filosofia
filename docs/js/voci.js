@@ -40,7 +40,7 @@
     c.word = new RegExp("^[" + c.letters + "]+$");
     return (CFG = c);
   }
-  function key() { return ((root.LANG && root.LANG.storage) || "c1") + ".voci.v1"; }
+  function key() { return ((root.LANG && root.LANG.storage) || "agora") + ".voci.v1"; }
 
   function load() { try { return JSON.parse(root.localStorage.getItem(key()) || "{}") || {}; } catch (e) { return {}; } }
   function save(db) { try { root.localStorage.setItem(key(), JSON.stringify(db)); } catch (e) { /* lleno o bloqueado */ } }

@@ -250,7 +250,7 @@
     return String(s == null ? "" : s).normalize("NFC").replace(/[’‘`´]/g, "'").toLowerCase().replace(/\s+/g, " ")
       .replace(/^[\s.,;:!?¡¿«»"]+|[\s.,;:!?¡¿«»"]+$/g, "");
   }
-  function storeKey() { return (LG().storage || "c1") + ".ia.cache"; }
+  function storeKey() { return (LG().storage || "agora") + ".ia.cache"; }
   var MEM = null;
   function cacheLoad() {
     if (MEM) return MEM;

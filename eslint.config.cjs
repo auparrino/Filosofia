@@ -34,6 +34,10 @@ const browser = [
   "TextEncoder", "TextDecoder", "IntersectionObserver", "ResizeObserver", "MutationObserver",
   "HTMLElement", "Node", "Element", "DOMParser", "queueMicrotask",
 ];
+// Lo que pone el paquete de una edición y una edición puede no tener todavía
+// (Boot.LANGS.<código>.missing): el núcleo los nombra donde ya los controla.
+const optional = ["Scrivi", "Diagnosi", "Conj", "VociCV", "TresLenguas", "TRAMO_DATA"];
+for (const g of optional) if (!app[g]) app[g] = "writable";
 const globals = Object.assign({}, app);
 for (const g of browser) globals[g] = "readonly";
 // Los módulos también se cargan en node para los tests (typeof module…).

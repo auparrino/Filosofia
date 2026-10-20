@@ -1,5 +1,5 @@
 /*
- * Carga un idioma completo (su paquete docs/lang/<código>/ y el núcleo
+ * Carga una edición (su paquete docs/lang/<código>/ y el núcleo
  * docs/js/) en un contexto de vm, en el mismo orden que el navegador
  * (docs/js/boot.js ORDER), para los tests y la simulación.
  *
@@ -24,7 +24,7 @@ function file(entry, code) {
 
 function pack(code, opts) {
   opts = opts || {};
-  if (!Boot.LANGS[code]) throw new Error("idioma desconocido: " + code);
+  if (!Boot.LANGS[code]) throw new Error("edición desconocida: " + code);
   var ctx = { console: console, Math: Math, Date: Date, JSON: JSON, Object: Object, Array: Array,
               String: String, Number: Number, RegExp: RegExp, Error: Error, TypeError: TypeError,
               parseInt: parseInt, parseFloat: parseFloat, isNaN: isNaN, isFinite: isFinite,
@@ -53,11 +53,10 @@ function pack(code, opts) {
 
 pack.ROOT = ROOT;
 pack.DOCS = DOCS;
-// The complete languages (every file of the package): what the tests of
-// the core go through.  ALL adds the ones that are starting (Boot.LANGS
-// with «missing»: German), which have their own tests (tools/de/).
+// The editions: what the tests of the core go through.  An edition can be
+// missing files (Boot.LANGS.<código>.missing): the core runs without them.
 pack.ALL = Object.keys(Boot.LANGS);
-pack.LANGS = pack.ALL.filter(function (c) { return !(Boot.LANGS[c].missing || []).length; });
+pack.LANGS = pack.ALL;
 pack.langDir = function (code) { return path.join(DOCS, "lang", code); };
 pack.dataPath = function (code, name) { return path.join(DOCS, "lang", code, "data", name); };
 pack.data = function (code, name) { return JSON.parse(fs.readFileSync(pack.dataPath(code, name), "utf8")); };

@@ -321,9 +321,9 @@
   // The line of the pace, for Oggi and Io.
   function etaLine(state, now) {
     var E = eta(state, now);
-    if (E.bosses[3].passed) return "🎓 Llegaste a C1.";
+    if (E.bosses[3].passed) return "🎓 Terminaste las 52 semanas.";
     var src = E.src === "meta" ? "con tu meta de " + ritmo(state).min + " min × " + ritmo(state).days + " días" : "a tu ritmo de las últimas semanas";
-    return "C1 en <b>" + fmtMonth(E.c1) + "</b> " + src + ".";
+    return "Fin del curso en <b>" + fmtMonth(E.c1) + "</b> " + src + ".";
   }
 
   function summaryCard() {

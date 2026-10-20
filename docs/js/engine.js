@@ -119,11 +119,14 @@
     // mark earns it: an accent in the wrong place or of the wrong kind is
     // another word (avô for avó, é for ê); with grade.graveIsGrammar the
     // grave accent is grammar, not spelling (the crase: «a» for «à» is a
-    // rule error, never partial credit).
+    // rule error, never partial credit).  With grade.ignoreMarks the marks
+    // are not what the course teaches (a philosophy course: «ontologia» is
+    // «ontología»): right.
     var flat = function (x) { return deaccent(x).replace(/-/g, " "); };
     var other = false;
     for (var k = 0; k < expanded.length; k++) {
       if (deaccent(g) === deaccent(expanded[k]) || (GR.hyphen && flat(g) === flat(expanded[k]))) {
+        if (GR.ignoreMarks && deaccent(g) === deaccent(expanded[k])) return VERDICT.RIGHT;
         if (!GR.strictMarks) return VERDICT.CLOSE;
         var mg = marks(g), mw = marks(expanded[k]);
         if (mg.every(function (m) { return mw.indexOf(m) >= 0; }) &&
@@ -628,7 +631,7 @@
   /* --------------------------------------------------------------- guardado */
 
   // Each language saves under its own prefix (LANG.storage).
-  var KEY = (LANG.storage || "c1") + ".save.v1";
+  var KEY = (LANG.storage || "agora") + ".save.v1";
   var SAVE = R.save || {};
 
   function baseSave() {

@@ -12,7 +12,7 @@ ok(/kind === "dos"\) items = dosItems\(\)/.test(APP), "startRound conoce la rond
 ok(/round\.kind === "dos" && total >= 1\)[^\n]*state\.dos\[Engine\.dayKey\(\)\] = true/.test(APP), "terminar la ronda marca el día en state.dos");
 ok(/dosItems\(\) \{[\s\S]*?slice\(0, 6\)/.test(APP), "la ronda es de seis ítems");
 
-var E = pack("it", { upTo: "app.js" }).Engine;
+var E = pack("es", { upTo: "app.js" }).Engine;
 ok(E.MODULE_OBJ.indexOf("dos") >= 0, "state.dos está entre los campos de módulo (test_estado lo controla)");
 // Plan 1.2: agendar el rato diario
 ok(/function scheduleReminder\(t\)[\s\S]*?state\.icsAt = Date\.now\(\)[\s\S]*?text\/calendar/.test(APP), "scheduleReminder guarda la hora y el día y baja el .ics");

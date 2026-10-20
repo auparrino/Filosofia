@@ -1,7 +1,7 @@
 /* «Hoy» y «Tu progreso» (docs/js/plan.js, docs/js/progreso.js, docs/js/inicio.js):
    el plan del día por minutos, el modo mantenimiento, la calibración con los
    tiempos reales, el ritmo y las fechas de los jefes, la serie semanal, la
-   cuota de palabras recalibrada y el primer arranque.  En los dos idiomas.
+   cuota de conceptos recalibrada y el primer arranque.  En cada edición.
    Run: node tools/lib/test_plan.js */
 "use strict";
 var pack = require("./pack.js");
@@ -184,12 +184,13 @@ pack.LANGS.forEach(function (code) {
   ok(s4.history.length === n0 + 1 && s4.history[n0].b[0] === 1, tag + "la misma semana se sobrescribe y conserva las bandas");
 
   /* ------------------------------------------------ la cuota de palabras */
-  var s5 = E.blankSave(); s5.unlocked = 21;
+  // a week the course already has (the edition may be shorter than 52 weeks)
+  var s5 = E.blankSave(); s5.unlocked = Math.min(21, course.weeks.length);
   var q = Pr.wordQuota(course, s5, WED, true), sg = E.subGoals(s5);
-  var wk21 = (course.weeks[20].vocab || []).length;
-  ok(q.target === wk21 + 12, tag + "cuota: las palabras de la semana y una sesión del banco (" + q.target + ")");
-  ok(q.target * 3 < sg.wordsPerWeek, tag + "cuota: lejos de las " + sg.wordsPerWeek + " de antes");
-  ok(q.boss === 26 && q.byBoss > 0, tag + "cuota: lo que el curso enseña hasta el jefe (" + q.byBoss + ")");
+  var wkN = (course.weeks[s5.unlocked - 1].vocab || []).length;
+  ok(q.target === wkN + 12, tag + "cuota: los conceptos de la semana y una sesión más (" + q.target + ")");
+  ok(q.target < sg.wordsPerWeek, tag + "cuota: menos que la meta vieja de " + sg.wordsPerWeek);
+  ok(q.boss >= s5.unlocked && q.boss % 13 === 0 && q.byBoss > 0, tag + "cuota: lo que el curso enseña hasta el jefe (" + q.boss + ": " + q.byBoss + ")");
 
   /* ------------------------------------------------ el primer arranque */
   var nw = E.blankSave();

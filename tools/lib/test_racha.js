@@ -4,7 +4,7 @@
 var fs = require("fs"), path = require("path");
 var pack = require("./pack.js");
 var T = require("./testkit.js")("lib"), ok = T.ok;
-var E = pack("it", { upTo: "app.js" }).Engine;
+var E = pack("es", { upTo: "app.js" }).Engine;
 function day(m, d) { return new Date(2026, m - 1, d, 12); }
 
 // 2026-03-02 es lunes.

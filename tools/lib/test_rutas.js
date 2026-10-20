@@ -1,10 +1,10 @@
 /* Las rutas que citan los documentos existen.  Cada `ruta` entre comillas
    invertidas de un .md del repo que empiece por una carpeta o un archivo de
    la raíz (docs/, tools/, auditorias/, .github/, README…) tiene que existir;
-   si no, el documento describe un repo que ya no está (pasó con
-   tools/pt/CONTENIDO.md y con la «Estructura del repo» del README-italiano).
+   si no, el documento describe un repo que ya no está (en La Via C1 pasó
+   con dos documentos que sobrevivieron a las carpetas que describían).
 
-   - `<código>` o `<code>` valen por cualquier idioma (it, pt);
+   - `<código>`, `<edición>` o `<code>` valen por cualquier edición de docs/lang/;
    - `*` es un comodín dentro de una carpeta (`tools/<código>/authored/s*.py`);
    - se ignoran el número de línea (`app.js:726`) y lo que sigue a un
      espacio (`node tools/lib/sim_carriera.js it`: se mira el script).
@@ -34,6 +34,8 @@ function looksLikePath(s) {
 function globToRe(seg) {
   return new RegExp("^" + seg.replace(/[.+^${}()|[\]\\]/g, "\\$&").replace(/\*/g, ".*").replace(/\?/g, ".") + "$");
 }
+// The editions on disk (docs/lang/<código>/): what <código> stands for.
+var EDITIONS = fs.readdirSync(path.join(ROOT, "docs", "lang")).filter(function (n) { return fs.statSync(path.join(ROOT, "docs", "lang", n)).isDirectory(); });
 // Does the path (maybe with * and <código>) name something in the repo?
 // What only exists after running a tool (gitignored): not checked.
 var GENERATED = [/^tools\/[^/]+\/audit\/out\//, /^tools\/(?:[^/]+\/)?\.cache\//];
@@ -41,7 +43,8 @@ function exists(p) {
   if (GENERATED.some(function (re) { return re.test(p); })) return true;
   // placeholders: wNN.json, pass{N}, find_{K}
   p = p.replace(/\{[^}]*\}/g, "*").replace(/(^|[^A-Z])NN(?![A-Z])/g, "$1*");
-  var variants = /<(código|codigo|code|lang|idioma)>/.test(p) ? ["it", "pt"].map(function (c) { return p.replace(/<(código|codigo|code|lang|idioma)>/g, c); }) : [p];
+  var PH = /<(código|codigo|code|lang|idioma|edición|edicion)>/g;
+  var variants = PH.test(p) ? EDITIONS.map(function (c) { return p.replace(PH, c); }) : [p];
   return variants.some(function (v) {
     var segs = v.replace(/\/+$/, "").split("/"), dirs = [ROOT];
     for (var i = 0; i < segs.length; i++) {

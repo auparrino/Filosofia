@@ -16,14 +16,13 @@
  * este.  Solo en pantallas táctiles: con mouse y teclado físico, nada.
  * El botón ⌨️ pasa al teclado del teléfono, y en la fila de acentos de
  * cada ejercicio hay uno para volver.  La elección queda en este teléfono
- * («c1.kb2»: app | phone), para todos los idiomas.  «c1.kb2» y no «c1.kb»:
- * hasta la v3.11 el botón ⌨️ parecía el «ocultar» de Gboard y dejaba
- * elegido el teclado del teléfono sin querer; esa elección no se hereda.
+ * («agora.kb2»: app | phone), para todas las ediciones (el nombre viene
+ * de La Via C1, que guardaba «c1.kb2»).
  */
 (function (root) {
   "use strict";
 
-  var KEY = "c1.kb2";
+  var KEY = "agora.kb2";
   var doc = root.document;
 
   function mode() { try { return root.localStorage.getItem(KEY) || "app"; } catch (e) { return "app"; } }

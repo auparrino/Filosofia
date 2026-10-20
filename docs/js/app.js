@@ -17,7 +17,7 @@
   var LG = window.LANG || {}, UI = LG.ui || {};
   // Storage keys of the language (LANG.storage + "."): the progress of
   // each language lives under its own prefix.
-  var SKEY = function (k) { return (LG.storage || "c1") + "." + k; };
+  var SKEY = function (k) { return (LG.storage || "agora") + "." + k; };
   // A word of the language: letters, the apostrophe, and the hyphen where
   // the language writes it inside words (chama-se).
   var WCH = "a-zà-ÿ'" + (LG.hyphenWords ? "-" : "");
@@ -826,9 +826,9 @@
   }
 
   /* The version, so a glance says whether the phone already loaded the
-     latest one (it must match VERSION = "c1-vN" in sw.js: test_game
-     and the CI check it).  One version for the app and both languages. */
-  var APP_VERSION = "v3.11.4";
+     latest one (it must match VERSION = "agora-vN" in sw.js: test_version
+     and the CI check it).  One version for the app and every edition. */
+  var APP_VERSION = "v0.1.0";
   // Settimana XVII: Roman numerals on the street signs (LANG.ui.romanWeeks).
   function romano(n) {
     var out = "", v = [[50, "L"], [40, "XL"], [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"]];
@@ -849,7 +849,7 @@
       return '<button class="btn ghost"' + (c === UI.switchCode ? ' id="switchlang"' : "") + ' data-switchlang="' + c + '">' +
         esc(c === UI.switchCode && UI.switchTo ? UI.switchTo : "Cambiar a " + o.name + " " + o.flag) + "</button>";
     }).join("") + "</div>" +
-      '<p class="muted small">Cada idioma guarda su propio progreso: podés ir y volver cuando quieras.</p></div>';
+      '<p class="muted small">Cada edición guarda su propio progreso: podés ir y volver cuando quieras.</p></div>';
   }
 
   function versionLine() {
@@ -4260,15 +4260,15 @@
      reading speed, all the practice, and «Consultar». */
   function allMaterialCard() {
     var all = UI.allTabs || [["frasi", "🚣", UI.train], ["leggi", "📖", UI.read]];
-    var desc = { frasi: "la práctica de todas las semanas: frases, Laboratorio, duelos, Banco, escritura guiada, " +
-                   (window.Trabajo && Trabajo.scenes().length ? "las escenas de trabajo, " : "") + "Tres lenguas",
-                 leggi: "todas las lecturas y escuchas, la Biblioteca, tus cuentos y tu velocidad de lectura" };
+    var desc = { frasi: "la práctica de todas las semanas: los ejercicios, los conceptos" +
+                   (window.Trabajo && Trabajo.scenes().length ? ", las escenas de trabajo" : ""),
+                 leggi: "todas las lecturas, la Biblioteca y tu velocidad de lectura" };
     return '<div class="card allmat"><h2>📦 Todo el material</h2>' +
       '<p class="muted small">Lo de cada semana está en la página de esa semana. Acá, todo junto:</p>' +
       '<div class="labs">' + all.map(function (t) {
         return '<button class="lab" data-goto="' + t[0] + '"><span class="e">' + t[1] + "</span><b>" + esc(t[2]) + '</b><span class="muted">' + desc[t[0]] + "</span></button>";
       }).join("") +
-      (window.Capas ? '<button class="lab" data-goto="consultar"><span class="e">🔎</span><b>Consultar</b><span class="muted">diccionario, «Mi gramática» y cómo se usa una palabra</span></button>' : "") +
+      (window.Capas ? '<button class="lab" data-goto="consultar"><span class="e">🔎</span><b>Consultar</b><span class="muted">el diccionario del curso y todas las ideas de las lecciones</span></button>' : "") +
       "</div></div>";
   }
 
@@ -4314,7 +4314,7 @@
           [["app", "El de la app"], ["phone", "El del teléfono"]].map(function (t) {
             return '<option value="' + t[0] + '"' + (Teclado.mode() === t[0] ? " selected" : "") + ">" + t[1] + "</option>";
           }).join("") + "</select></label>" : "") +
-        '<label class="set"><span>Teclado sin sugerencias<small>el teclado no te propone palabras (más difícil), pero tampoco detecta el idioma solo ni deja elegirlo desde su barra</small></span>' +
+        '<label class="set"><span>Teclado sin sugerencias<small>el teclado no te propone palabras ni te corrige solo</small></span>' +
           '<input type="checkbox" id="kbquiet"' + (state.kbQuiet ? " checked" : "") + "></label>" +
         '<label class="set"><span>Modo oficina 🤫<small>nada suena solo; el 🔊 sigue andando si lo tocás</small></span>' +
           '<input type="checkbox" id="silent"' + (state.silent ? " checked" : "") + "></label>" +
@@ -4353,9 +4353,9 @@
       "</div></details>" +
 
       '<details class="card fold"><summary><h2>Estadísticas y créditos</h2></summary><table class="res">' +
-        "<tr><td>Frases de conversación vistas</td><td>" + phrasesKnown + " / " +
+        (Frasi.ALL.length ? "<tr><td>Frases de conversación vistas</td><td>" + phrasesKnown + " / " +
           Frasi.ALL.length + "</td></tr>" +
-        "<tr><td>Frases escritas de memoria</td><td>" + (state.written || 0) + "</td></tr>" +
+        "<tr><td>Frases escritas de memoria</td><td>" + (state.written || 0) + "</td></tr>" : "") +
         "<tr><td>Récord " + UI.lampo + "</td><td>" + ((state.best || {}).lampo || 0) + "</td></tr>" +
         "<tr><td>Mejor combo</td><td>" + ((state.best || {}).combo || 0) + "</td></tr>" +
         "<tr><td>Respuestas totales</td><td>" + state.totals.attempts + "</td></tr>" +
@@ -4397,7 +4397,7 @@
       '<h3>🏅 Récords personales</h3><table class="res">' +
         "<tr><td>Mejor sesión</td><td>" + (rec.sessione || 0) + " %</td></tr>" +
         "<tr><td>Semanas seguidas con tres días</td><td>" + (rec.settimane || Engine.weekStreak(state)) + "</td></tr>" +
-        "<tr><td>Palabras nuevas en una semana</td><td>" + (rec.parole || 0) + "</td></tr>" +
+        "<tr><td>Conceptos nuevos en una semana</td><td>" + (rec.parole || 0) + "</td></tr>" +
         "<tr><td>Errores corregidos por vos en una ronda</td><td>" + (rec.corrette || 0) + "</td></tr>" +
         "<tr><td>" + UI.lampo + " · " + UI.wordOrNot + "</td><td>" + ((state.best || {}).lampo || 0) + " · " + ((state.best || {}).lampoParole || 0) + "</td></tr>" +
       "</table>" +
@@ -4455,7 +4455,7 @@
         "<tr><td>En mantenimiento (meses)</td><td>" + m.maint + "</td></tr>" +
         "<tr><td>Probabilidad media de recordarlas hoy</td><td>" + m.recall + " %</td></tr>" +
       "</table>" +
-      '<p class="muted small">' + speedLine("v", "Vocabulario") + " " + speedLine("g", "Gramática") + "</p>" +
+      '<p class="muted small">' + speedLine("v", "Conceptos") + " " + speedLine("g", "Ideas") + "</p>" +
       '<label class="set"><span>Cuántos repasos por día<small>más repasos = recordás más; el porcentaje es lo que vas a recordar de cada ficha</small></span><select id="retention">' +
         [[0.85, "Menos · recordás 85 %"], [0.9, "Normal · recordás 90 %"], [0.95, "Más · recordás 95 %"]].map(function (r) {
           return '<option value="' + r[0] + '"' + ((state.retention || 0.9) === r[0] ? " selected" : "") + ">" + r[1] + "</option>";
@@ -4584,7 +4584,7 @@
   }
   function otherLangCopy(j) {
     var other = (window.Boot && Boot.LANGS && Boot.LANGS[j.lang]) || {};
-    return "Esta copia es de " + (j.brand || other.brand || j.lang) + ". Cambiá de idioma en " + UI.me + " y restaurala ahí.";
+    return "Esta copia es de " + (j.brand || other.brand || j.lang) + ". Cambiá de edición en " + UI.me + " y restaurala ahí.";
   }
   /* A copy restored, from a file or from the cloud, the same way the
      phone's own save is loaded (Engine.fromRaw: migrations, sanitize, the
@@ -4592,9 +4592,9 @@
      the question before replacing.  True when it was restored; throws on
      something that is not a copy. */
   function restoreEnvelope(j, ask) {
-    var s = j && j.app === "c1" && j.save ? j.save : j;
+    var s = j && j.app === "agora" && j.save ? j.save : j;
     if (!s || typeof s.xp !== "number" || !s.cards) throw new Error("formato");
-    if (j.app === "c1" && j.lang && j.lang !== LG.code) { toast(otherLangCopy(j), 4000); return false; }
+    if (j.app === "agora" && j.lang && j.lang !== LG.code) { toast(otherLangCopy(j), 4000); return false; }
     if (!confirm(ask || "Esto reemplaza tu progreso actual por la copia (" + s.xp +
                  " xp" + (j.at ? ", del " + new Date(j.at).toLocaleDateString("es-AR") : "") + "). ¿Seguir?")) return false;
     state = Engine.fromRaw(s);
@@ -4649,7 +4649,7 @@
       '<label class="set"><span>Subir sola al cerrar la app<small>una vez por día como mucho, si cambió algo</small></span>' +
         '<input type="checkbox" id="gistauto"' + (sy.auto ? " checked" : "") + "></label>" +
       (st.length ? '<p class="muted small" id="giststate">' + esc(st.join(" ")) + "</p>" : "") +
-      '<p class="muted small">El token queda solo en este teléfono, con las claves de IA (sirve para los dos idiomas), y nunca entra en la copia.</p>' +
+      '<p class="muted small">El token queda solo en este teléfono, con las claves de IA (sirve para todas las ediciones), y nunca entra en la copia.</p>' +
       (tok ? '<div class="row"><button class="tab" id="gistforget">Olvidar el token</button></div>' : "") +
       "</details>";
   }
@@ -4802,9 +4802,27 @@
     });
   }
 
+  /* La época (course.eras): la estética avanza con la historia.  Sigue a
+     la semana en que vas; en las pantallas de una semana (la lección, la
+     teoría), a esa semana.  ?era=N la fija, para mirarlas. */
+  var ERA_FIXED = (/[?&]era=(\d)/.exec(location.search) || [])[1] || "";
+  function eraOf(week) {
+    var eras = (course && course.eras) || [];
+    for (var i = 0; i < eras.length; i++) if (week >= eras[i].weeks[0] && week <= eras[i].weeks[1]) return eras[i].n;
+    return 1;
+  }
+  function applyEra(s) {
+    var weekly = /^(briefing|teoria|sfide|lezione)$/.test(s) && view.week;
+    var era = String(ERA_FIXED || eraOf(weekly ? view.week : Math.min(state.unlocked || 1, 52)));
+    if (document.documentElement.getAttribute("data-era") === era) return;
+    document.documentElement.setAttribute("data-era", era);
+    try { localStorage.setItem((window.Boot && Boot.ERA) || "agora.era", era); } catch (e) { /* sin almacenamiento */ }
+  }
+
   function render() {
     var html = "";
     var s = view.screen;
+    applyEra(s);
     if (s === "oggi") html = renderOggi();
     else if (s === "frasi") html = renderFrasi();
     else if (s === "percorso") html = renderPercorso();
@@ -7124,7 +7142,8 @@
     (root0 || document).querySelectorAll("textarea, input").forEach(function (el) {
       var type = (el.getAttribute("type") || "text").toLowerCase();
       if (type !== "text" && type !== "search" && el.tagName !== "TEXTAREA") return;
-      var es = !!(SPANISH_BOXES[el.id] || el.dataset.es);
+      // an edition in Spanish (UI.appKeyboard false): every box is a Spanish one, with the phone's keyboard
+      var es = !!(SPANISH_BOXES[el.id] || el.dataset.es) || UI.appKeyboard === false;
       if (!el.hasAttribute("lang")) el.setAttribute("lang", es ? "es" : LG.tts);
       if (type === "search" || es) return;
       // the app's own keyboard, in the language of the course (teclado.js)
@@ -7471,7 +7490,7 @@
       '<div class="row"><button class="btn" id="rsdl">💾 Descargar mis datos</button><button class="btn ghost" id="rsagain">Reintentar</button></div>' +
       '<p class="muted small">' + esc(String(err && err.message || err)) + "</p></div>";
     on("#rsdl", function () {
-      download(new Blob([JSON.stringify({ app: "c1", lang: LG.code, brand: LG.brand, v: APP_VERSION, at: new Date().toISOString(), raw: raw })], { type: "application/json" }),
+      download(new Blob([JSON.stringify({ app: "agora", lang: LG.code, brand: LG.brand, v: APP_VERSION, at: new Date().toISOString(), raw: raw })], { type: "application/json" }),
                UI.exportFile + stamp() + "-rescate.json");
     });
     on("#rsagain", function () { location.reload(); });
