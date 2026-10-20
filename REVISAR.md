@@ -142,3 +142,15 @@ edición cotejada.
   - Santayana, *Soliloquios en Inglaterra* (1922), y la atribución falsa a
     Platón en 1962;
   - Hume, «Del contrato original» (1748).
+
+## Literatura, semanas 1 a 38 (lit/antigua_medieval.py)
+
+- **Años aproximados:** Popol Vuh (1554), Chaucer (1400), Masnavi (1273),
+  *El liberador del error* (1100), *La corona real* (1050), Shijing (−600),
+  Bhagavad Gita (−200).
+- **Primeras ediciones posteriores a la escritura:** *Julio César* y *Timón
+  de Atenas* (1623), *El gran teatro del mundo* (1655).
+- **Detalles para confirmar:**
+  - el cuento de Brecht «Sócrates herido» en *Historias de almanaque*;
+  - el escéptico al final de *Subasta de vidas*;
+  - la máquina de la «N» en la *Ciberíada* de Lem.

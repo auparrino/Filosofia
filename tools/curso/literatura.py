@@ -659,7 +659,7 @@ LITERATURA = {
     # 111 · Pensamiento latinoamericano I: identidad y liberación
     111: [
         o('José Martí', 'Nuestra América', 1891, 'ensayo literario',
-          '«El vino, de plátano»: pensar América desde América.', dp=True, arg=True),
+          '«El vino, de plátano; y si sale agrio, ¡es nuestro vino!»: pensar América desde América, con sus propias ideas y no con las importadas.', dp=True, arg=True),
         o('José Enrique Rodó', 'Ariel', 1900, 'ensayo literario',
           'Un maestro despide a sus alumnos oponiendo Ariel (el espíritu) a Calibán (el utilitarismo): el ensayo que marcó a la juventud latinoamericana.', dp=True, arg=True),
     ],
