@@ -370,3 +370,10 @@ edición cotejada.
 - **Feyerabend:** la torre de Galileo y la medicina china en *Contra el método*, sin capítulo; «El extraño caso de la astrología», en *La ciencia en una sociedad libre*; que «todo vale» es la exclamación de un racionalista, sin fuente exacta (¿prefacio de la 3.ª edición o *Adiós a la razón*?).
 - ***Solaris*,** «no buscamos otros mundos, buscamos espejos», atribuida a Snaut, en resumen.
 - **Quine:** «ser es ser el valor de una variable», como lema sin comillas; el matemático ciclista en *Palabra y objeto* § 41. El caso «Madagascar», de Evans (1973), en resumen.
+
+## Semanas 105-107
+
+- **Citas traducidas sin cotejar:** Mackie, «entidades, cualidades o relaciones de un tipo muy extraño…» (*Ética*, cap. 1, § 9); Rawls, § 24, «establecer un procedimiento equitativo…» y «anular los efectos de las contingencias…»; Nozick, cap. 7, «gravar los ingresos del trabajo está a la par del trabajo forzado».
+- **Datos dados por seguros sin verificar:** que Rawls ve el velo implícito en Kant (§ 24); el libro de la biblioteca como ejemplo de Dancy; Nozick, *La vida examinada* (1989), su libertarismo «seriamente inadecuado»; la retractación de Thomson en «Turning the Trolley» (2008).
+- **MacIntyre (1929-2025):** confirmar la fecha de muerte.
+- **«Ética de las virtudes»:** la 106 la tiene como «(neoaristotélica)» y la 115 sin calificador; ver si conviene dejar el concepto solo en la 106.
