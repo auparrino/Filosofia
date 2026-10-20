@@ -99,3 +99,20 @@ edición cotejada.
 - **Milindapañha:** la división II 1, 1 / II 2, 1 es la de Rhys Davids.
 - **Brecht:** en literatura.py se le atribuye «lo blando vence a lo duro» en
   el poema de Laozi. Hay que verificar la letra.
+
+## Semanas 18, 19 y 20
+
+- **Diógenes Laercio:**
+  - VI 105 o VI 104 («propio de los dioses es no necesitar nada»);
+  - VI 86 (Crates «abrepuertas»);
+  - II 72 y 86 (Arete);
+  - VI 87-88 (la fortuna de Crates).
+- **Atribuciones tardías:** la «caballeidad» de Antístenes (Simplicio, sin
+  pasaje) y Aristipo según Ateneo XII 544a-b.
+- **Bekker para cotejar:**
+  - *Ética a Nicómaco* VIII 3, 1156b25-29;
+  - *Retórica* I 2, 1357a16-21;
+  - *Política* III 7, 1279a32-34;
+  - *Poética* 13, 1453a29-30.
+- **Datos aproximados:** Castelvetro (1570) y la unidad de lugar, Bernays
+  (1857), Leon Golden, el «síndrome de Diógenes» en los años setenta.
