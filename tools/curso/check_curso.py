@@ -6,6 +6,8 @@
   los ejemplos entre comillas «…» dicen de dónde salen (obra, fragmento,
   «atribuido», «apócrifa»…).
 - Las opciones no se repiten y la respuesta está entre ellas.
+- La literatura: cada semana (salvo las de examen) trae al menos una obra
+  de ficción con el porqué (tools/curso/literatura.py).
 - Lo que se ve de la app (index.html, manifest, los paquetes) ya no dice
   La Via C1, Rumo C1, Weg C1 ni «italiano».
 
@@ -104,9 +106,38 @@ for f in visible:
         line = text[:m.start()].count("\n") + 1
         err(os.path.relpath(f, ROOT), "línea %d todavía dice «%s»" % (line, m.group(0)))
 
+# the literature of each week (tools/curso/literatura.py)
+import literatura  # noqa: E402
+TIPOS = {"novela", "cuento", "poema", "teatro", "ensayo literario", "testimonio", "diálogo"}
+n_obras = 0
+for wk in range(1, 53):
+    obras = literatura.LITERATURA.get(wk)
+    if obras is None:
+        err("literatura", "falta la semana %d" % wk)
+        continue
+    if wk in literatura.EXAM_WEEKS:
+        if obras:
+            err("literatura", "la semana %d es de examen: repasa, no trae obra nueva" % wk)
+        continue
+    if not obras:
+        err("literatura", "la semana %d no tiene ninguna obra" % wk)
+    for ob in obras:
+        n_obras += 1
+        tag = "literatura semana %d «%s»" % (wk, ob.get("obra", "?"))
+        if not (ob.get("autor") and ob.get("obra") and isinstance(ob.get("año"), int)):
+            err(tag, "autor, obra y año")
+        if ob.get("tipo") not in TIPOS:
+            err(tag, "tipo %r" % ob.get("tipo"))
+        if len(ob.get("por_que") or "") < 40:
+            err(tag, "falta decir por qué va en esta semana")
+n_arg = sum(1 for obs in literatura.LITERATURA.values() for ob in obs if ob["arg"])
+if n_arg < 15:
+    err("literatura", "pocas obras argentinas o latinoamericanas: %d (mínimo 15)" % n_arg)
+
 n_items = sum(len(w["items"]) for w in curso.WEEKS)
 if errors:
     print("\n".join("FAIL " + e for e in errors))
     print("✗ curso: %d problemas" % len(errors))
     sys.exit(1)
-print("✓ curso: %d semanas, %d ejercicios, %d conceptos, la marca limpia" % (len(curso.WEEKS), n_items, len(seen_vocab)))
+print("✓ curso: %d semanas, %d ejercicios, %d conceptos, %d obras literarias (%d argentinas o latinoamericanas), la marca limpia"
+      % (len(curso.WEEKS), n_items, len(seen_vocab), n_obras, n_arg))

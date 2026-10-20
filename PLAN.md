@@ -12,6 +12,8 @@
 | 6 | Contenido `es`: semanas 4-13 y el examen de la Antigüedad; después las estaciones 2, 3 y 4 | pendiente (3 de 52 semanas) |
 | 7 | Ediciones it y pt desde la misma fuente, con un test de paridad; después de | pendiente |
 | 8 | Lecturas de fuentes y Biblioteca, diálogos a dos voces, «el mismo concepto en cuatro lenguas» | pendiente |
+| — | La literatura de las 52 semanas (§7) | **hecho** (los datos; cómo se muestra depende del formato) |
+| — | Investigar si el formato de La Via sirve ([FORMATO.md](FORMATO.md)) | **hecho**; falta decidir |
 
 Decisiones ya tomadas:
 - **La base** es `main` v3.11.4. La rama `ccr-f31ce70c-nyfpin` no existe, y
@@ -320,7 +322,86 @@ Cada época tiene su versión oscura. Se pueden mirar con `?era=1` a `?era=6`.
 | 🤫 Modo oficina, plan del día, progreso, racha, meta, copia, nube, calendario | tal cual | anda |
 | Gimnasio de verbos, sonidos, dictado, dictogloss, C-test, variaciones, desglose, mapas, fórmulas, frecuencia, trabajo, Tres lenguas | se eliminan | Tres lenguas ya está afuera; el resto, en el paso 4 |
 
+## 7. La literatura de cada semana
+
+Cada semana trae una o más obras de ficción que caen dentro de la corriente
+o la ejemplifican: una novela, un cuento, un poema, una obra de teatro o un
+diálogo. Cada una va con el porqué: qué idea muestra y en qué escena o
+pasaje. Son **103 obras**, de las cuales **65 son de dominio público** (📖:
+se pueden leer enteras en la app) y **21 son argentinas o
+latinoamericanas** (🇦🇷). Borges aparece casi en cada estación.
+- **Los datos:** `tools/curso/literatura.py`.
+- **Qué controla `check_curso.py`:** que todas las semanas tengan obra,
+  salvo las de examen, que cada una diga por qué está y que haya por lo menos
+  15 obras argentinas o latinoamericanas.
+- **Cómo se muestra:** depende del formato que se elija (ver
+  [FORMATO.md](FORMATO.md)). Puede ser un bloque «En la literatura» en la
+  lección, una lectura de la semana o un caso para discutir.
+
+| # | Obras |
+|---|---|
+| 1 | Jostein Gaarder, *El mundo de Sofía*; Antoine de Saint-Exupéry, *El principito* |
+| 2 | Hesíodo, *Teogonía* 📖; Ovidio, *Metamorfosis, libro XV* 📖 |
+| 3 | Lucrecio, *De la naturaleza de las cosas* 📖; Hermann Hesse, *Siddhartha*; Jorge Luis Borges, *«La perpetua carrera de Aquiles y la tortuga» y «Avatares de la tortuga» (Discusión)* 🇦🇷 |
+| 4 | Lewis Carroll, *«Lo que la tortuga le dijo a Aquiles»* 📖; Arthur Conan Doyle, *Estudio en escarlata* 📖 |
+| 5 | Aristófanes, *Las nubes* 📖; Platón, *Apología de Sócrates* 📖 |
+| 6 | William Wordsworth, *Oda: Indicios de inmortalidad* 📖; Platón, *Fedón (la muerte de Sócrates)* 📖 |
+| 7 | José Saramago, *La caverna*; Aldous Huxley, *Un mundo feliz* |
+| 8 | Jorge Luis Borges, *«El idioma analítico de John Wilkins» (Otras inquisiciones)* 🇦🇷; Mary Shelley, *Frankenstein* 📖 |
+| 9 | Lewis Carroll, *Alicia en el país de las maravillas* 📖; Jonathan Swift, *Una modesta proposición* 📖 |
+| 10 | Homero, *Ilíada* 📖; Jane Austen, *Orgullo y prejuicio* 📖 |
+| 11 | Sófocles, *Edipo rey* 📖; Umberto Eco, *El nombre de la rosa* |
+| 12 | Marguerite Yourcenar, *Memorias de Adriano*; Séneca, *Fedra* 📖 |
+| 13 | *(examen: repasa las obras de la estación)* |
+| 14 | Agustín de Hipona, *Confesiones* 📖; Dante Alighieri, *Divina comedia, Paraíso* 📖 |
+| 15 | Boecio, *La consolación de la filosofía* 📖; Abelardo y Eloísa, *Cartas* 📖 |
+| 16 | Jorge Luis Borges, *«La busca de Averroes» (El Aleph)* 🇦🇷; Las mil y una noches, *(anónimo; versión de Galland)* 📖 |
+| 17 | Dante Alighieri, *Divina comedia, Paraíso, cantos X-XIII* 📖 |
+| 18 | Umberto Eco, *El nombre de la rosa*; Jorge Luis Borges, *«Funes el memorioso» (Ficciones)* 🇦🇷 |
+| 19 | Tomás Moro, *Utopía* 📖; William Shakespeare, *La tempestad* 📖; Bertolt Brecht, *Vida de Galileo* |
+| 20 | Nicolás Maquiavelo, *La mandrágora* 📖; William Golding, *El señor de las moscas* |
+| 21 | Pedro Calderón de la Barca, *La vida es sueño* 📖; Jorge Luis Borges, *«Las ruinas circulares» (Ficciones)* 🇦🇷 |
+| 22 | Voltaire, *Cándido o el optimismo* 📖; Jorge Luis Borges, *«Spinoza» y «Baruch Spinoza» (poemas)* 🇦🇷 |
+| 23 | Jorge Luis Borges, *«Tlön, Uqbar, Orbis Tertius» (Ficciones)* 🇦🇷; Laurence Sterne, *Tristram Shandy* 📖 |
+| 24 | Luigi Pirandello, *Uno, ninguno y cien mil* 📖; Jorge Luis Borges, *«Nueva refutación del tiempo» (Otras inquisiciones)* 🇦🇷 |
+| 25 | Montesquieu, *Cartas persas* 📖; Daniel Defoe, *Robinson Crusoe* 📖; Jean-Jacques Rousseau, *Emilio* 📖 |
+| 26 | *(examen: repasa las obras de la estación)* |
+| 27 | Heinrich von Kleist, *Carta a Wilhelmine von Zenge (22 de marzo de 1801) y «Sobre el teatro de marionetas»* 📖; Thomas De Quincey, *Los últimos días de Immanuel Kant* 📖 |
+| 28 | Heinrich von Kleist, *Michael Kohlhaas* 📖; Mark Twain, *Las aventuras de Huckleberry Finn* 📖 |
+| 29 | Sófocles, *Antígona* 📖; Johann Wolfgang von Goethe, *Fausto* 📖 |
+| 30 | Thomas Mann, *Los Buddenbrook* 📖; Søren Kierkegaard, *Diario de un seductor (en O lo uno o lo otro)* 📖 |
+| 31 | Charles Dickens, *Tiempos difíciles* 📖; Fiódor Dostoievski, *Los hermanos Karamázov (la rebelión de Iván, libro V)* 📖 |
+| 32 | Émile Zola, *Germinal* 📖; Roberto Arlt, *Los siete locos* 📖 🇦🇷 |
+| 33 | Fiódor Dostoievski, *Crimen y castigo* 📖; Hermann Hesse, *Demian* |
+| 34 | Lewis Carroll, *A través del espejo, cap. VII* 📖; Lewis Carroll, *A través del espejo, cap. VI (Humpty Dumpty)* 📖 |
+| 35 | Ursula K. Le Guin, *«Los que se alejan de Omelas»*; Henry James, *Otra vuelta de tuerca* 📖 |
+| 36 | Hugo von Hofmannsthal, *Carta de Lord Chandos* 📖; Robert Musil, *Las tribulaciones del estudiante Törless* 📖 |
+| 37 | Marcel Proust, *Por el camino de Swann* 📖 |
+| 38 | León Tolstói, *La muerte de Iván Ilich* 📖; Rainer Maria Rilke, *Elegías de Duino* 📖 |
+| 39 | *(examen: repasa las obras de la estación)* |
+| 40 | Albert Camus, *El extranjero*; Jean-Paul Sartre, *La náusea*; Ernesto Sabato, *El túnel* 🇦🇷 |
+| 41 | Jorge Luis Borges, *«Pierre Menard, autor del Quijote» (Ficciones)* 🇦🇷; Julio Cortázar, *Historias de cronopios y de famas* 🇦🇷 |
+| 42 | Stanisław Lem, *Solaris*; Jorge Luis Borges, *«Del rigor en la ciencia» (El hacedor)* 🇦🇷 |
+| 43 | Ryūnosuke Akutagawa, *«En el bosque»* 📖; Adolfo Bioy Casares, *La invención de Morel* 🇦🇷 |
+| 44 | Franz Kafka, *La metamorfosis* 📖; Philip K. Dick, *¿Sueñan los androides con ovejas eléctricas?* |
+| 45 | Jorge Luis Borges, *«Borges y yo» (El hacedor) y «El otro» (El libro de arena)* 🇦🇷; Robert Louis Stevenson, *El extraño caso del doctor Jekyll y míster Hyde* 📖; Jorge Luis Borges, *«El jardín de senderos que se bifurcan» (Ficciones)* 🇦🇷 |
+| 46 | Franz Kafka, *El proceso* 📖; George Orwell, *1984* 📖 |
+| 47 | Ursula K. Le Guin, *Los desposeídos*; Primo Levi, *Si esto es un hombre* |
+| 48 | Sor Juana Inés de la Cruz, *Respuesta a sor Filotea de la Cruz* 📖 🇦🇷; Virginia Woolf, *Un cuarto propio* 📖; Margaret Atwood, *El cuento de la criada* |
+| 49 | Domingo Faustino Sarmiento, *Facundo* 📖 🇦🇷; José Hernández, *Martín Fierro* 📖 🇦🇷; Leopoldo Marechal, *Adán Buenosayres* 🇦🇷; Juan Rulfo, *Pedro Páramo* 🇦🇷 |
+| 50 | Oscar Wilde, *El retrato de Dorian Gray* 📖; Thomas Mann, *La muerte en Venecia* 📖 |
+| 51 | Mary Shelley, *Frankenstein* 📖; Kazuo Ishiguro, *Nunca me abandones*; Kazuo Ishiguro, *Klara y el sol* |
+| 52 | *(examen: repasa las obras de la estación)* |
+
 ## Para decidir
+
+0. **El formato.** La investigación ([FORMATO.md](FORMATO.md)) dice que el
+   curso-juego sirve para los conceptos y la estructura de los argumentos,
+   pero no para practicar filosofía: reconstruir, objetar y escribir.
+   Recomienda un **híbrido**: el motor actual como práctica diaria de 5 a 8
+   minutos, con preguntas de aplicación y dilemas, más una sesión semanal con
+   un texto en tramos, un mapa del argumento y un párrafo propio con
+   devolución socrática de la IA.
 
 1. **La filosofía no occidental.** Ningún plan de estudio la tiene como
    obligatoria, por eso la investigación la sacó de las 52 semanas. Hay tres
