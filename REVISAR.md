@@ -59,3 +59,24 @@ edición cotejada.
   - Peirce, *Collected Papers* 5.189;
   - los datos de Holmes en *Estudio en escarlata*;
   - los artículos 55 y 89 de la Constitución Nacional.
+
+## Semanas 21, 22 y 23
+
+- **Séneca:** «el mejor remedio de la ira es la demora» sería *Sobre la ira*
+  II 29, sin confirmar. Va citado sin número.
+- **Pasajes de memoria:**
+  - Usener, fr. 221 y 551;
+  - Séneca, *Sobre la brevedad de la vida* 9, 1;
+  - Diógenes Laercio X 136 y VII 80-81;
+  - Sexto, *Esbozos pirrónicos* I 69 y II 110-112, y *Contra los
+    matemáticos* VIII 11-12 y I 309;
+  - Cicerón, *Del supremo bien y del supremo mal* III 48;
+  - Estobeo IV 27, 23;
+  - Marco Aurelio VII 48 y IX 30;
+  - la carta de Cicerón a Quinto II 9.
+- **Los seminarios** (*Carta a Meneceo*, Diógenes Laercio VII, Cicerón,
+  *Sobre el destino*, y Epicteto, *Enquiridión*) son traducción propia hecha
+  de memoria: hay que cotejarlos con una edición.
+- **Conceptos vecinos:**
+  - «prohaíresis (en Epicteto)», en la semana 23, y «proaíresis», en la 18;
+  - «placer cinético», en la 21, y «placer en movimiento», en la 20.
