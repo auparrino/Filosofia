@@ -406,7 +406,7 @@ WEEK = {
         ap(ch(2, "¿Qué tesis de la semana ilustra?", "En *Hiperión* (1797), de Hölderlin, el protagonista dice que el hombre es un dios cuando sueña y un mendigo cuando reflexiona.", "la escisión entre sensibilidad y razón que Schiller quiere reconciliar",
            ["la escisión entre sensibilidad y razón que Schiller quiere reconciliar", "la federación de Estados libres", "la belleza adherente"],
            "Hiperión busca la armonía perdida de los griegos: el mismo diagnóstico que Schiller, la modernidad partió al ser humano en facultades enfrentadas.")),
-        ap(ch(2, "¿Qué tesis de la semana ilustra?", "Schiller escribe que, en la belleza, el ser humano no se toma en serio lo agradable ni lo bueno «a medias»: con ellos es serio, pero con la belleza juega.", "que el juego no es lo opuesto de lo serio, sino la actividad libre de lo humano entero",
+        ap(ch(2, "¿Qué tesis de la semana ilustra?", "Schiller escribe que con lo agradable, lo bueno y lo perfecto el ser humano solo es serio, pero con la belleza juega.", "que el juego no es lo opuesto de lo serio, sino la actividad libre de lo humano entero",
            ["que el juego no es lo opuesto de lo serio, sino la actividad libre de lo humano entero", "que el arte es un pasatiempo", "que lo bello es útil"],
            "*Cartas*, carta XV (en resumen): el juego une lo sensible y lo formal; por eso solo jugando el hombre es del todo hombre.")),
         ch(2, "¿Quién lo dijo?", "La violación del derecho en un lugar de la tierra se siente en todos.", "Kant",

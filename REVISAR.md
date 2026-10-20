@@ -242,3 +242,17 @@ edición cotejada.
   - Anselmo, *Respuesta a Gaunilo* 5.
 - **Fechas aproximadas:** Eloísa, Roscelino, Eriúgena y la cesión del
   Paráclito.
+
+## Semanas 40, 41 y 42
+
+- **Las Casas:** el tramo de la *Apología* es una condensación del
+  argumento, no una traducción. Lo de reír o llorar ante el Requerimiento va
+  parafraseado (*Historia de las Indias* III).
+- **Vitoria:** los tramos de la *Relección* están traducidos de memoria del
+  latín; hay que cotejarlos con una edición.
+- **Datos sin fuente:**
+  - la quema de la *Defensa de la fe* de Suárez en Londres y en París;
+  - los pueblos-hospital de Vasco de Quiroga (1532);
+  - el «huevo que empolló Lutero» de Erasmo;
+  - Busenbaum (1650) y la fórmula del fin y los medios.
+- **Mayo de 1810:** el lugar de Suárez se presenta como debate abierto.
