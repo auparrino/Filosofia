@@ -154,3 +154,21 @@ edición cotejada.
   - el cuento de Brecht «Sócrates herido» en *Historias de almanaque*;
   - el escéptico al final de *Subasta de vidas*;
   - la máquina de la «N» en la *Ciberíada* de Lem.
+
+## Literatura, semanas 40 a 77 (lit/moderna.py)
+
+- **Años de composición o de estreno:**
+  - Petrarca, la carta del Ventoux (1336);
+  - Manrique (1476) y Kenkō (1330);
+  - Ibn Tufayl (1175) y Plauto, *Asinaria* (−200);
+  - *Romance de los Tres Reinos* (1522);
+  - Gambaro, *Antígona furiosa* (1986);
+  - Brecht, *Puntila* (1948).
+- **Darío, «Yo persigo una forma…»:** 1901, segunda edición de *Prosas
+  profanas*.
+- **Schiller:** el título «Escrúpulo de conciencia» es traducción nuestra
+  (1797).
+- **Blixen, «El festín de Babette»:** 1950 en revista, 1958 en libro.
+- **Lispector, *Cerca del corazón salvaje*:** que Joana copie a Spinoza está
+  tomado de Moser y no se cotejó con el texto.
+- **Baroja (murió en 1956):** queda sin dp.
