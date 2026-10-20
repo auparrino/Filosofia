@@ -40,3 +40,22 @@ edición cotejada.
 - **Avicena:** la frase «al que niega el principio hay que pegarle y
   quemarlo» se atribuye a la *Metafísica* del *Shifāʾ* I 8.
 - **La fecha de los *Analíticos primeros*.**
+
+## Semanas 2, 3 y 4
+
+- **Parménides:** la numeración de los versos de B 8 (1-21 y 22-52), «B 8,
+  51-52» y «B 7, 5».
+- **Heráclito:** que B 12 venga de Ario Dídimo (en Eusebio).
+- **Anaxágoras y Lucrecio:** que B 10 de Anaxágoras sea el del pelo y la
+  carne, y el verso I 150 de Lucrecio.
+- **Testimonios:**
+  - Aecio II 1, 1, el *kósmos* de Pitágoras (atribución tardía);
+  - DK 12 A 10 y A 30, DK 11 A 22 y DK 21 A 33;
+  - Diógenes Laercio I 23 y I 27.
+- **Popper:** que «Retorno a los presocráticos» sea el cap. 5 de
+  *Conjeturas y refutaciones*.
+- **Semana 4:**
+  - Carroll, *Mind* 1895, pp. 278-280;
+  - Peirce, *Collected Papers* 5.189;
+  - los datos de Holmes en *Estudio en escarlata*;
+  - los artículos 55 y 89 de la Constitución Nacional.
