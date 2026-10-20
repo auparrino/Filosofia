@@ -12,7 +12,7 @@ docs/
   js/boot.js            elige la edición y carga paquete + núcleo en ORDER
   js/*.js               el núcleo: engine, drills, lezione, plan, progreso,
                         inicio, capas, ia, nube, seminario, app y los
-                        módulos que todavía esperan contenido (ver abajo)
+                        módulos de La Via que se adaptan (ver abajo)
   css/app.css           la estructura (usa los tokens del tema)
   fonts/, icons/        lo común (Atkinson Hyperlegible, la lechuza)
   sw.js                 el service worker: el núcleo siempre, la edición en uso
@@ -54,17 +54,25 @@ nombra una edición nunca.
 archivos que el núcleo sabe usar. `Boot.LANGS.<código>.missing` dice cuáles
 faltan, y `Boot.LANGS.<código>.data` qué datos tiene (`course.json` solo).
 `boot.js` no los pide, el service worker no los guarda y el núcleo anda sin
-ellos: sin frases ni lecturas ni examen, esas misiones no aparecen. Es el
-mecanismo con el que La Via arrancó el alemán. La edición castellana declara
-faltantes todos los archivos de idioma de La Via (conjugador, diagnóstico,
-escritura, frases, lecturas, radio, tramo, examen…).
+ellos. Hoy la edición castellana declara faltantes los datos de los módulos
+que todavía no se adaptaron: duelos, devoluciones, «¿Por qué?», escritura
+guiada y Biblioteca.
 
-**Los módulos que esperan contenido.** El núcleo trae todavía módulos de La
-Via que no tienen datos en ninguna edición: frases, laboratorio, lecturas,
-duelos, sonidos, voces, escritura guiada, C-test, variaciones, desglose,
-mapas, frecuencia, Biblioteca, radio, tramo, «Fuera de la app» y «Para el
-trabajo». Se cargan, pero no se ven. El [plan](PLAN.md) dice cuáles se
-adaptan a filosofía y cuáles se borran.
+**Lo que quedó de La Via.** El paso 11 del [plan](PLAN.md) sacó del núcleo
+los módulos que solo servían para un idioma (frases, laboratorio, lecturas,
+sonidos, voces, C-test, variaciones, desglose, mapas, frecuencia, banco,
+radio, tramo, «Fuera de la app», «Para el trabajo», el conjugador, el
+diagnóstico, el corrector de textos y el examen C1). Quedan, a la espera de
+adaptarse a filosofía:
+- `duelli.js`: el duelo de dos formas que se confunden (va a ser el duelo de
+  escuelas);
+- `biblioteca.js`: el lector de libros enteros (para las obras de dominio
+  público);
+- `escritos.js` y `ordenar.js`: «Ordená el texto», todavía sin textos;
+- `errores.js`, `devolucion.js` y `porque.js`: el error común, la
+  devolución y «📖 ¿Por qué?» (los errores van a ser malentendidos);
+- `referencia.js` y `capas.js`: «Consultar», con el diccionario de los
+  conceptos del curso, y «Mi gramática».
 
 **Guardado y origen compartido.** Todo lo que se guarda lleva el prefijo
 `agora`:
@@ -73,7 +81,8 @@ adaptan a filosofía y cuáles se borran.
 - la última época pintada, en `agora.era`;
 - el teclado, en `agora.kb2`;
 - el token del Gist, en `agora.gist.token`;
-- las cachés del service worker se llaman `agora-v…` y `agora-voci`;
+- las cachés del service worker se llaman `agora-v…` y `agora-voci` (la de
+  los libros de la Biblioteca);
 - las copias exportadas son `{app: "agora", …}`.
 
 Así la app puede vivir en el mismo origen que La Via C1
@@ -166,11 +175,14 @@ con `APP_VERSION` de `docs/js/app.js` y con `VERSION = "agora-v…"` de
   - los tests del núcleo que no dependen de un idioma: versión, rutas de los
     documentos, estado, racha, «2 minutos», huecos, IA, nube y plan del día.
 - Además, `npm run lint` (`eslint.config.cjs`), `npm run sim` (falla si una
-  semana no se domina, si hay errores o ítems repetidos) y `npm run smoke`.
+  semana no se domina, si hay errores o ítems repetidos) y `npm run smoke`
+  (la app en Chromium: Hoy, una lección, una ronda, el seminario, Yo, el
+  camino y las pantallas de «Todo el material»; falla con cualquier error de
+  la página o de la consola).
 - El CI (`.github/workflows/test.yml`) corre todo eso y controla que
   `npm run build` reproduzca `docs/` exacto.
 - Los tests de La Via que probaban módulos de idioma (banco, glosario,
-  conjugador, diagnóstico, lecturas, radio…) se borraron con esos módulos. Los
-  que probaban módulos del núcleo sobre ese contenido (reglas, «¿Por qué?»,
-  referencia, capas, ubicación, lecciones) se reescriben cuando se adapte
-  cada módulo: está en el plan.
+  conjugador, diagnóstico, lecturas, radio…) se borraron en el paso 3, y los
+  módulos mismos en el paso 11. Los que probaban módulos del núcleo sobre ese
+  contenido (reglas, «¿Por qué?», referencia, capas, ubicación, lecciones) se
+  reescriben cuando se adapte cada módulo: está en el plan.

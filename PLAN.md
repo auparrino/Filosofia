@@ -14,7 +14,7 @@
 | 8 | El seminario semanal, los dilemas y la tarjeta de literatura (`docs/js/seminario.js`) | **hecho** |
 | 9 | Ocho épocas en la estética | **hecho** (§3) |
 | 10 | El contenido: 108 semanas de contenido (las 9 de examen se arman solas) | **hecho**: 5691 ejercicios, 1748 conceptos; falta revisar a mano `REVISAR.md` |
-| 11 | Limpiar el núcleo: sacar los módulos de idioma, renombrar los modos y pasar los errores a malentendidos | pendiente (§6) |
+| 11 | Limpiar el núcleo: sacar los módulos de idioma, renombrar los modos y pasar los errores a malentendidos | **en curso**: módulos de idioma sacados (v0.2.0, §6) |
 | 12 | Ejercicios nuevos: relacioná, tabla de verdad, la premisa floja | pendiente |
 | 13 | Ediciones it y pt desde la misma fuente, con un test de paridad; después de | pendiente |
 | 14 | Leer las obras de dominio público dentro de la app (la Biblioteca) | pendiente |
@@ -438,21 +438,42 @@ La investigación está en [FORMATO.md](FORMATO.md), y en la app quedó así:
   vienen de la evidencia de Bastani y otros (2025). Sin clave, el tutor son
   las preguntas del curso.
 - **Los exámenes de estación** se arman con los ejercicios de su estación y
-  un bloque de repaso por semana. Son por destreza.
+  un bloque de repaso por semana. Tienen dos partes (para escribir y de
+  opción múltiple), cada una con su mínimo.
 
 ## 6. Lo que queda de La Via C1 en el núcleo
 
-El núcleo todavía carga módulos de idioma que no tienen datos: frases,
-laboratorio, lecturas, duelos, sonidos, voces, escritura guiada, C-test,
-variaciones, desglose, mapas, frecuencia, Biblioteca, radio, tramo, «Fuera
-de la app» y «Para el trabajo». No se ven, porque la edición los declara en
-`missing`, pero pesan.
+**Primera parte, hecha (v0.2.0): los módulos de idioma, afuera.** Se
+borraron del núcleo 17 módulos que solo servían para aprender un idioma y
+no tenían datos en Ágora: frases, fórmulas, laboratorio, lecturas, mapas de
+preposiciones, frecuencia, sonidos, voces, variaciones, C-test, desglose,
+escritura plus, radio, tramo, «Fuera de la app», «Para el trabajo» y el
+banco. Con ellos se fueron sus datos (que la edición ya no tenía: el
+conjugador, el diagnóstico, el corrector de textos, la escucha, el
+dictogloss, el examen C1, el glosario y la frecuencia) y todo lo que los
+nombraba en `app.js`:
+- las pantallas de la lectura, el relámpago, el dictogloss, el examen C1,
+  el texto de la semana (Scrivi), la historia con IA y Parla (el role-play:
+  vivía de los pedidos a la IA de Scrivi, que Ágora nunca tuvo);
+- el gimnasio de verbos, las escenas de frases, las rondas del banco y la
+  clínica, el mini diagnóstico después del test de ubicación;
+- la corrección por diagnóstico del idioma y el juez de la IA de las
+  respuestas no previstas (quedan «🙋 Mi respuesta es válida» y la nota);
+- «🧐 ¿Qué tenía de malo?» de `porque.js`, que salía entero del diagnóstico.
 
-El paso 11 hace lo siguiente:
-- saca los módulos que no sirven;
-- adapta los que sí: la Biblioteca para leer las obras 📖, el duelo como
-  duelo de escuelas, Parla como diálogo socrático;
-- pasa las categorías de error a **malentendidos**: el autor equivocado, la
+Lo que queda y se simplificó: `drills.js` (sin conjugación ni banco),
+`reglas.js` y `unamas.js` (la regla vuelve con otro ejercicio del curso),
+`plan.js` (el día es repaso, misión y Biblioteca), `referencia.js` (el
+diccionario de «Consultar» son los conceptos del curso), `escritos.js` (solo
+«Ordená el texto», todavía sin textos) y `biblioteca.js` (sin glosario ni
+frecuencias). También se borraron sus estilos y las medallas que ya no se
+podían ganar.
+
+**Falta, la segunda parte:**
+- adaptar los que sí sirven: la Biblioteca para leer las obras 📖, el duelo
+  como duelo de escuelas, Parla como diálogo socrático (rehecho sobre
+  `IA.llm`, como el tutor del seminario);
+- pasar las categorías de error a **malentendidos**: el autor equivocado, la
   escuela vecina, la cita apócrifa, el anacronismo, validez contra verdad,
   el hombre de paja.
 
