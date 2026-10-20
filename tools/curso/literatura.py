@@ -702,4 +702,24 @@ LITERATURA = {
     117: [],
 }
 
+# More works, in tools/curso/lit/*.py (EXTRA = {semana: [o(...)…]}): they
+# are added to their weeks.  Each file covers a range of weeks, so several
+# people can add works at the same time without touching this one.
+def _extra():
+    import glob
+    import importlib.util
+    import os
+    import sys
+    here = os.path.dirname(os.path.abspath(__file__))
+    sys.path.insert(0, here)
+    for f in sorted(glob.glob(os.path.join(here, "lit", "*.py"))):
+        spec = importlib.util.spec_from_file_location("lit_" + os.path.basename(f)[:-3], f)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        for wk, obras in getattr(mod, "EXTRA", {}).items():
+            LITERATURA.setdefault(wk, []).extend(obras)
+
+
+_extra()
+
 EXAM_WEEKS = tuple(sorted([13, 26, 39, 52, 65, 78, 91, 104, 117]))
