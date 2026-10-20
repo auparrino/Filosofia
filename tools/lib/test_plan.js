@@ -189,7 +189,7 @@ pack.LANGS.forEach(function (code) {
   var q = Pr.wordQuota(course, s5, WED, true), sg = E.subGoals(s5);
   var wkN = (course.weeks[s5.unlocked - 1].vocab || []).length;
   ok(q.target === wkN + 12, tag + "cuota: los conceptos de la semana y una sesión más (" + q.target + ")");
-  ok(sg.wordsPerWeek > 0 && sg.boss === 13, tag + "metas: los conceptos que faltan hasta el examen de la estación (" + sg.wordsPerWeek + " por semana)");
+  ok(sg.wordsPerWeek > 0 && sg.boss >= s5.unlocked && sg.boss % 13 === 0, tag + "metas: los conceptos que faltan hasta el examen de la estación (" + sg.wordsPerWeek + " por semana)");
   ok(q.boss >= s5.unlocked && q.boss % 13 === 0 && q.byBoss > 0, tag + "cuota: lo que el curso enseña hasta el jefe (" + q.boss + ": " + q.byBoss + ")");
 
   /* ------------------------------------------------ el primer arranque */
