@@ -1,0 +1,55 @@
+{
+ "week": 22,
+ "level": "B1",
+ "title": "Notícias do bairro",
+ "genre": "boletim de notícias",
+ "es": "Nanda lee las noticias del barrio con la voz pasiva de los boletines. Después Téo cuenta su semana de trámites: le robaron la billetera y tuvo que rehacer todos los documentos.",
+ "speakers": ["Nanda", "Téo"],
+ "turns": [
+  ["A", "São oito horas. Notícias do bairro. A rua São Clemente foi fechada ontem à noite por causa de um pequeno desabamento num prédio antigo. Ninguém ficou ferido. Os moradores foram retirados pelos bombeiros e o prédio já foi interditado pela prefeitura."],
+  ["B", "Que susto! E a passeata de sábado?"],
+  ["A", "A passeata dos professores foi acompanhada por mais de duas mil pessoas. O novo projeto da praça foi aprovado pelos moradores e as obras serão pagas pela prefeitura. Agora, Téo, conta pra gente a sua semana."],
+  ["B", "Uma semana de trâmites! Na segunda, a minha carteira foi roubada no ônibus. Estavam lá o RG, o CPF, o cartão do banco, tudo."],
+  ["A", "Coitado! E o que você fez?"],
+  ["B", "Primeiro, fui à delegacia. Lá foi feito o boletim de ocorrência. Depois liguei pro banco e o cartão foi cancelado na hora. Por sorte, o saldo estava intacto."],
+  ["A", "Ainda bem! E os documentos?"],
+  ["B", "Para o RG novo, precisei de uma xerox da certidão de nascimento e de uma foto. O pedido foi aceito e o documento vai ser entregue em quinze dias. Até lá, eu ando com o boletim de ocorrência no bolso."],
+  ["A", "E as contas do mês? Sem cartão..."],
+  ["B", "Os boletos foram pagos na lotérica, em dinheiro. E como o caixa eletrônico não aceita saque sem cartão, a minha mãe me mandou dinheiro de São Paulo."],
+  ["A", "Que semana! E a carteira nunca foi encontrada?"],
+  ["B", "Nunca. Mas ontem aconteceu uma coisa engraçada: a minha carteira de estudante foi deixada na portaria da rádio por um motorista de ônibus. Só ela, sem mais nada!"],
+  ["A", "Pelo menos agora você pode pagar meia no cinema! Voltamos depois da música."]
+ ],
+ "gloss": {
+  "ferido": "herido",
+  "moradores": "vecinos, habitantes",
+  "retirados": "evacuados",
+  "interditado": "clausurado",
+  "Que susto": "¡qué susto!",
+  "acompanhada": "acompañada, seguida",
+  "obras": "obras",
+  "trâmites": "trámites",
+  "roubada": "robada",
+  "Por sorte": "por suerte",
+  "intacto": "intacto",
+  "certidão de nascimento": "partida de nacimiento",
+  "pedido": "pedido, solicitud",
+  "bolso": "bolsillo",
+  "saque": "extracción (de dinero)",
+  "carteira de estudante": "credencial de estudiante",
+  "portaria": "portería, recepción",
+  "motorista": "conductor, chofer"
+ },
+ "questions": [
+  ["Por que a rua São Clemente foi fechada?", ["Por causa de uma passeata", "Por causa de um desabamento num prédio", "Por causa das obras da praça", "Por causa de um acidente de ônibus"], "Por causa de um desabamento num prédio"],
+  ["O que o Téo fez primeiro, depois do roubo?", ["Foi à delegacia", "Ligou para a mãe", "Foi à lotérica", "Tirou uma xerox do RG"], "Foi à delegacia"],
+  ["O que foi deixado na portaria da rádio?", ["A carteira com todos os documentos", "O cartão do banco", "A carteira de estudante do Téo", "O RG novo do Téo"], "A carteira de estudante do Téo"]
+ ],
+ "info": [
+  ["Ninguém ficou ferido no desabamento.", true],
+  ["O saldo da conta do Téo foi roubado.", false],
+  ["O RG novo vai ser entregue em quinze dias.", true]
+ ],
+ "grammatica": {"label": "la voz pasiva (ser + participio) y los participios dobles (aceito, pago, entregue)", "forme": ["foi fechada", "foram retirados", "foi interditado", "foi acompanhada", "foi aprovado", "serão pagas", "foi roubada", "foi feito", "foi cancelado", "foi aceito", "vai ser entregue", "foram pagos", "foi encontrada", "foi deixada"]},
+ "parole": [["desabamento", "desabamento"], ["bombeiros", "bombeiro"], ["prefeitura", "prefeitura"], ["passeata", "passeata"], ["RG", "RG"], ["CPF", "CPF"], ["delegacia", "delegacia"], ["boletim de ocorrência", "boletim de ocorrência"], ["saldo", "o saldo"], ["xerox", "xerox"], ["boletos", "o boleto"], ["lotérica", "lotérica"], ["caixa eletrônico", "caixa eletrônico"]]
+}

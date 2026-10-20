@@ -1,0 +1,51 @@
+{
+ "week": 19,
+ "level": "B1",
+ "title": "Lunedì, il colloquio",
+ "genre": "telefonata in diretta",
+ "es": "Martín llama a la radio un viernes: el lunes tiene una entrevista de trabajo en una empresa de Módena y está nervioso. Sara lo ayuda a imaginarse el día, y hay una noticia que complica el viaje.",
+ "speakers": ["Sara", "Martín"],
+ "turns": [
+  ["A", "Buongiorno, ascoltatori! In linea abbiamo di nuovo Martín. Martín, ti sento agitato..."],
+  ["B", "Ciao, Sara. Sì, un po'. Lunedì avrò un colloquio di lavoro a Modena, in un'azienda che produce motori elettrici. È il mio primo colloquio in Italia."],
+  ["A", "Che bella notizia! A che ora sarà il colloquio?"],
+  ["B", "Alle nove e mezza. Prenderò il treno delle sette e quaranta e arriverò a Modena verso le otto e un quarto. Così avrò almeno un'ora per trovare l'azienda."],
+  ["A", "Aspetta, Martín... Hai sentito le notizie? Lunedì ci sarà uno sciopero dei treni regionali, dalle sei alle nove."],
+  ["B", "No! E adesso come farò?"],
+  ["A", "Calma. Hai la patente? Potrai prendere la macchina di un amico. Ma ricordati di fare benzina domenica sera."],
+  ["B", "Giulia ha una macchina: chiederò a lei. Ma se c'è traffico? Se succede un incidente in autostrada?"],
+  ["A", "Partirai presto e andrà tutto bene, sono sicura. Adesso pensiamo alle domande: che cosa ti chiederà il capo?"],
+  ["B", "Mi chiederà perché voglio lavorare lì, e forse quanto voglio di stipendio. Questo non lo so proprio!"],
+  ["A", "Chiedilo tu a loro, con gentilezza: in Italia è normale. E ricordati di chiedere quanti giorni di ferie avranno i dipendenti."],
+  ["B", "Ferie? Prima mi devono assumere!"],
+  ["A", "Ti assumeranno, vedrai. Quando avrai finito il colloquio, ci chiamerai e ci racconterai tutto in diretta?"],
+  ["B", "Promesso. Lunedì a quest'ora sarò in macchina... o sarò già davanti all'azienda!"],
+  ["A", "E quando tornerai a Bologna, festeggeremo. In bocca al lupo, Martín!"],
+  ["B", "Crepi! Grazie, Sara."]
+ ],
+ "gloss": {
+  "ascoltatori": "oyentes",
+  "In linea": "en línea, al teléfono",
+  "agitato": "nervioso",
+  "motori elettrici": "motores eléctricos",
+  "patente": "registro de conducir",
+  "autostrada": "autopista",
+  "gentilezza": "amabilidad",
+  "festeggeremo": "vamos a festejar",
+  "In bocca al lupo": "¡suerte! (literalmente, «en la boca del lobo»)",
+  "Crepi": "respuesta de rigor a «in bocca al lupo»",
+  "regionali": "regionales"
+ },
+ "questions": [
+  ["Dove sarà il colloquio di Martín?", ["In un'azienda di Modena", "In un'azienda di Bologna", "Alla stazione di Modena", "In un albergo di Bologna"], "In un'azienda di Modena"],
+  ["Perché Martín non potrà prendere il treno?", ["Perché il treno delle sette e quaranta non esiste", "Perché lunedì ci sarà uno sciopero dei treni", "Perché costa troppo", "Perché ha perso il biglietto"], "Perché lunedì ci sarà uno sciopero dei treni"],
+  ["Che cosa consiglia Sara per la domanda sullo stipendio?", ["Di non parlare mai di soldi", "Di chiedere lui quanto pagano, con gentilezza", "Di chiedere lo stipendio del capo", "Di chiedere uno stipendio molto alto"], "Di chiedere lui quanto pagano, con gentilezza"]
+ ],
+ "info": [
+  ["Il colloquio sarà alle nove e mezza.", true],
+  ["Martín ha già fatto altri colloqui in Italia.", false],
+  ["Martín chiederà la macchina a Giulia.", true]
+ ],
+ "grammatica": {"label": "el futuro simple (planes, promesas y suposiciones) y el futuro anteriore", "forme": ["avrò", "sarà", "prenderò", "arriverò", "ci sarà", "farò", "potrai", "chiederò", "partirai", "andrà", "chiederà", "avranno", "assumeranno", "avrai finito", "chiamerai", "racconterai", "sarò in macchina", "tornerai", "festeggeremo"]},
+ "parole": [["colloquio", "colloquio"], ["azienda", "azienda"], ["almeno", "almeno"], ["sciopero", "sciopero"], ["benzina", "benzina"], ["incidente", "incidente"], ["sicura", "sicuro"], ["capo", "capo"], ["stipendio", "stipendio"], ["ferie", "ferie"], ["dipendenti", "dipendente"], ["assumere", "assumere"]]
+}

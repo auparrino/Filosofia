@@ -1,0 +1,252 @@
+{
+  "lote": "T-transfer-1",
+  "revisado": 45,
+  "veredicto": "bien",
+  "resumen": "Lote muy sólido: unas 1.200 entradas es→it del banco de transferencia (esit:0-22), 4 bloques de falsos amigos, tabla de grafías, 6 reglas puente y 6 ejercicios 'capire'. Las traducciones, géneros, plurales irregulares, tildes y el voseo son correctos casi sin excepción. Se detectó 1 error (una nota falsa sobre estuve) y unas 15 dudas/mejoras, sobre todo reglas de correspondencia gráfica sobregeneralizadas o contradictorias entre grafie y ponte, y algunos ítems 'capire' ambiguos. No hay inglés fuera de préstamos legítimos. Tasa estimada de falsos positivos: ~15 % en el error, ~40-50 % en las dudas.",
+  "bien": [
+    "Cobertura amplia y ordenada del léxico funcional: artículos, preposiciones, pronombres, verbos irregulares (con formas de vos: tenés, podés, querés, decís, venís, salís, sos), participios, cuerpo, casa, comida, ropa, colores, países y ciudades.",
+    "Muy buen uso de rioplatense natural: laburo, pibe/piba, chancho, remera, birome, lapicera, subte, colectivo, manteca, vuelto, frutilla, pollera, campera, quilombo, nomás, apurate, callate. El voseo aparece en las notas sin marcarse como error.",
+    "Las notas de género y plural irregular son correctas y útiles: leche/sal/miel/mar/flor/sangre/pared/mesa/cama, il tavolo, l'orecchio, le braccia, le dita, le ossa, le uova, gli uomini, la domenica, l'estate, il computer, la macchina.",
+    "Alertas de falsos amigos abundantes y en general exactas (~60 pares: burro/manteca, salire, caldo, largo/ancho, camera, aceto, topo/talpa, gamba, cura, tenda, pronto, subito, bravo, vaso, imbarazzata, guardare/mirare, fermare/firmare, etc.), con el par inverso siempre dado.",
+    "Notas de homografía y tildes bien pensadas (te/tè, se/sé, sí/sì, Da/dà, cuál → qual è sin apóstrofo, pero/però, es/è).",
+    "Grafías es→it: casi todas las correspondencias son ciertas (ñ→gn, ll→gli, ct/pt→tt, bs→ss, dm→mm, dv→vv, mn→nn, ción→zione, dad→tà, aje→aggio, ble→bile, dor→tore, ex→es, es+cons→s, b→v).",
+    "Reglas puente (zione, ta, bile, tt, effe, aggio, colte, dittonghi, pi): las 12-16 palabras de cada lista fueron verificadas y son correctas.",
+    "Ejercicios 'capire': ítems mayormente inequívocos, con contraste mínimo (Parla/Parlano, mangiava/ha mangiato, arrivato/arrivata/arrivati/arrivate, pienso che sia vs so che è, Vorrei/Voglio) y semana asignada coherente con el contenido."
+  ],
+  "hallazgos": [
+    {
+      "id": "esit:9",
+      "lang": "es",
+      "severidad": "error",
+      "actual": "Estar y ser comparten pasado: sono stato.",
+      "propuesta": "Estuve = sono stato. Ojo: en italiano essere y stare comparten el participio (stato); en español el pretérito compartido es el de ser e ir (fui).",
+      "motivo": "Estuve es solo de estar; ser/estar no comparten pretérito en español, así que la explicación es falsa (lo que se comparte es stato en italiano)."
+    },
+    {
+      "id": "falsi:1",
+      "lang": "it",
+      "severidad": "duda",
+      "actual": "Pretender (aspirar) es aspirare o sperare di.",
+      "propuesta": "Pretender (tener la intención / aspirar a) = aspirare a / avere l'intenzione di; «sperare» es esperar (desear).",
+      "motivo": "«Sperare» corresponde a esperar, no a pretender; puede reforzar otro falso amigo."
+    },
+    {
+      "id": "falsi:0",
+      "lang": "regla",
+      "severidad": "duda",
+      "actual": "Morboso (enfermizo) es morboso.",
+      "propuesta": "Quitar el par o reformularlo: en español «mórbido» también significa blando/suave (RAE), así que morbido no es falso amigo estricto; lo que difiere es «morboso» (enfermizo/perverso).",
+      "motivo": "La nota es tautológica (morboso = morboso) y el falso amigo no se sostiene del todo; igual en labfalsi:0 (columna «morboso»)."
+    },
+    {
+      "id": "labfalsi:0",
+      "lang": "regla",
+      "severidad": "duda",
+      "actual": "morboso",
+      "propuesta": "Ver falsi:0: reemplazar por un par más claro o quitarlo.",
+      "motivo": "morbido/«mórbido» (blando, suave) no es un falso amigo real en español."
+    },
+    {
+      "id": "labfalsi:1",
+      "lang": "ejercicio",
+      "severidad": "duda",
+      "actual": "cocinero",
+      "propuesta": "Quitar el par cugino/cocinero (o dejar solo primo/cugino como par de traducción, ya cubierto en falsi:2).",
+      "motivo": "Cugino y «cocinero» no se parecen ni se confunden; no enseña un falso amigo real."
+    },
+    {
+      "id": "labfalsi:1",
+      "lang": "ejercicio",
+      "severidad": "duda",
+      "actual": "cómputo",
+      "propuesta": "Cambiar la palabra española parecida o quitar el par compito/cómputo; o dejar solo la equivalencia compito = tarea.",
+      "motivo": "El parecido compito/cómputo es débil; nadie lo confundiría."
+    },
+    {
+      "id": "falsi:2",
+      "lang": "it",
+      "severidad": "duda",
+      "actual": "maldición / desgracia",
+      "propuesta": "Accidente (it) = hecho fortuito, o coloquialmente «un accidente» = nada; «accidenti!» = ¡caramba! Para accidente de tránsito: incidente (stradale).",
+      "motivo": "«Maldición / desgracia» describe la exclamación accidenti, no el sustantivo accidente."
+    },
+    {
+      "id": "falsi:2",
+      "lang": "regla",
+      "severidad": "mejora",
+      "actual": "Rostro = pico. El rostro es il volto o il viso.",
+      "propuesta": "Marcar rostro como palabra rara/técnica en italiano (becco es el pico de uso corriente) o sustituir por un falso amigo más frecuente.",
+      "motivo": "«Rostro» casi no se usa en italiano; el par aporta poco a un alumno de nivel inicial."
+    },
+    {
+      "id": "grafie:0",
+      "lang": "ejercicio",
+      "severidad": "mejora",
+      "actual": "La y como vocal o semivocal se escribe i: io, noi, lei, Maiorca.",
+      "propuesta": "La y vocal/semivocal se escribe i: yo → io, rey → re, Uruguay → Uruguay (inv.), Mayorca → Maiorca.",
+      "motivo": "Noi y lei no vienen de ninguna y española; solo io y Maiorca ilustran la regla."
+    },
+    {
+      "id": "grafie:0",
+      "lang": "regla",
+      "severidad": "duda",
+      "actual": "Ns ante consonante → s: trasporto, istituto, costante.",
+      "propuesta": "Decir «a veces»: trans-/cons-/ins- → tras-/cos-/is- en trasporto, costante, istituto, pero se mantiene en conservare, consumare, consultare, insistere, transazione.",
+      "motivo": "Como está, la regla es falsa por sobregeneralización (hay muchas excepciones frecuentes)."
+    },
+    {
+      "id": "grafie:0",
+      "lang": "regla",
+      "severidad": "duda",
+      "actual": "El diptongo ue suele ser uo: buono, nuovo, fuoco, scuola.",
+      "propuesta": "Unificar con ponte:dittonghi: en sílaba abierta el italiano suele mantener el diptongo (bueno → buono, nuevo → nuovo, fuego → fuoco, pie → piede); en sílaba cerrada lo simplifica (puerta → porta, cuerpo → corpo, tiempo → tempo).",
+      "motivo": "Contradice la regla puente «ie → e, ue → o» sin explicar cuándo aplica cada una."
+    },
+    {
+      "id": "ponte:dittonghi",
+      "lang": "regla",
+      "severidad": "duda",
+      "actual": "Muchos diptongos del español son vocales simples en italiano: **ie → e**, **ue → o**.",
+      "propuesta": "Agregar la condición (sílaba cerrada) y una advertencia: nuevo → nuovo, bueno → buono, fuego → fuoco, pie → piede, piedra → pietra conservan el diptongo.",
+      "motivo": "Enseña como regla general algo que tiene excepciones muy frecuentes; se contradice con grafie (ue → uo)."
+    },
+    {
+      "id": "ponte:effe",
+      "lang": "regla",
+      "severidad": "duda",
+      "actual": "La **h-** inicial del español viene de una **f** latina que el italiano conservó",
+      "propuesta": "Muchas **h-** iniciales del español vienen de una **f** latina que el italiano conservó... Ojo: no siempre (hombre → uomo, hora → ora, humano → umano, historia → storia, hueso → osso).",
+      "motivo": "Dicho sin matiz, el alumno lo generaliza y arma *fombre, *fora; el título de grafie:0 ya dice «muchas»."
+    },
+    {
+      "id": "ponte:tt",
+      "lang": "regla",
+      "severidad": "duda",
+      "actual": "Y a veces donde el español ya simplificó el grupo latino: *escrito → scritto*, *objeto → oggetto*.",
+      "propuesta": "Dejar escrito → scritto y sacar objeto → oggetto (o explicarlo aparte: bj → gg, como en sujeto → soggetto).",
+      "motivo": "Objeto no tiene un grupo «simplificado» en español; es otro cambio (bj → gg) y confunde con la regla ct/pt → tt."
+    },
+    {
+      "id": "ponte:colte",
+      "lang": "regla",
+      "severidad": "mejora",
+      "actual": "**-ía → -ia** (sin tilde)",
+      "propuesta": "**-ía → -ia**: no se escribe tilde, pero el acento se pronuncia igual sobre la i (sociologìa, filosofìa).",
+      "motivo": "Decir solo «sin tilde» puede hacer que se pronuncie sociolò-gia; conviene aclarar que el acento se mantiene."
+    },
+    {
+      "id": "ponte:pi",
+      "lang": "regla",
+      "severidad": "mejora",
+      "actual": "Después de consonante, la **l** latina se volvió **i** en italiano",
+      "propuesta": "Agregar la advertencia: muchas palabras cultas conservan el grupo (classe, clima, plastico, problema, flessibile, blocco); y cambiar el ejemplo iglesia → chiesa por uno que tenga cl/pl/fl en español (claro, plaza, flor ya están).",
+      "motivo": "Iglesia no contiene cl y la regla sola invita a errores como *chasse, *pima."
+    },
+    {
+      "id": "capire:pronomi",
+      "lang": "ejercicio",
+      "severidad": "duda",
+      "actual": "Le leggo stasera.",
+      "propuesta": "Cambiar a un verbo que solo rija objeto directo, p. ej. «Le vedo stasera.» (las veo).",
+      "motivo": "«Le» puede ser dativo («le leggo una storia» = le leo a ella), así que la respuesta «a las cartas» no es la única lectura."
+    },
+    {
+      "id": "capire:tempo",
+      "lang": "ejercicio",
+      "severidad": "duda",
+      "actual": "Esco con gli amici.",
+      "propuesta": "Agregar contexto que fije la lectura: «Esco con gli amici ogni sabato.» / «Adesso esco con gli amici.»",
+      "motivo": "En italiano el presente sin marcador puede ser futuro próximo («stasera esco»), lo que choca con la respuesta «pasa ahora / siempre» y con la del ítem Uscirò."
+    },
+    {
+      "id": "capire:persona",
+      "lang": "ejercicio",
+      "severidad": "mejora",
+      "actual": "Leé solo el final: *-iamo* = nosotros, *-ate/-ete/-ite* = ustedes, *-ano/-ono* = ellos.",
+      "propuesta": "Completar: *-o* = yo, *-i* = vos, *-a/-e* = él/ella; e indicar que «Parla» sin contexto también podría ser Lei o imperativo.",
+      "motivo": "Las opciones incluyen yo, vos y él/ella, pero la explicación no da esas terminaciones; el alumno no tiene cómo deducirlas."
+    },
+    {
+      "id": "capire:cortesia",
+      "lang": "ejercicio",
+      "severidad": "duda",
+      "actual": "Dovresti riposare.",
+      "propuesta": "Cambiar por un par realmente comparable, p. ej. «Potrebbe riposare?» / «Può riposare?», o retirar el ítem.",
+      "motivo": "«Dovresti» es consejo (deberías), no cortesía de pedido; además mezcla registro tú con los ítems en Lei."
+    },
+    {
+      "id": "esit:10",
+      "lang": "es",
+      "severidad": "mejora",
+      "actual": "Buscar = cercare. Ojo: «cerca» es «busca», no «cerca de».",
+      "propuesta": "Buscar = cercare. Ojo: la palabra italiana «cerca» significa «busca» (él/ella busca); la preposición «cerca de» = vicino a.",
+      "motivo": "La redacción es confusa: parece decir que «cerca» no es «cerca de» sin aclarar qué idioma es cada una."
+    },
+    {
+      "id": "esit:15",
+      "lang": "ejercicio",
+      "severidad": "mejora",
+      "actual": "espalda",
+      "propuesta": "Agregar nota: «Ojo: spalla italiano = hombro; la espalda es la schiena.» (y lo mismo en hombro → spalla).",
+      "motivo": "Falso amigo frecuente y ausente (espalda/spalla), mientras el resto de las notas sí lo advierten."
+    },
+    {
+      "id": "esit:4",
+      "lang": "it",
+      "severidad": "mejora",
+      "actual": "La media (prenda) = la calza.",
+      "propuesta": "La media (rioplatense: calcetín) = il calzino; la calza / le calze = media larga o de mujer.",
+      "motivo": "En rioplatense «media» es el calcetín; calzino es lo más habitual en italiano."
+    },
+    {
+      "id": "esit:20",
+      "lang": "ejercicio",
+      "severidad": "mejora",
+      "actual": "remedio",
+      "propuesta": "Agregar nota: «Rimedio» italiano = solución o cura; medicina/farmaco es el remedio de la farmacia.",
+      "motivo": "El alumno tenderá a decir *rimedio* por medicina."
+    }
+  ],
+  "mejoras": [
+    {
+      "prioridad": "alta",
+      "que": "Revisar y unificar las reglas de correspondencia grafía/puente (ue/ie, h-, ns, cl/pl/fl, y) marcándolas como tendencias, con condición (sílaba abierta/cerrada) y excepciones frecuentes, y con ejemplos que realmente provengan del español.",
+      "por_que": "Son la parte con más riesgo de enseñar mal por sobregeneralización y hoy grafie y ponte se contradicen (ue → uo vs ue → o)."
+    },
+    {
+      "prioridad": "alta",
+      "que": "Agregar notas de falsos amigos donde faltan: espalda/spalla, remedio/rimedio, y revisar el resto del léxico corporal y doméstico donde la nota está vacía.",
+      "por_que": "La cobertura de alertas es muy buena en general; los huecos (espalda/spalla) son justo los que producen errores reales."
+    },
+    {
+      "prioridad": "media",
+      "que": "Consolidar en una sola fuente los falsos amigos de tools/bank/trasferimento.py (falsi:0-3) y docs/js/lab.js (labfalsi:0-1) y retirar los pares débiles (cugino/cocinero, compito/cómputo, morbido, rostro).",
+      "por_que": "Hay unos 25 pares duplicados con notas ligeramente distintas y algunos pares que no enseñan un falso amigo real."
+    },
+    {
+      "prioridad": "media",
+      "que": "Revisar los ítems 'capire' que tienen más de una lectura posible (Le leggo, Esco, Parla, Dovresti) y dar en la explicación las terminaciones de yo/vos/él.",
+      "por_que": "En ejercicios de discriminación una sola respuesta válida es imprescindible; hoy hay 4 ítems discutibles sobre unos 80."
+    },
+    {
+      "prioridad": "media",
+      "que": "Agregar reglas puente faltantes: -ncia → -nza (presencia → presenza, paciencia → pazienza), -eza → -ezza (belleza → bellezza), -dor → -tore, -tud → -tù, y una advertencia sobre -ía/-ería (policía → polizia).",
+      "por_que": "Son patrones muy productivos que ya aparecen en grafie:0 pero sin la regla puente, y -ncia → -nza queda sin cubrir (colte solo trata -cia → -zia)."
+    },
+    {
+      "prioridad": "media",
+      "que": "Dar a cada entrada del banco es→it un nivel o una frecuencia (A1-C1 o etiqueta corriente/rara).",
+      "por_que": "El banco mezcla lo básico (casa, hola) con palabras poco frecuentes o marcadas (rostro, ginnasio, tasca, solere, quilombo, laburo) sin que el alumno sepa qué priorizar."
+    },
+    {
+      "prioridad": "baja",
+      "que": "Completar huecos menores: las direcciones norte/este (nord/est) faltan mientras sur/oeste sí están; mañana y manana figuran como dos entradas idénticas.",
+      "por_que": "Coherencia del banco; son entradas y notas sencillas de agregar."
+    }
+  ],
+  "por_idioma": {
+    "it": { "errores": 0, "dudas": 2 },
+    "es": { "errores": 1, "dudas": 0 },
+    "en": { "errores": 0, "dudas": 0 }
+  }
+}

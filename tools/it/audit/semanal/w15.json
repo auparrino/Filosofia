@@ -1,0 +1,312 @@
+{
+ "week": 15,
+ "title": "Imperfetto e il contrasto con il passato prossimo",
+ "level": "A2",
+ "revisado": {
+  "items": 36,
+  "sfide": 9,
+  "bloques_teoria": 7,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 13
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana correcta en lo lingüístico: casi no hay errores de italiano ni de español y la teoría es clara y concisa. El problema es de diseño: 20 de 36 ítems son drills de conjugación/traducción del imperfetto y el contraste con el passato prossimo (tema central) tiene pocos ítems; hay ítems y desafíos de otros temas (partitivos, ognuno, da, presente) y contenido de nivel superior (futuro en el pasado). Cortesía, verbos modales y sapere/conoscere sin práctica. Tasa estimada de falsos positivos: ~20-25%.",
+ "bien": [
+  "Regla central bien formulada: no «puntual/duradero» sino qué mira quien habla (fondo vs hechos), con tabla de contraste y advertencia sobre la duración.",
+  "Bloque de tabla de conjugación + tip de acentuación de «loro» y bloque de irregulares breves y correctos.",
+  "Bloque «El mismo verbo, dos lecturas» (sapere, conoscere, potere...) con paralelo con podía/pude en castellano.",
+  "Lecturas naturales y con imperfetto/passato prossimo bien usados (mentre + imperfetto, quando... ), con caza de formas correcta.",
+  "Desafíos r20-01b/01c bien graduados: pasar de «cómo eran las cosas» a traducción con elección de tiempo; muchos accept bien pensados."
+ ],
+ "hallazgos": [
+  {
+   "id": "connesso c-022",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "\"options\": [\"C'era una volta.\", \"Cera una volta.\", \"Che era una volta.\"]",
+   "propuesta": "Reemplazar «Cera una volta.» por un distractor audiblemente distinto (p. ej. «C'è una volta.» o «Sera una volta.»).",
+   "motivo": "«C'era» y «cera» se pronuncian igual [ˈtʃɛra]: en un ítem de escucha hay dos opciones correctas."
+  },
+  {
+   "id": "item s:r20-01c:e",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "L'anno scorso sono andato in Corsica. Mi è piaciuta molto.",
+   "propuesta": "Agregar a accept: «L'anno scorso sono andato in Corsica. Mi è piaciuto molto.» (y variantes con andata).",
+   "motivo": "«Me gustó mucho» puede referirse al viaje: «mi è piaciuto molto» es igual de natural y hoy se marcaría mal."
+  },
+  {
+   "id": "item g2-sc-08-c",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Mentre ___ (dormire), è arrivato Marco.",
+   "propuesta": "Agregar sujeto al enunciado («Mentre io ___ (dormire), è arrivato Marco.») o aceptar también dormivi, dormivate, dormivano.",
+   "motivo": "Sin sujeto, todas las personas del imperfetto son correctas; solo se aceptan tres."
+  },
+  {
+   "id": "item s:r02-02b:g",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"accept\": [\"di un'\", \"d'\", \"di\", \"dell'\"]",
+   "propuesta": "Quitar «dell'» de accept (o dar traducción para fijar el sentido).",
+   "motivo": "«Ho bisogno dell'aspirina» es gramatical pero contradice la nota (sin partitivo tras «di»); sin traducción es ambiguo."
+  },
+  {
+   "id": "sfida r02-02b (consigna)",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Completá con el partitivo correcto; en un caso no va ninguno.",
+   "propuesta": "«...; en algunos casos no va ninguno.»",
+   "motivo": "Hay al menos dos (g y h) y en la lista (i) también puede omitirse."
+  },
+  {
+   "id": "item s:r20-07b:a",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "No estabas preparado para lo que iba a pasar. Completá en italiano.",
+   "propuesta": "Mover el grupo a una semana con condizionale passato/futuro en el pasado (o quitar los accept con «sarebbe...») y dar una consigna explícita.",
+   "motivo": "Futuro en el pasado y condizionale passato están fuera de A2 y de lo enseñado; la consigna no dice qué tiempo usar; el grupo cae en la parte 1 (forma del imperfetto) por el patrón «estabas preparado»."
+  },
+  {
+   "id": "item s:r20-07b:c",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Mio marito non mi aveva avvertito che… ___ (traía veinte invitados a cenar).",
+   "propuesta": "Simplificar las principales o enseñar antes el trapassato prossimo.",
+   "motivo": "Los enunciados usan trapassato prossimo (aveva detto/avvertito), no enseñado en la semana 15."
+  },
+  {
+   "id": "item s:r20-01c:c",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Ayer fuimos a una fiesta. Fue una noche maravillosa.",
+   "propuesta": "Agregar a la lección la regla «valoración global de un evento terminado → passato prossimo» o cambiar la frase; considerar aceptar «Era una serata meravigliosa».",
+   "motivo": "La lección dice que la descripción va en imperfetto (y el vocab usa «il tramonto era meraviglioso»); aquí solo se acepta è stata sin que se haya enseñado por qué."
+  },
+  {
+   "id": "item g2-sc-08",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Imperfetto para hábitos y situaciones de fondo; passato prossimo para hechos puntuales y terminados.",
+   "propuesta": "«...passato prossimo para hechos terminados que hacen avanzar el relato.»",
+   "motivo": "La lección advierte que «puntual/duradero» no sirve; la opción correcta usa justo ese criterio («puntuales»)."
+  },
+  {
+   "id": "item g2-sc-08 (consigna)",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Leé las frases y descubrí la regla",
+   "propuesta": "«Elegí la regla que explica el uso de los dos tiempos.»",
+   "motivo": "El ítem no muestra ninguna frase que leer; solo hay una pregunta."
+  },
+  {
+   "id": "item g2-sc-08 (note)",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "con la diferencia de que el passato prossimo cubre también «fui»",
+   "propuesta": "«El passato prossimo equivale a nuestro «fui» (y también a «he ido»).»",
+   "motivo": "La frase es confusa: «fui» es el equivalente principal, no un caso extra."
+  },
+  {
+   "id": "item g2-va-75",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Guardar = conservare, tenere, mettere da parte (ahorrar: risparmiare).",
+   "propuesta": "Aceptar también «Devo risparmiare i soldi per il viaggio.» y reescribir la nota: «guardare = mirar; para ahorrar: risparmiare / mettere da parte».",
+   "motivo": "«Risparmiare» es la corrección más directa de «ahorrar» y hoy sería rechazada; nota telegráfica."
+  },
+  {
+   "id": "item l2-d-22",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "È ___ (justo, precisamente) quello che volevo.",
+   "propuesta": "Aceptar también «esattamente» (y «precisamente»).",
+   "motivo": "La glosa «precisamente» admite «esattamente», igual de natural que «proprio»."
+  },
+  {
+   "id": "item l2-d-13 (note)",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "No es «como que» ni «como»: el «como» causal es «siccome».",
+   "propuesta": "«No confundir con «siccome» (como/ya que, causal).»",
+   "motivo": "La aclaración «como que» es confusa para el alumno."
+  },
+  {
+   "id": "lesson:intro",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "LA semana difícil del B1: passato prossimo o imperfetto.",
+   "propuesta": "«La semana difícil del A2: ...» (o subir el nivel de la semana si corresponde).",
+   "motivo": "La semana está marcada A2; la introducción dice B1."
+  },
+  {
+   "id": "dictogloss w15",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"level\": \"B1\"",
+   "propuesta": "level A2, coherente con la semana y las lecturas.",
+   "motivo": "Nivel incoherente con la semana (A2); el texto es de A2."
+  },
+  {
+   "id": "vocab ospedale",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "Uscita mia moglie dall'ospedale, sono potuto tornare al lavoro.",
+   "propuesta": "«Quando mia moglie è uscita dall'ospedale, ho potuto tornare al lavoro.»",
+   "motivo": "Participio assoluto literario en A2 y «sono potuto tornare» (auxiliar del infinitivo) no enseñados; poco natural para el nivel."
+  },
+  {
+   "id": "vocab fiume",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"fiume\", \"río\", \"\"",
+   "propuesta": "Agregar ejemplo, p. ej. «Il Po è il fiume più lungo d'Italia.»",
+   "motivo": "Único vocabulario sin frase de ejemplo."
+  },
+  {
+   "id": "item g2-va-64",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Quando ero piccolo, ho giocato sempre a calcio.",
+   "propuesta": "Variar el contexto (otro verbo/deporte) o sustituir por un ítem de contraste con mentre/quando.",
+   "motivo": "Casi duplicado de g2-sc-08-a, del ejemplo de la lección y del vocab «calcio»; g2-ct-12 y b2-pass-05 también repiten «cuando era chico»."
+  },
+  {
+   "id": "item b2-pass-05",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Quando ero piccolo, andavo al mare tutte le estati",
+   "propuesta": "Poner «ogni estate» como respuesta principal (la de la lección).",
+   "motivo": "«Tutte le estati» es correcto pero menos natural que «ogni estate»."
+  },
+  {
+   "id": "item g2-ct-12",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Quando ero piccolo vivevo a Milano",
+   "propuesta": "Agregar «Da piccolo vivevo a Milano», «Quando ero bambina vivevo a Milano», «Da bambina...».",
+   "motivo": "Faltan variantes que b2-pass-05 sí acepta."
+  },
+  {
+   "id": "item d16-061",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Stavamo mangiando",
+   "propuesta": "Enseñar stare + gerundio en la lección o quitarlo de accept.",
+   "motivo": "Forma aceptada en d16-061/066/070 que la lección no presenta."
+  },
+  {
+   "id": "lesson:parts",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"blocks\": [2, 3, 4, 5]",
+   "propuesta": "Incluir el bloque 6 (Adelanto) en una parte; corregir n_items (30 y 34 no cuadran con 36 ítems) y limpiar «robar» del match.",
+   "motivo": "El bloque 6 no pertenece a ninguna parte; contadores y patrón obsoleto."
+  },
+  {
+   "id": "sfide chapter",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "\"chapter\": \"The past indicative tenses\"",
+   "propuesta": "Traducir o ocultar los nombres de capítulo («Sustantivos», «Artículos», «Indefinidos», «Preposiciones», «Conectores», «Presente», «Pasados»).",
+   "motivo": "Si se muestran, son texto en inglés visible al alumno."
+  },
+  {
+   "id": "pares p-089",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "scórsi",
+   "propuesta": "Sustituir por un par del imperfetto (p. ej. -àvano/-avàno) o marcar como solo de escucha.",
+   "motivo": "Requiere passato remoto (no enseñado) y una distinción toscana fuera de A2; «pasados» es ambiguo."
+  },
+  {
+   "id": "pares p-052",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Una r sola en «c'era» (había).",
+   "propuesta": "«cera» y «c'era» suenan igual; explicar que la r simple se opone a «cerra/erra».",
+   "motivo": "La nota habla de «c'era» pero el par muestra «cera» (cera) y es homófono."
+  },
+  {
+   "id": "accento a-016",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "cumplido, educado (compìto) / tarea (còmpito)",
+   "propuesta": "«educado, cortés (compìto) / tarea (còmpito)»",
+   "motivo": "«Cumplido» se lee como «elogio»; compìto es «educado»."
+  },
+  {
+   "id": "lettura ep5",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "¿Cuántos eran los domingos al mediodía?",
+   "propuesta": "«¿Cuántas personas se juntaban a comer los domingos?»",
+   "motivo": "Redacción torpe. Además falta glosa de «palazzo» (edificio, falso amigo de «palacio»)."
+  },
+  {
+   "id": "lettura w-15 (gloss)",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "\"successa\": \"pasado, sucedido\"",
+   "propuesta": "«ocurrida, sucedida»",
+   "motivo": "«Pasado» confunde con el tiempo verbal."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Agregar 10-15 ítems de contraste imperfetto/passato prossimo: choice/cloze con mentre/quando, marcadores (sempre, ogni giorno, ieri, un giorno, all'improvviso), un fixerr de cada tipo y un texto con huecos (racconto).",
+   "por_que": "El tema central tiene ~11 ítems en total frente a 20 de drill de conjugación."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Retirar o reubicar ítems y desafíos de otros temas (r01 sustantivos, r02 partitivos, r12 ognuno, r15 da, r18 presente, l2-d discursivos, g2-ct-70/71, g2-va-75/76) y sustituirlos por práctica de la semana.",
+   "por_que": "Dispersan la carga y no practican imperfetto/contraste."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar ejercicios para lo enseñado sin práctica: irregulares (dire, bere, fare, tradurre en conjugate), cortesía (volevo/cercavo) y contraste sapere/conoscere/potere/volere (imperfetto vs passato prossimo).",
+   "por_que": "Bloques 1, 3 y 4 casi no se practican; los 10 conjugate son todos regulares."
+  },
+  {
+   "prioridad": "media",
+   "que": "Corregir la coherencia de nivel (A2 vs «B1» en la intro y el dictogloss) y mover r20-07b (futuro en el pasado) a una semana posterior.",
+   "por_que": "Contenido fuera del nivel y de lo enseñado (condizionale passato, trapassato)."
+  },
+  {
+   "prioridad": "media",
+   "que": "Diversificar lecturas y dictogloss: hoy tres textos repiten «Quando ero piccolo... Un giorno, però, è successa una cosa strana» con un perro; usar un relato con secuencia de passato prossimo (historia ordenada) y otra región.",
+   "por_que": "Poca variedad y la meta «contar una historia ordenada» no se practica."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar a la lección: marcadores temporales típicos de cada tiempo, stare + gerundio (ya aceptado en accept), imperfetto en discurso indirecto (era grave) y error típico del hispanohablante (usar passato prossimo por «fui/estaba»).",
+   "por_que": "Cubre huecos esenciales del tema y evita accept sin base."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Alinear suoni con la semana: par -àvano/-avàno, imperfetto vs passato prossimo en entonación; reemplazar p-089 y compìto/còmpito.",
+   "por_que": "Casi todos los ítems de suoni son genéricos y no tocan el imperfetto."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Revisar la estructura de parts (bloque 6 sin parte, n_items incorrectos) y agregar tipos de producción (typed, qa, listen).",
+   "por_que": "Mezcla de tipos limitada a conjugate/translate/choice/cloze."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

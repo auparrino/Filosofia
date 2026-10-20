@@ -1,0 +1,333 @@
+{
+ "week": 17,
+ "title": "Dimostrativi, possessivi, indefiniti",
+ "level": "A2",
+ "revisado": {
+  "items": 58,
+  "sfide": 0,
+  "bloques_teoria": 6,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 8
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "La teoría es correcta y concisa, con buenas advertencias sobre suo, qualche y ogni, y los ítems de posesivos y demostrativos son casi todos sólidos. Hay un error real de accept/nota en g2-ct-17 y ejercicios que evalúan cosas no enseñadas (posesivo pronominal, qualsiasi, vari). La cobertura es desigual: sobran ítems de mia madre y faltan de ogni, tutto, molto adverbio y quel/quei. El tema declarado (ambientes y muebles) casi no aparece. Tasa estimada de falsos positivos: ~15%.",
+ "bien": [
+  "Regla de posesivos clara, con concordancia con lo poseído y excepción de parentesco con contraste (mio padre / i miei fratelli / il loro padre).",
+  "Advertencias específicas al hispanohablante: suo no mira al dueño, qualche + singular, ogni invariable, molto adverbio.",
+  "Ítems de cloze de questo/quello y de traducción de posesivos con respuestas correctas y notas útiles.",
+  "Lectura breve que reúne todos los demostrativos e indefinidos con caza de formas coherente con las glosas (quel vecchio specchio bien resuelto).",
+  "Dictogloss con gramática de la semana, natural y con chunks pertinentes."
+ ],
+ "hallazgos": [
+  {
+   "id": "item g2-ct-17",
+   "lang": "it",
+   "severidad": "error",
+   "actual": "Questo libro è di mio amico Paolo",
+   "propuesta": "Quitar de accept: solo «Questo libro è del mio amico Paolo»",
+   "motivo": "«di mio amico» es agramatical: amico no es pariente y exige artículo (contradice g2-va-02, que marca «mio amico» como error)."
+  },
+  {
+   "id": "item g2-ct-17",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "La alternativa sin artículo se acepta pero es menos natural.",
+   "propuesta": "Amico no es pariente: sin artículo es incorrecto (il mio amico).",
+   "motivo": "La nota enseña que una forma errónea es solo «menos natural»."
+  },
+  {
+   "id": "item g2-ct-16",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Mia mamma e i miei fratelli vivono a Napoli",
+   "propuesta": "Sacar «Mia mamma» de accept o aclarar en la teoría que mamma/papà admiten ambas formas",
+   "motivo": "La lección presenta «la mia mamma» con artículo como forma afectiva y acá se acepta sin artículo; mensaje inconsistente."
+  },
+  {
+   "id": "lesson:2:1",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "«il mio padre» es error de principiante.",
+   "propuesta": "«il mio padre» no es la forma estándar, pero se oye y no es un error grave; decir «no es la forma normal: usá mio padre»",
+   "motivo": "Exagerado: en el uso real el artículo con padre/madre aparece (regional, coloquial)."
+  },
+  {
+   "id": "lesson:2:0",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*La mia* mamma es simpática. (forma afectiva: con artículo)",
+   "propuesta": "(forma afectiva: normalmente con artículo, aunque «mia mamma» también se oye)",
+   "motivo": "Presenta como obligatorio algo que es tendencia; g2-gd-31 ya admite «mio papà»."
+  },
+  {
+   "id": "item d13-001",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Completá con la forma correcta de questo (este) o quello (ese, aquel), según la palabra que sigue.",
+   "propuesta": "«según la palabra que sigue» no vale para d13-001, d13-006, d13-009 (pronombres, sin palabra siguiente): «según el contexto»",
+   "motivo": "La consigna no coincide con los ítems pronominales."
+  },
+  {
+   "id": "item d13-002",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Quell'",
+   "propuesta": "Aceptar también «Quell’» (apóstrofo tipográfico del teclado móvil)",
+   "motivo": "Riesgo de marcar mal una respuesta correcta por el apóstrofo."
+  },
+  {
+   "id": "item d13-007",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "___ (esos) stati sono vicino al Messico.",
+   "propuesta": "«___ (esos) stati sono vicini al Messico.»",
+   "motivo": "Con sujeto plural el adjetivo «vicini» es lo esperable; «vicino a» invariable es válido pero desconcierta a A2."
+  },
+  {
+   "id": "item d13-011",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Traducí al italiano usando un adjetivo indefinido (alcuni, qualche, troppi, ogni, qualsiasi…).",
+   "propuesta": "Quitar la lista de ejemplos de la consigna",
+   "motivo": "La lista regala las respuestas de d13-011/012/016 y menciona «ogni», que ningún ítem usa."
+  },
+  {
+   "id": "item d13-011",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "dei libri",
+   "propuesta": "Sacar «dei libri» de accept o enseñar el partitivo",
+   "motivo": "El partitivo no se enseña esta semana; se acepta pero el alumno no lo vio."
+  },
+  {
+   "id": "item d13-016",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "qualsiasi ragazza",
+   "propuesta": "Enseñar qualsiasi/qualunque en la lección o cambiar el ítem",
+   "motivo": "Ítem que evalúa vocabulario no enseñado (qualsiasi, qualunque, vari, diversi, parecchio, ognuno, ciascuno, nessuna en d13-016/017/018/020/025)."
+  },
+  {
+   "id": "item d13-017",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "vari politici",
+   "propuesta": "Agregar vari/diversi/parecchio a la tabla de indefinidos o reemplazar por alcuni/molti",
+   "motivo": "Forma no enseñada en la lección (ver también d13-018)."
+  },
+  {
+   "id": "item d13-013",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "tanti turisti",
+   "propuesta": "Agregar «molti turisti» a accept",
+   "motivo": "«Tantos» se traduce con naturalidad como molti; hoy quedaría marcado mal."
+  },
+  {
+   "id": "item d13-022",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "No me gustan tantos.",
+   "propuesta": "Dar contexto: «¿Estos libros? No me gustan tantos.» o cambiar la frase",
+   "motivo": "Enunciado sin referente, poco natural; ambiguo para el alumno."
+  },
+  {
+   "id": "item d13-030",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Molti pensano di sì.",
+   "propuesta": "Agregar «Molti credono di sì.» a accept",
+   "motivo": "Sinónimo igual de natural; además «pensare di sì» no está enseñado."
+  },
+  {
+   "id": "item d13-021",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Pochi sono venuti oggi.",
+   "propuesta": "Agregar «Oggi pochi sono venuti.» a accept",
+   "motivo": "Orden natural con adverbio inicial no contemplado."
+  },
+  {
+   "id": "item d13-045",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "suo",
+   "propuesta": "Agregar «di lei» o aclarar que se pide el posesivo",
+   "motivo": "Con «È ___ (de ella)» un alumno puede escribir «di lei», válido; y el artículo optativo tras essere no se enseñó."
+  },
+  {
+   "id": "item d13-049",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "il suo veterinario, ___ (el del perro).",
+   "propuesta": "Cambiar por «il mio veterinario, ___ (el de él).»",
+   "motivo": "«suo» no distingue dueño, de modo que el ítem es ambiguo y la pista «del perro» empuja hacia «quello del cane»."
+  },
+  {
+   "id": "item d13-041",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Completá con el pronombre posesivo en italiano, con su artículo, según la pista entre paréntesis.",
+   "propuesta": "Agregar en la lección un bloque sobre posesivo pronominal (il mio / il tuo, senza nome)",
+   "motivo": "d13-041 a d13-050 evalúan el posesivo sin sustantivo, que la lección no enseña (solo el adjetivo)."
+  },
+  {
+   "id": "item g2-gd-31",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "mio papà",
+   "propuesta": "Decidir una postura: solo «il mio papà» o explicar en la teoría que papà/mamma admiten ambas",
+   "motivo": "Acepta la forma sin artículo mientras la lección exige el artículo con mamma."
+  },
+  {
+   "id": "item b2-prep-08",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Lo mio padre è medico.",
+   "propuesta": "Reemplazar el distractor por uno de regla, p. ej. «I mio sorella»",
+   "motivo": "Distractores absurdos («Lo mio», «Sorella mia»): se descartan sin aplicar la regla."
+  },
+  {
+   "id": "lesson:1:0",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Posesivos: siempre con artículo",
+   "propuesta": "«Posesivos: con artículo»",
+   "motivo": "El título contradice el bloque siguiente («Familia: sin artículo») y el título de la parte."
+  },
+  {
+   "id": "lesson:3:0",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "¡con un!: un altro libro",
+   "propuesta": "«se dice un altro (no «altro libro»): lleva un/una»",
+   "motivo": "La nota «¡con un!» es críptica para el alumno."
+  },
+  {
+   "id": "lesson:0:0",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "quel / quello / quell'",
+   "propuesta": "Agregar ítems de quel y quei y explicar cuándo se usa quello (s+cons., z, gn, ps)",
+   "motivo": "La lección no explicita la regla y ningún ítem practica «quel» ni «quei», las formas más frecuentes."
+  },
+  {
+   "id": "lecturas w-17",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"E quella lì, vicino alla porta?\" \"Quella è tua: ci sono le tue scarpe e qualche maglione\".",
+   "propuesta": "Atribuir los turnos: Marco: / Elena:",
+   "motivo": "Sin hablantes marcados no queda claro de quién es cada caja; la pregunta «¿Qué hay en la caja de Elena?» podría tener dos respuestas (libros y zapatos)."
+  },
+  {
+   "id": "lecturas w-17",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Il trasloco",
+   "propuesta": "Glosar «trasloco: mudanza»",
+   "motivo": "El título no está glosado y es palabra nueva."
+  },
+  {
+   "id": "dictogloss w17",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "B1",
+   "propuesta": "Poner level A2",
+   "motivo": "El dictogloss figura como B1 en una semana A2; usa «Quest'anno» y «tocca a me», no enseñados."
+  },
+  {
+   "id": "suoni p-141",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "folio",
+   "propuesta": "Cambiar «es» de b por «(no existe)» o usar un par sin falso amigo (foglio / fòlio)",
+   "motivo": "«folio» es una palabra española real (y rara en italiano): confunde qué se está contrastando."
+  },
+  {
+   "id": "suoni c-024",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Quest'anno è diverso.",
+   "propuesta": "Enseñar «quest'» (questo apocopado) o mover a otra semana",
+   "motivo": "Elisión de questo no enseñada en la lección."
+  },
+  {
+   "id": "suoni a-018",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "àmbito",
+   "propuesta": "Mover a semana con léxico C1 o cambiar por un par con vocabulario A2 (papa/papà, ancora/àncora)",
+   "motivo": "Léxico muy por encima del nivel A2 y sin relación con el tema semanal."
+  },
+  {
+   "id": "vocab via",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Devo andare via.",
+   "propuesta": "Cambiar ejemplo por «Abito in via Roma.»",
+   "motivo": "Se glosa «via = calle» pero el ejemplo usa «andare via» (irse)."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Corregir g2-ct-17: quitar «di mio amico Paolo» de accept y reescribir la nota.",
+   "por_que": "Acepta y valida una forma agramatical."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar a la lección el posesivo pronominal (il mio, i tuoi, senza nome) y su artículo, o sacar los 10 ítems d13-041 a d13-050.",
+   "por_que": "Se evalúa algo no enseñado."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Cubrir el tema declarado: vocabulario de ambientes y muebles (cucina, camera, divano, sedia, tavolo) con frases y algún ítem, y describir la casa.",
+   "por_que": "El tema y el fare prometen casa y muebles, y casi no aparecen en teoría ni en ejercicios."
+  },
+  {
+   "prioridad": "media",
+   "que": "Sumar ítems de ogni, tutto, qualche/alcuni en cloze, molto vs molti (adverbio), altro, nessuno + non, y quel/quei; recortar los ítems repetidos de mia madre.",
+   "por_que": "Puntos enseñados sin práctica y otros sobrepracticados."
+  },
+  {
+   "prioridad": "media",
+   "que": "Sacar los ejemplos de la consigna de d13-011 a d13-030 o enseñar qualsiasi, vari, diversi, parecchio, ognuno, ciascuno.",
+   "por_que": "La consigna regala la respuesta y hay formas no enseñadas."
+  },
+  {
+   "prioridad": "media",
+   "que": "Unificar el criterio sobre mamma/papà (con artículo, opcional) entre lección y accept.",
+   "por_que": "Hoy la teoría, gd-31 y ct-16 se contradicen."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Revisar metadatos: n_items de las partes (45/56/114) suman más que los 58 ítems, y dictogloss/suoni con nivel superior.",
+   "por_que": "Datos inconsistentes con la semana."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Atribuir turnos en la lectura, agregar una pregunta de posesivos y glosar «trasloco».",
+   "por_que": "La lectura casi no ejercita posesivos y es ambigua en quién habla."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Reforzar progresión: pasar de reconocimiento (choice) a producción con más ítems de tipos variados (hoy solo cloze/translate y pocos fixerr/choice).",
+   "por_que": "Mezcla de tipos pobre; falta reconocimiento previo a la traducción."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 1,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

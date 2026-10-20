@@ -1,0 +1,49 @@
+{
+ "week": 23,
+ "level": "B1",
+ "title": "Meglio Bologna o Napoli?",
+ "genre": "sfida in studio",
+ "es": "Llegó el día del duelo: Sara, boloñesa, y Dario, napolitano, discuten al aire qué ciudad es mejor. Los oyentes votan por mensaje y al final se anuncia el resultado.",
+ "speakers": ["Sara", "Dario"],
+ "turns": [
+  ["A", "Buongiorno! Oggi a Radio Portici c'è la grande sfida: Bologna contro Napoli. Io difendo Bologna, naturalmente, e Dario difende Napoli. Gli ascoltatori votano con un messaggio. Cominciamo dal cibo?"],
+  ["B", "Facile! La pizza di Napoli è la migliore del mondo. E il caffè napoletano è più forte e più buono di quello di Bologna."],
+  ["A", "Più forte sì, più buono non so. Però i tortellini sono migliori di qualsiasi pizza, e la mortadella è il salume più famoso d'Italia."],
+  ["B", "Va bene, pareggio. Parliamo della città: Napoli è molto più grande di Bologna e più antica. Ha quasi tremila anni!"],
+  ["A", "Più grande non vuol dire più bella. Bologna è meno caotica e molto più tranquilla. Da noi vai dappertutto in bici, e il centro è più pulito."],
+  ["B", "Tranquilla? Io direi noiosa! Il mio quartiere a Napoli, i Quartieri Spagnoli, ha vicoli strettissimi e pieni di vita. Qui le strade sono più larghe, ma alle dieci di sera non c'è nessuno."],
+  ["A", "Non è vero: in via del Pratello alle dieci la sera comincia! E poi Bologna ha l'università più antica del mondo occidentale."],
+  ["B", "E Napoli ha il mare, il Vesuvio e il clima migliore. D'inverno qui c'è la nebbia, a Napoli c'è il sole."],
+  ["A", "E i prezzi? Qui l'affitto è caro, lo ammetto. Ma a Napoli la vita è più economica?"],
+  ["B", "Molto più economica! Con dieci euro mangi meglio che in qualsiasi ristorante di qui. E i vestiti: da noi ai mercati trovi tutte le taglie a metà prezzo."],
+  ["A", "E la gente? Dicono che i napoletani sono i più furbi d'Italia..."],
+  ["B", "Furbi? Siamo i più simpatici! E il treno per Roma è velocissimo, quindi anche i romani sono vicini."],
+  ["A", "Bene, arrivano i risultati. Hanno votato più di trecento ascoltatori. Per Napoli... centoquarantotto voti. Per Bologna... centoquarantotto!"],
+  ["B", "Pareggio! Allora la sfida continua la settimana prossima, con la pizza e i tortellini in studio. Il peggiore cuoco perde!"]
+ ],
+ "gloss": {
+  "sfida": "desafío, duelo",
+  "salume": "fiambre",
+  "pareggio": "empate",
+  "caotica": "caótica",
+  "dappertutto": "por todos lados",
+  "vicoli": "callejones",
+  "occidentale": "occidental",
+  "affitto": "alquiler",
+  "qualsiasi": "cualquier",
+  "napoletani": "napolitanos",
+  "napoletano": "napolitano"
+ },
+ "questions": [
+  ["Secondo Dario, perché Napoli è migliore per mangiare?", ["Perché la pizza e il caffè sono i migliori", "Perché i ristoranti sono più eleganti", "Perché ci sono più mercati del pesce", "Perché i tortellini napoletani sono famosi"], "Perché la pizza e il caffè sono i migliori"],
+  ["Che cosa dice Sara delle sere di Bologna?", ["Che alle dieci di sera non c'è nessuno", "Che in via del Pratello alle dieci la sera comincia", "Che è più caotica di quella di Napoli", "Che è troppo cara per gli studenti"], "Che in via del Pratello alle dieci la sera comincia"],
+  ["Come finisce la sfida?", ["Vince Napoli", "Vince Bologna", "Finisce in pareggio", "Non vota nessuno degli ascoltatori"], "Finisce in pareggio"]
+ ],
+ "info": [
+  ["Secondo Dario, a Napoli la vita costa meno.", true],
+  ["Sara ammette che a Bologna l'affitto è caro.", true],
+  ["Dario dice che a Napoli piove più che a Bologna.", false]
+ ],
+ "grammatica": {"label": "comparativos (più… di, più… che, meno) y superlativos, con migliore, peggiore y meglio", "forme": ["la migliore del mondo", "più forte e più buono di quello", "migliori di qualsiasi pizza", "il salume più famoso", "molto più grande di Bologna", "meno caotica", "più tranquilla", "più larghe", "l'università più antica", "il clima migliore", "più economica", "meglio che in qualsiasi ristorante", "i più furbi", "il peggiore cuoco", "strettissimi", "velocissimo"]},
+ "parole": [["migliore", "migliore"], ["antica", "antico"], ["noiosa", "noioso"], ["quartiere", "quartiere"], ["strettissimi", "stretto"], ["larghe", "largo"], ["economica", "economico"], ["meglio", "meglio"], ["vestiti", "vestito"], ["taglie", "taglia"], ["furbi", "furbo"], ["velocissimo", "veloce"], ["peggiore", "peggiore"]]
+}

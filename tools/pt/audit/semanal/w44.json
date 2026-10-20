@@ -1,0 +1,226 @@
+{
+ "week": 44,
+ "title": "Formação de palavras",
+ "level": "C1",
+ "revisado": {
+  "items": 58,
+  "bloques_teoria": 9,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 0,
+  "radio": 0,
+  "otros": 3
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana correcta en contenido: no encontré errores de portugués ni de reglas morfológicas; los ejemplos, datos culturales (Darcy Ribeiro, Zweig, CLT, terremoto de 1755, Semana de 22) son verídicos. Los reparos son de diseño: muchos ítems repetidos (aprendizagem, cafezinho, pós-graduação, beleza), puntos enseñados con poca o ninguna práctica (-ura, -ência, -ada comida, recipientes, prefijos pré-/super-) y alguna evaluación de contenido no enseñado (-idade, superlativos). Suoni, radio, laboratorio y duelos están vacíos. Tasa estimada de falsos positivos en las dudas: ~30%.",
+ "bien": [
+  "Teoría clara y ordenada en 9 bloques con tablas, ejemplos con traducción rioplatense y advertencias de interferencia («-dad» -> -dade, «-ito» nunca, -aje -> -agem y femenino).",
+  "Reglas precisas y verificadas: -inho/-zinho, plural pãezinhos/florezinhas, falsos aumentativos (portão, cartão, calção), -ista invariable, -vel con tilde.",
+  "Buena progresión: choice/scopri de reconocimiento, luego cloze, fixerr y garden, y cierre con producción (translate, combina, cloze «Forme a palavra»).",
+  "Lecturas de buen nivel y muy conectadas con el tema (Darcy Ribeiro y neologismos; artículo del tramo sobre cafezinho/golaço/sextou), con preguntas de comprensión bien armadas y V/F con «não se diz» válido.",
+  "Los ítems de producción aceptan variantes naturales (nesse/neste, dá/dê, em um/num, aprendizado/aprendizagem, bora, está fazendo).",
+  "Contexto cultural carioca coherente (Santa Teresa, Candelária, Zico, panelaço) y notas con datos correctos."
+ ],
+ "hallazgos": [
+  {
+   "id": "item s4-44-39",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "velho → ___ (accept: [\"a velhice\"])",
+   "propuesta": "Agregar accept \"velhice\"; y mostrar los tres ejemplos de la consigna",
+   "motivo": "La consigna dice «Veja os três exemplos» pero el enunciado no muestra ninguno, y un alumno escribiría «velhice» sin artículo (en 37 y 38 no hay artículo)."
+  },
+  {
+   "id": "item s4-44-37",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Veja os três exemplos e complete o quarto.",
+   "propuesta": "Incluir en el stem los tres ejemplos (p. ej. «café → cafezinho; flor → florzinha; mãe → mãezinha; pé → ___»)",
+   "motivo": "En el dossier el stem solo trae un hueco; sin ejemplos la consigna no se sostiene (idem 38 y 39)."
+  },
+  {
+   "id": "item s4-44-45",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"Vou dar uma olhada no mapa antes de a gente sair.\"",
+   "propuesta": "Agregar accept: \"Vou dar uma olhada no mapa antes de sairmos\" y \"Antes de sairmos, vou dar uma olhada no mapa\"",
+   "motivo": "Alternativa igual de correcta y natural en C1 (infinitivo flexionado). Además el ítem practica antes de + infinitivo/contracción, no formación de palabras."
+  },
+  {
+   "id": "item s4-44-49",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "A ___ (curioso) das crianças não tem fim. -> curiosidade",
+   "propuesta": "Enseñar -idade en el bloque 0 (curioso -> curiosidade, ativo -> atividade) o cambiar el ítem",
+   "motivo": "La lección solo enseña -dade/-eza/-ice/-ura; -oso -> -idade no figura y no se deduce."
+  },
+  {
+   "id": "item s4-44-07",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "pão → padeiro (del latín panis → pad-).",
+   "propuesta": "pão → padeiro (de pão, con la base antigua pan-/pad-: panadeiro, padeiro)",
+   "motivo": "La nota condensa la etimología de forma imprecisa (padeiro viene del latín tardío con -t-/-d- epentético, no de «panis → pad-» directamente); mejor omitirla o simplificarla."
+  },
+  {
+   "id": "item s4-44-12",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "De manhã comprei seis ___ na padaria.",
+   "propuesta": "Dejar uno solo (conservar el garden 38) y sustituir el otro por -ura/-ência o por plural de otro diminutivo (florezinhas)",
+   "motivo": "Ítem casi duplicado."
+  },
+  {
+   "id": "item s4-44-36",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Faço posgraduação na PUC-Rio.",
+   "propuesta": "Mantener 36 y reemplazar 09 o 30 por prefijos no practicados (pré-, super-, des- con verbo)",
+   "motivo": "Pós-graduação aparece en 09, 30 y 36 (y en lección y tramo): triple práctica del mismo dato."
+  },
+  {
+   "id": "item s4-44-34",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "O aprendizagem do português leva tempo.",
+   "propuesta": "Reservar aprendizagem para un ítem y variar (p. ej. viagem, mensagem, coragem) en los demás",
+   "motivo": "Aprendizagem se repite en s4-44-04, 26 y 34: la regla -agem femenino queda practicada con una sola palabra."
+  },
+  {
+   "id": "item s4-44-35",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Vamos tomar um cafezinho na padaria?",
+   "propuesta": "Variar la base (pezinho, mãezinha, sofazinho, florzinha) en lugar de repetir cafezinho",
+   "motivo": "Cafezinho está en s4-44-11, 31 y 35 (y en lección y tramo); falta práctica de otras bases de -zinho."
+  },
+  {
+   "id": "item s4-44-06",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "O pneu furou; procure um ___ na estrada.",
+   "propuesta": "Reemplazar «gomero» por un derivado portugués plausible (borrachário, borracharia)",
+   "motivo": "Opciones en español (gomero, aprendizaje, rehacer, cafecito) se descartan por ser español, no por la regla; evaluar la regla con distractores portugueses."
+  },
+  {
+   "id": "lesson:5",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "*-inho* con palabras en *-o / -a* átonas (*casa → casinha*); *-zinho* tras vocal tónica, nasal, diptongo o consonante",
+   "propuesta": "Agregar: con -e átona valen ambos (leitinho, pentinho / lugarzinho tras consonante); la regla de s4-44-40 queda incompleta",
+   "motivo": "Falta el caso de -e átona, muy frecuente, y el alumno hispanohablante tiende a decir «-ito»."
+  },
+  {
+   "id": "lettura w-44",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Toque nas palavras derivadas (prefixos, sufixos, aumentativos, superlativos)",
+   "propuesta": "Quitar «superlativos» de la consigna o enseñar -íssimo/-érrimo en la lección",
+   "motivo": "chiquérrimo y el diálogo se apoyan en el superlativo, que no se enseña en la semana 44 (solo aparece en la lectura)."
+  },
+  {
+   "id": "dictogloss w44",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "com a frase tupi or not tupi, that is the question",
+   "propuesta": "Marcar la frase en inglés como cita literal de Oswald (con glosa) o dejarla solo como «tupi or not tupi»",
+   "motivo": "Texto en inglés visible; es la cita original (juego con Hamlet), por lo que probablemente es legítimo, pero conviene señalarlo."
+  },
+  {
+   "id": "tramo lettura",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "e zapear pelos canais",
+   "propuesta": "Reformular: «A terminação -ar (e -ear) transforma...»",
+   "motivo": "El texto dice que es la terminación -ar y el ejemplo zapear es -ear (zap + -ear)."
+  },
+  {
+   "id": "tramo breve",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "renovar o armário é possível, e é imperdível",
+   "propuesta": "«Feira de Trocas: renovar o armário é possível, e a feira é imperdível.»",
+   "motivo": "«imperdível» no puede referirse a «renovar o armário»; el sujeto elíptico queda confuso."
+  },
+  {
+   "id": "tramo breve info",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "As fichas custam dois reais cada uma.",
+   "propuesta": "Cambiar por una afirmación falsa explícita (p. ej. «As fichas são vendidas na entrada») o convertirla a «não se diz»",
+   "motivo": "El texto solo dice «sem dinheiro»; la falsedad se infiere, no se afirma (ambigua frente a «não se diz»)."
+  },
+  {
+   "id": "tramo compito.gloss",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "\"apelido\": \"sobrenombre (falso amigo: se ve en la semana 45)\"",
+   "propuesta": "\"apodo (falso amigo de «apellido»)\"",
+   "motivo": "En el ascolto de la misma semana se glosa «apodo»; «sobrenombre» es menos claro y la remisión a la semana 45 no se puede comprobar."
+  },
+  {
+   "id": "tramo w44",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "B2+",
+   "propuesta": "Revisar si el tramo debe ser C1 como la semana",
+   "motivo": "El tramo declara B2+ en una semana C1; el texto (registro de revista, léxico) es C1."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Reducir duplicados (aprendizagem x3, cafezinho x3, pós-graduação x3, beleza x3, velhice x2, pãezinhos x2, olhada x3) y usar esos lugares para puntos sin práctica: -ura, -ência/-ância, -ez, -ada de comida (feijoada), recipientes en -eiro (cinzeiro), prefijos pré-/super-/ex-, aumentativo -ão de persona.",
+   "por_que": "Se enseñan 8-9 patrones pero varios se practican 0 veces mientras otros se repiten, y la regla queda ligada a una sola palabra."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Completar suoni (pares mínimos -inho/-ão, acento tónico en -zinho, nasales ão/ões), radio, laboratorio y duelos que están vacíos.",
+   "por_que": "La semana no trabaja pronunciación ni producción oral; el diminutivo y el aumentativo dependen mucho de la entonación (que el propio tramo destaca)."
+  },
+  {
+   "prioridad": "media",
+   "que": "Equilibrar tipos: hay 22 cloze y 14 choice frente a 2 typed, 3 garden y 3 combina; sumar más producción libre (typed/conjugate) en la parte 2 y 3.",
+   "por_que": "Falta transferencia de reconocimiento a producción sobre la regla -inho/-zinho."
+  },
+  {
+   "prioridad": "media",
+   "que": "Completar la regla de -inho/-zinho con -e átona y con casos de plural (florezinhas, mãezinhas), y alinear s4-44-40 y garden con ello.",
+   "por_que": "El alumno rioplatense confunde -ito y se enfrenta a bases en -e muy frecuentes (leite, gente, pente)."
+  },
+  {
+   "prioridad": "media",
+   "que": "Introducir en la lección -idade (curioso/curiosidade) y los superlativos -íssimo/-érrimo, o quitarlos de ítems y consignas.",
+   "por_que": "s4-44-49 y la caza de formas de w-44 evalúan contenido que la lección no enseña."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Usar distractores en portugués en los choice (borrachista, olhação ya está bien) en lugar de formas en español (gomero, aprendizaje, rehacer, cafecito).",
+   "por_que": "Evalúan la regla en lugar de discriminar el español del portugués."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Agregar accepts de infinitivo flexionado (antes de sairmos) y de sufijos equivalentes (jornalista/jornaleiro) en producción.",
+   "por_que": "Aprovechar la riqueza C1 y no rechazar respuestas correctas."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Alinear nivel del tramo (B2+) y glosas entre ascolto/compito (apodo/sobrenombre).",
+   "por_que": "Coherencia de nivel y vocabulario."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

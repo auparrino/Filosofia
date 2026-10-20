@@ -1,0 +1,198 @@
+{
+ "week": 34,
+ "title": "Conectores e coesão",
+ "level": "B2",
+ "revisado": {
+  "items": 48,
+  "bloques_teoria": 7,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 2,
+  "radio": 0,
+  "otros": 3
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida y fiable: no hallé errores gramaticales claros en portugués; las respuestas aceptadas son correctas y las `accept` son generosas. Los reparos son de diseño: mucha redundancia en falsos amigos (todavia/ainda, mas/mais, incluso), consignas que remiten a frases ausentes (scopri, garden), la parte «Argumentar» casi sin ejercicios y suoni sin relación con el tema. Lectura, debate y tramo son naturales y bien construidos; el modelo de redacción (189 palabras) cumple el rango 160-220.",
+ "bien": [
+  "Teoría ordenada, con contraste explícito con el español y avisos de falsos amigos (todavia, entretanto, incluso, demais).",
+  "Lista amplia y correcta de respuestas aceptadas en cloze y translate (sinónimos adversativos, a gente/nós, tá/está).",
+  "Lectura de la semana y artículo del tramo con muchos conectores en contexto, con datos culturales correctos (Freyre 1933, Florestan, Tijuca 1861, Lisboa 1755).",
+  "Debate radiofónico natural y registro oral brasileño creíble (tá, topar, fechado); preguntas V/F con «não se diz» bien usadas.",
+  "Tarea de escritura con rúbrica (`punti`) alineada con la cohesión y un texto modelo que cumple el límite de palabras."
+ ],
+ "hallazgos": [
+  {
+   "id": "item s3-34-30",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Vinieron todos, incluso el administrador.",
+   "propuesta": "Aceptar también «administrador»/«o administrador» o cambiar el enunciado a «el administrador del edificio (síndico)»",
+   "motivo": "El alumno que traduce literalmente «administrador» queda marcado mal; el enunciado no dice que se espera síndico. Lo mismo en el bloque de lección 5 (prompt «incluso el administrador»)."
+  },
+  {
+   "id": "item s3-34-39",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Veja os três pares espanhol → português e complete o quarto.",
+   "propuesta": "Mostrar los tres pares de ejemplo en el enunciado, o cambiar la consigna a «Complete com o equivalente português»",
+   "motivo": "La consigna promete tres pares que el ítem no muestra (aplica a s3-34-37, 38, 39)."
+  },
+  {
+   "id": "item s3-34-39",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "En Brasil, «entretanto» se usa como «sin embargo». «Mientras tanto» es enquanto isso o nesse meio-tempo.",
+   "propuesta": "Matizar: «entretanto» es sobre todo adversativo, aunque en registro escrito formal aún puede aparecer como «mientras tanto»",
+   "motivo": "Los diccionarios brasileños registran también el valor temporal; la afirmación absoluta (y el warn «≠ mientras tanto») es exagerada."
+  },
+  {
+   "id": "item s3-34-40",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Leia as frases e descubra a regra.",
+   "propuesta": "Incluir en el enunciado 2-3 frases de contraste (O plano, porém, falhou / Queria ir, mas não deu) o cambiar la consigna",
+   "motivo": "La consigna remite a frases que no aparecen; además «pueden ir ... al final» está poco ejemplificado (porém/contudo al final es raro)."
+  },
+  {
+   "id": "item s3-34-41",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Leia as frases e descubra a regra.",
+   "propuesta": "Igual que s3-34-40: agregar frases o ajustar la consigna",
+   "motivo": "Consigna sin frases; el ítem es en realidad de elección de regla."
+  },
+  {
+   "id": "item s3-34-33",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Suenan casi igual en Río, por eso se confunden al escribir.",
+   "propuesta": "«Se confunden al escribir porque suenan parecidos en el habla rápida»",
+   "motivo": "/mas/ y /mais/ no son homófonos en Río; «casi igual» es exagerado (idem nota de s3-34-15: «suenan parecido»)."
+  },
+  {
+   "id": "item s3-34-22",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "ainda por cima",
+   "propuesta": "Quitar «ainda por cima» (matiz de queja/sorpresa) y «também» (no equivale a «além disso» con coma)",
+   "motivo": "Sinónimos no equivalentes en registro/valor."
+  },
+  {
+   "id": "item col-34-1",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Tomar medidas → tomar providências (o tomar medidas).",
+   "propuesta": "«tomar providências» = «tomar medidas»; «dar providências» no es la colocación usual (aunque existe en lenguaje administrativo)",
+   "motivo": "La nota mezcla español y portugués («o tomar medidas» se lee como portugués «ou»); además «dar» no es descartable del todo."
+  },
+  {
+   "id": "lesson:2:0",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "É tarde; fica, pois, aqui.",
+   "propuesta": "Reemplazar por un ejemplo literario típico: «Penso, pois existo» o «Ele é jovem; deve, pois, aprender», y avisar que este uso es muy formal/escrito",
+   "motivo": "El «pois» conclusivo pospuesto es raro y libresco en Brasil; el ejemplo «fica, pois, aqui» suena forzado y se confunde con el uso explicativo."
+  },
+  {
+   "id": "lesson:2:warn",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Se escribe junto: *portanto*. «Por tanto» y «por lo tanto» son calcos del español.",
+   "propuesta": "«Por tanto» no es calco ortográfico sino la forma española con espacio; «por tanto» es válido en español: «En portugués se escribe junto: portanto (no «por tanto»)»",
+   "motivo": "Redacción confusa: «por tanto» no es un calco, es la grafía española."
+  },
+  {
+   "id": "lettura w-34",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "foi então duramente criticada",
+   "propuesta": "Marcar que «então» aquí es temporal (= naquele momento) o quitarlo de los targets de caza",
+   "motivo": "«então» está en `hunt.targets` como conector, pero en este texto no es conclusivo sino temporal; el alumno que lo toque confunde el valor."
+  },
+  {
+   "id": "tramo:lettura",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Por conseguinte, a água que antes se infiltrava",
+   "propuesta": "Glosar «por conseguinte» (= portanto, formal) o reemplazar por «Por isso»",
+   "motivo": "«por conseguinte» no se enseña en la lección y es target de la caza, sin glosa."
+  },
+  {
+   "id": "tramo:ascolto",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Quando Carla diz que o custo ambiental “ninguém paga no caixa”",
+   "propuesta": "«Quando Carla diz que ninguém paga o custo ambiental no caixa»",
+   "motivo": "La cita no coincide con el diálogo («só que ninguém paga por ele no caixa»)."
+  },
+  {
+   "id": "suoni p-176 / a-032",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "crítica / critica ; hemorragia",
+   "propuesta": "Reemplazar por pares relevantes a conectores: «porém/porem», «pôr/por», «portanto» (tónica), «aliás» (tilde), «inclusive» (acento en -clu-)",
+   "motivo": "Los ítems de suoni no se relacionan con el tema de la semana; «hemorragia» no tiene relación con conectores."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Reducir redundancia: ~6 ítems sobre todavia/ainda (s3-34-02, 05, 16, 26, 34, 37) y ~5 sobre mas/mais/mas (01, 15, 25, 33) y 4 sobre incluso/inclusive (10, 30, 35, 38); redistribuir hacia puntos con poca práctica",
+   "por_que": "Los ítems repetidos saturan un solo falso amigo mientras otros temas casi no se practican."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Añadir 4-6 ítems para el bloque «Argumentar: ordenar y conceder» (em primeiro lugar, por outro lado, é verdade que… no entanto, há quem diga) — hoy la parte tiene solo 2 ítems y son colocaciones (col-34-1/2)",
+   "por_que": "Se enseña el esquema argumentativo (objetivo de la semana) sin producción: solo hay 1 pregunta de reconocimiento en la teoría."
+  },
+  {
+   "prioridad": "media",
+   "que": "Practicar los puntos de `more` hoy sin ítems: ao passo que, bem como, já = «en cambio», não… e sim, visto que (solo 1 cloze)",
+   "por_que": "Contenido enseñado sin ejercicio."
+  },
+  {
+   "prioridad": "media",
+   "que": "Añadir ítems de colocación de conectores en la oración (puntuación y posición: «O plano, porém, falhou», no «, mas,») y de uso de modo con embora/apesar de/mesmo que (reordenar o corregir *embora chove*)",
+   "por_que": "La regla de posición y de subjuntivo solo se cubre con 1-3 ítems de reconocimiento."
+  },
+  {
+   "prioridad": "media",
+   "que": "Hacer más producción libre: hoy casi todo es reconocimiento/cloze con pista en español entre paréntesis; agregar ítems donde el alumno elija el conector solo por el contexto (sin la traducción)",
+   "por_que": "El paréntesis en español resuelve el ítem sin evaluar si el alumno distingue contraste/causa/consecuencia."
+  },
+  {
+   "prioridad": "media",
+   "que": "Contraste con los errores típicos: sumar «portanto/por tanto», «ao invés/em vez de», «além de/além disso» y «apesar de que» (calco) como fixerr",
+   "por_que": "Errores frecuentes del rioplatense no cubiertos."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Revisar los targets de la caza de formas y la coherencia de lectura/lección (por conseguinte, então temporal, «ao passo que» solo en vocab)",
+   "por_que": "Evitar que la caza premie formas no enseñadas o con valor distinto."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Radio, laboratorio, duelos y suoni (connesso/intonazione) están vacíos: al menos un par mínimo/entonación con conectores (pausa tras «No entanto,»)",
+   "por_que": "Falta práctica oral del tema."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Carga de vocabulario (30 palabras) y lección densa (7 bloques + more); valorar pasar «bem como», «já» y «não… e sim» a semana de repaso",
+   "por_que": "El nivel B2 lo admite, pero la carga conjunta con 48 ítems es alta."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

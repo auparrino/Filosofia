@@ -1,0 +1,50 @@
+{
+ "week": 17,
+ "level": "B1",
+ "title": "Previsão para o carnaval",
+ "genre": "previsão do tempo e conversa",
+ "es": "Se viene el carnaval. Nanda lee el pronóstico del tiempo con el futuro formal de los boletines; después Caio, el cronista estudiante, cuenta sus planes, que dependen de un examen.",
+ "speakers": ["Nanda", "Caio"],
+ "turns": [
+  ["A", "E agora, a previsão do tempo para o fim de semana de carnaval. Na sexta-feira, o dia será quente e abafado, com máxima de trinta e oito graus. No sábado, haverá pancadas de chuva no fim da tarde, com trovões. No domingo, o céu ficará nublado e uma garoa fina cairá sobre a cidade durante a manhã."],
+  ["B", "Nanda, fala a verdade: vai chover no desfile ou não vai?"],
+  ["A", "Na minha língua, Caio: no sábado vai chover, sim. Mas a chuva não durará muito. Quer dizer, não vai durar muito!"],
+  ["B", "Ainda bem! No sábado eu saio no bloco do bairro, fantasiado de pirata."],
+  ["A", "E os estudos? Você não tem prova depois do carnaval?"],
+  ["B", "Tenho. Na quarta-feira de cinzas farei a última prova do semestre. Depois, estarei de férias!"],
+  ["A", "«Farei»? Que formal! Você está falando como a previsão do tempo."],
+  ["B", "É que eu sou professor também! Dou aula de reforço para uma turma do ensino médio. Eles terão prova de português e eu corrijo a lição de casa deles todo dia. É um trampo cansativo."],
+  ["A", "E depois das provas, o que você fará?"],
+  ["B", "Em março será a minha formatura. A minha mãe virá de Minas e a gente fará um churrasco para a família toda."],
+  ["A", "Parabéns, Caio! E vocês, ouvintes: vão sair no bloco ou vão ficar em casa? Levem o guarda-chuva no sábado!"]
+ ],
+ "gloss": {
+  "máxima": "temperatura máxima",
+  "graus": "grados",
+  "pancadas de chuva": "chaparrones",
+  "nublado": "nublado",
+  "fina": "fina, suave",
+  "língua": "lengua, idioma",
+  "Ainda bem": "menos mal",
+  "fantasiado de pirata": "disfrazado de pirata",
+  "quarta-feira de cinzas": "miércoles de ceniza",
+  "semestre": "semestre",
+  "aula de reforço": "clases de apoyo",
+  "turma": "curso, grupo de alumnos",
+  "corrijo": "corrijo (corrigir)",
+  "Parabéns": "¡felicitaciones!",
+  "ouvintes": "oyentes"
+ },
+ "questions": [
+  ["Como será a sexta-feira de carnaval?", ["Quente e abafada", "Fria e com garoa", "Com pancadas de chuva", "Nublada o dia todo"], "Quente e abafada"],
+  ["Por que o Caio diz «farei»?", ["Porque está lendo a previsão do tempo", "Porque é professor e fala de modo formal", "Porque é mineiro", "Porque não gosta do carnaval"], "Porque é professor e fala de modo formal"],
+  ["O que será em março?", ["O carnaval", "A formatura do Caio", "A primeira prova do semestre", "Uma viagem a Minas"], "A formatura do Caio"]
+ ],
+ "info": [
+  ["No sábado vai chover com trovões.", true],
+  ["O Caio vai sair no bloco fantasiado de pirata.", true],
+  ["A mãe do Caio mora no Rio.", false]
+ ],
+ "grammatica": {"label": "el futuro do presente (formal, escrito) frente a ir + infinitivo (hablado)", "forme": ["será", "haverá", "ficará", "cairá", "vai chover", "durará", "não vai durar", "farei", "estarei", "terão", "fará", "virá"]},
+ "parole": [["abafado", "abafado"], ["chuva", "chuva"], ["trovões", "trovão"], ["garoa", "garoa"], ["desfile", "o desfile"], ["bloco", "o bloco"], ["prova", "prova"], ["férias", "férias"], ["aula", "aula"], ["ensino médio", "ensino médio"], ["lição de casa", "lição de casa"], ["trampo", "trampo"], ["cansativo", "cansativo"], ["formatura", "formatura"]]
+}

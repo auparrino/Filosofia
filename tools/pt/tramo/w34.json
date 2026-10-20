@@ -1,0 +1,403 @@
+{
+  "week": 34,
+  "level": "B2",
+  "lettura": {
+    "title": "Concreto demais, chão de menos",
+    "emoji": "🌧️",
+    "genre": "artigo de opinião",
+    "grammar": "conectores e coesão",
+    "text": "Toda vez que uma grande cidade brasileira fica debaixo d’água, repete-se o mesmo roteiro. As imagens de carros boiando circulam nas redes, os governantes culpam a chuva “fora do normal” e, poucas semanas depois, o assunto desaparece. No entanto, as chuvas fora do normal estão ficando cada vez mais normais, e insistir nesse discurso já não convence ninguém.\n\nO problema, aliás, não está apenas no céu, mas também no chão. Ao longo do século passado, nossas cidades cresceram canalizando rios sob avenidas e trocando terra por asfalto. Por conseguinte, a água que antes se infiltrava no solo passou a correr pela superfície, cada vez mais depressa, até encontrar o ponto mais baixo, que costuma ser justamente o bairro mais pobre. Ou seja, a enchente não é um acidente: é, em grande medida, consequência do modo como construímos.\n\nÉ nesse contexto que ganha força a ideia de “cidade-esponja”, desenvolvida por urbanistas na China e hoje discutida no mundo inteiro. Em vez de expulsar a água o mais rápido possível por meio de canos e galerias, a proposta é retê-la: parques que alagam de propósito, calçadas permeáveis, telhados verdes, jardins de chuva nos canteiros das avenidas. Dessa forma, o solo volta a absorver parte da chuva, e o sistema de drenagem deixa de ficar sobrecarregado.\n\nOs críticos, contudo, levantam objeções razoáveis. Em primeiro lugar, dizem, essas soluções exigem espaço, algo escasso nas regiões centrais. Além disso, a manutenção de áreas verdes custa caro e raramente é prioridade nos orçamentos municipais. Há ainda quem argumente que, sem obras tradicionais de grande porte, como reservatórios subterrâneos, nenhuma medida “verde” será suficiente.\n\nReconheço o peso desses argumentos. Todavia, eles partem de uma falsa oposição. Ninguém sério propõe abandonar as obras de engenharia; o que se propõe é combiná-las com soluções baseadas na natureza, que, em geral, são mais baratas e trazem benefícios adicionais, como sombra, lazer e redução do calor. Um parque inundável, por exemplo, passa a maior parte do ano servindo de praça, ao passo que um piscinão de concreto passa a maior parte do ano vazio e cercado por grades.\n\nQuanto à falta de espaço, ela é real, porém menos absoluta do que parece. Estacionamentos, pátios de escolas, canteiros centrais e terrenos abandonados somam áreas consideráveis em qualquer metrópole. Embora não resolvam tudo sozinhos, esses espaços podem funcionar como uma rede de pequenas esponjas espalhadas pela cidade. Muitos deles, inclusive, pertencem ao próprio poder público, o que dispensaria desapropriações demoradas.\n\nNão se trata, portanto, de escolher entre concreto e verde, mas de admitir que cobrimos chão demais. Enquanto essa discussão não sair dos seminários e entrar nos planos diretores, continuaremos assistindo, a cada verão, às mesmas cenas, e ouvindo as mesmas desculpas. A chuva, afinal, não vai esperar que nos decidamos.\n\nMariana Coutinho é engenheira civil e pesquisadora de drenagem urbana.",
+    "gloss": {
+      "roteiro": "guion",
+      "boiando": "flotando",
+      "canalizando": "entubando",
+      "asfalto": "asfalto",
+      "enchente": "inundación",
+      "canos": "caños",
+      "galerias": "conductos pluviales",
+      "retê-la": "retenerla",
+      "alagam": "se inundan",
+      "calçadas": "veredas",
+      "telhados": "techos",
+      "canteiros": "canteros",
+      "drenagem": "desagüe, drenaje",
+      "orçamentos": "presupuestos",
+      "porte": "envergadura, tamaño",
+      "piscinão": "gran reservorio pluvial",
+      "grades": "rejas",
+      "dispensaria": "haría innecesarias",
+      "desapropriações": "expropiaciones",
+      "diretores": "directores (“planos diretores”: planes de ordenamiento urbano)"
+    },
+    "questions": [
+      [
+        "Qual é a tese defendida pela autora?",
+        [
+          "As enchentes são causadas apenas por chuvas excepcionais.",
+          "É preciso unir engenharia tradicional e soluções baseadas na natureza.",
+          "As obras de engenharia devem ser totalmente substituídas por parques e jardins.",
+          "As cidades brasileiras devem parar de crescer."
+        ],
+        "É preciso unir engenharia tradicional e soluções baseadas na natureza."
+      ],
+      [
+        "No primeiro parágrafo, o conector “No entanto” introduz…",
+        [
+          "uma confirmação do discurso dos governantes.",
+          "um exemplo de enchente recente.",
+          "uma contestação da desculpa da chuva “fora do normal”.",
+          "uma conclusão sobre as redes sociais."
+        ],
+        "uma contestação da desculpa da chuva “fora do normal”."
+      ],
+      [
+        "Segundo o segundo parágrafo, por que os bairros mais pobres costumam sofrer mais?",
+        [
+          "Porque os governantes não investem em asfalto nem em saneamento nessas regiões.",
+          "Porque as casas são construídas perto dos parques inundáveis.",
+          "Porque ali chove mais do que nos bairros ricos.",
+          "Porque a água escorre para os pontos mais baixos, onde eles costumam ficar."
+        ],
+        "Porque a água escorre para os pontos mais baixos, onde eles costumam ficar."
+      ],
+      [
+        "Como a autora trata as objeções dos críticos?",
+        [
+          "Ignora-as, pois considera que não têm fundamento.",
+          "Reconhece seu peso, mas mostra que partem de uma falsa oposição.",
+          "Aceita-as e muda de posição no fim do texto.",
+          "Ridiculariza-as, chamando os críticos de desonestos e mal informados."
+        ],
+        "Reconhece seu peso, mas mostra que partem de uma falsa oposição."
+      ],
+      [
+        "Qual é a função da comparação entre o parque inundável e o piscinão?",
+        [
+          "Mostrar que o piscinão é mais eficiente contra enchentes.",
+          "Provar que os parques são mais baratos de construir.",
+          "Destacar que a solução verde tem usos no resto do ano.",
+          "Criticar o fato de os parques ficarem fechados à noite."
+        ],
+        "Destacar que a solução verde tem usos no resto do ano."
+      ]
+    ],
+    "vf": [
+      [
+        "A autora afirma que as chuvas intensas estão se tornando mais frequentes.",
+        "verdadeiro"
+      ],
+      [
+        "Segundo o texto, a ideia de cidade-esponja surgiu no Brasil.",
+        "falso"
+      ],
+      [
+        "A autora defende o abandono total das obras de engenharia tradicionais.",
+        "falso"
+      ],
+      [
+        "A autora participou da elaboração do plano diretor de sua cidade.",
+        "não se diz"
+      ],
+      [
+        "Para a autora, estacionamentos e pátios de escola podem ajudar a absorver água.",
+        "verdadeiro"
+      ]
+    ],
+    "hunt": {
+      "label": "Toque nos conectores (adversativos, explicativos, conclusivos…)",
+      "targets": [
+        "entanto",
+        "aliás",
+        "conseguinte",
+        "contudo",
+        "todavia",
+        "porém",
+        "embora",
+        "portanto"
+      ]
+    }
+  },
+  "ascolto": {
+    "title": "Canudo, copo e talher: proibir resolve?",
+    "genre": "debate radiofônico",
+    "es": "En un debate de radio, una bióloga de una ONG ambiental y el dueño de un restaurante discuten un proyecto municipal que prohibiría los descartables de plástico en bares y restaurantes.",
+    "speakers": [
+      "Carla, bióloga",
+      "Ronaldo, dono de restaurante"
+    ],
+    "turns": [
+      [
+        "A",
+        "Bom, como a moderadora explicou, o projeto proíbe canudo, copo e talher de plástico descartável em bares e restaurantes da cidade. E eu, sinceramente, acho que já passou da hora. A gente vê isso todo dia na praia, no mangue, no estômago das tartarugas."
+      ],
+      [
+        "B",
+        "Olha, Carla, ninguém aqui é a favor de lixo na praia, tá? Eu tenho restaurante há vinte anos e sou o primeiro a querer a praia limpa. Só que o projeto, do jeito que está, joga toda a conta nas costas do pequeno comerciante."
+      ],
+      [
+        "A",
+        "Mas por quê? As alternativas já existem."
+      ],
+      [
+        "B",
+        "Existem, mas custam mais caro. Um copo de papel decente custa quase o triplo, e o de vidro exige lavar, exige funcionário, exige máquina. O grande restaurante absorve isso. O meu, com oito mesas, não."
+      ],
+      [
+        "A",
+        "Entendo, e acho justo discutir um prazo de adaptação. Aliás, eu defendo isso. Mesmo assim, o custo ambiental é muito maior, só que ninguém paga por ele no caixa. Quem paga é o pescador, é a cidade que gasta com limpeza."
+      ],
+      [
+        "B",
+        "Concordo em parte. Agora, me diz uma coisa: o grande vilão é o canudinho do meu bar? Porque, pelo que eu leio, a maior parte do plástico no mar vem de outras fontes, de embalagem, de rede de pesca..."
+      ],
+      [
+        "A",
+        "Você tem razão num ponto: o canudo sozinho não resolve. No entanto, ele é simbólico. Quando a pessoa deixa de receber o canudo, ela começa a perceber quanto descartável usa no resto do dia. É uma porta de entrada."
+      ],
+      [
+        "B",
+        "Tá, mas lei não é campanha educativa. Se é para educar, então vamos educar, com incentivo, com linha de crédito para o comerciante trocar os materiais. Proibir e multar é o caminho mais fácil para a prefeitura."
+      ],
+      [
+        "A",
+        "Então a gente talvez concorde mais do que parece. Proibição com prazo e com apoio ao pequeno negócio, você toparia?"
+      ],
+      [
+        "B",
+        "Com prazo de um ano e com crédito, eu topo. Sem isso, vai ter muito bar fechando as portas, e aí o problema vira outro."
+      ],
+      [
+        "A",
+        "Fechado. Então fica aí a nossa sugestão para os vereadores."
+      ]
+    ],
+    "gloss": {
+      "hora": "(já passou da hora) ya era hora",
+      "canudo": "sorbete, pajita",
+      "talher": "cubierto",
+      "mangue": "manglar",
+      "tartarugas": "tortugas",
+      "costas": "espalda",
+      "triplo": "triple",
+      "pescador": "pescador",
+      "vilão": "villano",
+      "embalagem": "envase, packaging",
+      "multar": "multar",
+      "toparia": "aceptarías, te prenderías",
+      "fechado": "trato hecho"
+    },
+    "questions": [
+      [
+        "Qual é a principal objeção de Ronaldo ao projeto?",
+        [
+          "Ele acha que o plástico não polui as praias.",
+          "O custo recairia sobretudo sobre o pequeno comerciante.",
+          "Os clientes não aceitam copos de papel.",
+          "A prefeitura não tem fiscais suficientes para aplicar a lei."
+        ],
+        "O custo recairia sobretudo sobre o pequeno comerciante."
+      ],
+      [
+        "Quando Carla diz que o custo ambiental “ninguém paga no caixa”, ela quer dizer que…",
+        [
+          "os restaurantes repassam ao cliente um preço alto demais pelos descartáveis.",
+          "os consumidores deveriam pagar uma taxa extra.",
+          "o plástico é mais barato porque é subsidiado.",
+          "o prejuízo existe, mas recai sobre outras pessoas e sobre a cidade."
+        ],
+        "o prejuízo existe, mas recai sobre outras pessoas e sobre a cidade."
+      ],
+      [
+        "Por que, segundo Carla, a proibição do canudo é importante, mesmo sem resolver o problema?",
+        [
+          "Porque os canudos são, de longe, a maior fonte de plástico no mar.",
+          "Porque os pescadores exigiram essa medida.",
+          "Porque é simbólica e faz as pessoas repararem no próprio consumo.",
+          "Porque é a medida mais barata para os restaurantes."
+        ],
+        "Porque é simbólica e faz as pessoas repararem no próprio consumo."
+      ],
+      [
+        "Qual é a crítica de Ronaldo à estratégia da prefeitura?",
+        [
+          "Proibir e multar é mais fácil do que incentivar a mudança.",
+          "A campanha educativa foi cara e inútil.",
+          "A lei deveria valer apenas para as praias.",
+          "O prazo de adaptação proposto é longo demais."
+        ],
+        "Proibir e multar é mais fácil do que incentivar a mudança."
+      ],
+      [
+        "Como termina o debate?",
+        [
+          "Com Ronaldo mudando totalmente de opinião.",
+          "Sem nenhum ponto de acordo entre os dois.",
+          "Com Carla desistindo de defender a proibição.",
+          "Com um acordo: proibição com prazo e crédito para os pequenos."
+        ],
+        "Com um acordo: proibição com prazo e crédito para os pequenos."
+      ]
+    ],
+    "vf": [
+      [
+        "O restaurante de Ronaldo tem oito mesas.",
+        "verdadeiro"
+      ],
+      [
+        "Carla se opõe a qualquer prazo de adaptação para os comerciantes.",
+        "falso"
+      ],
+      [
+        "Ronaldo já substituiu os canudos de plástico no seu restaurante.",
+        "não se diz"
+      ],
+      [
+        "Ronaldo aceitaria a proibição com um ano de prazo e linha de crédito.",
+        "verdadeiro"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "artigo",
+    "title": "Cidade preparada para o clima",
+    "fonte": "entrambi",
+    "t": "Você é estudante universitário(a) e a revista do diretório acadêmico da sua faculdade vai publicar um número especial sobre meio ambiente urbano. Após ler o artigo “Concreto demais, chão de menos” e ouvir o debate “Canudo, copo e talher: proibir resolve?”, escreva um artigo para a revista discutindo o que a sua cidade poderia fazer para enfrentar os problemas ambientais. Use pelo menos uma informação ou argumento de cada fonte, apresente uma objeção possível às medidas que você defende e responda a ela. Não se esqueça de dar um título ao artigo, de articular as ideias com conectores variados (no entanto, aliás, portanto…) e de usar um registro formal. Seu texto deve ter entre 160 e 220 palavras.",
+    "es": "Un artículo con título: usá un dato o argumento del texto y otro del debate, planteá una objeción y respondela. Lo que se evalúa esta semana es la cohesión: conectores variados y bien usados.",
+    "min": 160,
+    "max": 220,
+    "punti": [
+      [
+        "Usar el texto sobre la cidade-esponja",
+        [
+          "esponja",
+          "enchente",
+          "permeáve",
+          "parque",
+          "drenagem"
+        ]
+      ],
+      [
+        "Usar el debate sobre el plástico",
+        [
+          "plástico",
+          "descartáve",
+          "canudo"
+        ]
+      ],
+      [
+        "Objeción y respuesta",
+        [
+          "críticos",
+          "objeção",
+          "argumentam",
+          "alegam",
+          "dirão"
+        ]
+      ],
+      [
+        "Qué podría hacer la ciudad",
+        [
+          "prefeitura",
+          "planej",
+          "município",
+          "poder público",
+          "prazos de adaptação"
+        ]
+      ]
+    ],
+    "model": "Pequenas mudanças, cidade mais resistente\n\nAs enchentes de todo verão e o plástico acumulado nas praias parecem problemas distintos. No entanto, ambos revelam a mesma falha: cidades que foram planejadas sem levar em conta o meio ambiente.\n\nNo caso das chuvas, o artigo da engenheira Mariana Coutinho mostra que cobrimos chão demais. A proposta da cidade-esponja, com parques inundáveis, calçadas permeáveis e jardins de chuva, permitiria que o solo voltasse a absorver parte da água. Aliás, muitos desses espaços já pertencem à prefeitura, como pátios de escolas e canteiros centrais.\n\nJá no debate sobre os descartáveis, ficou claro que proibir o plástico em bares e restaurantes pode ter um efeito educativo importante. Os críticos, contudo, argumentam que essas medidas custam caro e prejudicam o pequeno comerciante. A objeção é legítima, porém não justifica a inércia. Como sugeriram os próprios participantes do debate, é possível combinar a proibição com prazos de adaptação e linhas de crédito.\n\nPortanto, a questão não é escolher entre economia e meio ambiente, mas planejar a transição com responsabilidade. Se nada for feito, continuaremos pagando a conta, só que em forma de enchentes e praias sujas.",
+    "gloss": {
+      "enchentes": "inundaciones",
+      "levar em conta": "tener en cuenta (se ve en la semana 50)",
+      "calçadas": "veredas (falso amigo: no son calzadas)",
+      "canteiros centrais": "los canteros centrales de las avenidas",
+      "Já no debate": "en cambio, en el debate (já marca contraste con lo anterior)",
+      "prazos de adaptação": "plazos para adaptarse",
+      "continuaremos pagando a conta": "vamos a seguir pagando las consecuencias"
+    }
+  },
+  "breve": {
+    "title": "Minuto Verde: o calor do concreto",
+    "genre": "boletim de rádio",
+    "es": "Un micro de radio sobre ambiente: un estudio sobre el calor en los barrios de Recife, los árboles, los techos verdes y lo que cuestan.",
+    "speaker": "Débora Lins",
+    "voice": 1,
+    "text": [
+      "Olá, aqui é a Débora Lins e este é o Minuto Verde, da Rádio Cidade. Hoje o assunto é o calor nas grandes cidades.",
+      "Um estudo da universidade federal mediu a temperatura em dez bairros do Recife. Nos bairros com muito concreto e poucas árvores, a temperatura ao meio-dia foi até 5 graus mais alta do que nos bairros arborizados. Além disso, nesses bairros o asfalto continua quente até de madrugada.",
+      "A solução parece simples: plantar árvores. No entanto, uma árvore leva de oito a dez anos para fazer sombra de verdade. Por isso, os pesquisadores sugerem também medidas mais rápidas, como telhados verdes e calçadas mais claras. Por outro lado, lembram que essas medidas custam caro e, portanto, precisam do apoio da prefeitura.",
+      "E você? Já contou quantas árvores há na sua rua? Mande a sua resposta pelo nosso WhatsApp. Até amanhã, no Minuto Verde."
+    ],
+    "tabella": [
+      [
+        "Número de bairros estudados",
+        "10",
+        [
+          "dez",
+          "dez bairros",
+          "10 bairros"
+        ]
+      ],
+      [
+        "Diferença máxima de temperatura (graus)",
+        "5",
+        [
+          "cinco",
+          "5 graus",
+          "cinco graus"
+        ]
+      ],
+      [
+        "Cidade do estudo",
+        "Recife",
+        [
+          "o Recife",
+          "do Recife"
+        ]
+      ],
+      [
+        "Anos para uma árvore fazer sombra",
+        "8 a 10",
+        [
+          "oito a dez",
+          "de oito a dez",
+          "8-10",
+          "8 a 10 anos"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "Nos bairros com poucas árvores faz mais calor.",
+        true
+      ],
+      [
+        "O asfalto esfria logo depois do pôr do sol.",
+        false
+      ],
+      [
+        "Plantar árvores não resolve o problema rapidamente.",
+        true
+      ],
+      [
+        "Os telhados verdes são uma solução barata.",
+        false
+      ],
+      [
+        "Os pesquisadores pedem o apoio da prefeitura.",
+        true
+      ],
+      [
+        "O estudo foi feito em São Paulo.",
+        false
+      ]
+    ],
+    "gloss": {
+      "concreto": "hormigón",
+      "arborizados": "con árboles",
+      "calçadas": "veredas",
+      "telhados": "techos",
+      "madrugada": "madrugada"
+    }
+  }
+}

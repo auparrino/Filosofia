@@ -1,0 +1,48 @@
+{
+ "week": 23,
+ "level": "B1",
+ "title": "Consultório da Nanda",
+ "genre": "quadro de conselhos",
+ "es": "En el «Consultório da Nanda» los oyentes piden consejos. Hoy llega la carta de un chico con un problema de celos; después, Téo pregunta por un mareo y termina con un consejo de salud.",
+ "speakers": ["Nanda", "Téo"],
+ "turns": [
+  ["A", "Bom dia! Está aberto o «Consultório da Nanda». Téo, você lê a carta de hoje?"],
+  ["B", "Leio. É do Rafael, de vinte e quatro anos: «Nanda, eu namoro a Júlia há dois anos. Ela é ótima, mas eu tenho ciúme dos amigos dela. No sábado a gente brigou feio, e agora ela não responde as minhas mensagens. Tenho medo de levar um fora. O que você me aconselha?»"],
+  ["A", "Rafael, primeiro: é normal que você sinta ciúme, mas é importante que você converse sobre isso com a Júlia, sem gritar. Eu sugiro que você mande uma mensagem curta e peça um encontro."],
+  ["B", "E se a Júlia não quer nenhum encontro?"],
+  ["A", "Tomara que ela diga sim! Mas, se ela diz não, é melhor que você respeite o tempo dela. Não quero que você fique mandando cem mensagens por dia."],
+  ["B", "E no encontro? Alguma dica?"],
+  ["A", "Espero que você escute mais e fale menos. E que peça desculpas pela briga. Depois, quem sabe, vocês fazem as pazes com um cinema e um cafuné."],
+  ["B", "Cafuné resolve tudo! Nanda, mudando de assunto: hoje de manhã eu senti tontura e um pouco de enjoo. O que você recomenda?"],
+  ["A", "Recomendo que você vá ao posto de saúde ainda hoje. Pelo SUS a consulta é de graça. E aproveite: é bom que você tome a vacina da gripe, que já chegou."],
+  ["B", "Tomara que não seja nada! E, pelo menos, o curativo não vai ser no coração."],
+  ["A", "Isso! E vocês, ouvintes: escrevam para o consultório. Que vocês tenham uma ótima semana!"]
+ ],
+ "gloss": {
+  "Consultório": "consultorio",
+  "aconselha": "aconsejás",
+  "brigou feio": "nos peleamos fuerte",
+  "gritar": "gritar",
+  "peça": "pidas",
+  "respeite": "respetes",
+  "cafuné": "caricia en el pelo",
+  "mudando de assunto": "cambiando de tema",
+  "consulta": "consulta médica",
+  "gripe": "gripe",
+  "coração": "corazón",
+  "ouvintes": "oyentes",
+  "aproveite": "aprovechá"
+ },
+ "questions": [
+  ["Qual é o problema do Rafael?", ["Ele tem ciúme dos amigos da Júlia", "A Júlia tem ciúme das amigas do Rafael", "Ele quer terminar o namoro", "A Júlia vai se mudar"], "Ele tem ciúme dos amigos da Júlia"],
+  ["O que a Nanda sugere ao Rafael?", ["Que mande cem mensagens", "Que mande uma mensagem curta e peça um encontro", "Que espere a Júlia ligar", "Que converse com os amigos dela"], "Que mande uma mensagem curta e peça um encontro"],
+  ["Por que o Téo deve ir ao posto de saúde?", ["Porque sentiu tontura e enjoo", "Porque precisa fazer um curativo no joelho", "Porque brigou com a namorada", "Porque trabalha no posto"], "Porque sentiu tontura e enjoo"]
+ ],
+ "info": [
+  ["O Rafael e a Júlia namoram há dois anos.", true],
+  ["A Nanda acha que o Rafael não deve sentir ciúme nunca.", false],
+  ["A vacina da gripe já chegou ao posto de saúde.", true]
+ ],
+ "grammatica": {"label": "el presente del subjuntivo para aconsejar, desear y opinar: sugiro que, tomara que, é importante que, espero que", "forme": ["é normal que você sinta", "é importante que você converse", "eu sugiro que você mande", "e peça um encontro", "tomara que ela diga", "é melhor que você respeite", "não quero que você fique", "espero que você escute", "recomendo que você vá", "é bom que você tome", "tomara que não seja", "que vocês tenham"]},
+ "parole": [["namoro", "namorar"], ["ciúme", "ciúme"], ["brigou", "brigar"], ["levar um fora", "levar um fora"], ["encontro", "encontro"], ["dica", "dica"], ["fazem as pazes", "fazer as pazes"], ["cafuné", "cafuné"], ["tontura", "tontura"], ["enjoo", "enjoo"], ["posto de saúde", "posto de saúde"], ["SUS", "o SUS"], ["vacina", "a vacina"], ["curativo", "curativo"]]
+}

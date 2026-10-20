@@ -1,0 +1,47 @@
+{
+ "week": 20,
+ "level": "B1",
+ "title": "Che cosa faresti al mio posto?",
+ "genre": "telefonata in diretta",
+ "es": "Llegó la respuesta de la empresa de Módena. Martín vuelve a llamar a la radio, pero no para festejar: tiene que decidir algo y le pide consejo a Sara.",
+ "speakers": ["Sara", "Martín"],
+ "turns": [
+  ["A", "Ed eccolo di nuovo in linea: Martín! Allora? Ci sono notizie da Modena?"],
+  ["B", "Sì, Sara. Venerdì è arrivata la mail: l'azienda mi offre il posto."],
+  ["A", "Fantastico! Ma perché hai questa voce? Dovresti essere felicissimo."],
+  ["B", "Lo so, ma sono confuso. Il lavoro è ottimo e guadagnerei il doppio. Però dovrei trasferirmi a Modena, e io a Bologna sto veramente bene."],
+  ["A", "Capisco. Ma potresti fare il pendolare! Tanti lo fanno: in treno è mezz'ora."],
+  ["B", "Sì, l'ho pensato anch'io. Mi piacerebbe restare in via Zamboni, con i miei amici. Ma dovrei svegliarmi alle sei ogni giorno."],
+  ["A", "Io al tuo posto accetterei e resterei a Bologna. Sul treno potresti leggere, riposare, preparare le riunioni. Molti pendolari dicono che è un momento tranquillo della giornata."],
+  ["B", "Forse hai ragione. E il sabato non dovrei cambiare niente: la spesa al mercato, gli amici, la passeggiata sui colli al tramonto..."],
+  ["A", "Esatto. E poi, se d'inverno fa troppo freddo per la bici, qualche collega di Bologna ti darebbe un passaggio in macchina."],
+  ["B", "Vorrei solo una cosa: una scrivania vicino alla finestra. Nel mio ufficio di Rosario lavoravo senza finestre!"],
+  ["A", "Questo lo potresti chiedere il primo giorno. Allora, che cosa rispondi all'azienda?"],
+  ["B", "Ho un appuntamento con il capo giovedì. Ormai ho deciso: accetto, ma resto a Bologna. Stampo la risposta e la porto io, di persona."],
+  ["A", "Bravo! E voi, ascoltatori, che cosa fareste al posto di Martín? Scrivete alla radio: gli leggeremo i vostri consigli."]
+ ],
+ "gloss": {
+  "in linea": "en línea, al teléfono",
+  "posto": "puesto (de trabajo)",
+  "il doppio": "el doble",
+  "riunioni": "reuniones",
+  "colli": "cerros, colinas",
+  "collega": "colega, compañero de trabajo",
+  "ufficio": "oficina",
+  "di persona": "en persona",
+  "ascoltatori": "oyentes",
+  "pendolari": "los que viajan todos los días al trabajo"
+ },
+ "questions": [
+  ["Perché Martín è confuso?", ["Perché l'azienda non gli ha risposto", "Perché per il lavoro dovrebbe lasciare Bologna", "Perché lo stipendio è troppo basso", "Perché non gli piace il lavoro"], "Perché per il lavoro dovrebbe lasciare Bologna"],
+  ["Che cosa farebbe Sara al posto di Martín?", ["Rifiuterebbe il posto", "Si trasferirebbe a Modena", "Accetterebbe e farebbe la pendolare", "Cercherebbe un altro lavoro a Bologna"], "Accetterebbe e farebbe la pendolare"],
+  ["Che cosa ha deciso Martín alla fine?", ["Di accettare e di restare a Bologna", "Di cercare una casa in affitto a Modena", "Di tornare in Argentina", "Di aspettare un'altra offerta"], "Di accettare e di restare a Bologna"]
+ ],
+ "info": [
+  ["Con il nuovo lavoro Martín guadagnerebbe il doppio.", true],
+  ["A Rosario Martín lavorava in un ufficio senza finestre.", true],
+  ["Martín ha già firmato il contratto.", false]
+ ],
+ "grammatica": {"label": "el condicional: cortesía, deseo, consejo e hipótesis", "forme": ["dovresti", "guadagnerei", "dovrei", "potresti", "mi piacerebbe", "accetterei", "resterei", "darebbe", "vorrei", "fareste"]},
+ "parole": [["guadagnerei", "guadagnare"], ["trasferirmi", "trasferirsi"], ["veramente", "veramente"], ["pendolare", "pendolare"], ["riposare", "riposare"], ["tramonto", "tramonto"], ["passaggio", "passaggio"], ["scrivania", "scrivania"], ["appuntamento", "appuntamento"], ["ormai", "ormai"], ["stampo", "stampare"]]
+}

@@ -1,0 +1,245 @@
+{
+ "week": 24,
+ "title": "Subjuntivo: conjunções",
+ "level": "B1",
+ "revisado": {
+  "items": 53,
+  "bloques_teoria": 9,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 4,
+  "radio": 1,
+  "otros": 18
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida: la gramática y el portugués son correctos en casi todo el dossier y no encontré errores claros de lengua. Los reparos son de diseño: ítems casi duplicados, aceptaciones faltantes en traducciones, y varias frases del dictogloss y la radio que contradicen la propia regla (mismo sujeto = infinitivo; 'se' + futuro do subjuntivo). La semana mezcla conjunciones, imperativo formal y pragmática, con poco ejercicio de a fim de que, a menos que y contanto que. Falsos positivos estimados: ~30%.",
+ "bien": [
+  "Reglas correctas y breves, con contraste explícito con el español (embora vs 'aunque', desde que temporal vs condicional, antes que sin 'de').",
+  "Buena delimitación de lo que NO lleva subjuntivo (porque, já que, como, depois que) con ítems fixerr/choice que lo practican.",
+  "Honestidad curricular: se posterga se + futuro do subjuntivo y quando + subjuntivo a la semana 27 y se ofrece 'caso' como puente.",
+  "Mezcla de tipos (choice, cloze, translate, fixerr, garden, scopri, combina, typed) con progresión de reconocimiento a producción.",
+  "Vocabulario temático y brasileño (feriadão, perrengue, canga, bate-volta) integrado en la radio y en los ejemplos; la radio usa casi todas las conjunciones en contexto natural.",
+  "Notas de ítems claras y mayormente exactas; accept amplio en translate/combina."
+ ],
+ "hallazgos": [
+  {
+   "id": "item col-24-2",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Antes que a gente ___ as malas, confira os documentos.",
+   "propuesta": "Antes de fazer as malas, confira os documentos. (o cambiar a 'Antes que o táxi chegue, ___ as malas')",
+   "motivo": "Mismo sujeto implícito: la lección enseña 'antes de + infinitivo'; 'antes que a gente faça' suena forzado y mezcla a gente + imperativo. Además en Brasil 'arrumar/fazer as malas'; 'arme' es calco."
+  },
+  {
+   "id": "item s2-24-02",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Vim ao Rio para ___ o Cristo. [conhecer / que conheça / conheça]",
+   "propuesta": "Quitar 'que conheça' o fijar el sujeto (ej. 'Vim ao Rio para que minha filha ___ o Cristo' como ítem aparte)",
+   "motivo": "'para que conheça o Cristo' es gramatical aislado; solo la regla del mismo sujeto lo descarta y el alumno puede dudar."
+  },
+  {
+   "id": "item s2-24-10",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "accept: Espera até que ele chegue / Espere até que ele chegue / ... ela chegue",
+   "propuesta": "Agregar 'Espera até que chegue' y 'Espere até que chegue'",
+   "motivo": "El enunciado español no tiene sujeto; un alumno escribiría naturalmente sin pronombre."
+  },
+  {
+   "id": "item s2-24-25",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Embora esteja cansada, ela vai sair",
+   "propuesta": "Agregar 'Ela vai sair, embora esteja cansada' y 'Vai sair, embora esteja cansada'",
+   "motivo": "Orden invertido igual de natural (ya aceptado en s2-24-33)."
+  },
+  {
+   "id": "item s2-24-26",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "accept: Caso chova, fico em casa / Caso chova, eu fico em casa",
+   "propuesta": "Agregar 'Caso chova, vou ficar em casa', 'Caso chova, eu vou ficar em casa', 'Fico em casa, caso chova'",
+   "motivo": "Variantes naturales de 'me quedo' no aceptadas."
+  },
+  {
+   "id": "item s2-24-37",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Fui embora porque ___ cansado. [estava / esteja / estou]",
+   "propuesta": "Reemplazar 'estou' por una opción claramente errónea, o fijar el contexto ('ontem')",
+   "motivo": "'Fui embora porque estou cansado' es posible en el habla (estado aún vigente); el distractor depende del sentido y no de la regla."
+  },
+  {
+   "id": "item s2-24-24",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Delante de un verbo conjugado se usa *embora*.",
+   "propuesta": "'Delante de un verbo conjugado se usa *embora* (o *apesar de que*).'",
+   "motivo": "Contradice el warn del bloque 2, que recomienda 'apesar de que' + indicativo."
+  },
+  {
+   "id": "item s2-24-01",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Te digo isso para que você ___.",
+   "propuesta": "Variar el verbo/sujeto",
+   "motivo": "Idéntico a la pregunta del bloque lesson:0; 'Vou te explicar para que você entenda' aparece 4 veces (s2-24-07, 09, 12, 16) y 'possa' 3 veces (05, 13, 15). Ítems casi duplicados."
+  },
+  {
+   "id": "item s2-24-17",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Embora ___ caro, eu compro.",
+   "propuesta": "Variar el enunciado",
+   "motivo": "Idéntico a la pregunta del bloque lesson:2."
+  },
+  {
+   "id": "lesson:2:more",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "El *embora* de concesión es formal y escrito; al hablar se dice *mesmo que* o se da vuelta la frase con *mas*",
+   "propuesta": "'*Embora* es más frecuente en el registro escrito o cuidado; al hablar abundan *mesmo que*, *apesar de* o dar vuelta la frase con *mas*'",
+   "motivo": "'Embora' se oye también en el habla corriente; 'formal y escrito' es exagerado. Además 'mesmo que' no es equivalente exacto (hipotético)."
+  },
+  {
+   "id": "lesson:4:r",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "El imperativo de *você* escrito y **todos** los negativos toman el subjuntivo",
+   "propuesta": "'El imperativo formal y los negativos formales toman el subjuntivo; en el habla informal se oye *não fala*'",
+   "motivo": "El propio tip ('não fala') contradice 'todos'. Aclarar que es la norma, no el uso oral."
+  },
+  {
+   "id": "lesson:4:table",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "head: Verbo | você | você (no) | vocês",
+   "propuesta": "Agregar columna 'vocês (no)': não falem, não façam...",
+   "motivo": "La tabla no muestra el negativo plural, que sí se pide en ítems/dictogloss ('não se esqueçam')."
+  },
+  {
+   "id": "lesson:2:ex",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Si necesitás algo, llamame.",
+   "propuesta": "En caso de que necesites algo, llamame.",
+   "motivo": "La traducción pierde el valor de 'caso' (= en caso de que); tiende a reforzar 'caso = si'."
+  },
+  {
+   "id": "w-24",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "A trilha começa no Vidigal. -> verdadeiro",
+   "propuesta": "Reformular: 'O guia é do Vidigal.' (verdadeiro) o marcar 'não se diz'",
+   "motivo": "El texto solo dice 'trilha ... no Vidigal' y 'um guia do Vidigal'; 'começa' es una inferencia."
+  },
+  {
+   "id": "lettura c-carmen",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "grammar: perfeito, imperfeito e pronomes",
+   "propuesta": "Aclarar que es lectura cultural independiente del tema de la semana",
+   "motivo": "No usa ninguna conjunción con subjuntivo de la semana 24 (es de la serie Cultura)."
+  },
+  {
+   "id": "dictogloss w24",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Precisamos sair cedo para que possamos ver o nascer do sol",
+   "propuesta": "Precisamos sair cedo para ver o nascer do sol",
+   "motivo": "Mismo sujeto (nós): la lección enseña 'para + infinitivo'; con 'para que possamos' contradice la regla (aunque es gramatical)."
+  },
+  {
+   "id": "radio w24 turno 7",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Saia cedo, para que chegue lá em cima antes do pôr do sol.",
+   "propuesta": "Saia cedo para chegar lá em cima antes do pôr do sol. (o: 'para que você chegue' con otro sujeto, ej. 'para que a gente chegue')",
+   "motivo": "Mismo sujeto: la lección enseña 'para + infinitivo'; también la opción de la pregunta 2."
+  },
+  {
+   "id": "radio w24 turno 9",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Espere até que o tempo esteja seco para subir de carona.",
+   "propuesta": "Esperem o tempo secar / 'Espere até o tempo secar' o 'Se possível, espere o tempo secar antes de subir'",
+   "motivo": "Frase poco natural ('esperar a que esté seco para subir de carona'); confusa en cuanto a situación."
+  },
+  {
+   "id": "radio w24 turno 10",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "E se chove o feriadão inteiro?",
+   "propuesta": "E se chover o feriadão inteiro?",
+   "motivo": "Coloquial pero no estándar; la lección dice que 'se' pide futuro do subjuntivo (semana 27). Modelo contradictorio para el alumno."
+  },
+  {
+   "id": "radio w24 turno 12",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "E, se o dinheiro acaba, tem sempre o bate-volta",
+   "propuesta": "E, se o dinheiro acabar, tem sempre o bate-volta",
+   "motivo": "Mismo caso: 'se + presente' coloquial contradice lo enseñado en lesson:3."
+  },
+  {
+   "id": "radio w24 turno 6",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "a não ser que você queira descer no escuro",
+   "propuesta": "Añadir 'a não ser que' a la lección (junto con 'a menos que')",
+   "motivo": "Conector usado en la radio y en 'grammatica' sin haber sido presentado en la teoría."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Reducir duplicados (s2-24-01/17 = preguntas de lección; 'Vou te explicar para que você entenda' x4; 'possa' x3) y reasignar esos huecos a conectores sin práctica: a fim de que, a menos que, contanto que, mesmo que (solo 1), sem que (2).",
+   "por_que": "Cobertura desigual: ~13 ítems de imperativo vs 1-2 por conector, con muchas repeticiones literales."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Alinear dictogloss y radio con la regla enseñada: usar 'para + infinitivo' si el sujeto es el mismo, y evitar 'se + presente' ('E se chove') o explicarlo como coloquial.",
+   "por_que": "El material auditivo modela lo que la teoría desaconseja y confunde al alumno."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar nota sobre el uso brasileño coloquial 'para você entender' (infinitivo con sujeto propio) y 'a gente' en vez de 'para que' + subjuntivo.",
+   "por_que": "La regla 'sujeto distinto = que + subjuntivo' es normativa; el alumno lo oirá constantemente en Brasil."
+  },
+  {
+   "prioridad": "media",
+   "que": "Separar o aligerar el bloque de imperativo formal (tabla con vocês negativo, ter/dar/estar) y ordenar mejor las secciones; la semana carga tres temas (conjunciones, imperativo, pragmática).",
+   "por_que": "Carga conceptual alta para B1 y el título 'conjunções' no anuncia el imperativo."
+  },
+  {
+   "prioridad": "media",
+   "que": "Ampliar accept en translate (sin pronombre sujeto, orden invertido, 'vou ficar') y reemplazar distractores débiles (opciones en español 'sepa', 'llueva', 'vuelva' son demasiado obvias; usar errores de modo como 'esteja' en contexto causal).",
+   "por_que": "Evaluar la regla y no la lengua; evitar rechazar respuestas correctas."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Añadir pregunta de comprensión que use subjuntivo en la lectura y 'para que' en caza de formas; marcar en la lectura cultural que es independiente del tema.",
+   "por_que": "El hunt omite 'para que' (la primera conjunción de la semana)."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Uniformar el vocabulario (algunos con artículo 'o/a', otros sin) y suavizar la afirmación sobre 'embora' formal.",
+   "por_que": "Consistencia y exactitud."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 6
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

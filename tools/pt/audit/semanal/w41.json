@@ -1,0 +1,111 @@
+{
+ "week": 41,
+ "title": "Pretérito mais-que-perfeito simples e narrativa",
+ "level": "C1",
+ "revisado": {"items": 48, "bloques_teoria": 6, "lecturas": 6, "dictogloss": 1, "suoni": 0, "radio": 0, "otros": 3},
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida y bien alineada con el tema: la teoría es correcta, clara y con la advertencia clave (-ra no es subjuntivo, fizera = tinha feito). No encontré errores de portugués en ítems, lecturas ni en el tramo; los datos históricos y literarios verificados (fechas de Machado, Clarice, Camões, Estácio de Sá, Santos Dumont) son exactos. Los reparos son: una afirmación dudosa sobre el rioplatense, la caza de formas incompleta en el cuento del tramo, cobertura desigual de algunos puntos y ausencia total de suoni/radio/laboratorio/duelos.",
+ "bien": [
+  "Advertencia central muy bien trabajada: -ra portugués = indicativo (había hecho), con el calco «se eu tivera» practicado en choice, fixerr y translate.",
+  "Doble registro bien explicado: tinha feito (habla) / havia feito (escritura cuidada) / fizera (literatura); los accept de cloze y translate aceptan las tres variantes.",
+  "Ejercicios con anclaje cultural carioca/lusófono y datos verificables (Brás Cubas 1881, Dom Casmurro 1899, Hora da Estrela 1977, terremoto de 1755, Jânio 1961) que justifican la anterioridad.",
+  "Buena mezcla de tipos: choice, cloze, translate, fixerr, garden, scopri, typed y combina; progresión de reconocimiento a producción.",
+  "Lecturas coherentes con la gramática: w-41 y fl-maisque saturan de formas; el cuento «O relógio da estação» es natural, bien construido y con preguntas que exigen inferencia.",
+  "Tilde de la 1.ª plural (fizéramos, fôramos, estivéramos) cubierta con cuatro ítems."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:5",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "El rioplatense usa poco el pluscuamperfecto («ya se fue» por «ya se había ido»).",
+   "propuesta": "El español usa el pluscuamperfecto sin problema; lo que cambia es el registro del portugués. Sugerencia: «En español decís «ya se había ido»; en portugués la forma simple (saíra) es literaria y en el habla se dice «tinha saído». En el relato escrito, marcá la anterioridad.»",
+   "motivo": "Afirmar que el rioplatense usa poco el pluscuamperfecto es dudoso (había + participio es normal) y el ejemplo mezcla pretérito simple y compuesto."
+  },
+  {
+   "id": "lettura w-41",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "había vuelto (se tornara = se había vuelto)",
+   "propuesta": "se había vuelto / se había convertido (se tornara = se había convertido)",
+   "motivo": "«tornar-se» = volverse, convertirse; «había vuelto» sugiere regreso y confunde con «voltar»."
+  },
+  {
+   "id": "item s4-41-30",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Espero que chova amanhã",
+   "propuesta": "Quitar de accept «Espero que chova amanhã» (o dejar solo variantes de «tomara/quem dera»).",
+   "motivo": "«Espero que» no traduce «ojalá»: cambia el matiz, y la consigna evalúa tomara que."
+  },
+  {
+   "id": "item s4-41-38",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "puseram → ___",
+   "propuesta": "Indicar la persona, p. ej. «puseram → (ele) ___», como en s4-41-37; lo mismo en s4-41-39 («foram → ___»).",
+   "motivo": "Sin persona, la respuesta puede ser pusera/puseram/pusera(s); el alumno debe adivinar qué se pide (y solo se acepta la forma singular)."
+  },
+  {
+   "id": "item s4-41-46",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Cabral chegou à Bahia em 1500. Os tupiniquins já viviam lá havia séculos. (quando)",
+   "propuesta": "Cambiar por una oración que pida el mais-que-perfeito (p. ej. «...os tupiniquins já ... lá havia séculos» → ya practicado) o mover al bloque de «havia» con una consigna explícita.",
+   "motivo": "No practica el mais-que-perfeito (la oración trae ya el imperfeito + havia); solo practica la nota de «havia anos»."
+  },
+  {
+   "id": "tramo:lettura hunt",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"partira\", \"esperara\", \"parara\", \"dissera\", \"falara\", \"respondera\", \"costurara\", \"houvera\", \"detestara\", \"escrevera\", \"cumprira\", \"quisera\"",
+   "propuesta": "Agregar a targets las demás formas del texto: viera, chegara, reconhecera, apresentara, pedira, fora, tirara, durara, recebera, concluíra, deixara, confessara, encontrara, aprendera.",
+   "motivo": "El cuento tiene decenas de formas; si el alumno toca viera o chegara, la caza lo marca como error."
+  },
+  {
+   "id": "tramo:lettura",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"level\": \"B2+\"",
+   "propuesta": "Revisar el nivel declarado (C1 como el resto de la semana) o aclarar por qué el tramo baja a B2+.",
+   "motivo": "El tramo trae un cuento de 667 palabras con mais-que-perfeito simple continuo: es lectura de nivel C1."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Completar la semana con suoni (pares mínimos y acento: faláramos/falaram, vira/vira, ó/ô en fôramos/fora), un laboratorio con regla puente (hablara ES subj. = falara PT indic.) y capire sobre el calco «tivera».",
+   "por_que": "suoni, laboratorio, radio y duelos están vacíos: la semana no trabaja la pronunciación ni el calco más típico fuera de choice/fixerr."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Añadir 3-4 ítems de producción de formas irregulares frecuentes en literatura (trouxera, pusera, coubera, houvera, tivera, viera vs vira) y 1 ítem explícito de vira (ver) vs viera (vir).",
+   "por_que": "La lección menciona la ambigüedad de vira, pero solo hay un typed (vira); vir/viera, trazer, caber y haver no se practican."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir la repetición del mismo contraste: «se eu tivesse/tivera» aparece en s4-41-05, s4-41-26, s4-41-33 y en la lección; y varios ítems repiten «cuando llegué... ya había» (06, 25, 36, 45).",
+   "por_que": "Libera espacio para puntos con una sola cobertura: pudera! (1 ítem), havia anos (1), mal + mais-que-perfeito (solo vocab)."
+  },
+  {
+   "prioridad": "media",
+   "que": "En combina s4-41-44/45 el enunciado ya trae «tinha destruído/tinha partido»; pedir «destruir/partir (mais-que-perfeito simples)» como parte de la consigna en al menos uno.",
+   "por_que": "Así se produce la forma simple en una oración completa, no solo se reordena."
+  },
+  {
+   "prioridad": "media",
+   "que": "Corregir la afirmación sobre el rioplatense en lesson:5 y enriquecer la teoría con una nota breve sobre el valor optativo/condicional de -ra en literatura (quem me dera, pudera, fora «se fosse»).",
+   "por_que": "Explica por qué dera/pudera sobreviven y evita una generalización dudosa sobre el español."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Alinear glosas y nivel: «tornara» en w-41, nivel B2+ del tramo, y añadir al cultural c-camoes (que no usa mais-que-perfeito) una caza o pregunta sobre la forma de la semana, o marcarlo como lectura cultural.",
+   "por_que": "Coherencia con el foco de la semana."
+  }
+ ],
+ "por_idioma": {
+  "pt": {"errores": 0, "dudas": 0},
+  "es": {"errores": 0, "dudas": 1},
+  "en": {"errores": 0, "dudas": 0}
+ }
+}

@@ -1,0 +1,205 @@
+{
+ "lote": "T-lessico-1",
+ "revisado": 39,
+ "veredicto": "bien con reparos",
+ "resumen": "39 unidades (nomi:0-38), 1560 sustantivos en 18 temas. Muy sólido en género, plural irregular (uovo/uova, braccio/braccia, lenzuolo/lenzuola), falsos amigos reales (burro, aceto, pepe, camino, rumore, primo, estate, cognome) y voseo/regionalismos rioplatenses (heladera, canilla, pileta, frazada, vereda, hornalla). Se detectó 1 error claro (nota de appartamento) y unas pocas dudas de plurales inexistentes y de notas. Los fallos estructurales son otros: plurales generados por regla para incontables, ausencia de tema deporte/ocio y de formas femeninas de profesiones. Falsos positivos estimados en un 25% de las dudas.",
+ "bien": [
+  "Género y plural irregular muy bien cubiertos y marcados (le uova, le braccia, le lenzuola, gli dei, i buoi, l'uomo/gli uomini).",
+  "Ortografía de dobles: unas 150 notas 'Doble x' revisadas una por una; correctas salvo appartamento.",
+  "Falsos amigos genuinos bien elegidos (aceto/burro/pepe/camino/rumore/primo/patente/targa/estate/data/tassa/genero/sale).",
+  "Regionalismos rioplatenses coherentes (heladera, canilla, lavarropas, pileta, hornalla, frazada, vereda, pollera, campera, ojota, curita, barbijo, colectivo, sindaco=intendente).",
+  "Uso correcto del artículo lo/l' según inicial (studente, zaino, pneumatico, psicologo) y de m/f invariables (l'auto, la foto, l'email).",
+  "Distribución razonable: A1 298, A2 414, B1 582, B2 266; 717 entradas con nota, todas breves y útiles."
+ ],
+ "hallazgos": [
+  {
+   "id": "nomi:0",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "appartamento|m|appartamenti|departamento|casa|A1|Doble p y doble t: appartamento.",
+   "propuesta": "Doble p: appartamento (una sola t).",
+   "motivo": "La palabra tiene pp pero una sola t; la nota enseña una ortografía falsa."
+  },
+  {
+   "id": "nomi:2",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Candela = vela de cera: en castellano «candela» existe, pero se dice vela.",
+   "propuesta": "Falso amigo suave: candela = vela (de cera); en el Río de la Plata «candela» casi no se usa. (Aclarar que en it también es la bujía: candela d'accensione.)",
+   "motivo": "Nota confusa: mezcla dos ideas y no aclara qué debe hacer el alumno."
+  },
+  {
+   "id": "nomi:9",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "sangue|m|sangui|sangre",
+   "propuesta": "Plural '—' (incontable); en uso no existe «i sangui».",
+   "motivo": "Plural prácticamente inexistente; enseña una forma no usada."
+  },
+  {
+   "id": "nomi:6",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "senape|f|senapi|mostaza",
+   "propuesta": "Plural '—' (rara vez «le senapi»); también se usa il senape.",
+   "motivo": "Plural no atestiguado en uso; incontable."
+  },
+  {
+   "id": "nomi:8",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "fame|f|fami|hambre / sete|f|seti|sed",
+   "propuesta": "Plural '—' (fame, sete son incontables).",
+   "motivo": "Plurales «fami»/«seti» prácticamente no se usan; la propia nota dice 'casi siempre singular'."
+  },
+  {
+   "id": "nomi:20",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "gennaio|m|gennai|enero (idem febbrai, marzi, aprili, maggi, giugni, lugli, agosti, settembri, ottobri, novembri, dicembri)",
+   "propuesta": "Plural '—' o marcar como poco usado (i mesi... se dice 'tutti i mesi').",
+   "motivo": "Plurales de los meses generados por regla; no se usan y el alumno puede memorizarlos como válidos."
+  },
+  {
+   "id": "nomi:34",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "rimpianto|m|rimpianti|arrepentimiento / añoranza",
+   "propuesta": "pesar / lamento / añoranza",
+   "motivo": "'Arrepentimiento' es pentimento; rimpianto es el pesar por algo perdido o no hecho."
+  },
+  {
+   "id": "nomi:12",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "sarto|m|sarti|sastre / modista",
+   "propuesta": "sastre (femenino: sarta)",
+   "motivo": "«modista» es femenino y no traduce sarto; confunde género."
+  },
+  {
+   "id": "nomi:13",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Falso amigo parcial: magazzino = depósito; la revista es la rivista.",
+   "propuesta": "magazzino = depósito/almacén (los grandes almacenes = i grandi magazzini). Sacar la referencia a 'revista' (es calco del inglés magazine, no del español).",
+   "motivo": "El falso amigo es con el inglés; a un hispanohablante no le sirve."
+  },
+  {
+   "id": "nomi:26",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "jeans|m|jeans|vaqueros|vestiti|A1|Invariable.",
+   "propuesta": "jeans / (en España: vaqueros)",
+   "motivo": "«vaqueros» es peninsular; en el Río de la Plata se dice jean(s)."
+  },
+  {
+   "id": "nomi:18",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "benzina|f|benzine|nafta|viaggio|A2|Falso amigo: benzina = nafta.",
+   "propuesta": "Rioplatense: nafta; otras variedades: bencina/gasolina. Quitar 'falso amigo'.",
+   "motivo": "No es falso amigo, es diferencia léxica/regional."
+  },
+  {
+   "id": "nomi:27",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Falso amigo: tasca = bolsillo.",
+   "propuesta": "Sacar 'falso amigo' (tasca no es de uso rioplatense) o aclarar 'en España tasca = taberna'.",
+   "motivo": "Etiqueta de falso amigo que no aplica al público objetivo."
+  },
+  {
+   "id": "nomi:30",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Falso amigo: influenza = gripe. Femenino, como en español: l'influenza (f.).",
+   "propuesta": "influenza = gripe (ojo con influencia = influenza/influsso).",
+   "motivo": "La nota se contradice: dice falso amigo y luego 'como en español'."
+  },
+  {
+   "id": "nomi:0",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Falso amigo: pavimento = el piso de adentro.",
+   "propuesta": "pavimento = el piso (de interior o el pavimento de la calle).",
+   "motivo": "Explicación incompleta: pavimento también vale para el pavimento exterior."
+  },
+  {
+   "id": "nomi:9",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "pollice|m|pollici|pulgar|corpo|B2",
+   "propuesta": "A2/B1",
+   "motivo": "Nivel excesivo para una palabra básica del cuerpo (dito es A1)."
+  },
+  {
+   "id": "nomi:11",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "impiegato|m|impiegati|empleado (de oficina)|lavoro|A1",
+   "propuesta": "A2/B1",
+   "motivo": "Nivel A1 alto frente a dipendente B1, ufficio A1 y azienda A2."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Corregir la nota de appartamento y revisar con un script todas las notas 'Doble x' contra la palabra.",
+   "por_que": "Un error de ortografía en una nota de ortografía en un A1 muy visible."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Marcar plural '—' (o no mostrarlo) para incontables y palabras sin plural real: sangue, fame, sete, senape, salute, meses (gennai, aprili...), umidità no, mezzanotte, turismo, polvere, etc.",
+   "por_que": "El banco genera plurales por regla y enseña formas inexistentes (i sangui, i fami, i gennai)."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar tema 'sport / tempo libero' (calcio, partita, squadra, gara, palestra, allenamento, tifoso, hobby, gioco, giocatore) y 'religione/feste' mínimas.",
+   "por_que": "Es un vacío temático evidente en 18 temas; la nota de partito remite a 'la partita', que no está como entrada."
+  },
+  {
+   "prioridad": "media",
+   "que": "Incluir formas femeninas (cameriera, infermiera, avvocata, ingegnera, cuoca, commessa, maestra...) o una columna de femenino en profesiones.",
+   "por_que": "Solo algunas profesiones traen nota 'Femenino:'; el resto queda solo masculino, sesgo de género y hueco práctico."
+  },
+  {
+   "prioridad": "media",
+   "que": "Sumar pluralia tantum y palabras de uso diario ausentes: occhiali, forbici, ferie, mutande, calzoni, soldi como entrada propia, toilette/gabinetto, sport, ecc.",
+   "por_que": "El alumno los necesita a nivel A2 y tienen plural/artículo particular."
+  },
+  {
+   "prioridad": "media",
+   "que": "Unificar la etiqueta 'Falso amigo': usarla solo cuando el falso amigo es con el español (benzina, tasca, cognome, camera parcialmente no lo son) y usar 'Ojo regional' para el resto.",
+   "por_que": "Uso inflado de la etiqueta diluye los falsos amigos reales (aceto, burro, pepe, rumore)."
+  },
+  {
+   "prioridad": "media",
+   "que": "Revisar niveles anómalos: impiegato A1, pollice B2, presa/interruttore B2, teoria B2, hotel A1 vs albergo A2, 298 A1 frente a 582 B1 (desbalance hacia B1).",
+   "por_que": "Algunas palabras básicas quedan muy altas y el corpus está muy cargado en B1."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Sinónimos duplicados (duomo/cattedrale, anguria/cocomero, minestra/zuppa, gioia/allegria, pittura/dipinto, telefonino/cellulare, stanza/camera, congelatore/freezer): agregar nota de diferencia de uso/registro o región.",
+   "por_que": "Sin nota el alumno no sabe cuál elegir (anguria norte / cocomero centro-sur)."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Aclarar la traducción 'jeans → vaqueros' y otros peninsularismos; agregar acentuación/pronunciación en palabras con estrés difícil (sàbato, àncora, edìcola).",
+   "por_que": "Público rioplatense; la pronunciación es el punto débil en el corpus."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 1,
+   "dudas": 4
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 3
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "name": "Rádio Calçadão",
+ "label": "Rádio",
+ "blurb": "La radio comunitaria de Botafogo, de la semana 6 a la 25: un programa corto por semana, a dos voces, con la gramática y las palabras de la semana y el portugués que se habla en Brasil (a gente, pra, tá). Nanda y Téo conducen «Bom dia, Calçadão»; llaman Sofía (la argentina de las lecturas), Dona Lúcia y Caio, el repórter de bicicleta. Dos escuchas con las preguntas a la vista y la transcripción al final.",
+ "metaFrom": 14,
+ "criterion": 60,
+ "info": {
+  "es": {"prompt": "¿Lo dice o no lo dice?", "yes": "Lo dice", "no": "No lo dice"},
+  "meta": {"prompt": "Diz ou não diz?", "yes": "Diz", "no": "Não diz"}
+ },
+ "personaggi": {
+  "Nanda": "conduce «Bom dia, Calçadão»; carioca de Botafogo, rápida, ama la playa y el samba",
+  "Téo": "co-conductor; paulista, vive en Río hace poco, compara todo con São Paulo",
+  "Sofía": "la argentina de las lecturas; llama cuando tiene una duda o una novedad",
+  "Dona Lúcia": "la vecina de 80 años de las lecturas; llama casi todas las semanas",
+  "Caio": "estudiante de Letras, 22 años, repórter en bicicleta; da clases de apoyo"
+ }
+}

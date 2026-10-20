@@ -1,0 +1,338 @@
+{
+ "week": 23,
+ "title": "Comparativi e superlativi",
+ "level": "B1",
+ "revisado": {
+  "items": 48,
+  "sfide": 3,
+  "bloques_teoria": 5,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 6
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "La teoría de di/che, igualdad, superlativos e irregulares es clara y con buenos ejemplos. Hay pocos errores graves (concordancia en c1-comp-04, 'Oggi Sabato', consigna de r28-01, nota de 'fàcile'), pero el tema declarado (ropa, colores, talles) no se practica, se evalúan estructuras no enseñadas (di quanto) y hay demasiados ítems di/che repetidos, casi todos choice/cloze. Las sfide no se relacionan con el tema.",
+ "bien": [
+  "Regla di/che clara con tabla, ejemplos y la 'idea de fondo' contrastiva.",
+  "Advertencia útil sobre migliore/meglio y sobre no repetir el artículo en el superlativo.",
+  "Buena cobertura del superlativo absoluto con concordancia (strettissime) y de il più...di.",
+  "Lectura natural con comparativos, 'meno', 'quanto', migliore y buonissimi; preguntas verificables.",
+  "Dictogloss cuidado, con chunks alineados al texto."
+ ],
+ "hallazgos": [
+  {
+   "id": "item c1-comp-04",
+   "lang": "it",
+   "severidad": "error",
+   "actual": "Ha più soldi ___ non sembri.",
+   "propuesta": "Ha più soldi ___ non sembri → «Hai più soldi di quanto non sembri» (o «Ha più soldi di quanto non sembri» con «sembra»)",
+   "motivo": "«Ha» es 3.ª persona y «sembri» 2.ª: el sujeto no concuerda; además exige congiuntivo, que la lección dice que llega más adelante."
+  },
+  {
+   "id": "item c1-comp-04",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Comparación con verbo conjugado: «di quanto (non) + congiuntivo».",
+   "propuesta": "Reemplazar por un ítem con «di quanto/di quello che» + indicativo, o enseñar «di quanto» en la teoría",
+   "motivo": "Evalúa comparación con oración subordinada y congiuntivo, no enseñados en la semana (la lección lo pospone)."
+  },
+  {
+   "id": "item d15-022",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "El profesor es más inteligente de lo que yo creía.",
+   "propuesta": "Agregar a la lección «di quanto / di quel che + verbo» o mover el ítem",
+   "motivo": "El comparativo con oración («di quanto credevo») no está en la teoría de la semana."
+  },
+  {
+   "id": "item g2-va-40",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Questo vino è meglio di quello.",
+   "propuesta": "Aceptar también «Questo vino è migliore di quello.» y preferir esa como respuesta principal",
+   "motivo": "La propia lección enseña «migliore» adjetivo vs «meglio» adverbio; «è meglio» con sustantivo concreto es coloquial y contradice el warn."
+  },
+  {
+   "id": "item rf-22-10",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Oggi Sabato è ___ famoso di Borges.",
+   "propuesta": "Ernesto Sabato è ___ famoso di Borges.",
+   "motivo": "«Oggi Sabato» se lee «hoy sábado»; el apellido queda ambiguo y sin sentido."
+  },
+  {
+   "id": "item rf-22-18",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Il Monte Bianco è la montagna ___ alta d'Europa.",
+   "propuesta": "Il Monte Bianco è la montagna ___ alta delle Alpi.",
+   "motivo": "El punto más alto de Europa depende del criterio (Elbrus en el Cáucaso); el Monte Bianco es el de los Alpes/Europa occidental."
+  },
+  {
+   "id": "item g2-sc-14-b",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Preferisco leggere ___ guardare la tv.",
+   "propuesta": "Cambiar a un ítem con «più/meno» (p. ej. «Leggere è meno noioso ___ guardare la tv») o usar «a»",
+   "motivo": "«Preferire» no es comparativo con più/meno; la construcción normativa es «preferisco leggere (piuttosto) che / a guardare»; se aparta de la regla enseñada."
+  },
+  {
+   "id": "item g2-sc-14",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "«Di» cuando se comparan dos nombres o pronombres; «che» entre dos verbos, dos adjetivos o dos nombres de la misma cosa.",
+   "propuesta": "«Di» cuando el segundo término es un nombre o pronombre que se compara respecto de la misma cualidad; «che» entre dos verbos, dos adjetivos, dos cantidades del mismo sujeto o ante preposición.",
+   "motivo": "«dos nombres de la misma cosa» es confuso y choca con «più caffè che tè»."
+  },
+  {
+   "id": "item g2-sc-14-a",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Dos nombres: di + la = della.",
+   "propuesta": "Il vino y la birra son los dos términos comparados respecto de UNA cualidad (caro): di + la = della.",
+   "motivo": "«Dos nombres» sin más contradice la regla de che para dos sustantivos con el mismo verbo."
+  },
+  {
+   "id": "item l2-d-52",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "___ che sei arrivato: avevo paura.",
+   "propuesta": "Reemplazar por un ítem de la semana (comparativos/superlativos)",
+   "motivo": "«Meno male» no tiene relación con el tema; ocupa lugar en la parte de superlativos."
+  },
+  {
+   "id": "item c1-comp-03",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Elegí el superlativo irregular.",
+   "propuesta": "Elegí la forma correcta para «il ___ problema di tutti» (el peor).",
+   "motivo": "«Pessimo» también es superlativo irregular; la consigna no distingue relativo de absoluto."
+  },
+  {
+   "id": "item rf-22-11",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "buono → buonissimo, o la forma irregular «ottimo».",
+   "propuesta": "Quitar la mención de «ottimo» o aceptar «ottimo» y cambiar la consigna",
+   "motivo": "La consigna pide -issimo, pero la nota ofrece otra forma que no se acepta."
+  },
+  {
+   "id": "item d15-028",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "È meglio non farlo.",
+   "propuesta": "accept: agregar «Meglio non farlo.»",
+   "motivo": "Respuesta natural y equivalente que hoy se marcaría mal."
+  },
+  {
+   "id": "item d15-027",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Io mangio il meno possibile.",
+   "propuesta": "Agregar «il più/meno possibile» a la teoría o cambiar el ítem",
+   "motivo": "Estructura no enseñada; además «Como» puede leerse como «como (igual que)»."
+  },
+  {
+   "id": "sfide:r28-01",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Traducí al italiano (verbos seguidos de infinitivo sin preposición).",
+   "propuesta": "Traducí al italiano (verbos seguidos de infinitivo).",
+   "motivo": "Los ítems c («Faresti meglio ad andare»), f («obbligato a pagare») y h («Credo di poter venire») llevan preposición: la consigna es falsa."
+  },
+  {
+   "id": "sfide:r28-01:c",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Mejor andate ya porque no les gusta esperar. (tu)",
+   "propuesta": "Mejor andate ya porque no le gusta esperar. (tu)  /  aceptar «È meglio andare adesso…»",
+   "motivo": "«les» + «(tu)» confunde a quién se refiere; exige condicional («faresti») y «fare meglio a» fuera del tema."
+  },
+  {
+   "id": "sfide:r10-01b",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "Interrogatives",
+   "propuesta": "Traducir el nombre del capítulo («Interrogativos») u ocultarlo",
+   "motivo": "Título en inglés, visible si se muestra el capítulo."
+  },
+  {
+   "id": "sfide:r19-02b",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "The future tense",
+   "propuesta": "«El futuro»",
+   "motivo": "Título en inglés, visible si se muestra el capítulo."
+  },
+  {
+   "id": "sfide:r28-01",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "Verbs and prepositions",
+   "propuesta": "«Verbos y preposiciones»",
+   "motivo": "Título en inglés, visible si se muestra el capítulo."
+  },
+  {
+   "id": "vocab:stretto",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "angosto",
+   "propuesta": "estrecho",
+   "motivo": "«Angosto» es literario/poco usado en el español rioplatense; «estrecho» (o «angosto» como variante) es más natural."
+  },
+  {
+   "id": "vocab:vita",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "È il giorno peggiore della mia vita",
+   "propuesta": "È il giorno peggiore della mia vita.",
+   "motivo": "Falta el punto final (los demás ejemplos lo llevan)."
+  },
+  {
+   "id": "lesson:4:0",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*buono, cattivo, grande, piccolo* tienen comparativo propio: *migliore, peggiore, maggiore, minore*.",
+   "propuesta": "Aclarar: para tamaño físico se usa «più grande/più piccolo»; «maggiore/minore» = mayor/menor (edad, importancia). «Più buono/più cattivo» existen pero son menos frecuentes.",
+   "motivo": "Sugiere que «maggiore» es obligatorio para «grande» y los ítems mismos usan «più grande» (Roma è più grande di Firenze)."
+  },
+  {
+   "id": "lesson:4:1",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Confundirlos es como decir «canta mejor libro».",
+   "propuesta": "«En español ‘mejor’ sirve para los dos; en italiano no: un libro migliore / canta meglio.»",
+   "motivo": "La analogía es confusa: en castellano «mejor» es adjetivo y adverbio a la vez."
+  },
+  {
+   "id": "lesson:3:1",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Los terminados en *-co* / *-go* suman *h*: *ricco → ricchissimo*, *lungo → lunghissimo*.",
+   "propuesta": "Los terminados en -co/-go (ricco, lungo) suman h; los esdrújulos en -ico suelen hacer -icissimo (simpatico → simpaticissimo).",
+   "motivo": "Generalización con excepciones frecuentes."
+  },
+  {
+   "id": "lesson:0:0",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Es pregunta fija de todos los exámenes.",
+   "propuesta": "Es una pregunta muy frecuente en los exámenes.",
+   "motivo": "Exagerado."
+  },
+  {
+   "id": "lettura w-23",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "\"cara\": \"cara\"",
+   "propuesta": "Quitar la glosa (idéntica al español) y glosar «tranquilla», «ci mette»",
+   "motivo": "Glosa inútil; faltan glosas más difíciles."
+  },
+  {
+   "id": "dictogloss w23",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "la carne argentina è la più buona del mondo",
+   "propuesta": "la carne argentina è la migliore del mondo",
+   "motivo": "El texto refuerza «la più buona» cuando la semana enseña il migliore; «più buona» es aceptable pero menos natural."
+  },
+  {
+   "id": "suoni p-059",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "gli suena como una ll palatal, no como «li».",
+   "propuesta": "gli suena como una l palatal larga [ʎʎ], distinta de la «ll» rioplatense (que es [ʃ]); no es «li».",
+   "motivo": "Para un rioplatense «ll» no es palatal lateral; la comparación despista. Además la categoría «geminate» no corresponde a un contraste gli/li."
+  },
+  {
+   "id": "suoni p-093",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "pósta / pòsta",
+   "propuesta": "Intercambiar las glosas: pòsta (abierta) = correo; pósta (cerrada) = puesta",
+   "motivo": "La «posta» de correo lleva /ɔ/ abierta; la de «porre» /o/ cerrada: el orden parece invertido."
+  },
+  {
+   "id": "suoni c-033",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "È piu bello che mai.",
+   "propuesta": "Usar un contraste audible (p. ej. «più bello» vs «più bella») o pasarlo a ejercicio de ortografía",
+   "motivo": "Las opciones 1 y 2 suenan idénticas: no se puede resolver por el oído; además «che mai» no se enseña."
+  },
+  {
+   "id": "suoni a-022",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "Esdrújula, como en español.",
+   "propuesta": "Proparoxítona (sdrucciola); en español «fácil» es llana.",
+   "motivo": "«Fácil» es palabra llana, no esdrújula: la comparación es falsa."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Alinear el tema con los contenidos: 'Ropa, colores, talles' no aparece en ningún ítem ni en la lectura. Incluir ítems y lectura con prendas, talles y precios (più largo, meno caro, la taglia più piccola).",
+   "por_que": "Hoy el eje temático declarado no se practica."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar a la teoría 'di quanto / di quel che + verbo' o quitar los ítems que lo exigen (d15-022, c1-comp-04, 'del previsto').",
+   "por_que": "Se evalúa sin haberse enseñado."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Corregir el ítem c1-comp-04 (concordancia sembri/ha) y rf-22-10 (Oggi Sabato), y la consigna de r28-01.",
+   "por_que": "Errores que confunden al alumno."
+  },
+  {
+   "prioridad": "media",
+   "que": "Sumar tipos de producción: typed/conjugate/qa; hoy predomina choice/cloze con 2 opciones triviales. Solo hay 2 fixerr y ningún listen.",
+   "por_que": "Falta progresión reconocimiento → producción."
+  },
+  {
+   "prioridad": "media",
+   "que": "Ampliar la teoría con 'sempre più', 'molto più', 'più ... che mai', 'più di / meno di' + número, e advertir que 'più grande' es lo normal para tamaño.",
+   "por_que": "Formas muy frecuentes ausentes."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir duplicados (di/che entre infinitivos aparece 5 veces; dos adjetivos 5 veces) y liberar lugar para irregulares (peggiore, maggiore, minore, ottimo) que casi no se practican.",
+   "por_que": "Cobertura desbalanceada."
+  },
+  {
+   "prioridad": "media",
+   "que": "Revisar el nivel B1: el tema es A2/B1 elemental; conviene subir la exigencia (registro, 'quanto più...') o rotular como B1 inicial.",
+   "por_que": "Ajuste de nivel."
+  },
+  {
+   "prioridad": "media",
+   "que": "Las sfide (interrogativos, futuro, verbos + preposición) no se relacionan con comparativos: reemplazar o marcar como repaso.",
+   "por_que": "Coherencia semanal."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Ampliar la lectura: solo 3 preguntas de opción múltiple; agregar vero/falso/non si dice y usar 'che' entre adjetivos y 'il più...di'.",
+   "por_que": "Lectura con poca cobertura de la gramática."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Revisar suoni: pares mínimos coherentes con el tema (p. ej. 'più/piú', 'meglio/meli') y notas fonéticas para rioplatenses.",
+   "por_que": "Pertinencia y exactitud fonética."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 1,
+   "dudas": 3
+  },
+  "es": {
+   "errores": 1,
+   "dudas": 2
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 3
+  }
+ }
+}

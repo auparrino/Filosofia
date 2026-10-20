@@ -1,0 +1,186 @@
+{
+ "week": 6,
+ "title": "Presente: verbos irregulares",
+ "level": "A1",
+ "revisado": {
+  "items": 47,
+  "bloques_teoria": 7,
+  "lecturas": 4,
+  "dictogloss": 1,
+  "suoni": 18,
+  "radio": 1,
+  "otros": 13
+ },
+ "veredicto": "bien",
+ "resumen": "Semana sólida y correcta en el contenido pt-BR: tablas, reglas (sin diptongo, eu irregular, leem/veem sin circunflejo, pôr/por) y ejercicios sin errores de fondo. Los hallazgos son menores: tuteo europeo en las tablas, consignas que remiten a ejemplos que el dossier no muestra, una pregunta de radio con premisa falsa y accept incompletos. Pedagógicamente falta ir + infinitivo para planes y una práctica productiva de las invitaciones; hay demasiado reconocimiento por ortografía con distractores en español.",
+ "bien": [
+  "Tablas completas y claras de ~20 irregulares con ejemplos cariocas contextualizados (Arpoador, Lapa, bondinho).",
+  "Contraste constante con el español (puede/pode, duerme/dorme, salgo/saio) y errores típicos explicitados en los warn.",
+  "Dato ortográfico correcto y útil: leem/veem sin circunflejo tras el Acordo, vêm con circunflejo, pôr vs por.",
+  "Buena progresión: choice -> cloze -> translate -> fixerr -> garden/scopri -> typed, con coloquialismos aceptados (vou no, pra, bora).",
+  "Lectura, dictogloss y radio reciclan los verbos de la semana con vocabulario natural (rolê, topar, a fim de, grana).",
+  "Pares mínimos pertinentes y fonéticamente correctos (pressa/presa, ouço/ouso, minto/mito)."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:0",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "vais",
+   "propuesta": "Mantener la columna tu pero agregar nota: en Brasil tu suele usarse con la forma de ele (tu vai, tu faz, tu quer); vais/fazes/queres son la norma europea/formal",
+   "motivo": "Las tablas presentan la 2.ª persona europea sin aclarar que en pt-BR coloquial se usa tu + 3.ª persona"
+  },
+  {
+   "id": "item s1-06-30",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "O que tu fazes no sábado?",
+   "propuesta": "Agregar a accept «O que tu faz no sábado?» (y en s1-06-32 «Tu quer um mate?»)",
+   "motivo": "Se acepta tu + forma europea pero no tu + 3.ª persona, que es la forma brasileña real"
+  },
+  {
+   "id": "item s1-06-29",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Vou no Maracanã.",
+   "propuesta": "Agregar a accept «Vou pro Maracanã.» y «Vou para o Maracanã.» (y variantes con Eu)",
+   "motivo": "Respuestas igual de naturales que un alumno escribiría y hoy se rechazan"
+  },
+  {
+   "id": "item s1-06-24",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "ponho\", \"coloco\", \"boto",
+   "propuesta": "Dejar solo ponho (y boto) o aclarar en la consigna que se acepta sinónimo; coloco no es el verbo pedido «(pôr)»",
+   "motivo": "La consigna pide el verbo pôr pero se aceptan otros verbos; colocar no se enseñó como forma"
+  },
+  {
+   "id": "item s1-06-41",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Mirá los tres ejemplos y completá el cuarto.",
+   "propuesta": "Mostrar los tres ejemplos en el enunciado (p. ej. «ir → vou, estar → estou, ser → sou; dar → ___») o cambiar la consigna; lo mismo en s1-06-42, s1-06-43 (garden) y s1-06-44/45 («Leé las frases»)",
+   "motivo": "En el dossier el stem solo trae el hueco; si la UI no muestra los ejemplos/frases, la consigna remite a algo inexistente"
+  },
+  {
+   "id": "item s1-06-42",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Como el español «oigo», es irregular solo en eu.",
+   "propuesta": "«ouvir → eu ouço (ele ouve): irregular solo en eu; en español oír tiene más irregularidades (oigo, oyes, oye).»",
+   "motivo": "La comparación sugiere que oigo es irregular solo en la 1.ª persona, lo cual es inexacto"
+  },
+  {
+   "id": "radio:Qual é o rolê?:q2",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "¿Por qué Nanda duda antes de aceptar la invitación?",
+   "propuesta": "«¿Qué problema menciona Nanda después de aceptar la invitación?»",
+   "motivo": "Nanda dice «Eu topo!» enseguida; solo después menciona que no tiene plata, así que «duda antes de aceptar» es falso"
+  },
+  {
+   "id": "lettura fl-agente",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "\"limpo\": \"limpio\"",
+   "propuesta": "\"limpo\": \"(limpar) limpio, de limpiar: Eu limpo a cozinha = yo limpio la cocina\"",
+   "motivo": "En portugués «limpo» como adjetivo es 'limpio'; aquí es verbo (limpar) y la glosa puede confundir"
+  },
+  {
+   "id": "lettura fl-agente",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "llaman a la mamá de Bia para que les traduzca",
+   "propuesta": "Reemplazar el distractor por uno verosímil del texto (p. ej. «usan un traductor en el celular»)",
+   "motivo": "Distractor absurdo y sin base en la lectura, descartable por sentido"
+  },
+  {
+   "id": "items s1-06-01..16",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "vão / van / vai (y similares: viene, puede, quiere, tengo, sé, veo)",
+   "propuesta": "Sustituir parte de los distractores en español por formas portuguesas plausibles del mismo verbo (p. ej. «vou/vai/vão», «pode/podes/posso»)",
+   "motivo": "Los distractores en español se descartan por reconocimiento léxico y no obligan a aplicar la regla de persona/ortografía"
+  },
+  {
+   "id": "item s1-06-16",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Não posso, ___ que trabalhar.",
+   "propuesta": "Verificar que tenho/ter esté enseñado antes de W6; si no, agregar ter a la tabla o a la lección",
+   "motivo": "ter no figura en ninguna tabla de la lección y solo aparece como fórmula «tenho que»"
+  },
+  {
+   "id": "lettura fl-contracoes",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Fijate en las contracciones: em + o = no, de + a = da, em + um = num, de + ela = dela.",
+   "propuesta": "Confirmar que las contracciones se enseñan antes (o agregar mini-bloque); la lección de W6 no las trata",
+   "motivo": "Tema gramatical de dos lecturas que no aparece en la teoría de la semana"
+  },
+  {
+   "id": "lettura fl-agente",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "A gente, lá em casa",
+   "propuesta": "Confirmar que «a gente + 3.ª persona» se enseña antes de W6 o agregar un bloque corto",
+   "motivo": "La lección no explica «a gente» y la lectura (14 usos), suoni c-006 y vocab lo usan"
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Agregar a la lección y a los ítems «ir + infinitivo» (vou fazer, vamos sair) con 3-4 ítems de producción",
+   "por_que": "El fare es hacer planes e invitar y el futuro perifrástico es la forma natural de hablar de planes"
+  },
+  {
+   "prioridad": "alta",
+   "que": "Sumar ítems productivos de invitar/aceptar/rechazar (translate o qa: «¿Vamos al cine?» / «No puedo, tengo que trabajar»)",
+   "por_que": "El bloque 6 (invitaciones, bora, topo) solo tiene 1 ítem translate y 1 choice; el objetivo comunicativo queda sin práctica"
+  },
+  {
+   "prioridad": "media",
+   "que": "Ampliar práctica de vir/vem/vêm, trazer, ler/ver (veem), dar, sair (saímos) y saber vs conhecer",
+   "por_que": "Puntos enseñados con 0-1 ítem; saber/conhecer del warn no tiene ningún ejercicio"
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir ítems casi duplicados con la lección (los mismos ejemplos Vou ao Maracanã, Eu faço ioga, Ela dorme) y mezclar con tipos auditivos (listen, conjugate)",
+   "por_que": "Hay mucho reconocimiento ortográfico en espejo (choice 03/39, 06/37, 13/38, 11/40); falta escucha y producción abierta"
+  },
+  {
+   "prioridad": "media",
+   "que": "Aclarar en la lección el uso de tu en Brasil (tu + 3.ª persona vs você) o limitar tu a nota breve",
+   "por_que": "Evita fijar formas europeas (vais, fazes, queres) como brasileñas"
+  },
+  {
+   "prioridad": "baja",
+   "que": "Hacer que la lectura w-06 reutilice más persona nós/eu (vamos, faço) y agregar pregunta sobre un irregular",
+   "por_que": "El texto está casi todo en 3.ª persona; el eu irregular, núcleo de la semana, aparece solo en «Posso, sim!»"
+  },
+  {
+   "prioridad": "baja",
+   "que": "Vincular la ponte -ón → -ão y las lecturas de contracciones con el tema de la semana o moverlas",
+   "por_que": "No tienen relación con irregulares; dispersan el foco"
+  },
+  {
+   "prioridad": "baja",
+   "que": "Reformular los pares dó/dou y vó/vou, cuya diferencia es vocal abierta frente a diptongo, o ajustar la nota",
+   "por_que": "La nota habla de é/ó abiertas pero el par opone ó con ou"
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 3
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

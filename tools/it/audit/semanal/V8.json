@@ -1,0 +1,162 @@
+[
+ {
+  "id": "sfida:r07-02e",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "La sfide no se muestra en la semana 1: renderSfide filtra por weeks[].challenges, y r07-02e está en la semana 21 (week 1 tiene challenges vacío). El campo challenge.week=1 es solo el mínimo teórico y no se usa para mostrar.",
+  "fuente": "docs/data/course.json (weeks[20].challenges; weeks[0].challenges=[]); docs/js/app.js:2905-2908",
+  "correccion": ""
+ },
+ {
+  "id": "sfida:r15-07",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "Igual: r15-07 está asignada a las semanas 9 y 50, no a la 1; sus ítems s:r15-07:* no están en weeks[0].items.",
+  "fuente": "docs/data/course.json (weeks[8].challenges); docs/js/app.js:2905-2908",
+  "correccion": ""
+ },
+ {
+  "id": "d07-*",
+  "lote": "w01",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "Es un hueco de cobertura, no un error: en los 73 ítems de la semana 1 no hay «abbiamo» ni «ho ragione»/«ho voglia di» como respuesta (hanno sí: d07-018, d07-020; ho voglia sí: d07-033). Baja prioridad.",
+  "fuente": "tools/audit/patches/dummies/ch03-08.json (d07-011..d07-035)",
+  "correccion": "Opcional: agregar un conjugate «Noi ___ una casa grande.» → abbiamo, y un translate «Tengo razón.» → Ho ragione."
+ },
+ {
+  "id": "item d06-057",
+  "lote": "w05",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Termino.» (terminare) es equivalente natural de «Finisco.»; el prompt no fija el verbo.",
+  "fuente": "tools/audit/patches/dummies/ch03-08.json:1727 (d06-057)",
+  "correccion": "alt: [\"Io finisco.\", \"Termino.\", \"Io termino.\"]"
+ },
+ {
+  "id": "item l2-c-65",
+  "lote": "w06",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "«io e mio fratello» es el orden habitual, pero «mio fratello e io» es gramatical; el «no» es demasiado tajante.",
+  "fuente": "tools/authored/lessico2.py:267",
+  "correccion": "Llevarse bien → andare d'accordo. Y fijate: lo más natural es «io e mio fratello» (aunque «mio fratello e io» también es correcto)."
+ },
+ {
+  "id": "lesson:4",
+  "lote": "w08",
+  "veredicto": "CONFIRMADO",
+  "razon": "La regla es absoluta y falsa para sí/no (el propio bloque 0 dice «Marco è a casa?»); vale como tendencia con interrogativos (Dove abita Marco?), no siempre (Perché Marco non viene? es normal).",
+  "fuente": "tools/lessons/s1.py:869",
+  "correccion": "Con un interrogativo, el sujeto explícito suele ir **después del verbo**, al final (Dove abita Marco?); ponerlo antes (Perché Marco non viene?) también es normal."
+ },
+ {
+  "id": "l2-c-58",
+  "lote": "w10",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Questa musica mi fa fastidio» es igual de correcta y muy frecuente; hoy solo se acepta dà/da.",
+  "fuente": "tools/authored/lessico2.py:238",
+  "correccion": "accept: [\"dà\", \"da\", \"fa\"]; note: «Mi dà fastidio / mi fa fastidio = me molesta. Se acepta «da» sin acento, pero lo correcto es «dà».»"
+ },
+ {
+  "id": "s:r12-02:f",
+  "lote": "w12",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Nessuno ha visto…?» significa «¿Nadie vio…?» (pregunta sesgada, polaridad negativa); no traduce «¿Alguien vio…?» y la sfida practica qualcuno en preguntas.",
+  "fuente": "tools/audit/patches/sfide/ch08-14.json:2408-2412 (r12-02 f, alt)",
+  "correccion": "alt: [\"Ha visto qualcuno i miei occhiali?\"] (sacar «Nessuno ha visto i miei occhiali?»)"
+ },
+ {
+  "id": "lettura fl-mica",
+  "lote": "w18",
+  "veredicto": "CONFIRMADO",
+  "razon": "Martín nunca dice que no quiere pagar: dice «non ho mica soldi» y paga Giulia; la pregunta presupone algo que el texto no dice (la respuesta correcta habla de plata).",
+  "fuente": "docs/js/letture.js:642",
+  "correccion": "¿Por qué Martín no puede pagar hoy?"
+ },
+ {
+  "id": "vocab:volentieri",
+  "lote": "w20",
+  "veredicto": "CONFIRMADO",
+  "razon": "Real (menor): el ejemplo se extrae mecánicamente del stem de s:r21-02:a (sin mayúscula ni coma) y se muestra en minúscula, sin coma y sin sujeto; aparece también para «appuntamento». El stem de la sfida tampoco lleva coma.",
+  "fuente": "tools/bank/esempi.py (agregar ESEMPI); tools/audit/patches/sfide/ch21-28.json:51 (stem)",
+  "correccion": "ESEMPI[\"volentieri\"] = \"Verrei volentieri, ma ho un appuntamento.\" (y stem: «___ volentieri, ma ho un appuntamento. (venire – io)»)"
+ },
+ {
+  "id": "sfide r20-06:d",
+  "lote": "w22",
+  "veredicto": "CONFIRMADO",
+  "razon": "Con verbo reflexivo con essere y objeto nominal pospuesto (Angelo, ti sei messo la giacca) el participio concuerda con el sujeto; «messa» no es estándar. La nota enseña mal.",
+  "fuente": "tools/audit/patches/sfide/ch15-20.json:4218-4229",
+  "correccion": "answer «o | a», sin alt; note: «Con reflexivo el participio concuerda con el sujeto (messo); con la delante, con el objeto (me la sono messa).»"
+ },
+ {
+  "id": "a-023",
+  "lote": "w25",
+  "veredicto": "CONFIRMADO",
+  "razon": "La palabra es desìdero /deˈzidero/ (acento en «si»); ninguna de las opciones ofrecidas es correcta.",
+  "fuente": "docs/js/ascolto_data.js:308",
+  "correccion": "{ id: \"a-023\", week: 25, say: \"desìdero\", answer: \"desìdero\", options: [\"desìdero\", \"dèsidero\"], es: \"deseo (yo)\", note: \"de-SÌ-de-ro: esdrújula con el acento en la segunda sílaba (desìdero), no en la primera.\", fake: true }"
+ },
+ {
+  "id": "item g2-ct-41",
+  "lote": "w30",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Pensaba que era» es ambiguo (yo/él); la 3ª persona es igual de correcta y hoy se marcaría mal.",
+  "fuente": "tools/authored/grammatica2.py:1259 (accept/alt)",
+  "correccion": "alt: [\"Credevo che fosse più difficile\", \"Pensavo fosse più difficile\", \"Pensava che fosse più difficile\", \"Credeva che fosse più difficile\", \"Pensava fosse più difficile\"]"
+ },
+ {
+  "id": "lettura w-35",
+  "lote": "w35",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Estacionado» es calco; en rioplatense «estacionar» es aparcar. Mismo problema en la pregunta. (letture.js:56 tiene «estacionado, curado»: conviene quitar «estacionado».)",
+  "fuente": "docs/js/letture_settimana.js:330 y :334; docs/js/letture.js:56",
+  "correccion": "stagionato: \"madurado, curado\"; pregunta: \"¿Cuánto tiempo madura como mínimo?\""
+ },
+ {
+  "id": "item rf2-37-01",
+  "lote": "w37",
+  "veredicto": "CONFIRMADO",
+  "razon": "Es un error de tipeo: el patrón enseñado es 1-3-6 (io, lui, loro: nacqui, nacque, nacquero); mismo «1-3-3» en un comentario de conjugator.js.",
+  "fuente": "tools/authored/refuerzo2.py:135; docs/js/conjugator.js:7 (comentario)",
+  "correccion": "nascere, irregular en el patrón 1-3-6: nacqui, nascesti, nacque, nascemmo, nasceste, nacquero."
+ },
+ {
+  "id": "lettura w-42:q3",
+  "lote": "w42",
+  "veredicto": "CONFIRMADO",
+  "razon": "La opción correcta es ambigua (\"finge no oír si sigue corriendo\") y el distractor «sigue corriendo» no se puede descartar con el texto (nunca se dice si sigue).",
+  "fuente": "docs/js/letture_settimana.js:981",
+  "correccion": "[\"¿Qué pasa en marzo?\", [\"su esposa le pregunta si sigue corriendo y él finge no oír\", \"anuncia que corre todos los días\", \"vuelve a fumar\", \"empieza guitarra\"], \"su esposa le pregunta si sigue corriendo y él finge no oír\"]"
+ },
+ {
+  "id": "item g2-va-63",
+  "lote": "w45",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Tardar» personal es metterci (ci metto due ore), no volerci; la nota contradice otras lecciones (s2.py:548, s4.py:374, lessico2.py:397). Volerci = hacer falta / llevar (tiempo, impersonal).",
+  "fuente": "tools/authored/grammatica2.py:1845",
+  "correccion": "Hacer falta / llevar (tiempo) = volerci, con ci obligatorio y concordado: ci vuole un'ora, ci vogliono due ore. Tardar (una persona) = metterci: ci metto due ore."
+ },
+ {
+  "id": "item rf-48-22",
+  "lote": "w48",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Al vino lo trajo Luca» es agramatical en español (objeto inanimado no lleva «a») y contradice la nota.",
+  "fuente": "tools/authored/refuerzo.py:1010",
+  "correccion": "stem: \"El vino lo trajo Luca.\"; note: \"El objeto dislocado va al principio y lo retoma un pronombre átono: il vino l'ha portato Luca.\""
+ },
+ {
+  "id": "item ex-rg-08",
+  "lote": "w52",
+  "veredicto": "CONFIRMADO",
+  "razon": "El destino es registro formal (Lei) pero el stem usa «trovi» (tu); la forma de cortesía es «trova».",
+  "fuente": "tools/authored/esame_c1.py:315",
+  "correccion": "(informale) Te lo mando insieme alla mail → (formale) Lo trova ___"
+ },
+ {
+  "id": "sfida s:r27-06b:b",
+  "lote": "w52",
+  "veredicto": "CONFIRMADO",
+  "razon": "La consigna dice que solo e y f admiten varias respuestas y la nota enseña «fagli» con objeto; «Fallo» contradice la regla enseñada.",
+  "fuente": "tools/audit/patches/sfide/ch21-28.json:4037-4048 (r27-06b b, alt)",
+  "correccion": "alt: [] (solo «Fagli»)"
+ }
+]

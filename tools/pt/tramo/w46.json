@@ -1,0 +1,459 @@
+{
+  "week": 46,
+  "level": "C1",
+  "lettura": {
+    "title": "Uma língua, três continentes",
+    "emoji": "🌍",
+    "genre": "artigo de divulgação",
+    "grammar": "variação: Brasil, Portugal e África",
+    "text": "Imagine três jovens conversando na sala de embarque do aeroporto de Lisboa: uma paulistana, um lisboeta e uma luandense. A paulistana comenta que o celular está sem bateria; o lisboeta lhe oferece o carregador do seu telemóvel; a angolana observa que a fila está bué grande. Os três falam a mesma língua, se entendem sem grande esforço e, ainda assim, cada um deixa escapar, a cada frase, marcas inconfundíveis da sua origem. O português, língua oficial de nove países e falado por mais de 250 milhões de pessoas, é um bom exemplo de que unidade e diversidade podem conviver sem drama.\n\nAs diferenças mais visíveis estão no vocabulário. O que no Brasil é ônibus, em Portugal é autocarro; o trem brasileiro é o comboio português; o café da manhã de cá do Atlântico vira pequeno-almoço do lado de lá, e a tela do computador vira ecrã. O banheiro, em Portugal, é a casa de banho, e a geladeira é o frigorífico. Algumas dessas palavras soam engraçadas aos ouvidos brasileiros, e vice-versa. Um português pode achar curioso que um brasileiro chame de moça a jovem que ele chamaria de rapariga — palavra perfeitamente neutra em Portugal, mas que, em várias regiões do Brasil, sobretudo no Nordeste, adquiriu um sentido pejorativo e deve ser evitada.\n\nAs diferenças, porém, não param no léxico. Na gramática, a mais famosa talvez seja a forma de expressar uma ação em curso. O brasileiro diz “estou trabalhando”, com gerúndio; o português europeu prefere “estou a trabalhar”, com a preposição a seguida do infinitivo. A colocação dos pronomes também muda: enquanto no Brasil se diz “me dá um minuto”, com o pronome antes do verbo, em Portugal o padrão é “dá-me um minuto”. E o tratamento é outro mundo. Em boa parte do Brasil, você é a forma neutra para falar com qualquer pessoa; em Portugal, o tu domina entre amigos e familiares, e o você pode até soar distante ou pouco cortês, dependendo do contexto.\n\nNa pronúncia, a diferença salta aos ouvidos. O português europeu tende a “engolir” as vogais átonas, de modo que uma palavra como telefone soa, para um brasileiro, quase como “tlfone”. Por isso, muitos brasileiros dizem que entendem os angolanos com mais facilidade do que os portugueses: nas variedades africanas, as vogais costumam ser pronunciadas com mais clareza, mais perto do que se ouve no Brasil. O contrário também acontece. Portugueses que cresceram assistindo a novelas brasileiras entendem sem dificuldade um sotaque carioca ou paulistano, enquanto muitos brasileiros nunca tiveram contato real com o português de Lisboa.\n\nNos países africanos de língua oficial portuguesa, o idioma convive com dezenas de línguas locais, e dessa convivência nasce um vocabulário próprio. Em Angola, onde o português é a língua materna de uma parcela crescente da população, sobretudo nas cidades, bué quer dizer “muito”, kota é uma pessoa mais velha, tratada com respeito, e candengue é criança. Em Moçambique, o ônibus pode ser chamado de machimbombo, e maningue também significa “muito”. Em Cabo Verde e na Guiné-Bissau, o português divide o espaço com crioulos de base portuguesa, que a maioria da população usa no dia a dia, enquanto o português fica reservado à escola, à administração e à imprensa.\n\nA influência, aliás, nunca foi de mão única. O português do Brasil carrega marcas profundas das línguas africanas trazidas pelas pessoas escravizadas, especialmente as do grupo banto, como o quimbundo. Palavras do cotidiano brasileiro, como caçula, cafuné, moleque e quitanda, têm essa origem. Para muitos linguistas, parte do que distingue o português brasileiro do europeu se explica justamente por esse contato histórico, somado ao das línguas indígenas e ao dos imigrantes que chegaram depois.\n\nDiante de tanta variedade, existe um português “certo”? Os linguistas respondem que não: cada variedade tem as suas regras e a sua norma culta, e nenhuma é mais legítima do que as outras. O Acordo Ortográfico de 1990 tentou aproximar a escrita dos países lusófonos, mas não apagou as diferenças — nem era essa a intenção. Em Portugal, por exemplo, ainda se escreve facto, porque o c é pronunciado, enquanto no Brasil se escreve fato. Afinal, uma ortografia comum não obriga ninguém a falar do mesmo jeito.\n\nPara quem aprende português, sobretudo a partir do espanhol, a lição é dupla: escolher uma variedade como referência — no caso deste curso, a brasileira — e, ao mesmo tempo, treinar o ouvido para as outras. Ouvir um podcast de Maputo, um noticiário de Lisboa ou uma canção de Luanda não é perda de tempo. É uma forma de descobrir que o português, como o espanhol, é uma casa com muitos cômodos, e que em todos eles se fala a mesma língua.",
+    "gloss": {
+      "carregador": "cargador",
+      "telemóvel": "celular (Portugal)",
+      "bué": "muy, mucho (Angola, también Portugal)",
+      "autocarro": "colectivo (Portugal)",
+      "comboio": "tren (Portugal)",
+      "pequeno-almoço": "desayuno (Portugal)",
+      "ecrã": "pantalla (Portugal)",
+      "geladeira": "heladera",
+      "frigorífico": "heladera (Portugal)",
+      "rapariga": "chica (Portugal); ofensivo en parte de Brasil",
+      "engolir": "tragar",
+      "sotaque": "acento, tonada",
+      "parcela": "porción, parte",
+      "kota": "persona mayor, respetada (Angola)",
+      "candengue": "chico, nene (Angola)",
+      "machimbombo": "colectivo (Mozambique)",
+      "maningue": "mucho (Mozambique)",
+      "crioulos": "lenguas criollas",
+      "escravizadas": "esclavizadas",
+      "caçula": "el hijo menor",
+      "cafuné": "caricia en el pelo",
+      "moleque": "pibe",
+      "quitanda": "verdulería",
+      "noticiário": "noticiero",
+      "cômodos": "ambientes, habitaciones"
+    },
+    "questions": [
+      [
+        "Qual é a função da cena do aeroporto, no primeiro parágrafo?",
+        [
+          "Mostrar unidade e diversidade na mesma conversa.",
+          "Criticar a falta de padronização do português no mundo.",
+          "Provar que os angolanos falam com mais clareza que os portugueses.",
+          "Relatar um episódio real vivido pela autora."
+        ],
+        "Mostrar unidade e diversidade na mesma conversa."
+      ],
+      [
+        "Segundo o texto, por que convém evitar “rapariga” em várias regiões do Brasil?",
+        [
+          "Porque é uma palavra antiga e já fora de uso.",
+          "Porque só se usa no português de Angola.",
+          "Porque ganhou ali um sentido pejorativo.",
+          "Porque designa uma criança muito pequena."
+        ],
+        "Porque ganhou ali um sentido pejorativo."
+      ],
+      [
+        "O que o texto afirma sobre o uso de “você” em Portugal?",
+        [
+          "É a forma neutra para qualquer interlocutor.",
+          "Pode soar distante, conforme o contexto.",
+          "Substituiu completamente o tu entre amigos.",
+          "Aparece apenas na língua escrita mais formal."
+        ],
+        "Pode soar distante, conforme o contexto."
+      ],
+      [
+        "Por que muitos brasileiros entenderiam melhor os angolanos do que os portugueses?",
+        [
+          "Porque Angola adotou o vocabulário brasileiro.",
+          "Porque os angolanos pronunciam as vogais com mais clareza.",
+          "Porque os angolanos assistem a novelas brasileiras desde crianças.",
+          "Porque o português angolano não tem palavras locais."
+        ],
+        "Porque os angolanos pronunciam as vogais com mais clareza."
+      ],
+      [
+        "Qual é a posição do texto sobre a existência de um português “certo”?",
+        [
+          "A norma de Portugal é a referência original para todos.",
+          "O Acordo de 1990 criou uma norma única e obrigatória.",
+          "A variedade brasileira deveria ser a oficial por ter mais falantes.",
+          "Cada variedade tem a sua norma, igualmente legítima."
+        ],
+        "Cada variedade tem a sua norma, igualmente legítima."
+      ]
+    ],
+    "vf": [
+      [
+        "Em Portugal ainda se escreve “facto”, porque o c é pronunciado.",
+        "verdadeiro"
+      ],
+      [
+        "Em Cabo Verde, a maior parte da população usa o português no dia a dia.",
+        "falso"
+      ],
+      [
+        "Palavras como “cafuné” e “caçula” vêm de línguas do grupo banto.",
+        "verdadeiro"
+      ],
+      [
+        "O Acordo Ortográfico de 1990 pretendia unificar também a pronúncia.",
+        "falso"
+      ],
+      [
+        "Nas escolas portuguesas, os alunos estudam o português do Brasil.",
+        "não se diz"
+      ]
+    ],
+    "hunt": {
+      "label": "Toque nas palavras próprias do português europeu ou africano (as que no Brasil se dizem de outro jeito)",
+      "targets": [
+        "telemóvel",
+        "autocarro",
+        "comboio",
+        "pequeno-almoço",
+        "ecrã",
+        "frigorífico",
+        "bué",
+        "kota",
+        "candengue",
+        "machimbombo",
+        "maningue"
+      ]
+    }
+  },
+  "ascolto": {
+    "title": "O português de Angola não é português errado",
+    "genre": "entrevista de rádio",
+    "es": "En un programa de radio sobre acentos y variedades, el conductor entrevista a una estudiante angoleña que hace una maestría en Campinas: hablan de su portugués, de las palabras de Luanda y de cómo la ven en Brasil.",
+    "speakers": [
+      "Rodrigo (apresentador)",
+      "Nádia (estudante angolana)"
+    ],
+    "turns": [
+      [
+        "A",
+        "Boa noite, está começando mais um Sotaques do Mundo. Hoje a nossa convidada é a Nádia, que nasceu em Luanda, em Angola, e faz mestrado numa universidade aqui em Campinas. Nádia, seja bem-vinda."
+      ],
+      [
+        "B",
+        "Obrigada, Rodrigo. É um prazer estar aqui."
+      ],
+      [
+        "A",
+        "Nádia, qual é a pergunta que você mais ouve desde que chegou ao Brasil?"
+      ],
+      [
+        "B",
+        "Ah, sem dúvida é: onde você aprendeu a falar português tão bem? E eu respondo: em casa, com a minha mãe! As pessoas ficam surpresas, mas o português é a minha língua materna. Em Luanda, muitos jovens da minha geração só falam português. Os meus avós falavam quimbundo, os meus pais ainda entendem, mas eu, infelizmente, sei só algumas palavras."
+      ],
+      [
+        "A",
+        "E o sotaque? Porque, ouvindo você, muita gente deve achar que você é portuguesa."
+      ],
+      [
+        "B",
+        "Acontece muito! No supermercado, na universidade, sempre tem alguém que pergunta se eu sou de Portugal. Mas, olha, o sotaque angolano é outra coisa. A gente pronuncia as vogais de forma mais aberta, mais clara que os portugueses. Os meus colegas daqui dizem que me entendem melhor do que entendem um lisboeta."
+      ],
+      [
+        "A",
+        "E no vocabulário, o que mudou no seu dia a dia?"
+      ],
+      [
+        "B",
+        "Muita coisa. Em Luanda, por exemplo, a gente anda de candongueiro, que são aquelas vans azuis e brancas que fazem de táxi coletivo. Aqui, tive que aprender a dizer ônibus e van. E tem o famoso bué, que para nós quer dizer muito. Eu dizia que a prova estava bué difícil, e os meus colegas riam. Agora, olha só, metade da turma diz bué também, de brincadeira."
+      ],
+      [
+        "A",
+        "Que ótimo! Teve algum mal-entendido mais sério?"
+      ],
+      [
+        "B",
+        "Teve um que eu nunca vou esquecer. No primeiro semestre, chamei uma colega de rapariga, com todo o carinho, como a gente faz em Angola. Só que ela é de Recife, e lá essa palavra é bem ofensiva. Ela ficou vermelha, e eu sem entender nada. Depois conversamos, rimos, e hoje ela é a minha melhor amiga aqui."
+      ],
+      [
+        "A",
+        "E antes de vir, você já conhecia o português brasileiro?"
+      ],
+      [
+        "B",
+        "Conhecia bastante, por causa das novelas e da música. Em Angola, a gente cresce vendo novela brasileira. Então eu entendia tudo. Falar como vocês é que é outra história."
+      ],
+      [
+        "A",
+        "E o contrário? O brasileiro conhece alguma coisa de Angola?"
+      ],
+      [
+        "B",
+        "Muito pouco, sinceramente. Já me perguntaram se em Luanda tem prédio, se a gente fala inglês lá. Luanda é uma cidade enorme, com trânsito, arranha-céus, shopping. Eu acho que falta curiosidade, mas também falta informação, né? A televisão daqui quase não mostra a África, a não ser quando é para falar de tragédia."
+      ],
+      [
+        "A",
+        "E você tenta falar como os brasileiros, ou prefere manter o seu jeito?"
+      ],
+      [
+        "B",
+        "Olha, um pouco de cada. Na universidade, uso palavras daqui para ser entendida. Mas quando ligo para a minha mãe, volto ao angolano em dois segundos. É a minha identidade, não quero perder isso."
+      ],
+      [
+        "A",
+        "Para terminar, Nádia: você já sentiu algum tipo de preconceito por causa da sua forma de falar?"
+      ],
+      [
+        "B",
+        "Às vezes sim. Tem gente que me corrige como se o meu português estivesse errado. E eu explico, com calma, que o português de Angola não é português errado. É português de Angola, com as suas regras, assim como o do Brasil tem as dele."
+      ],
+      [
+        "A",
+        "Recado dado. Nádia, muito obrigado pela conversa."
+      ],
+      [
+        "B",
+        "Eu é que agradeço. Foi bué bom!"
+      ]
+    ],
+    "gloss": {
+      "ser": "(a não ser quando) salvo cuando",
+      "agradeço": "(eu que agradeço / eu é que agradeço) gracias a vos",
+      "convidada": "invitada",
+      "mestrado": "maestría",
+      "quimbundo": "kimbundu, lengua bantú de Angola",
+      "candongueiro": "combi que funciona como taxi colectivo (Angola)",
+      "vans": "combis",
+      "bué": "muy, mucho (Angola)",
+      "turma": "curso, grupo de compañeros",
+      "brincadeira": "broma",
+      "rapariga": "chica (Angola, Portugal); insulto en el nordeste de Brasil",
+      "vermelha": "colorada",
+      "preconceito": "prejuicio",
+      "recado": "mensaje"
+    },
+    "questions": [
+      [
+        "Por que as pessoas ficam surpresas com o português de Nádia?",
+        [
+          "Porque ela aprendeu português com novelas brasileiras.",
+          "Porque não sabem que o português é a sua língua materna.",
+          "Porque ela mistura quimbundo com português o tempo todo.",
+          "Porque ela fala exatamente como uma paulistana."
+        ],
+        "Porque não sabem que o português é a sua língua materna."
+      ],
+      [
+        "Segundo Nádia, por que os colegas brasileiros a entendem bem?",
+        [
+          "Porque ela pronuncia as vogais de forma mais clara.",
+          "Porque ela evita todas as palavras angolanas.",
+          "Porque ela morou alguns anos em Lisboa antes de vir ao Brasil.",
+          "Porque ela fala devagar para ser entendida."
+        ],
+        "Porque ela pronuncia as vogais de forma mais clara."
+      ],
+      [
+        "O que aconteceu com a palavra “bué” na turma de Nádia?",
+        [
+          "Os professores pediram que ela não a usasse mais.",
+          "Os colegas passaram a usá-la de brincadeira.",
+          "Ninguém entendeu o que ela significava.",
+          "Ela deixou de usá-la para não parecer estrangeira."
+        ],
+        "Os colegas passaram a usá-la de brincadeira."
+      ],
+      [
+        "Ao falar do episódio com a colega de Recife, Nádia mostra que…",
+        [
+          "a mesma palavra pode ser carinhosa num lugar e ofensiva em outro.",
+          "os brasileiros do Nordeste não entendem o português de Angola.",
+          "ela sabia que a palavra era ofensiva, mas quis brincar.",
+          "a amizade entre as duas terminou por causa do mal-entendido."
+        ],
+        "a mesma palavra pode ser carinhosa num lugar e ofensiva em outro."
+      ],
+      [
+        "Qual é a atitude de Nádia em relação ao próprio jeito de falar?",
+        [
+          "Quer perder o sotaque angolano o quanto antes, para se integrar.",
+          "Adapta-se no Brasil, mas preserva a sua identidade.",
+          "Prefere falar como os portugueses.",
+          "Acha que o português de Angola é menos correto."
+        ],
+        "Adapta-se no Brasil, mas preserva a sua identidade."
+      ]
+    ],
+    "vf": [
+      [
+        "Os avós de Nádia falavam quimbundo.",
+        "verdadeiro"
+      ],
+      [
+        "Nádia fala quimbundo fluentemente.",
+        "falso"
+      ],
+      [
+        "Nádia pretende voltar para Angola quando terminar o mestrado.",
+        "não se diz"
+      ],
+      [
+        "Antes de vir ao Brasil, Nádia não entendia o português brasileiro.",
+        "falso"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "resenha",
+    "title": "Resenha: Sotaques do Mundo com Nádia",
+    "fonte": "ascolto",
+    "t": "Você colabora com o blog de uma escola de português para hispanofalantes em Buenos Aires, que publica resenhas de podcasts e programas de rádio úteis para os alunos. Após ouvir a entrevista do programa Sotaques do Mundo com a estudante angolana Nádia, escreva uma resenha do episódio para os leitores do blog. Na sua resenha, apresente o programa e a entrevistada, resuma os principais temas tratados, avalie o episódio (pontos fortes e fracos) e diga se o recomenda e para quem. Não se esqueça de dar um título à resenha e de usar informações e exemplos da entrevista.",
+    "es": "Reseña de un episodio de radio para el blog de una escuela: presentá, resumí con ejemplos concretos del audio, evaluá (algo bueno y algo flojo) y recomendá. Ponele título.",
+    "min": 222,
+    "max": 282,
+    "punti": [
+      [
+        "Presentar el programa y a la entrevistada",
+        [
+          "nádia",
+          "angolan",
+          "sotaques do mundo",
+          "episódio"
+        ]
+      ],
+      [
+        "Resumir los temas con ejemplos del audio",
+        [
+          "rapariga",
+          "bué",
+          "candongueiro",
+          "sotaque"
+        ]
+      ],
+      [
+        "Evaluar: puntos fuertes y débiles",
+        [
+          "ponto alto",
+          "ponto fraco",
+          "infelizmente",
+          "destaque",
+          "deixa a desejar"
+        ]
+      ],
+      [
+        "Recomendar y decir a quién",
+        [
+          "recomendo",
+          "recomend",
+          "vale a pena"
+        ]
+      ]
+    ],
+    "model": "Sotaques do Mundo: quando o português vem de Luanda\n\nQuem acha que o português tem dono deveria ouvir o episódio mais recente do programa Sotaques do Mundo, em que o apresentador Rodrigo conversa com Nádia, uma estudante angolana que faz mestrado em Campinas. Numa conversa curta e descontraída, a entrevista desmonta, com humor, vários preconceitos sobre a língua.\n\nO ponto de partida é a pergunta que Nádia mais ouve no Brasil: onde ela aprendeu a falar português tão bem? A resposta surpreende muitos ouvintes: o português é a sua língua materna. A partir daí, ela compara o seu sotaque, de vogais mais claras que as do português europeu, com o brasileiro, apresenta palavras de Luanda, como candongueiro e bué, e conta o mal-entendido que viveu ao chamar uma colega do Recife de rapariga, palavra carinhosa em Angola e ofensiva em parte do Nordeste.\n\nO ponto alto, porém, é a reflexão final. Com tranquilidade, Nádia afirma que o português de Angola não é português errado, e sim uma variedade com as suas próprias regras. A mensagem é especialmente útil para nós, hispanofalantes, que muitas vezes aprendemos a variedade brasileira como se fosse a única.\n\nSe há um ponto fraco, é a pressa: alguns temas, como a relação entre o português e o quimbundo na família de Nádia, mereciam mais tempo. Mesmo assim, recomendo o episódio a todos os alunos a partir do nível intermediário. Além de treinar o ouvido, ele nos lembra que falar bem português não significa necessariamente falar como um paulistano.",
+    "gloss": {
+      "tem dono": "tiene dueño",
+      "descontraída": "distendida, relajada",
+      "desmonta": "desarma",
+      "candongueiro": "la combi, el minibús de Luanda",
+      "bué": "mucho (en Angola y Portugal)",
+      "rapariga": "chica en Angola y Portugal; en parte de Brasil, insulto (prostituta)",
+      "O ponto alto": "lo mejor, el punto fuerte"
+    }
+  },
+  "breve": {
+    "title": "Aviso na estação do Cais do Sodré",
+    "genre": "aviso na estação (português de Portugal)",
+    "es": "Un aviso en la estación de trenes de Cais do Sodré, en Lisboa, en portugués de Portugal: comboio, autocarro, telemóvel, casa de banho.",
+    "speaker": "Voz da estação (Lisboa)",
+    "voice": 0,
+    "text": [
+      "Senhores passageiros, bom dia. A CP informa: o comboio das 9 e 15 com destino a Cascais vai partir da linha 3, e não da linha 1, como estava previsto.",
+      "Devido a obras na via entre Oeiras e Carcavelos, a partir das 22 horas e até ao fim do mês, os comboios só circulam até Oeiras. Entre Oeiras e Cascais, há autocarros de substituição, sem custo adicional, à saída da estação.",
+      "Lembramos que os bilhetes podem ser comprados nas máquinas automáticas ou pelo telemóvel, na aplicação da CP. Os passageiros com passe mensal não precisam de comprar bilhete para o autocarro.",
+      "As casas de banho da estação encontram-se encerradas para limpeza até às 10 horas. Pedimos desculpa pelo incómodo. Obrigado e boa viagem."
+    ],
+    "tabella": [
+      [
+        "Hora do comboio para Cascais",
+        "9h15",
+        [
+          "9:15",
+          "9.15",
+          "9 e 15",
+          "nove e quinze"
+        ]
+      ],
+      [
+        "Linha de onde parte o comboio",
+        "3",
+        [
+          "três",
+          "tres",
+          "linha 3"
+        ]
+      ],
+      [
+        "Até onde circulam os comboios à noite",
+        "Oeiras",
+        [
+          "até Oeiras"
+        ]
+      ],
+      [
+        "Horário em que as casas de banho reabrem",
+        "10",
+        [
+          "10 horas",
+          "10h",
+          "dez",
+          "dez horas",
+          "10:00"
+        ]
+      ],
+      [
+        "Quanto custa o autocarro de substituição",
+        "nada",
+        [
+          "sem custo",
+          "grátis",
+          "gratuito",
+          "0",
+          "zero"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "O comboio para Cascais mudou de linha.",
+        true
+      ],
+      [
+        "As obras duram só um fim de semana.",
+        false
+      ],
+      [
+        "Entre Oeiras e Cascais, os passageiros seguem de autocarro.",
+        true
+      ],
+      [
+        "Os bilhetes só se vendem na bilheteira.",
+        false
+      ],
+      [
+        "Quem tem passe mensal não paga o autocarro.",
+        true
+      ],
+      [
+        "As casas de banho estão encerradas o dia todo.",
+        false
+      ]
+    ],
+    "gloss": {
+      "comboio": "tren (en Brasil, trem)",
+      "autocarros": "colectivos (en Brasil, ônibus)",
+      "telemóvel": "celular (en Brasil, celular)",
+      "casas de banho": "baños (en Brasil, banheiros)",
+      "encerradas": "cerradas",
+      "passe": "abono"
+    }
+  }
+}

@@ -1,0 +1,248 @@
+{
+ "week": 30,
+ "title": "Congiuntivo imperfetto e trapassato",
+ "level": "B2",
+ "revisado": {
+  "items": 36,
+  "sfide": 5,
+  "bloques_teoria": 5,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 3
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "La teoría es correcta, corta y bien contrastada con el español; casi todo el italiano es impecable. Los problemas están en el diseño: 12 de 36 ítems no practican el imperfetto ni el trapassato (son presente/indicativo o marcadores discursivos), no hay ningún ítem de \"come se\" (enseñado en el bloque 4) ni de práctica del tema de la semana (prensa, TV, redes, resumir una noticia). Hay un ítem semánticamente dudoso (d22-020), dos traducciones que rechazan la 3ª persona y un par mínimo (p-187) con nota fonética errónea.",
+ "bien": [
+  "Teoría concisa: forma, irregulares, tabla de correlación de tiempos y aviso sobre io/tu iguales y noi en -ssimo.",
+  "Buen contraste con el español (Vorrei che tu venissi = querría que vinieras) y errores típicos como benché + indicativo.",
+  "Las sfide (r24-04b, 05b, 01d, 06c) cubren irregulares, trapassato, relación temporal y suavizado de pedidos con variedad de tarea.",
+  "Los ítems d20/d22 son pertinentes, con listas accept generosas (con/sin pronombre, credere/pensare, stare + gerundio).",
+  "La lectura w-30 usa naturalmente imperfetto y trapassato (portasse, finisse, avesse rinunciato) y el dictogloss es coherente y correcto."
+ ],
+ "hallazgos": [
+  {
+   "id": "item d22-020",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Lui insisteva che io gli ___ (avere/scrivere).",
+   "propuesta": "Cambiar a imperfetto (\"Lui insisteva che io gli scrivessi\") o usar un verbo de opinión: \"Lui sosteneva che io gli ___ (avere/scrivere)\".",
+   "motivo": "Insistere expresa voluntad: la acción es posterior y lleva imperfetto (como enseña el bloque 3 y como hace sfida r24-04b:d); con trapassato el sentido es forzado."
+  },
+  {
+   "id": "item g2-ct-41",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Pensavo che fosse più difficile",
+   "propuesta": "Agregar a accept: \"Pensava che fosse più difficile\", \"Credeva che fosse più difficile\", \"Pensava fosse più difficile\".",
+   "motivo": "\"Pensaba que era\" es ambiguo (yo/él); la 3ª persona es igual de correcta y hoy se marcaría mal."
+  },
+  {
+   "id": "item g2-ct-40",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Volevo che venissi con me",
+   "propuesta": "Agregar a accept: \"Voleva che venissi con me\", \"Voleva che tu venissi con me\" (o aclarar el sujeto: \"(Yo) quería...\").",
+   "motivo": "\"Quería que vinieras\" es ambiguo (yo/él): solo se acepta la 1ª persona."
+  },
+  {
+   "id": "item r24-03c:b",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "È il posto più bello che io abbia mai visto.",
+   "propuesta": "Agregar a accept: \"È il posto più bello che io abbia visto in vita mia\" (y variantes con abbia visto in vita mia / luogo).",
+   "motivo": "El enunciado dice \"en mi vida\", pero solo se acepta \"mai\"; \"in vita mia\" es igual de natural."
+  },
+  {
+   "id": "item d22-016",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "Il ragazzo era triste che a lei non ___ (essere/piacere) il regalo.",
+   "propuesta": "\"Il ragazzo era triste perché a lei non era piaciuto il regalo\" o \"Il ragazzo era dispiaciuto che a lei non fosse piaciuto il regalo\".",
+   "motivo": "\"essere triste che + congiuntivo\" es forzado; \"dispiaciuto che\" es lo natural (y está en el vocab)."
+  },
+  {
+   "id": "item d20-031",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "si (vos) quisieras",
+   "propuesta": "Dar frase completa: \"Se (tu) volessi, potresti venire\" o dejar solo el hueco del verbo con apódosis.",
+   "motivo": "Protasis suelta sin apódosis: la hipótesis completa se enseña en la semana 33; son 3 ítems (d20-031, d20-034, d20-036) que piden \"se + imperfetto\" sin contexto."
+  },
+  {
+   "id": "item d20-036",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "si ustedes tuvieran la plata",
+   "propuesta": "Ídem d20-031: dar la frase completa o mover a semana 33.",
+   "motivo": "Fragmento no oracional; \"se + imperfetto\" hipotético no está desarrollado en la teoría de esta semana."
+  },
+  {
+   "id": "item c1-cong-01",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "es el error nº1 del hispanohablante",
+   "propuesta": "\"es un error muy frecuente del hispanohablante\".",
+   "motivo": "Superlativo no verificable/exagerado."
+  },
+  {
+   "id": "item c1-cong-10",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Tras superlativo relativo + relativa: congiuntivo.",
+   "propuesta": "\"...suele ir en congiuntivo (el indicativo es posible si se destaca un hecho real)\".",
+   "motivo": "La regla se presenta como absoluta; con indicativo la frase también es correcta en italiano estándar. Igual en sfida r24-03c:a."
+  },
+  {
+   "id": "item r24-03c:a",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Después de un superlativo la relativa va en subjuntivo.",
+   "propuesta": "\"...suele ir en subjuntivo\" y aceptar \"che c'è\" como variante coloquial o no, pero suavizar la nota.",
+   "motivo": "Afirmación demasiado categórica."
+  },
+  {
+   "id": "item r24-05b:c",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Pregunta indirecta en el pasado: trapassato del subjuntivo.",
+   "propuesta": "\"Pregunta indirecta con se: el indicativo (avevi capito) es lo normal; el congiuntivo (avessi capito) es más formal\".",
+   "motivo": "La nota sugiere que el congiuntivo es obligatorio, pero el propio accept incluye \"avevi capito\" y en la consigna se pedía el trapassato del subjuntivo (contradicción)."
+  },
+  {
+   "id": "item r24-04b",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "The subjunctive",
+   "propuesta": "\"El subjuntivo\" (o ocultar el campo chapter).",
+   "motivo": "Si el campo chapter es visible al alumno es texto en inglés (aparece en r24-04b, r24-05b, r24-03c, r24-01d, r24-06c)."
+  },
+  {
+   "id": "item r24-04b",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Completá con el imperfecto del subjuntivo (formas irregulares).",
+   "propuesta": "\"Completá con el congiuntivo imperfetto.\"",
+   "motivo": "La consigna dice \"formas irregulares\" pero el ítem b (avere → aveste) es regular; además la teoría usa \"congiuntivo imperfetto\", las sfide \"imperfecto del subjuntivo\": unificar terminología."
+  },
+  {
+   "id": "lesson:0:0",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "El único irregular de verdad es *essere → fossi*.",
+   "propuesta": "\"El único irregular en la forma es essere → fossi; unos pocos verbos usan otra raíz (bloque siguiente)\".",
+   "motivo": "El bloque siguiente presenta dare/stare (dessi, stessi) y fare/dire/bere/tradurre como irregulares; suena contradictorio."
+  },
+  {
+   "id": "lesson:1:0",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "*fare, dire, bere, tradurre* toman la raíz del imperfetto (*facevo → facessi*); *dare* y *stare* hacen *dessi*, *stessi*.",
+   "propuesta": "Agregar *porre* (ponessi) —que sí está en la tabla— y mencionar *trarre* (traessi) y verbos en -durre/-orre.",
+   "motivo": "La tabla incluye porre pero la regla no lo nombra."
+  },
+  {
+   "id": "lesson:3:0",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Principal **en pasado o en condicional**: **imperfetto** si es simultáneo, **trapassato** si es anterior.",
+   "propuesta": "Agregar fila/nota: principal en presente + hecho pasado (\"Penso che allora fosse felice\", \"Credo che fosse già partito\").",
+   "motivo": "Se omite un uso muy frecuente en B2; la regla queda incompleta."
+  },
+  {
+   "id": "vocab:insomma",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "insomma | en fin",
+   "propuesta": "\"insomma | en fin / así así\" (según el uso del ejemplo)",
+   "motivo": "El ejemplo (\"Insomma, non benissimo\") significa \"así así\", no \"en fin\"."
+  },
+  {
+   "id": "vocab:convenuto",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "convenuto | convenido",
+   "propuesta": "\"convenuto (convenire) | habría convenido / convenía (ser conveniente)\"",
+   "motivo": "\"convenido\" en español suena a \"acordado\"; falso amigo de sentido."
+  },
+  {
+   "id": "vocab:dispiaciuto",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "dispiaciuto | dado pena (dispiacere)",
+   "propuesta": "\"dispiaciuto | apenado, que lamentó (dispiacere)\"",
+   "motivo": "Glosa poco natural del participio."
+  },
+  {
+   "id": "suoni p-063",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "avessi | avesi",
+   "propuesta": "Reemplazar por un par real, p. ej. cassa/casa o rosso/roso, y decir en la nota que ss se pronuncia larga y sorda vs. s sonora entre vocales.",
+   "motivo": "\"avesi\" no existe; no es un par mínimo real, y la nota no dice qué contraste fonético se debe percibir."
+  },
+  {
+   "id": "suoni p-187",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "qui = [kui]; cui = [kui] también, pero con u más marcada: escuchá el contexto.",
+   "propuesta": "\"qui = [kwi] (u semiconsonante, una sílaba); cui = [kui] (u vocal, más marcada)\". Además, es un par sin relación con el tema de la semana.",
+   "motivo": "qui se pronuncia [kwi]; la nota dice [kui] para ambos, lo que anula el contraste."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Agregar ítems de \"come se\" (cloze/choice, con imperfetto y trapassato) y de \"se solo\"/magari + trapassato.",
+   "por_que": "El bloque 4 enseña come se y se solo, pero ningún ítem los practica."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Reemplazar los ~12 ítems fuera de tema (c1-cong-03/04/06/10, g2-sc-13-b, g2-cb-10/13/14, l2-d-15/17/44/49) por práctica de imperfetto/trapassato, y revisar la asignación de partes (11 vs 55 ítems).",
+   "por_que": "Un tercio de la práctica no evalúa lo enseñado y la parte de forma/irregulares queda casi sin ejercicios."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Conectar la semana con el tema y el fare (prensa, TV, redes; resumir una noticia y contar lo que otros querían): ítems con titulares, tuits, discurso indirecto, y vocab de medios.",
+   "por_que": "Ni el vocab ni las lecturas ni los ítems tocan el tema declarado."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar a la teoría el caso principal en presente + hecho pasado (Penso che fosse...), el acuerdo del participio con essere y el error típico de usar indicativo (Credevo che era).",
+   "por_que": "Cubre huecos frecuentes en B2 y prepara los ítems de auxiliar y concordancia."
+  },
+  {
+   "prioridad": "media",
+   "que": "Diversificar tipos: hoy solo cloze/translate/choice/combina. Sumar fixerr (indicativo en lugar de congiuntivo), conjugate para las formas irregulares, y traducciones con trapassato.",
+   "por_que": "Hay poca producción libre del trapassato (8 cloze guiados con auxiliar dado)."
+  },
+  {
+   "prioridad": "media",
+   "que": "La lectura de la semana (w-30) es corta y sus preguntas no incluyen vero/falso/non si dice; ep9 usa casi solo presente del congiuntivo.",
+   "por_que": "Poca profundidad de comprensión y ep9 no refuerza la gramática de la semana."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Dar contexto a los ítems de traducción con \"se\" sueltos (d20-031/034/036) o pasarlos a semana 33; ocultar/traducir el campo chapter de las sfide.",
+   "por_que": "Fragmentos ambiguos y texto en inglés visible."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Reemplazar los pares suoni de esta semana por pares reales y pertinentes (p. ej. -essi/-esi, vorrei/volei) con nota fonética correcta.",
+   "por_que": "p-063 usa una no-palabra y p-187 no se relaciona con el tema."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

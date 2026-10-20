@@ -1,0 +1,45 @@
+{
+ "week": 12,
+ "level": "A2",
+ "title": "Dario, riposati!",
+ "genre": "rubrica «Stare bene»",
+ "es": "Dario llega a la radio con la voz rara. Sara le pregunta cómo se siente, cómo es su día normal y le da unos cuantos consejos.",
+ "speakers": ["Sara", "Dario"],
+ "turns": [
+  ["A", "Buongiorno e benvenuti alla rubrica «Stare bene». Oggi il paziente è in studio con me: Dario, come ti senti?"],
+  ["B", "Male, Sara. Mi fa male la gola e anche la testa. Stamattina ho quasi perso la voce."],
+  ["A", "Eh, lo sento! Ma dimmi: com'è la tua giornata di solito?"],
+  ["B", "Di solito mi sveglio alle sei, mi alzo subito e vengo qui in bicicletta. La sera esco con gli amici e mi addormento tardi, all'una o alle due."],
+  ["A", "Ecco il problema! Allora, ascolta i consigli della dottoressa Sara. Prima: stasera non uscire. Resta a casa e vai a letto presto."],
+  ["B", "Presto? Alle dieci?"],
+  ["A", "Alle dieci, sì. Secondo: bevi molta acqua e un tè caldo con il miele. Terzo: dopo la trasmissione scendi in farmacia e chiedi uno sciroppo per la gola."],
+  ["B", "E domani? Devo venire in radio?"],
+  ["A", "No. Domani fermati un giorno e stai a letto. Domenica, se ti senti meglio, facciamo una passeggiata ai Giardini Margherita."],
+  ["B", "Va bene, dottoressa. Ma non ti arrabbiare se domani mi sveglio alle sei per abitudine!"],
+  ["A", "Non mi arrabbio. Ma tieni il telefono spento e dormi! E voi, ascoltatori, che cosa fate quando avete mal di gola?"]
+ ],
+ "gloss": {
+  "rubrica": "sección (de un programa)",
+  "paziente": "paciente",
+  "mi fa male": "me duele",
+  "dimmi": "decime",
+  "miele": "miel",
+  "trasmissione": "programa, transmisión",
+  "sciroppo": "jarabe",
+  "per abitudine": "por costumbre",
+  "spento": "apagado",
+  "ascoltatori": "oyentes"
+ },
+ "questions": [
+  ["¿Qué le duele a Dario?", ["La garganta y la cabeza", "La espalda y las piernas", "Los ojos y los oídos", "El estómago"], "La garganta y la cabeza"],
+  ["¿Qué hace Dario de noche, normalmente?", ["Trabaja en la radio hasta tarde", "Sale con amigos y se duerme tarde", "Se acuesta a las diez", "Va en bicicleta al parque"], "Sale con amigos y se duerme tarde"],
+  ["¿Qué tiene que pedir Dario en la farmacia?", ["Un té con miel", "Un jarabe para la garganta", "Algo para dormir toda la noche", "Una receta del médico"], "Un jarabe para la garganta"]
+ ],
+ "info": [
+  ["Dario se despierta a las seis.", true],
+  ["Sara le dice que mañana vaya a la radio.", false],
+  ["Sara y Dario van a correr el domingo.", false]
+ ],
+ "grammatica": {"label": "los reflexivos en presente y el imperativo de tú", "forme": ["ti senti", "mi sveglio", "mi alzo", "mi addormento", "ascolta", "non uscire", "resta", "vai a letto", "bevi", "scendi", "chiedi", "fermati", "non ti arrabbiare", "tieni", "dormi"]},
+ "parole": [["gola", "gola"], ["testa", "testa"], ["solito", "solito"], ["sveglio", "svegliarsi"], ["alzo", "alzarsi"], ["addormento", "addormentarsi"], ["scendi", "scendere"], ["fermati", "fermarsi"], ["arrabbiare", "arrabbiarsi"], ["tieni", "tenere"], ["senti", "sentirsi"], ["domenica", "domenica"]]
+}

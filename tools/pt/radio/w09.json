@@ -1,0 +1,43 @@
+{
+ "week": 9,
+ "level": "A2",
+ "title": "Téo no engarrafamento",
+ "genre": "boletim do trânsito",
+ "es": "Lunes a la mañana y Téo todavía no llegó a la radio. Nanda lo llama: está atrapado en el tránsito y le cuenta dónde está y cómo piensa llegar.",
+ "speakers": ["Nanda", "Téo"],
+ "turns": [
+  ["A", "Bom dia! Hoje eu tô sozinha no estúdio: o Téo ainda não está aqui. Téo, cadê você?"],
+  ["B", "Oi, Nanda! Tô num ônibus na praia de Botafogo, parado no sinal. É um engarrafamento enorme!"],
+  ["A", "Mas você vem de onde?"],
+  ["B", "Venho da rodoviária. Volto de São Paulo, de ônibus: a viagem é longa, mas é barata."],
+  ["A", "E por que você não pega o metrô?"],
+  ["B", "Boa ideia! Vou descer no próximo ponto e vou a pé até a estação Botafogo. De lá pego o metrô pra Copacabana."],
+  ["A", "Pra Copacabana? Não, Téo! A rádio fica em Botafogo, na rua Voluntários da Pátria."],
+  ["B", "Ah, é verdade! Então eu não pego o metrô. Desço do ônibus, viro à esquerda e depois à direita, e chego na rua da rádio."],
+  ["A", "Olha, a Dona Lúcia tá passando de carro aqui na frente. Ela pode te dar uma carona!"],
+  ["B", "Uma carona com a Dona Lúcia? Ela dirige muito devagar!"],
+  ["A", "Devagar como esse ônibus? Impossível! Tô te esperando, e os ouvintes também."]
+ ],
+ "gloss": {
+  "cadê": "¿dónde está?",
+  "parado": "parado, detenido",
+  "enorme": "enorme",
+  "longa": "larga",
+  "devagar": "despacio",
+  "ouvintes": "oyentes",
+  "estúdio": "estudio (de radio)",
+  "rádio": "radio (la emisora)"
+ },
+ "questions": [
+  ["¿Dónde está Téo cuando Nanda lo llama?", ["En un colectivo parado en un semáforo", "En el subte, en una estación cerca de Copacabana", "En la terminal de micros", "En el auto de Dona Lúcia"], "En un colectivo parado en un semáforo"],
+  ["¿De dónde vuelve Téo?", ["De Copacabana", "De São Paulo", "De la playa", "De la casa de Dona Lúcia"], "De São Paulo"],
+  ["¿Por qué Téo no toma el subte al final?", ["Porque la radio queda en Botafogo, no en Copacabana", "Porque el subte está cerrado", "Porque no tiene tarjeta", "Porque Dona Lúcia lo lleva"], "Porque la radio queda en Botafogo, no en Copacabana"]
+ ],
+ "info": [
+  ["Téo viaja de São Paulo en avión.", false],
+  ["Según Téo, Dona Lúcia maneja muy despacio.", true],
+  ["La radio queda en la calle Voluntários da Pátria.", true]
+ ],
+ "grammatica": {"label": "las preposiciones de lugar y movimiento: em (no, na), de, a, para / pra, até", "forme": ["no estúdio", "num ônibus", "na praia de botafogo", "de onde", "da rodoviária", "de são paulo", "de ônibus", "no próximo ponto", "a pé", "até a estação", "pra copacabana", "em botafogo", "na rua", "de carro"]},
+ "parole": [["ônibus", "ônibus"], ["sinal", "sinal"], ["engarrafamento", "engarrafamento"], ["rodoviária", "rodoviária"], ["pega", "pegar"], ["metrô", "metrô"], ["descer", "descer"], ["ponto", "ponto"], ["viro", "virar"], ["esquerda", "esquerda"], ["direita", "direita"], ["carona", "carona"]]
+}

@@ -1,0 +1,377 @@
+{
+  "week": 42,
+  "level": "B2+",
+  "lettura": {
+    "title": "Si prega di voler cortesemente provvedere",
+    "emoji": "📑",
+    "genre": "saggio breve",
+    "grammar": "verbi e preposizioni (reggenze)",
+    "text": "«Si invita la S.V. a voler provvedere al pagamento entro e non oltre il termine sopra indicato.» Chi vive in Italia ha letto frasi del genere decine di volte, e quasi sempre ha avuto bisogno di rileggerle. Il linguaggio della burocrazia, che gli italiani chiamano con una punta di ironia burocratese, è una lingua a parte: si riconosce subito, ma si capisce a fatica.\n\nIl fenomeno non è nuovo. Già nel 1965 Italo Calvino, in un celebre articolo, lo definì «antilingua» e ne diede un esempio rimasto famoso: un brigadiere che, mettendo a verbale la testimonianza di un uomo sceso in cantina ad accendere la stufa, trasforma il suo racconto semplice in una frase interminabile, dove il vino diventa «prodotti vinicoli» e l'uomo diventa «il sottoscritto». Secondo Calvino, chi parla l'antilingua ha paura delle parole concrete e si rifugia in quelle astratte, perché gli sembrano più serie e più sicure.\n\nDa dove nasce questa paura? In parte dipende dalla storia. Per secoli la scrittura amministrativa è stata un privilegio di pochi, e scrivere difficile serviva a marcare una distanza tra chi comandava e chi doveva obbedire. In parte, però, dipende da ragioni più quotidiane. Il funzionario che redige una comunicazione tiene conto soprattutto delle possibili conseguenze legali: teme che una frase troppo semplice possa essere contestata, e preferisce rifarsi a formule già usate, che nessuno ha mai osato mettere in discussione. Così molti testi si limitano a copiare modelli vecchi di decenni, e nessuno si accorge di quanto siano diventati incomprensibili.\n\nLe caratteristiche del burocratese sono facili da elencare. Si abusa dei verbi generici, come effettuare, procedere a, provvedere a: non si paga, ma si procede al pagamento; non si chiude un ufficio, ma si provvede alla chiusura dei locali. Si preferiscono i nomi ai verbi, le forme passive e impersonali a quelle attive, le parole lunghe a quelle brevi. Si ricorre a espressioni come «in ottemperanza a», «ai sensi di», «nelle more di», che chi non ha studiato diritto fatica a interpretare. E soprattutto si rinuncia a indicare chi fa che cosa: il soggetto sparisce, e con lui la responsabilità.\n\nUn esempio aiuta a capire. Un avviso appeso nell'atrio di un ufficio pubblico recitava: «Si rende noto all'utenza che, a decorrere dal giorno 1 del mese corrente, si procederà all'interruzione del servizio di ricevimento del pubblico nella fascia pomeridiana». Tradotto: da questo mese l'ufficio è chiuso il pomeriggio. Otto parole contro venticinque, e nessuna informazione persa. La versione breve, anzi, ne aggiunge una: fa capire subito al cittadino che cosa cambia per lui.\n\nIl prezzo di questa lingua lo pagano i cittadini. Un modulo poco chiaro fa perdere tempo, spinge le persone a rivolgersi a intermediari a pagamento, moltiplica gli errori e quindi le pratiche da correggere. A soffrirne di più sono proprio i più deboli: gli anziani, chi ha studiato poco, gli stranieri che stanno imparando l'italiano e che, davanti a una lettera dell'ufficio tributi, non sanno se si tratti di un avviso o di una multa.\n\nNegli ultimi decenni sono stati fatti diversi tentativi per cambiare le cose. Sono stati pubblicati manuali di stile e guide alla scrittura chiara, e alcune amministrazioni hanno cominciato ad avvalersi della consulenza di linguisti. Le regole proposte sono semplici: usare frasi brevi, preferire le parole comuni, rivolgersi direttamente al lettore, mettere all'inizio l'informazione più importante. Eppure i risultati sono stati disomogenei. Molti uffici si sono attenuti alle nuove indicazioni per qualche mese, per poi tornare alle vecchie abitudini.\n\nIl motivo, forse, è che scrivere in modo semplice è più difficile che scrivere in modo complicato. Richiede di sapere esattamente che cosa si vuole dire, di assumersi la responsabilità di dirlo e di fidarsi del lettore. Non basta sostituire qualche parola: bisogna ripensare il rapporto tra l'amministrazione e i cittadini che la finanziano con le loro tasse.\n\nNon si tratta, insomma, di una questione di stile. Una pubblica amministrazione che si fa capire è un'amministrazione che rispetta i cittadini e che accetta di essere controllata da loro. E se un giorno riceveremo una lettera che dice semplicemente «Deve pagare entro il 30 giugno», potremo dire che l'antilingua, finalmente, ha cominciato a perdere terreno.",
+    "gloss": {
+      "soffrirne": "(a soffrirne di più sono...) los que más lo sufren son...: *essere* + *a* + infinitivo destaca quién (semana 48)",
+      "noto": "(si rende noto) se hace saber",
+      "rifarsi": "(rifarsi a) remitirse a, basarse en",
+      "conto": "(tiene conto di) tiene en cuenta",
+      "burocratese": "lenguaje burocrático",
+      "fatica": "(a fatica) con dificultad",
+      "brigadiere": "suboficial (de policía o de carabineros)",
+      "verbale": "(mettere a verbale) asentar en un acta",
+      "cantina": "sótano",
+      "stufa": "estufa",
+      "rifugia": "se refugia",
+      "obbedire": "obedecer",
+      "redige": "redacta",
+      "contestata": "impugnada, cuestionada",
+      "osato": "(nessuno ha mai osato) nadie se animó nunca",
+      "elencare": "enumerar",
+      "effettuare": "efectuar",
+      "ottemperanza": "(in ottemperanza a) en cumplimiento de",
+      "sensi": "(ai sensi di) conforme a, según",
+      "more": "(nelle more di) mientras se espera, en el ínterin",
+      "intermediari": "gestores, intermediarios",
+      "pratiche": "trámites, expedientes",
+      "tributi": "(ufficio tributi) oficina de rentas",
+      "multa": "multa",
+      "avvalersi": "valerse, servirse",
+      "consulenza": "asesoramiento",
+      "disomogenei": "desparejos",
+      "attenuti": "(si sono attenuti) se atuvieron",
+      "finanziano": "financian",
+      "terreno": "(perdere terreno) retroceder",
+      "atrio": "hall, vestíbulo",
+      "utenza": "público, usuarios",
+      "decorrere": "(a decorrere da) a partir de"
+    },
+    "questions": [
+      [
+        "Qual è lo scopo principale del testo?",
+        [
+          "Ridicolizzare i funzionari pubblici italiani",
+          "Analizzare il burocratese: cause, costi, rimedi",
+          "Presentare la biografia e le opere di Italo Calvino",
+          "Insegnare a compilare correttamente i moduli"
+        ],
+        "Analizzare il burocratese: cause, costi, rimedi"
+      ],
+      [
+        "Perché, secondo Calvino, si usa l'antilingua?",
+        [
+          "Perché la legge obbliga a usare certe formule",
+          "Per farsi capire meglio dai cittadini stranieri",
+          "Perché i brigadieri non conoscono l'italiano",
+          "Per paura delle parole concrete, che sembrano meno serie"
+        ],
+        "Per paura delle parole concrete, che sembrano meno serie"
+      ],
+      [
+        "Che cosa intende l'autore quando dice che con il soggetto sparisce «la responsabilità»?",
+        [
+          "Che non si capisce più chi deve fare che cosa",
+          "Che i funzionari non firmano mai le proprie lettere",
+          "Che i cittadini non rispettano le regole",
+          "Che le leggi non indicano le sanzioni"
+        ],
+        "Che non si capisce più chi deve fare che cosa"
+      ],
+      [
+        "Chi soffre di più, secondo il testo, a causa del burocratese?",
+        [
+          "I funzionari che devono scrivere i testi",
+          "I linguisti chiamati come consulenti",
+          "Le persone più fragili, come anziani e stranieri",
+          "Gli avvocati e gli intermediari"
+        ],
+        "Le persone più fragili, come anziani e stranieri"
+      ],
+      [
+        "Perché, secondo l'autore, i tentativi di riforma hanno dato risultati disomogenei?",
+        [
+          "Perché scrivere semplice richiede chiarezza e coraggio",
+          "Perché i manuali di stile erano scritti male",
+          "Perché i cittadini preferiscono di gran lunga lo stile tradizionale",
+          "Perché le consulenze dei linguisti costavano troppo"
+        ],
+        "Perché scrivere semplice richiede chiarezza e coraggio"
+      ]
+    ],
+    "vf": [
+      [
+        "Calvino scrisse il suo articolo sull'antilingua nel 1965.",
+        "vero"
+      ],
+      [
+        "Secondo l'autore, il burocratese è un fenomeno nato negli ultimi anni.",
+        "falso"
+      ],
+      [
+        "Tutte le amministrazioni italiane ormai si attengono alle guide alla scrittura chiara.",
+        "falso"
+      ],
+      [
+        "L'autore lavora come consulente linguistico per un Comune.",
+        "non si dice"
+      ],
+      [
+        "Per l'autore, scrivere in modo chiaro è anche una forma di rispetto verso i cittadini.",
+        "vero"
+      ]
+    ],
+    "hunt": {
+      "label": "Tocá los verbos que rigen una preposición fija (provvedere a, dipendere da, accorgersi di…)",
+      "targets": ["provvedere", "procedere", "procede", "procederà", "provvede", "dipende", "rifugia", "rifarsi", "limitano", "accorge", "abusa", "ricorre", "rinuncia", "tratti", "tratta", "rivolgersi", "avvalersi", "attenuti", "fidarsi"]
+    }
+  },
+  "ascolto": {
+    "title": "Riscrivere il sollecito",
+    "genre": "conversazione tra colleghi",
+    "es": "En una oficina municipal, una funcionaria con años de experiencia y un colega más joven discuten cómo redactar una carta que se manda a los vecinos.",
+    "speakers": [
+      "Valeria, funzionaria",
+      "Tommaso, collega"
+    ],
+    "turns": [
+      [
+        "A",
+        "Tommaso, hai finito con la lettera di sollecito per la tassa sui rifiuti? Il dirigente la vuole entro stasera."
+      ],
+      [
+        "B",
+        "Quasi. Però, senti, volevo parlarti di una cosa. Ho riletto il modello che usiamo da anni e, sinceramente, ho fatto fatica a capirlo io, che ci lavoro."
+      ],
+      [
+        "A",
+        "In che senso? È sempre andato bene."
+      ],
+      [
+        "B",
+        "Ti leggo l'inizio: si comunica che, a seguito delle verifiche effettuate, risulta a carico della signoria vostra un importo non corrisposto relativo all'annualità in oggetto, per il quale si invita a provvedere entro sessanta giorni dal ricevimento della presente. Ecco. Tu, se fossi mia nonna, capiresti che cosa devi fare?"
+      ],
+      [
+        "A",
+        "Tua nonna forse no, ma il contenuto è corretto. E poi queste formule servono a tutelarci: se un giorno qualcuno fa ricorso, dobbiamo poter dimostrare di aver scritto tutto."
+      ],
+      [
+        "B",
+        "Sì, su questo sono d'accordo con te: deve essere corretto. Ma corretto non vuol dire incomprensibile. Guarda come l'ho riscritta io: gentile signora, gentile signore, dai nostri controlli risulta che non ha ancora pagato la tassa sui rifiuti dell'anno scorso. Deve pagare centottantasei euro entro sessanta giorni da quando riceve questa lettera."
+      ],
+      [
+        "A",
+        "Mh. Troppo diretta, non ti pare? Sembra quasi una minaccia."
+      ],
+      [
+        "B",
+        "Ma no, dopo c'è il resto. Ho aggiunto un paragrafo che spiega come si paga e, soprattutto, uno che dice che cosa fare se si pensa che ci sia un errore. Nel vecchio modello quella parte non c'era proprio, o meglio, c'era un rinvio al regolamento comunale, articolo tal dei tali."
+      ],
+      [
+        "A",
+        "Beh, questo è vero, ci telefonano in tanti proprio per questo. L'altra settimana ho passato un'ora con un signore che era convinto di dover pagare una multa. Non riusciva a capire di che cosa si trattasse."
+      ],
+      [
+        "B",
+        "Appunto! Se la lettera fosse chiara, risparmieremmo tempo anche noi. Meno telefonate, meno gente allo sportello, meno ricorsi inutili."
+      ],
+      [
+        "A",
+        "Va bene, mi hai quasi convinta. Ma il riferimento alla norma lo dobbiamo lasciare, eh. Su questo non transigo."
+      ],
+      [
+        "B",
+        "Certo, certo. L'ho messo alla fine, in piccolo, in una nota. Chi vuole controllare lo trova, chi non ne ha bisogno non si spaventa."
+      ],
+      [
+        "A",
+        "E il Lei? Hai scritto non ha pagato, deve pagare. Non era meglio lasciare l'impersonale?"
+      ],
+      [
+        "B",
+        "Secondo me no. Rivolgersi direttamente alla persona la fa sentire presa in considerazione. E poi le linee guida sulla scrittura chiara che ci hanno mandato l'anno scorso dicono proprio questo. Le hai lette?"
+      ],
+      [
+        "A",
+        "Le ho sfogliate, diciamo. Va bene, facciamo così: mandami tutte e due le versioni. Le porto io al dirigente e cerco di convincerlo a provare la tua. Se va male, però, delle telefonate ti occupi tu."
+      ],
+      [
+        "B",
+        "Affare fatto. Tanto sono sicuro che il telefono squillerà molto meno."
+      ]
+    ],
+    "gloss": {
+      "tanto": "(tanto sono sicuro) total, igual estoy seguro",
+      "tali": "(articolo tal dei tali) artículo tal y cual",
+      "sollecito": "recordatorio de pago, intimación",
+      "dirigente": "jefe, director",
+      "corrisposto": "pagado, abonado",
+      "annualità": "año fiscal, anualidad",
+      "tutelarci": "protegernos",
+      "ricorso": "recurso, reclamo formal",
+      "rinvio": "remisión (a otro texto)",
+      "sportello": "ventanilla",
+      "transigo": "transijo, cedo",
+      "sfogliate": "hojeadas",
+      "affare": "(affare fatto) trato hecho",
+      "squillerà": "sonará (el teléfono)"
+    },
+    "questions": [
+      [
+        "Di che cosa si tratta nella lettera su cui lavora Tommaso?",
+        [
+          "Di un avviso di multa per divieto di sosta",
+          "Di un invito a un'assemblea di quartiere",
+          "Della risposta al ricorso di un cittadino",
+          "Di un sollecito per la tassa sui rifiuti"
+        ],
+        "Di un sollecito per la tassa sui rifiuti"
+      ],
+      [
+        "Perché all'inizio Valeria difende il vecchio modello?",
+        [
+          "Perché è più breve e veloce da scrivere",
+          "Perché piace molto ai cittadini",
+          "Perché protegge l'ufficio in caso di ricorso",
+          "Perché l'ha scritto il dirigente"
+        ],
+        "Perché protegge l'ufficio in caso di ricorso"
+      ],
+      [
+        "Quale aspetto della nuova versione convince di più Valeria?",
+        [
+          "L'eliminazione di ogni riferimento alla legge",
+          "La spiegazione di cosa fare in caso di errore",
+          "L'uso dell'impersonale al posto del Lei",
+          "La riduzione dell'importo da pagare"
+        ],
+        "La spiegazione di cosa fare in caso di errore"
+      ],
+      [
+        "Dove ha messo Tommaso il riferimento alla norma?",
+        [
+          "All'inizio della lettera, in grassetto",
+          "In un allegato separato",
+          "Non l'ha messo da nessuna parte",
+          "In una nota alla fine"
+        ],
+        "In una nota alla fine"
+      ],
+      [
+        "Con quale atteggiamento Valeria accetta di presentare la nuova versione?",
+        [
+          "Con una certa prudenza e un po' di ironia",
+          "Con entusiasmo, senza nessun dubbio",
+          "Con rabbia, perché si sente criticata",
+          "Con indifferenza, perché non le interessa"
+        ],
+        "Con una certa prudenza e un po' di ironia"
+      ]
+    ],
+    "vf": [
+      [
+        "Secondo Tommaso, il vecchio modello è difficile anche per chi lavora in ufficio.",
+        "vero"
+      ],
+      [
+        "Valeria ha letto con attenzione le linee guida sulla scrittura chiara.",
+        "falso"
+      ],
+      [
+        "Tommaso lavora in quell'ufficio da meno di un anno.",
+        "non si dice"
+      ],
+      [
+        "Nella versione di Tommaso l'importo da pagare è indicato in modo chiaro.",
+        "vero"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "lettera_lettore",
+    "title": "Scrivere chiaro si può",
+    "fonte": "entrambi",
+    "t": "Un quotidiano ha pubblicato il saggio «Si prega di voler cortesemente provvedere». Scrivi una lettera alla redazione in cui racconti una tua esperienza con un testo burocratico difficile (in Italia o nel tuo Paese), commenti almeno una tesi dell'articolo e proponi alcune regole per una scrittura amministrativa più chiara, prendendo spunto anche dalla conversazione tra Valeria e Tommaso. Registro formale, da 199 a 259 parole.",
+    "es": "Carta de lector: experiencia personal, comentario de una tesis del ensayo y propuestas concretas (podés retomar lo que hizo Tommaso). Cuidá las preposiciones que rigen los verbos: rivolgersi a, rinunciare a, trattarsi di, dipendere da.",
+    "min": 199,
+    "max": 259,
+    "punti": [
+      [
+        "contar una experiencia personal",
+        [
+          "ho ricevuto",
+          "mi è capitato",
+          "qualche mese fa",
+          "esperienza"
+        ]
+      ],
+      [
+        "comentar una tesis del ensayo",
+        [
+          "articolo",
+          "autore",
+          "calvino",
+          "antilingua",
+          "burocratese"
+        ]
+      ],
+      [
+        "proponer reglas de escritura clara",
+        [
+          "propongo",
+          "regole",
+          "frasi brevi",
+          "parole comuni"
+        ]
+      ],
+      [
+        "fórmulas de apertura y cierre",
+        [
+          "gentile redazione",
+          "cara redazione",
+          "egregio direttore",
+          "cordiali saluti",
+          "distinti saluti"
+        ]
+      ]
+    ],
+    "model": "Gentile Redazione,\n\nho letto con grande interesse il saggio «Si prega di voler cortesemente provvedere» e vorrei aggiungere la mia esperienza di straniera che vive in Italia da due anni.\n\nQualche mese fa ho ricevuto una lettera dell'ufficio tributi del mio Comune. L'ho letta tre volte e non riuscivo a capire se si trattasse di una multa, di un rimborso o di un semplice avviso. Alla fine mi sono rivolta a un'amica italiana, che però ha avuto le mie stesse difficoltà. Solo allo sportello ho scoperto che dovevo pagare trenta euro di tassa sui rifiuti: sarebbero bastate due righe.\n\nSono d'accordo con l'autore quando scrive che il burocratese colpisce soprattutto i più deboli. Chi sta imparando una lingua ha già abbastanza ostacoli e non ha bisogno di essere messo alla prova anche da un modulo. Non credo, tuttavia, che la colpa sia solo dei funzionari: spesso sono costretti a rifarsi a modelli che nessuno ha il coraggio di cambiare.\n\nPer questo propongo alcune regole semplici: dire subito che cosa deve fare il cittadino ed entro quando; usare frasi brevi e parole comuni; rivolgersi al lettore con il Lei; spiegare che cosa fare in caso di errore; lasciare i riferimenti alle norme in una nota finale, per chi vuole controllarli. Scrivere chiaro non significa rinunciare alla precisione, ma rispettare chi legge.\n\nCordiali saluti,\nAna Ferreyra, Bologna",
+    "gloss": {
+      "ufficio tributi": "oficina de impuestos (municipales)",
+      "sportello": "ventanilla",
+      "rifiuti": "residuos (tassa sui rifiuti = tasa de recolección de basura)",
+      "burocratese": "la jerga burocrática",
+      "messo alla prova": "puesto a prueba",
+      "rifarsi a": "basarse en, remitirse a",
+      "entro quando": "hasta cuándo, en qué plazo"
+    }
+  },
+  "breve": {
+    "title": "Ufficio tributi, resti in linea",
+    "genre": "messaggio automatico di un centralino",
+    "es": "El mensaje grabado de la oficina de impuestos municipales: opciones, vencimientos y horarios.",
+    "speaker": "Voce registrata",
+    "voice": 1,
+    "text": [
+      "Benvenuto nel servizio clienti dell'Ufficio tributi del Comune. La informiamo che la telefonata potrebbe essere registrata. Per richiedere informazioni sulla tassa sui rifiuti, prema uno. Per segnalare un errore in un avviso di pagamento, prema due. Per fissare un appuntamento allo sportello, prema tre. Per tutte le altre richieste, resti in linea.",
+      "Si ricorda che il termine per il pagamento della prima rata è fissato al 16 giugno. Chi non riceve l'avviso entro il 31 maggio è invitato a rivolgersi allo sportello, oppure a scaricarlo dal sito del Comune, nella sezione «Tributi».",
+      "Gli uffici sono aperti al pubblico dal lunedì al venerdì dalle nove alle dodici e trenta, e il martedì anche dalle quindici alle diciassette.",
+      "In questo momento tutti gli operatori sono occupati. La preghiamo di attendere: il tempo di attesa stimato è di circa otto minuti."
+    ],
+    "tabella": [
+      ["Tasto per segnalare un errore", "2", ["due"]],
+      ["Scadenza della prima rata", "16 giugno", ["il 16 giugno", "sedici giugno"]],
+      ["Giorno con apertura anche di pomeriggio", "martedì", ["il martedì"]],
+      ["Attesa stimata (minuti)", "8", ["otto", "circa otto", "otto minuti"]]
+    ],
+    "info": [
+      ["La telefonata potrebbe essere registrata.", true],
+      ["Con il tasto tre si prende un appuntamento allo sportello.", true],
+      ["L'avviso di pagamento si può scaricare dal sito.", true],
+      ["Gli uffici sono aperti anche il sabato mattina.", false],
+      ["Il termine per la prima rata è il 31 maggio.", false],
+      ["In questo momento c'è un operatore libero.", false]
+    ],
+    "gloss": {
+      "tributi": "impuestos, tasas",
+      "rata": "cuota",
+      "sportello": "ventanilla",
+      "resti in linea": "no corte"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+ "week": 36,
+ "title": "Crase",
+ "level": "B2",
+ "revisado": {"items": 48, "bloques_teoria": 8, "lecturas": 2, "dictogloss": 1, "suoni": 2, "radio": 0, "otros": 4},
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida y casi libre de errores: los 48 ítems tienen respuestas correctas y el portugués de lecturas, dictogloss y tramo es natural y correcto. La teoría cubre lo esencial (truco del masculino, horas, nunca-crase, lugares con «vou a / volto da», àquele y locuciones). Reparos: un tip de la teoría es incoherente (truco del masculino aplicado a aquele), hay ejercicios (duelos) que evalúan puntos no enseñados (cara a cara, daqui a), redundancia en ítems de Copacabana/horas y casi no hay trabajo de suoni. Falta también teoría de casos que las lecturas ya usan (devido à, nombres propios, relativos).",
+ "bien": [
+  "Progresión clara reconocimiento (choice) → completar (cloze) → traducir/combinar → detectar errores (fixerr/garden), con 12 de choice, 12 de cloze y 8 de translate.",
+  "La regla de lugares «vou a, volto da, crase há» con tabla y rima es muy memorable y está bien practicada (ítems 08-10, 20, 28, 36, 37, 41, 45).",
+  "Los distractores de nunca-crase (verbo, pronombre, masculino, uma, esta, plural sin artículo) cubren exactamente los errores típicos del hispanohablante.",
+  "Lecturas (Lapa, roteiro da mãe, columna de las placas) reciclan la crase de forma natural y con datos culturales verificables (Selarón 1990-2013, Arcos da Lapa, corte en la Bahía en 1808, Tia Ciata, Pelo Telefone).",
+  "El simétrico «de… a, da… à, das… às» de la columna y la tarea de carta abierta con modelo y puntos de control están muy bien diseñados.",
+  "Las notas de los ítems son breves, correctas y refuerzan la regla; los accept de las traducciones son amplios en pronombre sujeto y variantes."
+ ],
+ "hallazgos": [
+  {"id": "lesson:5:2", "lang": "regla", "severidad": "error", "actual": "Truco: si con masculino queda *a aquele*, ya está: se funde en *àquele*.", "propuesta": "Con aquele/aquela/aquilo no hace falta el truco del masculino: si el verbo pide *a*, siempre se funde (a + aquele = àquele, a + aquela = àquela).", "motivo": "El tip es incoherente: a + aquele se funde siempre, sin importar el género, y el «truco» del masculino no se aplica a los demostrativos."},
+  {"id": "lesson:7", "lang": "regla", "severidad": "duda", "actual": "con palabras del kimbundu: *bué* (mucho), *kota* (persona mayor), *kamba* (amigo).", "propuesta": "Decir «con palabras de lenguas bantúes como el kimbundu: *kota*, *kamba*; y la jerga *bué*, muy común también en Portugal».", "motivo": "El origen kimbundu de *bué* es discutido; kota y kamba sí son kimbundu."},
+  {"id": "col-36-2", "lang": "ejercicio", "severidad": "duda", "actual": "options: prestar / colocar / pôr — answer: prestar", "propuesta": "Cambiar un distractor por uno claramente incorrecto (p. ej. «fazer» o «dar» → «dar atenção» también existe; mejor «tomar»).", "motivo": "«pôr atenção» está registrado en los diccionarios del portugués de Brasil, así que hay una segunda opción casi correcta."},
+  {"id": "vocab:dispensar", "lang": "es", "severidad": "duda", "actual": "Falso amigo: no es disculpar.", "propuesta": "Dispensar: en portugués es sobre todo «prescindir/eximir»; en español «dispensar» también existe (eximir, conceder), así que es amigo parcial, no falso.", "motivo": "Afirmar que es falso amigo y que no significa disculpar es exagerado."},
+  {"id": "lettura fl-crase", "lang": "pt", "severidad": "duda", "actual": "jantar no boteco do seu Almir, àquela mesa da janela.", "propuesta": "jantar no boteco do seu Almir, naquela mesa da janela. (o: jantar à mesa da janela)", "motivo": "«àquela mesa» como aposición de «no boteco» no tiene verbo ni nombre que rija la preposición a; la crase queda sin justificar."},
+  {"id": "tramo:breve", "lang": "pt", "severidad": "duda", "actual": "E à noite, para fechar o domingo, o pôr do sol no Farol da Barra, que é de graça.", "propuesta": "E no fim da tarde, para fechar o domingo, o pôr do sol no Farol da Barra, que é de graça.", "motivo": "El pôr do sol ocurre a la tarde; «à noite» es incoherente (y el vf lo da por «de graça» sin hora)."},
+  {"id": "duelos:crase", "lang": "ejercicio", "severidad": "mejora", "actual": "Fiquei cara ___ cara com ele. / Daqui ___ duas semanas começa o curso.", "propuesta": "Agregar a la teoría (bloque 'Nunca crase') las reglas «palabras repetidas: cara a cara, gota a gota» y «daqui a + tiempo», o reemplazar estos ítems.", "motivo": "Se evalúan dos casos de no-crase que la lección no enseña."},
+  {"id": "item s3-36-08", "lang": "ejercicio", "severidad": "mejora", "actual": "Vou ___ Copacabana amanhã.", "propuesta": "Variar: usar otro lugar sin artículo (Salvador, Paris, Brasília) en lugar de repetir Copacabana.", "motivo": "Copacabana aparece en s3-36-08, 28, 36, 37 y 45: casi duplicados."},
+  {"id": "item s3-36-27", "lang": "ejercicio", "severidad": "mejora", "actual": "\"Dei o livro para ela\"", "propuesta": "Agregar a accept: \"Dei o livro pra ela\", \"Eu dei o livro pra ela\".", "motivo": "Es la forma coloquial brasileña más natural, equivalente a las ya aceptadas."},
+  {"id": "item s3-36-40", "lang": "ejercicio", "severidad": "mejora", "actual": "Cuando el verbo está en pasado.", "propuesta": "Sustituir por un distractor plausible (p. ej. «Siempre que hay una a delante de una palabra femenina plural»).", "motivo": "El distractor es obvio y no evalúa la regla; en 41 pasa algo parecido («Solo las ciudades llevan crase»)."},
+  {"id": "lesson:1", "lang": "ejercicio", "severidad": "mejora", "actual": "(Pensá: fui a pé) Fui ___ cavalo.", "propuesta": "Fui ___ cavalo. (cavalo es masculino: ¿ao o a?) — o reemplazar el ítem por uno donde el truco del masculino sea realmente aplicable.", "motivo": "La pista «fui a pé» no ayuda a decidir y confunde sobre cómo usar el truco."},
+  {"id": "lesson:6", "lang": "es", "severidad": "mejora", "actual": "Y *à moda de*, también oculto: *bife à milanesa*.", "propuesta": "Y *à moda de*, con *moda* sobreentendida: *bife à milanesa* (= à moda milanesa).", "motivo": "«oculto» es poco claro para el alumno."},
+  {"id": "lettura w-36", "lang": "es", "severidad": "mejora", "actual": "\"errava\": \"le erraba a\"", "propuesta": "\"errava\": \"se equivocaba con (errar a crase)\"", "motivo": "La glosa no es una traducción comprensible del uso del verbo."}
+ ],
+ "mejoras": [
+  {"prioridad": "alta", "que": "Ampliar la teoría con los casos que ya aparecen en lecturas/vocab: devido à / graças à / em relação à, nombres propios de persona (pediu à Bia), repetidas (cara a cara), daqui a, a distância, y relativos (à qual); o bien quitarlos de los textos.", "por_que": "Hoy el alumno ve crase en lectura y tramo sin haberla estudiado."},
+  {"prioridad": "alta", "que": "Corregir el tip de àquele (lesson:5:2).", "por_que": "Es la única regla confusa de la teoría."},
+  {"prioridad": "media", "que": "Reducir redundancias: 5 ítems con Copacabana, 7+ de horas y 3-4 de «a ela»; reasignar esos huecos a puntos sin práctica (à noite, às vezes, até as/até às, desde as, à meia-noite, esta/essa, posesivos, a casa).", "por_que": "Equilibra la cobertura: locuciones y horas con preposición (desde, para, até) tienen casi 0 ítems."},
+  {"prioridad": "media", "que": "Agregar suoni: crase no se pronuncia distinto (pares como «a/há/à» audio, conteo de palabras en horas) y entonación, hoy casi vacío (1 conta + 1 acento no relacionado).", "por_que": "Refuerza que la crase es un fenómeno escrito y trabaja la escucha."},
+  {"prioridad": "media", "que": "Mejorar los distractores de scopri (40, 41) y de choice con opciones más cercanas a la regla (a aquela / à aquela ya están bien).", "por_que": "Evalúan comprensión de la regla y no descarte por sentido."},
+  {"prioridad": "baja", "que": "Reconsiderar el bloque «Sotaque da semana: Luanda» o enlazarlo con la crase.", "por_que": "Es ajeno al tema y mezcla norma europea en un curso de pt-BR."},
+  {"prioridad": "baja", "que": "Incluir un ítem de producción libre breve (escribir 3 frases con locuciones) antes del tramo.", "por_que": "Falta un paso intermedio entre ítems cerrados y la carta del tramo."}
+ ],
+ "por_idioma": {"pt": {"errores": 0, "dudas": 2}, "es": {"errores": 0, "dudas": 1}, "en": {"errores": 0, "dudas": 0}}
+}

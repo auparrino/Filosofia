@@ -1,0 +1,168 @@
+{
+ "week": 40,
+ "title": "Registro formal e nominalização",
+ "level": "B2",
+ "revisado": {
+  "items": 48,
+  "bloques_teoria": 9,
+  "lecturas": 3,
+  "dictogloss": 1,
+  "suoni": 2,
+  "radio": 0,
+  "otros": 29
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida y correcta en lo lingüístico: no encontré errores de portugués ni de reglas; la teoría de -ção/-mento, haver existencial, proceder a, ênclise y pronombres es exacta. El único error claro es una glosa de vocabulario ilegible. Los reparos son de diseño: ítems casi duplicados (análise x4, vender x2, realizaram-se x3), dos ítems con sufijos no enseñados (-ura, -ência), poca práctica de varios puntos enseñados (efetuar, conceder/fornecer, o mesmo) y un salto fuerte entre la teoría y el tramo (texto de 618 palabras). Tasa estimada de falsos positivos: baja (~10%).",
+ "bien": [
+  "Teoría clara y bien ordenada: molde -ção/-mento, excepciones (análise, pesquisa, venda), frase nominal, haver, verbos del informe, impersonalidad; con tablas habla/escritura y advertencias de errores típicos (investimiento, haviam, de os).",
+  "Mezcla de tipos muy buena (choice, cloze, translate, fixerr, garden, scopri, typed, combina) con progresión de reconocimiento a producción, y notas que explican la regla.",
+  "Contexto cultural brasileño coherente (Constituição Cidadã, Diretas Já, Lei Áurea, Freyre, Museu Nacional) y datos históricos correctos.",
+  "El tramo es excelente: sumario ejecutivo auténtico, diálogo orientadora-tesista que enseña cuándo no nominalizar, comunicado institucional y tarea de resumen con modelo y palabras clave.",
+  "Buenos distractores centrados en la regla (houveram, haverem, de os, Realizou-se + plural) en lugar del sentido.",
+  "Aceptación de respuestas generosa en traducciones (sinónimos formales: Nota-se, Constata-se, Verifica-se)."
+ ],
+ "hallazgos": [
+  {
+   "id": "vocab:o relatório",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "*Fazer* o *apresentar um relatório*.",
+   "propuesta": "*Apresentar um relatório* / *fazer um relatório*.",
+   "motivo": "Nota de vocabulario con texto mezclado e ilegible («Fazer o apresentar»)."
+  },
+  {
+   "id": "item s4-40-03",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "A ___ da Lei Áurea, em 13 de maio de 1888, aboliu a escravidão.",
+   "propuesta": "Enseñar -ura / -ência en la lección (assinar → assinatura, transferir → transferência) o dejar claro que es ítem de descubrimiento.",
+   "motivo": "Evalúa derivaciones (-ura) que la lección no presenta; solo se acierta por descarte."
+  },
+  {
+   "id": "item s4-40-04",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "A ___ da capital do Rio para Brasília aconteceu em 1960.",
+   "propuesta": "Agregar -ência/-ância a la teoría (transferência, ausência, importância) o agregar pista.",
+   "motivo": "Sufijo -ência no enseñado esta semana."
+  },
+  {
+   "id": "item s4-40-42",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "vender → ___",
+   "propuesta": "Cambiar por otro verbo (p. ej. escolher → a escolha, debater → o debate, cortar → o corte).",
+   "motivo": "Casi duplicado de s4-40-17 (venda); además analisar se repite en s4-40-01, 27, 34 y 37."
+  },
+  {
+   "id": "item s4-40-36",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Realizou-se três reuniões com os moradores da Maré.",
+   "propuesta": "Variar el verbo (Efetuaram-se / Constataram-se / Verificaram-se) para no repetir «realizaram-se três reuniões».",
+   "motivo": "Repite la misma frase de la lección (bloque 6), de s4-40-23 y de la opción del bloque 6."
+  },
+  {
+   "id": "item s4-40-33",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Haviam mais de um milhão de pessoas na Candelária em abril de 1984.",
+   "propuesta": "Haviam milhares de pessoas... / o dato «cerca de um milhão» en la nota.",
+   "motivo": "El sujeto «mais de um milhão» es singular y puede distraer; la nota dice «cerca de um milhão», no «mais de»."
+  },
+  {
+   "id": "item s4-40-12",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Al principio de la oración, la norma pide ênclise: Observam-se.",
+   "propuesta": "Agregar: «en Brasil también se ve Se observam en textos reales; para el curso, usá ênclise».",
+   "motivo": "Se presenta como error absoluto lo que es norma prescriptiva; la próclisis inicial es frecuente en la escritura brasileña."
+  },
+  {
+   "id": "item s4-40-40",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Los dos son masculinos, como el español «el».",
+   "propuesta": "Los dos son masculinos, como en español.",
+   "motivo": "Opción confusa e inexacta («como el español «el»»)."
+  },
+  {
+   "id": "lettura w-40",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Na biblioteca da escola, a Bia afixou um trecho do artigo 5º",
+   "propuesta": "Quitar el párrafo o integrarlo (p. ej. a Bia, aluna de Direito, comentou o artigo 5º).",
+   "motivo": "Cierre de personaje desconectado del texto informativo, introducido solo para el vf «não se diz»."
+  },
+  {
+   "id": "lettura c-freyre",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"grammar\": \"argumentação e subjuntivo\"",
+   "propuesta": "Reasignar a una semana de argumentación/subjuntivo o vincular con registro formal.",
+   "motivo": "Lectura de nivel C1 y gramática ajena a la semana 40 (B2, nominalización)."
+  },
+  {
+   "id": "lettura c-freyre",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "\"atraso\": \"atraso\", \"sombra\": \"sombra\", \"castigo\": \"castigo\"",
+   "propuesta": "atraso: «retraso, atraso»; sombra: «sombra (lo que se omite)»; o quitar glosas idénticas.",
+   "motivo": "Glosas tautológicas sin aporte (también «promulgada» en w-40)."
+  },
+  {
+   "id": "lesson:8",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Mia Couto, el escritor mozambiqueño que vas a leer en la 51, juega con este portugués.",
+   "propuesta": "Verificar la referencia a la semana 51 y explicitar que «estou a trabalhar» es forma europea/africana, no brasileña.",
+   "motivo": "Bloque fuera de las partes (0-7) y sin ítems; remisión no verificable desde el dossier."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Preparar mejor el salto al tramo: agregar a la lección (y practicar en 4-6 ítems) más nominalizaciones del texto del tramo (-ência/-ância, -ura, -dade, -ão: concessão, desistência, reprovação, implantação) y conectores formales (contudo, portanto, por outro lado, diante do exposto).",
+   "por_que": "El sumario ejecutivo (618 palabras) y la tarea exigen nominalizar mucho más de lo enseñado y practicado."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Reducir duplicados: análise aparece en s4-40-01, 27, 34, 37 y la lección; vender en 17 y 42; realizaram-se en lección, 23 y 36. Reemplazar por verbos no practicados (escolher, debater, cortar, abrir → abertura, encerrar → encerramento).",
+   "por_que": "Libera ítems para puntos sin cobertura y evita memorización de frases."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar ítems sobre efetuar/conceder/fornecer/demonstrar/evidenciar y sobre «o mesmo» (reescribir con ele/o), y una transformación inversa (informe → habla: «o aumento dos preços» → «os preços aumentaram»).",
+   "por_que": "Puntos enseñados con 0-1 ítem; la transformación inversa refuerza la comprensión lectora."
+  },
+  {
+   "prioridad": "media",
+   "que": "Subir la proporción de producción: hay 12 choice + 12 cloze pero solo 8 translate y 3 combina; agregar 3-4 combina/reescritura de párrafo corto a registro formal.",
+   "por_que": "El objetivo de la semana (escribir en registro formal) se practica sobre todo con reconocimiento."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Hacer más explícito el contraste con el español en el bloque -ção/-mento (ej. -ción → -ção es regular, pero -miento/-mento y falsos amigos como pesquisa/encuesta), y asignar el bloque Maputo a una parte o marcarlo como opcional.",
+   "por_que": "Consolida el error típico del hispanohablante y ordena la estructura de la lección."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Los suoni (análise/analise, média/media) son correctos pero solo 2 pares, de acentuación; sumar un par con nasales o -ção/-são (p. ex. -ção vs. -ssão) y entonación de lectura formal. Radio y duelos están vacíos.",
+   "por_que": "Pertinencia fonética con las nominalizaciones y completar las secciones."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "es": {
+   "errores": 1,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

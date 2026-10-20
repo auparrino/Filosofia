@@ -1,0 +1,428 @@
+{
+  "week": 47,
+  "level": "C1",
+  "lettura": {
+    "title": "Tarifa zero: nem milagre, nem delírio",
+    "emoji": "🚌",
+    "genre": "coluna de opinião",
+    "grammar": "argumentação e modalização",
+    "text": "Poucas propostas têm dividido tanto a nossa cidade quanto a da tarifa zero no transporte coletivo. Nas últimas semanas, a Câmara Municipal voltou a discutir o tema, e o debate, como era de se esperar, rapidamente descambou para a caricatura. De um lado, estão os que veem na gratuidade dos ônibus a solução para todos os males urbanos; do outro, os que a tratam como um delírio populista, supostamente condenado a quebrar os cofres públicos. Convém, talvez, respirar fundo e examinar o assunto com menos paixão e mais argumentos.\n\nComecemos pelo que parece inegável. O modelo atual, em que a maior parte do custo do sistema é paga pelo passageiro na catraca, dá sinais evidentes de esgotamento. A cada reajuste, parte dos usuários desiste do ônibus e migra para a moto, para o carro ou, pior, simplesmente deixa de circular. Com menos passageiros, a receita cai, as empresas pressionam por novos aumentos, e o ciclo se repete. Não é preciso ser economista para perceber que se trata de um círculo vicioso. Quem mais perde, evidentemente, são os moradores das periferias, que gastam uma fatia desproporcional da renda com transporte e que, muitas vezes, deixam de procurar emprego ou de ir ao médico porque não podem pagar a passagem.\n\nOs defensores da tarifa zero argumentam que o transporte deveria ser tratado como um direito, assim como a saúde e a educação, e não como uma mercadoria. É um argumento forte. Afinal, ninguém exige que o aluno pague por aula assistida na escola pública. Além disso, as experiências de cidades brasileiras de pequeno e médio porte que adotaram a gratuidade sugerem que o número de passageiros tende a crescer rapidamente, que o comércio local provavelmente se beneficia e que o trânsito pode, em alguma medida, ficar menos congestionado.\n\nHá ainda um argumento ambiental que costuma ficar em segundo plano, mas que dificilmente pode ser descartado. Cada pessoa que troca o carro pelo ônibus significa menos emissões, menos ruído e menos disputa por espaço nas ruas. Numa cidade que sofre com ilhas de calor e com o ar poluído nos meses secos, esse benefício não é pequeno. É verdade que ele é difícil de medir em reais e centavos, e talvez por isso raramente apareça nas planilhas dos técnicos da prefeitura. Mas o fato de um benefício não caber numa planilha não significa, evidentemente, que ele não exista.\n\nSeria ingênuo, no entanto, ignorar as objeções. A primeira, e certamente a mais séria, é a do financiamento. Ônibus não andam de graça: alguém terá de pagar o combustível, os salários dos motoristas e a renovação da frota. Se a conta for simplesmente transferida para o orçamento municipal, é possível que outras áreas, como a saúde e a educação, acabem sacrificadas. A segunda objeção é a da qualidade. Um sistema gratuito, porém lotado e sucateado, dificilmente convenceria alguém a deixar o carro na garagem. Gratuidade sem investimento poderia, paradoxalmente, afastar justamente os passageiros que se pretendia atrair.\n\nHá ainda um argumento que, a meu ver, é bem mais frágil: o de que aquilo que é gratuito não é valorizado. Esse raciocínio, repetido à exaustão, parece partir de uma desconfiança em relação aos mais pobres que não resiste aos fatos. Ninguém sugere cobrar ingresso nas praças públicas para que elas sejam mais bem cuidadas, nem vender entrada para as bibliotecas municipais para que os livros sejam mais respeitados.\n\nOnde fico, então? Parece-me que a pergunta está mal formulada. Em vez de discutir se a tarifa zero é boa ou má, deveríamos discutir como financiá-la de forma justa e gradual. Algumas alternativas merecem, no mínimo, ser estudadas: uma contribuição maior das empresas, que hoje já custeiam boa parte do vale-transporte dos seus funcionários; uma taxa sobre estacionamentos privados em áreas centrais; ou a implantação da gratuidade por etapas, começando pelos domingos, pelos estudantes e pelas linhas que atendem os bairros mais pobres. Nenhuma dessas medidas é, sozinha, suficiente, mas, combinadas, poderiam tornar o projeto viável sem pôr em risco outros serviços essenciais.\n\nTampouco se devem esperar milagres. A tarifa zero, por si só, não resolverá o problema da mobilidade numa cidade do nosso tamanho. Sem corredores exclusivos, integração com o metrô e planejamento urbano, os ônibus continuarão presos no mesmo engarrafamento de sempre, só que sem cobrar passagem. Talvez o maior mérito da proposta seja justamente obrigar a cidade a discutir, com seriedade, o que quer para o seu transporte nas próximas décadas.\n\nO pior cenário, sem dúvida, seria a Câmara engavetar o assunto mais uma vez, à espera de uma solução perfeita que provavelmente nunca virá. Entre o populismo irresponsável e o imobilismo confortável, existe um amplo espaço para a política séria. Resta saber se os nossos vereadores estão dispostos a ocupá-lo.\n\nMarcelo Antunes é jornalista e escreve às quintas-feiras.",
+    "gloss": {
+      "bem": "(mais bem cuidadas) mejor cuidadas: ante participio se dice mais bem",
+      "resta": "(resta saber) queda por ver",
+      "fico": "(onde fico, então?) ¿y yo qué postura tomo?",
+      "descambou": "derivó (para peor)",
+      "gratuidade": "gratuidad",
+      "cofres": "arcas",
+      "convém": "conviene",
+      "catraca": "molinete",
+      "esgotamento": "agotamiento",
+      "reajuste": "aumento (de tarifa)",
+      "receita": "ingresos, recaudación",
+      "fatia": "tajada, porción",
+      "renda": "ingreso (de una persona)",
+      "passagem": "boleto, pasaje",
+      "mercadoria": "mercancía",
+      "porte": "tamaño",
+      "ingênuo": "ingenuo",
+      "frota": "flota",
+      "orçamento": "presupuesto",
+      "lotado": "repleto, hasta las manos",
+      "sucateado": "venido abajo, desmantelado",
+      "raciocínio": "razonamiento",
+      "vale-transporte": "subsidio de transporte que paga el empleador",
+      "estacionamentos": "estacionamientos, playas de estacionamiento",
+      "tampouco": "tampoco",
+      "engarrafamento": "embotellamiento",
+      "engavetar": "cajonear",
+      "imobilismo": "inmovilismo",
+      "vereadores": "concejales",
+      "ruído": "ruido",
+      "planilhas": "planillas"
+    },
+    "questions": [
+      [
+        "Qual é o objetivo principal do colunista?",
+        [
+          "Defender a implantação imediata e total da tarifa zero.",
+          "Mostrar que a tarifa zero é um delírio populista.",
+          "Deslocar o debate para a questão do financiamento.",
+          "Denunciar os lucros abusivos das empresas de ônibus da cidade."
+        ],
+        "Deslocar o debate para a questão do financiamento."
+      ],
+      [
+        "No segundo parágrafo, o “círculo vicioso” se refere…",
+        [
+          "à sequência de reajustes, perda de passageiros e novos aumentos.",
+          "ao aumento do trânsito causado pelas motos.",
+          "à dependência das periferias em relação ao centro.",
+          "à disputa política entre vereadores e empresários."
+        ],
+        "à sequência de reajustes, perda de passageiros e novos aumentos."
+      ],
+      [
+        "Como o autor avalia o argumento de que “o que é gratuito não é valorizado”?",
+        [
+          "Como o mais sério de todos os argumentos contrários.",
+          "Como frágil e marcado por desconfiança dos pobres.",
+          "Como verdadeiro, porém pouco relevante no caso.",
+          "Como uma questão técnica que cabe aos economistas."
+        ],
+        "Como frágil e marcado por desconfiança dos pobres."
+      ],
+      [
+        "Ao citar corredores exclusivos e integração com o metrô, o autor quer mostrar que…",
+        [
+          "o metrô deveria ser gratuito antes dos ônibus.",
+          "a cidade já tem infraestrutura suficiente.",
+          "os carros deveriam ser proibidos no centro da cidade.",
+          "a gratuidade, sozinha, não resolve a mobilidade."
+        ],
+        "a gratuidade, sozinha, não resolve a mobilidade."
+      ],
+      [
+        "O que expressa a última frase do texto?",
+        [
+          "Uma dúvida sobre a disposição dos vereadores.",
+          "A certeza de que o projeto será aprovado.",
+          "Um elogio à seriedade da Câmara Municipal.",
+          "Uma ameaça de mobilização popular contra a Câmara."
+        ],
+        "Uma dúvida sobre a disposição dos vereadores."
+      ]
+    ],
+    "vf": [
+      [
+        "O autor considera que o modelo atual de financiamento está esgotado.",
+        "verdadeiro"
+      ],
+      [
+        "Para o autor, a tarifa zero deveria começar imediatamente em todas as linhas.",
+        "falso"
+      ],
+      [
+        "O autor já foi vereador da cidade.",
+        "não se diz"
+      ],
+      [
+        "Segundo o autor, uma gratuidade sem investimento pode afastar passageiros.",
+        "verdadeiro"
+      ],
+      [
+        "O texto afirma que hoje as empresas não arcam com nenhum custo do transporte dos funcionários.",
+        "falso"
+      ]
+    ],
+    "hunt": {
+      "label": "Toque nos modalizadores: advérbios, verbos e expressões que matizam a certeza, a probabilidade ou a obrigação",
+      "targets": [
+        "supostamente",
+        "convém",
+        "talvez",
+        "inegável",
+        "evidentemente",
+        "provavelmente",
+        "certamente",
+        "dificilmente",
+        "poderia",
+        "deveríamos",
+        "parece-me",
+        "possível"
+      ]
+    }
+  },
+  "ascolto": {
+    "title": "Semana de quatro dias: ponto e contraponto",
+    "genre": "debate radiofônico",
+    "es": "En un segmento de debate de una radio, una empresaria dueña de una fábrica y un sindicalista discuten la propuesta de la semana laboral de cuatro días.",
+    "speakers": [
+      "Luciana (empresária)",
+      "Carlos (sindicalista)"
+    ],
+    "turns": [
+      [
+        "A",
+        "Obrigada pelo convite. Olha, eu queria começar dizendo que eu não sou contra a semana de quatro dias por princípio. Eu tenho uma fábrica de móveis no interior de Minas, com uns oitenta funcionários, e sei que o pessoal está cansado. Mas me parece que essa proposta foi pensada para escritórios de cidade grande, não para a indústria."
+      ],
+      [
+        "B",
+        "Luciana, eu entendo a preocupação, e acho que ela é legítima. Mas talvez a gente esteja olhando para a questão pelo lado errado. Não se trata só de trabalhar menos, trata-se de trabalhar melhor. As experiências feitas em outros países indicam que, em muitos casos, a produtividade se mantém, e às vezes até aumenta, quando as pessoas descansam mais."
+      ],
+      [
+        "A",
+        "Em muitos casos, você disse bem. Não em todos. Numa linha de produção, a máquina não produz mais porque o operador está descansado. Se eu fechar a fábrica um dia a mais por semana, provavelmente vou produzir menos. Então, das duas uma: ou eu contrato mais gente, e o custo sobe, ou eu atraso as entregas e perco clientes."
+      ],
+      [
+        "B",
+        "Não necessariamente. Ninguém está propondo que a fábrica feche. Dá para organizar turnos, montar escalas… E tem um custo que as empresas raramente colocam na conta, que é o do adoecimento. Afastamento por estresse, por lesão, por esgotamento. Isso custa caro, e custa para todo mundo, inclusive para o patrão."
+      ],
+      [
+        "A",
+        "Concordo que existe esse custo, e seria desonesto negar. Mas veja, eu sou uma empresa pequena. Uma multinacional talvez consiga absorver a mudança. Eu, sinceramente, não sei se consigo. Se a lei vier igual para todos, de uma vez só, receio que muitas pequenas empresas simplesmente não aguentem."
+      ],
+      [
+        "B",
+        "Aí eu acho que a gente começa a concordar. Eu também não defendo uma mudança da noite para o dia. Uma transição gradual, com apoio para as pequenas empresas, me parece perfeitamente possível. O que eu não aceito é o argumento de que o trabalhador brasileiro não merece descansar porque o país é pobre."
+      ],
+      [
+        "A",
+        "Eu nunca disse isso, Carlos."
+      ],
+      [
+        "B",
+        "Não, você não disse, é verdade, peço desculpas. Mas é um argumento que a gente ouve muito por aí."
+      ],
+      [
+        "A",
+        "Tudo bem. Mas tem outra coisa que pouca gente considera: o cliente. Se o meu concorrente continua trabalhando cinco dias e eu passo a trabalhar quatro, quem garante que o cliente vai esperar por mim?"
+      ],
+      [
+        "B",
+        "Por isso mesmo a negociação tem que ser por setor. Se o setor inteiro muda junto, ninguém sai em desvantagem, e a concorrência continua nas mesmas condições. Ninguém quer que a sua fábrica perca cliente para a do vizinho, Luciana."
+      ],
+      [
+        "A",
+        "Olha, eu diria o seguinte: se houver uma transição longa, com algum incentivo fiscal e com negociação setor por setor, eu estaria disposta a experimentar. Quem sabe começar com um projeto piloto na minha própria empresa, com um grupo de voluntários."
+      ],
+      [
+        "B",
+        "Isso já é um avanço enorme. E, sinceramente, eu acho que você vai se surpreender. Quando o funcionário sente que a empresa confia nele, ele costuma devolver essa confiança."
+      ],
+      [
+        "A",
+        "Pode ser. Mas eu prefiro ver os números antes de acreditar."
+      ],
+      [
+        "B",
+        "Justo. Então eu faço um convite: faça o piloto e depois volte aqui para contar como foi."
+      ],
+      [
+        "A",
+        "Combinado. Mas, se a produção cair, você vai ter que admitir isso no ar."
+      ],
+      [
+        "B",
+        "Fechado. E, se ela não cair, quem admite é você."
+      ]
+    ],
+    "gloss": {
+      "duas": "(das duas uma) una de dos",
+      "móveis": "muebles",
+      "operador": "operario (de una máquina)",
+      "entregas": "entregas",
+      "escalas": "esquemas de turnos rotativos",
+      "adoecimento": "enfermarse, enfermedad",
+      "afastamento": "licencia (por enfermedad)",
+      "esgotamento": "agotamiento, burnout",
+      "patrão": "patrón",
+      "receio": "temo",
+      "aguentem": "aguanten",
+      "piloto": "de prueba",
+      "fechado": "trato hecho"
+    },
+    "questions": [
+      [
+        "Qual é a principal preocupação de Luciana?",
+        [
+          "Que os funcionários passem a trabalhar com menos cuidado.",
+          "Que a mudança prejudique as pequenas indústrias.",
+          "Que as multinacionais deixem de investir no Brasil.",
+          "Que os sindicatos ganhem poder demais nas negociações."
+        ],
+        "Que a mudança prejudique as pequenas indústrias."
+      ],
+      [
+        "Que argumento Carlos usa sobre a produtividade?",
+        [
+          "Ela não importa diante do bem-estar do trabalhador.",
+          "As máquinas modernas já dispensam os operadores.",
+          "Os clientes aceitariam prazos de entrega mais longos.",
+          "Experiências indicam que ela muitas vezes se mantém."
+        ],
+        "Experiências indicam que ela muitas vezes se mantém."
+      ],
+      [
+        "Ao mencionar o “custo do adoecimento”, Carlos pretende…",
+        [
+          "mostrar um gasto que as empresas costumam ignorar.",
+          "acusar Luciana de maltratar os funcionários.",
+          "defender o fechamento das fábricas às sextas.",
+          "pedir mais médicos do trabalho nas empresas do setor."
+        ],
+        "mostrar um gasto que as empresas costumam ignorar."
+      ],
+      [
+        "Em que ponto os dois começam a concordar?",
+        [
+          "Na aprovação imediata de uma lei nacional.",
+          "Na ideia de que o país é pobre demais.",
+          "Na necessidade de uma transição gradual.",
+          "Na redução proporcional dos salários."
+        ],
+        "Na necessidade de uma transição gradual."
+      ],
+      [
+        "Como termina o debate?",
+        [
+          "Com Luciana mudando completamente de opinião sobre o tema.",
+          "Com um desafio amistoso em torno de um projeto piloto.",
+          "Com Carlos retirando a sua proposta inicial.",
+          "Com os dois reconhecendo que não há saída possível."
+        ],
+        "Com um desafio amistoso em torno de um projeto piloto."
+      ]
+    ],
+    "vf": [
+      [
+        "A empresa de Luciana tem cerca de oitenta funcionários.",
+        "verdadeiro"
+      ],
+      [
+        "Carlos defende que a mudança seja feita de uma só vez, por lei.",
+        "falso"
+      ],
+      [
+        "Luciana afirmou que o trabalhador brasileiro não merece descansar.",
+        "falso"
+      ],
+      [
+        "O sindicato de Carlos representa os trabalhadores da indústria de móveis.",
+        "não se diz"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "texto_opiniao",
+    "title": "Tarifa zero: a sua opinião",
+    "fonte": "lettura",
+    "t": "Você mora numa grande cidade brasileira e leu, no site do jornal local, a coluna “Tarifa zero: nem milagre, nem delírio”, de Marcelo Antunes. O jornal abriu um espaço para textos de opinião dos leitores sobre o tema. Escreva um texto de opinião em que você se posicione sobre a tarifa zero, dialogando com a coluna: concorde ou discorde de pelo menos dois argumentos do colunista (por exemplo, o do financiamento, o de que “o que é gratuito não é valorizado” ou a proposta de implantação por etapas) e apresente uma sugestão própria. Não se esqueça de dar um título ao texto e de modalizar as suas afirmações.",
+    "es": "Texto de opinión para la sección de lectores: tomá posición, discutí al menos dos argumentos concretos de la columna y proponé algo tuyo. Usá modalizadores y ponele título.",
+    "min": 227,
+    "max": 287,
+    "punti": [
+      [
+        "Referirse a la columna y a su tesis",
+        [
+          "coluna",
+          "colunista",
+          "antunes"
+        ]
+      ],
+      [
+        "Discutir al menos dos argumentos del texto",
+        [
+          "financiamento",
+          "gratuito",
+          "etapas",
+          "reajuste"
+        ]
+      ],
+      [
+        "Proponer algo propio, con modalizadores",
+        [
+          "acrescentaria",
+          "sugiro",
+          "proponho",
+          "talvez",
+          "provavelmente"
+        ]
+      ]
+    ],
+    "model": "Tarifa zero: o preço de não decidir\n\nNa coluna publicada nesta semana, Marcelo Antunes propõe que o debate sobre a tarifa zero deixe de lado a pergunta “sim ou não” e se concentre no financiamento. Concordo com boa parte do diagnóstico, mas, a meu ver, o texto é prudente demais nas conclusões.\n\nÉ inegável, como afirma o colunista, que o modelo atual está esgotado. Quem mora na periferia, como eu, sabe que cada reajuste empurra vizinhos para a moto ou os prende em casa. Também me parece correto rebater a ideia de que o que é gratuito não é valorizado: ninguém depreda a escola pública por ela ser gratuita.\n\nDiscordo, porém, da ênfase na implantação por etapas começando pelos domingos. A medida talvez seja simpática, mas dificilmente mudaria a vida de quem precisa do ônibus para trabalhar de segunda a sexta. Se o transporte é um direito, como os próprios defensores argumentam, a gratuidade deveria valer primeiro nos dias úteis e nas linhas das periferias, e não como um passeio de fim de semana.\n\nQuanto ao financiamento, as sugestões da coluna são razoáveis, e eu acrescentaria uma: rever os privilégios de quem usa carro, como as vagas gratuitas nas ruas centrais. Provavelmente não bastaria para pagar a conta inteira, mas seria um sinal claro de prioridade.\n\nO colunista tem razão ao dizer que o pior cenário é engavetar a proposta. Eu apenas lembraria que esperar demais por um projeto perfeito também tem um custo, e quem o paga, como sempre, é quem está no ponto de ônibus.",
+    "gloss": {
+      "está esgotado": "está agotado, no da más",
+      "reajuste": "aumento de la tarifa",
+      "rebater": "refutar",
+      "depreda": "destroza, vandaliza",
+      "dias úteis": "días hábiles",
+      "vagas gratuitas": "lugares de estacionamiento gratis",
+      "engavetar": "cajonear, archivar sin tratar",
+      "ponto de ônibus": "la parada del colectivo"
+    }
+  },
+  "breve": {
+    "title": "Boletim da economia",
+    "genre": "noticiário econômico",
+    "es": "El boletín económico de la mañana: el balance de un año de colectivos gratis, la tasa de interés y la semana de cuatro días, con cifras y con cautela.",
+    "speaker": "Jornalista",
+    "voice": 1,
+    "text": [
+      "Boletim da economia, Rádio Capital, sete horas. Os destaques desta terça-feira.",
+      "Tarifa zero. A prefeitura de Vila Serena, no Ceará, divulgou ontem o balanço de um ano de ônibus gratuitos. Segundo a prefeitura, o número de passageiros por dia passou de 20 mil para 62 mil. O comércio do centro registrou alta de 12% nas vendas, mas os economistas ouvidos pela rádio são cautelosos: é possível que parte desse aumento se deva a outros fatores.",
+      "Juros. O Banco Central anuncia amanhã a nova taxa básica de juros. Tudo indica que a taxa deve cair meio ponto, para 9,75% ao ano, embora alguns analistas ainda não descartem uma manutenção.",
+      "Semana de quatro dias. Das 21 empresas brasileiras que testaram o modelo desde janeiro, 19 decidiram mantê-lo. O resultado, no entanto, não deve ser generalizado: a maioria são empresas pequenas, de tecnologia.",
+      "O próximo boletim é às nove. Bom dia."
+    ],
+    "tabella": [
+      [
+        "Passageiros por dia depois da tarifa zero",
+        "62 mil",
+        [
+          "62.000",
+          "62000",
+          "sessenta e dois mil"
+        ]
+      ],
+      [
+        "Aumento das vendas no comércio do centro",
+        "12%",
+        [
+          "12",
+          "12 %",
+          "doze por cento",
+          "12 por cento"
+        ]
+      ],
+      [
+        "Taxa de juros prevista (ao ano)",
+        "9,75%",
+        [
+          "9,75",
+          "9.75",
+          "9,75 %"
+        ]
+      ],
+      [
+        "Empresas que mantiveram a semana de quatro dias",
+        "19",
+        [
+          "dezenove"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "O número de passageiros aumentou depois da tarifa zero.",
+        true
+      ],
+      [
+        "Os economistas afirmam que a tarifa zero é a única causa do aumento das vendas.",
+        false
+      ],
+      [
+        "A decisão sobre os juros sai amanhã.",
+        true
+      ],
+      [
+        "Todos os analistas têm certeza de que os juros vão cair.",
+        false
+      ],
+      [
+        "A maioria das empresas do teste é pequena.",
+        true
+      ],
+      [
+        "O teste da semana de quatro dias foi feito em empresas de vários países.",
+        false
+      ]
+    ],
+    "gloss": {
+      "balanço": "balance",
+      "juros": "intereses",
+      "cautelosos": "cautos",
+      "descartem": "descarten",
+      "manutenção": "mantenimiento (de la tasa)"
+    }
+  }
+}

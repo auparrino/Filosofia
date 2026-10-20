@@ -1,0 +1,294 @@
+{
+ "week": 12,
+ "title": "Riflessivi e imperativo",
+ "level": "A2",
+ "revisado": {
+  "items": 57,
+  "sfide": 12,
+  "bloques_teoria": 6,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 12
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "La teoría es breve, clara y casi toda correcta, con buenos contrastes con el voseo (parla vs hablá, pronombre pegado). El problema principal es de cobertura: cerca de la mitad de los ítems y de los desafíos son reciclados de otros temas (passato prossimo, piacere, da + presente, interrogativos), mientras que el bloque de formas cortas (dammi, dimmi, fallo) y el imperativo formal Lei no tienen ejercicios propios. El tema declarado (cuerpo, farmacia) no aparece en vocabulario ni práctica. Hay pocos errores de contenido: tres reglas/notas falsas o engañosas y un accept incorrecto.",
+ "bien": [
+  "Contraste explícito con el voseo (acento de parla/hablá, pronombre pegado en chiamami/llamame) y aviso de calco típico (non parla = no habla).",
+  "Regla del negativo de tu (non + infinitivo) enunciada con ejemplos y con la advertencia del error frecuente.",
+  "Excelente advertencia de las formas cortas (dammi, gli no se duplica) y del 'falso reflexivo' rimanere/restare.",
+  "Lectura w-12 (Le regole della nonna) natural, mezcla reflexivos e imperativos tu/voi, afirmativos y negativos, con caza de formas pertinente.",
+  "Dictogloss bien construido: reflexivos con pronombre, imperativos tu negativos y afirmativos, chunks útiles.",
+  "Los 29 ítems d09 son limpios: consignas claras, respuestas correctas y variedad de personas (io, noi, voi, loro, recíprocos, infinitivo con pronombre)."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:intro",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Comparten un rasgo clave: el pronombre se pega al final del verbo.",
+   "propuesta": "Comparten un rasgo clave: con el imperativo (y el infinitivo) el pronombre se pega al final; con el verbo conjugado va delante.",
+   "motivo": "Sobregeneraliza: mi alzo, ti lavi llevan el pronombre delante; contradice el propio bloque 0."
+  },
+  {
+   "id": "p-113",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "[ts] en zucchero, y doble c.",
+   "propuesta": "[dz] (sonora) en zucchero; el par se distingue por z- vs s-. Además conviene cambiar el par por uno con palabras reales.",
+   "motivo": "zucchero se pronuncia /ˈdzukkero/ en italiano estándar, no [ts]; y la doble c es igual en ambos miembros, no es el contraste."
+  },
+  {
+   "id": "a-014",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "PÁR-la-no: la -ano final nunca lleva el acento.",
+   "propuesta": "PÁR-la-no: en la 3ª persona plural el acento cae en la antepenúltima sílaba.",
+   "motivo": "Falso: en italiano, americano, lontano la sílaba -a- de -ano lleva el acento; la regla útil es la de la antepenúltima."
+  },
+  {
+   "id": "l2-c-87",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "*Porsi a no; y sin pronombre «mettere» es poner algo.",
+   "propuesta": "Porsi a + infinitivo no existe; y sin pronombre, «mettere» significa poner algo (no ponerse a).",
+   "motivo": "Explicación truncada, con asterisco suelto y frase ininteligible."
+  },
+  {
+   "id": "s:r12-02:f",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Nessuno ha visto i miei occhiali?",
+   "propuesta": "Quitar de accept: 'Nessuno ha visto i miei occhiali?'",
+   "motivo": "Es «¿Nadie vio mis anteojos?»: otro sentido; la consigna pide qualcuno."
+  },
+  {
+   "id": "d09-011",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "In quel ristorante non ___ (servire, con «si» impersonal) carne.",
+   "propuesta": "Reemplazar por un reflexivo/recíproco, o enseñar antes el «si» impersonal en la teoría.",
+   "motivo": "Evalúa el «si» impersonal, no presente en la lección de la semana (solo reflexivo/recíproco)."
+  },
+  {
+   "id": "vocab:tenere",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "sostener",
+   "propuesta": "tener (tenere conto = tener en cuenta)",
+   "motivo": "«sostener» es sostenere/reggere; para tenere no es la equivalencia principal y el ejemplo pide «tener en cuenta»."
+  },
+  {
+   "id": "vocab:nipote",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "sobrino",
+   "propuesta": "sobrino / nieto",
+   "motivo": "La lectura w-12 usa nipoti = nietos; el vocabulario solo da «sobrino» y confunde."
+  },
+  {
+   "id": "vocab:ritardo",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "demora",
+   "propuesta": "retraso",
+   "motivo": "«demora» es poco natural en el español rioplatense para 'llegar en ritardo'."
+  },
+  {
+   "id": "l2-c-62",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Completá con el verbo de apoyo conjugado.",
+   "propuesta": "Completá con el verbo reflexivo/recíproco (con el pronombre pegado al infinitivo).",
+   "motivo": "La respuesta (darci) es infinitivo con pronombre, no un verbo conjugado."
+  },
+  {
+   "id": "s:r10-03:d",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Se van el lunes, ¿no?",
+   "propuesta": "Aclarar el sujeto (ustedes/ellos) o aceptar también 'Partite lunedì, vero?' y 'Se ne vanno lunedì, vero?'",
+   "motivo": "«Se van» es ambiguo (voi/loro); solo se acepta 'Partono'."
+  },
+  {
+   "id": "s:r10-05:c",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Com'è il tuo nuovo lavoro?",
+   "propuesta": "Agregar a accept: 'Come va il tuo nuovo lavoro?'",
+   "motivo": "«¿Qué tal tu nuevo trabajo?» se traduce muy naturalmente con come va."
+  },
+  {
+   "id": "ep3",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "¿Qué hace Martín antes de dormir?",
+   "propuesta": "¿Qué hace el narrador antes de dormir?",
+   "motivo": "Martín no aparece en el texto; el narrador no tiene nombre."
+  },
+  {
+   "id": "ep3",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"level\": \"A1\"",
+   "propuesta": "Usar una lectura A2 o marcar la semana con una sola lectura de nivel A2",
+   "motivo": "La lectura ep3 es A1 en una semana A2; es más simple que el tema (sin imperativos)."
+  },
+  {
+   "id": "l2-c-80",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "ti estraño",
+   "propuesta": "Usar un distractor italiano plausible, p. ej. 'ti manchi'",
+   "motivo": "«ti estraño» es castellano con ñ: se descarta por sentido, no por regla."
+  },
+  {
+   "id": "d09-012",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "da anni ed anni",
+   "propuesta": "da anni e anni",
+   "motivo": "«anni e anni» es la fórmula habitual; «ed anni» suena rebuscado."
+  },
+  {
+   "id": "g2-out-acc-10",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Sono arrivate tardi",
+   "propuesta": "Agregar a accept: 'Sono arrivate in ritardo'",
+   "motivo": "Igual de natural para «llegaron tarde»."
+  },
+  {
+   "id": "g2-out-acc-12",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Sono tornati stanchi",
+   "propuesta": "Agregar a accept: 'Sono ritornati stanchi'",
+   "motivo": "Sinónimo igualmente correcto de «volvieron»."
+  },
+  {
+   "id": "l2-c-89",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ci mettiamo d'accordo domani",
+   "propuesta": "Agregar a accept: 'Ci accordiamo domani'",
+   "motivo": "Alternativa natural y correcta."
+  },
+  {
+   "id": "g2-va-58",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Mi chiama domani, per favore!",
+   "propuesta": "Aclarar en la consigna que se habla a un tu, o aceptar 'Mi chiami domani, per favore!' (Lei)",
+   "motivo": "«Mi chiami…» (Lei) también corrige el error y es forma enseñada."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "*Non ti preoccupare*!",
+   "propuesta": "Agregar en la regla: con tu negativo el pronombre va delante o pegado (non ti preoccupare / non preoccuparti)",
+   "motivo": "Se muestra 'Non ti preoccupare' sin explicar la alternancia, y contradice la intro."
+  },
+  {
+   "id": "s:r07-02b:a",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "Personal pronouns",
+   "propuesta": "Traducir o quitar los rótulos 'chapter' (Personal pronouns, Demonstratives, Interrogatives, Indefinites, The present indicative tense, Special verb constructions)",
+   "motivo": "Si el campo se muestra al alumno, es inglés visible."
+  },
+  {
+   "id": "w-12",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "la nonna Pina dà sempre le sue regole",
+   "propuesta": "la nonna Pina dà sempre delle regole",
+   "motivo": "«dare le sue regole» es levemente calcado; más natural 'dà delle regole' o 'detta le sue regole'."
+  },
+  {
+   "id": "w-12",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "lamenta",
+   "propuesta": "se queja",
+   "motivo": "La glosa 'queja' es sustantivo; el verbo es si lamenta."
+  },
+  {
+   "id": "p-048",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "geminate",
+   "propuesta": "Elegir un par mínimo real de consonante doble (p. ej. pala/palla)",
+   "motivo": "svegliato/sveglio no es geminada ni par mínimo; es un contraste de terminación/número de sílabas."
+  },
+  {
+   "id": "p-159",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "(no existe)",
+   "propuesta": "Reemplazar por un par de palabras reales (p. ej. viso/vizio no aplica; usar rosa/rossa)",
+   "motivo": "«(no existe)» es impreciso; la 'sorda doble' no se explica en la nota."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Recentrar la práctica: reemplazar buena parte de los ítems reciclados (g2-out-acc passato prossimo, l2-d marcadores, l2-c-80/81, sfide r09-03b, r10-03, r10-05, r12-02, r18-03c, r25-03) por ejercicios de reflexivos, imperativo y formas cortas.",
+   "por_que": "Alrededor de la mitad de la carga no practica lo enseñado esta semana."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Crear ejercicios para el bloque 5 (dammi, dimmi, fallo, vacci, dagli) y para el bloque 4 (Lei: reconocer Scusi/Senta/Mi dica/Si accomodi, con el pronombre delante).",
+   "por_que": "Dos de los seis bloques enseñados no tienen ningún ítem propio."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar el contenido del tema: partes del cuerpo con artículo (mi lavo le mani), vocabulario de farmacia y consejos con imperativo (Prendi una pastiglia, Non fumare); actualizar el vocabulario semanal (ahora tenere, ritardo, nipote, verità no encajan).",
+   "por_que": "El tema declarado 'Rutina, cuerpo, farmacia' no se desarrolla en teoría, vocabulario ni ejercicios."
+  },
+  {
+   "prioridad": "media",
+   "que": "Diversificar tipos: agregar choice/fixerr de reconocimiento (parla/parli, non parla/non parlare, alzati/alza ti, mi lavo le mani/i miei mani) y ejercicios de imperativo tu afirmativo con -ere/-ire y con pronombre.",
+   "por_que": "Los ítems de imperativo son casi todos traducción productiva, sin paso previo de reconocimiento."
+  },
+  {
+   "prioridad": "media",
+   "que": "Sumar a la teoría el passato prossimo de los reflexivos (mi sono alzato) y los imperativos irregulares esenciales (sii, abbi, sappi, vieni, esci), o decir explícitamente que van en otra semana.",
+   "por_que": "Para 'contar tu jornada' y dar consejos falta lo más usado; hoy solo hay presente."
+  },
+  {
+   "prioridad": "media",
+   "que": "Quitar duplicados: 'esco di casa' aparece en g2-ct-08, g2-va-23, r18-01b:a y en el vocabulario; 'chiamami domani' en g2-ct-09 y g2-va-58; radersi en d09-009 y d09-017; divertirsi en d09-016 y r18-04:c.",
+   "por_que": "Reduce carga sin perder cobertura."
+  },
+  {
+   "prioridad": "media",
+   "que": "Alinear los suoni con el tema: pares mínimos sobre reflexivos e imperativo (alzati/alzarti, parla/parlà, mi lavo/ti lavo, dà/da, fa/fa') y evitar pares con no-palabras (succhero, svelia, visso) y el par rósa/ròsa, poco útil para rioplatenses.",
+   "por_que": "Los pares actuales no se relacionan con la semana y varios no son pares mínimos reales."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Agregar a la lectura w-12 un ejemplo de tu negativo (Non ti lamentare!) y una pregunta vero/falso/non si dice sobre el uso de voi vs tu; reemplazar ep3 (A1) por una lectura A2 sin repetición temática.",
+   "por_que": "La lectura cubre voi y tu afirmativo, pero no el negativo de tu, que es la regla más difícil."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Reducir o dividir la carga: 57 ítems + 12 desafíos (unos 50 sub-ítems) es mucho para una semana A2 con teoría de seis bloques.",
+   "por_que": "Al recentrar quedarían unos 45 ítems más focalizados."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "es": {
+   "errores": 1,
+   "dudas": 3
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

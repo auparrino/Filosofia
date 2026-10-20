@@ -1,0 +1,106 @@
+[
+ {
+  "id": "item s1-01-45",
+  "lote": "w01",
+  "veredicto": "CONFIRMADO",
+  "razon": "La opción marcada incorrecta («todo lo físico va con ter») usa ejemplos válidos en Brasil (tenho fome); la clave y la nota enseñan una exclusividad falsa, aunque «estar com» es lo más frecuente.",
+  "fuente": "tools/pt/authored/s1.py:192-198",
+  "correccion": "Correcta: «Con hambre, sed, frío y sueño se usa sobre todo «estar com»; «ter» también se oye. La edad va siempre con «ter».» Incorrecta: «La edad va con «estar com» (estou com trinta anos).» Nota: «En Brasil lo normal es estou com fome / com frio; tenho fome también existe. La edad, como en español, con ter.»"
+ },
+ {
+  "id": "lettura w-03",
+  "lote": "w03",
+  "veredicto": "CONFIRMADO",
+  "razon": "El texto es en primera persona (Eu moro…, vejo o Cristo Redentor) y no hay ninguna Sofía en w-03.",
+  "fuente": "docs/lang/pt/letture_settimana.js:100",
+  "correccion": "¿Qué ve el narrador desde la ventana de su cuarto?"
+ },
+ {
+  "id": "s1-07-01",
+  "lote": "w07",
+  "veredicto": "CONFIRMADO",
+  "razon": "Generalización falsa: dezoito no lleva «e» (lo dice el propio s1-07-16, línea 808).",
+  "fuente": "tools/pt/authored/s1.py:777",
+  "correccion": "Los números 16, 17 y 19 se escriben con *dez-* + *e* + unidad (*dezesseis*, *dezessete*, *dezenove*): *dezesseis* lleva doble *s* para que suene [s] entre vocales. El 18 es *dezoito*, sin *e*. Nada de *dieci-* como en español."
+ },
+ {
+  "id": "lesson:6",
+  "lote": "w13",
+  "veredicto": "CONFIRMADO",
+  "razon": "Encabezado en español con la conjunción portuguesa «e».",
+  "fuente": "tools/pt/lessons/s1.py:1608",
+  "correccion": "Posesivos, lugares y imperativo"
+ },
+ {
+  "id": "lettura w-18",
+  "lote": "w18",
+  "veredicto": "CONFIRMADO",
+  "razon": "De viernes a domingo son dos noches; el texto dice tres y el vf «O Lucas ficaria três noites» queda mal.",
+  "fuente": "docs/lang/pt/letture_settimana.js:423 y 436",
+  "correccion": "Línea 423: «Ele ficaria duas noites.»; vf: «O Lucas ficaria duas noites.» (o cambiar la reserva a «de sexta a segunda» y mantener três)."
+ },
+ {
+  "id": "tramo lettura (E se a gente escolhesse menos?)",
+  "lote": "w28",
+  "veredicto": "CONFIRMADO",
+  "razon": "Tras «Proponho» (presente) corresponde presente de subjuntivo; el imperfeito no encaja (y la frase previa usa «voltem»).",
+  "fuente": "tools/pt/tramo/w28.json:9 (y 116 hunt, 23 gloss); docs/lang/pt/tramo_data.js:~2325",
+  "correccion": "«Proponho algo mais modesto: que paremos de tratar cada escolha como se fosse a última.» Gloss: «paremos»: «dejemos»; en hunt targets sacar «parássemos» (el resto del hunt es imperfeito: no agregar «paremos»). Regenerar tramo_data.js."
+ },
+ {
+  "id": "lesson:1:ex",
+  "lote": "w32",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Acá gusta el samba» es agramatical en español rioplatense.",
+  "fuente": "tools/pt/lessons/s3.py:592",
+  "correccion": "Acá les gusta el samba. (o: «Acá se disfruta del samba.»)"
+ },
+ {
+  "id": "vocab:o relatório",
+  "lote": "w40",
+  "veredicto": "CONFIRMADO",
+  "razon": "Frase mezclada e ilegible («Fazer o apresentar um relatório»).",
+  "fuente": "tools/pt/vocab/s4.py:14",
+  "correccion": "De *relatar* = informar, relatar. *Apresentar um relatório* / *fazer um relatório*. Masculino."
+ },
+ {
+  "id": "s4-45-22",
+  "lote": "w45",
+  "veredicto": "CONFIRMADO",
+  "razon": "«A ponte Rio-Niterói é muito longa» es igual de natural; s4-45-31 ya acepta longa, y la nota del tr (línea 1027) menciona «comprido o longo». Problema menor de accept.",
+  "fuente": "tools/pt/authored/s4.py:999 (accept en course.json id s4-45-22)",
+  "correccion": "accept: [\"comprida\",\"longa\"]; nota: «...de longitud es comprido o longo: comprida / longa.»"
+ },
+ {
+  "id": "item s4-48-03",
+  "lote": "w48",
+  "veredicto": "CONFIRMADO",
+  "razon": "Falta la tilde: «dá» (verbo dar), no «da».",
+  "fuente": "tools/pt/authored/s4.py:1440",
+  "correccion": "*Referir-se a* + *a Revolução* dá *à Revolução*, con *crase*."
+ },
+ {
+  "id": "fuera",
+  "lote": "T-extra-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "repórter = reportero/periodista; «cronista» es autor de crônicas (distinto).",
+  "fuente": "docs/lang/pt/fuera_data.js:166",
+  "correccion": "[\"o repórter\",\"el reportero\"]"
+ },
+ {
+  "id": "nouns:12",
+  "lote": "T-lessico-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "En Portugal bombeiro es bombero (plomero = canalizador); «en Portugal» está mal. (En Brasil «bombeiro hidráulico» sí existe, pero la nota ya dice encanador.)",
+  "fuente": "tools/pt/bank/parole_nomi.py:548",
+  "correccion": "bombero (bombeiro hidráulico = plomero, menos usado que encanador)"
+ },
+ {
+  "id": "esIt:10",
+  "lote": "T-transfer-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "«brinco» es arete/aro (falsi y parole_nomi:1134 lo dicen); como «juego» infantil es incorrecto. Es brincadeira (o brinquedo = juguete).",
+  "fuente": "tools/pt/bank/trasferimento.py:477",
+  "correccion": "\"juego\": (\"jogo / brincadeira\", \"Juego (deporte) = jogo; (niños) = brincadeira. Ojo: brinco = arete.\")"
+ }
+]

@@ -1,0 +1,336 @@
+{
+ "week": 7,
+ "title": "Numeri, date e ora",
+ "level": "A2",
+ "revisado": {
+  "items": 40,
+  "sfide": 7,
+  "bloques_teoria": 4,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 14
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Los ítems propios son correctos en italiano y en español; casi no hay errores duros. La teoría es corta y correcta, pero deja fuera partes del tema (días, meses, estaciones, precios, di mattina/di sera) y la práctica repite muchas veces «il + cardinal». Las sfide provienen de capítulos ajenos (pronombres, posesivos, indefinidos, futuro), hay etiquetas en inglés y pocas notas confusas en español y suoni. Estimo ~25% de falsos positivos en los hallazgos de tipo duda/mejora.",
+ "bien": [
+  "Todas las respuestas numéricas y horarias verificadas son correctas (millenovecentoquarantasette, ventitré, trentuno, seimiladuecentonovantotto...).",
+  "Reglas centrales bien formuladas: cardinales pegados, la hora con le en plural, excepciones l'una / mezzogiorno / mezzanotte.",
+  "Las listas accept de hora son generosas (24 h, un quarto/quindici, meno un quarto/e quarantacinque, e mezza/e mezzo).",
+  "Notas breves y útiles en varios ítems (il lunedì = los lunes, mezzogiorno con è, fare colazione vs pranzare/cenare).",
+  "Lectura y dictogloss coherentes con el tema, con cronología correcta del calendario y distractores bien elegidos."
+ ],
+ "hallazgos": [
+  {
+   "id": "item g2-va-33",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Ho trent'anni.",
+   "propuesta": "Agregar a accept: \"Ho trenta anni.\"",
+   "motivo": "«Ho trenta anni» es igual de correcta y muy frecuente; el ítem solo acepta la forma elidida, que la lección no enseña."
+  },
+  {
+   "id": "s:r07-03:d",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "«Ustedes» informal es «voi».",
+   "propuesta": "«Voi» es el plural de «tu»: en castellano rioplatense equivale a «ustedes» (no existe la distinción formal/informal en plural).",
+   "motivo": "La nota sugiere que «ustedes» es informal, lo cual es falso en el español rioplatense y confunde."
+  },
+  {
+   "id": "s:r07-03:d",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "e voi due",
+   "propuesta": "Agregar a accept: \"e voi\"",
+   "motivo": "«E voi?» sin «due» es igual de natural; la consigna «(¿y ustedes dos?)» fuerza «due»."
+  },
+  {
+   "id": "s:r08-04:d",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Mamma y los diminutivos (fratellino) llevan artículo.",
+   "propuesta": "Ajustar la nota: «mamma» admite artículo opcional (mia mamma / la mia mamma); solo los diminutivos lo exigen; o quitar «mia | il mio» de accept.",
+   "motivo": "La nota dice que el artículo es obligatorio pero accept acepta «mia» sin artículo: contradicción."
+  },
+  {
+   "id": "s:r19-04:a",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Mañana voy a Turín.",
+   "propuesta": "Reubicar la sfida en la semana del futuro, o evitarla en la semana 7.",
+   "motivo": "Sfida del capítulo «The future tense» con contraste presente/futuro que la semana 7 (números, fecha y hora) no enseña."
+  },
+  {
+   "id": "s:r08-01:a",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Claudio, ecco ___ giacca.",
+   "propuesta": "Reubicar los posesivos (r08-01 y r08-04) en la semana donde se enseñan, o marcarlos como repaso.",
+   "motivo": "Exigen posesivos con artículo, de cortesía (il Suo) y de parentesco: gramática ajena al tema de la semana; verificar el orden del curso."
+  },
+  {
+   "id": "s:r12-01d:a",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Tutte e tre le",
+   "propuesta": "Reubicar o preceder con explicación de «tutti e + número».",
+   "motivo": "«Tutti e tre / e cinque» no se enseña en la semana 7 y se mezcla con la sfida de indefinidos."
+  },
+  {
+   "id": "s:r07-03:a",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "Personal pronouns",
+   "propuesta": "Traducir los rótulos de capítulo al español o no mostrarlos (Personal pronouns, Possessives, Indefinites, Numerals and units of measurement, The future tense).",
+   "motivo": "Los «chapter» de las sfide están en inglés; si el alumno los ve, son texto en inglés visible."
+  },
+  {
+   "id": "item d04-034",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "È l’una e venticinque del pomeriggio.",
+   "propuesta": "Aceptar también el apóstrofo recto: \"È l'una e venticinque del pomeriggio.\" (y normalizar ’ y ')",
+   "motivo": "La respuesta usa apóstrofo tipográfico ’ y el alumno tipeará normalmente '; confirmar que la comparación normaliza."
+  },
+  {
+   "id": "item d04-037",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Verso le sei di sera.",
+   "propuesta": "Enseñar «verso le / intorno alle» en la lección o sacar el ítem.",
+   "motivo": "«Verso le» e «intorno alle» no se enseñan esta semana; el ítem evalúa vocabulario no presentado."
+  },
+  {
+   "id": "item d04-032",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Sono le tre e mezza del pomeriggio.",
+   "propuesta": "Agregar a accept: \"Sono le tre e mezza di pomeriggio.\" (y lo mismo en d04-034, d04-036, d04-040)",
+   "motivo": "«di pomeriggio» es igual de natural; para «mattina» sí se aceptan «di» y «del»: inconsistencia."
+  },
+  {
+   "id": "lesson:blocks:3",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "«A las…» es *alle tre*, pero *all'una*, *a mezzogiorno*, *a mezzanotte*.",
+   "propuesta": "Agregar a la lección de la hora: di mattina / del pomeriggio / di sera / di notte, y «verso le».",
+   "motivo": "Ocho ítems piden «di mattina/del pomeriggio/di sera» y la lección no lo presenta."
+  },
+  {
+   "id": "item d04-027",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "il lunedì significaría 'los lunes' (todos los lunes).",
+   "propuesta": "Enseñar en la lección: lunedì (este lunes) vs il lunedì (todos los lunes) y di sabato.",
+   "motivo": "La distinción se explica solo en la nota; además l2-c-35 traduce «el sábado» con «il sabato» (habitual), lo que contradice esta nota."
+  },
+  {
+   "id": "item l2-c-35",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Faccio la spesa il sabato",
+   "propuesta": "Agregar accept \"Faccio la spesa sabato\" o cambiar el enunciado a «los sábados».",
+   "motivo": "«el sábado» es un día puntual y en italiano sería «sabato»; «il sabato» es habitual."
+  },
+  {
+   "id": "item d04-022",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "cena da Mario, ___ (el 3)",
+   "propuesta": "Reducir a 2-3 ítems «il + cardinal» (d04-022, 023, 024, 025, 028, 029, 030) y agregar mes: «il tre marzo». Quitar «tre» solo de accept.",
+   "motivo": "Siete ítems idénticos practican la misma regla y ninguno incluye el mes; la respuesta sin «il» no es natural."
+  },
+  {
+   "id": "item d04-011",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "I ___ cugini (primero)",
+   "propuesta": "Usar un contexto natural: «I ___ giorni di scuola (primeros)» o «Il ___ piano».",
+   "motivo": "«I primi cugini» es raro (se dice «cugini di primo grado»)."
+  },
+  {
+   "id": "item d04-017",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Il ___ cliente (millonésimo)",
+   "propuesta": "Reemplazar por ventesimo / undicesimo / ventitreesimo.",
+   "motivo": "Solo hay un ítem con -esimo y es exótico; la regla de la lección (desde el 11) queda casi sin práctica."
+  },
+  {
+   "id": "item d04-008",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "ventitré",
+   "propuesta": "Considerar aceptar \"ventitre\" con aviso de tilde.",
+   "motivo": "El alumno que omite la tilde pierde el punto aunque sabe el número."
+  },
+  {
+   "id": "item l2-c-31",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Faccio colazione alle sette",
+   "propuesta": "Agregar accept: \"Alle sette faccio colazione\", \"Alle 7 faccio colazione\".",
+   "motivo": "l2-c-35 acepta orden alterno y este no."
+  },
+  {
+   "id": "lesson:blocks:2",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Nada de «il 5 di maggio»",
+   "propuesta": "Suavizar: «lo normal es sin di: il 5 maggio».",
+   "motivo": "«Il 5 di maggio» existe (uso literario/antiguo); «nada de» es exagerado."
+  },
+  {
+   "id": "lesson:blocks:0",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Números, fechas y horas: tres o cuatro convenciones distintas del castellano que vas a usar todos los días.",
+   "propuesta": "Precisar: «Tres convenciones que cambian respecto del español: cifras en una palabra, fecha sin «de», hora en plural.»",
+   "motivo": "Frase vaga."
+  },
+  {
+   "id": "lesson:blocks:2",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Meses y días van en minúscula: *lunedì, gennaio*.",
+   "propuesta": "Agregar la lista de días y meses, las estaciones (in estate, in primavera) y a maggio/in maggio.",
+   "motivo": "El tema declara «Días, meses, estaciones, precios» y la lección no los presenta: solo aparecen gennaio, maggio y giovedì en el vocabulario."
+  },
+  {
+   "id": "lesson:blocks:0",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "*milione* y *miliardo* son sustantivos: *due milioni di persone*.",
+   "propuesta": "Agregar precios: «costa venticinque euro», «un euro / due euro», centesimi, «al chilo».",
+   "motivo": "No hay precios en la lección ni ítems, aunque el tema y el vocabulario (chilo, olio) los anuncian."
+  },
+  {
+   "id": "lesson:blocks:0",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ho *ventidue* anni.",
+   "propuesta": "Enseñar la elisión ventun/trent'anni y «avere» para la edad.",
+   "motivo": "c-008 (ventun anni) y g2-va-33 (trent'anni) evalúan elisión y edad con avere, no enseñadas."
+  },
+  {
+   "id": "suoni c-008",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Ho ventuno anni.",
+   "propuesta": "Reforzar la nota: «ventun anni» es la forma estándar (ventuno anni se ve pero es menos normativa); enseñarlo en la lección o quitar el ítem.",
+   "motivo": "Distractor discutible y contenido no enseñado."
+  },
+  {
+   "id": "suoni p-133",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "sci = «shi»; la terminación cambia.",
+   "propuesta": "«sci ante a/o/u = sh (la i no se pronuncia) y es larga: lasciare = [laʃʃare]».",
+   "motivo": "«shi» sugiere pronunciar la i en lasciare; además el par es de terminación, no de sonido."
+  },
+  {
+   "id": "suoni p-180",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "ci = [chi]: «chincue».",
+   "propuesta": "«cinque = [ch-] (como «chico»); «chinque» leído en italiano sería con k».",
+   "motivo": "Como «chi» en italiano suena /ki/, la nota confunde."
+  },
+  {
+   "id": "suoni p-034",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "oto",
+   "propuesta": "Usar un par real con geminada (p. ej. «nono / nonno») o etiquetar «oto» como pseudopalabra.",
+   "motivo": "«oto» no existe y la glosa «(no existe sola)» es inconsistente con «(no existe)» de otros pares."
+  },
+  {
+   "id": "suoni a-003",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "prìncipi",
+   "propuesta": "Reemplazar por acento en números: trèdici / sèdici, vènti / ventì, cinquànta.",
+   "motivo": "El par príncipes/principios no se relaciona con la semana 7."
+  },
+  {
+   "id": "lettura w-07",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "prende per Napoli il treno delle quindici e quaranta",
+   "propuesta": "Venerdì sedici prende il treno delle quindici e quaranta per Napoli.",
+   "motivo": "Orden marcado poco natural."
+  },
+  {
+   "id": "lettura w-07",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Oggi è lunedì dodici marzo",
+   "propuesta": "Incluir «il»: «Oggi è lunedì 12 marzo» / «Il compleanno è il tredici marzo»; agregar una pregunta sobre el tren (15:40).",
+   "motivo": "La lectura nunca modela la fecha con «il» ni «l'una / mezzogiorno / primo»; hay solo 3 preguntas todas de números."
+  },
+  {
+   "id": "lettura w-07",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "A1",
+   "propuesta": "Alinear el nivel de lectura y dictogloss (A1) con el de la semana (A2), o justificarlo.",
+   "motivo": "Etiqueta de nivel inconsistente."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Completar el tema declarado: días y meses, estaciones y precios, con 6-8 ítems que incluyan mes y precios.",
+   "por_que": "Hoy no hay ejercicios de meses, estaciones ni precios y la fecha con mes casi no se practica."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Reemplazar o reubicar las sfide de otras semanas (pronombres, posesivos, indefinidos, futuro) por sfide de números/fecha/hora.",
+   "por_que": "Evalúan gramática no enseñada en la semana 7 y diluyen el foco."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Enseñar en la lección di mattina/del pomeriggio/di sera, lunedì vs il lunedì y ventun/trent'anni.",
+   "por_que": "Muchos ítems lo exigen y solo lo explican las notas de corrección."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar tipos de reconocimiento (choice, listen con horas y fechas, qa) y ordenar la dificultad (empezar con números chicos).",
+   "por_que": "Solo hay numbers, cloze, translate y fixerr; todo es producción y arranca con 1947."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir los ítems repetidos «il + cardinal» y ampliar los ordinales con -esimo.",
+   "por_que": "Siete ítems idénticos frente a un solo -esimo, exótico."
+  },
+  {
+   "prioridad": "media",
+   "que": "Alinear niveles (semana A2, lectura/dictogloss A1) y traducir los rótulos de capítulo.",
+   "por_que": "Consistencia visible al alumno."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Reemplazar suoni no relacionados (prìncipi, lasciare, rosa) por pares con números y corregir notas p-133/p-180.",
+   "por_que": "Refuerza el foco y evita notas confusas."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Verificar los contadores de parts (34 y 31) frente a 40 ítems y la cabecera vacía de la tabla.",
+   "por_que": "Datos inconsistentes de presentación."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "es": {
+   "errores": 1,
+   "dudas": 2
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "week": 9,
+ "level": "A2",
+ "title": "Dario è in viaggio",
+ "genre": "collegamento dalla stazione",
+ "es": "Lunes a la mañana: Dario todavía no llegó a la radio. Sara lo llama por teléfono y él cuenta, en directo, dónde está, de dónde viene y cómo va a llegar.",
+ "speakers": ["Sara", "Dario"],
+ "turns": [
+  ["A", "Buongiorno da Radio Portici! Oggi sono sola in studio: Dario non c'è. Telefoniamo... Dario, dove sei?"],
+  ["B", "Ciao, Sara! Sono alla stazione, sul binario tre. Arrivo da Napoli, in treno."],
+  ["A", "Da Napoli? Ma il treno non arriva alle sette?"],
+  ["B", "Di solito sì, ma oggi è in ritardo di un'ora. Aspetto un amico: porta la valigia, perché io ho già uno zaino piccolo e una borsa di mozzarelle."],
+  ["A", "Mozzarelle per la radio? Bravo! E come vieni qui? In autobus?"],
+  ["B", "No, l'autobus per il centro è pieno. Vengo a piedi: la stazione non è lontana dallo studio, sono venti minuti."],
+  ["A", "E perché non prendi la bicicletta? Qui fuori ci sono le bici del Comune."],
+  ["B", "Con la borsa delle mozzarelle? Impossibile! Esco dalla stazione, vado in via dell'Indipendenza, sotto i portici, e arrivo in piazza."],
+  ["A", "Va bene. Io resto qui con gli ascoltatori e metto un po' di musica. Ma prima, bevi un caffè al bar dello studio: offro io!"],
+  ["B", "Grazie, Sara! Arrivo tra venti minuti. Con le mozzarelle!"]
+ ],
+ "gloss": {
+  "in ritardo": "atrasado, con demora",
+  "valigia": "valija",
+  "zaino": "mochila",
+  "mozzarelle": "mozzarelas",
+  "bici del Comune": "bicicletas públicas de la ciudad",
+  "offro io": "invito yo",
+  "ascoltatori": "oyentes"
+ },
+ "questions": [
+  ["¿Dónde está Dario cuando Sara lo llama?", ["En el andén tres de la estación", "En el colectivo, cerca del centro", "En el bar de la radio, tomando un café", "En Nápoles, en la casa de su familia"], "En el andén tres de la estación"],
+  ["¿Por qué Dario no toma el colectivo?", ["Porque tiene que esperar a un amigo", "Porque el colectivo al centro está lleno", "Porque no tiene boleto", "Porque prefiere la bicicleta"], "Porque el colectivo al centro está lleno"],
+  ["¿Qué trae Dario para la radio?", ["Una valija con ropa de invierno", "Una bicicleta", "Mozzarellas de Nápoles", "Un café"], "Mozzarellas de Nápoles"]
+ ],
+ "info": [
+  ["El tren de Dario llega una hora tarde.", true],
+  ["Dario va a la radio en bicicleta.", false],
+  ["Sara invita el café.", true]
+ ],
+ "grammatica": {"label": "las preposiciones de base: a, da, in, su, per, con", "forme": ["alla stazione", "sul binario", "da Napoli", "in treno", "in autobus", "a piedi", "per il centro", "dallo studio", "dalla stazione", "con gli ascoltatori", "tra venti minuti"]},
+ "parole": [["binario", "binario"], ["aspetto", "aspettare"], ["porta", "portare"], ["piccolo", "piccolo"], ["autobus", "autobus"], ["piedi", "piede"], ["resto", "restare"], ["bevi", "bere"]]
+}

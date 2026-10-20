@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <title>La Via C1 · Rumo C1: un pórtico italiano a mediodía y el Pão de Açúcar al atardecer, sobre las ondas del calçadão</title>
+  <clipPath id="r"><rect width="512" height="512" rx="112"/></clipPath>
+  <g clip-path="url(#r)">
+  <defs>
+    <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f93e0"/><stop offset=".62" stop-color="#9fd0f5"/><stop offset="1" stop-color="#e6f2fb"/></linearGradient>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffc861"/><stop offset=".55" stop-color="#ff8a55"/><stop offset="1" stop-color="#ee5a3f"/></linearGradient>
+    <linearGradient id="mar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1fb5b0"/><stop offset="1" stop-color="#0a7f86"/></linearGradient>
+  </defs>
+  <!-- left: an Italian piazza at noon, a portico of arches -->
+  <rect width="256" height="512" fill="url(#cielo)"/>
+  <path d="M-4 214h264v226H-4z" fill="#e7a15e"/>
+  <path d="M-4 204h264v18H-4z" fill="#c9793a"/>
+  <path d="M-4 240h264v6H-4z" fill="#f3c48c"/>
+  <path d="M26 440V330a44 44 0 0 1 88 0v110zM146 440V330a44 44 0 0 1 88 0v110z" fill="#8f3f1c"/>
+  <path d="M34 440V334a36 36 0 0 1 72 0v106zM154 440V334a36 36 0 0 1 72 0v106z" fill="#5c2610" opacity=".55"/>
+  <rect x="40" y="252" width="22" height="26" rx="3" fill="#5a86b8"/><rect x="78" y="252" width="22" height="26" rx="3" fill="#5a86b8"/>
+  <rect x="160" y="252" width="22" height="26" rx="3" fill="#5a86b8"/><rect x="198" y="252" width="22" height="26" rx="3" fill="#5a86b8"/>
+  <!-- right: the Pão de Açúcar at sunset, the sea -->
+  <rect x="256" width="256" height="512" fill="url(#ceu)"/>
+  <circle cx="420" cy="214" r="46" fill="#ffe28f"/>
+  <circle cx="420" cy="214" r="66" fill="#ffe28f" opacity=".25"/>
+  <path d="M256 360c14-4 26-14 38-26 16-16 30-10 40 4 8 10 16 12 24 4 18-60 40-128 74-138 34-10 54 60 64 130 4 18 8 26 16 30V440H256z" fill="#0b3b4a"/>
+  <path d="M346 338 432 206" stroke="#0b3b4a" stroke-width="3"/>
+  <rect x="383" y="266" width="10" height="8" rx="2" fill="#0b3b4a"/>
+  <rect x="256" y="380" width="256" height="60" fill="url(#mar)"/>
+  <path d="M256 398c32-7 64 7 96 0s64-7 96 0 48 5 64 2" stroke="#fff" stroke-opacity=".5" stroke-width="5" fill="none"/>
+  <!-- the calçadão of Copacabana along the bottom, under both -->
+  <rect y="436" width="512" height="80" fill="#f7f2e8"/>
+  <path d="M0 466c32-30 96-30 128 0s96 30 128 0 96-30 128 0 96 30 128 0V520H0z" fill="#151a1c"/>
+  <path d="M0 498c32-22 96-22 128 0s96 22 128 0 96-22 128 0 96 22 128 0V520H0z" fill="#f7f2e8"/>
+  <!-- the street sign: C1 -->
+  <g transform="translate(256 116)">
+    <rect x="-96" y="-54" width="192" height="108" rx="14" fill="#0f4c85"/>
+    <rect x="-86" y="-44" width="172" height="88" rx="8" fill="none" stroke="#fff" stroke-width="5"/>
+    <text x="0" y="30" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="84" fill="#fff" letter-spacing="4">C1</text>
+  </g>
+  </g>
+</svg>

@@ -1,0 +1,190 @@
+{
+ "week": 51,
+ "title": "Ripasso generale C1",
+ "level": "C1",
+ "revisado": {
+  "items": 2,
+  "sfide": 0,
+  "bloques_teoria": 6,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 0
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana de repaso sin teoría nueva. Lo revisado es correcto en italiano: no encontré errores claros, solo tres dudas de contenido y varias mejoras. El dossier trae apenas 2 ítems, aunque parts declara 555 (176+36+343); no pude auditar el resto. La lección no cubre causativo, pasiva, si passivante, dislocaciones, periodo mixto ni concesión, que sí figuran en keys y vocab. Suoni y sfide están vacíos.",
+ "bien": [
+  "Las listas de control (congiuntivo, tiempos, pronombres, quince faltas) son breves, con tablas claras y ejemplos correctos.",
+  "Los contrastes con el español (Ne ho tre, dopo aver mangiato, mi sono lavato) apuntan a errores reales del hispanohablante.",
+  "La lettura «Lettera a me stesso» es natural y recicla congiuntivo y periodo hipotético del tercer tipo.",
+  "El dictogloss usa muy bien la gramática de la semana (periodo hipotético, fare + infinito, congiuntivo tras che) y sus chunks son pertinentes.",
+  "Los dos ítems disponibles tienen respuestas correctas, y malgrado admite varias variantes."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "sto studiando quest'anno | studio quest'anno (más natural)",
+   "propuesta": "Sacarlo de la lista de «errores» o rotularlo como preferencia de estilo (p. ej. «también posible, pero más natural: studio quest'anno»)",
+   "motivo": "«sto studiando quest'anno» no es una falta: el progresivo es válido para algo temporal; presentarlo como error enseña una regla demasiado fuerte"
+  },
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "ha detto che verrebbe",
+   "propuesta": "Aclarar que «sarebbe venuto» es la forma estándar/escrita; «verrebbe» se oye en el habla y no es agramatical",
+   "motivo": "Etiquetar «verrebbe» como error es exagerado; existe en el uso real"
+  },
+  {
+   "id": "lesson:0",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "principal en pasado",
+   "propuesta": "principal en pasado + verbo que pide congiuntivo",
+   "motivo": "Como está, sugiere que toda principal en pasado exige congiuntivo (Ho detto che è vero es indicativo)"
+  },
+  {
+   "id": "lesson:3",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Quince errores que **bajan la nota** siempre.",
+   "propuesta": "Quince errores que suelen bajar la nota.",
+   "motivo": "«siempre» es exagerado"
+  },
+  {
+   "id": "lesson:1",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Las ocho frases que **más se equivocan**.",
+   "propuesta": "Las ocho frases en las que más se falla.",
+   "motivo": "«frases que se equivocan» es sujeto incorrecto: las frases no se equivocan, la gente sí"
+  },
+  {
+   "id": "lesson:4",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Después repasá esta hoja en voz alta: leer las trampas en voz alta las fija mejor que releerlas.",
+   "propuesta": "Después repasá esta hoja en voz alta: decir las trampas en voz alta las fija mejor que releerlas en silencio.",
+   "motivo": "Repetición de «en voz alta» (ya usada en el bloque 3) y afirmación absoluta sin matiz"
+  },
+  {
+   "id": "lesson:parts",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"h\": \"Pronombres y las faltas más caras\", \"blocks\": [2, 3, 4]",
+   "propuesta": "Mover el bloque 4 («Cómo llegar al jefe final») a una parte propia, p. ej. «Gimnasio de verbos»",
+   "motivo": "El bloque 4 trata congiuntivo imperfetto/trapassato y no pronombres, y queda sin ejercicios asociados por título"
+  },
+  {
+   "id": "item g2-gd-60",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Mirá los tres ejemplos y completá el cuarto.",
+   "propuesta": "Verificar que la interfaz muestre los tres ejemplos; si no, agregarlos al ítem (p. ej. «sto mangiando → estoy comiendo», «sto leggendo…»)",
+   "motivo": "En el dossier el ítem no trae ejemplos; sin ellos la consigna remite a algo que no se ve"
+  },
+  {
+   "id": "item g2-gd-60",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "stare per + infinitivo = acción inminente",
+   "propuesta": "Agregar un bloque/recordatorio de «stare per + infinito» en la lista de control de tiempos",
+   "motivo": "El punto no aparece en ningún bloque de la lección (lista de control) y se evalúa"
+  },
+  {
+   "id": "item g2-cb-44",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Malgrado il freddo, siamo andati al mare.",
+   "propuesta": "Agregar a accept: «Siamo andati al mare malgrado il freddo.» y «Siamo andati al mare, malgrado facesse freddo.»",
+   "motivo": "Falta variante igual de natural (orden inverso con sustantivo); además «malgrado» no figura en la lección"
+  },
+  {
+   "id": "item g2-cb-44",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Malgrado funciona como nonostante: + congiuntivo o + sustantivo (malgrado il freddo).",
+   "propuesta": "Incorporar sebbene/malgrado/nonostante a la tabla de congiuntivo de la lección (hoy solo aparece benché… nonostante)",
+   "motivo": "La concesión es el eje de «fare» y el vocabulario (sebbene) pero la lección no la trabaja"
+  },
+  {
+   "id": "lettura w-51",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "¿Qué habría pasado si se rendía en febrero?",
+   "propuesta": "¿Qué habría pasado si se hubiera rendido en febrero?",
+   "motivo": "La pregunta sobre un periodo hipotético del tercer tipo debería modelar la forma correcta, no la coloquial «si se rendía»"
+  },
+  {
+   "id": "dictogloss Bilancio di un anno",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Si dice che una lingua si impari solo vivendo nel paese",
+   "propuesta": "Si dice che una lingua si impara solo vivendo nel paese (o: si dica… solo si es intencional)",
+   "motivo": "Tras «si dice che» lo normal es indicativo; el congiuntivo suena forzado y confunde con la regla de la semana"
+  },
+  {
+   "id": "vocab indietro",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "la polizia mi ha fatto tornare indietro",
+   "propuesta": "La polizia mi ha fatto tornare indietro.",
+   "motivo": "Única frase sin mayúscula inicial ni punto, inconsistente con el resto del vocabulario"
+  },
+  {
+   "id": "suoni",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"pares\": [], \"connesso\": [], \"intonazione\": [], \"accento\": []",
+   "propuesta": "Agregar al menos pares mínimos (p. ej. caro/carro, pala/palla) y una entonación de ironía/concesión",
+   "motivo": "La sección de sonidos está vacía en la semana de repaso general"
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Confirmar por qué el dossier trae solo 2 de 555 ítems y auditar el banco completo de la semana.",
+   "por_que": "parts declara 176+36+343 ítems; la auditoría de ejercicios no es representativa."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar a la lección bloques de repaso de los puntos de keys: periodo hipotético mixto, causativo (fare + infinito), pasiva/si passivante, dislocaciones y concesiones (sebbene/malgrado/nonostante).",
+   "por_que": "Están en keys, fare y vocab pero no en la teoría; el alumno no tiene qué repasar."
+  },
+  {
+   "prioridad": "media",
+   "que": "Completar suoni (pares mínimos, habla conectada, entonación, acento) con contenido de repaso.",
+   "por_que": "Las cuatro listas están vacías."
+  },
+  {
+   "prioridad": "media",
+   "que": "Matizar en la lista de control las reglas absolutas (principal en pasado, «verrebbe», «sto studiando») para no enseñar reglas falsas.",
+   "por_que": "Tres filas presentan como error o regla fija lo que es preferencia o tiene excepciones."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar a la lettura preguntas vero/falso/non si dice y una lectura más larga con causativo y pasiva.",
+   "por_que": "Hoy hay una sola lectura de unas 100 palabras con distractores obvios."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Reordenar parts: separar el bloque «jefe final» de la parte de pronombres, y enlazar cada fila a la semana de origen.",
+   "por_que": "La intro dice «volver a las semanas donde algo no te cierre» pero no hay referencias."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

@@ -1,0 +1,170 @@
+[
+ {
+  "id": "sfida:r07-05",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "La app arma las sfide desde weeks[].challenges: r07-05 está en la semana 12, no en la 1. El campo challenge.week=1 es solo un dato viejo que app.js no usa.",
+  "fuente": "docs/data/course.json (weeks[11].challenges; challenges[].week=1 sin uso)",
+  "correccion": ""
+ },
+ {
+  "id": "sfida:r13-06",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "Aparece en la semana 34 (weeks[33].challenges), no en la 1; challenge.week=1 no se usa en app.js.",
+  "fuente": "docs/data/course.json (weeks[33].challenges)",
+  "correccion": ""
+ },
+ {
+  "id": "sfida:r28-01b",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "Aparece en la semana 42 (weeks[41].challenges), no en la 1; challenge.week=1 no se usa en app.js.",
+  "fuente": "docs/data/course.json (weeks[41].challenges)",
+  "correccion": ""
+ },
+ {
+  "id": "lesson:9",
+  "lote": "w03",
+  "veredicto": "CONFIRMADO",
+  "razon": "El criterio «islas chicas/grandes» es falso: Cuba es mayor que Sicilia y Cerdeña. Se repite en ar-u-10 (nota).",
+  "fuente": "tools/lessons/s1.py:412; tools/authored/articoli.py:99 (y 102 en ar-u-11)",
+  "correccion": "Muchas islas van sin artículo (*Malta*, *Cuba*, *Capri*); otras lo llevan: *la Sicilia*, *la Sardegna*. Se memorizan."
+ },
+ {
+  "id": "item l2-c-63",
+  "lote": "w06",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Gettare un'occhiata» es italiano correcto; el ítem tiene dos opciones válidas y la nota es falsa.",
+  "fuente": "tools/authored/lessico2.py:255-258",
+  "correccion": "options=[\"dare\",\"mettere\",\"fare\"]; note=\"Echar un vistazo → dare un'occhiata a (fórmula fija; «gettare un'occhiata» también existe, pero es menos corriente).\""
+ },
+ {
+  "id": "s:r07-03:d",
+  "lote": "w07",
+  "veredicto": "CONFIRMADO",
+  "razon": "La nota sugiere que existe un «ustedes» formal en plural; en rioplatense «ustedes» es único. Confunde (mismo texto en la nota de la letra b).",
+  "fuente": "tools/audit/patches/sfide/ch01-07.json:1062 (y 996); docs/data/course.json",
+  "correccion": "«Ustedes» es «voi» (en plural no hay distinción formal/informal)."
+ },
+ {
+  "id": "l2-c-38",
+  "lote": "w09",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Por el centro» se dice naturalmente «per il centro»; falta en las alternativas.",
+  "fuente": "tools/authored/lessico2.py:161",
+  "correccion": "alt agregar \"Facciamo una passeggiata per il centro\""
+ },
+ {
+  "id": "a-014",
+  "lote": "w12",
+  "veredicto": "CONFIRMADO",
+  "razon": "La regla es falsa/engañosa: en lontano, americano, italiano la vocal de -ano sí puede ser la tónica; lo correcto es que pàrlano es esdrújula.",
+  "fuente": "docs/js/ascolto_data.js:299",
+  "correccion": "PÁR-la-no: en la 3ª persona plural el acento cae en la antepenúltima sílaba."
+ },
+ {
+  "id": "item g2-ct-17",
+  "lote": "w17",
+  "veredicto": "CONFIRMADO",
+  "razon": "«di mio amico» es agramatical (amico lleva artículo) y contradice g2-va-02; la nota lo declara «aceptable».",
+  "fuente": "tools/authored/grammatica2.py:1165-1166",
+  "correccion": "Quitar alt=[\"Questo libro è di mio amico Paolo\"]; note: quitar la última frase."
+ },
+ {
+  "id": "suoni p-091",
+  "lote": "w19",
+  "veredicto": "CONFIRMADO",
+  "razon": "«volgo» (volgere y el pueblo) lleva /ɔ/ en ambos casos; no hay oposición ó/ò y las formas de audio son idénticas.",
+  "fuente": "docs/js/ascolto_data.js:108",
+  "correccion": "Reemplazar por un par real, p. ej. P(\"p-091\",\"vocali\",19,\"cólto\",\"còlto\",\"culto\",\"recogido (p. p. de cogliere)\",VOC,[\"colto\",\"colto\"])"
+ },
+ {
+  "id": "suoni c-028",
+  "lote": "w21",
+  "veredicto": "CONFIRMADO",
+  "razon": "Con «say» por audio, «Me ne vado» y «Mene vado» suenan igual; solo difieren por escrito (mala opción para discriminar).",
+  "fuente": "docs/js/ascolto_data.js:243",
+  "correccion": "options: [\"Me ne vado.\",\"Ne me vado.\",\"Me ne vago.\"]"
+ },
+ {
+  "id": "item c1-cong-05",
+  "lote": "w24",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Si dice che è molto brava» es estándar; hay dos opciones válidas (sia y è).",
+  "fuente": "tools/authored/c1_congiuntivo.py:34-38",
+  "correccion": "stem=\"Non credo che ___ molto brava.\"; note=\"Con «non credo che» (duda) va congiuntivo: sia.\""
+ },
+ {
+  "id": "s:r24-02b:b",
+  "lote": "w29",
+  "veredicto": "CONFIRMADO",
+  "razon": "La consigna pide congiuntivo passato; «Forse è già partito» (indicativo) contradice el objetivo y la propia nota.",
+  "fuente": "docs/data/course.json (s:r24-02b:b accept); tools/audit/patches/sfide/ch21-28.json:2040",
+  "correccion": "Quitar de accept \"Forse è già partito.\" (\"Può darsi che sia partito già.\" es gramatical y puede quedar)."
+ },
+ {
+  "id": "p-065",
+  "lote": "w33",
+  "veredicto": "RECHAZADO",
+  "razon": "Diseño deliberado: el ejercicio discrimina la grafía con geminada contra una no-palabra marcada «(no existe)», igual que p-062..p-067; no es un error.",
+  "fuente": "docs/js/ascolto_data.js:81",
+  "correccion": ""
+ },
+ {
+  "id": "suoni c-043",
+  "lote": "w36",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "[diche] es una transcripción para hispanohablantes («che» = /tʃe/, como en c-029), no IPA; pero el distractor «Si diche» la confunde y los corchetes sugieren IPA.",
+  "fuente": "docs/js/ascolto_data.js:258",
+  "correccion": "note: \"dice = «DÍ-che» (c ante e suena como «ch»); si (impersonal) sin acento.\""
+ },
+ {
+  "id": "item g2-ct-55",
+  "lote": "w41",
+  "veredicto": "CONFIRMADO",
+  "razon": "Lo + ho exige elisión obligatoria: «lo ho» es incorrecto.",
+  "fuente": "tools/authored/grammatica2.py:1318",
+  "correccion": "Quitar alt=[\"Lo ho visto uscire dall'ufficio\"]"
+ },
+ {
+  "id": "lettura fl-gerundio",
+  "lote": "w44",
+  "veredicto": "CONFIRMADO",
+  "razon": "«essendo le tre di notte» es causal con sujeto distinto (contradice la regla del gerundio) y el sentido es concesivo.",
+  "fuente": "docs/js/letture.js:953-954",
+  "correccion": "Lei risponde subito, pur essendo le tre di notte a Buenos Aires"
+ },
+ {
+  "id": "item r06-01b",
+  "lote": "w46",
+  "veredicto": "RECHAZADO",
+  "razon": "chapterTitle no se muestra: app.js solo imprime «cap. N» (sin chapterTitle en docs/js). Las consignas visibles están en español.",
+  "fuente": "docs/js/app.js:2926",
+  "correccion": ""
+ },
+ {
+  "id": "item b2-idio-04",
+  "lote": "w50",
+  "veredicto": "CONFIRMADO",
+  "razon": "Sin contexto, «Ha freddo oggi» y «È freddo oggi» también son gramaticales; hay más de una opción válida.",
+  "fuente": "tools/authored/b2_lessico.py:161-163",
+  "correccion": "prompt=\"Elegí la forma correcta (tiempo atmosférico).\"; stem=\"Oggi ___ freddo.\" (o consigna «Hoy hace frío»)"
+ },
+ {
+  "id": "sfida s:r27-06b:e",
+  "lote": "w52",
+  "veredicto": "RECHAZADO",
+  "razon": "«Falla uscire» es natural con valor permisivo (cf. «fammi vedere»); la consigna dice que hay varias posibilidades en (e) y (f).",
+  "fuente": "docs/data/course.json (s:r27-06b:e)",
+  "correccion": ""
+ },
+ {
+  "id": "parole:1",
+  "lote": "T-lessico-2",
+  "veredicto": "CONFIRMADO",
+  "razon": "«o sino» no es traducción de «oppure»; corresponde «o bien».",
+  "fuente": "tools/bank/parole_verbi_agg.py:1171 (y docs/data/bank.json)",
+  "correccion": "(\"oppure\", \"o / o bien\", \"congiunzione\", \"A2\", \"\")"
+ }
+]

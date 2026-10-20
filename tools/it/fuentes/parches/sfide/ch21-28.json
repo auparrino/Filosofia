@@ -1,0 +1,5432 @@
+{
+ "r21-01": {
+  "consigna": "Elegí la forma correcta del condizionale.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Mariella, tu lo ___ veramente con acqua calda?",
+    "options": [
+     "lavaresti",
+     "laveresti"
+    ],
+    "answer": "laveresti",
+    "alt": [],
+    "note": "En los verbos en -are la -a- de la raíz pasa a -e- en el condizionale: laver-esti."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Ma voi due ___ davvero un altro lavoro?",
+    "options": [
+     "cerchereste",
+     "cercereste"
+    ],
+    "answer": "cerchereste",
+    "alt": [],
+    "note": "Los verbos en -care agregan una h para conservar el sonido duro: cercher-este."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Lo ___, ma è troppo caro.",
+    "options": [
+     "prenderemo",
+     "prenderemmo"
+    ],
+    "answer": "prenderemmo",
+    "alt": [],
+    "note": "El condizionale de noi termina en -emmo (doble m); -emo es futuro: «lo compraríamos, pero es muy caro»."
+   }
+  ]
+ },
+ "r21-02": {
+  "consigna": "Completá con la forma correcta del condizionale del verbo entre paréntesis.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___ volentieri, ma ho un appuntamento. (venire – io)",
+    "answer": "verrei",
+    "alt": [],
+    "note": "Venire tiene condizionale irregular con doble r: verrei."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "___ partire, ma c'è sciopero. (volere – loro)",
+    "answer": "vorrebbero",
+    "alt": [],
+    "note": "Volere tiene raíz contraída con doble r: vorr- + -ebbero."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "___ fino a domani? (rimanere – tu)",
+    "answer": "rimarresti",
+    "alt": [],
+    "note": "Rimanere contrae la raíz: rimarr- + -esti."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "___ aiutare? (potere – voi)",
+    "answer": "potreste",
+    "alt": [],
+    "note": "Potere pierde la vocal de la raíz: potr- + -este."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Mi ___ un favore? (fare – tu)",
+    "answer": "faresti",
+    "alt": [],
+    "note": "Fare conserva la -a- de la raíz: far- + -esti; el condizionale suaviza el pedido."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Non ___ mai con loro. (andare – io)",
+    "answer": "andrei",
+    "alt": [],
+    "note": "Andare pierde la vocal de la raíz: andr- + -ei."
+   }
+  ]
+ },
+ "r21-03": {
+  "consigna": "Pedí las cosas con cortesía: reescribí la orden o la afirmación usando el condizionale.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Umberto, dammi un bicchiere di vino. → Umberto, ___",
+    "answer": "mi daresti un bicchiere di vino?",
+    "alt": [
+     "potresti darmi un bicchiere di vino?",
+     "mi potresti dare un bicchiere di vino?"
+    ],
+    "note": "El condizionale (mi daresti…?) transforma la orden en un pedido amable."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Anna e Cristina, fatemi un favore. → Anna e Cristina, ___",
+    "answer": "mi fareste un favore?",
+    "alt": [
+     "potreste farmi un favore?",
+     "mi potreste fare un favore?"
+    ],
+    "note": "Con voi el condizionale termina en -este: fareste."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Signora, ho bisogno di una crema più leggera. → Signora, ___",
+    "answer": "avrei bisogno di una crema più leggera",
+    "alt": [
+     "vorrei una crema più leggera"
+    ],
+    "note": "Avrei bisogno / vorrei suavizan la afirmación, como «necesitaría» en castellano."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Signore, me lo prepari per stasera. → Signore, ___",
+    "answer": "me lo preparerebbe per stasera?",
+    "alt": [
+     "potrebbe prepararmelo per stasera?",
+     "me lo potrebbe preparare per stasera?"
+    ],
+    "note": "Con Lei se usa la 3.ª persona del condizionale: preparerebbe (o potrebbe prepararmelo)."
+   }
+  ]
+ },
+ "r21-04": {
+  "consigna": "¿Qué harías si pudieras? Completá con el condizionale (io) del verbo indicado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Ti ___, ma devo andare a prendere mia figlia. (dare un passaggio)",
+    "answer": "darei un passaggio",
+    "alt": [],
+    "note": "Dare conserva la -a- de la raíz en el condizionale: darei."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "___ l'articolo ma non ho tempo. (tradurre)",
+    "answer": "tradurrei",
+    "alt": [],
+    "note": "Los verbos en -durre forman el condizionale sobre tradurr-: tradurrei."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Il vino lo ___ volentieri, ma prendo antibiotici. (bere)",
+    "answer": "berrei",
+    "alt": [],
+    "note": "Bere tiene condizionale con doble r: berrei."
+   }
+  ]
+ },
+ "r21-08": {
+  "consigna": "Traducí al italiano, prestando atención a dovere, potere, sapere y volere en condizionale.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Deberías ir al médico.",
+    "answer": "Dovresti andare dal medico.",
+    "alt": [
+     "Dovresti andare dal dottore."
+    ],
+    "note": "Dovere en condizionale expresa un consejo: dovresti = deberías."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Tendría que salir a las tres pero no saqué el pasaje.",
+    "answer": "Dovrei partire alle tre ma non ho fatto il biglietto.",
+    "alt": [
+     "Dovrei partire alle tre, ma non ho fatto il biglietto.",
+     "Dovrei partire alle tre ma non ho comprato il biglietto.",
+     "Dovrei partire alle tre, ma non ho comprato il biglietto.",
+     "Dovrei partire alle tre ma non ho preso il biglietto.",
+     "Dovrei partire alle tre, ma non ho preso il biglietto."
+    ],
+    "note": "Dovrei = tendría que: una obligación que quizás no se cumpla."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "A esta altura ya deberían estar en casa.",
+    "answer": "Dovrebbero già essere a casa ormai.",
+    "alt": [
+     "Ormai dovrebbero già essere a casa.",
+     "Dovrebbero essere già a casa ormai.",
+     "Ormai dovrebbero essere già a casa."
+    ],
+    "note": "Dovrebbero expresa una suposición probable: «ya deberían estar»."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "¿Podrías venir a las dos?",
+    "answer": "Potresti venire alle due?",
+    "alt": [],
+    "note": "Potresti = podrías: pedido cortés."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Dijiste que podías venir a las dos.",
+    "answer": "Hai detto che potevi venire alle due.",
+    "alt": [],
+    "note": "Acá no hay condizionale: potevi (imperfetto) reporta una capacidad en el pasado."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Puede que esté en lo de la tía o en lo de la abuela.",
+    "answer": "Potrebbe essere dalla zia oppure dalla nonna.",
+    "alt": [
+     "Potrebbe essere dalla zia o dalla nonna."
+    ],
+    "note": "Potrebbe expresa posibilidad; da + persona = «en lo de»."
+   },
+   {
+    "label": "g",
+    "type": "translate",
+    "stem": "¿Me sabrías decir si volvieron?",
+    "answer": "Mi sapresti dire se sono tornati?",
+    "alt": [
+     "Sapresti dirmi se sono tornati?"
+    ],
+    "note": "El condizionale de *sapere* suaviza la pregunta: *mi sapresti dire...?*, «¿me sabrías decir...?»."
+   },
+   {
+    "label": "h",
+    "type": "translate",
+    "stem": "No sabía decirme nada.",
+    "answer": "Non sapeva dirmi niente.",
+    "alt": [
+     "Non mi sapeva dire niente.",
+     "Non sapeva dirmi nulla.",
+     "Non mi sapeva dire nulla."
+    ],
+    "note": "Imperfetto de sapere + infinitivo: no era capaz de decirme nada."
+   },
+   {
+    "label": "i",
+    "type": "translate",
+    "stem": "Giulia querría quedarse en Pisa.",
+    "answer": "Giulia vorrebbe rimanere a Pisa.",
+    "alt": [
+     "Giulia vorrebbe restare a Pisa."
+    ],
+    "note": "*volere* en condizionale expresa deseo con cortesía: *vorrebbe rimanere*."
+   },
+   {
+    "label": "j",
+    "type": "translate",
+    "stem": "A ella le gustaría quedarse en Pisa.",
+    "answer": "Le piacerebbe rimanere a Pisa.",
+    "alt": [
+     "Le piacerebbe restare a Pisa.",
+     "A lei piacerebbe rimanere a Pisa.",
+     "A lei piacerebbe restare a Pisa."
+    ],
+    "note": "Piacerebbe concuerda con el infinitivo (singular) y lleva el pronombre le."
+   }
+  ]
+ },
+ "r21-01b": {
+  "consigna": "Completá el condizionale passato con el auxiliar correcto (essere o avere).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "(io) ___ venuto/a prima.",
+    "answer": "sarei",
+    "alt": [],
+    "note": "Venire forma los tiempos compuestos con essere: sarei venuto."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "(io) ___ telefonato ieri.",
+    "answer": "avrei",
+    "alt": [],
+    "note": "Telefonare es con avere: avrei telefonato."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "(loro) ___ partiti/e più tardi.",
+    "answer": "sarebbero",
+    "alt": [],
+    "note": "Partire va con essere: sarebbero partiti."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Mi ___ arrabbiato/a.",
+    "answer": "sarei",
+    "alt": [],
+    "note": "Los verbos reflexivos llevan siempre essere: mi sarei arrabbiato."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Si ___ seccato/a.",
+    "answer": "sarebbe",
+    "alt": [],
+    "note": "Seccarsi es reflexivo, así que va con essere: si sarebbe seccato."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Ci ___ divertiti/e.",
+    "answer": "saremmo",
+    "alt": [],
+    "note": "Divertirsi es reflexivo: ci saremmo divertiti."
+   }
+  ]
+ },
+ "r21-02b": {
+  "consigna": "¿Qué habrías hecho vos? Respondé en italiano con el condizionale passato.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Non hanno fatto la fila, sono passati davanti a noi. Voi cosa avreste fatto? – ___ (Habríamos protestado.)",
+    "answer": "Avremmo protestato",
+    "alt": [],
+    "note": "Protestare va con avere: avremmo protestato."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Sono arrivati con tre ore di ritardo. Tu come avresti reagito? – ___ (Me habría enojado.)",
+    "answer": "Mi sarei arrabbiato",
+    "alt": [
+     "Mi sarei arrabbiata",
+     "Sarei stato arrabbiato",
+     "Sarei stata arrabbiata"
+    ],
+    "note": "Arrabbiarsi es reflexivo y va con essere: mi sarei arrabbiato/a."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Mi hanno fatto pagare troppo. Tu cosa avresti fatto? – ___ (Me habría quejado. – lamentarsi)",
+    "answer": "Mi sarei lamentato",
+    "alt": [
+     "Mi sarei lamentata"
+    ],
+    "note": "Lamentarsi es reflexivo: mi sarei lamentato/a."
+   }
+  ]
+ },
+ "r21-03b": {
+  "consigna": "Me gustaría… me habría gustado. Respondé en italiano con el condizionale (presente y passato) del mismo verbo de la pregunta: piacere o volere.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Ti sarebbe piaciuto andare? – Sì, ___ (Sí, me habría gustado ir. Me gustaría ir mañana.)",
+    "answer": "mi sarebbe piaciuto andare. Mi piacerebbe andare domani",
+    "alt": [
+     "mi sarebbe piaciuto andarci. Mi piacerebbe andarci domani"
+    ],
+    "note": "Piacere compuesto va con essere (mi sarebbe piaciuto); el simple es mi piacerebbe."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Avresti voluto parlargli? – Sì, ___ (Sí, me habría gustado hablarle. Me gustaría hablarle pronto.)",
+    "answer": "avrei voluto parlargli. Vorrei parlargli presto",
+    "alt": [
+     "gli avrei voluto parlare. Gli vorrei parlare presto",
+     "avrei voluto parlargli. Gli vorrei parlare presto",
+     "gli avrei voluto parlare. Vorrei parlargli presto"
+    ],
+    "note": "Volere en condizionale passato: avrei voluto; en simple: vorrei."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Gli sarebbe piaciuto venire? – Sì, ___ (Sí, le habría gustado venir. Le gustaría venir la semana que viene.)",
+    "answer": "gli sarebbe piaciuto venire. Gli piacerebbe venire la settimana prossima",
+    "alt": [],
+    "note": "Con piacere, «a él» es gli: gli sarebbe piaciuto / gli piacerebbe."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Avresti voluto finire il lavoro? – Sì, ___ (Sí, me habría gustado terminar el trabajo. Me gustaría terminarlo pronto.)",
+    "answer": "avrei voluto finire il lavoro. Vorrei finirlo presto",
+    "alt": [
+     "avrei voluto finire il lavoro. Lo vorrei finire presto"
+    ],
+    "note": "Avrei voluto + infinitivo para el pasado, vorrei + infinitivo para el futuro."
+   }
+  ]
+ },
+ "r21-04b": {
+  "consigna": "Demasiado tarde: ¿qué no deberían haber hecho? Traducí al italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "No tendría que haber comprado esos zapatos.",
+    "answer": "Non avrei dovuto comprare quelle scarpe.",
+    "alt": [],
+    "note": "El arrepentimiento se arma con *avrei dovuto* + infinitivo simple: *non avrei dovuto comprare*; el castellano pone el «haber» en el infinitivo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "No tendrías que haber pagado en efectivo. (tu – in contanti)",
+    "answer": "Non avresti dovuto pagare in contanti.",
+    "alt": [],
+    "note": "Condizionale passato de dovere + infinitivo simple: avresti dovuto pagare."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "No tendrían que haberla contratado. (voi – impiegare)",
+    "answer": "Non avreste dovuto impiegarla.",
+    "alt": [
+     "Non l'avreste dovuta impiegare.",
+     "Non l'avreste dovuto impiegare.",
+     "Non la avreste dovuta impiegare."
+    ],
+    "note": "Con voi: avreste dovuto; el pronombre se une al infinitivo o va delante del auxiliar."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Ellos no tendrían que haber tomado ese vino.",
+    "answer": "Non avrebbero dovuto bere quel vino.",
+    "alt": [],
+    "note": "Condizionale passato de dovere (avrebbero dovuto) + infinitivo."
+   }
+  ]
+ },
+ "r21-01c": {
+  "consigna": "Informes de viaje: completá las dos versiones de cada oración en italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Ci hanno appena avvisato che ___ (el avión debería salir en una hora) / che ___ (la autopista podría estar bloqueada por la nieve).",
+    "answer": "l'aereo dovrebbe partire fra un'ora | l'autostrada potrebbe essere bloccata dalla neve",
+    "alt": [
+     "l'aereo dovrebbe partire tra un'ora | l'autostrada potrebbe essere bloccata dalla neve"
+    ],
+    "note": "Para una previsión actual se usa el condizionale presente: dovrebbe, potrebbe."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Alla radio avevo sentito che ___ (el avión tendría que haber salido una hora antes) / che ___ (la autopista podría haber estado bloqueada por la nieve).",
+    "answer": "l'aereo sarebbe dovuto partire un'ora prima | l'autostrada avrebbe potuto essere bloccata dalla neve",
+    "alt": [
+     "l'aereo avrebbe dovuto partire un'ora prima | l'autostrada avrebbe potuto essere bloccata dalla neve",
+     "l'aereo sarebbe dovuto partire un'ora prima | l'autostrada sarebbe potuta essere bloccata dalla neve",
+     "l'aereo avrebbe dovuto partire un'ora prima | l'autostrada sarebbe potuta essere bloccata dalla neve"
+    ],
+    "note": "En el pasado se usa el condizionale passato de dovere/potere (con essere o avere); con el infinitivo essere se prefiere avere: avrebbe potuto essere."
+   }
+  ]
+ },
+ "r21-02c": {
+  "consigna": "Traducí al italiano. Hay dos maneras de expresar el futuro en el pasado: condizionale passato o imperfetto.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Estaba convencido de que ella llamaría / iba a llamar.",
+    "answer": "Ero convinto che avrebbe telefonato.",
+    "alt": [
+     "Ero convinta che avrebbe telefonato.",
+     "Ero convinto che telefonava.",
+     "Ero convinta che telefonava.",
+     "Ero convinto che avrebbe chiamato.",
+     "Ero convinta che avrebbe chiamato."
+    ],
+    "note": "El futuro visto desde el pasado se expresa con el condizionale passato (avrebbe telefonato) o, en lo coloquial, con el imperfetto."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Sabían que ella se iría / se iba a ir.",
+    "answer": "Sapevano che sarebbe partita.",
+    "alt": [
+     "Sapevano che partiva.",
+     "Sapevano che se ne sarebbe andata.",
+     "Sapevano che se ne andava.",
+     "Sapevano che sarebbe andata via.",
+     "Sapevano che andava via."
+    ],
+    "note": "Futuro en el pasado: sarebbe partita (o, coloquial, partiva)."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Me dijo que llegaría a las cuatro / que llegaba a las cuatro.",
+    "answer": "Mi ha detto che sarebbe arrivato alle quattro.",
+    "alt": [
+     "Mi ha detto che arrivava alle quattro.",
+     "Mi disse che sarebbe arrivato alle quattro.",
+     "Mi disse che arrivava alle quattro.",
+     "Mi ha detto che sarebbe arrivata alle quattro.",
+     "Mi disse che sarebbe arrivata alle quattro."
+    ],
+    "note": "Después de un verbo de decir en pasado, el futuro se expresa con condizionale passato, no presente."
+   }
+  ]
+ },
+ "r21-03c": {
+  "consigna": "¿Hecho posible, imposible o ambiguo? Decidí si lo que expresa el condizionale passato pudo cumplirse.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Renzo mi ha informato che avrebbe risposto subito se avesse avuto i documenti necessari.",
+    "options": [
+     "posible",
+     "imposible",
+     "ambigua"
+    ],
+    "answer": "ambigua",
+    "alt": [],
+    "note": "Puede ser «respondería apenas tuviera los documentos» (posible) o «habría respondido si los hubiera tenido» (imposible)."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Realma mi aveva assicurato che avrebbe risposto presto, e infatti la lettera è arrivata ieri.",
+    "options": [
+     "posible",
+     "imposible",
+     "ambigua"
+    ],
+    "answer": "posible",
+    "alt": [],
+    "note": "Futuro en el pasado que efectivamente se cumplió: la carta llegó."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Alla fine l'ufficio ci ha avvisato che avrebbe inviato il codice fiscale al più presto.",
+    "options": [
+     "posible",
+     "imposible",
+     "ambigua"
+    ],
+    "answer": "posible",
+    "alt": [],
+    "note": "Futuro en el pasado todavía realizable: «enviaría el código lo antes posible»."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "L'ENEL ci ha fatto sapere che ci avrebbe inviato la bolletta, ma che gli mancava l'indirizzo.",
+    "options": [
+     "posible",
+     "imposible",
+     "ambigua"
+    ],
+    "answer": "imposible",
+    "alt": [],
+    "note": "La acción no pudo realizarse (faltaba la dirección): «nos habría mandado la factura»."
+   }
+  ]
+ },
+ "r21-04c": {
+  "consigna": "Traducí al italiano usando el condizionale periodístico (información no confirmada).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Al parecer, el ministro no estaría dispuesto a renunciar.",
+    "answer": "Il ministro non sarebbe disposto a dare le dimissioni.",
+    "alt": [
+     "Il ministro non sarebbe disposto a dimettersi.",
+     "A quanto pare, il ministro non sarebbe disposto a dare le dimissioni.",
+     "A quanto pare, il ministro non sarebbe disposto a dimettersi."
+    ],
+    "note": "El condizionale presente presenta un dato presente no confirmado."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Según las fuentes, el avión se habría caído diez minutos después del despegue.",
+    "answer": "L'aereo sarebbe caduto dieci minuti dopo il decollo.",
+    "alt": [
+     "Secondo le fonti, l'aereo sarebbe caduto dieci minuti dopo il decollo.",
+     "Secondo le fonti l'aereo sarebbe caduto dieci minuti dopo il decollo."
+    ],
+    "note": "El condizionale passato presenta un hecho pasado no confirmado."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Según parece, el asaltante habría disparado dos veces.",
+    "answer": "Il rapinatore avrebbe sparato due volte.",
+    "alt": [
+     "A quanto pare, il rapinatore avrebbe sparato due volte.",
+     "A quanto sembra, il rapinatore avrebbe sparato due volte."
+    ],
+    "note": "Condizionale passato de rumor o fuente no verificada: avrebbe sparato."
+   }
+  ]
+ },
+ "r22-01": {
+  "consigna": "Escribí el imperativo de tu, Lei y voi (en ese orden).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "parlare più piano → tu: ___ più piano · Lei: ___ più piano · voi: ___ più piano",
+    "answer": "parla | parli | parlate",
+    "alt": [],
+    "note": "Verbos en -are: tu -a, Lei -i (congiuntivo), voi -ate."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "scendere subito → tu: ___ subito · Lei: ___ subito · voi: ___ subito",
+    "answer": "scendi | scenda | scendete",
+    "alt": [],
+    "note": "Verbos en -ere: tu -i, Lei -a, voi -ete."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "finire il lavoro → tu: ___ il lavoro · Lei: ___ il lavoro · voi: ___ il lavoro",
+    "answer": "finisci | finisca | finite",
+    "alt": [],
+    "note": "Finire agrega -isc- en tu y Lei, pero no en voi."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "partire subito → tu: ___ subito · Lei: ___ subito · voi: ___ subito",
+    "answer": "parti | parta | partite",
+    "alt": [],
+    "note": "Verbos en -ire sin -isc-: tu -i, Lei -a, voi -ite."
+   }
+  ]
+ },
+ "r22-03": {
+  "consigna": "Escribí el imperativo de tu y de Lei (en ese orden).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "scegliere una canzone → tu: ___ una canzone · Lei: ___ una canzone",
+    "answer": "scegli | scelga",
+    "alt": [],
+    "note": "Scegliere: tu scegli; Lei toma el congiuntivo irregular scelga."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "rimanere un po' di più → tu: ___ un po' di più · Lei: ___ un po' di più",
+    "answer": "rimani | rimanga",
+    "alt": [],
+    "note": "Rimanere: tu rimani; Lei rimanga (con -g-)."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "tenere la destra → tu: ___ la destra · Lei: ___ la destra",
+    "answer": "tieni | tenga",
+    "alt": [],
+    "note": "Tenere diptonga en tu (tieni) y lleva -g- en Lei (tenga)."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "venire dentro → tu: ___ dentro · Lei: ___ dentro",
+    "answer": "vieni | venga",
+    "alt": [],
+    "note": "Venire: tu vieni; Lei venga."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "tradurre il brano → tu: ___ il brano · Lei: ___ il brano",
+    "answer": "traduci | traduca",
+    "alt": [],
+    "note": "Tradurre se conjuga sobre la raíz traduc-: traduci, traduca."
+   }
+  ]
+ },
+ "r22-05": {
+  "consigna": "Traducí al italiano con el imperativo de tu y de Lei (en ese orden).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Hacelo enseguida / Hágalo enseguida. (fare) → tu: ___ · Lei: ___",
+    "answer": "fallo subito | lo faccia subito",
+    "alt": [
+     "fallo subito | lo faccia immediatamente",
+     "fallo immediatamente | lo faccia immediatamente"
+    ],
+    "note": "Fa' + lo duplica la consonante (fallo); con Lei el pronombre va adelante (lo faccia)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Decile que venga / Dígale que venga. (dire a) → tu: ___ · Lei: ___",
+    "answer": "dille di venire | le dica di venire",
+    "alt": [
+     "digli di venire | gli dica di venire"
+    ],
+    "note": "Di' + le da dille; con Lei el pronombre precede: le dica. Dire a qualcuno di + infinitivo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Andá (ahí) / Vaya (ahí). (andare) → tu: ___ · Lei: ___",
+    "answer": "vacci | ci vada",
+    "alt": [],
+    "note": "Va' + ci duplica la consonante: vacci; con Lei: ci vada."
+   }
+  ]
+ },
+ "r22-07": {
+  "consigna": "Traducí al italiano con el imperativo de tu y después el de voi. Fijate dónde cae el acento.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "¡Despertate! / ¡Despiértense! → tu: ___ · voi: ___",
+    "answer": "svegliati | svegliatevi",
+    "alt": [],
+    "note": "El pronombre se une al imperativo sin mover el acento: svègliati, svegliàtevi."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Terminalo. / Termínenlo. → tu: ___ · voi: ___",
+    "answer": "finiscilo | finitelo",
+    "alt": [],
+    "note": "El pronombre objeto va pegado al imperativo afirmativo: finìscilo, finìtelo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Sentate. / Siéntense. (sedersi) → tu: ___ · voi: ___",
+    "answer": "siediti | sedetevi",
+    "alt": [],
+    "note": "Sedersi diptonga en tu (sièditi) pero no en voi (sedètevi)."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Pedile que venga. / Pídanle que venga. (chiedere a) → tu: ___ · voi: ___",
+    "answer": "chiedigli di venire | chiedetegli di venire",
+    "alt": [
+     "chiedile di venire | chiedetele di venire"
+    ],
+    "note": "Chiedere a qualcuno di + infinitivo; gli se une al imperativo."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Ponete el abrigo. / Pónganse el abrigo. (mettersi) → tu: ___ · voi: ___",
+    "answer": "mettiti il cappotto | mettetevi il cappotto",
+    "alt": [
+     "mettiti il giaccone | mettetevi il giaccone"
+    ],
+    "note": "Mettersi: mèttiti, mettètevi; la prenda sin posesivo."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "¡Divertite! / ¡Diviértanse! (divertirsi) → tu: ___ · voi: ___",
+    "answer": "divertiti | divertitevi",
+    "alt": [],
+    "note": "Reflexivo con pronombre enclítico: divèrtiti, divertìtevi."
+   }
+  ]
+ },
+ "r22-08": {
+  "consigna": "¿Esta oración es una sugerencia («hagamos…»)?",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Mettiamolo qui.",
+    "options": [
+     "sugerencia",
+     "no es sugerencia"
+    ],
+    "answer": "sugerencia",
+    "alt": [],
+    "note": "Imperativo de noi con el pronombre pegado: «pongámoslo acá»."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Lo mettiamo qui.",
+    "options": [
+     "sugerencia",
+     "no es sugerencia"
+    ],
+    "answer": "no es sugerencia",
+    "alt": [],
+    "note": "Con el pronombre delante es presente indicativo: «lo ponemos acá» (afirmación)."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Non metterlo qui.",
+    "options": [
+     "sugerencia",
+     "no es sugerencia"
+    ],
+    "answer": "no es sugerencia",
+    "alt": [],
+    "note": "Es un imperativo negativo de tu (non + infinitivo): una orden."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Andateci domani.",
+    "options": [
+     "sugerencia",
+     "no es sugerencia"
+    ],
+    "answer": "no es sugerencia",
+    "alt": [],
+    "note": "Es un imperativo de voi: una orden a otros, no una propuesta que incluye al hablante."
+   },
+   {
+    "label": "e",
+    "type": "choice",
+    "stem": "Ci andiamo domani.",
+    "options": [
+     "sugerencia",
+     "no es sugerencia"
+    ],
+    "answer": "no es sugerencia",
+    "alt": [],
+    "note": "Con ci delante es presente indicativo: «vamos mañana» (afirmación)."
+   },
+   {
+    "label": "f",
+    "type": "choice",
+    "stem": "Andiamoci domani.",
+    "options": [
+     "sugerencia",
+     "no es sugerencia"
+    ],
+    "answer": "sugerencia",
+    "alt": [],
+    "note": "Imperativo de noi con ci pegado: «vayamos mañana»."
+   }
+  ]
+ },
+ "r22-01b": {
+  "consigna": "Traducí al italiano con el imperativo de Lei, salvo que se indique otra cosa.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Siéntese, por favor. / Siéntense (voi). → Lei: ___ · voi: ___",
+    "answer": "si accomodi | accomodatevi",
+    "alt": [
+     "si sieda | sedetevi",
+     "si sieda | accomodatevi",
+     "si accomodi | sedetevi"
+    ],
+    "note": "Con Lei el pronombre va delante (si accomodi); con voi va pegado (accomodatevi)."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Páseme la sal.",
+    "answer": "Mi passi il sale.",
+    "alt": [],
+    "note": "Imperativo de Lei = congiuntivo, con el pronombre delante: mi passi."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "___, per favore. (Deme un poco de pan…)",
+    "answer": "Mi dia un po' di pane",
+    "alt": [
+     "Mi dia un pezzo di pane"
+    ],
+    "note": "Dare con Lei es dia; el pronombre va delante: mi dia."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "___, per favore. (Háganos un café…)",
+    "answer": "Ci faccia un caffè",
+    "alt": [],
+    "note": "Fare con Lei es faccia, con el pronombre delante: ci faccia."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "___, per favore. (Tráiganos la cuenta…)",
+    "answer": "Ci porti il conto",
+    "alt": [],
+    "note": "Portare con Lei es porti: ci porti il conto."
+   }
+  ]
+ },
+ "r22-02": {
+  "consigna": "Estas indicaciones se las diste a tus sobrinos en una salida. ¿Qué le habrías dicho a uno solo? Pasalas al imperativo de tu.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Guardate bene prima di attraversare la strada.",
+    "answer": "Guarda bene prima di attraversare la strada.",
+    "alt": [],
+    "note": "Imperativo de tu de los verbos en -are: guarda."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "State attenti!",
+    "answer": "Sta' attento!",
+    "alt": [
+     "Stai attento!",
+     "Sta attento!",
+     "Sta' attenta!",
+     "Stai attenta!",
+     "Sta attenta!"
+    ],
+    "note": "Stare tiene imperativo sta' (o stai); el adjetivo pasa al singular."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Non toccate niente.",
+    "answer": "Non toccare niente.",
+    "alt": [
+     "Non toccare nulla."
+    ],
+    "note": "El imperativo negativo de tu es non + infinitivo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Non sedetevi lì!",
+    "answer": "Non sederti lì!",
+    "alt": [
+     "Non ti sedere lì!"
+    ],
+    "note": "Negativo de tu: non + infinitivo, con el pronombre pegado o delante."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Uscite di qui.",
+    "answer": "Esci di qui.",
+    "alt": [],
+    "note": "Uscire cambia la raíz en tu: esci."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Sbrigatevi!",
+    "answer": "Sbrigati!",
+    "alt": [],
+    "note": "Reflexivo en tu: el pronombre se pega al imperativo: sbrìgati."
+   }
+  ]
+ },
+ "r22-04": {
+  "consigna": "¿Qué decís en cada situación? Elegí la expresión adecuada.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Querés llamar la atención del vendedor:",
+    "options": [
+     "Senti!",
+     "Senta!"
+    ],
+    "answer": "Senta!",
+    "alt": [],
+    "note": "A un desconocido se le habla de Lei: senta."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "No podés creer lo que escuchás:",
+    "options": [
+     "Non dimmelo!",
+     "Non me lo dire!"
+    ],
+    "answer": "Non me lo dire!",
+    "alt": [
+     "Non dirmelo!"
+    ],
+    "note": "«¡No me digas!»: el imperativo negativo de tu es non + infinitivo (non me lo dire / non dirmelo); «non dimmelo» es incorrecto."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Querés que tu amigo te preste atención:",
+    "options": [
+     "Senti",
+     "Ascolti"
+    ],
+    "answer": "Senti",
+    "alt": [],
+    "note": "A un amigo se le habla de tu: senti (ascolti es la forma de Lei)."
+   }
+  ]
+ },
+ "r23-01": {
+  "consigna": "Completá la oración en italiano según lo indicado entre paréntesis.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Hanno finito di ___? (…trabajar)",
+    "answer": "lavorare",
+    "alt": [],
+    "note": "Finire di + infinitivo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Ieri ha cominciato a ___. (…llover)",
+    "answer": "piovere",
+    "alt": [],
+    "note": "Cominciare a + infinitivo."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Non devi partire ___. (…sin pagar)",
+    "answer": "senza pagare",
+    "alt": [],
+    "note": "Senza + infinitivo, como en castellano."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Ti vedrò ___. (…antes de irme)",
+    "answer": "prima di partire",
+    "alt": [
+     "prima di andarmene",
+     "prima di andare via"
+    ],
+    "note": "Prima di + infinitivo cuando el sujeto es el mismo."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Non so ___. (…cómo agradecerte)",
+    "answer": "come ringraziarti",
+    "alt": [],
+    "note": "Interrogativo + infinitivo; el pronombre se pega al infinitivo."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Bisogna ___. (…cambiar de tren en Milán)",
+    "answer": "cambiare treno a Milano",
+    "alt": [],
+    "note": "Bisogna + infinitivo sin preposición; cambiare treno va sin artículo."
+   },
+   {
+    "label": "g",
+    "type": "cloze",
+    "stem": "Che strano ___! (tu) / Che strano ___! (voi) (…verte acá / verlos acá)",
+    "answer": "vederti qui | vedervi qui",
+    "alt": [
+     "vederti qua | vedervi qua"
+    ],
+    "note": "Che strano + infinitivo directo, con el pronombre pegado."
+   },
+   {
+    "label": "h",
+    "type": "translate",
+    "stem": "Mio figlio mi ha detto ___. (…adónde ir)",
+    "answer": "dove andare",
+    "alt": [],
+    "note": "Interrogativo + infinitivo: dove andare."
+   }
+  ]
+ },
+ "r23-02": {
+  "consigna": "Traducí al italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Me gusta viajar en tren.",
+    "answer": "Mi piace viaggiare in treno.",
+    "alt": [],
+    "note": "Piacere + infinitivo, con el verbo en singular."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Estoy pensando en irme.",
+    "answer": "Penso di partire.",
+    "alt": [
+     "Sto pensando di partire.",
+     "Penso di andarmene.",
+     "Sto pensando di andarmene.",
+     "Penso di andare via.",
+     "Sto pensando di andare via."
+    ],
+    "note": "*pensare di* + infinitivo = «pensar (en) hacer algo»: el italiano usa *di*, no *in*."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "tu: ___ · Lei: ___ (Espero verte pronto / Espero verlo pronto)",
+    "answer": "spero di vederti presto | spero di vederla presto",
+    "alt": [
+     "spero di vederti presto | spero di vederLa presto"
+    ],
+    "note": "Sperare di + infinitivo; con Lei el objeto es La."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Dudo poder venir.",
+    "answer": "Dubito di poter venire.",
+    "alt": [
+     "Dubito di potere venire."
+    ],
+    "note": "Dubitare di + infinitivo cuando el sujeto es el mismo."
+   }
+  ]
+ },
+ "r23-03": {
+  "consigna": "Traducí al italiano (mismo sujeto: di + infinitivo).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Paolo cree que está enfermo.",
+    "answer": "Paolo crede di essere malato.",
+    "alt": [],
+    "note": "Con el mismo sujeto, credere di + infinitivo en lugar de che + congiuntivo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Manuela no cree que pueda venir.",
+    "answer": "Manuela non crede di poter venire.",
+    "alt": [
+     "Manuela non crede di potere venire."
+    ],
+    "note": "Mismo sujeto: non credere di + infinitivo."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Qué lástima tener que irme.",
+    "answer": "Che peccato dover partire.",
+    "alt": [
+     "Peccato dover partire.",
+     "Che peccato dovermene andare.",
+     "Che peccato dover andare via."
+    ],
+    "note": "Che peccato + infinitivo directo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Gigi está pensando en venir.",
+    "answer": "Gigi pensa di venire.",
+    "alt": [
+     "Gigi sta pensando di venire."
+    ],
+    "note": "Pensare di + infinitivo."
+   }
+  ]
+ },
+ "r23-08": {
+  "consigna": "Completá en italiano con a + infinitivo (no con gerundio).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Sta a letto tutta la giornata ___. (…leyendo novelas)",
+    "answer": "a leggere romanzi",
+    "alt": [],
+    "note": "Después de stare/passare en un lugar o tiempo, la actividad va con a + infinitivo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Erano seduti intorno al tavolo ___. (…jugando al bridge)",
+    "answer": "a giocare a bridge",
+    "alt": [],
+    "note": "Essere seduti + a + infinitivo; giocare a + juego."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Hanno passato la giornata ___. (…arreglando el auto)",
+    "answer": "a riparare la macchina",
+    "alt": [
+     "ad aggiustare la macchina",
+     "a riparare l'auto",
+     "ad aggiustare l'auto"
+    ],
+    "note": "Passare il tempo a + infinitivo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Era distesa sul divano ___. (…comiendo bombones)",
+    "answer": "a mangiare cioccolatini",
+    "alt": [],
+    "note": "Essere disteso + a + infinitivo para la actividad."
+   }
+  ]
+ },
+ "r23-01b": {
+  "consigna": "«Estoy contento de haber…»: completá con el infinitivo compuesto.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Sono contento di ___. (pagare i debiti)",
+    "answer": "aver pagato i debiti",
+    "alt": [
+     "avere pagato i debiti"
+    ],
+    "note": "Infinitivo compuesto = *aver(e)* + participio: *di aver pagato*, «de haber pagado»."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Sono contento di ___. (ricevere il pacco)",
+    "answer": "aver ricevuto il pacco",
+    "alt": [
+     "avere ricevuto il pacco"
+    ],
+    "note": "Ricevere va con avere."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Sono contento di ___. (uscire con te)",
+    "answer": "essere uscito con te",
+    "alt": [
+     "essere uscita con te"
+    ],
+    "note": "Uscire va con essere y el participio concuerda."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Sono contento di ___. (divertirsi)",
+    "answer": "essermi divertito",
+    "alt": [
+     "essermi divertita"
+    ],
+    "note": "Reflexivo: essere + pronombre pegado (essermi) + participio."
+   }
+  ]
+ },
+ "r23-04": {
+  "consigna": "Completá en italiano con el infinitivo compuesto.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Che sollievo ___! (…haber encontrado las llaves)",
+    "answer": "aver trovato le chiavi",
+    "alt": [
+     "avere trovato le chiavi"
+    ],
+    "note": "Acción anterior: infinitivo compuesto aver + participio."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "È un peccato ___. (…no haber ido)",
+    "answer": "non esserci andato",
+    "alt": [
+     "non esserci andata",
+     "non esserci andati",
+     "non esserci andate",
+     "non essere andato",
+     "non essere andata",
+     "non essere andati",
+     "non essere andate"
+    ],
+    "note": "Andare va con essere; ci (allí) se pega a essere."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Dubito di ___. (…haber entendido)",
+    "answer": "aver capito",
+    "alt": [
+     "avere capito"
+    ],
+    "note": "Mismo sujeto: dubitare di + infinitivo compuesto."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Mi dispiace ___. (…haber tenido que irme – dover partire)",
+    "answer": "di aver dovuto partire",
+    "alt": [
+     "di avere dovuto partire",
+     "aver dovuto partire",
+     "di essere dovuto partire",
+     "di essere dovuta partire"
+    ],
+    "note": "Dispiacere di + infinitivo compuesto de dovere."
+   }
+  ]
+ },
+ "r23-05": {
+  "consigna": "¿Infinitivo simple o compuesto? Traducí al italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Salí sin desayunar.",
+    "answer": "Sono uscito senza fare colazione.",
+    "alt": [
+     "Sono uscita senza fare colazione.",
+     "Sono uscito senza aver fatto colazione.",
+     "Sono uscita senza aver fatto colazione."
+    ],
+    "note": "Senza + infinitivo simple para acciones simultáneas."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Se fueron sin haber pagado.",
+    "answer": "Sono partiti senza aver pagato.",
+    "alt": [
+     "Se ne sono andati senza aver pagato.",
+     "Sono andati via senza aver pagato.",
+     "Sono partiti senza pagare.",
+     "Se ne sono andati senza pagare.",
+     "Sono partite senza aver pagato."
+    ],
+    "note": "Senza + infinitivo compuesto para una acción que debía ser anterior."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Gracias por ayudarnos.",
+    "answer": "Grazie di averci aiutato.",
+    "alt": [
+     "Grazie per averci aiutato.",
+     "Grazie di averci aiutati.",
+     "Grazie per averci aiutati."
+    ],
+    "note": "Grazie di/per + infinitivo compuesto (la ayuda ya ocurrió)."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Voy a ir a verte después de hablar con él.",
+    "answer": "Verrò a trovarti dopo avergli parlato.",
+    "alt": [
+     "Ti verrò a trovare dopo avergli parlato.",
+     "Verrò a trovarti dopo aver parlato con lui.",
+     "Ti verrò a trovare dopo aver parlato con lui.",
+     "Verrò a vederti dopo avergli parlato.",
+     "Vengo a trovarti dopo avergli parlato.",
+     "Vengo a trovarti dopo aver parlato con lui.",
+     "Ti vengo a trovare dopo avergli parlato.",
+     "Ti vengo a trovare dopo aver parlato con lui."
+    ],
+    "note": "Dopo + infinitivo siempre compuesto."
+   }
+  ]
+ },
+ "r23-06": {
+  "consigna": "Traducí al italiano con infinitivo simple o compuesto según corresponda.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Creo que me voy el lunes.",
+    "answer": "Credo di partire lunedì.",
+    "alt": [
+     "Penso di partire lunedì."
+    ],
+    "note": "Infinitivo simple: acción posterior o simultánea."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Creo que me fui el lunes pasado.",
+    "answer": "Credo di essere partito lunedì scorso.",
+    "alt": [
+     "Credo di essere partita lunedì scorso."
+    ],
+    "note": "Infinitivo compuesto: acción anterior."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Estoy feliz de verlo mañana.",
+    "answer": "Sono felice di vederlo domani.",
+    "alt": [
+     "Sono contento di vederlo domani."
+    ],
+    "note": "Infinitivo simple para el futuro."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Estoy feliz de haberlo visto ayer.",
+    "answer": "Sono felice di averlo visto ieri.",
+    "alt": [],
+    "note": "Infinitivo compuesto para el pasado."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "No me puedo casar antes de terminar los estudios.",
+    "answer": "Non posso sposarmi prima di finire gli studi.",
+    "alt": [
+     "Non mi posso sposare prima di finire gli studi."
+    ],
+    "note": "Prima di + infinitivo simple."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "No me puedo casar antes de haber terminado los estudios.",
+    "answer": "Non posso sposarmi prima di aver finito gli studi.",
+    "alt": [
+     "Non mi posso sposare prima di aver finito gli studi.",
+     "Non posso sposarmi prima di avere finito gli studi."
+    ],
+    "note": "Prima di + infinitivo compuesto subraya que la acción debe completarse."
+   }
+  ]
+ },
+ "r23-07": {
+  "consigna": "Traducí al italiano (mismo sujeto: di + infinitivo compuesto).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Dice que terminó.",
+    "answer": "Dice di aver finito.",
+    "alt": [
+     "Dice di avere finito."
+    ],
+    "note": "Mismo sujeto: dire di + infinitivo compuesto."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Me acuerdo de que llamé temprano.",
+    "answer": "Mi ricordo di aver chiamato presto.",
+    "alt": [
+     "Ricordo di aver chiamato presto.",
+     "Mi ricordo di aver telefonato presto.",
+     "Ricordo di aver telefonato presto."
+    ],
+    "note": "Ricordarsi di + infinitivo compuesto."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Creen que entendieron.",
+    "answer": "Credono di aver capito.",
+    "alt": [
+     "Pensano di aver capito.",
+     "Credono di avere capito."
+    ],
+    "note": "Credere di + infinitivo compuesto."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Le dio pena no haber ayudado. (le è dispiaciuto)",
+    "answer": "Le è dispiaciuto di non aver aiutato.",
+    "alt": [
+     "Le è dispiaciuto non aver aiutato.",
+     "Le è dispiaciuto di non avere aiutato."
+    ],
+    "note": "Dispiacere di + infinitivo compuesto negativo."
+   }
+  ]
+ },
+ "r23-01c": {
+  "consigna": "¿Cómo lo hacés? Respondé con el gerundio de los verbos indicados.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Che bella casa. Come hai fatto a comprarla? – ___ come un matto e ___ la metà dello stipendio. (lavorare, risparmiare)",
+    "answer": "Lavorando | risparmiando",
+    "alt": [],
+    "note": "El gerundio indica el modo: -ando para los verbos en -are."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Studi tanto di notte, come fai a resistere? – ___ caffè e ___ come un turco! (bere, fumare)",
+    "answer": "Bevendo | fumando",
+    "alt": [],
+    "note": "Bere forma el gerundio sobre la raíz bev-: bevendo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Gli affari vanno benissimo, come ha fatto? – ___ il mercato e ___ un servizio sempre migliore. (studiare, offrire)",
+    "answer": "Studiando | offrendo",
+    "alt": [],
+    "note": "Verbos en -ire: gerundio en -endo (offrendo)."
+   }
+  ]
+ },
+ "r23-01d": {
+  "consigna": "Hacé la oración más concisa: reemplazá la subordinada temporal (una volta che…, appena…) por un participio pasado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Una volta che aveva fatto la spesa Luisa è tornata a casa. → ___, Luisa è tornata a casa.",
+    "answer": "Fatta la spesa",
+    "alt": [],
+    "note": "Participio absoluto: concuerda con el objeto (la spesa → fatta)."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Appena saranno finite le lezioni, andremo in centro. → ___, andremo in centro.",
+    "answer": "Finite le lezioni",
+    "alt": [],
+    "note": "Participio absoluto: concuerda con el sujeto (le lezioni → finite)."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Una volta che siete arrivati in albergo, mi dovete chiamare. → ___, mi dovete chiamare.",
+    "answer": "Arrivati in albergo",
+    "alt": [
+     "Arrivate in albergo"
+    ],
+    "note": "Con verbos de essere el participio concuerda con el sujeto (voi → arrivati)."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Appena hai passato il ponte e la farmacia, troverai la strada a destra. → ___, troverai la strada a destra.",
+    "answer": "Passati il ponte e la farmacia",
+    "alt": [],
+    "note": "El participio concuerda con los objetos (masculino + femenino → masculino plural)."
+   }
+  ]
+ },
+ "r23-03b": {
+  "consigna": "Completá en italiano con un participio absoluto.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "___, hanno potuto partire. (Una vez arreglado el auto…)",
+    "answer": "Riparata la macchina",
+    "alt": [
+     "Una volta riparata la macchina",
+     "Aggiustata la macchina",
+     "Riparata l'auto"
+    ],
+    "note": "Participio absoluto concordado con el objeto: riparata la macchina."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "___, sono tutti tornati a casa. (Cuando zarpó el barco…)",
+    "answer": "Partita la barca",
+    "alt": [
+     "Partita la nave"
+    ],
+    "note": "Partire va con essere: el participio concuerda con el sujeto (la barca)."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "___, Marinella si ammalò. (Después de recibir la mala noticia…)",
+    "answer": "Ricevuta la brutta notizia",
+    "alt": [
+     "Ricevuta la cattiva notizia",
+     "Dopo aver ricevuto la brutta notizia",
+     "Dopo aver ricevuto la cattiva notizia"
+    ],
+    "note": "El participio concuerda con el objeto: ricevuta la notizia."
+   }
+  ]
+ },
+ "r24-01": {
+  "consigna": "Completá con el congiuntivo presente del verbo entre paréntesis.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Vuoi che io gli ___ il pacco? (mandare)",
+    "answer": "mandi",
+    "alt": [],
+    "note": "Volere che + congiuntivo; -are → -i."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Voglio che tu gli ___ qualcosa. (scrivere)",
+    "answer": "scriva",
+    "alt": [],
+    "note": "Verbos en -ere: congiuntivo en -a."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Voglio che loro ___ subito! (dormire)",
+    "answer": "dormano",
+    "alt": [],
+    "note": "Loro: -ano en el congiuntivo de -ere/-ire."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Vuoi che lo ___ io? (finire)",
+    "answer": "finisca",
+    "alt": [],
+    "note": "Finire conserva -isc- en el congiuntivo: finisca."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Vuole che tu lo ___ adesso. (pagare)",
+    "answer": "paghi",
+    "alt": [],
+    "note": "Pagare agrega h para mantener el sonido: paghi."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Voglio che loro ___ presto. (cominciare)",
+    "answer": "comincino",
+    "alt": [],
+    "note": "Cominciare pierde la i de la raíz: comincino."
+   }
+  ]
+ },
+ "r24-02": {
+  "consigna": "Preguntá qué prefieren los demás, con el congiuntivo del verbo indicado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Preferisci che lo ___ io? (fare)",
+    "answer": "faccia",
+    "alt": [],
+    "note": "Congiuntivo irregular de fare: faccia."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Preferisce che ci ___ io? (andare)",
+    "answer": "vada",
+    "alt": [],
+    "note": "Congiuntivo irregular de andare: vada."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Preferisci che glielo ___ io? (dare)",
+    "answer": "dia",
+    "alt": [],
+    "note": "Congiuntivo irregular de dare: dia."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Preferite che glielo ___ io? (dire)",
+    "answer": "dica",
+    "alt": [],
+    "note": "Congiuntivo irregular de dire: dica."
+   }
+  ]
+ },
+ "r24-03": {
+  "consigna": "Formá el congiuntivo presente singular (io/tu/lui) de estos verbos de presente irregular.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "contenere → che io/tu/lui ___",
+    "answer": "contenga",
+    "alt": [],
+    "note": "Como tenere: tenga → contenga."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "intervenire → che io/tu/lui ___",
+    "answer": "intervenga",
+    "alt": [],
+    "note": "Como venire: venga → intervenga."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "riuscire → che io/tu/lui ___",
+    "answer": "riesca",
+    "alt": [],
+    "note": "Como uscire: esca → riesca."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "produrre → che io/tu/lui ___",
+    "answer": "produca",
+    "alt": [],
+    "note": "Los verbos en -durre usan la raíz -duc-: produca."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "opporre → che io/tu/lui ___",
+    "answer": "opponga",
+    "alt": [],
+    "note": "Como porre: ponga → opponga."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "attrarre → che io/tu/lui ___",
+    "answer": "attragga",
+    "alt": [],
+    "note": "Como trarre: tragga → attragga."
+   }
+  ]
+ },
+ "r24-04": {
+  "consigna": "Decí lo que tiene que pasar: traducí al italiano la parte entre paréntesis.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Nicola, non hai ancora pagato l'affitto? ___ (Es fundamental que lo pagues pronto.)",
+    "answer": "È essenziale che tu lo paghi presto.",
+    "alt": [
+     "È fondamentale che tu lo paghi presto.",
+     "È indispensabile che tu lo paghi presto.",
+     "È essenziale che lo paghi presto.",
+     "È fondamentale che lo paghi presto."
+    ],
+    "note": "Las expresiones de necesidad (è essenziale che) llevan congiuntivo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Silvana e Giorgio non hanno spedito il pacco? ___ (Es importante que lo manden mañana.)",
+    "answer": "È importante che lo spediscano domani.",
+    "alt": [
+     "È importante che loro lo spediscano domani.",
+     "È importante che lo mandino domani.",
+     "È importante che loro lo mandino domani."
+    ],
+    "note": "È importante che + congiuntivo: spediscano (con -isc-)."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Voi non sapete se venite domani? ___ (Pero es necesario que yo lo sepa hoy.)",
+    "answer": "Ma è necessario che io lo sappia oggi.",
+    "alt": [
+     "Però è necessario che io lo sappia oggi.",
+     "Ma bisogna che io lo sappia oggi.",
+     "Ma è necessario che lo sappia oggi."
+    ],
+    "note": "È necessario che + congiuntivo irregular de sapere: sappia."
+   }
+  ]
+ },
+ "r24-05": {
+  "consigna": "Hablá de posibilidades: completá con el congiuntivo del verbo indicado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "È difficile che ___ tutti quanti. (venire) (Es poco probable que vengan todos.)",
+    "answer": "vengano",
+    "alt": [],
+    "note": "*è difficile che* («es poco probable que») + congiuntivo: *vengano*."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "È possibile che il treno ___ in ritardo. (essere) (Es posible que el tren llegue tarde.)",
+    "answer": "sia",
+    "alt": [],
+    "note": "È possibile che + congiuntivo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Non è detto che loro ___ stasera. (tornare) (No es seguro que vuelvan esta noche.)",
+    "answer": "tornino",
+    "alt": [],
+    "note": "*non è detto che* («no es seguro que») + congiuntivo: *tornino*."
+   }
+  ]
+ },
+ "r24-06": {
+  "consigna": "Decí lo que sentís empezando con la expresión dada: completá con el congiuntivo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Tu stai meglio. → Mi fa piacere che tu ___ meglio.",
+    "answer": "stia",
+    "alt": [],
+    "note": "Las emociones (mi fa piacere che) rigen congiuntivo: stia."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Lei non ha più tempo. → Mi dispiace che lei non ___ più tempo.",
+    "answer": "abbia",
+    "alt": [],
+    "note": "Mi dispiace che + congiuntivo: abbia."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Loro vogliono lamentarsi di nuovo. → Temo che loro ___ lamentarsi di nuovo.",
+    "answer": "vogliano",
+    "alt": [],
+    "note": "Temere che + congiuntivo: vogliano."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Loro non possono venire. → Che peccato che loro non ___ venire.",
+    "answer": "possano",
+    "alt": [],
+    "note": "Che peccato che + congiuntivo: possano."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Lucio è malato. → Ho paura che Lucio ___ malato.",
+    "answer": "sia",
+    "alt": [],
+    "note": "Avere paura che + congiuntivo: sia."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Lo fanno loro. → Non è giusto che lo ___ loro.",
+    "answer": "facciano",
+    "alt": [],
+    "note": "Non è giusto che + congiuntivo: facciano."
+   }
+  ]
+ },
+ "r24-07": {
+  "consigna": "Expresá opiniones e impresiones con el congiuntivo del verbo indicado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Ho l'impressione che Carlo ___ troppo. (bere)",
+    "answer": "beva",
+    "alt": [],
+    "note": "Ho l'impressione che + congiuntivo; bere → beva."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Mi sembra che Luca ___ tanto. (mangiare)",
+    "answer": "mangi",
+    "alt": [],
+    "note": "Mi sembra che + congiuntivo; mangiare → mangi."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Non credo che loro ___ stasera. (rimanere)",
+    "answer": "rimangano",
+    "alt": [],
+    "note": "Non credo che + congiuntivo; rimanere → rimangano."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Non dico che ___ la moglie. (tradire)",
+    "answer": "tradisca",
+    "alt": [],
+    "note": "Non dico che + congiuntivo; tradire lleva -isc-."
+   }
+  ]
+ },
+ "r24-08": {
+  "consigna": "Hacé pedidos con el congiuntivo del verbo indicado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Giovanni, lascia che lo ___ tuo fratello. (fare) (Giovanni, dejá que lo haga tu hermano.)",
+    "answer": "faccia",
+    "alt": [],
+    "note": "Lasciare che + congiuntivo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Lavinia, permetti che io ___ il mio discorso? (finire) (Lavinia, ¿me dejás terminar lo que estoy diciendo?)",
+    "answer": "finisca",
+    "alt": [],
+    "note": "Permettere che + congiuntivo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Voglio che Simone mi ___ una mano. (dare) (Quiero que Simone me dé una mano.)",
+    "answer": "dia",
+    "alt": [],
+    "note": "Volere che + congiuntivo; dare → dia."
+   }
+  ]
+ },
+ "r24-01b": {
+  "consigna": "Completá en italiano con el congiuntivo passato.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Sarà contento che tu ___. (…hayas venido)",
+    "answer": "sia venuto",
+    "alt": [
+     "sia venuta"
+    ],
+    "note": "Congiuntivo passato = congiuntivo presente de *essere/avere* + participio: *sia venuto*."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Ho l'impressione che ___. (…él no haya entendido)",
+    "answer": "non abbia capito",
+    "alt": [],
+    "note": "Ho l'impressione che + congiuntivo passato."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Non credo che ___. (…hayan llegado)",
+    "answer": "siano arrivati",
+    "alt": [
+     "siano arrivate"
+    ],
+    "note": "Arrivare va con essere: siano arrivati."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Non è certo che ___. (…se hayan olvidado)",
+    "answer": "abbiano dimenticato",
+    "alt": [
+     "si siano dimenticati",
+     "si siano dimenticate"
+    ],
+    "note": "Non è certo che + congiuntivo passato."
+   }
+  ]
+ },
+ "r24-02b": {
+  "consigna": "Traducí al italiano con el congiuntivo passato.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Me imagino que fue difícil.",
+    "answer": "Immagino che sia stato difficile.",
+    "alt": [],
+    "note": "Immaginare che + congiuntivo passato."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Puede ser que ya se haya ido.",
+    "answer": "Può darsi che sia già partito.",
+    "alt": [
+     "Può darsi che se ne sia già andato.",
+     "Può darsi che sia partito già.",
+     "Può essere che sia già partito.",
+     "Può darsi che sia già partita.",
+     "Può darsi che se ne sia già andata.",
+     "Può essere che sia già partita."
+    ],
+    "note": "Può darsi che + congiuntivo (con forse iría indicativo)."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Es raro que no hayan llamado.",
+    "answer": "È strano che non abbiano chiamato.",
+    "alt": [
+     "È strano che non abbiano telefonato."
+    ],
+    "note": "È strano che + congiuntivo passato."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "¿Creés que tuvo un accidente?",
+    "answer": "Credi che abbia avuto un incidente?",
+    "alt": [
+     "Pensi che abbia avuto un incidente?"
+    ],
+    "note": "Credere che + congiuntivo."
+   }
+  ]
+ },
+ "r24-03b": {
+  "consigna": "Completá con el congiuntivo imperfetto del verbo indicado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Voleva che ___ il giorno dopo. (io – tornare)",
+    "answer": "tornassi",
+    "alt": [],
+    "note": "Congiuntivo imperfetto io: -assi."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Sperava che ___ aiutare. (tu – potere)",
+    "answer": "potessi",
+    "alt": [],
+    "note": "Tu en -ere: -essi."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Era contento che ___ tanto. (noi – studiare)",
+    "answer": "studiassimo",
+    "alt": [],
+    "note": "Noi en -are: -assimo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Mi piacerebbe che ___ anche loro. (venire)",
+    "answer": "venissero",
+    "alt": [],
+    "note": "Condizionale + che → congiuntivo imperfetto."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Avevo sempre pensato che voi ___ gemelli. (essere)",
+    "answer": "foste",
+    "alt": [],
+    "note": "Essere es irregular: fossi, fosse, foste."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Avrei voluto che lui mi ___ prima di partire. (chiamare)",
+    "answer": "chiamasse",
+    "alt": [],
+    "note": "Lui en -are: -asse."
+   }
+  ]
+ },
+ "r24-04b": {
+  "consigna": "Completá con el congiuntivo imperfetto (formas irregulares).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Credevo che Matilda ___ in Australia! (essere)",
+    "answer": "fosse",
+    "alt": [],
+    "note": "Essere: fosse."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Ho pensato che voi ___ da fare. (avere)",
+    "answer": "aveste",
+    "alt": [],
+    "note": "Avere es regular: aveste."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Era contento che noi ___ insieme. (stare)",
+    "answer": "stessimo",
+    "alt": [],
+    "note": "Stare: stessi, stessimo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Aveva insistito che Marco ci ___ una mano. (dare)",
+    "answer": "desse",
+    "alt": [],
+    "note": "Dare: dessi, desse."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Mi dispiaceva che Giulio e Antonio ___ tanto. (bere)",
+    "answer": "bevessero",
+    "alt": [],
+    "note": "Bere usa la raíz bev-: bevessero."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Sarebbe meglio che lo ___ lui. (tradurre)",
+    "answer": "traducesse",
+    "alt": [],
+    "note": "Tradurre usa la raíz traduc-: traducesse."
+   }
+  ]
+ },
+ "r24-05b": {
+  "consigna": "Completá en italiano con el congiuntivo trapassato.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Pensavo che ___. (…habían vuelto)",
+    "answer": "fossero tornati",
+    "alt": [
+     "fossero tornate"
+    ],
+    "note": "Acción anterior a un pasado: congiuntivo trapassato."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Era contento che ___. (…hubiéramos estudiado)",
+    "answer": "avessimo studiato",
+    "alt": [],
+    "note": "Avere en congiuntivo imperfetto + participio."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Non sapevo se ___. (…vos habías entendido)",
+    "answer": "avessi capito",
+    "alt": [
+     "tu avessi capito",
+     "avevi capito"
+    ],
+    "note": "Pregunta indirecta en el pasado: congiuntivo trapassato."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Era strano che ___. (…él hubiera salido temprano)",
+    "answer": "fosse uscito presto",
+    "alt": [],
+    "note": "Uscire va con essere: fosse uscito."
+   }
+  ]
+ },
+ "r24-06b": {
+  "consigna": "Completá con el congiuntivo adecuado; en todos los casos menos uno va el trapassato prossimo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Mi è sembrato strano che loro ___ ieri. (non venire)",
+    "answer": "non fossero venuti",
+    "alt": [
+     "non fossero venute"
+    ],
+    "note": "Acción anterior al verbo principal pasado: trapassato."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Sarebbe stato meglio se voi ___ presto stamattina. (partire)",
+    "answer": "foste partiti",
+    "alt": [
+     "foste partite"
+    ],
+    "note": "Se + congiuntivo trapassato en la hipótesis irreal del pasado."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Mi era dispiaciuto che il colloquio ___ male. (andare)",
+    "answer": "fosse andato",
+    "alt": [],
+    "note": "Andare va con essere: fosse andato."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Immaginavo che Anna ___ strada e che ___ di chiamarmi. (sbagliare; stare cercando)",
+    "answer": "avesse sbagliato | stesse cercando",
+    "alt": [],
+    "note": "La segunda acción es simultánea: congiuntivo imperfetto de stare + gerundio."
+   }
+  ]
+ },
+ "r24-07b": {
+  "consigna": "¿Qué pasaría si…? ¿Qué habría pasado si…? Completá la condición en italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___, potremmo partire insieme. (Si vinieran a mi casa… – voi)",
+    "answer": "Se veniste da me",
+    "alt": [
+     "Se veniste a casa mia"
+    ],
+    "note": "Hipótesis posible: se + congiuntivo imperfetto, condizionale presente."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "___, non avremmo perso il treno. (Si hubieran llegado antes…)",
+    "answer": "Se fossero arrivati prima",
+    "alt": [
+     "Se fossero arrivate prima",
+     "Se foste arrivati prima",
+     "Se foste arrivate prima"
+    ],
+    "note": "Hipótesis irreal del pasado: se + congiuntivo trapassato."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "___, sarebbe un disastro. (Si perdiera el trabajo…)",
+    "answer": "Se perdessi il lavoro",
+    "alt": [
+     "Se perdessi il posto",
+     "Se perdesse il lavoro",
+     "Se perdesse il posto"
+    ],
+    "note": "Se + congiuntivo imperfetto + condizionale presente."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "___, non avrebbe perso il posto. (Si no se hubiera peleado con el jefe…)",
+    "answer": "Se non avesse litigato con il capo",
+    "alt": [
+     "Se non avesse litigato col capo"
+    ],
+    "note": "Litigare va con avere: se non avesse litigato."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "___, avrei già pagato i debiti. (Si ganara más…)",
+    "answer": "Se guadagnassi di più",
+    "alt": [],
+    "note": "Hipótesis mixta: condición presente (congiuntivo imperfetto), consecuencia pasada."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "___, ti aiuterei a traslocare. (Si no me hubiera roto la pierna…)",
+    "answer": "Se non mi fossi rotto la gamba",
+    "alt": [
+     "Se non mi fossi rotta la gamba"
+    ],
+    "note": "Hipótesis mixta: condición pasada (trapassato), consecuencia presente."
+   }
+  ]
+ },
+ "r24-01c": {
+  "consigna": "Reescribí la oración con la conjunción indicada: completá con el verbo en congiuntivo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "È stanco, ma non ha fatto niente oggi. → Sebbene non ___ niente oggi, è stanco.",
+    "answer": "abbia fatto",
+    "alt": [],
+    "note": "Sebbene (aunque) rige congiuntivo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Andremo in piscina se non fa freddo. → Andremo in piscina a condizione che non ___ freddo.",
+    "answer": "faccia",
+    "alt": [],
+    "note": "A condizione che rige congiuntivo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Possiamo stare a casa se tu non vuoi uscire. → Possiamo stare a casa a meno che tu non ___ uscire.",
+    "answer": "voglia",
+    "alt": [],
+    "note": "A meno che (non) rige congiuntivo; el non es expletivo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Lo farò ma nessuno lo saprà. → Lo farò senza che nessuno lo ___.",
+    "answer": "sappia",
+    "alt": [],
+    "note": "Senza che rige congiuntivo."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Ti lascio la chiave se ne hai bisogno. → Ti lascio la chiave nel caso che tu ne ___ bisogno.",
+    "answer": "abbia",
+    "alt": [],
+    "note": "Nel caso che rige congiuntivo."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Anche se è antipatico hai fatto male a parlargli in quel modo. → Nonostante ___ antipatico, hai fatto male a parlargli in quel modo.",
+    "answer": "sia",
+    "alt": [],
+    "note": "Nonostante rige congiuntivo."
+   },
+   {
+    "label": "g",
+    "type": "cloze",
+    "stem": "Se piove ti lascio l'ombrello. → Caso mai ___, ti lascio l'ombrello.",
+    "answer": "piova",
+    "alt": [],
+    "note": "Caso mai (por si acaso) rige congiuntivo."
+   },
+   {
+    "label": "h",
+    "type": "cloze",
+    "stem": "Se tuo marito chiede il divorzio, tu cosa farai? → Mettiamo il caso che tuo marito ___ il divorzio: tu cosa farai?",
+    "answer": "chieda",
+    "alt": [],
+    "note": "Mettiamo il caso che (supongamos que) rige congiuntivo."
+   },
+   {
+    "label": "i",
+    "type": "cloze",
+    "stem": "Se la Commissione è d'accordo, si potrà discutere la crisi. → Ammesso che la Commissione ___ d'accordo, si potrà discutere la crisi.",
+    "answer": "sia",
+    "alt": [],
+    "note": "Ammesso che (suponiendo que) rige congiuntivo."
+   }
+  ]
+ },
+ "r24-02c": {
+  "consigna": "Completá en italiano la parte indicada entre paréntesis.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "___ le pesava molto. (El hecho de que su hijo no estudiara…)",
+    "answer": "Il fatto che suo figlio non studiasse",
+    "alt": [
+     "Il fatto che il figlio non studiasse"
+    ],
+    "note": "Il fatto che como sujeto rige congiuntivo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "___ non ti posso aiutare. (Lo que pasa es que…)",
+    "answer": "Il fatto è che",
+    "alt": [],
+    "note": "Il fatto è che introduce un hecho: va con indicativo."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "___, suo figlio non studia. (Por lo que sé…)",
+    "answer": "Per quanto ne so",
+    "alt": [
+     "Per quel che ne so",
+     "Per quello che ne so",
+     "Che io sappia"
+    ],
+    "note": "Per quanto ne so (por lo que sé) va con indicativo; che io sappia llevaría congiuntivo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Era evidente che ___. (…no estaban dispuestos a ayudar – essere disposto a)",
+    "answer": "non erano disposti ad aiutare",
+    "alt": [
+     "non erano disposte ad aiutare"
+    ],
+    "note": "Era evidente che + indicativo: expresa certeza."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "___ era evidente. (Que no estuvieran dispuestos a ayudar…)",
+    "answer": "Che non fossero disposti ad aiutare",
+    "alt": [
+     "Che non fossero disposte ad aiutare"
+    ],
+    "note": "Una oración con che antepuesta como sujeto lleva congiuntivo."
+   }
+  ]
+ },
+ "r24-03c": {
+  "consigna": "Traducí al italiano (superlativos y «el único que» llevan congiuntivo).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Es el lugar más lindo que hay.",
+    "answer": "È il posto più bello che ci sia.",
+    "alt": [
+     "È il luogo più bello che ci sia."
+    ],
+    "note": "Después de un superlativo la relativa va en congiuntivo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Es el lugar más lindo que vi en mi vida.",
+    "answer": "È il posto più bello che io abbia mai visto.",
+    "alt": [
+     "È il posto più bello che abbia mai visto.",
+     "È il luogo più bello che io abbia mai visto.",
+     "È il luogo più bello che abbia mai visto."
+    ],
+    "note": "Superlativo + che + congiuntivo passato."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Era el único profesor que me había ayudado alguna vez.",
+    "answer": "Era l'unico insegnante che mi avesse mai aiutato.",
+    "alt": [
+     "Era l'unico insegnante che mi avesse mai aiutata.",
+     "Era l'unico professore che mi avesse mai aiutato.",
+     "Era l'unico professore che mi avesse mai aiutata."
+    ],
+    "note": "L'unico che + congiuntivo; en el pasado, trapassato."
+   }
+  ]
+ },
+ "r24-04c": {
+  "consigna": "Elegí el verbo adecuado (indicativo o congiuntivo).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Non conosco nessuno che ___ quattro lingue.",
+    "options": [
+     "sa",
+     "sappia"
+    ],
+    "answer": "sappia",
+    "alt": [],
+    "note": "Antecedente negativo o inexistente: congiuntivo."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Conosco qualcuno che ___ quattro lingue.",
+    "options": [
+     "sa",
+     "sappia"
+    ],
+    "answer": "sa",
+    "alt": [],
+    "note": "Antecedente real y conocido: indicativo."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Hai comprato un abito che ti ___ molto bene.",
+    "options": [
+     "sta",
+     "stia"
+    ],
+    "answer": "sta",
+    "alt": [],
+    "note": "El vestido ya existe: indicativo."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Devi trovare un abito che ti ___ bene.",
+    "options": [
+     "sta",
+     "stia"
+    ],
+    "answer": "stia",
+    "alt": [],
+    "note": "Se busca algo con una característica, todavía no identificado: congiuntivo."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Mi rendo conto di quanto ___ dato da fare in questi giorni. (darsi, lui)",
+    "answer": "si sia",
+    "alt": [
+     "si è"
+    ],
+    "note": "En la interrogativa indirecta se prefiere el congiuntivo en registro cuidado; el indicativo también es correcto. *Rendersi conto* = darse cuenta; *darsi da fare* = moverse, ponerse las pilas."
+   }
+  ]
+ },
+ "r24-01d": {
+  "consigna": "¿Qué relación temporal hay entre el congiuntivo y el verbo principal? Elegí: futuro, simultáneo o pasado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Speriamo che vengano presto.",
+    "options": [
+     "futuro",
+     "simultáneo",
+     "pasado"
+    ],
+    "answer": "futuro",
+    "alt": [],
+    "note": "Esperamos ahora algo que va a pasar después."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Speravo che venissero presto.",
+    "options": [
+     "futuro",
+     "simultáneo",
+     "pasado"
+    ],
+    "answer": "futuro",
+    "alt": [],
+    "note": "Congiuntivo imperfetto para algo posterior al esperar."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Sono contento che tu stia qui.",
+    "options": [
+     "futuro",
+     "simultáneo",
+     "pasado"
+    ],
+    "answer": "simultáneo",
+    "alt": [],
+    "note": "Congiuntivo presente: acción simultánea."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Ero contento che loro stessero insieme.",
+    "options": [
+     "futuro",
+     "simultáneo",
+     "pasado"
+    ],
+    "answer": "simultáneo",
+    "alt": [],
+    "note": "Congiuntivo imperfetto simultáneo al pasado."
+   },
+   {
+    "label": "e",
+    "type": "choice",
+    "stem": "Crederà che tu non abbia fatto niente.",
+    "options": [
+     "futuro",
+     "simultáneo",
+     "pasado"
+    ],
+    "answer": "pasado",
+    "alt": [],
+    "note": "Congiuntivo passato: acción anterior."
+   },
+   {
+    "label": "f",
+    "type": "choice",
+    "stem": "Sembrava che nessuno avesse visto niente.",
+    "options": [
+     "futuro",
+     "simultáneo",
+     "pasado"
+    ],
+    "answer": "pasado",
+    "alt": [],
+    "note": "Congiuntivo trapassato: anterior al pasado."
+   },
+   {
+    "label": "g",
+    "type": "choice",
+    "stem": "Sarebbe assurdo che pagasse lui domani.",
+    "options": [
+     "futuro",
+     "simultáneo",
+     "pasado"
+    ],
+    "answer": "futuro",
+    "alt": [],
+    "note": "Congiuntivo imperfetto tras condizionale: acción hipotética posterior (domani)."
+   },
+   {
+    "label": "h",
+    "type": "choice",
+    "stem": "Non si direbbe che avesse studiato.",
+    "options": [
+     "futuro",
+     "simultáneo",
+     "pasado"
+    ],
+    "answer": "pasado",
+    "alt": [],
+    "note": "Congiuntivo trapassato: acción anterior."
+   }
+  ]
+ },
+ "r24-02d": {
+  "consigna": "¿El congiuntivo de esta oración se refiere a un momento posterior al verbo principal?",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Ho insistito che scrivesse subito.",
+    "options": [
+     "se refiere al futuro",
+     "no se refiere al futuro"
+    ],
+    "answer": "se refiere al futuro",
+    "alt": [],
+    "note": "Escribir es posterior a insistir."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Avevo chiesto che venissero più tardi.",
+    "options": [
+     "se refiere al futuro",
+     "no se refiere al futuro"
+    ],
+    "answer": "se refiere al futuro",
+    "alt": [],
+    "note": "Venir es posterior a pedir."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Mi piacerebbe che tu imparassi il francese.",
+    "options": [
+     "se refiere al futuro",
+     "no se refiere al futuro"
+    ],
+    "answer": "se refiere al futuro",
+    "alt": [],
+    "note": "Un deseo sobre algo que todavía no ocurrió."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Credo che abbia avuto un incidente.",
+    "options": [
+     "se refiere al futuro",
+     "no se refiere al futuro"
+    ],
+    "answer": "no se refiere al futuro",
+    "alt": [],
+    "note": "Congiuntivo passato: el accidente es anterior."
+   },
+   {
+    "label": "e",
+    "type": "choice",
+    "stem": "Credo che fosse qui ieri.",
+    "options": [
+     "se refiere al futuro",
+     "no se refiere al futuro"
+    ],
+    "answer": "no se refiere al futuro",
+    "alt": [],
+    "note": "Congiuntivo imperfetto referido al pasado (ieri)."
+   },
+   {
+    "label": "f",
+    "type": "choice",
+    "stem": "Avrei voluto che pagasse lui.",
+    "options": [
+     "se refiere al futuro",
+     "no se refiere al futuro"
+    ],
+    "answer": "se refiere al futuro",
+    "alt": [],
+    "note": "Pagar es posterior al querer."
+   }
+  ]
+ },
+ "r24-04d": {
+  "consigna": "Reportá lo que se dijo empezando con la frase dada: completá los verbos.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Se cambierai lavoro, non ti parlerò mai più. → Mi ha detto che se io ___ lavoro non mi ___ mai più.",
+    "answer": "avessi cambiato | avrebbe parlato",
+    "alt": [
+     "cambiassi | avrebbe parlato"
+    ],
+    "note": "En el discurso indirecto el futuro pasa a condizionale passato y la condición a congiuntivo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Daremo un premio a chiunque risolverà il problema. → Dissero che ___ un premio a chiunque ___ il problema.",
+    "answer": "avrebbero dato | avesse risolto",
+    "alt": [
+     "avrebbero dato | risolvesse"
+    ],
+    "note": "Futuro → condizionale passato; chiunque + congiuntivo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ti compreremo la macchina quando ti sposerai. → Hanno detto che gli ___ la macchina quando si ___.",
+    "answer": "avrebbero comprato | fosse sposato",
+    "alt": [
+     "avrebbero comprato | sarebbe sposato",
+     "avrebbero comprato | sposasse"
+    ],
+    "note": "Futuro → condizionale passato; quando + congiuntivo trapassato."
+   }
+  ]
+ },
+ "r24-05c": {
+  "consigna": "Reportá lo que dijeron estos analistas políticos, empezando con la frase dada. En c y d hay varias posibilidades.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "«Dubito che il governo si dimetta domani.» → Fabio dubitava che il governo ___ il giorno dopo.",
+    "answer": "si dimettesse",
+    "alt": [],
+    "note": "Principal en pasado: el congiuntivo presente pasa a imperfetto."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "«Non posso né confermare, né smentire che si stia procedendo alla preparazione di manovre militari.» → Dino aveva dichiarato che non ___ né confermare né smentire che si ___ alla preparazione di manovre militari.",
+    "answer": "poteva | stesse procedendo",
+    "alt": [
+     "poteva | procedesse"
+    ],
+    "note": "Presente → imperfetto; el congiuntivo presente pasa a imperfetto (stesse)."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "«Non è sicuro che il primo ministro abbia intenzione di accettare la proposta.» → Cinzia ha ritenuto che non ___ sicuro che il primo ministro ___ intenzione di accettare la proposta.",
+    "answer": "fosse | avesse",
+    "alt": [
+     "sia | abbia",
+     "fosse | abbia"
+    ],
+    "note": "Ritenere che + congiuntivo; con principal pasada, congiuntivo imperfetto."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "«Direi che il partito abbia finalmente capito che non potrà vincere.» → Mara era del parere che il partito ___ finalmente capito che non ___ vincere.",
+    "answer": "avesse | avrebbe potuto",
+    "alt": [
+     "avesse | poteva",
+     "avesse | potesse"
+    ],
+    "note": "Congiuntivo passato → trapassato; futuro → condizionale passato."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "«Quando avremo risolto la situazione finanziaria, potremo finalmente andar avanti.» → Il ministro disse che quando ___ la situazione finanziaria ___ finalmente andare avanti.",
+    "answer": "avessero risolto | avrebbero potuto",
+    "alt": [
+     "avessero risolto | sarebbero potuti",
+     "avrebbero risolto | avrebbero potuto",
+     "avrebbero risolto | sarebbero potuti"
+    ],
+    "note": "Futuro anterior → congiuntivo trapassato; futuro → condizionale passato."
+   }
+  ]
+ },
+ "r24-06c": {
+  "consigna": "Suavizá órdenes y pedidos con la expresión dada: completá con el congiuntivo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Vieni con noi. → Mi piacerebbe che tu ___ con noi.",
+    "answer": "venissi",
+    "alt": [],
+    "note": "Condizionale + che → congiuntivo imperfetto."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Lo dica a loro, non a me. → Sarebbe meglio che Lei lo ___ a loro, non a me.",
+    "answer": "dicesse",
+    "alt": [],
+    "note": "Sarebbe meglio che + congiuntivo imperfetto; dire → dicesse."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Fallo subito. → Mi farebbe piacere se tu lo ___ subito.",
+    "answer": "facessi",
+    "alt": [],
+    "note": "Se + congiuntivo imperfetto; fare → facessi."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Me lo spiegate? → Vorrei che voi me lo ___.",
+    "answer": "spiegaste",
+    "alt": [],
+    "note": "Vorrei che + congiuntivo imperfetto."
+   }
+  ]
+ },
+ "r25-01": {
+  "consigna": "Traducí al italiano. Ojo: no todas las oraciones del ejercicio son reflexivas.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Se lavó.",
+    "answer": "Si è lavato.",
+    "alt": [
+     "Si è lavata."
+    ],
+    "note": "Reflexivo: pronombre si y auxiliar essere."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Lavó el auto.",
+    "answer": "Ha lavato la macchina.",
+    "alt": [
+     "Ha lavato l'auto.",
+     "Lavò la macchina."
+    ],
+    "note": "Con objeto directo no es reflexivo: auxiliar avere."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Vestí a mi hija.",
+    "answer": "Ho vestito mia figlia.",
+    "alt": [],
+    "note": "No reflexivo: objeto directo sin preposición y avere."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Me vestí.",
+    "answer": "Mi sono vestito.",
+    "alt": [
+     "Mi sono vestita."
+    ],
+    "note": "Reflexivo: mi + essere."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Nos besamos.",
+    "answer": "Ci siamo baciati.",
+    "alt": [
+     "Ci siamo baciate."
+    ],
+    "note": "Recíproco: ci + essere."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Nos besaron.",
+    "answer": "Ci hanno baciato.",
+    "alt": [
+     "Ci hanno baciati.",
+     "Ci hanno baciate."
+    ],
+    "note": "No recíproco: ci es objeto directo y el auxiliar es avere."
+   },
+   {
+    "label": "g",
+    "type": "translate",
+    "stem": "Me sentí mal.",
+    "answer": "Mi sono sentito male.",
+    "alt": [
+     "Mi sono sentita male.",
+     "Sono stato male.",
+     "Sono stata male."
+    ],
+    "note": "Sentirsi (sentirse) es reflexivo."
+   },
+   {
+    "label": "h",
+    "type": "translate",
+    "stem": "Sentí un dolor.",
+    "answer": "Ho sentito un dolore.",
+    "alt": [],
+    "note": "Sentire + objeto directo, no reflexivo."
+   }
+  ]
+ },
+ "r25-02": {
+  "consigna": "Traducí al italiano: en cada caso las dos versiones en castellano se dicen igual en italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "¿A ella le gusta viajar? / ¿A usted le gusta viajar?",
+    "answer": "Le piace viaggiare?",
+    "alt": [],
+    "note": "Le sirve tanto para «a ella» como para «a usted» (Lei)."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "¿A él le gustan las películas japonesas? / ¿A ellos les gustan las películas japonesas?",
+    "answer": "Gli piacciono i film giapponesi?",
+    "alt": [],
+    "note": "Gli vale para «a él» y, en el uso corriente, para «a ellos»."
+   }
+  ]
+ },
+ "r25-03": {
+  "consigna": "Respondé las preguntas traduciendo al italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Franco, ti piace il nuovo corso? – Sì, ___. (me gusta mucho)",
+    "answer": "mi piace molto",
+    "alt": [
+     "mi piace tanto",
+     "mi piace moltissimo"
+    ],
+    "note": "Piacere en singular porque lo que gusta es un solo curso."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Signora Marini, le piacciono i fiori? – Sì, ___. (me gustan mucho)",
+    "answer": "mi piacciono molto",
+    "alt": [
+     "mi piacciono tanto",
+     "mi piacciono moltissimo"
+    ],
+    "note": "Piacciono en plural porque concuerda con i fiori."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Antonio e Roberto, vi piace andare in palestra? – Sì, ___. (nos gusta mucho)",
+    "answer": "ci piace molto",
+    "alt": [
+     "ci piace tanto",
+     "ci piace moltissimo"
+    ],
+    "note": "Con un infinitivo, piacere va en singular; «a nosotros» = ci."
+   }
+  ]
+ },
+ "r25-04": {
+  "consigna": "Completá las palabras que faltan para preguntar a quién le gusta qué.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___ tuoi figli ___ andare a teatro? (¿A tus hijos les gusta ir al teatro?)",
+    "answer": "Ai | piace",
+    "alt": [],
+    "note": "La persona va con a (ai = a + i); con infinitivo, piace en singular."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "___ tutti i tuoi amici ___ viaggiare all'estero? (¿A todos tus amigos les gusta viajar al exterior?)",
+    "answer": "A | piace",
+    "alt": [],
+    "note": "A + persona; con infinitivo, piace en singular."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "___ nessuno ___ la musica lirica? (¿A nadie le gusta la ópera?)",
+    "answer": "A | piace",
+    "alt": [],
+    "note": "A nessuno piace: piace concuerda con la musica (singular)."
+   }
+  ]
+ },
+ "r25-09": {
+  "consigna": "Volviste de vacaciones en familia: decí a quién le gustó qué, en passato prossimo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "A mia moglie ___ l'albergo di lusso.",
+    "answer": "è piaciuto",
+    "alt": [],
+    "note": "Piacere va con essere y el participio concuerda con lo que gusta (l'albergo)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "A mia suocera ___ i negozi.",
+    "answer": "sono piaciuti",
+    "alt": [],
+    "note": "Concuerda con i negozi: masculino plural."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ai miei figli ___ la piscina.",
+    "answer": "è piaciuta",
+    "alt": [],
+    "note": "Concuerda con la piscina: femenino singular."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "A me e a mio suocero ___ le passeggiate in montagna.",
+    "answer": "sono piaciute",
+    "alt": [],
+    "note": "Concuerda con le passeggiate: femenino plural."
+   }
+  ]
+ },
+ "r25-01b": {
+  "consigna": "Completá las preguntas con el verbo indicado y, si hace falta, el pronombre adecuado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Fabrizio, ___ due fette di prosciutto? (bastare)",
+    "answer": "ti bastano",
+    "alt": [],
+    "note": "Bastare funciona como piacere: concuerda con due fette y lleva pronombre indirecto."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Flavia, ___ altro? (servire)",
+    "answer": "ti serve",
+    "alt": [],
+    "note": "Servire = necesitar; el sujeto es altro."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Signor Mancini, ___ qualcosa? (mancare)",
+    "answer": "le manca",
+    "alt": [],
+    "note": "Con Lei el pronombre indirecto es Le."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Nino e Sandro, ___ andare in aereo? (convenire)",
+    "answer": "vi conviene",
+    "alt": [],
+    "note": "Convenire + infinitivo, en singular; a ustedes = vi."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Lidia, se non capisci ___ chiedere aiuto. (bastare)",
+    "answer": "basta",
+    "alt": [
+     "ti basta"
+    ],
+    "note": "Uso impersonal: basta + infinitivo (también sirve «ti basta»)."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Signori, ___ stare molto attenti. (bisognare)",
+    "answer": "bisogna",
+    "alt": [],
+    "note": "Bisognare es impersonal: bisogna + infinitivo."
+   }
+  ]
+ },
+ "r25-01c": {
+  "consigna": "No sabés nada de computadoras: preguntá cómo se hace, con si + el verbo en la forma correcta.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Come si ___ il computer? (riavviare)",
+    "answer": "riavvia",
+    "alt": [],
+    "note": "Si pasivo: el verbo concuerda con il computer (singular)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Come si ___ un file? (archiviare)",
+    "answer": "archivia",
+    "alt": [],
+    "note": "Concuerda con un file (singular)."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Come si ___ il testo? (evidenziare)",
+    "answer": "evidenzia",
+    "alt": [],
+    "note": "Concuerda con il testo (singular)."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Come si ___ una cartella? (scaricare)",
+    "answer": "scarica",
+    "alt": [],
+    "note": "Concuerda con una cartella (singular)."
+   }
+  ]
+ },
+ "r26-01": {
+  "consigna": "Pasá la oración a la voz pasiva con el auxiliar essere.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Le macchine inquinano la città.",
+    "answer": "La città è inquinata dalle macchine.",
+    "alt": [],
+    "note": "Pasiva: essere en el mismo tiempo + participio concordado + da."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Troveranno il colpevole.",
+    "answer": "Il colpevole sarà trovato.",
+    "alt": [],
+    "note": "Futuro → sarà + participio."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "A giugno gli insegnanti correggevano sempre gli esami.",
+    "answer": "A giugno gli esami erano sempre corretti dagli insegnanti.",
+    "alt": [
+     "Gli esami a giugno erano sempre corretti dagli insegnanti.",
+     "A giugno gli esami erano corretti sempre dagli insegnanti."
+    ],
+    "note": "Imperfetto → erano + participio."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Credete che il pubblico accetterebbe un aumento dell'Iva?",
+    "answer": "Credete che un aumento dell'Iva sarebbe accettato dal pubblico?",
+    "alt": [
+     "Credete che un aumento dell'IVA sarebbe accettato dal pubblico?"
+    ],
+    "note": "Condizionale → sarebbe + participio."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Non è giusto che il governo critichi gli insegnanti.",
+    "answer": "Non è giusto che gli insegnanti siano criticati dal governo.",
+    "alt": [],
+    "note": "Congiuntivo presente → siano + participio."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Carlo non deve riparare la macchina.",
+    "answer": "La macchina non deve essere riparata da Carlo.",
+    "alt": [
+     "La macchina non dev'essere riparata da Carlo."
+    ],
+    "note": "Con un modal, la pasiva va en el infinitivo: dovere + essere + participio."
+   }
+  ]
+ },
+ "r26-02": {
+  "consigna": "Traducí al italiano con la voz pasiva.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Quiso que le pagaran enseguida. (lit.: quiso ser pagado enseguida)",
+    "answer": "Ha voluto essere pagato subito.",
+    "alt": [
+     "Ha voluto essere pagata subito.",
+     "Volle essere pagato subito."
+    ],
+    "note": "Infinitivo pasivo presente (essere pagato) después de volere en passato prossimo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Tendrían que haber sido más ayudados.",
+    "answer": "Avrebbero dovuto essere aiutati di più.",
+    "alt": [
+     "Avrebbero dovuto essere aiutate di più."
+    ],
+    "note": "Condizionale passato de dovere + infinitivo pasivo."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Según los bomberos la casa no podía ser salvada.",
+    "answer": "Secondo i vigili del fuoco la casa non poteva essere salvata.",
+    "alt": [
+     "Secondo i pompieri la casa non poteva essere salvata.",
+     "Secondo i pompieri, la casa non poteva essere salvata."
+    ],
+    "note": "Imperfetto de potere + infinitivo pasivo."
+   }
+  ]
+ },
+ "r26-03": {
+  "consigna": "Reemplazá essere por venire o rimanere, según corresponda.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Le finestre sono pulite ogni mese. → Le finestre ___ pulite ogni mese.",
+    "answer": "vengono",
+    "alt": [],
+    "note": "Venire (solo en tiempos simples) forma la pasiva de acción; acá la limpieza se hace cada mes."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "I ragazzi erano spesso puniti. → I ragazzi ___ spesso puniti.",
+    "answer": "venivano",
+    "alt": [],
+    "note": "Venire en tiempo simple para una acción repetida."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "La città è stata distrutta. → La città ___ distrutta.",
+    "answer": "è rimasta",
+    "alt": [],
+    "note": "Venire no se usa en tiempos compuestos; rimanere expresa el estado resultante."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Noi tutti siamo stati stupiti dalle sue parole. → Noi tutti ___ stupiti dalle sue parole.",
+    "answer": "siamo rimasti",
+    "alt": [
+     "siamo rimaste"
+    ],
+    "note": "Rimanere con estados emotivos en tiempos compuestos."
+   }
+  ]
+ },
+ "r26-04": {
+  "consigna": "La casa se viene abajo: decí qué hay que hacer usando andare + participio.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Il tetto ___ riparato. (tiene que ser)",
+    "answer": "va",
+    "alt": [],
+    "note": "*andare* + participio = «tiene que ser»: *va riparato*. Solo con verbos transitivos."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "La cucina ___ rinnovata. (debería ser)",
+    "answer": "andrebbe",
+    "alt": [],
+    "note": "Condizionale de *andare* + participio = «debería ser»: *andrebbe rinnovata*."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "I soffitti ___ rifatti. (tendrán que ser)",
+    "answer": "andranno",
+    "alt": [],
+    "note": "Futuro de *andare* + participio = «tendrán que ser»: *andranno rifatti*."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Le finestre ___ pulite. (había que limpiarlas)",
+    "answer": "andavano",
+    "alt": [],
+    "note": "Imperfetto de *andare* + participio = «había que, tendrían que haber sido»: *andavano pulite*."
+   }
+  ]
+ },
+ "r26-01b": {
+  "consigna": "Reemplazá la pasiva por el si pasivante.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Domani il pacco verrà spedito.",
+    "answer": "Domani si spedirà il pacco.",
+    "alt": [
+     "Domani il pacco si spedirà.",
+     "Il pacco si spedirà domani."
+    ],
+    "note": "Si + verbo en 3.ª persona concordado con el sujeto (il pacco)."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Di solito il formaggio viene mangiato prima del dolce.",
+    "answer": "Di solito il formaggio si mangia prima del dolce.",
+    "alt": [
+     "Di solito si mangia il formaggio prima del dolce."
+    ],
+    "note": "Si pasivante en presente."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "La città bombardata è stata abbandonata.",
+    "answer": "Si è abbandonata la città bombardata.",
+    "alt": [
+     "La città bombardata si è abbandonata."
+    ],
+    "note": "En tiempos compuestos va con essere y el participio concuerda."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Il prezzo non è stato preso in considerazione.",
+    "answer": "Non si è preso in considerazione il prezzo.",
+    "alt": [
+     "Il prezzo non si è preso in considerazione."
+    ],
+    "note": "Si + essere + participio concordado con il prezzo."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "La settimana prossima tutte le finestre dovranno essere pulite.",
+    "answer": "La settimana prossima si dovranno pulire tutte le finestre.",
+    "alt": [
+     "La settimana prossima tutte le finestre si dovranno pulire."
+    ],
+    "note": "Con modal: si + modal en plural + infinitivo activo."
+   }
+  ]
+ },
+ "r26-02b": {
+  "consigna": "¿Si pasivante o si impersonal?",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Dove si va stasera?",
+    "options": [
+     "passivante",
+     "impersonale"
+    ],
+    "answer": "impersonale",
+    "alt": [],
+    "note": "Andare no tiene objeto: si impersonal."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Dove si portano i libri?",
+    "options": [
+     "passivante",
+     "impersonale"
+    ],
+    "answer": "passivante",
+    "alt": [],
+    "note": "El verbo concuerda con i libri: si pasivante."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Dove si mettono le valigie?",
+    "options": [
+     "passivante",
+     "impersonale"
+    ],
+    "answer": "passivante",
+    "alt": [],
+    "note": "El verbo concuerda con le valigie: si pasivante."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Come si fa a chiamare l'Italia?",
+    "options": [
+     "passivante",
+     "impersonale"
+    ],
+    "answer": "impersonale",
+    "alt": [],
+    "note": "Si fa a + infinitivo no tiene sujeto: impersonal."
+   },
+   {
+    "label": "e",
+    "type": "choice",
+    "stem": "Come si fanno gli spaghetti alla carbonara?",
+    "options": [
+     "passivante",
+     "impersonale"
+    ],
+    "answer": "passivante",
+    "alt": [],
+    "note": "Fanno concuerda con gli spaghetti: pasivante."
+   },
+   {
+    "label": "f",
+    "type": "choice",
+    "stem": "Come si dicono queste parole in tedesco?",
+    "options": [
+     "passivante",
+     "impersonale"
+    ],
+    "answer": "passivante",
+    "alt": [],
+    "note": "El verbo concuerda con «queste parole» (sujeto plural): pasivante."
+   },
+   {
+    "label": "g",
+    "type": "choice",
+    "stem": "Non si è pensato alla crisi.",
+    "options": [
+     "passivante",
+     "impersonale"
+    ],
+    "answer": "impersonale",
+    "alt": [],
+    "note": "Pensare a no tiene objeto directo: impersonal."
+   },
+   {
+    "label": "h",
+    "type": "choice",
+    "stem": "Non si sono potuti riparare i danni.",
+    "options": [
+     "passivante",
+     "impersonale"
+    ],
+    "answer": "passivante",
+    "alt": [],
+    "note": "El verbo concuerda con i danni: pasivante."
+   }
+  ]
+ },
+ "r27-03": {
+  "consigna": "Traducí al italiano con los verbos indicados (construcción causativa).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Voy a hacer regar el jardín. (far innaffiare)",
+    "answer": "Farò innaffiare il giardino.",
+    "alt": [
+     "Farò annaffiare il giardino."
+    ],
+    "note": "Fare + infinitivo: hacer que otro realice la acción."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Voy a hacer (o dejar) que los chicos rieguen el jardín.",
+    "answer": "Farò innaffiare il giardino ai bambini.",
+    "alt": [
+     "Lascerò innaffiare il giardino ai bambini.",
+     "Farò innaffiare il giardino ai ragazzi.",
+     "Lascerò innaffiare il giardino ai ragazzi.",
+     "Farò annaffiare il giardino ai bambini.",
+     "Lascerò che i bambini innaffino il giardino."
+    ],
+    "note": "Con objeto directo, quien realiza la acción va con a."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Tiene que cortarse el pelo (en la peluquería). (far tagliare)",
+    "answer": "Deve farsi tagliare i capelli.",
+    "alt": [
+     "Si deve far tagliare i capelli.",
+     "Ha bisogno di farsi tagliare i capelli."
+    ],
+    "note": "Farsi + infinitivo: hacerse hacer algo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Tiene que hacerse cortar el pelo por Dina.",
+    "answer": "Deve farsi tagliare i capelli da Dina.",
+    "alt": [
+     "Si deve far tagliare i capelli da Dina.",
+     "Ha bisogno di farsi tagliare i capelli da Dina."
+    ],
+    "note": "Con farsi, quien realiza la acción va con da."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Deberías hacer elegir los colores mañana. (far scegliere)",
+    "answer": "Dovresti far scegliere i colori domani.",
+    "alt": [
+     "Domani dovresti far scegliere i colori."
+    ],
+    "note": "Dovere + far + infinitivo."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Deberías hacer que los demás elijan los colores.",
+    "answer": "Dovresti far scegliere i colori agli altri.",
+    "alt": [
+     "Dovresti fare scegliere i colori agli altri."
+    ],
+    "note": "Con objeto directo (i colori), quien elige va con a."
+   }
+  ]
+ },
+ "r27-04": {
+  "consigna": "¿Pronombre directo o indirecto? Elegí la forma adecuada.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Se il computer è rotto perché non ___ fai riparare?",
+    "options": [
+     "lo",
+     "gli"
+    ],
+    "answer": "lo",
+    "alt": [],
+    "note": "El computer es el objeto de riparare: pronombre directo."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "La valigia è pesante. Bisogna far___ pesare.",
+    "options": [
+     "la",
+     "le"
+    ],
+    "answer": "la",
+    "alt": [],
+    "note": "La valija es el objeto: pronombre directo (farla)."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "I suoceri sono simpatici, ___ farò venire per Natale.",
+    "options": [
+     "li",
+     "gli"
+    ],
+    "answer": "li",
+    "alt": [],
+    "note": "Venire no tiene objeto: la persona que hace la acción va en directo."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Andrea mi è simpatico, ___ farò dormire a casa mia.",
+    "options": [
+     "lo",
+     "gli"
+    ],
+    "answer": "lo",
+    "alt": [],
+    "note": "Dormire es intransitivo: pronombre directo."
+   },
+   {
+    "label": "e",
+    "type": "choice",
+    "stem": "Gli operai sono pigri, ma ___ farò finire i lavori domani.",
+    "options": [
+     "lo",
+     "gli"
+    ],
+    "answer": "gli",
+    "alt": [],
+    "note": "Finire tiene objeto (i lavori): quien lo hace va en indirecto."
+   },
+   {
+    "label": "f",
+    "type": "choice",
+    "stem": "Angela è una bravissima cuoca, ___ farò portare un dolce stasera.",
+    "options": [
+     "la",
+     "le"
+    ],
+    "answer": "le",
+    "alt": [],
+    "note": "Portare tiene objeto (un dolce): pronombre indirecto."
+   },
+   {
+    "label": "g",
+    "type": "choice",
+    "stem": "A Luca piace la musica, domani ___ faccio sentire il mio nuovo CD.",
+    "options": [
+     "lo",
+     "gli"
+    ],
+    "answer": "gli",
+    "alt": [],
+    "note": "Sentire tiene objeto (il CD): pronombre indirecto."
+   }
+  ]
+ },
+ "r27-05": {
+  "consigna": "¿Quién lo hace? Completá con a o da (con artículo si hace falta).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Non ho voglia di fare la cena. – Falla preparare ___ figli, allora.",
+    "answer": "ai",
+    "alt": [],
+    "note": "Fare + infinitivo + objeto: quien realiza la acción va con a."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Ho perso la chiave del portone. – Ma puoi farti aprire ___ portiere.",
+    "answer": "dal",
+    "alt": [],
+    "note": "Con farsi + infinitivo, quien realiza la acción va con da."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Il riscaldamento non funziona. – Perché non ti fai prestare una stufa ___ vicini?",
+    "answer": "dai",
+    "alt": [],
+    "note": "Farsi prestare da qualcuno."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Ho un mal di pancia tremendo. – Ma fatti dare qualcosa ___ farmacista.",
+    "answer": "dal",
+    "alt": [],
+    "note": "Farsi dare da qualcuno."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "La bolletta del gas è molto salata. – Scusa, dovresti farla pagare ___ inquilini.",
+    "answer": "agli",
+    "alt": [],
+    "note": "Fare + infinitivo + objeto (la): quien paga va con a."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Ho chiesto a Sandro di pagarmi la benzina. – Ma no, dovresti farti pagare ___ Luca.",
+    "answer": "da",
+    "alt": [],
+    "note": "Farsi pagare da qualcuno."
+   },
+   {
+    "label": "g",
+    "type": "cloze",
+    "stem": "Mi ha offerto un prestito. – Stai attenta a non lasciarti ingannare ___ quel ladrone.",
+    "answer": "da",
+    "alt": [],
+    "note": "Lasciarsi + infinitivo: el agente va con da."
+   },
+   {
+    "label": "h",
+    "type": "cloze",
+    "stem": "Anna si rifiuta di firmare la lettera. – Beh, puoi farla firmare ___ Enzo.",
+    "answer": "a",
+    "alt": [
+     "ad",
+     "da"
+    ],
+    "note": "Fare + infinitivo + objeto: quien firma va con a."
+   }
+  ]
+ },
+ "r27-06": {
+  "consigna": "Reemplazá los sustantivos indicados por los pronombres italianos adecuados.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Non far cambiare la ruota a Luciano, Adriana lo sa fare. (reemplazá «la ruota» y «a Luciano») → ___, Adriana lo sa fare.",
+    "answer": "Non fargliela cambiare",
+    "alt": [
+     "Non gliela far cambiare",
+     "Non gliela fare cambiare"
+    ],
+    "note": "*gli* + *la* = *gliela*; en el imperativo negativo de *tu* (non + infinitivo) se pega al infinitivo: *non fargliela cambiare*."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Dobbiamo lasciare decidere ai bambini. (reemplazá «ai bambini») → Dobbiamo ___ decidere.",
+    "answer": "lasciarli",
+    "alt": [
+     "lasciar loro",
+     "lasciare loro",
+     "lasciargli"
+    ],
+    "note": "Con un infinitivo sin objeto, quien realiza la acción puede ir en directo."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Dovresti far fare i lavori all'architetto. (reemplazá «i lavori» y «all'architetto») → Dovresti ___.",
+    "answer": "farglieli fare",
+    "alt": [],
+    "note": "*gli* + *li* = *glieli*; con *fare* + infinitivo, los pronombres se pegan a *far*: *farglieli fare*."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Non lasciarti offendere da quelle ragazze. (reemplazá «quelle ragazze») → Non lasciarti offendere ___.",
+    "answer": "da loro",
+    "alt": [],
+    "note": "Después de preposición se usa el pronombre tónico: da loro."
+   }
+  ]
+ },
+ "r27-07": {
+  "consigna": "Completá con el pronombre adecuado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Tua figlia è sensibile – perché non ___ fai suonare l'arpa? (¿por qué no la hacés tocar el arpa?)",
+    "answer": "le",
+    "alt": [],
+    "note": "Suonare tiene objeto (l'arpa): quien toca va en indirecto (le)."
+   }
+  ]
+ },
+ "r27-01": {
+  "consigna": "Necesitás ayuda para prepararlo todo: elegí a o da.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Farò fare la spesa ___ Massimo.",
+    "options": [
+     "a",
+     "da"
+    ],
+    "answer": "a",
+    "alt": [],
+    "note": "Fare + infinitivo + objeto: quien lo hace va con a."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Farò decidere il menù ___ Cristina.",
+    "options": [
+     "a",
+     "da"
+    ],
+    "answer": "a",
+    "alt": [],
+    "note": "Quien decide el menú va con a."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Mi farò portare il dolce ___ la pasticceria. (a + la / da + la)",
+    "options": [
+     "a",
+     "da"
+    ],
+    "answer": "da",
+    "alt": [],
+    "note": "Farsi + infinitivo: el agente va con da (dalla pasticceria)."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Farò scegliere il vino ___ Aldo.",
+    "options": [
+     "a",
+     "da"
+    ],
+    "answer": "a",
+    "alt": [],
+    "note": "Quien elige va con a."
+   }
+  ]
+ },
+ "r27-02": {
+  "consigna": "Te mudás: ¿quién hace qué? Elegí a (alguien a quien le pedís un favor) o da (un profesional que presta el servicio).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Faremo sgomberare la cantina ___ Daniele.",
+    "options": [
+     "a",
+     "da"
+    ],
+    "answer": "a",
+    "alt": [],
+    "note": "Un amigo o familiar al que le pedimos algo: a."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Faremo ristrutturare la veranda ___ l'architetto. (a + l' / da + l')",
+    "options": [
+     "a",
+     "da"
+    ],
+    "answer": "da",
+    "alt": [],
+    "note": "Un profesional que presta el servicio: da (dall'architetto)."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Faremo pitturare le camere ___ l'imbianchino. (a + l' / da + l')",
+    "options": [
+     "a",
+     "da"
+    ],
+    "answer": "da",
+    "alt": [],
+    "note": "Un profesional: da (dall'imbianchino)."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Facciamo decidere i colori ___ Maddalena.",
+    "options": [
+     "a",
+     "da"
+    ],
+    "answer": "a",
+    "alt": [],
+    "note": "Una persona a la que le dejamos decidir: a."
+   }
+  ]
+ },
+ "r27-04b": {
+  "consigna": "Traducí al italiano con fare + infinitivo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Voy a hacer que Barbara despache la carta.",
+    "answer": "Farò spedire la lettera da Barbara.",
+    "alt": [
+     "Farò spedire la lettera a Barbara.",
+     "Farò imbucare la lettera a Barbara.",
+     "Farò imbucare la lettera da Barbara.",
+     "Faccio spedire la lettera a Barbara.",
+     "Faccio imbucare la lettera a Barbara.",
+     "Faccio spedire la lettera da Barbara.",
+     "Faccio imbucare la lettera da Barbara."
+    ],
+    "note": "Fare + infinitivo + objeto: quien lo hace va con da (o a, pero con a Barbara podría ser la destinataria)."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Voy a hacer que Angelo compre el diario.",
+    "answer": "Farò comprare il giornale ad Angelo.",
+    "alt": [
+     "Farò comprare il giornale a Angelo.",
+     "Farò comprare il giornale da Angelo.",
+     "Faccio comprare il giornale ad Angelo."
+    ],
+    "note": "Quien compra va con a (ad delante de vocal) o da."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Voy a hacer que Giacomo escriba la carta.",
+    "answer": "Farò scrivere la lettera da Giacomo.",
+    "alt": [
+     "Farò scrivere la lettera a Giacomo.",
+     "Faccio scrivere la lettera da Giacomo.",
+     "Faccio scrivere la lettera a Giacomo."
+    ],
+    "note": "Con a sería ambiguo («escribir la carta a Giacomo»): conviene da."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Voy a hacer que Patrizio lleve a Carla.",
+    "answer": "Farò accompagnare Carla da Patrizio.",
+    "alt": [
+     "Farò portare Carla da Patrizio.",
+     "Faccio accompagnare Carla da Patrizio."
+    ],
+    "note": "Con a se entendería que Carla es llevada a Patrizio (como destinatario): se usa da."
+   }
+  ]
+ },
+ "r27-06b": {
+  "consigna": "Consejos de tus amigos sobre tus hijos: completá en italiano. En e y f hay varias posibilidades.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "___ studiare di più. (Hacelo…)",
+    "answer": "Fallo",
+    "alt": [],
+    "note": "Studiare sin objeto: pronombre directo lo pegado a fa'."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "___ studiare medicina. (Hacé que estudie…)",
+    "answer": "Fagli",
+    "alt": [],
+    "note": "Con objeto (medicina), quien realiza la acción va en indirecto: fagli."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "___ tornare presto la sera. (Hacelos…)",
+    "answer": "Falli",
+    "alt": [],
+    "note": "Tornare es intransitivo: pronombre directo li."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "___ consegnare i compiti. (Hacé que entreguen…)",
+    "answer": "Fagli",
+    "alt": [
+     "Fa' loro"
+    ],
+    "note": "Con objeto (i compiti), indirecto: fagli (a ellos)."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "___ uscire di più. (Dejala…)",
+    "answer": "Lasciala",
+    "alt": [
+     "Falla"
+    ],
+    "note": "Lasciare + intransitivo: pronombre directo la."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "___ scegliere le materie che preferisce. (Dejala…)",
+    "answer": "Lasciale",
+    "alt": [
+     "Lasciala",
+     "Falle"
+    ],
+    "note": "Con objeto, puede ir indirecto (le) o directo (la) con lasciare."
+   }
+  ]
+ },
+ "r27-07b": {
+  "consigna": "Problemas de viaje: completá en italiano lo que pasó después.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "C'è stato un incendio all'aeroporto: ___ (no nos dejaron salir / no pudimos salir)",
+    "answer": "non ci hanno fatto partire",
+    "alt": [
+     "non ci hanno lasciato partire",
+     "non ci hanno lasciati partire",
+     "non ci hanno fatti partire",
+     "non siamo potuti partire"
+    ],
+    "note": "*non fare* + infinitivo = «no dejar/no permitir»: *non ci hanno fatto partire*."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "C'è stato un incidente sull'autostrada: ___ (la policía no lo dejó pasar)",
+    "answer": "la polizia non l'ha fatto passare",
+    "alt": [
+     "la polizia non lo ha fatto passare",
+     "la polizia non l'ha lasciato passare",
+     "la polizia non lo ha lasciato passare"
+    ],
+    "note": "Fare/lasciare + infinitivo con pronombre directo (passare es intransitivo)."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Avevo perso il biglietto d'imbarco: ___ (no me dejaron subir al avión – far salire su)",
+    "answer": "non mi hanno fatto salire sull'aereo",
+    "alt": [
+     "non mi hanno fatta salire sull'aereo",
+     "non mi hanno lasciato salire sull'aereo",
+     "non mi hanno lasciata salire sull'aereo",
+     "non mi hanno fatto salire in aereo"
+    ],
+    "note": "*far salire* = «dejar subir» (causativo con *fare*); *non mi hanno fatto salire sull'aereo*."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Ho imboccato una strada a senso unico: ___ (la policía me hizo dar la vuelta – tornare indietro)",
+    "answer": "la polizia mi ha fatto tornare indietro",
+    "alt": [
+     "la polizia mi ha fatta tornare indietro"
+    ],
+    "note": "*fare* + infinitivo puede expresar obligación: *mi ha fatto tornare indietro*, «me hizo volver»."
+   }
+  ]
+ },
+ "r27-09": {
+  "consigna": "Traducí al italiano usando una construcción causativa con fare.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Hice pasar a Giuliano.",
+    "answer": "Ho fatto entrare Giuliano.",
+    "alt": [],
+    "note": "Causativo: *far entrare* = «hacer pasar»; la persona va directa, sin «a»: *ho fatto entrare Giuliano*."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Tiré el florero (sin querer).",
+    "answer": "Ho fatto cadere il vaso.",
+    "alt": [],
+    "note": "*far cadere* = «tirar, dejar caer» sin querer: *fare* + infinitivo, donde el castellano usa un verbo solo."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Me hice prestar plata.",
+    "answer": "Mi sono fatto prestare dei soldi.",
+    "alt": [
+     "Mi sono fatta prestare dei soldi.",
+     "Mi sono fatto prestare soldi.",
+     "Mi sono fatta prestare soldi.",
+     "Mi sono fatto prestare del denaro.",
+     "Mi sono fatta prestare del denaro."
+    ],
+    "note": "Farsi prestare = pedir prestado; con farsi, auxiliar essere."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Se me cayó la bandeja.",
+    "answer": "Ho fatto cadere il vassoio.",
+    "alt": [],
+    "note": "Far cadere expresa el accidente."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Se lo presenté a mis padres.",
+    "answer": "L'ho fatto conoscere ai miei genitori.",
+    "alt": [],
+    "note": "Far conoscere = presentar. «Se lo presenté» = lo presenté a él (lo) a mis padres (se): l'ho fatto conoscere ai miei genitori."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Le hice notar que no había pagado.",
+    "answer": "Gli ho fatto notare che non aveva pagato.",
+    "alt": [
+     "Gli ho fatto presente che non aveva pagato.",
+     "Gli ho fatto ricordare che non aveva pagato.",
+     "Le ho fatto notare che non aveva pagato.",
+     "Le ho fatto presente che non aveva pagato."
+    ],
+    "note": "*far notare* = «hacer notar»: la persona es indirecto (*gli*) porque el infinitivo ya tiene objeto."
+   }
+  ]
+ },
+ "r27-01b": {
+  "consigna": "Rutinas de la mañana: completá con verbos de percepción + infinitivo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "La mattina alle 6, ___. (escucho sonar el despertador – la sveglia)",
+    "answer": "sento suonare la sveglia",
+    "alt": [
+     "sento la sveglia suonare"
+    ],
+    "note": "Sentire + infinitivo para una acción que se percibe."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Poi ___ e ___ in bagno. (veo a mi marido bajarse de la cama; ir – scendere dal letto)",
+    "answer": "vedo mio marito scendere dal letto | andare",
+    "alt": [
+     "vedo scendere dal letto mio marito | andare"
+    ],
+    "note": "Vedere + objeto + infinitivo; los dos infinitivos dependen de vedo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "___ e poi ___ in cucina. (lo escucho bañarse; bajar)",
+    "answer": "lo sento fare la doccia | scendere",
+    "alt": [
+     "lo sento farsi la doccia | scendere"
+    ],
+    "note": "Sentire + pronombre + infinitivo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Alle 7 scendo anch'io, in tempo per ___ casa. (verlo salir de – uscire di)",
+    "answer": "vederlo uscire di",
+    "alt": [],
+    "note": "El pronombre se une al infinitivo vedere: vederlo uscire."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Dalla finestra ___. (lo veo subirse al auto e irse – salire in)",
+    "answer": "lo vedo salire in macchina e partire",
+    "alt": [
+     "lo vedo salire in macchina e andare via",
+     "lo vedo salire in auto e partire",
+     "lo vedo salire in macchina e andarsene"
+    ],
+    "note": "Vedere + pronombre + dos infinitivos."
+   }
+  ]
+ },
+ "r27-02b": {
+  "consigna": "Gustos y deseos: completá en italiano con un verbo de percepción + infinitivo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Il sabato mi piace ___. (ver jugar a mi equipo)",
+    "answer": "vedere giocare la mia squadra",
+    "alt": [
+     "vedere la mia squadra giocare",
+     "guardare giocare la mia squadra"
+    ],
+    "note": "Vedere + infinitivo + sujeto (o sujeto + infinitivo)."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Non mi piace ___. (ver fumar a Giulia)",
+    "answer": "vedere Giulia fumare",
+    "alt": [
+     "vedere fumare Giulia"
+    ],
+    "note": "Vedere + persona + infinitivo."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Mi piacerebbe ___. (escuchar cantar al ruiseñor – l'usignolo)",
+    "answer": "sentire cantare l'usignolo",
+    "alt": [
+     "sentire l'usignolo cantare",
+     "ascoltare l'usignolo cantare",
+     "ascoltare cantare l'usignolo"
+    ],
+    "note": "Sentire + infinitivo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Non ti piacerebbe ___? (ver llegar al primer ministro)",
+    "answer": "vedere arrivare il Primo Ministro",
+    "alt": [
+     "vedere il Primo Ministro arrivare",
+     "guardare arrivare il Primo Ministro",
+     "vedere arrivare il presidente del Consiglio"
+    ],
+    "note": "Vedere + infinitivo + sujeto."
+   }
+  ]
+ },
+ "r27-04c": {
+  "consigna": "Hubo un robo. Formulá en italiano las preguntas del inspector (tratá de Lei).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "¿Oyó ladrar al perro?",
+    "answer": "Ha sentito abbaiare il cane?",
+    "alt": [
+     "Ha sentito il cane abbaiare?",
+     "Ha sentito il cane che abbaiava?"
+    ],
+    "note": "Sentire + infinitivo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "¿Vio salir a los hombres?",
+    "answer": "Ha visto uscire gli uomini?",
+    "alt": [
+     "Ha visto gli uomini uscire?",
+     "Ha visto andare via gli uomini?",
+     "Ha visto partire gli uomini?"
+    ],
+    "note": "Vedere + infinitivo."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "¿Los oyó dar un portazo? (sbattere)",
+    "answer": "Li ha sentiti sbattere la porta?",
+    "alt": [],
+    "note": "Pronombre directo delante del auxiliar; el participio concuerda: li ha sentiti."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "¿Oyó a los vecinos que pedían auxilio a gritos?",
+    "answer": "Ha sentito i vicini che gridavano aiuto?",
+    "alt": [
+     "Ha sentito i vicini gridare aiuto?",
+     "Ha sentito gridare aiuto i vicini?",
+     "Ha sentito i vicini che chiedevano aiuto?"
+    ],
+    "note": "Acción en curso: sentire + persona + che + imperfetto."
+   }
+  ]
+ },
+ "r27-05b": {
+  "consigna": "Traducí al italiano. Fijate en la diferencia entre acción completa (infinitivo) y acción en curso (che + imperfetto).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "¿Ayer viste al abuelo trepar al árbol?",
+    "answer": "Ieri hai visto il nonno arrampicarsi sull'albero?",
+    "alt": [
+     "Hai visto ieri il nonno arrampicarsi sull'albero?",
+     "Ieri hai visto il nonno arrampicarsi all'albero?",
+     "Hai visto ieri il nonno arrampicarsi all'albero?"
+    ],
+    "note": "Infinitivo: se percibe la acción entera."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "¿Ayer escuchaste a la abuela que cantaba en la cocina?",
+    "answer": "Ieri hai sentito la nonna che cantava in cucina?",
+    "alt": [],
+    "note": "Che + imperfetto: se percibe la acción en curso."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "¿Anoche escucharon a los hinchas que alentaban al Inter?",
+    "answer": "Ieri sera avete sentito i fan che tifavano per l'Inter?",
+    "alt": [
+     "Ieri sera avete sentito i tifosi che tifavano per l'Inter?"
+    ],
+    "note": "Che + imperfetto para la acción en curso."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "¿Anoche vieron a los espectadores silbar al tenor?",
+    "answer": "Ieri sera avete visto gli spettatori fischiare il tenore?",
+    "alt": [],
+    "note": "Infinitivo: acción completa percibida."
+   }
+  ]
+ },
+ "r27-06c": {
+  "consigna": "Una fiesta llena de gente: ¿dónde está cada uno? Completá en italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Davide e Silvio, dove sono? – ___ (Ahí están, llegando ahora.)",
+    "answer": "Eccoli che arrivano adesso",
+    "alt": [
+     "Eccoli che arrivano ora",
+     "Eccoli che arrivano"
+    ],
+    "note": "Ecco + pronombre + che + presente para la acción en curso."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Anna, dov'è andata a finire? – ___ (Ahí está, hablando con Nina.)",
+    "answer": "Eccola che parla con Nina",
+    "alt": [],
+    "note": "Eccola che + presente."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Non ho più visto Franco, dov'è? – ___ (¿No lo ves que se va con Gina?)",
+    "answer": "Non lo vedi che se ne va con Gina?",
+    "alt": [
+     "Non lo vedi che esce con Gina?",
+     "Non lo vedi uscire con Gina?",
+     "Non lo vedi andare via con Gina?"
+    ],
+    "note": "Vedere + pronombre + che + presente."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Martina e Roberta sono già qui? – Certo, ___ (las vi llegar hace un rato)",
+    "answer": "le ho viste arrivare poco fa",
+    "alt": [
+     "le ho viste arrivare un momento fa",
+     "le ho viste arrivare poco tempo fa"
+    ],
+    "note": "Pronombre directo le + participio concordado (viste) + infinitivo."
+   }
+  ]
+ },
+ "r27-03b": {
+  "consigna": "Traducí al italiano cuidando los tiempos verbales (vedere + che + verbo).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Veo a Livia que te está esperando en la esquina. (tu)",
+    "answer": "Vedo Livia che ti aspetta all'angolo.",
+    "alt": [
+     "Vedo Livia aspettarti all'angolo.",
+     "Vedo Livia che ti sta aspettando all'angolo."
+    ],
+    "note": "Che + presente, simultáneo al presente."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Van a ver a Aldo que los espera en la estación de servicio. (voi – dal benzinaio)",
+    "answer": "Vedrete Aldo che vi aspetta dal benzinaio.",
+    "alt": [
+     "Vedrete Aldo aspettarvi dal benzinaio."
+    ],
+    "note": "Futuro en la principal, presente en la relativa."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Acabo de ver a Mario que esperaba afuera.",
+    "answer": "Ho appena visto Mario che aspettava fuori.",
+    "alt": [
+     "Ho appena visto Mario aspettare fuori."
+    ],
+    "note": "Pasado: che + imperfetto."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Vimos a Daniele que esperaba el colectivo en la plaza.",
+    "answer": "Abbiamo visto Daniele che aspettava l'autobus in piazza.",
+    "alt": [
+     "Abbiamo visto Daniele aspettare l'autobus in piazza."
+    ],
+    "note": "Che + imperfetto para la acción en curso."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Había visto a Marta y a Lucia que esperaban el tren en la estación.",
+    "answer": "Avevo visto Marta e Lucia che aspettavano il treno alla stazione.",
+    "alt": [
+     "Avevo visto Marta e Lucia che aspettavano il treno in stazione."
+    ],
+    "note": "Trapassato prossimo + che + imperfetto."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Veíamos a Piero y a Gina que nos esperaban en el bar.",
+    "answer": "Vedevamo Piero e Gina che ci aspettavano al bar.",
+    "alt": [
+     "Vedevamo Piero e Gina che ci aspettavano nel bar."
+    ],
+    "note": "Imperfetto + che + imperfetto."
+   }
+  ]
+ },
+ "r27-04d": {
+  "consigna": "Elegí la forma más natural o completá con stare a + infinitivo o stare + gerundio (si hay que escribir, valen las dos).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Di solito mia nonna stava tutto il giorno ___ (ascoltare) i pettegolezzi dei vicini.",
+    "answer": "ad ascoltare",
+    "alt": [
+     "a ascoltare",
+     "ascoltando"
+    ],
+    "note": "Stare + expresión de tiempo + a + infinitivo; el gerundio también se admite."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Sto qui sul terrazzo dell'albergo ___ gli elicotteri che sorvolano la città.",
+    "options": [
+     "a guardare",
+     "guardando"
+    ],
+    "answer": "a guardare",
+    "alt": [],
+    "note": "Stare en un lugar + a + infinitivo."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Staranno già alla stazione ___ partire il figlio.",
+    "options": [
+     "vedendo",
+     "a vedere"
+    ],
+    "answer": "a vedere",
+    "alt": [],
+    "note": "Stare + lugar + a + infinitivo."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Mi piace stare in piazza ___ passare la gente.",
+    "options": [
+     "a guardare",
+     "guardando"
+    ],
+    "answer": "a guardare",
+    "alt": [],
+    "note": "Stare en un lugar + a + infinitivo."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Mio nonno stava ___ (osservare) mio cugino che chiacchierava su Skype con la sua ragazza.",
+    "answer": "ad osservare",
+    "alt": [
+     "a osservare",
+     "osservando"
+    ],
+    "note": "Stare seguido directamente del verbo admite las dos construcciones."
+   },
+   {
+    "label": "f",
+    "type": "choice",
+    "stem": "Ci piaceva stare al sole ___ le onde infrangersi contro la scogliera.",
+    "options": [
+     "ascoltando",
+     "ad ascoltare"
+    ],
+    "answer": "ad ascoltare",
+    "alt": [],
+    "note": "Stare + lugar + a + infinitivo."
+   }
+  ]
+ },
+ "r28-01": {
+  "consigna": "Traducí al italiano (verbos seguidos de infinitivo, con o sin preposición).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Quiero ayudarlo porque no puede pagar el alquiler.",
+    "answer": "Voglio aiutarlo perché non può pagare l'affitto.",
+    "alt": [
+     "Lo voglio aiutare perché non può pagare l'affitto."
+    ],
+    "note": "Volere y potere van seguidos de infinitivo sin preposición."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Tengo que verlo porque es fundamental tomar una decisión. (prendere una decisione)",
+    "answer": "Devo vederlo perché è essenziale prendere una decisione.",
+    "alt": [
+     "Lo devo vedere perché è essenziale prendere una decisione.",
+     "Devo vederlo perché è fondamentale prendere una decisione.",
+     "Lo devo vedere perché è fondamentale prendere una decisione.",
+     "Devo vederlo perché è indispensabile prendere una decisione."
+    ],
+    "note": "Dovere y è essenziale + infinitivo sin preposición."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Mejor andate ya porque no les gusta esperar. (tu)",
+    "answer": "Faresti meglio ad andare adesso perché non gli piace aspettare.",
+    "alt": [
+     "Faresti meglio ad andartene adesso perché non gli piace aspettare.",
+     "Faresti meglio ad andare ora perché non gli piace aspettare.",
+     "Faresti meglio ad andare adesso perché a loro non piace aspettare.",
+     "Faresti meglio ad andartene ora perché non gli piace aspettare.",
+     "Faresti meglio ad andare subito perché non gli piace aspettare.",
+     "Faresti meglio ad andartene subito perché non gli piace aspettare."
+    ],
+    "note": "Fare meglio a + infinitivo; piacere + infinitivo sin preposición."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Parece una lástima quedarse en casa pero Marco odia viajar.",
+    "answer": "Sembra un peccato stare a casa ma Marco odia viaggiare.",
+    "alt": [
+     "Sembra un peccato rimanere a casa ma Marco odia viaggiare.",
+     "Sembra un peccato restare a casa ma Marco odia viaggiare."
+    ],
+    "note": "Sembra un peccato y odiare + infinitivo sin preposición."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Non posso parlare adesso: ___ (¿te molesta llamar más tarde?)",
+    "answer": "ti dispiace chiamare più tardi?",
+    "alt": [
+     "ti dispiace richiamare più tardi?",
+     "ti dispiacerebbe chiamare più tardi?",
+     "ti dispiace telefonare più tardi?"
+    ],
+    "note": "Dispiacere + infinitivo sin preposición."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Mi dispiace dirlo, ma ___. (…estoy obligado a pagar la multa)",
+    "answer": "sono obbligato a pagare la multa",
+    "alt": [
+     "sono obbligata a pagare la multa",
+     "sono costretto a pagare la multa",
+     "sono costretta a pagare la multa"
+    ],
+    "note": "Mi dispiace + infinitivo directo; essere obbligato a + infinitivo."
+   },
+   {
+    "label": "g",
+    "type": "translate",
+    "stem": "Parece necesario pedir consejo porque nadie sabe cómo hacerlo. (chiedere consiglio)",
+    "answer": "Sembra necessario chiedere consiglio perché nessuno sa come farlo.",
+    "alt": [],
+    "note": "Sembra necessario + infinitivo; sapere come + infinitivo."
+   },
+   {
+    "label": "h",
+    "type": "cloze",
+    "stem": "___, ma ___. (Creo que puedo venir, pero no me interesa visitar el museo.)",
+    "answer": "Credo di poter venire | non mi interessa visitare il museo",
+    "alt": [
+     "Credo di potere venire | non mi interessa visitare il museo"
+    ],
+    "note": "Credere di + infinitivo; interessare + infinitivo sin preposición."
+   }
+  ]
+ },
+ "r28-01b": {
+  "consigna": "Completá con a + infinitivo (finalidad, sucesión o simultaneidad). En la oración b también podría ir per.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "È venuto ___ una telefonata, dopodiché è andato via. (…a hacer / e hizo)",
+    "answer": "a fare",
+    "alt": [],
+    "note": "Con verbos de movimiento, a + infinitivo indica lo que se hizo al llegar."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Sono venuto qui ___ una telefonata, ma il telefono è guasto. (…para hacer)",
+    "answer": "a fare",
+    "alt": [
+     "per fare"
+    ],
+    "note": "Finalidad: a + infinitivo, o per para subrayar la intención."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Siamo rimasti ___ la partita. (…a ver / y vimos)",
+    "answer": "a vedere",
+    "alt": [
+     "a guardare"
+    ],
+    "note": "Rimanere + a + infinitivo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Si annoiavano ___ sempre le stesse canzoni. (…escuchando)",
+    "answer": "a sentire",
+    "alt": [
+     "ad ascoltare",
+     "a ascoltare"
+    ],
+    "note": "A + infinitivo equivale a un gerundio de circunstancia."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Stavano alla finestra ___ le stelle. (…mirando)",
+    "answer": "a guardare",
+    "alt": [],
+    "note": "Stare + lugar + a + infinitivo."
+   }
+  ]
+ },
+ "r28-02": {
+  "consigna": "Traducí al italiano: fijate qué verbo y qué preposición pide cada construcción.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Me puse a estudiar los verbos.",
+    "answer": "Mi sono messo a studiare i verbi.",
+    "alt": [
+     "Mi sono messa a studiare i verbi."
+    ],
+    "note": "Mettersi a + infinitivo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Empecé a entenderlos.",
+    "answer": "Ho cominciato a capirli.",
+    "alt": [
+     "Ho iniziato a capirli.",
+     "Li ho cominciati a capire.",
+     "Ho incominciato a capirli."
+    ],
+    "note": "Cominciare a + infinitivo."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Seguí estudiando hasta la medianoche.",
+    "answer": "Ho continuato a studiare fino a mezzanotte.",
+    "alt": [
+     "Ho continuato a studiare fino alla mezzanotte."
+    ],
+    "note": "Continuare a + infinitivo (no gerundio)."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "No logro dormir.",
+    "answer": "Non riesco a dormire.",
+    "alt": [],
+    "note": "Riuscire a + infinitivo."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "No llego a pagar. / No me alcanza para pagar.",
+    "answer": "Non ce la faccio a pagare.",
+    "alt": [
+     "Non riesco a pagare."
+    ],
+    "note": "*farcela a* + infinitivo = «poder con algo, llegar a»: *non ce la faccio a pagare*."
+   }
+  ]
+ },
+ "r28-01c": {
+  "consigna": "Verbos de empezar, terminar, intentar y decidir: completá con di o a.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Comincia ___ piovere.",
+    "answer": "a",
+    "alt": [],
+    "note": "Cominciare a."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Si è messo ___ gridare.",
+    "answer": "a",
+    "alt": [],
+    "note": "Mettersi a."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Abbiamo finito ___ mangiare.",
+    "answer": "di",
+    "alt": [],
+    "note": "Finire di."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Ha smesso ___ piovere.",
+    "answer": "di",
+    "alt": [],
+    "note": "Smettere di."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Ho provato ___ giustificarmi.",
+    "answer": "a",
+    "alt": [],
+    "note": "Provare a."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Ha cercato ___ aiutarli.",
+    "answer": "di",
+    "alt": [],
+    "note": "Cercare di."
+   },
+   {
+    "label": "g",
+    "type": "cloze",
+    "stem": "Ho tentato ___ persuaderli.",
+    "answer": "di",
+    "alt": [],
+    "note": "Tentare di."
+   },
+   {
+    "label": "h",
+    "type": "cloze",
+    "stem": "Mi sono sforzato ___ studiare.",
+    "answer": "di",
+    "alt": [],
+    "note": "Sforzarsi di."
+   },
+   {
+    "label": "i",
+    "type": "cloze",
+    "stem": "Mi sono decisa ___ lasciarlo.",
+    "answer": "a",
+    "alt": [],
+    "note": "Decidersi a (reflexivo) lleva a."
+   },
+   {
+    "label": "j",
+    "type": "cloze",
+    "stem": "Ho deciso ___ partire.",
+    "answer": "di",
+    "alt": [],
+    "note": "Decidere di (no reflexivo) lleva di."
+   }
+  ]
+ },
+ "r28-03": {
+  "consigna": "Traducí al italiano con los verbos indicados + di o a.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Me harté de esperar. (stufarsi)",
+    "answer": "Mi sono stufato di aspettare.",
+    "alt": [
+     "Mi sono stufata di aspettare."
+    ],
+    "note": "Stufarsi di + infinitivo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Me canso estudiando de noche. (stancarsi)",
+    "answer": "Mi stanco a studiare la sera.",
+    "alt": [
+     "Mi stanco a studiare di sera.",
+     "Mi stanco a studiare di notte.",
+     "Mi stanco a studiare la notte."
+    ],
+    "note": "Stancarsi a = cansarse haciendo algo (stancarsi di = hartarse de)."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "¿No te da vergüenza engañar a la gente? (imbrogliare)",
+    "answer": "Non ti vergogni di imbrogliare la gente?",
+    "alt": [
+     "Non ti vergogni a imbrogliare la gente?"
+    ],
+    "note": "Vergognarsi di + infinitivo (a es coloquial)."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Me da vergüenza haber engañado a Carla.",
+    "answer": "Mi vergogno di aver imbrogliato Carla.",
+    "alt": [
+     "Mi vergogno di avere imbrogliato Carla."
+    ],
+    "note": "Vergognarsi di + infinitivo compuesto."
+   }
+  ]
+ },
+ "r28-01d": {
+  "consigna": "¿Qué estás haciendo? Traducí al italiano (estos verbos no llevan preposición).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Estoy esperando el tren.",
+    "answer": "Aspetto il treno.",
+    "alt": [
+     "Sto aspettando il treno."
+    ],
+    "note": "Aspettare + objeto directo, sin preposición."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Estoy buscando mi iPad.",
+    "answer": "Cerco il mio iPad.",
+    "alt": [
+     "Sto cercando il mio iPad."
+    ],
+    "note": "*cercare* lleva objeto directo sin preposición: *cerco il mio iPad*, como «busco mi iPad»."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Estoy escuchando la radio.",
+    "answer": "Ascolto la radio.",
+    "alt": [
+     "Sto ascoltando la radio."
+    ],
+    "note": "Ascoltare + objeto directo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Estoy mirando las fotos.",
+    "answer": "Guardo le foto.",
+    "alt": [
+     "Sto guardando le foto."
+    ],
+    "note": "Guardare + objeto directo."
+   }
+  ]
+ },
+ "r28-02b": {
+  "consigna": "¿Quién le paga a quién? Traducí al italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Voy a pagar las bebidas y después voy a pagar el hotel.",
+    "answer": "Pagherò le bevande e poi pagherò l'albergo.",
+    "alt": [
+     "Pago le bevande e poi pago l'albergo.",
+     "Pagherò le bibite e poi pagherò l'albergo.",
+     "Pagherò le consumazioni e poi pagherò l'albergo.",
+     "Pagherò da bere e poi pagherò l'albergo."
+    ],
+    "note": "Pagare + la cosa, sin preposición."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "¿Podés pagarle al electricista? (l'elettricista)",
+    "answer": "Puoi pagare l'elettricista?",
+    "alt": [],
+    "note": "Pagare qualcuno: la persona va como objeto directo si no se menciona la cantidad."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Pago yo por María.",
+    "answer": "Pago io per Maria.",
+    "alt": [
+     "Pago per Maria.",
+     "Sto pagando per Maria."
+    ],
+    "note": "*pagare per qualcuno* = «pagar por otro, en su lugar»: *per* marca a quién beneficia."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Le pagué 200 euros a Luca.",
+    "answer": "Ho pagato 200 euro a Luca.",
+    "alt": [
+     "Ho pagato a Luca 200 euro.",
+     "Ho pagato duecento euro a Luca."
+    ],
+    "note": "Con la cantidad como objeto, la persona va con a."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Le pagué el viaje a Sandra. (il viaggio)",
+    "answer": "Ho pagato il viaggio a Sandra.",
+    "alt": [
+     "Ho pagato il viaggio di Sandra."
+    ],
+    "note": "La cosa es objeto directo; la persona beneficiada va con a."
+   }
+  ]
+ },
+ "r28-03b": {
+  "consigna": "Traducí al italiano con el verbo indicado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Tomar hace mal al hígado.",
+    "answer": "Bere fa male al fegato.",
+    "alt": [],
+    "note": "Fare male a + algo o alguien."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Quiero mucho a mis abuelos. (voler bene)",
+    "answer": "Voglio bene ai nonni.",
+    "alt": [
+     "Voglio bene ai miei nonni.",
+     "Voglio molto bene ai nonni.",
+     "Voglio molto bene ai miei nonni."
+    ],
+    "note": "Voler bene a + persona (indirecto)."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Participé en un congreso interesante.",
+    "answer": "Ho partecipato a un convegno interessante.",
+    "alt": [
+     "Ho partecipato ad un convegno interessante.",
+     "Ho partecipato a un congresso interessante.",
+     "Ho partecipato ad un congresso interessante."
+    ],
+    "note": "Partecipare a (no «in»)."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Renuncié a la idea de mudarme. (rinunciare)",
+    "answer": "Ho rinunciato all'idea di cambiare casa.",
+    "alt": [
+     "Ho rinunciato all'idea di traslocare.",
+     "Ho rinunciato all'idea di trasferirmi."
+    ],
+    "note": "Rinunciare a + algo."
+   }
+  ]
+ },
+ "r28-01e": {
+  "consigna": "Completá con la preposición correcta (a o di).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Perché non la inviti ___ venire?",
+    "answer": "a",
+    "alt": [],
+    "note": "Invitare qualcuno a fare qualcosa."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Perché non le chiedi ___ venire?",
+    "answer": "di",
+    "alt": [],
+    "note": "Chiedere a qualcuno di fare qualcosa."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Lo devi costringere ___ pagare.",
+    "answer": "a",
+    "alt": [],
+    "note": "Costringere qualcuno a fare qualcosa."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Gli devi ordinare ___ pagare.",
+    "answer": "di",
+    "alt": [],
+    "note": "Ordinare a qualcuno di fare qualcosa."
+   }
+  ]
+ },
+ "r28-02c": {
+  "consigna": "Completá con el pronombre italiano correcto y la preposición adecuada.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Ieri ___ ho proibito ___ uscire. (a él)",
+    "answer": "gli | di",
+    "alt": [],
+    "note": "Proibire a qualcuno di: pronombre indirecto + di."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Domani ___ convincerò ___ uscire. (a él)",
+    "answer": "lo | a",
+    "alt": [],
+    "note": "Convincere qualcuno a: pronombre directo + a."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ieri ___ ho chiesto ___ rimanere. (a ella)",
+    "answer": "le | di",
+    "alt": [],
+    "note": "Chiedere a qualcuno di: pronombre indirecto + di."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Domani ___ costringerò ___ rimanere. (a ella)",
+    "answer": "la | a",
+    "alt": [],
+    "note": "Costringere qualcuno a: pronombre directo + a."
+   }
+  ]
+ },
+ "r28-03c": {
+  "consigna": "Traducí al italiano con el verbo indicado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Le dije a Simona que viniera más tarde. (dire)",
+    "answer": "Ho detto a Simona di venire più tardi.",
+    "alt": [],
+    "note": "Dire a qualcuno di + infinitivo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Invité a Angelo a venir. (invitare)",
+    "answer": "Ho invitato Angelo a venire.",
+    "alt": [],
+    "note": "Invitare qualcuno (directo) a + infinitivo."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Le pedí a Martina que se fuera. (chiedere)",
+    "answer": "Ho chiesto a Martina di andarsene.",
+    "alt": [
+     "Ho chiesto a Martina di partire.",
+     "Ho chiesto a Martina di andare via."
+    ],
+    "note": "Chiedere a qualcuno di + infinitivo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Le recordé a Susi que llamara. (ricordare)",
+    "answer": "Ho ricordato a Susi di telefonare.",
+    "alt": [
+     "Ho ricordato a Susi di chiamare."
+    ],
+    "note": "Ricordare a qualcuno di + infinitivo."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Obligó a Susi a llamar. (costringere)",
+    "answer": "Ha costretto Susi a telefonare.",
+    "alt": [
+     "Ha costretto Susi a chiamare."
+    ],
+    "note": "Costringere qualcuno (directo) a + infinitivo."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Le rogó a Fabrizio que escribiera. (pregare)",
+    "answer": "Ha pregato Fabrizio di scrivere.",
+    "alt": [],
+    "note": "Pregare qualcuno (directo) di + infinitivo."
+   }
+  ]
+ },
+ "r28-01f": {
+  "consigna": "Traducí al italiano cuidando la preposición de cada verbo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Estoy preocupado por la salud de mi papá.",
+    "answer": "Sono preoccupato per la salute di mio padre.",
+    "alt": [
+     "Sono preoccupata per la salute di mio padre.",
+     "Mi preoccupo per la salute di mio padre."
+    ],
+    "note": "Essere preoccupato per."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Pedí informes sobre él.",
+    "answer": "Mi sono informato su di lui.",
+    "alt": [
+     "Mi sono informata su di lui."
+    ],
+    "note": "Informarsi su; ante pronombre, su di."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Les agradecí las flores.",
+    "answer": "Li ho ringraziati per i fiori.",
+    "alt": [
+     "Li ho ringraziati dei fiori.",
+     "Le ho ringraziate per i fiori."
+    ],
+    "note": "Ringraziare qualcuno (directo) per/di qualcosa."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "No te preocupes por los detalles.",
+    "answer": "Non preoccuparti dei dettagli.",
+    "alt": [
+     "Non ti preoccupare dei dettagli.",
+     "Non preoccuparti per i dettagli.",
+     "Non ti preoccupare per i dettagli."
+    ],
+    "note": "Preoccuparsi di/per."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Terminó siendo presidente.",
+    "answer": "Ha finito per diventare presidente.",
+    "alt": [
+     "Ha finito col diventare presidente.",
+     "Finì per diventare presidente.",
+     "Ha finito con il diventare presidente."
+    ],
+    "note": "*finire per* (o *col*) + infinitivo cuenta cómo terminó algo: *ha finito per diventare*, donde el castellano usa el gerundio («terminó siendo»)."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Tenés que pedirle disculpas a Lino por tu comportamiento. (comportamento)",
+    "answer": "Devi scusarti con Lino per il tuo comportamento.",
+    "alt": [
+     "Devi chiedere scusa a Lino per il tuo comportamento."
+    ],
+    "note": "Scusarsi con qualcuno per qualcosa."
+   },
+   {
+    "label": "g",
+    "type": "translate",
+    "stem": "Gracias por todo. Me alegra poder contar con vos.",
+    "answer": "Grazie di tutto. Sono contento di poter contare su di te.",
+    "alt": [
+     "Grazie di tutto. Sono contenta di poter contare su di te.",
+     "Grazie per tutto. Sono contento di poter contare su di te.",
+     "Grazie per tutto. Sono contenta di poter contare su di te."
+    ],
+    "note": "Grazie di; contare su (su di ante pronombre)."
+   },
+   {
+    "label": "h",
+    "type": "translate",
+    "stem": "Se pasa todo el día navegando por internet.",
+    "answer": "Passa tutta la giornata a navigare in Internet.",
+    "alt": [
+     "Passa tutto il giorno a navigare in Internet.",
+     "Passa tutta la giornata a navigare su Internet.",
+     "Passa tutto il giorno a navigare su Internet.",
+     "Passa tutta la giornata a navigare in rete."
+    ],
+    "note": "Passare il tempo a + infinitivo."
+   }
+  ]
+ },
+ "r28-01g": {
+  "consigna": "Completá con pensare + a o di (con artículo si hace falta).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Che cosa pensi ___ proposta? (¿Qué opinás de la propuesta?)",
+    "answer": "della",
+    "alt": [],
+    "note": "Pensare di = opinar sobre algo (di + la = della)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Che cosa pensi ___ Bruno? (¿Qué opinás de Bruno?)",
+    "answer": "di",
+    "alt": [],
+    "note": "*pensare di* = «opinar sobre»: *che cosa pensi di Bruno?*"
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Pensi ___ domani? (¿Estás pensando en mañana?)",
+    "answer": "a",
+    "alt": [],
+    "note": "*pensare a* = «pensar en, tener en mente»: el italiano usa *a* donde decimos «en»."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Che cosa pensi ___ fare? (¿Qué pensás hacer?)",
+    "answer": "di",
+    "alt": [],
+    "note": "*pensare di* + infinitivo = «tener intención de»: *che cosa pensi di fare?*"
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Hai pensato ___ Bruno? (¿Pensaste en Bruno?)",
+    "answer": "a",
+    "alt": [],
+    "note": "*pensare a qualcuno* = «pensar en alguien»: con *a*, no *in*."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Hai pensato ___ prenotare? (¿Te acordaste de reservar?)",
+    "answer": "a",
+    "alt": [
+     "di"
+    ],
+    "note": "Pensare a + infinitivo = ocuparse de algo; con di significaría «¿consideraste reservar?»."
+   }
+  ]
+ },
+ "r28-02d": {
+  "consigna": "Traducí al italiano (credere y parlare con distintas preposiciones).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Podés creer lo que quieras.",
+    "answer": "Puoi credere quello che vuoi.",
+    "alt": [
+     "Puoi credere ciò che vuoi.",
+     "Puoi credere quel che vuoi.",
+     "Puoi credere a quello che vuoi."
+    ],
+    "note": "Credere + cosa: objeto directo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "¿Le creés a Marina? ¿Le creés?",
+    "answer": "Credi a Marina? Le credi?",
+    "alt": [],
+    "note": "Credere a qualcuno = creerle; el pronombre es indirecto (le)."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "¿Creés en Dios?",
+    "answer": "Credi in Dio?",
+    "alt": [],
+    "note": "*credere in* = «creer en» (fe); *credere a* es creer lo que alguien dice."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "¿Te puedo hablar de Gianni?",
+    "answer": "Posso parlarti di Gianni?",
+    "alt": [
+     "Ti posso parlare di Gianni?"
+    ],
+    "note": "Parlare a qualcuno di qualcosa."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "¿Puedo hablar con Gianni?",
+    "answer": "Posso parlare con Gianni?",
+    "alt": [
+     "Posso parlare a Gianni?"
+    ],
+    "note": "Parlare con qualcuno."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Me habló de su trabajo.",
+    "answer": "Mi ha parlato del suo lavoro.",
+    "alt": [
+     "Mi parlò del suo lavoro."
+    ],
+    "note": "Parlare di qualcosa."
+   }
+  ]
+ }
+}

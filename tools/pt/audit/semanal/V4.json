@@ -1,0 +1,106 @@
+[
+ {
+  "id": "item s1-01-36",
+  "lote": "w01",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "«Eles têm sede» es natural en pt-BR; solo se acepta «estar com». La nota dice 'no con tener', lo que es demasiado fuerte.",
+  "fuente": "tools/pt/authored/s1.py:161",
+  "correccion": "Agregar a alt: [\"Elas têm sede.\",\"Eles têm sede.\",\"Eles tem sede.\"] y suavizar la nota: «Lo más común es estar com sede; ter sede también se oye.»"
+ },
+ {
+  "id": "item s1-03-08",
+  "lote": "w03",
+  "veredicto": "CONFIRMADO",
+  "razon": "Falso: la á existe (já, lá); lo incorrecto es usarla para a + a.",
+  "fuente": "tools/pt/authored/s1.py:343",
+  "correccion": "Con acento agudo (*á*) no marca esta fusión: la crase siempre es grave (*à*)."
+ },
+ {
+  "id": "lesson:0",
+  "lote": "w07",
+  "veredicto": "CONFIRMADO",
+  "razon": "dezoito = dez + oito, sin «e» de enlace; la regla lo agrupa mal.",
+  "fuente": "tools/pt/lessons/s1.py:796-797",
+  "correccion": "Las trampas: *dezesseis, dezessete, dezenove* (con *e*: dez + e + unidad), *dezoito* (sin *e*), *catorze* y *quinze*."
+ },
+ {
+  "id": "laboratorio:ponte:it",
+  "lote": "w13",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "mucho→muito viene de multum (lt), no de ct; el cuerpo solo menciona ct. Hecho/noche/ocho/leche sí son ct.",
+  "fuente": "docs/lang/pt/lab_data.js:117",
+  "correccion": "Donde el español tiene **ch** (del latín *ct*), el portugués tiene **it**: *noche → noite*, *leche → leite*, *ocho → oito*, *hecho → feito*. Lo mismo en *mucho → muito* (del latín *multum*, con *lt*)."
+ },
+ {
+  "id": "laboratorio:agem",
+  "lote": "w17",
+  "veredicto": "CONFIRMADO",
+  "razon": "«personagem» se usa normalmente en masculino (o personagem) en pt-BR, y está en la lista de words; «femeninas» sin excepción es falso.",
+  "fuente": "docs/lang/pt/lab_data.js:139 (words en :142)",
+  "correccion": "Las palabras en **-aje** pasan a **-agem** y son casi todas **femeninas** (excepción frecuente: *o personagem*): *el viaje → a viagem*, *el mensaje → a mensagem*. Plural en **-agens**."
+ },
+ {
+  "id": "ep9",
+  "lote": "w27",
+  "veredicto": "RECHAZADO",
+  "razon": "Glosar «souber» como «supiera» es una equivalencia aceptable en español (no existe futuro de subjuntivo vivo); «sepa» sería presente y 'si no sepa' es agramatical.",
+  "fuente": "docs/lang/pt/letture_data.js:309",
+  "correccion": ""
+ },
+ {
+  "id": "tramo breve",
+  "lote": "w31",
+  "veredicto": "RECHAZADO",
+  "razon": "«se a banca virar..., quer continuar» es pt-BR correcto: la condición sigue abierta y el presente se mantiene (igual que «hoje vende»). No es error.",
+  "fuente": "tools/pt/tramo/w31.json:131 (generado en docs/lang/pt/tramo_data.js:3906)",
+  "correccion": ""
+ },
+ {
+  "id": "lesson:5:2",
+  "lote": "w36",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "El 'truco del masculino' es confuso: con aquele/aquela/aquilo la fusión es automática si el verbo pide a. No es falso pero sí incoherente como truco.",
+  "fuente": "tools/pt/lessons/s3.py:1080",
+  "correccion": "Si el verbo pide *a* y sigue *aquele / aquela / aquilo*, siempre se funden: *a + aquele = àquele*, *a + aquela = àquela*, *a + aquilo = àquilo*."
+ },
+ {
+  "id": "s4-45-33",
+  "lote": "w45",
+  "veredicto": "RECHAZADO",
+  "razon": "El ítem es fixerr y ya tiene goodAlt [\"gostoso\",\"uma delícia\"]; app.js:6828 los acepta.",
+  "fuente": "tools/pt/authored/s4.py:1034",
+  "correccion": ""
+ },
+ {
+  "id": "item s4-47-36",
+  "lote": "w47",
+  "veredicto": "RECHAZADO",
+  "razon": "El ítem es fixerr y ya tiene goodAlt [\"Embora seja\"], que app.js:6828 acepta.",
+  "fuente": "tools/pt/authored/s4.py:1374",
+  "correccion": ""
+ },
+ {
+  "id": "errore:408",
+  "lote": "T-errori-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Firmar um contrato» es uso estándar en pt-BR (firmar contrato/acordo/parceria); marcar «firmou» como error enseña algo falso.",
+  "fuente": "tools/pt/bank/errori_banca.py:947-948",
+  "correccion": "Quitar el ítem o reemplazarlo por un calco real, p. ej. wrong «Ele firmou a carta no final.» -> «assinou»; why «Firmar un papel = assinar (firmar contrato sí se dice).»"
+ },
+ {
+  "id": "nouns:7",
+  "lote": "T-lessico-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "Frente y testa son ambos femeninos; no hay cambio de género.",
+  "fuente": "tools/pt/bank/parole_nomi.py:347",
+  "correccion": "Otra palabra: la frente → a testa. (*A frente* es «el frente / la parte delantera».)"
+ },
+ {
+  "id": "words:3",
+  "lote": "T-lessico-2",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "«um outro dia» es correcto en pt-BR; solo la expresión «outro dia» (el otro día) va sin artículo. La nota lo generaliza de más.",
+  "fuente": "tools/pt/bank/parole_verbi_agg.py:1387",
+  "correccion": "Sin artículo en expresiones como outro dia, outra vez, outra coisa; «um outro» también existe y es más enfático."
+ }
+]

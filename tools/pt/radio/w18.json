@@ -1,0 +1,55 @@
+{
+ "week": 18,
+ "level": "B1",
+ "title": "Com licença, por favor",
+ "genre": "quadro «Fala bonito»",
+ "es": "En la sección «Fala bonito» (Hablá lindo), Nanda y Téo actúan situaciones de hotel y de restaurante para practicar cómo pedir las cosas con cortesía. Téo no siempre lo logra.",
+ "speakers": ["Nanda", "Téo"],
+ "turns": [
+  ["A", "Bom dia! No quadro «Fala bonito» de hoje, a gente vai aprender a pedir com educação. Primeira situação: o Téo chega a uma pousada em Paraty, e eu sou a moça da recepção."],
+  ["B", "Oi. Quero um quarto de casal. Quanto é a diária?"],
+  ["A", "Opa, Téo! Muito direto. Com educação, como seria?"],
+  ["B", "Ah, tá. Boa tarde. Eu gostaria de um quarto de casal para duas noites. Você poderia me dizer quanto custa a diária?"],
+  ["A", "Muito bem! Segunda situação: você está no quarto e o chuveiro não funciona."],
+  ["B", "Boa noite. Desculpe incomodar, mas o chuveiro do quarto doze está quebrado. Seria possível chamar um encanador? Ou vocês poderiam me trocar de quarto?"],
+  ["A", "Perfeito! O conserto seria amanhã, então eu te daria outro quarto. Agora, o restaurante. Eu sou a garçonete. O senhor já escolheu?"],
+  ["B", "Eu queria o prato feito do dia, por favor. E você me traria mais um guardanapo? Estes talheres estão sujos."],
+  ["A", "Pois não, senhor. E de sobremesa?"],
+  ["B", "Eu adoraria um pudim, mas estou de dieta... Não, tudo bem: um pudim!"],
+  ["A", "E, no fim, a conta. Como o freguês pede?"],
+  ["B", "Você poderia trazer a conta, por favor? Ah, e a gorjeta está incluída?"],
+  ["A", "Está, sim: dez por cento. E a saideira?"],
+  ["B", "Saideira às duas da tarde? Não, obrigado! Eu preferiria um cafezinho."],
+  ["A", "Parabéns, Téo, você aprendeu! E vocês, ouvintes, como vocês pediriam um favor ao vizinho?"]
+ ],
+ "gloss": {
+  "quadro": "sección (de un programa)",
+  "educação": "buenos modales, cortesía",
+  "moça": "chica, empleada",
+  "Opa": "¡epa!",
+  "direto": "directo",
+  "incomodar": "molestar",
+  "quebrado": "roto",
+  "garçonete": "moza",
+  "sujos": "sucios",
+  "Pois não": "cómo no",
+  "pudim": "flan",
+  "de dieta": "a dieta",
+  "incluída": "incluida",
+  "cafezinho": "cafecito",
+  "Parabéns": "¡felicitaciones!",
+  "ouvintes": "oyentes"
+ },
+ "questions": [
+  ["Por que a Nanda diz que o Téo é «muito direto» na recepção?", ["Porque ele fala muito rápido", "Porque ele pede sem cortesia", "Porque ele pede um quarto caro", "Porque ele não diz o nome"], "Porque ele pede sem cortesia"],
+  ["Qual é o problema no quarto?", ["O chuveiro não funciona", "A cama é pequena", "Não tem toalha", "O ar-condicionado está quebrado"], "O chuveiro não funciona"],
+  ["O que o Téo pede no fim, em vez da saideira?", ["Um pudim", "Um cafezinho", "A conta", "Mais um guardanapo"], "Um cafezinho"]
+ ],
+ "info": [
+  ["O Téo pede um quarto de casal para duas noites.", true],
+  ["A gorjeta não está incluída na conta.", false],
+  ["O Téo escolhe o prato feito do dia.", true]
+ ],
+ "grammatica": {"label": "el futuro do pretérito para pedir con cortesía: gostaria, poderia, seria, traria", "forme": ["como seria", "eu gostaria", "você poderia", "seria possível", "vocês poderiam", "o conserto seria", "eu te daria", "você me traria", "eu adoraria", "eu preferiria", "vocês pediriam"]},
+ "parole": [["recepção", "a recepção"], ["quarto de casal", "o quarto de casal"], ["diária", "diária"], ["chuveiro", "chuveiro"], ["encanador", "encanador"], ["conserto", "conserto"], ["prato feito", "prato feito"], ["guardanapo", "guardanapo"], ["talheres", "talheres"], ["sobremesa", "sobremesa"], ["freguês", "freguês"], ["gorjeta", "gorjeta"], ["saideira", "saideira"]]
+}

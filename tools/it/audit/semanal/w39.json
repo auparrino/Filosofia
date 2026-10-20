@@ -1,0 +1,30 @@
+{
+ "week": 39, "title": "BOSS — Livello B2", "level": "B2",
+ "revisado": {"items": 3, "sfide": 0, "bloques_teoria": 6, "lecturas": 1, "dictogloss": 0, "suoni": 0},
+ "veredicto": "bien con reparos",
+ "resumen": "La hoja de repaso es correcta en italiano y en español: no encontré errores gramaticales ni de ortografía en la teoría, los 3 ítems ni la lectura. Los reparos son de cobertura y estructura. Solo hay 3 ítems propios (ninguno sobre pasiva, si, passato remoto ni discurso indirecto), no hay sfide, dictogloss ni suoni, y el bloque 'Las trampas' no pertenece a ninguna parte. Una afirmación ('Nunca condicional después de se') es demasiado absoluta. Puede ser correcto si el examen se arma con ítems de otras semanas (parts declara 189 y 155 ítems), pero el dossier no lo muestra.",
+ "bien": [
+  "La tabla de los cuatro congiuntivos vincula bien el tiempo del principal con el momento de la acción, con ejemplos paralelos presente/pasado.",
+  "El bloque de pasiva y si distingue essere, venire, andare, si passivante y si impersonale, y aclara la restricción de venire a los tiempos simples.",
+  "La tabla del discurso indirecto es clara (incluye el imperativo → di + infinito) y el tip cubre los cambios deíticos.",
+  "'Las trampas de la estación' recoge errores típicos del hispanohablante (credo che è, se avrei, mi lo, ho tre sin ne, che vivo).",
+  "La lectura 'Il nonno emigrante' integra remoto, hipotético de 3.er tipo y congiuntivo con naturalidad, con contexto cultural pertinente para rioplatenses.",
+  "El cloze c1-ipot-09 tiene una nota útil sobre las locuciones que rigen congiuntivo."
+ ],
+ "hallazgos": [
+  {"id":"lesson:1", "lang":"regla", "severidad":"duda", "actual":"**Nunca** condicional después de *se*.", "propuesta":"En la prótasis hipotética, **nunca** condicional después de *se* (se avessi, no se avrei). Aparece en interrogativas indirectas: Non so se verrebbe.", "motivo":"'Nunca' es absoluto: se + condizionale es correcto en interrogativas indirectas y en usos concesivos/contrastivos."},
+  {"id":"item c1-ipot-09", "lang":"ejercicio", "severidad":"mejora", "actual":"Completá con el verbo adecuado.", "propuesta":"Completá con el congiuntivo presente.", "motivo":"La consigna no indica el modo; el alumno solo lo deduce de 'nel caso in cui' (que la nota explica después)."},
+  {"id":"lesson:5", "lang":"ejercicio", "severidad":"mejora", "actual":"\"blocks\": [2,3,4]", "propuesta":"Agregar el bloque 5 ('Las trampas de la estación') a una parte, por ejemplo [2,3,4,5], o crear una tercera parte.", "motivo":"El bloque 5 no figura en ninguna parte, así que puede no mostrarse."},
+  {"id":"lesson:intro", "lang":"ejercicio", "severidad":"mejora", "actual":"congiuntivo y concordancia, hipotéticos, pasiva y *si*, relativos, passato remoto y discurso indirecto", "propuesta":"Añadir un bloque breve de relativos (che / cui / il quale, preposición + cui) o quitar 'relativos' de la intro y de las keys.", "motivo":"Los relativos se anuncian pero solo aparecen en una fila de las trampas."},
+  {"id":"lettura w-39", "lang":"ejercicio", "severidad":"mejora", "actual":"grammar: ripasso: passato remoto, periodo ipotetico, congiuntivo", "propuesta":"Añadir 1-2 preguntas vero/falso/non si dice y una oración con pasiva o si passivante para cerrar el repaso.", "motivo":"Las 3 preguntas son de detalle literal, con distractores obvios, y la lectura no toca pasiva ni si."}
+ ],
+ "mejoras": [
+  {"prioridad":"alta", "que":"Ampliar los ítems propios de la semana: 6-8 por punto para pasiva (essere/venire/andare), si passivante/impersonale, passato remoto y discurso indirecto, y más de concordancia de congiuntivo (choice, conjugate, fixerr, translate). Hoy hay 3 ítems, todos de hipotético/congiuntivo. Si el examen se arma con ítems de otras semanas, mostrarlo en el dossier.", "por_que":"Es una semana de examen y la mitad de las 'keys' no tiene práctica visible."},
+  {"prioridad":"alta", "que":"Incluir sfide (desafíos finales de argumentar/relatar/matizar, según 'fare'), un dictogloss con hipotético + discurso indirecto y ejercicios de suoni (por ejemplo, la terminación -ò del remoto frente a -o del presente).", "por_que":"Están vacíos y el 'fare' de la semana es productivo; hoy no hay producción ni oído."},
+  {"prioridad":"media", "que":"Matizar 'Nunca condicional después de se' y añadir el periodo misto (Se avessi studiato, ora saprei) y el uso de se + imperfetto por condizionale (Se lo sapevo, te lo dicevo) como nota.", "por_que":"Cubre la excepción y el tipo mixto, frecuentes a nivel B2."},
+  {"prioridad":"media", "que":"Mejorar la lectura: más larga (hoy ~110 palabras), con pasiva o si passivante, y con preguntas vero/falso/non si dice.", "por_que":"Cumple mejor el rol de repaso integral y evalúa inferencia, no solo búsqueda de datos."},
+  {"prioridad":"baja", "que":"Precisar la r del bloque 2 ('Repasá qué aporta cada uno') con una línea por construcción.", "por_que":"La frase es vaga; la tabla ya tiene el contenido, pero la regla podría resumirlo."},
+  {"prioridad":"baja", "que":"Añadir al tip del discurso indirecto el caso de que el verbo introductor esté en presente (Dice che viene: sin retroceso).", "por_que":"Evita sobregeneralizar 'los tiempos retroceden'."}
+ ],
+ "por_idioma": {"it": {"errores": 0, "dudas": 0}, "es": {"errores": 0, "dudas": 0}, "en": {"errores": 0, "dudas": 0}}
+}

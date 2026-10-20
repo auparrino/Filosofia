@@ -1,0 +1,106 @@
+[
+ {
+  "id": "duelos serestar #23",
+  "lote": "w01",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Onde está o hotel?» es natural en Brasil; el duelo marca «está» como incorrecta y la explicación lo afirma falsamente.",
+  "fuente": "docs/lang/pt/duelli_data.js:59-60",
+  "correccion": "Reemplazar por un lugar-evento: A(\"Onde ___ a reunião? Na sala 3.\", \"é\", \"está\", ...) con why «Un evento se ubica con ser (o ficar)»; o dejar la frase y aceptar «está»."
+ },
+ {
+  "id": "item s1-05-39",
+  "lote": "w05",
+  "veredicto": "CONFIRMADO",
+  "razon": "La respuesta modelo «numa escritório» tiene error de concordancia (escritório es masculino).",
+  "fuente": "tools/pt/authored/s1.py:639 (fx; bad/good sin contraer producen «numa escritório»); sale en course.json s1-05-39",
+  "correccion": "Cambiar bad/good a «numa oficina» -> «num escritório» (fx en s1.py:639): answer/accept «Ela trabalha num escritório de advogados.»"
+ },
+ {
+  "id": "item s1-10-04",
+  "lote": "w10",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Estou em minha casa» es correcto; «em» es una segunda opción válida y se marca mal.",
+  "fuente": "tools/pt/authored/s1.py:1093",
+  "correccion": "Stem «Estou ___ casa da minha avó.», opciones [na, em a, no], answer «na» (sin la opción «em»)."
+ },
+ {
+  "id": "lesson:4:0",
+  "lote": "w15",
+  "veredicto": "CONFIRMADO",
+  "razon": "«úsalo» es tuteo; el curso usa voseo.",
+  "fuente": "tools/pt/lessons/s2.py:237",
+  "correccion": "«…para la acción en curso: usalo sin miedo.»"
+ },
+ {
+  "id": "lesson:3:ex:1",
+  "lote": "w25",
+  "veredicto": "CONFIRMADO",
+  "razon": "El modelo omite la preposición de «gostar de» justo en la lección que enseña que la preposición va delante; contradice el bloque siguiente.",
+  "fuente": "tools/pt/lessons/s2.py:1269",
+  "correccion": "[\"*O que* eu mais admiro no Rio é a praia.\", \"Lo que más admiro de Río es la playa.\"]  (o «*Do que* eu mais gosto no Rio é a praia.»)"
+ },
+ {
+  "id": "item s3-29-36",
+  "lote": "w29",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "Hay dos arreglos válidos (quitar «que» o cambiar a «cheguem»); la nota los admite pero solo se acepta uno. Menor: la consigna toca «chegarem».",
+  "fuente": "tools/pt/authored/s3.py:500 (course.json s3-29-36)",
+  "correccion": "Agregar a accept «É importante vocês chegarem cedo.» (y tolerar tocar «que»)."
+ },
+ {
+  "id": "lettura w-33 vf",
+  "lote": "w33",
+  "veredicto": "CONFIRMADO",
+  "razon": "El texto solo dice «Morro do Livramento»; que quede en Río no figura, así que «verdadeiro» exige saber ajeno al texto.",
+  "fuente": "docs/lang/pt/letture_settimana.js:763 y 782",
+  "correccion": "Cambiar el texto a «…nasceu em 1839, no Morro do Livramento, no Rio de Janeiro, filho de…» (o la respuesta a «não se diz»)."
+ },
+ {
+  "id": "item s4-43-36",
+  "lote": "w43",
+  "veredicto": "CONFIRMADO",
+  "razon": "Nota y lección dicen «Atenciosamente o Cordialmente» pero accept solo trae la primera (goodAlt no lo usa el JS); el ítem hermano s4-43-42 sí acepta Cordialmente.",
+  "fuente": "tools/pt/authored/s4.py:699-701 (fx goodAlt no llega a accept)",
+  "correccion": "accept: [\"Atenciosamente, Martín\", \"Cordialmente, Martín\"]"
+ },
+ {
+  "id": "tramo:46:ascolto glosa agradeço",
+  "lote": "w46",
+  "veredicto": "RECHAZADO",
+  "razon": "«gracias a vos» es el equivalente funcional rioplatense de «Eu que agradeço» como respuesta a un agradecimiento; las variantes entre paréntesis son solo formas del portugués.",
+  "fuente": "docs/lang/pt/tramo_data.js:6284 (tools/pt/tramo/w44-w51.json)",
+  "correccion": "Opcional: «(eu que agradeço) soy yo quien agradece; gracias a vos»."
+ },
+ {
+  "id": "lesson:4:0",
+  "lote": "w50",
+  "veredicto": "CONFIRMADO",
+  "razon": "«chover no molhado» significa decir/hacer algo obvio o redundante, no «llover sobre mojado» (desgracia tras desgracia): falso amigo en tabla de casi iguales.",
+  "fuente": "tools/pt/lessons/s4.py:1242",
+  "correccion": "Quitar la fila de la tabla y mencionarla como falso amigo: «chover no molhado» = decir algo obvio o inútil (no es «llover sobre mojado»)."
+ },
+ {
+  "id": "tramo-conn",
+  "lote": "T-extra-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "Recontado: los modelos tienen 69/72/74/81/81/77/57/57/54/55 palabras frente a las declaradas 95/100/90/95/90/95/80/80/70/60; carta formal 89 y opinión 94 sí cuadran.",
+  "fuente": "tools/pt/tramo/fichas.json (campo p de cada género) -> docs/lang/pt/tramo_data.js:166,333,496,653,811,961,1112,1262,1414,1560,1695,1844",
+  "correccion": "e-mail «69», artículo «72», carta del lector «74», reseña «81», resumo «81», relato «77», carta abierta «57», propuesta «57», post «54», guía «55» (o alargar los modelos); de paso «Un guía» -> «Una guía»."
+ },
+ {
+  "id": "nouns:26",
+  "lote": "T-lessico-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "«também» es portugués dentro de la glosa en español.",
+  "fuente": "tools/pt/bank/parole_nomi.py:1044 (-> docs/lang/pt/data/bank.json)",
+  "correccion": "Redes sociais; también la hamaca paraguaya."
+ },
+ {
+  "id": "testi:lang.js:0",
+  "lote": "T-ui-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "En portugués es «frequentes» (con qu).",
+  "fuente": "docs/lang/pt/lang.js:182",
+  "correccion": "wordsFreq: \"Palavras frequentes\" (de paso, en la línea 180 «ganado» es español: «ganho»/«vencido»)."
+ }
+]

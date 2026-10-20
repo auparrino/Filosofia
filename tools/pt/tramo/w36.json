@@ -1,0 +1,213 @@
+{
+  "week": 36,
+  "level": "B2",
+  "lettura": {
+    "title": "À esquerda, às 18h: a crase que a cidade escreve",
+    "emoji": "🪧",
+    "genre": "coluna sobre língua",
+    "grammar": "crase",
+    "text": "Quem caminha pelo centro de qualquer capital brasileira faz, sem perceber, um curso intensivo de crase. Basta levantar os olhos. “Farmácia à direita.” “Aberto das 8h às 22h.” “Proibido estacionar à noite.” “Retire sua senha junto à recepção.” As placas, os avisos colados nas portas e os cartazes das repartições formam uma espécie de gramática a céu aberto — nem sempre correta, é verdade, mas surpreendentemente coerente.\n\nA crase, convém lembrar, não é um acento qualquer. O sinal grave indica a fusão de duas vogais: a preposição “a” e o artigo feminino “a”. Por isso ela aparece com tanta frequência nas indicações de horário e de direção. Quem diz “chego às nove” está dizendo, no fundo, “chego a as nove horas”; quem diz “vire à esquerda” subentende “vire a a mão esquerda”, ou algo parecido. A regra prática que muitos professores ensinam — trocar a palavra feminina por uma masculina e ver se aparece “ao” — funciona bem na maioria dos casos: “vou à praça” corresponde a “vou ao parque”.\n\nÉ justamente nos horários que surgem os erros mais curiosos. Numa padaria de bairro, li certa vez: “Funcionamos de segunda à sexta, das 7 as 19h”. Dois tropeços numa linha só. Quando a expressão começa sem artigo — “de segunda” —, o par correspondente também dispensa o artigo: “de segunda a sexta”. Já quando começa com artigo contraído — “das 7h” —, o segundo termo pede crase: “às 19h”. A simetria é a chave: “de… a”, “da… à”, “das… às”.\n\nOs textos formais, por sua vez, adoram as locuções que exigem o sinal grave. Ofícios e comunicados costumam informar que determinado documento está “à disposição” do interessado, que um pedido será analisado “à luz da legislação vigente” ou que as obras avançarão “à medida que” os recursos forem liberados. Nenhuma dessas expressões admite a troca pelo masculino, mas todas são tão fixas que o falante culto as reconhece de ouvido. O mesmo vale para os demonstrativos: um aviso que manda o cidadão dirigir-se “àquele guichê” ou “àquela sala” contrai a preposição com o pronome, e ninguém presta atenção àquilo que já parece óbvio. Há ainda as armadilhas: “devido à chuva” leva crase, porque “devido a” é seguido de um nome feminino com artigo; “devido a problemas técnicos”, não.\n\nAntes de verbos e de palavras masculinas, a crase, em regra, não existe. Ainda assim, não faltam cartazes anunciando “entrega à domicílio” ou “atendimento à partir das 10h”. Esses deslizes, longe de provar que o brasileiro “não sabe português”, mostram o contrário: o falante percebe que ali há um “a” importante e tenta marcá-lo, como quem sublinha uma palavra. Erra por excesso de zelo, não por descaso.\n\nOs linguistas lembram que, na fala, a crase é quase sempre imperceptível. Ninguém pronuncia duas vogais em “à tarde”. O sinal pertence à escrita, e é natural que a escrita, por ser aprendida na escola, gere insegurança. Talvez por isso muitos redatores de repartições públicas prefiram contornar o problema com fórmulas neutras: “Horário de atendimento: 8h–17h”. O traço resolve a questão, mas empobrece o texto.\n\nNo fim das contas, as placas da cidade são um retrato fiel da nossa relação com a norma: respeitosa, às vezes temerosa, frequentemente criativa. Da próxima vez que você esperar o ônibus em frente à estação ou for à biblioteca à tarde, preste atenção aos avisos ao redor. Eles contam, em poucas letras, a história de uma língua que se escreve na rua — e que se corrige, aos poucos, à medida que é lida.",
+    "gloss": {
+      "senha": "número (de turno)",
+      "placas": "carteles, señales",
+      "colados": "pegados",
+      "cartazes": "afiches",
+      "repartições": "oficinas públicas",
+      "subentende": "sobreentiende",
+      "padaria": "panadería",
+      "tropeços": "tropiezos",
+      "dispensa": "prescinde de",
+      "ofícios": "notas oficiales",
+      "recursos": "fondos",
+      "ouvido": "(de ouvido) de oído",
+      "guichê": "ventanilla",
+      "armadilhas": "trampas",
+      "deslizes": "errores, descuidos",
+      "sublinha": "subraya",
+      "zelo": "celo, cuidado",
+      "descaso": "desidia",
+      "contornar": "esquivar",
+      "traço": "guion, raya",
+      "ônibus": "colectivo"
+    },
+    "questions": [
+      ["Qual é o objetivo principal do texto?", ["Denunciar o descuido das prefeituras com a sinalização urbana.", "Mostrar como a crase aparece nos avisos e placas da cidade.", "Defender que a crase seja abolida dos textos oficiais.", "Ensinar a pronunciar as vogais contraídas na fala."], "Mostrar como a crase aparece nos avisos e placas da cidade."],
+      ["Por que “de segunda à sexta” está errado, segundo o texto?", ["Porque os dias da semana nunca aceitam artigo.", "Porque a crase só aparece antes de números de horas.", "Porque, sem artigo no primeiro termo, não há crase no segundo.", "Porque a preposição correta seria “até”, e não “a”."], "Porque, sem artigo no primeiro termo, não há crase no segundo."],
+      ["Como o autor interpreta erros como “à partir das 10h”?", ["Como sinal de zelo excessivo.", "Como prova de ignorância da norma.", "Como influência do espanhol.", "Como erro de digitação sem importância."], "Como sinal de zelo excessivo."],
+      ["Que crítica o autor faz à fórmula “8h–17h”?", ["Confunde o leitor sobre o horário real.", "Evita o erro, mas empobrece o texto.", "Contraria as normas da redação oficial.", "Ocupa mais espaço do que a forma com crase."], "Evita o erro, mas empobrece o texto."],
+      ["No 4º parágrafo, reconhecer uma expressão “de ouvido” significa:", ["ouvi-la pela primeira vez em voz alta.", "identificá-la pela familiaridade, sem pensar na regra.", "pronunciá-la de acordo com a escrita.", "confundi-la com uma expressão parecida."], "identificá-la pela familiaridade, sem pensar na regra."]
+    ],
+    "vf": [
+      ["Na fala, a crase costuma ser pronunciada como uma vogal longa.", "falso"],
+      ["Trocar a palavra feminina por uma masculina ajuda a decidir a maioria dos casos.", "verdadeiro"],
+      ["O autor da coluna já trabalhou numa repartição pública.", "não se diz"],
+      ["A expressão “devido a problemas técnicos” não leva crase.", "verdadeiro"],
+      ["Os erros de crase nas placas são mais comuns no Nordeste.", "não se diz"]
+    ],
+    "hunt": {
+      "label": "Toque em todas as formas com acento grave (à, às, àquele, àquela, àquilo), inclusive as mal colocadas dos cartazes",
+      "targets": ["à", "às", "àquele", "àquela", "àquilo"]
+    }
+  },
+  "ascolto": {
+    "title": "Serviço do fim de semana",
+    "genre": "boletim de serviço na rádio",
+    "es": "En un informativo matinal, la conductora y un periodista repasan los cambios de tránsito del domingo y una noticia sobre la biblioteca pública de la ciudad.",
+    "speakers": ["Luciana, apresentadora", "Tiago, repórter"],
+    "turns": [
+      ["A", "São sete e meia, e a gente vai agora direto à rua com o Tiago, que traz as informações de serviço para o fim de semana. Bom dia, Tiago!"],
+      ["B", "Bom dia, Luciana, bom dia a quem está ouvindo. Olha, o domingo vai ser movimentado. Por causa da corrida de rua, a avenida principal do centro vai ficar fechada das seis às treze horas, no trecho entre a praça da prefeitura e o parque municipal."],
+      ["A", "Das seis à uma da tarde, então. E quem precisa atravessar o centro faz o quê?"],
+      ["B", "A orientação da empresa de trânsito é usar os desvios sinalizados. Quem vem da zona sul deve virar à direita na rua da rodoviária e seguir pela via paralela. Quem vem do norte, à esquerda logo depois do viaduto. Vai ter agente orientando em cada cruzamento."],
+      ["A", "E o transporte público?"],
+      ["B", "As linhas de ônibus que passam pela avenida vão circular em trajeto alternativo. O metrô, por sua vez, abre mais cedo, às cinco da manhã, pra atender os corredores. E, atenção, a estação central fica fechada até o meio-dia, por questão de segurança."],
+      ["A", "Tá anotado. Agora, Tiago, eu sei que você tem uma notícia que não tem nada a ver com a corrida, mas que mexeu com muita gente."],
+      ["B", "Exato. A Biblioteca Pública Municipal anunciou ontem que, a partir do mês que vem, vai reduzir o horário. Hoje ela abre de segunda a sábado, das oito às vinte e uma. Com a mudança, vai funcionar só de terça a sábado, das dez às dezessete."],
+      ["A", "Nossa, é uma redução grande. Qual foi a justificativa?"],
+      ["B", "Segundo o comunicado, a decisão se deve à falta de funcionários e à necessidade de cortar gastos com energia. A direção diz que a medida é temporária, mas não informou até quando."],
+      ["A", "E imagino que a reação não foi das melhores..."],
+      ["B", "Não foi, não. Eu conversei com alguns frequentadores ontem à tarde. Tem muito estudante que trabalha de dia e só consegue estudar à noite, sabe? Uma moça me disse que a biblioteca era o único lugar silencioso que ela tinha pra se preparar pra concurso. Um senhor aposentado reclamou do fechamento às segundas, que era o dia em que ele levava o neto."],
+      ["A", "E existe algum canal pra quem quiser se manifestar?"],
+      ["B", "Tem, sim. A Secretaria de Cultura recebe sugestões e reclamações por escrito, pelo protocolo on-line ou diretamente no balcão de atendimento, que fica no térreo da prefeitura, à esquerda de quem entra. O prazo da consulta pública vai até o fim do mês."],
+      ["A", "Perfeito. Obrigada, Tiago. A gente volta daqui a pouco com a previsão do tempo."]
+    ],
+    "gloss": {
+      "trecho": "tramo",
+      "desvios": "desvíos",
+      "rodoviária": "terminal de ómnibus",
+      "cruzamento": "cruce",
+      "corredores": "corredores (de la carrera)",
+      "mexeu": "movilizó, afectó",
+      "frequentadores": "usuarios habituales",
+      "concurso": "concurso para cargo público",
+      "aposentado": "jubilado",
+      "balcão": "mostrador",
+      "térreo": "planta baja",
+      "prazo": "plazo"
+    },
+    "questions": [
+      ["Por que a avenida principal vai ficar fechada no domingo?", ["Por causa de obras na via.", "Por causa de uma corrida de rua.", "Por causa de uma manifestação.", "Por causa da feira de artesanato."], "Por causa de uma corrida de rua."],
+      ["Qual será o novo horário da biblioteca?", ["De segunda a sábado, das 8h às 21h.", "De segunda a sexta, das 10h às 17h.", "De terça a sábado, das 10h às 17h.", "De terça a domingo, das 8h às 17h."], "De terça a sábado, das 10h às 17h."],
+      ["Segundo o comunicado, a redução se deve:", ["à falta de funcionários e ao corte de gastos.", "à baixa procura de leitores no período noturno.", "a uma reforma no prédio da biblioteca.", "à transferência do acervo para outro local."], "à falta de funcionários e ao corte de gastos."],
+      ["O que os depoimentos colhidos por Tiago sugerem?", ["Que os usuários preferem estudar em casa.", "Que o horário noturno era essencial para quem trabalha de dia.", "Que a biblioteca era pouco frequentada à noite.", "Que os aposentados apoiam a mudança."], "Que o horário noturno era essencial para quem trabalha de dia."],
+      ["Onde fica o balcão de atendimento da Secretaria de Cultura?", ["No térreo da prefeitura, à esquerda da entrada.", "Na própria biblioteca, junto à recepção.", "No primeiro andar, à direita do elevador.", "Na estação central do metrô."], "No térreo da prefeitura, à esquerda da entrada."]
+    ],
+    "vf": [
+      ["A estação central do metrô ficará fechada o dia todo.", "falso"],
+      ["A direção da biblioteca diz que a medida é temporária.", "verdadeiro"],
+      ["A biblioteca vai demitir parte dos funcionários.", "não se diz"],
+      ["A consulta pública vai até o fim do mês.", "verdadeiro"]
+    ]
+  },
+  "compito": {
+    "genre": "carta_aberta",
+    "title": "Carta aberta pela biblioteca à noite",
+    "fonte": "ascolto",
+    "t": "Você frequenta a Biblioteca Pública Municipal à noite, depois do trabalho, e faz parte de um grupo de usuários que se organizou depois do boletim de serviço da rádio. Em nome do grupo, escreva uma carta aberta à Secretaria Municipal de Cultura, que será publicada no jornal da cidade durante a consulta pública, manifestando-se sobre a redução do horário da biblioteca. Retome as informações do boletim (horário atual, novo horário e justificativa), mostre quem é afetado e apresente pelo menos uma alternativa. Cuide do uso da crase nas indicações de horário.",
+    "es": "Carta abierta (un colectivo, a una autoridad, para el público): datos del audio (horarios y motivo), a quiénes afecta y una alternativa. Ojo con la crase: «das 10h às 17h», pero «de terça a sábado».",
+    "min": 171,
+    "max": 231,
+    "punti": [["Retomar los horarios anunciados", ["17h", "21h", "horário"]], ["Mencionar la justificación dada", ["funcionários", "gastos", "energia"]], ["Mostrar quién es afectado", ["noite", "trabalh", "concursos", "estud"]], ["La consulta pública", ["consulta pública", "prazo"]], ["Proponer una alternativa", ["propomos", "alternativa", "parcerias"]]],
+    "model": "Carta aberta à Secretaria Municipal de Cultura\n\nNós, usuários da Biblioteca Pública Municipal que estudam depois do trabalho, vimos a público manifestar, dentro do prazo da consulta pública, nossa preocupação com a mudança anunciada. Segundo o boletim divulgado pela rádio, a partir do próximo mês a biblioteca funcionará apenas de terça a sábado, das 10h às 17h, e não mais de segunda a sábado, das 8h às 21h.\n\nCompreendemos que a decisão se deve à falta de funcionários e à necessidade de reduzir gastos com energia. No entanto, a medida atinge justamente quem mais depende do espaço. A maioria de nós trabalha das 8h às 18h e só consegue estudar à noite; além disso, dezenas de estudantes que se preparam para concursos perderão o único ambiente silencioso a que têm acesso.\n\nDiante disso, propomos uma alternativa: manter a abertura noturna ao menos três vezes por semana, fechando a biblioteca pela manhã, quando o movimento é menor. Outra possibilidade seria firmar parcerias com universidades para a contratação de estagiários.\n\nContamos com a sensibilidade desta Secretaria e reivindicamos que a opinião dos usuários seja levada em conta antes da decisão final.\n\nAssinam esta carta 146 usuários da Biblioteca Pública Municipal.",
+    "gloss": {"atinge justamente": "afecta justamente", "concursos": "concursos públicos: exámenes para entrar a un empleo del Estado", "firmar parcerias": "establecer convenios (firmar = establecer, cerrar)", "estagiários": "pasantes"}
+  },
+  "breve": {
+    "title": "Agenda do fim de semana em Salvador",
+    "genre": "agenda cultural de rádio",
+    "es": "La agenda del fin de semana de una radio de Salvador: samba de roda, feria de artesanías, una carrera y dónde ver la puesta del sol.",
+    "speaker": "Locutora",
+    "voice": 1,
+    "text": [
+      "Rádio Salvador FM, agenda do fim de semana. Anote aí!",
+      "Na sexta, às 20 horas, tem show de samba de roda no Pelourinho, no Largo Tereza Batista. A entrada custa 40 reais, e quem chegar antes das 19 horas paga meia.",
+      "No sábado, a feira de artesanato da Praça da Sé funciona das 9 às 18 horas. À tarde, às 16 horas, tem oficina gratuita de capoeira para crianças, à sombra das árvores da praça.",
+      "No domingo, o Farol da Barra recebe a Corrida da Baía, de 10 quilômetros, com largada às 6 horas da manhã. As inscrições vão até sexta, à meia-noite, pelo site da corrida. Atenção: por causa da corrida, a Avenida Oceânica fica fechada aos carros até as 11 horas.",
+      "E à noite, para fechar o domingo, o pôr do sol no Farol da Barra, que é de graça. Bom fim de semana!"
+    ],
+    "tabella": [
+      [
+        "Preço da entrada do show de sexta (reais)",
+        "40",
+        [
+          "quarenta",
+          "40 reais",
+          "R$ 40"
+        ]
+      ],
+      [
+        "Horário em que a feira de sábado fecha",
+        "18",
+        [
+          "18 horas",
+          "18h",
+          "seis da tarde",
+          "18:00"
+        ]
+      ],
+      [
+        "Distância da corrida (quilômetros)",
+        "10",
+        [
+          "dez",
+          "10 km",
+          "10 quilômetros",
+          "dez quilômetros"
+        ]
+      ],
+      [
+        "Horário da largada",
+        "6",
+        [
+          "6 horas",
+          "6h",
+          "seis",
+          "seis da manhã",
+          "6:00"
+        ]
+      ],
+      [
+        "Até que horas a Avenida Oceânica fica fechada",
+        "11",
+        [
+          "11 horas",
+          "11h",
+          "onze",
+          "onze horas",
+          "11:00"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "Quem chega cedo ao show paga meia-entrada.",
+        true
+      ],
+      [
+        "A oficina de capoeira é paga.",
+        false
+      ],
+      [
+        "As inscrições para a corrida são pela internet.",
+        true
+      ],
+      [
+        "A corrida começa à tarde.",
+        false
+      ],
+      [
+        "Ver o pôr do sol no Farol é de graça.",
+        true
+      ],
+      [
+        "A feira de artesanato funciona também no domingo.",
+        false
+      ]
+    ],
+    "gloss": {
+      "anote": "anotá",
+      "meia": "media entrada",
+      "oficina": "taller",
+      "largada": "largada, salida"
+    }
+  }
+}

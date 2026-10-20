@@ -1,0 +1,258 @@
+{
+ "week": 19,
+ "title": "Comparativos e superlativos",
+ "level": "B1",
+ "revisado": {
+  "items": 47,
+  "bloques_teoria": 6,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 10,
+  "radio": 1,
+  "otros": 18
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana correcta en lo esencial: el portugués de ejercicios, lectura, dictogloss y radioteatro es brasileño natural y no encontré errores claros de gramática ni de ortografía. Los reparos son: varias dudas sobre reglas algo exageradas (mais pequeno, mais ruim, 'bem caro no es bien caro'), un accept dudoso, redundancia fuerte de ítems (grande→maior x4, do/da x6, caríssimo x2, mesmo assim x2) y un laboratorio vacío. El nivel B1 parece alto para comparativos (típicos de A2) y falta práctica de producción libre.",
+ "bien": [
+  "Teoría ordenada en dos partes con reglas cortas, ejemplos bilingües, tabla de irregulares y avisos contra los calcos típicos (mais grande, do que mim, muy).",
+  "Cobertura buena de los tres puntos clave: mais/menos...do que, irregulares y superlativo con contracción (do/da).",
+  "Lectura, dictogloss y radio reciclan la gramática de la semana en contextos cariocas/paulistas naturales, con comparativos y superlativos abundantes.",
+  "Vocabulario de ropa y fútbol con glosas útiles y matices culturales correctos (chinelo, brechó, prestação, saia justa, paletó vs casaco).",
+  "Buena mezcla de tipos (choice, cloze, translate, fixerr, garden, scopri, typed) y accept amplios en las traducciones (que/do que, eu/sin eu, tão...como).",
+  "Suoni pertinentes al nivel: sibilantes s/ss/ç, tônica (cálculo/calculo, caqui/cáqui) y míssil correctos."
+ ],
+ "hallazgos": [
+  {
+   "id": "item s2-19-18",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Hoje está mais calor do que ontem",
+   "propuesta": "Quitar de accept (dejar 'Hoje faz mais calor...' y 'Hoje está mais quente...').",
+   "motivo": "'estar mais calor' es coloquial/no estándar y contradice la nota del propio ítem (faz calor)."
+  },
+  {
+   "id": "item s2-19-25",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "«mais pequeno» es típico de Portugal.",
+   "propuesta": "«mais pequeno» se entiende en Brasil pero se prefiere menor.",
+   "motivo": "Exagerado: mais pequeno también se usa en Brasil; lo mismo en s2-19-09 («casi no se usa») y lesson:2 («en Brasil se usa menor»)."
+  },
+  {
+   "id": "lesson:5",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*bem caro* no es «bien caro» con matiz: es simplemente «muy caro».",
+   "propuesta": "En rioplatense «bien caro» funciona igual: bem caro = bien caro = muy caro. Aprovechar el paralelo.",
+   "motivo": "El español rioplatense usa 'bien' como intensificador; la advertencia confunde y choca con el ejemplo 'bem frio = bastante frío'."
+  },
+  {
+   "id": "item s2-19-07",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "«mais ruim» no es la forma culta.",
+   "propuesta": "«mais ruim» existe y se oye mucho, pero la forma preferida es pior.",
+   "motivo": "Inconsistente con s2-19-23 ('se oye, pero la forma correcta es pior'); mais ruim no es agramatical."
+  },
+  {
+   "id": "connesso c-028",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "É o melhor no Rio.",
+   "propuesta": "Cambiar el distractor por una opción claramente errónea (p. ej. 'É o melhor de o Rio.').",
+   "motivo": "'o melhor no Rio' es aceptable en portugués, por lo que hay dos opciones válidas posibles."
+  },
+  {
+   "id": "col-19-2",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "[\"juntar\", \"somar\", \"reunir\"]",
+   "propuesta": "Sustituir 'reunir' por un distractor no válido (p. ej. 'ganhar' o 'achar').",
+   "motivo": "'reunir dinheiro' (juntar fondos) es posible; la elección depende de matiz."
+  },
+  {
+   "id": "lettura w-19",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "\"floresta\": \"selva\"",
+   "propuesta": "\"floresta\": \"bosque, selva\"",
+   "motivo": "La pregunta 2 usa 'un bosque' para la Floresta da Tijuca; la glosa 'selva' es inconsistente."
+  },
+  {
+   "id": "lesson:0",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*do que* es lo más frecuente al hablar y al escribir.",
+   "propuesta": "*do que* y *que* son equivalentes; en la lengua hablada *que* es muy común.",
+   "motivo": "Afirmación de frecuencia dudosa (en habla informal 'que' es muy frecuente)."
+  },
+  {
+   "id": "item s2-19-24",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Leia as frases e descubra a regra.",
+   "propuesta": "Incluir en el stem 2-3 frases-ejemplo (idem s2-19-44 y los garden s2-19-21..23: 'Mirá los tres ejemplos...').",
+   "motivo": "La consigna remite a frases/ejemplos que el enunciado no muestra."
+  },
+  {
+   "id": "item s2-19-45",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "caro → ___",
+   "propuesta": "Cambiar por otro adjetivo (p. ej. lindo → lindíssimo, ou bonito → bonitíssimo) o por 'rico' ya cubierto: usar 'barato → baratíssimo'.",
+   "motivo": "Duplica s2-19-27 (caríssimo) y el ejemplo de la teoría."
+  },
+  {
+   "id": "item s2-19-40",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Aun así, fui.",
+   "propuesta": "Variar con otra frase de mesmo/bem o eliminar.",
+   "motivo": "Casi duplica s2-19-35 (Mesmo assim, eu fui à praia)."
+  },
+  {
+   "id": "item s2-19-21",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "grande → ___",
+   "propuesta": "Reducir la repetición de grande→maior (s2-19-03, 15, 19, 21 y lesson).",
+   "motivo": "Cuatro ítems evalúan lo mismo; falta variedad (menor/pior/adverbio melhor solo aparecen 1-2 veces)."
+  },
+  {
+   "id": "item s2-19-39",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "O hotel é bem perto",
+   "propuesta": "O hotel fica bem perto (respuesta principal); mantener 'é/está' en accept.",
+   "motivo": "Para ubicación 'ficar' es lo natural en Brasil; lo mismo en el ejemplo de lesson:5 ('O hotel é bem perto da praia')."
+  },
+  {
+   "id": "item s2-19-38",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "a praia mais bonita do Rio: sin repetir el artículo delante de mais.",
+   "propuesta": "a praia mais bonita do Rio: artículo + sustantivo + mais + adjetivo + de + lugar.",
+   "motivo": "La nota sobre 'no repetir el artículo' no tiene sentido para un hispanohablante (no lo repite) y confunde."
+  },
+  {
+   "id": "item s2-19-43",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Esse vestido é muy caro.",
+   "propuesta": "Agregar 'Esse vestido é bem caro.' a accept o cambiar el error a algo no puramente léxico.",
+   "motivo": "La corrección bem caro es igual de válida (lección dice muito o bem); además 'muy' ya es distractor en s2-19-28."
+  },
+  {
+   "id": "item s2-19-33",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Essa prova foi ___. (fácil, superlativo culto)",
+   "propuesta": "Mantener accept 'facílima/facilíssima' pero considerar sacar facílimo de B1 o marcarlo explícitamente como opcional.",
+   "motivo": "Forma erudita poco frecuente; facilíssimo es la usual y es la que usará el alumno."
+  },
+  {
+   "id": "lesson:4",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Algunos cultos: *fácil → facílimo*, *feliz → felicíssimo*.",
+   "propuesta": "felicíssimo es regular (no culto); solo facílimo/dificílimo/amabilíssimo son formas eruditas.",
+   "motivo": "Mezcla formas regulares con eruditas y confunde el criterio."
+  },
+  {
+   "id": "suoni p-097",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "En casi todo Brasil ti y di suenan «chi» y «yi» (con un toque de d)",
+   "propuesta": "Aclarar el contraste: tique = «tchi» (t+ch), chique = «shi» (sh rioplatense).",
+   "motivo": "Con la nota actual el alumno entiende que tique y chique suenan igual; el par real es tʃ vs ʃ."
+  },
+  {
+   "id": "suoni p-112",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "carro = «caju», Rio = «Jío»",
+   "propuesta": "carro = «cajo»/«cahu» con j aspirada; evitar «caju».",
+   "motivo": "«caju» es una palabra real en portugués (caju, fruta) y confunde la transcripción."
+  },
+  {
+   "id": "radio Rio ou São Paulo?",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Discuten de ropa, de precios, de comida y de fútbol",
+   "propuesta": "Quitar 'de comida' o agregar un turno sobre comida.",
+   "motivo": "El diálogo solo menciona 'os melhores restaurantes'; no hay discusión de comida."
+  },
+  {
+   "id": "radio Rio ou São Paulo?",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "Aqui eu vivo de saia, camiseta e tênis. E na praia, sunga ou biquíni.",
+   "propuesta": "E na praia, biquíni ou canga. (o dejar sunga solo si habla Téo)",
+   "motivo": "Nanda (voz femenina) usa 'sunga', que el vocabulario define como malla de hombre."
+  },
+  {
+   "id": "item s2-19-35",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "[\"Mesmo\"]",
+   "propuesta": "Aceptar también 'mesmo' en minúscula (y verificar normalización).",
+   "motivo": "Un alumno puede escribir 'mesmo' sin mayúscula inicial."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Reducir redundancia de los ítems: grande→maior (x4), do/da en superlativo (x6), caríssimo (x2), mesmo assim (x2), bem/muito (x3) y usar el espacio para producción nueva (mais/menos de + número, muito mais/bem melhor, quanto mais... mais, cada vez mais).",
+   "por_que": "Muchos ítems evalúan lo mismo mientras puntos que aparecen en lectura/dictogloss (muito mais bonito, ainda pior, bem melhor, mais de onze milhões) no se enseñan ni se practican."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Completar la teoría con: mais/menos de + número (ya se evalúa en la nota de s2-19-24), intensificadores del comparativo (muito/bem/ainda/bem mais), igualdad con igual/o mesmo, y quanto mais... mais.",
+   "por_que": "Aparecen en dictogloss y radio pero la lección no los presenta."
+  },
+  {
+   "prioridad": "media",
+   "que": "Rellenar laboratorio (ponte/capire): puente mais≠mas≠más, 'bem'≈'bien' rioplatense, calça≠calza, saia≠salga, maior/melhor/pior vs 'más grande/más bueno/más malo'.",
+   "por_que": "Está vacío y esta semana tiene varios falsos amigos y puentes ideales."
+  },
+  {
+   "prioridad": "media",
+   "que": "Revisar nivel: comparativos y superlativos son típicamente A2; si se mantiene B1, subir la exigencia (producción libre, frases con contexto, comparar ciudades/precios con datos).",
+   "por_que": "Los ítems son casi todos de reconocimiento/rellenar una palabra."
+  },
+  {
+   "prioridad": "media",
+   "que": "Más producción y contexto en los ejercicios: la mayoría son choice/cloze de una palabra; añadir 2-3 ítems de redacción corta (comparar dos prendas con precios) y de escucha de comparaciones.",
+   "por_que": "La progresión reconocimiento → producción se queda en el primer tramo."
+  },
+  {
+   "prioridad": "media",
+   "que": "Unificar el tratamiento de mais ruim / mais pequeno / mais grande en teoría, notas y ítems (norma preferida vs. uso real) con un mismo mensaje.",
+   "por_que": "Hoy las notas dicen 'error', 'no culta' y 'típico de Portugal' para casos con grados distintos de aceptabilidad."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Alargar la lectura (≈100 palabras es poco para B1) e incluir tão...quanto y -íssimo/ótimo además de mais de + número, y una pregunta de caza de formas más precisa (target 'mais' aparece también en 'mais de onze milhões', que no es comparativo).",
+   "por_que": "La lectura no usa 'tão' y su caza de formas mezcla usos."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Dictogloss: la oración 'a carne é bem melhor' usa bem + comparativo no enseñado; agregar nota o incluirlo en teoría.",
+   "por_que": "La glosa ya lo traduce como 'mucho mejor', pero la regla de la semana solo cubre bem + adjetivo."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 3
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 5
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

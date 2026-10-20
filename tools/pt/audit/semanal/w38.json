@@ -1,0 +1,36 @@
+{
+"week":38,"title":"Português falado do Brasil","level":"B2",
+"revisado":{"items":46,"bloques_teoria":7,"lecturas":2,"dictogloss":1,"suoni":10,"radio":0,"otros":4},
+"veredicto":"bien con reparos",
+"resumen":"Semana correcta en contenido: no encontré errores claros de portugués, español ni inglés, y las reglas (tá/tô/pra/pro/cê, cadê, ter por haver, né) son fiables. Los problemas son de diseño: 46 ítems casi todos de reconocimiento/reproducción, con 'cadê' y las reducciones sobrerrepresentados y 'a gente', 'tipo', 'então', 'nossa' casi sin práctica. Radio, laboratorio y duelos están vacíos, suoni no trabaja las reducciones y la lectura de Freire no tiene relación con el tema. Tramo (lectura, audio, breve y tarea) es de buena calidad pero de nivel más alto que los ítems.",
+"bien":[
+"Teoría corta y clara: tabla de reducciones, marcadores con ejemplos, advertencias útiles (cê no va tras preposición, cadê sin verbo, tem sin plural, pois é vs pois não).",
+"Buena cobertura del contraste habla/registro formal (ítems 24, 32, 36 y bloque 'Cuándo usarlo'), con el chiado carioca y cuidado de no presentar lo coloquial como error.",
+"Las respuestas aceptadas en translate son generosas (formas plenas y reducidas, masculino/femenino, 'ao'/'pra').",
+"El tramo (reportagem 'Legenda com sotaque', diálogo Bruna/Caio, audio de Rafa, tarea de e-mail) usa la gramática de la semana de forma natural y con preguntas bien hechas; el modelo de e-mail (240 palabras) cumple el rango 182-242.",
+"Datos culturales de la lectura w-38 y del texto de Freire (Tiradentes 1792, JK/Brasília 21/4, Aleijadinho en Congonhas, Angicos 1963, Pedagogia do Oprimido, ley de 2012) son correctos.",
+"Vocabulario de la semana útil y bien glosado, con falsos amigos señalados (legenda, resenha, estranhar)."
+],
+"hallazgos":[
+{"id":"item s3-38-37","lang":"ejercicio","severidad":"mejora","actual":"para o → ___","propuesta":"Reemplazar por otro contraste (p. ex. 'em um → ___' o 'para as → ___') o eliminar uno de los dos","motivo":"Duplica exactamente s3-38-42 (typed 'para o → pro') y s3-38-15 y el bloque 0 de teoría."},
+{"id":"item s3-38-43","lang":"ejercicio","severidad":"mejora","actual":"___ o Rafa?","propuesta":"Variar (p. ej. '___ vocês? Tô esperando faz meia hora!') o eliminar","motivo":"Casi duplicado de s3-38-19 ('___ (onde está) a Bia?'); cadê ya tiene unos 10 ítems (07, 19, 28, 33, 41, 43)."},
+{"id":"item s3-38-36","lang":"ejercicio","severidad":"duda","actual":"Vi-o na reunião de ontem.","propuesta":"Agregar a accept 'Eu o vi na reunião de ontem.' (y considerar como respuesta principal)","motivo":"Es la norma formal más natural en pt-BR (s3-38-31 ya acepta 'Eu o vi'); 'vi-o' suena más europeo y un alumno correcto sería rechazado."},
+{"id":"item s3-38-39","lang":"ejercicio","severidad":"duda","actual":"Veja as três reduções da fala e complete a quarta.","propuesta":"Mostrar en el stem las tres reducciones previas (p. ej. 'tô, tá, pra → estava → ___') o cambiar la consigna a 'Complete a redução da fala.'","motivo":"La consigna habla de tres reducciones que el stem no muestra (idem items 37 y 38)."},
+{"id":"col-38-2","lang":"pt","severidad":"duda","actual":"Tô tão cansado que ___ no sono no sofá.","propuesta":"Ontem eu estava tão cansado que ___ no sono no sofá. (o: Tô tão cansado que vou ___ no sono no sofá.)","motivo":"Presente 'Tô cansado' + pretérito 'peguei' resulta poco natural; mejor alinear tiempos."},
+{"id":"suoni c-044","lang":"ejercicio","severidad":"duda","actual":"cê = você, num = não delante del verbo.","propuesta":"Enseñar en la lección 'num = não' (hoy solo figura num = em um) o cambiar el ítem","motivo":"Se evalúa algo que la lección no enseña y que contradice la única entrada de 'num' de la teoría."},
+{"id":"item s3-38-27","lang":"ejercicio","severidad":"mejora","actual":"\"Sei lá, acho que ele vem\", \"Sei lá, acho que ela vem\", \"Sei lá, acho que vem\"","propuesta":"Agregar 'Sei lá, acho que ele vai vir', 'Sei lá, eu acho que ele vem', 'Sei lá, acho que ele vai vir'","motivo":"Variantes igual de naturales que un alumno escribiría (ir + infinitivo, 'eu acho')."},
+{"id":"lesson:1","lang":"es","severidad":"mejora","actual":"Fui no bar, *aí* encontrei o Rafa.","propuesta":"Traducir «Fui al bar y entonces me encontré con Rafa» (o «y ahí...» con aclaración)","motivo":"La nota de teoría define aí como «y entonces»; «y ahí» sugiere lugar."},
+{"id":"tramo compito gloss","lang":"es","severidad":"mejora","actual":"pode ficar tranquilo","propuesta":"Cambiar la clave a 'Fica tranquilo' (como aparece en el texto modelo)","motivo":"La clave del glosario no aparece en el texto, por lo que la glosa no se activaría."},
+{"id":"suoni p-179","lang":"ejercicio","severidad":"mejora","actual":"íntimo / intimo","propuesta":"Reemplazar por un par pertinente a la semana (p. ej. 'tá / tal', 'pra / para', 'cê / sê', 'vamos / vamo')","motivo":"Par de acentuación sin relación con el habla; la semana no trabaja reducciones ni ritmo en suoni."},
+{"id":"lettura c-freire","lang":"ejercicio","severidad":"mejora","actual":"grammar: passiva, subjuntivo e citações","propuesta":"Reemplazar o complementar con un texto de cultura sobre habla/lenguas de Brasil (p. ej. gírias cariocas, Marcos Bagno, DaMatta)","motivo":"Texto correcto pero sin vínculo con 'português falado'; no recicla né/tá/cadê/a gente."}
+],
+"mejoras":[
+{"prioridad":"alta","que":"Agregar práctica de 'a gente' (a gente vai/vamos, a gente = nós con verbo en 3.ª singular), 'tipo', 'então', 'nossa' y 'pois é/sei lá' (hoy 1 o 2 ítems cada uno) y una explicación breve de 'a gente' en la teoría.","por_que":"'a gente' figura en el foco y en el e-mail de la tarea final, pero no tiene bloque propio ni ítems."},
+{"prioridad":"alta","que":"Rebalancear: bajar ítems de reducciones y cadê (~25 de 46) y sumar producción: reescribir un diálogo formal en habla y viceversa, completar un chat, responder con un marcador adecuado.","por_que":"Casi todo es reconocimiento o sustitución mecánica; B2 pide producción y comprensión de habla real."},
+{"prioridad":"media","que":"Llenar radio, laboratorio (reglas puente y capire) y duelos o, al menos, un episodio de 'Martín no Rio' con las formas; hoy están vacíos.","por_que":"La semana de habla es la que más se beneficia de audio y de pares de contraste."},
+{"prioridad":"media","que":"Agregar en suoni pares/ejemplos de reducción (tá/está, pra/para, vamo/vamos) y entonación de né y tá?; incluir 'num = não' y 'ocê' en la teoría si se evalúan.","por_que":"Hoy suoni mezcla ítems fuera de teoría (num, ocê, vamo) y un par de acento sin relación."},
+{"prioridad":"media","que":"Alinear dificultad: ítems A2-B1 frente a un tramo de ~600 palabras con léxico C1 (descompasso, rebatem, inédito); agregar ítems intermedios (lectura de chats reales, transcripción de legendas).","por_que":"Salto brusco entre práctica y evaluación final de la semana."},
+{"prioridad":"baja","que":"Eliminar ítems duplicados (37/42, 19/43) y los col-38 si no se vinculan al tema; aclarar en consigna de garden.","por_que":"Reduce carga sin perder cobertura."}
+],
+"por_idioma":{"pt":{"errores":0,"dudas":1},"es":{"errores":0,"dudas":0},"en":{"errores":0,"dudas":0}}
+}

@@ -1,0 +1,213 @@
+{
+ "week": 25,
+ "title": "Pronomes relativos",
+ "level": "B1",
+ "revisado": {
+  "items": 48,
+  "bloques_teoria": 7,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 4,
+  "radio": 1,
+  "otros": 0
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida: la teoría es corta, correcta y contrasta bien con el español (preposición delante, cujo sin artículo, «lo que» = o que). Los ítems son casi todos correctos y están bien alineados con la lección. El único problema real es una contradicción interna: el ejemplo de lesson y el ítem s2-25-22 presentan «o que eu mais gosto» sin preposición como forma modelo, justo la omisión que la semana enseña a evitar al escribir. Hay mucha repetición de ítems (la misma frase en choice, cloze, translate y fixerr) y faltan avisos de registro sobre cujo/o qual.",
+ "bien": [
+  "Teoría concisa con regla, 4 ejemplos con traducción, aviso del error típico del hispanohablante (a personal, «lo que», «cujo o») y pregunta de comprobación por bloque.",
+  "Buena distinción entre registro hablado y escrito para la preposición (bloque 4: «al hablar se cae... en el examen poné la preposición») y para onde/aonde.",
+  "Mezcla de tipos de ejercicio amplia (choice, cloze, translate, fixerr, garden, scopri, combina, typed) con progresión de reconocimiento a producción.",
+  "Los accept de translate son generosos y correctos (em que/onde/na qual, con y sin «eu», por onde).",
+  "Radioteatro «Quem é quem no Calçadão» recicla muy bien los relativos y el vocabulario de la semana; la lectura de Garota de Ipanema y el dictogloss de Zumbi son factualmente correctos.",
+  "Vocabulario brasileño auténtico y bien glosado (sobrado, boné, magrelo, treco, portaria, quilombo como falso amigo rioplatense)."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:3:ex:1",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "*O que* eu mais gosto no Rio é a praia.",
+   "propuesta": "Reformular con un verbo sin preposición: «*O que* eu mais admiro no Rio é a praia», o con la preposición: «*Do que* eu mais gosto no Rio é a praia».",
+   "motivo": "El modelo omite la preposición de «gostar de», justo lo que el bloque siguiente pide escribir; contradice s2-25-30 (que marca «O bairro que eu moro» como error)."
+  },
+  {
+   "id": "item s2-25-22",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "___ eu mais gosto no Rio é a praia. (answer: O que; note: «o que eu mais gosto no Rio é a praia»)",
+   "propuesta": "Stem «___ eu mais admiro no Rio é a praia.» (answer O que), o aceptar «Do que» y avisar que «O que ... gosto» es habla.",
+   "motivo": "Presenta como correcta una forma sin preposición que la semana enseña a evitar en lo escrito; inconsistente con los ítems 20, 30 y 31."
+  },
+  {
+   "id": "lesson:2:tip",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "si podés decir *a que* (dirección), va *aonde*",
+   "propuesta": "«si podés decir *para onde* / *a onde* (dirección), va *aonde*»",
+   "motivo": "«a que» no es una forma de dirección en portugués; confunde con el relativo «a que»."
+  },
+  {
+   "id": "lesson:3:warn",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "«Lo» no existe en portugués: *o que*, *o bom*, *o importante é...*",
+   "propuesta": "«El artículo neutro *lo* no existe en portugués: *o que*, *o bom*...»",
+   "motivo": "El clítico «-lo» sí existe (fazê-lo, vendo-o/-lo); la afirmación literal es exagerada."
+  },
+  {
+   "id": "item s2-25-27",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"O filme que eu gostei\", \"O filme que gostei\" (en accept)",
+   "propuesta": "Quitar las dos variantes sin preposición de accept (o marcarlas como habla en la nota).",
+   "motivo": "Se aceptan como correctas formas que el curso corrige en s2-25-30 y dice no usar en lo escrito; el enunciado ni pide registro."
+  },
+  {
+   "id": "item s2-25-05",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "options: Aonde / Donde / A onde",
+   "propuesta": "Reemplazar «A onde» por otra opción errónea (p. ej. «Adonde» sin más no sirve; mejor «Onde de»).",
+   "motivo": "«a onde» figura en Houaiss/Acordo como variante posible de «aonde»; un alumno atento podría protestar."
+  },
+  {
+   "id": "lettura w-25",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "A moça, a qual mais tarde ficou famosa, era a Helô Pinheiro, como ficou conhecida.",
+   "propuesta": "A moça era a Helô Pinheiro, que mais tarde ficou famosa.",
+   "motivo": "«a qual» como sujeto sin ambigüedad es forzado y «como ficou conhecida» queda colgado; poco natural."
+  },
+  {
+   "id": "radio Quem é quem no Calçadão",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "É o sujeito ao qual todo mundo pede informação.",
+   "propuesta": "É o sujeito a quem todo mundo pede informação.",
+   "motivo": "«ao qual» en una charla de radio es muy formal; «a quem»/«que todo mundo pede informação» suena más natural."
+  },
+  {
+   "id": "lesson:5:r",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Tras preposiciones largas o para evitar ambigüedad: *sobre o qual*, *pela qual*, *durante o qual*.",
+   "propuesta": "«Tras preposiciones largas (*sobre*, *durante*, *através de*) o para evitar ambigüedad; con *por*, *em*, *de* se prefiere *que*/*quem*».",
+   "motivo": "El ejemplo *pela qual* usa una preposición corta, en tensión con el tip del mismo bloque."
+  },
+  {
+   "id": "item s2-25-09",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "answer: quem; accept: [quem]",
+   "propuesta": "accept: [quem, a qual]",
+   "motivo": "«A menina com a qual saí» es igual de correcta con el hueco tras «com»."
+  },
+  {
+   "id": "item s2-25-16",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "___ você vai? (adónde) accept: [Aonde]",
+   "propuesta": "accept: [Aonde, Onde]",
+   "motivo": "La lección dice que al hablar onde se usa para todo; «Onde você vai?» es natural."
+  },
+  {
+   "id": "item s2-25-14",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "accept: [o filme de que falei]",
+   "propuesta": "accept: [o filme de que falei, o filme de que eu falei, o filme do qual falei]",
+   "motivo": "Faltan variantes equivalentes (con «eu», con «do qual», citado en la propia nota)."
+  },
+  {
+   "id": "item s2-25-31",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "accept: [o filme de que gosto]",
+   "propuesta": "accept: [o filme de que gosto, o filme de que eu gosto, o filme do qual gosto]",
+   "motivo": "Variante natural con «eu» no aceptada."
+  },
+  {
+   "id": "item s2-25-26",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Não entendi o que ele disse",
+   "propuesta": "Agregar a accept «Não entendi o que ele falou», «Eu não entendi o que você falou»",
+   "motivo": "«falar» es tan natural como «dizer» en pt-BR coloquial."
+  },
+  {
+   "id": "dictogloss Zumbi dos Palmares",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "foi morto em vinte de novembro de mil seiscentos e noventa e cinco",
+   "propuesta": "foi morto no dia vinte de novembro de mil seiscentos e noventa e cinco",
+   "motivo": "Más natural en pt-BR («em vinte de novembro» suena a cálculo europeo/legal)."
+  },
+  {
+   "id": "items s2-25-18/26/29, 19/25, 21/28, 20/27/31",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Misma frase en varios ítems (p. ej. «Não entendi o que ele disse» en s2-25-18, 26, 29 y en la lección; «Fiz tudo o que você pediu» en 19 y 25)",
+   "propuesta": "Variar el léxico y el contexto entre formatos; dejar una sola aparición por frase.",
+   "motivo": "Ítems casi duplicados inflan la carga sin practicar más y permiten responder por memoria."
+  },
+  {
+   "id": "items col-25-1/col-25-2",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "O preço é o fator que a gente mais ___ em conta. / É um professor que todos os alunos ___ a sério.",
+   "propuesta": "Mantener como colocaciones pero ubicarlos al final como bloque aparte, o cambiar a colocaciones con relativos.",
+   "motivo": "No practican la regla de la semana (aunque usan «que»); rompen el hilo de las partes."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Corregir lesson:3 ex 2 e ítem s2-25-22 para que modelen la preposición (o usar un verbo sin preposición).",
+   "por_que": "Evita contradecir la regla central de la semana."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar en el bloque de cujo una nota de registro: cujo/o qual son escritos/formales; en el habla se dice «o cara que o carro dele foi roubado» o se reformula. Mostrar también «em cujo», «de cujo».",
+   "por_que": "El alumno lo va a oír poco y fallar al hablar; hoy no se enseña cuándo no usarlo."
+  },
+  {
+   "prioridad": "media",
+   "que": "Sumar ítems de o que como relativo de oración entera («, o que é normal») y de «de onde»/«por onde»; hoy solo hay ejemplos en teoría.",
+   "por_que": "Puntos enseñados con 0 ejercicios."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reequilibrar: o qual tiene 4 ítems y cujo 15; quem sin antecedente solo 1. Sumar producción de o qual con preposición larga y de oraciones explicativas con comas.",
+   "por_que": "Cobertura desigual entre reglas enseñadas."
+  },
+  {
+   "prioridad": "media",
+   "que": "Eliminar duplicados (ver hallazgo) y reemplazar por frases nuevas con el vocabulario de la semana (sobrado, varanda, porteiro).",
+   "por_que": "Más práctica útil con la misma carga de 48 ítems."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Aclarar en lesson:1 la diferencia restrictiva/explicativa (coma) y la opción «com quem»/«com o qual» coherente con los ítems.",
+   "por_que": "El alumno ve «os quais» con comas sin que se explique."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Revisar nivel: relativos con preposición, cujo y o qual rozan B1 alto/B2; está bien si el curso lo asume.",
+   "por_que": "Cohesión del nivel declarado."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

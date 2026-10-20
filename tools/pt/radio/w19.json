@@ -1,0 +1,48 @@
+{
+ "week": 19,
+ "level": "B1",
+ "title": "Rio ou São Paulo?",
+ "genre": "debate no estúdio",
+ "es": "Llegó el duelo más esperado: Nanda, carioca, contra Téo, paulista. ¿Qué ciudad es mejor? Discuten de ropa, de precios, de comida y de fútbol, y los oyentes votan.",
+ "speakers": ["Nanda", "Téo"],
+ "turns": [
+  ["A", "Bom dia! Hoje é o grande debate: Rio contra São Paulo. Eu defendo o Rio, claro, e o Téo defende São Paulo. Os ouvintes votam por mensagem. Téo, pode começar."],
+  ["B", "São Paulo é maior do que o Rio, tem mais teatros, mais museus e os melhores restaurantes do Brasil."],
+  ["A", "Maior, sim. Mas o Rio é mais bonito do que qualquer cidade do mundo! E aqui a vida é mais leve: você vai trabalhar de chinelo."],
+  ["B", "De chinelo? Em São Paulo eu ia ao escritório de calça, casaco e gravata. Lá as pessoas se vestem melhor."],
+  ["A", "Se vestem com mais roupa, isso sim! Aqui eu vivo de saia, camiseta e tênis. E na praia, sunga ou biquíni. Muito mais prático."],
+  ["B", "E as compras? Em São Paulo tudo é mais barato. Na rua Vinte e Cinco de Março um cinto custa menos do que um cafezinho aqui."],
+  ["A", "Mas no Rio tem os brechós de Botafogo! Ontem comprei um casaco lindo por vinte reais e uns brincos por cinco. E numa loja do centro dá para pagar em dez prestações."],
+  ["B", "Tá, mas o tamanho das lojas... O maior shopping do país é em São Paulo."],
+  ["A", "E o futebol? O Maracanã é o estádio mais famoso do Brasil. Num clássico entre Flamengo e Vasco, a torcida canta tanto quanto num show."],
+  ["B", "A torcida do Corinthians canta tão alto quanto qualquer torcida do Rio!"],
+  ["A", "Chega! Vamos aos votos. Rio: duzentos e doze. São Paulo: duzentos e doze."],
+  ["B", "Empate! Então o pior das duas cidades é o mesmo: o trânsito."],
+  ["A", "Nisso a gente concorda. Até amanhã, ouvintes!"]
+ ],
+ "gloss": {
+  "ouvintes": "oyentes",
+  "leve": "liviana",
+  "estádio": "estadio",
+  "escritório": "oficina",
+  "biquíni": "bikini",
+  "prático": "práctico",
+  "Vinte e Cinco de Março": "calle comercial muy barata del centro de São Paulo",
+  "shopping": "centro comercial",
+  "Chega": "¡basta!",
+  "Empate": "empate",
+  "Nisso a gente concorda": "en eso estamos de acuerdo"
+ },
+ "questions": [
+  ["Segundo o Téo, como as pessoas se vestem em São Paulo?", ["De chinelo e camiseta", "Melhor, de calça, casaco e gravata", "Com roupas de brechó", "De saia e tênis"], "Melhor, de calça, casaco e gravata"],
+  ["O que a Nanda comprou ontem no brechó?", ["Um cinto e uma gravata", "Um casaco e uns brincos", "Uma saia e um tênis", "Uma sunga e um chinelo de praia"], "Um casaco e uns brincos"],
+  ["Qual é o resultado do debate?", ["Ganha o Rio", "Ganha São Paulo", "Empate", "Não tem votos"], "Empate"]
+ ],
+ "info": [
+  ["Segundo o Téo, em São Paulo as coisas são mais baratas.", true],
+  ["A Nanda trabalha de gravata.", false],
+  ["Os dois concordam que o trânsito é ruim nas duas cidades.", true]
+ ],
+ "grammatica": {"label": "comparativos (mais… do que, menos… do que, tão… quanto) y superlativos, con maior, melhor, pior", "forme": ["maior do que o rio", "os melhores restaurantes", "mais bonito do que", "mais leve", "se vestem melhor", "muito mais prático", "mais barato", "custa menos do que um cafezinho", "o maior shopping", "o estádio mais famoso", "tanto quanto", "tão alto quanto", "o pior"]},
+ "parole": [["chinelo", "chinelo"], ["calça", "calça"], ["casaco", "casaco"], ["gravata", "gravata"], ["saia", "saia"], ["tênis", "tênis"], ["sunga", "sunga"], ["cinto", "cinto"], ["brechós", "brechó"], ["brincos", "brinco"], ["prestações", "prestação"], ["tamanho", "tamanho"], ["clássico", "o clássico"], ["torcida", "a torcida"]]
+}

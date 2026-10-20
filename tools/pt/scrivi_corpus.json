@@ -1,0 +1,3622 @@
+[
+ {
+  "week": 1,
+  "text": "Oi! Me chamo Federico e sou de Rosario, na Argentina. Tengo vinte e seis anos e sou estudante. Hoje estoy um pouco cansado, mas estou feliz porque e sexta-feira!",
+  "corrected": "Oi! Me chamo Federico e sou de Rosario, na Argentina. Tenho vinte e seis anos e sou estudante. Hoje estou um pouco cansado, mas estou feliz porque é sexta-feira!",
+  "errors": [
+   {
+    "wrong": "Tengo",
+    "right": "Tenho",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "estoy",
+    "right": "estou",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "e sexta-feira",
+    "right": "é sexta-feira",
+    "cat": "tilde"
+   }
+  ]
+ },
+ {
+  "week": 1,
+  "text": "Oi, eu sou Camila. Sou argentino, de Mendoza. Tenho trinta e dois anos y sou professora. Hoje estou muy feliz: estou no Rio pela primeira vez!",
+  "corrected": "Oi, eu sou Camila. Sou argentina, de Mendoza. Tenho trinta e dois anos e sou professora. Hoje estou muito feliz: estou no Rio pela primeira vez!",
+  "errors": [
+   {
+    "wrong": "Sou argentino",
+    "right": "Sou argentina",
+    "cat": "concordancia"
+   },
+   {
+    "wrong": "y sou",
+    "right": "e sou",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "muy feliz",
+    "right": "muito feliz",
+    "cat": "muito"
+   }
+  ]
+ },
+ {
+  "week": 1,
+  "text": "Olá! Meu nome é Julián. Sou uruguaio, mas moro em Buenos Aires. Tengo um irmão e uma irmã. Agora estou en Copacabana e estou muito contento.",
+  "corrected": "Olá! Meu nome é Julián. Sou uruguaio, mas moro em Buenos Aires. Tenho um irmão e uma irmã. Agora estou em Copacabana e estou muito contente.",
+  "errors": [
+   {
+    "wrong": "Tengo",
+    "right": "Tenho",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "en Copacabana",
+    "right": "em Copacabana",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "contento",
+    "right": "contente",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 2,
+  "text": "Na minha casa tem dois quartos, uma sala e dois banheiros. Tenho três gatos e muitos libros. Também tenho dois computadors e quatro violãos. Na cozinha há cinco cadeira. Na geladeira tem queijo, frutas e a leite da semana.",
+  "corrected": "Na minha casa tem dois quartos, uma sala e dois banheiros. Tenho três gatos e muitos livros. Também tenho dois computadores e quatro violões. Na cozinha há cinco cadeiras. Na geladeira tem queijo, frutas e o leite da semana.",
+  "errors": [
+   {
+    "wrong": "libros",
+    "right": "livros",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "computadors",
+    "right": "computadores",
+    "cat": "plural"
+   },
+   {
+    "wrong": "violãos",
+    "right": "violões",
+    "cat": "plural"
+   },
+   {
+    "wrong": "cinco cadeira",
+    "right": "cinco cadeiras",
+    "cat": "plural"
+   },
+   {
+    "wrong": "a leite",
+    "right": "o leite",
+    "cat": "genero"
+   }
+  ]
+ },
+ {
+  "week": 2,
+  "text": "Tenho dois irmãos e quatro primos. Em casa há três animals: dois cachorros e um papagaio. Na minha estante tem muitos papels e dois lápiz. A mesa tem duas lampadas.",
+  "corrected": "Tenho dois irmãos e quatro primos. Em casa há três animais: dois cachorros e um papagaio. Na minha estante tem muitos papéis e dois lápis. A mesa tem duas lâmpadas.",
+  "errors": [
+   {
+    "wrong": "animals",
+    "right": "animais",
+    "cat": "plural"
+   },
+   {
+    "wrong": "papels",
+    "right": "papéis",
+    "cat": "plural"
+   },
+   {
+    "wrong": "lápiz",
+    "right": "lápis",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "lampadas",
+    "right": "lâmpadas",
+    "cat": "tilde"
+   }
+  ]
+ },
+ {
+  "week": 2,
+  "text": "No meu apartamento há duas janelas grandes e dois poltronas. Tenho três plantas e muitas fotos da mina família. Na mesa há cinco pãos e dois limãos.",
+  "corrected": "No meu apartamento há duas janelas grandes e duas poltronas. Tenho três plantas e muitas fotos da minha família. Na mesa há cinco pães e dois limões.",
+  "errors": [
+   {
+    "wrong": "dois poltronas",
+    "right": "duas poltronas",
+    "cat": "genero"
+   },
+   {
+    "wrong": "mina",
+    "right": "minha",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "pãos",
+    "right": "pães",
+    "cat": "plural"
+   },
+   {
+    "wrong": "limãos",
+    "right": "limões",
+    "cat": "plural"
+   }
+  ]
+ },
+ {
+  "week": 3,
+  "text": "Eu moro em Botafogo, perto de a praia. A estação de o metrô fica no fim da rua. A padaria está en a esquina e o mercado está ao lado de o banco.",
+  "corrected": "Eu moro em Botafogo, perto da praia. A estação do metrô fica no fim da rua. A padaria está na esquina e o mercado está ao lado do banco.",
+  "errors": [
+   {
+    "wrong": "de a praia",
+    "right": "da praia",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "de o metrô",
+    "right": "do metrô",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "en a esquina",
+    "right": "na esquina",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "de o banco",
+    "right": "do banco",
+    "cat": "contraccion"
+   }
+  ]
+ },
+ {
+  "week": 3,
+  "text": "O meu escritório está no Centro, em a Rua do Ouvidor. O restaurante está em frente de a igreja. Os meus amigos estão em a praia de Ipanema e eu estou em casa.",
+  "corrected": "O meu escritório está no Centro, na Rua do Ouvidor. O restaurante está em frente da igreja. Os meus amigos estão na praia de Ipanema e eu estou em casa.",
+  "errors": [
+   {
+    "wrong": "em a Rua",
+    "right": "na Rua",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "de a igreja",
+    "right": "da igreja",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "em a praia",
+    "right": "na praia",
+    "cat": "contraccion"
+   }
+  ]
+ },
+ {
+  "week": 3,
+  "text": "A minha casa está em Santa Teresa, perto do bonde. O museu está em o alto do morro. A farmácia está ao lado de el supermercado. O Cristo está em o Corcovado.",
+  "corrected": "A minha casa está em Santa Teresa, perto do bonde. O museu está no alto do morro. A farmácia está ao lado do supermercado. O Cristo está no Corcovado.",
+  "errors": [
+   {
+    "wrong": "em o alto",
+    "right": "no alto",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "de el supermercado",
+    "right": "do supermercado",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "em o Corcovado",
+    "right": "no Corcovado",
+    "cat": "contraccion"
+   }
+  ]
+ },
+ {
+  "week": 4,
+  "text": "A minha amiga Bia é brasileira. É alta, magra e muy simpática. Tem os olhos verdes e o cabelo castanho. Ela é muito alegra e um pouco tímida.",
+  "corrected": "A minha amiga Bia é brasileira. É alta, magra e muito simpática. Tem os olhos verdes e o cabelo castanho. Ela é muito alegre e um pouco tímida.",
+  "errors": [
+   {
+    "wrong": "muy simpática",
+    "right": "muito simpática",
+    "cat": "muito"
+   },
+   {
+    "wrong": "alegra",
+    "right": "alegre",
+    "cat": "concordancia"
+   }
+  ]
+ },
+ {
+  "week": 4,
+  "text": "O meu irmão é alto e moreno. Tem os olhos castanhos e o pelo curto. É muito simpático, mas um pouco preguiçosa. Ele é muitos inteligente.",
+  "corrected": "O meu irmão é alto e moreno. Tem os olhos castanhos e o cabelo curto. É muito simpático, mas um pouco preguiçoso. Ele é muito inteligente.",
+  "errors": [
+   {
+    "wrong": "o pelo curto",
+    "right": "o cabelo curto",
+    "cat": "falso_amigo"
+   },
+   {
+    "wrong": "preguiçosa",
+    "right": "preguiçoso",
+    "cat": "concordancia"
+   },
+   {
+    "wrong": "muitos inteligente",
+    "right": "muito inteligente",
+    "cat": "muito"
+   }
+  ]
+ },
+ {
+  "week": 4,
+  "text": "A professora Ana é portuguesa, de Lisboa. É uma pessoa muito elegante e simpática. Ela tem o cabelo loiro e largo. Os alunos são muito contentos com ela e dizem que é muy boa.",
+  "corrected": "A professora Ana é portuguesa, de Lisboa. É uma pessoa muito elegante e simpática. Ela tem o cabelo loiro e comprido. Os alunos são muito contentes com ela e dizem que é muito boa.",
+  "errors": [
+   {
+    "wrong": "largo",
+    "right": "comprido",
+    "cat": "falso_amigo"
+   },
+   {
+    "wrong": "contentos",
+    "right": "contentes",
+    "cat": "concordancia"
+   },
+   {
+    "wrong": "muy boa",
+    "right": "muito boa",
+    "cat": "muito"
+   }
+  ]
+ },
+ {
+  "week": 5,
+  "text": "De manhã eu trabalho numa oficina no Centro, com computador e reuniões. Almoço com os meus colegas perto de a Cinelândia. Depois do trabalho, corro em o calçadão. De noche janto em casa e estudio português.",
+  "corrected": "De manhã eu trabalho num escritório no Centro, com computador e reuniões. Almoço com os meus colegas perto da Cinelândia. Depois do trabalho, corro no calçadão. De noite janto em casa e estudo português.",
+  "errors": [
+   {
+    "wrong": "numa oficina",
+    "right": "num escritório",
+    "cat": "falso_amigo"
+   },
+   {
+    "wrong": "de a Cinelândia",
+    "right": "da Cinelândia",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "em o calçadão",
+    "right": "no calçadão",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "De noche",
+    "right": "De noite",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "estudio português",
+    "right": "estudo português",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 5,
+  "text": "A minha rotina é simples. Eu acordo às sete e tomo um café. Trabalho em uma escola e ensino espanhol para crianças. À tarde, eu leo livros e escucho música. Os fins de semana eu descanso.",
+  "corrected": "A minha rotina é simples. Eu acordo às sete e tomo um café. Trabalho em uma escola e ensino espanhol para crianças. À tarde, eu leio livros e escuto música. Nos fins de semana eu descanso.",
+  "errors": [
+   {
+    "wrong": "leo",
+    "right": "leio",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "escucho",
+    "right": "escuto",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "Os fins de semana",
+    "right": "Nos fins de semana",
+    "cat": "preposicion"
+   }
+  ]
+ },
+ {
+  "week": 5,
+  "text": "Você trabalhas muito? Eu trabalho oito horas por dia num banco. A gente almoçamos juntos no restaurante da esquina. Os meus colegas são muy simpáticos. Depois, eu volto para casa de metrô.",
+  "corrected": "Você trabalha muito? Eu trabalho oito horas por dia num banco. A gente almoça juntos no restaurante da esquina. Os meus colegas são muito simpáticos. Depois, eu volto para casa de metrô.",
+  "errors": [
+   {
+    "wrong": "Você trabalhas",
+    "right": "Você trabalha",
+    "cat": "persona"
+   },
+   {
+    "wrong": "A gente almoçamos",
+    "right": "A gente almoça",
+    "cat": "persona"
+   },
+   {
+    "wrong": "muy simpáticos",
+    "right": "muito simpáticos",
+    "cat": "muito"
+   }
+  ]
+ },
+ {
+  "week": 6,
+  "text": "No sábado quero ir a o Arpoador com a Ana. Ela vene de Niterói de barca. Nós podemos ver o pôr do sol e depois eu fazo uma salada. Vocês querem vir também?",
+  "corrected": "No sábado quero ir ao Arpoador com a Ana. Ela vem de Niterói de barca. Nós podemos ver o pôr do sol e depois eu faço uma salada. Vocês querem vir também?",
+  "errors": [
+   {
+    "wrong": "a o Arpoador",
+    "right": "ao Arpoador",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "vene",
+    "right": "vem",
+    "cat": "verbo_irregular"
+   },
+   {
+    "wrong": "fazo",
+    "right": "faço",
+    "cat": "regularizacion"
+   }
+  ]
+ },
+ {
+  "week": 6,
+  "text": "Hoje eu saio cedo porque vou a praia. O meu amigo Rafa vai também, pero ele não pode ficar muito tempo. Eu quero nadar e depois dormo um pouco na areia.",
+  "corrected": "Hoje eu saio cedo porque vou à praia. O meu amigo Rafa vai também, mas ele não pode ficar muito tempo. Eu quero nadar e depois durmo um pouco na areia.",
+  "errors": [
+   {
+    "wrong": "vou a praia",
+    "right": "vou à praia",
+    "cat": "crase"
+   },
+   {
+    "wrong": "pero",
+    "right": "mas",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "dormo",
+    "right": "durmo",
+    "cat": "regularizacion"
+   }
+  ]
+ },
+ {
+  "week": 6,
+  "text": "Na sexta eu vou a o cinema com o meu namorado. Nós queremos ver um filme brasileiro. Depois, ele faz uma pizza e eu trazo o vinho. Ele diz que eu sempre pido a mesma coisa!",
+  "corrected": "Na sexta eu vou ao cinema com o meu namorado. Nós queremos ver um filme brasileiro. Depois, ele faz uma pizza e eu trago o vinho. Ele diz que eu sempre peço a mesma coisa!",
+  "errors": [
+   {
+    "wrong": "a o cinema",
+    "right": "ao cinema",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "trazo",
+    "right": "trago",
+    "cat": "regularizacion"
+   },
+   {
+    "wrong": "pido",
+    "right": "peço",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 7,
+  "text": "Na segunda-feira, a as oito, tenho aula de português. Na quarta, as seis e meia, jogo futevôlei em Ipanema. O show na Lapa é na sexta, a las dez da noite, e o ingresso custa cuarenta reais.",
+  "corrected": "Na segunda-feira, às oito, tenho aula de português. Na quarta, às seis e meia, jogo futevôlei em Ipanema. O show na Lapa é na sexta, às dez da noite, e o ingresso custa quarenta reais.",
+  "errors": [
+   {
+    "wrong": "a as oito",
+    "right": "às oito",
+    "cat": "crase"
+   },
+   {
+    "wrong": "as seis",
+    "right": "às seis",
+    "cat": "crase"
+   },
+   {
+    "wrong": "a las dez",
+    "right": "às dez",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "cuarenta",
+    "right": "quarenta",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 7,
+  "text": "Minha semana: segunda, reunião à uma hora. Terça, dentista às três y meia. Quarta, jantar com a Bia às nove. O aluguel custa dois mil reais. Hoje é doce de março.",
+  "corrected": "Minha semana: segunda, reunião à uma hora. Terça, dentista às três e meia. Quarta, jantar com a Bia às nove. O aluguel custa dois mil reais. Hoje é doze de março.",
+  "errors": [
+   {
+    "wrong": "três y meia",
+    "right": "três e meia",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "doce de março",
+    "right": "doze de março",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 7,
+  "text": "No domingo, dia vinte, é o aniversário da minha mãe. A festa começa as sete da noite. O bolo custa sesenta reais e as bebidas custan cem. O ônibus sai às cinco e cuarto.",
+  "corrected": "No domingo, dia vinte, é o aniversário da minha mãe. A festa começa às sete da noite. O bolo custa sessenta reais e as bebidas custam cem. O ônibus sai às cinco e quinze.",
+  "errors": [
+   {
+    "wrong": "começa as sete",
+    "right": "começa às sete",
+    "cat": "crase"
+   },
+   {
+    "wrong": "sesenta",
+    "right": "sessenta",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "custan",
+    "right": "custam",
+    "cat": "nasal"
+   },
+   {
+    "wrong": "cinco e cuarto",
+    "right": "cinco e quinze",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 8,
+  "text": "Como te llamas? De onde você é? Onde você mora no Rio? Que você está fazendo aqui? Vamos a dançar?",
+  "corrected": "Como você se chama? De onde você é? Onde você mora no Rio? O que você está fazendo aqui? Vamos dançar?",
+  "errors": [
+   {
+    "wrong": "te llamas",
+    "right": "você se chama",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "Que você está",
+    "right": "O que você está",
+    "cat": "faltante"
+   },
+   {
+    "wrong": "Vamos a dançar",
+    "right": "Vamos dançar",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 8,
+  "text": "Você está trabalhando agora? Porque você não vem à roda de samba? Eu vou comprar uma cerveja. Quantos anos tienes? Qual é o seu nome?",
+  "corrected": "Você está trabalhando agora? Por que você não vem à roda de samba? Eu vou comprar uma cerveja. Quantos anos você tem? Qual é o seu nome?",
+  "errors": [
+   {
+    "wrong": "Porque você",
+    "right": "Por que você",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "tienes",
+    "right": "você tem",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 8,
+  "text": "Amanhã eu vou a visitar o Cristo. Você quer ir comigo? A que hora você sai? Estou esperando o ônibus há vinte minutos. Onde está o ponto?",
+  "corrected": "Amanhã eu vou visitar o Cristo. Você quer ir comigo? A que horas você sai? Estou esperando o ônibus há vinte minutos. Onde está o ponto?",
+  "errors": [
+   {
+    "wrong": "vou a visitar",
+    "right": "vou visitar",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "A que hora",
+    "right": "A que horas",
+    "cat": "lexico"
+   }
+  ]
+ },
+ {
+  "week": 9,
+  "text": "Na segunda vou en metrô para o Centro. Na terça vou de pé até a praia. Na quinta vou em ônibus para a Urca. No sábado passo por a Lapa e volto a casa de táxi.",
+  "corrected": "Na segunda vou de metrô para o Centro. Na terça vou a pé até a praia. Na quinta vou de ônibus para a Urca. No sábado passo pela Lapa e volto para casa de táxi.",
+  "errors": [
+   {
+    "wrong": "en metrô",
+    "right": "de metrô",
+    "cat": "preposicion"
+   },
+   {
+    "wrong": "de pé",
+    "right": "a pé",
+    "cat": "preposicion"
+   },
+   {
+    "wrong": "em ônibus",
+    "right": "de ônibus",
+    "cat": "preposicion"
+   },
+   {
+    "wrong": "por a Lapa",
+    "right": "pela Lapa",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "volto a casa",
+    "right": "volto para casa",
+    "cat": "preposicion"
+   }
+  ]
+ },
+ {
+  "week": 9,
+  "text": "Moro a Botafogo e trabalho em Copacabana. Todos os dias vou ao trabalho em bicicleta. Na sexta vou a Niterói em barca e volto no sábado.",
+  "corrected": "Moro em Botafogo e trabalho em Copacabana. Todos os dias vou ao trabalho de bicicleta. Na sexta vou a Niterói de barca e volto no sábado.",
+  "errors": [
+   {
+    "wrong": "Moro a Botafogo",
+    "right": "Moro em Botafogo",
+    "cat": "preposicion"
+   },
+   {
+    "wrong": "em bicicleta",
+    "right": "de bicicleta",
+    "cat": "preposicion"
+   },
+   {
+    "wrong": "em barca",
+    "right": "de barca",
+    "cat": "preposicion"
+   }
+  ]
+ },
+ {
+  "week": 9,
+  "text": "Para ir ao Pão de Açúcar, você pega o metrô até Botafogo. Depois vai de ônibus até a Praia Vermelha e sobe de bondinho. Quem está cansado vai em táxi. Na volta, passe por o Aterro do Flamengo.",
+  "corrected": "Para ir ao Pão de Açúcar, você pega o metrô até Botafogo. Depois vai de ônibus até a Praia Vermelha e sobe de bondinho. Quem está cansado vai de táxi. Na volta, passe pelo Aterro do Flamengo.",
+  "errors": [
+   {
+    "wrong": "em táxi",
+    "right": "de táxi",
+    "cat": "preposicion"
+   },
+   {
+    "wrong": "por o Aterro",
+    "right": "pelo Aterro",
+    "cat": "contraccion"
+   }
+  ]
+ },
+ {
+  "week": 10,
+  "text": "Esta é a minha mãe e este é o meu pai. Esto é o meu quarto. O carro de ela é esse vermelho. Esse cachorro é nosso e esse gato é de os meus vizinhos.",
+  "corrected": "Esta é a minha mãe e este é o meu pai. Este é o meu quarto. O carro dela é esse vermelho. Esse cachorro é nosso e esse gato é dos meus vizinhos.",
+  "errors": [
+   {
+    "wrong": "Esto",
+    "right": "Este",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "de ela",
+    "right": "dela",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "de os meus",
+    "right": "dos meus",
+    "cat": "contraccion"
+   }
+  ]
+ },
+ {
+  "week": 10,
+  "text": "Este é o meu irmão Pablo e esta é a sua namorada. Eles moram em Niterói. A casa de eles é aquela azul. Este livro é mío e esse é teu.",
+  "corrected": "Este é o meu irmão Pablo e esta é a namorada dele. Eles moram em Niterói. A casa deles é aquela azul. Este livro é meu e esse é teu.",
+  "errors": [
+   {
+    "wrong": "a sua namorada",
+    "right": "a namorada dele",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "de eles",
+    "right": "deles",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "mío",
+    "right": "meu",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 10,
+  "text": "Nesta foto estão os meus avós. Eso é a casa deles em Petrópolis. Aquele homem é o meu tio e aquela mulher é a sua esposa. A minha avó tem noventa anos.",
+  "corrected": "Nesta foto estão os meus avós. Essa é a casa deles em Petrópolis. Aquele homem é o meu tio e aquela mulher é a esposa dele. A minha avó tem noventa anos.",
+  "errors": [
+   {
+    "wrong": "Eso",
+    "right": "Essa",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "a sua esposa",
+    "right": "a esposa dele",
+    "cat": "pronome"
+   }
+  ]
+ },
+ {
+  "week": 11,
+  "text": "No sábado passado fui a Paraty com dois amigos. Chegamos cedo e andamos por o centro histórico. De tarde pegamos um barco e nademos numa praia linda. Depois comimos peixe e voltei para o Rio no domingo.",
+  "corrected": "No sábado passado fui a Paraty com dois amigos. Chegamos cedo e andamos pelo centro histórico. De tarde pegamos um barco e nadamos numa praia linda. Depois comemos peixe e voltei para o Rio no domingo.",
+  "errors": [
+   {
+    "wrong": "por o centro",
+    "right": "pelo centro",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "nademos",
+    "right": "nadamos",
+    "cat": "tempo"
+   },
+   {
+    "wrong": "comimos",
+    "right": "comemos",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 11,
+  "text": "Ontem eu fazi um bolo para a minha mãe. Depois fui a o mercado e comprei frutas. De noite, teve uma festa na casa da Bia e eu dancé até tarde. O viagem de volta foi tranquila.",
+  "corrected": "Ontem eu fiz um bolo para a minha mãe. Depois fui ao mercado e comprei frutas. De noite, teve uma festa na casa da Bia e eu dancei até tarde. A viagem de volta foi tranquila.",
+  "errors": [
+   {
+    "wrong": "fazi",
+    "right": "fiz",
+    "cat": "regularizacion"
+   },
+   {
+    "wrong": "a o mercado",
+    "right": "ao mercado",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "dancé",
+    "right": "dancei",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "O viagem",
+    "right": "A viagem",
+    "cat": "genero"
+   }
+  ]
+ },
+ {
+  "week": 11,
+  "text": "O fim de semana passado foi incrível. No sábado eu estive na praia e conheci ao namorado da minha amiga. No domingo, eu he ido ao Maracanã e o Flamengo ganhou.",
+  "corrected": "O fim de semana passado foi incrível. No sábado eu estive na praia e conheci o namorado da minha amiga. No domingo, eu fui ao Maracanã e o Flamengo ganhou.",
+  "errors": [
+   {
+    "wrong": "conheci ao namorado",
+    "right": "conheci o namorado",
+    "cat": "a_personal"
+   },
+   {
+    "wrong": "he ido",
+    "right": "fui",
+    "cat": "perfeito_composto"
+   }
+  ]
+ },
+ {
+  "week": 12,
+  "text": "Eu me levanto às sete, me ducho e me visto. Depois tomo café e saio. Os domingos eu me acordo tarde. Conselhos para você: beba muita água e use protetor solar. Para o dor de cabeça, tome um chá.",
+  "corrected": "Eu me levanto às sete, tomo banho e me visto. Depois tomo café e saio. Aos domingos eu acordo tarde. Conselhos para você: beba muita água e use protetor solar. Para a dor de cabeça, tome um chá.",
+  "errors": [
+   {
+    "wrong": "me ducho",
+    "right": "tomo banho",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "Os domingos",
+    "right": "Aos domingos",
+    "cat": "preposicion"
+   },
+   {
+    "wrong": "me acordo",
+    "right": "acordo",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "o dor",
+    "right": "a dor",
+    "cat": "genero"
+   }
+  ]
+ },
+ {
+  "week": 12,
+  "text": "Todos os dias eu me levanto cedo, me visto rápido y tomo o desayuno. Conselhos para você: durma bem, coma frutas e beba muita agua. Não trabalhe demais!",
+  "corrected": "Todos os dias eu me levanto cedo, me visto rápido e tomo o café da manhã. Conselhos para você: durma bem, coma frutas e beba muita água. Não trabalhe demais!",
+  "errors": [
+   {
+    "wrong": "y tomo",
+    "right": "e tomo",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "desayuno",
+    "right": "café da manhã",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "agua",
+    "right": "água",
+    "cat": "tilde"
+   }
+  ]
+ },
+ {
+  "week": 12,
+  "text": "Eu acordo às seis e me levanto às seis e meia. Depois me arrumo e saio. Conselho: não se preocupe e divertase! Leve protetor e chapéu para a praia.",
+  "corrected": "Eu acordo às seis e me levanto às seis e meia. Depois me arrumo e saio. Conselho: não se preocupe e divirta-se! Leve protetor e chapéu para a praia.",
+  "errors": [
+   {
+    "wrong": "divertase",
+    "right": "divirta-se",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 14,
+  "text": "Eu gosto muito a feijoada, mas não gosto de jiló. Me gusta ouvir bossa nova. O meu namorado gosta o futebol e adora o Maracanã. Nós gostamos pão de queijo.",
+  "corrected": "Eu gosto muito da feijoada, mas não gosto de jiló. Gosto de ouvir bossa nova. O meu namorado gosta de futebol e adora o Maracanã. Nós gostamos de pão de queijo.",
+  "errors": [
+   {
+    "wrong": "gosto muito a",
+    "right": "gosto muito da",
+    "cat": "gostar"
+   },
+   {
+    "wrong": "Me gusta ouvir",
+    "right": "Gosto de ouvir",
+    "cat": "gostar"
+   },
+   {
+    "wrong": "gosta o futebol",
+    "right": "gosta de futebol",
+    "cat": "gostar"
+   },
+   {
+    "wrong": "gostamos pão",
+    "right": "gostamos de pão",
+    "cat": "gostar"
+   }
+  ]
+ },
+ {
+  "week": 14,
+  "text": "A minha irmã gosta de dançar samba, mas eu não gosto. Eu preciso uma aula de dança! Também gosto os livros de Jorge Amado. Ao meu pai lhe gusta o chimarrão.",
+  "corrected": "A minha irmã gosta de dançar samba, mas eu não gosto. Eu preciso de uma aula de dança! Também gosto dos livros de Jorge Amado. O meu pai gosta de chimarrão.",
+  "errors": [
+   {
+    "wrong": "preciso uma aula",
+    "right": "preciso de uma aula",
+    "cat": "regencia"
+   },
+   {
+    "wrong": "gosto os livros",
+    "right": "gosto dos livros",
+    "cat": "gostar"
+   },
+   {
+    "wrong": "Ao meu pai lhe gusta o",
+    "right": "O meu pai gosta de",
+    "cat": "gostar"
+   }
+  ]
+ },
+ {
+  "week": 14,
+  "text": "Adoro a comida brasileira: gosto muito da moqueca e do açaí. Não gosto de acordar cedo. A minha amiga gosta de futevôlei, mas ela não gosta a areia quente. Nós gostamos muito de o Carnaval.",
+  "corrected": "Adoro a comida brasileira: gosto muito da moqueca e do açaí. Não gosto de acordar cedo. A minha amiga gosta de futevôlei, mas ela não gosta da areia quente. Nós gostamos muito do Carnaval.",
+  "errors": [
+   {
+    "wrong": "gosta a areia",
+    "right": "gosta da areia",
+    "cat": "gostar"
+   },
+   {
+    "wrong": "de o Carnaval",
+    "right": "do Carnaval",
+    "cat": "contraccion"
+   }
+  ]
+ },
+ {
+  "week": 15,
+  "text": "Quando eu era criança, eu morei em Córdoba com os meus avós. Todo verão a gente viajávamos para a praia. A minha avó fazia empanadas e o meu avô contava histórias. Um dia fomos ao Brasil e eu vi o mar pela primeira vez.",
+  "corrected": "Quando eu era criança, eu morava em Córdoba com os meus avós. Todo verão a gente viajava para a praia. A minha avó fazia empanadas e o meu avô contava histórias. Um dia fomos ao Brasil e eu vi o mar pela primeira vez.",
+  "errors": [
+   {
+    "wrong": "eu morei",
+    "right": "eu morava",
+    "cat": "tempo"
+   },
+   {
+    "wrong": "a gente viajávamos",
+    "right": "a gente viajava",
+    "cat": "persona"
+   }
+  ]
+ },
+ {
+  "week": 15,
+  "text": "Quando eu tinha dez anos, estudaba numa escola pequena. A professora era muito buena e sempre nos ajudava. Os sábados eu jogava futebol com os meus primos. Um dia, eu quebrava a perna.",
+  "corrected": "Quando eu tinha dez anos, estudava numa escola pequena. A professora era muito boa e sempre nos ajudava. Aos sábados eu jogava futebol com os meus primos. Um dia, eu quebrei a perna.",
+  "errors": [
+   {
+    "wrong": "estudaba",
+    "right": "estudava",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "buena",
+    "right": "boa",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "Os sábados",
+    "right": "Aos sábados",
+    "cat": "preposicion"
+   },
+   {
+    "wrong": "eu quebrava",
+    "right": "eu quebrei",
+    "cat": "tempo"
+   }
+  ]
+ },
+ {
+  "week": 15,
+  "text": "Antes, o Rio era a capital do Brasil. O meu avô morava na Tijuca e trabalhaba no Centro. Ele ia ao trabalho de bonde e lia o jornal. Quando era jovem, ele foi muito bonito.",
+  "corrected": "Antes, o Rio era a capital do Brasil. O meu avô morava na Tijuca e trabalhava no Centro. Ele ia ao trabalho de bonde e lia o jornal. Quando era jovem, ele era muito bonito.",
+  "errors": [
+   {
+    "wrong": "trabalhaba",
+    "right": "trabalhava",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "ele foi muito",
+    "right": "ele era muito",
+    "cat": "tempo"
+   }
+  ]
+ },
+ {
+  "week": 16,
+  "text": "A Bia? Eu a conheço desde 2019. Eu vejo ela todo sábado na feira. Os meus pais? Eu les visito em janeiro. O livro? Comprei ele na Travessa e vou dar lo para a Bia.",
+  "corrected": "A Bia? Eu a conheço desde 2019. Eu vejo ela todo sábado na feira. Os meus pais? Eu os visito em janeiro. O livro? Comprei ele na Travessa e vou dá-lo para a Bia.",
+  "errors": [
+   {
+    "wrong": "les visito",
+    "right": "os visito",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "dar lo",
+    "right": "dá-lo",
+    "cat": "pronome"
+   }
+  ]
+ },
+ {
+  "week": 16,
+  "text": "Conheço o João há muitos anos. Lhe vejo sempre na praia e lhe dou um abraço. A mãe dele? Eu a encontrei ontem. Para mí, eles são como uma família.",
+  "corrected": "Conheço o João há muitos anos. Eu o vejo sempre na praia e lhe dou um abraço. A mãe dele? Eu a encontrei ontem. Para mim, eles são como uma família.",
+  "errors": [
+   {
+    "wrong": "Lhe vejo",
+    "right": "Eu o vejo",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "Para mí",
+    "right": "Para mim",
+    "cat": "pronome"
+   }
+  ]
+ },
+ {
+  "week": 16,
+  "text": "A minha amiga me pediu as chaves do apartamento. Eu vou levar-las amanhã. Ela sempre me ajuda, então eu ajudo a ela também. Hoje ela vai ao médico con migo.",
+  "corrected": "A minha amiga me pediu as chaves do apartamento. Eu vou levá-las amanhã. Ela sempre me ajuda, então eu a ajudo também. Hoje ela vai ao médico comigo.",
+  "errors": [
+   {
+    "wrong": "levar-las",
+    "right": "levá-las",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "ajudo a ela",
+    "right": "a ajudo",
+    "cat": "a_personal"
+   },
+   {
+    "wrong": "con migo",
+    "right": "comigo",
+    "cat": "pronome"
+   }
+  ]
+ },
+ {
+  "week": 17,
+  "text": "No ano que vem eu farei um intercâmbio no Rio. Estudarei na universidade e moraré em Botafogo. Nos fins de semana visitarei as praias e conocerei Petrópolis. Amanhã choverá na cidade.",
+  "corrected": "No ano que vem eu farei um intercâmbio no Rio. Estudarei na universidade e morarei em Botafogo. Nos fins de semana visitarei as praias e conhecerei Petrópolis. Amanhã choverá na cidade.",
+  "errors": [
+   {
+    "wrong": "moraré",
+    "right": "morarei",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "conocerei",
+    "right": "conhecerei",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 17,
+  "text": "Em 2026 eu mudarei de emprego. Trabalharei numa empresa de turismo e viajarei muito. Os meus filhos estudarão em Niterói. Eu fazerei um curso de fotografia e dizerei adeus ao escritório.",
+  "corrected": "Em 2026 eu mudarei de emprego. Trabalharei numa empresa de turismo e viajarei muito. Os meus filhos estudarão em Niterói. Eu farei um curso de fotografia e direi adeus ao escritório.",
+  "errors": [
+   {
+    "wrong": "fazerei",
+    "right": "farei",
+    "cat": "regularizacion"
+   },
+   {
+    "wrong": "dizerei",
+    "right": "direi",
+    "cat": "regularizacion"
+   }
+  ]
+ },
+ {
+  "week": 17,
+  "text": "Amanhã fará calor e o céu estará azul. À tarde, haverão nuvens na zona oeste. No domingo, a temperatura bajará e choverá em toda a cidade.",
+  "corrected": "Amanhã fará calor e o céu estará azul. À tarde, haverá nuvens na zona oeste. No domingo, a temperatura baixará e choverá em toda a cidade.",
+  "errors": [
+   {
+    "wrong": "haverão",
+    "right": "haverá",
+    "cat": "persona"
+   },
+   {
+    "wrong": "bajará",
+    "right": "baixará",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 18,
+  "text": "Boa tarde! Eu gustaria de reservar uma mesa para quatro personas no sábado. Seria possível uma mesa na varanda? Vocês poderiam preparar um prato sem glúten? Eu agradeceria muito.",
+  "corrected": "Boa tarde! Eu gostaria de reservar uma mesa para quatro pessoas no sábado. Seria possível uma mesa na varanda? Vocês poderiam preparar um prato sem glúten? Eu agradeceria muito.",
+  "errors": [
+   {
+    "wrong": "gustaria",
+    "right": "gostaria",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "personas",
+    "right": "pessoas",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 18,
+  "text": "Olá, eu queria um quarto duplo para três noches. Seria possível ter uma vista para o mar? Vocês poderiam me dizer o preço? Eu gostaria também de saber se o café da manhã está incluído.",
+  "corrected": "Olá, eu queria um quarto duplo para três noites. Seria possível ter uma vista para o mar? Vocês poderiam me dizer o preço? Eu gostaria também de saber se o café da manhã está incluído.",
+  "errors": [
+   {
+    "wrong": "noches",
+    "right": "noites",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 18,
+  "text": "Com licença, você poderia me ajudar? Eu gostaria saber onde fica o metrô. Seria melhor ir a pé ou de ônibus? Eu preferiría ir a pé.",
+  "corrected": "Com licença, você poderia me ajudar? Eu gostaria de saber onde fica o metrô. Seria melhor ir a pé ou de ônibus? Eu preferiria ir a pé.",
+  "errors": [
+   {
+    "wrong": "gostaria saber",
+    "right": "gostaria de saber",
+    "cat": "regencia"
+   },
+   {
+    "wrong": "preferiría",
+    "right": "preferiria",
+    "cat": "tilde"
+   }
+  ]
+ },
+ {
+  "week": 19,
+  "text": "O Rio é menor que São Paulo, mas é mais bonito. As praias de Ipanema são mais famosas que as de Copacabana. Para mim, a Prainha é a mais boa de todas. O trânsito de São Paulo é más ruim que o do Rio, e a cidade é mais grande.",
+  "corrected": "O Rio é menor que São Paulo, mas é mais bonito. As praias de Ipanema são mais famosas que as de Copacabana. Para mim, a Prainha é a melhor de todas. O trânsito de São Paulo é pior que o do Rio, e a cidade é maior.",
+  "errors": [
+   {
+    "wrong": "mais boa",
+    "right": "melhor",
+    "cat": "regularizacion"
+   },
+   {
+    "wrong": "más ruim",
+    "right": "pior",
+    "cat": "regularizacion"
+   },
+   {
+    "wrong": "mais grande",
+    "right": "maior",
+    "cat": "regularizacion"
+   }
+  ]
+ },
+ {
+  "week": 19,
+  "text": "Buenos Aires é mais grande que o Rio, mas o Rio tem mais sol. A carne argentina é melhor do que a brasileira, mas o açaí é o mais gostoso! Os preços em Buenos Aires son mais baixos.",
+  "corrected": "Buenos Aires é maior que o Rio, mas o Rio tem mais sol. A carne argentina é melhor do que a brasileira, mas o açaí é o mais gostoso! Os preços em Buenos Aires são mais baixos.",
+  "errors": [
+   {
+    "wrong": "mais grande",
+    "right": "maior",
+    "cat": "regularizacion"
+   },
+   {
+    "wrong": "son mais",
+    "right": "são mais",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 19,
+  "text": "Salvador é tão bonita quanto o Rio, mas é menos cara. O Pelourinho é o lugar mais lindo de a cidade. O meu irmão é mais alto que eu, mas eu sou mais maior.",
+  "corrected": "Salvador é tão bonita quanto o Rio, mas é menos cara. O Pelourinho é o lugar mais lindo da cidade. O meu irmão é mais alto que eu, mas eu sou maior.",
+  "errors": [
+   {
+    "wrong": "de a cidade",
+    "right": "da cidade",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "mais maior",
+    "right": "maior",
+    "cat": "sobrante"
+   }
+  ]
+ },
+ {
+  "week": 20,
+  "text": "Não, obrigado: hoje não quero fazer nada. Não conheço a nadie nessa festa e não tenho nenhuma roupa. Tampoco quero ir à praia. Nunca saio no domingo.",
+  "corrected": "Não, obrigado: hoje não quero fazer nada. Não conheço ninguém nessa festa e não tenho nenhuma roupa. Também não quero ir à praia. Nunca saio no domingo.",
+  "errors": [
+   {
+    "wrong": "a nadie",
+    "right": "ninguém",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "Tampoco quero",
+    "right": "Também não quero",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 20,
+  "text": "Não tenho nada para fazer hoje. Ningum me ligou e nenhum amigo quer sair. Não gosto de nada na televisão. Eu nunca não fico em casa no sábado!",
+  "corrected": "Não tenho nada para fazer hoje. Ninguém me ligou e nenhum amigo quer sair. Não gosto de nada na televisão. Eu nunca fico em casa no sábado!",
+  "errors": [
+   {
+    "wrong": "Ningum",
+    "right": "Ninguém",
+    "cat": "nasal"
+   },
+   {
+    "wrong": "nunca não fico",
+    "right": "nunca fico",
+    "cat": "sobrante"
+   }
+  ]
+ },
+ {
+  "week": 20,
+  "text": "Não vou a nenhum lugar hoje. Estou cansado e não quero ver ningún filme. Também não vou ao boteco nem à praia. Todo está bem assim.",
+  "corrected": "Não vou a nenhum lugar hoje. Estou cansado e não quero ver nenhum filme. Também não vou ao boteco nem à praia. Tudo está bem assim.",
+  "errors": [
+   {
+    "wrong": "ningún",
+    "right": "nenhum",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "Todo está",
+    "right": "Tudo está",
+    "cat": "lexico"
+   }
+  ]
+ },
+ {
+  "week": 21,
+  "text": "Ultimamente tenho trabalhado muito e tenho dormido pouco. Ontem tenho ido ao médico. Quando cheguei ao consultório, o médico já tinha saído. Então chamei a meu irmão para me buscar.",
+  "corrected": "Ultimamente tenho trabalhado muito e tenho dormido pouco. Ontem fui ao médico. Quando cheguei ao consultório, o médico já tinha saído. Então chamei meu irmão para me buscar.",
+  "errors": [
+   {
+    "wrong": "tenho ido",
+    "right": "fui",
+    "cat": "perfeito_composto"
+   },
+   {
+    "wrong": "chamei a meu irmão",
+    "right": "chamei meu irmão",
+    "cat": "a_personal"
+   }
+  ]
+ },
+ {
+  "week": 21,
+  "text": "Este ano eu tenho estudado português todos os dias. Hoje eu tenho acordado às seis. Quando cheguei à praia, os meus amigos já tinham ido embora. Eu he perdido o ônibus.",
+  "corrected": "Este ano eu tenho estudado português todos os dias. Hoje eu acordei às seis. Quando cheguei à praia, os meus amigos já tinham ido embora. Eu perdi o ônibus.",
+  "errors": [
+   {
+    "wrong": "tenho acordado",
+    "right": "acordei",
+    "cat": "perfeito_composto"
+   },
+   {
+    "wrong": "he perdido",
+    "right": "perdi",
+    "cat": "perfeito_composto"
+   }
+  ]
+ },
+ {
+  "week": 21,
+  "text": "Nas últimas semanas tenho saído pouco porque tenho tido muito trabalho. Semana passada eu tenho visitado a minha tia. Quando eu cheguei, ela ya tinha preparado o almoço.",
+  "corrected": "Nas últimas semanas tenho saído pouco porque tenho tido muito trabalho. Semana passada eu visitei a minha tia. Quando eu cheguei, ela já tinha preparado o almoço.",
+  "errors": [
+   {
+    "wrong": "tenho visitado",
+    "right": "visitei",
+    "cat": "perfeito_composto"
+   },
+   {
+    "wrong": "ya",
+    "right": "já",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 22,
+  "text": "O Cristo Redentor foi construído entre 1922 e 1931 e foi inaugurada em outubro de 1931. A estátua foi feita de concreto e pedra-sabão. Em 2007 ele foi elegido uma das sete maravilhas do mundo moderno.",
+  "corrected": "O Cristo Redentor foi construído entre 1922 e 1931 e foi inaugurado em outubro de 1931. A estátua foi feita de concreto e pedra-sabão. Em 2007 ele foi eleito uma das sete maravilhas do mundo moderno.",
+  "errors": [
+   {
+    "wrong": "foi inaugurada",
+    "right": "foi inaugurado",
+    "cat": "participio"
+   },
+   {
+    "wrong": "foi elegido",
+    "right": "foi eleito",
+    "cat": "participio"
+   }
+  ]
+ },
+ {
+  "week": 22,
+  "text": "O Theatro Municipal foi inaugurado em 1909. O prédio foi restaurado muitas vezes. As entradas são vendidos na bilheteria. A conta do restaurante já foi pagada.",
+  "corrected": "O Theatro Municipal foi inaugurado em 1909. O prédio foi restaurado muitas vezes. As entradas são vendidas na bilheteria. A conta do restaurante já foi paga.",
+  "errors": [
+   {
+    "wrong": "são vendidos",
+    "right": "são vendidas",
+    "cat": "participio"
+   },
+   {
+    "wrong": "foi pagada",
+    "right": "foi paga",
+    "cat": "participio"
+   }
+  ]
+ },
+ {
+  "week": 22,
+  "text": "A carta foi escrevida pelo meu avô em 1950. Ela foi encontrada numa caixa velha. As fotos estavam rompidas. O livro dele foi imprimido em Portugal.",
+  "corrected": "A carta foi escrita pelo meu avô em 1950. Ela foi encontrada numa caixa velha. As fotos estavam rasgadas. O livro dele foi impresso em Portugal.",
+  "errors": [
+   {
+    "wrong": "escrevida",
+    "right": "escrita",
+    "cat": "participio"
+   },
+   {
+    "wrong": "rompidas",
+    "right": "rasgadas",
+    "cat": "lexico"
+   },
+   {
+    "wrong": "foi imprimido",
+    "right": "foi impresso",
+    "cat": "participio"
+   }
+  ]
+ },
+ {
+  "week": 23,
+  "text": "Querida Bia, espero que você está melhor. É importante que você descansa e que bebe muita água. Talvez é uma boa ideia ficar em casa. Tomara que tudo dá certo!",
+  "corrected": "Querida Bia, espero que você esteja melhor. É importante que você descanse e que beba muita água. Talvez seja uma boa ideia ficar em casa. Tomara que tudo dê certo!",
+  "errors": [
+   {
+    "wrong": "você está",
+    "right": "você esteja",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "você descansa",
+    "right": "você descanse",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "bebe muita",
+    "right": "beba muita",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "Talvez é",
+    "right": "Talvez seja",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "tudo dá certo",
+    "right": "tudo dê certo",
+    "cat": "subjuntivo"
+   }
+  ]
+ },
+ {
+  "week": 23,
+  "text": "Quero que você vem à minha festa no sábado. Espero que os seus pais podem vir também. É bom que a gente leva comida. Acho que vai ser divertido.",
+  "corrected": "Quero que você venha à minha festa no sábado. Espero que os seus pais possam vir também. É bom que a gente leve comida. Acho que vai ser divertido.",
+  "errors": [
+   {
+    "wrong": "você vem",
+    "right": "você venha",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "podem vir",
+    "right": "possam vir",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "a gente leva",
+    "right": "a gente leve",
+    "cat": "subjuntivo"
+   }
+  ]
+ },
+ {
+  "week": 23,
+  "text": "O médico recomenda que eu durmo oito horas por dia e que faço exercício. Ele quer que eu como menos açúcar. Duvido que eu consiga, mas vou tentar!",
+  "corrected": "O médico recomenda que eu durma oito horas por dia e que faça exercício. Ele quer que eu coma menos açúcar. Duvido que eu consiga, mas vou tentar!",
+  "errors": [
+   {
+    "wrong": "eu durmo",
+    "right": "eu durma",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "que faço",
+    "right": "que faça",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "eu como",
+    "right": "eu coma",
+    "cat": "subjuntivo"
+   }
+  ]
+ },
+ {
+  "week": 24,
+  "text": "Vou ao Rio em julho para que os meus filhos conhecem a cidade. Embora é inverno, faz calor na praia. Caso chove, vamos ao Museu do Amanhã. Vou reservar o hotel antes que os preços sobem.",
+  "corrected": "Vou ao Rio em julho para que os meus filhos conheçam a cidade. Embora seja inverno, faz calor na praia. Caso chova, vamos ao Museu do Amanhã. Vou reservar o hotel antes que os preços subam.",
+  "errors": [
+   {
+    "wrong": "filhos conhecem",
+    "right": "filhos conheçam",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "Embora é",
+    "right": "Embora seja",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "Caso chove",
+    "right": "Caso chova",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "preços sobem",
+    "right": "preços subam",
+    "cat": "subjuntivo"
+   }
+  ]
+ },
+ {
+  "week": 24,
+  "text": "Vou estudar muito para que o meu português melhore. Embora eu trabalho muito, estudo todas as noites. Não saio de casa sem que a minha mãe sabe. Caso eu tenho tempo, vou à praia.",
+  "corrected": "Vou estudar muito para que o meu português melhore. Embora eu trabalhe muito, estudo todas as noites. Não saio de casa sem que a minha mãe saiba. Caso eu tenha tempo, vou à praia.",
+  "errors": [
+   {
+    "wrong": "eu trabalho",
+    "right": "eu trabalhe",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "mãe sabe",
+    "right": "mãe saiba",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "eu tenho tempo",
+    "right": "eu tenha tempo",
+    "cat": "subjuntivo"
+   }
+  ]
+ },
+ {
+  "week": 24,
+  "text": "Quero conhecer Salvador antes que termine o verão. Embora é caro, vale a pena. Vou levar a minha câmera para que podemos tirar muitas fotos. Até que a gente volta, o gato fica com a vizinha.",
+  "corrected": "Quero conhecer Salvador antes que termine o verão. Embora seja caro, vale a pena. Vou levar a minha câmera para que possamos tirar muitas fotos. Até que a gente volte, o gato fica com a vizinha.",
+  "errors": [
+   {
+    "wrong": "Embora é",
+    "right": "Embora seja",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "podemos tirar",
+    "right": "possamos tirar",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "a gente volta",
+    "right": "a gente volte",
+    "cat": "subjuntivo"
+   }
+  ]
+ },
+ {
+  "week": 25,
+  "text": "Moro num bairro que eu gosto muito: Santa Teresa. A rua donde moro tem um bonde amarelo. A vizinha com que divido o apartamento é uma artista. Os quadros de quem te falei estão num ateliê.",
+  "corrected": "Moro num bairro de que eu gosto muito: Santa Teresa. A rua onde moro tem um bonde amarelo. A vizinha com quem divido o apartamento é uma artista. Os quadros de que te falei estão num ateliê.",
+  "errors": [
+   {
+    "wrong": "bairro que",
+    "right": "bairro de que",
+    "cat": "regencia"
+   },
+   {
+    "wrong": "donde",
+    "right": "onde",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "com que divido",
+    "right": "com quem divido",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "de quem te falei",
+    "right": "de que te falei",
+    "cat": "pronome"
+   }
+  ]
+ },
+ {
+  "week": 25,
+  "text": "O livro que estou lendo é de Clarice Lispector, uma escritora cuja obra é muito famosa. Foi o professor que te falei que me emprestou. Lo que mais gosto é o estilo dela.",
+  "corrected": "O livro que estou lendo é de Clarice Lispector, uma escritora cuja obra é muito famosa. Foi o professor de quem te falei que me emprestou. O que mais gosto é o estilo dela.",
+  "errors": [
+   {
+    "wrong": "professor que te falei",
+    "right": "professor de quem te falei",
+    "cat": "regencia"
+   },
+   {
+    "wrong": "Lo que",
+    "right": "O que",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 25,
+  "text": "A praia a qual eu vou todo domingo é a do Leme. O amigo cujo o pai é pescador me leva de barco. É um lugar onde a água é limpa e a gente que mora lá é simpática.",
+  "corrected": "A praia à qual eu vou todo domingo é a do Leme. O amigo cujo pai é pescador me leva de barco. É um lugar onde a água é limpa e a gente que mora lá é simpática.",
+  "errors": [
+   {
+    "wrong": "a qual eu vou",
+    "right": "à qual eu vou",
+    "cat": "crase"
+   },
+   {
+    "wrong": "cujo o pai",
+    "right": "cujo pai",
+    "cat": "articulo"
+   }
+  ]
+ },
+ {
+  "week": 27,
+  "text": "Quando eu me mudo para o Rio, vou morar no Centro. Se eu consigo o emprego, vou visitar o Paço Imperial, onde dom João despachava depois de 1808. Assim que eu posso, vou à Biblioteca Nacional. Se você quer, vamos juntos.",
+  "corrected": "Quando eu me mudar para o Rio, vou morar no Centro. Se eu conseguir o emprego, vou visitar o Paço Imperial, onde dom João despachava depois de 1808. Assim que eu puder, vou à Biblioteca Nacional. Se você quiser, vamos juntos.",
+  "errors": [
+   {
+    "wrong": "me mudo",
+    "right": "me mudar",
+    "cat": "futuro_subj"
+   },
+   {
+    "wrong": "eu consigo",
+    "right": "eu conseguir",
+    "cat": "futuro_subj"
+   },
+   {
+    "wrong": "eu posso",
+    "right": "eu puder",
+    "cat": "futuro_subj"
+   },
+   {
+    "wrong": "você quer",
+    "right": "você quiser",
+    "cat": "futuro_subj"
+   }
+  ]
+ },
+ {
+  "week": 27,
+  "text": "Se eu ter férias em fevereiro, vou ao Carnaval de Olinda. Quando eu ser mais velho, quero morar no Nordeste. Se vocês vir comigo, a gente aluga uma casa. Quando chegue o dia, eu te aviso.",
+  "corrected": "Se eu tiver férias em fevereiro, vou ao Carnaval de Olinda. Quando eu for mais velho, quero morar no Nordeste. Se vocês vierem comigo, a gente aluga uma casa. Quando chegar o dia, eu te aviso.",
+  "errors": [
+   {
+    "wrong": "eu ter",
+    "right": "eu tiver",
+    "cat": "futuro_subj"
+   },
+   {
+    "wrong": "eu ser",
+    "right": "eu for",
+    "cat": "futuro_subj"
+   },
+   {
+    "wrong": "vocês vir",
+    "right": "vocês vierem",
+    "cat": "futuro_subj"
+   },
+   {
+    "wrong": "Quando chegue",
+    "right": "Quando chegar",
+    "cat": "futuro_subj"
+   }
+  ]
+ },
+ {
+  "week": 27,
+  "text": "Enquanto eu estou no Rio, quero conhecer a Pequena África, na região do porto. Quando eu vou lá, vou ver o Cais do Valongo, por onde chegaram muitos africanos escravizados. Se eu puder, visitarei também a Pedra do Sal.",
+  "corrected": "Enquanto eu estiver no Rio, quero conhecer a Pequena África, na região do porto. Quando eu for lá, vou ver o Cais do Valongo, por onde chegaram muitos africanos escravizados. Se eu puder, visitarei também a Pedra do Sal.",
+  "errors": [
+   {
+    "wrong": "Enquanto eu estou",
+    "right": "Enquanto eu estiver",
+    "cat": "futuro_subj"
+   },
+   {
+    "wrong": "Quando eu vou",
+    "right": "Quando eu for",
+    "cat": "futuro_subj"
+   }
+  ]
+ },
+ {
+  "week": 28,
+  "text": "Se eu pudera viajar no tempo, iria ao Rio de 1888, quando a princesa Isabel assinou a Lei Áurea. Se eu viveria naquela época, gostaria de conhecer André Rebouças. Se eu tivesse coragem, perguntaria a ele o que pensava do futuro.",
+  "corrected": "Se eu pudesse viajar no tempo, iria ao Rio de 1888, quando a princesa Isabel assinou a Lei Áurea. Se eu vivesse naquela época, gostaria de conhecer André Rebouças. Se eu tivesse coragem, perguntaria a ele o que pensava do futuro.",
+  "errors": [
+   {
+    "wrong": "eu pudera",
+    "right": "eu pudesse",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "Se eu viveria",
+    "right": "Se eu vivesse",
+    "cat": "subjuntivo"
+   }
+  ]
+ },
+ {
+  "week": 28,
+  "text": "Se eu fosse presidente, investiria em educação. Se o Brasil tivesse mais escolas públicas boas, a desigualdade sería menor. Se eu teria dinheiro, faria um museu sobre os quilombos.",
+  "corrected": "Se eu fosse presidente, investiria em educação. Se o Brasil tivesse mais escolas públicas boas, a desigualdade seria menor. Se eu tivesse dinheiro, faria um museu sobre os quilombos.",
+  "errors": [
+   {
+    "wrong": "sería",
+    "right": "seria",
+    "cat": "tilde"
+   },
+   {
+    "wrong": "Se eu teria",
+    "right": "Se eu tivesse",
+    "cat": "subjuntivo"
+   }
+  ]
+ },
+ {
+  "week": 28,
+  "text": "Queria que você venha comigo à Serra da Barriga, em Alagoas. Se nós fossemos lá, veríamos onde ficava o Quilombo dos Palmares. Seria incrível se a gente pudesse dormir lá. Se eu soubesse mais história, te explicaria tudo sobre Zumbi.",
+  "corrected": "Queria que você viesse comigo à Serra da Barriga, em Alagoas. Se nós fôssemos lá, veríamos onde ficava o Quilombo dos Palmares. Seria incrível se a gente pudesse dormir lá. Se eu soubesse mais história, te explicaria tudo sobre Zumbi.",
+  "errors": [
+   {
+    "wrong": "você venha",
+    "right": "você viesse",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "fossemos",
+    "right": "fôssemos",
+    "cat": "tilde"
+   }
+  ]
+ },
+ {
+  "week": 29,
+  "text": "Para os alunos aprender de verdade, é importante os professores partir da realidade deles. Paulo Freire escreveu que a leitura do mundo precede a leitura da palavra. É bom nós lermos os livros dele.",
+  "corrected": "Para os alunos aprenderem de verdade, é importante os professores partirem da realidade deles. Paulo Freire escreveu que a leitura do mundo precede a leitura da palavra. É bom nós lermos os livros dele.",
+  "errors": [
+   {
+    "wrong": "alunos aprender",
+    "right": "alunos aprenderem",
+    "cat": "inf_pessoal"
+   },
+   {
+    "wrong": "professores partir",
+    "right": "professores partirem",
+    "cat": "inf_pessoal"
+   }
+  ]
+ },
+ {
+  "week": 29,
+  "text": "O professor pediu para nós fazer um trabalho sobre Paulo Freire. Antes de vocês começar, leiam a Pedagogia do Oprimido. É importante eles entenderem o método de Angicos.",
+  "corrected": "O professor pediu para nós fazermos um trabalho sobre Paulo Freire. Antes de vocês começarem, leiam a Pedagogia do Oprimido. É importante eles entenderem o método de Angicos.",
+  "errors": [
+   {
+    "wrong": "nós fazer",
+    "right": "nós fazermos",
+    "cat": "inf_pessoal"
+   },
+   {
+    "wrong": "vocês começar",
+    "right": "vocês começarem",
+    "cat": "inf_pessoal"
+   }
+  ]
+ },
+ {
+  "week": 29,
+  "text": "Para que os trabalhadores aprendam a ler, Freire usava palavras do cotidiano. Ele achava fundamental os alunos discutir a própria realidade. Sem eles saber ler, não podiam votar, porque os analfabetos não votavam naquela época.",
+  "corrected": "Para que os trabalhadores aprendam a ler, Freire usava palavras do cotidiano. Ele achava fundamental os alunos discutirem a própria realidade. Sem eles saberem ler, não podiam votar, porque os analfabetos não votavam naquela época.",
+  "errors": [
+   {
+    "wrong": "alunos discutir",
+    "right": "alunos discutirem",
+    "cat": "inf_pessoal"
+   },
+   {
+    "wrong": "eles saber",
+    "right": "eles saberem",
+    "cat": "inf_pessoal"
+   }
+  ]
+ },
+ {
+  "week": 30,
+  "text": "Se o príncipe Pedro não teria proclamado a Independência em 1822, talvez o Brasil tivesse continuado ligado a Portugal. Se a família real não tivera vindo em 1808, o Rio não teria virado a sede do império português. Se eu tivesse lido mais, teria entendido melhor essa história.",
+  "corrected": "Se o príncipe Pedro não tivesse proclamado a Independência em 1822, talvez o Brasil tivesse continuado ligado a Portugal. Se a família real não tivesse vindo em 1808, o Rio não teria virado a sede do império português. Se eu tivesse lido mais, teria entendido melhor essa história.",
+  "errors": [
+   {
+    "wrong": "não teria proclamado",
+    "right": "não tivesse proclamado",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "não tivera vindo",
+    "right": "não tivesse vindo",
+    "cat": "subjuntivo"
+   }
+  ]
+ },
+ {
+  "week": 30,
+  "text": "Se eu havia sabido que a festa era tão boa, teria ido. Se você me tivesse avisado, eu teria chego a tempo. Espero que vocês tenham gostado!",
+  "corrected": "Se eu tivesse sabido que a festa era tão boa, teria ido. Se você me tivesse avisado, eu teria chegado a tempo. Espero que vocês tenham gostado!",
+  "errors": [
+   {
+    "wrong": "Se eu havia sabido",
+    "right": "Se eu tivesse sabido",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "teria chego",
+    "right": "teria chegado",
+    "cat": "participio"
+   }
+  ]
+ },
+ {
+  "week": 30,
+  "text": "Se os portugueses não tivessem trazido africanos escravizados, a história do Brasil tivesse sido outra. Se Zumbi tivesse vencido, Palmares teria durado mais. Quando eu tiver terminado o livro, te empresto.",
+  "corrected": "Se os portugueses não tivessem trazido africanos escravizados, a história do Brasil teria sido outra. Se Zumbi tivesse vencido, Palmares teria durado mais. Quando eu tiver terminado o livro, te empresto.",
+  "errors": [
+   {
+    "wrong": "tivesse sido outra",
+    "right": "teria sido outra",
+    "cat": "tempo"
+   }
+  ]
+ },
+ {
+  "week": 31,
+  "text": "Na palestra, o historiador disse que o sinal do 25 de Abril tinha sido uma canção no rádio. Ele explicou que os militares derrubaram o Estado Novo. Eu perguntei que se os cravos eram só um símbolo. No fim, disse que amanhã ia falar de Salazar.",
+  "corrected": "Na palestra, o historiador disse que o sinal do 25 de Abril tinha sido uma canção no rádio. Ele explicou que os militares derrubaram o Estado Novo. Eu perguntei se os cravos eram só um símbolo. No fim, disse que no dia seguinte ia falar de Salazar.",
+  "errors": [
+   {
+    "wrong": "perguntei que se",
+    "right": "perguntei se",
+    "cat": "sobrante"
+   },
+   {
+    "wrong": "disse que amanhã",
+    "right": "disse que no dia seguinte",
+    "cat": "lexico"
+   }
+  ]
+ },
+ {
+  "week": 31,
+  "text": "A professora nos disse que devíamos ler Saramago. Ela contou que Saramago ganhou o Nobel em 1998 e pediu que lemos o Ensaio sobre a Cegueira. Después perguntou se nós gostávamos de literatura portuguesa.",
+  "corrected": "A professora nos disse que devíamos ler Saramago. Ela contou que Saramago ganhou o Nobel em 1998 e pediu que lêssemos o Ensaio sobre a Cegueira. Depois perguntou se nós gostávamos de literatura portuguesa.",
+  "errors": [
+   {
+    "wrong": "pediu que lemos",
+    "right": "pediu que lêssemos",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "Después",
+    "right": "Depois",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 31,
+  "text": "O meu amigo me disse que ele vai ao Porto no mês seguinte. Ele disse que estava muito feliz e que me traria um vinho. Eu respondi que não precisava, mas ele disse que já o comprou.",
+  "corrected": "O meu amigo me disse que ele ia ao Porto no mês seguinte. Ele disse que estava muito feliz e que me traria um vinho. Eu respondi que não precisava, mas ele disse que já o tinha comprado.",
+  "errors": [
+   {
+    "wrong": "ele vai ao Porto",
+    "right": "ele ia ao Porto",
+    "cat": "tempo"
+   },
+   {
+    "wrong": "já o comprou",
+    "right": "já o tinha comprado",
+    "cat": "tempo"
+   }
+  ]
+ },
+ {
+  "week": 32,
+  "text": "Aluga-se apartamento de dois quartos em Botafogo. Vende-se bicicletas usadas. Precisam-se de garçons para o quiosque. Aceita-se cartões.",
+  "corrected": "Aluga-se apartamento de dois quartos em Botafogo. Vendem-se bicicletas usadas. Precisa-se de garçons para o quiosque. Aceitam-se cartões.",
+  "errors": [
+   {
+    "wrong": "Vende-se bicicletas",
+    "right": "Vendem-se bicicletas",
+    "cat": "concordancia"
+   },
+   {
+    "wrong": "Precisam-se de",
+    "right": "Precisa-se de",
+    "cat": "concordancia"
+   },
+   {
+    "wrong": "Aceita-se cartões",
+    "right": "Aceitam-se cartões",
+    "cat": "concordancia"
+   }
+  ]
+ },
+ {
+  "week": 32,
+  "text": "Aqui no se permite fumar. Fala-se português e espanhol. Se vende pão quentinho desde as seis. Precisa-se de uma pessoa para cuidar do jardim.",
+  "corrected": "Aqui não se permite fumar. Fala-se português e espanhol. Vende-se pão quentinho desde as seis. Precisa-se de uma pessoa para cuidar do jardim.",
+  "errors": [
+   {
+    "wrong": "no se permite",
+    "right": "não se permite",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "Se vende",
+    "right": "Vende-se",
+    "cat": "colocacao"
+   }
+  ]
+ },
+ {
+  "week": 32,
+  "text": "Nesta praia não se pode jogar lixo na areia. Se alugam cadeiras e guarda-sóis no quiosque. Precisa-se salva-vidas. Proíbe-se cachorros.",
+  "corrected": "Nesta praia não se pode jogar lixo na areia. Alugam-se cadeiras e guarda-sóis no quiosque. Precisa-se de salva-vidas. Proíbem-se cachorros.",
+  "errors": [
+   {
+    "wrong": "Se alugam",
+    "right": "Alugam-se",
+    "cat": "colocacao"
+   },
+   {
+    "wrong": "Precisa-se salva-vidas",
+    "right": "Precisa-se de salva-vidas",
+    "cat": "regencia"
+   },
+   {
+    "wrong": "Proíbe-se cachorros",
+    "right": "Proíbem-se cachorros",
+    "cat": "concordancia"
+   }
+  ]
+ },
+ {
+  "week": 33,
+  "text": "Machado de Assis nasceu em 1839, no Rio de Janeiro. Se tornou o maior romancista brasileiro. Em Dom Casmurro, Bentinho conta-nos a sua versão e nunca diz-nos toda a verdade. Dir-se-ia que o leitor é o juiz.",
+  "corrected": "Machado de Assis nasceu em 1839, no Rio de Janeiro. Tornou-se o maior romancista brasileiro. Em Dom Casmurro, Bentinho conta-nos a sua versão e nunca nos diz toda a verdade. Dir-se-ia que o leitor é o juiz.",
+  "errors": [
+   {
+    "wrong": "Se tornou",
+    "right": "Tornou-se",
+    "cat": "colocacao"
+   },
+   {
+    "wrong": "nunca diz-nos",
+    "right": "nunca nos diz",
+    "cat": "colocacao"
+   }
+  ]
+ },
+ {
+  "week": 33,
+  "text": "Clarice Lispector nasceu na Ucrânia em 1920 e veio para o Brasil cuando era bebê. Chamava-se Chaya. Quando lhe perguntavam sobre a sua origem, dizia que era brasileira. Os seus livros ainda surpreendem-nos.",
+  "corrected": "Clarice Lispector nasceu na Ucrânia em 1920 e veio para o Brasil quando era bebê. Chamava-se Chaya. Quando lhe perguntavam sobre a sua origem, dizia que era brasileira. Os seus livros ainda nos surpreendem.",
+  "errors": [
+   {
+    "wrong": "cuando",
+    "right": "quando",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "ainda surpreendem-nos",
+    "right": "ainda nos surpreendem",
+    "cat": "colocacao"
+   }
+  ]
+ },
+ {
+  "week": 33,
+  "text": "Em O Cortiço, de 1890, Aluísio Azevedo descreve-nos a vida num cortiço de Botafogo. Nota-se no livro a influência de Émile Zola. Quando lê-se o romance hoje, percebe-se que muitos problemas continuam. Não conhece-se melhor retrato do Rio daquela época.",
+  "corrected": "Em O Cortiço, de 1890, Aluísio Azevedo descreve-nos a vida num cortiço de Botafogo. Nota-se no livro a influência de Émile Zola. Quando se lê o romance hoje, percebe-se que muitos problemas continuam. Não se conhece melhor retrato do Rio daquela época.",
+  "errors": [
+   {
+    "wrong": "Quando lê-se",
+    "right": "Quando se lê",
+    "cat": "colocacao"
+   },
+   {
+    "wrong": "Não conhece-se",
+    "right": "Não se conhece",
+    "cat": "colocacao"
+   }
+  ]
+ },
+ {
+  "week": 34,
+  "text": "Em 1994, o jornalista Zuenir Ventura chamou o Rio de cidade partida. De um lado há bairros ricos; de o outro, favelas. Sin embargo, as duas cidades dependem uma da outra. A imagem é útil, pero incompleta.",
+  "corrected": "Em 1994, o jornalista Zuenir Ventura chamou o Rio de cidade partida. De um lado há bairros ricos; do outro, favelas. No entanto, as duas cidades dependem uma da outra. A imagem é útil, mas incompleta.",
+  "errors": [
+   {
+    "wrong": "de o outro",
+    "right": "do outro",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "Sin embargo",
+    "right": "No entanto",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "pero incompleta",
+    "right": "mas incompleta",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 34,
+  "text": "O funk carioca nasceu nas favelas e hoje toca no mundo todo. Contudo, durante anos foi perseguido pela polícia. Aliás, o samba também foi perseguido no começo do século XX. Entonces, podemos dizer que a música negra resiste a o preconceito.",
+  "corrected": "O funk carioca nasceu nas favelas e hoje toca no mundo todo. Contudo, durante anos foi perseguido pela polícia. Aliás, o samba também foi perseguido no começo do século XX. Então, podemos dizer que a música negra resiste ao preconceito.",
+  "errors": [
+   {
+    "wrong": "Entonces",
+    "right": "Então",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "a o preconceito",
+    "right": "ao preconceito",
+    "cat": "contraccion"
+   }
+  ]
+ },
+ {
+  "week": 34,
+  "text": "Muitas pessoas acham que as praias são democráticas, já que todo mundo pode ir. No entanto, os moradores do subúrbio demoram horas en o ônibus. Portanto, o acesso não é igual para todos. Além de isso, a polícia às vezes revista os jovens negros na chegada.",
+  "corrected": "Muitas pessoas acham que as praias são democráticas, já que todo mundo pode ir. No entanto, os moradores do subúrbio demoram horas no ônibus. Portanto, o acesso não é igual para todos. Além disso, a polícia às vezes revista os jovens negros na chegada.",
+  "errors": [
+   {
+    "wrong": "en o ônibus",
+    "right": "no ônibus",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "Além de isso",
+    "right": "Além disso",
+    "cat": "contraccion"
+   }
+  ]
+ },
+ {
+  "week": 35,
+  "text": "Ontem assisti o filme Central do Brasil pela terceira vez. Gosto muito a história da Dora e do Josué. Sempre penso a viagem dos dois pelo sertão e sonho uma viagem assim.",
+  "corrected": "Ontem assisti ao filme Central do Brasil pela terceira vez. Gosto muito da história da Dora e do Josué. Sempre penso na viagem dos dois pelo sertão e sonho com uma viagem assim.",
+  "errors": [
+   {
+    "wrong": "assisti o filme",
+    "right": "assisti ao filme",
+    "cat": "regencia"
+   },
+   {
+    "wrong": "Gosto muito a",
+    "right": "Gosto muito da",
+    "cat": "gostar"
+   },
+   {
+    "wrong": "penso a viagem",
+    "right": "penso na viagem",
+    "cat": "regencia"
+   },
+   {
+    "wrong": "sonho uma",
+    "right": "sonho com uma",
+    "cat": "regencia"
+   }
+  ]
+ },
+ {
+  "week": 35,
+  "text": "A minha prima namora com um músico da Lapa. Eles vão se casar em dezembro. Ela sempre obedece os conselhos da nossa avó e prefere mais o samba do que o funk.",
+  "corrected": "A minha prima namora um músico da Lapa. Eles vão se casar em dezembro. Ela sempre obedece aos conselhos da nossa avó e prefere o samba ao funk.",
+  "errors": [
+   {
+    "wrong": "namora com um",
+    "right": "namora um",
+    "cat": "regencia"
+   },
+   {
+    "wrong": "obedece os conselhos",
+    "right": "obedece aos conselhos",
+    "cat": "regencia"
+   },
+   {
+    "wrong": "prefere mais o samba do que o funk",
+    "right": "prefere o samba ao funk",
+    "cat": "regencia"
+   }
+  ]
+ },
+ {
+  "week": 35,
+  "text": "Cheguei no Rio em março e me lembrei de você. Preciso ajuda para encontrar um apartamento. Me esqueci o seu telefone, então te escrevo aqui. Confio em você, porque você conhece bem a cidade.",
+  "corrected": "Cheguei no Rio em março e me lembrei de você. Preciso de ajuda para encontrar um apartamento. Me esqueci do seu telefone, então te escrevo aqui. Confio em você, porque você conhece bem a cidade.",
+  "errors": [
+   {
+    "wrong": "Preciso ajuda",
+    "right": "Preciso de ajuda",
+    "cat": "regencia"
+   },
+   {
+    "wrong": "esqueci o seu",
+    "right": "esqueci do seu",
+    "cat": "regencia"
+   }
+  ]
+ },
+ {
+  "week": 36,
+  "text": "Todos os sábados vou a feira da Glória as nove da manhã. Depois vou a praia e, a tarde, dou uma volta à beira da Lagoa. As vezes vou à Lapa a noite.",
+  "corrected": "Todos os sábados vou à feira da Glória às nove da manhã. Depois vou à praia e, à tarde, dou uma volta à beira da Lagoa. Às vezes vou à Lapa à noite.",
+  "errors": [
+   {
+    "wrong": "vou a feira",
+    "right": "vou à feira",
+    "cat": "crase"
+   },
+   {
+    "wrong": "as nove",
+    "right": "às nove",
+    "cat": "crase"
+   },
+   {
+    "wrong": "vou a praia",
+    "right": "vou à praia",
+    "cat": "crase"
+   },
+   {
+    "wrong": "a tarde",
+    "right": "à tarde",
+    "cat": "crase"
+   },
+   {
+    "wrong": "As vezes",
+    "right": "Às vezes",
+    "cat": "crase"
+   },
+   {
+    "wrong": "a noite",
+    "right": "à noite",
+    "cat": "crase"
+   }
+  ]
+ },
+ {
+  "week": 36,
+  "text": "Vou à pé até o trabalho e começo à trabalhar às oito. Saio às cinco e volto à pé. À noite, assisto à novela das nove.",
+  "corrected": "Vou a pé até o trabalho e começo a trabalhar às oito. Saio às cinco e volto a pé. À noite, assisto à novela das nove.",
+  "errors": [
+   {
+    "wrong": "Vou à pé",
+    "right": "Vou a pé",
+    "cat": "crase"
+   },
+   {
+    "wrong": "começo à trabalhar",
+    "right": "começo a trabalhar",
+    "cat": "crase"
+   },
+   {
+    "wrong": "volto à pé",
+    "right": "volto a pé",
+    "cat": "crase"
+   }
+  ]
+ },
+ {
+  "week": 36,
+  "text": "Entreguei o relatório a diretora às duas. Depois fui a reunião no décimo andar. Refiro-me àquela reunião de segunda. Voltei para casa as sete.",
+  "corrected": "Entreguei o relatório à diretora às duas. Depois fui à reunião no décimo andar. Refiro-me àquela reunião de segunda. Voltei para casa às sete.",
+  "errors": [
+   {
+    "wrong": "relatório a diretora",
+    "right": "relatório à diretora",
+    "cat": "crase"
+   },
+   {
+    "wrong": "fui a reunião",
+    "right": "fui à reunião",
+    "cat": "crase"
+   },
+   {
+    "wrong": "casa as sete",
+    "right": "casa às sete",
+    "cat": "crase"
+   }
+  ]
+ },
+ {
+  "week": 37,
+  "text": "A Fiocruz mantem até hoje a tradição de Oswaldo Cruz. Quando uma epidemia começa, os pesquisadores preveem os riscos, obtem dados e propoem campanhas. Às vezes o governo intervem.",
+  "corrected": "A Fiocruz mantém até hoje a tradição de Oswaldo Cruz. Quando uma epidemia começa, os pesquisadores preveem os riscos, obtêm dados e propõem campanhas. Às vezes o governo intervém.",
+  "errors": [
+   {
+    "wrong": "mantem",
+    "right": "mantém",
+    "cat": "tilde"
+   },
+   {
+    "wrong": "obtem",
+    "right": "obtêm",
+    "cat": "tilde"
+   },
+   {
+    "wrong": "propoem",
+    "right": "propõem",
+    "cat": "nasal"
+   },
+   {
+    "wrong": "intervem",
+    "right": "intervém",
+    "cat": "tilde"
+   }
+  ]
+ },
+ {
+  "week": 37,
+  "text": "O Instituto Butantan, em São Paulo, existe desde 1901 e produz vacinas. Os pesquisadores sempre mantiveram contato com as universidades. Se a equipe propor um novo estudo, o governo precisa aprovar. Eu não cabo de orgulho quando visito o museu.",
+  "corrected": "O Instituto Butantan, em São Paulo, existe desde 1901 e produz vacinas. Os pesquisadores sempre mantiveram contato com as universidades. Se a equipe propuser um novo estudo, o governo precisa aprovar. Eu não caibo de orgulho quando visito o museu.",
+  "errors": [
+   {
+    "wrong": "equipe propor",
+    "right": "equipe propuser",
+    "cat": "futuro_subj"
+   },
+   {
+    "wrong": "não cabo",
+    "right": "não caibo",
+    "cat": "regularizacion"
+   }
+  ]
+ },
+ {
+  "week": 37,
+  "text": "Eu odio acordar cedo, mas passeo pelo Jardim Botânico aos domingos. O jardim foi criado por dom João em 1808 e mantém árvores de todo o mundo. Eu sempre me perdo no caminho das palmeiras.",
+  "corrected": "Eu odeio acordar cedo, mas passeio pelo Jardim Botânico aos domingos. O jardim foi criado por dom João em 1808 e mantém árvores de todo o mundo. Eu sempre me perco no caminho das palmeiras.",
+  "errors": [
+   {
+    "wrong": "odio",
+    "right": "odeio",
+    "cat": "regularizacion"
+   },
+   {
+    "wrong": "passeo",
+    "right": "passeio",
+    "cat": "regularizacion"
+   },
+   {
+    "wrong": "me perdo",
+    "right": "me perco",
+    "cat": "regularizacion"
+   }
+  ]
+ },
+ {
+  "week": 38,
+  "text": "E aí, Rafa, tudo bem? Cadê você? A gente tá no boteco de a esquina. Vem pra cá, dale! Tô con saudade.",
+  "corrected": "E aí, Rafa, tudo bem? Cadê você? A gente tá no boteco da esquina. Vem pra cá, bora! Tô com saudade.",
+  "errors": [
+   {
+    "wrong": "de a esquina",
+    "right": "da esquina",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "dale",
+    "right": "bora",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "con saudade",
+    "right": "com saudade",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 38,
+  "text": "Oi, Bia! Tá fazendo o que? Recebi o mensagem da Carla. Vamo pra praia? A gente se vê no posto nove às quatro, tá? Trae o protetor, que eu esqueci o meu.",
+  "corrected": "Oi, Bia! Tá fazendo o quê? Recebi a mensagem da Carla. Vamo pra praia? A gente se vê no posto nove às quatro, tá? Traz o protetor, que eu esqueci o meu.",
+  "errors": [
+   {
+    "wrong": "o que?",
+    "right": "o quê?",
+    "cat": "tilde"
+   },
+   {
+    "wrong": "o mensagem",
+    "right": "a mensagem",
+    "cat": "genero"
+   },
+   {
+    "wrong": "Trae",
+    "right": "Traz",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 38,
+  "text": "Cara, ontem foi muito legal! A gente dançou até as três. Cê viu o show? Eu tava muy cansado, mas valeu. Amanhã tem mais, né?",
+  "corrected": "Cara, ontem foi muito legal! A gente dançou até as três. Cê viu o show? Eu tava muito cansado, mas valeu. Amanhã tem mais, né?",
+  "errors": [
+   {
+    "wrong": "muy cansado",
+    "right": "muito cansado",
+    "cat": "muito"
+   }
+  ]
+ },
+ {
+  "week": 40,
+  "text": "A promulgação da Constituição de 1988 representou o fin da transição democrática e o origem de uma nova ordem. O texto garantiu a ampliação de os direitos sociais e a criação do SUS. Houveram também avanços para os povos indígenas.",
+  "corrected": "A promulgação da Constituição de 1988 representou o fim da transição democrática e a origem de uma nova ordem. O texto garantiu a ampliação dos direitos sociais e a criação do SUS. Houve também avanços para os povos indígenas.",
+  "errors": [
+   {
+    "wrong": "o fin",
+    "right": "o fim",
+    "cat": "nasal"
+   },
+   {
+    "wrong": "o origem",
+    "right": "a origem",
+    "cat": "genero"
+   },
+   {
+    "wrong": "de os direitos",
+    "right": "dos direitos",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "Houveram",
+    "right": "Houve",
+    "cat": "persona"
+   }
+  ]
+ },
+ {
+  "week": 40,
+  "text": "A realização de a pesquisa demonstrou um aumento da desigualdade. A análise dos datos indica a necessidade de uma intervenção do Estado. O crescimento da economia não foi suficiente para a redução de a pobreza.",
+  "corrected": "A realização da pesquisa demonstrou um aumento da desigualdade. A análise dos dados indica a necessidade de uma intervenção do Estado. O crescimento da economia não foi suficiente para a redução da pobreza.",
+  "errors": [
+   {
+    "wrong": "de a pesquisa",
+    "right": "da pesquisa",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "datos",
+    "right": "dados",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "de a pobreza",
+    "right": "da pobreza",
+    "cat": "contraccion"
+   }
+  ]
+ },
+ {
+  "week": 40,
+  "text": "A decisão do governo provocou uma forte reação da sociedade. Tem muitas críticas à falta de transparência. É necessário a criação de mecanismos de controle.",
+  "corrected": "A decisão do governo provocou uma forte reação da sociedade. Há muitas críticas à falta de transparência. É necessária a criação de mecanismos de controle.",
+  "errors": [
+   {
+    "wrong": "Tem muitas",
+    "right": "Há muitas",
+    "cat": "lexico"
+   },
+   {
+    "wrong": "É necessário a criação",
+    "right": "É necessária a criação",
+    "cat": "concordancia"
+   }
+  ]
+ },
+ {
+  "week": 41,
+  "text": "Quando Rubião chegou ao Rio, o filósofo Quincas Borba já morrera e lhe deixara toda a fortuna, com una condição: cuidar do cachorro. O professor, que nunca imaginou tanta riqueza, herdara também uma filosofia estranha.",
+  "corrected": "Quando Rubião chegou ao Rio, o filósofo Quincas Borba já morrera e lhe deixara toda a fortuna, com uma condição: cuidar do cachorro. O professor, que nunca imaginara tanta riqueza, herdara também uma filosofia estranha.",
+  "errors": [
+   {
+    "wrong": "una condição",
+    "right": "uma condição",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "nunca imaginou",
+    "right": "nunca imaginara",
+    "cat": "tempo"
+   }
+  ]
+ },
+ {
+  "week": 41,
+  "text": "Macabéa, a heroína de A Hora da Estrela, viera de Alagoas para o Rio. Ela nunca tivera uma vida fácil. Clarice Lispector publicou o livro em 1977, pouco antes de morir.",
+  "corrected": "Macabéa, a heroína de A Hora da Estrela, viera de Alagoas para o Rio. Ela nunca tivera uma vida fácil. Clarice Lispector publicou o livro em 1977, pouco antes de morrer.",
+  "errors": [
+   {
+    "wrong": "morir",
+    "right": "morrer",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 41,
+  "text": "Em Vidas Secas, de 1938, Fabiano e a família fugiam de la seca. Eles já tinham perdido quase tudo, e a cachorra Baleia les acompanhava. Graciliano Ramos, que fora prefeito de Palmeira dos Índios, conhecia bem o sertão.",
+  "corrected": "Em Vidas Secas, de 1938, Fabiano e a família fugiam da seca. Eles já tinham perdido quase tudo, e a cachorra Baleia os acompanhava. Graciliano Ramos, que fora prefeito de Palmeira dos Índios, conhecia bem o sertão.",
+  "errors": [
+   {
+    "wrong": "de la seca",
+    "right": "da seca",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "les acompanhava",
+    "right": "os acompanhava",
+    "cat": "pronome"
+   }
+  ]
+ },
+ {
+  "week": 42,
+  "text": "Chegando a Copacabana num domingo, entendi por que Rubem Braga escrevia sobre o mar. Terminada o almoço, descemos para o calçadão. Al ver as ondas de pedra portuguesa, lembrei de Lisboa. Andando até o Leme, ouvimos a um vendedor de mate.",
+  "corrected": "Chegando a Copacabana num domingo, entendi por que Rubem Braga escrevia sobre o mar. Terminado o almoço, descemos para o calçadão. Ao ver as ondas de pedra portuguesa, lembrei de Lisboa. Andando até o Leme, ouvimos um vendedor de mate.",
+  "errors": [
+   {
+    "wrong": "Terminada o almoço",
+    "right": "Terminado o almoço",
+    "cat": "participio"
+   },
+   {
+    "wrong": "Al ver",
+    "right": "Ao ver",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "ouvimos a um vendedor",
+    "right": "ouvimos um vendedor",
+    "cat": "a_personal"
+   }
+  ]
+ },
+ {
+  "week": 42,
+  "text": "Saindo de casa cedo, peguei o metrô. Feito as compras, voltei para casa. Ao chegar, vi que tinha esquecido o pão. Estando cansado, decidí não voltar.",
+  "corrected": "Saindo de casa cedo, peguei o metrô. Feitas as compras, voltei para casa. Ao chegar, vi que tinha esquecido o pão. Estando cansado, decidi não voltar.",
+  "errors": [
+   {
+    "wrong": "Feito as compras",
+    "right": "Feitas as compras",
+    "cat": "participio"
+   },
+   {
+    "wrong": "decidí",
+    "right": "decidi",
+    "cat": "tilde"
+   }
+  ]
+ },
+ {
+  "week": 42,
+  "text": "Lendo o jornal, soube da notícia. Terminada a reunião, os ministros saíram. Al sair do prédio, o presidente falou com os jornalistas. Sendo que ninguém esperava, a notícia caiu como uma bomba.",
+  "corrected": "Lendo o jornal, soube da notícia. Terminada a reunião, os ministros saíram. Ao sair do prédio, o presidente falou com os jornalistas. Como ninguém esperava, a notícia caiu como uma bomba.",
+  "errors": [
+   {
+    "wrong": "Al sair",
+    "right": "Ao sair",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "Sendo que ninguém",
+    "right": "Como ninguém",
+    "cat": "lexico"
+   }
+  ]
+ },
+ {
+  "week": 43,
+  "text": "Prezada Senhora Diretora, venho por meio desta solicitar acesso ao acervo de jornais de 1897 sobre a Guerra de Canudos. Soy pesquisadora argentina. Gostaria saber se seria possível consultar os originais. Sem outro particular, fico no aguardo. Atentamente, Laura Gómez",
+  "corrected": "Prezada Senhora Diretora, venho por meio desta solicitar acesso ao acervo de jornais de 1897 sobre a Guerra de Canudos. Sou pesquisadora argentina. Gostaria de saber se seria possível consultar os originais. Desde já agradeço, fico no aguardo. Atenciosamente, Laura Gómez",
+  "errors": [
+   {
+    "wrong": "Soy",
+    "right": "Sou",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "Gostaria saber",
+    "right": "Gostaria de saber",
+    "cat": "regencia"
+   },
+   {
+    "wrong": "Sem outro particular",
+    "right": "Desde já agradeço",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "Atentamente",
+    "right": "Atenciosamente",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 43,
+  "text": "Prezado Señor, me dirijo a você para solicitar uma bolsa de estudos. Segue em anexo o meu currículo. Agradeceria se o senhor pudesse me responder até sexta. Atenciosamente, Diego Paz",
+  "corrected": "Prezado Senhor, dirijo-me ao senhor para solicitar uma bolsa de estudos. Segue em anexo o meu currículo. Agradeceria se o senhor pudesse me responder até sexta. Atenciosamente, Diego Paz",
+  "errors": [
+   {
+    "wrong": "Señor",
+    "right": "Senhor",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "me dirijo a você",
+    "right": "dirijo-me ao senhor",
+    "cat": "lexico"
+   }
+  ]
+ },
+ {
+  "week": 43,
+  "text": "Prezados senhores, escrevo para reclamar de o atraso na entrega do meu pedido. Solicito que o produto seja entregue ainda esta semana. Caso contrário, pedirei a devolução de o dinheiro. Cordialmente, Martín Pérez",
+  "corrected": "Prezados senhores, escrevo para reclamar do atraso na entrega do meu pedido. Solicito que o produto seja entregue ainda esta semana. Caso contrário, pedirei a devolução do dinheiro. Cordialmente, Martín Pérez",
+  "errors": [
+   {
+    "wrong": "de o atraso",
+    "right": "do atraso",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "de o dinheiro",
+    "right": "do dinheiro",
+    "cat": "contraccion"
+   }
+  ]
+ },
+ {
+  "week": 44,
+  "text": "Todo domingo tomo um cafecito na padaria e compro um panzinho quentinho. Na frente mora um senhor num casarão antigo. O jornaleiro sabe todas as notícias do bairro.",
+  "corrected": "Todo domingo tomo um cafezinho na padaria e compro um pãozinho quentinho. Na frente mora um senhor num casarão antigo. O jornaleiro sabe todas as notícias do bairro.",
+  "errors": [
+   {
+    "wrong": "cafecito",
+    "right": "cafezinho",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "panzinho",
+    "right": "pãozinho",
+    "cat": "nasal"
+   }
+  ]
+ },
+ {
+  "week": 44,
+  "text": "O meu cachorrito é pequenininho e muito brincalhão. Ontem, no Maracanã, vi um golazo do Flamengo! O sorvetero passa pela praça às quatro.",
+  "corrected": "O meu cachorrinho é pequenininho e muito brincalhão. Ontem, no Maracanã, vi um golaço do Flamengo! O sorveteiro passa pela praça às quatro.",
+  "errors": [
+   {
+    "wrong": "cachorrito",
+    "right": "cachorrinho",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "golazo",
+    "right": "golaço",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "sorvetero",
+    "right": "sorveteiro",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 44,
+  "text": "A minha avó faz um bolo gostosão e um cafézinho forte. A casita dela fica numa ruazinha de Santa Teresa. Ela é uma mulherona alegre e divertida.",
+  "corrected": "A minha avó faz um bolo gostosão e um cafezinho forte. A casinha dela fica numa ruazinha de Santa Teresa. Ela é uma mulherona alegre e divertida.",
+  "errors": [
+   {
+    "wrong": "cafézinho",
+    "right": "cafezinho",
+    "cat": "tilde"
+   },
+   {
+    "wrong": "casita",
+    "right": "casinha",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 45,
+  "text": "Quando cheguei ao Rio, pedi um vaso de água no restaurante. A comida estava esquisita, muito gostosa! Depois, fiquei embaraçada porque não entendi a piada. Ajudei a uma senhora a subir a ladeira e ela me deu um mel da roça.",
+  "corrected": "Quando cheguei ao Rio, pedi um copo de água no restaurante. A comida estava deliciosa, muito gostosa! Depois, fiquei embaraçada porque não entendi a piada. Ajudei a uma senhora a subir a ladeira e ela me deu um mel da roça.",
+  "errors": [
+   {
+    "wrong": "vaso de água",
+    "right": "copo de água",
+    "cat": "falso_amigo"
+   },
+   {
+    "wrong": "esquisita",
+    "right": "deliciosa",
+    "cat": "falso_amigo"
+   }
+  ]
+ },
+ {
+  "week": 45,
+  "text": "O meu apelido é González e o meu nome é Diego. Trabalho numa oficina no Centro, com computador e reuniões. Ontem o meu chefe ficou borracho na festa da firma.",
+  "corrected": "O meu sobrenome é González e o meu nome é Diego. Trabalho num escritório no Centro, com computador e reuniões. Ontem o meu chefe ficou bêbado na festa da firma.",
+  "errors": [
+   {
+    "wrong": "apelido é",
+    "right": "sobrenome é",
+    "cat": "falso_amigo"
+   },
+   {
+    "wrong": "numa oficina",
+    "right": "num escritório",
+    "cat": "falso_amigo"
+   },
+   {
+    "wrong": "borracho",
+    "right": "bêbado",
+    "cat": "falso_amigo"
+   }
+  ]
+ },
+ {
+  "week": 45,
+  "text": "Na praia vi um polvo enorme perto das pedras. Na casa da praia tinha muito polvo nos móveis. A minha amiga está grávida e muito feliz. Espera um rato, já volto!",
+  "corrected": "Na praia vi um polvo enorme perto das pedras. Na casa da praia tinha muito pó nos móveis. A minha amiga está grávida e muito feliz. Espera um pouquinho, já volto!",
+  "errors": [
+   {
+    "wrong": "muito polvo",
+    "right": "muito pó",
+    "cat": "falso_amigo"
+   },
+   {
+    "wrong": "um rato",
+    "right": "um pouquinho",
+    "cat": "falso_amigo"
+   }
+  ]
+ },
+ {
+  "week": 46,
+  "text": "Em Lisboa peguei o autocarro para Belém e comí um pastel de nata. O paisagem de Sintra é linda. No pequeno-almoço pedi uma bica. Os portugueses usam muito o tu y dizem estou a comer.",
+  "corrected": "Em Lisboa peguei o autocarro para Belém e comi um pastel de nata. A paisagem de Sintra é linda. No pequeno-almoço pedi uma bica. Os portugueses usam muito o tu e dizem estou a comer.",
+  "errors": [
+   {
+    "wrong": "comí",
+    "right": "comi",
+    "cat": "tilde"
+   },
+   {
+    "wrong": "O paisagem",
+    "right": "A paisagem",
+    "cat": "genero"
+   },
+   {
+    "wrong": "y dizem",
+    "right": "e dizem",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 46,
+  "text": "Em Maputo, li contos de Mia Couto, que es moçambicano. Ele inventa palavras novas, como abensonhado. Em Angola, as pessoas dizen bué para dizer muito. Em Portugal, o celular se llama telemóvel.",
+  "corrected": "Em Maputo, li contos de Mia Couto, que é moçambicano. Ele inventa palavras novas, como abensonhado. Em Angola, as pessoas dizem bué para dizer muito. Em Portugal, o celular se chama telemóvel.",
+  "errors": [
+   {
+    "wrong": "es moçambicano",
+    "right": "é moçambicano",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "dizen",
+    "right": "dizem",
+    "cat": "nasal"
+   },
+   {
+    "wrong": "se llama",
+    "right": "se chama",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 46,
+  "text": "No Sul do Brasil, muita gente usa tu: tu vai, tu queres. Lá se toma chimarrão, que é como el mate argentino. No Nordeste, o sotaque é diferente de o carioca.",
+  "corrected": "No Sul do Brasil, muita gente usa tu: tu vai, tu queres. Lá se toma chimarrão, que é como o mate argentino. No Nordeste, o sotaque é diferente do carioca.",
+  "errors": [
+   {
+    "wrong": "el mate",
+    "right": "o mate",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "de o carioca",
+    "right": "do carioca",
+    "cat": "contraccion"
+   }
+  ]
+ },
+ {
+  "week": 47,
+  "text": "Em primeiro lugar, é possível que o jeitinho é uma forma de conciliar a lei e as relações pessoais, como sugere Roberto DaMatta. Além de isso, ao que parece, ele nasce da desconfiança. Por outro lado, ainda que parece simpático, pode levar à corrupção.",
+  "corrected": "Em primeiro lugar, é possível que o jeitinho seja uma forma de conciliar a lei e as relações pessoais, como sugere Roberto DaMatta. Além disso, ao que parece, ele nasce da desconfiança. Por outro lado, ainda que pareça simpático, pode levar à corrupção.",
+  "errors": [
+   {
+    "wrong": "jeitinho é",
+    "right": "jeitinho seja",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "Além de isso",
+    "right": "Além disso",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "que parece simpático",
+    "right": "que pareça simpático",
+    "cat": "subjuntivo"
+   }
+  ]
+ },
+ {
+  "week": 47,
+  "text": "Tudo indica que as cotas raciais nas universidades diminuíram a desigualdade. Mesmo que haja críticas, os datos mostram resultados positivos. Por mais que alguns discordam, a lei de 2012 mudou o perfil dos estudantes.",
+  "corrected": "Tudo indica que as cotas raciais nas universidades diminuíram a desigualdade. Mesmo que haja críticas, os dados mostram resultados positivos. Por mais que alguns discordem, a lei de 2012 mudou o perfil dos estudantes.",
+  "errors": [
+   {
+    "wrong": "datos",
+    "right": "dados",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "alguns discordam",
+    "right": "alguns discordem",
+    "cat": "subjuntivo"
+   }
+  ]
+ },
+ {
+  "week": 47,
+  "text": "Em suma, a ditadura de 1964 a 1985 deixou marcas profundas. É provável que muitas famílias ainda não sabem o que aconteceu com os seus parentes. Por isso, a Comissão Nacional da Verdade, criada em 2011, foi tão importante.",
+  "corrected": "Em suma, a ditadura de 1964 a 1985 deixou marcas profundas. É provável que muitas famílias ainda não saibam o que aconteceu com os seus parentes. Por isso, a Comissão Nacional da Verdade, criada em 2011, foi tão importante.",
+  "errors": [
+   {
+    "wrong": "ainda não sabem",
+    "right": "ainda não saibam",
+    "cat": "subjuntivo"
+   }
+  ]
+ },
+ {
+  "week": 48,
+  "text": "Em Raízes do Brasil, de 1936, Sérgio Buarque de Holanda defende de que o homem cordial é um traço da nossa formação. Segundo o autor, cordial não quer dizer bondoso, sino que vem de cor, coração.",
+  "corrected": "Em Raízes do Brasil, de 1936, Sérgio Buarque de Holanda defende que o homem cordial é um traço da nossa formação. Segundo o autor, cordial não quer dizer bondoso, mas vem de cor, coração.",
+  "errors": [
+   {
+    "wrong": "defende de que",
+    "right": "defende que",
+    "cat": "regencia"
+   },
+   {
+    "wrong": "sino que vem",
+    "right": "mas vem",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 48,
+  "text": "Em Casa-Grande & Senzala, de 1933, Gilberto Freyre sustenta que a sociedade brasileira nasceu da mistura entre portugueses, indígenas e africanos. De acordo a crítica, porém, ele suavizou a violência da escravidão. Ou sea, o livro é importante, mas polêmico.",
+  "corrected": "Em Casa-Grande & Senzala, de 1933, Gilberto Freyre sustenta que a sociedade brasileira nasceu da mistura entre portugueses, indígenas e africanos. De acordo com a crítica, porém, ele suavizou a violência da escravidão. Ou seja, o livro é importante, mas polêmico.",
+  "errors": [
+   {
+    "wrong": "De acordo a",
+    "right": "De acordo com a",
+    "cat": "regencia"
+   },
+   {
+    "wrong": "Ou sea",
+    "right": "Ou seja",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 48,
+  "text": "Darcy Ribeiro, em O Povo Brasileiro, de 1995, afirma que o Brasil é um povo novo. O antropólogo ressalta que a formação de o país foi feita com muito sofrimento. Conforme o autor, os brasileiros son um povo mestiço que ainda está se fazendo.",
+  "corrected": "Darcy Ribeiro, em O Povo Brasileiro, de 1995, afirma que o Brasil é um povo novo. O antropólogo ressalta que a formação do país foi feita com muito sofrimento. Conforme o autor, os brasileiros são um povo mestiço que ainda está se fazendo.",
+  "errors": [
+   {
+    "wrong": "de o país",
+    "right": "do país",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "son um povo",
+    "right": "são um povo",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 49,
+  "text": "Tem, na obra de Carolina Maria de Jesus, uma força que poucos livros possuem. Em Quarto de Despejo, a autora descreve a fome na favela do Canindé. A gente, leitores, se reconhece na voz dela.",
+  "corrected": "Há, na obra de Carolina Maria de Jesus, uma força que poucos livros possuem. Em Quarto de Despejo, a autora descreve a fome na favela do Canindé. Nós, leitores, nos reconhecemos na voz dela.",
+  "errors": [
+   {
+    "wrong": "Tem, na obra",
+    "right": "Há, na obra",
+    "cat": "lexico"
+   },
+   {
+    "wrong": "A gente, leitores, se reconhece",
+    "right": "Nós, leitores, nos reconhecemos",
+    "cat": "lexico"
+   }
+  ]
+ },
+ {
+  "week": 49,
+  "text": "Pra entender o livro, tem que ler devagar. Tá claro que a autora escrevia com dificuldade, mas o texto é forte. Cadê o respeito que ela merecia?",
+  "corrected": "Para entender o livro, é preciso ler devagar. Está claro que a autora escrevia com dificuldade, mas o texto é forte. Onde está o respeito que ela merecia?",
+  "errors": [
+   {
+    "wrong": "Pra entender",
+    "right": "Para entender",
+    "cat": "lexico"
+   },
+   {
+    "wrong": "tem que ler",
+    "right": "é preciso ler",
+    "cat": "lexico"
+   },
+   {
+    "wrong": "Tá claro",
+    "right": "Está claro",
+    "cat": "lexico"
+   },
+   {
+    "wrong": "Cadê o respeito",
+    "right": "Onde está o respeito",
+    "cat": "lexico"
+   }
+  ]
+ },
+ {
+  "week": 49,
+  "text": "Quando saiu, em 1960, o livro vendeu muitísimo. Os críticos, porém, diziam que ele não era literatura. Hoje, felizmente, as escolas lêem Carolina. Contudo, ainda existem muitos preconceitos.",
+  "corrected": "Quando saiu, em 1960, o livro vendeu muitíssimo. Os críticos, porém, diziam que ele não era literatura. Hoje, felizmente, as escolas leem Carolina. Contudo, ainda existem muitos preconceitos.",
+  "errors": [
+   {
+    "wrong": "muitísimo",
+    "right": "muitíssimo",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "lêem",
+    "right": "leem",
+    "cat": "ortografia"
+   }
+  ]
+ },
+ {
+  "week": 50,
+  "text": "Ontem pisei a bola com a minha amiga: esqueci o aniversário dela. Mas dei um jeito: fiz questão de levar um bolo à casa dela. Ela levou tudo em brincadeira e ficou de boa.",
+  "corrected": "Ontem pisei na bola com a minha amiga: esqueci o aniversário dela. Mas dei um jeito: fiz questão de levar um bolo à casa dela. Ela levou tudo na brincadeira e ficou de boa.",
+  "errors": [
+   {
+    "wrong": "pisei a bola",
+    "right": "pisei na bola",
+    "cat": "lexico"
+   },
+   {
+    "wrong": "em brincadeira",
+    "right": "na brincadeira",
+    "cat": "lexico"
+   }
+  ]
+ },
+ {
+  "week": 50,
+  "text": "Quero tomar una decisão importante, mas não quero meter a pata. O meu pai sempre diz: de grão em grão, a galinha enche o papo. Vou levar a sério o conselho dele e dar um jeito na minha vida.",
+  "corrected": "Quero tomar uma decisão importante, mas não quero pisar na bola. O meu pai sempre diz: de grão em grão, a galinha enche o papo. Vou levar a sério o conselho dele e dar um jeito na minha vida.",
+  "errors": [
+   {
+    "wrong": "una decisão",
+    "right": "uma decisão",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "meter a pata",
+    "right": "pisar na bola",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 50,
+  "text": "Esse chefe enche o saco! Hoje ele me fez ficar hasta tarde. Mas eu não levo a sério: amanhã vai dar certo. Quem não tem perro, caça com gato. Vou dar uma volta na praia para esfriar a cabeça.",
+  "corrected": "Esse chefe enche o saco! Hoje ele me fez ficar até tarde. Mas eu não levo a sério: amanhã vai dar certo. Quem não tem cão, caça com gato. Vou dar uma volta na praia para esfriar a cabeça.",
+  "errors": [
+   {
+    "wrong": "hasta tarde",
+    "right": "até tarde",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "perro",
+    "right": "cão",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 51,
+  "text": "Querido eu de um ano atrás: quando você lê esta carta, já vai falar português. Tenho estudado todos os dias. Para nós chegar até aqui, foi preciso paciência. Se você tivesse desistido, não teria descoberto Guimarães Rosa. Vai a praia e lê muito!",
+  "corrected": "Querido eu de um ano atrás: quando você ler esta carta, já vai falar português. Tenho estudado todos os dias. Para nós chegarmos até aqui, foi preciso paciência. Se você tivesse desistido, não teria descoberto Guimarães Rosa. Vai à praia e lê muito!",
+  "errors": [
+   {
+    "wrong": "você lê esta",
+    "right": "você ler esta",
+    "cat": "futuro_subj"
+   },
+   {
+    "wrong": "nós chegar",
+    "right": "nós chegarmos",
+    "cat": "inf_pessoal"
+   },
+   {
+    "wrong": "Vai a praia",
+    "right": "Vai à praia",
+    "cat": "crase"
+   }
+  ]
+ },
+ {
+  "week": 51,
+  "text": "Este ano eu tenho aprendido muito. Ontem tenho lido um conto de Machado. Se eu ter tempo no ano que vem, vou fazer o Celpe-Bras. É importante os alunos praticar todos os dias.",
+  "corrected": "Este ano eu tenho aprendido muito. Ontem li um conto de Machado. Se eu tiver tempo no ano que vem, vou fazer o Celpe-Bras. É importante os alunos praticarem todos os dias.",
+  "errors": [
+   {
+    "wrong": "Ontem tenho lido",
+    "right": "Ontem li",
+    "cat": "perfeito_composto"
+   },
+   {
+    "wrong": "Se eu ter",
+    "right": "Se eu tiver",
+    "cat": "futuro_subj"
+   },
+   {
+    "wrong": "alunos praticar",
+    "right": "alunos praticarem",
+    "cat": "inf_pessoal"
+   }
+  ]
+ },
+ {
+  "week": 51,
+  "text": "Quando eu voltar a Buenos Aires, vou sentir saudade do Rio. Gosto muito a praia, das rodas de samba e dos meus amigos cariocas. Espero que vocês vem me visitar. Se vocês vierem, a gente vai a Recoleta.",
+  "corrected": "Quando eu voltar a Buenos Aires, vou sentir saudade do Rio. Gosto muito da praia, das rodas de samba e dos meus amigos cariocas. Espero que vocês venham me visitar. Se vocês vierem, a gente vai à Recoleta.",
+  "errors": [
+   {
+    "wrong": "Gosto muito a praia",
+    "right": "Gosto muito da praia",
+    "cat": "gostar"
+   },
+   {
+    "wrong": "vocês vem",
+    "right": "vocês venham",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "vai a Recoleta",
+    "right": "vai à Recoleta",
+    "cat": "crase"
+   }
+  ]
+ },
+ {
+  "week": 16,
+  "tanda": "2026-09",
+  "text": "Ontem fui a o médico porque estava com dor de cabeça. O médico foi muy simpático e me deu um remédio. Agora estoy melhor, mas ainda tenho um pouco de febre.",
+  "corrected": "Ontem fui ao médico porque estava com dor de cabeça. O médico foi muito simpático e me deu um remédio. Agora estou melhor, mas ainda tenho um pouco de febre.",
+  "errors": [
+   {
+    "wrong": "a o",
+    "right": "ao",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "muy",
+    "right": "muito",
+    "cat": "muito"
+   },
+   {
+    "wrong": "estoy",
+    "right": "estou",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 16,
+  "tanda": "2026-09",
+  "text": "No sábado fui ao supermercado com a minha irmã. Ela gosta muito as frutas tropicais e comprou manga, caju e maracujá. Eu comprei um queso e duas garrafas de vinho. A fila estava enorme!",
+  "corrected": "No sábado fui ao supermercado com a minha irmã. Ela gosta muito das frutas tropicais e comprou manga, caju e maracujá. Eu comprei um queijo e duas garrafas de vinho. A fila estava enorme!",
+  "errors": [
+   {
+    "wrong": "gosta muito as",
+    "right": "gosta muito das",
+    "cat": "gostar"
+   },
+   {
+    "wrong": "queso",
+    "right": "queijo",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 18,
+  "tanda": "2026-09",
+  "text": "Cuando eu era criança, jugava futebol todos os dias na rua. Meu time preferido era o Boca, mas agora torço pelo Flamengo. Ontem vi o jogo no bar com uns amigos e o Flamengo ganhou por dois a zero.",
+  "corrected": "Quando eu era criança, jogava futebol todos os dias na rua. Meu time preferido era o Boca, mas agora torço pelo Flamengo. Ontem vi o jogo no bar com uns amigos e o Flamengo ganhou por dois a zero.",
+  "errors": [
+   {
+    "wrong": "Cuando",
+    "right": "Quando",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "jugava",
+    "right": "jogava",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 10,
+  "tanda": "2026-09",
+  "text": "Minha nova casa fica em Botafogo. O apartamento tem dois quartos, uma cozinha pequeña e uma varanda com vista para o morro. O viagem até o trabalho é curta e o bairro é muito tranquilo.",
+  "corrected": "Minha nova casa fica em Botafogo. O apartamento tem dois quartos, uma cozinha pequena e uma varanda com vista para o morro. A viagem até o trabalho é curta e o bairro é muito tranquilo.",
+  "errors": [
+   {
+    "wrong": "pequeña",
+    "right": "pequena",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "O viagem",
+    "right": "A viagem",
+    "cat": "genero"
+   }
+  ]
+ },
+ {
+  "week": 21,
+  "tanda": "2026-09",
+  "text": "Este mês tenho trabalhado muito. Ontem he terminado um projeto grande e o meu chefe ficou contente. Hoje tenho saído cedo do escritório para descansar.",
+  "corrected": "Este mês tenho trabalhado muito. Ontem terminei um projeto grande e o meu chefe ficou contente. Hoje saí cedo do escritório para descansar.",
+  "errors": [
+   {
+    "wrong": "he terminado",
+    "right": "terminei",
+    "cat": "perfeito_composto"
+   },
+   {
+    "wrong": "tenho saído",
+    "right": "saí",
+    "cat": "perfeito_composto"
+   }
+  ]
+ },
+ {
+  "week": 27,
+  "tanda": "2026-09",
+  "text": "Quando eu ter férias, vou viajar para o Nordeste. Se eu consigo passagens baratas, vou para Salvador e depois para Recife. Assim que chegar, vou te mandar fotos.",
+  "corrected": "Quando eu tiver férias, vou viajar para o Nordeste. Se eu conseguir passagens baratas, vou para Salvador e depois para Recife. Assim que chegar, vou te mandar fotos.",
+  "errors": [
+   {
+    "wrong": "ter",
+    "right": "tiver",
+    "cat": "futuro_subj"
+   },
+   {
+    "wrong": "consigo",
+    "right": "conseguir",
+    "cat": "futuro_subj"
+   }
+  ]
+ },
+ {
+  "week": 29,
+  "tanda": "2026-09",
+  "text": "A professora pediu para nós ler o livro até sexta. É importante os alunos participar das aulas. Depois de terminar a leitura, podemos discutir o final.",
+  "corrected": "A professora pediu para nós lermos o livro até sexta. É importante os alunos participarem das aulas. Depois de terminar a leitura, podemos discutir o final.",
+  "errors": [
+   {
+    "wrong": "ler",
+    "right": "lermos",
+    "cat": "inf_pessoal"
+   },
+   {
+    "wrong": "participar",
+    "right": "participarem",
+    "cat": "inf_pessoal"
+   }
+  ]
+ },
+ {
+  "week": 23,
+  "tanda": "2026-09",
+  "text": "Espero que você pode vir à minha festa de aniversário no sábado. Quero que todos os meus amigos estão lá. É importante que alguém traz o violão!",
+  "corrected": "Espero que você possa vir à minha festa de aniversário no sábado. Quero que todos os meus amigos estejam lá. É importante que alguém traga o violão!",
+  "errors": [
+   {
+    "wrong": "pode",
+    "right": "possa",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "estão",
+    "right": "estejam",
+    "cat": "subjuntivo"
+   },
+   {
+    "wrong": "traz",
+    "right": "traga",
+    "cat": "subjuntivo"
+   }
+  ]
+ },
+ {
+  "week": 36,
+  "tanda": "2026-09",
+  "text": "Todos os dias acordo as sete e vou a academia antes do trabalho. A tarde trabalho em casa e a noite vou à aula de dança.",
+  "corrected": "Todos os dias acordo às sete e vou à academia antes do trabalho. À tarde trabalho em casa e à noite vou à aula de dança.",
+  "errors": [
+   {
+    "wrong": "as sete",
+    "right": "às sete",
+    "cat": "crase"
+   },
+   {
+    "wrong": "a academia",
+    "right": "à academia",
+    "cat": "crase"
+   },
+   {
+    "wrong": "A tarde",
+    "right": "À tarde",
+    "cat": "crase"
+   },
+   {
+    "wrong": "a noite",
+    "right": "à noite",
+    "cat": "crase"
+   }
+  ]
+ },
+ {
+  "week": 35,
+  "tanda": "2026-09",
+  "text": "Ontem sonhei de você. Gosto muito conversar com você e penso muito na nossa viagem ao Nordeste.",
+  "corrected": "Ontem sonhei com você. Gosto muito de conversar com você e penso muito na nossa viagem ao Nordeste.",
+  "errors": [
+   {
+    "wrong": "sonhei de",
+    "right": "sonhei com",
+    "cat": "regencia"
+   },
+   {
+    "wrong": "Gosto muito conversar",
+    "right": "Gosto muito de conversar",
+    "cat": "gostar"
+   }
+  ]
+ },
+ {
+  "week": 45,
+  "tanda": "2026-09",
+  "text": "No restaurante pedi um vaso de suco e uma salada. A comida estava exquisita e o garçom foi muito simpático. No final deixei uma propina de dez reais.",
+  "corrected": "No restaurante pedi um copo de suco e uma salada. A comida estava deliciosa e o garçom foi muito simpático. No final deixei uma gorjeta de dez reais.",
+  "errors": [
+   {
+    "wrong": "vaso",
+    "right": "copo",
+    "cat": "falso_amigo"
+   },
+   {
+    "wrong": "exquisita",
+    "right": "deliciosa",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "propina",
+    "right": "gorjeta",
+    "cat": "falso_amigo"
+   }
+  ]
+ },
+ {
+  "week": 19,
+  "tanda": "2026-09",
+  "text": "O Rio é mais grande que Buenos Aires? Não, mas é mais bonito. Hoje o tempo é muito quente e a praia é cheia de gente.",
+  "corrected": "O Rio é maior que Buenos Aires? Não, mas é mais bonito. Hoje o tempo está muito quente e a praia está cheia de gente.",
+  "errors": [
+   {
+    "wrong": "mais grande",
+    "right": "maior",
+    "cat": "regularizacion"
+   },
+   {
+    "wrong": "é muito quente",
+    "right": "está muito quente",
+    "cat": "ser_estar"
+   },
+   {
+    "wrong": "é cheia",
+    "right": "está cheia",
+    "cat": "ser_estar"
+   }
+  ]
+ },
+ {
+  "week": 16,
+  "tanda": "2026-09",
+  "text": "Conheci a Júlia na faculdade. Eu la convidei para jantar e ela aceitou. Depois do jantar, ela me deu um livro de Clarice Lispector. Isso foi muito especial para mí.",
+  "corrected": "Conheci a Júlia na faculdade. Eu a convidei para jantar e ela aceitou. Depois do jantar, ela me deu um livro de Clarice Lispector. Isso foi muito especial para mim.",
+  "errors": [
+   {
+    "wrong": "la convidei",
+    "right": "a convidei",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "mí",
+    "right": "mim",
+    "cat": "pronome"
+   }
+  ]
+ },
+ {
+  "week": 11,
+  "tanda": "2026-09",
+  "text": "No domingo visitei a minha avó no hospital. Também vi ao médico dela, que me explicou tudo. Depois chamei a meu irmão para contar as notícias.",
+  "corrected": "No domingo visitei a minha avó no hospital. Também vi o médico dela, que me explicou tudo. Depois chamei meu irmão para contar as notícias.",
+  "errors": [
+   {
+    "wrong": "vi ao médico",
+    "right": "vi o médico",
+    "cat": "a_personal"
+   },
+   {
+    "wrong": "chamei a meu irmão",
+    "right": "chamei meu irmão",
+    "cat": "a_personal"
+   }
+  ]
+ },
+ {
+  "week": 28,
+  "tanda": "2026-09",
+  "text": "Se eu tivesse mais tempo, eu estudarei piano. E se eu morava perto da praia, iria todos os dias.",
+  "corrected": "Se eu tivesse mais tempo, eu estudaria piano. E se eu morasse perto da praia, iria todos os dias.",
+  "errors": [
+   {
+    "wrong": "estudarei",
+    "right": "estudaria",
+    "cat": "tempo"
+   },
+   {
+    "wrong": "morava",
+    "right": "morasse",
+    "cat": "subjuntivo"
+   }
+  ]
+ },
+ {
+  "week": 9,
+  "tanda": "2026-09",
+  "text": "Nao sei se voce conhece o Cristo Redentor. E muito bonito e tem uma vista incrivel da cidade.",
+  "corrected": "Não sei se você conhece o Cristo Redentor. É muito bonito e tem uma vista incrível da cidade.",
+  "errors": [
+   {
+    "wrong": "Nao",
+    "right": "Não",
+    "cat": "nasal"
+   },
+   {
+    "wrong": "voce",
+    "right": "você",
+    "cat": "tilde"
+   },
+   {
+    "wrong": "E muito",
+    "right": "É muito",
+    "cat": "tilde"
+   },
+   {
+    "wrong": "incrivel",
+    "right": "incrível",
+    "cat": "tilde"
+   }
+  ]
+ },
+ {
+  "week": 5,
+  "tanda": "2026-09",
+  "text": "Meus pais mora em Córdoba e eu moro no Rio. Você fala português muito bem! A gente vamos à praia no sábado?",
+  "corrected": "Meus pais moram em Córdoba e eu moro no Rio. Você fala português muito bem! A gente vai à praia no sábado?",
+  "errors": [
+   {
+    "wrong": "mora",
+    "right": "moram",
+    "cat": "persona"
+   },
+   {
+    "wrong": "vamos",
+    "right": "vai",
+    "cat": "persona"
+   }
+  ]
+ },
+ {
+  "week": 22,
+  "tanda": "2026-09",
+  "text": "O contrato já foi assinado e a conta foi pagada ontem. O relatório foi escrevido pela equipe e entregue na segunda.",
+  "corrected": "O contrato já foi assinado e a conta foi paga ontem. O relatório foi escrito pela equipe e entregue na segunda.",
+  "errors": [
+   {
+    "wrong": "pagada",
+    "right": "paga",
+    "cat": "participio"
+   },
+   {
+    "wrong": "escrevido",
+    "right": "escrito",
+    "cat": "participio"
+   }
+  ]
+ },
+ {
+  "week": 33,
+  "tanda": "2026-09",
+  "text": "Machado de Assis tornou-se famoso muito jovem. Me parece que ninguém descreveu o Rio como ele. Os seus romances não deixam-nos indiferentes.",
+  "corrected": "Machado de Assis tornou-se famoso muito jovem. Parece-me que ninguém descreveu o Rio como ele. Os seus romances não nos deixam indiferentes.",
+  "errors": [
+   {
+    "wrong": "Me parece",
+    "right": "Parece-me",
+    "cat": "colocacao"
+   },
+   {
+    "wrong": "não deixam-nos",
+    "right": "não nos deixam",
+    "cat": "colocacao"
+   }
+  ]
+ },
+ {
+  "week": 40,
+  "tanda": "2026-09",
+  "text": "O relatório mostra que tem muitos problemas na saúde pública. Tem pouco investimento e os hospitais estão cheios. É preciso investir mais pra melhorar o atendimento.",
+  "corrected": "O relatório mostra que há muitos problemas na saúde pública. Há pouco investimento e os hospitais estão cheios. É preciso investir mais para melhorar o atendimento.",
+  "errors": [
+   {
+    "wrong": "tem",
+    "right": "há",
+    "cat": "registro"
+   },
+   {
+    "wrong": "Tem",
+    "right": "Há",
+    "cat": "registro"
+   },
+   {
+    "wrong": "pra",
+    "right": "para",
+    "cat": "registro"
+   }
+  ]
+ },
+ {
+  "week": 43,
+  "tanda": "2026-09",
+  "text": "Prezado professor, escrevo pra pedir uma prorrogação do prazo do trabalho. Tô com um problema de saúde e não consegui terminar. Atentamente, Lucía",
+  "corrected": "Prezado professor, escrevo para pedir uma prorrogação do prazo do trabalho. Estou com um problema de saúde e não consegui terminar. Atenciosamente, Lucía",
+  "errors": [
+   {
+    "wrong": "pra",
+    "right": "para",
+    "cat": "registro"
+   },
+   {
+    "wrong": "Tô",
+    "right": "Estou",
+    "cat": "registro"
+   },
+   {
+    "wrong": "Atentamente",
+    "right": "Atenciosamente",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 12,
+  "tanda": "2026-09",
+  "text": "Por favor, hablá mais devagar. Você podés me ligar amanhã de manhã.",
+  "corrected": "Por favor, fale mais devagar. Você pode me ligar amanhã de manhã.",
+  "errors": [
+   {
+    "wrong": "hablá",
+    "right": "fale",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "podés",
+    "right": "pode",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 24,
+  "tanda": "2026-09",
+  "text": "Comecei a estudar portugues em março. No começo foi dificil, mas agora entendo quase tudo. Minha cabeca ainda mistura as duas línguas.",
+  "corrected": "Comecei a estudar português em março. No começo foi difícil, mas agora entendo quase tudo. Minha cabeça ainda mistura as duas línguas.",
+  "errors": [
+   {
+    "wrong": "portugues",
+    "right": "português",
+    "cat": "tilde"
+   },
+   {
+    "wrong": "dificil",
+    "right": "difícil",
+    "cat": "tilde"
+   },
+   {
+    "wrong": "cabeca",
+    "right": "cabeça",
+    "cat": "ortografia"
+   }
+  ]
+ },
+ {
+  "week": 38,
+  "tanda": "2026-09",
+  "text": "E aí, tudo bem? Tô no centro e vou pra Lapa depois. Cê quer vir? A gente se encontra en frente dos Arcos às dez.",
+  "corrected": "E aí, tudo bem? Tô no centro e vou pra Lapa depois. Cê quer vir? A gente se encontra em frente aos Arcos às dez.",
+  "errors": [
+   {
+    "wrong": "en frente dos",
+    "right": "em frente aos",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 20,
+  "tanda": "2026-09",
+  "text": "Não tem ninguém em casa. Nunca não saio à noite durante a semana. Algún dia vou morar em Portugal.",
+  "corrected": "Não tem ninguém em casa. Nunca saio à noite durante a semana. Algum dia vou morar em Portugal.",
+  "errors": [
+   {
+    "wrong": "não",
+    "right": "",
+    "cat": "sobrante"
+   },
+   {
+    "wrong": "Algún",
+    "right": "Algum",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 26,
+  "tanda": "2026-09",
+  "text": "A cidade onde nasci é pequena. Os homems que trabalham na padaria fazem os melhores pãos do bairro.",
+  "corrected": "A cidade onde nasci é pequena. Os homens que trabalham na padaria fazem os melhores pães do bairro.",
+  "errors": [
+   {
+    "wrong": "homems",
+    "right": "homens",
+    "cat": "plural"
+   },
+   {
+    "wrong": "pãos",
+    "right": "pães",
+    "cat": "plural"
+   }
+  ]
+ },
+ {
+  "week": 13,
+  "tanda": "2026-09b",
+  "text": "Minha irmã tem um cachorro muy grande que se chama Toto. Todas as manhãs ela passeia com ele no parque. O cachorro gosta muito de correr atras das pombas.",
+  "corrected": "Minha irmã tem um cachorro muito grande que se chama Toto. Todas as manhãs ela passeia com ele no parque. O cachorro gosta muito de correr atrás das pombas.",
+  "errors": [
+   {
+    "wrong": "muy",
+    "right": "muito",
+    "cat": "muito"
+   },
+   {
+    "wrong": "atras",
+    "right": "atrás",
+    "cat": "tilde"
+   }
+  ]
+ },
+ {
+  "week": 17,
+  "tanda": "2026-09b",
+  "text": "No próximo año eu vou estudar medicina na universidad. Meus pais vão ficar felizes e a minha avó vai fazer uma festa.",
+  "corrected": "No próximo ano eu vou estudar medicina na universidade. Meus pais vão ficar felizes e a minha avó vai fazer uma festa.",
+  "errors": [
+   {
+    "wrong": "año",
+    "right": "ano",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "universidad",
+    "right": "universidade",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 25,
+  "tanda": "2026-09b",
+  "text": "Os problemas que o governo tem que resolver são muitas: a saúde, a educação e o trânsito.",
+  "corrected": "Os problemas que o governo tem que resolver são muitos: a saúde, a educação e o trânsito.",
+  "errors": [
+   {
+    "wrong": "muitas",
+    "right": "muitos",
+    "cat": "concordancia"
+   }
+  ]
+ },
+ {
+  "week": 30,
+  "tanda": "2026-09b",
+  "text": "Se eu tinha estudado mais, teria passado na prova. Agora preciso fazer tudo de novo.",
+  "corrected": "Se eu tivesse estudado mais, teria passado na prova. Agora preciso fazer tudo de novo.",
+  "errors": [
+   {
+    "wrong": "tinha estudado",
+    "right": "tivesse estudado",
+    "cat": "subjuntivo"
+   }
+  ]
+ },
+ {
+  "week": 14,
+  "tanda": "2026-09b",
+  "text": "Me gusta muito a música brasileira, sobretudo o samba e a bossa nova. Meu cantor favorito é Caetano Veloso.",
+  "corrected": "Eu gosto muito da música brasileira, sobretudo do samba e da bossa nova. Meu cantor favorito é Caetano Veloso.",
+  "errors": [
+   {
+    "wrong": "Me gusta",
+    "right": "Eu gosto de",
+    "cat": "gostar"
+   }
+  ]
+ },
+ {
+  "week": 8,
+  "tanda": "2026-09b",
+  "text": "Amanhã vou a visitar o Museu do Amanhã com meus colegas de trabalho.",
+  "corrected": "Amanhã vou visitar o Museu do Amanhã com meus colegas de trabalho.",
+  "errors": [
+   {
+    "wrong": "a visitar",
+    "right": "visitar",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 32,
+  "tanda": "2026-09b",
+  "text": "Se vende apartamento no Leblon. Aceitam-se cartões.",
+  "corrected": "Vende-se apartamento no Leblon. Aceitam-se cartões.",
+  "errors": [
+   {
+    "wrong": "Se vende",
+    "right": "Vende-se",
+    "cat": "colocacao"
+   }
+  ]
+ },
+ {
+  "week": 3,
+  "tanda": "2026-09b",
+  "text": "Moro em a Rua das Laranjeiras, perto de o metrô. De manhã tomo café em a padaria.",
+  "corrected": "Moro na Rua das Laranjeiras, perto do metrô. De manhã tomo café na padaria.",
+  "errors": [
+   {
+    "wrong": "em a",
+    "right": "na",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "de o",
+    "right": "do",
+    "cat": "contraccion"
+   },
+   {
+    "wrong": "em a",
+    "right": "na",
+    "cat": "contraccion"
+   }
+  ]
+ },
+ {
+  "week": 44,
+  "tanda": "2026-09b",
+  "text": "Todo domingo tomo um cafecito na padaria e como um pãozinho com manteca.",
+  "corrected": "Todo domingo tomo um cafezinho na padaria e como um pãozinho com manteiga.",
+  "errors": [
+   {
+    "wrong": "cafecito",
+    "right": "cafezinho",
+    "cat": "espanol"
+   },
+   {
+    "wrong": "manteca",
+    "right": "manteiga",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 37,
+  "tanda": "2026-09b",
+  "text": "Os cientistas mantem os dados em segredo e propoem novas regras.",
+  "corrected": "Os cientistas mantêm os dados em segredo e propõem novas regras.",
+  "errors": [
+   {
+    "wrong": "mantem",
+    "right": "mantêm",
+    "cat": "tilde"
+   },
+   {
+    "wrong": "propoem",
+    "right": "propõem",
+    "cat": "nasal"
+   }
+  ]
+ },
+ {
+  "week": 47,
+  "tanda": "2026-09b",
+  "text": "Embora o jeitinho parece simpático, ele pode abrir caminho para a corrupção.",
+  "corrected": "Embora o jeitinho pareça simpático, ele pode abrir caminho para a corrupção.",
+  "errors": [
+   {
+    "wrong": "parece",
+    "right": "pareça",
+    "cat": "subjuntivo"
+   }
+  ]
+ },
+ {
+  "week": 15,
+  "tanda": "2026-09b",
+  "text": "Quando eu era pequeno, eu brincaba na rua com os meus primos.",
+  "corrected": "Quando eu era pequeno, eu brincava na rua com os meus primos.",
+  "errors": [
+   {
+    "wrong": "brincaba",
+    "right": "brincava",
+    "cat": "espanol"
+   }
+  ]
+ },
+ {
+  "week": 34,
+  "tanda": "2026-09b",
+  "text": "Fiquei muito embarazada quando esqueci o nome da professora.",
+  "corrected": "Fiquei muito envergonhada quando esqueci o nome da professora.",
+  "errors": [
+   {
+    "wrong": "embarazada",
+    "right": "envergonhada",
+    "cat": "espanol"
+   }
+  ]
+ }
+]

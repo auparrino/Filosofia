@@ -1,0 +1,144 @@
+{
+ "week": 4,
+ "title": "Adjetivos, cores e nacionalidades",
+ "level": "A1",
+ "revisado": {
+  "items": 47,
+  "bloques_teoria": 7,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 15,
+  "radio": 0,
+  "otros": 12
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida y casi sin errores de portugués: la teoría es correcta, corta y con buen contraste con el español (muito, roxo, -ês/-esa, plurales en -l). Hay un único error claro (ítem s1-04-15: dos opciones correctas y una nota falsa sobre «raro»). El principal problema es de diseño: 47 ítems con mucha redundancia (casi las mismas frases repetidas en choice, cloze y translate), casi todo reconocimiento/producción cerrada, y poco trabajo de ser/estar/ter y de las nacionalidades. La lectura y el dictogloss son naturales, pero describen distinto a Bia.",
+ "bien": [
+  "La teoría ataca los errores típicos del rioplatense: «muy», muito/muitas ante adjetivo, fáciles/azules/españoles, roxo = violeta, circunflejo de português que cae en portuguesa.",
+  "Tabla de plurales en -l con distinción -il átona/tónica (fáceis vs gentis), correcta y poco frecuente en cursos A1.",
+  "Vocabulario con falsos amigos bien elegidos (esquisito, chato, roxo, engraçado) y notas culturales precisas (carioca/fluminense, pelado = desnudo).",
+  "Lectura natural y contextualizada (Copacabana) que usa colores, nacionalidades y descripciones físicas, con preguntas y V/F/non si dice válidos.",
+  "Los pares mínimos y notas fonéticas de suoni (mel/meu, alto/ato, país/pais, ti/di) son correctos y pertinentes al tema de la semana.",
+  "Ítems con distractores basados en errores reales del hispanohablante (inglêsa, espanholes, muita bonita)."
+ ],
+ "hallazgos": [
+  {
+   "id": "item s1-04-15",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "«Ella es rara (extraña).» options: esquisita / rara / exquisita; answer: esquisita",
+   "propuesta": "Reemplazar el distractor «rara» por «estrangeira» (o aceptar también «rara»).",
+   "motivo": "«Ela é rara» es perfectamente natural en pt-BR con sentido de «extraña»; hay dos opciones correctas."
+  },
+  {
+   "id": "item s1-04-15",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Y ojo: *raro* en portugués significa «poco frecuente», no «extraño».",
+   "propuesta": "Y ojo: *raro* también existe, pero se usa más como «poco frecuente»; para «extraño» de personas es más común *esquisito* o *estranho*.",
+   "motivo": "Afirmación falsa: raro también significa «extraño, peculiar» en pt-BR (ela é meio rara)."
+  },
+  {
+   "id": "lesson:4",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Está *muito* calor.",
+   "propuesta": "Está muito calor. -> Faz muito calor. (o «Tá muito calor» como coloquial)",
+   "motivo": "«Faz muito calor» es la forma estándar; «Está muito calor» se oye pero es coloquial/discutida, no ideal como modelo A1 para «hace mucho calor»."
+  },
+  {
+   "id": "item s1-04-10",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Gris = cinza (de «ceniza»), que no cambia en masculino: o céu está cinza.",
+   "propuesta": "Gris = cinza (de «ceniza»); como color suele quedar invariable: o céu está cinza, camisas cinza (también se oye cinzas).",
+   "motivo": "«No cambia en masculino» es confuso (cinza ya es una forma única) y presenta como regla absoluta lo que es tendencia: cinzas también es aceptado."
+  },
+  {
+   "id": "item s1-04-41",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Los terminados en -l no agregan -es: la l cae y entra -is. azul → azuis, legal → legais.",
+   "propuesta": "Muchos terminados en -l: la l cae y entra -is (azul → azuis, legal → legais); hay variantes (-ol → -óis, -il átona → -eis).",
+   "motivo": "Generalización demasiado absoluta (mal → males, mel → méis, espanhol → espanhóis); en esta semana ya se enseñan las excepciones."
+  },
+  {
+   "id": "lecturas w-04 / dictogloss",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "lectura: «A Bia é baixa, tem o cabelo curto e crespo»; dictogloss: «Bia ... É alta e magra, tem o cabelo comprido»",
+   "propuesta": "Unificar a los personajes recurrentes: en el dictogloss intercambiar las descripciones de Bia y Sofía, o cambiar el nombre.",
+   "motivo": "La misma Bia es baja en la lectura y alta en el dictogloss: confunde al alumno que ve ambos textos."
+  },
+  {
+   "id": "lesson:5",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "*cabelo liso* (lacio), *cacheado* o *crespo* (rulos)",
+   "propuesta": "*cacheado* (rulos), *crespo* (muy rizado, enrulado apretado)",
+   "motivo": "cacheado y crespo no son sinónimos; la lectura glosa crespo como «enrulado» sin matiz."
+  },
+  {
+   "id": "item s1-04-44",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "No cambia nunca.",
+   "propuesta": "Reemplazar la opción 3 «No cambia nunca.» por una falsa más sutil, p. ej. «Cambia solo ante adjetivos femeninos.»",
+   "motivo": "Un distractor demasiado obvio y dependiente del sentido, no de la regla."
+  },
+  {
+   "id": "item s1-04-36",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "accept: Tem olhos azuis. / Ele tem olhos azuis. / Ela tem olhos azuis. / Você tem olhos azuis.",
+   "propuesta": "Agregar «Tem os olhos azuis.» (y «Tem olhos azuis» con artículo) como respuestas válidas.",
+   "motivo": "Variante natural y frecuente en pt-BR que un alumno puede escribir."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Reducir redundancia: hay pares casi idénticos (s1-04-01/29 «praias lindas», 02/30 «exercícios fáceis», 05/40/42 «Lena alemã», 03/41 «azuis», 21/47 «portuguesa», 12/35 «muitos amigos», 11/25/34/37 «muito bonita/linda»). Reemplazarlos por frases distintas o por tipos de ejercicio que aún no aparecen (combina, listen, plural, qa).",
+   "por_que": "Con 47 ítems, ~12 repiten el mismo contraste; el tiempo del alumno rinde más con variedad."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar producción abierta: describir a una persona con ser/estar/ter (2-3 ítems qa/typed), ya que la parte 3 se anuncia como «cómo describir a alguien» pero solo tiene 2 cloze (tem/está).",
+   "por_que": "La teoría de ser/estar/ter y vocabulario físico (cabelo, olhos) casi no se practica."
+  },
+  {
+   "prioridad": "media",
+   "que": "Más práctica de nacionalidades y colores concordantes con distintos sustantivos (laranja, marrom, rosa, canadense, carioca) y de la forma «de + país» (de onde é).",
+   "por_que": "La intro promete «de dónde son» y la tabla trae canadense/carioca, pero ningún ítem los trabaja."
+  },
+  {
+   "prioridad": "media",
+   "que": "Incluir el patrón -ble → -vel de laboratorio en la lección (o un ítem) y explicar su plural -veis.",
+   "por_que": "Hoy aparece solo en laboratorio, desconectado de la teoría de plurales en -l."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Aclarar en la teoría que cinza/rosa/laranja suelen ser invariables pero pueden oírse con -s, y que «cada cuatro semanas, un acento» es un recurso de cultura.",
+   "por_que": "Evita presentar una tendencia como regla absoluta."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Aumentar ítems de reconocimiento auditivo (listen) de nacionalidades y colores, y variar los distractores en español (muy, azules, fáciles, rojo) que aparecen en casi todos los choice.",
+   "por_que": "Distractores en español puro son fáciles de descartar sin aplicar la regla."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "week": 7,
+ "title": "Números, horas e datas",
+ "level": "A1",
+ "revisado": {
+  "items": 53,
+  "bloques_teoria": 6,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 4,
+  "radio": 1,
+  "otros": 2
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida y correcta en lo esencial: números con género, días como ordinales, às/à con crase, é/são, meia=6 y precios están bien explicados y practicados, con lectura, dictogloss y radio coherentes (fechas y horarios consistentes). Hay un error de teoría (dezoito no lleva «e»), un error de español (veintiún personas) y algunas dudas de ejercicio (um quarto, radio q3). La práctica está muy cargada en números sueltos y casi no cubre precios, miles, centavos ni partes del día.",
+ "bien": [
+  "Teoría clara, con contraste constante con el español (quinhentos, cem/cento, doze/doce) y advertencias sobre errores típicos (dois cervejas, as/às).",
+  "Buena progresión de tipos: listen y choice (reconocimiento) → cloze → translate/typed (producción) → fixerr/garden/scopri.",
+  "Género de los números (um/uma, dois/duas, duzentas) practicado desde varios ángulos con distractores que apuntan a la regla.",
+  "Lectura, dictogloss y radio reciclan la gramática de la semana con fechas y días coherentes (15/ene lunes, 20/ene sábado) y contexto cultural brasileño (São Sebastião, Lapa, Pix, meia-entrada).",
+  "Pares mínimos y notas fonéticas pertinentes (doze/doce, l final = u, ñ→nh ligado a quinhentos/cinquenta)."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:2",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "veintiún personas",
+   "propuesta": "veintiuna personas",
+   "motivo": "«veintiún personas» es incorrecto en español: el sustantivo femenino exige «veintiuna personas»."
+  },
+  {
+   "id": "lesson:0",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Las trampas: *dezesseis, dezessete, dezoito, dezenove* (con *e*), *catorze* y *quinze*.",
+   "propuesta": "Las trampas: *dezesseis, dezessete, dezenove* (dez + e + unidad; ojo con la doble *s*), *dezoito* (sin *e*), *catorze* y *quinze*.",
+   "motivo": "dezoito = dez + oito, no lleva «e»; la regla agrupa mal el 18."
+  },
+  {
+   "id": "s1-07-01",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Los números del 16 al 19 se escriben con *dez-* y *e*: *dezesseis* lleva doble *s* para que suene [s] entre vocales.",
+   "propuesta": "Los números 16, 17 y 19 se escriben con *dez-* + *e* + unidad: *dezesseis* lleva doble *s* para que suene [s] entre vocales (el 18, *dezoito*, no lleva *e*).",
+   "motivo": "Generalización falsa: dezoito no tiene «e»; además contradice la nota de s1-07-16."
+  },
+  {
+   "id": "s1-07-14",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Quinze / Quarto / Um quarto",
+   "propuesta": "Cambiar el distractor «Um quarto» por uno inequívocamente incorrecto (p. ej. «Quinto») o aceptarlo",
+   "motivo": "«Um quarto para as oito» se usa en Brasil; hay posible segunda opción correcta (el lesson solo enseña quinze)."
+  },
+  {
+   "id": "s1-07-47",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "el portugués usa *sete* entero, donde el español dice «setecientos» con *-cientos*.",
+   "propuesta": "700 es *setecentos*: *sete* + *-centos* (en español, «setecientos»: *-cientos*).",
+   "motivo": "La frase sugiere que el español no tiene «sete»; confusa. La diferencia real es -centos/-cientos."
+  },
+  {
+   "id": "w-07 radio q3",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Mañana, miércoles, temprano",
+   "propuesta": "Mañana, miércoles, a las dos de la tarde",
+   "motivo": "Sofía dice «às duas em ponto» (14 h), no «temprano»; la opción correcta es imprecisa."
+  },
+  {
+   "id": "vocab:atrasado",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "demorado, que llega tarde",
+   "propuesta": "atrasado, que llega tarde",
+   "motivo": "«demorado» (lento / que tarda) no equivale a «atrasado»; glosa poco precisa."
+  },
+  {
+   "id": "lettura w-07",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Tocá los números escritos en letras (targets: ... \"um\" ... \"meia\" ...)",
+   "propuesta": "Evitar o aclarar «um» (aparece como artículo en «um bolo», «um show») y «meia» (fracción en «nove e meia»)",
+   "motivo": "El objetivo «um» coincide con artículos indefinidos; la caza queda ambigua."
+  },
+  {
+   "id": "s1-07-41",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Mirá los tres ejemplos y completá el cuarto. / 21 casas → ___ casas",
+   "propuesta": "Mostrar los tres ejemplos en el enunciado (p. ej. 1 casa → uma casa; 2 casas → duas casas; 3 casas → três casas)",
+   "motivo": "En el dossier el stem no incluye los ejemplos; si no se muestran, la consigna no alcanza (misma duda en s1-07-42 y 43)."
+  },
+  {
+   "id": "p-073",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Entre vocales, una s sola suena z (zumbido, como una abeja); ss, ç y c suenan s. El español no tiene esa z sonora.",
+   "propuesta": "zinco se escribe con z y suena [z] sonora; cinco, con c ante i, suena [s]. El español no tiene esa z sonora.",
+   "motivo": "La nota habla de la s entre vocales, que no aparece en el par; y «c» solo suena s ante e/i."
+  },
+  {
+   "id": "asc-pt-7-03",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "setenta / sessenta",
+   "propuesta": "Variar: setenta vs. sete / setecentos o 70 vs 17",
+   "motivo": "Casi duplicado de asc-pt-7-02 (mismo par con respuesta invertida); la nota «(te)» es críptica."
+  },
+  {
+   "id": "s1-07-35",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Quanto custa? / Quanto é?",
+   "propuesta": "Agregar «Quanto fica?» y «Quanto custa isso?» a accept",
+   "motivo": "Respuestas naturales en Brasil que un alumno puede escribir."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Corregir la regla de 16-19 (dezoito sin «e») en lesson:0 y en la nota de s1-07-01.",
+   "por_que": "Es el único error de contenido y enseña una generalización falsa."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Rebalancear la práctica: sobran los números sueltos (6 listen + ~25 ítems) y faltan ítems sobre precios con centavos (doze reais e cinquenta), mil/mil e quinhentos, da manhã/da tarde/da noite, fazer anos, meses y teléfono completo.",
+   "por_que": "Puntos enseñados con 0-1 ítems; la carga se concentra en un solo subtema."
+  },
+  {
+   "prioridad": "media",
+   "que": "Enseñar en la lección lo que aparece en radio/dictogloss: «de segunda a sexta», «das duas às seis», «e quinze», «meia(-entrada)» como mitad de precio, «em ponto», «ao dentista/à academia».",
+   "por_que": "Se evalúa/escucha gramática no presentada hasta esta semana."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir redundancia: el patrón «vinte e uma» está en 4-5 ítems (18, 29, 39, 41, lesson) y «Dois/Duas cervejas» en 5; reemplazar por ítems de producción de fechas y horas (por ejemplo cloze con «da tarde» o «Que dia é hoje?»).",
+   "por_que": "Cobertura desigual y repetición sin valor adicional."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar ítems de producción libre de hora y precio (typed: 3:30, 12,50) y de comprensión auditiva con números en contexto, no solo palabra aislada.",
+   "por_que": "Hoy la hora/precio se evalúa casi solo con elección y huecos de una palabra."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Lectura: ordenar cronológicamente (viernes antes de sábado) y aclarar «as duas» (Sofía y Bia).",
+   "por_que": "Facilita la comprensión en A1."
+  },
+  {
+   "prioridad": "baja",
+   "que": "El par número/numero (p-155) y oxigênio (a-005) quedan lejos del tema y del nivel A1; reubicar o reemplazar por pares de la semana (três/trez-, cem/sem, quarta/quatro).",
+   "por_que": "Pertinencia fonética con el vocabulario de la semana."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "es": {
+   "errores": 1,
+   "dudas": 2
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

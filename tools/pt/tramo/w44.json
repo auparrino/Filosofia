@@ -1,0 +1,402 @@
+{
+  "week": 44,
+  "level": "B2+",
+  "lettura": {
+    "title": "Cafezinho, golaço e sextou: a fábrica de palavras do português",
+    "emoji": "🧩",
+    "genre": "artigo de revista",
+    "grammar": "formação de palavras",
+    "text": "Numa padaria de qualquer cidade brasileira, a frase “me vê um cafezinho rapidinho?” não espanta ninguém. O cliente não quer necessariamente um café pequeno, nem está pedindo que o atendente saia correndo: está sendo gentil. O diminutivo, nesse caso, suaviza o pedido, aproxima as pessoas e revela algo que os linguistas repetem há décadas — no português do Brasil, as terminações das palavras dizem quase tanto quanto as próprias palavras.\n\nOs sufixos -inho e -zinho talvez sejam o exemplo mais famoso. Eles podem indicar tamanho (uma casinha no alto do morro), carinho (“vem cá, meu filhinho”), ironia (“que trabalhinho, hein?”) ou intensidade (“acordei cedinho”, “o pão está quentinho”). Há até diminutivos que perderam o sentido original e viraram palavras independentes: ninguém pensa em tamanho quando fala em “calcinha” ou na “folhinha” pendurada na parede da cozinha. Para a professora Helena Barros, que pesquisa morfologia numa universidade pública do Recife, o estrangeiro costuma errar menos na forma do que no tom. “O aluno aprende a dizer ‘obrigadinho’, mas não percebe que, dependendo da entonação, a palavra soa irônica”, observa.\n\nOs aumentativos seguem uma lógica parecida, só que ao contrário. Um casarão é uma casa grande, mas um golaço não é um gol comprido: é um gol bonito, digno de replay. Um filmão é um filme excelente, e um “jantarzão” é aquele jantar caprichado de domingo. Ao mesmo tempo, há aumentativos que carregam desprezo ou deboche: um narigão, um livrão chato, um “espertalhão”. Em outros casos, o sufixo -ão criou palavras novas, sem nenhuma ideia de tamanho: cartão, portão e salão têm parentesco com carta, porta e sala, mas hoje ninguém pensa neles como uma carta, uma porta ou uma sala gigantes.\n\nSe os sufixos dão cor, os prefixos costumam dar direção. O prefixo des- inverte (desfazer, desligar, descongelar), re- repete (reler, refazer, reescrever), pré- e pós- situam no tempo (pré-estreia, pós-graduação), e super-, hiper- e mega- exageram. Numa só manhã de trabalho, qualquer brasileiro pode ouvir que a reunião foi superprodutiva, que o trânsito estava hipercomplicado e que a promoção do supermercado é uma megaliquidação imperdível. Os gramáticos mais conservadores torcem o nariz para esses exageros, mas a língua não parece muito preocupada com a opinião deles.\n\nÉ justamente essa liberdade que permite ao idioma criar palavras sem pedir licença. Os sufixos -ção e -mento transformam verbos em substantivos: desmatar deu desmatamento, e lacrar, no sentido que o verbo ganhou nas redes sociais, deu lacração. O sufixo -eiro, que já nomeava ofícios antigos como padeiro e sapateiro, hoje produz concurseiro, quem passa anos estudando para concursos públicos. O -ista cria militâncias inteiras, como a do cicloativista. E a terminação -ar transforma quase qualquer palavra em verbo: printar uma conversa, zapear pelos canais, maratonar uma série. Um dos exemplos mais saborosos é sextou, forma verbal inventada a partir de “sexta-feira” para celebrar o fim da semana de trabalho. Ninguém conjuga “eu sexto, você sexta”, mas todo mundo entende o recado.\n\nAlém dos afixos, o português recorre a outros mecanismos. A composição junta duas palavras numa só: guarda-chuva, beija-flor, arranha-céu. O encurtamento, muito comum entre os jovens, corta a palavra pela metade: refrigerante vira refri, aniversário vira niver, faculdade vira facul. E há os cruzamentos, que fundem duas palavras numa terceira. O mais conhecido entre argentinos e uruguaios talvez seja portunhol, mistura de português e espanhol que muita gente fala sem admitir, especialmente nas cidades de fronteira.\n\nPara Barros, essa criatividade morfológica não é um detalhe técnico, mas uma janela para a cultura. “O diminutivo brasileiro tem muito a ver com a forma como a gente negocia a cortesia”, explica. “Pedir ‘um minutinho’ é pedir tempo sem parecer exigente. Dizer que a conta ficou ‘salgadinha’ é reclamar sem brigar.” Nesse sentido, o famoso jeitinho — ele mesmo um diminutivo — resumiria uma maneira de contornar obstáculos com flexibilidade, para o bem e para o mal.\n\nPara quem aprende português como língua estrangeira, a lição é dupla. Por um lado, conhecer os afixos mais produtivos permite adivinhar o sentido de milhares de palavras: quem sabe o que é fazer e o que significa re- entende refazer sem abrir o dicionário. Por outro, é preciso ouvir muito para captar as nuances de tom. Afinal, entre um cafezinho gentil e um trabalhinho irônico, a diferença não está no dicionário, mas no jeito de dizer.",
+    "gloss": {
+      "vê": "(me vê um cafezinho?) ¿me das un cafecito?, al pedir",
+      "espanta": "asombra, sorprende",
+      "atendente": "el que atiende, el empleado",
+      "suaviza": "suaviza, ablanda",
+      "morro": "cerro (donde suele haber favelas)",
+      "cedinho": "tempranito",
+      "calcinha": "bombacha (ropa interior femenina)",
+      "folhinha": "almanaque de hojas, calendario",
+      "pendurada": "colgada",
+      "casarão": "caserón",
+      "golaço": "golazo",
+      "caprichado": "hecho con esmero",
+      "desprezo": "desprecio",
+      "deboche": "burla, cargada",
+      "espertalhão": "vivo, avivado (en sentido negativo)",
+      "portão": "portón",
+      "torcem": "tuercen (torcer o nariz = poner cara de desaprobación)",
+      "desmatamento": "deforestación",
+      "lacração": "comentario contundente que “cierra” una discusión en redes",
+      "sapateiro": "zapatero",
+      "concurseiro": "quien estudia para concursos de empleo público",
+      "printar": "sacar captura de pantalla",
+      "zapear": "hacer zapping",
+      "maratonar": "ver (una serie) de un tirón",
+      "sextou": "¡llegó el viernes!",
+      "recado": "mensaje",
+      "salgadinha": "saladita, bastante cara",
+      "brigar": "pelear",
+      "contornar": "sortear, esquivar",
+      "adivinhar": "adivinar",
+      "beija-flor": "picaflor",
+      "arranha-céu": "rascacielos",
+      "niver": "cumple",
+      "facul": "facu"
+    },
+    "questions": [
+      [
+        "Qual é a ideia central do artigo?",
+        [
+          "O uso excessivo de diminutivos empobrece o português do Brasil.",
+          "Os afixos do português criam palavras e também expressam valores culturais.",
+          "Os neologismos das redes sociais ameaçam seriamente a norma culta do idioma no Brasil.",
+          "Os estrangeiros deveriam evitar diminutivos até o nível avançado."
+        ],
+        "Os afixos do português criam palavras e também expressam valores culturais."
+      ],
+      [
+        "Segundo Helena Barros, qual é a principal dificuldade dos estrangeiros com o diminutivo?",
+        [
+          "Formar corretamente as terminações -inho e -zinho.",
+          "Saber quando o diminutivo indica tamanho físico.",
+          "Perceber o tom que ele assume em cada situação.",
+          "Distinguir diminutivos de aumentativos na escrita."
+        ],
+        "Perceber o tom que ele assume em cada situação."
+      ],
+      [
+        "No terceiro parágrafo, o exemplo de “golaço” serve para mostrar que o aumentativo…",
+        [
+          "só se usa na linguagem do futebol.",
+          "costuma soar ofensivo no Brasil, sobretudo entre desconhecidos.",
+          "é menos frequente que o diminutivo.",
+          "pode avaliar positivamente, sem falar de tamanho."
+        ],
+        "pode avaliar positivamente, sem falar de tamanho."
+      ],
+      [
+        "A expressão “torcem o nariz” indica que os gramáticos conservadores…",
+        [
+          "veem esses exageros com desaprovação.",
+          "usam esses prefixos com frequência.",
+          "desconhecem a origem desses prefixos.",
+          "consideram esses exageros inevitáveis."
+        ],
+        "veem esses exageros com desaprovação."
+      ],
+      [
+        "Por que o texto menciona a forma “sextou”?",
+        [
+          "Para criticar a influência das redes sociais na linguagem usada no ambiente de trabalho.",
+          "Para mostrar um verbo novo, de uso limitado, mas compreendido por todos.",
+          "Para exemplificar um sufixo que forma nomes de profissões.",
+          "Para provar que todo verbo novo ganha conjugação completa."
+        ],
+        "Para mostrar um verbo novo, de uso limitado, mas compreendido por todos."
+      ]
+    ],
+    "vf": [
+      [
+        "Quem pede “um cafezinho rapidinho” quer, necessariamente, um café pequeno.",
+        "falso"
+      ],
+      [
+        "Palavras como “portão” e “salão” já não transmitem a ideia de tamanho grande.",
+        "verdadeiro"
+      ],
+      [
+        "Helena Barros já morou fora do Brasil.",
+        "não se diz"
+      ],
+      [
+        "Segundo o texto, o sufixo -eiro deixou de formar palavras novas.",
+        "falso"
+      ],
+      [
+        "Para a pesquisadora, o diminutivo permite pedir e reclamar sem confronto.",
+        "verdadeiro"
+      ]
+    ],
+    "hunt": {
+      "label": "Toque nas palavras formadas com sufixos ou prefixos (diminutivos, aumentativos, des-, re-, super-, -mento…)",
+      "targets": [
+        "cafezinho",
+        "rapidinho",
+        "casinha",
+        "golaço",
+        "casarão",
+        "desfazer",
+        "reescrever",
+        "superprodutiva",
+        "desmatamento",
+        "concurseiro",
+        "cicloativista",
+        "maratonar"
+      ]
+    }
+  },
+  "ascolto": {
+    "title": "Dudu, Val e Paulão: o Brasil dos apelidos",
+    "genre": "podcast",
+    "es": "En un podcast sobre la lengua, la conductora conversa con un profesor de portugués para extranjeros a partir del mensaje de una oyente colombiana que recibió varios apodos en su nuevo trabajo.",
+    "speakers": [
+      "Marina (apresentadora)",
+      "Tiago (professor)"
+    ],
+    "turns": [
+      [
+        "A",
+        "Olá, olá! Está começando mais um Língua Solta, o podcast sobre as palavras que a gente usa sem pensar. Hoje eu recebo o Tiago Moura, professor de português para estrangeiros aqui em São Paulo. Tiago, tudo bem?"
+      ],
+      [
+        "B",
+        "Tudo ótimo, Marina. Obrigado pelo convite."
+      ],
+      [
+        "A",
+        "Então, a gente recebeu uma mensagem de uma ouvinte colombiana, a Valentina, que ficou meio chocada no primeiro dia de trabalho. Em duas horas ela virou Val, Valzinha e, olha, até Tina. Ela quer saber se isso é normal."
+      ],
+      [
+        "B",
+        "É normalíssimo! Olha, o brasileiro tem uma verdadeira mania de mexer nos nomes. Basicamente, a gente faz três coisas. A primeira é encurtar: Fernanda vira Nanda, Gabriela vira Gabi, Rafael vira Rafa. A segunda é duplicar uma sílaba, tipo Juju, Dudu, Lulu. E a terceira é acrescentar sufixos, né? O inho, o ão, e por aí vai."
+      ],
+      [
+        "A",
+        "Espera, deixa eu entender. Dudu vem de onde?"
+      ],
+      [
+        "B",
+        "De Eduardo. É uma forma bem de criança, sabe? Muitas vezes o apelido nasce em casa, quando o irmão mais novo não consegue pronunciar o nome inteiro, e aí fica para a vida toda. Tem advogado de cinquenta anos que ainda é Dudu para a família inteira."
+      ],
+      [
+        "A",
+        "E no trabalho? Porque a Valentina ficou sem saber se era falta de respeito."
+      ],
+      [
+        "B",
+        "Pelo contrário. Na maioria das vezes, é sinal de que ela foi aceita no grupo. No Brasil, chamar alguém pelo apelido é um jeito de dizer, digamos, você é dos nossos. Agora, claro, tem limites. Com o diretor, com um cliente que você acabou de conhecer, o melhor é esperar. Se a própria pessoa se apresenta como Beto, tudo bem. Se ela se apresenta como Roberto Almeida, ela está te dizendo alguma coisa."
+      ],
+      [
+        "A",
+        "Faz sentido. E o aumentativo? Porque eu tenho um colega que todo mundo chama de Paulão, e o homem é baixinho!"
+      ],
+      [
+        "B",
+        "Esse exemplo é ótimo, porque mostra que o aumentativo nem sempre fala de tamanho. Paulão pode ser o cara grandão, sim, mas pode ser simplesmente o Paulo querido, o Paulo parceiro. Às vezes é até brincadeira justamente porque ele é baixinho. É uma ironia carinhosa, sabe?"
+      ],
+      [
+        "A",
+        "Ironia carinhosa, gostei. E tem diferença entre homens e mulheres nisso?"
+      ],
+      [
+        "B",
+        "Tem uma tendência, pelo menos. O ão aparece mais em apelidos masculinos: Paulão, Marcão, Zezão. Com mulheres, o mais comum é o diminutivo: Aninha, Carolzinha. Mas isso está mudando. Eu tenho uma amiga que adora ser chamada de Fernandona, por exemplo."
+      ],
+      [
+        "A",
+        "E para quem é de fora, qual é o conselho? Porque imagino que tenha gente que não gosta."
+      ],
+      [
+        "B",
+        "O conselho é: se incomodar, diga com leveza. Algo como: prefiro que me chamem de Valentina mesmo. Ninguém vai se ofender. Mas eu diria para ela experimentar um pouco antes. Muitos alunos meus contam que, no começo, estranharam, e depois sentiram falta quando voltaram para casa. Um aluno alemão me escreveu uma vez: no Brasil eu era o Klausinho, aqui eu sou só o senhor Weber."
+      ],
+      [
+        "A",
+        "Que coisa! Bom, Valentina, acho que você já tem a sua resposta. Tiago, muito obrigada."
+      ],
+      [
+        "B",
+        "Eu que agradeço, Marina. E um beijo para a Val!"
+      ]
+    ],
+    "gloss": {
+      "vai": "(e por aí vai) y así, etcétera",
+      "agradeço": "(eu que agradeço / eu é que agradeço) gracias a vos",
+      "mexer": "meterse con, tocar",
+      "encurtar": "acortar",
+      "acrescentar": "agregar",
+      "apelido": "apodo",
+      "baixinho": "petiso",
+      "grandão": "grandote",
+      "parceiro": "compañero, compinche",
+      "brincadeira": "broma, chiste",
+      "incomodar": "molestar",
+      "leveza": "liviandad, buena onda",
+      "estranharam": "les resultó raro",
+      "falta": "(sentir falta) extrañar"
+    },
+    "questions": [
+      [
+        "Por que a ouvinte Valentina escreveu para o podcast?",
+        [
+          "Porque queria sugerir um apelido para um colega.",
+          "Porque não sabia como interpretar os apelidos que recebeu.",
+          "Porque um colega se ofendeu com o apelido que ela usou numa reunião.",
+          "Porque não conseguia pronunciar os nomes dos colegas."
+        ],
+        "Porque não sabia como interpretar os apelidos que recebeu."
+      ],
+      [
+        "Segundo Tiago, o apelido “Dudu” é um exemplo de…",
+        [
+          "duplicação de sílaba, típica da fala infantil.",
+          "encurtamento muito comum entre colegas no ambiente de trabalho.",
+          "aumentativo usado com ironia.",
+          "sufixo que indica respeito."
+        ],
+        "duplicação de sílaba, típica da fala infantil."
+      ],
+      [
+        "O que Tiago recomenda em relação a diretores e clientes novos?",
+        [
+          "Usar logo o apelido para criar proximidade.",
+          "Evitar até mesmo o primeiro nome deles.",
+          "Perguntar diretamente qual apelido preferem.",
+          "Esperar para ver como a pessoa se apresenta."
+        ],
+        "Esperar para ver como a pessoa se apresenta."
+      ],
+      [
+        "No caso do colega baixinho, o apelido “Paulão” serve para…",
+        [
+          "destacar o porte físico do colega.",
+          "expressar afeto com uma dose de ironia.",
+          "indicar que ele é o chefe do setor.",
+          "diferenciá-lo de outro Paulo, mais jovem, da mesma equipe."
+        ],
+        "expressar afeto com uma dose de ironia."
+      ],
+      [
+        "A história do aluno alemão sugere que…",
+        [
+          "os estrangeiros costumam rejeitar os apelidos.",
+          "na Alemanha também se usam muitos diminutivos.",
+          "o apelido pode deixar saudade de um trato mais caloroso.",
+          "ele preferia ser chamado de senhor no Brasil."
+        ],
+        "o apelido pode deixar saudade de um trato mais caloroso."
+      ]
+    ],
+    "vf": [
+      [
+        "Tiago dá aulas de português para estrangeiros em São Paulo.",
+        "verdadeiro"
+      ],
+      [
+        "Para Tiago, apelidos no trabalho costumam indicar falta de respeito.",
+        "falso"
+      ],
+      [
+        "Valentina já decidiu pedir aos colegas que usem o nome completo dela.",
+        "não se diz"
+      ],
+      [
+        "Segundo Tiago, o ão aparece mais em apelidos femininos.",
+        "falso"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "texto_instrucional",
+    "title": "Apelidos no trabalho: um guia",
+    "fonte": "ascolto",
+    "t": "Você é argentino(a), mora em São Paulo há três anos e colabora com o programa de boas-vindas de uma empresa que contrata muitos estrangeiros. Muitos recém-chegados se assustam quando os colegas começam a mudar o nome deles. Após ouvir o episódio do podcast Língua Solta, escreva um guia com dicas para o boletim interno da empresa, explicando, com base no que diz o professor Tiago, como os brasileiros formam e usam os apelidos, o que significam o diminutivo e o aumentativo nesses casos e em que situações convém ter cuidado. Use exemplos do episódio.",
+    "es": "Guía de consejos (texto instructivo) para el boletín interno: cómo se forman los apodos, qué valor tienen el diminutivo y el aumentativo y cuándo tener cuidado, con ejemplos del podcast. Imperativo de você en cada consejo.",
+    "min": 210,
+    "max": 270,
+    "punti": [["Explicar cómo se forman los apodos (acortar, duplicar sílabas, sufijos)", ["encurt", "duplic", "sílaba", "sufixo"]], ["Interpretar el diminutivo y el aumentativo con ejemplos del podcast", ["paulão", "carinho", "aumentativo", "diminutivo"]], ["Cuándo tener cuidado (jefes, clientes)", ["cliente", "chefe"]], ["Consejos con imperativo", ["observe", "desconfie", "prefira", "diga", "conheça"]]],
+    "model": "Apelidos no trabalho: um guia para recém-chegados\n\nSe você acabou de chegar a uma empresa brasileira, prepare-se: em poucas semanas, é bem provável que o seu nome mude. Não se preocupe. Segundo o professor Tiago, entrevistado no podcast Língua Solta, o brasileiro tem mania de mexer nos nomes, e isso quase nunca é falta de respeito. Reunimos aqui algumas dicas para você entender o que está acontecendo.\n\n1. Conheça as regras do jogo. Basicamente, os brasileiros encurtam o nome (Gabriela vira Gabi, Rafael vira Rafa), duplicam uma sílaba, como em Dudu ou Juju, e acrescentam sufixos.\n\n2. Não leve o diminutivo ao pé da letra. Uma Luzinha não é uma pessoa pequena: o diminutivo, na maioria das vezes, expressa carinho.\n\n3. Desconfie do tamanho do aumentativo. O professor contou o caso de um colega baixinho que todo mundo chama de Paulão, por pura ironia carinhosa. Ou seja, um aumentativo também pode ser sinal de afeto.\n\n4. Observe o contexto. Receber um apelido costuma ser sinal de que você foi aceito no grupo. Com chefes e com clientes que você acabou de conhecer, porém, prefira esperar e ver como a pessoa se apresenta.\n\n5. Se algo incomodar, diga com leveza. Algo como «prefiro que me chamem de Lucía mesmo» resolve, e ninguém vai se ofender.\n\nPor fim, aproveite: segundo o Tiago, muitos estrangeiros sentem falta dos apelidos quando voltam para casa.",
+    "gloss": {"tem mania de mexer nos nomes": "tiene la manía de jugar con los nombres", "encurta": "acorta", "apelido": "sobrenombre (falso amigo: se ve en la semana 45)", "com leveza": "con liviandad, sin drama", "sentem falta dos apelidos": "extrañan los apodos (sentir falta de = extrañar)"}
+  },
+  "breve": {
+    "title": "Feira de Trocas do Bairro Floresta",
+    "genre": "propaganda de rádio",
+    "es": "Una publicidad de radio de una feria de trueque en Belo Horizonte, llena de palabras derivadas: reutilização, desperdício, reutilizável, imperdível.",
+    "speaker": "Voz da propaganda",
+    "voice": 0,
+    "text": [
+      "Tem roupa parada no armário? Livro que você já leu? Brinquedo que as crianças esqueceram? Então venha para a Feira de Trocas do Bairro Floresta, a maior feira de reutilização de Belo Horizonte!",
+      "Funciona assim: você traz até dez peças em bom estado e recebe uma ficha para cada uma. Com as fichas, você escolhe o que quiser entre milhares de objetos. Sem dinheiro, sem desperdício e com muita novidade.",
+      "A feira acontece no último domingo do mês, das 10 às 15 horas, na Praça Floresta. Tem oficina de conserto de bicicletas, com um mecânico voluntário, e uma área de reciclagem para o que não tiver mais conserto.",
+      "Importante: não se aceitam eletrônicos nem roupas rasgadas. E não esqueça a sua sacola reutilizável! Feira de Trocas: renovar o armário é possível, e é imperdível."
+    ],
+    "tabella": [
+      [
+        "Número máximo de peças que cada pessoa traz",
+        "10",
+        [
+          "dez",
+          "dez peças",
+          "10 peças"
+        ]
+      ],
+      [
+        "Dia da feira",
+        "último domingo do mês",
+        [
+          "último domingo",
+          "domingo"
+        ]
+      ],
+      [
+        "Horário em que a feira termina",
+        "15",
+        [
+          "15 horas",
+          "15h",
+          "três da tarde",
+          "15:00"
+        ]
+      ],
+      [
+        "Local da feira",
+        "Praça Floresta",
+        [
+          "na Praça Floresta",
+          "Praca Floresta"
+        ]
+      ],
+      [
+        "O que se recebe por cada peça",
+        "ficha",
+        [
+          "uma ficha",
+          "fichas"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "Na feira não se usa dinheiro.",
+        true
+      ],
+      [
+        "A feira acontece todos os sábados.",
+        false
+      ],
+      [
+        "Há um mecânico que conserta bicicletas.",
+        true
+      ],
+      [
+        "Os eletrônicos são aceitos se funcionarem.",
+        false
+      ],
+      [
+        "É bom levar uma sacola de casa.",
+        true
+      ],
+      [
+        "As fichas custam dois reais cada uma.",
+        false
+      ]
+    ],
+    "gloss": {
+      "desperdício": "derroche",
+      "rasgadas": "rotas",
+      "sacola": "bolsa (de compras)",
+      "conserto": "arreglo",
+      "trocas": "trueques, intercambios"
+    }
+  }
+}

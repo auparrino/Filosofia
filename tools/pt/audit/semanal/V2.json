@@ -1,0 +1,106 @@
+[
+ {
+  "id": "lesson:7:q0",
+  "lote": "w01",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Tenho fome» es igualmente correcta en pt-BR: dos opciones válidas.",
+  "fuente": "tools/pt/lessons/s1.py:139 (y course.json semana 1)",
+  "correccion": "Cambiar la opción «Tenho fome.» por «Sou fome.» (options: Estou com fome. / Sou fome. / Sou com fome.)"
+ },
+ {
+  "id": "lesson:3",
+  "lote": "w02",
+  "veredicto": "CONFIRMADO",
+  "razon": "«siempre» es falso: o personagem (y a personagem) son de uso corriente; también o pajem.",
+  "fuente": "tools/pt/lessons/s1.py:231 y 258 (encabezado «-agem: siempre femenino»)",
+  "correccion": "*-dade* es femenino; *-agem*, casi siempre (excepciones: *o personagem*, *o pajem*). Quitar «siempre» del encabezado en s1.py:258 y ajustar lesson:5/s1-02-10/24/38/44 si repiten la regla."
+ },
+ {
+  "id": "suoni p-010",
+  "lote": "w05",
+  "veredicto": "RECHAZADO",
+  "razon": "En pt-BR el verbo «bebe» lleva é abierta (/ˈbɛbi/, como «deve»), contrastando con bebê cerrada; la nota es correcta.",
+  "fuente": "docs/lang/pt/ascolto_data.js:51",
+  "correccion": ""
+ },
+ {
+  "id": "item s1-12-27",
+  "lote": "w12",
+  "veredicto": "CONFIRMADO",
+  "razon": "El artículo no explica la ausencia de se (en español también hay artículo y se). Es léxico: escovar no es reflexivo.",
+  "fuente": "tools/pt/authored/s1.py:1359",
+  "correccion": "«Cepillarse los dientes» es *escovar os dentes*: en portugués *escovar* se usa sin reflexivo (*Ela escova os dentes*). Es particularidad del verbo; *se vestir* y *se levantar* sí llevan *se*."
+ },
+ {
+  "id": "s2-16-36",
+  "lote": "w16",
+  "veredicto": "CONFIRMADO",
+  "razon": "Analogía falsa: «con nosotros» no se fusiona en español.",
+  "fuente": "tools/pt/authored/s2.py:436",
+  "correccion": "*Com* + *nós* se fusiona en *conosco* (en Brasil, con *s*), como *comigo* y *contigo*; en español «con nosotros» no se fusiona. ✗*com nós* solo se usa con un refuerzo: *com nós dois*."
+ },
+ {
+  "id": "item s3-27-28",
+  "lote": "w27",
+  "veredicto": "CONFIRMADO",
+  "razon": "«te liga» con «a gente» sin sujeto es imperativo/ambiguo; no equivale a «te llamamos».",
+  "fuente": "tools/pt/authored/s3.py:167-168 (alt)",
+  "correccion": "Reemplazar en alt «Assim que a gente chegar ao Rio, te liga» por «Assim que a gente chegar ao Rio, a gente te liga» (idem con «no Rio»)."
+ },
+ {
+  "id": "item col-31-1",
+  "lote": "w31",
+  "veredicto": "CONFIRMADO",
+  "razon": "«ficar em contato» es natural: dos opciones correctas.",
+  "fuente": "tools/pt/authored/colocacoes.py:99",
+  "correccion": "Cambiar la opción «ficar em» por «fazer»: [\"entrar em\", \"meter-se em\", \"fazer\"]."
+ },
+ {
+  "id": "lesson:2:0",
+  "lote": "w35",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "«sonhar com + infinitivo» es estándar y más usual que «sonhar em»; la pregunta admite em y com.",
+  "fuente": "tools/pt/lessons/s2.py? / tools/pt/lessons/s3.py:931; authored/s3.py:1307",
+  "correccion": "Cambiar el enunciado a «Sonho ___ uma casa no Rio.» (answer com) o aceptar «com»; en authored/s3.py:1307 ajustar nota (sonhar com + inf./sust. y em + inf. también existe)."
+ },
+ {
+  "id": "tramo:lettura",
+  "lote": "w45",
+  "veredicto": "RECHAZADO",
+  "razon": "El texto es de hispanohablante: «larga» en español = longo (comprida); en pt larga = folgada/ampla. El contraste es correcto, no confuso.",
+  "fuente": "tools/pt/tramo/w45.json:9",
+  "correccion": ""
+ },
+ {
+  "id": "item s4-47-34",
+  "lote": "w47",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Em minha opinião» (sin contracción) es correcta; el ítem es un fixerr con «En minha» como error y solo se acepta «Na minha».",
+  "fuente": "tools/pt/authored/s4.py:1370-1371",
+  "correccion": "Agregar goodAlt=[\"Em minha\"] (respuesta «Em minha opinião, a reforma é necessária.») y nota: «En» es el error; se dice *em minha opinião* o *na minha opinião*."
+ },
+ {
+  "id": "ex-cl-46",
+  "lote": "w52",
+  "veredicto": "CONFIRMADO",
+  "razon": "«a primeira vez em que» es correcta y culta; la nota la desaconseja falsamente y se rechaza al alumno.",
+  "fuente": "tools/pt/authored/esame_c1.py:218-219",
+  "correccion": "accept ['que','em que']; nota: «*A primeira vez que* y *a primeira vez em que* son correctas; *em que* es más cuidada. El verbo que sigue va en indicativo.»"
+ },
+ {
+  "id": "nouns:2",
+  "lote": "T-lessico-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "«suposto» es portugués; en español es «supuesto». Además pt presunto también = supuesto (parcial el contraste).",
+  "fuente": "tools/pt/bank/parole_nomi.py:167 (similar en tools/pt/vocab/s4.py:110 y errori_banca.py:929-930)",
+  "correccion": "Falso amigo: presunto = jamón; en español «presunto» es «supuesto» (en portugués *presunto* también = supuesto, p. ej. *presunto culpado*)."
+ },
+ {
+  "id": "nouns:34",
+  "lote": "T-lessico-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Também» es portugués dentro de la glosa en español.",
+  "fuente": "tools/pt/bank/parole_nomi.py:1347",
+  "correccion": "También cuento, relato."
+ }
+]

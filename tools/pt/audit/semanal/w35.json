@@ -1,0 +1,345 @@
+{
+ "week": 35,
+ "title": "Regência verbal",
+ "level": "B2",
+ "revisado": {
+  "items": 48,
+  "bloques_teoria": 7,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 3,
+  "radio": 0,
+  "otros": 5
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "La lección es clara y el portugués es en general correcto y natural. Los problemas puntuales son un ítem con dos respuestas válidas (sonhar em/com), un ejemplo de relativo que contradice la regla (com quem namora) y varios juicios normativos sobre «namorar com». Pedagógicamente la práctica se concentra en preposiciones elementales (A2-B1) para un nivel B2, hay mucha repetición de los mismos ejemplos y la lección no enseña los verbos que luego exigen las lecturas (aspirar a, visar a, depender de, confiar em). Radio, laboratorio y duelos están vacíos.",
+ "bien": [
+  "Teoría breve, con ejemplos traducidos y contraste explícito con el español (a personal, calcos «do que», «namorar com»).",
+  "Distingue con honestidad norma culta y habla (assistir ao/o jogo, chegar a/em) en tips y notas.",
+  "Buena cobertura de assistir a, preferir a, namorar, ajudar y relativo con preposición; mezcla de choice, cloze, translate, fixerr, garden y combina.",
+  "Lecturas coherentes con el tema: w-35 sobre homem cordial y los textos del tramo (perfil, radio de consultas, carta, central telefónica) reutilizan los verbos de la semana con contexto real y preguntas bien formuladas.",
+  "Notas explicativas útiles y fiables en casi todos los ítems; datos culturales (Ainda Estou Aqui, Clarice, Glauber, Raízes do Brasil, AI-5, Cálice) correctos."
+ ],
+ "hallazgos": [
+  {
+   "id": "item s3-35-06",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Sonho ___ morar em Ipanema. (options: em / com / de; answer em)",
+   "propuesta": "Aceptar también «com» (o cambiar el ítem a «Sonho ___ uma casa em Ipanema» → com)",
+   "motivo": "«Sonho com morar em Ipanema» es correcto y muy común: hay dos opciones válidas."
+  },
+  {
+   "id": "lesson:2:0",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "«Sueño con vivir en Río.» → Sonho ___ morar no Rio. (answer em; options em/com/de)",
+   "propuesta": "Usar un sustantivo («Sonho ___ uma casa no Rio» → com) o aceptar «com»",
+   "motivo": "Misma ambigüedad: «sonhar com + infinitivo» es estándar."
+  },
+  {
+   "id": "lesson:2",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*sonhar em* + infinitivo",
+   "propuesta": "Presentar «sonhar em/com + infinitivo» como variantes; «com» es al menos tan frecuente",
+   "motivo": "Presentar «em» como la única forma con infinitivo exagera."
+  },
+  {
+   "id": "lesson:6:ex:3",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "O cara *com quem* ela namora é gaúcho.",
+   "propuesta": "O cara *que* ela namora é gaúcho. (o cambiar el verbo: «O cara com quem ela casou»)",
+   "motivo": "Contradice la regla de la propia semana (namorar alguém, sin «com»); el relativo no llevaría preposición."
+  },
+  {
+   "id": "item s3-35-04",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "namorar alguém, sin preposición: namora o Rafa; opción «com o» marcada como incorrecta",
+   "propuesta": "Aceptar «com o» o marcarlo como variante muy extendida no normativa",
+   "motivo": "«Namorar com» es muy frecuente en todo Brasil, no solo regional."
+  },
+  {
+   "id": "item s3-35-33",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "namorar es transitivo directo: namorar alguém. «Namorar com» es regional y la norma lo rechaza.",
+   "propuesta": "«Namorar com» es muy extendido en el habla de todo Brasil; la norma culta prefiere «namorar alguém».",
+   "motivo": "«Regional» es impreciso; el ítem puede castigar un uso corriente."
+  },
+  {
+   "id": "lesson:2:more",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "la norma y el habla del Rio dicen *namorar alguém*",
+   "propuesta": "«en la norma escrita se prefiere *namorar alguém*; en el habla se oyen ambas»",
+   "motivo": "Afirmación dialectal dudosa."
+  },
+  {
+   "id": "item col-35-1",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Vou ___ um processo contra a empresa. (abrir / meter / levantar)",
+   "propuesta": "Cambiar «meter» por un distractor claro (p. ej. «fazer») o aceptar «meter»",
+   "motivo": "«Meter um processo» se usa coloquialmente en Brasil."
+  },
+  {
+   "id": "item s3-35-18",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Espero ___ ônibus há meia hora. (accept: o)",
+   "propuesta": "accept: [\"o\", \"pelo\"] o ajustar el enunciado para que solo entre el artículo",
+   "motivo": "«Esperar por» es correcto y el ítem 30 acepta «Espero por você»: inconsistencia."
+  },
+  {
+   "id": "item s3-35-13",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Ante «uma» no hay contracción obligatoria.",
+   "propuesta": "a + uma no se contrae: «a uma palestra».",
+   "motivo": "«No obligatoria» sugiere que a veces se contrae (à uma no existe en este uso)."
+  },
+  {
+   "id": "item s3-35-15",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Os filhos devem obedecer ___ pais?",
+   "propuesta": "Os filhos devem obedecer ___ pais.",
+   "motivo": "El signo de pregunta sobra: es una afirmación normativa."
+  },
+  {
+   "id": "item s3-35-26",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "accept: A Bia namora o Rafa / Bia namora Rafa / A Bia namora Rafa / Bia namora o Rafa",
+   "propuesta": "Agregar «A Bia está namorando o Rafa», «Bia está namorando o Rafa»",
+   "motivo": "«Está de novia» se traduce con naturalidad con «estar namorando»."
+  },
+  {
+   "id": "item s3-35-25",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "accept: Prefiro praia a montanha / Prefiro a praia à montanha / Prefiro a praia a montanha",
+   "propuesta": "Agregar «Prefiro praia à montanha», «Eu prefiro praia a montanha», «Eu prefiro a praia à montanha»",
+   "motivo": "Combinaciones naturales (artículo en un solo lado, «Eu») no aceptadas."
+  },
+  {
+   "id": "item s3-35-45",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "accept: O rapaz com quem a Bia casou é de Recife. ...",
+   "propuesta": "Agregar «O rapaz com o qual a Bia casou é de Recife.»",
+   "motivo": "El ítem 44 acepta «ao qual»; este no acepta «com o qual»."
+  },
+  {
+   "id": "item s3-35-46",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "(em que) … accept: A cidade onde moro é pequena.",
+   "propuesta": "Agregar «A cidade na qual moro é pequena.»; quitar «onde» si se evalúa el relativo con preposición",
+   "motivo": "Acepta «onde» (que no practica la regla) pero no «na qual»."
+  },
+  {
+   "id": "item s3-35-03",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "«Do que» es calco de «más que».",
+   "propuesta": "Aclarar: «preferir X do que Y» es muy común en el habla, pero no es norma culta",
+   "motivo": "La nota la presenta como mero calco; el curso ya señala la variante hablada en otros ítems."
+  },
+  {
+   "id": "item s3-35-34",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Prefiro mais praia do que montanha. / Prefiro praia a montanha.",
+   "propuesta": "Cambiar el par temático (p. ej. «café / chá», «ler / ver TV»)",
+   "motivo": "Casi duplica los ítems 03, 25 y la advertencia de la lección."
+  },
+  {
+   "id": "item s3-35-14",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Assistimos ___ desfile das escolas de samba na Sapucaí.",
+   "propuesta": "Variar la estructura (otro objeto, otro tiempo) o fusionar con s3-35-01",
+   "motivo": "Casi duplicado de s3-35-01 y del ejemplo de la lección (Assistimos ao desfile na Sapucaí)."
+  },
+  {
+   "id": "item s3-35-35",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ajudei ao meu vizinho a carregar as caixas.",
+   "propuesta": "Cambiar «vizinho» por otro objeto (p. ej. «minha avó»)",
+   "motivo": "Repite el ejemplo de la lección y los ítems 07 y 29 (vecino + mudança)."
+  },
+  {
+   "id": "item s3-35-29",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ayudé a mi vecino con la mudanza.",
+   "propuesta": "Cambiar por otra persona/contexto",
+   "motivo": "Cuarta aparición de «ajudar o vizinho» (lección, 07, 29, 35)."
+  },
+  {
+   "id": "item s3-35-40",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "¿Cuándo «assistir» lleva «a»? (scopri, al final de la serie)",
+   "propuesta": "Mover los ítems scopri al inicio de cada bloque",
+   "motivo": "Descubrir la regla después de haberla practicado 30 veces no tiene función inductiva."
+  },
+  {
+   "id": "lesson:0",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*assistir* sin preposición = atender, ayudar: *o médico assiste o paciente*.",
+   "propuesta": "Aclarar que «assistir a alguém» (ayudar) también aparece en la norma y que ver sin «a» es lo habitual en el habla",
+   "motivo": "Simplificación: la distinción rígida no refleja el uso real."
+  },
+  {
+   "id": "lesson",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Esta semana las ordenás. (sin aspirar a / visar a / depender de / confiar em / recorrer a)",
+   "propuesta": "Agregar un bloque «verbos del trabajo y la burocracia»: aspirar a, visar a, depender de, confiar em, recorrer a, implicar com",
+   "motivo": "La lectura y el hunt exigen aspira, visa, depende, confiava, recorreu, que la lección nunca enseña."
+  },
+  {
+   "id": "item s3-35-37",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "estar de novio con Bia → ___ (accept: namorar a Bia)",
+   "propuesta": "Agregar «namorar a Bia» ya presente; considerar «namorar com a Bia» como no aceptada pero comentada",
+   "motivo": "El dossier no muestra los tres pares previos; el alumno puede dudar si la «a» es artículo o preposición (lo que la nota explica)."
+  },
+  {
+   "id": "tramo:lettura",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Neide trabalha como despachante há cerca de três décadas. (verdadeiro)",
+   "propuesta": "«não se diz», o cambiar el texto a «trabalha como despachante há quase trinta anos»",
+   "motivo": "El texto dice que el banquito lo carga hace casi treinta años, no cuánto trabaja como despachante."
+  },
+  {
+   "id": "tramo:lettura",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "O que diferencia o trabalho de Juliana Prado do de Neide? → Ela dedica mais tempo a explicar os processos.",
+   "propuesta": "«O que Juliana diz sobre o seu trabalho?» o contrastar con un rasgo explícito (escritório virtual)",
+   "motivo": "El texto no compara tiempos con Neide; la diferencia explícita es el trabajo a distancia, que no está entre las opciones."
+  },
+  {
+   "id": "tramo:breve",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "As multas só podem ser pagas no banco. (falso) / A vistoria é gratuita para carros novos. (falso)",
+   "propuesta": "Marcar ambas «não se diz» (el formato debería admitir ese tercer valor) o reemplazarlas",
+   "motivo": "El audio no menciona el banco ni carros nuevos: el «falso» es inferencia, no contradicción."
+  },
+  {
+   "id": "suoni c-039",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "options: Assisti ao jogo. / Assisti o jogo. / Assisto ao jogo.",
+   "propuesta": "Mantener solo opciones foneticamente distintas por «ao/o»; avisar que «assisti o jogo» es normal en el habla",
+   "motivo": "La lección dice que «assisti o jogo» es lo habitual; rechazarlo como «incorrecto» confunde (aquí es solo discriminación auditiva)."
+  },
+  {
+   "id": "suoni a-033",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "diplomacia: di-plo-ma-CI-a.",
+   "propuesta": "Explicar el hiato/final «-ia» y que la tónica cae en «ci» (otras palabras en -cia: democracia)",
+   "motivo": "La nota repite la respuesta sin explicar."
+  },
+  {
+   "id": "suoni p-177",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "estímulo / estimulo",
+   "propuesta": "Reemplazar por un par relacionado con la semana (p. ex. «assisto/assisti» o «ajuda/ajudá») o dejarlo como relleno consciente",
+   "motivo": "Par bueno en sí, pero no se vincula con la regência verbal."
+  },
+  {
+   "id": "lettura w-35",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "Na volta, namorou a ideia de escrever sobre a Argentina",
+   "propuesta": "«Na volta, ficou namorando a ideia…» o usar «acalentou a ideia»",
+   "motivo": "«Namorar a ideia» es figurado; mezclado con el sentido literal de la semana puede confundir."
+  },
+  {
+   "id": "lettura w-35 hunt",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Toque nos verbos cuja regência é diferente do espanhol (assistir a, namorar…) targets: referiu-se, aludia, prefere, obedecer, ...",
+   "propuesta": "Quitar los que coinciden con el español (referiu-se, aludia, prefere, obedecer) o cambiar el rótulo",
+   "motivo": "Los objetivos incluyen verbos que rigen igual que en español, contra la consigna."
+  },
+  {
+   "id": "item s3-35-23",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "Esqueci-me ___ senha do banco.",
+   "propuesta": "«Me esqueci ___ senha do banco.»",
+   "motivo": "La ênclise con «esqueci-me» es formal; en pt-BR coloquial y neutro domina «me esqueci»; ofrecer ambas."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Subir el nivel real de la semana: agregar un bloque de regencias de trabajo y trámites (aspirar a, visar a, depender de, confiar em, recorrer a, implicar com/em, informar alguém de/sobre, responder a, agradecer a) con ítems.",
+   "por_que": "Hoy los ítems son A2-B1 (namorar, morar em, prefiro a) y las lecturas B2 usan verbos nunca enseñados."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Corregir el ejemplo «com quem ela namora», el ítem de sonhar em/com y revisar la postura sobre «namorar com» (norma vs uso real).",
+   "por_que": "Son contradicciones o respuestas válidas rechazadas."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir duplicados (Bia/Rafa, vizinho, praia/montanha, desfile) y variar contextos con el vocabulario de la semana (certidão, procuração, cartório, plano de saúde).",
+   "por_que": "Los mismos ejemplos aparecen 4-6 veces y el vocabulario temático no se practica en los ítems."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar ítems de ir a/para, assistir (atender), obedecer, implicar y pagar/perdoar, o quitarlos de los títulos/tabla.",
+   "por_que": "Enseñados y sin práctica (ir, implicar, pagar/perdoar, assistir=atender)."
+  },
+  {
+   "prioridad": "media",
+   "que": "Mover los scopri al inicio de cada bloque y agregar producción libre breve con regencia (reescribir un párrafo con errores, tarea con 3 verbos obligatorios).",
+   "por_que": "La progresión es casi solo reconocimiento y cloze de una palabra; la producción llega recién en el tramo."
+  },
+  {
+   "prioridad": "media",
+   "que": "Completar radio, laboratorio (ponte/capire), duelos e intonazione, hoy vacíos; suoni con pares ligados a ao/o, a que, em que.",
+   "por_que": "La semana tiene material de consolidación mucho menor que el resto del curso."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Ampliar accept en traducciones (estar + gerundio, «Eu», artículo en un solo lado, «com o qual») y registrar variantes habladas.",
+   "por_que": "Alumnos que escriben con naturalidad quedan marcados como errados."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Evitar solapamiento entre lectura w-35 y dictogloss (mismo texto) y ajustar el hunt a verbos con regencia distinta del español.",
+   "por_que": "Poca variedad de insumo y consigna incoherente con los objetivos."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

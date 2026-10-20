@@ -1,0 +1,52 @@
+{
+ "week": 16,
+ "level": "A2",
+ "title": "Amigo secreto na rádio",
+ "genre": "conversa no estúdio",
+ "es": "Se acerca fin de año y en la radio hacen «amigo invisible». Téo tiene que comprarle un regalo a Nanda sin que ella sepa, pero es pésimo guardando secretos.",
+ "speakers": ["Nanda", "Téo"],
+ "turns": [
+  ["A", "Bom dia! Dezembro chegou e aqui na rádio a gente faz amigo secreto. Téo, você já comprou o seu presente?"],
+  ["B", "Já comprei, mas não te conto para quem é. É segredo!"],
+  ["A", "Tá bom, não pergunto. Mas me diz: onde você comprou?"],
+  ["B", "No centro, num camelô da Uruguaiana. Eu vi uma bolsa linda na vitrine de uma loja, mas era cara demais. Então fui ao camelô, achei uma parecida, pechinchei e comprei ela pela metade do preço."],
+  ["A", "E o vendedor te deu desconto?"],
+  ["B", "Deu! Ele me fez um preço bom e ainda me deu uma sacola de presente."],
+  ["A", "E já embrulhou o presente?"],
+  ["B", "Ainda não. Eu não sei embrulhar nada. Você me empresta um papel bonito e me ajuda?"],
+  ["A", "Empresto, claro. Mas se eu te ajudo, eu vejo o presente!"],
+  ["B", "Verdade... Então a Dona Lúcia me ajuda. Ela embrulha tudo com fita e laço."],
+  ["A", "E se a pessoa não gosta da cor? Pode trocar?"],
+  ["B", "Pode. O camelô me disse que troca, é só levar lá. E na loja do lado tem provador, então a pessoa prova antes."],
+  ["A", "Provador para uma bolsa? Téo... espera. A bolsa é vermelha?"],
+  ["B", "Como você sabe?"],
+  ["A", "Porque ontem você me perguntou qual era a minha cor favorita! Eu te conheço, Téo."],
+  ["B", "Ai, não! Estraguei a surpresa. Mas finge que não sabe, tá?"],
+  ["A", "Pode deixar, eu não conto pra ninguém. E vocês, ouvintes: o que vocês vão dar no amigo secreto?"]
+ ],
+ "gloss": {
+  "amigo secreto": "amigo invisible",
+  "segredo": "secreto",
+  "camelô": "vendedor ambulante",
+  "Uruguaiana": "calle comercial del centro de Río, llena de puestos",
+  "desconto": "descuento",
+  "fita e laço": "cinta y moño",
+  "Estraguei": "arruiné",
+  "finge": "hacé de cuenta",
+  "Pode deixar": "quedate tranquilo",
+  "ouvintes": "oyentes",
+  "demais": "demasiado"
+ },
+ "questions": [
+  ["Onde o Téo comprou o presente?", ["Numa loja cara do centro", "Num camelô do centro", "Numa loja de Botafogo", "Pelo celular, numa loja de São Paulo"], "Num camelô do centro"],
+  ["Por que o Téo não pede ajuda à Nanda para embrulhar?", ["Porque ela não sabe embrulhar", "Porque ela vai ver o presente", "Porque ela não tem papel", "Porque a Dona Lúcia tem fita e laço"], "Porque ela vai ver o presente"],
+  ["Como a Nanda sabe qual é o presente?", ["Ela vê a bolsa na sacola", "A Dona Lúcia conta para ela", "O Téo perguntou a cor favorita dela", "Ela vê uma foto no celular do Téo"], "O Téo perguntou a cor favorita dela"]
+ ],
+ "info": [
+  ["O Téo pechinchou no camelô.", true],
+  ["A bolsa da vitrine era barata.", false],
+  ["A Dona Lúcia sabe embrulhar presentes.", true]
+ ],
+ "grammatica": {"label": "los pronombres de objeto: me, te y, en el habla, ele / ela como objeto (comprei ela)", "forme": ["comprei ela", "não te conto", "me diz", "te deu desconto", "me fez um preço", "me deu uma sacola", "você me empresta", "me ajuda", "se eu te ajudo", "me disse", "você me perguntou", "eu te conheço"]},
+ "parole": [["presente", "presente"], ["camelô", "camelô"], ["vitrine", "vitrine"], ["pechinchei", "pechinchar"], ["sacola", "sacola"], ["embrulhou", "embrulhar"], ["empresta", "emprestar"], ["trocar", "trocar"], ["provador", "o provador"], ["prova", "provar"]]
+}

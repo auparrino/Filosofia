@@ -1,0 +1,451 @@
+{
+  "week": 49,
+  "level": "C1",
+  "lettura": {
+    "title": "Tá bom ou está bem? Elogio da adequação",
+    "emoji": "🎚️",
+    "genre": "ensaio",
+    "grammar": "registro culto e coloquial",
+    "text": "Todo brasileiro alfabetizado já passou pela experiência de reescrever uma mensagem três vezes antes de enviá-la. Na primeira versão, saiu um “oi, tudo bem? então, vc pode me mandar aquele arquivo?”; na segunda, um “Prezado Sr. Mendes, venho por meio desta solicitar o envio do referido documento”; na terceira, algo no meio do caminho, que talvez nem soe natural. A hesitação tem nome: registro. E, contrariando o que muita gente aprendeu na escola, ela não revela ignorância, mas uma competência sofisticada — a de perceber que a língua muda conforme a situação, o interlocutor e o meio.\n\nOs linguistas costumam descrever o registro como uma escala que vai do mais formal ao mais informal, com muitos pontos intermediários. No extremo culto, estão os discursos solenes, os textos jurídicos e os artigos acadêmicos: frases longas, vocabulário preciso, pronomes colocados segundo a norma, às vezes com construções como “dir-se-ia” ou “entregar-lhe-ei”, que hoje soam quase arcaicas mesmo nesses contextos. No extremo coloquial, estão a conversa de bar, o áudio de WhatsApp e a piada entre amigos: frases curtas, reduções como tô, tá, pra e cê, gírias, repetições e o onipresente né no fim de cada ideia. Entre um extremo e outro, fica a maior parte da vida real: a reunião de trabalho, a consulta médica, o e-mail para um professor.\n\nO português do Brasil tem uma particularidade que confunde estrangeiros e até nativos: a distância entre a língua falada e a escrita formal é considerável. Na fala espontânea, quase ninguém diz “nós iremos”; diz “a gente vai”. Ninguém pergunta “Onde o senhor se encontra?” a um amigo, e sim “Cadê você?”, ou até “Cê tá onde?”. O pronome vem antes do verbo (“me passa o sal”), o verbo ter substitui o haver (“tem muita gente aqui”) e o pronome ele aparece como objeto (“vi ele ontem”). Na escrita formal, porém, a norma pede “Passe-me o sal”, “Há muita gente aqui” e “Eu o vi ontem”. Não se trata de uma versão certa e outra errada, mas de duas gramáticas que convivem e que o falante competente alterna quase sem perceber.\n\nO problema, portanto, não está no uso do coloquial, mas no uso fora de lugar. Um estagiário que escreve a um cliente “e aí, beleza? a proposta vai atrasar um pouquinho, mas relaxa” não comete propriamente um erro gramatical; comete um erro de adequação, talvez mais grave, porque compromete a imagem da empresa. Do mesmo modo, quem responde ao “bora tomar um açaí?” de um amigo com “Agradeço imensamente o gentil convite, ao qual comparecerei com satisfação” provoca risos ou, no mínimo, estranhamento. O excesso de formalidade também é inadequação, só que costuma ser menos criticado.\n\nAs novas tecnologias embaralharam ainda mais as fronteiras. O e-mail, que nasceu como herdeiro da carta, foi ficando mais leve; o WhatsApp, que nasceu para conversas pessoais, virou ferramenta de trabalho em muitas empresas. Hoje, não é raro receber um áudio do chefe às onze da noite, com direito a “oi, gente” e “tipo assim”, pedindo um relatório para a manhã seguinte. Nesse território novo, as regras ainda estão sendo negociadas, e é natural que cada geração tenha a sua opinião. Muitos jovens acham antiquado um e-mail que começa com “Prezado”; muitos gestores consideram desrespeitoso um “blz” vindo de um subordinado.\n\nDurante muito tempo, a escola brasileira tratou o coloquial como um desvio a ser corrigido. O aluno que dizia “nós vai” ou “os menino” ouvia que falava errado e aprendia, sobretudo, a ter vergonha da própria fala e da fala da sua família. Hoje, boa parte dos linguistas e dos documentos oficiais de educação defende outra abordagem: a da adequação. Em vez de apagar a variedade que o aluno traz de casa, a escola deve ampliar o seu repertório, ensinando a norma culta como uma ferramenta a mais, indispensável em certas situações, e não como a única forma legítima de falar.\n\nPara quem aprende português como língua estrangeira, essa discussão tem consequências bem práticas. Muitos alunos chegam ao Brasil com um português de livro didático, correto, mas rígido, e descobrem que ninguém fala daquele jeito. Outros aprendem na rua, com amigos, e se veem em apuros na hora de escrever uma carta de apresentação ou de enfrentar uma entrevista de emprego. O objetivo, em ambos os casos, é o mesmo: circular com segurança pela escala inteira, sabendo quando baixar e quando subir o tom.\n\nNo fundo, dominar os registros é uma forma de respeito: pelo interlocutor, pela situação e pela própria língua, que é mais rica justamente porque não fala sempre do mesmo modo. Quem sabe escrever “Atenciosamente” e também “bjs, até amanhã” não é um falante dividido, mas um falante completo. E quem hesita três vezes antes de enviar uma mensagem, longe de ser inseguro, talvez seja apenas alguém que leva a sério a arte de se comunicar.",
+    "gloss": {
+      "hesitação": "vacilación, duda",
+      "referido": "mencionado",
+      "solenes": "solemnes",
+      "arcaicas": "arcaicas, anticuadas",
+      "piada": "chiste",
+      "gírias": "jerga, modismos",
+      "onipresente": "omnipresente",
+      "cadê": "¿dónde está?",
+      "estagiário": "pasante",
+      "bora": "¡vamos! (coloquial)",
+      "comparecerei": "asistiré",
+      "estranhamento": "extrañeza",
+      "embaralharam": "mezclaron, entreveraron",
+      "herdeiro": "heredero",
+      "ferramenta": "herramienta",
+      "relatório": "informe",
+      "antiquado": "anticuado",
+      "gestores": "gerentes",
+      "blz": "“beleza”: todo bien (abreviatura)",
+      "subordinado": "subordinado",
+      "desvio": "desvío",
+      "vergonha": "vergüenza",
+      "abordagem": "enfoque",
+      "apuros": "aprietos",
+      "bjs": "besos (abreviatura)"
+    },
+    "questions": [
+      [
+        "Qual é a tese central do ensaio?",
+        [
+          "O registro coloquial está destruindo a norma culta no Brasil.",
+          "Adequar a língua à situação é uma competência valiosa.",
+          "A escrita formal deveria desaparecer das empresas brasileiras.",
+          "Os estrangeiros deveriam aprender apenas o português da rua."
+        ],
+        "Adequar a língua à situação é uma competência valiosa."
+      ],
+      [
+        "Segundo o texto, qual é a particularidade do português do Brasil?",
+        [
+          "A ausência de registro coloquial nos textos escritos.",
+          "O uso frequente da mesóclise na fala cotidiana.",
+          "A grande distância entre a fala e a escrita formal.",
+          "A rejeição geral das gírias nos meios de comunicação."
+        ],
+        "A grande distância entre a fala e a escrita formal."
+      ],
+      [
+        "Por que o autor menciona a resposta formal ao convite para tomar açaí?",
+        [
+          "Para elogiar a educação de quem responde assim.",
+          "Para mostrar que o excesso de formalidade também é inadequado.",
+          "Para criticar o uso de gírias entre amigos íntimos.",
+          "Para exemplificar um erro gramatical muito comum."
+        ],
+        "Para mostrar que o excesso de formalidade também é inadequado."
+      ],
+      [
+        "De acordo com o texto, o que a escola deveria fazer hoje?",
+        [
+          "Corrigir toda forma coloquial que o aluno usar em sala de aula.",
+          "Ensinar apenas a variedade que o aluno traz de casa.",
+          "Eliminar a norma culta dos currículos escolares do país.",
+          "Ampliar o repertório do aluno sem apagar a sua variedade."
+        ],
+        "Ampliar o repertório do aluno sem apagar a sua variedade."
+      ],
+      [
+        "Como o autor interpreta, no final, quem hesita antes de enviar uma mensagem?",
+        [
+          "Como alguém que leva a comunicação a sério.",
+          "Como um falante inseguro e dividido entre duas línguas.",
+          "Como alguém que ainda não domina a norma culta.",
+          "Como um usuário que exagera nas formalidades."
+        ],
+        "Como alguém que leva a comunicação a sério."
+      ]
+    ],
+    "vf": [
+      [
+        "Segundo o texto, formas como “dir-se-ia” soam quase arcaicas até em contextos formais.",
+        "verdadeiro"
+      ],
+      [
+        "O autor considera que o estagiário do exemplo cometeu um erro gramatical.",
+        "falso"
+      ],
+      [
+        "O autor trabalha como professor de português para estrangeiros.",
+        "não se diz"
+      ],
+      [
+        "Para o autor, o WhatsApp continua sendo usado apenas em conversas pessoais.",
+        "falso"
+      ],
+      [
+        "O texto afirma que muitos gestores consideram “blz” desrespeitoso.",
+        "verdadeiro"
+      ]
+    ],
+    "hunt": {
+      "label": "Toque nas formas do registro coloquial (reduções, abreviações e palavras típicas da conversa informal)",
+      "targets": [
+        "vc",
+        "tô",
+        "tá",
+        "pra",
+        "cê",
+        "né",
+        "cadê",
+        "beleza",
+        "bora",
+        "blz"
+      ]
+    }
+  },
+  "ascolto": {
+    "title": "Ser formal não é ser frio",
+    "genre": "conversa de trabalho",
+    "es": "En una agencia digital, una gerente conversa con un pasante que le mandó a un cliente importante un mensaje demasiado informal; le explica qué falló y qué tiene que tener la respuesta.",
+    "speakers": [
+      "Renata (gerente)",
+      "Lucas (estagiário)"
+    ],
+    "turns": [
+      [
+        "A",
+        "Lucas, senta aí. Fica tranquilo, não é bronca, tá? É só uma conversa."
+      ],
+      [
+        "B",
+        "Tá bom. É sobre o e-mail do Otávio, né? Eu imaginei."
+      ],
+      [
+        "A",
+        "É. Ele me ligou hoje de manhã. Não estava bravo, mas estava, digamos, surpreso. Você lembra o que escreveu pra ele?"
+      ],
+      [
+        "B",
+        "Lembro. Eu falei que a proposta ia atrasar um pouquinho, porque o financeiro ainda estava fechando os custos, mas que até sexta saía. Eu só quis ser simpático, Renata. Ele sempre foi super educado comigo nas reuniões."
+      ],
+      [
+        "A",
+        "Eu sei, e isso é ótimo. O problema não foi a informação, foi o jeito. Você começou com oi, Otávio, blz, abreviou tudo, disse que o financeiro tava enrolado e terminou com relaxa. Pra um amigo, perfeito. Pra um diretor de compras de uma rede de farmácias, que está esperando uma proposta formal da nossa empresa, soou como se a gente não estivesse levando o projeto a sério."
+      ],
+      [
+        "B",
+        "Nossa, falando assim… Mas o pessoal aqui do escritório escreve desse jeito o tempo todo."
+      ],
+      [
+        "A",
+        "Aqui dentro, entre a gente, tudo bem. Com cliente é outra história. Pensa assim: quando você fala com o Otávio numa reunião, você não fala do mesmo jeito que fala com o seu primo no churrasco, fala?"
+      ],
+      [
+        "B",
+        "Não, claro que não."
+      ],
+      [
+        "A",
+        "Pois então. Escrever é a mesma coisa, só que pior, porque no texto não tem sorriso, não tem tom de voz. Um relaxa, no WhatsApp com um amigo, é carinhoso. Num e-mail para um cliente que está esperando um documento, pode parecer que você está dizendo: calma, você está exagerando."
+      ],
+      [
+        "B",
+        "Entendi. E ele respondeu bem seco: prezado Lucas, aguardo posicionamento formal da empresa. Eu fiquei sem saber o que fazer."
+      ],
+      [
+        "A",
+        "Por isso eu quero que você mesmo responda. Acho importante. Vou te passar o que precisa ter. Primeiro, um pedido de desculpas pelo atraso e pelo tom da mensagem anterior, sem exagero, sem drama. Segundo, a explicação: a proposta está na etapa de validação de custos pelo departamento financeiro. Não fala que o financeiro está enrolado. Fala que é uma etapa necessária para garantir valores precisos."
+      ],
+      [
+        "B",
+        "Certo. E o prazo?"
+      ],
+      [
+        "A",
+        "Sexta-feira, até as dezoito horas. Esse prazo eu já confirmei com o financeiro, pode prometer. E terceiro: ofereça uma videoconferência na segunda-feira seguinte, para a gente apresentar a proposta e tirar as dúvidas da equipe dele. Isso mostra compromisso."
+      ],
+      [
+        "B",
+        "E como eu começo? Prezado senhor Otávio?"
+      ],
+      [
+        "A",
+        "Prezado senhor Otávio Mendes, ou só prezado Otávio, porque vocês já se conhecem. Mas nada de oi. No final, atenciosamente, o seu nome completo e o seu cargo. E me coloca em cópia, por favor."
+      ],
+      [
+        "B",
+        "E se eu ficar formal demais? Tipo, venho por meio desta… Não vai parecer um robô escrevendo?"
+      ],
+      [
+        "A",
+        "Boa pergunta. Não precisa ir para o outro extremo. Nada de venho por meio desta, nada de frase de cartório. Frases claras, completas, sem gíria e sem abreviação. Pensa num texto que você poderia ler em voz alta na frente do Otávio e do diretor da nossa empresa sem ficar com vergonha. Esse é o tom."
+      ],
+      [
+        "B",
+        "Tá. Renata, desculpa mesmo. Eu achava que ser formal era ser frio."
+      ],
+      [
+        "A",
+        "Olha, essa foi a coisa mais importante que você disse hoje. Ser formal não é ser frio. Dá para ser cordial e profissional ao mesmo tempo. Aliás, é exatamente isso que o Otávio espera da gente."
+      ],
+      [
+        "B",
+        "Vou escrever agora e te mostro antes de mandar, pode ser?"
+      ],
+      [
+        "A",
+        "Perfeito. Pode ir."
+      ]
+    ],
+    "gloss": {
+      "bronca": "reto, llamado de atención",
+      "bravo": "enojado",
+      "enrolado": "complicado, atrasado con sus cosas",
+      "relaxa": "tranqui, relajá",
+      "churrasco": "asado",
+      "seco": "seco, cortante",
+      "posicionamento": "respuesta oficial, postura",
+      "prazo": "plazo",
+      "validação": "validación, aprobación",
+      "compromisso": "compromiso",
+      "cargo": "puesto",
+      "cópia": "copia (en un e-mail)",
+      "cartório": "escribanía"
+    },
+    "questions": [
+      [
+        "Qual foi, segundo Renata, o problema da mensagem de Lucas?",
+        [
+          "A informação sobre o atraso estava errada.",
+          "O tom era informal demais para um cliente.",
+          "Lucas prometeu um prazo sem consultar ninguém.",
+          "Lucas enviou a mensagem para a pessoa errada."
+        ],
+        "O tom era informal demais para um cliente."
+      ],
+      [
+        "Por que Renata diz que escrever é “a mesma coisa, só que pior”?",
+        [
+          "Porque os clientes leem os e-mails com pressa e sem atenção.",
+          "Porque no texto não há sorriso nem tom de voz para suavizar.",
+          "Porque os erros de ortografia são mais graves que os de fala.",
+          "Porque um e-mail pode ser encaminhado a outras pessoas."
+        ],
+        "Porque no texto não há sorriso nem tom de voz para suavizar."
+      ],
+      [
+        "Como Lucas deve explicar o motivo do atraso?",
+        [
+          "Dizendo que o financeiro está enrolado.",
+          "Pedindo que Otávio tenha paciência.",
+          "Como uma etapa necessária de validação.",
+          "Culpando a própria inexperiência de estagiário."
+        ],
+        "Como uma etapa necessária de validação."
+      ],
+      [
+        "Qual é o objetivo da videoconferência proposta?",
+        [
+          "Substituir o envio da proposta por escrito.",
+          "Apresentar a proposta e esclarecer dúvidas.",
+          "Negociar um desconto para compensar o atraso.",
+          "Apresentar Renata como a nova responsável pela conta."
+        ],
+        "Apresentar a proposta e esclarecer dúvidas."
+      ],
+      [
+        "O que Lucas percebe no final da conversa?",
+        [
+          "Que é possível ser cordial e formal ao mesmo tempo.",
+          "Que deveria ter deixado Renata responder ao cliente.",
+          "Que Otávio não gosta de conversar com estagiários.",
+          "Que nunca mais deve usar o WhatsApp no trabalho."
+        ],
+        "Que é possível ser cordial e formal ao mesmo tempo."
+      ]
+    ],
+    "vf": [
+      [
+        "Otávio ligou para Renata porque ficou surpreso com o e-mail de Lucas.",
+        "verdadeiro"
+      ],
+      [
+        "Renata vai escrever pessoalmente a resposta ao cliente.",
+        "falso"
+      ],
+      [
+        "Lucas já trabalhou antes com outros clientes do setor farmacêutico.",
+        "não se diz"
+      ],
+      [
+        "Renata ainda não confirmou o novo prazo com o financeiro.",
+        "falso"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "carta_formal",
+    "title": "Resposta ao cliente",
+    "fonte": "ascolto",
+    "t": "Você é Lucas, estagiário de uma agência digital. Após ouvir a conversa com a sua gerente, Renata, escreva o e-mail formal de resposta ao senhor Otávio Mendes, diretor de compras da rede de farmácias cliente, que respondeu à sua mensagem anterior pedindo um “posicionamento formal da empresa”. No seu e-mail, siga as orientações de Renata: peça desculpas pelo atraso e pelo tom da mensagem anterior, explique o motivo do atraso de forma profissional, informe o novo prazo de entrega da proposta e ofereça a videoconferência. Não se esqueça de incluir assunto, vocativo e fecho e de assinar com nome e cargo.",
+    "es": "E-mail formal de respuesta al cliente con los datos del audio: disculpas, motivo (validación de costos), nuevo plazo (viernes, 18 h) y videoconferencia el lunes. Cuidá el registro culto: nada de “oi”, “relaxa” ni abreviaturas.",
+    "min": 239,
+    "max": 299,
+    "punti": [
+      [
+        "Pedir disculpas por el atraso y por el tono",
+        [
+          "desculpa",
+          "lament"
+        ]
+      ],
+      [
+        "Explicar el motivo: validación de costos por el área financiera",
+        [
+          "validação",
+          "financeiro",
+          "custos"
+        ]
+      ],
+      [
+        "Informar el nuevo plazo (viernes, 18 h)",
+        [
+          "sexta",
+          "18h",
+          "18 h"
+        ]
+      ],
+      [
+        "Ofrecer la videoconferencia del lunes",
+        [
+          "videoconferência",
+          "reunião"
+        ]
+      ]
+    ],
+    "model": "Assunto: Proposta comercial – novo prazo de entrega\n\nPrezado Sr. Otávio Mendes,\n\nEm primeiro lugar, gostaria de pedir desculpas pelo atraso na entrega da nossa proposta e, também, pelo tom inadequado da minha mensagem anterior, que não refletiu o cuidado e a seriedade com que a nossa empresa tem conduzido este projeto, nem o respeito que temos pela sua rede e pela sua equipe.\n\nInformo que a proposta se encontra, no momento, na etapa de validação de custos pelo nosso departamento financeiro. Trata-se de um procedimento necessário para garantirmos que todos os valores apresentados sejam precisos e definitivos, evitando revisões posteriores que poderiam causar novos transtornos à sua equipe.\n\nDiante disso, comprometemo-nos a enviar-lhe a versão final da proposta até a próxima sexta-feira, às 18 horas. Esse prazo já foi confirmado junto ao departamento responsável. Ressalto que a proposta contemplará todos os pontos discutidos em nossa última reunião, incluindo o cronograma de implantação.\n\nAlém disso, gostaríamos de sugerir uma videoconferência na segunda-feira seguinte, em horário de sua conveniência, para apresentarmos a proposta em detalhes e esclarecermos eventuais dúvidas da sua equipe. Caso a data não lhe seja favorável, teremos prazer em propor outras opções.\n\nReitero as nossas desculpas pelo inconveniente e agradeço, desde já, a sua compreensão. Permaneço à disposição para qualquer esclarecimento que se faça necessário, por telefone ou por este endereço de e-mail. Informo, ainda, que a nossa gerente de contas, Renata Campos, está em cópia nesta mensagem e acompanhará pessoalmente as próximas etapas do projeto.\n\nAtenciosamente,\n\nLucas Ferraz\nEstagiário de Atendimento ao Cliente\nAgência Horizonte Digital",
+    "gloss": {
+      "sua rede": "su cadena (de negocios)",
+      "transtornos": "molestias, inconvenientes",
+      "comprometemo-nos a enviar-lhe": "nos comprometemos a enviarle",
+      "junto ao departamento responsável": "con el área responsable",
+      "Ressalto que": "destaco que",
+      "contemplará": "incluirá, abarcará",
+      "está em cópia": "va con copia en este correo"
+    }
+  },
+  "breve": {
+    "title": "Convocação do síndico",
+    "genre": "comunicado formal",
+    "es": "Un comunicado formal del administrador de un edificio: convoca a una asamblea extraordinaria sobre los ascensores, con fecha, presupuesto y reglas para votar.",
+    "speaker": "Ricardo Moura, síndico",
+    "voice": 0,
+    "text": [
+      "Prezados moradores do Condomínio Edifício Atlântico, bom dia. Aqui fala Ricardo Moura, síndico do prédio, com um comunicado da administração.",
+      "Ficam todos convocados para a assembleia geral extraordinária, que será realizada na próxima quinta-feira, às 19 horas e 30 minutos, no salão de festas. Na pauta, a troca dos dois elevadores, cujo orçamento é de 380 mil reais, e a instalação de câmeras na garagem.",
+      "Caso a proposta seja aprovada, a obra será paga em 12 parcelas, a partir de março. Solicita-se aos moradores que não puderem comparecer que enviem uma procuração por escrito a um vizinho de confiança. Lembramos que só poderão votar os condôminos em dia com a taxa condominial.",
+      "Agradeço desde já a presença de todos. Atenciosamente, Ricardo Moura, síndico."
+    ],
+    "tabella": [
+      [
+        "Horário da assembleia",
+        "19h30",
+        [
+          "19:30",
+          "19.30",
+          "19 e 30",
+          "19 horas e 30",
+          "sete e meia",
+          "19 e meia"
+        ]
+      ],
+      [
+        "Local da assembleia",
+        "salão de festas",
+        [
+          "no salão de festas",
+          "salao de festas"
+        ]
+      ],
+      [
+        "Orçamento da troca dos elevadores (reais)",
+        "380 mil",
+        [
+          "380.000",
+          "380000",
+          "trezentos e oitenta mil"
+        ]
+      ],
+      [
+        "Número de parcelas",
+        "12",
+        [
+          "doze",
+          "12 parcelas"
+        ]
+      ],
+      [
+        "Mês em que começa o pagamento",
+        "março",
+        [
+          "em março",
+          "marco"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "A assembleia vai discutir a troca dos elevadores.",
+        true
+      ],
+      [
+        "As câmeras vão ser instaladas na entrada do prédio.",
+        false
+      ],
+      [
+        "Quem não puder ir pode mandar uma procuração.",
+        true
+      ],
+      [
+        "Todos os moradores podem votar.",
+        false
+      ],
+      [
+        "O comunicado é do síndico.",
+        true
+      ],
+      [
+        "A obra vai ser paga de uma só vez.",
+        false
+      ]
+    ],
+    "gloss": {
+      "síndico": "administrador del consorcio",
+      "pauta": "orden del día",
+      "orçamento": "presupuesto",
+      "parcelas": "cuotas",
+      "em dia": "al día"
+    }
+  }
+}

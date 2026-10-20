@@ -1,0 +1,18 @@
+{
+ "name": "Radio Portici",
+ "label": "Radio",
+ "blurb": "La radio del barrio en Bologna, de la semana 6 a la 25: un programa corto por semana, a dos voces, con la gramática y las palabras de la semana. Sara y Dario conducen «Buongiorno Portici»; llaman Martín (el argentino de las lecturas), la signora Franca y Leo, el corresponsal en bicicleta. Dos escuchas con las preguntas a la vista y la transcripción al final.",
+ "metaFrom": 14,
+ "criterion": 60,
+ "info": {
+  "es": {"prompt": "¿Lo dice o no lo dice?", "yes": "Lo dice", "no": "No lo dice"},
+  "meta": {"prompt": "Lo dice o non lo dice?", "yes": "Lo dice", "no": "Non lo dice"}
+ },
+ "personaggi": {
+  "Sara": "conduce «Buongiorno Portici»; boloñesa, ordenada, corre en los Giardini Margherita",
+  "Dario": "co-conductor; napolitano, vive en Bologna hace poco, siempre con hambre y siempre tarde",
+  "Martín": "el argentino de las lecturas (via Zamboni); llama cuando tiene una duda o una novedad",
+  "Franca": "la signora Franca, 78 años, vecina de via del Pratello; llama casi todas las semanas",
+  "Leo": "estudiante de 20 años, corresponsal en bicicleta"
+ }
+}

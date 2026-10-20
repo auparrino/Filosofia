@@ -1,0 +1,220 @@
+{
+  "week": 38,
+  "level": "B2",
+  "lettura": {
+    "title": "Legenda com sotaque: quando a série fala como a gente",
+    "emoji": "🎬",
+    "genre": "reportagem",
+    "grammar": "português falado do Brasil (né, tá, cadê, a gente, pra)",
+    "text": "Quem assiste a uma série brasileira com legendas em português talvez nunca tenha reparado num pequeno descompasso: o personagem diz “cadê a chave?”, e a legenda escreve “onde está a chave?”. Ele diz “a gente tá atrasado”, e o texto na tela corrige para “estamos atrasados”. Durante décadas, essa tradução silenciosa do português falado para o português escrito foi a regra nas legendas, nas dublagens e até nos roteiros. Nos últimos anos, porém, algo começou a mudar.\n\n“A gente percebeu que o público estranhava”, conta Luana Freitas, coordenadora de legendagem de uma produtora paulistana que trabalha para plataformas de streaming. “Nas redes, as pessoas reclamavam: por que a legenda fala diferente do ator? Principalmente quem é surdo ou tem dificuldade auditiva e depende do texto pra acompanhar a história.” A empresa passou então a adotar, em produções nacionais, uma legenda mais próxima da fala: o “pra” substituiu o “para”, o “né” ganhou espaço no fim das frases e o “tá” deixou de ser automaticamente convertido em “está”.\n\nA mudança não é trivial. Os linguistas lembram que essas formas não são erros, mas traços consolidados do português brasileiro. O “a gente” no lugar de “nós”, por exemplo, é muito frequente na fala espontânea de todas as regiões e classes sociais, inclusive entre pessoas com alta escolaridade. O “né”, contração de “não é”, funciona como um pedido de confirmação ou simplesmente como um marcador que mantém o interlocutor por perto. “Cadê”, que vem de uma antiga expressão, “que é de”, é tão comum que soa estranho quando alguém pergunta, numa conversa informal, “onde está?”.\n\nNem todos aplaudem. Professores de língua ouvidos pela reportagem manifestam receio de que a legenda coloquial confunda estudantes e estrangeiros que aprendem português. “A legenda é, para muitos espectadores, o principal contato diário com a escrita”, argumenta um docente de uma escola pública de Salvador. “Se ela reproduz o tô e o pro, onde o aluno vai ver o registro formal?” Outros rebatem que o problema está justamente no oposto: ao corrigir a fala, a legenda transmite a ideia de que o jeito como os brasileiros falam é inferior.\n\nHá ainda uma questão técnica. As legendas têm limite de caracteres por linha e de tempo na tela; por isso, os legendistas sempre precisaram cortar palavras e condensar falas. Curiosamente, as formas orais ajudam nesse ponto: “pra” é mais curto que “para”, “tá” é mais curto que “está”. Mas o equilíbrio é delicado. “Se eu escrevo tudo como o ator fala, com tipo, assim, sabe, a legenda fica ilegível”, explica Luana. “A gente seleciona. O que é marca de identidade do personagem fica; o que é só hesitação sai.”\n\nO debate chegou também às redes sociais, onde o português escrito sempre foi mais livre. Nos comentários, ninguém escreve “estamos chegando”: escreve “a gente tá chegando”, quando não abrevia tudo para “tamo chegando”. Para alguns pesquisadores, as plataformas digitais aproximaram a escrita cotidiana da fala de um modo inédito, e a legenda apenas acompanha esse movimento.\n\nTalvez o mais interessante seja perceber que a discussão não opõe certo e errado, mas contextos. Ninguém propõe que um contrato diga “a gente se compromete”, nem que um boletim médico use “cadê”. Assim como um bom falante ajusta o registro conforme a situação, a legenda passa a se ajustar ao gênero que traduz. Numa série sobre adolescentes da periferia, a fala crua é parte da verdade da história; num documentário histórico, a norma culta pode ser mais adequada. No fim, a pergunta que as produtoras começam a fazer é simples: a legenda serve para corrigir o personagem ou para ouvi-lo melhor?",
+    "gloss": {
+      "reparado": "notado",
+      "descompasso": "desajuste",
+      "tela": "pantalla",
+      "dublagens": "doblajes",
+      "roteiros": "guiones",
+      "estranhava": "le resultaba raro",
+      "surdo": "sordo",
+      "traços": "rasgos",
+      "escolaridade": "nivel educativo",
+      "ouvidos": "consultados",
+      "receio": "temor",
+      "rebatem": "replican",
+      "legendistas": "subtituladores",
+      "hesitação": "titubeo",
+      "inédito": "sin precedentes",
+      "boletim": "parte (médico)",
+      "periferia": "barrios populares de las afueras",
+      "crua": "cruda"
+    },
+    "questions": [
+      ["Qual foi a principal mudança adotada pela produtora de Luana?", ["Passou a dublar todas as séries estrangeiras.", "Aproximou as legendas das produções nacionais da fala dos atores.", "Eliminou as legendas das séries brasileiras.", "Contratou professores de português para revisar todos os roteiros das séries."], "Aproximou as legendas das produções nacionais da fala dos atores."],
+      ["Segundo o texto, por que a fidelidade à fala importa para pessoas surdas?", ["Porque dependem da legenda para acompanhar a história como é dita.", "Porque preferem ler em registro formal.", "Porque não conhecem as formas coloquiais.", "Porque as dublagens nacionais raramente são acessíveis às pessoas surdas."], "Porque dependem da legenda para acompanhar a história como é dita."],
+      ["Qual é o argumento do professor de Salvador?", ["A legenda coloquial tira dos alunos um contato diário com a escrita formal.", "As séries nacionais têm pouco valor educativo.", "Os alunos não leem legendas.", "Os estrangeiros deveriam assistir às séries brasileiras sempre sem nenhuma legenda."], "A legenda coloquial tira dos alunos um contato diário com a escrita formal."],
+      ["Segundo Luana, o que é retirado da legenda?", ["As gírias regionais dos personagens.", "As hesitações sem valor de identidade.", "Todas as formas como “né” e “tá”.", "Os nomes próprios difíceis."], "As hesitações sem valor de identidade."],
+      ["Que posição o texto sugere no último parágrafo?", ["O registro formal deve prevalecer sempre.", "A escolha do registro depende do gênero e do contexto.", "As legendas coloquiais devem ser proibidas em documentários e contratos.", "A fala crua é sempre mais verdadeira."], "A escolha do registro depende do gênero e do contexto."]
+    ],
+    "vf": [
+      ["“A gente” é usado sobretudo por pessoas com pouca escolaridade.", "falso"],
+      ["As formas orais podem ajudar a respeitar o limite de caracteres.", "verdadeiro"],
+      ["A produtora de Luana também legenda séries estrangeiras com linguagem coloquial.", "não se diz"],
+      ["Nas redes sociais, a escrita sempre foi mais livre do que em outros meios.", "verdadeiro"],
+      ["A maioria dos espectadores prefere legendas no registro formal.", "não se diz"]
+    ],
+    "hunt": {
+      "label": "Toque nas formas típicas do português falado no Brasil (né, tá, tô, cadê, a gente, pra, pro, tamo)",
+      "targets": ["né", "tá", "tô", "cadê", "gente", "pra", "pro", "tamo"]
+    }
+  },
+  "ascolto": {
+    "title": "Cê já terminou a série?",
+    "genre": "conversa entre amigos",
+    "es": "Dos amigos se encuentran en un café y charlan de una serie brasileña que están viendo, de los spoilers en las redes y de otras cosas.",
+    "speakers": ["Bruna", "Caio"],
+    "turns": [
+      ["A", "E aí, Caio, tudo bom? Senta aí. Nossa, cê tá com uma cara de sono..."],
+      ["B", "Tô morto, Bruna. Fiquei até as três da manhã maratonando aquela série, sabe? A da família que tem uma padaria em Niterói."],
+      ["A", "Mentira! Casa de Pão? Eu também tô vendo! Em que episódio cê tá?"],
+      ["B", "Terminei, né. Vi a temporada inteira num fim de semana. Mas calma, não vou dar spoiler."],
+      ["A", "Ai, ainda bem, porque ontem mesmo eu quase vi um spoiler no grupo da faculdade. O pessoal não tem noção, tipo, manda print do final sem avisar nada."],
+      ["B", "Pois é, rede social virou campo minado. Eu silenciei umas palavras no aplicativo pra não aparecer nada da série na minha timeline."],
+      ["A", "Sério? Dá pra fazer isso? Cadê essa opção?"],
+      ["B", "Dá, tá nas configurações, lá em… em privacidade. Depois eu te mostro. Mas vem cá, o que cê tá achando?"],
+      ["A", "Olha, no começo eu achei meio… meio parado, sabe? Aí lá pelo terceiro episódio a coisa engrenou. E o que eu mais gosto é o jeito que eles falam. Parece a minha família, cara. Minha tia fala igualzinho à dona Cida."],
+      ["B", "Né? Ninguém fala nós vamos, todo mundo fala a gente vai. Eu li até uma matéria dizendo que a legenda agora respeita isso, que antes eles corrigiam tudo."],
+      ["A", "Ah, por isso! Eu sempre vejo com legenda porque o som do meu notebook é, é horrível, e eu reparei que tava escrito pra, tá, essas coisas. Achei estranho no começo."],
+      ["B", "Mas faz sentido, né? Se o ator fala cadê, por que a legenda vai escrever onde está? Fica artificial."],
+      ["A", "É, mas minha mãe, que é pro… que é professora, reclamou. Falou que a gente já escreve tudo errado no celular e que agora nem a série ajuda. Ela acha que isso confunde os alunos dela."],
+      ["B", "Ah, mas aí é outra coisa. Uma coisa é mensagem, outra é redação da escola. Ninguém escreve currículo com tô, né?"],
+      ["A", "Verdade. Bom, hum, mudando de assunto, cê vai na festa da Lari sábado?"],
+      ["B", "Vou, mas vou chegar tarde, porque tenho plantão no hospital até as oito. Guarda um pedaço de bolo pra mim."],
+      ["A", "Fechado. E se até lá eu não tiver terminado a série, cê fica quieto, tá?"],
+      ["B", "Juro. Boca de siri."],
+      ["A", "Ó, e me manda depois aquele print das configurações, tá? Senão eu esqueço."],
+      ["B", "Mando agora, pera aí. Pronto, mandei. Cê vai ver que é rapidinho, dá pra silenciar até o nome dos personagens."]
+    ],
+    "gloss": {
+      "ó": "mirá (muletilla)",
+      "bem": "(ainda bem) menos mal",
+      "mentira": "(¡mentira!) ¡no te puedo creer!",
+      "cê": "vos (forma oral de você)",
+      "morto": "muerto (de cansancio)",
+      "maratonando": "viendo de corrido",
+      "noção": "(não ter noção) ser desubicado",
+      "print": "captura de pantalla",
+      "silenciei": "silencié",
+      "parado": "lento",
+      "engrenou": "agarró ritmo",
+      "igualzinho": "igualito",
+      "reparei": "noté",
+      "plantão": "guardia",
+      "bolo": "torta",
+      "fechado": "trato hecho",
+      "siri": "(boca de siri) boca cerrada"
+    },
+    "questions": [
+      ["Por que Caio está com sono?", ["Trabalhou no plantão a noite toda.", "Ficou até tarde vendo a série.", "Foi a uma festa na noite anterior.", "Estudou para uma prova da faculdade."], "Ficou até tarde vendo a série."],
+      ["Por que Bruna se preocupa com as redes sociais?", ["Tem medo de ver o final da série antes da hora.", "Não sabe usar as configurações de privacidade do aplicativo.", "Recebeu críticas por comentar a série.", "Perdeu o acesso ao grupo da faculdade."], "Tem medo de ver o final da série antes da hora."],
+      ["Do que Bruna mais gosta na série?", ["A história da padaria em Niterói.", "O jeito de falar dos personagens.", "A trilha sonora e a fotografia.", "O final surpreendente."], "O jeito de falar dos personagens."],
+      ["O que Caio quer dizer com “Uma coisa é mensagem, outra é redação da escola”?", ["Que a escola deveria ensinar a escrever mensagens.", "Que o registro muda conforme a situação de escrita.", "Que as mensagens de celular estragam a língua.", "Que a mãe de Bruna tem toda a razão."], "Que o registro muda conforme a situação de escrita."],
+      ["Quando Caio diz “Boca de siri”, ele:", ["reclama da comida da festa.", "promete não contar nada sobre a série.", "pede que Bruna fale mais baixo.", "diz que vai chegar tarde à festa da Lari."], "promete não contar nada sobre a série."]
+    ],
+    "vf": [
+      ["Caio viu a temporada inteira num fim de semana.", "verdadeiro"],
+      ["Bruna vê a série sem legenda.", "falso"],
+      ["A mãe de Bruna é professora.", "verdadeiro"],
+      ["Lari é colega de faculdade de Bruna.", "não se diz"]
+    ]
+  },
+  "compito": {
+    "genre": "email_informal",
+    "title": "E-mail a um amigo que aprende português",
+    "fonte": "entrambi",
+    "t": "Você é brasileiro(a) e tem um amigo estrangeiro, Tom, que está aprendendo português. Ele lhe escreveu dizendo que está confuso: na aula aprende “nós estamos” e “onde está”, mas nas séries brasileiras e nas legendas vê “a gente tá” e “cadê”. Após ler a reportagem “Legenda com sotaque” e ouvir a conversa entre Bruna e Caio, escreva um e-mail para Tom explicando essas formas do português falado, usando informações da reportagem e da conversa, e dando a ele conselhos sobre quando usar cada registro. Use registro informal. Não se esqueça de cumprimentar e de se despedir do seu amigo. Seu texto deve ter entre 182 e 242 palavras.",
+    "es": "Mail informal a un amigo: explicá que né, tá, cadê, a gente y pra no son errores sino portugués hablado, usá datos de la lectura y del audio y dale un consejo sobre registros.",
+    "min": 182,
+    "max": 242,
+    "punti": [["Explicar las formas orales (a gente, tá, cadê, né, pra)", ["a gente", "cadê", "né"]], ["Aclarar que no son errores", ["erro", "errado"]], ["Usar información de la lectura y de la charla", ["legenda", "reportagem", "conversa"]], ["Explicar que depende del contexto o registro", ["contexto", "registro", "situação"]], ["Dar un consejo", ["dica", "conselho", "sugiro"]]],
+    "model": "Oi, Tom!\n\nQue bom receber notícias suas! Adorei saber que você tá maratonando séries brasileiras pra treinar o português. Fica tranquilo: você não tá ficando louco. A confusão tem explicação.\n\nO que você aprende na aula, tipo “nós estamos” e “onde está”, é o português escrito, mais formal. Já o que você ouve nas séries é o português falado do Brasil, que tem suas próprias formas. “A gente” no lugar de “nós”, “tá” no lugar de “está”, “cadê” no lugar de “onde está” e o famoso “né” no fim das frases não são erros: todo mundo usa.\n\nLi uma reportagem esses dias que explicava justamente isso. Antes, as legendas corrigiam a fala dos atores; agora, em várias produções nacionais, elas respeitam o jeito como a gente fala. A Luana Freitas, que coordena as legendas de uma produtora de streaming, contou que o pedido veio do público, principalmente de pessoas surdas. E sabia que “cadê” vem de “que é de”? Alguns professores reclamam, mas a própria reportagem conclui que tudo depende do contexto: ninguém escreve um contrato com “cadê”.\n\nTambém ouvi uma conversa de dois amigos comentando uma série, e um deles resumiu bem: uma coisa é mensagem, outra é redação da escola.\n\nEntão minha dica é: aprende as duas coisas. Usa “a gente” e “pra” quando conversar com os amigos e guarda o “nós” e o “para” pros e-mails de trabalho e pras provas.\n\nUm abraço e boa maratona!\n\nLucas",
+    "gloss": {
+      "maratonando séries": "viendo series de un tirón",
+      "pode ficar tranquilo": "quedate tranquilo",
+      "legendas": "subtítulos",
+      "o jeito como a gente fala": "la manera en que hablamos",
+      "redação da escola": "la composición del colegio",
+      "aprende as duas coisas": "aprendé las dos cosas (imperativo del habla: la forma de tú, que es la del presente)"
+    }
+  },
+  "breve": {
+    "title": "Áudio do Rafa: a estreia da série",
+    "genre": "mensagem de voz",
+    "es": "Un audio de WhatsApp, bien coloquial: un amigo invita a ver el estreno de una serie en su casa; la dirección nueva, la pizza y qué llevar.",
+    "speaker": "Rafa",
+    "voice": 0,
+    "text": [
+      "Fala, Bia! Tudo certo? Então, é o seguinte: a estreia da nova temporada é sexta, né, às nove da noite. A gente vai ver lá em casa, tá? Cê topa?",
+      "O endereço cê sabe, né, Rua Bambina, 45, mas agora é no apartamento 302, porque eu mudei de andar. O porteiro já tá avisado, é só falar que vai pro 302.",
+      "Ó, pra comida a gente pensou em pizza. Deu 30 reais pra cada um, pode mandar no Pix, beleza? Se cê quiser trazer alguma coisa, traz um refri, que cerveja já tem. Ah, e cadê aquele meu carregador que eu te emprestei? Traz também, por favor, que eu tô sem.",
+      "E ó, sem spoiler, hein! Quem tiver visto o trailer vazado fica calado. Beijo, até sexta!"
+    ],
+    "tabella": [
+      [
+        "Hora da estreia",
+        "9",
+        [
+          "nove",
+          "21",
+          "21h",
+          "21 horas",
+          "nove da noite",
+          "9 da noite"
+        ]
+      ],
+      [
+        "Número do apartamento",
+        "302",
+        [
+          "trezentos e dois",
+          "apartamento 302"
+        ]
+      ],
+      [
+        "Número do prédio na Rua Bambina",
+        "45",
+        [
+          "quarenta e cinco"
+        ]
+      ],
+      [
+        "Quanto cada um paga pela pizza (reais)",
+        "30",
+        [
+          "trinta",
+          "30 reais",
+          "R$ 30"
+        ]
+      ],
+      [
+        "Bebida que a Bia pode levar",
+        "refri",
+        [
+          "refrigerante",
+          "um refri"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "O Rafa mudou de apartamento no mesmo prédio.",
+        true
+      ],
+      [
+        "A comida vai ser churrasco.",
+        false
+      ],
+      [
+        "O dinheiro da pizza pode ser mandado por Pix.",
+        true
+      ],
+      [
+        "A Bia precisa levar cerveja.",
+        false
+      ],
+      [
+        "O Rafa quer de volta o carregador.",
+        true
+      ],
+      [
+        "O Rafa vai mostrar o trailer para todo mundo.",
+        false
+      ]
+    ],
+    "gloss": {
+      "topa": "¿te prendés?",
+      "refri": "gaseosa",
+      "carregador": "cargador",
+      "vazado": "filtrado",
+      "estreia": "estreno"
+    }
+  }
+}

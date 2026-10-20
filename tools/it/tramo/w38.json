@@ -1,0 +1,379 @@
+{
+  "week": 38,
+  "level": "B2",
+  "lettura": {
+    "title": "«Venite a gennaio»: la sindaca che riporta la gente in montagna",
+    "emoji": "🎙️",
+    "genre": "resoconto di un'intervista",
+    "grammar": "il discorso indiretto",
+    "text": "Quando Marta Colasanti è stata eletta sindaca di Roccavecchia, un paese di trecento abitanti sull'Appennino molisano, la scuola elementare stava per chiudere e l'ultimo bar apriva solo nei fine settimana. Cinque anni dopo, i residenti sono quasi quattrocento, la scuola ha una pluriclasse di undici bambini e il bar ha riaperto tutti i giorni. L'abbiamo incontrata nel suo ufficio, una stanza con la stufa a legna e una finestra che dà sulla valle.\n\nLe abbiamo chiesto, prima di tutto, come fosse cominciato tutto. Colasanti ha raccontato che all'inizio non aveva un piano preciso. Ha spiegato che, subito dopo l'elezione, aveva fatto un giro per le case vuote del centro e si era resa conto che erano più di cento. «Mi sono chiesta» ha detto «perché dovessero restare chiuse mentre in città i giovani non trovavano un appartamento.» Da quella domanda, ha aggiunto, era nata l'idea di un censimento delle abitazioni abbandonate e di un accordo con i proprietari, molti dei quali vivevano all'estero da decenni.\n\nLa sindaca ha precisato che il Comune non aveva regalato niente. Ha voluto chiarire che le case erano state affittate a prezzi bassi, ma che i nuovi abitanti si erano impegnati a ristrutturarle e a restare almeno tre anni. Ha ammesso che i primi mesi erano stati difficili: alcuni anziani del paese temevano che i nuovi arrivati avrebbero cambiato le abitudini di tutti, e qualcuno aveva perfino scritto una lettera anonima alla prefettura. «Non li biasimo» ha commentato. «Avevano visto partire i figli e i nipoti, e avevano paura di perdere anche il paese.»\n\nChi sono i nuovi residenti? Colasanti ha detto che si trattava soprattutto di famiglie giovani e di persone che lavorano a distanza: una traduttrice, due programmatori, un'illustratrice, un falegname che aveva lasciato Roma. Ha raccontato che la connessione internet era stata la prima battaglia e che, finché non era arrivata la fibra, alcuni lavoravano dalla biblioteca comunale, l'unico edificio con una rete decente. Ha aggiunto, ridendo, che in quel periodo la biblioteca non era mai stata così frequentata. Ha precisato, però, che non tutti erano rimasti: in cinque anni tre famiglie se n'erano andate, e lei non lo considerava un fallimento. Secondo lei era giusto che qualcuno provasse e capisse da solo che quella vita non faceva per lui.\n\nLe abbiamo domandato se il modello fosse replicabile altrove. La sindaca ha risposto che non esistevano ricette valide per tutti e che diffidava di chi le presentava come tali. Ha sostenuto che un paese non si ripopola soltanto con gli incentivi, ma con i servizi: un medico che venga almeno due volte alla settimana, un autobus per la scuola media, un negozio dove comprare il necessario. Ha detto che la sua battaglia per l'anno successivo sarebbe stata proprio la farmacia, chiusa da tempo, e che aveva già scritto alla Regione per chiedere un sostegno.\n\nPrima di salutarci, le abbiamo chiesto che cosa direbbe a un giovane che pensa di trasferirsi in un paese come il suo. Colasanti ci ha pensato un momento. Ha risposto che gli direbbe di venire prima in inverno, non in agosto, e di restare almeno una settimana. Ha spiegato che d'estate tutti i paesi sono belli, ma che è a gennaio che si capisce se si è pronti a viverci. Poi ha aggiunto che, se dopo quella settimana avesse ancora voglia di restare, lo avrebbe aspettato volentieri in municipio.\n\nUscendo, abbiamo incrociato l'illustratrice arrivata da Bologna, che stava accompagnando la figlia a scuola. Le abbiamo chiesto se rifarebbe la stessa scelta. Ci ha detto di sì, senza esitazioni, ma ci ha pregato di non scrivere che è tutto facile. «Scrivete che è bello» ha detto «ma che ci vuole pazienza.»",
+    "gloss": {
+      "dà": "(una finestra che dà sulla valle) una ventana que da al valle",
+      "gennaio": "(è a gennaio che si capisce) es en enero cuando uno se da cuenta: *è... che* destaca un elemento (semana 48)",
+      "faceva": "(quella vita non faceva per lui) esa vida no era para él: *fare per qualcuno*",
+      "andate": "(se n'erano andate) se habían ido: *andarsene* = irse (semana 45)",
+      "pluriclasse": "grado que junta alumnos de distintos años",
+      "stufa": "estufa",
+      "legna": "leña",
+      "censimento": "relevamiento, censo",
+      "abbandonate": "abandonadas",
+      "regalato": "regalado",
+      "impegnati": "comprometidos",
+      "ristrutturarle": "refaccionarlas",
+      "prefettura": "prefectura (oficina del gobierno nacional en la provincia)",
+      "biasimo": "culpo, reprocho",
+      "falegname": "carpintero",
+      "fibra": "fibra óptica",
+      "decente": "aceptable",
+      "replicabile": "replicable",
+      "diffidava": "desconfiaba",
+      "ripopola": "repuebla",
+      "incentivi": "incentivos",
+      "sostegno": "apoyo",
+      "municipio": "municipalidad",
+      "incrociato": "cruzado (nos cruzamos con)",
+      "rifarebbe": "volvería a hacer",
+      "esitazioni": "vacilaciones",
+      "pregato": "rogado, pedido"
+    },
+    "questions": [
+      [
+        "Qual era la situazione di Roccavecchia quando Colasanti è stata eletta?",
+        [
+          "Il paese si svuotava e rischiava di perdere i servizi",
+          "Il paese era pieno di turisti in ogni stagione",
+          "Le case del centro erano state tutte vendute a stranieri",
+          "Il paese aveva appena perso la sua biblioteca"
+        ],
+        "Il paese si svuotava e rischiava di perdere i servizi"
+      ],
+      [
+        "Da quale osservazione è nata l'idea della sindaca?",
+        [
+          "I proprietari all'estero volevano vendere subito",
+          "Gli anziani del paese chiedevano più compagnia",
+          "Molte case erano vuote mentre i giovani cercavano casa",
+          "La Regione offriva fondi per ristrutturare"
+        ],
+        "Molte case erano vuote mentre i giovani cercavano casa"
+      ],
+      [
+        "Che cosa pensa la sindaca degli anziani che si opponevano?",
+        [
+          "Che la loro paura era comprensibile",
+          "Che avevano scritto alla Regione per protestare",
+          "Che col tempo se ne erano andati dal paese",
+          "Che andavano denunciati per la lettera anonima"
+        ],
+        "Che la loro paura era comprensibile"
+      ],
+      [
+        "Secondo Colasanti, che cosa serve soprattutto per ripopolare un paese?",
+        [
+          "Incentivi economici più generosi",
+          "Una buona promozione turistica estiva",
+          "Una ricetta valida per tutti i comuni",
+          "Servizi essenziali per chi ci abita"
+        ],
+        "Servizi essenziali per chi ci abita"
+      ],
+      [
+        "Perché la sindaca consiglia di venire in inverno?",
+        [
+          "Perché in inverno gli affitti costano meno",
+          "Perché d'estate il paese è troppo affollato",
+          "Perché è in inverno che si vede la vita vera del paese",
+          "Perché in inverno il municipio ha più tempo"
+        ],
+        "Perché è in inverno che si vede la vita vera del paese"
+      ]
+    ],
+    "vf": [
+      [
+        "Oggi a Roccavecchia vivono quasi quattrocento persone.",
+        "vero"
+      ],
+      [
+        "Il Comune ha regalato le case ai nuovi residenti.",
+        "falso"
+      ],
+      [
+        "La traduttrice è arrivata a Roccavecchia da Milano.",
+        "non si dice"
+      ],
+      [
+        "Prima dell'arrivo della fibra, alcuni lavoravano dalla biblioteca comunale.",
+        "vero"
+      ],
+      [
+        "L'illustratrice sostiene che vivere a Roccavecchia sia facile.",
+        "falso"
+      ]
+    ],
+    "hunt": {
+      "label": "Tocá los verbos que cambian de tiempo o de modo en el discurso indirecto (en los tiempos compuestos, el auxiliar)",
+      "targets": ["fosse", "aveva", "era", "erano", "trattava", "lavoravano", "considerava", "provasse", "capisse", "faceva", "esistevano", "diffidava", "presentava", "sarebbe", "avesse", "avrebbe", "avrebbero"]
+    }
+  },
+  "ascolto": {
+    "title": "Chiudere il pezzo",
+    "genre": "conversazione in redazione",
+    "es": "En la redacción de un diario, la jefa de sección le pide a un cronista joven que le cuente qué se dijo en una conferencia de prensa sobre el futuro de una fábrica.",
+    "speakers": [
+      "Federica, caporedattrice",
+      "Luca, cronista"
+    ],
+    "turns": [
+      [
+        "A",
+        "Luca, eccoti finalmente. Allora, com'è andata la conferenza stampa? Tra un'ora dobbiamo chiudere il pezzo."
+      ],
+      [
+        "B",
+        "Allora, è stata lunga, ma interessante. L'amministratore delegato, Ferretti, ha detto che lo stabilimento di Borgo San Vito non chiuderà quest'anno."
+      ],
+      [
+        "A",
+        "Aspetta, aspetta. Ha detto proprio che non chiuderà, o ha detto un'altra cosa? Perché cambiano due parole e cambia la notizia."
+      ],
+      [
+        "B",
+        "Eh, hai ragione. Guarda, ho la registrazione. Le parole esatte sono: per il momento non abbiamo intenzione di chiudere lo stabilimento. Quindi ha detto che per il momento non avevano intenzione di chiuderlo."
+      ],
+      [
+        "A",
+        "Ecco. Per il momento, nel titolo, non può mancare. E sui posti di lavoro?"
+      ],
+      [
+        "B",
+        "Ha spiegato che l'azienda avrebbe ridotto la produzione del trenta per cento e che una parte dei dipendenti sarebbe passata in cassa integrazione. Però ha anche detto che nessuno sarebbe stato licenziato."
+      ],
+      [
+        "A",
+        "Nessuno? E i sindacati che cosa hanno detto?"
+      ],
+      [
+        "B",
+        "C'era la segretaria provinciale, la Martelli. Ha detto che non si fidava delle promesse e che voleva vedere un piano scritto entro la fine del mese. Ha aggiunto che, se il piano non fosse arrivato, i lavoratori avrebbero scioperato."
+      ],
+      [
+        "A",
+        "Benissimo, questo va in apertura. Qualcuno ha fatto domande sul trasferimento all'estero? Girava questa voce da settimane."
+      ],
+      [
+        "B",
+        "Sì, gliel'ho chiesto io, in realtà. Gli ho chiesto se fosse vero che volevano spostare la produzione in Romania."
+      ],
+      [
+        "A",
+        "E lui?"
+      ],
+      [
+        "B",
+        "Ha risposto che non commentava le voci, ma che l'azienda stava valutando tutte le opzioni. Poi ha cambiato argomento, ha cominciato a parlare dei nuovi prodotti."
+      ],
+      [
+        "A",
+        "Classico. Allora scrivi esattamente così: che ha detto di non commentare le voci e che stavano valutando tutte le opzioni. Niente interpretazioni, quelle il lettore le fa da solo."
+      ],
+      [
+        "B",
+        "D'accordo. Sui numeri, invece, è stato vaghissimo: ha detto che l'anno prima le vendite erano calate, ma non ha voluto dire di quanto, e ha precisato che i dati sarebbero stati pubblicati insieme al bilancio, a maggio. Ah, e un'altra cosa: alla fine un operaio ha preso la parola, anche se non era previsto. Ha detto che lavorava lì da ventidue anni e che suo padre ci aveva lavorato prima di lui. Ha chiesto a Ferretti di venire in fabbrica a spiegarlo di persona, durante il turno di notte."
+      ],
+      [
+        "A",
+        "Questo è bello. Mettilo in chiusura, magari con una citazione diretta. E il nome ce l'hai?"
+      ],
+      [
+        "B",
+        "Sì, ma mi ha chiesto di non scriverlo. Ha detto che aveva paura di avere problemi."
+      ],
+      [
+        "A",
+        "Allora rispettiamo la richiesta: scrivi un operaio con ventidue anni di anzianità. Dai, hai cinquanta minuti."
+      ]
+    ],
+    "gloss": {
+      "dai": "(Dai!) ¡Dale!, ¡vamos!",
+      "hai": "(il nome ce l'hai?) ¿tenés el nombre?: *ce l'hai* = lo tenés (semana 45)",
+      "pezzo": "nota, artículo",
+      "stabilimento": "planta, fábrica",
+      "integrazione": "(cassa integrazione) seguro por suspensión, con parte del sueldo",
+      "licenziato": "despedido",
+      "sindacati": "sindicatos",
+      "scioperato": "hecho paro, ido a la huelga",
+      "apertura": "comienzo de la nota, lo destacado",
+      "voce": "rumor",
+      "voci": "rumores",
+      "operaio": "obrero",
+      "turno": "turno",
+      "anzianità": "antigüedad",
+      "bilancio": "balance (contable)",
+      "calate": "bajado, caído"
+    },
+    "questions": [
+      [
+        "Perché Federica interrompe Luca all'inizio?",
+        [
+          "Pensa che Luca sia arrivato troppo tardi",
+          "Vuole sapere le parole esatte dell'amministratore",
+          "Non crede che la conferenza sia stata interessante",
+          "Vuole cambiare il titolo che aveva già deciso"
+        ],
+        "Vuole sapere le parole esatte dell'amministratore"
+      ],
+      [
+        "Che cosa ha annunciato l'azienda sui dipendenti?",
+        [
+          "Che alcuni saranno licenziati entro fine mese",
+          "Che tutti saranno trasferiti in Romania",
+          "Che la produzione aumenterà del trenta per cento",
+          "Che una parte andrà in cassa integrazione"
+        ],
+        "Che una parte andrà in cassa integrazione"
+      ],
+      [
+        "Qual è la posizione della sindacalista?",
+        [
+          "Chiede un piano scritto e minaccia uno sciopero",
+          "È soddisfatta delle promesse fatte dall'amministratore",
+          "Propone di trasferire la produzione",
+          "Vuole incontrare i lavoratori di notte"
+        ],
+        "Chiede un piano scritto e minaccia uno sciopero"
+      ],
+      [
+        "Come risponde Ferretti alla domanda sulla Romania?",
+        [
+          "Conferma il trasferimento entro l'anno",
+          "Evita di rispondere in modo chiaro",
+          "Nega con decisione ogni ipotesi",
+          "Dice che ne parlerà prima ai sindacati"
+        ],
+        "Evita di rispondere in modo chiaro"
+      ],
+      [
+        "Quale principio del mestiere difende Federica?",
+        [
+          "Mettere sempre il nome di tutte le persone citate",
+          "Scrivere titoli che attirino più lettori possibile",
+          "Riportare fedelmente le parole, senza interpretarle",
+          "Dare più spazio all'azienda che ai sindacati"
+        ],
+        "Riportare fedelmente le parole, senza interpretarle"
+      ]
+    ],
+    "vf": [
+      [
+        "L'amministratore delegato ha escluso per sempre la chiusura dello stabilimento.",
+        "falso"
+      ],
+      [
+        "La domanda sulla Romania l'ha fatta Luca.",
+        "vero"
+      ],
+      [
+        "L'intervento dell'operaio era previsto nel programma della conferenza.",
+        "falso"
+      ],
+      [
+        "Il pezzo uscirà in prima pagina.",
+        "non si dice"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "sintesi",
+    "title": "Idee da altrove: Roccavecchia",
+    "fonte": "lettura",
+    "t": "Il giornale del tuo quartiere ha una rubrica, «Idee da altrove», che presenta esperienze di altri paesi. Ti chiedono di scrivere una sintesi dell'intervista alla sindaca di Roccavecchia. Riporta in terza persona e in discorso indiretto, senza citazioni dirette: come è nato il progetto, le difficoltà iniziali, che cosa pensa la sindaca dei servizi e quale consiglio dà ai giovani. Non aggiungere opinioni personali. Registro neutro, da 182 a 242 parole.",
+    "es": "Resumen objetivo, en tercera persona y todo en discurso indirecto: ojo con la concordancia de tiempos (ha detto che era / sarebbe stata / avesse) y con no agregar tu opinión.",
+    "min": 182,
+    "max": 242,
+    "punti": [
+      [
+        "cómo nació el proyecto",
+        [
+          "case vuote",
+          "censimento",
+          "abitazioni"
+        ]
+      ],
+      [
+        "las dificultades del comienzo",
+        [
+          "anzian",
+          "difficolt",
+          "diffiden"
+        ]
+      ],
+      [
+        "los servicios como clave",
+        [
+          "servizi",
+          "medico",
+          "farmacia"
+        ]
+      ],
+      [
+        "el consejo a los jóvenes",
+        [
+          "inverno",
+          "gennaio"
+        ]
+      ],
+      [
+        "usar el discurso indirecto",
+        [
+          "ha spiegato che",
+          "ha detto che",
+          "ha raccontato che",
+          "ha aggiunto che",
+          "ha sostenuto"
+        ]
+      ]
+    ],
+    "model": "Roccavecchia: come si riporta la vita in un paese di montagna\n\nIn una recente intervista Marta Colasanti, sindaca di Roccavecchia, piccolo comune dell'Appennino molisano, ha raccontato come in cinque anni il paese sia passato da circa trecento a quasi quattrocento abitanti.\n\nLa sindaca ha spiegato che tutto era cominciato da un giro per il centro storico, dove aveva contato più di cento case vuote. Si era chiesta perché dovessero restare chiuse mentre in città i giovani non trovavano casa, e da lì erano nati un censimento delle abitazioni e un accordo con i proprietari. Ha precisato che le case non erano state regalate: erano state affittate a prezzi bassi a chi si impegnava a ristrutturarle e a restare almeno tre anni.\n\nColasanti ha ammesso che all'inizio non erano mancate le difficoltà, soprattutto la diffidenza di alcuni anziani, che secondo lei avevano paura di perdere il paese. Ha sostenuto inoltre che non esistevano ricette valide ovunque e che un paese si ripopola soprattutto con i servizi, come il medico, i trasporti e la farmacia, che sarebbe stata la sua prossima battaglia.\n\nInfine ha detto che a un giovane interessato consiglierebbe di visitare il paese in inverno e di restarci almeno una settimana, perché è a gennaio che si capisce se si è davvero pronti a viverci.",
+    "gloss": {
+      "sindaca": "intendenta",
+      "censimento": "censo, relevamiento",
+      "si impegnava a": "se comprometía a",
+      "non erano mancate le difficoltà": "no habían faltado las dificultades",
+      "diffidenza": "desconfianza",
+      "ricette": "recetas, fórmulas"
+    }
+  },
+  "breve": {
+    "title": "Un bando per vivere a Roccavecchia",
+    "genre": "notizia radiofonica",
+    "es": "Una radio regional cuenta, en discurso indirecto, lo que dijo la intendenta de un pueblo sobre un nuevo llamado para vecinos.",
+    "speaker": "Giornalista",
+    "voice": 0,
+    "text": [
+      "Radio Molise, notizie dal territorio. Il Comune di Roccavecchia ha pubblicato un nuovo bando per chi vuole trasferirsi in paese. La sindaca, Marta Colasanti, ha spiegato ai nostri microfoni che quest'anno le case disponibili sono quindici e che l'affitto sarà di cento euro al mese per i primi tre anni.",
+      "Ha precisato che chi partecipa dovrà impegnarsi a ristrutturare l'abitazione e a prendere la residenza entro sei mesi. Ha aggiunto che avranno la precedenza le famiglie con figli in età scolare, perché la priorità è tenere aperta la scuola.",
+      "Alla domanda se fosse preoccupata per l'arrivo di tanti forestieri, la sindaca ha risposto che il paese era pronto e che, anzi, ne aveva bisogno. Ha detto anche che dal mese successivo sarebbe arrivato un medico due volte alla settimana.",
+      "Le domande vanno presentate entro il 30 aprile, online o all'ufficio anagrafe. Il bando completo è sul sito del Comune."
+    ],
+    "tabella": [
+      ["Case disponibili", "15", ["quindici"]],
+      ["Affitto al mese (euro)", "100", ["cento"]],
+      ["Tempo per prendere la residenza", "6 mesi", ["sei mesi", "6", "sei", "entro sei mesi"]],
+      ["Scadenza delle domande", "30 aprile", ["il 30 aprile", "trenta aprile", "entro il 30 aprile"]]
+    ],
+    "info": [
+      ["L'affitto basso vale per sempre.", false],
+      ["Chi arriva deve ristrutturare la casa.", true],
+      ["Le famiglie con figli hanno la precedenza.", true],
+      ["La sindaca ha detto che il paese non era pronto.", false],
+      ["Arriverà un medico due volte alla settimana.", true],
+      ["Le domande si presentano solo in municipio.", false]
+    ],
+    "gloss": {
+      "bando": "llamado, convocatoria",
+      "precedenza": "prioridad",
+      "forestieri": "forasteros",
+      "anagrafe": "registro civil"
+    }
+  }
+}

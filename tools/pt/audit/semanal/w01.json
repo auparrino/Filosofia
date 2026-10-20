@@ -1,0 +1,253 @@
+{
+ "week": 1,
+ "title": "Sons, alfabeto, ser e estar",
+ "level": "A1",
+ "revisado": {
+  "items": 66,
+  "bloques_teoria": 8,
+  "lecturas": 2,
+  "dictogloss": 0,
+  "suoni": 26,
+  "radio": 0,
+  "otros": 38
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana inicial sólida: teoría clara y bien secuenciada (saludos, tu/você, alfabeto, sonidos, ser/estar/ter), buen contraste con el español y ejercicios correctos en su mayoría. Hay un defecto transversal: se enseña que «tenho fome/sede» es raro y que los lugares fijos sólo van con ser, lo que genera ítems con respuesta correcta rechazada o dos opciones válidas. Aparecen además dos explicaciones fonéticas confusas (s sonora «caza», lh «a la española») y una nota falsa (razão con ç). Sin portuñol ni errores de ortografía pt-BR en los textos.",
+ "bien": [
+  "Teoría breve, con ejemplos traducidos, advertencias de errores típicos (você és, muy prazer, boa dia) y propina cultural carioca.",
+  "Excelente tratamiento de pt-BR: você con tercera persona, tu coloquial carioca, ti/di palatalizadas, -l vocalizada, chiado carioca.",
+  "Buena variedad de tipos (escucha, elección, cloze, traducción, fixerr, scopri, typed) y de pares mínimos pertinentes (avó/avô, pão/pau, filha/fila, vela/bela).",
+  "Lecturas simples que reciclan ser/estar/ter con preguntas bien formadas (vero/falso/non si dice válidos) y glosa útil de em+o/em+a.",
+  "Duelo ser/estar con 26 ítems de pistas claras y explicaciones breves; intonazione con pares pregunta/afirmación bien elegidos.",
+  "Vocabulario con falsos amigos (legal, apelido, cara) bien explicado."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:7",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "«Tenho fome» se entiende, pero suena raro.",
+   "propuesta": "«Tenho fome» y «estou com fome» son ambas normales en Brasil (también tenho sede, tenho sono, tenho medo, tenho pressa). Reescribir: «En Brasil es muy común estar com + sensación; tener + sensación también se dice y es correcto».",
+   "motivo": "Falso: «tenho fome» es perfectamente natural en pt-BR; presentarlo como raro enseña mal y genera ítems con respuesta aceptada incompleta."
+  },
+  {
+   "id": "lesson:7:q0",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "«Tengo hambre.» opciones: Estou com fome. / Tenho fome. / Sou com fome.",
+   "propuesta": "Dos opciones correctas: cambiar «Tenho fome.» por una errónea (p. ej. «Sou fome.») o cambiar el enunciado a «Estoy con hambre / Eu ___ com fome».",
+   "motivo": "Hay 2 opciones correctas (estou com fome y tenho fome)."
+  },
+  {
+   "id": "item s1-01-34",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "\"accept\": [\"Estou com fome.\", \"Eu estou com fome.\", \"Tô com fome.\", \"Eu tô com fome.\"]",
+   "propuesta": "Agregar «Tenho fome.», «Eu tenho fome.» (o fijar la consigna: «con estar com»).",
+   "motivo": "«Tengo hambre» se traduce igual de bien con tenho fome; se rechaza una respuesta natural."
+  },
+  {
+   "id": "item s1-01-36",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "\"answer\": \"Eles estão com sede.\"",
+   "propuesta": "Agregar a accept «Eles têm sede.», «Elas têm sede.» (o indicar en la consigna «con estar com»).",
+   "motivo": "«Têm sede» es correcto y natural; hoy se marca mal."
+  },
+  {
+   "id": "item s1-01-45",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Todo lo físico va con «ter» (tenho fome, tenho sede, tenho frio), como en español. [opción marcada incorrecta] / nota: «Lo que en español «tenés» por un rato (hambre, frío) en Brasil se «está con»»",
+   "propuesta": "Reformular: «Con hambre, sed, frío, sueño el portugués usa mucho «estar com»; «ter» también es válido. La edad va siempre con «ter»». Cambiar la opción incorrecta por una realmente falsa (p. ej. «la edad va con estar com»).",
+   "motivo": "La opción descartada contiene ejemplos correctos (tenho fome); el ítem enseña una exclusividad falsa."
+  },
+  {
+   "id": "item s1-01-43",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "-ción → -ção, y también -zón → -ção: coração, razão. La z del español no se conserva: se escribe ç.",
+   "propuesta": "«-ción → -ção (nação); -zón → -ção o -zão: corazón → coração, pero razón → razão (la z se conserva)».",
+   "motivo": "razão se escribe con z, no con ç: la nota se contradice con su propio ejemplo."
+  },
+  {
+   "id": "item s1-01-43",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"stem\": \"corazón → ___\" (consigna: «Mirá los tres ejemplos y completá el cuarto»)",
+   "propuesta": "Verificar que los tres ejemplos previos se muestren; usar un -ción real (p. ej. «estación → ___») ya que -zón no se enseña en la lección.",
+   "motivo": "El enunciado visible no trae los 3 ejemplos y -zón→-ção (irregular) no está en la teoría de la semana."
+  },
+  {
+   "id": "lesson:7",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "dónde queda algo fijo va con *ser*: *o apartamento é em Botafogo*",
+   "propuesta": "«Para un lugar fijo se usa ser, ficar o estar: o apartamento é / fica / está em Botafogo. Para eventos, siempre ser: a festa é em Botafogo».",
+   "motivo": "En pt-BR «o hotel está em Copacabana» y «onde está o hotel?» son correctos y muy frecuentes; decir que va con ser (y no estar) es excesivo."
+  },
+  {
+   "id": "duelos serestar #23",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Onde ___ o hotel? Em Copacabana? (a: é, b: está; why: «Lo natural en Brasil es onde é o onde fica»)",
+   "propuesta": "Cambiar a «Onde ___ a festa?» (é) o aceptar «está»; o reemplazar por «Onde fica o hotel?».",
+   "motivo": "«Onde está o hotel?» es perfectamente natural en Brasil: dos opciones correctas."
+  },
+  {
+   "id": "duelos serestar #21/#22/#24",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "O apartamento ___ em Botafogo... (é/está); A escola de português ___ em Copacabana. (é/está); A praia de Ipanema ___ perto ou longe? (é/está)",
+   "propuesta": "Reemplazar por eventos (A festa é em Botafogo / O show é em Copacabana) o aceptar «está» como válido; ajustar los «why».",
+   "motivo": "«Está em Botafogo», «a escola está em Copacabana», «a praia está perto» son correctos en pt-BR; el ítem penaliza una respuesta válida."
+  },
+  {
+   "id": "lesson:4:more",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "*leite* suena casi «léiti»",
+   "propuesta": "«leite» suena «léichi» (coherente con la tabla de ti/te final → chi de la lección 6).",
+   "motivo": "Contradice la regla de ti/te → «chi» enseñada después en la misma semana."
+  },
+  {
+   "id": "lesson:5:tip",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Decí «pan» tapándote la nariz y soltala sin pronunciar la n: ese es el aire de *pão*.",
+   "propuesta": "«Decí «pan» sin cerrar la boca ni apoyar la lengua para la n: el aire sale por la nariz». (Si te tapás la nariz no hay sonido nasal).",
+   "motivo": "La instrucción de tapar la nariz es confusa y contraria a lo que se quiere mostrar."
+  },
+  {
+   "id": "lesson:5",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*lh* = una ll «a la española», con la lengua en el paladar ... Y la *lh* no es la ll ni la y porteña",
+   "propuesta": "«lh: como la «lli» de «millón» pero con la lengua pegada al paladar; no es la ll porteña (sh/zh)».",
+   "motivo": "La ll «a la española» no existe en el rioplatense; el texto se contradice entre la regla y la advertencia."
+  },
+  {
+   "id": "lesson:6:warn",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*casa* se dice con s sonora, como un zumbido: «caza».",
+   "propuesta": "«…con s sonora, como el zumbido de una abeja; no como la z de «caza», que en tu español es sorda».",
+   "motivo": "Para un rioplatense «caza» se pronuncia con [s] sorda: la transcripción induce el error opuesto (también en suoni p-067 y asc-pt-1-12)."
+  },
+  {
+   "id": "lesson:4 (tabla)",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Abierta | Cerrada: é (es) | e (y)",
+   "propuesta": "Separar «e (y)» de la columna «Cerrada»: es átona (≈ «i») y no una ê tónica; o sacar la fila.",
+   "motivo": "«e» conjunción no es una ê cerrada tónica; mezcla dos oposiciones distintas."
+  },
+  {
+   "id": "lesson:4:more",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "carro casi «cáhu»",
+   "propuesta": "Unificar con la lección 6 y suoni: «cáju» / «cáhu» (elegir una).",
+   "motivo": "Dos transcripciones distintas para la misma pronunciación."
+  },
+  {
+   "id": "suoni p-002",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "é y ó son abiertas (boca más abierta, como en «perro», «sol» pero más); ê y ô, cerradas.",
+   "propuesta": "«ó es abierta (boca más abierta que en «sol»); ô, cerrada (más cerrada que en «sol»)».",
+   "motivo": "La nota habla de é/ê en un par que solo tiene ó/ô; «como en sol… pero más» no aclara."
+  },
+  {
+   "id": "item s1-01-11",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "En nota y nove la t y la v no cambian.",
+   "propuesta": "«En nota y nove no hay ti/te: la t y la v suenan como siempre».",
+   "motivo": "nove no contiene t; la frase confunde."
+  },
+  {
+   "id": "item s1-01-21",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "La j de «mujer» corresponde a lh en portugués: mulher (como filho, trabalho).",
+   "propuesta": "«El sonido de la j de mujer, de la ll... corresponde a lh en palabras de origen común: mulher, filho, trabalho».",
+   "motivo": "Correspondencia histórica presentada como regla general; trabajo→trabalho no tiene j, y hay excepciones."
+  },
+  {
+   "id": "item s1-01-30",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "\"Chamo-me Sofía. Muito prazer.\"",
+   "propuesta": "Quitar «Chamo-me» de accept (ênclisis típica de Portugal) o mantenerlo solo como aceptada sin presentarla como brasileña.",
+   "motivo": "Forma lusa aceptada en un curso pt-BR (no se muestra como modelo, bajo riesgo)."
+  },
+  {
+   "id": "lesson:7 (tabla)",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "tu (vos, tú) | és | estás | tens",
+   "propuesta": "Anotar «(tu + verbo de você en el habla: tu é, tu está, tu tem)» también para estar y ter.",
+   "motivo": "La fila de «tu» sólo muestra formas conjugadas europeas; en Brasil se dice mayormente tu está / tu tem."
+  },
+  {
+   "id": "lecturas w-01",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "gloss: {agora, bairro, carioca, ...} sin «mas», «para», «pequeno», «feliz»",
+   "propuesta": "Agregar «mas: pero» y «para: para» al glosario (y «pequeno: chico»).",
+   "motivo": "Palabras funcionales y no transparentes (mas, pequeno) sin glosa."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Corregir el tratamiento de «ter/estar com» (hambre, sed, frío, sueño): enseñar estar com como lo más frecuente en el curso, pero aceptar y practicar tenho fome/sede/frio/sono/medo/pressa como correctos. Ajustar lesson:7 warn, q0 de la lección, s1-01-34, s1-01-36, s1-01-45.",
+   "por_que": "Hoy el curso declara «raro» algo natural y rechaza respuestas correctas."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Revisar la regla «lugar fijo = ser» y los ítems de duelo #21-#24: aceptar ficar/ser/estar para edificios y lugares y reservar «ser» exclusivo para eventos (a festa é em…).",
+   "por_que": "Evita ítems con dos respuestas correctas y una regla exagerada."
+  },
+  {
+   "prioridad": "media",
+   "que": "Corregir la transcripción de la s sonora («caza») y de lh («ll a la española») con comparaciones válidas para el oído rioplatense (zumbido de abeja; «lli» de millón).",
+   "por_que": "Las analogías actuales inducen la pronunciación contraria o inexistente en rioplatense."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir la redundancia: 20 ítems de escucha con pares duplicados en ambos sentidos (avó/avô, tia/dia, caro/carro) y «muito prazer» repetido en 5 ítems; reemplazar por práctica de deletreo (escribir nombres letra a letra), de «tu/você/senhor» y de negación.",
+   "por_que": "Más cobertura de lo enseñado (alfabeto, tratamiento) con la misma carga; hoy el alfabeto solo tiene 3 ítems."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar a la semana 1 un ítem de reconocimiento y otro de producción para o senhor / vocês / negación não, y para em+o (no/na) usados en las lecturas sin teoría.",
+   "por_que": "La lectura usa no/na/em/para mim sin que la lección los enseñe."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Unificar las transcripciones fonéticas aproximadas («léiti»/«léichi», «cáhu»/«cáju») y la nota repetida de nasales (se repite 4 veces idéntica en suoni).",
+   "por_que": "Coherencia y menor ruido para el alumno."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Considerar un dictogloss corto (la presentación de Sofía) y una regla puente para ñ/ll → nh/lh, ya que dictogloss y laboratorio están vacíos.",
+   "por_que": "Aprovechar el vacío de producción oral/escrita en la semana inicial."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 3
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

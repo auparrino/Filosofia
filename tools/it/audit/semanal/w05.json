@@ -1,0 +1,392 @@
+{
+ "week": 5,
+ "title": "Presente indicativo: verbi regolari",
+ "level": "A1",
+ "revisado": {
+  "items": 95,
+  "sfide": 11,
+  "bloques_teoria": 4,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 19
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "El italiano de los ítems propios del tema es correcto y la teoría de conjugaciones y ortografía (h, pérdida de i) es exacta. El problema es de estructura: ~28% de los ítems (l2-c-*) trabajan avere/essere/prendere sin teoría, los desafíos son de otras semanas y de nivel muy superior, y la práctica es casi solo conjugate. Hay pocos errores puntuales (una glosa en español falsa, dos accept faltantes). Tasa estimada de falsos positivos en errores/dudas: ~20%.",
+ "bien": [
+  "Las tablas y reglas de las tres conjugaciones, -isc-, h ante i/e y caída de i son correctas y claras",
+  "Las 50 conjugaciones tienen respuesta única y bien formada, con buenos casos de contraste (mangi/studi/scii, cerchi/paghi)",
+  "Advertencia sobre el acento de loro (PAR-lano) y sobre «Lei è», nunca «Lei sei»: muy útil para hispanohablantes",
+  "Dictogloss y entonación pertinentes y con vocabulario de la semana",
+  "Notas cortas y en voseo natural, sin errores de tildes"
+ ],
+ "hallazgos": [
+  {
+   "id": "lettura ep2",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "estacionado, curado",
+   "propuesta": "curado (o añejado)",
+   "motivo": "«Estacionado» en rioplatense es «aparcado»; para el queso stagionato se dice curado/añejo."
+  },
+  {
+   "id": "lettura ep2",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Il sabato mattina Giulia e Martín vanno al Mercato di Mezzo.",
+   "propuesta": "Reemplazar «vanno» por un verbo regular (p. ej. «Giulia e Martín visitano…») y evitar «Lo vuole provare?» y «si mangia/si spende» (impersonal)",
+   "motivo": "La lectura declara «presente e articoli» pero usa andare, volere, volere+lo e impersonal con si, no enseñados en la semana 5."
+  },
+  {
+   "id": "vocab:uscire",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Esco di casa alle otto.",
+   "propuesta": "Sustituir por un verbo regular o marcar uscire como irregular a memorizar",
+   "motivo": "Semana de verbos regulares y el vocabulario incluye uscire (esco/esci/esce), irregular y sin explicar."
+  },
+  {
+   "id": "vocab:vero",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "verdadero",
+   "propuesta": "verdadero / «¿no?» (muletilla en «Voi partite domani, vero?»)",
+   "motivo": "La glosa no cubre el uso del ejemplo (tag question), que es el que va a encontrar el alumno."
+  },
+  {
+   "id": "vocab:sera",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "noche temprana",
+   "propuesta": "tarde-noche (después del atardecer)",
+   "motivo": "«Noche temprana» es poco natural; sera abarca el atardecer y la noche temprana."
+  },
+  {
+   "id": "lesson:2",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Sin la *h*, «cerci» se leería «cherchi».",
+   "propuesta": "Sin la *h*, «cerci» se leería /cherchi/ (como el «ch» español), no /kerki/.",
+   "motivo": "Para el alumno «cherchi» ya se lee /kerki/ en italiano: la transcripción confunde."
+  },
+  {
+   "id": "lesson:2",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "sciare (i tónica)",
+   "propuesta": "Aclarar: tu scii (se conservan las dos i), pero noi sciamo (la i se funde con -iamo)",
+   "motivo": "La fila dice «se conservan las dos» pero la columna noi muestra una sola i."
+  },
+  {
+   "id": "item d06-015",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Noi ___ (pagare) oggi.",
+   "propuesta": "Eliminar uno de los dos o cambiar persona (p. ej. «Voi ___ (pagare)…»)",
+   "motivo": "Duplicado casi exacto de d06-028 «Noi ___ (pagare).» (noi paghiamo)."
+  },
+  {
+   "id": "item d06-057",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Finisco.",
+   "propuesta": "Aceptar también «Termino.» y «Io termino.»",
+   "motivo": "«Termino» (terminare) es igual de correcto y natural para «Termino.»."
+  },
+  {
+   "id": "item d06-065",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Cominciano ma non finiscono.",
+   "propuesta": "Aceptar también «Cominciano ma non terminano.» (y con «Loro»)",
+   "motivo": "«Terminan» se traduce con terminare tanto como con finire."
+  },
+  {
+   "id": "item d06-053",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Stiamo leggendo.",
+   "propuesta": "Quitar «Stiamo leggendo.» y «Noi stiamo leggendo.» de accept",
+   "motivo": "Es otro significado (estamos leyendo) y stare+gerundio no se enseña en esta semana; lo mismo en d06-056 («State scrivendo.»)."
+  },
+  {
+   "id": "item d06-060",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ellos siguen.",
+   "propuesta": "«Ellos siguen a los otros.» o «Ellos siguen (continúan).»",
+   "motivo": "Sin complemento, «siguen» es ambiguo entre seguire y continuare."
+  },
+  {
+   "id": "item l2-c-01",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Completá con el verbo de apoyo conjugado.",
+   "propuesta": "Mover las 27 items l2-c-* (avere/essere + fame, ragione, fretta; prendere, mettere, portare) a la semana donde se enseñen o añadir un bloque de teoría",
+   "motivo": "Son ~28% de los ítems y evalúan expresiones con avere/essere y verbos de apoyo que la lección de la semana no enseña; además el término «verbo de apoyo» no se explica."
+  },
+  {
+   "id": "item l2-c-17",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Ogni mattina io ___ un caffè al bar.",
+   "propuesta": "Aceptar «bevo» (o cambiar el enunciado para que solo funcione prendo)",
+   "motivo": "«Bevo un caffè» es igual de correcto; la propia nota admite que bere es beber."
+  },
+  {
+   "id": "item l2-c-28",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "No se dice *dare fortuna.",
+   "propuesta": "Reformular: «portare fortuna» es lo idiomático; «dare fortuna» existe pero es menos frecuente; sacar «dà» de las opciones",
+   "motivo": "«Mi dà fortuna» se usa; la afirmación es demasiado tajante y la opción «dà» puede ser correcta."
+  },
+  {
+   "id": "item l2-c-29",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Tener paciencia → avere pazienza; «portare pazienza» es aguantar con paciencia. *Tenere pazienza no existe.",
+   "propuesta": "Poner «ha» entre las opciones o cambiar la nota",
+   "motivo": "La nota dice que «tener paciencia» es avere pazienza, pero la respuesta es porta y «ha pazienza» (más natural) no está entre las opciones."
+  },
+  {
+   "id": "item l2-c-23",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "prendono",
+   "propuesta": "Aceptar/evitar «fanno» como distractor",
+   "motivo": "«Fare appunti» también se usa; hay dos opciones defendibles."
+  },
+  {
+   "id": "item l2-c-08",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "necessito",
+   "propuesta": "Cambiar el distractor por uno claramente errado (p. ej. «ho bisogno un»)",
+   "motivo": "«Per il viaggio necessito un passaporto» es defendible y la nota afirma que necessitare rige «di» sin matiz."
+  },
+  {
+   "id": "item l2-c-12",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ho fretta",
+   "propuesta": "Aceptar «Ho fretta.», «Io ho fretta.» y «Ho fretta»",
+   "motivo": "accept solo admite una forma sin punto ni pronombre, distinto de la convención del resto de translate."
+  },
+  {
+   "id": "item l2-c-11",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Todos los estados «tener X» del castellano van con avere: ho voglia, ho fretta, ho sonno, ho paura.",
+   "propuesta": "«La mayoría de los estados…»",
+   "motivo": "Generalización excesiva (p. ej. tener suerte, tener razón no siempre calcan)."
+  },
+  {
+   "id": "item l2-c-07",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "literalmente «tener entuerto»",
+   "propuesta": "«literalmente “tener un error/agravio”» o quitar la glosa literal",
+   "motivo": "«Tener entuerto» no es una expresión del castellano rioplatense y confunde."
+  },
+  {
+   "id": "sfide:r23-01d",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Hacé la oración más concisa: reemplazá la subordinada temporal (una volta che…, appena…) por un participio pasado.",
+   "propuesta": "Reemplazar por un desafío de presente regular",
+   "motivo": "Participio absoluto es gramática B2+ en una semana A1."
+  },
+  {
+   "id": "sfide:r27-01b",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Rutinas de la mañana: completá con verbos de percepción + infinitivo.",
+   "propuesta": "Reemplazar por un desafío de rutina con presente regular",
+   "motivo": "Sentire/vedere + infinitivo con pronombres átonos no está enseñado hasta la semana 5."
+  },
+  {
+   "id": "sfide:r10-02b",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Unas preguntas para precisar. Completá en italiano usando el presente (y quand'è che / dov'è che para dar énfasis).",
+   "propuesta": "Sacar de esta semana o enseñar la construcción",
+   "motivo": "«Quand'è che / dov'è che» es registro enfático no enseñado en esta semana."
+  },
+  {
+   "id": "sfide:r25-04",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Completá las palabras que faltan para preguntar a quién le gusta qué.",
+   "propuesta": "Mover a la semana de piacere",
+   "motivo": "Piacere con a + persona no forma parte del presente regular."
+  },
+  {
+   "id": "sfide:r07-03c",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Poné el pronombre que corresponde a la persona indicada.",
+   "propuesta": "Mover r07-03c, r07-07 y r07-13 a la semana de pronombres átonos",
+   "motivo": "Pronombres objeto directo/indirecto (ti, vi, La, Le) no están enseñados en la semana 5."
+  },
+  {
+   "id": "sfide:r07-03c",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "Personal pronouns",
+   "propuesta": "Traducir el rótulo de capítulo («Pronombres personales»); ídem «Demonstratives», «Interrogatives», «The present indicative tense», etc.",
+   "motivo": "Si el campo chapter se muestra al alumno, es texto en inglés."
+  },
+  {
+   "id": "s:r10-06:d",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Dov'è che lavora tuo papà?",
+   "propuesta": "Quitar de accept o cambiar a «il tuo papà»",
+   "motivo": "Con papà/mamma el artículo se usa normalmente; «tuo papà» es regional."
+  },
+  {
+   "id": "s:r10-06:b",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "¿A qué hora sale exactamente el avión?",
+   "propuesta": "Enunciado «¿Cuándo sale exactamente el avión?» o respuesta «A che ora parte…» como principal",
+   "motivo": "Quand'è che no equivale a «a qué hora» (la respuesta principal cambia la pregunta)."
+  },
+  {
+   "id": "s:r18-03:b",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Tu ___ troppo di affitto. (pagare)",
+   "propuesta": "Tu ___ troppo d'affitto.",
+   "motivo": "«Troppo d'affitto» es la forma natural (elisión)."
+  },
+  {
+   "id": "s:r27-01b:c",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "lo sento fare la doccia | scendere",
+   "propuesta": "Aceptar «lo sento farsi il bagno»; o especificar «duchar»",
+   "motivo": "El enunciado dice «bañarse» (bagno vs doccia) y solo acepta doccia."
+  },
+  {
+   "id": "suoni p-026",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "«camino» (chimenea) tiene una m; «cammino» (camino, camino) dos.",
+   "propuesta": "«camino» (chimenea) tiene una m; «cammino» (camino / yo camino) tiene dos.",
+   "motivo": "La glosa duplicada «camino, camino» es confusa."
+  },
+  {
+   "id": "suoni p-027",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "mono, equipo deportivo",
+   "propuesta": "equipo deportivo (buzo)",
+   "motivo": "«Mono» en rioplatense se lee como el animal."
+  },
+  {
+   "id": "suoni p-028",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "bebió (passato remoto)",
+   "propuesta": "Cambiar por otro par de geminadas de vocabulario A1 (p. ej. pala/palla)",
+   "motivo": "Passato remoto es contenido muy posterior a A1."
+  },
+  {
+   "id": "suoni p-080",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "vólto",
+   "propuesta": "Verificar la vocal (volto «rostro» suele darse con o cerrada y participio con o abierta según el diccionario) o sacar el par",
+   "motivo": "Par de o abierta/cerrada dudoso y sin utilidad para el oído rioplatense; la propia nota lo relativiza."
+  },
+  {
+   "id": "suoni p-105",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "-zione suena [tsjone].",
+   "propuesta": "-zione suena [ttsjone] (la z es larga)",
+   "motivo": "En italiano estándar -zione tiene africada larga entre vocales."
+  },
+  {
+   "id": "suoni p-104",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "grasie",
+   "propuesta": "Usar pares reales (p. ej. pazzo / passo)",
+   "motivo": "Los pares p-104, p-105, p-130, p-153, p-165, p-178 comparan con no-palabras; no son pares mínimos auditivos."
+  },
+  {
+   "id": "suoni c-004",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "L'italiano è facile.",
+   "propuesta": "Explicitar en la consigna «contá las palabras que se oyen»",
+   "motivo": "Escrita son 3 palabras (l'italiano, è, facile); el 4 exige contar la elisión."
+  },
+  {
+   "id": "suoni c-005",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Apócope: buono → buon delante de consonante.",
+   "propuesta": "Apócope: buono → buon delante de sustantivo masculino singular (salvo s+consonante, z, gn, ps)",
+   "motivo": "La regla es más amplia que la real; además «buongiorno» se escribe en una palabra."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Reubicar o eliminar los 27 ítems l2-c-* (avere/essere, prendere, mettere, portare) y sustituirlos por práctica del tema real: más ítems de -isc-, io/tu/voi, y oraciones en contexto",
+   "por_que": "Ocupan ~28% de la carga sin tener teoría en la lección y son ajenos al foco declarado."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Reemplazar los desafíos r23, r27, r10-02b, r25 y r07 por desafíos de presente regular (ortografía -care/-gare/-ciare, -isc-, sujeto omitido, Lei)",
+   "por_que": "Son de otras semanas y de nivel B1-C1 en una semana A1."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Rebalancear los tipos de ejercicio: hoy 50 conjugate + 18 translate; agregar choice de reconocimiento, cloze con oración completa, fixerr de ortografía (cerci, mangii), un qa de rutina y un listen",
+   "por_que": "Falta el escalón reconocimiento → producción y toda la práctica es de conjugación aislada."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reescribir la lectura ep2 con verbos regulares y sumar la lectura w-05 con personas io/tu/noi/voi/loro y verbos -care/-gare/-ciare; incluir preguntas vero/falso/non si dice",
+   "por_que": "w-05 solo usa tercera persona singular y no ejercita las reglas ortográficas del foco."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar a la teoría una lista de -ire sin -isc- (partire, dormire, sentire, aprire, seguire, servire, offrire) y una nota de errores típicos rioplatenses (acento de loro, tú/vos → tu, omitir el sujeto)",
+   "por_que": "Los alumnos solo ven ejemplos de -isc- y la tabla; falta el contraste y el error típico del hispanohablante."
+  },
+  {
+   "prioridad": "media",
+   "que": "Repartir mejor la práctica: los -isc- tienen 4 ítems y la ortografía de -iare (studiare/inviare/sciare) 4; balancear io/tu/noi/voi/loro (voi y io están subrepresentados)",
+   "por_que": "Cobertura desigual de las reglas enseñadas."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Llenar «accento» de suoni con ejercicios de acento de loro (PAR-lano, TE-le-fo-na-no) y el de -isc-",
+   "por_que": "La advertencia central de la lección no tiene práctica de oído."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Reducir carga: 95 ítems + 11 sfide es alto para A1; dejar ~60 ítems con las partes bien equilibradas",
+   "por_que": "Riesgo de fatiga; la parte 2 concentra 70 ítems."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 3
+  },
+  "es": {
+   "errores": 1,
+   "dudas": 2
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

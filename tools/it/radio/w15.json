@@ -1,0 +1,50 @@
+{
+ "week": 15,
+ "level": "A2",
+ "title": "Com'era il Pratello",
+ "genre": "rubrica «Una volta»",
+ "es": "En la nueva sección «Una volta» (Antes), la signora Franca cuenta cómo era su calle, via del Pratello, cuando ella era chica, y un día que no se olvida.",
+ "speakers": ["Sara", "Franca"],
+ "turns": [
+  ["A", "Buongiorno! Oggi comincia una nuova rubrica: «Una volta». E la prima ospite è un'amica della radio, la signora Franca. Signora, com'era via del Pratello quando lei era bambina?"],
+  ["B", "Oh, era tutta un'altra cosa! Non c'erano i locali e i ristoranti di oggi. C'erano tante botteghe: il fornaio, il calzolaio, la latteria."],
+  ["A", "E voi bambini dove giocavate?"],
+  ["B", "In cortile. Nel nostro cortile c'era un grande albero e noi giocavamo lì sotto tutto il giorno. I maschi giocavano a calcio con un pallone vecchio, io e le mie amiche saltavamo la corda."],
+  ["A", "E la scuola com'era?"],
+  ["B", "La maestra era molto severa e io avevo paura di lei. Eravamo in trenta in una classe! Molte famiglie erano povere, ma la mamma mi diceva sempre: «Franca, studia, perché la scuola è la tua ricchezza»."],
+  ["A", "Andavate in vacanza d'estate?"],
+  ["B", "Purtroppo no, quasi mai. Ma ogni agosto andavamo al paese dei nonni, in collina. Lì c'era un fiume e mio zio aveva una piccola barca."],
+  ["A", "C'è un giorno che non dimentica?"],
+  ["B", "Sì. Un inverno ero molto malata e dovevo stare a letto. Una mattina, invece, il cortile era tutto bianco: è arrivata la neve! Mia madre ha aperto la finestra e tutti i bambini del palazzo mi hanno salutato con una palla di neve in mano."],
+  ["A", "Che bel ricordo, signora Franca. Grazie! E voi, ascoltatori: com'era la vostra strada quando eravate bambini?"]
+ ],
+ "gloss": {
+  "rubrica": "sección (de un programa)",
+  "ospite": "invitada",
+  "locali": "bares y boliches",
+  "botteghe": "negocios de barrio, talleres",
+  "calzolaio": "zapatero",
+  "latteria": "lechería",
+  "saltavamo la corda": "saltábamos a la soga",
+  "maestra": "maestra",
+  "severa": "severa, estricta",
+  "ricchezza": "riqueza",
+  "collina": "colina, sierra",
+  "fiume": "río",
+  "neve": "nieve",
+  "ricordo": "recuerdo",
+  "ascoltatori": "oyentes"
+ },
+ "questions": [
+  ["Che cosa c'era in via del Pratello quando Franca era bambina?", ["Tanti locali e ristoranti", "Tante botteghe e negozi", "Un grande parco pubblico", "Una scuola di calcio"], "Tante botteghe e negozi"],
+  ["Dove andava Franca d'estate?", ["Al mare con la scuola", "In città dalla maestra", "Al paese dei nonni, in collina", "In barca con le amiche sul fiume"], "Al paese dei nonni, in collina"],
+  ["Perché Franca ricorda quel giorno d'inverno?", ["Per la neve e il saluto dei bambini del palazzo", "Perché ha preso un brutto voto a scuola", "Perché lo zio le ha regalato una barca", "Perché è andata a giocare a calcio con i maschi"], "Per la neve e il saluto dei bambini del palazzo"]
+ ],
+ "info": [
+  ["Da bambina Franca aveva paura della maestra.", true],
+  ["La famiglia di Franca andava in vacanza ogni estate al mare.", false],
+  ["Nel cortile c'era un grande albero.", true]
+ ],
+ "grammatica": {"label": "el imperfetto para describir el pasado, y el passato prossimo para lo que pasó", "forme": ["com'era", "c'erano", "giocavate", "c'era", "giocavamo", "saltavamo", "avevo paura", "eravamo", "diceva", "andavamo", "ero molto malata", "dovevo", "è arrivata", "ha aperto"]},
+ "parole": [["bambina", "bambino"], ["giocavamo", "giocare"], ["calcio", "calcio"], ["pallone", "pallone"], ["paura", "paura"], ["povere", "povero"], ["vacanza", "vacanza"], ["purtroppo", "purtroppo"], ["paese", "paese"], ["albero", "albero"], ["cortile", "cortile"], ["barca", "barca"], ["malata", "malato"]]
+}

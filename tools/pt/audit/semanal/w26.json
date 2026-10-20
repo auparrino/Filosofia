@@ -1,0 +1,36 @@
+{
+ "week": 26,
+ "title": "CHEFÃO — Nível B1",
+ "level": "B1",
+ "revisado": {"items": 20, "bloques_teoria": 6, "lecturas": 2, "dictogloss": 0, "suoni": 0, "radio": 0, "otros": 0},
+ "veredicto": "bien con reparos",
+ "resumen": "Repaso correcto y compacto de la segunda estación: no encontré errores de portugués, español ni inglés en teoría, ítems ni lecturas. Los reparos son de diseño: solo 20 ítems para 5 áreas (pronombres, posesivos, relativos y conectores casi sin práctica), alguna respuesta aceptada discutible y metadatos incoherentes (parts n_items 10/154). Dictogloss, suoni, radio, laboratorio, duelos y tramo están vacíos; para un jefe de estación falta evaluación oral/auditiva.",
+ "bien": [
+  "Teoría ordenada en 6 bloques con regla corta, ejemplos con traducción y contraste con el español (seu/dele, he hecho = fiz, vengo haciendo = tenho feito).",
+  "La advertencia sobre composto frente a pretérito es correcta y evita el calco más típico del rioplatense.",
+  "Ítems con notas claras y correctas; progresión de reconocimiento (choice) a producción (cloze, translate, typed).",
+  "Buenos accept en translate (queria/gostaria, con y sin sujeto) y en cortesía (poderia/podia).",
+  "Lectura 'Seis meses de Rio' recicla subjuntivo, composto, condicional y futuro con preguntas y V/F válidos.",
+  "La lectura cultural sobre Burle Marx es fiel en lo esencial (Rossio, 1970, ondas paralelas, plantas nativas)."
+ ],
+ "hallazgos": [
+  {"id":"item s2-26-17","lang":"ejercicio","severidad":"duda","actual":"Estou dormindo mal","propuesta":"Quitar de accept (significa 'estoy durmiendo mal', no 'vengo durmiendo mal'); agregar 'Venho dormindo mal'","motivo":"Respuesta aceptada con otro valor aspectual, y falta la variante natural venho + gerundio."},
+  {"id":"item s2-26-17","lang":"regla","severidad":"duda","actual":"«Venir + gerundio» (algo repetido hasta hoy) se dice con *ter* + participio","propuesta":"«...se dice habitualmente con ter + participio (también venho dormindo)»","motivo":"Dicho como única opción es una sobregeneralización; vir + gerundio existe en pt-BR."},
+  {"id":"item s2-26-19","lang":"ejercicio","severidad":"mejora","actual":"Eu gosto muito da bossa nova.","propuesta":"Aceptar también 'Gosto muito da bossa nova.' y 'Eu gosto muito de bossa nova.'","motivo":"Variantes igual de correctas que un alumno escribiría (sin sujeto o sin artículo)."},
+  {"id":"item s2-26-13","lang":"ejercicio","severidad":"duda","actual":"que","propuesta":"Mantener, pero aclarar en la consigna 'registro formal/escrito' o reemplazar la opción por 'o que'","motivo":"'O bar que te falei' es muy común en el habla brasileña; la opción está en el límite de ser correcta."},
+  {"id":"lesson:1","lang":"regla","severidad":"duda","actual":"*seu* en Brasil es «tuyo» (de *você*).","propuesta":"«*seu* suele ser «tuyo» (de você); para evitar ambigüedad con un tercero, *dele / dela*»","motivo":"Simplificación: seu/sua también significa 'su' en registro formal y escrito."},
+  {"id":"lesson:1:q","lang":"ejercicio","severidad":"mejora","actual":"Vem ___!","propuesta":"Agregar *conosco* a la regla (junto a comigo) o usar 'comigo'","motivo":"La regla del bloque menciona comigo pero el ejercicio evalúa conosco, no mostrado en la teoría."},
+  {"id":"lesson:4:3","lang":"es","severidad":"mejora","actual":"¡No haga ruido!","propuesta":"¡No hagas ruido! (o aclarar 'usted')","motivo":"Con você en rioplatense corresponde 'no hagas'; además el imperativo negativo no figura en las keys de la semana."},
+  {"id":"parts","lang":"ejercicio","severidad":"duda","actual":"\"n_items\": 154","propuesta":"n_items debería ser 10 (ítems 11-20)","motivo":"Los items son 20: el conteo de la parte 2 es inconsistente con el contenido real."},
+  {"id":"lettura c-burle","lang":"regla","severidad":"duda","actual":"As ondas já existiam no começo do século XX","propuesta":"As ondas já existiam antes de 1970 / desde as primeiras décadas do século XX","motivo":"El dibujo de ondas del calçadão se generalizó hacia las décadas de 1920-30; 'começo' es impreciso."}
+ ],
+ "mejoras": [
+  {"prioridad":"alta","que":"Ampliar de 20 a unos 40-50 ítems con mínimo 6-8 por área clave; sumar ítems de pronombres objeto/colocación (me dá, vi ele, -lo/-la), posesivos (dele/dela, seu), tinha feito, conectores (para que, caso, já que/acho que + indicativo) y relativos (com quem, cujo, tudo/todo).","por_que":"Hoy relativos, posesivos, pluscuamperfecto y conectores tienen 0-1 ítem; un jefe de estación debe evaluar todo lo enseñado."},
+  {"prioridad":"alta","que":"Incluir en el jefe producción abierta y comprensión auditiva (dictogloss, listen o duelo/tramo) con relato en pasado.","por_que":"Dictogloss, suoni, radio, laboratorio, duelos y tramo están vacíos; solo se evalúa lectura y gramática."},
+  {"prioridad":"media","que":"Agregar ítems de contraste imperfeito/perfeito más allá de 'ligou' (dos acciones, estado + evento) y conjugate/garden con relato corto.","por_que":"La clave principal (relato) tiene solo 3 ítems, todos de una oración."},
+  {"prioridad":"media","que":"Evitar que las preguntas de los bloques repitan verbatim ítems (ia, diria, goste).","por_que":"Duplicación sin aporte; usar frases distintas."},
+  {"prioridad":"baja","que":"Hacer que la lectura w-26 incluya algún posesivo (dela/dele) y pronombre objeto, y variar los distractores de comprensión.","por_que":"La lectura no ejercita pronombres ni posesivos pese a ser clave del repaso."},
+  {"prioridad":"baja","que":"Corregir el metadato parts.n_items.","por_que":"Evita conteos erróneos en la interfaz."}
+ ],
+ "por_idioma": {"pt": {"errores": 0, "dudas": 0}, "es": {"errores": 0, "dudas": 0}, "en": {"errores": 0, "dudas": 0}}
+}

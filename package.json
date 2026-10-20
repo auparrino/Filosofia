@@ -1,0 +1,30 @@
+{
+  "name": "la-via-rumo-c1",
+  "version": "3.11.4",
+  "private": true,
+  "description": "Una app, tres idiomas: italiano (La Via C1) y portugués de Brasil (Rumo C1) hasta C1 en un año, y alemán (Weg C1) desde cero, para hispanohablantes. Sitio estático sin dependencias.",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "test": "npm run test:it && npm run test:pt && npm run test:de && npm run test:lib && npm run test:content",
+    "test:it": "node tools/it/test_conjugator.js && node tools/it/test_game.js && node tools/it/test_frasi.js && node tools/it/test_diagnosi.js && node tools/it/test_scrivi.js && node tools/it/test_memoria.js && node tools/it/test_suoni.js && node tools/it/test_variantes.js",
+    "test:de": "node tools/de/test_curso.js",
+    "test:pt": "node tools/pt/test_conjugator.js && node tools/pt/test_game.js && node tools/pt/test_frasi.js && node tools/pt/test_diagnosi.js && node tools/pt/test_variantes.js && node tools/pt/test_registro.js && node tools/pt/test_scrivi.js && node tools/pt/test_memoria.js && node tools/pt/test_suoni.js",
+    "build": "python3 tools/it/build_bank.py && python3 tools/it/build_course.py && python3 tools/pt/build_bank.py && python3 tools/pt/build_course.py && python3 tools/de/build_course.py && python3 tools/lib/formule.py && node tools/lib/build_tramo.js && node tools/lib/build_radio.js && npm run build:biblioteca",
+    "cobertura": "node tools/audit/cobertura.js",
+    "sim": "node tools/lib/sim_carriera.js it && node tools/lib/sim_carriera.js pt && node tools/lib/sim_carriera.js de",
+    "smoke": "NODE_PATH=$(npm root -g) node tools/lib/smoke_browser.js && npm run smoke:correccion",
+    "smoke:correccion": "NODE_PATH=$(npm root -g) node tools/lib/smoke_correccion.js",
+    "smoke:misiones": "NODE_PATH=$(npm root -g) node tools/lib/smoke_misiones.js",
+    "smoke:teclado": "NODE_PATH=$(npm root -g) node tools/lib/smoke_teclado.js",
+    "smoke:aleman": "NODE_PATH=$(npm root -g) node tools/lib/smoke_aleman.js",
+    "check:enlaces": "node tools/lib/check_enlaces.js",
+    "start": "cd docs && python3 -m http.server 8000",
+    "test:lib": "node tools/lib/test_desglose.js && node tools/lib/test_referencia.js && node tools/lib/test_fix_feedback.js && node tools/lib/test_correccion.js && node tools/lib/test_fix_frases.js && node tools/lib/test_mapas_ubicacion.js && node tools/lib/test_tres_lenguas.js && node tools/lib/test_porque.js && node tools/lib/test_escritura_plus.js && node tools/lib/test_ejercicios.js && node tools/lib/test_notas_it.js && node tools/lib/test_lecciones.js && node tools/lib/test_fix_contenido_pt.js && node tools/lib/test_tema_it.js && node tools/lib/test_fix_banco.js && node tools/lib/test_biblioteca.js && node tools/lib/test_tramo.js && node tools/lib/test_radio.js && node tools/lib/test_orden_lecciones.js && node tools/lib/test_huecos.js && node tools/lib/test_version.js && node tools/lib/test_rutas.js && node tools/lib/test_ia.js && node tools/lib/test_plan.js && node tools/lib/test_capas.js && node tools/lib/test_reglas.js && node tools/lib/test_errores.js && node tools/lib/test_estado.js && node tools/lib/test_unamas.js && node tools/lib/test_fuera.js && node tools/lib/test_nube.js && node tools/lib/test_registro.js && node tools/lib/test_dos.js && node tools/lib/test_racha.js && node tools/lib/test_trabajo.js && node tools/lib/test_identificar.js",
+    "test:content": "python3 tools/it/check_lessons.py && python3 tools/it/check_letture.py && python3 tools/pt/check_letture.py && python3 tools/it/check_radio.py && python3 tools/pt/check_radio.py && python3 tools/it/check_trabajo.py",
+    "lint": "npx --yes eslint@10 docs",
+    "build:biblioteca": "node tools/lib/build_biblioteca.js"
+  },
+  "license": "UNLICENSED"
+}

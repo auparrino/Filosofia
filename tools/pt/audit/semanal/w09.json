@@ -1,0 +1,341 @@
+{
+ "week": 9,
+ "title": "Preposições de lugar e movimento",
+ "level": "A2",
+ "revisado": {
+  "items": 46,
+  "bloques_teoria": 7,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 18,
+  "radio": 1,
+  "otros": 2
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida y coherente: la teoría es corta, con tabla y ejemplos, y los ítems cubren em/no/na, ir a/para, chegar, medios, por/pelo, de/até y direcciones. El portugués es casi todo correcto; el único error real es un accept con «Tu viras» (forma europea) en una consigna de pt-BR. Hay explicaciones confusas (de/desde, até à), una regla simplificada de ir a/ir para que choca con el ítem 44, y contenido no enseñado (num, por/para completo, h-→f-). Faltan ítems de producción y práctica del vocabulario clave (ponto, sinal, carona, descer).",
+ "bien": [
+  "Teoría ordenada en 3 partes con ejemplos bilingües, tabla con/sin artículo y advertencias sobre errores típicos (por a, vou a praia sin crase, de pé vs a pé).",
+  "Buen tratamiento de la diferencia norma/habla (chegar a/em, ir a/pra/no) sin descalificar el uso real.",
+  "Ejercicios correctos en su gran mayoría, con notas útiles y contraste con el español (contracción obligatoria de por).",
+  "Lectura «De barca para Niterói» y dictogloss usan casi toda la gramática de la semana, con contexto carioca natural y preguntas bien formuladas (vero/falso/non si dice válido).",
+  "El radioteatro integra vocabulario clave (pegar, descer, ponto, virar, carona) en un diálogo verosímil y gracioso.",
+  "Carga razonable (46 ítems, 19/16/11 por parte) y nivel A2 adecuado."
+ ],
+ "hallazgos": [
+  {
+   "id": "item s1-09-35",
+   "lang": "pt",
+   "severidad": "error",
+   "actual": "\"Tu viras à direita.\"",
+   "propuesta": "Quitar \"Tu viras à direita.\" de accept (en pt-BR sería «Tu vira»; «viras» es forma europea)",
+   "motivo": "El curso enseña pt-BR: tu + 2.ª persona con -s es peninsular y se acepta como correcta."
+  },
+  {
+   "id": "item s1-09-35",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Sin voseo: *você vira* con el verbo en 3.ª persona.",
+   "propuesta": "Aclarar: en portugués no hay voseo; *você* lleva el verbo en 3.ª persona (*você vira*).",
+   "motivo": "«Sin voseo» confunde: el enunciado está en voseo y el pt no tiene esa forma; la nota no dice qué se contrasta."
+  },
+  {
+   "id": "item s1-09-13",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Saio ___ casa às sete. (opciones: de, da, desde)",
+   "propuesta": "Cambiar la opción «da» por una claramente errónea (p. ej. «em») o especificar «la propia»",
+   "motivo": "«Saio da casa às sete» es gramatical (casa determinada); la distinción depende del sentido y no de la regla."
+  },
+  {
+   "id": "item s1-09-09",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "A gente vai ___ pé. (opciones: a, de, em)",
+   "propuesta": "Agregar contexto («a pie, caminando») en la consigna o stem",
+   "motivo": "«A gente vai de pé» también es gramatical («vamos parados»), así que hay dos opciones posibles sin pista de sentido."
+  },
+  {
+   "id": "item s1-09-06",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "ir para: destino donde te quedás. ir a: visita corta.",
+   "propuesta": "ir para: destino (lo más usual en el habla); ir a: lo pide la norma escrita, sobre todo para trayectos breves o puntuales.",
+   "motivo": "La regla «a = visita corta / para = quedarse» es una simplificación; «Vou a Salvador morar lá» también es correcto. Además contradice el ítem 09-44."
+  },
+  {
+   "id": "lesson:1",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*ir a*: visita corta. *ir para*: destino, o para quedarse.",
+   "propuesta": "*ir a* (norma escrita) / *ir para* o *pra* (habla): ambas expresan destino; *ir a* suele sugerir un trayecto breve.",
+   "motivo": "Distinción demasiado tajante, incoherente con la scopri s1-09-44, que presenta ir a como norma y ir em como habla."
+  },
+  {
+   "id": "item s1-09-44",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "chegar a / ir a son la norma; chegar em / ir em son del habla de todo Brasil. Escribí a; entendé los dos.",
+   "propuesta": "Aclarar que en el habla «ir» se dice «ir pra / ir no» (vou pra casa, vou no mercado), y que «ir em» como infinitivo no es lo usual.",
+   "motivo": "Mezcla con la distinción ir a/ir para del bloque 1; el alumno recibe dos criterios distintos para ir."
+  },
+  {
+   "id": "lesson:5",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "«Desde» se dice *de* o *desde*, pero para el origen de un trayecto lo normal es *de*: *do Rio a São Paulo*.",
+   "propuesta": "«Desde» se dice *de* (más común) o *desde*: *do Rio a São Paulo*; *desde* se usa sobre todo con tiempo (*desde ontem*).",
+   "motivo": "La advertencia es circular y poco clara."
+  },
+  {
+   "id": "lesson:5",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*até* + artículo: *até a praia* (en Brasil) o *até à praia* (Portugal). Las dos formas se escriben.",
+   "propuesta": "En Brasil se escribe *até a praia*; *até à praia* es la grafía habitual en Portugal (en Brasil la crase aquí es facultativa y rara).",
+   "motivo": "Sugiere que ambas son igual de brasileñas; el curso enseña pt-BR."
+  },
+  {
+   "id": "lesson:6",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "«Disculpe» se dice *desculpa* o *com licença*.",
+   "propuesta": "*Com licença* = «con permiso»; «disculpe» = *desculpe* / *desculpa*.",
+   "motivo": "*Com licença* no equivale a «disculpe»; se mezclan dos actos de habla (el ejemplo traduce «Com licença» como «Disculpá»)."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "«En colectivo» no es «em ônibus»: *de ônibus*.",
+   "propuesta": "«En colectivo» (medio genérico) es *de ônibus*; *no ônibus* se usa para el vehículo concreto o estar dentro («estou no ônibus»).",
+   "motivo": "Evita que el alumno crea que *no ônibus* es incorrecto; en la radio aparece «Tô num ônibus»."
+  },
+  {
+   "id": "item s1-09-43",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "La única excepción es *a pé*.",
+   "propuesta": "La excepción principal es *a pé* (también *a cavalo*).",
+   "motivo": "Simplificación leve de la regla."
+  },
+  {
+   "id": "item s1-09-28",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"Eu moro no Rio de Janeiro.\"",
+   "propuesta": "Agregar a accept: \"Vivo no Rio.\", \"Eu vivo no Rio.\", \"Vivo no Rio de Janeiro.\"",
+   "motivo": "El alumno que traduce «Vivo» literalmente con *viver* escribe algo natural y correcto que hoy se rechazaría."
+  },
+  {
+   "id": "item s1-09-30",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"A gente mora no Brasil.\"",
+   "propuesta": "Agregar a accept: \"Vivemos no Brasil.\", \"Nós vivemos no Brasil.\", \"A gente vive no Brasil.\"",
+   "motivo": "Misma razón que 09-28 (viver es respuesta válida para «vivimos»)."
+  },
+  {
+   "id": "item s1-09-29",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"Vou para a praia.\"",
+   "propuesta": "Agregar a accept: \"Vou na praia.\" (habla, presentada en el bloque 1 con «vou no mercado»)",
+   "motivo": "El curso enseña ir no (habla); la respuesta equivalente queda rechazada."
+  },
+  {
+   "id": "item s1-09-40",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "em + Copacabana → ___",
+   "propuesta": "Reemplazar por un ítem que pida decidir: «___ Ipanema / ___ Lapa» o mostrar ejemplos y pedir otro (p. ej. «Leblon → no Leblon»).",
+   "motivo": "El hueco repite el enunciado («em Copacabana») sin necesidad de aplicar la regla; la consigna habla de «tres ejemplos» que el ítem no muestra."
+  },
+  {
+   "id": "item s1-09-42",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Portugal → ___",
+   "propuesta": "Mostrar ejemplos (no Brasil, na Argentina, no Chile) y pedir el artículo de Portugal con una opción de elegir.",
+   "motivo": "Item casi tautológico («em Portugal») y la consigna remite a tres ejemplos ausentes."
+  },
+  {
+   "id": "item s1-09-43",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Leé las frases y descubrí la regla.",
+   "propuesta": "Incluir las frases en el stem (o ajustar la consigna a «Elegí la regla»).",
+   "motivo": "La consigna remite a frases que el enunciado no trae."
+  },
+  {
+   "id": "item s1-09-45",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Escribí la contracción de «por + as».",
+   "propuesta": "Variar: pedir una frase completa o la contracción con otro artículo (pelos/pela).",
+   "motivo": "Duplica casi 09-23, 09-10, 09-22 y 09-38: cinco ítems sobre la contracción de por; igual con a pé (09-09, 09-32, 09-41, 09-46) y no Brasil/na Argentina."
+  },
+  {
+   "id": "item s1-09-12",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "options: [\"até\",\"hasta\",\"desde\"]",
+   "propuesta": "Cambiar «hasta» (palabra española, descartable por mirada) por «ate» o «a» (error de tilde/preposición).",
+   "motivo": "La opción «hasta» no evalúa la regla; es obviamente no portuguesa."
+  },
+  {
+   "id": "item s1-09-15",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "options: [\"frente\",\"direito\",\"derecho\"]",
+   "propuesta": "Reemplazar «derecho» por «reto»/«em frente» no aplica; usar «lado» u otra opción portuguesa plausible.",
+   "motivo": "«derecho» es una palabra española y se descarta sin aplicar la regla; además «segue reto» (sin em) también es correcto pero no se acepta como respuesta posible."
+  },
+  {
+   "id": "lettura w-09",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "\"barca\": \"lancha (ferry)\"",
+   "propuesta": "\"barca\": \"ferry (barco que cruza la bahía)\"",
+   "motivo": "«lancha» en español rioplatense es una embarcación a motor pequeña, no un ferry; la barca de Niterói es un ferry."
+  },
+  {
+   "id": "lettura w-09",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"vez\": \"vez\", \"outro\": \"otro\"",
+   "propuesta": "Reemplazar por glosas útiles: «da próxima vez = la próxima vez», «orla», «trânsito = tránsito/tráfico».",
+   "motivo": "Glosas triviales (idénticas al español) ocupan lugar de vocabulario que sí ayuda."
+  },
+  {
+   "id": "dictogloss w9",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Cómo moverse por Río: el metro, la escalera y el tranvía a Santa Teresa, el colectivo, el taxi y la bici en la costanera.",
+   "propuesta": "Cómo moverse por Río: el subte, la escalera y el tranvía a Santa Teresa, el colectivo, el taxi y la bici en la costanera.",
+   "motivo": "El resto del curso usa «subte» (rioplatense); aquí aparece «metro»."
+  },
+  {
+   "id": "suoni p-074",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Entre vocales, una s sola suena z (zumbido, como una abeja); ss, ç y c suenan s.",
+   "propuesta": "Una z siempre suena z (zelo); una s inicial suena s (selo); entre vocales, una s sola también suena z (casa); ss, ç y c suenan s.",
+   "motivo": "El par zelo/selo contrasta z con s inicial, no una s entre vocales; la nota explica una regla que el par no ilustra."
+  },
+  {
+   "id": "suoni p-091",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "tiro / giro (cat tidi)",
+   "propuesta": "Reemplazar por un par con ti/di: p. ej. «tia / dia» o «tigre / dique».",
+   "motivo": "La nota habla de ti → «chi» y di → «yi», pero giro lleva g (/ʒ/), no di; no es el contraste que se anuncia."
+  },
+  {
+   "id": "suoni i-35",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "O metrô passa em Ipanema?",
+   "propuesta": "O metrô passa por Ipanema? / O metrô passa em Ipanema? (revisar la traducción)",
+   "motivo": "El ejemplo (y su es) no coincide con la preposición enseñada (passar por); el pt dice «passa em» con sentido de parar, pero la traducción «por Ipanema» desorienta."
+  },
+  {
+   "id": "suoni i-36",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "O metrô passa em Ipanema.",
+   "propuesta": "O metrô passa por Ipanema.",
+   "motivo": "Mismo caso que i-35: se contradice la regla de la semana (passar + por)."
+  },
+  {
+   "id": "suoni c-015",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ele mora num apartamento.",
+   "propuesta": "Sustituir por «Ele mora no Rio.» o enseñar num/numa en la teoría.",
+   "motivo": "Evalúa em + um (num), no enseñado en la lección de esta semana (también «num ônibus» en la radio)."
+  },
+  {
+   "id": "laboratorio efe",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "La **h-** inicial del español viene de una **f** latina que el portugués conservó",
+   "propuesta": "Muchas palabras con **h-** inicial del español vienen de una **f-** latina que el portugués conservó",
+   "motivo": "Generalización falsa: hoy, hombre, haber tienen h- latina; no todas las h- vienen de f."
+  },
+  {
+   "id": "laboratorio efe",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "h- → f-",
+   "propuesta": "Reemplazar por una regla puente relacionada con preposiciones/artículo (p. ej. «a pie → a pé», «en el → no») o por «ll → lh».",
+   "motivo": "La regla h→f no se conecta con el tema de la semana y deja «capire» vacío."
+  },
+  {
+   "id": "duelos porpara",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Obrigado ___ tudo, de verdade!",
+   "propuesta": "Mover los usos por/para ajenos a lugar y movimiento (precio, trueque, agradecer, acaso, plazo, opinión, distribución) a la semana donde se enseñen o añadir un bloque de teoría.",
+   "motivo": "El duelo evalúa por/para en general; la lección solo enseña «por» de recorrido y «para» destino (no el contraste completo) y la semana no lo presenta."
+  },
+  {
+   "id": "duelos porpara",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Amanhã eu vou ___ São Paulo de ônibus.",
+   "propuesta": "Agregar contexto de destino o cambiar a «Amanhã eu viajo ___ São Paulo»",
+   "motivo": "«vou por São Paulo» (pasando por) es gramatical; solo el cue «vou» no descarta «por»."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Unificar el criterio de ir a / ir para / ir no (bloque 1, ítems 09-06 y 09-44, duelo) y retirar «Tu viras» del accept de 09-35.",
+   "por_que": "Hoy la teoría da una distinción semántica (a = visita corta) que el resto del material no sostiene, y se acepta una forma europea."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar un recuadro de contracciones (em/de/a/por + o/a/os/as: no, do, ao, pelo, à…) y, si se mantienen num/numa y por/para, enseñarlos o quitarlos de esta semana.",
+   "por_que": "Las contracciones son el centro de la semana pero no hay tabla; se practican num, pro/pra y por/para sin haberlos presentado."
+  },
+  {
+   "prioridad": "media",
+   "que": "Añadir ítems de producción (typed/translate) para el vocabulario clave: ponto, sinal, carona, descer do/no ônibus, rodoviária, pegar, e para chegar em/no.",
+   "por_que": "Casi todos los ítems son choice/cloze de un solo hueco; el vocabulario nuevo solo aparece en lectura/radio."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir repeticiones (5 ítems por+art., 4 de a pé, varios no Brasil/na Lapa) y sustituirlas por contrastes: por/pelo vs de/do, a pé vs de pé, chegar a vs em, ir no vs ir ao.",
+   "por_que": "Mucho solapamiento y poca variedad de contraste."
+  },
+  {
+   "prioridad": "media",
+   "que": "Ampliar accept con respuestas naturales (viver en 09-28/09-30, vou na praia en 09-29) y revisar opciones obvias (hasta, derecho).",
+   "por_que": "Evita rechazar respuestas correctas y mejora el poder discriminante."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Alinear suoni y laboratorio con el tema (pares ti/di reales, nota de zelo/selo correcta, regla puente relacionada con preposiciones) y corregir glosas («barca = ferry»; «metro» → «subte»).",
+   "por_que": "Los extras de la semana hoy no refuerzan el foco ni siempre explican el par."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Aclarar la advertencia sobre «Disculpe/com licença» y la de «até à».",
+   "por_que": "Dos explicaciones en es poco claras o imprecisas."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 1,
+   "dudas": 2
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 3
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

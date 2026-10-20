@@ -1,0 +1,469 @@
+{
+ "week": 6,
+ "title": "Presente indicativo: verbi irregolari",
+ "level": "A1",
+ "revisado": {
+  "items": 87,
+  "sfide": 10,
+  "bloques_teoria": 6,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 18
+ },
+ "veredicto": "necesita trabajo",
+ "resumen": "La teoría es sólida, corta y con buen contraste con el castellano (h muda, sto stanco, stare+gerundio). El problema es la práctica: 30 de 87 ítems son sobre fare, unos 40 son colocaciones B1 (dare retta, dare del Lei, avere a che fare con) que la lección no enseña, y no hay ni un ítem de stare+gerundio ni de no-diptongación. Las sfide traen capítulos de otras semanas (futuro, infinitivo compuesto, clíticos). Hay pocos errores lingüísticos duros, pero varios ítems con dos opciones válidas, dos notas falsas (gettare, cola/colla) y una pregunta de lectura mal formulada.",
+ "bien": [
+  "Teoría breve, ordenada y con avisos de errores típicos del hispanohablante (ho che andare, sto stanco, h muda, no diptongar).",
+  "Tablas completas de los 15 irregulares con ejemplos traducidos al voseo rioplatense.",
+  "El dictogloss es natural, breve, usa casi todos los irregulares y modales de la semana y es correcto.",
+  "La lectura «Una giornata di Sara» es coherente y natural, recicla fa/esce/va/dice/può/deve/beve/viene.",
+  "Las conjugaciones d07-036..065 son correctas, con pistas claras y con accept adecuados.",
+  "Las notas de las colocaciones suelen explicar el calco español (fare la fila, dare un esame) con buen criterio contrastivo."
+ ],
+ "hallazgos": [
+  {
+   "id": "lettura w-06",
+   "lang": "it",
+   "severidad": "error",
+   "actual": "Il pomeriggio viene a casa stanca",
+   "propuesta": "Il pomeriggio torna a casa stanca",
+   "motivo": "«venire a casa» es hacia el lugar del hablante; para volver a la propia casa se dice tornare/rientrare (calco de «viene a casa»)."
+  },
+  {
+   "id": "lettura w-06",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "¿Por qué no puede quedarse hasta tarde?",
+   "propuesta": "¿Qué tiene que hacer Sara mañana? (opciones: trabajar temprano / ...)",
+   "motivo": "Sara acepta ir al cine; el texto no dice que no pueda quedarse hasta tarde: la pregunta presupone algo falso y la opción correcta no responde al «por qué»."
+  },
+  {
+   "id": "lettura w-06",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"Tocá los verbos irregulares (fa, esce, va, dice…)\"",
+   "propuesta": "Agregar «è» (essere) y «chiede»/«stare» según corresponda, o aclarar que no se cuentan",
+   "motivo": "Solo 3 preguntas, todas de opción múltiple; sin vero/falso/non si dice y sin inferencia; el hunt omite «è»."
+  },
+  {
+   "id": "item d07-066",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Ella es una persona honestísima. (essere un Cincinnato)",
+   "propuesta": "Reemplazar por otra expresión con essere (p. ej. «Sono al verde») o cambiar el enunciado",
+   "motivo": "«essere un Cincinnato» no es una expresión fija para «honesto»; Cincinnato evoca retirarse del poder por virtud cívica. Además es léxico muy por encima de A1."
+  },
+  {
+   "id": "item d07-067",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "No están de humor. (essere in vena)",
+   "propuesta": "Mover estas expresiones idiomáticas (066-070) a una semana de fraseología o marcarlas como cultura",
+   "motivo": "Cinco modismos con essere (Cassandra, in gamba, in vena…) que la lección no enseña; nivel B2 en una semana A1."
+  },
+  {
+   "id": "item l2-c-57",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Il rumore ___ fastidio a mia nonna.",
+   "propuesta": "Cambiar la opción «fa» por otro distractor (p. ej. «tiene») o aceptar ambas",
+   "motivo": "«Il rumore fa fastidio a mia nonna» es igual de correcto y muy frecuente (fare fastidio / dare fastidio): dos opciones válidas."
+  },
+  {
+   "id": "item l2-c-63",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "«Gettare» es tirar, arrojar: no se «echa» la mirada en italiano.",
+   "propuesta": "«Gettare un'occhiata» / «gettare uno sguardo» existen; dare un'occhiata es la forma más corriente. Cambiar el distractor «gettare» por «mettere»",
+   "motivo": "Afirmación falsa: gettare un'occhiata es italiano correcto, así que el ítem tiene dos opciones válidas."
+  },
+  {
+   "id": "item l2-c-44",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "«Cola» en italiano es el pegamento; la cola de un animal es «coda».",
+   "propuesta": "«Colla» (con ll) es el pegamento; «cola» no significa eso",
+   "motivo": "Error de ortografía/dato: el pegamento en italiano es «colla»."
+  },
+  {
+   "id": "item l2-c-65",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "fijate el orden: en italiano «io e mio fratello», no «mio fratello e io».",
+   "propuesta": "Quitar la afirmación o decir que «io e mio fratello» es lo más habitual pero «mio fratello e io» también es correcto",
+   "motivo": "«mio fratello e io» es gramatical; la nota lo presenta como error."
+  },
+  {
+   "id": "item l2-c-65",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Io e mio fratello ___ molto d'accordo.",
+   "propuesta": "Agregar pista «(llevarse bien)» o aceptar/desambiguar «siamo»",
+   "motivo": "«Siamo molto d'accordo» también es correcto (estamos muy de acuerdo); solo la pista aclara andare d'accordo."
+  },
+  {
+   "id": "item l2-c-59",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Perché non ___ retta a tua madre? Ha ragione lei.",
+   "propuesta": "Cambiar el distractor «presti» por uno claramente incorrecto",
+   "motivo": "«prestare retta a qualcuno» está atestiguado junto a «dare retta»; posible segunda opción válida."
+  },
+  {
+   "id": "item l2-c-69",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Devi ___ attento quando attraversi la strada.",
+   "propuesta": "Cambiar «essere» por un distractor inválido o aclarar el contexto",
+   "motivo": "«Devi essere attento» es natural en italiano; la nota («Essere attento es ser una persona atenta») exagera la diferencia."
+  },
+  {
+   "id": "item l2-c-70",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Durante il film i bambini non ___ mai zitti.",
+   "propuesta": "Reemplazar «sono» por un distractor claramente errado",
+   "motivo": "«Non sono mai zitti» es aceptable; la nota «*Essere zitto no.» es demasiado tajante. Además contradice la regla de la lección (cualidades con essere) sin explicarlo."
+  },
+  {
+   "id": "item l2-c-30",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Tomar el desayuno / desayunar → fare colazione, sin artículo. *Prendere colazione es el calco típico.",
+   "propuesta": "«Fare colazione» es lo más corriente; «prendere (la) colazione» existe pero es menos usual",
+   "motivo": "«Prendo colazione» está atestiguado; llamarlo calco/incorrecto es excesivo y la opción «prendo» podría considerarse válida."
+  },
+  {
+   "id": "item l2-c-32",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "No hay verbo reflexivo: *docciarsi no existe",
+   "propuesta": "«Ducharse → fare la doccia (también farsi la doccia)»",
+   "motivo": "«Mi faccio la doccia» es muy común; «No hay verbo reflexivo» puede confundir."
+  },
+  {
+   "id": "item l2-c-27",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Non voglio ___ tempo con questa storia.",
+   "propuesta": "Dar pista («perder») o aceptar «sprecare»",
+   "motivo": "Sin pista, varios verbos encajan (sprecare, buttare via, dedicare); solo se acepta «perdere»."
+  },
+  {
+   "id": "item l2-c-41",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Prima di salire sul treno devi ___ il biglietto.",
+   "propuesta": "Usar distractores de la misma familia (comprare, prendere, fare)",
+   "motivo": "«togliere» y «tirare» se descartan por sentido, no por la regla; además «comprare» sería la respuesta más natural."
+  },
+  {
+   "id": "item l2-c-71",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Estar por / ir a + infinitivo (futuro inmediato) → stare per + infinitivo.",
+   "propuesta": "Estar por / estar a punto de + infinitivo → stare per",
+   "motivo": "La nota equipara «ir a + infinitivo» con stare per y en la misma línea dice que andare a no sirve: confuso."
+  },
+  {
+   "id": "item l2-c-72",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Attenzione, la lezione ___ per cominciare.",
+   "propuesta": "Fusionar l2-c-71/72/73 y presentar «stare per» en la lección",
+   "motivo": "Tres ítems sobre «stare per», estructura que la lección no enseña (solo estar de salud, quedarse y stare + gerundio)."
+  },
+  {
+   "id": "item d07-044",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Lui ___ sempre lo spiritoso.",
+   "propuesta": "Eliminar uno de los dos (l2-c-48 repite fare lo spiritoso)",
+   "motivo": "Casi duplicados: d07-044/l2-c-48 (fare lo spiritoso), d07-041/l2-c-47 (fare una telefonata), d07-045/l2-c-32 (fare la doccia)."
+  },
+  {
+   "id": "item d07-043",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "I professori ___ la conoscenza degli studenti.",
+   "propuesta": "Sustituir por un ejemplo de fare más frecuente",
+   "motivo": "«fare la conoscenza di» es formal/poco frecuente para A1 y el ítem practica solo la forma «fanno»."
+  },
+  {
+   "id": "item g2-gd-50",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Mirá los tres ejemplos y completá el cuarto.",
+   "propuesta": "Mostrar los tres ejemplos en el enunciado o cambiar la consigna",
+   "motivo": "Solo se ve un ejemplo en el enunciado; la nota introduce conoscere, no enseñado en la lección."
+  },
+  {
+   "id": "item g2-out-per-11",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Traducí al italiano sin decir el sujeto.",
+   "propuesta": "Quitar «Noi lavoriamo molto» / «Voi parlate bene» de accept o cambiar la consigna",
+   "motivo": "La consigna pide no decir el sujeto pero accept lo admite; inconsistente."
+  },
+  {
+   "id": "item g2-out-per-01",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "(noi) ___ sempre di calcio. (parlare)",
+   "propuesta": "Sustituir los 12 ítems de repaso regular (g2-out-per-*) por producción con irregulares de la semana",
+   "motivo": "Repaso de verbos regulares de semanas previas; no practican los irregulares de esta semana."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "el italiano casi nunca diptonga",
+   "propuesta": "«el italiano diptonga bastante menos que el castellano en los verbos»",
+   "motivo": "Exagerado: hay diptongación en verbos comunes (muoio, suono, nuoto, muovo, cuocio, siedo, tieni). «Excepciones pocas: vieni, vuole, può» es incompleto y ningún ítem lo practica."
+  },
+  {
+   "id": "keys",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "venire, tenere, uscire, rimanere, salire.",
+   "propuesta": "Ajustar keys a la lección (venire, uscire, dire, bere, dare, rimanere) o incluir tenere/salire",
+   "motivo": "tenere y salire figuran en las ideas clave pero no en la teoría ni en las tablas; bere y dare sí, y no figuran."
+  },
+  {
+   "id": "vocab:telefonare",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Il mio telefono non funziona.",
+   "propuesta": "Es meglio: «Telefono a mia madre ogni sera.»",
+   "motivo": "El ejemplo usa el sustantivo «telefono», no el verbo telefonare que se glosa."
+  },
+  {
+   "id": "item l2-c-60",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Mi ___ un passaggio alla stazione?",
+   "propuesta": "Mantener, pero mover a semana de fraseología",
+   "motivo": "Collocations B1 (dare retta, dare del Lei, dare un passaggio, tenere d'occhio, avere a che fare con) en un A1 sin teoría de apoyo."
+  },
+  {
+   "id": "sfida r02-10",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Fiona vive en la isla de Skye.",
+   "propuesta": "Mover a la semana de preposiciones articuladas/artículos",
+   "motivo": "Evalúa preposiciones articuladas y artículos con islas/archipiélagos (Órcadas, Hébridas), no visto en la semana 6."
+  },
+  {
+   "id": "sfida r07-03e",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "___ (Tardo una hora) per arrivare all'università.",
+   "propuesta": "Mover a la semana de pronombres/ci",
+   "motivo": "«metterci/volerci» exige el ci pronominal, no enseñado; no usa los irregulares de la semana."
+  },
+  {
+   "id": "sfida r07-04e",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Mi sai dire se la cena è pronta? → ___ se la cena è pronta?",
+   "propuesta": "Reemplazar por sfide con modales sin pronombres clíticos",
+   "motivo": "Pide posición de pronombres clíticos con modales e imperativo negativo: gramática posterior a la semana 6."
+  },
+  {
+   "id": "sfida r12-05",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Che vino beviamo? – El que quieras.",
+   "propuesta": "Mover a la semana de indefinidos; cambiar b/c que no evalúan «cualquier»",
+   "motivo": "Indefinidos (qualsiasi/qualunque) no enseñados; el ítem c no evalúa el equivalente de «cualquier(a)» que pide la consigna."
+  },
+  {
+   "id": "sfida r15-02",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Duermo en el tren.",
+   "propuesta": "Mover a la semana de preposiciones",
+   "motivo": "Preposiciones con países, transportes y preposición articulada (nel cassetto): no enseñado aún."
+  },
+  {
+   "id": "sfida r15-02:f",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Sta nel cassetto.",
+   "propuesta": "Quitar «Sta nel cassetto.» de accept",
+   "motivo": "Contradice la regla de la lección (ubicación con essere; stare = salud/quedarse)."
+  },
+  {
+   "id": "sfida r18-01:b",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Sandra, dove ___ di casa?",
+   "propuesta": "«Sandra, dove abiti?» o marcar «stare di casa» como uso coloquial regional",
+   "motivo": "«stare di casa» es regional/anticuado; en A1 puede llevar a usar stare para «vivir», contra lo enseñado."
+  },
+  {
+   "id": "sfida r19-03b",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Hanno chiuso l'autostrada. – Entonces tomamos la ruta. (prendere la statale)",
+   "propuesta": "Usar contextos sin passato prossimo y sacar «Allora andrò a trovarla.» de accept",
+   "motivo": "Usa passato prossimo (no enseñado), trata el futuro y acepta el futuro pese a que la consigna dice «se usa el presente»."
+  },
+  {
+   "id": "sfida r23-07",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Dice que terminó.",
+   "propuesta": "Mover a un semana B2 (infinitivo compuesto)",
+   "motivo": "«di aver finito» (infinitivo compuesto) es nivel B2, imposible en semana 6 de A1."
+  },
+  {
+   "id": "sfida r25-02",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "¿A ella le gusta viajar? / ¿A usted le gusta viajar?",
+   "propuesta": "Mover a la semana de piacere",
+   "motivo": "«piacere» con pronombres indirectos no enseñado en la semana 6."
+  },
+  {
+   "id": "sfida r02-10",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "\"chapter\": \"Articles\"",
+   "propuesta": "Traducir o ocultar el nombre del capítulo (Artículos, Pronombres personales, Indefinidos, Preposiciones, Presente, Futuro, Formas no personales, Construcciones especiales)",
+   "motivo": "Si el campo chapter se muestra, aparece inglés visible al alumno."
+  },
+  {
+   "id": "suoni c-006",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "bello → bel delante de consonante simple.",
+   "propuesta": "bello → bel delante de consonante (salvo s + consonante, z, gn, ps, x): un bel giorno, un bel gruppo",
+   "motivo": "«consonante simple» es falso: también «bel gruppo», «bel trono». Además el ítem no se relaciona con la semana."
+  },
+  {
+   "id": "suoni p-154",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "La s entre vocales suele ser sonora, como zumbido; no la z española.",
+   "propuesta": "Usar un par real (p. ej. rosa/rossa) y explicar que en rioplatense la z se pronuncia como s",
+   "motivo": "«caza» no existe en italiano y para un rioplatense (seseo) «caza» suena igual a «casa»; el contraste s sonora/sorda es regional (norte)."
+  },
+  {
+   "id": "suoni p-107",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "[ts] en spazio.",
+   "propuesta": "[tts]: «spazio» /ˈspattsjo/ con africada geminada",
+   "motivo": "La z de «-zio» intervocálica es larga [tts]; la nota simplifica."
+  },
+  {
+   "id": "suoni p-106",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "marso",
+   "propuesta": "Usar un par mínimo real (p. ej. razza/rasa, o marzo/marmo)",
+   "motivo": "Pares con no-palabras («marso», «spasio», «caza», «chao», «arivo») no son pares mínimos léxicos; el alumno no sabe qué distingue."
+  },
+  {
+   "id": "suoni p-132",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "sce = «she»; ce = «che».",
+   "propuesta": "sce = como la «sh» rioplatense de «yo»; ce = «ch» de «che, boludo» (ojo: la palabra italiana «che» se lee /ke/)",
+   "motivo": "«she» es una escritura inglesa y «che» es en italiano /ke/: puede confundir."
+  },
+  {
+   "id": "suoni p-030",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "pene",
+   "propuesta": "Reemplazar por un par mínimo más útil (p. ej. anno/ano, nono/nonno, sete/sette)",
+   "motivo": "«pene» y «fola»/«caco» son léxico raro o incómodo en A1; mejor pares con palabras de la semana: anno/ano, nonno/nono, hanno/anno."
+  },
+  {
+   "id": "suoni",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "(pares p-029 … p-179)",
+   "propuesta": "Incluir pares/entonación ligados a la semana: hanno/anno, dà/da, vengo/vengono, può/puoi, sto/stai",
+   "motivo": "Los sonidos no tienen relación con los irregulares de la semana 6."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Crear ítems para stare + gerundio (sto leggendo, cosa stai facendo, stiamo cenando) y para la no diptongación (posso/puedo, dormo/duermo, penso/pienso): cloze, choice y fixerr.",
+   "por_que": "Dos bloques enseñados (3 y 5) tienen 0 ítems de práctica y la segunda parte declara 57 ítems que no los cubren."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Reemplazar o mover las sfide fuera de secuencia (r02-10, r07-03e, r07-04e, r12-05, r15-02, r19-03b, r23-07, r25-02) por sfide con los irregulares de la semana; conservar r18-01 y r18-03b.",
+   "por_que": "Exigen artículos/preposiciones articuladas, clíticos, futuro, passato prossimo e infinitivo compuesto, gramática posterior o de nivel B2."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Retirar de la semana ~30 ítems de colocaciones B1 (dare retta, dare del Lei, avere a che fare con, tenere d'occhio, dare un passaggio, fare il pieno) o crear un bloque «expresiones con fare/dare/stare/andare» en la lección; corregir los que tienen 2 opciones válidas (l2-c-57, l2-c-63, l2-c-59, l2-c-69, l2-c-70).",
+   "por_que": "Evalúan lo no enseñado y algunos tienen opciones múltiples válidas."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Corregir la pregunta 3 de la lectura y sumar 2-3 preguntas de vero/falso/non si dice.",
+   "por_que": "La pregunta presupone algo que el texto contradice y el formato es solo opción múltiple."
+  },
+  {
+   "prioridad": "media",
+   "que": "Equilibrar cobertura: ~6 ítems por verbo clave; agregar rimanere, bere, sapere, potere, volere, venire y essere (sono stanco / sono a Roma) y un contraste essere/stare; reducir fare de 30 a ~10.",
+   "por_que": "fare acapara el 35% de los ítems y rimanere, bere, tenere, salire no tienen ninguno."
+  },
+  {
+   "prioridad": "media",
+   "que": "Introducir tipos de ejercicio variados: listen/typed/scopri/qa para producción y escucha, no solo conjugate/choice.",
+   "por_que": "Hay solo 6 tipos y casi todo es conjugación guiada; falta producción libre y comprensión."
+  },
+  {
+   "prioridad": "media",
+   "que": "Alinear keys, lección y foco: quitar tenere/salire o enseñarlos, y agregar léxico de «Lugares de la ciudad» (tema declarado).",
+   "por_que": "El tema de la ciudad no aparece en teoría ni en la práctica."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reemplazar los 12 ítems g2-out-per-* (repaso de regulares) por producción con irregulares y quitar dobles respuestas de accept que contradicen «sin decir el sujeto».",
+   "por_que": "Repasan la semana 5, no la 6."
+  },
+  {
+   "prioridad": "media",
+   "que": "Suoni: sustituir pares con no-palabras y voces raras (marso, caza, chao, arivo, fola, pene, caco) por pares reales de la semana (hanno/anno, dà/da, nono/nonno, può/puoi) y revisar notas fonéticas ([tts], seseo rioplatense).",
+   "por_que": "Los pares actuales no son mínimos léxicos y algunas notas son imprecisas para un rioplatense."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Matizar la regla «el italiano casi nunca diptonga» y ampliar la advertencia de excepciones (muoio, suono, nuoto, tieni).",
+   "por_que": "El enunciado es exagerado."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Revisar el uso del asterisco de forma errada en las notas (*Prendere colazione, *docciarsi) y unificarlo con el de la lección.",
+   "por_que": "Puede mostrarse como cursiva rota o resultar confuso."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Reducir la carga total: son 87 ítems más 10 sfide (~47 pasos) para 15 verbos + diptongación + stare/essere + gerundio; considerar dividir la semana.",
+   "por_que": "Sobrecarga cognitiva para un A1."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 1,
+   "dudas": 4
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 2
+  }
+ }
+}

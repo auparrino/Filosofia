@@ -1,0 +1,277 @@
+{
+ "week": 45,
+ "title": "Costruzioni verbali speciali",
+ "level": "C1",
+ "revisado": {
+  "items": 31,
+  "sfide": 0,
+  "bloques_teoria": 5,
+  "lecturas": 3,
+  "dictogloss": 1,
+  "suoni": 2
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana con un núcleo sólido (farcela, avercela, prendersela, cavarsela, volerci/metterci, stare per) y buena cobertura de reflexivos idiomáticos. Hay un error de respuesta en suoni (c-049 cuenta 6 palabras cuando son 5), una nota falsa (tardar = volerci), ítems sobre contenidos no enseñados (infischiarsene, prendersela comoda, participio assoluto) y dos lecturas ajenas al tema. Los ejercicios son casi todos de A2-B1 para un curso C1, y el tema 'humor e ironía' no aparece.",
+ "bien": [
+  "Selección de verbos pronominales muy útil y frecuente, con tabla clara y ejemplos traducidos al rioplatense.",
+  "Bloque del participio en -a (ce l'ho fatta) con advertencia sobre el error típico del hispanohablante.",
+  "Buena práctica de farcela/avercela/volerci/metterci en cloze y translate con accept razonables.",
+  "La lectura w-45 y el dictogloss reciclan bien las estructuras de la semana de forma natural.",
+  "Los distractores de varios choice (ce la faccio/ci vuole vs ci vogliono, con/a/per) evalúan regla real."
+ ],
+ "hallazgos": [
+  {
+   "id": "suoni c-049",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "\"answer\": \"6\"  (Non ce la faccio più.)",
+   "propuesta": "answer \"5\" y nota: \"non / ce / la / faccio / più: cinco palabras; ce la faccio son tres\".",
+   "motivo": "La frase tiene 5 palabras (non, ce, la, faccio, più), no 6; la propia nota enumera 5 y la respuesta marcada es incorrecta."
+  },
+  {
+   "id": "item g2-va-63",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "Hacer falta / tardar = volerci, con ci obligatorio y concordado",
+   "propuesta": "Hacer falta = volerci (ci vuole un'ora, ci vogliono due ore); tardar (personal) = metterci.",
+   "motivo": "Tardar es metterci, no volerci; la nota contradice la propia teoría de la semana."
+  },
+  {
+   "id": "item rf-46-01",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "Imperativo de andarsene: vattene (tú), andatevene (vosotros).",
+   "propuesta": "vattene (vos), andatevene (ustedes).",
+   "motivo": "«vosotros» es peninsular; el curso es rioplatense (vos/ustedes)."
+  },
+  {
+   "id": "item rf-46-04",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Imperativo negativo de tú = non + infinitivo: non te la prendere.",
+   "propuesta": "Imperativo negativo de vos/tú = non + infinitivo.",
+   "motivo": "Coherencia con el voseo del curso; en el italiano el 'tú' es la forma de referencia, conviene aclarar 'vos (= tu)'."
+  },
+  {
+   "id": "item g2-cb-38",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Il treno è partito. Siamo rimasti in stazione. (participio assoluto)",
+   "propuesta": "Reemplazar por un ítem de la semana (p. ej. combinar con finire per / mettersi a).",
+   "motivo": "Evalúa el participio assoluto, gramática ajena al tema y a la teoría de la semana 45; además la consigna dice 'conector' y es una construcción."
+  },
+  {
+   "id": "item rf-46-18",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Delle sue critiche me ne infischio.",
+   "propuesta": "Enseñar infischiarsene en la tabla de la lección o cambiar el ítem por uno de los verbos enseñados (p. ej. smetterla, piantarla, entrarci).",
+   "motivo": "infischiarsene no aparece en la teoría ni en las keys de la semana."
+  },
+  {
+   "id": "item rf-46-21",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Se la prende ___: arriva sempre in ritardo.",
+   "propuesta": "Agregar 'prendersela comoda = tomárselo con calma' a la tabla, o cambiar el ítem.",
+   "motivo": "La lección enseña prendersela = ofenderse; este segundo sentido no se enseñó y puede confundir."
+  },
+  {
+   "id": "item rf-46-19",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Non stare lì ___ guardarmi: aiutami!",
+   "propuesta": "Agregar 'stare a + infinitivo' (y 'finire con l'') a la teoría.",
+   "motivo": "'stare a' figura en keys y en dictogloss pero la lección no lo presenta."
+  },
+  {
+   "id": "item rf-46-06",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "ci vogliono / ci mettono / ci vuole",
+   "propuesta": "Cambiar el distractor 'ci mettono' por 'ci vuoi' o poner sujeto explícito (Per fare un buon ragù, i cuochi ___ tre ore).",
+   "motivo": "'ci mettono' es gramaticalmente posible con sujeto impersonal 'ellos'; hay riesgo de doble respuesta."
+  },
+  {
+   "id": "item rf-46-17",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "cortala, basta / sacátelo / ponételo",
+   "propuesta": "Distractores más verosímiles: 'dejalo', 'seguí', 'apurate'.",
+   "motivo": "'sacátelo' y 'ponételo' son descartables sin conocer la regla."
+  },
+  {
+   "id": "item rf-46-20",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "sento / sente / sentono",
+   "propuesta": "Distractores que exijan la regla (p. ej. 'sentirà', 'sentivo', 'ci sento').",
+   "motivo": "Con 'me' delante, 'sente/sentono' se descartan por concordancia trivial."
+  },
+  {
+   "id": "item rf-46-07",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "ci metti / ci vuoi / ti vuole",
+   "propuesta": "Distractor 'ci vuole' (contraste real volerci/metterci); ojo: 'Quanto tempo ci vuole' también sería correcto, cerrar con 'tu' en la consigna.",
+   "motivo": "Los distractores son agramaticales, no contrastan con la regla enseñada."
+  },
+  {
+   "id": "item c1-ne-05",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "«Farcela» = arreglárselas/poder. Otro verbo pronominale idiomático.",
+   "propuesta": "«Farcela» = lograrlo / poder con algo (arreglárselas es cavarsela).",
+   "motivo": "Confunde farcela con cavarsela, que la lección distingue."
+  },
+  {
+   "id": "item rf-46-24",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Stavo per chiamarti",
+   "propuesta": "Agregar a accept: 'Ti stavo per chiamare', 'Stavo per richiamarti'.",
+   "motivo": "Variantes igual de correctas."
+  },
+  {
+   "id": "item g2-ct-61",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Sto per uscire, ti chiamo dopo",
+   "propuesta": "Agregar a accept: 'Sto per uscire, ti richiamo dopo', 'ti chiamo più tardi'(ya), 'ti chiamerò dopo'.",
+   "motivo": "Variantes naturales no aceptadas."
+  },
+  {
+   "id": "lesson:4:warn",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Sin el *ce*, «l'ho» suena antinatural.",
+   "propuesta": "En el habla informal se prefiere *ce l'ho*; «l'ho» es correcto (p. ej. con passato prossimo o más formal).",
+   "motivo": "Exagerado: «l'ho» no es incorrecto ni raro en registro estándar."
+  },
+  {
+   "id": "lesson:2",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Compuestos con *essere*, salvo *farcela, avercela, metterci*.",
+   "propuesta": "Agregar volerci (ci è voluta un'ora / ci sono volute due ore, con essere y concordancia).",
+   "motivo": "Falta el compuesto de volerci, el más problemático, y su concordancia."
+  },
+  {
+   "id": "lesson:5",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "essere sul punto di | estar por",
+   "propuesta": "estar a punto de (registro más formal que stare per)",
+   "motivo": "La tabla glosa igual dos formas con matices distintos y 'stare per' se glosó como 'estar a punto de'."
+  },
+  {
+   "id": "lettura w-45",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Tocá las partículas de los verbos pronominales (ce, ci, se, te)",
+   "propuesta": "Excluir 'se' conjunción de 'Se ce la fa lui' y 'ci' de 'non ci credeva' (crederci), o aclararlo en la consigna.",
+   "motivo": "Hay 'se' condicional y 'ci' de otro verbo entre los targets: ambiguo."
+  },
+  {
+   "id": "lettura w-45",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "arreglado (cavarsela = arreglárselas)",
+   "propuesta": "cavata: 'arreglado/salido bien'; superato: 'adelantado'; morto: 'muerto (de cansancio)'",
+   "motivo": "Glosas poco naturales o literales."
+  },
+  {
+   "id": "lettura ep12",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "gerundio e participio",
+   "propuesta": "Sustituir por lecturas con costruzioni verbali speciali (ver mejoras).",
+   "motivo": "Lectura sobre gerundio ajena al tema de la semana."
+  },
+  {
+   "id": "lettura c-gramsci",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "passato remoto",
+   "propuesta": "Sustituir por lectura C1 con modi di dire/ironía.",
+   "motivo": "Nivel B2, tema político y gramática (passato remoto) sin relación con la semana."
+  },
+  {
+   "id": "vocab:ciao",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "ciao / hola",
+   "propuesta": "ciao / chau (o hola/chau)",
+   "motivo": "La lección traduce «chau», el vocab «hola»; incoherente."
+  },
+  {
+   "id": "dictogloss Una giornata così",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "ce la facevo più",
+   "propuesta": "non ce la facevo più",
+   "motivo": "El chunk sin 'non' cambia el sentido; y el texto es de nivel A2-B1."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Corregir suoni c-049: respuesta '5' y ajustar la nota.",
+   "por_que": "La respuesta marcada como correcta es falsa."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Corregir la nota de g2-va-63 (tardar = metterci; hacer falta = volerci) y cambiar 'vosotros' por 'ustedes' en rf-46-01.",
+   "por_que": "Explicación falsa/contradictoria y variedad de español inadecuada."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar a la lección un bloque de contraste volerci (impersonal, concuerda con lo necesario, essere) vs metterci (personal, avere) con sus compuestos; incluir stare a, finire con l', prendersela comoda e infischiarsene, o quitar los ítems.",
+   "por_que": "Las keys lo declaran pero la teoría no lo enseña y varios ítems lo evalúan."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Reemplazar g2-cb-38 (participio assoluto) y las lecturas ep12 y c-gramsci por materiales de la semana, con humor/ironía y modi di dire.",
+   "por_que": "Contenido ajeno al tema; el 'tema' de la semana casi no se trabaja."
+  },
+  {
+   "prioridad": "media",
+   "que": "Subir la exigencia a C1: producción con frases más largas, registros y matices (prendersela vs avercela: evento vs estado; sentirsela; entrarci; starci; piantarla), más typed/fixerr/garden/qa.",
+   "por_que": "17 de 31 ítems son choice y el léxico/estructuras son A2-B1."
+  },
+  {
+   "prioridad": "media",
+   "que": "Practicar los puntos enseñados sin ejercicios: averci (ce l'ho, ce n'ho), non fare che, avere un bel + inf., fare a meno di, essere sul punto di, continuare a, starci, entrarci.",
+   "por_que": "Bloques enteros de teoría sin ítems."
+  },
+  {
+   "prioridad": "media",
+   "que": "Mejorar distractores de rf-46-06/07/17/20 y ampliar accept (ti stavo per chiamare, ti richiamo dopo).",
+   "por_que": "Distractores triviales y variantes válidas omitidas."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Agregar sfide, pares mínimos e intonazione pertinentes (p. ej. ce/ci/che, entonación irónica) y reemplazar 'màcchina' (accento) por algo relacionado con la semana.",
+   "por_que": "Suoni casi vacío y sin conexión con el tema."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Revisar el prefijo de id rf-46-* en la semana 45 y aclarar el hunt de w-45.",
+   "por_que": "Posible desfase de numeración y targets ambiguos."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "es": {
+   "errores": 2,
+   "dudas": 2
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

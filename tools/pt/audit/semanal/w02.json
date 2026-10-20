@@ -1,0 +1,186 @@
+{
+ "week": 2,
+ "title": "Substantivos: gênero e número",
+ "level": "A1",
+ "revisado": {
+  "items": 53,
+  "bloques_teoria": 7,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 12,
+  "radio": 0,
+  "otros": 13
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida: las reglas de plural (-ões/-ães/-ãos, -is, -es) y los géneros invertidos están bien enseñados y las respuestas aceptadas son casi todas correctas. El único contenido falso es el absoluto «-agem siempre femenino» (o personagem). Los puntos débiles son didácticos: tem/há con poca cobertura, mucha repetición de ítems de plural y el vocab del tema casi sin practicar. Tasa estimada de falsos positivos de los hallazgos: ~20%.",
+ "bien": [
+  "Pista del español (-anes→-ães, -anos→-ãos, -ones→-ões) clara y útil para rioplatenses.",
+  "Tabla de géneros invertidos (leite, sangue, ponte, dor, cor) con ejemplos y adjetivos concordando.",
+  "Reglas -l/-r/-z/-s correctas, con tildes (papéis, lençóis) y -s átona invariable.",
+  "Lectura natural que usa todo lo enseñado, preguntas y V/F válidos y caza de formas correcta.",
+  "Mezcla de tipos (listen, choice, cloze, translate, fixerr, garden, scopri, typed) y notas explicativas correctas.",
+  "Notas de vocab con falsos amigos útiles (cadeira/quadril, borracha, copo/taça)."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "*-dade* es femenino; *-agem*, también: **siempre**.",
+   "propuesta": "*-dade* es siempre femenino; *-agem* es femenino casi siempre (excepciones: *o personagem*, *o pajem*).",
+   "motivo": "«siempre» es falso: personagem es masculino de uso corriente (y también se usa a personagem); la regla se repite en lesson:5, s1-02-10/24/38/44."
+  },
+  {
+   "id": "s1-02-44",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "-agem es siempre femenino, aunque en español -aje sea masculino: a viagem, a mensagem, a garagem.",
+   "propuesta": "-agem es femenino casi siempre (a viagem, a mensagem, a garagem); ojo con la excepción o personagem.",
+   "motivo": "Mismo absoluto falso; la opción «Son todas femeninas» tiene contraejemplo."
+  },
+  {
+   "id": "lesson:5",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Pensá en la *-m*: *-agem* = femenino.",
+   "propuesta": "Pensá en el español: *-aje* es masculino, pero *-agem* es femenino.",
+   "motivo": "La -m final no indica género (homem, bom son masculinos): el truco mnemotécnico confunde."
+  },
+  {
+   "id": "lesson:5",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "«O viagem» es el error más oído de los argentinos en Brasil.",
+   "propuesta": "«O viagem» es un error muy común de los hispanohablantes.",
+   "motivo": "Afirmación estadística no verificable y gratuita."
+  },
+  {
+   "id": "lesson:1",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Si dudás, *-ões* acierta nueve de cada diez veces.",
+   "propuesta": "Si dudás, *-ões* es la terminación más frecuente.",
+   "motivo": "Cifra inventada/no comprobable; además la pista del español falla (verão → verões, aunque «verano»)."
+  },
+  {
+   "id": "vocab:garrafa",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "En Brasil es cualquier botella, no un bidón.",
+   "propuesta": "Es la botella (de agua, vino, etc.). Ojo: la *garrafa* argentina (de gas) no es esto.",
+   "motivo": "La aclaración «no un bidón» es oscura; el falso amigo real para rioplatenses es la garrafa de gas."
+  },
+  {
+   "id": "p-099",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "carro = «caju», Rio = «Jío»",
+   "propuesta": "carro ≈ «cajo» (j española suave), Rio ≈ «Jío»",
+   "motivo": "«caju» es en portugués el fruto (castanha de caju): puede confundir al leer; mejor transcripción neutra."
+  },
+  {
+   "id": "p-052",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "nunca «l» ni «li»",
+   "propuesta": "idealmente una sola consonante palatal; en el habla coloquial muchos brasileños dicen casi «li», no lo penalices",
+   "motivo": "Afirmación demasiado tajante: [lj] es realización muy común en Brasil."
+  },
+  {
+   "id": "lettura w-02",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Na janela da sala há uma árvore grande",
+   "propuesta": "Pela janela da sala se vê uma árvore grande",
+   "motivo": "«na janela» sugiere que el árbol está sobre la ventana; y la pregunta dice «¿Qué se ve por la ventana?», que no coincide con «há»."
+  },
+  {
+   "id": "lettura w-02",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "para Bia",
+   "propuesta": "Cambiar el distractor por uno del texto (p. ej. «para la feijoada»)",
+   "motivo": "Bia no aparece en el texto de la semana; el distractor es obvio por descarte."
+  },
+  {
+   "id": "s1-02-46",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "homem → ___",
+   "propuesta": "Reemplazar por un plural aún no practicado (p. ex. mulher ya está; usar luz → luzes, país → países, hotel → hotéis)",
+   "motivo": "Duplica s1-02-04 (choice) y s1-02-17/-31; lo mismo s1-02-41 vs 02, 42 vs 03, 38 vs 33 (misma frase 'A viagem é cara')."
+  },
+  {
+   "id": "s1-02-04",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "[\"homens\", \"homems\", \"hombres\"]",
+   "propuesta": "Sustituir «hombres» (y «una», «El», «Hay», «hay» en s1-02-10/11/12/13) por distractores portugueses de la regla (p. ej. «homens»)",
+   "motivo": "Distractores en español son descartables por el idioma, no por la regla."
+  },
+  {
+   "id": "asc-pt-2-02",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "mães (madres): el diptongo nasal cierra hacia la i.",
+   "propuesta": "Introducir antes mãe/mães y pais en lesson o vocab, o cambiar el par por mãos/mãe en una nota previa",
+   "motivo": "mãe/mães y pais no se enseñan en la semana (aparecen solo en notas)."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Corregir la regla de -agem («siempre femenino») en lesson 3/5 y en s1-02-44 a «casi siempre», con la excepción o personagem; quitar el truco de «la -m».",
+   "por_que": "Es el único contenido falso y se repite en 5 sitios."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Reforzar «tem / há» (7 ítems, 1 bloque) con contraste tem = tiene vs tem = hay (Ele tem / Tem um...), negación (Não tem) y pregunta (Tem...?), y 4-5 ítems más con sustantivos del vocab.",
+   "por_que": "Es el 'fare' declarado de la semana y la parte menos cubierta; el hueco tiene/hay es el error típico."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Usar los 12 sustantivos de casa/aula (cadeira, gaveta, xícara...) en ítems de plural y género; hoy los ítems casi no los tocan.",
+   "por_que": "El tema declarado no se practica; 30 de 53 ítems son plurales mecánicos y repetidos."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir duplicados (homem/pão/mão/viagem aparecen 3-4 veces con distinto formato) y diversificar: sumar -z (luz → luzes), -ês (português), adjetivos concordando con género.",
+   "por_que": "Más cobertura con la misma carga."
+  },
+  {
+   "prioridad": "media",
+   "que": "Añadir producción con artículo+adjetivo (a árvore é alta) en cloze/typed; hoy el género es casi todo reconocimiento (choice) y solo 6 clozes con o/a.",
+   "por_que": "Progresión reconocimiento → producción más equilibrada."
+  },
+  {
+   "prioridad": "media",
+   "que": "Relacionar suoni y dictogloss con la semana (nasales -ão/-ões, mão/pão, ão vs am) en vez de pares genéricos.",
+   "por_que": "Solo são/sal y las listen tocan la nasalidad que es el tema."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Aceptar variantes coloquiales en translate (tá/tão, A viagem está cara) y unificar criterio.",
+   "por_que": "Evita rechazar respuestas naturales."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Fusionar lesson:3 y lesson:5 (-agem aparece tres veces) y ampliar -il átono / -ês si se quiere cubrir más.",
+   "por_que": "Teoría algo redundante."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 4
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

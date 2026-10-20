@@ -1,0 +1,430 @@
+{
+  "week": 32,
+  "level": "B2",
+  "lettura": {
+    "title": "A cidade que se lê nas placas",
+    "emoji": "🪧",
+    "genre": "crônica",
+    "grammar": "voz passiva sintética e sujeito indeterminado",
+    "text": "Há quem conheça uma cidade pelos monumentos. Eu prefiro as placas escritas à mão. Nas minhas caminhadas pelo centro do Recife, aprendi que se descobre mais sobre um bairro lendo os avisos colados nas portas do que folheando qualquer guia turístico.\n\nComecemos pelos clássicos: “Aluga-se”, “Vende-se”, “Passa-se o ponto”. Quando muitos deles aparecem numa mesma rua, sabe-se que alguma coisa vai mal: o comércio antigo está indo embora, os aluguéis subiram, a clientela mudou de endereço. Na Rua da Imperatriz, contei outro dia onze “Aluga-se” em dois quarteirões. Onze. Não se precisa de um economista para interpretar esse dado.\n\nDepois vêm os pedidos. “Precisa-se de costureira com experiência.” “Precisa-se de ajudante de cozinha, tratar aqui.” Essas placas, curiosamente, me dão esperança. Se ainda se procura gente para trabalhar, é porque alguém acredita que o negócio tem futuro. Numa padaria da Boa Vista, a mesma placa de “Precisa-se de padeiro” está pendurada há meses. Já não sei se falta padeiro ou se sobra otimismo.\n\nHá também as regras, que dizem muito sobre o que incomoda as pessoas. “Não se aceitam cheques.” “Proibido estacionar, sujeito a guincho.” “Não se vende fiado.” Esta última, pintada na parede de uma mercearia, vem com um complemento irônico: “Fiado, só amanhã”. É uma piada velha, mas ainda se ri dela, e o dono, seu Everaldo, jura que funciona melhor do que qualquer cartaz sério. Em frente a um prédio residencial, uma folha plastificada avisa: “Não se admite barulho depois das 22h. Contamos com a colaboração de todos.” Imagino a reunião de condomínio que produziu aquela frase educada, e as brigas que ela esconde.\n\nE há, finalmente, as placas que ninguém sabe quem escreveu. “Conserta-se panela de pressão.” “Fazem-se unhas a domicílio.” “Compra-se ouro, prata e relógios antigos.” Não há nome, às vezes nem telefone, só uma seta apontando para uma escada estreita. Diz-se que, nesses sobrados, funciona uma economia inteira que não aparece nas estatísticas oficiais.\n\nOs urbanistas falam em poluição visual, e têm razão em parte: ninguém quer uma cidade coberta de papel velho. Discute-se agora, na Câmara Municipal, um projeto que proibiria cartazes improvisados nas fachadas do centro histórico. Entendo a intenção. Mas confesso um receio: se todas as placas forem retiradas, perde-se também uma forma de ler a cidade, escrita por quem vive nela, com erros de ortografia e tudo.\n\nHoje, voltando para casa, vi um papel novo numa porta azul: “Procura-se gato cinza, atende por Biscoito. Gratifica-se.” Fiquei olhando embaixo dos carros até escurecer. Não o encontrei, mas amanhã volto a procurar. Uma cidade também é isso: gente que se preocupa com o gato de desconhecidos.",
+    "gloss": {
+      "tratar": "(tratar aqui) consultar acá",
+      "placas": "carteles",
+      "colados": "pegados",
+      "folheando": "hojeando",
+      "ponto": "local comercial (“passa-se o ponto”: se traspasa el local)",
+      "quarteirões": "cuadras",
+      "costureira": "costurera",
+      "padaria": "panadería",
+      "pendurada": "colgada",
+      "sobra": "sobra",
+      "guincho": "grúa",
+      "fiado": "fiado",
+      "mercearia": "almacén",
+      "piada": "chiste",
+      "barulho": "ruido",
+      "brigas": "peleas",
+      "panela": "olla (“panela de pressão”: olla a presión)",
+      "unhas": "uñas",
+      "seta": "flecha",
+      "sobrados": "casas de dos plantas",
+      "receio": "temor",
+      "gratifica-se": "se gratifica, hay recompensa"
+    },
+    "questions": [
+      [
+        "Qual é a tese do cronista?",
+        [
+          "As placas escritas à mão revelam aspectos da vida da cidade.",
+          "O centro do Recife está completamente abandonado.",
+          "Os guias turísticos deveriam incluir as placas da cidade.",
+          "A poluição visual é o maior problema urbano do Recife."
+        ],
+        "As placas escritas à mão revelam aspectos da vida da cidade."
+      ],
+      [
+        "Por que o autor diz que as placas de “Precisa-se” lhe dão esperança?",
+        [
+          "Porque ele próprio está procurando emprego no comércio do centro.",
+          "Porque indicam que ainda há quem aposte no futuro dos negócios.",
+          "Porque os salários oferecidos são altos.",
+          "Porque desaparecem rapidamente das portas."
+        ],
+        "Porque indicam que ainda há quem aposte no futuro dos negócios."
+      ],
+      [
+        "Na frase “Já não sei se falta padeiro ou se sobra otimismo”, o autor…",
+        [
+          "critica o dono da padaria por não pagar bem.",
+          "afirma que não há padeiros desempregados na cidade.",
+          "brinca com a dúvida sobre o motivo de a placa continuar ali.",
+          "mostra que a padaria vai fechar em breve."
+        ],
+        "brinca com a dúvida sobre o motivo de a placa continuar ali."
+      ],
+      [
+        "Qual é a posição do autor sobre o projeto discutido na Câmara?",
+        [
+          "Apoia-o com entusiasmo, porque detesta papel velho.",
+          "Rejeita-o totalmente e pede a mobilização dos leitores contra a Câmara.",
+          "Não tem opinião e apenas descreve o debate.",
+          "Entende a intenção, mas teme perder um modo de ler a cidade."
+        ],
+        "Entende a intenção, mas teme perder um modo de ler a cidade."
+      ],
+      [
+        "O episódio final do gato perdido serve para…",
+        [
+          "denunciar o abandono de animais no centro.",
+          "reforçar a ideia de que as placas criam laços entre desconhecidos.",
+          "mostrar que as placas quase nunca funcionam quando se trata de animais.",
+          "introduzir um novo assunto para a próxima crônica."
+        ],
+        "reforçar a ideia de que as placas criam laços entre desconhecidos."
+      ]
+    ],
+    "vf": [
+      [
+        "O autor contou onze placas de “Aluga-se” em dois quarteirões.",
+        "verdadeiro"
+      ],
+      [
+        "A placa da padaria da Boa Vista foi colocada na semana passada.",
+        "falso"
+      ],
+      [
+        "Seu Everaldo acha que a piada do fiado funciona melhor que um aviso sério.",
+        "verdadeiro"
+      ],
+      [
+        "O projeto de lei já foi aprovado pela Câmara Municipal.",
+        "falso"
+      ],
+      [
+        "O autor mora no bairro da Boa Vista.",
+        "não se diz"
+      ]
+    ],
+    "hunt": {
+      "label": "Toque nas formas com “-se” de passiva sintética ou de sujeito indeterminado",
+      "targets": [
+        "aluga-se",
+        "vende-se",
+        "sabe-se",
+        "precisa-se",
+        "conserta-se",
+        "fazem-se",
+        "compra-se",
+        "diz-se",
+        "discute-se",
+        "perde-se",
+        "procura-se"
+      ]
+    }
+  },
+  "ascolto": {
+    "title": "Domingo sem carro na avenida",
+    "genre": "programa de rádio de serviço",
+    "es": "En un programa de radio de la mañana, el conductor entrevista a la coordinadora de un nuevo programa municipal que cierra una avenida a los autos los domingos, y le traslada las dudas de los oyentes.",
+    "speakers": [
+      "Fábio, apresentador",
+      "Vera, coordenadora"
+    ],
+    "turns": [
+      [
+        "A",
+        "Bom dia, ouvintes. A partir deste domingo, a Avenida Beira-Rio vai ser fechada para carros das sete da manhã às seis da tarde. Para explicar as regras, está aqui com a gente a Vera Campos, coordenadora do programa Domingo na Avenida. Bom dia, Vera."
+      ],
+      [
+        "B",
+        "Bom dia, Fábio, bom dia a todos."
+      ],
+      [
+        "A",
+        "Vera, a primeira pergunta é a mais óbvia: o que se pode fazer na avenida?"
+      ],
+      [
+        "B",
+        "Olha, praticamente tudo o que não tem motor. Caminhar, correr, andar de bicicleta, de patins, levar as crianças. Aceitam-se também cachorros, desde que estejam na coleira. A ideia é devolver a rua para as pessoas pelo menos um dia por semana."
+      ],
+      [
+        "A",
+        "Tem muita mensagem aqui de gente preocupada com o comércio. O pessoal da feira, por exemplo, pergunta se vai poder vender."
+      ],
+      [
+        "B",
+        "Vai, sim. Mas precisa fazer um cadastro na subprefeitura. Não se permite montar barraca em qualquer lugar, porque tem que deixar espaço para as ambulâncias passarem. Os pontos de venda vão ser demarcados no chão."
+      ],
+      [
+        "A",
+        "E o som? Porque já estão dizendo por aí que vai virar um grande baile."
+      ],
+      [
+        "B",
+        "Pois é, falam muita coisa, né? Mas não, som alto não se permite. Caixinha de som individual, tudo bem, em volume moderado. Apresentação de música, só nos palcos autorizados."
+      ],
+      [
+        "A",
+        "Tem também quem more na avenida. Um ouvinte, o Sérgio, pergunta como ele faz para tirar o carro da garagem."
+      ],
+      [
+        "B",
+        "Boa pergunta. Os moradores podem entrar e sair, mas em velocidade reduzida e acompanhados por um agente, nos cruzamentos principais. Fornece-se um adesivo para o para-brisa, que se retira na subprefeitura com comprovante de residência."
+      ],
+      [
+        "A",
+        "E se chover?"
+      ],
+      [
+        "B",
+        "Se chover forte, o programa é cancelado e avisa-se pelas redes sociais da prefeitura até as seis da manhã."
+      ],
+      [
+        "A",
+        "Muito bem. Obrigado, Vera, e bom domingo para todo mundo."
+      ]
+    ],
+    "gloss": {
+      "pois": "(pois é) y sí, así es",
+      "motor": "motor",
+      "patins": "patines",
+      "coleira": "correa, collar",
+      "feira": "feria",
+      "cadastro": "inscripción, registro",
+      "barraca": "puesto (de feria)",
+      "demarcados": "marcados, delimitados",
+      "caixinha": "cajita (“caixinha de som”: parlante chico)",
+      "palcos": "escenarios",
+      "cruzamentos": "cruces, esquinas",
+      "adesivo": "calcomanía, sticker",
+      "para-brisa": "parabrisas"
+    },
+    "questions": [
+      [
+        "Qual é o objetivo principal do programa Domingo na Avenida?",
+        [
+          "Aumentar a arrecadação da feira aos domingos.",
+          "Devolver a rua às pessoas ao menos uma vez por semana.",
+          "Reduzir o número de acidentes com motos e carros na avenida.",
+          "Criar um espaço exclusivo para shows de música."
+        ],
+        "Devolver a rua às pessoas ao menos uma vez por semana."
+      ],
+      [
+        "Por que os feirantes não podem montar barraca em qualquer lugar?",
+        [
+          "Porque é preciso deixar passagem livre para as ambulâncias.",
+          "Porque a prefeitura quer cobrar uma taxa mais alta.",
+          "Porque os moradores reclamaram do barulho.",
+          "Porque só se aceitam vendedores de comida."
+        ],
+        "Porque é preciso deixar passagem livre para as ambulâncias."
+      ],
+      [
+        "O que Vera responde sobre os boatos de que a avenida vai “virar um grande baile”?",
+        [
+          "Confirma que haverá música alta o dia inteiro em toda a avenida.",
+          "Diz que os bailes só vão acontecer à noite.",
+          "Nega: só há música nos palcos autorizados e som moderado.",
+          "Afirma que ainda não se decidiu nada sobre o som."
+        ],
+        "Nega: só há música nos palcos autorizados e som moderado."
+      ],
+      [
+        "Como o morador Sérgio poderá tirar o carro da garagem?",
+        [
+          "Não poderá, porque a proibição vale para todos.",
+          "Poderá sair só depois das seis da tarde.",
+          "Terá de estacionar o carro em outra rua já no sábado à noite.",
+          "Com um adesivo, devagar e acompanhado por um agente."
+        ],
+        "Com um adesivo, devagar e acompanhado por um agente."
+      ],
+      [
+        "Em caso de chuva forte, o que acontece?",
+        [
+          "O programa é transferido para o sábado seguinte.",
+          "O programa é cancelado e a informação sai nas redes sociais.",
+          "A avenida fica fechada, mas sem vendedores.",
+          "Os palcos são cobertos e os shows continuam."
+        ],
+        "O programa é cancelado e a informação sai nas redes sociais."
+      ]
+    ],
+    "vf": [
+      [
+        "A avenida vai ficar fechada para carros durante onze horas.",
+        "verdadeiro"
+      ],
+      [
+        "É proibido levar cachorros para a avenida.",
+        "falso"
+      ],
+      [
+        "O programa foi inspirado em experiências de outras capitais.",
+        "não se diz"
+      ],
+      [
+        "O adesivo para moradores é enviado pelo correio.",
+        "falso"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "carta_leitor",
+    "title": "Placas, sim ou não?",
+    "fonte": "lettura",
+    "t": "Você mora no centro do Recife e leu, no jornal da cidade, a crônica “A cidade que se lê nas placas”, que comenta um projeto da Câmara Municipal para proibir cartazes improvisados nas fachadas do centro histórico. Após ler a crônica, escreva uma carta do leitor para a seção Voz do Leitor do jornal, posicionando-se sobre o projeto. Retome pelo menos um exemplo ou argumento do cronista, para concordar ou discordar dele, e proponha uma alternativa ou uma condição para a regra. Não se esqueça de se identificar ao final e de usar um registro formal. Seu texto deve ter entre 148 e 208 palavras.",
+    "es": "Una carta de lector al diario: tomá posición sobre el proyecto, retomá algún ejemplo de la crónica y proponé una alternativa. Aprovechá la pasiva con se (permitem-se, exige-se, retiram-se…).",
+    "min": 148,
+    "max": 208,
+    "punti": [
+      [
+        "Referirse a la crónica",
+        [
+          "crônica",
+          "cronista"
+        ]
+      ],
+      [
+        "Posición sobre el proyecto",
+        [
+          "projeto",
+          "proib",
+          "proposta"
+        ]
+      ],
+      [
+        "Retomar un ejemplo de las placas",
+        [
+          "aluga-se",
+          "precisa-se",
+          "fiado",
+          "placa",
+          "cartaz"
+        ]
+      ],
+      [
+        "Proponer una alternativa",
+        [
+          "sugiro",
+          "proponho",
+          "alternativa",
+          "poderia",
+          "que tal"
+        ]
+      ],
+      [
+        "Firma del lector",
+        [
+          "morador",
+          "moradora",
+          "recife"
+        ]
+      ]
+    ],
+    "model": "Prezado editor,\n\nLi com muito interesse a crônica “A cidade que se lê nas placas”, publicada no último domingo. Concordo com o cronista quando ele afirma que os avisos escritos à mão contam a história do centro: os onze “Aluga-se” da Rua da Imperatriz dizem mais sobre a crise do comércio do que muitos relatórios.\n\nNo entanto, não posso concordar totalmente com a defesa das placas. Moro num sobrado da Boa Vista e vejo todos os dias fachadas históricas cobertas de papel rasgado, fita adesiva e cola. Sem nenhuma regra, perde-se o patrimônio que todos dizemos querer proteger.\n\nPor isso, em vez de uma proibição total, sugiro uma alternativa: que se instalem, em cada quarteirão, murais de madeira onde se possam afixar anúncios, pedidos de emprego e avisos de animais perdidos. Assim, preserva-se a fachada e mantém-se essa forma popular de comunicação. Os murais poderiam, inclusive, ser pintados por artistas do bairro.\n\nEspero que os vereadores ouçam também os moradores antes de votar o projeto.\n\nAtenciosamente,\nCarla Menezes, moradora da Boa Vista, Recife",
+    "gloss": {
+      "No entanto": "sin embargo (conectores: se ven en la semana 34)",
+      "sobrado": "casa de dos plantas",
+      "fita adesiva": "cinta adhesiva",
+      "quarteirão": "manzana, cuadra",
+      "afixar": "pegar, fijar (un cartel)",
+      "inclusive": "incluso (conector: se ve en la semana 34)",
+      "vereadores": "concejales"
+    }
+  },
+  "breve": {
+    "title": "Domingo na Avenida",
+    "genre": "aviso público",
+    "es": "Un aviso de la municipalidad de Belo Horizonte: una avenida cerrada a los autos el domingo, bicicletas prestadas y voluntarios.",
+    "speaker": "Voz da prefeitura",
+    "voice": 1,
+    "text": [
+      "Atenção, moradores e visitantes. A Prefeitura de Belo Horizonte informa: neste domingo, a Avenida Afonso Pena fica fechada para carros das 7 às 14 horas, entre a Praça Sete e a Rua da Bahia, para o programa Avenida Viva.",
+      "Na avenida, permite-se o uso de bicicletas, patins e skates. Não se permite estacionar nenhum veículo a partir das 6 horas: os carros estacionados serão rebocados. Os ônibus que passam pela Afonso Pena vão usar a Avenida Augusto de Lima.",
+      "Durante o evento, emprestam-se bicicletas de graça na barraca da Praça Sete: basta apresentar um documento com foto. Procuram-se também voluntários para ajudar na organização; as inscrições se fazem no site da prefeitura até sexta.",
+      "Em caso de chuva forte, o programa será cancelado e a avenida será aberta ao trânsito. Obrigado e bom domingo!"
+    ],
+    "tabella": [
+      [
+        "Horário em que a avenida reabre para os carros",
+        "14",
+        [
+          "14 horas",
+          "14h",
+          "duas da tarde",
+          "14:00"
+        ]
+      ],
+      [
+        "A partir de que horas não se pode estacionar",
+        "6",
+        [
+          "6 horas",
+          "6h",
+          "seis",
+          "seis horas",
+          "6:00"
+        ]
+      ],
+      [
+        "Avenida que os ônibus vão usar",
+        "Augusto de Lima",
+        [
+          "Avenida Augusto de Lima",
+          "Augusto Lima"
+        ]
+      ],
+      [
+        "Onde se pegam as bicicletas emprestadas",
+        "Praça Sete",
+        [
+          "na Praça Sete",
+          "Praça 7",
+          "barraca da Praça Sete"
+        ]
+      ],
+      [
+        "O que é preciso apresentar para pegar a bicicleta",
+        "documento com foto",
+        [
+          "documento",
+          "um documento com foto"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "Os carros estacionados na avenida serão levados pelo guincho.",
+        true
+      ],
+      [
+        "As bicicletas emprestadas custam dez reais.",
+        false
+      ],
+      [
+        "A prefeitura procura voluntários.",
+        true
+      ],
+      [
+        "Se chover, o evento passa para o sábado.",
+        false
+      ],
+      [
+        "Patins e skates são permitidos na avenida.",
+        true
+      ],
+      [
+        "O programa acontece todos os dias da semana.",
+        false
+      ]
+    ],
+    "gloss": {
+      "rebocados": "llevados por la grúa",
+      "barraca": "carpa, puesto",
+      "patins": "patines",
+      "emprestam-se": "se prestan"
+    }
+  }
+}

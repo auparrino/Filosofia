@@ -1,0 +1,221 @@
+{
+ "week": 35,
+ "title": "La voce passiva",
+ "level": "B2",
+ "revisado": {
+  "items": 19,
+  "sfide": 1,
+  "bloques_teoria": 4,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 1
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "La teoría de los tres auxiliares es correcta, corta y con buenos ejemplos y advertencias. El italiano de los ítems, la lectura y el dictogloss no tiene errores. Los problemas están en el diseño: tres ítems evalúan el si passivante/impersonale (semana 36), la sfida usa rimanere sin enseñarlo, el par mínimo de suoni no es un par real, y falta el tema declarado (ecología, instituciones). La práctica es repetitiva (muchos ítems 'è stata/ha stata/è stato') y sin producción libre.",
+ "bien": [
+  "Teoría clara: una regla por auxiliar, con la restricción de venire a tiempos simples y el contraste estado/acción de 'La porta è chiusa' vs 'viene chiusa'.",
+  "El bloque 'Cuándo conviene evitarla' con Si dice/Dicono/Mi hanno rubato enseña naturalidad y no solo forma.",
+  "Lectura sobre el parmigiano: proceso real, datos correctos y uso natural de venire, essere y 'deve essere stagionato'.",
+  "Dictogloss del Duomo: contenido histórico correcto y chunks que recogen las tres pasivas.",
+  "Buenos ítems de producción con accept razonable (rf2-35-05, rf2-35-10) y distractores de auxiliar realistas (rf2-35-07 con è venuto)."
+ ],
+ "hallazgos": [
+  {
+   "id": "lettura w-35",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "\"stagionato\": \"estacionado\"",
+   "propuesta": "\"stagionato\": \"madurado / curado\" (y en la pregunta: \"¿Cuánto tiempo madura como mínimo?\")",
+   "motivo": "'Estacionado' es calco; en rioplatense 'estacionar' es aparcar, confunde."
+  },
+  {
+   "id": "lettura w-35",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"a la tarde y a la mañana\"",
+   "propuesta": "\"por la noche y por la mañana\" o \"al atardecer y por la mañana\" y ajustar el distractor \"solo de noche\"",
+   "motivo": "'la sera' no es 'a la tarde' en sentido estricto y se solapa con el distractor 'solo de noche'."
+  },
+  {
+   "id": "item c1-pass-04",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Reescribí con el «si passivante».",
+   "propuesta": "Mover a la semana 36 o quitarlo; si queda, darle una oración de origen para reescribir",
+   "motivo": "No hay oración que reescribir y el 'si' se enseña en la semana 36 (lo dice el bloque 4)."
+  },
+  {
+   "id": "item c1-pass-05",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Quando si è stanchi, si ___ presto.",
+   "propuesta": "Mover a la semana 36 (si impersonale)",
+   "motivo": "Evalúa el si impersonal, no enseñado hasta esta semana."
+  },
+  {
+   "id": "item c1-pass-06",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Aquí se venden libros usados.",
+   "propuesta": "Mover a la semana 36 (pasiva refleja con si)",
+   "motivo": "Evalúa 'si passivante', no enseñado; la lección solo lo menciona como remisión."
+  },
+  {
+   "id": "item c1-pass-02",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "La porta ___ chiusa alle otto.",
+   "propuesta": "Cambiar el estímulo, p. ej. 'La porta ___ chiusa dal custode ogni sera.' o aclarar en la consigna",
+   "motivo": "'La porta è chiusa alle otto' también es correcto (estado); solo la consigna desambigua."
+  },
+  {
+   "id": "item c1-pass-03",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Questo modulo ___ compilato entro venerdì.",
+   "propuesta": "Variar el estímulo respecto de rf2-35-03 (mismo 'modulo ... entro')",
+   "motivo": "Casi duplicado de rf2-35-03 (Questo modulo ___ (firmare) entro domani)."
+  },
+  {
+   "id": "item rf2-35-06",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"sono venduti\"",
+   "propuesta": "Quitar \"sono venduti\" de accept, o cambiar la consigna a 'pasiva (essere o venire)'",
+   "motivo": "La consigna exige venire + participio y se acepta essere: contradice el objetivo."
+  },
+  {
+   "id": "item g2-ct-48",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "La casa è stata costruita nel 1900",
+   "propuesta": "Agregar \"La casa fu costruita nel 1900\" a accept",
+   "motivo": "'Fue construida' admite también passato remoto; rf2-35-05 sí acepta 'fu rotta'. Inconsistente."
+  },
+  {
+   "id": "item g2-ct-48",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Traducí al italiano. Atención a los puntos de contraste.",
+   "propuesta": "Traducí al italiano.",
+   "motivo": "Consigna genérica; no dice qué contraste."
+  },
+  {
+   "id": "item rf2-35-08",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "El agente de la pasiva va con «da» (no «por»).",
+   "propuesta": "El agente de la pasiva va con «da» (no «per» ni «di»).",
+   "motivo": "«por» es español; el distractor es «per»."
+  },
+  {
+   "id": "item rf2-35-12",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "rimandare = posponer.",
+   "propuesta": "rimandare = postergar / posponer.",
+   "motivo": "La lista de vocabulario usa 'postergar'; unificar."
+  },
+  {
+   "id": "item rf2-35-04",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "ha stata",
+   "propuesta": "Reemplazar 'ha stata/ha stato' por distractores de regla, p. ej. 'è stato costruita', 'viene stata'",
+   "motivo": "Los distractores 'ha stato/ha stata' son obvios y se repiten en 01, 04, 07, 11, 12: no evalúan la regla."
+  },
+  {
+   "id": "sfide r26-03",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "The passive voice and related constructions",
+   "propuesta": "Traducir al español: 'La voz pasiva y construcciones relacionadas'",
+   "motivo": "Campo 'chapter' en inglés; si el alumno lo ve, es texto en inglés."
+  },
+  {
+   "id": "sfide r26-03",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Reemplazá essere por venire o rimanere, según corresponda.",
+   "propuesta": "Sacar rimanere (c y d) o enseñarlo en la lección (è rimasta distrutta/siamo rimasti stupiti)",
+   "motivo": "La lección no enseña rimanere y 'è rimasta distrutta' no es equivalente de 'è stata distrutta' (cambia el sentido)."
+  },
+  {
+   "id": "suoni p-066",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "\"a\": \"stato\", \"b\": \"statto\"",
+   "propuesta": "Usar un par real, p. ej. fato/fatto o dita/ditta, o ancorarlo a la semana con stato/statuto",
+   "motivo": "'statto' no existe: no es un par mínimo."
+  },
+  {
+   "id": "lesson:3:more",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "más que el castellano hablado",
+   "propuesta": "más que el español hablado",
+   "motivo": "Generalización sin sustento y 'castellano' en un curso rioplatense."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Sacar c1-pass-04/05/06 (si passivante/impersonale) o pasarlos a la semana 36; reemplazarlos por ítems de la pasiva: agente omitido, tiempos (sarà/sarebbe stato), andare + condizional.",
+   "por_que": "Evalúan gramática que la lección remite a la semana siguiente."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Incorporar ecología e instituciones (tema y fare): ítems y una lectura o sfida con frases como 'Le emissioni vanno ridotte', 'La legge è stata approvata dal Parlamento', 'I rifiuti vengono raccolti'.",
+   "por_que": "Hoy no hay nada del tema declarado; el 'fare' de describir normas y hablar de problemas colectivos queda sin práctica."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Resolver rimanere en la sfida: enseñarlo brevemente en la teoría (rimanere + participio = estado resultante) o cambiar la sfida a essere/venire/andare.",
+   "por_que": "Contenido evaluado sin enseñar."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar tipos de producción y detección: fixerr (è venuta chiusa, vengono firmato, è stato costruita), conjugate (venire/andare en distintos tiempos) y transformación activa->pasiva con agente.",
+   "por_que": "12 ítems casi todos de reconocimiento (choice); solo 4-5 de producción."
+  },
+  {
+   "prioridad": "media",
+   "que": "Practicar el bloque 'Cuándo conviene evitarla' con 2-3 ítems (elegir entre pasiva y Dicono/Hanno + verbo) y practicar andare fuera de presente (andrebbero corretti).",
+   "por_que": "Puntos enseñados con un solo ítem o ninguno."
+  },
+  {
+   "prioridad": "media",
+   "que": "Enriquecer la lectura: agregar una pregunta con vero/falso/non si dice, una sobre la gramática (¿por qué 'viene munto' y no 'è munto'?) y usar andare en el texto ('la forma va girata').",
+   "por_que": "Las 3 preguntas son de comprensión literal y la lectura no incluye andare."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Reducir duplicados y patrones repetidos (01/04/07/11/12; 03 con rf2-35-03) y enseñar explícitamente que stata/costruita concuerdan ambos con el sujeto.",
+   "por_que": "Poca variedad, cobertura de concordancia del participio sin explicación previa."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Completar suoni (connesso, intonazione, accento están vacíos) con acento en participios (stàto/costruìto) y otros pares de geminadas reales.",
+   "por_que": "El bloque de sonidos tiene un solo par, no válido."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Usar el vocabulario en ejercicios o lecturas (vigile, iva, fuoco, colpevole, soffitto) o quitarlo de la lista.",
+   "por_que": "Palabras de vocab sin uso en ningún ejercicio de la semana."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "es": {
+   "errores": 1,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

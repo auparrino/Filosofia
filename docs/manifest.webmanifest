@@ -1,0 +1,27 @@
+{
+  "name": "La Via C1 · Rumo C1",
+  "short_name": "C1",
+  "description": "Italiano o portugués de Brasil hasta C1 en un año, para hispanohablantes: frases, escucha, pausas de 3 minutos y gramática. Funciona sin internet.",
+  "lang": "es",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f1e7",
+  "theme_color": "#0f4c85",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "Hoy: tu plan del día", "short_name": "Hoy", "url": "./#hoy",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Pausa de 3 minutos", "short_name": "Pausa", "url": "./#pausa",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Repaso de 2 minutos", "short_name": "2 min", "url": "./#micro",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

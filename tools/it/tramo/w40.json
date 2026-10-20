@@ -1,0 +1,375 @@
+{
+  "week": 40,
+  "level": "B2+",
+  "lettura": {
+    "title": "Il caffè della signora Gilda",
+    "emoji": "🗂️",
+    "genre": "rubrica (articolo di costume)",
+    "grammar": "il causativo: fare e lasciare + infinito",
+    "text": "Quando ho deciso di trasferirmi a Torino, un amico italiano mi ha dato un solo consiglio: «Fatti dare tutto per iscritto e non lasciarti mai mandare via senza un numero di protocollo». Lì per lì ho riso. Sei mesi dopo, posso dire che è stato il consiglio più prezioso che abbia mai ricevuto.\n\nLa prima tappa è stata il codice fiscale. In teoria è semplice: si va all'ufficio, si compila un modulo, si esce con un foglio. In pratica, l'impiegata mi ha fatto notare che sul passaporto il mio secondo cognome era scritto in modo diverso rispetto al contratto d'affitto, e mi ha fatto tornare il giorno dopo con una dichiarazione firmata dal padrone di casa. Non era cattiveria, anzi: la seconda volta mi ha perfino lasciato passare davanti a tutti, per non farmi rifare la fila.\n\nPoi è arrivata la residenza. Qui ho imparato che in Italia non basta dichiarare dove si abita: bisogna lasciarselo verificare. Qualche settimana dopo la domanda, un vigile è passato a controllare che vivessi davvero all'indirizzo indicato. Nessuno mi aveva detto quando sarebbe venuto, e naturalmente è venuto mentre ero al lavoro. La mia vicina, la signora Gilda, che abita qui da quarant'anni, l'ha fatto entrare nel portone, gli ha fatto vedere il mio nome sulla cassetta delle lettere e, a quanto pare, gli ha anche offerto un caffè. La residenza è arrivata dieci giorni dopo. Non so se sia merito del caffè, ma da allora porto alla signora Gilda le paste ogni domenica.\n\nPoi c'è stata la banca. Per aprire un conto mi hanno fatto firmare diciassette fogli, li ho contati, e me ne hanno lasciati portare a casa soltanto due. Quando ho chiesto di poter leggere il contratto con calma, l'impiegato mi ha guardato come se gli avessi chiesto di farmi vedere la cassaforte. Alla fine me l'ha mandato via mail, con un sorriso un po' offeso, e ho scoperto che conteneva tre commissioni di cui nessuno mi aveva parlato.\n\nIl capitolo più lungo è stato il riconoscimento della laurea. In Argentina ho studiato architettura, e per esercitare in Italia avrei dovuto far tradurre tutti i documenti da un traduttore giurato, farli legalizzare e farli valutare da una commissione. Ho fatto fare le traduzioni a Buenos Aires, dove costavano meno, ma mi hanno fatto sapere che non bastavano: dovevano essere asseverate qui, davanti a un funzionario del tribunale. Ho pagato due volte, e ho imparato la parola asseverazione, che non dimenticherò mai.\n\nNon voglio però raccontare solo una storia di file e di timbri. In questi mesi ho incontrato anche un'Italia che funziona meglio di quanto dicano gli italiani stessi. All'anagrafe un impiegato giovane mi ha lasciato fotografare tutti i moduli, per farmeli controllare a casa con calma. All'azienda sanitaria, dove sono andato a farmi assegnare un medico di base, una signora allo sportello mi ha fatto scegliere tra tre dottori, spiegandomi con pazienza le differenze di orario. E il servizio online per prenotare gli appuntamenti, quando non si blocca, è più rapido di quanto mi aspettassi.\n\nChe cosa ho imparato, allora? Tre cose, che lascio qui per chi arriva dopo di me. Primo: non lasciatevi scoraggiare dalla prima risposta negativa; spesso è la risposta di quel giorno, non quella definitiva. Secondo: fatevi dire sempre il nome della persona con cui parlate e fatevi rilasciare una ricevuta, anche quando vi dicono che non serve. Terzo: fate amicizia con i vicini. In un paese in cui molte pratiche dipendono dalla possibilità che qualcuno vi trovi in casa, una signora Gilda vale più di qualsiasi app.\n\nL'altro giorno è finalmente arrivata la lettera della commissione: la laurea è riconosciuta. L'ho fatta incorniciare e l'ho appesa in soggiorno, accanto alla prima ricevuta del codice fiscale, quella con il cognome sbagliato. Mi ricorda che dietro la burocrazia, in fondo, ci sono sempre delle persone. Alcune ti fanno perdere la pazienza; altre ti lasciano entrare dal portone e ti offrono un caffè.",
+    "gloss": {
+      "pare": "(a quanto pare) por lo visto",
+      "verificare": "(lasciarselo verificare) dejar que te lo verifiquen: *lasciarsi* + infinitivo",
+      "lì": "(lì per lì) en el momento",
+      "protocollo": "número de expediente, de registro",
+      "tappa": "etapa",
+      "modulo": "formulario",
+      "impiegata": "empleada",
+      "affitto": "alquiler",
+      "cattiveria": "maldad",
+      "vigile": "agente municipal",
+      "portone": "puerta de calle del edificio",
+      "cassetta": "buzón",
+      "paste": "masas, facturas",
+      "laurea": "título universitario",
+      "esercitare": "ejercer (la profesión)",
+      "giurato": "(traduttore giurato) traductor público",
+      "asseverate": "juradas (ante un funcionario)",
+      "file": "filas",
+      "timbri": "sellos",
+      "anagrafe": "registro civil",
+      "sportello": "ventanilla",
+      "prenotare": "sacar turno",
+      "scoraggiare": "desanimar",
+      "rilasciare": "expedir, entregar",
+      "ricevuta": "comprobante",
+      "pratiche": "trámites",
+      "incorniciare": "enmarcar",
+      "soggiorno": "living",
+      "cassaforte": "caja fuerte",
+      "commissioni": "comisiones, cargos"
+    },
+    "questions": [
+      [
+        "Che cosa voleva dire, in sostanza, il consiglio dell'amico?",
+        [
+          "Non fidarsi mai degli impiegati pubblici",
+          "Farsi accompagnare sempre da un avvocato di fiducia",
+          "Conservare una prova scritta di ogni passaggio",
+          "Evitare gli uffici nelle ore di punta"
+        ],
+        "Conservare una prova scritta di ogni passaggio"
+      ],
+      [
+        "Perché l'autore è dovuto tornare all'ufficio del codice fiscale?",
+        [
+          "Per una differenza nel cognome tra due documenti",
+          "Perché aveva lasciato il passaporto a casa",
+          "Perché l'impiegata si era rifiutata di aiutarlo",
+          "Perché quel giorno la fila era troppo lunga"
+        ],
+        "Per una differenza nel cognome tra due documenti"
+      ],
+      [
+        "Che ruolo ha avuto la signora Gilda nella pratica della residenza?",
+        [
+          "Ha firmato la dichiarazione per il codice fiscale",
+          "Ha accompagnato l'autore all'ufficio anagrafe",
+          "Ha presentato la domanda al posto dell'autore",
+          "Ha mostrato al vigile che l'autore abitava lì"
+        ],
+        "Ha mostrato al vigile che l'autore abitava lì"
+      ],
+      [
+        "Qual è stato il problema delle traduzioni fatte a Buenos Aires?",
+        [
+          "Erano piene di errori di ortografia",
+          "Da sole non bastavano, serviva un passaggio in Italia",
+          "Erano costate più di quelle italiane",
+          "La commissione le aveva smarrite"
+        ],
+        "Da sole non bastavano, serviva un passaggio in Italia"
+      ],
+      [
+        "Qual è il tono generale dell'articolo?",
+        [
+          "Arrabbiato e pieno di rancore",
+          "Ironico ma, in fondo, riconoscente",
+          "Neutro e puramente informativo",
+          "Nostalgico nei confronti dell'Argentina"
+        ],
+        "Ironico ma, in fondo, riconoscente"
+      ]
+    ],
+    "vf": [
+      [
+        "L'autore ha studiato architettura in Argentina.",
+        "vero"
+      ],
+      [
+        "Il vigile aveva avvisato l'autore del giorno del controllo.",
+        "falso"
+      ],
+      [
+        "L'autore lavora già in uno studio di architettura torinese.",
+        "non si dice"
+      ],
+      [
+        "Secondo l'autore, la prima risposta negativa è quasi sempre definitiva.",
+        "falso"
+      ],
+      [
+        "Alla fine la laurea dell'autore è stata riconosciuta.",
+        "vero"
+      ]
+    ],
+    "hunt": {
+      "label": "Tocá las formas de fare y lasciare que llevan un infinitivo (causativo)",
+      "targets": ["fatti", "lasciarti", "fatto", "lasciato", "farmi", "lasciarselo", "lasciati", "far", "farli", "farmeli", "lasciatevi", "fatevi", "fatta", "fanno", "lasciano"]
+    }
+  },
+  "ascolto": {
+    "title": "La lavatrice di Giorgio",
+    "genre": "programma radiofonico di consulenza",
+    "es": "En un programa de radio sobre derechos del consumidor, una abogada atiende la llamada de un oyente que tiene un problema con un electrodoméstico.",
+    "speakers": [
+      "Paola Donati, avvocata e conduttrice",
+      "Giorgio, ascoltatore"
+    ],
+    "turns": [
+      [
+        "A",
+        "Buonasera e benvenuti a Diritti in tasca. Come ogni giovedì rispondiamo alle vostre domande su consumi, contratti e servizi. Abbiamo il primo ascoltatore in linea: Giorgio, da Pescara. Buonasera, Giorgio."
+      ],
+      [
+        "B",
+        "Buonasera, avvocata. Allora, le spiego. A giugno dell'anno scorso ho comprato una lavatrice in un grande negozio di elettrodomestici. Tutto bene fino a un mese fa, quando ha smesso di centrifugare. Ha cominciato a fare un rumore strano e poi più niente."
+      ],
+      [
+        "A",
+        "Quindi dopo circa quattordici mesi. E lei che cosa ha fatto?"
+      ],
+      [
+        "B",
+        "Sono tornato al negozio, con lo scontrino. Mi hanno detto che la garanzia del produttore era di un anno e che, se volevo, potevo farla riparare dal loro centro assistenza. Però a pagamento. Mi hanno fatto un preventivo di centottanta euro."
+      ],
+      [
+        "A",
+        "Ecco, mi fermo subito qui, perché questo è un equivoco che sentiamo spesso. Lei ha diritto alla garanzia legale di conformità, che dura due anni dalla consegna. Ed è il venditore che ne risponde, non solo il produttore. Quindi non si lasci convincere che, dopo un anno, è tutto a suo carico."
+      ],
+      [
+        "B",
+        "Ah. Ma loro dicevano che la garanzia di un anno era scritta sul libretto."
+      ],
+      [
+        "A",
+        "Quella è un'altra cosa, diciamo un servizio in più del produttore. Si aggiunge alla garanzia legale, non la sostituisce. Mi dica una cosa: la lavatrice l'ha già fatta vedere a qualcuno?"
+      ],
+      [
+        "B",
+        "Sì, cioè, no... Ho fatto venire un tecnico, un amico di mio cognato, che mi ha detto che è un difetto della scheda elettronica. Ma non mi ha lasciato nessun documento."
+      ],
+      [
+        "A",
+        "Va bene, non è grave. Allora, il consiglio pratico è questo: scriva al negozio una lettera formale, meglio con una PEC o con una raccomandata. Descriva il difetto, indichi la data di acquisto, alleghi la copia dello scontrino e chieda che il prodotto venga riparato o sostituito senza spese. E si faccia sempre rilasciare una ricevuta di tutto quello che consegna."
+      ],
+      [
+        "B",
+        "E se mi dicono di no un'altra volta?"
+      ],
+      [
+        "A",
+        "Allora può rivolgersi a un'associazione di consumatori, che la può aiutare a far valere i suoi diritti, anche con una procedura di conciliazione. Nella maggior parte dei casi non serve andare davanti a un giudice."
+      ],
+      [
+        "B",
+        "Un'ultima cosa. Nel frattempo, posso farla riparare da un altro tecnico? Perché con due bambini, senza lavatrice, è un disastro."
+      ],
+      [
+        "A",
+        "La capisco benissimo. Però le consiglio di aspettare la risposta del negozio. Se la fa riparare altrove prima, rischia che le dicano che il guasto è stato causato proprio da quell'intervento. Intanto, per qualche settimana, lasci che siano le lavanderie a gettoni a fare il lavoro."
+      ],
+      [
+        "B",
+        "D'accordo. Grazie mille, avvocata, mi è stata utilissima."
+      ],
+      [
+        "A",
+        "Si figuri, Giorgio. E ci faccia sapere come va a finire!"
+      ]
+    ],
+    "gloss": {
+      "figuri": "(si figuri) no hay de qué, faltaba más",
+      "risponde": "(è il venditore che ne risponde) el que responde por eso es el vendedor: *rispondere di* = responder por",
+      "lavatrice": "lavarropas",
+      "elettrodomestici": "electrodomésticos",
+      "centrifugare": "centrifugar",
+      "scontrino": "ticket de compra",
+      "preventivo": "presupuesto",
+      "equivoco": "malentendido",
+      "carico": "(a suo carico) a su cargo",
+      "libretto": "manual, folleto",
+      "cognato": "cuñado",
+      "raccomandata": "carta certificada",
+      "alleghi": "adjunte",
+      "conciliazione": "conciliación, mediación",
+      "guasto": "desperfecto, falla",
+      "gettoni": "fichas (lavanderia a gettoni: lavadero automático)"
+    },
+    "questions": [
+      [
+        "Qual è il problema di Giorgio?",
+        [
+          "Il negozio non vuole ridargli lo scontrino",
+          "Il tecnico gli ha chiesto troppi soldi",
+          "Gli hanno consegnato un modello diverso",
+          "La lavatrice si è rotta dopo circa quattordici mesi"
+        ],
+        "La lavatrice si è rotta dopo circa quattordici mesi"
+      ],
+      [
+        "Che cosa gli ha proposto il negozio?",
+        [
+          "Una riparazione a pagamento",
+          "Una lavatrice nuova a metà prezzo",
+          "Il rimborso completo della spesa",
+          "Una visita gratuita del tecnico"
+        ],
+        "Una riparazione a pagamento"
+      ],
+      [
+        "Secondo l'avvocata, chi deve rispondere del difetto?",
+        [
+          "Solo il produttore della lavatrice",
+          "Il tecnico che l'ha controllata",
+          "Il venditore, per due anni",
+          "Nessuno, perché è passato un anno"
+        ],
+        "Il venditore, per due anni"
+      ],
+      [
+        "Perché l'avvocata sconsiglia di far riparare subito la lavatrice altrove?",
+        [
+          "Perché il negozio potrebbe dare la colpa a quell'intervento",
+          "Perché costerebbe più di una lavatrice nuova",
+          "Perché solo il centro assistenza ha i pezzi di ricambio",
+          "Perché la legge lo vieta nei primi due anni"
+        ],
+        "Perché il negozio potrebbe dare la colpa a quell'intervento"
+      ],
+      [
+        "Che cosa suggerisce l'avvocata con la frase sulle lavanderie a gettoni?",
+        [
+          "Che le lavanderie costano meno di una riparazione",
+          "Che Giorgio dovrebbe chiedere il rimborso delle spese",
+          "Che è meglio non comprare più una lavatrice",
+          "Che per qualche settimana conviene arrangiarsi"
+        ],
+        "Che per qualche settimana conviene arrangiarsi"
+      ]
+    ],
+    "vf": [
+      [
+        "Giorgio ha conservato lo scontrino.",
+        "vero"
+      ],
+      [
+        "Il tecnico amico del cognato gli ha lasciato un documento scritto.",
+        "falso"
+      ],
+      [
+        "Giorgio ha comprato la lavatrice a rate.",
+        "non si dice"
+      ],
+      [
+        "Secondo l'avvocata, di solito non è necessario andare da un giudice.",
+        "vero"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "lettera_formale",
+    "title": "Reclamo per una lavatrice difettosa",
+    "fonte": "ascolto",
+    "t": "Sei Giorgio, l'ascoltatore che ha chiamato la trasmissione «Diritti in tasca». Seguendo i consigli dell'avvocata, scrivi una lettera di reclamo al negozio in cui hai comprato la lavatrice: indica i dati dell'acquisto, descrivi il difetto e la risposta che ti hanno dato in negozio, ricorda i tuoi diritti, fai una richiesta precisa e spiega che cosa farai se non riceverai risposta. Registro formale, da 188 a 248 parole.",
+    "es": "Carta formal de reclamo con asunto (oggetto), hechos, derecho que invocás, pedido concreto y plazo. Usá el causativo donde sea natural (farla riparare, farmi avere…).",
+    "min": 188,
+    "max": 248,
+    "punti": [
+      [
+        "datos de la compra y descripción del defecto",
+        [
+          "lavatrice",
+          "acquist",
+          "scontrino"
+        ]
+      ],
+      [
+        "invocar la garantía legal de dos años",
+        [
+          "garanzia",
+          "due anni",
+          "conformità"
+        ]
+      ],
+      [
+        "pedir reparación o sustitución sin costo",
+        [
+          "ripar",
+          "sostitu"
+        ]
+      ],
+      [
+        "plazo y próximos pasos",
+        [
+          "entro",
+          "associazione",
+          "consumatori"
+        ]
+      ],
+      [
+        "asunto y fórmulas formales",
+        [
+          "oggetto",
+          "spettabile",
+          "distinti saluti"
+        ]
+      ]
+    ],
+    "model": "Spettabile Elettrocasa S.r.l.\nServizio clienti\n\nOggetto: reclamo per difetto di conformità – lavatrice AquaPlus 8\n\nCon la presente desidero segnalare un difetto della lavatrice che ho acquistato presso il Vostro punto vendita di Pescara il 12 giugno dello scorso anno, come risulta dallo scontrino che allego in copia.\n\nDa circa un mese l'apparecchio non centrifuga più e, dopo un forte rumore, ha smesso completamente di funzionare. Un tecnico che l'ha esaminata mi ha fatto sapere che si tratterebbe di un guasto della scheda elettronica, quindi di un difetto non causato da un uso scorretto.\n\nQuando mi sono rivolto al Vostro negozio, il personale mi ha proposto di farla riparare dal Vostro centro assistenza al costo di 180 euro, sostenendo che la garanzia del produttore era scaduta. Vorrei ricordarVi, tuttavia, che il venditore è tenuto a rispondere dei difetti di conformità per due anni dalla consegna, in base alla garanzia legale, che si aggiunge a quella commerciale del produttore.\n\nVi chiedo pertanto di far riparare o sostituire la lavatrice senza alcuna spesa a mio carico. In mancanza di una risposta entro trenta giorni dal ricevimento della presente, mi vedrò costretto a rivolgermi a un'associazione di consumatori per tutelare i miei diritti.\n\nVi prego infine di farmi avere una conferma scritta del ricevimento di questa lettera.\n\nDistinti saluti\n\nGiorgio Marchetti\n\nAllegato: copia dello scontrino",
+    "gloss": {
+      "Con la presente": "por la presente (fórmula de carta formal)",
+      "scontrino": "el ticket de compra",
+      "guasto": "falla, avería",
+      "si tratterebbe di": "se trataría de (condicional de lo no confirmado)",
+      "è tenuto a": "está obligado a",
+      "a mio carico": "a mi cargo",
+      "In mancanza di": "a falta de",
+      "tutelare": "proteger, defender"
+    }
+  },
+  "breve": {
+    "title": "Il centro assistenza richiama",
+    "genre": "messaggio in segreteria",
+    "es": "El service técnico deja un mensaje sobre el lavarropas en garantía: qué se rompió, qué se paga y cuándo llega el repuesto.",
+    "speaker": "Operatrice del centro assistenza",
+    "voice": 1,
+    "text": [
+      "Buongiorno signor Ferri, la chiamiamo dal centro assistenza Tecnoservice per la sua richiesta di riparazione numero 4127. Il tecnico che ha visto la lavatrice ci ha fatto sapere che il guasto riguarda la scheda elettronica e che il pezzo va ordinato direttamente alla casa madre.",
+      "Poiché l'apparecchio è ancora in garanzia, la riparazione e il pezzo sono gratuiti: le faremo pagare soltanto il diritto di chiamata, trentacinque euro, come previsto dalle condizioni della garanzia.",
+      "Il pezzo dovrebbe arrivare entro dieci giorni lavorativi. Appena arriva, la faremo richiamare dal tecnico per fissare l'appuntamento. Se preferisce, può anche farsi sostituire l'apparecchio: in questo caso, però, dovrebbe portarci lo scontrino originale.",
+      "Per qualsiasi domanda ci chiami dal lunedì al venerdì, dalle nove alle diciassette, citando il numero della pratica. Buona giornata."
+    ],
+    "tabella": [
+      ["Numero della pratica", "4127", ["4 1 2 7"]],
+      ["Parte guasta", "scheda elettronica", ["la scheda elettronica", "scheda"]],
+      ["Costo da pagare (euro)", "35", ["trentacinque"]],
+      ["Tempo per l'arrivo del pezzo", "10 giorni", ["dieci giorni", "10 giorni lavorativi", "dieci giorni lavorativi", "entro dieci giorni"]],
+      ["Documento necessario per la sostituzione", "scontrino", ["lo scontrino", "scontrino originale", "lo scontrino originale"]]
+    ],
+    "info": [
+      ["La lavatrice non è più in garanzia.", false],
+      ["Il pezzo si ordina alla casa madre.", true],
+      ["Il tecnico chiamerà per fissare l'appuntamento.", true],
+      ["La riparazione costa trentacinque euro più il pezzo.", false],
+      ["Si può chiedere di sostituire la lavatrice.", true],
+      ["Il centro assistenza risponde anche il sabato.", false]
+    ],
+    "gloss": {
+      "scheda elettronica": "placa electrónica",
+      "diritto di chiamata": "costo de la visita (del técnico)",
+      "scontrino": "ticket de compra",
+      "pratica": "trámite, expediente"
+    }
+  }
+}

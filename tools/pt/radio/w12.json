@@ -1,0 +1,51 @@
+{
+ "week": 12,
+ "level": "A2",
+ "title": "Téo, se cuida!",
+ "genre": "quadro «Saúde no ar»",
+ "es": "Téo llega a la radio caminando raro y con tos. En la sección de salud, Nanda le pregunta por su rutina y le da consejos, y hasta una receta de la abuela.",
+ "speakers": ["Nanda", "Téo"],
+ "turns": [
+  ["A", "Bom dia! Começa agora o quadro «Saúde no ar», e hoje o paciente é o Téo. O que aconteceu, Téo?"],
+  ["B", "Ai, Nanda... Ontem machuquei as costas na academia. Agora dói o ombro, o pescoço... e ainda tô com tosse."],
+  ["A", "Coitado! Me conta: a que horas você se levanta?"],
+  ["B", "Eu me levanto às cinco, me visto rápido e vou para a academia. Depois venho para a rádio e só me deito à meia-noite."],
+  ["A", "Aí está o problema! Escuta a doutora Nanda. Primeiro: hoje não vá à academia. Descanse e não carregue peso."],
+  ["B", "Nem a mochila?"],
+  ["A", "Nem a mochila! Segundo: coloque uma bolsa de água quente nas costas. Terceiro: deite-se mais cedo."],
+  ["B", "Tá bom. E para a tosse?"],
+  ["A", "Anote a receita da minha avó. Coloque água numa panela com um pedaço de gengibre e ferva cinco minutos. Depois tire do fogo, ponha uma colher de mel e beba bem quente."],
+  ["B", "Parece bom. E se a tosse continua?"],
+  ["A", "Aí vá ao médico, hein? E lembre-se de escovar os dentes depois do mel. Cadê a sua escova de dentes?"],
+  ["B", "Na mochila, que eu não posso carregar!"],
+  ["A", "Então eu carrego. E vocês, ouvintes: qual é o remédio da sua avó?"]
+ ],
+ "gloss": {
+  "quadro": "sección (de un programa)",
+  "paciente": "paciente",
+  "academia": "gimnasio",
+  "dói": "duele",
+  "Coitado": "pobrecito",
+  "carregue peso": "levantes peso",
+  "bolsa de água quente": "bolsa de agua caliente",
+  "gengibre": "jengibre",
+  "ferva": "hacé hervir",
+  "mel": "miel",
+  "remédio": "remedio",
+  "ouvintes": "oyentes",
+  "mochila": "mochila",
+  "fogo": "fuego"
+ },
+ "questions": [
+  ["¿Qué le pasó a Téo ayer?", ["Se lastimó la espalda en el gimnasio", "Se cayó de la bicicleta", "Se quemó con agua caliente", "Se durmió en la radio"], "Se lastimó la espalda en el gimnasio"],
+  ["¿Qué le dice Nanda que haga hoy?", ["Ir al gimnasio más tarde, después de la radio", "Descansar y no levantar peso", "Ir al médico enseguida", "Tomar un café bien caliente"], "Descansar y no levantar peso"],
+  ["¿Para qué sirve la receta de la abuela de Nanda?", ["Para el dolor de espalda", "Para la tos", "Para dormir", "Para el dolor de panza"], "Para la tos"]
+ ],
+ "info": [
+  ["Téo se levanta a las cinco.", true],
+  ["Nanda le dice que se ponga hielo en la espalda.", false],
+  ["El té lleva jengibre y miel.", true]
+ ],
+ "grammatica": {"label": "el imperativo con você y los reflexivos con el pronombre delante", "forme": ["você se levanta", "eu me levanto", "me visto", "me deito", "escuta", "não vá", "descanse", "não carregue", "coloque", "deite-se", "anote", "ponha", "ferva", "tire", "beba", "vá ao médico", "lembre-se"]},
+ "parole": [["costas", "costas"], ["machuquei", "machucar"], ["ombro", "ombro"], ["pescoço", "pescoço"], ["tosse", "tosse"], ["receita", "receita"], ["panela", "panela"], ["colher", "colher"], ["lembre-se", "lembrar"], ["escova de dentes", "escova de dentes"]]
+}

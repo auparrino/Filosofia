@@ -1,0 +1,287 @@
+{
+ "week": 29,
+ "title": "Infinitivo pessoal",
+ "level": "B2",
+ "revisado": {
+  "items": 48,
+  "bloques_teoria": 7,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 4,
+  "radio": 0,
+  "otros": 4
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "La semana es sólida: teoría clara y ordenada (forma, trampa fazerem/fizerem, sujeto propio, preposiciones, cuándo no flexionar, habla), 48 ítems casi todos correctos y lecturas buenas y fieles (Paulo Freire, Lei do Estágio). Los reparos: un error de contenido sobre la tilde (sorrir) y una nota que llama regular a «ter», un fixerr con accept incompleto, mucha repetición literal de la lección, y varios accept de traducciones sin variantes naturales. Cobertura desigual: por, ao y a gente poco practicados, y suoni casi sin material de la semana.",
+ "bien": [
+  "Teoría ordenada con contraste explícito infinitivo pessoal vs futuro do subjuntivo (fazerem/fizerem; virem doble) y tabla útil.",
+  "Buena mezcla de tipos (choice, cloze, translate, fixerr, garden, scopri, typed, combina) con progresión reconocimiento-producción.",
+  "Lecturas con la gramática bien integrada y datos fieles (Angicos 1963, 40 horas, Lei do Estágio: 6 h/día, recesso de 30 dias, bolsa y auxílio-transporte en estágio no obrigatório).",
+  "Reglas de «no flexionar» (mismo sujeto) y de a gente claras, con errores tipo en fixerr.",
+  "Duelos futuro subj. vs infinitivo pessoal bien diseñados, con pistas (cue) claras.",
+  "Vocabulario del campo de estudio/trabajo pertinente y con notas culturales útiles."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:0",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "*sair, cair, sorrir*: *saírem, caírem* llevan tilde en la *i* para romper el diptongo.",
+   "propuesta": "*sair, cair, possuir*: *saírem, caírem, possuírem* llevan tilde en la *í* (hiato). Aclarar que *sairmos* no la lleva (la i va seguida de r en la misma sílaba). Sacar *sorrir*.",
+   "motivo": "*sorrir* no tiene hiato y *sorrirem* no lleva tilde; además no se explica por qué *sairmos* sí va sin tilde y *saírem* con ella."
+  },
+  {
+   "id": "item s3-29-39",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "En los regulares coincide con el futuro do subjuntivo y eso confunde: ter da terem (infinitivo pessoal) y tiverem (futuro do subjuntivo).",
+   "propuesta": "Con los regulares (falar) coinciden: falarem. Con los irregulares como ter se separan: terem (infinitivo pessoal) ≠ tiverem (futuro do subjuntivo).",
+   "motivo": "*ter* es irregular, no regular; la nota se contradice con su propio ejemplo."
+  },
+  {
+   "id": "item s3-29-36",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "accept: [\"É importante que vocês cheguem cedo.\"]",
+   "propuesta": "Agregar \"É importante vocês chegarem cedo.\" (y definir qué palabra se toca: *que* o *chegarem*).",
+   "motivo": "La nota misma dice que sin «que» va infinitivo pessoal: hay dos correcciones igualmente válidas y solo se acepta una."
+  },
+  {
+   "id": "item s3-29-35",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Trouxe biscoito Globo pra a gente comermos na praia.",
+   "propuesta": "Aceptar también \"Trouxe biscoito Globo pra nós comermos na praia.\" o señalar en la consigna qué se corrige.",
+   "motivo": "Dos arreglos válidos (cambiar *comermos* o cambiar *a gente* por *nós*); la nota los menciona pero solo hay uno en accept."
+  },
+  {
+   "id": "lesson:2",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Las dos son correctas: la segunda es la que más vas a oír.",
+   "propuesta": "Las dos son correctas; la segunda es muy frecuente, sobre todo con *é bom, é melhor, é importante*.",
+   "motivo": "Afirmación exagerada: *é bom que vocês cheguem* también es muy habitual en el habla."
+  },
+  {
+   "id": "lesson:0",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "[\"Antes de *saírem*, passem protetor.\", \"Antes de salir, pónganse protector.\"]",
+   "propuesta": "\"Antes de que salgan, pónganse protector.\"",
+   "motivo": "La traducción pierde el sujeto plural que es justo lo que muestra el ejemplo."
+  },
+  {
+   "id": "item col-29-1",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "É importante os gestores ___ contas à sociedade.",
+   "propuesta": "Cambiar el distractor «darem» (dar contas existe: «dar contas de algo») o la estructura, p. ej. «Os gestores precisam ___ contas à sociedade.» con distractores claramente no usuales.",
+   "motivo": "«darem contas» es posible en portugués; la colocación usual es prestar contas, pero el distractor no es 100% erróneo."
+  },
+  {
+   "id": "item col-29-2",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ele ___ demissão para os filhos poderem mudar de cidade.",
+   "propuesta": "Ubicar estos dos ítems de colocaciones en la parte de léxico/carta; hoy ocupan la parte «La carta formal» sin relación con ella.",
+   "motivo": "Los 2 ítems de la parte 4 son colocaciones, no practican la carta formal enseñada en el bloque 6."
+  },
+  {
+   "id": "item s3-29-30",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ao chegarmos ao Rio, ligamos para a mamãe",
+   "propuesta": "Agregar a accept variantes con «minha mãe»/«a minha mãe» (p. ej. \"Ao chegarmos ao Rio, ligamos para a minha mãe\").",
+   "motivo": "«a mamá» se traduce naturalmente como «minha mãe»; solo se acepta «nossa mãe»/«mamãe»."
+  },
+  {
+   "id": "item s3-29-27",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "É bom vocês chegarem cedo",
+   "propuesta": "Agregar \"É bom chegarem cedo\" y \"É bom que cheguem cedo\" (sujeto tácito).",
+   "motivo": "El enunciado español no trae sujeto; el alumno puede omitir «vocês» con naturalidad."
+  },
+  {
+   "id": "item s3-29-26",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Antes de vocês saírem, fechem a janela",
+   "propuesta": "Agregar \"Fechem a janela antes de vocês saírem\" y \"Fechem a janela antes que vocês saiam\".",
+   "motivo": "Orden invertido igualmente natural (ya aceptado en el ítem combina s3-29-45)."
+  },
+  {
+   "id": "item s3-29-28",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "É importante que saibamos nossos direitos",
+   "propuesta": "Agregar \"É importante que a gente saiba os nossos direitos\" y \"É importante que a gente saiba nossos direitos\".",
+   "motivo": "Falta la variante con «a gente» + subjuntivo, igual de natural que las aceptadas."
+  },
+  {
+   "id": "item s3-29-25",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Trouxe o mapa para vocês acharem o Cristo",
+   "propuesta": "Agregar variantes con «para que eles achem/encontrem» y «para que vocês achassem».",
+   "motivo": "Faltan combinaciones de «para que» con «eles» y con imperfecto de subjuntivo (secuencia con «traje»)."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "La preposición no se contrae con el sujeto del infinitivo: *antes de eles chegarem*, *na hora de as crianças dormirem*. En el habla se oye *antes deles*.",
+   "propuesta": "Aclarar: en la escritura cuidada no se contrae (*de eles*); en el habla y en la escritura informal *deles/dela* es muy común.",
+   "motivo": "Matizar para que el alumno no tome la contracción como error grave."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "foram multados por estacionarem mal (por estacionar mal)",
+   "propuesta": "Agregar un ítem de práctica con «por» y «ao»; hoy «por» se enseña pero nunca se practica y «ao» aparece solo 2 veces.",
+   "motivo": "Puntos enseñados sin ejercicios."
+  },
+  {
+   "id": "item s3-29-40",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Cuando tiene un sujeto propio o va tras preposición; no tras querer, poder o precisar con el mismo sujeto.",
+   "propuesta": "Acortar la opción correcta y alargar los distractores para que la respuesta no se adivine por longitud.",
+   "motivo": "La opción correcta es la más larga y detallada."
+  },
+  {
+   "id": "laboratorio infpessoal",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Sin terminación, el infinitivo es general: nadie en particular.",
+   "propuesta": "«Sin terminación, el infinitivo no marca persona: puede ser general (*viver no Rio é caro*) o el mismo sujeto del verbo principal (*queremos viajar*, *antes de sair, eu...*)».",
+   "motivo": "Simplificación que contradice la lección (bloque 4): sin terminación también hay sujeto concreto."
+  },
+  {
+   "id": "vocab o holerite",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Palabra de São Paulo, por la marca Hollerith; en otras regiones, *contracheque*.",
+   "propuesta": "«Se usa en todo Brasil (del nombre Hollerith, máquinas de tarjetas perforadas); *contracheque* es la forma más formal/administrativa.»",
+   "motivo": "«Holerite» no es regionalismo paulista exclusivo; afirmación demasiado regional."
+  },
+  {
+   "id": "vocab a rescisão",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "De *rescindir*: fin del contrato y la liquidación. Ahí se cobra el *FGTS*, el fondo del trabajador.",
+   "propuesta": "«...Según el tipo de despido se puede retirar el FGTS, el fondo de garantía del trabajador.»",
+   "motivo": "El saque del FGTS depende del tipo de rescisión (no en renuncia, por ejemplo)."
+  },
+  {
+   "id": "tramo lettura gloss demissão",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "\"demissão\": \"renuncia\"",
+   "propuesta": "\"demissão\": \"despido (pedir demissão = renunciar)\"",
+   "motivo": "Sola, «demissão» es despido; solo con «pedir» significa renuncia."
+  },
+  {
+   "id": "dictogloss",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Paulo Freire ajudou cerca de trezentos trabalhadores a lerem e escreverem em poucas semanas.",
+   "propuesta": "Paulo Freire ajudou cerca de trezentos trabalhadores a ler e escrever em poucas semanas.",
+   "motivo": "Con «ajudar alguém a + inf» el infinitivo normalmente no se flexiona (el complemento ya marca el sujeto); contradice el criterio del bloque 4 y no es un caso típico de la regla."
+  },
+  {
+   "id": "tramo compito punti",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "[\"propon\", \"sugir\", \"solução\", \"soluções\", \"reorganiz\", \"gostaria que\", \"seria possível\"]",
+   "propuesta": "Agregar \"suger\", \"gostaria de\", \"proposta\".",
+   "motivo": "«sugir» no detecta «sugerir» (el verbo del propio texto modelo); solo coincide con «sugiro»."
+  },
+  {
+   "id": "lettura fl-infpessoal",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Como eles chegam ao começo da trilha?",
+   "propuesta": "«Que meio de transporte o Rafa sugere para chegar ao começo da trilha?»",
+   "motivo": "El texto solo lo sugiere («é mais fácil vocês pegarem um mototáxi»); la pregunta lo presenta como hecho."
+  },
+  {
+   "id": "suoni a-027",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "burocracia",
+   "propuesta": "Reemplazar por pares/ítems de la semana: chegarem / chegaram, falarem / falaram, saírem / sairmos.",
+   "motivo": "El acento de «burocracia» no se relaciona con el infinitivo pessoal; no hay pares mínimos esta semana."
+  },
+  {
+   "id": "lesson:6",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "La carta formal abre con *Prezado(a)* + cargo o nombre y coma",
+   "propuesta": "Agregar 2-3 ítems de práctica (p. ej. elegir cierre/apertura, completar una carta con infinitivo pessoal) o mover el bloque.",
+   "motivo": "Bloque 6 sin ejercicios propios en `items`; solo se practica en el tramo de escritura."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Corregir el tip de la tilde (sorrir) y explicar sairmos/saíres/saírem (i tónica seguida de r en misma sílaba o no); sumar 2 ítems de ortografía (caírem, possuírem, sairmos).",
+   "por_que": "Es la trampa ortográfica central de la semana y hoy se enseña mal."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Reducir redundancia: muchos ítems repiten literalmente los ejemplos de la lección (mapa/Cristo, antes de saírem, fala mais alto, queremos morar en Floripa, para eles lerem). Reemplazar ~8 por oraciones nuevas con por, ao, até, depois de y a gente.",
+   "por_que": "Se evalúa memoria de frases, no la regla; y hay puntos enseñados con poca práctica."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Revisar los accept de traducciones y fixerr (s3-29-36, 35, 30, 27, 26, 28): agregar variantes válidas (sin «vocês», «minha mãe», orden invertido, quitar «que»).",
+   "por_que": "Evita marcar mal respuestas correctas."
+  },
+  {
+   "prioridad": "media",
+   "que": "Equilibrar el paradigma: la forma en -es (tu) nunca se practica y el brasileño casi no la usa; aclararlo en la tabla y priorizar ele/eles/nós/a gente.",
+   "por_que": "Alinea la teoría con el uso real del pt-BR."
+  },
+  {
+   "prioridad": "media",
+   "que": "Más producción de «para que + subjuntivo» → infinitivo pessoal y viceversa (contraste), incluyendo preguntas de elección entre pessoal/simple con mismo sujeto tras preposición.",
+   "por_que": "La regla del sujeto igual/distinto y la opcionalidad tras preposición son lo más difícil y tienen pocos ítems."
+  },
+  {
+   "prioridad": "media",
+   "que": "Suoni: agregar pares mínimos de la semana (chegarem/chegaram, falarem/falaram) y entonación con infinitivo flexionado.",
+   "por_que": "Hoy suoni solo trae 1 ítem pertinente; los otros no se vinculan con el tema."
+  },
+  {
+   "prioridad": "media",
+   "que": "Dar al bloque «carta formal» ejercicios propios o trasladarlo; los 2 ítems de la parte 4 son colocaciones.",
+   "por_que": "Parte pedagógica sin práctica alineada."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Matizar la afirmación sobre la frecuencia de «é bom vocês chegarem» y la contracción «deles».",
+   "por_que": "Evitar reglas exageradas."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Ítems de elección con opción correcta más larga (scopri) y distractores obviamente erróneos («ouve», «saem», «estudamos»): reemplazar por distractores que dependan de la regla.",
+   "por_que": "Mejora el valor diagnóstico."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "es": {
+   "errores": 1,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

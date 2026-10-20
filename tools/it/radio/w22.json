@@ -1,0 +1,54 @@
+{
+ "week": 22,
+ "level": "B1",
+ "title": "Un pacco per Gennaro",
+ "genre": "chiacchierata in studio",
+ "es": "Uno de los primos mellizos de Dario se recibió en Nápoles. Dario quiere mandarle un regalo desde Bologna, pero tiene más ganas que organización; Sara lo ayuda con el paquete y con otra cosa.",
+ "speakers": ["Sara", "Dario"],
+ "turns": [
+  ["A", "Dario, che cos'è questa scatola enorme sulla tua scrivania?"],
+  ["B", "È un pacco per mio cugino Gennaro, quello dei gemelli. Venerdì a Napoli ha preso la laurea in ingegneria!"],
+  ["A", "Complimenti! E che cosa gli mandi?"],
+  ["B", "Un pezzo di parmigiano, un chilo di prosciutto e una bottiglia di vino dei colli bolognesi. Gliel'ho promesso a Natale: «Quando ti laurei, te lo mando io, il formaggio vero»."],
+  ["A", "E come glielo spedisci? Il prosciutto non può viaggiare una settimana."],
+  ["B", "Appunto, non lo so. Me lo spieghi tu? Tu spedisci sempre i pacchi a tua sorella a Londra."],
+  ["A", "Te lo spiego volentieri. Vai alla posta qui dietro e chiedi la spedizione veloce: in due giorni glielo portano a casa. Però la bottiglia non te la fanno spedire se non è protetta bene."],
+  ["B", "Allora la bottiglia gliela porto io, a Pasqua. E il resto? Me lo prepari tu, il pacco? Io sono un disastro con lo scotch."],
+  ["A", "Va bene, te lo preparo io. Ma tu in cambio mi fai un favore."],
+  ["B", "Dimmi."],
+  ["A", "Domani ho la cena con i genitori del mio compagno e non ho tempo di stirare la camicia. Me la stiri tu? So che sei bravissimo."],
+  ["B", "Te la stiro, promesso. Anche mia madre me lo diceva: «Dario, sai solo stirare e mangiare»."],
+  ["A", "E Gennaro? È stato bravo all'università?"],
+  ["B", "All'inizio no. Al primo anno l'hanno bocciato due volte in matematica: ripassava poco e gli capitavano sempre domande difficili. Poi un professore gli ha insegnato un metodo e da lì l'hanno sempre promosso."],
+  ["A", "Che bella storia! Allora mandiamogli anche un saluto da Radio Portici. Gennaro, questo messaggio te lo dedichiamo noi: auguri, ingegnere!"],
+  ["B", "E il prosciutto arriva mercoledì, promesso!"]
+ ],
+ "gloss": {
+  "enorme": "enorme",
+  "gemelli": "mellizos",
+  "ingegneria": "ingeniería",
+  "Complimenti": "¡felicitaciones!",
+  "ti laurei": "te recibís (en la universidad)",
+  "Appunto": "justamente",
+  "posta": "correo",
+  "spedizione": "envío",
+  "protetta": "protegida",
+  "scotch": "cinta adhesiva",
+  "in cambio": "a cambio",
+  "genitori": "padres",
+  "camicia": "camisa",
+  "dedichiamo": "dedicamos"
+ },
+ "questions": [
+  ["Perché Dario manda un pacco a Gennaro?", ["Per il suo compleanno", "Perché si è laureato", "Perché è a Londra", "Perché gliel'ha chiesto la madre"], "Perché si è laureato"],
+  ["Perché la bottiglia di vino non va nel pacco?", ["Perché Dario la beve prima", "Perché la posta non la spedisce se non è protetta", "Perché Gennaro non beve vino", "Perché costa troppo spedirla"], "Perché la posta non la spedisce se non è protetta"],
+  ["Che cosa farà Dario per Sara in cambio?", ["Le preparerà la cena", "Le stirerà la camicia", "Le porterà un pacco a Londra", "Le spedirà il prosciutto"], "Le stirerà la camicia"]
+ ],
+ "info": [
+  ["Gennaro si è laureato in ingegneria.", true],
+  ["Dario sa preparare molto bene i pacchi.", false],
+  ["Gennaro ha passato tutti gli esami al primo tentativo.", false]
+ ],
+ "grammatica": {"label": "los pronombres combinados: me lo, te la, glielo, gliela", "forme": ["gliel'ho promesso", "te lo mando", "glielo spedisci", "me lo spieghi", "te lo spiego", "glielo portano", "te la fanno spedire", "gliela porto", "me lo prepari", "te lo preparo", "me la stiri", "te la stiro", "me lo diceva", "te lo dedichiamo"]},
+ "parole": [["pacco", "pacco"], ["laurea", "laurea"], ["formaggio", "formaggio"], ["prosciutto", "prosciutto"], ["spedisci", "spedire"], ["stirare", "stirare"], ["bocciato", "bocciare"], ["volte", "volta"], ["capitavano", "capitare"], ["ripassava", "ripassare"], ["insegnato", "insegnare"], ["promosso", "promuovere"]]
+}

@@ -1,0 +1,390 @@
+{
+  "week": 44,
+  "level": "B2+",
+  "lettura": {
+    "title": "Sotto la montagna, in ascolto dell'universo",
+    "emoji": "🔭",
+    "genre": "reportage",
+    "grammar": "gerundio e participio (anche assoluto)",
+    "text": "Arrivando da L'Aquila in macchina, nessuno immaginerebbe che sotto la montagna che si ha davanti lavorino ogni giorno ricercatori venuti da mezzo mondo. Il Gran Sasso, con le sue cime ancora imbiancate a maggio, sembra fatto apposta per gli escursionisti. Eppure, imboccando il traforo autostradale e percorrendone qualche chilometro, si arriva a una deviazione che nessun automobilista prende per caso: è l'ingresso dei laboratori sotterranei dell'Istituto Nazionale di Fisica Nucleare, uno dei luoghi più silenziosi d'Europa.\n\nSuperati i controlli e indossato il casco, seguiamo Chiara Montanari, fisica trentaseienne di Ancona, lungo una galleria illuminata da lampade al neon. «Qui sopra ci sono circa millequattrocento metri di roccia», spiega camminando a passo svelto. «La roccia fa da scudo: blocca quasi tutti i raggi cosmici che colpiscono continuamente la superficie terrestre. Lavorando in superficie, i nostri rivelatori sarebbero accecati da un rumore di fondo enorme. Quaggiù, invece, possiamo sperare di sentire i segnali più deboli.»\n\nChiara studia i neutrini, particelle quasi prive di massa che attraversano la materia senza quasi mai interagire. «Mentre parliamo, miliardi di neutrini provenienti dal Sole ci stanno passando attraverso», dice sorridendo davanti alla mia espressione perplessa. «Non ce ne accorgiamo perché non lasciano quasi traccia. Il nostro lavoro consiste nel costruire strumenti così sensibili da registrarne uno ogni tanto.» Altri gruppi, lavorando nelle sale accanto, danno la caccia alla materia oscura, quella componente dell'universo di cui si deduce l'esistenza osservando il moto delle galassie, ma che nessuno è ancora riuscito a vedere direttamente.\n\nEntrati nella sala principale, si resta senza parole. Sembra la navata di una cattedrale scavata nella roccia: cilindri d'acciaio alti come palazzi, tubi, cavi, scale metalliche. Tutto è costruito con materiali selezionati uno per uno, essendo perfino la debolissima radioattività naturale di un bullone sufficiente a disturbare le misure. «Una volta abbiamo scartato un intero lotto di rame», racconta Chiara ridendo. «Era perfetto per qualunque altro uso, ma per noi era troppo rumoroso.»\n\nLa vita quaggiù ha i suoi ritmi. Non vedendo mai la luce del sole durante il turno, molti ricercatori raccontano di perdere la cognizione del tempo. «Entri alle otto, esci che è buio e ti chiedi se abbia piovuto», scherza Davide, un dottorando pugliese che incontriamo davanti alla macchinetta del caffè. Eppure nessuno di loro sembra pentito. Parlando con loro, notiamo soprattutto la pazienza: esperimenti progettati quindici anni fa stanno dando solo ora i primi risultati, e alcuni dei rivelatori oggi in costruzione produrranno dati quando i loro ideatori saranno già in pensione.\n\nIl laboratorio, del resto, è un piccolo mondo internazionale. Nella mensa e nei corridoi si sentono l'inglese, il tedesco, il cinese, lo spagnolo, spesso mescolati nella stessa frase. Essendo gli esperimenti troppo costosi per un solo paese, ogni progetto riunisce decine di università, che si dividono compiti e spese. «Qui impari presto a lavorare con persone che la pensano in modo diverso da te», osserva Chiara. «Discutendo per ore su un dettaglio tecnico, si finisce per diventare amici. O, qualche volta, nemici giurati per una settimana.»\n\nÈ inevitabile, a questo punto, porsi la domanda che molti contribuenti si fanno: a che cosa serve tutto questo? Chiara non si sottrae. «Capisco chi, vedendo le cifre, pensa che i soldi andrebbero spesi altrove. Ma la storia della scienza è piena di scoperte nate senza uno scopo pratico. Chi studiava l'elettrone alla fine dell'Ottocento non pensava certo ai telefoni.» Poi aggiunge un argomento meno scontato: le tecnologie sviluppate per costruire i rivelatori, dai sensori ultrasensibili ai sistemi di purificazione dei materiali, finiscono spesso per trovare applicazioni in medicina e nell'industria.\n\nNon sono mancate, negli anni, le polemiche. Trovandosi i laboratori sotto un massiccio che alimenta gli acquedotti della zona, gli abitanti hanno chiesto più volte garanzie sulla sicurezza delle falde, soprattutto dopo un incidente avvenuto all'inizio degli anni Duemila che aveva fatto molto discutere. I responsabili assicurano che i controlli sono stati rafforzati e che il dialogo con i comuni è costante. Resta, comunque, una convivenza delicata tra la ricerca di punta e un territorio che chiede di essere ascoltato.\n\nFinita la visita, riprendiamo la galleria verso l'uscita. Riemergendo alla luce, troviamo un paesaggio quasi irreale: pecore, prati, qualche escursionista con lo zaino. Nessuno di loro, probabilmente, sa che a pochi chilometri, sepolti sotto la roccia, strumenti costati anni di lavoro stanno aspettando pazientemente un segnale dall'universo. Chiara, salutandoci, lo dice con una semplicità disarmante: «Il nostro mestiere è aspettare. Ma aspettare nel posto giusto.»",
+    "gloss": {
+      "sensibili": "(così sensibili da registrarne uno) tan sensibles como para registrar uno",
+      "caccia": "(danno la caccia a) persiguen, andan a la caza de",
+      "pensano": "(la pensano in modo diverso) piensan distinto: *pensarla* (semana 45)",
+      "buio": "(esci che è buio) salís cuando ya es de noche: *che* = cuando",
+      "imbiancate": "nevadas, cubiertas de blanco",
+      "imboccando": "tomando, entrando en",
+      "traforo": "túnel (bajo una montaña)",
+      "deviazione": "desvío",
+      "indossato": "puesto (ropa, casco)",
+      "galleria": "túnel, galería",
+      "scudo": "escudo",
+      "rivelatori": "detectores",
+      "accecati": "encandilados, cegados",
+      "quaggiù": "acá abajo",
+      "particelle": "partículas",
+      "navata": "nave (de una iglesia)",
+      "scavata": "excavada",
+      "bullone": "bulón",
+      "scartato": "descartado",
+      "lotto": "lote",
+      "rame": "cobre",
+      "dottorando": "estudiante de doctorado",
+      "pentito": "arrepentido",
+      "contribuenti": "contribuyentes",
+      "sottrae": "non si sottrae: no esquiva (la pregunta)",
+      "scontato": "obvio, previsible",
+      "massiccio": "macizo (montañoso)",
+      "acquedotti": "acueductos, red de agua",
+      "falde": "napas (de agua)",
+      "riemergendo": "volviendo a salir a la superficie",
+      "sepolti": "enterrados",
+      "disarmante": "desarmante",
+      "giurati": "jurados (enemigos jurados)"
+    },
+    "questions": [
+      [
+        "Qual è lo scopo principale del reportage?",
+        [
+          "Denunciare i rischi ambientali dei laboratori sotterranei",
+          "Raccontare dall'interno il lavoro e il senso del laboratorio",
+          "Spiegare nel dettaglio come si costruiscono i rivelatori di neutrini",
+          "Convincere i giovani abruzzesi a studiare fisica"
+        ],
+        "Raccontare dall'interno il lavoro e il senso del laboratorio"
+      ],
+      [
+        "Perché i laboratori si trovano sotto la montagna?",
+        [
+          "Per proteggere gli strumenti dai terremoti",
+          "Perché lo spazio in superficie era troppo costoso",
+          "Perché la roccia ferma quasi tutti i raggi cosmici",
+          "Per non disturbare il traffico dell'autostrada"
+        ],
+        "Perché la roccia ferma quasi tutti i raggi cosmici"
+      ],
+      [
+        "L'episodio del rame scartato serve a mostrare…",
+        [
+          "che il laboratorio spreca molte risorse pubbliche",
+          "quanto siano esigenti i requisiti dei materiali",
+          "che i fornitori sbagliano spesso le consegne",
+          "che il rame è un metallo pericoloso per la salute"
+        ],
+        "quanto siano esigenti i requisiti dei materiali"
+      ],
+      [
+        "Che cosa intende Davide con «esci che è buio e ti chiedi se abbia piovuto»?",
+        [
+          "Che il clima del Gran Sasso è molto piovoso",
+          "Che i turni di lavoro finiscono sempre a notte fonda",
+          "Che nella galleria entra spesso l'acqua",
+          "Che sottoterra si perde il contatto con il mondo esterno"
+        ],
+        "Che sottoterra si perde il contatto con il mondo esterno"
+      ],
+      [
+        "Come risponde Chiara a chi critica i costi della ricerca?",
+        [
+          "Ricorda che molte scoperte utili sono nate senza scopi pratici",
+          "Ammette che quei fondi andrebbero spesi meglio in altri settori",
+          "Spiega che i costi sono coperti da aziende private",
+          "Dice che la questione non riguarda i ricercatori"
+        ],
+        "Ricorda che molte scoperte utili sono nate senza scopi pratici"
+      ]
+    ],
+    "vf": [
+      [
+        "Per raggiungere i laboratori si passa dal traforo autostradale.",
+        "vero"
+      ],
+      [
+        "Chiara lavora alla ricerca della materia oscura.",
+        "falso"
+      ],
+      [
+        "Davide vorrebbe lasciare il laboratorio dopo il dottorato.",
+        "non si dice"
+      ],
+      [
+        "Gli abitanti della zona hanno espresso preoccupazioni per l'acqua.",
+        "vero"
+      ],
+      [
+        "Chiara ha progettato uno degli esperimenti di quindici anni fa.",
+        "non si dice"
+      ]
+    ],
+    "hunt": {
+      "label": "Tocá los gerundios y los participios absolutos (Superati i controlli…)",
+      "targets": ["arrivando", "imboccando", "percorrendone", "superati", "indossato", "camminando", "lavorando", "passando", "sorridendo", "osservando", "entrati", "essendo", "ridendo", "vedendo", "parlando", "dando", "discutendo", "trovandosi", "finita", "riemergendo", "aspettando", "salutandoci"]
+    }
+  },
+  "ascolto": {
+    "title": "Le praterie nascoste del Mediterraneo",
+    "genre": "podcast di divulgazione",
+    "es": "En un podcast de divulgación científica, una conductora entrevista a un biólogo marino sobre la posidonia, una planta del Mediterráneo.",
+    "speakers": [
+      "Conduttrice",
+      "Biologo marino"
+    ],
+    "turns": [
+      [
+        "A",
+        "Bentornati a «Onde lunghe». Oggi parliamo di una pianta che quasi tutti abbiamo visto, magari senza saperlo. Con me c'è Marco Ferri, biologo marino. Marco, partiamo dalle basi: che cos'è la posidonia?"
+      ],
+      [
+        "B",
+        "Allora, la prima cosa da dire è che non è un'alga, anche se tutti la chiamano così. È una pianta vera e propria, con radici, foglie e perfino fiori, e vive solo nel Mediterraneo. Forma delle praterie sottomarine, diciamo dei grandi prati, tra pochi metri e una quarantina di metri di profondità."
+      ],
+      [
+        "A",
+        "E quelle palline marroni che si trovano sulla spiaggia? Le chiamano palle di mare, no?"
+      ],
+      [
+        "B",
+        "Esatto. Sono fibre delle foglie, arrotolate dal movimento delle onde. E anche i mucchi di foglie secche che d'inverno si accumulano sulla riva vengono dalla posidonia. Molti turisti, vedendoli, pensano che la spiaggia sia sporca."
+      ],
+      [
+        "A",
+        "E invece?"
+      ],
+      [
+        "B",
+        "E invece quei cumuli proteggono la costa. Frenando la forza delle onde, riducono l'erosione. Toglierli con le ruspe all'inizio della stagione, come si fa in tanti comuni, significa in pratica regalare la sabbia al mare."
+      ],
+      [
+        "A",
+        "Quindi il problema non è la posidonia, ma la nostra idea di spiaggia pulita."
+      ],
+      [
+        "B",
+        "Diciamo di sì. Ci siamo abituati a una spiaggia da cartolina, liscia, senza niente. Ma una spiaggia viva è un po' disordinata, ecco."
+      ],
+      [
+        "A",
+        "Mi fai venire in mente mia nonna, che la chiamava alga e la odiava perché le si attaccava ai piedi."
+      ],
+      [
+        "B",
+        "Ecco, è un classico! Anche i miei nonni, in Puglia, la consideravano una seccatura. Però, pensandoci bene, era una convivenza più saggia della nostra: le foglie restavano lì tutto l'inverno, e nessuno si sognava di portarle via con le ruspe. Siamo stati noi, negli ultimi decenni, a trasformare la spiaggia in un salotto."
+      ],
+      [
+        "A",
+        "Torniamo in acqua, però. Perché queste praterie sono così importanti?"
+      ],
+      [
+        "B",
+        "Per tanti motivi. Sono un nido per moltissime specie di pesci, che lì depongono le uova e crescono protetti. Poi producono ossigeno. E, cosa di cui si parla sempre di più, immagazzinano carbonio nel fondale, accumulandolo per secoli. In questo senso sono un alleato contro il cambiamento climatico."
+      ],
+      [
+        "A",
+        "E stanno bene, queste praterie?"
+      ],
+      [
+        "B",
+        "Mah, dipende dalle zone. Il nemico numero uno, per quanto possa sembrare strano, sono le ancore. Una barca che si ferma sopra una prateria, tirando su l'ancora, strappa piante che hanno impiegato decenni a crescere. Poi ci sono gli scarichi, l'intorbidimento dell'acqua, il riscaldamento."
+      ],
+      [
+        "A",
+        "Si può rimediare? Cioè, si possono ripiantare?"
+      ],
+      [
+        "B",
+        "Si fanno esperimenti di trapianto, sì, e alcuni danno risultati incoraggianti. Però, detto sinceramente, costa moltissimo e la pianta cresce lentissima. È molto più sensato proteggere quello che c'è: boe di ormeggio fisse, per esempio, così le barche non devono gettare l'ancora."
+      ],
+      [
+        "A",
+        "Un ultimo consiglio per chi ci ascolta e quest'estate andrà al mare?"
+      ],
+      [
+        "B",
+        "Due cose semplici. Se avete una barca, informatevi prima di ancorare. E se trovate le foglie secche sulla spiaggia, non lamentatevi: stendeteci sopra l'asciugamano e pensate che state proteggendo la costa."
+      ],
+      [
+        "A",
+        "Messaggio ricevuto. Grazie, Marco, e grazie a tutti voi per l'ascolto."
+      ]
+    ],
+    "gloss": {
+      "mente": "(mi fai venire in mente) me hacés acordar de",
+      "trasformare": "(siamo stati noi a trasformare) fuimos nosotros los que convertimos (semana 48)",
+      "sognava": "(nessuno si sognava di) a nadie se le ocurría",
+      "praterie": "praderas",
+      "arrotolate": "enrolladas",
+      "mucchi": "montones",
+      "cumuli": "pilas, montículos",
+      "ruspe": "topadoras",
+      "depongono": "ponen (huevos)",
+      "immagazzinano": "almacenan",
+      "fondale": "fondo marino",
+      "ancore": "anclas",
+      "strappa": "arranca",
+      "scarichi": "desechos vertidos, desagües",
+      "intorbidimento": "enturbiamiento",
+      "boe": "boyas",
+      "ormeggio": "amarre",
+      "asciugamano": "toallón",
+      "seccatura": "molestia, fastidio"
+    },
+    "questions": [
+      [
+        "Che cosa sottolinea Marco all'inizio dell'intervista?",
+        [
+          "Che la posidonia vive in tutti i mari del mondo",
+          "Che la posidonia è una pianta e non un'alga",
+          "Che la posidonia cresce solo vicino alla riva",
+          "Che la posidonia è una specie ormai estinta"
+        ],
+        "Che la posidonia è una pianta e non un'alga"
+      ],
+      [
+        "Qual è la funzione dei cumuli di foglie sulla spiaggia?",
+        [
+          "Attirano i pesci verso la riva",
+          "Rendono l'acqua più limpida",
+          "Riducono l'erosione della costa",
+          "Servono da cibo per gli uccelli"
+        ],
+        "Riducono l'erosione della costa"
+      ],
+      [
+        "Qual è, secondo Marco, la minaccia principale per le praterie?",
+        [
+          "Le ancore delle barche",
+          "Il riscaldamento del mare",
+          "La pesca con le reti",
+          "I turisti sulla spiaggia"
+        ],
+        "Le ancore delle barche"
+      ],
+      [
+        "Che cosa pensa Marco dei trapianti di posidonia?",
+        [
+          "Sono inutili e andrebbero abbandonati",
+          "Sono la soluzione migliore per il futuro",
+          "Sono proibiti in quasi tutti i comuni",
+          "A volte funzionano, ma proteggere è più sensato"
+        ],
+        "A volte funzionano, ma proteggere è più sensato"
+      ],
+      [
+        "Con quale tono chiude Marco l'intervista?",
+        [
+          "Pratico e un po' scherzoso",
+          "Allarmato e pessimista",
+          "Tecnico e distaccato",
+          "Polemico verso i comuni"
+        ],
+        "Pratico e un po' scherzoso"
+      ]
+    ],
+    "vf": [
+      [
+        "La posidonia produce fiori.",
+        "vero"
+      ],
+      [
+        "Secondo Marco, trapiantare la posidonia costa poco.",
+        "falso"
+      ],
+      [
+        "Marco partecipa personalmente a progetti di trapianto.",
+        "non si dice"
+      ],
+      [
+        "Le praterie accumulano carbonio nel fondale per secoli.",
+        "vero"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "lettera_lettore",
+    "title": "La ricerca di base è un lusso?",
+    "fonte": "lettura",
+    "t": "Hai letto sulla rivista «Orizzonti» il reportage «Sotto la montagna, in ascolto dell'universo». Nel numero successivo, un lettore ha scritto che «spendere milioni per inseguire particelle invisibili è un lusso che un Paese in difficoltà non può permettersi». Scrivi una lettera alla rubrica dei lettori della rivista (210-270 parole, registro formale ma personale) in cui prendi posizione sul finanziamento della ricerca di base, riprendi almeno due argomenti presentati nel reportage e proponi un modo concreto per avvicinare i laboratori ai cittadini e al territorio.",
+    "es": "Carta de lector: tomá posición sobre si financiar la ciencia básica, retomando argumentos concretos del reportaje, y proponé algo para acercar el laboratorio a los vecinos. Probá usar algún gerundio o participio absoluto.",
+    "min": 210,
+    "max": 270,
+    "punti": [
+      [
+        "tomar posición sobre financiar la ciencia básica",
+        [
+          "ricerca",
+          "finanz",
+          "fondi"
+        ]
+      ],
+      [
+        "retomar al menos dos argumentos del reportaje",
+        [
+          "reportage",
+          "articolo",
+          "montanari",
+          "chiara"
+        ]
+      ],
+      [
+        "mencionar la relación con los vecinos o el territorio",
+        [
+          "territorio",
+          "abitanti",
+          "cittadini"
+        ]
+      ],
+      [
+        "proponer algo concreto",
+        [
+          "propong",
+          "propos",
+          "suggeri"
+        ]
+      ]
+    ],
+    "model": "Gentile redazione,\n\nho letto con grande interesse il reportage sui laboratori del Gran Sasso e, nel numero successivo, la lettera del signor Rinaldi, secondo il quale finanziare la ricerca di base sarebbe «un lusso». Pur comprendendo la sua preoccupazione, vorrei esprimere un parere diverso.\n\nInnanzitutto, come ricorda nell'articolo la fisica Chiara Montanari, molte delle tecnologie che oggi usiamo ogni giorno sono nate da ricerche che, al momento, non avevano alcuno scopo pratico. Giudicando la scienza soltanto in base alla sua utilità immediata, avremmo rinunciato a buona parte della medicina moderna. In secondo luogo, il reportage mostra che gli strumenti costruiti per studiare i neutrini producono ricadute concrete: sensori, materiali purissimi, tecniche che finiscono negli ospedali e nelle fabbriche.\n\nDetto questo, il signor Rinaldi solleva un problema reale: i cittadini spesso non sanno che cosa succeda dentro questi laboratori, e ciò alimenta la diffidenza. L'articolo stesso ricorda i timori degli abitanti per l'acqua delle falde. Credo che la risposta non sia tagliare i fondi, ma aprire le porte.\n\nPropongo quindi che i laboratori organizzino, almeno una volta al mese, visite guidate gratuite per le scuole e per gli abitanti dei comuni vicini, e che pubblichino in modo trasparente i risultati dei controlli ambientali. Conosciuto da vicino il lavoro dei ricercatori, sono convinta che molti cambierebbero idea.\n\nDistinti saluti,\nLaura Bianchi, Teramo",
+    "gloss": {
+      "Pur comprendendo": "aun entendiendo, aunque entiendo (pur + gerundio)",
+      "ricerca di base": "investigación básica, sin fin práctico inmediato",
+      "ricadute": "repercusiones, efectos derivados",
+      "Detto questo": "dicho esto",
+      "solleva": "plantea",
+      "falde": "napas (de agua)",
+      "tagliare i fondi": "recortar el financiamiento"
+    }
+  },
+  "breve": {
+    "title": "Prima di entrare in galleria",
+    "genre": "istruzioni di sicurezza",
+    "es": "Las instrucciones de seguridad antes de la visita a los laboratorios subterráneos del Gran Sasso.",
+    "speaker": "Guida",
+    "voice": 1,
+    "text": [
+      "Benvenuti ai Laboratori del Gran Sasso. Prima di entrare in galleria, ascoltate con attenzione queste istruzioni di sicurezza. Durante la visita indosserete il casco, che vi verrà consegnato all'ingresso, e porterete con voi un piccolo apparecchio di emergenza, tenendolo sempre agganciato alla cintura.",
+      "Camminando in galleria, restate dietro alla guida e non superate mai la linea gialla. Le sale sperimentali si visitano in gruppi di dieci persone al massimo; aspettando il vostro turno, potrete guardare il video nella sala d'accoglienza.",
+      "In caso di allarme, sentendo la sirena, lasciate ogni cosa e seguite le luci verdi fino al rifugio più vicino. Non usate i telefoni: sotto la montagna non c'è campo, e le comunicazioni passano solo attraverso la rete interna.",
+      "La visita dura circa due ore. È vietato fotografare le sale sperimentali senza il permesso della guida. Grazie, e buona visita."
+    ],
+    "tabella": [
+      ["Oggetto da tenere agganciato alla cintura", "apparecchio di emergenza", ["l'apparecchio di emergenza", "apparecchio"]],
+      ["Colore della linea da non superare", "gialla", ["giallo"]],
+      ["Persone al massimo per gruppo", "10", ["dieci"]],
+      ["Colore delle luci da seguire in caso di allarme", "verdi", ["verde"]],
+      ["Durata della visita", "2 ore", ["due ore", "circa due ore", "2"]]
+    ],
+    "info": [
+      ["Il casco si riceve all'ingresso.", true],
+      ["Si può camminare davanti alla guida.", false],
+      ["Mentre si aspetta il turno si può guardare un video.", true],
+      ["In caso di allarme bisogna telefonare subito ai soccorsi.", false],
+      ["Sotto la montagna i cellulari non hanno campo.", true],
+      ["Nelle sale sperimentali si possono fare foto liberamente.", false]
+    ],
+    "gloss": {
+      "galleria": "túnel",
+      "agganciato": "enganchado",
+      "rifugio": "refugio",
+      "campo": "señal (del celular)"
+    }
+  }
+}

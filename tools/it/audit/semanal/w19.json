@@ -1,0 +1,263 @@
+{
+ "week": 19,
+ "title": "Futuro semplice e anteriore",
+ "level": "B1",
+ "revisado": {
+  "items": 42,
+  "sfide": 59,
+  "bloques_teoria": 5,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 8
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "La teoría es corta, correcta y bien ordenada (raíces, futuro anteriore, suposición, quando+futuro) y los ítems propios están casi todos bien. Las debilidades son de diseño: 19 cloze regulares seguidos, poca práctica de raíces irregulares, futuro anteriore y suposición, y de los 59 sfide más de la mitad son de otros capítulos. Hay pocos errores duros: una nota falsa sobre cambiare, un accept incorrecto (la ha) y un par mínimo inválido (vólgo/vòlgo). Falsos positivos estimados: ~20-25%.",
+ "bien": [
+  "Teoría breve, con tabla de terminaciones, tabla de raíces irregulares y contraste explícito con el castellano (quando + futuro, no subjuntivo).",
+  "Se enseña bien el uso más italiano del futuro (suposición) con ejemplos de hora, edad y lugar, y con la regla ortográfica cercherò/mangerò.",
+  "Los ítems de traducción quando/appena/se tienen accept amplio y consignas que avisan de la variante hablada.",
+  "Las lecturas usan futuro de forma natural, con temas de la semana (colloquio, vacaciones) y caza de formas completa.",
+  "El dictogloss integra futuro simple, se+futuro y futuro de probabilidad (sarà, avrà dimenticato) en un texto coherente.",
+  "Los sfide r19-* cubren regulares, irregulares, probabilidad, anteriore y appena con progresión clara."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:1:warn",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "«anderò» o «vederò» no existen.",
+   "propuesta": "«anderò» y «vederò» no son las formas estándar (sobreviven como variantes toscanas/arcaicas): usá andrò y vedrò.",
+   "motivo": "'No existen' es exagerado; anderò/vederò aparecen en textos antiguos y en el habla toscana."
+  },
+  {
+   "id": "lesson:4:tip",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Con *se* pasa lo mismo: *se avrò tempo, verrò* = si tengo tiempo, voy a ir.",
+   "propuesta": "Con se lo normal es el presente (se ho tempo, vengo); el futuro (se avrò tempo, verrò) es posible pero más marcado.",
+   "motivo": "'Pasa lo mismo' sugiere que se + futuro es obligatorio como quando + futuro; los ítems 033/035 aceptan presente y futuro."
+  },
+  {
+   "id": "item g2-va-39",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Domani vado dal dentista.",
+   "propuesta": "Agregar a accept «Domani andrò dal dentista.»",
+   "motivo": "La nota misma dice «vado / andrò», pero el futuro queda marcado como incorrecto."
+  },
+  {
+   "id": "item d18-032",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Quando arriverete, mangeremo.",
+   "propuesta": "Agregar «Quando arrivate, mangiamo/mangeremo» a accept",
+   "motivo": "La consigna dice que en el habla también se oye el presente, pero accept solo admite futuro tras quando."
+  },
+  {
+   "id": "item d18-034",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Appena riceverò una lettera, ti farò sapere.",
+   "propuesta": "Agregar «Appena ricevo una lettera, ti faccio sapere/ti avviso» a accept",
+   "motivo": "Se aceptan presentes en la principal pero no tras appena, contra lo que dice la consigna."
+  },
+  {
+   "id": "item d18-030",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Tu ___ (essere + informarsi)?",
+   "propuesta": "Tu ___ (essere + informarsi: ti sarai...)? o cambiar el ítem por uno sin reflexivo",
+   "motivo": "El hueco esconde el pronombre ti (no marcado) y el reflexivo compuesto no se enseña en la lección."
+  },
+  {
+   "id": "item d18-012",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "La mamma ___ (sapere).",
+   "propuesta": "La mamma ___ (sapere) tutto: non dirle niente!",
+   "motivo": "Sin contexto no queda claro qué expresar (suposición o futuro) ni por qué 'saprà'."
+  },
+  {
+   "id": "item d18-017",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Noi ___ (studiare) stasera.",
+   "propuesta": "Agregar al tip: verbos en -iare con i tónica/-diare conservan la i (studierò, cambierò)",
+   "motivo": "La lección solo enseña que -ciare/-giare pierden la i; studieremo evalúa una regla no enseñada."
+  },
+  {
+   "id": "item g2-sc-15",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "¿Qué expresa el futuro en estas respuestas?",
+   "propuesta": "Mostrar en el enunciado las frases (Che ora è? — Saranno le otto; Dov'è? — Sarà in ufficio) y acortar/igualar el largo de las opciones",
+   "motivo": "El stem remite a 'estas respuestas' que no aparecen y la opción correcta es la única larga y con ejemplos."
+  },
+  {
+   "id": "item l2-d-53",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Con «che» + congiuntivo = ojalá que: chissà che non venga.",
+   "propuesta": "«Chissà che non venga» = quién sabe, a lo mejor viene (expresa posibilidad/esperanza, no un 'ojalá' directo); o quitar la referencia al congiuntivo",
+   "motivo": "Equivalencia imprecisa y mención de un modo aún no enseñado."
+  },
+  {
+   "id": "s:r19-08:c",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Cambiare → cambierà (pierde la i).",
+   "propuesta": "Cambiare → cambierà (conserva la i: cambi-erà; solo -ciare/-giare/-sciare la pierden).",
+   "motivo": "Cambiare conserva la i en el futuro; la nota enseña lo contrario."
+  },
+  {
+   "id": "s:r07-01i:c",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "la | mandata",
+   "propuesta": "Quitar «la | mandata» de accept (solo «l'» | mandata)",
+   "motivo": "«Non la ha ancora mandata» no es italiano estándar: la/lo se elide ante ha."
+  },
+  {
+   "id": "s:r14-03:e",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Non ho trovato assolutamente niente.",
+   "propuesta": "Sacar de accept las respuestas sin dos negativos o cambiar la consigna",
+   "motivo": "La consigna exige dos palabras negativas además de non; assolutamente/proprio no lo son."
+  },
+  {
+   "id": "s:r27-01:a",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Farò fare la spesa ___ Massimo.",
+   "propuesta": "Aceptar 'a' y 'da' (r27-04b ya lo hace) o agregar contexto que desambigüe",
+   "motivo": "«Farò fare la spesa da Massimo» también es correcto; solo 'a' es válido, inconsistente con r27-04b."
+  },
+  {
+   "id": "s:r27-04d:b",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Sto qui sul terrazzo dell'albergo ___ gli elicotteri che sorvolano la città.",
+   "propuesta": "Aceptar ambas formas o cambiar la consigna a 'las dos valen' como en las de escribir",
+   "motivo": "«guardando» también es gramatical; hay dos opciones correctas (idem :c, :d, :f)."
+  },
+  {
+   "id": "s:r19-04b:a",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Convertí las frases anteriores en promesas firmes con appena (registro coloquial: presente y passato prossimo).",
+   "propuesta": "Explicitar en la consigna las frases de r19-03c o incluir la frase original",
+   "motivo": "Refiere a 'frases anteriores' que el alumno no ve; además contradice el mensaje de la lección (appena + futuro) sin explicarlo."
+  },
+  {
+   "id": "sfide:r20-08 a r28-03c",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Pasá al passato prossimo, con el auxiliar y la concordancia correctos.",
+   "propuesta": "Reemplazar las sfide de capítulos r20-r28 (pasados, imperativo, formas no finitas, pasiva, causativos, verbos+preposiciones) por sfide de futuro/probabilidad o verificar que ya se enseñaron",
+   "motivo": "Unos 35 de los 59 desafíos evalúan gramática de otros capítulos (causativos, stare a+inf, si pasivante, infinito compuesto) que la semana 19 no enseña."
+  },
+  {
+   "id": "suoni p-091",
+   "lang": "it",
+   "severidad": "error",
+   "actual": "vólgo",
+   "propuesta": "Reemplazar el par: no existe oposición ó/ò en volgo (ambos [ˈvɔlgo]); usar p. ej. «pèsca/pésca» o «bótte/bòtta» si se quiere e/o cerradas",
+   "motivo": "«volgo» (de volgere) y «volgo» (el pueblo) llevan /ɔ/; 'vulgo' es latín; el par y la glosa son inválidos y la forma escrita es idéntica."
+  },
+  {
+   "id": "suoni p-117",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "[ts] contra s: lezione (clase) y lesione (lesión) son palabras distintas.",
+   "propuesta": "[tts] contra [z]: lezione [letˈtsjone] (africada geminada) y lesione [leˈzjone] (s sonora)",
+   "motivo": "Lesione lleva /z/ sonora, no una s cualquiera; y lezione es geminada."
+  },
+  {
+   "id": "suoni p-142",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "alio",
+   "propuesta": "Cambiar por un par real, p. ej. «figli/fili» o «foglia/folia»",
+   "motivo": "«alio» no existe en italiano; un par mínimo debería ser de dos palabras reales. La nota «gli palatal» tampoco explica la geminación [ʎʎ]."
+  },
+  {
+   "id": "suoni p-056",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "geminate",
+   "propuesta": "Recategorizar como acento (sarà/Sara: [saˈra] / [ˈsara]) y aclarar la nota",
+   "motivo": "No hay consonante geminada; el contraste es de sílaba tónica."
+  },
+  {
+   "id": "suoni c-026",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Andrò a Rroma.",
+   "propuesta": "Cambiar el distractor por uno contrastable al oído (p. ej. «Andro a Roma.» ya alcanza) o dar el ítem como escucha con acento final vs sin él",
+   "motivo": "El raddoppiamento no se transcribe y 'Rroma' no se puede distinguir por audio de 'Roma' con RF; la nota mezcla escritura y oralidad."
+  },
+  {
+   "id": "lettura ep6",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "fascina",
+   "propuesta": "cautiva, fascina",
+   "motivo": "«fascina» como glosa repite la palabra italiana; mejor un sinónimo más claro."
+  },
+  {
+   "id": "lettura w-19",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"Come farai con i soldi? Dove abiterai?\" chiede la madre.",
+   "propuesta": "Unificar las comillas con « » como en ep6 y sumar una frase con futuro de probabilidad o anteriore",
+   "motivo": "Comillas inconsistentes entre lecturas y ninguna lectura practica la suposición ni el futuro anteriore, que son el foco de la semana."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Depurar los sfide: reemplazar los ~35 desafíos de capítulos r20-r28 (causativos, stare a+inf, pasiva, infinito compuesto, etc.) por sfide de futuro o mantener solo repaso de temas ya enseñados.",
+   "por_que": "Un B1 en semana 19 no debería exigir gramática que la lección no presenta; desdibuja el foco y sobrecarga."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Rebalancear los ítems propios: bajar los 19 cloze regulares seguidos a ~8 y agregar choice/cloze de raíces irregulares (andare, venire, volere, dovere, potere, rimanere, bere), futuro anteriore (más de 5) y suposición.",
+   "por_que": "Las irregularidades son el punto difícil y hoy casi no se practican; falta reconocimiento antes de producción."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar a la teoría: presente per futuro (Domani vado...), contraste voy a + inf ≠ andare a, tra/fra un'ora, -iare con i tónica (studierò, cambierò) y el participio concordado en futuro anteriore (saranno partiti).",
+   "por_que": "Son los errores típicos del rioplatense y hoy aparecen en ítems o notas sin estar en la lección."
+  },
+  {
+   "prioridad": "media",
+   "que": "Corregir la nota de r19-08:c, el accept de r07-01i:c y el par p-091; revisar p-117/p-142/p-056.",
+   "por_que": "Son enseñanzas falsas o inválidas que el alumno ve."
+  },
+  {
+   "prioridad": "media",
+   "que": "Sumar ítems quando/appena/se con cloze o choice (no solo traducción) y armar accept coherente con el presente hablado.",
+   "por_que": "El punto quando+futuro solo se practica con 4 traducciones largas."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Agregar a las lecturas una pregunta vero/falso o non si dice y un texto con suposición y futuro anteriore.",
+   "por_que": "Las lecturas no practican la suposición, que es el foco de la semana."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 1,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

@@ -1,0 +1,297 @@
+{
+  "week": 41,
+  "level": "B2+",
+  "lettura": {
+    "title": "Incendio in via dei Mille, un diciassettenne salva un anziano",
+    "emoji": "🚒",
+    "genre": "articolo di cronaca",
+    "grammar": "verbi di percezione + infinito o relativa",
+    "text": "Poteva finire in tragedia l'incendio scoppiato nella notte tra sabato e domenica al secondo piano di un palazzo di via dei Mille. Se non è andata così, lo si deve soprattutto alla prontezza di un ragazzo di diciassette anni, Samuele R., che stava tornando a casa in motorino dopo una serata con gli amici.\n\nErano circa le due e mezza. «Ho visto uscire del fumo nero da una finestra socchiusa», ha raccontato ieri il ragazzo, ancora un po' frastornato. «All'inizio ho pensato che qualcuno stesse cucinando, anche se era un'ora strana. Poi ho sentito un vetro scoppiare e ho visto delle fiamme che salivano lungo la tenda.» Samuele ha fermato il motorino, ha chiamato il numero di emergenza e, senza aspettare, ha cominciato a suonare tutti i campanelli del palazzo.\n\nAl secondo piano abita da solo un uomo di ottantaquattro anni, vedovo, che ha qualche difficoltà a camminare. I vicini del piano di sopra, svegliati dal campanello, lo hanno sentito chiamare aiuto dall'interno dell'appartamento. «Lo sentivamo tossire e battere contro la porta, ma non riusciva ad aprirla», ha spiegato una vicina, Loredana B. «La chiave si era incastrata nella serratura.» È stato allora che Samuele, insieme a un altro inquilino, ha sfondato la porta con una spallata. I due hanno trovato l'anziano seduto per terra nel corridoio, dove l'aria era ancora respirabile, e l'hanno portato fuori sulle scale e poi in strada.\n\nL'altro inquilino, un infermiere di quarant'anni che preferisce restare anonimo, ricorda soprattutto il buio. «Nel corridoio non si vedeva quasi niente. Sentivo Samuele che mi chiamava da dietro e il signore che respirava male, ma non riuscivo a capire dove fosse. Poi ho visto la luce del telefono di Samuele illuminargli il viso.» Una volta in strada, è stato lui a controllare il respiro dell'anziano e a metterlo in posizione di sicurezza in attesa dell'ambulanza. «Il ragazzo è stato bravissimo», dice. «Io faccio questo mestiere da vent'anni, ma di notte, in pigiama, a casa propria, è tutta un'altra cosa.»\n\nPochi minuti dopo, i residenti hanno visto arrivare due squadre dei vigili del fuoco e un'ambulanza. Dalla strada, in pigiama e con le coperte sulle spalle, decine di persone guardavano i pompieri salire con le manichette e le maschere. «Si sentiva la gente piangere e pregare», racconta un commerciante che abita nel palazzo di fronte. «Ho visto una signora che teneva in braccio un gatto e non voleva saperne di allontanarsi.» L'incendio è stato domato in circa un'ora. L'appartamento del secondo piano è stato gravemente danneggiato, mentre gli altri hanno riportato soprattutto danni da fumo.\n\nL'anziano, trasportato in ospedale per un'intossicazione lieve, è stato dimesso ieri pomeriggio. Secondo i primi accertamenti, l'incendio sarebbe partito da una stufetta elettrica lasciata accesa vicino al divano. I vigili del fuoco hanno ricordato che, soprattutto nei mesi freddi, questi apparecchi vanno tenuti lontani da tende e tessuti e non vanno mai lasciati in funzione durante la notte.\n\nSamuele, intanto, è diventato suo malgrado il personaggio del giorno. Sui gruppi social del quartiere lo chiamano eroe, e il sindaco ha annunciato che lo riceverà in municipio la settimana prossima. Lui, però, ridimensiona. «Non ho fatto niente di speciale. Chiunque avrebbe fatto lo stesso», ripete. Poi aggiunge, quasi sottovoce, un dettaglio che lascia intuire che cosa abbia vissuto davvero: «Quando l'ho visto per terra che non si muoveva, ho sentito le gambe tremare. Ho pensato a mio nonno.»\n\nAnche Loredana, che conosce l'anziano da trent'anni, vuole dire la sua. «In questo palazzo ci salutiamo appena, ognuno ha la sua vita. Stanotte ho visto persone che non si erano mai parlate aiutarsi a vicenda, portare acqua, prestarsi le giacche. Mi dispiace solo che ci sia voluto un incendio.»\n\nL'anziano, per il momento, è ospite della figlia, che abita in un altro quartiere. Il condominio ha organizzato una raccolta per aiutarlo a rimettere in sesto la casa, e nell'androne del palazzo, da ieri, c'è un cartello scritto a mano: «Grazie, Samuele».",
+    "gloss": {
+      "sua": "(dire la sua) dar su opinión",
+      "saperne": "(non voleva saperne di) no quería saber nada de",
+      "controllare": "(è stato lui a controllare) fue él quien controló: *essere* + persona + *a* + infinitivo (semana 48)",
+      "deve": "(lo si deve a) se le debe a",
+      "prontezza": "rapidez de reflejos",
+      "motorino": "ciclomotor, motito",
+      "socchiusa": "entornada",
+      "frastornato": "aturdido",
+      "scoppiare": "estallar",
+      "tenda": "cortina",
+      "campanelli": "timbres",
+      "vedovo": "viudo",
+      "tossire": "toser",
+      "incastrata": "trabada",
+      "serratura": "cerradura",
+      "sfondato": "derribado, forzado",
+      "spallata": "golpe con el hombro",
+      "coperte": "frazadas",
+      "pompieri": "bomberos",
+      "manichette": "mangueras",
+      "domato": "controlado, sofocado",
+      "dimesso": "dado de alta",
+      "accertamenti": "verificaciones, peritajes",
+      "stufetta": "estufita",
+      "malgrado": "(suo malgrado) a su pesar",
+      "ridimensiona": "le quita importancia",
+      "sottovoce": "en voz baja",
+      "vicenda": "(a vicenda) mutuamente, unos a otros",
+      "raccolta": "colecta",
+      "sesto": "(rimettere in sesto) poner otra vez en condiciones",
+      "androne": "hall de entrada",
+      "infermiere": "enfermero",
+      "buio": "oscuridad"
+    },
+    "questions": [
+      [
+        "Come si è accorto Samuele dell'incendio?",
+        [
+          "L'ha chiamato un amico che abita nel palazzo",
+          "Ha sentito l'allarme antincendio del condominio",
+          "Ha visto il fumo mentre passava in motorino",
+          "Ha sentito l'anziano gridare dalla finestra"
+        ],
+        "Ha visto il fumo mentre passava in motorino"
+      ],
+      [
+        "Perché l'anziano non riusciva a uscire di casa?",
+        [
+          "Il fumo gli impediva di trovare la porta",
+          "La chiave si era bloccata nella serratura",
+          "Le fiamme avevano già raggiunto l'ingresso",
+          "Era svenuto nel corridoio"
+        ],
+        "La chiave si era bloccata nella serratura"
+      ],
+      [
+        "Che cosa rivela la frase di Samuele «Ho pensato a mio nonno»?",
+        [
+          "Che l'anziano era un amico di suo nonno",
+          "Che il nonno di Samuele era un vigile del fuoco",
+          "Che Samuele non voleva assolutamente essere intervistato",
+          "Che dietro la modestia c'è stata una forte emozione"
+        ],
+        "Che dietro la modestia c'è stata una forte emozione"
+      ],
+      [
+        "Secondo i primi accertamenti, qual è la causa dell'incendio?",
+        [
+          "Una stufetta elettrica lasciata accesa",
+          "Un corto circuito nell'impianto del palazzo",
+          "Una candela dimenticata vicino alla tenda",
+          "Una pentola lasciata sul fuoco"
+        ],
+        "Una stufetta elettrica lasciata accesa"
+      ],
+      [
+        "Che cosa vuole sottolineare Loredana?",
+        [
+          "Che i soccorsi sono arrivati troppo tardi",
+          "Che l'emergenza ha fatto nascere una solidarietà insolita",
+          "Che l'anziano non dovrebbe vivere da solo",
+          "Che nel palazzo tutti si conoscono bene da anni"
+        ],
+        "Che l'emergenza ha fatto nascere una solidarietà insolita"
+      ]
+    ],
+    "vf": [
+      [
+        "Samuele ha chiamato i soccorsi prima di suonare i campanelli.",
+        "vero"
+      ],
+      [
+        "I due soccorritori hanno trovato l'anziano svenuto in camera da letto.",
+        "falso"
+      ],
+      [
+        "Samuele conosceva già l'anziano prima dell'incendio.",
+        "non si dice"
+      ],
+      [
+        "L'anziano è ancora ricoverato in ospedale.",
+        "falso"
+      ],
+      [
+        "Il sindaco incontrerà Samuele la settimana prossima.",
+        "vero"
+      ]
+    ],
+    "hunt": {
+      "label": "Tocá los infinitivos que dependen de un verbo de percepción (vedere, sentire, guardare)",
+      "targets": ["uscire", "scoppiare", "chiamare", "tossire", "battere", "illuminargli", "arrivare", "salire", "piangere", "pregare", "tremare", "aiutarsi", "portare", "prestarsi"]
+    }
+  },
+  "ascolto": {
+    "title": "Cinghiali sotto casa",
+    "genre": "trasmissione radiofonica con gli ascoltatori",
+    "es": "Un programa de radio en el que los oyentes cuentan la noticia del día: una mujer llama para relatar su encuentro con una familia de jabalíes en plena ciudad. Habla como se habla por teléfono: se corta, vuelve atrás, el conductor la acompaña.",
+    "speakers": [
+      "Marco, conduttore",
+      "Silvia, ascoltatrice"
+    ],
+    "turns": [
+      ["A", "Eccoci di nuovo a Filo diretto, la trasmissione in cui la cronaca la fate voi. Abbiamo in linea Silvia, che stamattina ha visto una scena, diciamo, insolita. Silvia, buongiorno!"],
+      ["B", "Buongiorno! Sì, guardi, ancora… ancora non ci credo."],
+      ["A", "Ci racconta?"],
+      ["B", "Allora. Stamattina, verso le sette, stavo portando fuori il cane, in via Garibaldi, proprio vicino alla scuola elementare."],
+      ["A", "Sì."],
+      ["B", "A un certo punto il cane si blocca e comincia a ringhiare. Io non capivo, mi guardavo intorno, e poi li ho visti uscire da dietro i cassonetti."],
+      ["A", "Li ha visti… chi?"],
+      ["B", "I cinghiali! Una mamma e quattro piccoli."],
+      ["A", "Addirittura."],
+      ["B", "Giuro. Li ho visti attraversare la strada con una calma… tipo come se fossero a casa loro. La mamma avrà pesato, boh, ottanta chili?"],
+      ["A", "E lei che cosa ha fatto? Immagino che si sia spaventata."],
+      ["B", "Guardi, mi tremavano le gambe. Il cane tirava fortissimo il guinzaglio e io avevo paura che si liberasse. Allora, niente, sono rimasta ferma, immobile, e l'ho tenuto stretto."],
+      ["A", "Brava."],
+      ["B", "Mi ricordavo di aver letto da qualche parte che non bisogna correre né avvicinarsi, soprattutto se ci sono i piccoli."],
+      ["A", "Ha fatto benissimo, è proprio quello che raccomandano gli esperti. E gli altri passanti?"],
+      ["B", "Eh, qui viene il bello. C'era un signore sul balcone di fronte che urlava e agitava le braccia…"],
+      ["A", "Aiuto."],
+      ["B", "…e un ragazzo che invece si era messo a filmarli col telefono. A due metri, eh! L'ho sentito dire agli amici che voleva fare il video del secolo."],
+      ["A", "Classico."],
+      ["B", "Gli ho detto di allontanarsi, ma niente, non mi ascoltava."],
+      ["A", "E poi? Come è finita?"],
+      ["B", "Dopo qualche minuto abbiamo sentito arrivare una macchina della polizia locale, con la sirena. Forse qualcuno l'aveva chiamata. I cinghiali si sono spaventati e li ho visti scappare verso il parco, quello lungo il torrente. Però prima… prima hanno rovesciato due cassonetti, e la strada era piena di spazzatura."],
+      ["A", "Quindi il problema, alla fine, sono proprio i cassonetti."],
+      ["B", "Ma certo! Io abito qui da vent'anni e una volta non si vedevano mai. Adesso, da un paio d'anni, li sentiamo grufolare quasi ogni notte sotto le finestre."],
+      ["A", "Ogni notte?"],
+      ["B", "Quasi. Il cibo lo trovano facilmente, e allora tornano. Io non ce l'ho con gli animali, eh, poveretti. Ce l'ho con chi lascia la spazzatura fuori dai contenitori."],
+      ["A", "Anche perché lì c'è una scuola a pochi metri."],
+      ["B", "Appunto! Fra mezz'ora arrivavano i bambini. Ho visto la maestra aprire il cancello e le ho raccontato tutto. È diventata bianca come un lenzuolo."],
+      ["A", "Ci credo. Silvia, grazie. Giriamo la sua segnalazione al Comune. E ricordiamo a tutti: se vedete dei cinghiali in città, non avvicinatevi, non date loro da mangiare e chiamate la polizia locale."]
+    ],
+    "gloss": {
+      "messo": "(si era messo a filmarli) se había puesto a filmarlos: *mettersi a* + infinitivo",
+      "ho": "(ce l'ho con...) estoy enojada con...: *avercela con qualcuno* (semana 45)",
+      "bello": "(qui viene il bello) ahora viene lo mejor",
+      "ringhiare": "gruñir",
+      "cassonetti": "contenedores de basura",
+      "cinghiali": "jabalíes",
+      "guinzaglio": "correa",
+      "passanti": "transeúntes",
+      "agitava": "agitaba, sacudía",
+      "rovesciato": "volcado",
+      "spazzatura": "basura",
+      "grufolare": "hozar, hurgar con el hocico",
+      "cancello": "portón, reja",
+      "lenzuolo": "sábana",
+      "segnalazione": "aviso, denuncia",
+      "addirittura": "¡nada menos!, ¿en serio?",
+      "boh": "qué sé yo (muletilla)",
+      "tipo": "(muletilla) como, onda"
+    },
+    "questions": [
+      ["Che cosa stava facendo Silvia quando ha visto i cinghiali?", ["Accompagnava i figli a scuola", "Buttava la spazzatura nei cassonetti", "Portava fuori il cane", "Era sul balcone di casa"], "Portava fuori il cane"],
+      ["Come si è comportata Silvia davanti agli animali?", ["È scappata verso il parco con il cane", "Ha cercato di allontanarli agitando le braccia", "È rimasta ferma tenendo stretto il cane", "Ha chiamato subito la polizia locale"], "È rimasta ferma tenendo stretto il cane"],
+      ["Che cosa critica Silvia nel comportamento del ragazzo?", ["Che filmava gli animali troppo da vicino", "Che aveva lasciato la spazzatura per terra", "Che aveva chiamato la polizia senza motivo", "Che rideva della paura degli altri"], "Che filmava gli animali troppo da vicino"],
+      ["Secondo Silvia, perché i cinghiali tornano in città?", ["Perché il parco è stato chiuso", "Perché qualcuno dà loro da mangiare", "Perché ci sono sempre più cani", "Perché trovano cibo facilmente"], "Perché trovano cibo facilmente"],
+      ["Qual è l'atteggiamento di Silvia verso i cinghiali?", ["Li considera pericolosi e vuole che siano abbattuti", "Non ce l'ha con loro, ma con chi lascia i rifiuti fuori", "Pensa che siano innocui e che il problema non esista", "È affascinata e spera di rivederli presto"], "Non ce l'ha con loro, ma con chi lascia i rifiuti fuori"],
+      ["Che cosa vuol dire Silvia con «qui viene il bello»?", ["Che adesso arriva la parte più curiosa", "Che il quartiere è molto bello", "Che finalmente arrivano i vigili", "Che i cinghiali erano bellissimi"], "Che adesso arriva la parte più curiosa"]
+    ],
+    "vf": [
+      ["In tutto i cinghiali erano cinque.", "vero"],
+      ["Il ragazzo ha seguito il consiglio di Silvia e si è allontanato.", "falso"],
+      ["Il video del ragazzo è stato pubblicato sui social.", "non si dice"],
+      ["La polizia locale è arrivata dopo qualche minuto.", "vero"]
+    ]
+  },
+  "compito": {
+    "genre": "email_informale",
+    "title": "Quella notte in via dei Mille",
+    "fonte": "lettura",
+    "t": "Abiti nel palazzo di fronte a quello dell'incendio di via dei Mille e quella notte hai assistito a tutta la scena. Scrivi un'email a un amico o a un'amica italiana che vive all'estero in cui racconti che cosa hai visto e sentito, come ti sei sentito/a, che cosa pensi di Samuele e che cosa ti ha fatto riflettere sui rapporti tra vicini. Registro informale, da 193 a 253 parole.",
+    "es": "Mail a un amigo contando la noche del incendio desde tu balcón: hechos del artículo, emociones y una reflexión. Usá verbos de percepción con infinitivo o relativa (ho visto uscire, ho sentito qualcuno che gridava).",
+    "min": 193,
+    "max": 253,
+    "punti": [
+      [
+        "contar lo que viste y oíste",
+        [
+          "ho visto",
+          "ho sentito",
+          "abbiamo visto",
+          "abbiamo sentito"
+        ]
+      ],
+      [
+        "mencionar a Samuele y el rescate",
+        [
+          "samuele",
+          "ragazzo"
+        ]
+      ],
+      [
+        "expresar lo que sentiste",
+        [
+          "paura",
+          "spavent",
+          "emozion",
+          "piangere",
+          "tremav"
+        ]
+      ],
+      [
+        "reflexionar sobre los vecinos",
+        [
+          "vicin",
+          "solidariet"
+        ]
+      ],
+      [
+        "saludo y despedida informales",
+        [
+          "ciao",
+          "caro",
+          "cara",
+          "un abbraccio",
+          "baci"
+        ]
+      ]
+    ],
+    "model": "Ciao Giulia,\n\ncome stai? Ti scrivo perché sabato notte qui in via dei Mille è successo un finimondo, e ho ancora bisogno di raccontarlo a qualcuno.\n\nErano quasi le tre e io dormivo. A un certo punto ho sentito qualcuno suonare tutti i campanelli come un matto e, affacciandomi, ho visto uscire del fumo nero da una finestra del secondo piano del palazzo di fronte, quello del signor Ernesto, hai presente? Il vecchietto con il bastone. Sono scesa in pigiama e in strada c'era già mezzo quartiere.\n\nIl ragazzo che ha dato l'allarme si chiama Samuele e ha diciassette anni. Con un altro inquilino ha sfondato la porta e insieme hanno portato fuori il signor Ernesto, che era rimasto chiuso dentro. Quando li ho visti uscire dal portone, con lui sorretto da tutti e due, mi sono messa a piangere. Poi abbiamo sentito arrivare i pompieri e siamo rimasti lì un'ora a guardarli lavorare. Che paura, davvero.\n\nPer fortuna il signor Ernesto sta bene: l'hanno già dimesso. La cosa più bella, però, è stata un'altra. Come ha detto una vicina al giornale, quella notte ho visto gente che non si era mai salutata offrirsi coperte e acqua. È triste che ci sia voluto un incendio, ma forse qualcosa è cambiato.\n\nE tu? Quando torni a trovarmi? Il resto te lo racconto a voce.\n\nUn abbraccio forte,\nChiara",
+    "gloss": {
+      "finimondo": "un desastre, un caos total (literalmente «fin del mundo»)",
+      "come un matto": "como un loco",
+      "affacciandomi": "asomándome (a la ventana)",
+      "hai presente?": "¿viste?, ¿lo ubicás?",
+      "vecchietto": "viejito (sufijo -etto: se ve en la semana 46)",
+      "ha sfondato la porta": "tiró abajo la puerta",
+      "l'hanno già dimesso": "ya le dieron el alta",
+      "a voce": "en persona, de palabra"
+    }
+  },
+  "breve": {
+    "title": "Giornale radio regionale delle otto",
+    "genre": "notiziario radiofonico",
+    "es": "El noticiero regional de la mañana: un incendio, un choque en la autopista, una biblioteca que reabre y el tiempo.",
+    "speaker": "Speaker",
+    "voice": 0,
+    "text": [
+      "Giornale radio regionale, edizione delle otto. Nella notte un incendio ha distrutto un capannone agricolo alle porte di Mantova. Alcuni residenti hanno raccontato di aver sentito un forte scoppio verso le tre e di aver visto le fiamme alzarsi sopra i tetti. Non ci sono feriti; i vigili del fuoco hanno lavorato fino all'alba.",
+      "Traffico: code sulla tangenziale est per un incidente tra due auto all'altezza dell'uscita 6. Un testimone ha detto di aver visto una delle vetture sbandare sull'asfalto bagnato. La polizia stradale consiglia percorsi alternativi.",
+      "Ha riaperto questa mattina la biblioteca comunale di via Roma, chiusa da febbraio per lavori. Il nuovo orario è dalle nove alle diciannove, anche il sabato.",
+      "Infine, il tempo: nebbia in pianura fino a metà mattina, poi sole. Minime intorno allo zero."
+    ],
+    "tabella": [
+      ["Ora dello scoppio", "3", ["tre", "le tre", "verso le tre", "alle tre"]],
+      ["Uscita della tangenziale dell'incidente", "6", ["sei", "uscita 6"]],
+      ["Mese in cui ha chiuso la biblioteca", "febbraio", []],
+      ["Ora di chiusura della biblioteca", "19", ["diciannove", "alle 19", "le 19", "19:00"]]
+    ],
+    "info": [
+      ["Nell'incendio sono rimaste ferite due persone.", false],
+      ["Alcuni residenti hanno visto le fiamme sopra i tetti.", true],
+      ["L'incidente sulla tangenziale ha coinvolto un camion.", false],
+      ["Un testimone ha visto un'auto sbandare.", true],
+      ["La biblioteca è aperta anche il sabato.", true],
+      ["La nebbia durerà tutto il giorno.", false]
+    ],
+    "gloss": {
+      "capannone": "galpón",
+      "scoppio": "estallido",
+      "code": "embotellamientos, colas",
+      "sbandare": "derrapar, perder el control",
+      "nebbia": "niebla"
+    }
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "week": 50,
+  "level": "C1",
+  "lettura": {
+    "title": "Parole che sembrano uguali: tradurre il Novecento italiano",
+    "emoji": "📚",
+    "genre": "saggio breve (rivista culturale)",
+    "grammar": "lessico avanzato e falsi amici",
+    "text": "Quando ho cominciato a tradurre dall'italiano allo spagnolo, un vecchio professore di Buenos Aires mi mise in guardia con una frase che non ho più dimenticato: «Diffida delle parole che conosci già». Allora mi sembrò un paradosso da lezione universitaria; oggi, dopo vent'anni di mestiere, la considero la regola aurea di chiunque lavori tra due lingue sorelle. L'italiano e lo spagnolo si somigliano tanto da ingannarci di continuo: la parola che sembra un'amica, nel momento decisivo, ci tradisce.\n\nGli esempi da manuale li conoscono tutti. Il burro italiano non è un asino ma la nostra manteca; salire significa subir, mentre subire vuol dire sufrir; una ragazza imbarazzata non aspetta un bambino, ma è semplicemente a disagio. Questi tranelli, però, sono i più innocui: si imparano presto, magari dopo una figuraccia, e non si dimenticano più. I veri pericoli si nascondono altrove, nelle parole che condividono una parte del significato e ne tradiscono un'altra, e soprattutto nel tono, in quella zona grigia in cui una traduzione corretta può essere, nondimeno, sbagliata.\n\nOgni traduttore, del resto, custodisce il suo piccolo museo degli orrori. Nel mio c'è una collega che, alle prime armi, lesse «fermare il pagamento» come se si trattasse di firmarlo, mentre il testo chiedeva esattamente il contrario, cioè di bloccarlo; c'è uno studente che vide in una «camera» una macchina fotografica, e non una stanza da letto; e ci sono io, che per mesi ho creduto che guardare volesse dire conservare, chiedendomi perché mai i personaggi dei romanzi passassero tanto tempo a guardare il mare, come se potessero chiuderlo in un cassetto.\n\nNessun libro mi ha insegnato la complessità di questo mestiere meglio di Lessico famigliare di Natalia Ginzburg, uscito nel 1963. È la storia di una famiglia torinese raccontata attraverso le sue parole: le espressioni ricorrenti, i rimproveri del padre, le frasi che bastavano a far ridere i fratelli anche a distanza di anni. Nel libro, la stessa Ginzburg suggerisce che quelle frasi funzionano come un segno di riconoscimento: basterebbe pronunciarne una per ritrovarsi, anche dopo molto tempo e lontano da casa. Tradurre un libro così significa scegliere, a ogni pagina, tra la fedeltà alla lettera e la fedeltà all'effetto. Se traduco un rimprovero del padre parola per parola, il lettore argentino non ride; se lo sostituisco con un'espressione nostra, la famiglia smette di essere torinese.\n\nCon Primo Levi il problema è quasi opposto. Chimico di professione, Levi ha fatto della precisione una sorta di dovere morale prima ancora che stilistico; nel Sistema periodico, non a caso, ogni capitolo porta il nome di un elemento chimico. Qui il traduttore non può permettersi approssimazioni. Un solo esempio: in italiano esito significa risultato, qualunque esso sia, mentre in spagnolo éxito indica soltanto un risultato positivo. Tradurre «l'esito dell'esperimento» con «el éxito del experimento» significa attribuire all'autore un ottimismo che il testo non contiene. È un errore piccolo, ma in un autore come Levi le parole piccole pesano.\n\nCalvino, dal canto suo, ha dedicato all'esattezza una delle sue Lezioni americane, uscite postume, e basta leggere Il barone rampante per capire che cosa intendesse. La storia di Cosimo, il ragazzo che un giorno sale su un albero e decide di non scendere più, è raccontata con una leggerezza che sembra spontanea ed è invece il frutto di un lavoro minuzioso sulle parole. Tradurlo è come camminare su un filo: una parola troppo pesante e l'incanto svanisce. E anche qui i falsi amici sono in agguato, a cominciare da quel «sale» che un lettore ispanofono potrebbe leggere come un'uscita invece che come una salita. Un viale largo, in italiano, è ancho, non lungo; e un rumore non è mai una voce che corre, ma soltanto un suono.\n\nCon Elsa Morante, infine, la sfida è la vastità. La Storia, pubblicato nel 1974, attraversa la Roma della Seconda guerra mondiale seguendo una maestra, Ida, e il suo bambino, Useppe. Morante mescola il registro del romanzo popolare con quello della tragedia, la cronaca con la fiaba, e il traduttore deve rendere tutte queste voci senza appiattirle. Ricordo, lavorando a un romanzo di quegli anni, di aver passato un pomeriggio intero su una sola parola, camino: in italiano è il focolare della casa, in spagnolo una strada. Il rischio non era di sbagliare il senso, che il contesto chiariva, ma di perdere per un attimo l'immagine di calore domestico che quella parola evocava.\n\nChe cosa accomuna, allora, questi quattro autori? Forse la consapevolezza che la lingua non è mai un semplice strumento, ma una materia viva, con una storia e una memoria. Per chi li traduce, ciò comporta una responsabilità che va ben oltre la correttezza grammaticale. Una parola può comparire nel dizionario, avere la stessa radice latina, suonare quasi identica, e tuttavia tradire l'originale. Il traduttore, in questo senso, somiglia a chi guida di notte su una strada conosciuta: la confidenza è la sua forza, ma anche il suo pericolo principale.\n\nOggi, quando qualche giovane collega mi chiede un consiglio, gli ripeto la frase del mio professore, aggiungendo una postilla: diffida delle parole che conosci, ma non smettere di amarle. È proprio da quella somiglianza ingannevole, infatti, che nasce il piacere di passare da una lingua all'altra: ogni falso amico smascherato è una piccola scoperta, e ogni scoperta ci ricorda che anche le lingue più vicine custodiscono, gelosamente, i loro segreti.",
+    "gloss": {
+      "diffida": "desconfiá",
+      "aurea": "de oro",
+      "somigliano": "se parecen",
+      "burro": "manteca",
+      "asino": "burro (el animal)",
+      "salire": "subir",
+      "subire": "sufrir, padecer",
+      "imbarazzata": "incómoda, avergonzada",
+      "disagio": "incomodidad",
+      "tranelli": "trampas",
+      "fermare": "detener, frenar",
+      "camera": "habitación",
+      "guardare": "mirar",
+      "cassetto": "cajón",
+      "rimproveri": "retos, reproches",
+      "esito": "resultado",
+      "postume": "póstumas",
+      "incanto": "encanto, hechizo",
+      "svanisce": "se desvanece",
+      "agguato": "in agguato: al acecho",
+      "largo": "ancho",
+      "rumore": "ruido",
+      "appiattirle": "aplanarlas",
+      "camino": "chimenea, hogar",
+      "confidenza": "familiaridad, trato de confianza",
+      "focolare": "fuego del hogar",
+      "accomuna": "tienen en común",
+      "postilla": "acotación",
+      "smascherato": "desenmascarado"
+    },
+    "questions": [
+      [
+        "Che cosa intendeva il professore con «Diffida delle parole che conosci già»?",
+        [
+          "Che bisogna studiare soprattutto le parole nuove",
+          "Che le somiglianze tra lingue vicine possono ingannare",
+          "Che il dizionario non serve a chi traduce davvero",
+          "Che gli studenti credono di sapere più di quanto sanno"
+        ],
+        "Che le somiglianze tra lingue vicine possono ingannare"
+      ],
+      [
+        "Secondo l'autrice, quali sono i falsi amici più pericolosi?",
+        [
+          "Quelli più famosi, come burro e salire",
+          "Quelli che si trovano soltanto nei testi letterari antichi",
+          "Quelli che condividono solo in parte il significato",
+          "Quelli legati al linguaggio della chimica"
+        ],
+        "Quelli che condividono solo in parte il significato"
+      ],
+      [
+        "Qual è il dilemma principale nel tradurre Lessico famigliare?",
+        [
+          "Scegliere tra fedeltà alla lettera e fedeltà all'effetto",
+          "Trovare un editore argentino interessato al libro",
+          "Capire il dialetto torinese usato dalla famiglia",
+          "Decidere se tagliare i passaggi troppo lunghi"
+        ],
+        "Scegliere tra fedeltà alla lettera e fedeltà all'effetto"
+      ],
+      [
+        "Perché tradurre «esito» con «éxito» sarebbe grave nel caso di Levi?",
+        [
+          "Perché Levi odiava le parole di origine spagnola",
+          "Perché l'editore italiano non accetterebbe mai quella scelta",
+          "Perché attribuirebbe al testo un ottimismo che non ha",
+          "Perché «éxito» in spagnolo è una parola rara"
+        ],
+        "Perché attribuirebbe al testo un ottimismo che non ha"
+      ],
+      [
+        "Nell'ultimo paragrafo, qual è l'atteggiamento dell'autrice verso i falsi amici?",
+        [
+          "Una diffidenza totale e un po' amara",
+          "Una prudenza unita a un vero piacere",
+          "Un'indifferenza da professionista esperta",
+          "Un'irritazione verso i colleghi che sbagliano"
+        ],
+        "Una prudenza unita a un vero piacere"
+      ]
+    ],
+    "vf": [
+      [
+        "Lessico famigliare racconta la storia di una famiglia torinese.",
+        "vero"
+      ],
+      [
+        "Nel Sistema periodico ogni capitolo porta il nome di una città.",
+        "falso"
+      ],
+      [
+        "L'autrice ha tradotto in spagnolo tutti e quattro gli autori citati.",
+        "non si dice"
+      ],
+      [
+        "Secondo l'autrice, in spagnolo «éxito» può indicare anche un risultato negativo.",
+        "falso"
+      ],
+      [
+        "Anche il professore di Buenos Aires era un traduttore.",
+        "non si dice"
+      ]
+    ],
+    "hunt": {
+      "label": "Tocá los falsos amigos del castellano (parecen palabras nuestras, pero significan otra cosa)",
+      "targets": ["burro", "salire", "subire", "imbarazzata", "fermare", "camera", "guardare", "esito", "sale", "largo", "rumore", "camino", "confidenza"]
+    }
+  },
+  "ascolto": {
+    "title": "Scaffale Novecento: le città di Calvino",
+    "genre": "podcast letterario",
+    "es": "En un podcast sobre literatura italiana del siglo XX, una conductora y un crítico conversan sobre «Le città invisibili» de Italo Calvino.",
+    "speakers": [
+      "Livia, conduttrice",
+      "Tommaso, critico letterario"
+    ],
+    "turns": [
+      [
+        "A",
+        "Ciao a tutte e a tutti e benvenuti a «Scaffale Novecento». Oggi, con Tommaso, parliamo di un libro che molti hanno in casa e che pochi, forse, hanno letto fino in fondo: Le città invisibili di Italo Calvino."
+      ],
+      [
+        "B",
+        "Ciao Livia. Confesso subito una cosa: io la prima volta l'ho abbandonato a metà. Avevo diciotto anni e pensavo che un libro dovesse avere una trama. Qui la trama, nel senso classico, non c'è."
+      ],
+      [
+        "A",
+        "Spieghiamo allora com'è fatto, per chi non lo conosce."
+      ],
+      [
+        "B",
+        "Allora, la cornice è semplice. Marco Polo racconta all'imperatore Kublai Kan le città che ha visitato nel suo impero. Ogni città ha un nome di donna ed è descritta in poche pagine. Tra un gruppo di città e l'altro ci sono dei dialoghi tra i due, in cui discutono, diciamo, del senso di tutto quel raccontare."
+      ],
+      [
+        "A",
+        "E le città non esistono."
+      ],
+      [
+        "B",
+        "No, sono città impossibili. C'è una città sospesa su una rete sopra un precipizio, un'altra fatta solo di tubature, senza muri né pavimenti. Però, ed è questo il punto, ognuna ci parla di qualcosa che conosciamo benissimo: la memoria, il desiderio, i rifiuti, il rapporto con i morti."
+      ],
+      [
+        "A",
+        "Cioè sono metafore delle nostre città."
+      ],
+      [
+        "B",
+        "Sì, ma non in modo meccanico. Calvino non ti dice mai: questa città rappresenta il consumismo. Te la fa vedere, e sei tu che fai il collegamento. È un libro che chiede un lettore attivo, e questo spiega anche perché a diciotto anni mi aveva spiazzato."
+      ],
+      [
+        "A",
+        "Hai parlato di memoria. C'è un passaggio che ti è rimasto in mente?"
+      ],
+      [
+        "B",
+        "Più che un passaggio, un'idea. A un certo punto Marco Polo fa capire che, in fondo, tutte le città che descrive sono una sola: la sua città d'origine, Venezia. Parlando delle altre, parla sempre di quella. Mi sembra un'intuizione bellissima su come funziona il ricordo: ogni luogo nuovo lo misuriamo con il primo."
+      ],
+      [
+        "A",
+        "Io invece, lo dico con franchezza, a tratti lo trovo un po' freddo. Ammiro la costruzione, l'esattezza delle parole, però raramente mi commuove."
+      ],
+      [
+        "B",
+        "È una critica che si fa spesso a Calvino, e non la trovo infondata. È uno scrittore che preferisce la geometria all'emozione, almeno in superficie. Ma se lo rileggi da adulto, secondo me, sotto quella geometria senti una malinconia fortissima."
+      ],
+      [
+        "A",
+        "Ecco, questo mi incuriosisce. Da dove viene, secondo te?"
+      ],
+      [
+        "B",
+        "Dalla consapevolezza che le città, e forse il mondo intero, si stanno trasformando in qualcosa di invivibile. Il libro è del 1972, e certi temi, come l'accumulo dei rifiuti o le città tutte uguali, oggi sembrano scritti ieri."
+      ],
+      [
+        "A",
+        "C'è chi dice che sia un libro per pochi, per intellettuali. Tu che cosa rispondi?"
+      ],
+      [
+        "B",
+        "Rispondo che è un pregiudizio. Le frasi sono chiarissime, le città si leggono in cinque minuti. È difficile solo se pretendi di capire tutto subito. Se invece ti lasci portare, come quando visiti un posto nuovo senza la guida in mano, diventa un'esperienza quasi fisica."
+      ],
+      [
+        "A",
+        "Allora, un consiglio pratico per chi vuole leggerlo."
+      ],
+      [
+        "B",
+        "Non leggerlo tutto d'un fiato, come un romanzo. Leggi due o tre città la sera e lasciale sedimentare. E poi, quando hai finito, prova a descrivere la tua città come farebbe Marco Polo. È un esercizio che ti cambia lo sguardo."
+      ],
+      [
+        "A",
+        "E per chi l'ha già letto?"
+      ],
+      [
+        "B",
+        "Rileggerlo. Davvero. È un libro che cresce con te."
+      ],
+      [
+        "A",
+        "Grazie, Tommaso. La prossima settimana parleremo di Elsa Morante e dell'Isola di Arturo."
+      ]
+    ],
+    "gloss": {
+      "scaffale": "estante",
+      "cornice": "marco (del relato)",
+      "sospesa": "suspendida",
+      "tubature": "cañerías",
+      "rifiuti": "residuos, basura",
+      "spiazzato": "descolocado",
+      "franchezza": "franqueza",
+      "commuove": "conmueve",
+      "infondata": "infundada",
+      "invivibile": "invivible",
+      "accumulo": "acumulación",
+      "pregiudizio": "prejuicio",
+      "fiato": "tutto d'un fiato: de un tirón",
+      "sedimentare": "decantar, asentar",
+      "sguardo": "mirada"
+    },
+    "questions": [
+      [
+        "Perché Tommaso aveva abbandonato il libro da ragazzo?",
+        [
+          "Perché lo trovava troppo lungo e ripetitivo",
+          "Perché si aspettava una trama tradizionale",
+          "Perché non capiva l'italiano di Calvino",
+          "Perché doveva leggerlo per un esame"
+        ],
+        "Perché si aspettava una trama tradizionale"
+      ],
+      [
+        "Com'è strutturato Le città invisibili?",
+        [
+          "Un romanzo di viaggio in ordine cronologico",
+          "Una raccolta di lettere scritte da Venezia",
+          "Descrizioni di città alternate a dialoghi",
+          "Racconti indipendenti di autori diversi"
+        ],
+        "Descrizioni di città alternate a dialoghi"
+      ],
+      [
+        "Che cosa significa che il libro «chiede un lettore attivo»?",
+        [
+          "Che il lettore deve fare da sé i collegamenti",
+          "Che va letto ad alta voce, in gruppo",
+          "Che contiene esercizi alla fine di ogni capitolo",
+          "Che bisogna conoscere bene la storia di Venezia"
+        ],
+        "Che il lettore deve fare da sé i collegamenti"
+      ],
+      [
+        "Qual è la riserva di Livia sul libro?",
+        [
+          "Lo trova confuso e disordinato",
+          "Lo trova superato e poco attuale",
+          "Lo trova a tratti poco emozionante",
+          "Lo trova troppo politico"
+        ],
+        "Lo trova a tratti poco emozionante"
+      ],
+      [
+        "Come risponde Tommaso a chi dice che è un libro per pochi?",
+        [
+          "Dà ragione a chi lo considera difficile",
+          "Sostiene che è un pregiudizio, perché la lingua è chiara",
+          "Consiglia di leggerlo solo dopo altri libri di Calvino",
+          "Dice che bisogna prima studiare la biografia di Marco Polo"
+        ],
+        "Sostiene che è un pregiudizio, perché la lingua è chiara"
+      ]
+    ],
+    "vf": [
+      [
+        "Tutte le città del libro hanno nomi di donna.",
+        "vero"
+      ],
+      [
+        "Tommaso ritiene del tutto infondata la critica della freddezza di Calvino.",
+        "falso"
+      ],
+      [
+        "Livia ha letto il libro per la prima volta a scuola.",
+        "non si dice"
+      ],
+      [
+        "Nella prossima puntata si parlerà di un romanzo di Elsa Morante.",
+        "vero"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "recensione",
+    "title": "Recensione di una puntata di «Scaffale Novecento»",
+    "fonte": "ascolto",
+    "t": "Hai ascoltato la puntata del podcast «Scaffale Novecento» dedicata a Le città invisibili di Italo Calvino. Il sito culturale «Cuffie e pagine» invita gli ascoltatori a recensire le puntate dei podcast letterari. Scrivi una recensione della puntata (244-304 parole, registro medio-alto) in cui presenti il libro di cui si parla, riassumi i momenti più interessanti della conversazione, valuti la qualità della puntata (chiarezza, equilibrio tra i due conduttori, utilità per chi non ha letto il libro) e dici se ne consiglieresti l'ascolto e a chi.",
+    "es": "Reseña del episodio (no del libro): presentá el libro, resumí lo mejor de la charla, evaluá el episodio con criterios concretos y cerrá con una recomendación. Usá léxico preciso y evitá calcos del castellano.",
+    "min": 244,
+    "max": 304,
+    "punti": [
+      [
+        "presentar el libro",
+        [
+          "calvino",
+          "città invisibili"
+        ]
+      ],
+      [
+        "resumir la conversación",
+        [
+          "marco polo",
+          "tommaso",
+          "livia",
+          "venezia"
+        ]
+      ],
+      [
+        "evaluar el episodio",
+        [
+          "puntata",
+          "chiar",
+          "equilibr"
+        ]
+      ],
+      [
+        "recomendación final",
+        [
+          "consigli",
+          "raccomand"
+        ]
+      ]
+    ],
+    "model": "«Scaffale Novecento»: Calvino raccontato a due voci\n\nNell'ultima puntata di «Scaffale Novecento», la conduttrice Livia e il critico Tommaso affrontano Le città invisibili di Italo Calvino, un libro del 1972 spesso citato e, come ammettono gli stessi conduttori, non sempre letto fino in fondo.\n\nLa puntata si apre con una confessione che conquista subito l'ascoltatore: Tommaso racconta di aver abbandonato il libro a diciotto anni perché si aspettava una trama. Da qui prende avvio una spiegazione chiara della struttura dell'opera: Marco Polo descrive all'imperatore Kublai Kan una serie di città impossibili, ciascuna con un nome di donna, e i due personaggi dialogano sul senso di questi racconti. Particolarmente riuscito mi è sembrato il momento in cui Tommaso ricorda che, parlando di tutte le città, Marco Polo parla in fondo sempre di Venezia: un'osservazione che illumina il tema della memoria.\n\nIl pregio maggiore della puntata è l'equilibrio tra i due conduttori. Livia non si limita a fare domande, ma esprime con franchezza una riserva condivisibile: Calvino le sembra a tratti freddo. Tommaso non liquida l'obiezione, anzi la riconosce come fondata, e propone una lettura diversa, attenta alla malinconia che si nasconde sotto la geometria del libro. Ne nasce un confronto vero, lontano dal tono celebrativo di tanti programmi culturali.\n\nQualche limite, tuttavia, c'è: avrei gradito la lettura ad alta voce di almeno un breve passaggio, che avrebbe reso più concreta la discussione per chi il libro non l'ha mai aperto.\n\nNel complesso, si tratta di una puntata intelligente e accessibile. La consiglierei sia a chi vuole avvicinarsi a Calvino per la prima volta, sia a chi, come Tommaso, lo aveva abbandonato e cerca un buon motivo per riprenderlo in mano.",
+    "gloss": {
+      "puntata": "episodio, emisión (de un programa)",
+      "prende avvio": "arranca, empieza",
+      "Particolarmente riuscito": "especialmente logrado",
+      "a tratti": "por momentos",
+      "non liquida l'obiezione": "no descarta la objeción a la ligera",
+      "avrei gradito": "me hubiera gustado",
+      "riprenderlo in mano": "volver a agarrarlo"
+    }
+  },
+  "breve": {
+    "title": "Tradurre il Novecento, il festival",
+    "genre": "annuncio radiofonico",
+    "es": "Un aviso de radio presenta un festival de traducción literaria en Turín.",
+    "speaker": "Voce dell'annuncio",
+    "voice": 1,
+    "text": [
+      "Ci sono parole che sembrano uguali e non lo sono mai. Per chi ama le lingue torna a Torino «Tradurre il Novecento», il festival dedicato ai traduttori e alle traduttrici, dal 24 al 26 novembre, alla Biblioteca civica centrale.",
+      "Tre giorni di incontri, letture e laboratori: si parlerà di Natalia Ginzburg, Primo Levi, Italo Calvino ed Elsa Morante con chi li ha tradotti in spagnolo, in inglese e in tedesco. Sabato mattina, laboratorio per studenti: «Falsi amici, veri nemici», dieci euro a persona, iscrizione obbligatoria.",
+      "Domenica alle diciotto, incontro di chiusura con la scrittrice Eleonora Masi, che presenterà il suo nuovo romanzo, già tradotto in dodici lingue prima ancora di uscire in Italia.",
+      "Tutti gli incontri sono gratuiti, tranne i laboratori. Programma completo sul sito del festival."
+    ],
+    "tabella": [
+      ["Città del festival", "Torino", []],
+      ["Primo giorno del festival", "24 novembre", ["il 24 novembre", "24", "ventiquattro novembre"]],
+      ["Costo del laboratorio (euro)", "10", ["dieci"]],
+      ["Lingue in cui è già tradotto il romanzo (numero)", "12", ["dodici"]]
+    ],
+    "info": [
+      ["Il festival si svolge in una biblioteca.", true],
+      ["Si parla solo di traduzioni in spagnolo.", false],
+      ["Il laboratorio di sabato è per studenti.", true],
+      ["Il romanzo di Eleonora Masi è già uscito in Italia.", false],
+      ["Anche i laboratori sono gratuiti.", false],
+      ["L'incontro di chiusura è domenica.", true]
+    ],
+    "gloss": {
+      "laboratori": "talleres",
+      "iscrizione": "inscripción",
+      "tranne": "excepto"
+    }
+  }
+}

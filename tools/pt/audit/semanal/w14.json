@@ -1,0 +1,228 @@
+{
+ "week": 14,
+ "title": "Gostar de e verbos com preposição",
+ "level": "A2",
+ "revisado": {
+  "items": 47,
+  "bloques_teoria": 7,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 16,
+  "radio": 1,
+  "otros": 14
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida y casi sin errores de portugués: la teoría es clara, correcta y con buen contraste con el español (el «al revés» de gustar, contracciones, preposiciones divergentes). Hay un ítem con dos respuestas correctas (s2-14-03), varios ítems sin accept para variantes naturales o ambiguos (garden, fixerr), y accepts con formas europeas (tu gostaste). Cobertura desigual: gostar acapara ~21 ítems y varios verbos enseñados (acreditar, confiar, casar, namorar, interessar-se, apaixonar-se, esquecer) no se practican nunca.",
+ "bien": [
+  "La teoría ordena bien el tema: sujeto = el que siente, de + artículo, infinitivo, y luego bloque de verbos con preposición y achar; con advertencias («nada de me gosta», «penso nele, nunca em ele»).",
+  "Las notas honestas sobre el uso real (precisar sin de ante infinitivo, lembrar de vs lembrar-se, creio formal vs acho que) reflejan el pt-BR coloquial y no solo la norma.",
+  "Buena mezcla de tipos (choice, cloze, translate, fixerr, garden, scopri, typed) y progresión de reconocimiento a producción dentro de gostar.",
+  "Contenido cultural coherente con el tema (feijoada, pastel, aipim, torcer, pelada, malhar) y vocabulario con falsos amigos útiles para rioplatenses (violão, academia, pastel).",
+  "Lectura, flood, dictogloss y radio reciclan bien gostar/precisar/pensar em/sonhar com y las preguntas tienen una sola respuesta clara; el laboratorio «¿A quién le gusta quién?» entrena justo el punto de confusión."
+ ],
+ "hallazgos": [
+  {
+   "id": "item s2-14-03",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "A Sofía gosta ___ música brasileira. (options: da, de, a; answer: da)",
+   "propuesta": "Dos opciones correctas: «gosta de música brasileira» (genérico) también es válido. Cambiar el enunciado a «A Sofía gosta ___ música do Tom Jobim» / «___ música que toca no rádio», o pedir en la consigna «de + artigo» como en s2-14-07.",
+   "motivo": "'de' y 'da' son ambas correctas; la propia lección enseña que sin artículo (en general) no hay contracción."
+  },
+  {
+   "id": "item s2-14-15",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Tu gostaste do filme?",
+   "propuesta": "Quitar «Tu gostaste do filme?» de accept (forma de Portugal); si se quiere tu, sería «Tu gostou».",
+   "motivo": "Curso pt-BR: tu + 2.ª persona (gostaste) es europeo y no debería validarse como respuesta."
+  },
+  {
+   "id": "item s2-14-33",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Tu lembras da Ana?",
+   "propuesta": "Quitar «Tu lembras da Ana?» y «Tu te lembras da Ana?» de accept.",
+   "motivo": "Formas de Portugal (tu + 2.ª persona), no pt-BR estándar."
+  },
+  {
+   "id": "item s2-14-45",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "accept: [\"Eu acho que o bar fecha às duas.\"]",
+   "propuesta": "Agregar «Eu creio que o bar fecha às duas.» a accept.",
+   "motivo": "La nota misma dice que creio es la forma correcta (formal); el alumno que corrige creo→creio sería rechazado."
+  },
+  {
+   "id": "item s2-14-41",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Onde você ___ essas fotos antigas? (achou / acha / achei)",
+   "propuesta": "Agregar marca temporal: «Onde você ___ essas fotos antigas que me mostrou ontem?»",
+   "motivo": "«Onde você acha essas fotos?» es gramatical (presente habitual); solo el sentido, no la regla, descarta «acha»."
+  },
+  {
+   "id": "item s2-14-36",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "ela → ___ (answer: penso nela)",
+   "propuesta": "Aceptar «lembro dela», «gosto dela», «preciso dela», «confio nela»; o fijar el verbo en el enunciado: «ela → penso ___».",
+   "motivo": "Sin más contexto el alumno no sabe qué verbo usar; hay varias respuestas igual de correctas."
+  },
+  {
+   "id": "item s2-14-37",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "ele → ___ (answer: lembro dele)",
+   "propuesta": "Aceptar «gosto dele», «preciso dele», «penso nele» o fijar el verbo: «ele → lembro ___».",
+   "motivo": "Respuesta única no deducible; la nota misma menciona gosto dela y preciso dele."
+  },
+  {
+   "id": "item s2-14-19",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "dançar → ___ (answer: gosto de dançar)",
+   "propuesta": "Aceptar «gosto de dançar» con otras personas (ela gosta de dançar, nós gostamos de dançar…) o fijar «eu».",
+   "motivo": "La persona del verbo no está determinada por el enunciado."
+  },
+  {
+   "id": "item s2-14-17",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "accept: [\"Eu gosto muito do Rio de Janeiro.\"]",
+   "propuesta": "Agregar «Gosto muito do Rio de Janeiro.»",
+   "motivo": "Variante natural (sujeto omitido) que el curso mismo acepta en s2-14-13."
+  },
+  {
+   "id": "item s2-14-35",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "accept: [\"Eu preciso de dinheiro para o ônibus.\"]",
+   "propuesta": "Agregar «Preciso de dinheiro para o ônibus.»",
+   "motivo": "Variante natural sin pronombre sujeto."
+  },
+  {
+   "id": "item s2-14-13",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "accept: [\"Eu gosto do mar\", \"Gosto do mar\"]",
+   "propuesta": "Agregar «Eu gosto de mar» / «Gosto de mar» o aclarar la consigna.",
+   "motivo": "Genérico sin artículo también es correcto."
+  },
+  {
+   "id": "item col-14-1",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Insistir en (o tener el gusto de) → fazer questão de.",
+   "propuesta": "Insistir en / hacer cuestión de: «fazer questão de» = insistir en hacer algo, tomarlo como punto de honor.",
+   "motivo": "«tener el gusto de» desvirtúa el sentido de la locución."
+  },
+  {
+   "id": "item col-14-1",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Eu ___ questão de pagar o almoço (level B1, topic colocacoes)",
+   "propuesta": "Moverlo a una semana de colocaciones o enseñar «fazer questão de» antes.",
+   "motivo": "La locución no aparece en la lección de la semana ni es de nivel A2 (el ítem se declara B1)."
+  },
+  {
+   "id": "item s2-14-30",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Tudo depende ___ preço.",
+   "propuesta": "Reemplazar por otro verbo no practicado (confiar em, casar com, acreditar em, namorar).",
+   "motivo": "Casi duplicado de s2-14-25 (depender de + artículo); lo mismo pasa con s2-14-23/28 y s2-14-24/29."
+  },
+  {
+   "id": "suoni p-108",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "La r inicial se oye como una j suave; la h no suena: ramo ≠ amo.",
+   "propuesta": "La r inicial suena como una j española suave (aspirada); amo empieza directamente con la vocal.",
+   "motivo": "«la h no suena» confunde: ninguna de las dos palabras lleva h escrita."
+  },
+  {
+   "id": "laboratorio ponte:ou",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Muchas **o** del español son **ou** en portugués (del latín *au*)",
+   "propuesta": "Muchas o del español corresponden a ou en portugués (a menudo del latín au: oro/ouro, toro/touro; otras palabras como otro/outro o robar/roubar tienen otro origen).",
+   "motivo": "otro→outro viene de alterum y roubar de una raíz germánica, no de au; la regla vale como pauta práctica, no etimológica."
+  },
+  {
+   "id": "lesson:1",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Con nombres de persona el artículo es lo normal en Río: *gosto do João*, *da Bia*.",
+   "propuesta": "Con nombres de persona el artículo es muy común en el habla de gran parte de Brasil (también São Paulo, Sur); sin él también es correcto: gosto da Bia / gosto de Bia.",
+   "motivo": "Se presenta como rasgo solo de Río y como norma; es coloquial y variable."
+  },
+  {
+   "id": "laboratorio capire:gostar",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "É do João que a Ana gosta. / Do João, a Ana gosta muito.",
+   "propuesta": "Dejar solo las oraciones simples y con Quem…; o preparar las hendidas antes.",
+   "motivo": "Las hendidas y topicalizaciones no se enseñaron y superan el A2 de la semana."
+  },
+  {
+   "id": "lettura w-14",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "hunt targets: gosta, lembra, pensa, sonho, acredito, precisa",
+   "propuesta": "Incluir una forma de achar y una de esquecer en el texto y en el hunt.",
+   "motivo": "Achar (tercer bloque de la lección) no aparece en la lectura de la semana."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Corregir s2-14-03 (dos opciones válidas) y revisar accepts: quitar tu gostaste/tu lembras y agregar variantes naturales (sin sujeto, creio, gosto de mar).",
+   "por_que": "Evita marcar mal respuestas correctas y validar formas de Portugal."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Practicar los verbos enseñados que hoy no tienen ítems: acreditar em, confiar em, casar com, namorar (sin prep.), interessar-se/apaixonar-se por, esquecer de, adorar/curtir.",
+   "por_que": "El bloque 5 enseña nueve verbos y el ejercicio solo cubre pensar, depender, sonhar (y precisar/lembrar)."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reequilibrar: recortar 5-6 ítems de gostar+artículo (s2-14-03/04/07/08 son casi equivalentes) a favor de preposiciones y esquecer.",
+   "por_que": "gostar ocupa 21 de 47 ítems y las preposiciones divergentes, el punto de mayor error rioplatense, quedan con menos práctica."
+  },
+  {
+   "prioridad": "media",
+   "que": "Fijar el verbo o ampliar accept en los garden (s2-14-19, 36, 37).",
+   "por_que": "Los enunciados abiertos admiten varias respuestas correctas."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar un ítem de contraste pensar em vs pensar de (opinar), o achar vs pensar, y un ítem de «achar + adjetivo» (achei o filme ótimo).",
+   "por_que": "Los hispanohablantes confunden pensar en/pensar que; achar+adjetivo se enseña pero no se practica."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Hacer más productiva la práctica: más translate/typed con precisar y lembrar (hoy casi todo es choice/cloze) y preguntas de lectura que obliguen a usar la preposición.",
+   "por_que": "Mejora el paso de reconocimiento a producción en el segundo y tercer bloque."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Ajustar suoni de la semana a pares ligados al tema (gosto/gostou ya está; agregar acho/acha en contexto) y retirar pares sin relación (música/musica, fã/fá).",
+   "por_que": "Mayor coherencia temática y menos carga de pares poco frecuentes."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

@@ -1,0 +1,3671 @@
+{
+ "r01-01": {
+  "consigna": "Elegí la forma verbal correcta para completar la oración.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Il popolo danese ___ contro la UE. (El pueblo danés estaba en contra de la UE.)",
+    "options": [
+     "era",
+     "erano"
+    ],
+    "answer": "era",
+    "alt": [],
+    "note": "«Popolo» es un sustantivo colectivo singular: el verbo va en singular."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "___ troppa gente qui. (Hay demasiada gente acá.)",
+    "options": [
+     "C'è",
+     "Ci sono"
+    ],
+    "answer": "C'è",
+    "alt": [],
+    "note": "«Gente» es singular en italiano, así que se usa «c'è»."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "___ un centinaio di ospiti. (Llegaron unos cien invitados.) (arrivare, passato prossimo)",
+    "answer": "Sono arrivati",
+    "alt": [
+     "È arrivato"
+    ],
+    "note": "Con «un centinaio di» + plural el verbo suele concordar con el plural, aunque el singular también se acepta."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "La maggioranza dei prigionieri ___ torturati. (La mayoría de los prisioneros fueron torturados.)",
+    "options": [
+     "è stata",
+     "sono stati"
+    ],
+    "answer": "sono stati",
+    "alt": [],
+    "note": "Con «la maggioranza dei» + plural, si el participio va en plural (torturati), el auxiliar también va en plural. *Sono stati torturati* es la pasiva, «fueron torturados»: *essere* + participio, como en castellano."
+   }
+  ]
+ },
+ "r01-03": {
+  "consigna": "Completá las terminaciones que faltan (-o/-a en singular, -i/-e en plural) y, donde hay un adjetivo entre paréntesis, escribilo concordado. Fijate con qué sustantivo concuerda cada uno.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Maria è diventat___ un architetto molto brav___. (María llegó a ser un arquitecto muy bueno.)",
+    "answer": "a | o",
+    "alt": [],
+    "note": "El participio concuerda con Maria (femenino); el adjetivo concuerda con «architetto», que es masculino."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Mio figlio è diventat___ una guida molto conosciut___. (Mi hijo llegó a ser un guía muy conocido.)",
+    "answer": "o | a",
+    "alt": [],
+    "note": "El participio concuerda con «figlio»; el adjetivo, con «guida», que es siempre femenino."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Le vittime più ___ (tragico) sono stat___ i bambini. (Las víctimas más trágicas fueron los niños.)",
+    "answer": "tragiche | e",
+    "alt": [
+     "tragiche | i"
+    ],
+    "note": "«Vittima» es siempre femenino, aunque se refiera a varones: le vittime più tragiche (tragico → tragiche, con h para conservar el sonido duro). El participio concuerda con el sujeto, «le vittime» (state); también se oye «stati» concordando con «i bambini»."
+   }
+  ]
+ },
+ "r01-07": {
+  "consigna": "Elegí la palabra con el género correcto para completar la oración.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "È ___ dell'anno scolastico.",
+    "options": [
+     "il fine",
+     "la fine"
+    ],
+    "answer": "la fine",
+    "alt": [],
+    "note": "«La fine» es el final; «il fine» es el objetivo."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Gli manca ___ per comprare la ditta. (Le falta … para comprar la empresa.)",
+    "options": [
+     "il capitale",
+     "la capitale"
+    ],
+    "answer": "il capitale",
+    "alt": [],
+    "note": "«Il capitale» es el dinero; «la capitale», la ciudad capital."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "___ dell'Australia non è Sydney.",
+    "options": [
+     "Il capitale",
+     "La capitale"
+    ],
+    "answer": "La capitale",
+    "alt": [],
+    "note": "La ciudad capital es «la capitale»."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Non hanno capito ___ della favola.",
+    "options": [
+     "il morale",
+     "la morale"
+    ],
+    "answer": "la morale",
+    "alt": [],
+    "note": "«La morale» es la moraleja; «il morale», el ánimo."
+   },
+   {
+    "label": "e",
+    "type": "choice",
+    "stem": "Sono senza soldi, devo andare in ___.",
+    "options": [
+     "banco",
+     "banca"
+    ],
+    "answer": "banca",
+    "alt": [],
+    "note": "«La banca» es el banco (entidad); «il banco» es el pupitre o el mostrador."
+   },
+   {
+    "label": "f",
+    "type": "choice",
+    "stem": "Devo far riparare ___ della borsa. (Tengo que mandar a arreglar … de la cartera.)",
+    "options": [
+     "il manico",
+     "la manica"
+    ],
+    "answer": "il manico",
+    "alt": [],
+    "note": "«Il manico» es el asa o mango; «la manica», la manga."
+   },
+   {
+    "label": "g",
+    "type": "choice",
+    "stem": "Il maestro era già ___ dell'orchestra.",
+    "options": [
+     "nel buco",
+     "nella buca"
+    ],
+    "answer": "nella buca",
+    "alt": [],
+    "note": "El foso de la orquesta es «la buca dell'orchestra»; «il buco» es un agujero."
+   },
+   {
+    "label": "h",
+    "type": "choice",
+    "stem": "Ho prenotato ___ per le otto.",
+    "options": [
+     "un tavolo",
+     "una tavola"
+    ],
+    "answer": "un tavolo",
+    "alt": [],
+    "note": "En el restaurante se reserva «un tavolo»; «la tavola» es la mesa puesta o una tabla."
+   }
+  ]
+ },
+ "r02-01": {
+  "consigna": "Describí a este hombre y su estado: completá con el artículo determinado donde haga falta.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Ha ___ capelli biondi, ___ occhi azzurri, ___ pelle chiara e ___ orecchie a sventola.",
+    "answer": "i | gli | la | le",
+    "alt": [],
+    "note": "Para describir rasgos físicos con «avere» se usa el artículo determinado."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Ha ___ raffreddore e mal di gola ma non ha ___ tosse.",
+    "answer": "il | la",
+    "alt": [],
+    "note": "Con muchas dolencias comunes se usa el artículo: «avere il raffreddore», «avere la tosse»."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Purtroppo si è rotto ___ gamba!",
+    "answer": "la",
+    "alt": [],
+    "note": "Con partes del cuerpo y verbo reflexivo se usa el artículo, no el posesivo."
+   }
+  ]
+ },
+ "r02-02": {
+  "consigna": "Reemplazá la palabra indicada entre paréntesis por el artículo determinado adecuado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Arriva domani con ___ moglie. (en lugar de «sua»)",
+    "answer": "la",
+    "alt": [],
+    "note": "Cuando el poseedor es obvio, el italiano puede usar solo el artículo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Non ho ___ smartphone e nemmeno ___ laptop. (en lugar de «uno» y «un»)",
+    "answer": "lo | il",
+    "alt": [],
+    "note": "«Lo» va delante de s + consonante; «il» delante de consonante simple."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "I miei figli vanno alla partita con ___ zio. (en lugar de «il loro»)",
+    "answer": "lo",
+    "alt": [],
+    "note": "«Zio» empieza con z, así que lleva «lo»."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Hai dimenticato ___ occhiali? (en lugar de «i tuoi»)",
+    "answer": "gli",
+    "alt": [],
+    "note": "Delante de vocal el plural masculino es «gli»."
+   }
+  ]
+ },
+ "r02-03": {
+  "consigna": "Completá con la preposición articulada correcta (preposición + artículo). En una oración no hace falta el artículo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "La baby sitter ___ miei figli è greca. (di)",
+    "answer": "dei",
+    "alt": [],
+    "note": "di + i = dei; con un familiar en plural sí va artículo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Il finestrino ___ macchina è chiuso? (di)",
+    "answer": "della",
+    "alt": [],
+    "note": "*di* se une al artículo: *di* + *la* = *della*. El castellano solo contrae «del»; el italiano contrae con todos los artículos."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "La ragazza ___ mio figlio è molto gentile. (di)",
+    "answer": "di",
+    "alt": [],
+    "note": "Delante de posesivo + familiar en singular no va artículo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Il gatto dorme ___ studio. (in)",
+    "answer": "nello",
+    "alt": [],
+    "note": "*in* + artículo cambia a *ne-*: *in* + *lo* = *nello*; *lo* porque *studio* empieza con s + consonante."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Mi piace lavorare ___ mio studio. (in)",
+    "answer": "nel",
+    "alt": [],
+    "note": "in + il = nel; «studio» no es un familiar, así que el posesivo lleva artículo."
+   }
+  ]
+ },
+ "r02-06": {
+  "consigna": "Usá la preposición articulada donde corresponda.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Passo sempre le ferie ___ Francia, ___ Francia del sud. (in)",
+    "answer": "in | nella",
+    "alt": [],
+    "note": "«In Francia» va sin artículo, pero si el país está especificado («del sud») lleva artículo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Io lavoro ___ Gran Bretagna. (in)",
+    "answer": "in",
+    "alt": [],
+    "note": "Con países femeninos singulares se usa «in» sin artículo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Carlo è nato ___ Regno Unito. (in)",
+    "answer": "nel",
+    "alt": [],
+    "note": "Los nombres de países compuestos o masculinos como «Regno Unito» llevan artículo: nel."
+   }
+  ]
+ },
+ "r02-07": {
+  "consigna": "Combiná «in» y «di» con el artículo determinado donde sea necesario.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Torino è ___ Piemonte. È il capoluogo ___ Piemonte.",
+    "answer": "in | del",
+    "alt": [
+     "nel | del"
+    ],
+    "note": "Regiones masculinas: «in Piemonte» (o «nel»), pero «del Piemonte» con di."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "L'Aquila è ___ Abruzzi. È il capoluogo ___ Abruzzi.",
+    "answer": "negli | degli",
+    "alt": [],
+    "note": "Los nombres geográficos en plural siempre llevan artículo: negli, degli."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Cagliari è ___ Sardegna. È il capoluogo ___ Sardegna.",
+    "answer": "in | della",
+    "alt": [],
+    "note": "Regiones femeninas: «in» sin artículo, pero «della» con di."
+   }
+  ]
+ },
+ "r02-08": {
+  "consigna": "Combiná «di» con el artículo determinado donde sea necesario.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "La capitale ___ Scozia è Edimburgo.",
+    "answer": "della",
+    "alt": [],
+    "note": "Los países llevan artículo: di + la = della."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "La capitale ___ Italia è Roma.",
+    "answer": "dell'",
+    "alt": [],
+    "note": "Los países llevan artículo en italiano (*l'Italia*), así que «de Italia» es *di* + *l'* = *dell'Italia*."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "La capitale ___ Malta è La Valletta.",
+    "answer": "di",
+    "alt": [],
+    "note": "Malta no lleva artículo, como las ciudades."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "La capitale ___ Canada è Ottawa.",
+    "answer": "del",
+    "alt": [],
+    "note": "Con artículo: *il Canada*, y *di* + *il* = *del Canada*. En castellano «de Canadá» va sin artículo."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "La capitale ___ Cuba è l'Avana.",
+    "answer": "di",
+    "alt": [],
+    "note": "Las islas pequeñas o medianas como Cuba van sin artículo."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "La capitale ___ Filippine è Manila.",
+    "answer": "delle",
+    "alt": [],
+    "note": "Los nombres en plural llevan artículo: di + le = delle."
+   }
+  ]
+ },
+ "r02-09": {
+  "consigna": "Completá con el artículo o la preposición que corresponde. Pista: il, le, la, in, da, dall', dell', della. Cipro y Bratislava van sin artículo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Cipro è situata a sud ___ Turchia. (Chipre está situada al sur de Turquía.)",
+    "answer": "della",
+    "alt": [],
+    "note": "Turquía es un país y lleva artículo: della; Cipro, como Malta o Creta, va sin artículo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Ci sono molti libri e guide ___ isola d'Elba. (Hay muchos libros y guías de la isla de Elba.)",
+    "answer": "dell'",
+    "alt": [],
+    "note": "«L'isola» lleva artículo: di + l' = dell'."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "___ Sicilia non è lontana ___ Africa. (Sicilia no está lejos de África.)",
+    "answer": "La | dall'",
+    "alt": [],
+    "note": "Las islas grandes y los continentes llevan artículo: la Sicilia, da + l' = dall'."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Bratislava è ___ Slovacchia, ma non è lontana ___ Vienna. (Bratislava está en Eslovaquia, pero no lejos de Viena.)",
+    "answer": "in | da",
+    "alt": [],
+    "note": "Las ciudades no llevan artículo; con países femeninos se usa «in» sin artículo."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "___ Eolie sono al largo ___ Sicilia. (Las islas Eolias están frente a la costa de Sicilia.)",
+    "answer": "Le | della",
+    "alt": [],
+    "note": "Los archipiélagos en plural llevan artículo: le Eolie."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "___ Canada occupa la parte nord ___ America settentrionale. (Canadá ocupa la parte norte de América del Norte.)",
+    "answer": "Il | dell'",
+    "alt": [],
+    "note": "Los países y continentes llevan artículo: il Canada, dell'America."
+   }
+  ]
+ },
+ "r02-10": {
+  "consigna": "Traducí al italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Fiona vive en la isla de Skye.",
+    "answer": "Fiona abita sull'isola di Skye.",
+    "alt": [
+     "Fiona abita nell'isola di Skye.",
+     "Fiona vive sull'isola di Skye.",
+     "Fiona vive nell'isola di Skye."
+    ],
+    "note": "Con «l'isola di…» se usa preposición articulada: sull'isola o nell'isola."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Donald vive en las Órcadas. (le Orcadi)",
+    "answer": "Donald abita nelle Orcadi.",
+    "alt": [
+     "Donald abita alle Orcadi.",
+     "Donald vive nelle Orcadi.",
+     "Donald vive alle Orcadi."
+    ],
+    "note": "Los archipiélagos en plural llevan artículo: nelle Orcadi."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Alberto vive en Capri.",
+    "answer": "Alberto abita a Capri.",
+    "alt": [
+     "Alberto vive a Capri."
+    ],
+    "note": "Con las islas pequeñas se usa «a», como con las ciudades."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Barbara va a la isla de Man.",
+    "answer": "Barbara va all'isola di Man.",
+    "alt": [
+     "Barbara va sull'isola di Man.",
+     "Barbara va nell'isola di Man."
+    ],
+    "note": "Con «l'isola di…» se usa preposición articulada."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Alistair va a las Hébridas. (le Ebridi)",
+    "answer": "Alistair va alle Ebridi.",
+    "alt": [
+     "Alistair va nelle Ebridi."
+    ],
+    "note": "Los archipiélagos en plural llevan artículo: alle Ebridi."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Sandra va a Cuba.",
+    "answer": "Sandra va a Cuba.",
+    "alt": [],
+    "note": "Cuba, como muchas islas, va sin artículo y con «a»."
+   }
+  ]
+ },
+ "r02-11": {
+  "consigna": "Completá con la forma correcta: «di» o «di» + artículo (d' delante de vocal).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Enrico VIII, re ___ Inghilterra, era stato Principe ___ Galles. (d'/dell' – di/del)",
+    "answer": "d' | di",
+    "alt": [
+     "di | di"
+    ],
+    "note": "En los títulos nobiliarios se usa «di» sin artículo: re d'Inghilterra, Principe di Galles."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Carlo Alberto ___ Savoia abdicò nel 1849. (Carlos Alberto … Saboya abdicó en 1849.) (di/della)",
+    "answer": "di",
+    "alt": [],
+    "note": "Con el nombre de una dinastía se usa «di» sin artículo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Nel 1861 Vittorio Emanuele II, re ___ Sardegna, fu proclamato Re ___ Italia. (di/della – d'/dell')",
+    "answer": "di | d'",
+    "alt": [
+     "di | di"
+    ],
+    "note": "En los títulos se usa «di» sin artículo: re di Sardegna, Re d'Italia."
+   }
+  ]
+ },
+ "r02-01b": {
+  "consigna": "En la segunda oración, completá con la forma correcta del partitivo (di + artículo).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Ad Arezzo ho visto degli affreschi meravigliosi. Ho visto ___ meravigliosi affreschi del Cinquecento.",
+    "answer": "dei",
+    "alt": [],
+    "note": "El partitivo se adapta a la palabra que le sigue: delante de «meravigliosi» va «dei»."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "A Firenze ho visto dei dipinti eccezionali. Ho visto ___ incredibili dipinti del Seicento.",
+    "answer": "degli",
+    "alt": [],
+    "note": "Delante de vocal («incredibili») el partitivo masculino plural es «degli»."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "A Dresda ho visto della porcellana antica. Ho visto ___ antica porcellana settecentesca.",
+    "answer": "dell'",
+    "alt": [],
+    "note": "Delante de vocal («antica») «della» se apostrofa: dell'."
+   }
+  ]
+ },
+ "r02-02b": {
+  "consigna": "Completá con el partitivo correcto (o sin partitivo, cuando no va).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Mi dà ___ caffè macinato?",
+    "answer": "del",
+    "alt": [],
+    "note": "Caffè es masculino y empieza con consonante: del."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Avete ___ pasta fresca?",
+    "answer": "della",
+    "alt": [],
+    "note": "Pasta es femenino singular: della."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Devo comprare ___ camicie nuove.",
+    "answer": "delle",
+    "alt": [],
+    "note": "Femenino plural: delle."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Ho comprato ___ pantaloni neri.",
+    "answer": "dei",
+    "alt": [],
+    "note": "Masculino plural delante de consonante: dei."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Mi ha prestato ___ scarponi da sci.",
+    "answer": "degli",
+    "alt": [],
+    "note": "Delante de s + consonante el masculino plural es degli."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Mi serve ___ sciroppo per la tosse.",
+    "answer": "dello",
+    "alt": [],
+    "note": "Delante de sc- se usa dello."
+   },
+   {
+    "label": "g",
+    "type": "cloze",
+    "stem": "Ho bisogno ___ aspirina.",
+    "answer": "di un'",
+    "alt": [
+     "d'",
+     "di",
+     "dell'"
+    ],
+    "note": "Después de la preposición «di» no se pone el partitivo: «di un'aspirina» o «d'aspirina»."
+   },
+   {
+    "label": "h",
+    "type": "choice",
+    "stem": "Non ho ___ fratelli.",
+    "options": [
+     "dei",
+     "(sin partitivo)"
+    ],
+    "answer": "(sin partitivo)",
+    "alt": [],
+    "note": "En las oraciones negativas el partitivo normalmente se omite: «Non ho fratelli»."
+   },
+   {
+    "label": "i",
+    "type": "cloze",
+    "stem": "Devo comprare ___ olio, ___ aceto, ___ sale e ___ pepe.",
+    "answer": "dell' | dell' | del | del",
+    "alt": [],
+    "note": "Delante de vocal: dell'; delante de consonante: del (en las listas también puede omitirse)."
+   },
+   {
+    "label": "j",
+    "type": "cloze",
+    "stem": "Volevo ___ mandarini, non ___ arance.",
+    "answer": "dei | delle",
+    "alt": [],
+    "note": "Cuando hay contraste, el partitivo se mantiene también en la parte negativa."
+   }
+  ]
+ },
+ "r02-01c": {
+  "consigna": "Expresá la oración de otra manera, sin el partitivo, usando la pista entre paréntesis.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Mi dà dello zucchero? → Mi dà ___ zucchero? (un poco de)",
+    "answer": "un po' di",
+    "alt": [],
+    "note": "«Un po' di» reemplaza al partitivo con sustantivos incontables."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Mi porti dell'acqua frizzante? → Mi porti ___ acqua frizzante? (un poco de)",
+    "answer": "un po' d'",
+    "alt": [
+     "un po' di"
+    ],
+    "note": "«Un po' di» (o «un po' d'» delante de vocal) reemplaza al partitivo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Mi dà dei fagiolini? → Mi dà ___ fagiolino? (algún)",
+    "answer": "qualche",
+    "alt": [],
+    "note": "«Qualche» equivale al partitivo plural, pero va siempre con el sustantivo en singular."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Non abbiamo burro. → Non abbiamo ___ burro. (ni siquiera un poco de)",
+    "answer": "neanche un po' di",
+    "alt": [
+     "nemmeno un po' di",
+     "neppure un po' di"
+    ],
+    "note": "Para reforzar la negación con incontables se usa «neanche un po' di»."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Non ho soldi. → Non ho ___ soldo. (ningún)",
+    "answer": "nessun",
+    "alt": [
+     "neanche un",
+     "nemmeno un",
+     "un"
+    ],
+    "note": "«Nessun» + singular expresa la negación total en lugar del plural sin partitivo."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Non ci sono lenzuola. → Non c'è ___ lenzuolo. (ningún)",
+    "answer": "nessun",
+    "alt": [
+     "neanche un",
+     "nemmeno un"
+    ],
+    "note": "«Nessun» va con el sustantivo en singular y el verbo en singular: non c'è nessun lenzuolo."
+   }
+  ]
+ },
+ "r02-02c": {
+  "consigna": "Reformulá la oración con un significado parecido, usando «alcuni/alcune» o «qualche» según la forma del sustantivo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Ho delle lettere da scrivere. → Ho ___ lettere da scrivere.",
+    "answer": "alcune",
+    "alt": [],
+    "note": "«Alcuni/alcune» + plural equivale al partitivo plural."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Ho dei dubbi da chiarire. → Ho ___ dubbio da chiarire.",
+    "answer": "qualche",
+    "alt": [],
+    "note": "«Qualche» significa «algunos» pero va con el sustantivo en singular."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Avete degli impegni per domani? → Avete ___ impegno per domani?",
+    "answer": "qualche",
+    "alt": [],
+    "note": "«Qualche» + singular reemplaza a «degli» + plural."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Hai degli articoli da leggere? → Hai ___ articoli da leggere?",
+    "answer": "alcuni",
+    "alt": [],
+    "note": "«Alcuni» + plural masculino equivale a «degli»."
+   }
+  ]
+ },
+ "r06-01": {
+  "consigna": "Reemplazá las palabras entre paréntesis por una sola palabra con sufijo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Mio padre è alto e ___ (abbastanza grasso) ed è nato in un ___ (piccolo paese) di montagna.",
+    "answer": "grassottello | paesino",
+    "alt": [
+     "grassottello | paesello",
+     "grassoccio | paesino",
+     "grassoccio | paesello",
+     "grassotto | paesino",
+     "grassotto | paesello"
+    ],
+    "note": "Los sufijos -otto/-ottello atenúan un adjetivo; -ino/-ello forman diminutivos."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Ho conosciuto Daniele ___ (circa un mese) fa. È ___ (una persona molto simpatica) che ci fa ridere tanto.",
+    "answer": "un mesetto | un simpaticone",
+    "alt": [],
+    "note": "-etto da idea de «más o menos»; -one aumenta la cualidad: un simpaticone."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Mia figlia va male in francese. È veramente ___ (piuttosto debole).",
+    "answer": "debolina",
+    "alt": [
+     "deboluccia"
+    ],
+    "note": "-ino/-uccio atenúan el adjetivo: «bastante floja»."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Mirella si veste malissimo con quel ___ (brutto cappello) sformato e quelle ___ (brutte scarpe) sporche.",
+    "answer": "cappellaccio | scarpacce",
+    "alt": [],
+    "note": "El sufijo -accio es despectivo: da idea de feo o malo."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Carlo è noioso. Fa sempre dei ___ (lunghi discorsi) pieni di ___ (parole complicate) incomprensibili.",
+    "answer": "discorsoni | paroloni",
+    "alt": [],
+    "note": "El aumentativo -one: discorsone (discurso largo) y parolone (palabra rebuscada)."
+   }
+  ]
+ },
+ "r06-05": {
+  "consigna": "¿Verdadero o falso? Decidí si cada afirmación es correcta.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Un mattone è una persona molto matta.",
+    "options": [
+     "Vero",
+     "Falso"
+    ],
+    "answer": "Falso",
+    "alt": [],
+    "note": "«Il mattone» es un ladrillo, no un aumentativo de «matto»."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Un postino è un piccolo posto.",
+    "options": [
+     "Vero",
+     "Falso"
+    ],
+    "answer": "Falso",
+    "alt": [],
+    "note": "«Il postino» es el cartero."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Un posticino è un bel posto che ti piace.",
+    "options": [
+     "Vero",
+     "Falso"
+    ],
+    "answer": "Vero",
+    "alt": [],
+    "note": "«Posticino» es un diminutivo afectivo de «posto»: un lugarcito lindo."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Il mulino è un piccolo mulo.",
+    "options": [
+     "Vero",
+     "Falso"
+    ],
+    "answer": "Falso",
+    "alt": [],
+    "note": "«Il mulino» es el molino."
+   },
+   {
+    "label": "e",
+    "type": "choice",
+    "stem": "Un bagnino è un piccolo bagno.",
+    "options": [
+     "Vero",
+     "Falso"
+    ],
+    "answer": "Falso",
+    "alt": [],
+    "note": "«Il bagnino» es el guardavidas."
+   },
+   {
+    "label": "f",
+    "type": "choice",
+    "stem": "Un rubinetto è un piccolo rubino (rubí).",
+    "options": [
+     "Vero",
+     "Falso"
+    ],
+    "answer": "Falso",
+    "alt": [],
+    "note": "«Il rubinetto» es la canilla."
+   }
+  ]
+ },
+ "r06-01b": {
+  "consigna": "Reescribí lo que está entre paréntesis usando un adverbio con sufijo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Non c'è posto qui. – Ti puoi spostare ___ (solo un po')?",
+    "answer": "un pochino",
+    "alt": [
+     "un pochettino",
+     "un tantino"
+    ],
+    "note": "Los diminutivos -ino/-ettino también se aplican a «poco»."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "È andato bene ieri? – Sì, è andato ___ (abbastanza bene), credo.",
+    "answer": "benino",
+    "alt": [],
+    "note": "«Benino» significa «bastante bien, más o menos bien»."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Aspettiamo mezz'ora, è ancora ___ (un po' presto) per partire.",
+    "answer": "prestino",
+    "alt": [],
+    "note": "El sufijo *-ino* también atenúa adverbios: *presto → prestino* («un poco temprano»), como nuestro «tempranito»."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Come stai adesso? – ___ (Non molto bene), purtroppo.",
+    "answer": "Maluccio",
+    "alt": [
+     "Malino"
+    ],
+    "note": "*-uccio* o *-ino* atenúan: *male → maluccio / malino* («no muy bien»), como «medio mal»."
+   }
+  ]
+ },
+ "r07-02": {
+  "consigna": "Enfatizá, contrastá y contradecí: completá con el pronombre sujeto adecuado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Javier e Fiona di dove sono? – ___ (él) è spagnolo e ___ (ella) è scozzese.",
+    "answer": "Lui | lei",
+    "alt": [],
+    "note": "El pronombre sujeto se expresa cuando hay contraste entre personas."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Venite anche ___ (ustedes)? – No, ___ (nosotros) non veniamo, viene solo Marco.",
+    "answer": "voi | noi",
+    "alt": [],
+    "note": "«Ustedes» es «voi» (en plural no hay distinción formal/informal); se expresa el pronombre para contrastar."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Che bella lampada! L'hai comprata ___ (vos), Mariella? – Sì, l'ho comprata ___ (yo).",
+    "answer": "tu | io",
+    "alt": [],
+    "note": "Para enfatizar, el pronombre sujeto va después del verbo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "È un bel giardino, lo cura ___ (usted), signora, o suo marito? – Lo curiamo ___ (nosotros) due.",
+    "answer": "Lei | noi",
+    "alt": [],
+    "note": "«Usted» es «Lei»; «nosotros dos» es «noi due»."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Sei stato ___ (vos) a chiamare ieri? – No, ___ (yo no), forse sono stati ___ (ellos).",
+    "answer": "tu | non io | loro",
+    "alt": [
+     "tu | io no | loro"
+    ],
+    "note": "Con «essere» + sujeto enfatizado se usan los pronombres sujeto: sei stato tu, sono stati loro."
+   }
+  ]
+ },
+ "r07-03": {
+  "consigna": "Aclarar las cosas: completá en italiano la parte que está en castellano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Mina ed Elena, siete voi? – No, ___. (somos nosotras, Marta e Ida)",
+    "answer": "siamo noi, Marta e Ida",
+    "alt": [],
+    "note": "«Somos nosotras» se dice «siamo noi»: el verbo concuerda con el pronombre."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Sei tu, Dario? – No, ___. (soy yo, Giuseppe)",
+    "answer": "sono io, Giuseppe",
+    "alt": [],
+    "note": "«Soy yo» es «sono io»."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Chi è che vuole una caramella? – ___. (Yo no)",
+    "answer": "Io no",
+    "alt": [
+     "Non io"
+    ],
+    "note": "Para responder «yo no» se usa el pronombre sujeto: «io no»."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Noi andiamo al cinema, ___? (¿y ustedes dos?)",
+    "answer": "e voi due",
+    "alt": [],
+    "note": "«Ustedes» es «voi» (en plural no hay distinción formal/informal)."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Chi è che viene domani? – ___. (Yo y mi hermana)",
+    "answer": "Io e mia sorella",
+    "alt": [
+     "Mia sorella e io"
+    ],
+    "note": "Como sujeto se usa «io», no «me»."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Chi è che fa quel rumore? Sei tu? – No, ___. (son ellos, los vecinos)",
+    "answer": "sono loro, i vicini",
+    "alt": [],
+    "note": "«Son ellos» es «sono loro»."
+   }
+  ]
+ },
+ "r07-01": {
+  "consigna": "Completá con el pronombre reflexivo y la forma del verbo indicados.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Di solito ___ poco. (io – truccarsi)",
+    "answer": "mi trucco",
+    "alt": [],
+    "note": "Truccarsi: io mi trucco."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "___ troppo, ragazzi! (voi – lamentarsi)",
+    "answer": "Vi lamentate",
+    "alt": [],
+    "note": "Lamentarsi: voi vi lamentate."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Non ___ mai le unghie. (noi – laccarsi)",
+    "answer": "ci lacchiamo",
+    "alt": [],
+    "note": "Los verbos en -care agregan h delante de i: ci lacchiamo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "___ dell'indirizzo. (lui – non ricordarsi)",
+    "answer": "Non si ricorda",
+    "alt": [],
+    "note": "«Non» va delante del pronombre reflexivo: non si ricorda."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Perché non ___ la giacca? (tu – togliersi)",
+    "answer": "ti togli",
+    "alt": [],
+    "note": "Togliersi: tu ti togli."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "___ a Roma per due giorni. (loro – trattenersi)",
+    "answer": "Si trattengono",
+    "alt": [],
+    "note": "Trattenersi se conjuga como tenere: si trattengono."
+   }
+  ]
+ },
+ "r07-02b": {
+  "consigna": "Completá con el verbo reflexivo indicado, en la forma correcta.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Mio nonno ___ (se duerme) sempre dopo pranzo. (addormentarsi)",
+    "answer": "si addormenta",
+    "alt": [
+     "s'addormenta"
+    ],
+    "note": "Addormentarsi: lui si addormenta."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "I miei figli ___ (se lavan y se peinan) sempre in fretta. (lavarsi, pettinarsi)",
+    "answer": "si lavano e si pettinano",
+    "alt": [],
+    "note": "Cada verbo reflexivo lleva su propio pronombre: si lavano e si pettinano."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Normalmente io e mia moglie ___ (nos despertamos) alle sette e ___ (nos levantamos) subito. (svegliarsi, alzarsi)",
+    "answer": "ci svegliamo | ci alziamo",
+    "alt": [],
+    "note": "«Io e mia moglie» equivale a «noi»: ci svegliamo, ci alziamo."
+   }
+  ]
+ },
+ "r07-03b": {
+  "consigna": "Completá con el equivalente italiano de lo que está entre paréntesis.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___ (Yo me levanto temprano) ma lui di solito rimane a letto.",
+    "answer": "Io mi alzo presto",
+    "alt": [
+     "Mi alzo presto"
+    ],
+    "note": "Se expresa «io» porque hay contraste con «lui»."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "___ (Ella se lava el pelo) ogni mattina, ma io no.",
+    "answer": "Lei si lava i capelli",
+    "alt": [
+     "Si lava i capelli"
+    ],
+    "note": "Con partes del cuerpo se usa el reflexivo con artículo, sin posesivo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "No, ___ (él se recibe) a giugno, ma ___ (yo me recibo) l'anno prossimo.",
+    "answer": "lui si laurea | io mi laureo",
+    "alt": [],
+    "note": "«Recibirse» es «laurearsi»; los pronombres sujeto marcan el contraste."
+   }
+  ]
+ },
+ "r07-04": {
+  "consigna": "Hablá de lo que las personas hacen entre sí: conjugá los verbos recíprocos.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "In Italia quando le persone ___ (incontrarsi), ___ (salutarsi) e ___ (darsi) la mano.",
+    "answer": "si incontrano | si salutano | si danno",
+    "alt": [
+     "s'incontrano | si salutano | si danno"
+    ],
+    "note": "Los verbos recíprocos usan si en tercera persona plural."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Noi ___ (vedersi) raramente ma ___ (sentirsi) spesso.",
+    "answer": "ci vediamo | ci sentiamo",
+    "alt": [],
+    "note": "Recíproco con «noi»: ci vediamo, ci sentiamo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Oggi la gente ___ (scriversi) poco. Preferisce ___ (scambiarsi) delle email.",
+    "answer": "si scrive | scambiarsi",
+    "alt": [],
+    "note": "«La gente» es singular: si scrive; después de «preferisce» va el infinitivo con el pronombre pegado."
+   }
+  ]
+ },
+ "r07-05": {
+  "consigna": "Decidí si el pronombre expresa una acción reflexiva o recíproca.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Non siamo in ufficio, ci troviamo di fronte al bar.",
+    "options": [
+     "reflexiva",
+     "recíproca"
+    ],
+    "answer": "reflexiva",
+    "alt": [],
+    "note": "«Ci troviamo» = estamos (nos encontramos) frente al bar: no es algo que hacemos uno al otro."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "A domani, allora; ci troviamo di fronte al bar.",
+    "options": [
+     "reflexiva",
+     "recíproca"
+    ],
+    "answer": "recíproca",
+    "alt": [],
+    "note": "Con sujeto plural, *ci/si* puede ser recíproco («uno con el otro»): *ci troviamo* = «nos encontramos (entre nosotros)»."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Ciao, ci sentiamo domani.",
+    "options": [
+     "reflexiva",
+     "recíproca"
+    ],
+    "answer": "recíproca",
+    "alt": [],
+    "note": "*sentirsi* recíproco = «hablarse» (por teléfono): *ci sentiamo domani*, «hablamos mañana»."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Sì, ci sentiamo bene tutti e due.",
+    "options": [
+     "reflexiva",
+     "recíproca"
+    ],
+    "answer": "reflexiva",
+    "alt": [],
+    "note": "«Ci sentiamo bene» = nos sentimos bien: cada uno se siente bien."
+   },
+   {
+    "label": "e",
+    "type": "choice",
+    "stem": "Come si chiamano i suoi nipotini?",
+    "options": [
+     "reflexiva",
+     "recíproca"
+    ],
+    "answer": "reflexiva",
+    "alt": [],
+    "note": "*chiamarsi* es reflexivo, cada uno se llama a sí mismo: *come si chiamano?* = «¿cómo se llaman?»."
+   },
+   {
+    "label": "f",
+    "type": "choice",
+    "stem": "Mariella e Paola si chiamano spesso.",
+    "options": [
+     "reflexiva",
+     "recíproca"
+    ],
+    "answer": "recíproca",
+    "alt": [],
+    "note": "Acá *si chiamano* es recíproco: se llaman por teléfono una a la otra. El sujeto plural y *spesso* lo indican."
+   }
+  ]
+ },
+ "r07-01b": {
+  "consigna": "Decidí si la parte indicada es objeto directo (OD) u objeto indirecto (OI).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Ha comprato delle rose e le ha regalate a sua moglie. — «a sua moglie»",
+    "options": [
+     "objeto directo",
+     "objeto indirecto"
+    ],
+    "answer": "objeto indirecto",
+    "alt": [],
+    "note": "«Delle rose» y «le» son objetos directos; «a sua moglie» es el objeto indirecto."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Le ha comprato delle rose. — «delle rose»",
+    "options": [
+     "objeto directo",
+     "objeto indirecto"
+    ],
+    "answer": "objeto directo",
+    "alt": [],
+    "note": "«Delle rose» es lo que compró (OD); «Le» (a ella) es el OI."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Hai chiesto a Francesca di andarsene (irse)? — «a Francesca»",
+    "options": [
+     "objeto directo",
+     "objeto indirecto"
+    ],
+    "answer": "objeto indirecto",
+    "alt": [],
+    "note": "«Chiedere a qualcuno di fare qualcosa»: la persona es objeto indirecto."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Le hai chiesto di andarsene (irse)? — «Le»",
+    "options": [
+     "objeto directo",
+     "objeto indirecto"
+    ],
+    "answer": "objeto indirecto",
+    "alt": [],
+    "note": "Con «chiedere» la persona es OI, por eso se usa «le» y no «la»."
+   }
+  ]
+ },
+ "r07-02c": {
+  "consigna": "Reemplazá el sustantivo por el pronombre de objeto directo correcto.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "I pantaloni bianchi sono bellissimi, perché non ___ compri?",
+    "answer": "li",
+    "alt": [],
+    "note": "«I pantaloni» es masculino plural: li."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Quella macchina costa poco, ho intenzione di comprar___.",
+    "answer": "la",
+    "alt": [],
+    "note": "Con el infinitivo el pronombre va pegado al final: comprarla."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Conosce mio figlio? – No, non ___ conosco.",
+    "answer": "lo",
+    "alt": [],
+    "note": "«Mio figlio» es masculino singular: lo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Conoscete le mie cugine? – Certo, ___ conosciamo da molto tempo.",
+    "answer": "le",
+    "alt": [],
+    "note": "«Le mie cugine» es femenino plural: le."
+   }
+  ]
+ },
+ "r07-03c": {
+  "consigna": "Poné el pronombre que corresponde a la persona indicada.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Angelo, ___ posso aiutare? (vos)",
+    "answer": "ti",
+    "alt": [],
+    "note": "Objeto directo de «tu»: ti."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Arriveder___, signore, ___ richiamerò più tardi. (usted: «la volveré a llamar más tarde»)",
+    "answer": "La | La",
+    "alt": [],
+    "note": "El objeto directo formal es «La», incluso para un hombre: arrivederLa."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ragazzi, ___ ringrazio per la bella serata. (ustedes)",
+    "answer": "vi",
+    "alt": [],
+    "note": "Objeto directo de «voi»: vi."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "___ accompagno io, Signora Rossi. (usted)",
+    "answer": "La",
+    "alt": [],
+    "note": "Objeto directo formal: La."
+   }
+  ]
+ },
+ "r07-04b": {
+  "consigna": "Reemplazá la frase por uno o dos pronombres.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Sai dov'è andato? – No, non ___ so.",
+    "answer": "lo",
+    "alt": [],
+    "note": "«Lo» reemplaza una oración entera (dónde fue)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Il suo matrimonio andrà male, ___ ho detto tante volte.",
+    "answer": "l'",
+    "alt": [
+     "gliel'"
+    ],
+    "note": "«Lo» reemplaza la idea anterior y se apostrofa delante de «ho»: l'ho detto."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Tu dici che sono tutti disonesti? – Certo, è ovvio che ___ sono!",
+    "answer": "lo",
+    "alt": [],
+    "note": "«Lo» reemplaza un adjetivo predicativo con «essere» y es invariable."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Hai la chiave? – Sì ___ ho.",
+    "answer": "ce l'",
+    "alt": [],
+    "note": "Con «avere» de posesión se usa «ce l'ho»."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "I clienti hanno i documenti? – Sì, ___ hanno.",
+    "answer": "ce li",
+    "alt": [],
+    "note": "Con «avere» de posesión: ce li hanno."
+   }
+  ]
+ },
+ "r07-05b": {
+  "consigna": "Respondé en italiano, usando un pronombre de objeto directo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Ascolti spesso la radio? – (Sí, la escucho seguido.)",
+    "answer": "Sì, la ascolto spesso.",
+    "alt": [
+     "Sì, l'ascolto spesso."
+    ],
+    "note": "«La radio» es femenino: la ascolto (o l'ascolto)."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Hai chiesto il conto? – (Sí, lo pedí.)",
+    "answer": "Sì, l'ho chiesto.",
+    "alt": [],
+    "note": "«Chiedere» rige objeto directo: l'ho chiesto."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Da quanto tempo aspetti il treno? – (Lo espero desde hace una hora.)",
+    "answer": "Lo aspetto da un'ora.",
+    "alt": [],
+    "note": "«Aspettare» rige objeto directo, sin preposición; «da» + presente para algo que sigue."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Quelle scarpe, quanto le hai pagate? – (Las pagué 150 euros.)",
+    "answer": "Le ho pagate 150 euro.",
+    "alt": [],
+    "note": "Con «le» antes del verbo, el participio concuerda: pagate; «euro» es invariable."
+   }
+  ]
+ },
+ "r07-06": {
+  "consigna": "Reemplazá la persona por el pronombre de objeto indirecto correcto.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Ho prestato 50 euro a Riccardo. Ieri ___ ho prestato 50 euro.",
+    "answer": "gli",
+    "alt": [],
+    "note": "Indirecto masculino singular = *gli* («le» a él). El italiano distingue *gli* (él) de *le* (ella), el castellano no."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Devi restituire i soldi a Rina. ___ devi restituire i soldi domani.",
+    "answer": "Le",
+    "alt": [],
+    "note": "Indirecto femenino singular = *le*, con mayúscula al principio: *Le devi restituire*."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Anna deve 100 euro a suo fratello. Purtroppo ___ deve 100 euro.",
+    "answer": "gli",
+    "alt": [],
+    "note": "*a suo fratello* → *gli*: masculino singular."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Lucio dovrà pagare 2.000 euro alla moglie. È vero, ___ dovrà pagare 2.000 euro.",
+    "answer": "le",
+    "alt": [],
+    "note": "*alla moglie* → *le*: indirecto femenino. *gli* sería para un hombre."
+   }
+  ]
+ },
+ "r07-07": {
+  "consigna": "Poné el pronombre correcto para «vos», «usted» o «ustedes».",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Signore, ___ piace il nuovo modello?",
+    "answer": "Le",
+    "alt": [],
+    "note": "«Piacere» lleva objeto indirecto; formal: Le."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Signora, ___ posso dare una mano?",
+    "answer": "Le",
+    "alt": [],
+    "note": "«Dare a qualcuno»: objeto indirecto formal, Le."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ragazzi, ___ devo chiedere aiuto.",
+    "answer": "vi",
+    "alt": [],
+    "note": "Plural informal: vi."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Carlo, ___ presento mio marito.",
+    "answer": "ti",
+    "alt": [],
+    "note": "«Presentare a qualcuno»: a vos = ti."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Signori, ___ posso offrire da bere?",
+    "answer": "vi",
+    "alt": [],
+    "note": "Para varias personas, incluso formal, se usa normalmente «vi»."
+   }
+  ]
+ },
+ "r07-08": {
+  "consigna": "Una mano: completá con el pronombre correcto, guiándote por el castellano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___ puoi aggiustare i freni? (¿Me arreglás los frenos?)",
+    "answer": "Mi",
+    "alt": [],
+    "note": "El indirecto de *io* es *mi*, igual que en castellano: *mi puoi aggiustare...?*"
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "___ potresti riparare la bicicletta? (¿Le podrías arreglar la bici a ella?)",
+    "answer": "Le",
+    "alt": [],
+    "note": "«A ella» = *le*: indirecto femenino singular."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "___ può cambiare 1.000 euro? (¿Nos puede cambiar 1.000 euros?)",
+    "answer": "Ci",
+    "alt": [],
+    "note": "«A nosotros» = *ci*: la misma forma sirve para directo e indirecto."
+   }
+  ]
+ },
+ "r07-09": {
+  "consigna": "¡Desastre! Completá con el pronombre de objeto indirecto que corresponde al posesivo indicado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Mio nipote ___ ha rotto l'orologio. (mi)",
+    "answer": "mi",
+    "alt": [],
+    "note": "El objeto indirecto reemplaza al posesivo: mi ha rotto l'orologio = rompió mi reloj."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Giulio è rimasto male, la cameriera ___ ha macchiato la camicia. (su, de él)",
+    "answer": "gli",
+    "alt": [],
+    "note": "Donde el castellano usa posesivo o «le» (le manchó la camisa), el italiano usa el indirecto: *gli ha macchiato la camicia*."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Maria ___ ha bruciato la caffettiera. (su, de ellos)",
+    "answer": "gli",
+    "alt": [],
+    "note": "En el italiano de hoy *gli* sirve también para «a ellos» delante del verbo; *loro* va detrás del verbo y suena formal."
+   }
+  ]
+ },
+ "r07-10": {
+  "consigna": "Traducí al italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Le pedí (a él) que comprara el pan.",
+    "answer": "Gli ho chiesto di comprare il pane.",
+    "alt": [],
+    "note": "«Chiedere a qualcuno di» + infinitivo: la persona es OI (gli)."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Pino, ¿les dijiste (a los chicos) que vinieran a las diez?",
+    "answer": "Pino, gli hai detto di venire alle dieci?",
+    "alt": [
+     "Pino, hai detto loro di venire alle dieci?"
+    ],
+    "note": "«Dire a qualcuno di» + infinitivo: a ellos = gli (o loro después del verbo)."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Dario, tenés que contestarles (a las chicas) enseguida.",
+    "answer": "Dario, devi rispondergli subito.",
+    "alt": [
+     "Dario, devi rispondergli immediatamente.",
+     "Dario, gli devi rispondere subito.",
+     "Dario, gli devi rispondere immediatamente.",
+     "Dario, devi rispondere loro subito.",
+     "Dario, devi rispondere loro immediatamente."
+    ],
+    "note": "«Rispondere a qualcuno»: objeto indirecto (gli o loro)."
+   }
+  ]
+ },
+ "r07-12": {
+  "consigna": "Elegí el pronombre (OD u OI) que reemplaza la parte indicada.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Porterò mia nonna al mare. → ___ porterò al mare.",
+    "options": [
+     "La",
+     "Le"
+    ],
+    "answer": "La",
+    "alt": [],
+    "note": "«Portare qualcuno»: la persona es objeto directo."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Porterò dei fiori a mia nonna. → ___ porterò dei fiori.",
+    "options": [
+     "La",
+     "Le"
+    ],
+    "answer": "Le",
+    "alt": [],
+    "note": "«A mia nonna» es objeto indirecto: le."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Manderò il pacco a Carlo. → ___ manderò a Carlo. (reemplazá «il pacco»)",
+    "options": [
+     "Lo",
+     "Gli"
+    ],
+    "answer": "Lo",
+    "alt": [],
+    "note": "«Il pacco» es el objeto directo: lo."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Manderò una email a Silvio. → ___ manderò una email.",
+    "options": [
+     "Lo",
+     "Gli"
+    ],
+    "answer": "Gli",
+    "alt": [],
+    "note": "«A Silvio» es objeto indirecto: gli."
+   },
+   {
+    "label": "e",
+    "type": "choice",
+    "stem": "Leggerò l'articolo a Dina e a Lucia. ¿Qué pronombre reemplaza «a Dina e a Lucia»?",
+    "options": [
+     "lo",
+     "gli",
+     "le"
+    ],
+    "answer": "gli",
+    "alt": [
+     "loro"
+    ],
+    "note": "A ellas = gli (delante del verbo) o loro (después: leggerò loro l'articolo); le es solo singular (a lei)."
+   },
+   {
+    "label": "f",
+    "type": "choice",
+    "stem": "Leggerò il riassunto a Dina e a Lucia. ¿Qué pronombre reemplaza «a Dina e a Lucia»?",
+    "options": [
+     "li",
+     "gli",
+     "le"
+    ],
+    "answer": "gli",
+    "alt": [
+     "loro"
+    ],
+    "note": "Objeto indirecto plural: gli, o loro detrás del verbo; le es solo singular (a lei)."
+   }
+  ]
+ },
+ "r07-13": {
+  "consigna": "Poné el pronombre formal o plural correcto, eligiendo entre objeto directo e indirecto.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___ ringrazio tanto, signore.",
+    "answer": "La",
+    "alt": [],
+    "note": "«Ringraziare qualcuno» rige objeto directo: La."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Signore, ___ mando la conferma domani.",
+    "answer": "Le",
+    "alt": [],
+    "note": "«Mandare a qualcuno»: objeto indirecto, Le."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Signora Rodolfi, ___ disturbo?",
+    "answer": "La",
+    "alt": [],
+    "note": "«Disturbare qualcuno» rige objeto directo: La."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Signora, ___ dispiace se torno più tardi?",
+    "answer": "Le",
+    "alt": [],
+    "note": "«Dispiacere» lleva objeto indirecto: Le."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "___ dispiace aspettare, signori?",
+    "answer": "Vi",
+    "alt": [],
+    "note": "Plural: vi dispiace."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Signore, ___ prego di tornare domani.",
+    "answer": "La",
+    "alt": [],
+    "note": "«Pregare qualcuno di» rige objeto directo: La."
+   }
+  ]
+ },
+ "r07-14": {
+  "consigna": "Traducí al italiano; el verbo indicado te ayuda a elegir entre objeto directo e indirecto.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Le aconsejé (a ella) que se fuera temprano. (consigliare a qualcuno di)",
+    "answer": "Le ho consigliato di partire presto.",
+    "alt": [
+     "Le ho consigliato di andare via presto.",
+     "Le ho consigliato di andarsene presto.",
+     "Le ho consigliato di uscire presto."
+    ],
+    "note": "«Consigliare a qualcuno»: objeto indirecto, le."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Tenemos que convencerla de que ayude. (convincere qualcuno a)",
+    "answer": "Dobbiamo convincerla ad aiutare.",
+    "alt": [
+     "La dobbiamo convincere ad aiutare."
+    ],
+    "note": "«Convincere qualcuno»: objeto directo, la."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "No podés obligarlo a venir. (costringere qualcuno a)",
+    "answer": "Non puoi costringerlo a venire.",
+    "alt": [
+     "Non lo puoi costringere a venire."
+    ],
+    "note": "«Costringere qualcuno»: objeto directo, lo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Le permití (a él) ir a la fiesta. (permettere a qualcuno di)",
+    "answer": "Gli ho permesso di andare alla festa.",
+    "alt": [],
+    "note": "«Permettere a qualcuno»: objeto indirecto, gli."
+   }
+  ]
+ },
+ "r07-15": {
+  "consigna": "Completá con el pronombre de objeto directo o indirecto adecuado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Non ti preoccupare, ___ dirò di pagare. (a él)",
+    "answer": "gli",
+    "alt": [],
+    "note": "«Dire a qualcuno di»: OI, gli."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Non c'è problema, ___ convincerò a pagare. (a él)",
+    "answer": "lo",
+    "alt": [],
+    "note": "«Convincere qualcuno a»: OD, lo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "___ dovresti incoraggiare a studiare di più. (a ella)",
+    "answer": "La",
+    "alt": [],
+    "note": "«Incoraggiare qualcuno a»: OD, la."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "___ dovresti consigliare di studiare di più. (a ella)",
+    "answer": "Le",
+    "alt": [],
+    "note": "«Consigliare a qualcuno di»: OI, le."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Ieri ___ ho invitati a cena. (a ellos)",
+    "answer": "li",
+    "alt": [],
+    "note": "«Invitare qualcuno»: OD, li (por eso «invitati»)."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Ieri ___ ho offerto la cena. (a ellos)",
+    "answer": "gli",
+    "alt": [],
+    "note": "«Offrire a qualcuno»: OI, gli."
+   }
+  ]
+ },
+ "r07-01c": {
+  "consigna": "Acortá preguntas y respuestas usando «ne» dos veces.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Quante cipolle prende? – Prendo mezzo chilo di cipolle. → Quante ___ prende? – ___ prendo mezzo chilo.",
+    "answer": "ne | Ne",
+    "alt": [],
+    "note": "«Ne» reemplaza a la cosa cuando se indica una cantidad."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Quanto tonno vuole? – Prendo quattro scatole di tonno. → Quanto ___ vuole? – ___ prendo quattro scatole.",
+    "answer": "ne | Ne",
+    "alt": [],
+    "note": "«Ne» reemplaza «di tonno» y la cantidad queda expresada."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Quanti meloni vuole? – Prendo due meloni. → Quanti ___ vuole? – ___ prendo due.",
+    "answer": "ne | Ne",
+    "alt": [],
+    "note": "Con números, «ne» es obligatorio: ne prendo due."
+   }
+  ]
+ },
+ "r07-02d": {
+  "consigna": "Vos también: respondé en italiano empezando con «Anch'io…».",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Consumo pochissimi grassi. – (Yo también consumo muy pocas.)",
+    "answer": "Anch'io ne consumo pochissimi.",
+    "alt": [
+     "Anch'io ne consumo molto pochi.",
+     "Anch'io ne consumo pochi."
+    ],
+    "note": "«Ne» reemplaza a «grassi» y la cantidad concuerda: pochissimi."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Consumo tanta frutta e verdura. – (Yo también consumo mucha.)",
+    "answer": "Anch'io ne consumo tanta.",
+    "alt": [
+     "Anch'io ne consumo molta."
+    ],
+    "note": "«Ne» + cantidad; «tanta» concuerda con «frutta e verdura» tomadas en conjunto."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Compro molto cibo biologico. – (Yo también compro mucho.)",
+    "answer": "Anch'io ne compro molto.",
+    "alt": [
+     "Anch'io ne compro tanto."
+    ],
+    "note": "«Ne» reemplaza «cibo biologico»: ne compro molto."
+   }
+  ]
+ },
+ "r07-03d": {
+  "consigna": "Poné «ne» donde haga falta.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "La minestra è buona, ___ vuoi un po'?",
+    "answer": "ne",
+    "alt": [],
+    "note": "Con «un po'» se necesita «ne»: ne vuoi un po'?"
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "La pasta è fresca, quanta ___ vuole?",
+    "answer": "ne",
+    "alt": [],
+    "note": "Con «quanto/quanta» se necesita «ne»."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Il vino è buono, ___ vuole?",
+    "answer": "ne",
+    "alt": [
+     "lo"
+    ],
+    "note": "«Ne vuole?» = ¿quiere un poco?: ne tiene valor partitivo («lo vuole?» sería todo el vino)."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Le salsicce sono eccezionali, ___ volete?",
+    "answer": "ne",
+    "alt": [
+     "le"
+    ],
+    "note": "*ne* toma una parte («algunas»); *le* tomaría todas. El castellano suele omitirlo: «¿quieren?»."
+   }
+  ]
+ },
+ "r07-04c": {
+  "consigna": "Respondé en italiano usando «ne» (el verbo entre paréntesis te ayuda).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Hai bisogno di aiuto? – (No, gracias, no necesito.) (avere bisogno di)",
+    "answer": "No grazie, non ne ho bisogno.",
+    "alt": [
+     "No, grazie, non ne ho bisogno."
+    ],
+    "note": "«Ne» reemplaza «di aiuto»."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Credi che si dimetterà? – (Estoy seguro.) (essere sicuro di)",
+    "answer": "Ne sono sicuro.",
+    "alt": [
+     "Ne sono sicura."
+    ],
+    "note": "«Ne» reemplaza «di questo»: ne sono sicuro."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Abbiamo parlato dei loro problemi. – (Nosotros también hablamos de eso.) (parlare di)",
+    "answer": "Anche noi ne abbiamo parlato.",
+    "alt": [
+     "Ne abbiamo parlato anche noi."
+    ],
+    "note": "«Ne» reemplaza «dei loro problemi»."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Dimmi quello che è successo. – (Pero yo no sé nada de eso.) (sapere di)",
+    "answer": "Ma io non ne so niente.",
+    "alt": [
+     "Ma io non ne so nulla.",
+     "Ma non ne so niente.",
+     "Ma non ne so nulla."
+    ],
+    "note": "«Ne» reemplaza «di questo»: non ne so niente."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Cosa pensi di quello che ha detto? – (No sé, ¿vos qué pensás?) (pensare di – tu)",
+    "answer": "Non so, tu cosa ne pensi?",
+    "alt": [
+     "Non so, tu che ne pensi?",
+     "Non so, tu che cosa ne pensi?",
+     "Non so, cosa ne pensi?",
+     "Non so, che ne pensi?",
+     "Non lo so, tu cosa ne pensi?",
+     "Non lo so, tu che ne pensi?",
+     "Non lo so, tu che cosa ne pensi?",
+     "Non lo so, cosa ne pensi?",
+     "Non lo so, che ne pensi?"
+    ],
+    "note": "«Pensare di» = opinar; «ne» reemplaza «di questo»."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Il mio gattino è adorabile. (No puedo estar sin él.) (fare a meno di)",
+    "answer": "Non posso farne a meno.",
+    "alt": [
+     "Non ne posso fare a meno."
+    ],
+    "note": "«Fare a meno di» = prescindir de; «ne» reemplaza «del gattino»."
+   },
+   {
+    "label": "g",
+    "type": "translate",
+    "stem": "Hai sentito la notizia? – (Sí, y me afectó mucho.) (essere sconvolto da)",
+    "answer": "Sì, e ne sono rimasto sconvolto.",
+    "alt": [
+     "Sì, e ne sono rimasta sconvolta.",
+     "Sì, e ne sono stato sconvolto.",
+     "Sì, e ne sono stata sconvolta.",
+     "Sì, e ne sono sconvolto.",
+     "Sì, e ne sono sconvolta.",
+     "Sì, e ne sono rimasto molto sconvolto.",
+     "Sì, e ne sono rimasta molto sconvolta.",
+     "Sì, e ne sono stato molto sconvolto.",
+     "Sì, e ne sono stata molto sconvolta.",
+     "Sì, e ne sono molto sconvolto.",
+     "Sì, e ne sono molto sconvolta."
+    ],
+    "note": "«Ne» también reemplaza complementos con «da»: ne sono rimasto sconvolto."
+   },
+   {
+    "label": "h",
+    "type": "translate",
+    "stem": "È uscito di casa? – (Sí, está saliendo justo ahora.) (uscire di casa)",
+    "answer": "Sì, ne sta uscendo proprio adesso.",
+    "alt": [
+     "Sì, ne sta uscendo proprio ora.",
+     "Sì, ne sta uscendo adesso.",
+     "Sì, ne sta uscendo ora."
+    ],
+    "note": "«Ne» reemplaza el lugar del que se sale: «di casa»."
+   }
+  ]
+ },
+ "r07-01d": {
+  "consigna": "Poné el pronombre adecuado en las respuestas para reemplazar el lugar mencionado en la pregunta.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Sei stato a Roma? – Sì, ___ sono stato tante volte.",
+    "answer": "ci",
+    "alt": [],
+    "note": "«Ci» reemplaza un lugar: a Roma."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Andate in centro? – Sì, ___ andiamo fra poco.",
+    "answer": "ci",
+    "alt": [],
+    "note": "*ci* reemplaza un lugar ya nombrado (*in centro*) y no se puede omitir como en castellano: *ci andiamo*."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Sei andata dal farmacista? – Sì, ___ sono passata stamattina.",
+    "answer": "ci",
+    "alt": [],
+    "note": "«Ci» reemplaza «dal farmacista» (el lugar)."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Siete andate a trovare Liliana? – Sì, ___ siamo andate ieri.",
+    "answer": "ci",
+    "alt": [],
+    "note": "«Ci» reemplaza «a trovare Liliana»."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Quand'è che vai a far la spesa? – ___ vado adesso.",
+    "answer": "Ci",
+    "alt": [],
+    "note": "«Ci» reemplaza «a far la spesa»."
+   }
+  ]
+ },
+ "r07-02e": {
+  "consigna": "Usando «c'è» o «ci sono», completá en italiano lo que está entre paréntesis.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Nel mio appartamento ___ sei stanze ma ___ un bagno solo. (hay… hay)",
+    "answer": "ci sono | c'è",
+    "alt": [],
+    "note": "«C'è» con singular y «ci sono» con plural."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Cosa ___ da mangiare? – ___ gli spaghetti alle vongole e ___ l'insalata. (hay… hay… hay)",
+    "answer": "c'è | Ci sono | c'è",
+    "alt": [],
+    "note": "«Spaghetti» es plural (ci sono); «insalata», singular (c'è)."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "___ Nita? – No, ___. (¿Está Nita? – No, no está.)",
+    "answer": "C'è | non c'è",
+    "alt": [],
+    "note": "«C'è» también significa «está» (en casa, presente)."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "___ Andrea e Massimo? – No, ___. (¿Están Andrea y Massimo? – No, no están.)",
+    "answer": "Ci sono | non ci sono",
+    "alt": [],
+    "note": "Para varias personas: ci sono / non ci sono."
+   }
+  ]
+ },
+ "r07-03e": {
+  "consigna": "Completá usando «metterci» (tardar alguien) y «volerci» (hacer falta tiempo).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___ (Tardo una hora) per arrivare all'università.",
+    "answer": "Ci metto un'ora",
+    "alt": [],
+    "note": "«Metterci» tiene sujeto personal: io ci metto."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "___ (Se tarda una hora) per arrivare in centro.",
+    "answer": "Ci vuole un'ora",
+    "alt": [],
+    "note": "«Volerci» es impersonal y concuerda con el tiempo: ci vuole un'ora."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Quanto ___ (tardan ellos) per andare a Genova?",
+    "answer": "ci mettono",
+    "alt": [],
+    "note": "Sujeto personal «loro»: ci mettono."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "___ (Se tarda) tre quarti d'ora se prendi la macchina.",
+    "answer": "Ci vogliono",
+    "alt": [],
+    "note": "«Tre quarti» es plural: ci vogliono."
+   }
+  ]
+ },
+ "r07-04d": {
+  "consigna": "Respondé en italiano. En dos casos no se puede usar «ci».",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Sei abituato/a al freddo? – (Sí, estoy acostumbrado/a.)",
+    "answer": "Sì, ci sono abituato.",
+    "alt": [
+     "Sì, ci sono abituata."
+    ],
+    "note": "«Ci» reemplaza «al freddo» (a + cosa)."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Siete riusciti/e a farlo? – (Sí, pudimos.)",
+    "answer": "Sì, ci siamo riusciti.",
+    "alt": [
+     "Sì, ci siamo riuscite."
+    ],
+    "note": "«Ci» reemplaza «a farlo»."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Hai risposto a tuo zio? – (Sí, le contesté.)",
+    "answer": "Sì, gli ho risposto.",
+    "alt": [],
+    "note": "Con personas no se usa «ci»: a tuo zio = gli."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Avete pensato a quello che volete fare? – (No, no lo pensamos.)",
+    "answer": "No, non ci abbiamo pensato.",
+    "alt": [],
+    "note": "«Pensare a qualcosa»: ci."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Pensi spesso ai tuoi fratelli? – (Sí, pienso seguido en ellos.)",
+    "answer": "Sì, penso spesso a loro.",
+    "alt": [
+     "Sì, penso a loro spesso."
+    ],
+    "note": "Con personas se usa el pronombre tónico «a loro», no «ci»."
+   }
+  ]
+ },
+ "r07-01e": {
+  "consigna": "Reescribí la oración empezando con la frase dada, cambiando el verbo y ubicando bien los pronombres.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Ti vedo più tardi. → Preferisco ___ più tardi.",
+    "answer": "vederti",
+    "alt": [],
+    "note": "Con el infinitivo el pronombre va pegado al final."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Mi diverto al mare. → Ho intenzione di ___ al mare.",
+    "answer": "divertirmi",
+    "alt": [],
+    "note": "Infinitivo reflexivo con el pronombre de la persona: divertirmi."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ci vediamo giovedì. → Non so se ___ giovedì.",
+    "answer": "ci vediamo",
+    "alt": [
+     "ci vedremo"
+    ],
+    "note": "Con verbo conjugado el pronombre va delante."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Ci vediamo giovedì. → È importante ___ giovedì.",
+    "answer": "vederci",
+    "alt": [
+     "che ci vediamo"
+    ],
+    "note": "Tras «è importante» va el infinitivo con el pronombre pegado."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Edda ci va domani. → So che Edda ___ domani.",
+    "answer": "ci va",
+    "alt": [],
+    "note": "Verbo conjugado: el pronombre va delante."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Ci va domani. → È meglio ___ domani.",
+    "answer": "andarci",
+    "alt": [],
+    "note": "Infinitivo + ci pegado: andarci."
+   },
+   {
+    "label": "g",
+    "type": "cloze",
+    "stem": "Ne compriamo altri. → Perché non ___ altri?",
+    "answer": "ne compriamo",
+    "alt": [],
+    "note": "Verbo conjugado: «ne» va delante."
+   },
+   {
+    "label": "h",
+    "type": "cloze",
+    "stem": "Ne compro altri. → Ho deciso di ___ altri.",
+    "answer": "comprarne",
+    "alt": [],
+    "note": "Infinitivo + ne pegado: comprarne."
+   }
+  ]
+ },
+ "r07-02f": {
+  "consigna": "Reemplazá los sustantivos por pronombres y ubicalos correctamente (con el gerundio van pegados).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Angelica è uscita, lasciando aperta la finestra. → Angelica è uscita, ___ aperta.",
+    "answer": "lasciandola",
+    "alt": [],
+    "note": "Con el gerundio el pronombre va pegado al final."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Luigi ha scritto pregando mia sorella di rispondere. → Luigi ha scritto ___ di rispondere.",
+    "answer": "pregandola",
+    "alt": [],
+    "note": "«Pregare qualcuno»: OD, pegado al gerundio."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "È caduto, lasciando cadere i bicchieri. → È caduto, ___ cadere.",
+    "answer": "lasciandoli",
+    "alt": [],
+    "note": "Con el gerundio el pronombre va pegado al final, como en castellano: *lasciandoli*."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Sto leggendo un racconto a mio figlio. → ___ un racconto. (reemplazá «a mio figlio»)",
+    "answer": "Gli sto leggendo",
+    "alt": [
+     "Sto leggendogli"
+    ],
+    "note": "Con «stare» + gerundio el pronombre va delante de «stare» o pegado al gerundio."
+   }
+  ]
+ },
+ "r07-03f": {
+  "consigna": "En estas órdenes, reemplazá los sustantivos por pronombres y ubicalos correctamente.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Gianna, manda la lettera. → Gianna, ___.",
+    "answer": "mandala",
+    "alt": [],
+    "note": "Con el imperativo de «tu» el pronombre va pegado."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Signora, spedisca subito questo pacco. → Signora, ___ subito.",
+    "answer": "lo spedisca",
+    "alt": [],
+    "note": "Con el imperativo formal (Lei) el pronombre va delante."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ragazzi, parlate di questo oggi. → Ragazzi, ___ oggi.",
+    "answer": "parlatene",
+    "alt": [],
+    "note": "Imperativo de «voi»: el pronombre va pegado."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Signore, parli a nostro figlio domani. → Signore, ___ domani.",
+    "answer": "gli parli",
+    "alt": [],
+    "note": "Imperativo formal: pronombre delante."
+   }
+  ]
+ },
+ "r07-04e": {
+  "consigna": "Da lo mismo: reescribí la oración cambiando la posición del pronombre.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Mi sai dire se la cena è pronta? → ___ se la cena è pronta?",
+    "answer": "Sai dirmi",
+    "alt": [],
+    "note": "Con verbo modal + infinitivo, el pronombre puede ir delante del modal o pegado al infinitivo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Mi voglio lavare le mani. → ___ le mani.",
+    "answer": "Voglio lavarmi",
+    "alt": [],
+    "note": "Pronombre pegado al infinitivo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Lo devo finire stasera. → ___ stasera.",
+    "answer": "Devo finirlo",
+    "alt": [],
+    "note": "Pronombre pegado al infinitivo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Non li posso aiutare. → ___.",
+    "answer": "Non posso aiutarli",
+    "alt": [],
+    "note": "Pronombre pegado al infinitivo."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Non lo toccare! → ___!",
+    "answer": "Non toccarlo",
+    "alt": [],
+    "note": "En el imperativo negativo de «tu» el pronombre puede ir pegado al infinitivo."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Non ti preoccupare. → ___.",
+    "answer": "Non preoccuparti",
+    "alt": [],
+    "note": "Imperativo negativo: non preoccuparti = non ti preoccupare."
+   }
+  ]
+ },
+ "r07-01f": {
+  "consigna": "Completá con pronombres tónicos (los que van después de preposición).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "C'è una lettera per ___ (mí) e una fattura per ___ (usted), dottore.",
+    "answer": "me | Lei",
+    "alt": [],
+    "note": "Después de preposición: me, Lei."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Esci con ___ (ellos) stasera o solo con ___ (ella)?",
+    "answer": "loro | lei",
+    "alt": [],
+    "note": "Después de preposición: loro, lei."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Vuoi venire da ___ (a mi casa) o devi andare da ___ (a su casa, de él)?",
+    "answer": "me | lui",
+    "alt": [],
+    "note": "«Da» + pronombre = a casa de: da me, da lui."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Secondo ___ (nosotros) è pericoloso farlo, e secondo ___ (ustedes)?",
+    "answer": "noi | voi",
+    "alt": [],
+    "note": "«Secondo» + pronombre tónico: secondo noi, secondo voi."
+   }
+  ]
+ },
+ "r07-02g": {
+  "consigna": "Uní las dos oraciones con «o» (a y b) o con «e anche» (c y d), usando pronombres tónicos.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Mi porti al cinema? Lo porti al cinema? → Porti al cinema ___? (¿Me llevás a mí o a él al cine?)",
+    "answer": "me o lui",
+    "alt": [],
+    "note": "Para contrastar dos objetos se usan pronombres tónicos después del verbo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Le vuoi telefonare? Gli vuoi telefonare? → Vuoi telefonare ___? (¿Querés llamarla a ella o llamarlo a él?)",
+    "answer": "a lei o a lui",
+    "alt": [],
+    "note": "Objeto indirecto con contraste: a lei o a lui."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Li chiamerò. Chiamerò Gina. → Chiamerò ___. (Los voy a llamar a ellos y también a Gina.)",
+    "answer": "loro e anche Gina",
+    "alt": [],
+    "note": "Con dos objetos coordinados se usa el pronombre tónico: loro."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Ti manderò una cartolina. Manderò una cartolina ai miei. → Manderò una cartolina ___. (A vos y también a mis viejos.)",
+    "answer": "a te e anche ai miei",
+    "alt": [],
+    "note": "Objeto indirecto coordinado: a te."
+   }
+  ]
+ },
+ "r07-03g": {
+  "consigna": "Elegí el pronombre adecuado: sé, lui, lei o loro.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Eduardo è proprio noioso, parla sempre di ___. (sí mismo)",
+    "options": [
+     "sé",
+     "lui",
+     "lei",
+     "loro"
+    ],
+    "answer": "sé",
+    "alt": [],
+    "note": "«Sé» es reflexivo: se refiere al propio sujeto."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Angela è veramente innamorata, parla sempre di ___. (él)",
+    "options": [
+     "sé",
+     "lui",
+     "lei",
+     "loro"
+    ],
+    "answer": "lui",
+    "alt": [],
+    "note": "Se refiere a otra persona, masculina: lui."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Sono piuttosto antipatici, parlano sempre male di ___. (ella)",
+    "options": [
+     "sé",
+     "lui",
+     "lei",
+     "loro"
+    ],
+    "answer": "lei",
+    "alt": [],
+    "note": "Otra persona, femenina: lei."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Ida è abbastanza egoista, pensa solo a ___. (sí misma)",
+    "options": [
+     "sé",
+     "lui",
+     "lei",
+     "loro"
+    ],
+    "answer": "sé",
+    "alt": [],
+    "note": "Reflexivo: el sujeto piensa en sí mismo."
+   },
+   {
+    "label": "e",
+    "type": "choice",
+    "stem": "I miei figli vogliono sempre fare tutto da ___. (ellos mismos)",
+    "options": [
+     "sé",
+     "lui",
+     "lei",
+     "loro"
+    ],
+    "answer": "sé",
+    "alt": [],
+    "note": "*da sé* = «por sí mismos, solos»: *sé* es el pronombre reflexivo tónico, con acento."
+   },
+   {
+    "label": "f",
+    "type": "choice",
+    "stem": "Amalia vizia i figli, fa proprio tutto per ___. (ellos)",
+    "options": [
+     "sé",
+     "lui",
+     "lei",
+     "loro"
+    ],
+    "answer": "loro",
+    "alt": [],
+    "note": "Se refiere a otras personas (los hijos): loro."
+   }
+  ]
+ },
+ "r07-04f": {
+  "consigna": "Decidí si el pronombre marcado es un pronombre sujeto o un pronombre tónico (después de preposición o como objeto).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "L'attrice farà girare un film su «se stessa».",
+    "options": [
+     "sujeto",
+     "tónico"
+    ],
+    "answer": "tónico",
+    "alt": [],
+    "note": "Va después de «su»: sobre sí misma."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "È la sua vera storia raccontata da «lei stessa».",
+    "options": [
+     "sujeto",
+     "tónico"
+    ],
+    "answer": "tónico",
+    "alt": [],
+    "note": "Va después de «da»: por ella misma."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "«Conosci te stesso» è un motto greco.",
+    "options": [
+     "sujeto",
+     "tónico"
+    ],
+    "answer": "tónico",
+    "alt": [],
+    "note": "Es el objeto de «conosci»: conócete a ti mismo."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "È inutile biasimare gli altri: «tu stesso» sei il problema.",
+    "options": [
+     "sujeto",
+     "tónico"
+    ],
+    "answer": "sujeto",
+    "alt": [],
+    "note": "Es el sujeto de «sei»: vos mismo."
+   },
+   {
+    "label": "e",
+    "type": "choice",
+    "stem": "Sono disposto ad andare «io stesso» a prenderti.",
+    "options": [
+     "sujeto",
+     "tónico"
+    ],
+    "answer": "sujeto",
+    "alt": [],
+    "note": "Refuerza el sujeto: yo mismo."
+   },
+   {
+    "label": "f",
+    "type": "choice",
+    "stem": "Il blog s'intitola «Lettere a me stesso».",
+    "options": [
+     "sujeto",
+     "tónico"
+    ],
+    "answer": "tónico",
+    "alt": [],
+    "note": "Va después de «a»: a mí mismo."
+   },
+   {
+    "label": "g",
+    "type": "choice",
+    "stem": "Il ministro parla a vanvera; lo ha detto «lui stesso».",
+    "options": [
+     "sujeto",
+     "tónico"
+    ],
+    "answer": "sujeto",
+    "alt": [],
+    "note": "Es el sujeto de «ha detto»: él mismo."
+   },
+   {
+    "label": "h",
+    "type": "choice",
+    "stem": "Poveretto, dopo la morte della moglie è diventato l'ombra di «se stesso».",
+    "options": [
+     "sujeto",
+     "tónico"
+    ],
+    "answer": "tónico",
+    "alt": [],
+    "note": "Va después de «di»: la sombra de sí mismo."
+   }
+  ]
+ },
+ "r07-01g": {
+  "consigna": "Reescribí la oración reemplazando el objeto directo por un pronombre (combinado con el indirecto).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Ti manderò il pacco stasera. → ___ manderò stasera.",
+    "answer": "Te lo",
+    "alt": [],
+    "note": "Ante *lo/la/li/le/ne*, *ti* pasa a *te*: *te lo*. En castellano es «te lo», igual."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Alberto vi spiegherà la situazione domani. → Alberto ___ spiegherà domani.",
+    "answer": "ve la",
+    "alt": [],
+    "note": "*vi* + *la* = *ve la*: la i pasa a e delante del directo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Mi compri due etti di prosciutto? → ___ compri due etti?",
+    "answer": "Me ne",
+    "alt": [],
+    "note": "Mi + ne = me ne; «ne» por la cantidad."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Fra poco ci spediranno i biglietti. → Fra poco ___ spediranno.",
+    "answer": "ce li",
+    "alt": [],
+    "note": "Delante de *lo, la, li, le, ne* los pronombres *mi, ti, ci, vi* cambian la i por e: *ci* + *li* da *ce li*."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Le porterò le riviste lunedì, signora. → ___ porterò lunedì, signora.",
+    "answer": "Gliele",
+    "alt": [],
+    "note": "*le* (a usted) + *le* (las revistas) = *gliele*, en una sola palabra; donde el castellano dice «se las»."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Gli daresti un altro po' di vino? → ___ daresti un altro po'?",
+    "answer": "Gliene",
+    "alt": [],
+    "note": "*gli* + *ne* = *gliene*, una sola palabra; *ne* retoma «un poco de vino»."
+   }
+  ]
+ },
+ "r07-02h": {
+  "consigna": "Repetí las preguntas de forma abreviada, reemplazando los sustantivos por pronombres.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Mi presti i tuoi appunti? ___ presti stasera? (¿Me los prestás esta noche?)",
+    "answer": "Me li",
+    "alt": [],
+    "note": "*mi* + *li* = *me li*: la i pasa a e delante del directo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Ti posso spedire le informazioni? ___ spedisco adesso?",
+    "answer": "Te le",
+    "alt": [],
+    "note": "Delante del directo, *ti* se vuelve *te*: *te le*, como el castellano «te las»."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Signore, Le posso dare il mio numero di casa? ___ posso dare adesso?",
+    "answer": "Glielo",
+    "alt": [],
+    "note": "*Le* (usted) + *lo* = *glielo*: el italiano usa *glie-* para él, ella y usted, como nuestro «se»."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Vi mandiamo la chiave, allora? ___ mandiamo domani?",
+    "answer": "Ve la",
+    "alt": [],
+    "note": "*vi* se vuelve *ve* delante de *la*: *ve la*; el castellano diría «se la» para ustedes."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Ti troverò della rucola al mercato. ___ troverò di sicuro.",
+    "answer": "Te ne",
+    "alt": [],
+    "note": "*ti* + *ne* = *te ne*: *ne* retoma el partitivo «della rucola»."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Le parlo spesso dei miei figli. ___ parlo spesso.",
+    "answer": "Gliene",
+    "alt": [],
+    "note": "*le* + *ne* = *gliene*: *ne* retoma «dei miei figli» (de ellos)."
+   }
+  ]
+ },
+ "r07-03h": {
+  "consigna": "¡Dejá, yo lo hago! Usá un pronombre de objeto indirecto y uno de objeto directo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Devo stirare queste camicie. ___ stiro io, se vuoi. (vos) (Te las plancho yo, si querés.)",
+    "answer": "Te le",
+    "alt": [],
+    "note": "*ti* + *le* = *te le* («te las»): la i pasa a e."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Devo imbucare questa lettera. ___ imbuco io, se vuole. (usted)",
+    "answer": "Gliela",
+    "alt": [],
+    "note": "Con *Le* (usted) el indirecto toma la forma *glie-* y se pega al directo: *gliela*, en una sola palabra, donde el castellano dice «se la»."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Dobbiamo aprire questo pacco. ___ apro io, se volete. (ustedes)",
+    "answer": "Ve lo",
+    "alt": [],
+    "note": "*vi* se vuelve *ve* delante de *lo*: *ve lo* («se lo» a ustedes)."
+   }
+  ]
+ },
+ "r07-04g": {
+  "consigna": "Completá usando «ne» y otro pronombre; el castellano te ayuda.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Queste pere sono mature, signora, ___ scelgo qualcuna? (¿Le elijo algunas?)",
+    "answer": "Gliene",
+    "alt": [],
+    "note": "*Le* (usted) + *ne* = *gliene*: *ne* toma una parte de las peras."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Sono tre etti di formaggio, signore, ___ tolgo un po'? (¿Le saco un poco?)",
+    "answer": "Gliene",
+    "alt": [],
+    "note": "*Le* + *ne* = *gliene*: *ne* toma «un poco» del queso."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "I panini sono freschi, ragazzi, ___ incarto un paio? (¿Les envuelvo un par?)",
+    "answer": "Ve ne",
+    "alt": [],
+    "note": "*vi* + *ne* = *ve ne*: *ne* toma «un par» de los panes."
+   }
+  ]
+ },
+ "r07-05c": {
+  "consigna": "Preguntá quién se lo dijo, usando el pronombre adecuado para el interlocutor y sin olvidar «lo».",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Sai che si è sposato Antonio? – Davvero? Chi ___ ha detto? (¿Quién te lo dijo?)",
+    "answer": "te l'",
+    "alt": [
+     "te lo"
+    ],
+    "note": "*ti* + *lo* = *te lo*, y *lo* se apostrofa ante *ha*: *te l'ha detto*."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Domani sono chiuso, signore, c'è sciopero. – Davvero? Chi ___ ha detto? (¿Quién se lo dijo? – usted)",
+    "answer": "gliel'",
+    "alt": [
+     "glielo"
+    ],
+    "note": "*Le* (usted) + *lo* = *glielo*, que ante *ha* se apostrofa: *gliel'ha detto*."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Siamo stati bocciati tutti quanti. – Davvero? Chi ___ ha detto? (¿Quién se lo dijo a ustedes?)",
+    "answer": "ve l'",
+    "alt": [
+     "ve lo"
+    ],
+    "note": "*vi* se vuelve *ve* delante de *lo*, y *lo* se apostrofa ante *ha*: *ve l'ha detto*."
+   }
+  ]
+ },
+ "r07-06b": {
+  "consigna": "¡Te lo prometo! Completá las respuestas con los pronombres adecuados.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Mi farai sapere quando arrivi? Sì, ___ farò sapere senz'altro, ___ prometto!",
+    "answer": "te lo | te lo",
+    "alt": [],
+    "note": "Ti + lo = te lo; «lo» reemplaza lo que se va a comunicar."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Scusi, mi sa dire quando sarà pronto il lavoro? ___ dirò domani, signora, ___ prometto.",
+    "answer": "Glielo | glielo",
+    "alt": [],
+    "note": "*Le* (a usted) + *lo* = *glielo*: una sola palabra, como «se lo»."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Facci sapere com'è andato, mi raccomando! Certo, ___ racconterò di sicuro, ___ prometto!",
+    "answer": "ve lo | ve lo",
+    "alt": [],
+    "note": "*vi* + *lo* = *ve lo*: la i pasa a e delante de *lo*."
+   }
+  ]
+ },
+ "r07-07b": {
+  "consigna": "Traducí al italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Si no pueden venir, ¿nos avisan? (voi)",
+    "answer": "Se non potete venire, ce lo dite?",
+    "alt": [
+     "Se non potete venire, ce lo direte?",
+     "Se non potete venire, ce lo fate sapere?",
+     "Se non potete venire, ci avvisate?",
+     "Se non potete venire, ci avviserete?"
+    ],
+    "note": "Ci + lo = ce lo; «lo» reemplaza el hecho de no poder venir."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Anna, cuando te vayas, ¿me avisás?",
+    "answer": "Anna, quando parti, me lo fai sapere?",
+    "alt": [
+     "Anna, quando parti, me lo dici?",
+     "Anna, quando te ne vai, me lo fai sapere?",
+     "Anna, quando te ne vai, me lo dici?",
+     "Anna, quando partirai, me lo fai sapere?",
+     "Anna, quando partirai, me lo dici?",
+     "Anna, quando parti, mi avvisi?",
+     "Anna, quando te ne vai, mi avvisi?",
+     "Anna, quando partirai, mi avvisi?",
+     "Anna, quando vai via, me lo fai sapere?",
+     "Anna, quando vai via, me lo dici?",
+     "Anna, quando vai via, mi avvisi?"
+    ],
+    "note": "«Avisar» = *far sapere*; el italiano retoma lo que se avisa con *lo*: *me lo fai sapere?* (*mi* + *lo* = *me lo*)."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Ivo, si querés venir, ¿se lo podés decir a él?",
+    "answer": "Ivo, se vuoi venire, glielo puoi dire?",
+    "alt": [
+     "Ivo, se vuoi venire, puoi dirglielo?"
+    ],
+    "note": "*gli* + *lo* = *glielo*: va delante del modal o pegado al infinitivo (*puoi dirglielo*)."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "¡Te voy a ayudar, Mina, te lo prometo!",
+    "answer": "Ti aiuterò, Mina, te lo prometto!",
+    "alt": [
+     "Ti aiuto, Mina, te lo prometto!"
+    ],
+    "note": "Delante de *lo*, *ti* se vuelve *te*: *te lo prometto*, el mismo orden que en castellano."
+   }
+  ]
+ },
+ "r07-08b": {
+  "consigna": "Usando lavarsi, togliersi, comprarsi, occuparsi di y permettersi, respondé en italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "I miei capelli sono proprio sporchi! – (¿Por qué no te lo lavás?)",
+    "answer": "Perché non te li lavi?",
+    "alt": [],
+    "note": "«Capelli» es plural: ti + li = te li."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Mi tiene troppo caldo questo cappotto! – (¿Por qué no se lo saca, señora?)",
+    "answer": "Perché non se lo toglie, signora?",
+    "alt": [],
+    "note": "El reflexivo *si* + *lo* = *se lo*: *se lo toglie* («se lo saca»); con *Lei* el verbo va en tercera persona."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Sono belle quelle fragole! – (¿Nos compramos algunas, entonces?)",
+    "answer": "Ce ne compriamo qualcuna, allora?",
+    "alt": [
+     "Allora ce ne compriamo qualcuna?",
+     "Ce ne compriamo un po', allora?",
+     "Allora ce ne compriamo un po'?",
+     "Ce ne compriamo alcune, allora?",
+     "Allora ce ne compriamo alcune?"
+    ],
+    "note": "*ci* + *ne* = *ce ne*: *ne* retoma «algunas» de las frutillas."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Che freddo che fa! Chiudiamo la finestra? – (Está bien, me ocupo yo.)",
+    "answer": "Va bene, me ne occupo io.",
+    "alt": [
+     "D'accordo, me ne occupo io."
+    ],
+    "note": "«Occuparsi di»: mi + ne = me ne occupo."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Perché non fate un viaggio in Messico? – (No podemos permitírnoslo.)",
+    "answer": "Non possiamo permettercelo.",
+    "alt": [
+     "Non ce lo possiamo permettere."
+    ],
+    "note": "Ci + lo = ce lo; pegado al infinitivo: permettercelo."
+   }
+  ]
+ },
+ "r07-10b": {
+  "consigna": "Traducí al italiano usando andarsene, fregarsene, sentirsela, prendersela o cavarsela.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Es tarde, me voy.",
+    "answer": "È tardi, me ne vado.",
+    "alt": [],
+    "note": "«Andarsene»: me ne vado."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "¡Pero a él no le importa nada!",
+    "answer": "Ma lui se ne frega!",
+    "alt": [
+     "Ma se ne frega!"
+    ],
+    "note": "«Fregarsene»: se ne frega (coloquial)."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "¿Te animás a venir al cine? (tu)",
+    "answer": "Te la senti di venire al cinema?",
+    "alt": [],
+    "note": "«Sentirsela di»: te la senti di…?"
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "¿Por qué te ofendés? (tu)",
+    "answer": "Perché te la prendi?",
+    "alt": [],
+    "note": "«Prendersela»: ofenderse, te la prendi."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Me las arreglé en el examen. (all'esame)",
+    "answer": "Me la sono cavata all'esame.",
+    "alt": [],
+    "note": "«Cavarsela»: el participio concuerda con «la»: cavata."
+   }
+  ]
+ },
+ "r07-01h": {
+  "consigna": "Corregí estas ideas sobre Italia completando con «si» y otro pronombre.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "In Italia, di solito, il Campari si beve come digestivo. – Ma no, ___ beve come aperitivo!",
+    "answer": "lo si",
+    "alt": [],
+    "note": "Con el «si» impersonal, el pronombre de objeto va delante: lo si beve."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "In Italia, di solito, la grappa si beve come aperitivo. – Ma no, ___ beve come digestivo!",
+    "answer": "la si",
+    "alt": [],
+    "note": "La grappa = la: la si beve."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "In Italia, di solito, il sale si vende solo in tabaccheria. – Ma no, adesso ___ vende dappertutto!",
+    "answer": "lo si",
+    "alt": [],
+    "note": "Il sale = lo: lo si vende."
+   }
+  ]
+ },
+ "r07-02i": {
+  "consigna": "¿Cómo me veo? Reescribí la oración cambiando el posesivo por un pronombre indirecto combinado con «si».",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "La tua calza si è bucata. → ___ è bucata la calza.",
+    "answer": "Ti si",
+    "alt": [],
+    "note": "El pronombre indirecto va delante de «si»: ti si è bucata."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "La sua cravatta si è sporcata. (de él) → ___ è sporcata la cravatta.",
+    "answer": "Gli si",
+    "alt": [],
+    "note": "A él: gli si."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "La sua giacca si è strappata. (de ella) → ___ è strappata la giacca.",
+    "answer": "Le si",
+    "alt": [],
+    "note": "A ella: le si."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Il mio bottone si è staccato. → ___ è staccato il bottone.",
+    "answer": "Mi si",
+    "alt": [],
+    "note": "A mí: mi si."
+   }
+  ]
+ },
+ "r07-03i": {
+  "consigna": "Completá la segunda oración reemplazando el lugar o la cosa por un pronombre combinado con «si».",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Su questo materasso si dorme bene. ___ dorme benissimo!",
+    "answer": "Ci si",
+    "alt": [],
+    "note": "*ci* (sobre el colchón) + *si* impersonal = *ci si*, en ese orden: *ci si dorme benissimo*."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "In Italia si sta bene. ___ sta benissimo!",
+    "answer": "Ci si",
+    "alt": [],
+    "note": "«Ci» = en Italia: ci si sta."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "In questo compito non si capisce niente. Non ___ capisce assolutamente niente!",
+    "answer": "ci si",
+    "alt": [],
+    "note": "*ci* retoma el lugar (en este trabajo) y va delante del *si* impersonal: *non ci si capisce niente*."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Si riuscirà a fare un bel lavoro. ___ riuscirà di sicuro.",
+    "answer": "Ci si",
+    "alt": [],
+    "note": "«Ci» reemplaza «a fare un bel lavoro»."
+   }
+  ]
+ },
+ "r07-04h": {
+  "consigna": "Reescribí la oración reemplazando «uno» por la construcción impersonal adecuada.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Durante le vacanze uno si alza tardi. → Durante le vacanze ___ alza tardi.",
+    "answer": "ci si",
+    "alt": [],
+    "note": "Con verbos reflexivos el impersonal es «ci si» (no «si si»)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Uno si veste bene per andare a messa. → ___ veste bene per andare a messa.",
+    "answer": "Ci si",
+    "alt": [],
+    "note": "Reflexivo impersonal: ci si veste."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "D'estate uno si diverte in montagna. → D'estate ___ diverte in montagna.",
+    "answer": "ci si",
+    "alt": [],
+    "note": "Reflexivo impersonal: ci si diverte."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Uno si abitua al cibo inglese. → ___ abitua al cibo inglese.",
+    "answer": "Ci si",
+    "alt": [],
+    "note": "Reflexivo impersonal: ci si abitua."
+   }
+  ]
+ },
+ "r07-05d": {
+  "consigna": "Preparás todo para diez invitados, pero las cosas no salen bien. Respondé en italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Quanti bicchieri ci sono? – (Hay cinco.)",
+    "answer": "Ce ne sono cinque.",
+    "alt": [],
+    "note": "Ci + ne = ce ne; con números se necesita «ne»."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "C'è della birra in casa? – (No, no hay.)",
+    "answer": "No, non ce n'è.",
+    "alt": [],
+    "note": "«No hay (de eso)» = *non ce n'è*: *ci* pasa a *ce* ante *ne*, y *ne* se apostrofa ante *è*."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Abbiamo abbastanza formaggio, vero? – (No, hay muy poco.)",
+    "answer": "No, ce n'è pochissimo.",
+    "alt": [
+     "No, ce n'è molto poco.",
+     "No, ce n'è poco."
+    ],
+    "note": "Ce n'è + cantidad en singular."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Ci sono poche candele. – (Es cierto, hay muy pocas.)",
+    "answer": "È vero, ce ne sono pochissime.",
+    "alt": [
+     "È vero, ce ne sono molto poche."
+    ],
+    "note": "Ce ne sono + cantidad concordada con «candele»."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Ho trovato altre candele. – (¡Bien! ¿Cuántas hay?)",
+    "answer": "Bene, quante ce ne sono?",
+    "alt": [],
+    "note": "Quante + ce ne sono."
+   }
+  ]
+ },
+ "r07-01i": {
+  "consigna": "¡Todavía no! Reemplazá el sustantivo por un pronombre y hacé concordar el participio.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Hanno scelto i libri? – No, non ___ hanno ancora ___.",
+    "answer": "li | scelti",
+    "alt": [],
+    "note": "Con «li» delante, el participio concuerda: scelti."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Avete innaffiato le piante? – No, non ___ abbiamo ancora ___.",
+    "answer": "le | innaffiate",
+    "alt": [
+     "le | annaffiate"
+    ],
+    "note": "Con «le» delante, el participio concuerda: innaffiate."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ha mandato la lettera? – No, non ___ ha ancora ___.",
+    "answer": "l' | mandata",
+    "alt": [],
+    "note": "Con «l'» (la) delante, el participio concuerda: mandata."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Hanno prenotato i biglietti? – No, non ___ hanno ancora ___.",
+    "answer": "li | prenotati",
+    "alt": [],
+    "note": "Con «li» delante: prenotati."
+   }
+  ]
+ },
+ "r07-02j": {
+  "consigna": "¿No te acordás? Decí que ya está hecho: completá con el pronombre y la terminación del participio.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Mi presti i tuoi appunti? – Ma te ___ ho prestat___ l'altro giorno!",
+    "answer": "li | i",
+    "alt": [],
+    "note": "Te li → prestati: el participio concuerda con el pronombre directo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Ci mandi le fatture domani? – Ma ve ___ abbiamo mandat___ la settimana scorsa!",
+    "answer": "le | e",
+    "alt": [],
+    "note": "Ve le → mandate."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Mi puoi comprare gli stuzzicadenti? – Ma te ___ ho comprat___ stamattina!",
+    "answer": "li | i",
+    "alt": [],
+    "note": "Te li → comprati."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Ci puoi portare la carta igienica? – Ma ve ___ abbiamo portat___ ieri!",
+    "answer": "l' | a",
+    "alt": [
+     "la | a"
+    ],
+    "note": "Ve l' (la) → portata."
+   }
+  ]
+ },
+ "r07-03j": {
+  "consigna": "¡Qué hiciste! Reemplazá el objeto por un pronombre y hacé concordar el participio.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Sai che ho rotto i piatti nuovi di Giulia? – Come! ___ hai rott___ tutti?",
+    "answer": "Li | i",
+    "alt": [],
+    "note": "Li → rotti."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Sai che ho rovinato la lavatrice di Antonio? – Come! ___ hai rovinat___ completamente?",
+    "answer": "L' | a",
+    "alt": [
+     "La | a"
+    ],
+    "note": "L' (la) → rovinata."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Sai che ho sfasciato la macchina di Rina e Roberto? – Come! ___ hai sfasciat___ del tutto?",
+    "answer": "L' | a",
+    "alt": [
+     "La | a"
+    ],
+    "note": "L' (la) → sfasciata."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Sai che ho distrutto il computer di Fabio? – Come! ___ hai distrutt___ totalmente?",
+    "answer": "L' | o",
+    "alt": [
+     "Lo | o"
+    ],
+    "note": "L' (lo) → distrutto."
+   }
+  ]
+ },
+ "r07-04i": {
+  "consigna": "¿Cuánto? Completá las dos respuestas haciendo concordar el participio con «ne».",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Quante pizze hai ordinato? Ne ho ordinat___ molte. / Ne ho ordinat___ quattro.",
+    "answer": "e | e",
+    "alt": [],
+    "note": "«Ne» se refiere a «pizze» (femenino plural): ordinate."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Quanti fagiolini hai comprato? Ne ho comprat___ tanti. / Ne ho comprat___ due chili.",
+    "answer": "i | i",
+    "alt": [],
+    "note": "«Fagiolini» y «chili» son masculinos plurales: comprati."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Quanto vino hai ordinato? Ne ho ordinat___ parecchio. / Ne ho ordinat___ tre bottiglie.",
+    "answer": "o | e",
+    "alt": [
+     "o | o"
+    ],
+    "note": "Parecchio (vino) → ordinato; con «tre bottiglie» concuerda con la cantidad: ordinate."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Quanta marmellata hai comprato? Ne ho comprat___ poca. / Ne ho comprat___ un barattolo.",
+    "answer": "a | o",
+    "alt": [
+     "a | a"
+    ],
+    "note": "Poca (marmellata) → comprata; con «un barattolo» concuerda con la cantidad: comprato."
+   }
+  ]
+ },
+ "r07-05e": {
+  "consigna": "Completá con el participio pasado y la concordancia correcta con «ne».",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Antonietta ha raccolto dei fiori e me ne ha ___ alcuni. (dare)",
+    "answer": "dati",
+    "alt": [],
+    "note": "Ne (fiori) + alcuni → dati."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Pierluigi ha comprato delle albicocche e me ne ha ___ alcune. (regalare)",
+    "answer": "regalate",
+    "alt": [],
+    "note": "Ne (albicocche) + alcune → regalate."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Mio cognato ha scattato delle bellissime foto e me ne ha ___ qualcuna. (dare)",
+    "answer": "data",
+    "alt": [],
+    "note": "Qualcuna es singular femenino → data."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Il mio vicino ha trovato dei bicchieri antichi e me ne ha ___ qualcuno. (offrire)",
+    "answer": "offerto",
+    "alt": [],
+    "note": "Qualcuno es singular masculino → offerto."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Giorgio ha riparato le sedie e io ne ho ___ un paio a casa. (portare)",
+    "answer": "portate",
+    "alt": [
+     "portato"
+    ],
+    "note": "Concuerda con «sedie» (portate) o con «un paio» (portato)."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Simone ha della grappa meravigliosa in casa e ne abbiamo ___ un po'. (bere)",
+    "answer": "bevuta",
+    "alt": [
+     "bevuto"
+    ],
+    "note": "Concuerda con «grappa» (bevuta); con «un po'» también se acepta bevuto."
+   }
+  ]
+ },
+ "r07-06c": {
+  "consigna": "¡Pobres! Completá la terminación del participio.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Mio figlio si è slogato la caviglia. – Poveretto, se l'è slogat___ sciando?",
+    "answer": "a",
+    "alt": [],
+    "note": "Con «l'» (la caviglia) delante, el participio concuerda con el objeto: slogata."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Mia figlia si è storta il piede. – Poveretta, se l'è stort___ correndo?",
+    "answer": "o",
+    "alt": [],
+    "note": "«L'» = il piede: storto."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "La mia fidanzata si è bruciata le mani. – Poveretta, se le è bruciat___ cucinando?",
+    "answer": "e",
+    "alt": [],
+    "note": "«Le» = le mani: bruciate."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Il mio fidanzato si è rotto la spalla. – Poveretto, se l'è rott___ cadendo?",
+    "answer": "a",
+    "alt": [],
+    "note": "«L'» = la spalla: rotta."
+   }
+  ]
+ }
+}

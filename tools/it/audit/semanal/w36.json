@@ -1,0 +1,259 @@
+{
+ "week": 36,
+ "title": "Si passivante e si impersonale",
+ "level": "B2",
+ "revisado": {
+  "items": 33,
+  "sfide": 3,
+  "bloques_teoria": 5,
+  "lecturas": 3,
+  "dictogloss": 1,
+  "suoni": 1
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana italianamente muy limpia: todas las respuestas de los ítems y las reglas centrales (concordancia del passivante, singular del impersonale, adjetivo plural, ci si, essere en compuestos) son correctas. Los problemas reales son la nota fonética falsa y el ítem de escucha ambiguo en suoni, y varios contenidos evaluados sin enseñar (lo si, se ne, ci locativo, passivante compuesto). La práctica es casi toda de reconocimiento y de dificultad más A2-B1 que B2.",
+ "bien": [
+  "Reglas correctas y bien ordenadas: passivante, impersonale, adjetivo plural, ci si, si por noi, con ejemplos traducidos.",
+  "Buen contraste con el español y avisos de errores típicos (si vende libri, tranquillo/tranquilli).",
+  "Mezcla razonable de tipos: choice, cloze, translate, fixerr, scopri; los accept de traducción son generosos.",
+  "El dictogloss del mate es natural, culturalmente correcto y los chunks coinciden con el texto.",
+  "La lectura fl-si es natural, usa muy bien la gramática (incluido «se lo si chiede») y tiene preguntas válidas."
+ ],
+ "hallazgos": [
+  {
+   "id": "suoni c-043",
+   "lang": "it",
+   "severidad": "error",
+   "actual": "dice = [diche]; si (impersonal) sin acento.",
+   "propuesta": "dice = [ˈditʃe] (c ante e = /tʃ/); si (impersonal) sin acento.",
+   "motivo": "«dice» se pronuncia /ˈditʃe/, no [diche]: la nota enseña una pronunciación falsa."
+  },
+  {
+   "id": "suoni c-043",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Sì dice così.",
+   "propuesta": "Reemplazar el distractor por uno audiblemente distinto (p. ej. «Si dicono così.» o «Si dice cosi'.»).",
+   "motivo": "«Si» y «Sì» suenan idéntico: en un ítem de escucha dos opciones serían correctas; solo el ítem escrito los distingue."
+  },
+  {
+   "id": "item rf-35-24",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Affittasi appartamenti",
+   "propuesta": "Quitar «Affittasi appartamenti» de accept (o aceptar solo «Si affittano appartamenti» y comentar «affittasi» en la nota).",
+   "motivo": "Aceptar la forma fija sin concordancia contradice la regla y el aviso de la lección («si vende libri» está mal); además «se alquilan» no equivale a «affittasi»."
+  },
+  {
+   "id": "item rf-35-23",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "In Argentina si cena tardi la sera",
+   "propuesta": "Eliminar esa variante de accept.",
+   "motivo": "«cenare» ya implica la noche: «la sera» es redundante y poco natural."
+  },
+  {
+   "id": "item g2-cb-26",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Ha finito il lavoro. È uscito. (dopo che)",
+   "propuesta": "Sustituir por un ítem de la semana (p. ej. unir dos frases con si passivante/impersonale).",
+   "motivo": "Ítem de conectores/trapassato sin relación con el tema de la semana; rompe la coherencia y no practica «si»."
+  },
+  {
+   "id": "lesson:0",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "«Si vende libri» está mal: *si vendono libri*, *si affittano camere*, *si cercano collaboratori*. Los carteles reales se equivocan seguido; el examen no perdona.",
+   "propuesta": "Matizar: «si vende libri» es la lectura impersonal, frecuente en el uso pero censurada por la norma escolar; «el examen suele penalizarlo».",
+   "motivo": "«Está mal» y «el examen no perdona» son categóricos; la construcción es real en el uso y discutida por las gramáticas."
+  },
+  {
+   "id": "lesson:2",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "aparece en todos los exámenes B2.",
+   "propuesta": "«es un punto frecuente en exámenes de nivel B2».",
+   "motivo": "Exageración no verificable («todos los exámenes»)."
+  },
+  {
+   "id": "item rf-35-11",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Alla festa si ___ (bere) troppi spritz.",
+   "propuesta": "Agregar a la lección la concordancia de tiempos compuestos del passivante (si sono bevuti troppi spritz) o mover el ítem.",
+   "motivo": "La lección solo enseña «si è mangiato» (impersonal); no explica el auxiliar+participio concordado del passivante."
+  },
+  {
+   "id": "item rf-35-12",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Al carnevale di Venezia ci si ___ divertiti molto.",
+   "propuesta": "Añadir en el bloque «ci si» un ejemplo compuesto: ci si è divertiti.",
+   "motivo": "Se evalúa «ci si è + participio plural» sin haberlo mostrado en los ejemplos de la lección."
+  },
+  {
+   "id": "item rf-35-20",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Il caffè? ___ beve al banco, in piedi.",
+   "propuesta": "Agregar a la lección un bloque «pronombre + si» (lo si, ne → se ne) o quitar los ítems.",
+   "motivo": "«Lo si» no se enseña en ningún bloque de la lección."
+  },
+  {
+   "id": "item rf-35-21",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Del cambiamento climatico ___ parla ogni giorno.",
+   "propuesta": "Enseñar «si + ne = se ne» en la lección antes de evaluarlo.",
+   "motivo": "Contenido no enseñado (combinación si+ne)."
+  },
+  {
+   "id": "item rf-35-20",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Se lo",
+   "propuesta": "Cambiar el distractor «Se lo» o aclarar que se pide la lectura impersonal.",
+   "motivo": "«Se lo beve» es italiano válido (reflexivo enfático), aunque no impersonal: depende solo de la aclaración «(uno lo toma)»."
+  },
+  {
+   "id": "item rf-35-14",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Elegí la forma correcta (enfermos).",
+   "propuesta": "Elegí la forma correcta.",
+   "motivo": "La aclaración «(enfermos)» delata el plural y quita el foco de la regla."
+  },
+  {
+   "id": "item g2-sc-20",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Leé las frases y descubrí la regla",
+   "propuesta": "Mostrar 2-3 frases de contraste en el enunciado, o cambiar la consigna a «Elegí la regla».",
+   "motivo": "No hay frases visibles para descubrir; la opción correcta es además la más larga y detallada."
+  },
+  {
+   "id": "item g2-sc-20-a",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "In questo negozio si ___ scarpe.",
+   "propuesta": "Variar el contexto (o eliminar uno de los dos).",
+   "motivo": "Casi duplicado de rf-35-01 («In questo negozio si ___ biciclette usate»)."
+  },
+  {
+   "id": "item g2-sc-20-c",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Da qui si ___ (vedere) le montagne.",
+   "propuesta": "Variar (o eliminar).",
+   "motivo": "Casi duplicado de rf-35-03 (si vedono le Alpi)."
+  },
+  {
+   "id": "item g2-va-62",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Qui si vive tranquillo.",
+   "propuesta": "Usar otra frase para el fixerr.",
+   "motivo": "Es el inverso exacto de la respuesta de g2-ct-49; el alumno ya lo vio."
+  },
+  {
+   "id": "sfide r07-02i",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "Personal pronouns",
+   "propuesta": "Traducir el rótulo del capítulo (p. ej. «Pronombres personales») si es visible al alumno.",
+   "motivo": "Texto en inglés posiblemente visible."
+  },
+  {
+   "id": "sfide r07-03i",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Su questo materasso si dorme bene. ___ dorme benissimo!",
+   "propuesta": "Enseñar en la lección el «ci» locativo + si (ci si dorme) o marcar las sfide como avanzadas.",
+   "motivo": "Ni «ci» locativo ni el pronombre indirecto + si (ti si è bucata) están en la lección."
+  },
+  {
+   "id": "vocab riavvia",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "riavvia",
+   "propuesta": "riavviare",
+   "motivo": "La entrada de vocabulario está en forma conjugada; las demás son infinitivos/sustantivos."
+  },
+  {
+   "id": "lettura c-beccaria",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "presente storico e imperfetto",
+   "propuesta": "Sustituir por un texto con si passivante/impersonale o marcarlo como lectura cultural.",
+   "motivo": "El texto casi no usa la gramática de la semana (solo «Si oppone», que no es impersonal); la caza de formas no practica «si»."
+  },
+  {
+   "id": "lettura c-beccaria",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "sostiene",
+   "propuesta": "afirma, sostiene que",
+   "motivo": "La glosa «sostiene → sostiene» es tautológica."
+  },
+  {
+   "id": "lettura w-36",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Al bar si paga prima alla cassa e poi si ordina al banco.",
+   "propuesta": "Alinear con fl-si («si paga prima o dopo a seconda del bar») o diferenciar los textos.",
+   "motivo": "Las dos lecturas dicen cosas distintas sobre pagar y repiten cappuccino/caffè in piedi."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Corregir c-043: nota fonética ([ˈditʃe]) y cambiar el distractor «Sì dice così.», idéntico en audio.",
+   "por_que": "Es el único error objetivo y afecta a un ítem de escucha."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar a la lección un bloque «si con pronombres y tiempos compuestos»: lo si, se ne, ci si è divertiti, si sono bevuti troppi spritz.",
+   "por_que": "Los ítems rf-35-11, 12, 20, 21 y las sfide evalúan estos puntos sin enseñarlos."
+  },
+  {
+   "prioridad": "media",
+   "que": "Subir la dificultad a nivel B2: más producción (transformar de «uno/la gente» a si, cloze con adjetivo plural y ci si en compuestos, si + modal + plural: si devono pulire le finestre).",
+   "por_que": "Hay 33 ítems pero solo 5 traducciones y casi todo es elección de una forma; el adjetivo plural y ci si tienen pocos ítems."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reemplazar g2-cb-26 y reducir duplicados (g2-sc-20-a/rf-35-01, g2-sc-20-c/rf-35-03, ct-49/va-62).",
+   "por_que": "Ahorran ítems para los puntos poco cubiertos."
+  },
+  {
+   "prioridad": "media",
+   "que": "Sumar ítems del si toscano por noi (comprensión: «Allora, si mangia?»).",
+   "por_que": "Se enseña pero no se practica en ningún ítem."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Rehacer suoni: pares mínimos (ci si /tʃi si/ vs si si), entonación de «Allora, si mangia?», acento.",
+   "por_que": "Solo hay un ítem connesso y las demás listas están vacías."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Usar el vocabulario de la semana (pulire, scaricare, annoiarsi, palazzo...) en ítems, y diferenciar las lecturas w-36/fl-si; cambiar c-beccaria por un texto sobre si.",
+   "por_que": "Casi no se recicla el vocabulario y las lecturas se solapan."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 1,
+   "dudas": 0
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

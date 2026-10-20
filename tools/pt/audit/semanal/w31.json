@@ -1,0 +1,277 @@
+{
+ "week": 31,
+ "title": "Discurso indireto e correlação de tempos",
+ "level": "B2",
+ "revisado": {
+  "items": 48,
+  "bloques_teoria": 7,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 6,
+  "radio": 0,
+  "otros": 4
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida: la teoría de la correlación de tiempos es correcta, ordenada y con buen contraste con los calcos rioplatenses (pedir que vaya, preguntó que si). Los ejercicios son casi siempre correctos; los problemas son un caso de doble respuesta (col-31-1), un accept falso (no outro dia), varios ítems casi duplicados y falta de práctica para aqui→lá, ontem, agora, segundo/de acordo com y el vocabulario de prensa. Un texto modelo (breve) no aplica lo que enseña la lección.",
+ "bien": [
+  "Tabla de correlación clara con ejemplos y traducción, incluida la cadena futuro do subjuntivo → imperfeito.",
+  "Advertencias de calcos del español rioplatense muy pertinentes (que vaya / que si / según).",
+  "Progresión adecuada reconocimiento (choice) → producción (cloze, translate, combina) con fixerr y garden como contraste.",
+  "Accept amplios y realistas en los translate (tinha/havia, ia/ -ria, para eu ir/pra eu ir).",
+  "Lecturas y textos del tramo con contenido auténtico (Carolina Maria de Jesus, Vargas, desiertos de noticias) y buena densidad de discurso indirecto.",
+  "Los datos históricos de la lectura cultural (cifras del tráfico, Valongo, leyes de 1850–1888, feijoada, feriado de Zumbi) son correctos."
+ ],
+ "hallazgos": [
+  {
+   "id": "item col-31-1",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Escolha a palavra que forma a combinação usual. / O jornalista disse que ia ___ contato com o ministério. [entrar em | meter-se em | ficar em]",
+   "propuesta": "Cambiar la opción «ficar em» (p. ej. por «fazer») o el enunciado",
+   "motivo": "«Ficar em contato com» es muy natural: hay dos opciones correctas (entrar em / ficar em), aunque cambien de sentido."
+  },
+  {
+   "id": "item col-31-2",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "A ministra afirmou que a lei ___ em vigor em janeiro. [entraria | ficaria | daria]",
+   "propuesta": "Reemplazar «ficaria» por un distractor claramente incorrecto (p. ej. «estaria a»)",
+   "motivo": "«Ficar em vigor» existe (permanecer vigente); «ficaria em vigor em janeiro» no es descartable por regla."
+  },
+  {
+   "id": "item s3-31-42",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "\"accept\": [\"no dia seguinte\", \"o dia seguinte\", \"no outro dia\"]",
+   "propuesta": "Quitar «no outro dia»",
+   "motivo": "En pt-BR «no outro dia» significa «el otro día» (hace poco), no «al día siguiente»; enseña un falso amigo."
+  },
+  {
+   "id": "item s3-31-42",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "amanhã → no dia seguinte; ontem → no dia anterior o na véspera.",
+   "propuesta": "«…no dia anterior o na véspera» → «…o na véspera» está bien en español, pero dejar claro que es «ou» en portugués si se cita la forma",
+   "motivo": "Mezcla de idiomas en una frase que cita formas portuguesas; leve riesgo de confusión."
+  },
+  {
+   "id": "item s3-31-43",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"accept\": [\"naquele dia\", \"nesse dia\", \"aquele dia\"]",
+   "propuesta": "Aceptar también «no mesmo dia»; considerar quitar «aquele dia» (sin preposición no encaja tras «que»)",
+   "motivo": "Respuesta abierta con accept corto y una variante dudosa."
+  },
+  {
+   "id": "item s3-31-38",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "«Tenia» es el español sin tilde.",
+   "propuesta": "«Tenía» (español) no es portugués: ter → tinha.",
+   "motivo": "La nota habla de «sin tilde» pero el español sí lleva tilde (tenía); confuso."
+  },
+  {
+   "id": "item s3-31-16",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "«Aqui tudo dá.» → Caminha escreveu ao rei que naquela terra tudo ___ (dar).",
+   "propuesta": "Atribuir la frase a una fuente real (p. ej. otra cita real) o presentarla como paráfrasis: «Segundo a tradição popular, ...»",
+   "motivo": "El enunciado pone en boca de Caminha una cita que la propia nota admite que no es suya."
+  },
+  {
+   "id": "item s3-31-07",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "«Tragam bebida!» → Ela pediu que ___ bebida. [trouxéssemos | tragamos | trazíamos]",
+   "propuesta": "Agregar sujeto: «Ela pediu que nós ___ bebida» o ««Tragam bebida!» (a nós) → ...»",
+   "motivo": "Sin sujeto en el enunciado, «trouxessem» también sería correcto; solo la opción única lo salva."
+  },
+  {
+   "id": "item s3-31-35",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "A Ana me contou que adorava o meu bairro, a Tijuca, onde ela mora desde criança.",
+   "propuesta": "Mantener, pero aceptar/avisar que «mora» podría pasar a «morava» (hecho todavía vigente)",
+   "motivo": "El mismo enunciado deja «mora» sin corregir mientras la lección exige retroceso; el alumno puede dudar."
+  },
+  {
+   "id": "item s3-31-37",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Veja como os três exemplos são relatados e complete o quarto. / «Eu vou» → disse que ___",
+   "propuesta": "Verificar que se vean los tres ejemplos previos; si no, la consigna es engañosa",
+   "motivo": "El dossier no muestra los ejemplos en que se apoya la consigna 'garden'."
+  },
+  {
+   "id": "item s3-31-14",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "«Não vou ao ensaio.» → A Bia avisou que não ___ (ir) ao ensaio.",
+   "propuesta": "Variar la forma o sustituir por otro verbo",
+   "motivo": "Triplica «vou → ia» con s3-31-02 y s3-31-37 (casi duplicados); lo mismo s3-31-21/s3-31-31 (quanto custava) y s3-31-01/s3-31-44 (estou → estava)."
+  },
+  {
+   "id": "item s3-31-32",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"A vizinha comentou que o síndico tinha se mudado\"",
+   "propuesta": "Quitar «tinha se mudado» de accept",
+   "motivo": "«Mudar-se» = mudarse de casa; no equivale a «se había ido» y cambia el sentido."
+  },
+  {
+   "id": "item s3-31-28",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Me pidió que fuera con ella.",
+   "propuesta": "«Ela me pediu que eu fosse com ela» y aceptar también «que ele fosse» si se desea, o aclarar el sujeto",
+   "motivo": "El español «que fuera» no indica si el sujeto es «yo» u otro; la consigna deja ambigüedad (accept incluye «que fosse» sin sujeto)."
+  },
+  {
+   "id": "lesson:2:warn",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "En portugués, con *pediu* va imperfeito del subjuntivo: *pediu que eu fosse*, nunca «que eu vá».",
+   "propuesta": "«…lo normativo es *pediu que eu fosse*; «que eu vá» suena mal/informal cuando el pedido ya pasó»",
+   "motivo": "«Nunca» es absoluto; el presente es posible en la lengua oral si el pedido sigue vigente."
+  },
+  {
+   "id": "lesson:1:more",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "El imperfeito y el futuro do pretérito ya no cambian.",
+   "propuesta": "«…el imperfeito puede volverse *tinha + participio* (*morava* → *tinha morado*) pero en la práctica suele quedar»",
+   "motivo": "Simplificación: en la norma culta el imperfeito puede pasar a mais-que-perfeito."
+  },
+  {
+   "id": "vocab espalhar",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*Lh* es una sola consonante, como la «ll» de «calle» dicha a la antigua (nunca «li»).",
+   "propuesta": "*Lh* es una consonante palatal (/ʎ/); en el habla cotidiana muchas veces suena casi «i/y»: *filho* ≈ «fi-yu»",
+   "motivo": "«Nunca li» es exagerado y contradice la variante coloquial real; además, la «ll» rioplatense actual es «sh/zh», no la que se describe."
+  },
+  {
+   "id": "lettura w-31",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Contou também que, hoje, ela era lida em escolas do país inteiro.",
+   "propuesta": "Contou também que, atualmente, ela era lida em escolas do país inteiro. (o: ...que ela é lida...)",
+   "motivo": "Deixa «hoje» sin transponer y mezcla «era»; contradice la regla de la semana (hoje → naquele dia) y es inconsistente en tiempos."
+  },
+  {
+   "id": "lettura w-31",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"o coração mais alegre da cidade de São Paulo\"",
+   "propuesta": "Distractor más plausible (p. ej. «o salão de festas da cidade»)",
+   "motivo": "Distractor evidentemente absurdo; resolver por sentido en vez de gramática."
+  },
+  {
+   "id": "lettura c-abolicao",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "grammar: \"passiva e hipótese no passado\"",
+   "propuesta": "Aclarar que es lectura cultural independiente del tema de la semana (o elegir un texto con discurso indirecto)",
+   "motivo": "No usa el discurso indirecto, que es el foco de la semana."
+  },
+  {
+   "id": "lettura c-abolicao",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "um museu do Centro do Rio sobre a história do samba e do porto",
+   "propuesta": "Acortar para igualar longitud con la correcta",
+   "motivo": "La opción correcta es sistemáticamente la más larga y detallada."
+  },
+  {
+   "id": "suoni c-036",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"Ele disse que iria.\" (distractor de «Ele disse que ia.»)",
+   "propuesta": "Cambiar el distractor por «Ele disse que foi.»",
+   "motivo": "«Iria» también es una transposición válida de «vou»; solo la forma «ia» está enseñada, y por oído la diferencia no es de regla."
+  },
+  {
+   "id": "suoni p-174",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "anúncio / anuncio",
+   "propuesta": "Reemplazar por pares ligados al tema (p. ej. «começo / começou», «fala / falá-la»)",
+   "motivo": "Los pares tónicos no se relacionan con el discurso indirecto; el alumno oye 'lo mismo' en español."
+  },
+  {
+   "id": "tramo breve",
+   "lang": "pt",
+   "severidad": "error",
+   "actual": "Seu Aristides agradeceu o apoio dos clientes e disse que, se a banca virar ponto de troca, quer continuar trabalhando lá como voluntário.",
+   "propuesta": "Seu Aristides agradeceu o apoio dos clientes e disse que, se a banca virasse ponto de troca, queria continuar trabalhando lá como voluntário.",
+   "motivo": "El texto modelo de la semana no aplica la correlación (virar → virasse; quer → queria) que la lección enseña, y el resto del texto sí la aplica."
+  },
+  {
+   "id": "tramo lettura",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "a tiragem, que já tinha chegado a oito mil exemplares, caíra para pouco mais de mil",
+   "propuesta": "…tinha caído para pouco mais de mil",
+   "motivo": "«Caíra» (mais-que-perfeito simples) es literario y no se enseña; la lección solo trabaja «tinha + participio»."
+  },
+  {
+   "id": "tramo ascolto",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ele pediu uma correção e falou que, se a gente não publicasse até amanhã, ia procurar um advogado.",
+   "propuesta": "Conservar y añadir nota explicando por qué «amanhã» no cambia a «no dia seguinte» (mismo día del relato)",
+   "motivo": "Contradice en apariencia la tabla hoje/amanhã que enseña la lección, sin explicación."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Añadir ítems para lo enseñado sin práctica: aqui→lá, agora→naquele momento, ontem→no dia anterior, este/isto→aquele, y atribuir con segundo/de acordo com (la parte 4 casi no tiene ejercicios).",
+   "por_que": "Varios puntos de la lección no tienen ni un ítem; los ítems se concentran en el eje presente→imperfeito."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Reducir duplicados (vou→ia ×3, quanto custava ×2, estou→estava ×2, pediu que + fosse ×4) y sustituirlos por contenidos nuevos.",
+   "por_que": "48 ítems es mucha carga y gran parte repite el mismo patrón."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar a la teoría cuándo NO se retrocede el tiempo (hecho aún vigente: «ela disse que mora aqui») y la alternativa «disse que ia/iria».",
+   "por_que": "Evita sobregeneralizar la regla; en la práctica brasileña el presente se mantiene mucho."
+  },
+  {
+   "prioridad": "media",
+   "que": "Corregir la coherencia del texto breve y de la lectura w-31 con la regla (virasse/queria; hoje → naquele dia).",
+   "por_que": "Los textos modelo deben aplicar lo enseñado."
+  },
+  {
+   "prioridad": "media",
+   "que": "Incluir ítems con perguntar + quem/o que/por que y con mandar/dizer para (pediu pra eu ir) en producción.",
+   "por_que": "Cobertura más completa de las estructuras del tema."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Usar pares mínimos de suoni relacionados con el tema (formas verbales ia/iria, falava/falará) y retirar «iria» como distractor.",
+   "por_que": "Los pares actuales (anúncio/anuncio) no se conectan con la semana."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Varios ítems de vocabulario de prensa (fofoca, furo, pauta, flagrar, divulgar) no se ejercitan; añadir 3 o 4 cloze.",
+   "por_que": "El vocabulario temático queda solo en lectura."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 1,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

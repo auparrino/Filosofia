@@ -1,0 +1,299 @@
+{
+ "week": 52,
+ "title": "ESAME FINALE — Livello C1",
+ "level": "C1",
+ "revisado": {
+  "items": 160,
+  "sfide": 25,
+  "bloques_teoria": 5,
+  "lecturas": 1,
+  "dictogloss": 0,
+  "suoni": 0
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Examen final coherente con el programa: la mayoría de los 160 ítems y de las 25 sfide (128 sub-ítems) es correcta, con notas útiles y buena cobertura de conectores, relativos, congiuntivo, concordanza dei tempi, causativos, formación de palabras y registro. Los textos de examen (2 ascolti, 2 letture, 2 scritture) son naturales, fieles a los hechos históricos y bien construidos. Los problemas están en detalles: dos errores de italiano (ex-cl-10, ex-rg-08), una nota falsa (ex-cl-51), dos glosas/notas en español erróneas y varios accept mal calibrados (sobre todo los causativos con fare/lasciare). La lectura de la semana es demasiado simple para C1 y dictogloss/suoni están vacíos. Tasa estimada de falsos positivos: ~15-20% en las «dudas», ~5% en los «errores».",
+ "bien": [
+  "Los textos de esame (ascolti, letture, scritture) tienen registro C1 natural, hechos históricos correctos, distractores bien construidos y vero/falso equilibrado con cita del texto.",
+  "Las notas de los ítems ex-cl/ex-tr explican la regla y el contraste con el castellano (concordanza dei tempi, «il cui», participio absoluto, si passivante).",
+  "Buena cobertura de recursos C1: relativos con preposición, conectores formales, nominalización, gerundio/participio absoluto, causativo, discorso indiretto.",
+  "El banco de registro (ex-rg) discrimina bien formal/informal con distractores plausibles, y las sfide de formación de palabras (ex-fp) son de buen rendimiento didáctico.",
+  "La hoja de teoría es breve, con tabla de modos y las cinco reglas, ideal para un repaso previo al examen."
+ ],
+ "hallazgos": [
+  {
+   "id": "item ex-cl-10",
+   "lang": "it",
+   "severidad": "error",
+   "actual": "___ lavorando da casa si risparmi tempo, si rischia di isolarsi.",
+   "propuesta": "Pur lavorando da casa si risparmia tempo, si rischia di isolarsi. (o: «Anche se lavorando da casa si risparmia tempo…»)",
+   "motivo": "Con «pur + gerundio» el verbo de la oración no va en congiuntivo; «si risparmi» no tiene conjunción que lo rija, la frase es agramatical tal como está."
+  },
+  {
+   "id": "item ex-rg-08",
+   "lang": "it",
+   "severidad": "error",
+   "actual": "(formale) Lo trovi ___",
+   "propuesta": "(formale) Lo trova in allegato",
+   "motivo": "El destino es registro formal (Lei) pero el enunciado usa «trovi» (tu); la forma de cortesía es «Lo trova»."
+  },
+  {
+   "id": "item ex-cl-51",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "No se usa «da» en esta expresión.",
+   "propuesta": "«Per la prima volta da vent'anni» es perfectamente normal; agregar «da» a accept y corregir la nota (dopo / in / da).",
+   "motivo": "Nota falsa: «per la prima volta da anni/vent'anni» es de uso corriente."
+  },
+  {
+   "id": "item ex-cl-02",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "«uno su cinque» = uno de cada cinco. Error típico: *uno di cinque, *uno ogni cinque (esto último existe, pero con otro matiz distributivo).",
+   "propuesta": "Agregar «ogni» a accept y quitar el asterisco: «un lavoratore ogni cinque» es igual de correcto.",
+   "motivo": "Respuesta correcta rechazada y nota contradictoria (marca con * algo que dice que existe)."
+  },
+  {
+   "id": "item ex-fp-20",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "Como en castellano, pero con s simple.",
+   "propuesta": "Suprimir la frase o cambiarla por «Igual que en castellano (famoso)».",
+   "motivo": "En castellano «famoso» también lleva s simple; el contraste no existe y confunde."
+  },
+  {
+   "id": "lettura w-52",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "agio: gusto (a suo agio = cómoda)",
+   "propuesta": "agio: comodidad, holgura (a suo agio = cómoda)",
+   "motivo": "«Agio» no significa «gusto»; es comodidad/soltura."
+  },
+  {
+   "id": "sfida s:r11-01b:h",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Ci mancherebbe",
+   "propuesta": "Quitar «Ci mancherebbe» (y revisar «Ma figurati») de accept",
+   "motivo": "«Ci mancherebbe» significa «¡faltaba más!» (de nada / por supuesto); rechazar la torta con eso dice lo contrario de «Per carità»."
+  },
+  {
+   "id": "sfida s:r27-06b:e",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Lasciala | Falla (accept 'Falla')",
+   "propuesta": "Dejar solo «Lasciala»",
+   "motivo": "«Falla uscire» = obligala/hacela salir; el enunciado pide «Dejala» (permiso), no causa."
+  },
+  {
+   "id": "sfida s:r27-06b:f",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Lasciale | Lasciala | Falle (accept 'Falle')",
+   "propuesta": "Dejar «Lasciale»/«Lasciala»; quitar «Falle»",
+   "motivo": "«Falle scegliere» = hacé que elija, no «dejala elegir»; cambia el significado."
+  },
+  {
+   "id": "sfida s:r27-06b:b",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Fagli | Fallo (accept 'Fallo')",
+   "propuesta": "Dejar solo «Fagli»",
+   "motivo": "La consigna dice que solo e y f admiten varias posibilidades y la nota enseña que con objeto directo el causado va en indirecto; «Fallo studiare medicina» contradice la regla enseñada."
+  },
+  {
+   "id": "sfida g2-va-12",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "accept: [\"Non mi piace il pesce. — Neanch'io.\"]",
+   "propuesta": "Aceptar también «Neanche io», «Nemmeno io», «Neppure io», «Neanche a me» (con o sin la frase inicial)",
+   "motivo": "La nota misma dice «neanch'io / nemmeno io» pero solo se acepta una grafía; un alumno correcto queda mal."
+  },
+  {
+   "id": "sfida r07-05c:b",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Domani sono chiuso, signore, c'è sciopero.",
+   "propuesta": "Domani siamo chiusi, signore, c'è sciopero.",
+   "motivo": "«Sono chiuso» dicho por un comerciante suena raro; lo natural es «siamo chiusi» o «domani chiudiamo»."
+  },
+  {
+   "id": "sfida s:r24-04d:c",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "avrebbero comprato | sarebbe sposato (accept)",
+   "propuesta": "Quitar «sarebbe sposato» de accept",
+   "motivo": "«quando si sarebbe sposato» no es italiano estándar (además la nota enseña trapassato del congiuntivo); con «si» ya en el enunciado, «sarebbe sposato» ni siquiera forma el reflexivo compuesto correcto."
+  },
+  {
+   "id": "sfida s:r17-01:e",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "['trentuno studenti', 'trentun studenti']",
+   "propuesta": "Aceptar solo «trentuno studenti»",
+   "motivo": "La nota dice que ante s+consonante se prefiere la forma entera; aceptar «trentun studenti» contradice la nota."
+  },
+  {
+   "id": "item ex-cl-17",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Condizionale en la principal («sarebbe auspicabile che») → congiuntivo imperfetto, no presente.",
+   "propuesta": "Aceptar también «investano» y suavizar la nota («imperfetto es lo más formal; el presente también se usa»)",
+   "motivo": "«Sarebbe auspicabile che investano» es corriente; «no presente» es demasiado categórico."
+  },
+  {
+   "id": "item ex-cl-05",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "En castellano «aunque» admite indicativo; en italiano no.",
+   "propuesta": "«Benché/sebbene» no admiten indicativo (a diferencia de «aunque»); «anche se» sí lo admite.",
+   "motivo": "La generalización «en italiano no» contradice ex-cl-50 («anche se» + indicativo) en el mismo examen."
+  },
+  {
+   "id": "item ex-cl-08",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "accept: [\"tuttavia\",\"però\",\"comunque\"]",
+   "propuesta": "Agregar «invece» y «peraltro»",
+   "motivo": "«Non tutti, invece, considerano…» es igual de natural."
+  },
+  {
+   "id": "item ex-cl-03",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Completá con una sola palabra o con la forma pedida del verbo entre paréntesis.",
+   "propuesta": "«Completá el hueco (puede ser más de una palabra)».",
+   "motivo": "Varias respuestas son de dos palabras (le cui, a cui, in cui, se ne, sarebbe venuto…): la consigna dice «una sola palabra»."
+  },
+  {
+   "id": "lesson:1",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "se hipotético | indicativo (real) o congiuntivo (posible, irreal), nunca condicional",
+   "propuesta": "«…congiuntivo en la cláusula con se (posible/irreal); el condizionale va en la principal, nunca después de se»",
+   "motivo": "«Nunca condicional» sin aclarar puede entenderse como que la apódosis tampoco lleva condizionale (ejemplo: Se avessi tempo, verrei)."
+  },
+  {
+   "id": "lesson:4",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Podés leer a Calvino, a Ferrante y a Buzzati sin diccionario",
+   "propuesta": "Podés leer a Calvino, a Ferrante y a Buzzati con poco recurso al diccionario",
+   "motivo": "Promesa exagerada para un C1 (léxico literario, dialectal y desusado)."
+  },
+  {
+   "id": "item r09-02:b",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "accept: Che imbarazzo, cosa facciamo? / È imbarazzante, cosa facciamo? …",
+   "propuesta": "Agregar «Che situazione imbarazzante/scomoda, cosa facciamo?»",
+   "motivo": "La traducción literal de «qué situación incómoda» no está aceptada."
+  },
+  {
+   "id": "sfida s:r21-04c:b",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "L'aereo sarebbe caduto dieci minuti dopo il decollo.",
+   "propuesta": "Agregar «sarebbe precipitato» / «si sarebbe schiantato»",
+   "motivo": "Son los verbos idiomáticos para un accidente aéreo; «cadere» es aceptable pero menos natural."
+  },
+  {
+   "id": "item d11-016",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "(¿Cuál chica es la más linda?)",
+   "propuesta": "(¿Cuál de las chicas es la más linda?) o «¿Qué chica…?»",
+   "motivo": "«Cuál chica» es un calco de «quale ragazza» poco natural en español rioplatense."
+  },
+  {
+   "id": "item ex-fp-22",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Sufijo -ile en adjetivos de periodicidad: mensile, settimanale, annuale, giornaliero.",
+   "propuesta": "Sufijo -ile/-ale/-ario: mensile, settimanale, annuale, giornaliero.",
+   "motivo": "Los ejemplos no corresponden al sufijo -ile anunciado."
+  },
+  {
+   "id": "sfida chapter (r01-03…r27-05b)",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "Nouns / Personal pronouns / Demonstratives / Interrogatives / Exclamations / Indefinites / Relative pronouns / Prepositions / Connectives / Numerals and units of measurement / The conditional / The imperative / The subjunctive / Causative verbs and verbs of perception",
+   "propuesta": "Traducir los títulos de capítulo si se muestran al alumno (Sustantivos, Pronombres personales, Demostrativos…)",
+   "motivo": "Texto en inglés en el campo «chapter» de todas las sfide; solo es problema si la interfaz lo muestra."
+  },
+  {
+   "id": "sfida g2-gd-39",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Mirá los tres ejemplos y completá el cuarto.",
+   "propuesta": "Verificar que los tres ejemplos se muestren; si no, cambiar la consigna",
+   "motivo": "El dossier trae solo el cuarto ítem: la consigna remite a ejemplos que el ítem no contiene."
+  },
+  {
+   "id": "esame let-2 titles",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Le origini dell'archeologia moderna",
+   "propuesta": "Cambiar el distractor por un título claramente ajeno",
+   "motivo": "Podría emparejarse razonablemente con el párrafo 3 (scavi di Ercolano e Pompei), compitiendo con «La scoperta del Sud»."
+  },
+  {
+   "id": "lettura w-52",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Il giorno dell'esame (≈110 palabras, tiempos simples, sin congiuntivo ni gerundio compuesto)",
+   "propuesta": "Ampliar a 200-250 palabras con congiuntivo, participio absoluto, «ce l'ho fatta», relativos con preposición",
+   "motivo": "Texto de nivel A2-B1 para un examen final C1 cuyo tema es «todo el año»; además solo 3 preguntas de opción múltiple sin vero/falso."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Reducir la carga: 160 ítems + 25 sfide (128 sub-ítems) y 8 textos de examen frente a las «40 preguntas» que anuncia la lección; definir cuáles 40 entran en cada intento del examen.",
+   "por_que": "La promesa de la hoja («cuarenta preguntas») no coincide con lo que trae el dossier; el criterio de 85% necesita un banco claro."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Auditar los campos accept del banco heredado (sfide r27-06b, r11-01b, g2-va-12, ex-cl-02, ex-cl-51): hay respuestas correctas rechazadas y respuestas erróneas aceptadas.",
+   "por_que": "En un examen final, un rechazo injusto o un falso positivo invalida la nota."
+  },
+  {
+   "prioridad": "media",
+   "que": "Nivelar el banco: hay ítems de A1-A2 (plurales, ordinales, da/di, quale/quanto) mezclados con C1; poner peso mayor a los temas C1 (causativo, participio absoluto, dislocaciones, ne/ci, registro).",
+   "por_que": "Cinco reglas y B2-C1 son el eje de la lección pero casi la mitad de los ítems evalúa nivel inicial."
+  },
+  {
+   "prioridad": "media",
+   "que": "Completar la hoja teórica con los recursos C1 nombrados pero sin ejemplo ni práctica directa: pasiva con andare/venire y dislocaciones (hay pocos ítems), ne y ci en todos sus valores (casi ninguno).",
+   "por_que": "La tabla los enumera como parte del examen pero no hay práctica proporcional."
+  },
+  {
+   "prioridad": "media",
+   "que": "Enriquecer la lectura de la semana (w-52) y agregar vero/falso/non si dice y una caza de formas más amplia (congiuntivo, gerundio compuesto).",
+   "por_que": "El texto es demasiado simple y breve para cerrar un curso C1."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Agregar dictogloss y suoni al final (o declararlo explícitamente vacío): hoy ambos están vacíos, lo que deja sin evaluar la producción oral y la pronunciación.",
+   "por_que": "Consistencia con el resto del curso."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Unificar la consigna de los cloze («una sola palabra») con las respuestas de varias palabras y ordenar los ítems de menor a mayor dificultad dentro del bloque ex-cl.",
+   "por_que": "Claridad de la consigna y progresión."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 2,
+   "dudas": 3
+  },
+  "es": {
+   "errores": 2,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

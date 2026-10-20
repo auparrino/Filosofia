@@ -1,0 +1,51 @@
+{
+ "week": 11,
+ "level": "A2",
+ "title": "A Sofía voltou de Salvador",
+ "genre": "telefonema ao vivo",
+ "es": "Sofía volvió de un viaje a Salvador de Bahía y llama a la radio para contarlo. No todo salió como estaba previsto.",
+ "speakers": ["Nanda", "Sofía"],
+ "turns": [
+  ["A", "Bom dia! Temos na linha uma amiga da rádio: a Sofía! Sofía, faz uma semana que você não liga."],
+  ["B", "Oi, Nanda! Fui a Salvador com a Bia. A gente voltou ontem de noite."],
+  ["A", "Que maravilha! E como foi a viagem?"],
+  ["B", "Começou mal. O voo saiu do Rio com duas horas de atraso, e em Salvador a minha mala demorou muito para chegar."],
+  ["A", "Coitada! E onde vocês ficaram?"],
+  ["B", "Numa pousada no Rio Vermelho, perto do mar. A dona foi muito simpática: ela preparou um café da manhã enorme todos os dias."],
+  ["A", "E o que vocês fizeram lá?"],
+  ["B", "Andamos pelo Pelourinho, vimos uma roda de capoeira e comemos acarajé na praia. A Bia provou a pimenta e chorou de rir!"],
+  ["A", "E a volta?"],
+  ["B", "Anteontem eu esqueci o celular na pousada e voltei correndo para pegar o telefone antes de ir embora. Enfim, a gente chegou ao aeroporto na hora certa."],
+  ["A", "Que aventura! E agora, saudade de Salvador?"],
+  ["B", "Muita saudade! Da comida, da música, do mar... Quero voltar no ano que vem."],
+  ["A", "Obrigada, Sofía! E vocês, ouvintes, para onde vocês viajaram nas últimas férias?"]
+ ],
+ "gloss": {
+  "na linha": "en línea, al teléfono",
+  "ouvintes": "oyentes",
+  "Faz uma semana": "hace una semana",
+  "atraso": "atraso, demora",
+  "Coitada": "pobrecita",
+  "dona": "dueña",
+  "roda de capoeira": "ronda de capoeira",
+  "acarajé": "buñuelo bahiano de porotos, frito en aceite de palma",
+  "pimenta": "ají picante",
+  "chorou de rir": "lloró de risa",
+  "na hora certa": "a tiempo, justo a la hora",
+  "aventura": "aventura",
+  "férias": "vacaciones",
+  "maravilha": "maravilla"
+ },
+ "questions": [
+  ["¿Qué pasó con la valija de Sofía en Salvador?", ["Se perdió para siempre", "Tardó mucho en llegar", "Llegó abierta", "Quedó en Río de Janeiro"], "Tardó mucho en llegar"],
+  ["¿Qué hizo la dueña de la posada?", ["Les preparó un desayuno enorme todos los días", "Las llevó al aeropuerto", "Les enseñó capoeira", "Les cocinó acarajé"], "Les preparó un desayuno enorme todos los días"],
+  ["¿Qué se olvidó Sofía en la posada?", ["La valija", "El pasaje", "El celular", "La billetera"], "El celular"]
+ ],
+ "info": [
+  ["Sofía y Bia volvieron ayer a la noche.", true],
+  ["El vuelo salió a horario.", false],
+  ["Sofía quiere volver a Salvador el año que viene.", true]
+ ],
+ "grammatica": {"label": "el pretérito perfeito, regulares e irregulares", "forme": ["fui", "voltou", "foi", "começou", "saiu", "demorou", "ficaram", "preparou", "fizeram", "andamos", "vimos", "comemos", "provou", "chorou", "esqueci", "voltei", "chegou", "viajaram"]},
+ "parole": [["ontem", "ontem"], ["voo", "voo"], ["mala", "mala"], ["demorou", "demorar"], ["chegar", "chegar"], ["ficaram", "ficar"], ["pousada", "pousada"], ["anteontem", "anteontem"], ["esqueci", "esquecer"], ["ir embora", "ir embora"], ["enfim", "enfim"], ["saudade", "saudade"]]
+}

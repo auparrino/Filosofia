@@ -1,0 +1,294 @@
+{
+  "week": 48,
+  "level": "C1",
+  "lettura": {
+    "title": "Il dialetto, i ragazzi lo parlano ancora (ma a modo loro)",
+    "emoji": "🗣️",
+    "genre": "inchiesta",
+    "grammar": "ordine delle parole: dislocazioni e frase scissa",
+    "text": "A Teresa, il dialetto, a scuola glielo avevano proibito. Era il 1950, in un paese dell'entroterra veneto, e la maestra puniva chi si lasciava scappare una parola «da contadini». Settant'anni dopo, sua nipote Giorgia, diciannove anni, il dialetto lo usa nelle storie su Instagram, per far ridere gli amici. «Non lo parlo bene», ammette, «però certe cose in italiano non rendono. Un'espressione come quella che usava la nonna per dire che sei stanco morto, in italiano non l'ho mai trovata.» È da storie come la sua che è partita questa inchiesta: che fine ha fatto la varietà linguistica dell'Italia, a più di centocinquant'anni dall'Unità?\n\nLa risposta breve è che la varietà non è sparita: si è trasformata. Quando l'Italia fu unificata, l'italiano lo parlava soltanto una piccola minoranza della popolazione; per tutti gli altri, la lingua di casa era il dialetto. Sono stati la scuola, il servizio militare, le migrazioni interne e soprattutto la televisione a portare l'italiano in ogni casa. Oggi l'italiano lo parlano praticamente tutti, e il dialetto, chi lo usa, lo usa accanto all'italiano, non al suo posto. Ma l'italiano che parliamo non è uguale dappertutto.\n\n«Di italiani, in realtà, ce ne sono tanti», spiega la sociolinguista Marta Colonna, che da anni registra conversazioni in diverse città. «C'è l'italiano regionale, prima di tutto. Un milanese e un palermitano usano la stessa grammatica, ma la pronuncia, l'intonazione e una parte del lessico li tradiscono subito.» Il panino, a Roma, lo chiamano rosetta, a Milano michetta; e la gruccia per i vestiti, a seconda della regione, la si sente chiamare stampella, ometto o appendino. Non sono errori: sono italiani regionali, perfettamente legittimi.\n\nPoi ci sono le differenze sociali, che spesso contano quanto quelle geografiche. È nel modo di parlare dei giovani, per esempio, che nascono molte parole nuove, alcune destinate a sparire nel giro di un'estate, altre a entrare nei dizionari. E sono le persone più istruite, paradossalmente, quelle che si concedono più libertà nel parlato informale, perché sanno bene quando possono farlo. «Il registro non lo sceglie solo chi parla», osserva Colonna, «lo sceglie la situazione. Un avvocato con i clienti parla in un modo, con gli amici allo stadio in un altro. Chi sa fare questo passaggio ha una competenza linguistica ricchissima.»\n\nAnche la grammatica si muove. Frasi come «Il caffè lo prendo amaro» o «Di questa storia non ne voglio più sentir parlare», le maestre di una volta le avrebbero sottolineate in rosso. Oggi, invece, si sentono in televisione e si leggono sui giornali, e molti linguisti le considerano parte di un italiano «neostandard», più vicino al parlato. La dislocazione serve a mettere in primo piano ciò di cui si sta parlando: quando dico «Il caffè lo prendo amaro», il tema è il caffè, e il resto è l'informazione nuova. Qualcosa di simile fa la frase scissa: dicendo «È Giorgia che ha scritto il messaggio», sottolineo che è stata lei, e non un'altra persona.\n\nUn ruolo ambiguo, in tutto questo, l'hanno avuto i media. Se la televisione degli anni Cinquanta e Sessanta ha insegnato l'italiano a milioni di persone, quella di oggi, insieme ai social, sembra aver fatto il percorso inverso: gli accenti regionali, un tempo banditi dagli annunciatori, adesso si sentono ovunque, dai comici ai conduttori, dai cuochi ai calciatori. «Non è un impoverimento», sostiene Colonna. «È il segno che l'italiano, ormai, è sicuro di sé. E una lingua sicura di sé può permettersi di avere molte voci.»\n\nE il dialetto? Secondo le ricerche di Colonna, i giovani lo parlano meno dei loro nonni, ma lo usano in modo nuovo: nelle canzoni, nei meme, nei soprannomi, nelle chat di gruppo. «Non è più la lingua della vergogna, ma quella dell'identità e del gioco», dice. Ci sono rapper che il dialetto l'hanno portato in classifica, e scuole che, in certe regioni, organizzano laboratori per impararlo. Non tutti sono entusiasti: c'è chi teme che diventi una specie di folklore da cartolina, svuotato della ricchezza che aveva quando era la lingua di tutti i giorni.\n\nResta un lato meno luminoso. L'accento, soprattutto se meridionale, pesa ancora in certi contesti. Nella nostra inchiesta abbiamo raccolto decine di testimonianze di ragazzi che hanno cercato di nasconderlo per un colloquio di lavoro o che si sono sentiti correggere da un professore. «A Torino, il mio accento calabrese l'ho perso in sei mesi», racconta Salvatore, ventisei anni, ingegnere. «Nessuno me lo ha chiesto, ma sentivo che era meglio così. Adesso, quando torno a casa, mia madre mi prende in giro: dice che parlo come un telegiornale.»\n\nForse è questa la vera fotografia dell'Italia linguistica di oggi: un paese in cui l'italiano, finalmente, l'abbiamo imparato tutti, ma in cui ognuno lo parla con la voce del posto da cui viene. Il dialetto, Teresa non l'ha mai dimenticato. Giorgia lo sta riscoprendo a modo suo. Salvatore, in fondo, vorrebbe riprenderselo. Tre generazioni, tre rapporti diversi con la lingua di casa: nessuno sbagliato, tutti profondamente italiani.",
+    "gloss": {
+      "seconda": "(a seconda di) según",
+      "fine": "(che fine ha fatto?) ¿qué fue de...?",
+      "scappare": "(lasciarsi scappare) dejarse escapar, soltar sin querer",
+      "entroterra": "interior (zona lejos de la costa)",
+      "puniva": "castigaba",
+      "contadini": "campesinos",
+      "rendono": "non rendono: no quedan igual, pierden fuerza",
+      "tradiscono": "delatan",
+      "gruccia": "percha",
+      "stampella": "percha (regional; también muleta)",
+      "ometto": "percha (regional)",
+      "appendino": "percha (regional)",
+      "istruite": "instruidas, con estudios",
+      "sottolineate": "subrayadas",
+      "banditi": "prohibidos, desterrados",
+      "annunciatori": "locutores",
+      "impoverimento": "empobrecimiento",
+      "soprannomi": "apodos",
+      "vergogna": "vergüenza",
+      "classifica": "ranking (de ventas)",
+      "svuotato": "vaciado",
+      "meridionale": "del sur de Italia",
+      "testimonianze": "testimonios",
+      "colloquio": "entrevista (de trabajo)",
+      "riscoprendo": "redescubriendo",
+      "riprenderselo": "recuperarlo"
+    },
+    "questions": [
+      [
+        "Qual è la tesi principale dell'inchiesta?",
+        [
+          "Il dialetto è ormai scomparso tra i giovani italiani",
+          "La varietà linguistica si è trasformata, non è sparita",
+          "L'italiano regionale è un errore da correggere a scuola",
+          "La televisione ha cancellato ogni differenza linguistica"
+        ],
+        "La varietà linguistica si è trasformata, non è sparita"
+      ],
+      [
+        "Perché l'autore cita rosetta e michetta?",
+        [
+          "Per mostrare che esiste un lessico regionale legittimo",
+          "Per criticare il modo di parlare dei romani",
+          "Per spiegare l'origine dialettale del pane",
+          "Per dimostrare che i milanesi parlano meglio"
+        ],
+        "Per mostrare che esiste un lessico regionale legittimo"
+      ],
+      [
+        "Secondo Colonna, chi ha una competenza linguistica molto ricca?",
+        [
+          "Chi parla sempre in modo formale, in ogni contesto",
+          "Chi conosce e parla bene più di un dialetto",
+          "Chi evita le parole nuove inventate dai giovani",
+          "Chi sa adattare il registro alla situazione"
+        ],
+        "Chi sa adattare il registro alla situazione"
+      ],
+      [
+        "A che cosa serve, secondo il testo, una frase come «Il caffè lo prendo amaro»?",
+        [
+          "A esprimere un dubbio",
+          "A mettere in evidenza il tema",
+          "A dare un ordine gentile",
+          "A correggere chi ascolta"
+        ],
+        "A mettere in evidenza il tema"
+      ],
+      [
+        "Perché Salvatore ha perso il suo accento?",
+        [
+          "Glielo aveva imposto il suo datore di lavoro",
+          "Sentiva una pressione sociale non dichiarata",
+          "Voleva lavorare come giornalista in televisione",
+          "Glielo aveva consigliato sua madre"
+        ],
+        "Sentiva una pressione sociale non dichiarata"
+      ]
+    ],
+    "vf": [
+      [
+        "Teresa a scuola poteva parlare liberamente in dialetto.",
+        "falso"
+      ],
+      [
+        "Giorgia parla il dialetto in modo fluente.",
+        "falso"
+      ],
+      [
+        "Marta Colonna insegna in un'università del Nord.",
+        "non si dice"
+      ],
+      [
+        "In alcune regioni ci sono scuole che organizzano laboratori di dialetto.",
+        "vero"
+      ],
+      [
+        "La madre di Salvatore scherza sul suo nuovo modo di parlare.",
+        "vero"
+      ]
+    ],
+    "hunt": {
+      "label": "Tocá los pronombres combinados o apostrofados que retoman un elemento dislocado (A Teresa, il dialetto, glielo…; il dialetto l'hanno…)",
+      "targets": [
+        "glielo",
+        "l'ho",
+        "l'hanno",
+        "l'abbiamo",
+        "l'ha"
+      ]
+    }
+  },
+  "ascolto": {
+    "title": "Stare o essere? Pausa caffè tra Nord e Sud",
+    "genre": "conversazione tra colleghi",
+    "es": "En la pausa del café, una colega de Milán y un colega de Nápoles comparan cómo hablan; a mitad de la charla se suma otro colega, romano. Conversación real: turnos cortos, interrupciones y muletillas.",
+    "speakers": [
+      "Chiara",
+      "Gennaro",
+      "Paolo"
+    ],
+    "turns": [
+      ["A", "Gennaro, scusa, ma il caffè l'hai finito tu? La moka è vuota."],
+      ["B", "Sì, sono stato io… perdonami, te lo rifaccio subito. Però aspetta: hai detto «la moka»."],
+      ["A", "E come la chiamo?"],
+      ["B", "Noi a Napoli, a casa, diciamo «la macchinetta»."],
+      ["A", "Anche noi, a volte. Ma sai che cosa mi ha fatto ridere la prima settimana che sei arrivato?"],
+      ["B", "No, cosa?"],
+      ["A", "Quando mi hai chiesto se potevi «stare» un attimo nel mio ufficio."],
+      ["B", "E che c'è di strano? Stare, restare…"],
+      ["A", "Niente, ma io pensavo che volessi trasferirti da me! Noi diciamo «essere»: sono in ufficio, sono a casa. Voi dite «sto a casa»."],
+      ["C", "Buongiorno! Di che parlate?"],
+      ["A", "Paolo! Di Nord e Sud. Tu da che parte stai?"],
+      ["C", "Io? Io sono romano, sto in mezzo. Anche noi diciamo «sto a casa», eh."],
+      ["B", "Visto? E voi al Nord dite «la Giulia», «il Marco», con l'articolo davanti ai nomi. Per me la prima volta è stato uno shock. Mi sembrava che parlaste di oggetti."],
+      ["A", "Guarda che al Nord lo diciamo tutti, è normalissimo. Anzi, un nome senza articolo a me sembra freddo."],
+      ["B", "Vedi? È proprio questo il bello. Tu pensi che sia freddo, io penso che sia strano. E parliamo la stessa lingua…"],
+      ["C", "…teoricamente."],
+      ["A", "Teoricamente, sì. E poi ci sono le parole. Il primo giorno ti ho chiesto un appendino per il cappotto e tu mi hai guardata come se avessi parlato arabo."],
+      ["B", "Perché da noi si dice stampella! Solo che la stampella, per me, era anche quella per camminare, e mi sono pure preoccupato. Ho pensato: poverina, si è fatta male a una gamba e non lo vuole dire."],
+      ["C", "No, vabbè, bellissima."],
+      ["A", "Infatti avevi una faccia… Questi equivoci sono divertenti."],
+      ["B", "Divertentissimi, finché non capitano davanti al capo."],
+      ["A", "E poi, quando ti arrabbi al telefono con tua madre, io non capisco proprio niente."],
+      ["B", "Eh, quella è un'altra storia. Lì passo al napoletano. Con mia madre l'italiano non l'ho mai parlato, mi sembrerebbe di recitare. Tipo… come se mi mettessi la cravatta per andare a cena a casa sua."],
+      ["A", "Che bella questa immagine. A me invece il dialetto non l'hanno mai insegnato. I miei nonni lo parlavano tra di loro, ma con i nipoti no. Era considerato roba da vecchi, o da gente poco istruita."],
+      ["C", "Uguale a casa mia."],
+      ["B", "E ti dispiace?"],
+      ["A", "Un po' sì. Adesso che è tornato di moda mi sento esclusa. Mio fratello ha trovato un corso di milanese online e se l'è fatto tutto, ma io… boh, onestamente faccio fatica. Sembra un'altra lingua."],
+      ["B", "Perché è un'altra lingua! I dialetti non sono italiano storpiato, sono lingue sorelle, nate dal latino come l'italiano. Il napoletano ha una letteratura, un teatro, le canzoni che conosce tutto il mondo…"],
+      ["A", "Sì, sì, questo lo so. È che mi fa strano studiarlo a scuola come si studia l'inglese, con i verbi e gli esercizi."],
+      ["B", "Mah, secondo me è meglio di niente. È chi non fa niente che lo lascia morire."],
+      ["C", "Su questo ha ragione lui."],
+      ["A", "E l'accento? Ti hanno mai detto qualcosa, qui in ufficio?"],
+      ["B", "Qui no. Però a un colloquio, anni fa, in un'altra azienda, uno mi ha detto: «Simpatico il suo accento, ma con i clienti meglio neutralizzarlo»."],
+      ["C", "Ma dai!"],
+      ["B", "Giuro. L'ho presa male, lo confesso."],
+      ["A", "Ci credo. E tu l'hai neutralizzato?"],
+      ["B", "Macché. I clienti alla fine li ho conquistati proprio così, con la mia voce. Uno mi ha detto che al telefono gli mettevo allegria. Era la mia voce che vendeva, mica il prodotto."],
+      ["A", "Vedi che avevi ragione tu? Dai, la moka stavolta la faccio io, che tu il caffè lo carichi troppo."],
+      ["B", "Troppo? Da noi quello si chiama semplicemente caffè!"]
+    ],
+    "gloss": {
+      "presa": "(l'ho presa male) me lo tomé mal",
+      "strano": "(mi fa strano) me resulta raro",
+      "moka": "cafetera italiana",
+      "macchinetta": "cafetera",
+      "arrabbi": "te enojás",
+      "recitare": "actuar (en teatro)",
+      "roba": "cosa, asunto",
+      "fatica": "faccio fatica: me cuesta",
+      "storpiato": "deformado",
+      "neutralizzarlo": "neutralizarlo, borrarlo",
+      "macché": "¡qué va!",
+      "allegria": "alegría",
+      "carichi": "cargás",
+      "equivoci": "malentendidos",
+      "appendino": "percha (regional)",
+      "vabbè": "(no, vabbè) ¡no, bueno!, ¡qué bueno! (muletilla)",
+      "boh": "qué sé yo (muletilla)",
+      "mica": "(mica il prodotto) no el producto, para nada",
+      "tipo": "(muletilla) como, onda"
+    },
+    "questions": [
+      ["Che cosa aveva sorpreso Chiara la prima settimana?", ["Che Gennaro portasse il caffè da Napoli", "Che Gennaro usasse «stare» al posto di «essere»", "Che Gennaro non conoscesse la parola «moka»", "Che Gennaro chiamasse sempre i colleghi per cognome"], "Che Gennaro usasse «stare» al posto di «essere»"],
+      ["Che effetto fa a Chiara un nome proprio senza articolo?", ["Le sembra freddo", "Le sembra elegante", "Le sembra scorretto", "Le sembra antiquato"], "Le sembra freddo"],
+      ["Perché Gennaro con sua madre parla in dialetto?", ["Perché sua madre non capisce bene l'italiano", "Perché parlarle in italiano gli sembrerebbe artificiale", "Perché al telefono il dialetto è più rapido", "Perché non vuole che i colleghi in ufficio capiscano cosa dice"], "Perché parlarle in italiano gli sembrerebbe artificiale"],
+      ["Qual è l'atteggiamento di Chiara verso il dialetto milanese?", ["Totale indifferenza, non le interessa", "Grande entusiasmo, lo parla ogni giorno", "Un certo rimpianto, ma anche difficoltà", "Rifiuto, lo considera roba da vecchi"], "Un certo rimpianto, ma anche difficoltà"],
+      ["Come ha reagito Gennaro al consiglio di neutralizzare l'accento?", ["L'ha seguito subito per ottenere il posto", "Ha lasciato l'azienda il giorno dopo", "Ci è rimasto male, ma ha tenuto il suo accento", "Ha chiesto aiuto a un insegnante di dizione"], "Ci è rimasto male, ma ha tenuto il suo accento"],
+      ["Che cosa intende Paolo con «sto in mezzo»?", ["Che Roma è a metà tra le due parlate", "Che non vuole litigare con i colleghi", "Che la sua scrivania è al centro", "Che non ha ancora deciso dove vivere"], "Che Roma è a metà tra le due parlate"]
+    ],
+    "vf": [
+      ["Gennaro ha finito il caffè della moka.", "vero"],
+      ["I nonni di Chiara parlavano il dialetto con i nipoti.", "falso"],
+      ["Il fratello di Chiara ha seguito un corso di milanese online.", "vero"],
+      ["Gennaro vorrebbe tornare a vivere a Napoli.", "non si dice"]
+    ]
+  },
+  "compito": {
+    "genre": "articolo",
+    "title": "Le lingue d'Italia spiegate a chi arriva",
+    "fonte": "entrambi",
+    "t": "La rivista online della tua scuola di lingue prepara un numero speciale sulle lingue d'Italia. Dopo aver letto l'inchiesta «Il dialetto, i ragazzi lo parlano ancora (ma a modo loro)» e ascoltato la conversazione tra Chiara e Gennaro, scrivi un articolo con un titolo (233-293 parole, registro medio) in cui spieghi ai lettori stranieri che cosa sono l'italiano regionale e i dialetti, riportando alcuni esempi presi dal testo e dall'audio, e rifletti sulla questione dell'accento nel mondo del lavoro. Puoi fare un confronto con le varietà dello spagnolo che conosci.",
+    "es": "Artículo con título para una revista de estudiantes: explicá italiano regional y dialecto con ejemplos del texto y del audio, y opiná sobre el acento en el trabajo. Aprovechá alguna dislocación (il dialetto, lo…) o frase escindida (è lui che…).",
+    "min": 233,
+    "max": 293,
+    "punti": [
+      [
+        "explicar italiano regional y dialectos",
+        [
+          "regional",
+          "dialett"
+        ]
+      ],
+      [
+        "dar ejemplos del texto o del audio",
+        [
+          "michetta",
+          "rosetta",
+          "stare",
+          "moka",
+          "gennaro",
+          "giorgia"
+        ]
+      ],
+      [
+        "reflexionar sobre el acento en el trabajo",
+        [
+          "accento"
+        ]
+      ],
+      [
+        "comparación con el español o conclusión",
+        [
+          "spagnolo",
+          "argentin",
+          "in conclusione",
+          "insomma",
+          "forse"
+        ]
+      ]
+    ],
+    "model": "L'italiano? Lo parliamo tutti, ma ognuno a modo suo\n\nChi arriva in Italia dopo aver studiato sui libri scopre presto una cosa: la lingua dei manuali, per strada, la si sente poco. Quello che si sente è l'italiano regionale, cioè un italiano con la stessa grammatica ovunque, ma con pronuncia, intonazione e parole che cambiano da una città all'altra.\n\nGli esempi sono tantissimi. Il panino, a Roma lo chiamano rosetta, a Milano michetta. Al Sud si dice «sto a casa», al Nord «sono a casa». E a Milano i nomi propri li usano con l'articolo, «la Giulia», cosa che a un napoletano sembra stranissima, come racconta Gennaro in una conversazione con la collega Chiara.\n\nPoi ci sono i dialetti, che non sono italiano «sbagliato», ma lingue sorelle nate dal latino. Per secoli sono stati la lingua di casa della maggior parte degli italiani. Oggi i giovani li parlano meno, ma li usano in modo nuovo: nelle canzoni, nei meme, nelle chat.\n\nC'è però un aspetto che mi ha colpito: l'accento. Secondo l'inchiesta, molti ragazzi del Sud cercano di nasconderlo per paura di essere giudicati, soprattutto nei colloqui di lavoro. Anche a Gennaro hanno consigliato di «neutralizzarlo». Eppure è proprio lui che dimostra il contrario: i clienti li ha conquistati con la sua voce.\n\nPer noi argentini la situazione è familiare. Un cordobés e un porteño si riconoscono subito, e anche da noi certi accenti fanno sorridere. Forse la lezione è proprio questa: una lingua viva non è mai uniforme. E l'accento, invece di nasconderlo, dovremmo imparare a rispettarlo.",
+    "gloss": {
+      "a modo suo": "a su manera",
+      "la si sente poco": "se la escucha poco (la = la lengua, retomada con si impersonal)",
+      "lingue sorelle": "lenguas hermanas",
+      "colloqui di lavoro": "entrevistas de trabajo",
+      "fanno sorridere": "causan gracia"
+    }
+  },
+  "breve": {
+    "title": "Il napoletano, parlalo con noi",
+    "genre": "annuncio radiofonico",
+    "es": "Un aviso de radio presenta un curso gratuito de napolitano para chicos en la biblioteca del barrio.",
+    "speaker": "Voce dell'annuncio",
+    "voice": 0,
+    "text": [
+      "Il napoletano lo capisci ma non lo parli? Le canzoni di tua nonna le sai a memoria, ma non sai che cosa vogliono dire? Allora il corso «Parla comme magne» fa per te.",
+      "È la biblioteca di quartiere che lo organizza, insieme all'associazione Voci del Sud: otto incontri, il giovedì dalle diciotto alle diciannove e trenta, a partire dal 5 ottobre. A tenerlo sarà Gennaro Esposito, attore e autore di teatro.",
+      "Non è una lezione di grammatica: si leggono poesie, si ascoltano canzoni, si guardano scene di film e, soprattutto, si parla. Il corso è gratuito ed è rivolto ai ragazzi dai quattordici ai venticinque anni; i posti, però, sono solo venti.",
+      "Le iscrizioni si fanno in biblioteca o sul sito, entro il 30 settembre. E ricordate: il dialetto non si studia, si vive!"
+    ],
+    "tabella": [
+      ["Giorno della settimana degli incontri", "giovedì", ["il giovedì"]],
+      ["Numero di incontri", "8", ["otto"]],
+      ["Nome dell'insegnante", "Gennaro Esposito", ["Gennaro", "Esposito"]],
+      ["Età massima dei partecipanti", "25", ["venticinque", "25 anni"]],
+      ["Posti disponibili", "20", ["venti"]]
+    ],
+    "info": [
+      ["Il corso lo organizza la biblioteca con un'associazione.", true],
+      ["Nel corso si studia soprattutto la grammatica.", false],
+      ["Il corso costa cinquanta euro.", false],
+      ["Nel corso si ascoltano canzoni.", true],
+      ["Il corso è aperto agli adulti di tutte le età.", false],
+      ["Ci si può iscrivere anche sul sito.", true]
+    ],
+    "gloss": {
+      "parla comme magne": "«hablá como comés»: hablá simple, sin vueltas (en napolitano)",
+      "iscrizioni": "inscripciones"
+    }
+  }
+}

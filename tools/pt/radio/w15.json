@@ -1,0 +1,53 @@
+{
+ "week": 15,
+ "level": "A2",
+ "title": "Botafogo de antigamente",
+ "genre": "quadro «Era uma vez»",
+ "es": "En la nueva sección «Era uma vez» (Había una vez), Dona Lúcia cuenta cómo era Botafogo cuando ella era chica: los juegos, la escuela, el tranvía y un día que no se olvida.",
+ "speakers": ["Nanda", "Dona Lúcia"],
+ "turns": [
+  ["A", "Bom dia! Hoje começa um quadro novo: «Era uma vez». E a primeira convidada é a Dona Lúcia. Dona Lúcia, como era Botafogo na sua infância?"],
+  ["B", "Ah, minha filha, era outro mundo! Não tinha tantos prédios. As casas tinham quintal, com mangueira e galinha. E na rua passava o bonde."],
+  ["A", "O bonde! E vocês brincavam onde?"],
+  ["B", "Na rua mesmo, porque quase não tinha carro. As meninas pulavam corda e brincavam de boneca. Os moleques soltavam pipa na praia. E todo mundo brincava de esconde-esconde até a noite."],
+  ["A", "E a escola, como era?"],
+  ["B", "A professora era muito brava. A gente tinha medo dela! Mas o recreio era uma festa: a merenda era pão com banana, e eu costumava trocar a minha banana pela goiabada da minha amiga Zezé."],
+  ["A", "Vocês tinham muitos brinquedos?"],
+  ["B", "Não, a gente era pobre. Eu tinha uma boneca de pano, e meu irmão tinha uma bola velha. Mas a gente era feliz assim."],
+  ["A", "Tem um dia que a senhora não esquece?"],
+  ["B", "Tem. Um dia eu estava doente, com febre, e não podia sair. De tarde, meu pai chegou com um presente: uma caixa de lápis de cor e um apontador. Eu desenhei o bonde a tarde inteira!"],
+  ["A", "Que lindo, Dona Lúcia! E vocês, ouvintes: como era a sua rua quando vocês eram crianças?"]
+ ],
+ "gloss": {
+  "quadro": "sección (de un programa)",
+  "Era uma vez": "había una vez",
+  "convidada": "invitada",
+  "mangueira": "árbol de mango",
+  "galinha": "gallina",
+  "bonde": "tranvía",
+  "pulavam corda": "saltaban a la soga",
+  "soltavam pipa": "remontaban barriletes",
+  "brava": "severa, enojona",
+  "goiabada": "dulce de guayaba",
+  "de pano": "de trapo",
+  "febre": "fiebre",
+  "medo": "miedo",
+  "doente": "enferma",
+  "trocar": "cambiar, intercambiar",
+  "lápis de cor": "lápices de colores",
+  "desenhei": "dibujé",
+  "ouvintes": "oyentes"
+ },
+ "questions": [
+  ["Como era Botafogo na infância da Dona Lúcia?", ["Tinha muitos prédios e carros", "Tinha casas com quintal e passava o bonde", "Não tinha praia nem escola", "Era um bairro moderno, cheio de lojas"], "Tinha casas com quintal e passava o bonde"],
+  ["O que a Dona Lúcia costumava fazer no recreio?", ["Trocar a banana pela goiabada da amiga", "Brincar de pipa na praia com os moleques", "Desenhar o bonde", "Comer pão com goiabada"], "Trocar a banana pela goiabada da amiga"],
+  ["Por que a Dona Lúcia lembra daquele dia?", ["Porque ganhou uma boneca nova", "Porque o pai trouxe lápis de cor", "Porque andou de bonde pela primeira vez", "Porque a professora deu uma festa"], "Porque o pai trouxe lápis de cor"]
+ ],
+ "info": [
+  ["As crianças tinham medo da professora.", true],
+  ["A família da Dona Lúcia tinha muito dinheiro.", false],
+  ["O irmão da Dona Lúcia jogava bola no quintal.", false]
+ ],
+ "grammatica": {"label": "el pretérito imperfeito para describir cómo eran las cosas (y el perfeito para lo que pasó)", "forme": ["como era", "tinha", "tinham", "passava", "brincavam", "pulavam", "soltavam", "brincava", "tinha medo", "costumava", "era feliz", "estava doente", "não podia", "chegou", "desenhei", "eram crianças"]},
+ "parole": [["infância", "a infância"], ["quintal", "quintal"], ["bonde", "bonde"], ["brincavam", "brincar"], ["pulavam", "pular"], ["boneca", "boneca"], ["moleques", "moleque"], ["pipa", "pipa"], ["esconde-esconde", "esconde-esconde"], ["recreio", "o recreio"], ["merenda", "merenda"], ["costumava", "costumar"], ["brinquedos", "brinquedo"], ["apontador", "apontador"]]
+}

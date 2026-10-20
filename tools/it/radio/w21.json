@@ -1,0 +1,53 @@
+{
+ "week": 21,
+ "level": "B1",
+ "title": "La minestra della signora Franca",
+ "genre": "rubrica di cucina",
+ "es": "Llueve y hace frío en Bologna. En la sección de cocina, la signora Franca dicta por teléfono su receta de sopa de invierno, con cantidades y todo, mientras Sara anota.",
+ "speakers": ["Sara", "Franca"],
+ "turns": [
+  ["A", "Fuori piove e fa freddo: è il giorno giusto per una minestra calda. In linea c'è la nostra esperta, la signora Franca. Buongiorno, signora!"],
+  ["B", "Buongiorno, Sara! Oggi vi do la ricetta della minestra di mia nonna. È facile: ci riescono tutti."],
+  ["A", "Io ho carta e penna. Che cosa ci vuole?"],
+  ["B", "Allora: ci vogliono due cipolle, tre carote, un po' di sedano e un chilo di patate. E poi i fagioli."],
+  ["A", "Freschi o in scatola?"],
+  ["B", "Io li compro secchi e li metto nell'acqua la sera prima. Ma se non avete tempo, una scatola va bene. Ne basta una grande."],
+  ["A", "E la pasta? Quanta ne metto?"],
+  ["B", "Ne metto un etto e mezzo per quattro persone. Non di più, perché la minestra deve restare leggera, non pesante."],
+  ["A", "Dove compra la verdura, signora?"],
+  ["B", "Al mercato di via Ugo Bassi. Ci vado ogni sabato mattina. Il fruttivendolo mi conosce e mi dà sempre qualcosa in più: una mela, un limone... Il pane, invece, lo prendo dal fornaio sotto casa."],
+  ["A", "E quanto tempo ci vuole per cucinarla?"],
+  ["B", "Un'ora abbondante. Io la preparo la domenica e ne mangio metà subito. L'altra metà la metto in una busta nel congelatore."],
+  ["A", "Molto furba! Mio marito... cioè, il mio compagno non riesce ad abituarsi alle minestre: dice che non sono un pasto vero."],
+  ["B", "Si abituerà, cara! Ne mangia un piatto e poi ne vuole un altro. E se va in palestra, ha bisogno di energia."],
+  ["A", "Perfetto. Allora ricapitoliamo: due cipolle, tre carote, patate, fagioli e un etto e mezzo di pasta. Abbastanza facile!"],
+  ["B", "E un filo d'olio buono alla fine. Buon appetito a tutti!"]
+ ],
+ "gloss": {
+  "In linea": "en línea, al teléfono",
+  "carta e penna": "papel y lapicera",
+  "sedano": "apio",
+  "fagioli": "porotos",
+  "secchi": "secos",
+  "fruttivendolo": "verdulero",
+  "abbondante": "largo, generoso",
+  "congelatore": "freezer",
+  "furba": "viva, astuta",
+  "compagno": "pareja",
+  "pasto": "comida (del día)",
+  "ricapitoliamo": "repasemos",
+  "un filo d'olio": "un chorrito de aceite"
+ },
+ "questions": [
+  ["Quante cipolle ci vogliono per la minestra?", ["Una", "Due", "Tre", "Quattro"], "Due"],
+  ["Perché Franca non mette più di un etto e mezzo di pasta?", ["Perché la pasta costa cara", "Perché la minestra deve restare leggera", "Perché i fagioli sono già abbastanza", "Perché la nonna faceva così"], "Perché la minestra deve restare leggera"],
+  ["Che cosa fa Franca con la metà della minestra che non mangia?", ["La regala al fruttivendolo", "La porta alla radio", "La mette nel congelatore", "La mangia la sera stessa"], "La mette nel congelatore"]
+ ],
+ "info": [
+  ["Franca va al mercato ogni sabato mattina.", true],
+  ["Franca compra il pane al mercato.", false],
+  ["Il compagno di Sara va in palestra tutti i giorni.", false]
+ ],
+ "grammatica": {"label": "ne (cantidad) y ci (lugar; ci vuole, ci riesco)", "forme": ["ci riescono", "ci vuole", "ci vogliono", "ne basta una", "quanta ne metto", "ne metto un etto", "ci vado", "ne mangio metà", "ne mangia un piatto", "ne vuole un altro"]},
+ "parole": [["minestra", "minestra"], ["riescono", "riuscire"], ["cipolle", "cipolla"], ["chilo", "chilo"], ["scatola", "scatola"], ["etto", "etto"], ["pesante", "pesante"], ["mela", "mela"], ["fornaio", "fornaio"], ["metà", "metà"], ["busta", "busta"], ["abituarsi", "abituarsi"], ["palestra", "palestra"], ["abbastanza", "abbastanza"]]
+}

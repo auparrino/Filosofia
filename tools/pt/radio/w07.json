@@ -1,0 +1,45 @@
+{
+ "week": 7,
+ "level": "A1",
+ "title": "Um presente para a Bia",
+ "genre": "telefonema ao vivo",
+ "es": "Llama a la radio Sofía, la argentina que vive en Botafogo. Quiere hacerle un regalo especial a su amiga Bia y necesita fechas, horarios y precios.",
+ "speakers": ["Nanda", "Sofía"],
+ "turns": [
+  ["A", "São oito e meia: aqui é a Rádio Calçadão. Temos uma ouvinte na linha. Alô?"],
+  ["B", "Alô, Nanda? É a Sofía, a argentina de Botafogo!"],
+  ["A", "Oi, Sofía! Tudo bem?"],
+  ["B", "Tudo! Sábado é o aniversário da Bia e eu quero dar um presente: um ingresso para o show de samba na Lapa. Quando é?"],
+  ["A", "É no sábado, dia vinte e dois de março, às dez da noite."],
+  ["B", "E quanto custa?"],
+  ["A", "Oitenta reais a inteira e quarenta a meia. Estudante paga meia."],
+  ["B", "A Bia é estudante! Posso pagar com cartão?"],
+  ["A", "Pode. A bilheteria abre de segunda a sexta, das duas às seis. Sempre tem fila."],
+  ["B", "Eu vou amanhã, quarta-feira, às duas em ponto."],
+  ["A", "Em ponto? Você sempre chega atrasada, Sofía!"],
+  ["B", "É verdade! Amanhã chego à uma e meia. Prometo!"],
+  ["A", "Combinado! E a gente volta às nove com notícias e às nove e quinze com a previsão do tempo."]
+ ],
+ "gloss": {
+  "ouvinte": "oyente",
+  "a inteira": "la entrada completa",
+  "a meia": "la media entrada (para estudiantes)",
+  "bilheteria": "boletería",
+  "fila": "cola, fila",
+  "em ponto": "en punto",
+  "previsão do tempo": "pronóstico del tiempo",
+  "notícias": "noticias"
+ },
+ "questions": [
+  ["¿Qué quiere regalarle Sofía a Bia?", ["Una entrada para un show de samba", "Una torta de cumpleaños", "Una tarjeta de crédito", "Un viaje a la Lapa"], "Una entrada para un show de samba"],
+  ["¿Cuánto paga Sofía por la entrada de Bia?", ["Veinte reales", "Cuarenta reales", "Ochenta reales", "Ciento veinte reales"], "Cuarenta reales"],
+  ["¿Cuándo va a ir Sofía a la boletería?", ["El sábado a la noche", "Mañana, miércoles, temprano", "El lunes a las seis de la tarde", "Hoy a las ocho y media"], "Mañana, miércoles, temprano"]
+ ],
+ "info": [
+  ["El show es el sábado a las diez de la noche.", true],
+  ["En la boletería no se puede pagar con tarjeta.", false],
+  ["Sofía siempre llega tarde.", true]
+ ],
+ "grammatica": {"label": "la hora, las fechas y los precios", "forme": ["são oito e meia", "dia vinte e dois de março", "às dez da noite", "oitenta reais", "quarenta", "de segunda a sexta", "das duas às seis", "às duas em ponto", "à uma e meia", "às nove e quinze"]},
+ "parole": [["aniversário", "aniversário"], ["cartão", "cartão"], ["segunda", "segunda-feira"], ["sexta", "sexta-feira"], ["amanhã", "amanhã"], ["quarta-feira", "quarta-feira"], ["atrasada", "atrasado"], ["meia", "meia"]]
+}

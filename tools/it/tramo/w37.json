@@ -1,0 +1,365 @@
+{
+  "week": 37,
+  "level": "B2",
+  "lettura": {
+    "title": "Il primo voto",
+    "emoji": "🗳️",
+    "genre": "racconto",
+    "grammar": "passato remoto e trapassato remoto",
+    "text": "Mia nonna Teresa raccontava questa storia soltanto a Natale, e sempre nello stesso modo, come se la leggesse da un libro. Io la sentii per la prima volta a nove anni e non la capii; la capii davvero molto più tardi, quando lei non c'era più.\n\nLa mattina del 2 giugno 1946 Teresa si alzò prima dell'alba. Aveva ventitré anni, un marito tornato dalla prigionia l'estate prima e una bambina di poche settimane che dormiva nella cesta accanto al letto. Si lavò il viso con l'acqua gelata del catino, si pettinò con cura e indossò l'unico vestito buono che possedeva, quello blu che le aveva cucito la madre per il matrimonio. Quando ebbe finito di prepararsi, si guardò a lungo nello specchio incrinato della cucina. Non le sembrò di essere una persona importante. Eppure quel giorno lo Stato le chiedeva un'opinione sul futuro del Paese.\n\nIl seggio era stato allestito nella scuola elementare, in fondo al paese. Teresa ci andò a piedi insieme alla cognata, Rosa, che era più anziana di lei e aveva paura di sbagliare. Per tutta la strada Rosa ripeté le istruzioni che il parroco aveva dato dal pulpito la domenica precedente, e che lei aveva imparato a memoria senza capirle del tutto. Teresa non disse niente. Aveva già deciso, ma non lo aveva detto a nessuno, nemmeno al marito.\n\nDavanti alla scuola c'era una fila lunghissima. Le donne erano tante, più di quante Teresa si aspettasse: contadine con le scarpe della festa, maestre, vedove vestite di nero, ragazze che ridevano per nascondere l'emozione. Qualcuna aveva portato i figli, qualcun'altra teneva in mano un santino. Teresa riconobbe la moglie del fornaio, che durante la guerra aveva perso un figlio, e la salutò con un cenno. La donna le prese la mano e la tenne stretta per qualche secondo, senza dire una parola. Un uomo, passando, fece una battuta sulle donne che adesso volevano comandare; nessuna gli rispose, e dopo un po' se ne andò.\n\nQuando finalmente toccò a lei, Teresa entrò nella cabina e tirò la tenda. Rimase lì dentro più del necessario. Più tardi raccontò che le tremavano le mani, e che per un attimo aveva temuto di non ricordare più come si scriveva. Poi prese la matita, fece il suo segno e piegò la scheda con attenzione, come si piega una lettera d'amore. Appena fu uscita dalla cabina, la consegnò al presidente del seggio, un vecchio maestro che le sorrise e le disse soltanto: «Brava».\n\nTornarono a casa nel primo pomeriggio. Rosa era stanca e di cattivo umore, perché era convinta di aver sbagliato qualcosa. Teresa, invece, si sentiva leggera. Allattò la bambina, preparò la cena e non parlò del voto per tutta la sera. Soltanto quando il marito le chiese, un po' per scherzo, per chi avesse votato, lei rispose che era una cosa sua.\n\nQualche giorno dopo, quando furono annunciati i risultati, in paese ci fu chi festeggiò e chi pianse. L'Italia era diventata una repubblica. Teresa non seppe mai con certezza quanto avesse contato il suo voto, e non le importava. «Non era per il risultato», mi disse l'ultimo Natale che passammo insieme. «Era che per la prima volta qualcuno aveva aspettato anche me.»\n\nDopo che se ne fu andata, trovammo nel suo cassetto il certificato elettorale di quel giorno, piegato in quattro dentro un libro di preghiere. Lo conservo ancora. Non so per chi votò mia nonna nel 1946. So soltanto che quella mattina si mise il vestito più bello che aveva.",
+    "gloss": {
+      "chi": "(ci fu chi festeggiò e chi pianse) hubo quienes festejaron y quienes lloraron",
+      "tenne": "sostuvo (passato remoto de *tenere*: tenni, tenne)",
+      "toccò": "(toccò a lei) le tocó (el turno) a ella",
+      "andata": "(dopo che se ne fu andata) después de que se fue, de que murió: *andarsene* en trapassato remoto",
+      "alba": "amanecer",
+      "prigionia": "cautiverio (como prisionero de guerra)",
+      "cesta": "canasta",
+      "gelata": "helada",
+      "catino": "palangana",
+      "cucito": "cosido",
+      "incrinato": "rajado",
+      "seggio": "mesa electoral, lugar de votación",
+      "allestito": "montado, preparado",
+      "cognata": "cuñada",
+      "ripeté": "repitió",
+      "parroco": "cura párroco",
+      "pulpito": "púlpito",
+      "contadine": "campesinas",
+      "vedove": "viudas",
+      "santino": "estampita",
+      "battuta": "chiste, comentario burlón",
+      "cabina": "cuarto oscuro",
+      "tenda": "cortina",
+      "tremavano": "temblaban",
+      "scheda": "boleta",
+      "piegò": "dobló",
+      "allattò": "amamantó",
+      "pianse": "lloró",
+      "seppe": "supo",
+      "cassetto": "cajón",
+      "preghiere": "oraciones",
+      "cenno": "seña, gesto"
+    },
+    "questions": [
+      [
+        "Chi racconta la storia?",
+        [
+          "Teresa stessa, il giorno del voto",
+          "La cognata Rosa, in una lettera",
+          "Il presidente del seggio, nelle sue memorie",
+          "Un nipote di Teresa, molti anni dopo"
+        ],
+        "Un nipote di Teresa, molti anni dopo"
+      ],
+      [
+        "Che cosa prova Teresa davanti allo specchio?",
+        [
+          "Una certa sorpresa all'idea di contare qualcosa",
+          "Vergogna per il suo unico vestito, vecchio e rovinato",
+          "Paura che il marito scopra la sua scelta",
+          "Tristezza perché la madre non può vederla"
+        ],
+        "Una certa sorpresa all'idea di contare qualcosa"
+      ],
+      [
+        "Come si comporta Rosa durante il tragitto?",
+        [
+          "Cerca di convincere Teresa a votare come lei",
+          "Ripete ansiosa le istruzioni del parroco",
+          "Si lamenta della fila davanti alla scuola",
+          "Racconta che cosa voterà suo marito"
+        ],
+        "Ripete ansiosa le istruzioni del parroco"
+      ],
+      [
+        "Che cosa suggerisce il paragone con «una lettera d'amore»?",
+        [
+          "Che Teresa ha scritto un messaggio segreto sulla scheda",
+          "Che Teresa pensa al marito mentre vota",
+          "Che Teresa vive il voto come un gesto intimo e prezioso",
+          "Che la scheda era più grande di un normale foglio"
+        ],
+        "Che Teresa vive il voto come un gesto intimo e prezioso"
+      ],
+      [
+        "Che cosa voleva dire Teresa con «qualcuno aveva aspettato anche me»?",
+        [
+          "Che il presidente del seggio l'aveva aspettata per ore",
+          "Che la fila davanti alla scuola era stata molto lenta",
+          "Che finalmente le donne erano considerate cittadine",
+          "Che il suo voto era stato decisivo per la repubblica"
+        ],
+        "Che finalmente le donne erano considerate cittadine"
+      ]
+    ],
+    "vf": [
+      [
+        "Teresa aveva già deciso per chi votare prima di arrivare al seggio.",
+        "vero"
+      ],
+      [
+        "Il marito di Teresa sapeva per chi aveva votato la moglie.",
+        "falso"
+      ],
+      [
+        "Rosa votò per la monarchia.",
+        "non si dice"
+      ],
+      [
+        "Il seggio si trovava nella chiesa del paese.",
+        "falso"
+      ],
+      [
+        "Il narratore conserva ancora il certificato elettorale della nonna.",
+        "vero"
+      ]
+    ],
+    "hunt": {
+      "label": "Tocá los verbos en passato remoto (también el auxiliar del trapassato remoto)",
+      "targets": ["sentii", "capii", "alzò", "lavò", "pettinò", "indossò", "ebbe", "guardò", "sembrò", "andò", "ripeté", "disse", "riconobbe", "salutò", "prese", "tenne", "fece", "rispose", "toccò", "entrò", "tirò", "rimase", "raccontò", "piegò", "fu", "consegnò", "sorrise", "tornarono", "allattò", "preparò", "parlò", "chiese", "furono", "festeggiò", "pianse", "seppe", "passammo", "trovammo", "votò", "mise"]
+    }
+  },
+  "ascolto": {
+    "title": "Firenze, 4 novembre 1966",
+    "genre": "podcast di storia",
+    "es": "En un podcast de historia, una conductora y un historiador reconstruyen la inundación de Florencia de 1966 y el papel de los voluntarios.",
+    "speakers": [
+      "Sara, conduttrice",
+      "Andrea Bellini, storico"
+    ],
+    "turns": [
+      [
+        "A",
+        "Benvenuti a Tracce, il podcast che racconta l'Italia attraverso i suoi giorni difficili. Oggi siamo a Firenze, nel novembre del 1966. Con me c'è il professor Andrea Bellini, storico. Professore, partiamo dall'inizio: che cosa successe quella notte?"
+      ],
+      [
+        "B",
+        "Allora, bisogna fare un passo indietro. In quelle settimane piovve moltissimo su tutta la Toscana. La notte tra il tre e il quattro novembre l'Arno, che era già gonfio, cominciò a superare gli argini. E la mattina del quattro la città si svegliò con l'acqua nelle strade."
+      ],
+      [
+        "A",
+        "Ma la gente se ne accorse subito?"
+      ],
+      [
+        "B",
+        "Mah, sì e no. Pensi che il quattro novembre era un giorno di festa, quindi molti negozi erano chiusi e tanti fiorentini dormivano ancora. Chi abitava vicino al fiume capì in fretta, ma altri se ne resero conto solo quando l'acqua era già entrata nei pianterreni. In alcune strade arrivò fino al primo piano."
+      ],
+      [
+        "A",
+        "E i danni non furono soltanto alle case."
+      ],
+      [
+        "B",
+        "No, appunto. Questo è il punto che colpì il mondo intero. Firenze non è una città qualsiasi: l'acqua e il fango entrarono nelle chiese, nei musei, negli archivi. Il caso più famoso è il crocifisso di Cimabue, a Santa Croce, che fu gravemente danneggiato. E poi la Biblioteca Nazionale, dove finirono sott'acqua centinaia di migliaia di volumi."
+      ],
+      [
+        "A",
+        "Ed è qui che entrano in scena gli angeli del fango."
+      ],
+      [
+        "B",
+        "Esatto. Nei giorni successivi arrivarono migliaia di giovani, da tutta Italia e anche dall'estero. Studenti, soprattutto. Nessuno li aveva chiamati ufficialmente, diciamo. Vennero perché avevano visto le immagini in televisione, o sentito la radio. E si misero a lavorare: spalare il fango, portare fuori i libri, passarseli di mano in mano in lunghe catene umane."
+      ],
+      [
+        "A",
+        "Mi colpisce proprio questo: nessuno li aveva chiamati."
+      ],
+      [
+        "B",
+        "Sì, ed è per questo che l'episodio è rimasto nella memoria collettiva. Fu una delle prime volte in cui una generazione intera si sentì responsabile di un patrimonio comune. Alcuni storici vedono lì, in qualche modo, un'anticipazione dei movimenti giovanili degli anni successivi. Io sono un po' più prudente, però è una lettura interessante."
+      ],
+      [
+        "A",
+        "E dal punto di vista del restauro? Immagino che quei mesi abbiano cambiato anche il mestiere."
+      ],
+      [
+        "B",
+        "Assolutamente. Il restauro dei libri e delle opere danneggiate durò decenni, e in parte non è ancora concluso. Ma proprio da quell'emergenza nacquero tecniche e laboratori che poi diventarono un punto di riferimento internazionale. Insomma, da una tragedia venne fuori anche una scuola."
+      ],
+      [
+        "A",
+        "Professore, grazie. Nella prossima puntata restiamo in quegli anni, ma ci spostiamo a Venezia, che lo stesso giorno visse un'acqua alta eccezionale."
+      ]
+    ],
+    "gloss": {
+      "pensi": "(pensi che...) fíjese que...: imperativo de *Lei*",
+      "venne": "(venne fuori) salió, surgió: *venire fuori*",
+      "misero": "(si misero a lavorare) se pusieron a trabajar: *mettersi a* + infinitivo",
+      "accorse": "(se ne accorse) se dio cuenta (passato remoto de *accorgersi*)",
+      "successe": "pasó, sucedió (passato remoto de *succedere*)",
+      "piovve": "llovió",
+      "gonfio": "crecido, hinchado",
+      "argini": "terraplenes, márgenes del río",
+      "resero": "(se ne resero conto) se dieron cuenta",
+      "pianterreni": "plantas bajas",
+      "fango": "barro",
+      "crocifisso": "crucifijo",
+      "spalare": "palear, sacar con pala",
+      "catene": "cadenas",
+      "patrimonio": "patrimonio",
+      "restauro": "restauración",
+      "mestiere": "oficio",
+      "nacquero": "nacieron",
+      "visse": "vivió"
+    },
+    "questions": [
+      [
+        "Perché molti fiorentini non si accorsero subito dell'alluvione?",
+        [
+          "Perché era festa e tanti dormivano ancora",
+          "Perché la radio non diede la notizia",
+          "Perché la pioggia era cessata da giorni",
+          "Perché l'acqua arrivò prima nei quartieri alti"
+        ],
+        "Perché era festa e tanti dormivano ancora"
+      ],
+      [
+        "Perché, secondo lo storico, l'alluvione colpì il mondo intero?",
+        [
+          "Perché ci furono migliaia di vittime",
+          "Perché fu la prima alluvione trasmessa in diretta",
+          "Perché colpì anche altre città europee",
+          "Perché danneggiò un patrimonio artistico unico"
+        ],
+        "Perché danneggiò un patrimonio artistico unico"
+      ],
+      [
+        "Chi erano gli «angeli del fango»?",
+        [
+          "Soldati inviati dal governo a spalare il fango",
+          "Giovani volontari arrivati spontaneamente",
+          "Restauratori stranieri chiamati dai musei",
+          "Abitanti rimasti senza casa dopo l'alluvione"
+        ],
+        "Giovani volontari arrivati spontaneamente"
+      ],
+      [
+        "Che cosa pensa lo storico dell'idea che l'episodio anticipi i movimenti giovanili?",
+        [
+          "La considera del tutto sbagliata",
+          "La trova interessante, ma la accoglie con cautela",
+          "La ritiene l'unica spiegazione davvero convincente",
+          "Dice di essere stato lui a proporla per primo"
+        ],
+        "La trova interessante, ma la accoglie con cautela"
+      ],
+      [
+        "Che cosa intende lo storico con «da una tragedia venne fuori anche una scuola»?",
+        [
+          "Che dopo l'alluvione fu costruita una nuova scuola",
+          "Che molti volontari diventarono poi insegnanti",
+          "Che gli studenti persero un anno di lezioni",
+          "Che l'emergenza fece nascere competenze di restauro"
+        ],
+        "Che l'emergenza fece nascere competenze di restauro"
+      ]
+    ],
+    "vf": [
+      [
+        "Prima dell'alluvione aveva piovuto per settimane.",
+        "vero"
+      ],
+      [
+        "Il crocifisso di Cimabue si trovava nella Biblioteca Nazionale.",
+        "falso"
+      ],
+      [
+        "Gli angeli del fango ricevettero un compenso dal Comune.",
+        "non si dice"
+      ],
+      [
+        "Il restauro dei volumi danneggiati si concluse in pochi mesi.",
+        "falso"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "recensione",
+    "title": "Una recensione per il gruppo di lettura",
+    "fonte": "lettura",
+    "t": "Fai parte di un gruppo di lettura che ogni mese pubblica sul suo blog le recensioni dei testi letti. Questo mese avete letto il racconto «Il primo voto». Scrivi una recensione in cui presenti il racconto (ambientazione, narratore, personaggi), ne riassumi la trama, commenti lo stile o una scena che ti ha colpito e dici a chi lo consiglieresti. Dai un titolo alla recensione. Registro medio, da 177 a 237 parole.",
+    "es": "Reseña con título: presentación, resumen breve de la trama, valoración de estilo o de una escena y recomendación. Al resumir podés usar el presente; al contextualizar la historia, el passato remoto.",
+    "min": 177,
+    "max": 237,
+    "punti": [
+      [
+        "presentar el cuento: época, narrador, personajes",
+        [
+          "1946",
+          "narrat",
+          "nipote",
+          "teresa"
+        ]
+      ],
+      [
+        "resumir la trama",
+        [
+          "trama",
+          "storia",
+          "seggio",
+          "vot"
+        ]
+      ],
+      [
+        "valorar el estilo o una escena concreta",
+        [
+          "stile",
+          "scena",
+          "finale",
+          "passaggio"
+        ]
+      ],
+      [
+        "recomendar el texto a un tipo de lector",
+        [
+          "consiglio",
+          "consiglierei",
+          "raccomand"
+        ]
+      ]
+    ],
+    "model": "Una storia piccola per un giorno grande\n\nQuesto mese il nostro gruppo ha letto «Il primo voto», un racconto breve ambientato il 2 giugno 1946, il giorno del referendum tra monarchia e repubblica. A raccontare è un nipote che ricorda la storia della nonna Teresa, una giovane madre di paese che quel giorno votò per la prima volta a un'elezione nazionale.\n\nLa trama è semplice: Teresa si prepara con cura, va al seggio con la cognata Rosa, aspetta in una lunga fila di donne e vota. Non succede niente di straordinario, eppure ogni gesto pesa. La scena che mi è piaciuta di più è quella della cabina: quando Teresa piega la scheda «come si piega una lettera d'amore», il lettore capisce quanto fosse importante per lei quel momento.\n\nLo stile è sobrio, quasi da cronaca familiare, e il passato remoto dà al racconto il tono di una storia tramandata. Il finale, con il certificato elettorale nascosto in un libro di preghiere, commuove senza essere retorico. L'unico limite, secondo me, è che gli altri personaggi, come il marito, restano un po' sullo sfondo.\n\nConsiglio questo racconto a chi pensa che la storia sia fatta solo di grandi nomi e di grandi battaglie: qui si scopre che è fatta anche di mani che tremano davanti a una matita.",
+    "gloss": {
+      "cognata": "cuñada",
+      "seggio": "lugar de votación, mesa electoral",
+      "scheda": "boleta (de votación)",
+      "pesa": "tiene peso, importa",
+      "tramandata": "transmitida de generación en generación",
+      "restano un po' sullo sfondo": "quedan medio en segundo plano"
+    }
+  },
+  "breve": {
+    "title": "Il 2 giugno 1946",
+    "genre": "audioguida di una mostra",
+    "es": "La audioguía de una muestra sobre el referéndum que convirtió a Italia en república.",
+    "speaker": "Audioguida",
+    "voice": 1,
+    "text": [
+      "Siete davanti a una delle schede elettorali del referendum del 2 giugno 1946. Quel giorno gli italiani scelsero tra monarchia e repubblica, e per la prima volta in un voto nazionale votarono anche le donne.",
+      "Il simbolo della repubblica era una testa di donna con una corona di torri; quello della monarchia, lo stemma dei Savoia. L'affluenza fu altissima: votò quasi il novanta per cento degli aventi diritto.",
+      "I risultati arrivarono lentamente, perché le schede furono contate a mano. La repubblica vinse con circa il cinquantaquattro per cento dei voti, ma il Paese si divise: il Nord votò in maggioranza per la repubblica, il Sud per la monarchia.",
+      "Il re Umberto secondo lasciò l'Italia il 13 giugno e partì per il Portogallo. Nella vetrina successiva trovate i giornali di quei giorni: il più famoso titolava in prima pagina «È nata la Repubblica italiana»."
+    ],
+    "tabella": [
+      ["Percentuale di chi andò a votare", "90", ["novanta", "90%", "quasi il 90", "quasi il novanta per cento", "novanta per cento"]],
+      ["Percentuale della repubblica", "54", ["cinquantaquattro", "54%", "circa il 54", "cinquantaquattro per cento"]],
+      ["Paese in cui andò il re", "Portogallo", ["in Portogallo"]],
+      ["Data in cui il re lasciò l'Italia", "13 giugno", ["il 13 giugno", "tredici giugno"]]
+    ],
+    "info": [
+      ["Nel 1946 le donne votarono per la prima volta in un voto nazionale.", true],
+      ["Il simbolo della repubblica era lo stemma dei Savoia.", false],
+      ["Le schede furono contate a mano.", true],
+      ["Il Sud votò in maggioranza per la repubblica.", false],
+      ["Il re lasciò l'Italia dopo il referendum.", true],
+      ["I risultati arrivarono la sera stessa del voto.", false]
+    ],
+    "gloss": {
+      "schede": "boletas",
+      "stemma": "escudo",
+      "affluenza": "participación (electoral)",
+      "aventi diritto": "quienes tenían derecho (a votar)"
+    }
+  }
+}

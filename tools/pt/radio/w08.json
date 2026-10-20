@@ -1,0 +1,42 @@
+{
+ "week": 8,
+ "level": "A1",
+ "title": "Sábado no Aterro",
+ "genre": "entrada ao vivo",
+ "es": "Sábado a la mañana: Caio, el cronista en bicicleta de la radio, está en el Aterro do Flamengo. Nanda le pregunta qué está haciendo la gente y qué va a hacer él el resto del fin de semana.",
+ "speakers": ["Nanda", "Caio"],
+ "turns": [
+  ["A", "Agora, o Caio, nosso repórter de bicicleta. Caio, onde você está?"],
+  ["B", "Oi, Nanda! Tô no Aterro do Flamengo. Tá um dia lindo!"],
+  ["A", "E o que as pessoas estão fazendo aí?"],
+  ["B", "Muita gente tá correndo, umas crianças estão jogando bola e uma família tá fazendo churrasco na grama."],
+  ["A", "Churrasco às nove da manhã? E você, o que está fazendo?"],
+  ["B", "Tô tomando uma água de coco, né? Ninguém é de ferro!"],
+  ["A", "E depois, quais são os planos?"],
+  ["B", "De tarde vou fazer uma trilha com uns amigos até uma cachoeira. Amanhã a gente vai a um sítio em Petrópolis."],
+  ["A", "Que delícia! Eu ainda não sei o que vou fazer. Acho que vou arrumar a casa: meu apartamento tá precisando de uma faxina."],
+  ["B", "Faxina no sábado? Não, Nanda! Você vem com a gente para a cachoeira?"],
+  ["A", "Vou pensar. E vocês, ouvintes: o que estão fazendo agora? E o que vão fazer no fim de semana? Já, já tem música!"]
+ ],
+ "gloss": {
+  "repórter": "cronista, periodista",
+  "grama": "pasto (el césped)",
+  "água de coco": "agua de coco",
+  "Ninguém é de ferro": "nadie es de fierro (hay que darse un gusto)",
+  "Que delícia": "¡qué lindo!",
+  "Já, já": "enseguida",
+  "ouvintes": "oyentes"
+ },
+ "questions": [
+  ["¿Dónde está Caio?", ["En la radio, con Nanda", "En el Aterro do Flamengo", "En una cascada de Petrópolis", "En su departamento"], "En el Aterro do Flamengo"],
+  ["¿Qué está haciendo Caio en este momento?", ["Está corriendo por la playa", "Está haciendo un asado", "Está tomando agua de coco", "Está jugando a la pelota"], "Está tomando agua de coco"],
+  ["¿Qué piensa hacer Nanda el fin de semana?", ["Ir a una cascada con Caio", "Limpiar y ordenar su casa", "Ir a una quinta en Petrópolis", "Trabajar en la radio"], "Limpiar y ordenar su casa"]
+ ],
+ "info": [
+  ["Una familia está haciendo un asado en el pasto.", true],
+  ["Caio va solo a la cascada.", false],
+  ["El domingo Caio va a una quinta.", true]
+ ],
+ "grammatica": {"label": "estar + gerundio (lo que está pasando) e ir + infinitivo (lo que vas a hacer)", "forme": ["estão fazendo", "tá correndo", "estão jogando", "tá fazendo", "está fazendo", "tô tomando", "vou fazer", "vou arrumar", "tá precisando", "vão fazer", "vou pensar"]},
+ "parole": [["agora", "agora"], ["churrasco", "churrasco"], ["depois", "depois"], ["fim de semana", "fim de semana"], ["trilha", "trilha"], ["cachoeira", "cachoeira"], ["sítio", "sítio"], ["ainda", "ainda"], ["arrumar", "arrumar"], ["faxina", "faxina"], ["já", "já"]]
+}

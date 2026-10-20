@@ -1,0 +1,41 @@
+{
+ "week": 7,
+ "level": "A2",
+ "title": "Che ore sono a Rosario?",
+ "genre": "telefonata in diretta",
+ "es": "Temprano a la mañana llama a la radio Martín, el argentino que vive en via Zamboni. Tiene una pregunta sobre la hora: hoy es un día especial para su familia.",
+ "speakers": ["Sara", "Martín"],
+ "turns": [
+  ["A", "Sono le sette e mezza e siete su Radio Portici. Abbiamo una telefonata. Pronto?"],
+  ["B", "Pronto, Sara? Sono Martín, lo studente argentino di via Zamboni."],
+  ["A", "Ciao, Martín! Come stai?"],
+  ["B", "Bene, grazie. Ho una domanda. Mia madre abita a Rosario e oggi è il suo compleanno: compie sessant'anni. Qui è mattina, ma lì che ore sono?"],
+  ["A", "Allora: in estate la differenza è di cinque ore, in inverno di quattro. Oggi è il ventotto febbraio, quindi a Rosario sono le tre e mezza di notte."],
+  ["B", "Di notte? Allora adesso non telefono!"],
+  ["A", "No, meglio di no. Telefona a mezzogiorno: da noi è mezzogiorno, da voi sono le otto di mattina."],
+  ["B", "Perfetto. E stasera, alle nove, facciamo una videochiamata con tutta la famiglia."],
+  ["A", "Tanti auguri alla mamma, Martín! E voi, ascoltatori: alle otto e un quarto c'è il meteo e alle nove le notizie della giornata."]
+ ],
+ "gloss": {
+  "compleanno": "cumpleaños",
+  "compie": "cumple (años)",
+  "differenza": "diferencia",
+  "videochiamata": "videollamada",
+  "tanti auguri": "¡feliz cumpleaños!, ¡muchas felicidades!",
+  "meteo": "el pronóstico del tiempo",
+  "ascoltatori": "oyentes",
+  "giornata": "(el) día, la jornada"
+ },
+ "questions": [
+  ["¿Por qué llama Martín a la radio?", ["Quiere saber qué hora es en Rosario", "Quiere mandarle saludos a su mamá", "Quiere saber el pronóstico del tiempo", "Quiere escuchar una canción argentina"], "Quiere saber qué hora es en Rosario"],
+  ["¿Cuántas horas de diferencia hay hoy entre Bologna y Rosario?", ["Tres horas", "Cuatro horas", "Cinco horas", "Seis horas"], "Cuatro horas"],
+  ["¿Cuándo va a llamar Martín a su mamá?", ["Ahora, a las siete y media", "A las tres y media de la noche", "Al mediodía, hora de Italia", "Mañana a la mañana"], "Al mediodía, hora de Italia"]
+ ],
+ "info": [
+  ["La mamá de Martín cumple sesenta años.", true],
+  ["Martín cumple años el 28 de febrero.", false],
+  ["A las ocho y cuarto dan el pronóstico del tiempo.", true]
+ ],
+ "grammatica": {"label": "la hora, las fechas y los números", "forme": ["sono le sette e mezza", "le tre e mezza", "mezzogiorno", "le otto", "alle nove", "alle otto e un quarto", "il ventotto febbraio", "sessant'anni"]},
+ "parole": [["mattina", "mattina"], ["ore", "ora"], ["estate", "estate"], ["notte", "notte"], ["mezzogiorno", "mezzogiorno"], ["mezza", "mezzo"], ["quarto", "quarto"]]
+}

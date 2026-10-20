@@ -1,0 +1,40 @@
+{
+"week":30,"title":"Tempos compostos e hipótese no passado","level":"B2",
+"revisado":{"items":48,"bloques_teoria":7,"lecturas":3,"dictogloss":1,"suoni":1,"radio":0,"otros":6},
+"veredicto":"bien con reparos",
+"resumen":"Semana sólida y correcta en lo gramatical: la teoría de ter + participio es clara, con tabla, contraste con el español y la variante coloquial (tinha ido) bien señalada. No encontré errores de portugués ni de contenido en los ejercicios. Los reparos son de diseño: varios cloze son ambiguos (admiten el tiempo simple), hay mucha duplicación choice/translate de las mismas frases, el bloque de relato (perfeito/imperfeito/tinha + particípio) casi no tiene práctica, y suoni/laboratorio están vacíos. Lecturas y tramo buenos y bien alineados con la gramática.",
+"bien":[
+"Tabla de tiempos compuestos con columna 'se usa para' y recordatorio de lo ya visto (semana 21): ordena el panorama.",
+"Advertencia explícita contra el calco del español ('hubiera ido' en las dos mitades) reforzada con fixerr y scopri.",
+"Registro coloquial (se eu soubesse, tinha ido) enseñado y aceptado en accept sin descartar la norma.",
+"Buena cobertura de tenha/tiver/terei y de participios irregulares (feito, dito, vindo, posto, escrito, aberto) con ejercicios dedicados.",
+"Lecturas naturales y temáticas (Independência, cartas de la abuela, ferrovia) que usan toda la gramática de la semana; las preguntas de comprensión e inferencia están bien construidas y los datos históricos verificados son correctos.",
+"Tarea de escritura con rúbrica y modelo coherentes (171 palabras, dentro del rango 137-197)."
+],
+"hallazgos":[
+{"id":"item s3-30-37","lang":"ejercicio","severidad":"error","actual":"Veja os três particípios e complete o quarto (para «teria…», «tivesse…»).","propuesta":"Complete o particípio do verbo (para «teria…», «tivesse…»).","motivo":"La consigna promete tres particípios de ejemplo (en 37, 38 y 39) pero el enunciado solo muestra 'vir → ___'."},
+{"id":"item s3-30-20","lang":"ejercicio","severidad":"duda","actual":"Quando vocês ___ (ler) o livro, a gente discute.","propuesta":"Aclarar la consigna ('use o tempo composto') o aceptar también «lerem».","motivo":"«Quando vocês lerem» es igual de correcto y más natural; con la consigna actual un alumno que lo escribe es marcado mal."},
+{"id":"item s3-30-23","lang":"ejercicio","severidad":"duda","actual":"Se até sexta você não ___ (receber) o boleto, me liga.","propuesta":"Consigna 'use o tempo composto' o aceptar «receber».","motivo":"«Se até sexta você não receber o boleto» es correcto; el enunciado no obliga al compuesto."},
+{"id":"item s3-30-21","lang":"ejercicio","severidad":"duda","actual":"Às oito o bloco já ___ (passar).","propuesta":"Aclarar 'futuro composto' en la consigna.","motivo":"«já passou» / «já vai passar» son respuestas naturales no previstas."},
+{"id":"item s3-30-19","lang":"ejercicio","severidad":"duda","actual":"Espero que ela ___ (chegar) bem a Salvador.","propuesta":"Consigna 'use o subjuntivo perfeito' o aceptar «chegue» (y en s3-30-22 «venha»).","motivo":"El presente de subjuntivo («chegue», «É bom que você venha») también es correcto."},
+{"id":"item s3-30-26","lang":"ejercicio","severidad":"duda","actual":"Se eles tivessem chegado cedo, vocês teriam visto o Cristo","propuesta":"Quitar de accept las variantes que mezclan eles/vocês.","motivo":"Es incoherente (sujeto de la condición ≠ sujeto de la consecuencia sin motivo); sobran 'Se eles… vocês teriam…' en accept."},
+{"id":"item s3-30-30","lang":"ejercicio","severidad":"mejora","actual":"Quando eu tiver terminado, aviso","propuesta":"Agregar «Quando eu terminar, aviso» / «Quando terminar, aviso» a accept (como ya se hace en s3-30-46).","motivo":"Respuesta muy natural de un alumno; criterio inconsistente con combina 46."},
+{"id":"item s3-30-44","lang":"ejercicio","severidad":"mejora","actual":"Se tivesse chovido, a gente teria ficado em casa.","propuesta":"Agregar «a gente tinha ficado» y «nós tínhamos ficado» a accept.","motivo":"La variante coloquial se acepta con teríamos pero no con 'a gente'/'nós' + tinha."},
+{"id":"item s3-30-17","lang":"regla","severidad":"duda","actual":"El Beco das Garrafas, en Copacabana, fue cuna de la bossa nova.","propuesta":"«…fue uno de los clubes donde se tocaban la bossa nova y el samba-jazz en los años 60».","motivo":"'Cuna' exagera, y 'hoje tocaria no Beco' es anacrónico (ya no funciona como escena de entonces)."},
+{"id":"lesson:5:2","lang":"es","severidad":"mejora","actual":"Si para el viernes no recibiste nada, llamame.","propuesta":"Si para el viernes no recibiste nada / no has recibido nada, llamame (mejor: «Si para el viernes todavía no recibiste nada, llamame»).","motivo":"La traducción pierde el sentido de futuro ya cumplido (tiver recibido); suena a pasado."},
+{"id":"item s3-30-40","lang":"ejercicio","severidad":"mejora","actual":"Leia as frases e descubra a regra.","propuesta":"Mostrar 2-3 frases de ejemplo en el enunciado o cambiar la consigna a «Escolha a regra correta».","motivo":"La consigna habla de frases que el ítem no muestra (igual en s3-30-41)."},
+{"id":"vocab desistir","lang":"regla","severidad":"mejora","actual":"Más frecuente que en español: *desistir de* + infinitivo.","propuesta":"Quitar 'Más frecuente que en español' o reemplazar por 'Igual que en español: desistir de + infinitivo'.","motivo":"Afirmación de frecuencia sin respaldo."},
+{"id":"lettura ep10","lang":"ejercicio","severidad":"mejora","actual":"infinitivo pessoal e hipóteses","propuesta":"Revisar: el hunt pide 'infinitivos pessoais' (comemorarem, pensarmos, irmos), que no se enseñan en esta semana.","motivo":"Evalúa un punto no trabajado en la lección de la semana 30."}
+],
+"mejoras":[
+{"prioridad":"alta","que":"Agregar 4-6 ítems para el bloque 'Contar un relato' (perfeito vs imperfeito vs tinha + particípio, cheguei ontem vs tenho chegado).","por_que":"El bloque 6 enseña regla y advertencia pero solo tiene 1 pregunta embebida y ningún ítem propio (el parte 3 cuenta 2 ítems de colocaciones)."},
+{"prioridad":"alta","que":"Desambiguar los cloze que admiten el tiempo simple (s3-30-19, 20, 21, 22, 23): indicar 'tempo composto' en la consigna o ampliar accept.","por_que":"Evitar marcar mal respuestas correctas y confundir al alumno."},
+{"prioridad":"media","que":"Reducir duplicación: casi todas las frases de choice (02, 05, 06, 07, 09, 10) reaparecen idénticas en translate (26-32) y en los ejemplos de la teoría.","por_que":"Se evalúa memoria de la frase más que la regla; variar contextos."},
+{"prioridad":"media","que":"Diversificar tipos: casi todo es choice/cloze/translate; sumar listen, qa (producción libre breve) o un ejercicio de transformación tinha↔teria.","por_que":"Falta transición hacia producción oral/libre y escucha."},
+{"prioridad":"media","que":"Completar suoni (hoy solo 1 acento, sin pares, habla conectada ni entonación) con: tinha/tenha, teria/tia, vindo/vinho, entonación de hipótesis; y llenar laboratorio (reglas puente, capire).","por_que":"Los paradigmas tenha/tinha/tenho se distinguen en el habla por la vocal nasal y el reducido 'tinha'."},
+{"prioridad":"media","que":"Agregar a la teoría una nota breve sobre el infinitivo pessoal compuesto (por ter feito, depois de termos chegado) y el doble participio (aceitado/aceito, ganhado/ganho, pegado/pego).","por_que":"El vocabulario ya usa 'não ter aprendido' y los participios dobles son error típico en B2."},
+{"prioridad":"baja","que":"Ejercitar la hipótesis con presente en la condición («se fosse… não teria…») que se enseña en el bloque mixto pero solo se practica con condición pasada.","por_que":"Cobertura desigual de las dos mixtas."},
+{"prioridad":"baja","que":"Alinear el 'grammar' de ep10 con la semana o reemplazarlo por un episodio que use tempos compostos.","por_que":"La etiqueta y el hunt apuntan a infinitivo pessoal."}
+],
+"por_idioma":{"pt":{"errores":0,"dudas":1},"es":{"errores":0,"dudas":0},"en":{"errores":0,"dudas":0}}
+}

@@ -1,0 +1,152 @@
+{
+  "week": 29,
+  "level": "B2",
+  "lettura": {
+    "title": "Un anno senza auto in centro: com'è andata?",
+    "emoji": "🚲",
+    "genre": "editoriale",
+    "grammar": "congiuntivo passato",
+    "text": "Esattamente un anno fa, il Comune di Valmarina chiudeva al traffico tutto il centro storico, dalle mura fino al porto. Ricordo bene le polemiche di quei giorni: i commercianti parlavano di «suicidio economico», i residenti anziani temevano di restare isolati, e in consiglio comunale qualcuno arrivò a chiedere le dimissioni dell'assessore. Oggi, a dodici mesi di distanza, credo che valga la pena fare un bilancio onesto, senza tifoserie.\n\nCominciamo dai fatti che nessuno contesta. L'aria è migliorata, il rumore è diminuito, e le piazze che prima erano parcheggi sono tornate a essere piazze. Chi passeggia la domenica pomeriggio in via Garibaldi ha l'impressione che la città abbia ritrovato una parte di sé. Mi sembra che anche i più scettici abbiano dovuto ammetterlo, magari a denti stretti.\n\nSul commercio il quadro è più complicato. È vero che alcuni negozi storici hanno chiuso, e non c'è dubbio che i proprietari abbiano vissuto mesi molto difficili. Tuttavia, non sono sicuro che la colpa sia stata soltanto della pedonalizzazione: il commercio al dettaglio è in crisi ovunque, anche nelle città dove le auto circolano liberamente. Al contrario, bar, gelaterie e librerie sembrano aver approfittato della nuova situazione; pare che alcuni abbiano perfino assunto personale.\n\nIl punto debole, a mio parere, è stato un altro. Temo che l'amministrazione abbia sottovalutato le persone che il centro lo abitano, e non solo lo attraversano. Gli anziani che non guidano più, e che avevano bisogno del figlio in macchina per andare dal medico, si sono trovati all'improvviso in difficoltà. È un peccato che nessuno abbia pensato prima a un servizio di navette elettriche, che è arrivato solo a marzo, dopo mesi di proteste.\n\nResta poi la questione dei parcheggi di cintura. Il progetto prometteva tre grandi aree di sosta collegate al centro da autobus frequenti; finora ne è stata aperta una sola. Non capisco come mai il Comune non abbia rispettato i tempi, e mi dispiace che i cittadini abbiano dovuto scoprirlo da soli, girando per mezz'ora in cerca di un posto.\n\nInsomma, penso che alcune critiche siano state esagerate e altre fondate, e che la decisione sia stata giusta, ma applicata con troppa fretta. Una città più vivibile non si costruisce con un'ordinanza, bensì ascoltando chi ci vive. Speriamo che, nel secondo anno, qualcuno a Palazzo lo abbia capito.",
+    "gloss": {
+      "abitano": "(le persone che il centro lo abitano) la gente que vive en el centro: el *lo* repite *il centro*, adelantado para destacarlo (semana 48)",
+      "arrivò": "(arrivò a chiedere) llegó a pedir: *passato remoto*, el pretérito de los textos escritos (semana 37)",
+      "mura": "murallas",
+      "polemiche": "polémicas",
+      "commercianti": "comerciantes",
+      "dimissioni": "renuncia (a un cargo)",
+      "assessore": "funcionario municipal a cargo de un área",
+      "bilancio": "balance",
+      "tifoserie": "hinchadas, fanatismos",
+      "scettici": "escépticos",
+      "denti": "dientes (a denti stretti: a regañadientes)",
+      "dettaglio": "(al dettaglio) minorista",
+      "approfittato": "aprovechado",
+      "assunto": "contratado",
+      "sottovalutato": "subestimado",
+      "guidano": "manejan",
+      "peccato": "lástima",
+      "navette": "combis de traslado",
+      "cintura": "cinturón (parcheggi di cintura: estacionamientos en las afueras)",
+      "sosta": "estacionamiento",
+      "fondate": "fundadas",
+      "ordinanza": "ordenanza",
+      "palazzo": "(a Palazzo) en la municipalidad"
+    },
+    "questions": [
+      ["Qual è l'intenzione principale dell'autore?", ["Chiedere che il centro venga riaperto alle auto", "Fare un bilancio equilibrato del primo anno", "Difendere l'assessore dalle critiche", "Raccontare la storia del centro di Valmarina"], "Fare un bilancio equilibrato del primo anno"],
+      ["Secondo l'autore, la chiusura di alcuni negozi storici…", ["è stata causata dalle navette elettriche", "è una notizia falsa diffusa dai commercianti", "non dipende solo dalla pedonalizzazione", "è compensata da molti negozi nuovi in via Garibaldi"], "non dipende solo dalla pedonalizzazione"],
+      ["Qual è stato, per l'autore, l'errore principale del Comune?", ["Non aver ascoltato le associazioni dei commercianti", "Aver chiuso il centro durante l'inverno", "Non aver pensato ai residenti che non guidano", "Aver speso troppo denaro per le navette"], "Non aver pensato ai residenti che non guidano"],
+      ["Nel testo, «a denti stretti» significa…", ["con entusiasmo", "controvoglia", "in silenzio", "pubblicamente"], "controvoglia"],
+      ["Che cosa rimprovera l'autore al Comune sui parcheggi?", ["Di averli costruiti troppo lontani dal porto", "Di aver aumentato le tariffe della sosta", "Di averli riservati soltanto ai residenti", "Di non aver rispettato i tempi promessi"], "Di non aver rispettato i tempi promessi"]
+    ],
+    "vf": [
+      ["Oggi l'aria del centro è più pulita di un anno fa.", "vero"],
+      ["Il servizio di navette è partito insieme alla chiusura del centro.", "falso"],
+      ["L'assessore ha dato le dimissioni.", "non si dice"],
+      ["Delle tre aree di sosta promesse ne è stata aperta una.", "vero"],
+      ["L'autore è contrario alla pedonalizzazione.", "falso"]
+    ],
+    "hunt": {
+      "label": "Tocá los auxiliares del congiuntivo passato",
+      "targets": ["abbia", "abbiano", "sia", "siano"]
+    }
+  },
+  "ascolto": {
+    "title": "Botta e risposta sulla zona pedonale",
+    "genre": "dibattito radiofonico",
+    "es": "En un programa de radio de Valmarina, un comerciante del centro y una urbanista discuten sobre el primer año del centro peatonal.",
+    "speakers": ["Ernesto Galli, commerciante", "Paola Rinaldi, urbanista"],
+    "turns": [
+      ["A", "Comincio io, se la professoressa Rinaldi è d'accordo. Ho un negozio di scarpe in via Garibaldi da trent'anni. E le dico francamente: quest'anno ho perso quasi un terzo dei clienti."],
+      ["B", "Mi dispiace davvero, signor Galli. Ma lei è sicuro che li abbia persi per colpa della zona pedonale? Voglio dire, anche le vendite online sono cresciute moltissimo."],
+      ["A", "Guardi, non sono ingenuo, lo so che c'è internet. Però i miei clienti erano soprattutto persone dei paesi vicini, che venivano in macchina il sabato. Adesso non vengono più. Me l'hanno detto loro, non me lo invento."],
+      ["B", "Questo è un dato importante, e credo che il Comune abbia sbagliato a non considerarlo. Però mi permetta: nelle città europee che hanno chiuso il centro, dopo un periodo difficile, il commercio si è ripreso. Ci vogliono due, tre anni."],
+      ["A", "Due, tre anni! E nel frattempo io come pago l'affitto? Con le statistiche europee?"],
+      ["B", "No, ha ragione, ed è per questo che servivano aiuti per la transizione. Sgravi sulle tasse locali, per esempio, o un servizio di consegna a domicilio organizzato dal Comune."],
+      ["A", "Ecco, questo lo chiediamo da mesi. Mi pare strano che nessuno ci abbia mai risposto."],
+      ["B", "Anche a me. Ma, se posso, vorrei dire una cosa ai suoi colleghi: il centro non tornerà com'era. Chi si adatta, chi punta sulla qualità, sul rapporto personale, secondo me ce la fa."],
+      ["A", "Sì, però adattarsi a sessant'anni non è facile. Comunque su una cosa sono d'accordo con lei: i parcheggi fuori dalle mura andavano fatti prima, non dopo."],
+      ["B", "Su questo, guardi, siamo d'accordo al cento per cento. E spero che al Comune qualcuno ci stia ascoltando."]
+    ],
+    "gloss": {
+      "andavano": "(andavano fatti prima) tenían que hacerse antes: *andare* + participio = tener que ser hecho (semana 35)",
+      "ripreso": "recuperado",
+      "frattempo": "(nel frattempo) mientras tanto",
+      "affitto": "alquiler",
+      "sgravi": "rebajas (de impuestos)",
+      "consegna": "entrega, envío",
+      "domicilio": "(a domicilio) a domicilio",
+      "punta": "apuesta (por)",
+      "fa": "(ce la fa) lo logra",
+      "mura": "murallas"
+    },
+    "questions": [
+      ["Secondo Ernesto, perché ha perso clienti?", ["Per la concorrenza dei centri commerciali", "Perché l'affitto del negozio è aumentato", "Perché chi veniva in auto dai paesi non viene più", "Per il calo del turismo in città"], "Perché chi veniva in auto dai paesi non viene più"],
+      ["Come reagisce Paola al primo intervento di Ernesto?", ["Gli dà ragione senza alcuna riserva", "Dubita che la colpa sia solo della zona pedonale", "Lo accusa di non sapersi adattare ai tempi", "Propone di riaprire il centro il sabato"], "Dubita che la colpa sia solo della zona pedonale"],
+      ["Che cosa propone Paola per aiutare i negozi?", ["Sgravi fiscali e consegne a domicilio", "Parcheggi gratuiti in via Garibaldi", "Contributi per aprire un negozio online", "La chiusura della zona pedonale nei festivi"], "Sgravi fiscali e consegne a domicilio"],
+      ["Che tono ha Ernesto quando dice «Con le statistiche europee?»", ["Entusiasta", "Ironico", "Rassegnato", "Indifferente"], "Ironico"],
+      ["Su che cosa sono d'accordo alla fine?", ["Il centro deve tornare com'era prima", "Il Comune ha fatto tutto nel modo giusto", "I parcheggi esterni andavano fatti prima", "Chi ha sessant'anni dovrebbe chiudere"], "I parcheggi esterni andavano fatti prima"]
+    ],
+    "vf": [
+      ["Ernesto ha un negozio di scarpe da trent'anni.", "vero"],
+      ["Paola sostiene che il commercio non si riprenderà mai.", "falso"],
+      ["Il Comune ha già risposto alle richieste dei commercianti.", "falso"],
+      ["Ernesto pensa di chiudere il negozio entro l'anno.", "non si dice"]
+    ]
+  },
+  "compito": {
+    "genre": "saggio",
+    "title": "Chiudere i centri storici alle auto: una scelta giusta?",
+    "fonte": "entrambi",
+    "t": "Hai letto l'editoriale sul primo anno del centro pedonale di Valmarina e hai ascoltato il confronto radiofonico tra un commerciante e un'urbanista. Scrivi un breve saggio (131-191 parole, registro formale) dal titolo «Chiudere i centri storici alle auto: una scelta giusta?», in cui presenti i principali argomenti delle due fonti, esprimi la tua posizione e proponi almeno una soluzione concreta. Usa il congiuntivo passato per valutare le decisioni già prese.",
+    "es": "Ensayo breve con título: argumentos de las dos fuentes, tu postura y una propuesta. Usá congiuntivo passato para juzgar lo que ya pasó (credo che il Comune abbia sbagliato…).",
+    "min": 131,
+    "max": 191,
+    "punti": [
+      ["las ventajas (aire, ruido, plazas)", ["aria", "rumore", "piazze", "vivibil"]],
+      ["los problemas de comerciantes y residentes", ["commerci", "negoz", "anzian", "residenti"]],
+      ["tu postura", ["a mio parere", "secondo me", "credo", "ritengo", "penso"]],
+      ["una propuesta concreta", ["propongo", "bisognerebbe", "navett", "sgrav", "parchegg"]]
+    ],
+    "model": "Chiudere i centri storici alle auto: una scelta giusta?\n\nL'esperienza di Valmarina, raccontata da un editoriale e da un confronto radiofonico, mostra bene i due volti della pedonalizzazione. Da un lato, i vantaggi sono evidenti: l'aria è più pulita, il rumore è diminuito e le piazze sono tornate ai cittadini. Dall'altro, i costi sono ricaduti su chi era più fragile: i commercianti che dipendevano dai clienti in auto e gli anziani che non potevano più raggiungere il medico.\n\nA mio parere, la scelta di chiudere il centro è giusta, ma credo che il Comune abbia commesso un errore di metodo. Sembra che abbia pensato prima al progetto e solo dopo alle persone: le navette e i parcheggi esterni sono arrivati in ritardo, e i negozi non hanno ricevuto alcun aiuto.\n\nPer questo propongo che le città che vogliono seguire questa strada preparino prima i servizi e prevedano sgravi fiscali per i commercianti durante la transizione. Solo così una buona idea può diventare una buona politica.",
+    "gloss": {
+      "Da un lato": "por un lado (…dall'altro = por el otro)",
+      "sono ricaduti su": "recayeron sobre",
+      "navette": "combis, servicios de traslado",
+      "sgravi fiscali": "rebajas de impuestos"
+    }
+  },
+  "breve": {
+    "title": "Le previsioni del tempo per domani",
+    "genre": "previsioni del tempo",
+    "es": "El pronóstico del tiempo de un canal nacional para el viernes y el fin de semana.",
+    "speaker": "Meteorologa",
+    "voice": 1,
+    "text": [
+      "Buonasera, ecco le previsioni del tempo per domani, venerdì. Sembra che la perturbazione atlantica sia arrivata con qualche ora di anticipo: al Nord, fin dal mattino, cielo coperto e piogge diffuse, soprattutto in Liguria e in Piemonte, dove non si escludono temporali anche forti.",
+      "Al Centro la giornata comincerà con qualche nuvola, ma le piogge arriveranno solo in serata sulla Toscana e sull'Umbria. Sulle coste tirreniche vento forte di libeccio, con raffiche fino a sessanta chilometri orari: mare molto mosso.",
+      "Al Sud e sulle isole, invece, tempo ancora soleggiato e caldo, con massime fino a trentadue gradi in Sicilia. Temperature in calo al Nord, di cinque o sei gradi rispetto a oggi.",
+      "Per il fine settimana il tempo migliora da sabato pomeriggio, a partire dal Nord-ovest; domenica sole quasi ovunque. Vi consigliamo di controllare gli avvisi della protezione civile prima di mettervi in viaggio. Buona serata."
+    ],
+    "tabella": [
+      ["Nome del vento sulle coste tirreniche", "libeccio", []],
+      ["Velocità delle raffiche (km/h)", "60", ["sessanta"]],
+      ["Temperatura massima in Sicilia (gradi)", "32", ["trentadue"]],
+      ["Giorno in cui il tempo comincia a migliorare", "sabato", ["sabato pomeriggio", "da sabato", "da sabato pomeriggio"]]
+    ],
+    "info": [
+      ["La perturbazione è arrivata prima del previsto.", true],
+      ["Al Centro piove già dal mattino.", false],
+      ["Il mare sulle coste tirreniche sarà molto mosso.", true],
+      ["Al Sud le temperature scendono di cinque o sei gradi.", false],
+      ["Domenica ci sarà il sole quasi ovunque.", true],
+      ["La protezione civile ha chiuso le autostrade.", false]
+    ],
+    "gloss": {
+      "perturbazione": "frente de mal tiempo",
+      "raffiche": "ráfagas",
+      "mosso": "picado (el mar)",
+      "soleggiato": "soleado"
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+ "week": 10,
+ "title": "Possessivos e demonstrativos",
+ "level": "A2",
+ "revisado": {
+  "items": 46,
+  "bloques_teoria": 7,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 12,
+  "radio": 1,
+  "otros": 2
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida en lo gramatical: la teoría es correcta, ordenada y contrasta bien con el español (minha, seu vs dele, contracciones). El portugués de lecturas, radio, dictogloss y duelos es natural y sin errores detectados. Problemas concretos: un ítem con dos opciones válidas (s1-10-04), una afirmación falsa en la lectura fl-dele y varias notas fonéticas confusas. El punto débil es la cobertura: mucha repetición de frases y poco practicado el vocabulario de la casa/objetos y teu, o senhor, este/esse.",
+ "bien": [
+  "Teoría breve y bien secuenciada (posesivos, artículo, seu/dele, demostrativos, neutros, contracciones, familia) con warns sobre errores típicos del hispanohablante.",
+  "El problema seu/dele se trabaja en lección, ítems, laboratorio «capire», duelos y lectura (fl-dele), con buena intención didáctica.",
+  "Lecturas y radio (Achados e perdidos) usan la gramática de la semana con naturalidad y contexto carioca; preguntas y V/F bien formuladas.",
+  "Buena mezcla de tipos: choice, cloze, translate, fixerr, garden, scopri y typed, de reconocimiento a producción; carga razonable (46 ítems).",
+  "Notas que explican el porqué (falsos amigos pais/parentes/padres, avô/avó, namorado/noivo) y duelos con «why» claro.",
+  "Dictogloss pertinente (posesivos, dele/dela, aquela) con ítems de pares mínimos avó/avô bien elegidos."
+ ],
+ "hallazgos": [
+  {
+   "id": "item s1-10-04",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Estou ___ minha casa. [na / em a / em]",
+   "propuesta": "Cambiar la opción «em» por una opción claramente incorrecta (p. ej. «ao») o aceptar también «em»; o reformular el hueco para que solo «na» sirva (p. ej. «Estou ___ casa da minha avó»).",
+   "motivo": "«Estou em minha casa» es correcto (el artículo es opcional, como enseña el propio bloque 1): hay dos opciones válidas."
+  },
+  {
+   "id": "lettura fl-dele",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "En español «su» tiene el mismo problema, pero no tiene esta solución.",
+   "propuesta": "En español «su» también es ambiguo, pero se resuelve igual con «de él / de ella / de ellos»: en Brasil esa solución es la normal, y en español es la alternativa.",
+   "motivo": "Falso: el español sí tiene la solución (la casa de él / de ella); la diferencia es que en portugués es la forma preferida."
+  },
+  {
+   "id": "item s1-10-32",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "accept: \"Que é isso?\" / note: \"Un *que* solo suena incompleto.\"",
+   "propuesta": "Quitar «Que é isso?» de accept, o suavizar la nota («o que é isso?» es la forma neutra; «que é isso?» existe pero es más bien exclamación).",
+   "motivo": "La nota dice que «que» solo suena incompleto, pero la respuesta se acepta: contradicción."
+  },
+  {
+   "id": "item s1-10-40",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "meu → ___",
+   "propuesta": "Aclarar en la consigna: «Escribí el femenino singular de meu» (o mostrar los ejemplos que anuncia la consigna).",
+   "motivo": "Sin los «tres ejemplos» visibles, meu → ___ admite minha y meus; solo se acepta minha."
+  },
+  {
+   "id": "item s1-10-41",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Mirá los tres ejemplos y completá el cuarto. / de + aquele → ___",
+   "propuesta": "Verificar que la UI muestre los tres ejemplos previos (p. ej. de + este → deste, de + esse → desse, de + isso → disso); si no, cambiar la consigna.",
+   "motivo": "La consigna anuncia ejemplos que el ítem no contiene (idem s1-10-40, 42, 43, 44 con «Leé las frases»)."
+  },
+  {
+   "id": "item s1-10-42",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "o avô → ___ [accept: a avó]",
+   "propuesta": "Agregar «avó» a accept.",
+   "motivo": "El alumno puede escribir solo «avó» (la parte que cambia) y es igual de correcto."
+  },
+  {
+   "id": "item s1-10-34",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Meus pais moram em Rosario.",
+   "propuesta": "Usar «Rosário» (topónimo en portugués) o aceptar «Rosário» en accept; lo mismo en la lección, bloque 6 y s1-10-02.",
+   "motivo": "En portugués la ciudad se escribe «Rosário»; un alumno que la escriba así sería marcado mal."
+  },
+  {
+   "id": "lesson:3:warn",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "*aquele* con *qu*, y *esse* con doble *s*: «ese» es la letra S (*esse*) o el demostrativo, no «ese».",
+   "propuesta": "«*aquele* se escribe con *qu* y *esse* con doble *s* (no «aquel» ni «ese»).»",
+   "motivo": "La frase sobre «la letra S» es confusa e irrelevante para el alumno."
+  },
+  {
+   "id": "lesson:4:ex",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "*Isto* é um biscoito Globo. / Esto es un bizcocho Globo.",
+   "propuesta": "Esto es una galletita Globo (biscoito Globo).",
+   "motivo": "En Argentina «bizcocho» no es una galletita crocante; «biscoito» = galletita (rioplatense)."
+  },
+  {
+   "id": "item s1-10-30",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Y el color «negro» se dice *preto* (*negro* se reserva para personas).",
+   "propuesta": "«Para el color se usa *preto*; *negro* se usa para personas (y con cuidado).»",
+   "motivo": "Afirmación demasiado tajante: «negro» también aparece como color (ej. «negro de fumo», literario)."
+  },
+  {
+   "id": "suoni c-021",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "options: [\"A casa dela é linda.\", \"A casa de ela é linda.\", \"A casa dele é linda.\"] (say: A casa dela é linda.)",
+   "propuesta": "Reemplazar «A casa de ela é linda.» por otro distractor audible (p. ej. «A casa dali é linda» o «A casa dele é linda» con otra frase) o dejar solo pares dela/dele.",
+   "motivo": "«dela» y «de ela» se pronuncian igual: por el oído hay dos opciones correctas."
+  },
+  {
+   "id": "suoni p-093",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "En casi todo Brasil ti y di suenan «chi» y «yi» (con un toque de d)",
+   "propuesta": "«ti ≈ [tchi] (con t) y di ≈ [dji]; no es la ch española: chio (con ch portuguesa) suena más como «shio».»",
+   "motivo": "Con el par tio/chio, decir que ti suena «chi» induce a creer que son homófonos; la ch portuguesa es [ʃ], no la ch española."
+  },
+  {
+   "id": "suoni p-062",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "lh es una sola consonante palatal, como la «ll» de «calle» pronunciada a la antigua",
+   "propuesta": "lh ≈ «li» pegada, como la «gli» del italiano (figlio); en el habla informal puede sonar casi «y».",
+   "motivo": "Para un rioplatense la «ll» es [ʃ/ʒ], no palatal lateral: la comparación puede inducir a pronunciar «filjo/fisho»."
+  },
+  {
+   "id": "suoni p-016",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "é y ó son abiertas (boca más abierta, como en «perro», «sol» pero más)",
+   "propuesta": "«é/ó: boca más abierta que la e/o española; ê/ô: más cerradas»; quitar los ejemplos «perro, sol».",
+   "motivo": "Comparación poco clara: la o de «sol» no es abierta en español."
+  },
+  {
+   "id": "laboratorio ponte:ch",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Y la **l** después de consonante se vuelve **r**: *plaza → praça*, *blanco → branco*, *flaco → fraco*, *iglesia → igreja*.",
+   "propuesta": "«Muchas veces la l después de consonante pasa a r (plaza → praça, blanco → branco...), pero hay excepciones: claro, flor, planta, blusa, clube, plano».",
+   "motivo": "Regla presentada como general; hay muchos contraejemplos que llevarían al alumno a inventar *«crara», «frorr»."
+  },
+  {
+   "id": "laboratorio ponte:ch",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "h: ll- / pl- / cl- / fl- → ch- / pr- / cr- / fr-",
+   "propuesta": "Ajustar el título: pl→pr, bl→br, fl→fr, gl→gr, y ll→ch (cl- no aparece en los ejemplos: clave → chave es otro caso).",
+   "motivo": "El título lista cl- → cr- sin ejemplo; los ejemplos usan bl- y gl-."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Agregar ítems de «la casa y objetos personales» (geladeira, fogão, travesseiro, lençol, óculos plural, carteira, guarda-chuva) con posesivos/demostrativos; hoy los 46 ítems son casi todos de familia/gramática y el vocab sale solo en radio.",
+   "por_que": "El tema declarado es «Familia, la casa, objetos personales» y el vocab de 12 palabras no se practica en items."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Reducir duplicados: Meus pais moram em Rosario (02, 34, lección), Essa mala é minha (03, 29), O carro dele (05, 30), O que é isso (09, 32), Moro neste prédio (10, 33, 38), Minha irmã mora em Niterói (15, 28), Qual é o seu telefone (18, 31); y varios son frases copiadas de los ejemplos de la lección. Sustituir por frases nuevas.",
+   "por_que": "El mismo contenido se evalúa 2-3 veces y se memoriza la frase en vez de la regla."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Practicar más lo que hoy casi no se evalúa: teu/tua (0 ítems), o senhor/a senhora + seu, posesivo sin sustantivo (o meu é o de coco / é meu), este vs esse vs aquele por distancia (solo 3 ítems), isto/aquilo, a + aquele (àquele) y plural de los demostrativos.",
+   "por_que": "Puntos enseñados en la lección con 0-1 ítems; el 80% de los ítems cubre «minha», dele y neste."
+  },
+  {
+   "prioridad": "media",
+   "que": "Añadir ítems de elegir entre «seu» y «dele» en contexto (como el duelo), también en cloze con tercera persona femenino/plural, y un ítem tipo «¿de quién?» con deles/delas en producción (hoy dele/dela dominan y deles/delas solo aparecen en 20 y laboratorio).",
+   "por_que": "Es el foco de la semana (focus) y la regla más difícil; faltan casos de plural y de elección."
+  },
+  {
+   "prioridad": "media",
+   "que": "Dar a las consignas de garden/scopri los ejemplos que anuncian («Mirá los tres ejemplos», «Leé las frases»), o cambiar el texto.",
+   "por_que": "En el dossier no hay ejemplos visibles: la consigna promete algo que el ítem no tiene."
+  },
+  {
+   "prioridad": "media",
+   "que": "Completar la teoría: añadir una línea sobre «este/esse» temporal (esta semana, nesse dia) y sobre a gente + nosso/da gente; aclarar el uso del artículo (en s1-10-01 «suele llevar», en la lección «opcional»).",
+   "por_que": "Evita que el alumno asuma solo el uso espacial de los demostrativos y unifica el mensaje sobre el artículo."
+  },
+  {
+   "prioridad": "media",
+   "que": "Variar la lectura de Dona Lúcia y radio: en la radio Dona Lúcia dice «minha filha» a Nanda y luego «o marido da minha filha» (su hija real); agregar un guiño («minha filha, forma de cariño») o cambiar el vocativo.",
+   "por_que": "Riesgo de confusión de quién es hija de quién justo en la semana de posesivos y familia."
+  },
+  {
+   "prioridad": "baja",
+   "que": "El laboratorio «ponte» (ll→ch, pl→pr) no se relaciona con posesivos/demostrativos: mover a una semana con vocabulario cognado o ligar con items (p. ej. prato, praia en un contexto de casa).",
+   "por_que": "Cohesión del tema semanal."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Los duelos se resuelven por un patrón (vocativo → seu; tercero nombrado → dele): añadir 3-4 casos mixtos donde el alumno cite a un tercero que está presente o le hable a Bia diciendo «dela».",
+   "por_que": "Evita que se resuelva por la pista (cue) sin entender la regla."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

@@ -1,0 +1,2682 @@
+{
+ "items": {
+  "d09-001": {
+   "consigna": "Conjugá en presente el verbo reflexivo entre paréntesis, con su pronombre (mi, ti, si, ci, vi, si).",
+   "type": "conjugate",
+   "stem": "Lui ___ (arrabbiarsi) facilmente.",
+   "answer": "si arrabbia",
+   "alt": [],
+   "drop": false,
+   "note": "Reflexivo: el pronombre va delante del verbo conjugado, como en castellano: *si arrabbia* («se enoja»)."
+  },
+  "d09-002": {
+   "consigna": "Conjugá en presente el verbo reflexivo entre paréntesis, con su pronombre (mi, ti, si, ci, vi, si).",
+   "type": "conjugate",
+   "stem": "Prima mi faccio la doccia, poi ___ (pettinarsi).",
+   "answer": "mi pettino",
+   "alt": [],
+   "drop": false,
+   "note": "*pettinarsi* = «peinarse»: *mi pettino*, con el pronombre delante."
+  },
+  "d09-003": {
+   "consigna": "Conjugá en presente el verbo reflexivo entre paréntesis, con su pronombre (mi, ti, si, ci, vi, si).",
+   "type": "conjugate",
+   "stem": "Quando siamo con loro, ___ (divertirsi).",
+   "answer": "ci divertiamo",
+   "alt": [],
+   "drop": false,
+   "note": "*divertirsi*: *ci divertiamo*. *Ci* es el «nos» reflexivo."
+  },
+  "d09-004": {
+   "consigna": "Conjugá en presente el verbo reflexivo entre paréntesis, con su pronombre (mi, ti, si, ci, vi, si).",
+   "type": "conjugate",
+   "stem": "Lei ___ (sposarsi) domani.",
+   "answer": "si sposa",
+   "alt": [],
+   "drop": false,
+   "note": "*sposarsi* = «casarse»: *si sposa* (la tercera persona usa *si*, como «se»)."
+  },
+  "d09-005": {
+   "consigna": "Conjugá en presente el verbo reflexivo entre paréntesis, con su pronombre (mi, ti, si, ci, vi, si).",
+   "type": "conjugate",
+   "stem": "A che ora (voi) ___ (addormentarsi)?",
+   "answer": "vi addormentate",
+   "alt": [],
+   "drop": false,
+   "note": "*addormentarsi* = «dormirse»: *vi addormentate*; *vi* es el «se» de ustedes (en castellano rioplatense decimos «se duermen»)."
+  },
+  "d09-006": {
+   "consigna": "Conjugá en presente el verbo reflexivo entre paréntesis, con su pronombre (mi, ti, si, ci, vi, si).",
+   "type": "conjugate",
+   "stem": "Io ___ (preoccuparsi) troppo.",
+   "answer": "mi preoccupo",
+   "alt": [],
+   "drop": false,
+   "note": "*preoccuparsi*: *mi preoccupo*, igual que «me preocupo»."
+  },
+  "d09-007": {
+   "consigna": "Conjugá en presente el verbo reflexivo entre paréntesis, con su pronombre (mi, ti, si, ci, vi, si).",
+   "type": "conjugate",
+   "stem": "Prima di dormire, i bambini ___ (lavarsi i denti).",
+   "answer": "si lavano i denti",
+   "alt": [],
+   "drop": false,
+   "note": "En italiano: «si lavano i denti» (se lavan los dientes), sin posesivo."
+  },
+  "d09-008": {
+   "consigna": "Conjugá en presente el verbo reflexivo entre paréntesis, con su pronombre (mi, ti, si, ci, vi, si).",
+   "type": "conjugate",
+   "stem": "Francesca non ___ (lamentarsi) mai.",
+   "answer": "si lamenta",
+   "alt": [],
+   "drop": false,
+   "note": "*lamentarsi* = «quejarse»: *si lamenta*; *non* va antes del pronombre: *non si lamenta*."
+  },
+  "d09-009": {
+   "consigna": "Conjugá en presente el verbo reflexivo entre paréntesis, con su pronombre (mi, ti, si, ci, vi, si).",
+   "type": "conjugate",
+   "stem": "Il babbo ___ (radersi) ogni mattina.",
+   "answer": "si rade",
+   "alt": [],
+   "drop": false,
+   "note": "«Babbo» es «papá» en Toscana. Radersi (afeitarse) es de la 2ª conjugación: mi rado, ti radi, si rade…"
+  },
+  "d09-010": {
+   "consigna": "Conjugá en presente el verbo reflexivo entre paréntesis, con su pronombre (mi, ti, si, ci, vi, si).",
+   "type": "conjugate",
+   "stem": "Io ___ (domandarsi) se lui dice la verità.",
+   "answer": "mi domando",
+   "alt": [],
+   "drop": false,
+   "note": "*domandarsi* = «preguntarse»: *mi domando*."
+  },
+  "d09-011": {
+   "consigna": "Completá con el verbo en presente: reflexivo, recíproco (nos/se… uno al otro) o con «si» impersonal (se sirve, se vende). Después de un verbo como vorrei o dobbiamo, usá el infinitivo con el pronombre pegado (alzarmi).",
+   "type": "conjugate",
+   "stem": "In quel ristorante non ___ (servire, con «si» impersonal) carne.",
+   "answer": "si serve",
+   "alt": [],
+   "drop": false,
+   "note": "El *si* impersonal va con el verbo en tercera persona, concordado con la cosa: *non si serve carne*, como «no se sirve carne»."
+  },
+  "d09-012": {
+   "consigna": "Completá con el verbo en presente: reflexivo, recíproco (nos/se… uno al otro) o con «si» impersonal (se sirve, se vende). Después de un verbo como vorrei o dobbiamo, usá el infinitivo con el pronombre pegado (alzarmi).",
+   "type": "conjugate",
+   "stem": "Loro ___ (conoscere, recíproco) da anni ed anni.",
+   "answer": "si conoscono",
+   "alt": [],
+   "drop": false,
+   "note": "Recíproco con *si*: *si conoscono* («se conocen»), igual que en castellano."
+  },
+  "d09-013": {
+   "consigna": "Completá con el verbo en presente: reflexivo, recíproco (nos/se… uno al otro) o con «si» impersonal (se sirve, se vende). Después de un verbo como vorrei o dobbiamo, usá el infinitivo con el pronombre pegado (alzarmi).",
+   "type": "conjugate",
+   "stem": "Io non ___ (ricordarsi) di loro.",
+   "answer": "mi ricordo",
+   "alt": [],
+   "drop": false,
+   "note": "*ricordarsi di* = «acordarse de»: *mi ricordo di loro*."
+  },
+  "d09-014": {
+   "consigna": "Completá con el verbo en presente: reflexivo, recíproco (nos/se… uno al otro) o con «si» impersonal (se sirve, se vende). Después de un verbo como vorrei o dobbiamo, usá el infinitivo con el pronombre pegado (alzarmi).",
+   "type": "conjugate",
+   "stem": "Io e la mamma ___ (parlare, recíproco) ogni giorno.",
+   "answer": "ci parliamo",
+   "alt": [],
+   "drop": false,
+   "note": "Si en el sujeto estás vos, el verbo va en *noi*, y el recíproco usa *ci*: *io e la mamma ci parliamo*, «nos hablamos»."
+  },
+  "d09-015": {
+   "consigna": "Completá con el verbo en presente: reflexivo, recíproco (nos/se… uno al otro) o con «si» impersonal (se sirve, se vende). Después de un verbo como vorrei o dobbiamo, usá el infinitivo con el pronombre pegado (alzarmi).",
+   "type": "conjugate",
+   "stem": "Tu e Giuseppe ___ (vedere, recíproco) spesso?",
+   "answer": "vi vedete",
+   "alt": [],
+   "drop": false,
+   "note": "*tu e Giuseppe* = *voi*, así que el recíproco es *vi*: *vi vedete*. En castellano rioplatense decimos «se ven»."
+  },
+  "d09-016": {
+   "consigna": "Completá con el verbo en presente: reflexivo, recíproco (nos/se… uno al otro) o con «si» impersonal (se sirve, se vende). Después de un verbo como vorrei o dobbiamo, usá el infinitivo con el pronombre pegado (alzarmi).",
+   "type": "conjugate",
+   "stem": "I bambini ___ (divertirsi) al cinema.",
+   "answer": "si divertono",
+   "alt": [],
+   "drop": false,
+   "note": "Reflexivo en presente: pronombre + verbo, como en castellano: *si divertono*."
+  },
+  "d09-017": {
+   "consigna": "Completá con el verbo en presente: reflexivo, recíproco (nos/se… uno al otro) o con «si» impersonal (se sirve, se vende). Después de un verbo como vorrei o dobbiamo, usá el infinitivo con el pronombre pegado (alzarmi).",
+   "type": "conjugate",
+   "stem": "Lui ___ (radersi) prima di dormire.",
+   "answer": "si rade",
+   "alt": [],
+   "drop": false,
+   "note": "*radersi* («afeitarse») es de -ere: *si rade*."
+  },
+  "d09-018": {
+   "consigna": "Completá con el verbo en presente: reflexivo, recíproco (nos/se… uno al otro) o con «si» impersonal (se sirve, se vende). Después de un verbo como vorrei o dobbiamo, usá el infinitivo con el pronombre pegado (alzarmi).",
+   "type": "conjugate",
+   "stem": "Il bus ___ (fermarsi) proprio qui.",
+   "answer": "si ferma",
+   "alt": [],
+   "drop": false,
+   "note": "*fermarsi* = «pararse, detenerse»: *si ferma*; el italiano lo usa reflexivo igual que el castellano."
+  },
+  "d09-019": {
+   "consigna": "Completá con el verbo en presente: reflexivo, recíproco (nos/se… uno al otro) o con «si» impersonal (se sirve, se vende). Después de un verbo como vorrei o dobbiamo, usá el infinitivo con el pronombre pegado (alzarmi).",
+   "type": "conjugate",
+   "stem": "Io vorrei ___ (alzarsi) tardi.",
+   "answer": "alzarmi",
+   "alt": [],
+   "drop": false,
+   "note": "Con un verbo modal el pronombre se pega al infinitivo: vorrei alzarmi (también: mi vorrei alzare)."
+  },
+  "d09-020": {
+   "consigna": "Completá con el verbo en presente: reflexivo, recíproco (nos/se… uno al otro) o con «si» impersonal (se sirve, se vende). Después de un verbo como vorrei o dobbiamo, usá el infinitivo con el pronombre pegado (alzarmi).",
+   "type": "conjugate",
+   "stem": "Dobbiamo ___ (prepararsi).",
+   "answer": "prepararci",
+   "alt": [],
+   "drop": false,
+   "note": "Dobbiamo prepararci (también: ci dobbiamo preparare)."
+  },
+  "d09-021": {
+   "consigna": "Traducí al italiano con el imperativo. Entre paréntesis está la persona (tu, noi, voi).",
+   "type": "translate",
+   "stem": "(tu) No hables.",
+   "answer": "Non parlare.",
+   "alt": [],
+   "drop": false,
+   "note": "El imperativo negativo de *tu* no se forma con el subjuntivo como «no hables»: es *non* + infinitivo, *non parlare*."
+  },
+  "d09-022": {
+   "consigna": "Traducí al italiano con el imperativo. Entre paréntesis está la persona (tu, noi, voi).",
+   "type": "translate",
+   "stem": "(noi) Comamos.",
+   "answer": "Mangiamo.",
+   "alt": [],
+   "drop": false,
+   "note": "El imperativo de *noi* es igual al presente: *mangiamo* («comamos»); no hay forma especial como en castellano."
+  },
+  "d09-023": {
+   "consigna": "Traducí al italiano con el imperativo. Entre paréntesis está la persona (tu, noi, voi).",
+   "type": "translate",
+   "stem": "(voi) Duerman. (Váyanse a dormir.)",
+   "answer": "Dormite.",
+   "alt": [
+    "Andate a dormire."
+   ],
+   "drop": false,
+   "note": "El imperativo de *voi* es igual al presente: *dormite*."
+  },
+  "d09-024": {
+   "consigna": "Traducí al italiano con el imperativo. Entre paréntesis está la persona (tu, noi, voi).",
+   "type": "translate",
+   "stem": "(tu) Cantá.",
+   "answer": "Canta.",
+   "alt": [],
+   "drop": false,
+   "note": "Imperativo de *tu* en -are: termina en *-a* (*canta*), como «cantá» pero con el acento en la raíz."
+  },
+  "d09-025": {
+   "consigna": "Traducí al italiano con el imperativo. Entre paréntesis está la persona (tu, noi, voi).",
+   "type": "translate",
+   "stem": "(tu) No llames.",
+   "answer": "Non telefonare.",
+   "alt": [
+    "Non chiamare."
+   ],
+   "drop": false,
+   "note": "Negativo de *tu*: *non* + infinitivo (*non telefonare*), no «no llames»."
+  },
+  "d09-026": {
+   "consigna": "Traducí al italiano con el imperativo. Entre paréntesis está la persona (tu, noi, voi).",
+   "type": "translate",
+   "stem": "(noi) Hablemos.",
+   "answer": "Parliamo.",
+   "alt": [],
+   "drop": false,
+   "note": "*noi* en imperativo = presente: *parliamo*."
+  },
+  "d09-027": {
+   "consigna": "Traducí al italiano con el imperativo. Entre paréntesis está la persona (tu, noi, voi).",
+   "type": "translate",
+   "stem": "(voi) Compren el auto.",
+   "answer": "Comprate la macchina.",
+   "alt": [
+    "Comprate l'auto.",
+    "Comprate l'automobile."
+   ],
+   "drop": false,
+   "note": "*voi* en imperativo = presente: *comprate*. «Auto» es *la macchina*."
+  },
+  "d09-028": {
+   "consigna": "Traducí al italiano con el imperativo. Entre paréntesis está la persona (tu, noi, voi).",
+   "type": "translate",
+   "stem": "(noi) No escribamos.",
+   "answer": "Non scriviamo.",
+   "alt": [],
+   "drop": false,
+   "note": "Negativo de *noi*: *non* + presente, *non scriviamo* (sin congiuntivo)."
+  },
+  "d09-029": {
+   "consigna": "Traducí al italiano con el imperativo. Entre paréntesis está la persona (tu, noi, voi).",
+   "type": "translate",
+   "stem": "(tu) No mires.",
+   "answer": "Non guardare.",
+   "alt": [],
+   "drop": false,
+   "note": "Negativo de *tu*: *non* + infinitivo, *non guardare*."
+  },
+  "d09-030": {
+   "consigna": "Traducí al italiano con el imperativo. Entre paréntesis está la persona (tu, noi, voi).",
+   "type": "translate",
+   "stem": "(voi) Esperen.",
+   "answer": "Aspettate.",
+   "alt": [],
+   "drop": false,
+   "note": "*voi* en imperativo = presente: *aspettate*."
+  },
+  "d10-001": {
+   "consigna": "Elegí piace (una sola cosa o un verbo en infinitivo) o piacciono (varias cosas).",
+   "type": "choice",
+   "stem": "Gli ___ studiare.",
+   "answer": "piace",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "piace",
+    "piacciono"
+   ],
+   "note": "*piacere* concuerda con lo que gusta; un infinitivo cuenta como singular: *gli piace studiare*."
+  },
+  "d10-002": {
+   "consigna": "Elegí piace (una sola cosa o un verbo en infinitivo) o piacciono (varias cosas).",
+   "type": "choice",
+   "stem": "Ti ___ i bambini?",
+   "answer": "piacciono",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "piace",
+    "piacciono"
+   ],
+   "note": "Varias cosas → *piacciono*: *ti piacciono i bambini?*, como «¿te gustan?»."
+  },
+  "d10-003": {
+   "consigna": "Elegí piace (una sola cosa o un verbo en infinitivo) o piacciono (varias cosas).",
+   "type": "choice",
+   "stem": "Non mi ___ i ragni.",
+   "answer": "piacciono",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "piace",
+    "piacciono"
+   ],
+   "note": "*piacere* concuerda con lo que gusta, no con quien: *i ragni* es plural → *piacciono*, como «no me gustan»."
+  },
+  "d10-004": {
+   "consigna": "Elegí piace (una sola cosa o un verbo en infinitivo) o piacciono (varias cosas).",
+   "type": "choice",
+   "stem": "A loro ___ mangiare.",
+   "answer": "piace",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "piace",
+    "piacciono"
+   ],
+   "note": "Con infinitivo, singular: *a loro piace mangiare*."
+  },
+  "d10-005": {
+   "consigna": "Elegí piace (una sola cosa o un verbo en infinitivo) o piacciono (varias cosas).",
+   "type": "choice",
+   "stem": "Ci ___ i fiori.",
+   "answer": "piacciono",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "piace",
+    "piacciono"
+   ],
+   "note": "Lo que gusta es el sujeto: *i fiori* (plural) → *piacciono*."
+  },
+  "d10-006": {
+   "consigna": "Elegí piace (una sola cosa o un verbo en infinitivo) o piacciono (varias cosas).",
+   "type": "choice",
+   "stem": "Le ___ scrivere poesie.",
+   "answer": "piace",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "piace",
+    "piacciono"
+   ],
+   "note": "Infinitivo → singular: *le piace scrivere*."
+  },
+  "d10-007": {
+   "consigna": "Elegí piace (una sola cosa o un verbo en infinitivo) o piacciono (varias cosas).",
+   "type": "choice",
+   "stem": "Vi ___ gli sport?",
+   "answer": "piacciono",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "piace",
+    "piacciono"
+   ],
+   "note": "*gli sport* es plural (aunque *sport* no cambie) → *piacciono*."
+  },
+  "d10-008": {
+   "consigna": "Elegí piace (una sola cosa o un verbo en infinitivo) o piacciono (varias cosas).",
+   "type": "choice",
+   "stem": "Gli ___ i vini italiani.",
+   "answer": "piacciono",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "piace",
+    "piacciono"
+   ],
+   "note": "*piacere* concuerda con *i vini* (plural): *piacciono*."
+  },
+  "d10-009": {
+   "consigna": "Elegí piace (una sola cosa o un verbo en infinitivo) o piacciono (varias cosas).",
+   "type": "choice",
+   "stem": "Ti ___ il caffè ristretto?",
+   "answer": "piace",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "piace",
+    "piacciono"
+   ],
+   "note": "*il caffè* es singular (aunque termine en -è) → *piace*."
+  },
+  "d10-010": {
+   "consigna": "Elegí piace (una sola cosa o un verbo en infinitivo) o piacciono (varias cosas).",
+   "type": "choice",
+   "stem": "A Mario ___ la bistecca fiorentina.",
+   "answer": "piace",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "piace",
+    "piacciono"
+   ],
+   "note": "*la bistecca* es el sujeto (singular) → *piace*; *a Mario* es el indirecto, como «a Mario le gusta»."
+  },
+  "d10-021": {
+   "consigna": "Completá con el verbo piacere en el tiempo indicado entre paréntesis (futuro, condizionale o trapassato prossimo).",
+   "type": "conjugate",
+   "stem": "Gli ___ (futuro) le macchine.",
+   "answer": "piaceranno",
+   "alt": [],
+   "drop": false,
+   "note": "*piacere* concuerda con lo que gusta: *le macchine* → *piaceranno* (futuro, tercera plural)."
+  },
+  "d10-022": {
+   "consigna": "Completá con el verbo piacere en el tiempo indicado entre paréntesis (futuro, condizionale o trapassato prossimo).",
+   "type": "conjugate",
+   "stem": "Mi ___ (condicional) andare.",
+   "answer": "piacerebbe",
+   "alt": [],
+   "drop": false,
+   "note": "Condizionale de *piacere* con infinitivo: singular, *mi piacerebbe andare* («me gustaría ir»)."
+  },
+  "d10-023": {
+   "consigna": "Completá con el verbo piacere en el tiempo indicado entre paréntesis (futuro, condizionale o trapassato prossimo).",
+   "type": "conjugate",
+   "stem": "A lei ___ (trapassato prossimo) la casa.",
+   "answer": "era piaciuta",
+   "alt": [],
+   "drop": false,
+   "note": "Trapassato con *essere* concordado con lo que gusta: *la casa* → *era piaciuta*."
+  },
+  "d10-024": {
+   "consigna": "Completá con el verbo piacere en el tiempo indicado entre paréntesis (futuro, condizionale o trapassato prossimo).",
+   "type": "conjugate",
+   "stem": "Vi ___ (condicional) venire?",
+   "answer": "piacerebbe",
+   "alt": [],
+   "drop": false,
+   "note": "Con infinitivo va en singular: *vi piacerebbe venire?*"
+  },
+  "d10-025": {
+   "consigna": "Completá con el verbo piacere en el tiempo indicado entre paréntesis (futuro, condizionale o trapassato prossimo).",
+   "type": "conjugate",
+   "stem": "Ti ___ (futuro) le isole.",
+   "answer": "piaceranno",
+   "alt": [],
+   "drop": false,
+   "note": "*piacere* concuerda con lo que gusta: *le isole* (plural) → futuro *piaceranno*."
+  },
+  "d10-026": {
+   "consigna": "Completá con el verbo piacere en el tiempo indicado entre paréntesis (futuro, condizionale o trapassato prossimo).",
+   "type": "conjugate",
+   "stem": "Vi ___ (condicional) le montagne qui.",
+   "answer": "piacerebbero",
+   "alt": [],
+   "drop": false,
+   "note": "*le montagne* es plural → condizionale plural *piacerebbero*."
+  },
+  "d10-027": {
+   "consigna": "Completá con el verbo piacere en el tiempo indicado entre paréntesis (futuro, condizionale o trapassato prossimo).",
+   "type": "conjugate",
+   "stem": "Non mi ___ (trapassato prossimo) i biscotti.",
+   "answer": "erano piaciuti",
+   "alt": [],
+   "drop": false,
+   "note": "Trapassato con *essere* y participio concordado con *i biscotti*: *erano piaciuti*."
+  },
+  "d10-028": {
+   "consigna": "Completá con el verbo piacere en el tiempo indicado entre paréntesis (futuro, condizionale o trapassato prossimo).",
+   "type": "conjugate",
+   "stem": "Ci ___ (condicional) fare una telefonata.",
+   "answer": "piacerebbe",
+   "alt": [],
+   "drop": false,
+   "note": "Con infinitivo, singular: *ci piacerebbe*."
+  },
+  "d10-029": {
+   "consigna": "Completá con el verbo piacere en el tiempo indicado entre paréntesis (futuro, condizionale o trapassato prossimo).",
+   "type": "conjugate",
+   "stem": "Gli ___ (futuro) i nuovi pantaloni.",
+   "answer": "piaceranno",
+   "alt": [],
+   "drop": false,
+   "note": "Concordancia con *i pantaloni*, que en italiano es plural como en castellano → *piaceranno*."
+  },
+  "d10-030": {
+   "consigna": "Completá con el verbo piacere en el tiempo indicado entre paréntesis (futuro, condizionale o trapassato prossimo).",
+   "type": "conjugate",
+   "stem": "Ma non le ___ (futuro) la casa.",
+   "answer": "piacerà",
+   "alt": [],
+   "drop": false,
+   "note": "Concordancia con *la casa* (singular) → *piacerà*."
+  },
+  "d10-031": {
+   "consigna": "Completá con piacere en pasado: passato prossimo (è piaciuto/a, sono piaciuti/e: una vez, «gustó») o imperfetto (piaceva, piacevano: costumbre o estado, «gustaba»).",
+   "type": "conjugate",
+   "stem": "Quest'ultimo disegno non ci ___. (no nos gustó)",
+   "answer": "è piaciuto",
+   "alt": [],
+   "drop": false,
+   "note": "En passato prossimo, piacere va con essere y concuerda con lo que gusta: il disegno → è piaciuto."
+  },
+  "d10-032": {
+   "consigna": "Completá con piacere en pasado: passato prossimo (è piaciuto/a, sono piaciuti/e: una vez, «gustó») o imperfetto (piaceva, piacevano: costumbre o estado, «gustaba»).",
+   "type": "conjugate",
+   "stem": "Non le ___ l'opera di Michelangelo.",
+   "answer": "piaceva",
+   "alt": [
+    "è piaciuta"
+   ],
+   "drop": false,
+   "note": "Las dos sirven: piaceva (le gustaba) o è piaciuta (le gustó; concuerda con «l'opera», femenino)."
+  },
+  "d10-033": {
+   "consigna": "Completá con piacere en pasado: passato prossimo (è piaciuto/a, sono piaciuti/e: una vez, «gustó») o imperfetto (piaceva, piacevano: costumbre o estado, «gustaba»).",
+   "type": "conjugate",
+   "stem": "A Rodolfo ___ di solito mangiare presto.",
+   "answer": "piaceva",
+   "alt": [],
+   "drop": false,
+   "note": "«Di solito» (por lo general) indica costumbre → imperfetto."
+  },
+  "d10-034": {
+   "consigna": "Completá con piacere en pasado: passato prossimo (è piaciuto/a, sono piaciuti/e: una vez, «gustó») o imperfetto (piaceva, piacevano: costumbre o estado, «gustaba»).",
+   "type": "conjugate",
+   "stem": "Ieri ho letto un libro che mi ___. (me gustó)",
+   "answer": "è piaciuto",
+   "alt": [],
+   "drop": false,
+   "note": "Algo que gustó una vez (el libro que leíste ayer): passato prossimo con *essere*, concordado con *libro*: *è piaciuto*."
+  },
+  "d10-035": {
+   "consigna": "Completá con piacere en pasado: passato prossimo (è piaciuto/a, sono piaciuti/e: una vez, «gustó») o imperfetto (piaceva, piacevano: costumbre o estado, «gustaba»).",
+   "type": "conjugate",
+   "stem": "Ogni estate ci ___ visitare la nonna.",
+   "answer": "piaceva",
+   "alt": [],
+   "drop": false,
+   "note": "«Ogni estate» (cada verano) indica costumbre → imperfetto."
+  },
+  "d10-036": {
+   "consigna": "Completá con piacere en pasado: passato prossimo (è piaciuto/a, sono piaciuti/e: una vez, «gustó») o imperfetto (piaceva, piacevano: costumbre o estado, «gustaba»).",
+   "type": "conjugate",
+   "stem": "Anche se gli ___ il computer, non l'ha comprato. (le gustaba)",
+   "answer": "piaceva",
+   "alt": [],
+   "drop": false,
+   "note": "Estado en el pasado («le gustaba») → imperfetto: *piaceva*."
+  },
+  "d10-037": {
+   "consigna": "Completá con piacere en pasado: passato prossimo (è piaciuto/a, sono piaciuti/e: una vez, «gustó») o imperfetto (piaceva, piacevano: costumbre o estado, «gustaba»).",
+   "type": "conjugate",
+   "stem": "Ai bambini ___ mangiare dolci. (les gustaba)",
+   "answer": "piaceva",
+   "alt": [],
+   "drop": false,
+   "note": "Con un infinitivo (mangiare) el verbo va en singular."
+  },
+  "d10-038": {
+   "consigna": "Completá con piacere en pasado: passato prossimo (è piaciuto/a, sono piaciuti/e: una vez, «gustó») o imperfetto (piaceva, piacevano: costumbre o estado, «gustaba»).",
+   "type": "conjugate",
+   "stem": "Da bambina mi ___ leggere e scrivere.",
+   "answer": "piaceva",
+   "alt": [],
+   "drop": false,
+   "note": "«Da bambina» (de chica) → imperfetto."
+  },
+  "d10-039": {
+   "consigna": "Completá con piacere en pasado: passato prossimo (è piaciuto/a, sono piaciuti/e: una vez, «gustó») o imperfetto (piaceva, piacevano: costumbre o estado, «gustaba»).",
+   "type": "conjugate",
+   "stem": "Mi ___ quel film. (me gustó)",
+   "answer": "è piaciuto",
+   "alt": [],
+   "drop": false,
+   "note": "Una vez → passato prossimo con *essere*, concordado con *film* (masculino): *è piaciuto*."
+  },
+  "d10-040": {
+   "consigna": "Completá con piacere en pasado: passato prossimo (è piaciuto/a, sono piaciuti/e: una vez, «gustó») o imperfetto (piaceva, piacevano: costumbre o estado, «gustaba»).",
+   "type": "conjugate",
+   "stem": "Al gatto non ___ il nuovo cibo. (no le gustó)",
+   "answer": "è piaciuto",
+   "alt": [],
+   "drop": false,
+   "note": "Reacción puntual → passato prossimo; *il cibo* es masculino: *è piaciuto*."
+  },
+  "d10-041": {
+   "consigna": "Conjugá en presente el verbo entre paréntesis. Funciona como piacere: concuerda con lo que interesa, alcanza, parece o importa.",
+   "type": "conjugate",
+   "stem": "I film di lui non mi ___ (interessare).",
+   "answer": "interessano",
+   "alt": [],
+   "drop": false,
+   "note": "*interessare* funciona como *piacere*: concuerda con lo que interesa, *i film* → *interessano*."
+  },
+  "d10-042": {
+   "consigna": "Conjugá en presente el verbo entre paréntesis. Funciona como piacere: concuerda con lo que interesa, alcanza, parece o importa.",
+   "type": "conjugate",
+   "stem": "Mi ___ (bastare) tre tuorli.",
+   "answer": "bastano",
+   "alt": [],
+   "drop": false,
+   "note": "Concuerda con «tre tuorli» (plural): mi bastano (me alcanzan tres yemas)."
+  },
+  "d10-043": {
+   "consigna": "Conjugá en presente el verbo entre paréntesis. Funciona como piacere: concuerda con lo que interesa, alcanza, parece o importa.",
+   "type": "conjugate",
+   "stem": "Loro ci ___ (sembrare) onesti.",
+   "answer": "sembrano",
+   "alt": [],
+   "drop": false,
+   "note": "*sembrare* concuerda con el sujeto (*loro*): *sembrano*; *ci* es «nos», como en «nos parecen»."
+  },
+  "d10-044": {
+   "consigna": "Conjugá en presente el verbo entre paréntesis. Funciona como piacere: concuerda con lo que interesa, alcanza, parece o importa.",
+   "type": "conjugate",
+   "stem": "Queste cose non le ___ (importare).",
+   "answer": "importano",
+   "alt": [],
+   "drop": false,
+   "note": "*importare* concuerda con *queste cose*: *importano* («no le importan»)."
+  },
+  "d10-045": {
+   "consigna": "Conjugá en presente el verbo entre paréntesis. Funciona como piacere: concuerda con lo que interesa, alcanza, parece o importa.",
+   "type": "conjugate",
+   "stem": "La ragazza non gli ___ (sembrare) sincera.",
+   "answer": "sembra",
+   "alt": [],
+   "drop": false,
+   "note": "*sembrare* concuerda con *la ragazza*: *sembra*."
+  },
+  "d10-046": {
+   "consigna": "Conjugá en presente el verbo entre paréntesis. Funciona como piacere: concuerda con lo que interesa, alcanza, parece o importa.",
+   "type": "conjugate",
+   "stem": "Questo posto mi ___ (sembrare) ideale.",
+   "answer": "sembra",
+   "alt": [],
+   "drop": false,
+   "note": "*sembrare* («parecer») concuerda con lo que parece: *questo posto* → *sembra*."
+  },
+  "d10-047": {
+   "consigna": "Conjugá en presente el verbo entre paréntesis. Funciona como piacere: concuerda con lo que interesa, alcanza, parece o importa.",
+   "type": "conjugate",
+   "stem": "Ce n'è soltanto uno. Non ci ___ (bastare) questo.",
+   "answer": "basta",
+   "alt": [],
+   "drop": false,
+   "note": "*questo* es singular → *basta* («no nos alcanza esto»)."
+  },
+  "d10-048": {
+   "consigna": "Conjugá en presente el verbo entre paréntesis. Funciona como piacere: concuerda con lo que interesa, alcanza, parece o importa.",
+   "type": "conjugate",
+   "stem": "Non gli ___ (interessare) le idee degli altri.",
+   "answer": "interessano",
+   "alt": [],
+   "drop": false,
+   "note": "Concuerda con *le idee* (plural) → *interessano*."
+  },
+  "d10-049": {
+   "consigna": "Conjugá en presente el verbo entre paréntesis. Funciona como piacere: concuerda con lo que interesa, alcanza, parece o importa.",
+   "type": "conjugate",
+   "stem": "A me ___ (interessare) la moda.",
+   "answer": "interessa",
+   "alt": [],
+   "drop": false,
+   "note": "Concuerda con *la moda* (singular) → *interessa*."
+  },
+  "d10-050": {
+   "consigna": "Conjugá en presente el verbo entre paréntesis. Funciona como piacere: concuerda con lo que interesa, alcanza, parece o importa.",
+   "type": "conjugate",
+   "stem": "A Paolo e Giuseppe ___ (importare) gli sport.",
+   "answer": "importano",
+   "alt": [],
+   "drop": false,
+   "note": "Concuerda con *gli sport* (plural) → *importano*."
+  },
+  "d10-051": {
+   "consigna": "Traducí al italiano usando mancare. Ojo: lo que se extraña es el sujeto (Ti manco = me extrañás, literalmente «te falto»).",
+   "type": "translate",
+   "stem": "Los extraño. (a ellos)",
+   "answer": "Mi mancano.",
+   "alt": [
+    "Loro mi mancano."
+   ],
+   "drop": false,
+   "note": "Con *mancare* lo extrañado es el sujeto: «ellos me faltan» → *mi mancano*."
+  },
+  "d10-052": {
+   "consigna": "Traducí al italiano usando mancare. Ojo: lo que se extraña es el sujeto (Ti manco = me extrañás, literalmente «te falto»).",
+   "type": "translate",
+   "stem": "(Vos) la extrañás.",
+   "answer": "Ti manca.",
+   "alt": [
+    "Lei ti manca."
+   ],
+   "drop": false,
+   "note": "«Ella te falta» → *ti manca*: sujeto *lei*, indirecto *ti*."
+  },
+  "d10-053": {
+   "consigna": "Traducí al italiano usando mancare. Ojo: lo que se extraña es el sujeto (Ti manco = me extrañás, literalmente «te falto»).",
+   "type": "translate",
+   "stem": "Ellos me extrañan.",
+   "answer": "Gli manco.",
+   "alt": [
+    "Manco a loro.",
+    "A loro manco.",
+    "Io gli manco."
+   ],
+   "drop": false,
+   "note": "«Yo les falto a ellos» → *gli manco*: el sujeto es *io* (el extrañado) y *gli* es «a ellos»."
+  },
+  "d10-054": {
+   "consigna": "Traducí al italiano usando mancare. Ojo: lo que se extraña es el sujeto (Ti manco = me extrañás, literalmente «te falto»).",
+   "type": "translate",
+   "stem": "Los extrañamos a ustedes.",
+   "answer": "Ci mancate.",
+   "alt": [
+    "Voi ci mancate."
+   ],
+   "drop": false,
+   "note": "«Ustedes nos faltan» → *ci mancate*: el verbo va en *voi* porque ustedes son los extrañados."
+  },
+  "d10-055": {
+   "consigna": "Traducí al italiano usando mancare. Ojo: lo que se extraña es el sujeto (Ti manco = me extrañás, literalmente «te falto»).",
+   "type": "translate",
+   "stem": "Ellos los extrañan. (a ellos)",
+   "answer": "Gli mancano.",
+   "alt": [
+    "A loro mancano.",
+    "Mancano a loro."
+   ],
+   "drop": false,
+   "note": "«Ellos les faltan a ellos» → *gli mancano*."
+  },
+  "d11-001": {
+   "consigna": "Convertí la afirmación en pregunta: pasá el sujeto al final, después de una coma, y agregá el signo de pregunta.",
+   "type": "qa",
+   "stem": "Michele ha mangiato tutti i biscotti.",
+   "answer": "Ha mangiato tutti i biscotti, Michele?",
+   "alt": [
+    "Ha mangiato tutti i biscotti Michele?"
+   ],
+   "drop": false,
+   "note": "En italiano la pregunta no invierte obligatoriamente: basta la entonación. Para destacar el sujeto se lo pasa al final tras una coma: *Ha mangiato..., Michele?*"
+  },
+  "d11-002": {
+   "consigna": "Convertí la afirmación en pregunta: pasá el sujeto al final, después de una coma, y agregá el signo de pregunta.",
+   "type": "qa",
+   "stem": "I ragazzi sono a scuola.",
+   "answer": "Sono a scuola, i ragazzi?",
+   "alt": [
+    "Sono a scuola i ragazzi?"
+   ],
+   "drop": false,
+   "note": "Verbo y resto primero, sujeto al final tras coma: *Sono a scuola, i ragazzi?*; en la lengua escrita solo el signo de cierre marca la pregunta."
+  },
+  "d11-003": {
+   "consigna": "Convertí la afirmación en pregunta: pasá el sujeto al final, después de una coma, y agregá el signo de pregunta.",
+   "type": "qa",
+   "stem": "Tua madre è impegnatissima.",
+   "answer": "È impegnatissima, tua madre?",
+   "alt": [
+    "È impegnatissima tua madre?"
+   ],
+   "drop": false,
+   "note": "Se mueve el sujeto al final con coma: *È impegnatissima, tua madre?* (*tua madre* sin artículo: familiar en singular)."
+  },
+  "d11-004": {
+   "consigna": "Convertí la afirmación en pregunta: pasá el sujeto al final, después de una coma, y agregá el signo de pregunta.",
+   "type": "qa",
+   "stem": "Giuseppe parla inglese.",
+   "answer": "Parla inglese, Giuseppe?",
+   "alt": [
+    "Parla inglese Giuseppe?"
+   ],
+   "drop": false,
+   "note": "Sujeto al final tras coma: *Parla inglese, Giuseppe?* El italiano no usa «¿» de apertura."
+  },
+  "d11-005": {
+   "consigna": "Convertí la afirmación en pregunta: pasá el sujeto al final, después de una coma, y agregá el signo de pregunta.",
+   "type": "qa",
+   "stem": "Le nuove macchine sono molto belle.",
+   "answer": "Sono molto belle, le nuove macchine?",
+   "alt": [
+    "Sono molto belle le nuove macchine?"
+   ],
+   "drop": false,
+   "note": "El sujeto con su adjetivo va entero al final: *..., le nuove macchine?*"
+  },
+  "d11-006": {
+   "consigna": "Convertí la afirmación en pregunta: pasá el sujeto al final, después de una coma, y agregá el signo de pregunta.",
+   "type": "qa",
+   "stem": "Tu prepari da mangiare.",
+   "answer": "Prepari da mangiare, tu?",
+   "alt": [
+    "Prepari da mangiare tu?"
+   ],
+   "drop": false,
+   "note": "Aun con pronombre, el sujeto va al final: *Prepari da mangiare, tu?* (*da mangiare* = «de comer»)."
+  },
+  "d11-007": {
+   "consigna": "Convertí la afirmación en pregunta: pasá el sujeto al final, después de una coma, y agregá el signo de pregunta.",
+   "type": "qa",
+   "stem": "Marco e Lorenzo sono andati in centro.",
+   "answer": "Sono andati in centro, Marco e Lorenzo?",
+   "alt": [
+    "Sono andati in centro Marco e Lorenzo?"
+   ],
+   "drop": false,
+   "note": "Con passato prossimo, auxiliar y participio quedan juntos y el sujeto va al final: *Sono andati in centro, Marco e Lorenzo?*"
+  },
+  "d11-008": {
+   "consigna": "Convertí la afirmación en pregunta: pasá el sujeto al final, después de una coma, y agregá el signo de pregunta.",
+   "type": "qa",
+   "stem": "Giulia sarà a casa.",
+   "answer": "Sarà a casa, Giulia?",
+   "alt": [
+    "Sarà a casa Giulia?"
+   ],
+   "drop": false,
+   "note": "Sujeto al final tras coma: *Sarà a casa, Giulia?* (futuro de suposición: «¿estará en casa?»)."
+  },
+  "d11-009": {
+   "consigna": "Convertí la afirmación en pregunta: pasá el sujeto al final, después de una coma, y agregá el signo de pregunta.",
+   "type": "qa",
+   "stem": "Le donne visitano i musei fiorentini.",
+   "answer": "Visitano i musei fiorentini, le donne?",
+   "alt": [
+    "Visitano i musei fiorentini le donne?"
+   ],
+   "drop": false,
+   "note": "Sujeto al final: *Visitano i musei fiorentini, le donne?*"
+  },
+  "d11-010": {
+   "consigna": "Convertí la afirmación en pregunta: pasá el sujeto al final, después de una coma, y agregá el signo de pregunta.",
+   "type": "qa",
+   "stem": "Io leggo ogni giorno.",
+   "answer": "Leggo ogni giorno, io?",
+   "alt": [
+    "Leggo ogni giorno io?"
+   ],
+   "drop": false,
+   "note": "Sujeto al final: *Leggo ogni giorno, io?*; en italiano solo se usa el signo de pregunta de cierre."
+  },
+  "d11-011": {
+   "consigna": "Elegí la palabra interrogativa correcta: quanto/quanta/quanti/quante (cuánto…, concuerda con el sustantivo) o quale/quali (cuál, cuáles).",
+   "type": "choice",
+   "stem": "___ ragazze ci sono nel liceo Leonardo da Vinci? (¿Cuántas chicas hay en el liceo Leonardo da Vinci?)",
+   "answer": "quante",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "quanto",
+    "quanta",
+    "quanti",
+    "quante"
+   ],
+   "note": "*quanto* concuerda con el sustantivo como «cuánto»: *ragazze* femenino plural → *quante*."
+  },
+  "d11-012": {
+   "consigna": "Elegí la palabra interrogativa correcta: quanto/quanta/quanti/quante (cuánto…, concuerda con el sustantivo) o quale/quali (cuál, cuáles).",
+   "type": "choice",
+   "stem": "___ vino vorresti? (¿Cuánto vino querrías?)",
+   "answer": "quanto",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "quanto",
+    "quanta",
+    "quanti",
+    "quante"
+   ],
+   "note": "*quanto* concuerda como adjetivo: *vino*, masculino singular → *quanto*."
+  },
+  "d11-013": {
+   "consigna": "Elegí la palabra interrogativa correcta: quanto/quanta/quanti/quante (cuánto…, concuerda con el sustantivo) o quale/quali (cuál, cuáles).",
+   "type": "choice",
+   "stem": "___ macchina preferisci? (¿Qué auto preferís?)",
+   "answer": "quale",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "quale",
+    "quali",
+    "quanta",
+    "quante"
+   ],
+   "note": "Para elegir entre varios, «qué» ante sustantivo es *quale* (invariable en género): *quale macchina*."
+  },
+  "d11-014": {
+   "consigna": "Elegí la palabra interrogativa correcta: quanto/quanta/quanti/quante (cuánto…, concuerda con el sustantivo) o quale/quali (cuál, cuáles).",
+   "type": "choice",
+   "stem": "___ gatti ha? (¿Cuántos gatos tiene?)",
+   "answer": "quanti",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "quanto",
+    "quanta",
+    "quanti",
+    "quante"
+   ],
+   "note": "*quanto* concuerda con *gatti* (masculino plural): *quanti*, como «cuántos»."
+  },
+  "d11-015": {
+   "consigna": "Elegí la palabra interrogativa correcta: quanto/quanta/quanti/quante (cuánto…, concuerda con el sustantivo) o quale/quali (cuál, cuáles).",
+   "type": "choice",
+   "stem": "___ ingrediente fa speciale il dolce? (¿Qué ingrediente hace especial el postre?)",
+   "answer": "quale",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "quale",
+    "quali",
+    "quanto",
+    "quanti"
+   ],
+   "note": "*quale* + sustantivo para elegir: *quale ingrediente*; ante vocal se puede apocopar en *qual* (sin apóstrofo)."
+  },
+  "d11-016": {
+   "consigna": "Elegí la palabra interrogativa correcta: quanto/quanta/quanti/quante (cuánto…, concuerda con el sustantivo) o quale/quali (cuál, cuáles).",
+   "type": "choice",
+   "stem": "___ ragazza è la più bella? (¿Cuál chica es la más linda?)",
+   "answer": "quale",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "quale",
+    "quali",
+    "quanta",
+    "quante"
+   ],
+   "note": "«¿Cuál chica...?» → *quale ragazza*: *quale* no cambia con el género."
+  },
+  "d11-017": {
+   "consigna": "Elegí la palabra interrogativa correcta: quanto/quanta/quanti/quante (cuánto…, concuerda con el sustantivo) o quale/quali (cuál, cuáles).",
+   "type": "choice",
+   "stem": "___ ragazzo studia con te? (¿Qué chico estudia con vos?)",
+   "answer": "quale",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "quale",
+    "quali",
+    "quanto",
+    "quanti"
+   ],
+   "note": "*quale* es igual en masculino y femenino: *quale ragazzo*."
+  },
+  "d11-018": {
+   "consigna": "Elegí la palabra interrogativa correcta: quanto/quanta/quanti/quante (cuánto…, concuerda con el sustantivo) o quale/quali (cuál, cuáles).",
+   "type": "choice",
+   "stem": "___ stoffa ci vuole? (¿Cuánta tela hace falta?)",
+   "answer": "quanta",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "quanto",
+    "quanta",
+    "quanti",
+    "quante"
+   ],
+   "note": "*quanto* concuerda con *stoffa* (femenino singular): *quanta*."
+  },
+  "d11-019": {
+   "consigna": "Elegí la palabra interrogativa correcta: quanto/quanta/quanti/quante (cuánto…, concuerda con el sustantivo) o quale/quali (cuál, cuáles).",
+   "type": "choice",
+   "stem": "___ materia è la tua preferita? (¿Cuál materia es tu preferida?)",
+   "answer": "quale",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "quale",
+    "quali",
+    "quanta",
+    "quante"
+   ],
+   "note": "Para elegir entre varias opciones, «¿qué/cuál?» + sustantivo es *quale*: *quale materia*."
+  },
+  "d11-020": {
+   "consigna": "Elegí la palabra interrogativa correcta: quanto/quanta/quanti/quante (cuánto…, concuerda con el sustantivo) o quale/quali (cuál, cuáles).",
+   "type": "choice",
+   "stem": "___ scarpe dovrei comprare? (¿Qué zapatos debería comprar?)",
+   "answer": "quali",
+   "alt": [],
+   "drop": false,
+   "options": [
+    "quale",
+    "quali",
+    "quanta",
+    "quante"
+   ],
+   "note": "Plural de *quale*: *quali* (sin distinguir género): *quali scarpe*."
+  },
+  "d11-021": {
+   "consigna": "Completá la pregunta con una de estas opciones (sin repetir ninguna): come sono, dov'è, dove, quando, dove sono.",
+   "type": "cloze",
+   "stem": "___ i musicisti? (¿Cómo son los músicos?)",
+   "answer": "come sono",
+   "alt": [],
+   "drop": false,
+   "note": "«¿Cómo son?» = *come sono*: *come* + *essere* concordado con el sujeto plural."
+  },
+  "d11-022": {
+   "consigna": "Completá la pregunta con una de estas opciones (sin repetir ninguna): come sono, dov'è, dove, quando, dove sono.",
+   "type": "cloze",
+   "stem": "___ la scuola elementare? (¿Dónde está la escuela primaria?)",
+   "answer": "dov'è",
+   "alt": [
+    "dove è"
+   ],
+   "drop": false,
+   "note": "«¿Dónde está?» = *dov’è*: *dove* + *è* se apostrofa; el italiano usa *essere* para la ubicación."
+  },
+  "d11-023": {
+   "consigna": "Completá la pregunta con una de estas opciones (sin repetir ninguna): come sono, dov'è, dove, quando, dove sono.",
+   "type": "cloze",
+   "stem": "___ vai? (¿Adónde vas?)",
+   "answer": "dove",
+   "alt": [],
+   "drop": false,
+   "note": "«¿Adónde?» es simplemente *dove*: el italiano no distingue «dónde/adónde»."
+  },
+  "d11-024": {
+   "consigna": "Completá la pregunta con una de estas opciones (sin repetir ninguna): come sono, dov'è, dove, quando, dove sono.",
+   "type": "cloze",
+   "stem": "___ parti? (¿Cuándo te vas?)",
+   "answer": "quando",
+   "alt": [],
+   "drop": false,
+   "note": "«¿Cuándo?» es *quando*: el italiano no marca los interrogativos con tilde como el castellano (*quando, dove, come*)."
+  },
+  "d11-025": {
+   "consigna": "Completá la pregunta con una de estas opciones (sin repetir ninguna): come sono, dov'è, dove, quando, dove sono.",
+   "type": "cloze",
+   "stem": "___ le chiavi? (¿Dónde están las llaves?)",
+   "answer": "dove sono",
+   "alt": [],
+   "drop": false,
+   "note": "Plural: «¿dónde están?» = *dove sono*, sin apóstrofo."
+  },
+  "d11-026": {
+   "consigna": "Completá con el pronombre interrogativo (che cosa, chi, quanto/a/i/e, quale…).",
+   "type": "cloze",
+   "stem": "___ fai, Mario? (¿Qué hacés, Mario?)",
+   "answer": "che cosa",
+   "alt": [
+    "cosa",
+    "che"
+   ],
+   "drop": false,
+   "note": "«¿Qué?» sin sustantivo es *che cosa* (también *cosa* o *che*): *Che cosa fai?*"
+  },
+  "d11-027": {
+   "consigna": "Completá con el pronombre interrogativo (che cosa, chi, quanto/a/i/e, quale…).",
+   "type": "cloze",
+   "stem": "___ va domani? (¿Quién va mañana?)",
+   "answer": "chi",
+   "alt": [],
+   "drop": false,
+   "note": "«¿Quién?» es *chi*: se pronuncia «ki» y el verbo va en singular (*chi va?*)."
+  },
+  "d11-028": {
+   "consigna": "Completá con el pronombre interrogativo (che cosa, chi, quanto/a/i/e, quale…).",
+   "type": "cloze",
+   "stem": "Ragazze, ___ di voi hanno il telefonino? (Chicas, ¿cuántas de ustedes tienen celular?)",
+   "answer": "quante",
+   "alt": [],
+   "drop": false,
+   "note": "*quanto* como pronombre concuerda con lo que reemplaza: chicas → *quante di voi*."
+  },
+  "d11-029": {
+   "consigna": "Completá con el pronombre interrogativo (che cosa, chi, quanto/a/i/e, quale…).",
+   "type": "cloze",
+   "stem": "___ tempo abbiamo? (¿Cuánto tiempo tenemos?)",
+   "answer": "quanto",
+   "alt": [],
+   "drop": false,
+   "note": "*tempo* es masculino singular → *quanto*."
+  },
+  "d11-030": {
+   "consigna": "Completá con el pronombre interrogativo (che cosa, chi, quanto/a/i/e, quale…).",
+   "type": "cloze",
+   "stem": "___ dovremmo ordinare? (¿Cuál deberíamos pedir?)",
+   "answer": "quale",
+   "alt": [],
+   "drop": false,
+   "note": "Como pronombre, «¿cuál?» es *quale* y va sin artículo, como en castellano."
+  },
+  "d11-031": {
+   "consigna": "Respondé en italiano con una oración completa: reusá las palabras de la pregunta y agregá el dato que está entre paréntesis.",
+   "type": "qa",
+   "stem": "Come sono i professori? (muy amables)",
+   "answer": "I professori sono molto gentili.",
+   "alt": [
+    "Sono molto gentili."
+   ],
+   "drop": false,
+   "note": "La respuesta reusa el sujeto y *essere*; «muy amables» = *molto gentili*, y *molto* no cambia delante de un adjetivo."
+  },
+  "d11-032": {
+   "consigna": "Respondé en italiano con una oración completa: reusá las palabras de la pregunta y agregá el dato que está entre paréntesis.",
+   "type": "qa",
+   "stem": "Quanti studenti mangiano nella mensa universitaria? Molti? (sí, muchos)",
+   "answer": "Molti studenti mangiano nella mensa universitaria.",
+   "alt": [
+    "Sì, molti studenti mangiano nella mensa universitaria.",
+    "Ci mangiano molti studenti."
+   ],
+   "drop": false,
+   "note": "*molti* concuerda con *studenti*: cuando es adjetivo, *molto* varía; cuando es adverbio (*molto gentili*), no."
+  },
+  "d11-033": {
+   "consigna": "Respondé en italiano con una oración completa: reusá las palabras de la pregunta y agregá el dato que está entre paréntesis.",
+   "type": "qa",
+   "stem": "Che cosa fanno gli studenti? (hacen la tarea)",
+   "answer": "Gli studenti fanno i compiti.",
+   "alt": [
+    "Fanno i compiti."
+   ],
+   "drop": false,
+   "note": "La tarea escolar se dice en plural, *i compiti*, y con el verbo *fare*: *fanno i compiti*."
+  },
+  "d11-034": {
+   "consigna": "Respondé en italiano con una oración completa: reusá las palabras de la pregunta y agregá el dato que está entre paréntesis.",
+   "type": "qa",
+   "stem": "Quando apre il museo? (a las 9)",
+   "answer": "Il museo apre alle 9.00.",
+   "alt": [
+    "Il museo apre alle 9.",
+    "Il museo apre alle nove.",
+    "Apre alle 9.",
+    "Apre alle nove.",
+    "Apre alle 9.00."
+   ],
+   "drop": false,
+   "note": "«A las 9» = *alle 9.00*: *a* + *le* (*ore*); en italiano la hora se escribe con punto."
+  },
+  "d11-035": {
+   "consigna": "Respondé en italiano con una oración completa: reusá las palabras de la pregunta y agregá el dato que está entre paréntesis.",
+   "type": "qa",
+   "stem": "Dove sono i biglietti? (sobre la mesa)",
+   "answer": "I biglietti sono sul tavolo.",
+   "alt": [
+    "Sono sul tavolo."
+   ],
+   "drop": false,
+   "note": "«Sobre la mesa» = *sul tavolo*: *su* + *il* se funden en *sul*."
+  },
+  "d11-036": {
+   "consigna": "La pregunta es para vos: completá la respuesta con el verbo en primera persona (io).",
+   "type": "conjugate",
+   "stem": "Come sei tu? (¿Cómo sos?) — ___ alto e simpatico.",
+   "answer": "sono",
+   "alt": [],
+   "drop": false,
+   "note": "«¿Cómo sos?» → *sono*: la misma forma sirve para *io* y *loro*."
+  },
+  "d11-037": {
+   "consigna": "La pregunta es para vos: completá la respuesta con el verbo en primera persona (io).",
+   "type": "conjugate",
+   "stem": "Da dove vieni? (¿De dónde venís?) — ___ dall'Argentina.",
+   "answer": "vengo",
+   "alt": [],
+   "drop": false,
+   "note": "*venire*: *io vengo*; el origen se dice *vengo da/dall’* + país con artículo."
+  },
+  "d11-038": {
+   "consigna": "La pregunta es para vos: completá la respuesta con el verbo en primera persona (io).",
+   "type": "conjugate",
+   "stem": "Come stai oggi? (¿Cómo estás hoy?) — ___ bene, grazie.",
+   "answer": "sto",
+   "alt": [],
+   "drop": false,
+   "note": "La salud va con *stare*: *sto bene* (no *sono bene*)."
+  },
+  "d11-039": {
+   "consigna": "La pregunta es para vos: completá la respuesta con el verbo en primera persona (io).",
+   "type": "conjugate",
+   "stem": "Quanti anni hai? (¿Cuántos años tenés?) — ___ trent'anni.",
+   "answer": "ho",
+   "alt": [],
+   "drop": false,
+   "note": "La edad se dice con avere: ho trent'anni (literalmente «tengo treinta años»)."
+  },
+  "d11-040": {
+   "consigna": "La pregunta es para vos: completá la respuesta con el verbo en primera persona (io).",
+   "type": "conjugate",
+   "stem": "Quale ristorante preferisci? (¿Qué restaurante preferís?) — ___ quello in piazza.",
+   "answer": "preferisco",
+   "alt": [],
+   "drop": false,
+   "note": "*preferire* lleva -isc- en *io*: *preferisco* (sin el diptongo de «prefiero»)."
+  },
+  "d12-001": {
+   "consigna": "Completá con a o di, solas o unidas al artículo (al, alla, alle, del, della…).",
+   "type": "cloze",
+   "stem": "Vanno a scuola ___ sette.",
+   "answer": "alle",
+   "alt": [],
+   "drop": false,
+   "note": "La hora: alle sette (a las siete)."
+  },
+  "d12-002": {
+   "consigna": "Completá con a o di, solas o unidas al artículo (al, alla, alle, del, della…).",
+   "type": "cloze",
+   "stem": "Paola è romana, è ___ Roma.",
+   "answer": "di",
+   "alt": [],
+   "drop": false,
+   "note": "Origen con essere: è di Roma (es de Roma)."
+  },
+  "d12-003": {
+   "consigna": "Completá con a o di, solas o unidas al artículo (al, alla, alle, del, della…).",
+   "type": "cloze",
+   "stem": "C'è un bel film ___ televisione.",
+   "answer": "alla",
+   "alt": [],
+   "drop": false,
+   "note": "«En la tele» se dice *alla televisione*: el italiano usa *a* + artículo donde el castellano pone «en»."
+  },
+  "d12-004": {
+   "consigna": "Completá con a o di, solas o unidas al artículo (al, alla, alle, del, della…).",
+   "type": "cloze",
+   "stem": "Tu, Giulio, hai partecipato ___ manifestazione?",
+   "answer": "alla",
+   "alt": [],
+   "drop": false,
+   "note": "*partecipare a* («participar en»): *a* + *la* = *alla*."
+  },
+  "d12-005": {
+   "consigna": "Completá con a o di, solas o unidas al artículo (al, alla, alle, del, della…).",
+   "type": "cloze",
+   "stem": "Sono i guanti ___ Laura.",
+   "answer": "di",
+   "alt": [],
+   "drop": false,
+   "note": "Posesión: *di* + nombre sin artículo, como «de Laura»."
+  },
+  "d12-006": {
+   "consigna": "Completá con a o di, solas o unidas al artículo (al, alla, alle, del, della…).",
+   "type": "cloze",
+   "stem": "Tornano ___ mezzogiorno.",
+   "answer": "a",
+   "alt": [],
+   "drop": false,
+   "note": "Mezzogiorno y mezzanotte van sin artículo: a mezzogiorno."
+  },
+  "d12-007": {
+   "consigna": "Completá con a o di, solas o unidas al artículo (al, alla, alle, del, della…).",
+   "type": "cloze",
+   "stem": "Prendo sempre un bicchiere ___ latte.",
+   "answer": "di",
+   "alt": [],
+   "drop": false,
+   "note": "El contenido va con *di*: *un bicchiere di latte* («un vaso de leche»)."
+  },
+  "d12-008": {
+   "consigna": "Completá con a o di, solas o unidas al artículo (al, alla, alle, del, della…).",
+   "type": "cloze",
+   "stem": "L'abito è ___ lana.",
+   "answer": "di",
+   "alt": [],
+   "drop": false,
+   "note": "El material va con *di*: *di lana*, como en castellano."
+  },
+  "d12-009": {
+   "consigna": "Completá con a o di, solas o unidas al artículo (al, alla, alle, del, della…).",
+   "type": "cloze",
+   "stem": "Cominciano ___ sciare.",
+   "answer": "a",
+   "alt": [],
+   "drop": false,
+   "note": "Cominciare a + infinitivo."
+  },
+  "d12-010": {
+   "consigna": "Completá con a o di, solas o unidas al artículo (al, alla, alle, del, della…).",
+   "type": "cloze",
+   "stem": "___ dove sei?",
+   "answer": "di",
+   "alt": [],
+   "drop": false,
+   "note": "El origen se pregunta con *di* + *dove*: *Di dove sei?* («¿De dónde sos?»); *da dove* pregunta de dónde venís."
+  },
+  "d12-011": {
+   "consigna": "Completá con da, sola o unida al artículo (dal, dallo, dalla…).",
+   "type": "cloze",
+   "stem": "Noi veniamo ___ stato di Washington.",
+   "answer": "dallo",
+   "alt": [],
+   "drop": false,
+   "note": "Procedencia: *venire da* («venir de»); *da* + *lo* = *dallo*, porque *stato* empieza con s + consonante."
+  },
+  "d12-012": {
+   "consigna": "Completá con da, sola o unida al artículo (dal, dallo, dalla…).",
+   "type": "cloze",
+   "stem": "Ha comprato dodici bicchieri ___ vino.",
+   "answer": "da",
+   "alt": [],
+   "drop": false,
+   "note": "*da* marca el uso (*bicchieri da vino*, «copas para vino»); *di* marcaría el contenido (*un bicchiere di vino*, lleno)."
+  },
+  "d12-013": {
+   "consigna": "Completá con da, sola o unida al artículo (dal, dallo, dalla…).",
+   "type": "cloze",
+   "stem": "Gli studenti hanno molti compiti ___ fare.",
+   "answer": "da",
+   "alt": [],
+   "drop": false,
+   "note": "Algo pendiente de hacer: *da* + infinitivo, *compiti da fare* («tarea para hacer»)."
+  },
+  "d12-014": {
+   "consigna": "Completá con da, sola o unida al artículo (dal, dallo, dalla…).",
+   "type": "cloze",
+   "stem": "Domani vanno ___ barbiere.",
+   "answer": "dal",
+   "alt": [],
+   "drop": false,
+   "note": "Ir a lo de alguien / a un profesional: da + persona (dal barbiere)."
+  },
+  "d12-015": {
+   "consigna": "Completá con da, sola o unida al artículo (dal, dallo, dalla…).",
+   "type": "cloze",
+   "stem": "È un disegno fatto ___ Raffaello.",
+   "answer": "da",
+   "alt": [],
+   "drop": false,
+   "note": "El agente de la pasiva va con *da*: *fatto da Raffaello* («hecho por Rafael»), no con *per*."
+  },
+  "d12-016": {
+   "consigna": "Completá con da, sola o unida al artículo (dal, dallo, dalla…).",
+   "type": "cloze",
+   "stem": "Mangiano nella sala ___ pranzo.",
+   "answer": "da",
+   "alt": [],
+   "drop": false,
+   "note": "*da* + sustantivo indica la función: *sala da pranzo* («comedor»)."
+  },
+  "d12-017": {
+   "consigna": "Completá con da, sola o unida al artículo (dal, dallo, dalla…).",
+   "type": "cloze",
+   "stem": "___ bambino, leggeva tanto.",
+   "answer": "da",
+   "alt": [],
+   "drop": false,
+   "note": "Una etapa de la vida se dice con *da* + sustantivo: *da bambino*, «de chico» (también *da giovane*)."
+  },
+  "d12-018": {
+   "consigna": "Completá con da, sola o unida al artículo (dal, dallo, dalla…).",
+   "type": "cloze",
+   "stem": "Io, invece, vado ___ dentista.",
+   "answer": "dal",
+   "alt": [],
+   "drop": false,
+   "note": "A lo de un profesional: *da* + artículo, *dal dentista* («al dentista»)."
+  },
+  "d12-019": {
+   "consigna": "Completá con da, sola o unida al artículo (dal, dallo, dalla…).",
+   "type": "cloze",
+   "stem": "Ho qualcosa di bello ___ darti.",
+   "answer": "da",
+   "alt": [],
+   "drop": false,
+   "note": "*qualcosa di* + adjetivo + *da* + infinitivo: *qualcosa di bello da darti* («algo lindo para darte»)."
+  },
+  "d12-020": {
+   "consigna": "Completá con da, sola o unida al artículo (dal, dallo, dalla…).",
+   "type": "cloze",
+   "stem": "Quando torni ___ centro?",
+   "answer": "dal",
+   "alt": [],
+   "drop": false,
+   "note": "*tornare dal centro*: *da* + *il* = *dal*; *da* marca de dónde volvés."
+  },
+  "d12-021": {
+   "consigna": "Traducí al italiano. Ojo con la preposición (a, in, da, di).",
+   "type": "translate",
+   "stem": "en la escuela (estar en clase)",
+   "answer": "a scuola",
+   "alt": [],
+   "drop": false,
+   "note": "«En la escuela» (asistiendo) = *a scuola*, sin artículo; lo mismo *a casa, a letto*."
+  },
+  "d12-022": {
+   "consigna": "Traducí al italiano. Ojo con la preposición (a, in, da, di).",
+   "type": "translate",
+   "stem": "en Florencia",
+   "answer": "a Firenze",
+   "alt": [],
+   "drop": false,
+   "note": "Con ciudades: a (a Firenze); con países y regiones: in (in Italia)."
+  },
+  "d12-023": {
+   "consigna": "Traducí al italiano. Ojo con la preposición (a, in, da, di).",
+   "type": "translate",
+   "stem": "en el médico (en el consultorio)",
+   "answer": "dal medico",
+   "alt": [
+    "dal dottore"
+   ],
+   "drop": false,
+   "note": "En lo de un profesional se usa *da*: *dal medico* («en el médico»)."
+  },
+  "d12-024": {
+   "consigna": "Traducí al italiano. Ojo con la preposición (a, in, da, di).",
+   "type": "translate",
+   "stem": "en Asia central",
+   "answer": "in Asia centrale",
+   "alt": [
+    "nell'Asia centrale"
+   ],
+   "drop": false,
+   "note": "Continentes, países y regiones van con *in*: *in Asia centrale*."
+  },
+  "d12-025": {
+   "consigna": "Traducí al italiano. Ojo con la preposición (a, in, da, di).",
+   "type": "translate",
+   "stem": "en tren",
+   "answer": "in treno",
+   "alt": [
+    "col treno",
+    "con il treno"
+   ],
+   "drop": false,
+   "note": "Los medios de transporte van con *in* sin artículo: *in treno, in macchina* (pero *a piedi*)."
+  },
+  "d12-026": {
+   "consigna": "Traducí al italiano. Ojo con la preposición (a, in, da, di).",
+   "type": "translate",
+   "stem": "en lo de Giorgio",
+   "answer": "da Giorgio",
+   "alt": [
+    "a casa di Giorgio"
+   ],
+   "drop": false,
+   "note": "«En lo de» una persona = *da* + nombre: *da Giorgio*."
+  },
+  "d12-027": {
+   "consigna": "Traducí al italiano. Ojo con la preposición (a, in, da, di).",
+   "type": "translate",
+   "stem": "un vaso para vino (el recipiente)",
+   "answer": "un bicchiere da vino",
+   "alt": [],
+   "drop": false,
+   "note": "*da* indica para qué sirve algo: *un bicchiere da vino*, «un vaso para vino» (vacío); con *di* estaría lleno."
+  },
+  "d12-028": {
+   "consigna": "Traducí al italiano. Ojo con la preposición (a, in, da, di).",
+   "type": "translate",
+   "stem": "un vaso de vino (lleno de vino)",
+   "answer": "un bicchiere di vino",
+   "alt": [],
+   "drop": false,
+   "note": "*di* indica el contenido: *un bicchiere di vino*, lleno de vino."
+  },
+  "d12-029": {
+   "consigna": "Traducí al italiano. Ojo con la preposición (a, in, da, di).",
+   "type": "translate",
+   "stem": "en Italia",
+   "answer": "in Italia",
+   "alt": [],
+   "drop": false,
+   "note": "Países con *in*: *in Italia*, sin artículo."
+  },
+  "d12-030": {
+   "consigna": "Traducí al italiano. Ojo con la preposición (a, in, da, di).",
+   "type": "translate",
+   "stem": "en las afueras (en la periferia)",
+   "answer": "in periferia",
+   "alt": [],
+   "drop": false,
+   "note": "Muchos lugares genéricos van con *in* sin artículo: *in periferia, in centro, in ufficio*."
+  },
+  "d12-031": {
+   "consigna": "Traducí al italiano la expresión (todas llevan una preposición: su, in, per, di, con…).",
+   "type": "translate",
+   "stem": "sobre el jardín",
+   "answer": "sul giardino",
+   "alt": [
+    "sopra il giardino"
+   ],
+   "drop": false,
+   "note": "«Sobre» con contacto es *su*, y se une al artículo: *su* + *il* = *sul*."
+  },
+  "d12-032": {
+   "consigna": "Traducí al italiano la expresión (todas llevan una preposición: su, in, per, di, con…).",
+   "type": "translate",
+   "stem": "por las buenas o por las malas",
+   "answer": "per amore o per forza",
+   "alt": [
+    "con le buone o con le cattive"
+   ],
+   "drop": false,
+   "note": "*per amore o per forza*: la preposición *per* expresa el medio («por las buenas o por las malas»)."
+  },
+  "d12-033": {
+   "consigna": "Traducí al italiano la expresión (todas llevan una preposición: su, in, per, di, con…).",
+   "type": "translate",
+   "stem": "¡Suerte! (la frase idiomática, con el lobo)",
+   "answer": "in bocca al lupo",
+   "alt": [],
+   "drop": false,
+   "note": "Se contesta «Crepi!» (¡que se muera el lobo!)."
+  },
+  "d12-034": {
+   "consigna": "Traducí al italiano la expresión (todas llevan una preposición: su, in, per, di, con…).",
+   "type": "translate",
+   "stem": "en ciernes (ej.: un poeta en ciernes)",
+   "answer": "in erba",
+   "alt": [],
+   "drop": false,
+   "note": "*in erba* («en hierba») describe a alguien que recién empieza: *un poeta in erba*, «un poeta en ciernes». La preposición *in* + sustantivo sin artículo forma la locución."
+  },
+  "d12-035": {
+   "consigna": "Traducí al italiano la expresión (todas llevan una preposición: su, in, per, di, con…).",
+   "type": "translate",
+   "stem": "Estoy en la oficina.",
+   "answer": "Sono in ufficio.",
+   "alt": [
+    "Io sono in ufficio."
+   ],
+   "drop": false,
+   "note": "*in ufficio* sin artículo, como *in banca, in biblioteca*: el italiano usa *in* donde decimos «en la»."
+  },
+  "d12-036": {
+   "consigna": "Traducí al italiano la expresión (todas llevan una preposición: su, in, per, di, con…).",
+   "type": "translate",
+   "stem": "en Internet",
+   "answer": "su Internet",
+   "alt": [
+    "in Internet"
+   ],
+   "drop": false,
+   "note": "Internet va con *su*: *su Internet*, como *sul sito*, *sui social*."
+  },
+  "d12-037": {
+   "consigna": "Traducí al italiano la expresión (todas llevan una preposición: su, in, per, di, con…).",
+   "type": "translate",
+   "stem": "Cuento con vos.",
+   "answer": "Conto su di te.",
+   "alt": [
+    "Io conto su di te."
+   ],
+   "drop": false,
+   "note": "Contare su qualcuno = contar con alguien; delante de pronombre se dice su di te."
+  },
+  "d12-038": {
+   "consigna": "Completá con la preposición correcta.",
+   "type": "cloze",
+   "stem": "innamorato ___ Chiara (enamorado de Chiara)",
+   "answer": "di",
+   "alt": [],
+   "drop": false,
+   "note": "*innamorato di*: el italiano usa *di* como el castellano «de» («enamorado de»), no *da* ni *con*."
+  },
+  "d12-039": {
+   "consigna": "Traducí al italiano la expresión (todas llevan una preposición: su, in, per, di, con…).",
+   "type": "translate",
+   "stem": "(ir) con Chiara al teatro",
+   "answer": "con Chiara a teatro",
+   "alt": [
+    "a teatro con Chiara"
+   ],
+   "drop": false,
+   "note": "A teatro va sin artículo."
+  },
+  "d12-040": {
+   "consigna": "Traducí al italiano la expresión (todas llevan una preposición: su, in, per, di, con…).",
+   "type": "translate",
+   "stem": "en serio",
+   "answer": "sul serio",
+   "alt": [],
+   "drop": false,
+   "note": "«En serio» = *sul serio*: *su* + *il*, donde el castellano pone «en»."
+  },
+  "d13-001": {
+   "consigna": "Completá con la forma correcta de questo (este) o quello (ese, aquel), según la palabra que sigue.",
+   "type": "cloze",
+   "stem": "Non mi piace ___ (ese).",
+   "answer": "quello",
+   "alt": [],
+   "drop": false,
+   "note": "Pronombre (sin sustantivo): *quello*, en su forma plena."
+  },
+  "d13-002": {
+   "consigna": "Completá con la forma correcta de questo (este) o quello (ese, aquel), según la palabra que sigue.",
+   "type": "cloze",
+   "stem": "___ (aquel) edificio è famoso.",
+   "answer": "Quell'",
+   "alt": [],
+   "drop": false,
+   "note": "Delante de vocal: quell' (quell'edificio)."
+  },
+  "d13-003": {
+   "consigna": "Completá con la forma correcta de questo (este) o quello (ese, aquel), según la palabra que sigue.",
+   "type": "cloze",
+   "stem": "___ (esta) professoressa è intelligente.",
+   "answer": "Questa",
+   "alt": [],
+   "drop": false,
+   "note": "*questo* concuerda como un adjetivo en -o: *questa professoressa*."
+  },
+  "d13-004": {
+   "consigna": "Completá con la forma correcta de questo (este) o quello (ese, aquel), según la palabra que sigue.",
+   "type": "cloze",
+   "stem": "___ (aquella) professoressa è vecchia.",
+   "answer": "Quella",
+   "alt": [],
+   "drop": false,
+   "note": "*quello* ante sustantivo sigue al artículo: *la* → *quella*."
+  },
+  "d13-005": {
+   "consigna": "Completá con la forma correcta de questo (este) o quello (ese, aquel), según la palabra que sigue.",
+   "type": "cloze",
+   "stem": "Le case nuove? Lui preferisce ___ (esas) vecchie.",
+   "answer": "quelle",
+   "alt": [],
+   "drop": false,
+   "note": "Como pronombre femenino plural: *quelle* («esas»)."
+  },
+  "d13-006": {
+   "consigna": "Completá con la forma correcta de questo (este) o quello (ese, aquel), según la palabra que sigue.",
+   "type": "cloze",
+   "stem": "___ (este) è il mio amico Stefano.",
+   "answer": "Questo",
+   "alt": [],
+   "drop": false,
+   "note": "*questo* como pronombre para presentar: *Questo è il mio amico*."
+  },
+  "d13-007": {
+   "consigna": "Completá con la forma correcta de questo (este) o quello (ese, aquel), según la palabra que sigue.",
+   "type": "cloze",
+   "stem": "___ (esos) stati sono vicino al Messico.",
+   "answer": "Quegli",
+   "alt": [],
+   "drop": false,
+   "note": "Delante de s + consonante: quegli (quegli stati)."
+  },
+  "d13-008": {
+   "consigna": "Completá con la forma correcta de questo (este) o quello (ese, aquel), según la palabra que sigue.",
+   "type": "cloze",
+   "stem": "Sono ___ (esas) le ragazze di cui mi hai parlato?",
+   "answer": "quelle",
+   "alt": [],
+   "drop": false,
+   "note": "*quello* como pronombre femenino plural: *quelle* («esas»), sin sustantivo detrás."
+  },
+  "d13-009": {
+   "consigna": "Completá con la forma correcta de questo (este) o quello (ese, aquel), según la palabra que sigue.",
+   "type": "cloze",
+   "stem": "Questi fiori? Preferisco ___ (esos).",
+   "answer": "quelli",
+   "alt": [],
+   "drop": false,
+   "note": "Como pronombre (sin sustantivo) se usa quelli, nunca quei/quegli."
+  },
+  "d13-010": {
+   "consigna": "Completá con la forma correcta de questo (este) o quello (ese, aquel), según la palabra que sigue.",
+   "type": "cloze",
+   "stem": "___ (estos) biscotti sono deliziosi.",
+   "answer": "Questi",
+   "alt": [],
+   "drop": false,
+   "note": "*questo* concuerda como un adjetivo en -o: masculino plural *questi*."
+  },
+  "d13-011": {
+   "consigna": "Traducí al italiano usando un adjetivo indefinido (alcuni, qualche, troppi, ogni, qualsiasi…). El sustantivo en italiano está entre paréntesis.",
+   "type": "translate",
+   "stem": "algunos libros (libri)",
+   "answer": "alcuni libri",
+   "alt": [
+    "qualche libro",
+    "dei libri"
+   ],
+   "drop": false,
+   "note": "*alcuni* va con plural; con singular se dice *qualche*: *qualche libro* significa también «algunos libros»."
+  },
+  "d13-012": {
+   "consigna": "Traducí al italiano usando un adjetivo indefinido (alcuni, qualche, troppi, ogni, qualsiasi…). El sustantivo en italiano está entre paréntesis.",
+   "type": "translate",
+   "stem": "demasiados chicos (ragazzi)",
+   "answer": "troppi ragazzi",
+   "alt": [],
+   "drop": false,
+   "note": "*troppo* concuerda con el sustantivo: *troppi ragazzi*."
+  },
+  "d13-013": {
+   "consigna": "Traducí al italiano usando un adjetivo indefinido (alcuni, qualche, troppi, ogni, qualsiasi…). El sustantivo en italiano está entre paréntesis.",
+   "type": "translate",
+   "stem": "tantos turistas (turisti)",
+   "answer": "tanti turisti",
+   "alt": [
+    "così tanti turisti"
+   ],
+   "drop": false,
+   "note": "*tanto* delante de un sustantivo concuerda con él: *tanti turisti* (como adverbio, en cambio, no cambia)."
+  },
+  "d13-014": {
+   "consigna": "Traducí al italiano usando un adjetivo indefinido (alcuni, qualche, troppi, ogni, qualsiasi…). El sustantivo en italiano está entre paréntesis.",
+   "type": "translate",
+   "stem": "pocos estudiantes (studenti)",
+   "answer": "pochi studenti",
+   "alt": [],
+   "drop": false,
+   "note": "*poco* concuerda y agrega h en plural: *pochi studenti* (conserva la k)."
+  },
+  "d13-015": {
+   "consigna": "Traducí al italiano usando un adjetivo indefinido (alcuni, qualche, troppi, ogni, qualsiasi…). El sustantivo en italiano está entre paréntesis.",
+   "type": "translate",
+   "stem": "mucho vino (vino)",
+   "answer": "molto vino",
+   "alt": [
+    "tanto vino"
+   ],
+   "drop": false,
+   "note": "*molto* con un sustantivo concuerda: *molto vino* (y *molti vini*)."
+  },
+  "d13-016": {
+   "consigna": "Traducí al italiano usando un adjetivo indefinido (alcuni, qualche, troppi, ogni, qualsiasi…). El sustantivo en italiano está entre paréntesis.",
+   "type": "translate",
+   "stem": "cualquier chica (ragazza)",
+   "answer": "qualsiasi ragazza",
+   "alt": [
+    "qualunque ragazza"
+   ],
+   "drop": false,
+   "note": "*qualsiasi* («cualquier») es invariable y va con singular: *qualsiasi ragazza*."
+  },
+  "d13-017": {
+   "consigna": "Traducí al italiano usando un adjetivo indefinido (alcuni, qualche, troppi, ogni, qualsiasi…). El sustantivo en italiano está entre paréntesis.",
+   "type": "translate",
+   "stem": "varios políticos (politici)",
+   "answer": "vari politici",
+   "alt": [
+    "diversi politici"
+   ],
+   "drop": false,
+   "note": "*vario* delante del sustantivo significa «varios» y concuerda: *vari politici*."
+  },
+  "d13-018": {
+   "consigna": "Traducí al italiano usando un adjetivo indefinido (alcuni, qualche, troppi, ogni, qualsiasi…). El sustantivo en italiano está entre paréntesis.",
+   "type": "translate",
+   "stem": "unas cuantas casas (case)",
+   "answer": "parecchie case",
+   "alt": [
+    "diverse case",
+    "varie case",
+    "alcune case"
+   ],
+   "drop": false,
+   "note": "«Unas cuantas» = *parecchie*: *parecchio* concuerda con el sustantivo."
+  },
+  "d13-019": {
+   "consigna": "Traducí al italiano usando un adjetivo indefinido (alcuni, qualche, troppi, ogni, qualsiasi…). El sustantivo en italiano está entre paréntesis.",
+   "type": "translate",
+   "stem": "otras palabras (parole)",
+   "answer": "altre parole",
+   "alt": [],
+   "drop": false,
+   "note": "*altro* concuerda: *altre parole*, sin artículo como en castellano."
+  },
+  "d13-020": {
+   "consigna": "Traducí al italiano usando un adjetivo indefinido (alcuni, qualche, troppi, ogni, qualsiasi…). El sustantivo en italiano está entre paréntesis.",
+   "type": "translate",
+   "stem": "ninguna razón (ragione)",
+   "answer": "nessuna ragione",
+   "alt": [],
+   "drop": false,
+   "note": "*nessuno* va con singular y se acorta como *uno*: *nessuna ragione*."
+  },
+  "d13-021": {
+   "consigna": "Traducí al italiano usando un pronombre indefinido (pochi, nessuno, ognuno, qualcosa, alcuni…).",
+   "type": "translate",
+   "stem": "Pocos vinieron hoy.",
+   "answer": "Pochi sono venuti oggi.",
+   "alt": [
+    "Oggi sono venuti pochi.",
+    "Sono venuti pochi oggi.",
+    "Oggi sono venuti in pochi.",
+    "Sono venuti in pochi oggi."
+   ],
+   "drop": false,
+   "note": "*pochi* como pronombre; *venire* hace el passato prossimo con *essere*: *sono venuti*."
+  },
+  "d13-022": {
+   "consigna": "Traducí al italiano usando un pronombre indefinido (pochi, nessuno, ognuno, qualcosa, alcuni…).",
+   "type": "translate",
+   "stem": "No me gustan tantos.",
+   "answer": "Non mi piacciono tanti.",
+   "alt": [],
+   "drop": false,
+   "note": "*tanti* como pronombre plural; el verbo concuerda: *non mi piacciono tanti*."
+  },
+  "d13-023": {
+   "consigna": "Traducí al italiano usando un pronombre indefinido (pochi, nessuno, ognuno, qualcosa, alcuni…).",
+   "type": "translate",
+   "stem": "Nadie estudia.",
+   "answer": "Nessuno studia.",
+   "alt": [
+    "Non studia nessuno."
+   ],
+   "drop": false,
+   "note": "*nessuno* al principio de la frase no lleva *non*: *Nessuno studia*, como «Nadie estudia»."
+  },
+  "d13-024": {
+   "consigna": "Traducí al italiano usando un pronombre indefinido (pochi, nessuno, ognuno, qualcosa, alcuni…).",
+   "type": "translate",
+   "stem": "Tengo tantos (de esos).",
+   "answer": "Ne ho tanti.",
+   "alt": [],
+   "drop": false,
+   "note": "Cuando hay una cantidad sin sustantivo, el italiano exige *ne* («de eso/de esos»): *ne ho tanti*. En castellano se omite."
+  },
+  "d13-025": {
+   "consigna": "Traducí al italiano usando un pronombre indefinido (pochi, nessuno, ognuno, qualcosa, alcuni…).",
+   "type": "translate",
+   "stem": "Cada uno tiene que comer bien.",
+   "answer": "Ognuno deve mangiare bene.",
+   "alt": [
+    "Ciascuno deve mangiare bene."
+   ],
+   "drop": false,
+   "note": "«Cada uno» como pronombre es *ognuno*, con verbo en singular; y «tener que» = *dovere* + infinitivo."
+  },
+  "d13-026": {
+   "consigna": "Traducí al italiano usando un pronombre indefinido (pochi, nessuno, ognuno, qualcosa, alcuni…).",
+   "type": "translate",
+   "stem": "No hay nada bueno para comer.",
+   "answer": "Non c'è niente di buono da mangiare.",
+   "alt": [
+    "Non c'è nulla di buono da mangiare."
+   ],
+   "drop": false,
+   "note": "«Nada bueno» = *niente di buono* (con *di* ante el adjetivo) y «para comer» = *da mangiare* (con *da*)."
+  },
+  "d13-027": {
+   "consigna": "Traducí al italiano usando un pronombre indefinido (pochi, nessuno, ognuno, qualcosa, alcuni…).",
+   "type": "translate",
+   "stem": "Algo cambió.",
+   "answer": "Qualcosa è cambiato.",
+   "alt": [
+    "È cambiato qualcosa."
+   ],
+   "drop": false,
+   "note": "*qualcosa* es masculino para la concordancia: *qualcosa è cambiato*."
+  },
+  "d13-028": {
+   "consigna": "Traducí al italiano usando un pronombre indefinido (pochi, nessuno, ognuno, qualcosa, alcuni…).",
+   "type": "translate",
+   "stem": "Algunos no trabajan.",
+   "answer": "Alcuni non lavorano.",
+   "alt": [],
+   "drop": false,
+   "note": "*alcuni* como pronombre plural: *Alcuni non lavorano*."
+  },
+  "d13-029": {
+   "consigna": "Traducí al italiano usando un pronombre indefinido (pochi, nessuno, ognuno, qualcosa, alcuni…).",
+   "type": "translate",
+   "stem": "Hay varios para considerar.",
+   "answer": "Ce ne sono vari da considerare.",
+   "alt": [
+    "Ce ne sono diversi da considerare."
+   ],
+   "drop": false,
+   "note": "Cantidad sin sustantivo → *ne*; *ci* + *ne* = *ce ne sono*; «para considerar» = *da considerare*."
+  },
+  "d13-030": {
+   "consigna": "Traducí al italiano usando un pronombre indefinido (pochi, nessuno, ognuno, qualcosa, alcuni…).",
+   "type": "translate",
+   "stem": "Muchos piensan que sí.",
+   "answer": "Molti pensano di sì.",
+   "alt": [],
+   "drop": false,
+   "note": "«Pensar que sí» = *pensare di sì*: el italiano pone *di* delante de *sì/no*, igual que *dire di sì*, *credere di no*."
+  },
+  "d13-031": {
+   "consigna": "Traducí al italiano con el adjetivo posesivo. Poné el artículo cuando corresponde (no va con un familiar en singular sin adjetivo: mio padre).",
+   "type": "translate",
+   "stem": "mi auto",
+   "answer": "la mia macchina",
+   "alt": [
+    "la mia auto",
+    "la mia automobile"
+   ],
+   "drop": false,
+   "note": "El posesivo lleva artículo en italiano: *la mia macchina* («mi auto»); en castellano no."
+  },
+  "d13-032": {
+   "consigna": "Traducí al italiano con el adjetivo posesivo. Poné el artículo cuando corresponde (no va con un familiar en singular sin adjetivo: mio padre).",
+   "type": "translate",
+   "stem": "tu hermano (de vos)",
+   "answer": "tuo fratello",
+   "alt": [],
+   "drop": false,
+   "note": "Familiar en singular: sin artículo."
+  },
+  "d13-033": {
+   "consigna": "Traducí al italiano con el adjetivo posesivo. Poné el artículo cuando corresponde (no va con un familiar en singular sin adjetivo: mio padre).",
+   "type": "translate",
+   "stem": "su querida abuela (de él)",
+   "answer": "la sua cara nonna",
+   "alt": [
+    "la sua dolce nonna"
+   ],
+   "drop": false,
+   "note": "Con un adjetivo, el familiar vuelve a llevar artículo."
+  },
+  "d13-034": {
+   "consigna": "Traducí al italiano con el adjetivo posesivo. Poné el artículo cuando corresponde (no va con un familiar en singular sin adjetivo: mio padre).",
+   "type": "translate",
+   "stem": "sus casas (de ella)",
+   "answer": "le sue case",
+   "alt": [],
+   "drop": false,
+   "note": "Artículo + posesivo: *le sue case*. *suo* concuerda con lo poseído, no con el poseedor."
+  },
+  "d13-035": {
+   "consigna": "Traducí al italiano con el adjetivo posesivo. Poné el artículo cuando corresponde (no va con un familiar en singular sin adjetivo: mio padre).",
+   "type": "translate",
+   "stem": "mis primos",
+   "answer": "i miei cugini",
+   "alt": [],
+   "drop": false,
+   "note": "Familiares en plural: con artículo."
+  },
+  "d13-036": {
+   "consigna": "Traducí al italiano con el adjetivo posesivo. Poné el artículo cuando corresponde (no va con un familiar en singular sin adjetivo: mio padre).",
+   "type": "translate",
+   "stem": "su madre (de ella)",
+   "answer": "sua madre",
+   "alt": [],
+   "drop": false,
+   "note": "Familiar en singular sin adjetivo: sin artículo, *sua madre*."
+  },
+  "d13-037": {
+   "consigna": "Traducí al italiano con el adjetivo posesivo. Poné el artículo cuando corresponde (no va con un familiar en singular sin adjetivo: mio padre).",
+   "type": "translate",
+   "stem": "sus hijas (de él)",
+   "answer": "le sue figlie",
+   "alt": [],
+   "drop": false,
+   "note": "Familiares en plural sí llevan artículo: *le sue figlie*."
+  },
+  "d13-038": {
+   "consigna": "Traducí al italiano con el adjetivo posesivo. Poné el artículo cuando corresponde (no va con un familiar en singular sin adjetivo: mio padre).",
+   "type": "translate",
+   "stem": "nuestra clase",
+   "answer": "la nostra classe",
+   "alt": [],
+   "drop": false,
+   "note": "Posesivo con artículo: *la nostra classe*."
+  },
+  "d13-039": {
+   "consigna": "Traducí al italiano con el adjetivo posesivo. Poné el artículo cuando corresponde (no va con un familiar en singular sin adjetivo: mio padre).",
+   "type": "translate",
+   "stem": "su ciudad (de ustedes)",
+   "answer": "la vostra città",
+   "alt": [],
+   "drop": false,
+   "note": "«Su» de ustedes = *vostro*, con artículo: *la vostra città*."
+  },
+  "d13-040": {
+   "consigna": "Traducí al italiano con el adjetivo posesivo. Poné el artículo cuando corresponde (no va con un familiar en singular sin adjetivo: mio padre).",
+   "type": "translate",
+   "stem": "sus libros (de ellos)",
+   "answer": "i loro libri",
+   "alt": [],
+   "drop": false,
+   "note": "Loro siempre lleva artículo."
+  },
+  "d13-041": {
+   "consigna": "Completá con el pronombre posesivo en italiano, con su artículo, según la pista entre paréntesis.",
+   "type": "cloze",
+   "stem": "Noi portiamo i nostri figli, voi portate ___ (los de ustedes).",
+   "answer": "i vostri",
+   "alt": [],
+   "drop": false,
+   "note": "El pronombre posesivo lleva artículo: *i vostri* («los de ustedes»)."
+  },
+  "d13-042": {
+   "consigna": "Completá con el pronombre posesivo en italiano, con su artículo, según la pista entre paréntesis.",
+   "type": "cloze",
+   "stem": "I miei cugini, ___ (los de él).",
+   "answer": "i suoi",
+   "alt": [],
+   "drop": false,
+   "note": "«Los de él» = *i suoi*: concuerda con lo poseído (*cugini*)."
+  },
+  "d13-043": {
+   "consigna": "Completá con el pronombre posesivo en italiano, con su artículo, según la pista entre paréntesis.",
+   "type": "cloze",
+   "stem": "le vostre macchine, ___ (las mías).",
+   "answer": "le mie",
+   "alt": [],
+   "drop": false,
+   "note": "Concuerda con macchine (femenino plural): le mie."
+  },
+  "d13-044": {
+   "consigna": "Completá con el pronombre posesivo en italiano, con su artículo, según la pista entre paréntesis.",
+   "type": "cloze",
+   "stem": "le nostre case, ___ (las de ellos).",
+   "answer": "le loro",
+   "alt": [],
+   "drop": false,
+   "note": "*loro* es invariable y lleva siempre artículo: *le loro*."
+  },
+  "d13-045": {
+   "consigna": "Completá con el pronombre posesivo en italiano, con su artículo, según la pista entre paréntesis.",
+   "type": "cloze",
+   "stem": "Quel libro? È ___ (de ella).",
+   "answer": "suo",
+   "alt": [
+    "il suo"
+   ],
+   "drop": false,
+   "note": "Después de essere el artículo es optativo: è suo / è il suo."
+  },
+  "d13-046": {
+   "consigna": "Completá con el pronombre posesivo en italiano, con su artículo, según la pista entre paréntesis.",
+   "type": "cloze",
+   "stem": "I nostri parenti, ___ (los tuyos).",
+   "answer": "i tuoi",
+   "alt": [],
+   "drop": false,
+   "note": "El pronombre posesivo lleva artículo: *i tuoi* («los tuyos»), concordado con *parenti*."
+  },
+  "d13-047": {
+   "consigna": "Completá con el pronombre posesivo en italiano, con su artículo, según la pista entre paréntesis.",
+   "type": "cloze",
+   "stem": "I tuoi gatti, ___ (los nuestros).",
+   "answer": "i nostri",
+   "alt": [],
+   "drop": false,
+   "note": "El pronombre posesivo lleva artículo: *i nostri* («los nuestros»)."
+  },
+  "d13-048": {
+   "consigna": "Completá con el pronombre posesivo en italiano, con su artículo, según la pista entre paréntesis.",
+   "type": "cloze",
+   "stem": "la loro nonna, ___ (la de él).",
+   "answer": "la sua",
+   "alt": [],
+   "drop": false,
+   "note": "Con pronombre posesivo siempre va el artículo, aunque sea un familiar."
+  },
+  "d13-049": {
+   "consigna": "Completá con el pronombre posesivo en italiano, con su artículo, según la pista entre paréntesis.",
+   "type": "cloze",
+   "stem": "il suo veterinario, ___ (el del perro).",
+   "answer": "il suo",
+   "alt": [],
+   "drop": false,
+   "note": "«El del perro» = *il suo*: *suo* sirve para cualquier poseedor de tercera persona."
+  },
+  "d13-050": {
+   "consigna": "Completá con el pronombre posesivo en italiano, con su artículo, según la pista entre paréntesis.",
+   "type": "cloze",
+   "stem": "il mio dentista, ___ (el de ella).",
+   "answer": "il suo",
+   "alt": [],
+   "drop": false,
+   "note": "«El de ella» = *il suo*: *suo* concuerda con *dentista* (lo poseído), no con ella."
+  },
+  "d14-001": {
+   "consigna": "Completá con la conjunción italiana que corresponde a la pista en castellano.",
+   "type": "cloze",
+   "stem": "Noi andiamo alla spiaggia, ___ (pero) loro vanno in montagna.",
+   "answer": "ma",
+   "alt": [
+    "però"
+   ],
+   "drop": false,
+   "note": "La conjunción adversativa básica es *ma*, y va al principio de su oración, como «pero»."
+  },
+  "d14-002": {
+   "consigna": "Completá con la conjunción italiana que corresponde a la pista en castellano.",
+   "type": "cloze",
+   "stem": "I bambini sono giovani ___ (y) simpatici.",
+   "answer": "e",
+   "alt": [],
+   "drop": false,
+   "note": "«Y» es *e*; delante de otra e se suele escribir *ed* para evitar el choque de vocales."
+  },
+  "d14-003": {
+   "consigna": "Completá con la conjunción italiana que corresponde a la pista en castellano.",
+   "type": "cloze",
+   "stem": "È un lavoro molto difficile, ___ (sin embargo) proverò a farlo.",
+   "answer": "però",
+   "alt": [
+    "tuttavia"
+   ],
+   "drop": false,
+   "note": "*però* («sin embargo, pero») lleva acento y puede ir tras coma, como acá."
+  },
+  "d14-004": {
+   "consigna": "Completá con la conjunción italiana que corresponde a la pista en castellano.",
+   "type": "cloze",
+   "stem": "Non è ___ (ni) carne ___ (ni) pesce.",
+   "answer": "né | né",
+   "alt": [],
+   "drop": false,
+   "note": "*né ... né* = «ni ... ni», con acento para distinguirlo de *ne* pronombre; con *non* delante: *non è né carne né pesce*."
+  },
+  "d14-005": {
+   "consigna": "Completá con la conjunción italiana que corresponde a la pista en castellano.",
+   "type": "cloze",
+   "stem": "Io vorrei studiare ___ (no solo) giapponese ___ (sino también) cinese.",
+   "answer": "non solo | ma anche",
+   "alt": [
+    "non soltanto | ma anche"
+   ],
+   "drop": false,
+   "note": "*non solo ... ma anche* = «no solo ... sino también»; el «sino» se dice *ma*."
+  },
+  "d14-006": {
+   "consigna": "Completá con la conjunción italiana que corresponde a la pista en castellano.",
+   "type": "cloze",
+   "stem": "La scuola è buona, ___ (es más) è perfetta.",
+   "answer": "anzi",
+   "alt": [],
+   "drop": false,
+   "note": "*anzi* corrige y refuerza: «es más, incluso»."
+  },
+  "d14-007": {
+   "consigna": "Completá con la conjunción italiana que corresponde a la pista en castellano.",
+   "type": "cloze",
+   "stem": "Vado in ufficio, ___ (así que) non posso prendere un caffè.",
+   "answer": "perciò",
+   "alt": [
+    "quindi",
+    "dunque",
+    "così"
+   ],
+   "drop": false,
+   "note": "*perciò* = «así que, por eso»: introduce la consecuencia."
+  },
+  "d14-008": {
+   "consigna": "Completá con la conjunción italiana que corresponde a la pista en castellano.",
+   "type": "cloze",
+   "stem": "Non è mica stupido, ___ (al contrario) è molto furbo.",
+   "answer": "anzi",
+   "alt": [
+    "al contrario"
+   ],
+   "drop": false,
+   "note": "*anzi* después de una negación corrige lo dicho: «al contrario, más bien»."
+  },
+  "d14-009": {
+   "consigna": "Completá con la conjunción italiana que corresponde a la pista en castellano.",
+   "type": "cloze",
+   "stem": "Il mio computer è vecchio, ___ (pero) il suo è nuovo.",
+   "answer": "ma",
+   "alt": [
+    "però"
+   ],
+   "drop": false,
+   "note": "*ma* opone dos ideas y va siempre al principio de la segunda: *ma il suo è nuovo*."
+  },
+  "d14-010": {
+   "consigna": "Completá con la conjunción italiana que corresponde a la pista en castellano.",
+   "type": "cloze",
+   "stem": "Il professore è di Firenze, ___ (o sea) è fiorentino.",
+   "answer": "cioè",
+   "alt": [
+    "ossia"
+   ],
+   "drop": false,
+   "note": "*cioè* introduce una aclaración de lo que se acaba de decir: «o sea, es decir»."
+  },
+  "d14-011": {
+   "consigna": "Completá con la conjunción subordinante italiana que corresponde a la pista en castellano. Si hay dos espacios, escribí las dos palabras en orden.",
+   "type": "cloze",
+   "stem": "La nonna non è ___ vecchia ___ credevo. (tan… como)",
+   "answer": "così | come",
+   "alt": [
+    "tanto | quanto"
+   ],
+   "drop": false,
+   "note": "La comparación de igualdad con adjetivo: *così ... come* (o *tanto ... quanto*), como «tan ... como»."
+  },
+  "d14-012": {
+   "consigna": "Completá con la conjunción subordinante italiana que corresponde a la pista en castellano. Si hay dos espacios, escribí las dos palabras en orden.",
+   "type": "cloze",
+   "stem": "___ so io, le ragazze sono a scuola. (por lo que sé)",
+   "answer": "per quanto",
+   "alt": [
+    "da quanto",
+    "da quel che",
+    "da quello che",
+    "a quanto"
+   ],
+   "drop": false,
+   "note": "*per quanto* + verbo = «por lo que»: *per quanto so io*, «por lo que yo sé»; es una fórmula de restricción, no de causa."
+  },
+  "d14-013": {
+   "consigna": "Completá con la conjunción subordinante italiana que corresponde a la pista en castellano. Si hay dos espacios, escribí las dos palabras en orden.",
+   "type": "cloze",
+   "stem": "___ nevica, le scuole non possono aprire. (si)",
+   "answer": "se",
+   "alt": [],
+   "drop": false,
+   "note": "Condición real: *se* + indicativo, como «si»."
+  },
+  "d14-014": {
+   "consigna": "Completá con la conjunción subordinante italiana que corresponde a la pista en castellano. Si hay dos espacios, escribí las dos palabras en orden.",
+   "type": "cloze",
+   "stem": "Il signore era ricco ___ che i soldi non gli interessavano. (a tal punto)",
+   "answer": "a tal punto",
+   "alt": [
+    "al punto"
+   ],
+   "drop": false,
+   "note": "Consecuencia: *a tal punto che* = «a tal punto que»."
+  },
+  "d14-015": {
+   "consigna": "Completá con la conjunción subordinante italiana que corresponde a la pista en castellano. Si hay dos espacios, escribí las dos palabras en orden.",
+   "type": "cloze",
+   "stem": "Io dormirò ___ i ragazzi saranno tornati. (cuando)",
+   "answer": "quando",
+   "alt": [],
+   "drop": false,
+   "note": "*quando* con acción futura va con futuro (acá futuro anteriore), no con subjuntivo como «cuando hayan vuelto»."
+  },
+  "d14-016": {
+   "consigna": "Completá con la conjunción subordinante italiana que corresponde a la pista en castellano. Si hay dos espacios, escribí las dos palabras en orden.",
+   "type": "cloze",
+   "stem": "Gli animali mangiano ___ hanno fame. (porque / cuando)",
+   "answer": "perché",
+   "alt": [
+    "quando"
+   ],
+   "drop": false,
+   "note": "*perché* es a la vez «porque» y «por qué», siempre con acento agudo."
+  },
+  "d14-017": {
+   "consigna": "Completá con la conjunción subordinante italiana que corresponde a la pista en castellano. Si hay dos espacios, escribí las dos palabras en orden.",
+   "type": "cloze",
+   "stem": "___ non posso guidare, devo chiedere aiuto agli amici. (como = ya que)",
+   "answer": "siccome",
+   "alt": [
+    "poiché",
+    "dato che",
+    "visto che"
+   ],
+   "drop": false,
+   "note": "Siccome va al principio de la oración, como el «como» causal castellano."
+  },
+  "d14-018": {
+   "consigna": "Completá con la conjunción subordinante italiana que corresponde a la pista en castellano. Si hay dos espacios, escribí las dos palabras en orden.",
+   "type": "cloze",
+   "stem": "Tu incontri gli amici ___ io studio? (mientras)",
+   "answer": "mentre",
+   "alt": [],
+   "drop": false,
+   "note": "*mentre* marca que dos acciones pasan al mismo tiempo, como «mientras», con indicativo."
+  },
+  "d14-019": {
+   "consigna": "Completá con la conjunción subordinante italiana que corresponde a la pista en castellano. Si hay dos espacios, escribí las dos palabras en orden.",
+   "type": "cloze",
+   "stem": "Non l'ho fatto ___ mi hai fatto vedere. (como)",
+   "answer": "come",
+   "alt": [],
+   "drop": false,
+   "note": "*come* introduce el modo, como nuestro «como»: *come mi hai fatto vedere*."
+  },
+  "d14-020": {
+   "consigna": "Completá con la conjunción subordinante italiana que corresponde a la pista en castellano. Si hay dos espacios, escribí las dos palabras en orden.",
+   "type": "cloze",
+   "stem": "La professoressa era ___ intelligente ___ gli studenti la temevano. (tan… que)",
+   "answer": "così | che",
+   "alt": [
+    "tanto | che",
+    "talmente | che"
+   ],
+   "drop": false,
+   "note": "Consecuencia intensiva: *così ... che* = «tan ... que»."
+  },
+  "d14-021": {
+   "consigna": "Completá con el pronombre relativo (che, cui, il cui, chi…). La traducción está entre paréntesis.",
+   "type": "cloze",
+   "stem": "il ragazzo ___ padre è medico (el chico cuyo padre es médico)",
+   "answer": "il cui",
+   "alt": [],
+   "drop": false,
+   "note": "Il cui concuerda con lo poseído (padre), no con el poseedor."
+  },
+  "d14-022": {
+   "consigna": "Completá con el pronombre relativo (che, cui, il cui, chi…). La traducción está entre paréntesis.",
+   "type": "cloze",
+   "stem": "la ragazza ___ madre è italiana (la chica cuya madre es italiana)",
+   "answer": "la cui",
+   "alt": [],
+   "drop": false,
+   "note": "*cui* posesivo lleva el artículo de lo poseído: *madre* → *la cui*."
+  },
+  "d14-023": {
+   "consigna": "Completá con el pronombre relativo (che, cui, il cui, chi…). La traducción está entre paréntesis.",
+   "type": "cloze",
+   "stem": "l'autore ___ libri leggo (el autor cuyos libros leo)",
+   "answer": "i cui",
+   "alt": [],
+   "drop": false,
+   "note": "*cui* posesivo lleva el artículo de lo poseído: *libri* (masculino plural) → *i cui*."
+  },
+  "d14-024": {
+   "consigna": "Completá con el pronombre relativo (che, cui, il cui, chi…). La traducción está entre paréntesis.",
+   "type": "cloze",
+   "stem": "gli amici ___ macchine sono nuove (los amigos cuyos autos son nuevos)",
+   "answer": "le cui",
+   "alt": [],
+   "drop": false,
+   "note": "Le cui porque macchine es femenino plural, aunque «autos» sea masculino."
+  },
+  "d14-025": {
+   "consigna": "Completá con el pronombre relativo (che, cui, il cui, chi…). La traducción está entre paréntesis.",
+   "type": "cloze",
+   "stem": "l'argomento ___ parliamo (el tema del que hablamos)",
+   "answer": "di cui",
+   "alt": [
+    "del quale"
+   ],
+   "drop": false,
+   "note": "Tras preposición el relativo es *cui*: *di cui* («del que»), nunca *di che*."
+  },
+  "d14-026": {
+   "consigna": "Completá con el pronombre relativo (che, cui, il cui, chi…). La traducción está entre paréntesis.",
+   "type": "cloze",
+   "stem": "la ragazza ___ canta (la chica que canta)",
+   "answer": "che",
+   "alt": [],
+   "drop": false,
+   "note": "Sujeto o directo sin preposición: *che*, como «que»."
+  },
+  "d14-027": {
+   "consigna": "Completá con el pronombre relativo (che, cui, il cui, chi…). La traducción está entre paréntesis.",
+   "type": "cloze",
+   "stem": "il ragazzo ___ studia (el chico que estudia)",
+   "answer": "che",
+   "alt": [],
+   "drop": false,
+   "note": "Relativo sujeto: *che*, invariable, como «que»."
+  },
+  "d14-028": {
+   "consigna": "Completá con el pronombre relativo (che, cui, il cui, chi…). La traducción está entre paréntesis.",
+   "type": "cloze",
+   "stem": "i libri ___ ho trovato l'errore (los libros en los que encontré el error)",
+   "answer": "in cui",
+   "alt": [
+    "nei quali"
+   ],
+   "drop": false,
+   "note": "Preposición + *cui*: *in cui* («en los que»); *cui* no cambia."
+  },
+  "d14-029": {
+   "consigna": "Completá con el pronombre relativo (che, cui, il cui, chi…). La traducción está entre paréntesis.",
+   "type": "cloze",
+   "stem": "la casa ___ ho comprato (la casa que compré)",
+   "answer": "che",
+   "alt": [],
+   "drop": false,
+   "note": "Relativo objeto directo sin preposición: *che*, como «que»."
+  },
+  "d14-030": {
+   "consigna": "Completá con el pronombre relativo (che, cui, il cui, chi…). La traducción está entre paréntesis.",
+   "type": "cloze",
+   "stem": "___ dorme non piglia pesci. (Quien duerme no pesca: camarón que se duerme se lo lleva la corriente.)",
+   "answer": "chi",
+   "alt": [
+    "colui che"
+   ],
+   "drop": false,
+   "note": "*chi* sin antecedente = «el que, quien», siempre con verbo en singular: *Chi dorme non piglia pesci*."
+  },
+  "d15-001": {
+   "consigna": "Formá el adverbio en -mente a partir del adjetivo.",
+   "type": "cloze",
+   "stem": "preciso, precisa → ___",
+   "answer": "precisamente",
+   "alt": [],
+   "drop": false,
+   "note": "El adverbio se forma sobre el femenino, como en castellano: *precisa* + *-mente*."
+  },
+  "d15-002": {
+   "consigna": "Formá el adverbio en -mente a partir del adjetivo.",
+   "type": "cloze",
+   "stem": "triste → ___",
+   "answer": "tristemente",
+   "alt": [],
+   "drop": false,
+   "note": "Adjetivo en -e: se agrega *-mente* directamente: *tristemente*."
+  },
+  "d15-003": {
+   "consigna": "Formá el adverbio en -mente a partir del adjetivo.",
+   "type": "cloze",
+   "stem": "onesto, onesta → ___",
+   "answer": "onestamente",
+   "alt": [],
+   "drop": false,
+   "note": "El adverbio se forma sobre el femenino + *-mente*, como en castellano: *onestamente*."
+  },
+  "d15-004": {
+   "consigna": "Formá el adverbio en -mente a partir del adjetivo.",
+   "type": "cloze",
+   "stem": "specifico, specifica → ___",
+   "answer": "specificamente",
+   "alt": [],
+   "drop": false,
+   "note": "Sobre el femenino: *specifica* + *-mente*."
+  },
+  "d15-005": {
+   "consigna": "Formá el adverbio en -mente a partir del adjetivo.",
+   "type": "cloze",
+   "stem": "raro, rara → ___",
+   "answer": "raramente",
+   "alt": [],
+   "drop": false,
+   "note": "Femenino + *-mente*: *raramente*."
+  },
+  "d15-006": {
+   "consigna": "Formá el adverbio en -mente a partir del adjetivo.",
+   "type": "cloze",
+   "stem": "intelligente → ___",
+   "answer": "intelligentemente",
+   "alt": [],
+   "drop": false,
+   "note": "En -e (no -le/-re): *intelligente* + *-mente*."
+  },
+  "d15-007": {
+   "consigna": "Formá el adverbio en -mente a partir del adjetivo.",
+   "type": "cloze",
+   "stem": "singolare → ___",
+   "answer": "singolarmente",
+   "alt": [],
+   "drop": false,
+   "note": "Adjetivos en -le y -re pierden la -e: singolare → singolarmente."
+  },
+  "d15-008": {
+   "consigna": "Formá el adverbio en -mente a partir del adjetivo.",
+   "type": "cloze",
+   "stem": "estremo, estrema → ___",
+   "answer": "estremamente",
+   "alt": [],
+   "drop": false,
+   "note": "Femenino + *-mente*: *estremamente*."
+  },
+  "d15-009": {
+   "consigna": "Formá el adverbio en -mente a partir del adjetivo.",
+   "type": "cloze",
+   "stem": "chiaro, chiara → ___",
+   "answer": "chiaramente",
+   "alt": [],
+   "drop": false,
+   "note": "Femenino + *-mente*: *chiaramente*."
+  },
+  "d15-010": {
+   "consigna": "Formá el adverbio en -mente a partir del adjetivo.",
+   "type": "cloze",
+   "stem": "sensibile → ___",
+   "answer": "sensibilmente",
+   "alt": [],
+   "drop": false,
+   "note": "Adjetivos en -le y -re pierden la -e: sensibile → sensibilmente."
+  },
+  "d15-011": {
+   "consigna": "Traducí el adverbio al italiano.",
+   "type": "translate",
+   "stem": "dentro de un rato",
+   "answer": "fra poco",
+   "alt": [
+    "tra poco"
+   ],
+   "drop": false,
+   "note": "«Dentro de un rato» = *fra poco* (o *tra poco*): *fra/tra* + tiempo marca el futuro."
+  },
+  "d15-012": {
+   "consigna": "Traducí el adverbio al italiano.",
+   "type": "translate",
+   "stem": "menos",
+   "answer": "meno",
+   "alt": [],
+   "drop": false,
+   "note": "*meno* («menos») sirve como adverbio y en comparaciones: *meno ... di*, «menos ... que»."
+  },
+  "d15-013": {
+   "consigna": "Traducí el adverbio al italiano.",
+   "type": "translate",
+   "stem": "más",
+   "answer": "più",
+   "alt": [],
+   "drop": false,
+   "note": "«Más» = *più* (con acento); *mas* sin acento no existe en italiano."
+  },
+  "d15-014": {
+   "consigna": "Traducí el adverbio al italiano.",
+   "type": "translate",
+   "stem": "en cuanto (apenas llegue…)",
+   "answer": "appena",
+   "alt": [
+    "non appena"
+   ],
+   "drop": false,
+   "note": "*appena* («apenas, en cuanto») con valor futuro lleva futuro, no congiuntivo: *appena arriverò*."
+  },
+  "d15-015": {
+   "consigna": "Traducí el adverbio al italiano.",
+   "type": "translate",
+   "stem": "muy",
+   "answer": "molto",
+   "alt": [
+    "assai"
+   ],
+   "drop": false,
+   "note": "*molto* delante de un adjetivo o adverbio no cambia (*molto bene*); delante de un sustantivo concuerda (*molti amici*)."
+  },
+  "d15-016": {
+   "consigna": "Traducí el adverbio al italiano.",
+   "type": "translate",
+   "stem": "lamentablemente",
+   "answer": "purtroppo",
+   "alt": [
+    "sfortunatamente"
+   ],
+   "drop": false,
+   "note": "*purtroppo* («lamentablemente») es la forma habitual en la charla; *sfortunatamente* existe pero se usa menos."
+  },
+  "d15-017": {
+   "consigna": "Traducí el adverbio al italiano.",
+   "type": "translate",
+   "stem": "seguido (a menudo)",
+   "answer": "spesso",
+   "alt": [],
+   "drop": false,
+   "note": "*spesso* («seguido, a menudo») es adverbio y no cambia."
+  },
+  "d15-018": {
+   "consigna": "Traducí el adverbio al italiano.",
+   "type": "translate",
+   "stem": "solo (solamente)",
+   "answer": "solo",
+   "alt": [
+    "soltanto",
+    "solamente"
+   ],
+   "drop": false,
+   "note": "*solo* como adverbio («solamente») es invariable; como adjetivo («solo, sin compañía») concuerda."
+  },
+  "d15-019": {
+   "consigna": "Traducí el adverbio al italiano.",
+   "type": "translate",
+   "stem": "ya (a esta altura)",
+   "answer": "ormai",
+   "alt": [
+    "oramai"
+   ],
+   "drop": false,
+   "note": "*ormai* = «ya, a esta altura»: algo que ya no tiene vuelta."
+  },
+  "d15-020": {
+   "consigna": "Traducí el adverbio al italiano.",
+   "type": "translate",
+   "stem": "ya (ej.: ya comí)",
+   "answer": "già",
+   "alt": [],
+   "drop": false,
+   "note": "*già* = «ya» de algo ya hecho: *ho già mangiato*."
+  },
+  "d15-021": {
+   "consigna": "Traducí al italiano (comparaciones y adverbios).",
+   "type": "translate",
+   "stem": "Marco es tan bueno como su abuelo.",
+   "answer": "Marco è così buono come suo nonno.",
+   "alt": [
+    "Marco è buono come suo nonno.",
+    "Marco è tanto buono quanto suo nonno."
+   ],
+   "drop": false,
+   "note": "Igualdad con adjetivo: *così ... come*, como «tan ... como»."
+  },
+  "d15-022": {
+   "consigna": "Traducí al italiano (comparaciones y adverbios).",
+   "type": "translate",
+   "stem": "El profesor es más inteligente de lo que yo creía.",
+   "answer": "L'insegnante è più intelligente di quel che credevo.",
+   "alt": [
+    "L'insegnante è più intelligente di quello che credevo.",
+    "L'insegnante è più intelligente di quanto credevo.",
+    "L'insegnante è più intelligente di quanto credessi.",
+    "Il professore è più intelligente di quel che credevo.",
+    "Il professore è più intelligente di quanto credevo.",
+    "Il professore è più intelligente di quello che credevo.",
+    "Il professore è più intelligente di quanto credessi."
+   ],
+   "drop": false,
+   "note": "«Más ... de lo que» + verbo = *più ... di quel che* (o *di quanto*)."
+  },
+  "d15-023": {
+   "consigna": "Traducí al italiano (comparaciones y adverbios).",
+   "type": "translate",
+   "stem": "Estoy tan nervioso como contento.",
+   "answer": "Sono tanto nervoso quanto contento.",
+   "alt": [
+    "Sono così nervoso come contento."
+   ],
+   "drop": false,
+   "note": "Igualdad entre dos adjetivos: *tanto ... quanto*."
+  },
+  "d15-024": {
+   "consigna": "Traducí al italiano (comparaciones y adverbios).",
+   "type": "translate",
+   "stem": "Un chico canta peor que el otro.",
+   "answer": "Un ragazzo canta peggio dell'altro.",
+   "alt": [],
+   "drop": false,
+   "note": "*peggio* («peor») es adverbio; el segundo término va con *di* + artículo: *dell’altro*."
+  },
+  "d15-025": {
+   "consigna": "Traducí al italiano (comparaciones y adverbios).",
+   "type": "translate",
+   "stem": "Italia tiene más políticos que curas.",
+   "answer": "L'Italia ha più politici che preti.",
+   "alt": [],
+   "drop": false,
+   "note": "Más… que (no «di») cuando se comparan dos sustantivos: più politici che preti."
+  },
+  "d15-026": {
+   "consigna": "Traducí al italiano (comparaciones y adverbios).",
+   "type": "translate",
+   "stem": "Beatrice es más linda que la hermana.",
+   "answer": "Beatrice è più bella della sorella.",
+   "alt": [
+    "Beatrice è più bella di sua sorella."
+   ],
+   "drop": false,
+   "note": "Con dos personas se compara con *di*: *più bella della sorella* («que la hermana»)."
+  },
+  "d15-027": {
+   "consigna": "Traducí al italiano (comparaciones y adverbios).",
+   "type": "translate",
+   "stem": "Como lo menos posible.",
+   "answer": "Io mangio il meno possibile.",
+   "alt": [
+    "Mangio il meno possibile."
+   ],
+   "drop": false,
+   "note": "«Lo ... posible» se arma con artículo masculino: *il meno possibile*, porque el italiano no tiene «lo» neutro."
+  },
+  "d15-028": {
+   "consigna": "Traducí al italiano (comparaciones y adverbios).",
+   "type": "translate",
+   "stem": "Es mejor no hacerlo.",
+   "answer": "È meglio non farlo.",
+   "alt": [],
+   "drop": false,
+   "note": "«Es mejor» + infinitivo = *è meglio*: *meglio* es la forma adverbial neutra."
+  },
+  "d15-029": {
+   "consigna": "Traducí al italiano (comparaciones y adverbios).",
+   "type": "translate",
+   "stem": "La actriz es más simpática que rica.",
+   "answer": "L'attrice è più simpatica che ricca.",
+   "alt": [],
+   "drop": false,
+   "note": "Más… que con dos adjetivos referidos al mismo sujeto: più simpatica che ricca."
+  },
+  "d15-030": {
+   "consigna": "Traducí al italiano (comparaciones y adverbios).",
+   "type": "translate",
+   "stem": "Ese libro nos gustó poquísimo.",
+   "answer": "Ci è piaciuto pochissimo quel libro.",
+   "alt": [
+    "Quel libro ci è piaciuto pochissimo.",
+    "Ci è piaciuto pochissimo, quel libro."
+   ],
+   "drop": false,
+   "note": "El superlativo absoluto en *-issimo* sirve también para adverbios: *pochissimo*; *piacere* en passato prossimo va con *essere*."
+  }
+ }
+}

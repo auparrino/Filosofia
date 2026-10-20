@@ -1,0 +1,162 @@
+{
+  "week": 27,
+  "level": "B2",
+  "lettura": {
+    "title": "Lo struscio: la passeggiata che resiste",
+    "emoji": "🚶",
+    "genre": "reportage",
+    "grammar": "avverbi in -mente e posizione degli avverbi",
+    "text": "Alle sette di sera, puntualmente, la piazza di Casalbianco, un paese di novemila abitanti nel Salento, cambia volto. Le serrande dei negozi si alzano di nuovo, i bar sistemano lentamente i tavolini e, quasi improvvisamente, la gente comincia a camminare. Non va da nessuna parte, o meglio: va avanti e indietro lungo il corso, sempre sullo stesso chilometro. Qui lo chiamano «struscio», e chi arriva da una grande città lo guarda generalmente con un misto di curiosità e di ironia.\n\nEppure lo struscio non è semplicemente un'abitudine da paese. È, in fondo, un rito sociale molto preciso. «Si esce per vedere e per farsi vedere», spiega sorridendo Rosaria, sessantadue anni, che lo fa regolarmente da quando era ragazzina. «Una volta le ragazze camminavano rigorosamente in gruppo e le madri controllavano attentamente da lontano. Oggi è tutto più libero, ma il senso è rimasto lo stesso: sapere chi c'è, chi è tornato, chi si è fidanzato.»\n\nNegli ultimi anni, infatti, la passeggiata serale è cambiata profondamente. I giovani, che d'inverno vivono quasi tutti a Bologna, a Milano o all'estero, tornano d'estate e la riscoprono con un piacere quasi nostalgico. Luca, ventisei anni, ingegnere a Torino, ammette francamente che in città gli manca proprio questo: «Lì esci solo se hai un appuntamento. Qui esci e basta, e sicuramente incontri qualcuno.» Paradossalmente, sono proprio quelli che sono partiti a difendere più appassionatamente una tradizione che da ragazzi trovavano noiosa.\n\nNon tutti, naturalmente, sono così entusiasti. Il parroco, don Franco, osserva con una certa amarezza che lo struscio è diventato anche una vetrina: «Una volta ci si vestiva semplicemente in modo decente. Ora molti passeggiano soprattutto per fotografarsi.» E in effetti basta guardarsi intorno: tra un gelato e un saluto, i telefoni sono costantemente accesi. Il rito, però, si adatta velocemente: una storia su Instagram non sostituisce l'incontro, ma lo prolunga.\n\nVerso le dieci la piazza si svuota gradualmente. Gli anziani si siedono sulle panchine e commentano tranquillamente la serata, i ragazzi si spostano verso il lungomare, i bar abbassano le luci. Domani, probabilmente, sarà tutto uguale. Ed è forse questo il segreto dello struscio: in un Paese che cambia rapidamente, e spesso in modo disordinato, offre ogni sera la certezza di un posto in cui tutti, almeno per un'ora, si riconoscono.",
+    "gloss": {
+      "basta": "(basta guardarsi intorno) alcanza con mirar alrededor; (esci e basta) salís y listo",
+      "meglio": "(o meglio) mejor dicho",
+      "vestiva": "(ci si vestiva) uno se vestía, la gente se vestía: *ci si* es el *si* impersonal con un verbo reflexivo (semana 36)",
+      "cui": "(in cui, con cui…) en el que, con el que: *cui* es el relativo después de preposición (semana 34)",
+      "serrande": "persianas metálicas (de los negocios)",
+      "tavolini": "mesitas",
+      "struscio": "paseo lento por la calle principal",
+      "corso": "calle principal del pueblo",
+      "ragazzina": "piba, nena",
+      "rigorosamente": "estrictamente",
+      "fidanzato": "(se) puso de novio",
+      "riscoprono": "redescubren",
+      "ammette": "admite",
+      "manca": "(le) falta, (él) extraña",
+      "appuntamento": "cita, encuentro arreglado",
+      "noiosa": "aburrida",
+      "parroco": "cura párroco",
+      "amarezza": "amargura",
+      "vetrina": "vidriera",
+      "accesi": "prendidos",
+      "prolunga": "prolonga, estira",
+      "svuota": "vacía",
+      "panchine": "bancos de plaza",
+      "lungomare": "costanera",
+      "abbassano": "bajan",
+      "disordinato": "desordenado",
+      "riconoscono": "(se) reconocen"
+    },
+    "questions": [
+      ["Qual è lo scopo principale del reportage?", ["Criticare i giovani che lasciano il Sud", "Descrivere un rito sociale e come cambia", "Promuovere il turismo estivo nel Salento", "Raccontare la storia della parrocchia"], "Descrivere un rito sociale e come cambia"],
+      ["Secondo Rosaria, che cosa è rimasto uguale rispetto al passato?", ["L'obbligo per le ragazze di uscire in gruppo", "Il controllo delle madri sulle figlie", "La voglia di sapere cosa succede agli altri", "L'abitudine di vestirsi in modo elegante"], "La voglia di sapere cosa succede agli altri"],
+      ["Che cosa trova paradossale l'autore riguardo ai giovani partiti?", ["Non partecipano più allo struscio d'estate", "Vorrebbero portare lo struscio in città", "Difendono un rito che prima trovavano noioso", "Preferiscono il lungomare alla piazza"], "Difendono un rito che prima trovavano noioso"],
+      ["Che cosa intende l'autore con «una storia su Instagram non sostituisce l'incontro, ma lo prolunga»?", ["I social stanno distruggendo la tradizione del paese", "I social continuano l'incontro, non lo cancellano", "Le foto servono a chi non c'era", "I giovani preferiscono vedersi online"], "I social continuano l'incontro, non lo cancellano"],
+      ["Secondo la conclusione, qual è il valore dello struscio?", ["Attira turisti nella stagione estiva", "Aiuta i commercianti a vendere di sera", "Conserva le regole morali e religiose di una volta", "Dà stabilità e comunità in tempi incerti"], "Dà stabilità e comunità in tempi incerti"]
+    ],
+    "vf": [
+      ["Lo struscio si svolge sempre sullo stesso tratto di strada.", "vero"],
+      ["Rosaria ha cominciato a fare lo struscio da adulta.", "falso"],
+      ["Luca pensa di tornare a vivere a Casalbianco.", "non si dice"],
+      ["Don Franco approva il modo in cui si passeggia oggi.", "falso"],
+      ["Il bar principale della piazza resta aperto fino a mezzanotte.", "non si dice"]
+    ],
+    "hunt": {
+      "label": "Tocá los adverbios en -mente",
+      "targets": ["puntualmente", "lentamente", "improvvisamente", "generalmente", "semplicemente", "regolarmente", "rigorosamente", "attentamente", "profondamente", "francamente", "paradossalmente", "appassionatamente", "naturalmente", "costantemente", "velocemente", "gradualmente", "tranquillamente", "probabilmente", "rapidamente", "sicuramente"]
+    }
+  },
+  "ascolto": {
+    "title": "Il bar, salotto degli italiani",
+    "genre": "intervista radiofonica",
+    "es": "Un conductor de radio entrevista a una socióloga que escribió un libro sobre el bar italiano y lo que representa en la vida social.",
+    "speakers": ["Conduttore", "Marta Ferri, sociologa"],
+    "turns": [
+      ["A", "Buongiorno a tutti e bentornati. Oggi parliamo di un luogo che frequentiamo quasi quotidianamente, spesso senza pensarci: il bar. Con noi c'è Marta Ferri, sociologa, che ha appena pubblicato un libro proprio su questo. Buongiorno, professoressa."],
+      ["B", "Buongiorno, e grazie dell'invito."],
+      ["A", "Allora, partiamo dall'inizio: perché studiare il bar? Sembra un argomento, diciamo, leggero."],
+      ["B", "Sembra, appunto. In realtà il bar italiano è un posto socialmente importantissimo. Pensi al caffè al banco: si beve velocemente, in piedi, in due minuti. Eppure in quei due minuti si scambiano notizie, battute, lamentele sul governo, sul tempo, sulla squadra di calcio."],
+      ["A", "Cioè, è una specie di piazza al chiuso?"],
+      ["B", "Esatto, una piazza al chiuso. E, cosa interessante, è uno dei pochi posti dove persone molto diverse stanno fisicamente vicine: l'avvocato accanto al muratore, lo studente accanto al pensionato."],
+      ["A", "Però i bar tradizionali stanno chiudendo, no? Almeno così si sente dire."],
+      ["B", "Guardi, bisogna parlarne onestamente. Molti bar di quartiere hanno chiuso, è vero, soprattutto nei piccoli centri. Al loro posto arrivano catene, caffetterie moderne dove la gente sta seduta per ore davanti al computer. Non è necessariamente un male, ma è un'altra cosa."],
+      ["A", "In che senso un'altra cosa?"],
+      ["B", "Nel senso che lì si sta insieme, ma separatamente. Ognuno con le sue cuffie, il suo schermo. Il barista tradizionale, invece, ti conosce personalmente, sa come prendi il caffè, ti chiede di tua madre."],
+      ["A", "Quindi lei è pessimista."],
+      ["B", "No, no, assolutamente. Sono realista. Ho visto ragazzi che aprono bar nuovi con un'idea vecchia: il bancone, due chiacchiere, i prezzi onesti. E funzionano benissimo. La gente, insomma, ha ancora bisogno di un posto dove qualcuno la saluti per nome."],
+      ["A", "Bellissima chiusura. Grazie, professoressa Ferri."]
+    ],
+    "gloss": {
+      "chiede": "(ti chiede di tua madre) te pregunta por tu mamá: *chiedere di* alguien = preguntar por",
+      "chiuso": "(al chiuso) bajo techo, puertas adentro",
+      "banco": "barra (del bar)",
+      "battute": "chistes, comentarios",
+      "lamentele": "quejas",
+      "muratore": "albañil",
+      "pensionato": "jubilado",
+      "quartiere": "barrio",
+      "catene": "cadenas (de negocios)",
+      "cuffie": "auriculares",
+      "bancone": "mostrador",
+      "chiacchiere": "charla"
+    },
+    "questions": [
+      ["Perché la sociologa risponde «Sembra, appunto»?", ["Per ammettere che il suo libro è poco scientifico", "Per dire che il tema è più serio di come appare", "Per correggere il titolo del suo libro", "Per dire che il bar è un tema di moda"], "Per dire che il tema è più serio di come appare"],
+      ["Che cosa rende speciale il bar secondo Ferri?", ["Offre il caffè più economico d'Europa", "È il luogo dove si lavora meglio", "Mette vicine persone di ceti diversi", "È frequentato soprattutto da anziani"], "Mette vicine persone di ceti diversi"],
+      ["Che cosa pensa Ferri delle nuove caffetterie?", ["Sono la causa della crisi dei bar", "Non sono negative, ma sono diverse", "Sono più accoglienti e piacevoli dei bar", "Spariranno molto presto"], "Non sono negative, ma sono diverse"],
+      ["Che cosa significa «si sta insieme, ma separatamente»?", ["Si arriva insieme ma si paga separati", "Si parla, ma di argomenti diversi", "Si condivide lo spazio senza interagire", "Ci si siede a tavoli lontani"], "Si condivide lo spazio senza interagire"],
+      ["Qual è l'atteggiamento finale della sociologa?", ["Realista, con motivi di speranza", "Profondamente pessimista", "Nostalgica e contraria alle novità", "Indifferente al destino dei bar"], "Realista, con motivi di speranza"]
+    ],
+    "vf": [
+      ["Marta Ferri ha scritto un libro sul bar.", "vero"],
+      ["Secondo Ferri, i bar di quartiere non stanno chiudendo.", "falso"],
+      ["Il libro di Ferri è stato tradotto in altre lingue.", "non si dice"],
+      ["Secondo Ferri, alcuni bar nuovi di stile tradizionale funzionano bene.", "vero"]
+    ]
+  },
+  "compito": {
+    "genre": "lettera_lettore",
+    "title": "Lettera al giornale sullo struscio",
+    "fonte": "lettura",
+    "t": "Hai letto sul giornale il reportage «Lo struscio: la passeggiata che resiste». Scrivi una lettera alla redazione (120-180 parole, registro formale ma personale) in cui commenti il reportage, racconti un rito simile della tua città o del tuo Paese e dici se sei d'accordo con la conclusione dell'autore. Usa alcuni avverbi in -mente.",
+    "es": "Carta de lector al diario: comentá el reportaje, contá una costumbre parecida de tu lugar y opiná sobre la conclusión. Cuidá el saludo formal y la firma.",
+    "min": 120,
+    "max": 180,
+    "punti": [
+      ["comentar el reportaje", ["reportage", "articolo", "struscio"]],
+      ["contar un ritual parecido de tu ciudad o país", ["mia città", "mio paese", "da noi", "argentina"]],
+      ["opinar sobre la conclusión del autor", ["d'accordo", "conclusione", "secondo me", "credo"]],
+      ["saludo formal y despedida", ["gentile", "cara redazione", "spettabile", "cordiali saluti", "distinti saluti"]]
+    ],
+    "model": "Gentile Redazione,\n\nho letto con grande piacere il reportage sullo struscio di Casalbianco e, sinceramente, mi sono commosso. Sono argentino, vivo a Bologna da due anni, e leggendo l'articolo ho pensato immediatamente alla mia città, Rosario.\n\nDa noi non si chiama struscio, ma il rito è molto simile: la domenica pomeriggio le famiglie camminano lentamente lungo il fiume, bevono il mate, si fermano a salutare i vicini. Nessuno ha fretta e nessuno va veramente da qualche parte.\n\nSono completamente d'accordo con la conclusione dell'autore: in un mondo che cambia così rapidamente, abbiamo bisogno di luoghi dove riconoscerci. Aggiungerei solo una cosa: non credo che i telefoni siano il vero pericolo. Il pericolo è la fretta, che ci impedisce di perdere tempo insieme.\n\nGrazie per questo bel pezzo, che mi ha fatto sentire un po' meno lontano da casa.\n\nCordiali saluti,\nMartín Paredes, Bologna",
+    "gloss": {
+      "Da noi": "en mi país, entre nosotros (da + pronombre = en lo de, en casa de)",
+      "riconoscerci": "reconocernos",
+      "bel pezzo": "lindo artículo, linda nota (pezzo = texto periodístico)",
+      "mi ha fatto sentire": "me hizo sentir (fare + infinitivo, el causativo: se ve en la semana 40)"
+    }
+  },
+  "breve": {
+    "title": "Radio Salento, il notiziario della sera",
+    "genre": "notiziario radiofonico",
+    "es": "El boletín de noticias de una radio local del Salento: tránsito, cultura, trenes y el tiempo.",
+    "speaker": "Speaker",
+    "voice": 0,
+    "text": [
+      "Radio Salento, sono le diciannove. Ecco le notizie della sera, in breve.",
+      "Casalbianco. Da domani e fino al 31 agosto il corso Vittorio Emanuele sarà chiuso al traffico dalle 18 a mezzanotte. Il sindaco spiega che il Comune ha deciso così soprattutto per la sicurezza di chi passeggia la sera. I negozi del corso potranno restare aperti fino alle 23.",
+      "Lecce. Riapre finalmente il teatro Apollo, chiuso da due anni per lavori. Il primo spettacolo è in programma sabato alle 21; i biglietti costano dodici euro, sei per gli studenti.",
+      "Trasporti. Da lunedì il treno delle sette e dieci per Bari partirà regolarmente alle sette e cinque, cioè cinque minuti prima. Le Ferrovie invitano i viaggiatori a controllare attentamente gli orari sul sito.",
+      "Il tempo. Domani cielo sereno su tutta la provincia, con temperature fino a trentaquattro gradi. Il vento, debole, girerà lentamente verso sud nel pomeriggio.",
+      "Il prossimo notiziario è alle ventuno. Buona serata."
+    ],
+    "tabella": [
+      ["Il corso è chiuso al traffico dalle ore…", "18", ["diciotto", "18:00", "18.00"]],
+      ["Prezzo del biglietto per gli studenti (euro)", "6", ["sei", "6 euro", "sei euro"]],
+      ["Nuovo orario del treno per Bari", "7.05", ["7:05", "7,05", "sette e cinque", "7 e 5", "7 e cinque"]],
+      ["Temperatura massima di domani (gradi)", "34", ["trentaquattro"]]
+    ],
+    "info": [
+      ["Il corso resterà chiuso al traffico anche di giorno.", false],
+      ["I negozi del corso potranno restare aperti più a lungo.", true],
+      ["Il teatro Apollo era chiuso per lavori.", true],
+      ["Lo spettacolo di sabato è gratuito per gli studenti.", false],
+      ["Il treno per Bari partirà cinque minuti prima.", true],
+      ["Domani è prevista pioggia nel pomeriggio.", false]
+    ],
+    "gloss": {
+      "corso": "calle principal",
+      "spettacolo": "función, espectáculo",
+      "debole": "débil, suave"
+    }
+  }
+}

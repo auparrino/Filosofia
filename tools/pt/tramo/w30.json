@@ -1,0 +1,357 @@
+{
+  "week": 30,
+  "level": "B2",
+  "lettura": {
+    "title": "As cartas da caixa de sapatos",
+    "emoji": "✉️",
+    "genre": "crônica memorialística",
+    "grammar": "tempos compostos e hipótese no passado",
+    "text": "Minha avó Zefinha morreu no ano passado, aos noventa e dois anos, e deixou uma caixa de sapatos cheia de cartas. Eu tinha passado a infância inteira na casa dela, na Zona Leste de São Paulo, e nunca tinha reparado naquela caixa, escondida no alto do guarda-roupa. Se alguém tivesse me perguntado, eu teria jurado que conhecia todas as histórias dela. Estava enganada.\n\nAs cartas eram de um rapaz chamado Severino, escritas entre 1958 e 1961, de uma cidadezinha do sertão da Paraíba. Pelas datas, entendi que ela já tinha vindo para São Paulo quando as recebeu. Ele falava da seca, da mãe doente, de um roçado que não tinha dado nada naquele ano. E, em quase todas, perguntava a mesma coisa: quando ela ia voltar.\n\nMinha avó nunca voltou. Casou com meu avô, um pedreiro pernambucano que ela tinha conhecido na fila de um posto de saúde, criou cinco filhos e só pisou de novo na Paraíba quarenta anos depois, para o enterro de uma irmã. Nunca mencionou nenhum Severino. Minha mãe, quando mostrei as cartas, ficou um tempo em silêncio e depois disse: “Se ela tivesse ficado lá, eu não teria nascido. Nem você.”\n\nÉ uma frase óbvia, mas me acompanhou por semanas. Fiquei imaginando a outra vida possível: a moça que teria se casado com Severino, que teria plantado feijão em vez de costurar para fora, que talvez tivesse sido mais feliz, ou menos. Não há como saber. O que sei é que, se eu não tivesse encontrado aquela caixa, teria continuado a ver minha avó como uma personagem simples, sem segredos, a senhora que fazia cuscuz aos domingos.\n\nA memória de uma família, percebo agora, é feita tanto do que se conta quanto do que se cala. Minha avó tinha guardado aquelas cartas durante mais de sessenta anos. Não as tinha queimado nem jogado fora. Terá sido saudade? Arrependimento? Ou apenas o costume de quem aprendeu a não desperdiçar nada, nem papel?\n\nTentei procurar o Severino. Um primo que ainda mora no sertão descobriu que ele tinha morrido nos anos noventa, depois de ter trabalhado a vida inteira na mesma terra. Tinha tido filhos, netos. Talvez algum deles guarde, numa gaveta, as cartas que minha avó escreveu de volta. Gosto de pensar que sim. Gosto de pensar que, em algum lugar, a outra metade da conversa também sobreviveu.",
+    "gloss": {
+      "volta": "(escreveu de volta) le contestó (la carta)",
+      "reparado": "notado, prestado atención",
+      "guarda-roupa": "ropero",
+      "jurado": "jurado",
+      "enganada": "equivocada",
+      "rapaz": "muchacho",
+      "sertão": "sertón, interior semiárido del Nordeste",
+      "seca": "sequía",
+      "roçado": "chacrita, parcela sembrada",
+      "pedreiro": "albañil",
+      "fila": "fila, cola",
+      "pisou": "pisó",
+      "enterro": "entierro",
+      "feijão": "porotos",
+      "costurar": "coser (“costurar para fora”: coser por encargo)",
+      "cuscuz": "cuscús nordestino (de harina de maíz)",
+      "cala": "calla",
+      "queimado": "quemado",
+      "arrependimento": "arrepentimiento",
+      "desperdiçar": "desperdiciar",
+      "gaveta": "cajón"
+    },
+    "questions": [
+      [
+        "O que a narradora descobre com as cartas?",
+        [
+          "Que o avô tinha escrito cartas de amor para uma moça de Pernambuco.",
+          "Que a avó tinha voltado várias vezes para a Paraíba.",
+          "Que a avó tinha deixado no sertão um rapaz que esperava a sua volta.",
+          "Que Severino era um irmão da avó que ficou no sertão."
+        ],
+        "Que a avó tinha deixado no sertão um rapaz que esperava a sua volta."
+      ],
+      [
+        "A frase da mãe, “Nem você”, tem o efeito de…",
+        [
+          "culpar a avó por ter abandonado Severino no sertão sem explicação.",
+          "lembrar que a existência da família dependeu daquela escolha.",
+          "mostrar que a mãe não gostou de ver as cartas.",
+          "sugerir que a narradora deveria ir à Paraíba."
+        ],
+        "lembrar que a existência da família dependeu daquela escolha."
+      ],
+      [
+        "Como a narradora via a avó antes de encontrar a caixa?",
+        [
+          "Como uma senhora sem grandes segredos.",
+          "Como uma mulher amargurada pelo passado.",
+          "Como uma pessoa misteriosa e distante.",
+          "Como alguém que falava muito do sertão."
+        ],
+        "Como uma senhora sem grandes segredos."
+      ],
+      [
+        "Qual é a ideia central do quinto parágrafo?",
+        [
+          "As pessoas mais velhas guardam papéis velhos apenas por economia.",
+          "É impossível saber se a avó foi feliz no casamento.",
+          "As cartas antigas devem ser doadas a museus.",
+          "A memória familiar se constrói também com silêncios."
+        ],
+        "A memória familiar se constrói também com silêncios."
+      ],
+      [
+        "O que expressa o final do texto?",
+        [
+          "A certeza de que os filhos de Severino guardaram as cartas.",
+          "O desejo, sem comprovação, de que a correspondência completa exista.",
+          "A decisão de viajar ao sertão para conhecer a família de Severino.",
+          "A tristeza por não ter conhecido Severino pessoalmente."
+        ],
+        "O desejo, sem comprovação, de que a correspondência completa exista."
+      ]
+    ],
+    "vf": [
+      [
+        "As cartas foram escritas ao longo de alguns anos, entre o fim dos anos 1950 e o início dos anos 1960.",
+        "verdadeiro"
+      ],
+      [
+        "A avó voltou à Paraíba logo depois de se casar.",
+        "falso"
+      ],
+      [
+        "O avô da narradora sabia da existência das cartas.",
+        "não se diz"
+      ],
+      [
+        "Severino ainda está vivo e mora no sertão.",
+        "falso"
+      ],
+      [
+        "A avó criou cinco filhos em São Paulo.",
+        "verdadeiro"
+      ]
+    ],
+    "hunt": {
+      "label": "Toque nas formas do auxiliar ter nos tempos compostos (tinha, tivesse, teria…)",
+      "targets": ["tinha", "tivesse", "teria", "terá", "ter"]
+    }
+  },
+  "ascolto": {
+    "title": "O último trem de Vila Esperança",
+    "genre": "entrevista de história oral",
+    "es": "Para un proyecto de memoria oral, una entrevistadora conversa con un ferroviario jubilado de un pueblo de Minas Gerais sobre el día en que dejó de pasar el tren de pasajeros.",
+    "speakers": [
+      "Clara, entrevistadora",
+      "Seu Aurélio"
+    ],
+    "turns": [
+      [
+        "A",
+        "Seu Aurélio, obrigada por receber a gente. Para começar, o senhor pode contar como foi parar na ferrovia?"
+      ],
+      [
+        "B",
+        "Ah, minha filha, eu tinha quinze anos. Meu pai já trabalhava na estação e me levou para ajudar a carregar as malas. Eu achava que ia ficar uns meses. Fiquei trinta e oito anos."
+      ],
+      [
+        "A",
+        "E como era a estação naquela época?"
+      ],
+      [
+        "B",
+        "Era o coração da cidade, sabe? Todo mundo ia lá. Quem esperava parente, quem vendia pastel, quem só queria ver o trem chegar. Os namoros começavam na plataforma. O meu mesmo começou ali."
+      ],
+      [
+        "A",
+        "Que bonito. E o senhor se lembra do último trem de passageiros?"
+      ],
+      [
+        "B",
+        "Lembro como se fosse hoje. Foi numa quinta-feira. O pessoal tinha colocado bandeirinha, parecia festa, mas era enterro, né? Eu estava na plataforma de uniforme, e quando o trem saiu, o maquinista apitou três vezes. Tinha gente chorando."
+      ],
+      [
+        "A",
+        "O senhor já sabia que ia acabar?"
+      ],
+      [
+        "B",
+        "Olha, a gente desconfiava. Já tinham cortado os horários, os vagões estavam cada vez mais vazios, porque a estrada tinha sido asfaltada e todo mundo tinha comprado carro ou ia de ônibus. Mas ninguém acreditava de verdade."
+      ],
+      [
+        "A",
+        "E o senhor acha que, se o trem não tivesse acabado, a cidade seria diferente hoje?"
+      ],
+      [
+        "B",
+        "Eu acho que sim. Se tivessem mantido pelo menos o trem de carga, muita família não teria ido embora. Os meus dois filhos, por exemplo, foram para Belo Horizonte. Talvez tivessem ficado. Mas também pode ser que não, né? Os jovens sempre querem conhecer o mundo."
+      ],
+      [
+        "A",
+        "E a estação, o que virou?"
+      ],
+      [
+        "B",
+        "Ficou fechada uns vinte anos. Agora a prefeitura reformou e virou biblioteca. Eu vou lá toda semana. Fico sentado no banco da plataforma, lendo jornal, esperando um trem que não vem mais."
+      ]
+    ],
+    "gloss": {
+      "parar": "(foi parar na ferrovia) terminó trabajando en el ferrocarril",
+      "ferrovia": "ferrocarril",
+      "malas": "valijas",
+      "pastel": "empanada frita",
+      "namoros": "noviazgos",
+      "bandeirinha": "banderita",
+      "maquinista": "maquinista",
+      "apitou": "tocó el silbato",
+      "desconfiava": "sospechaba",
+      "vagões": "vagones",
+      "asfaltada": "asfaltada",
+      "carga": "carga (“trem de carga”: tren de carga)",
+      "virou": "se convirtió en"
+    },
+    "questions": [
+      [
+        "Como Seu Aurélio começou a trabalhar na ferrovia?",
+        [
+          "Foi contratado depois de passar num concurso público da ferrovia.",
+          "O pai o levou para ajudar na estação ainda adolescente.",
+          "Começou vendendo pastel na plataforma.",
+          "Foi transferido de uma estação de Belo Horizonte."
+        ],
+        "O pai o levou para ajudar na estação ainda adolescente."
+      ],
+      [
+        "Por que ele diz que a despedida “parecia festa, mas era enterro”?",
+        [
+          "Porque houve uma festa de verdade na cidade logo depois da partida.",
+          "Porque um ferroviário tinha morrido naquela semana.",
+          "Porque a decoração alegre contrastava com a tristeza geral.",
+          "Porque a prefeitura organizou música e discursos."
+        ],
+        "Porque a decoração alegre contrastava com a tristeza geral."
+      ],
+      [
+        "Segundo ele, o que contribuiu para o fim do trem de passageiros?",
+        [
+          "A estrada asfaltada e a preferência pelo carro e pelo ônibus.",
+          "Um acidente grave com um dos vagões.",
+          "A falta de maquinistas na região.",
+          "O fechamento da mina de ferro que sustentava a economia da cidade."
+        ],
+        "A estrada asfaltada e a preferência pelo carro e pelo ônibus."
+      ],
+      [
+        "Qual é a posição de Seu Aurélio sobre os filhos terem ido embora?",
+        [
+          "Tem certeza de que ficariam se o trem tivesse continuado funcionando.",
+          "Culpa os filhos por terem abandonado a cidade.",
+          "Acredita que o trem influenciaria, mas admite a dúvida.",
+          "Acha que a mudança não teve nada a ver com o trem."
+        ],
+        "Acredita que o trem influenciaria, mas admite a dúvida."
+      ],
+      [
+        "A imagem final do entrevistado sugere…",
+        [
+          "alegria com a nova biblioteca da cidade.",
+          "raiva da prefeitura pela reforma da estação.",
+          "vontade de voltar a trabalhar na ferrovia como antigamente.",
+          "uma nostalgia serena por um tempo que não volta."
+        ],
+        "uma nostalgia serena por um tempo que não volta."
+      ]
+    ],
+    "vf": [
+      [
+        "Seu Aurélio trabalhou na ferrovia por mais de três décadas.",
+        "verdadeiro"
+      ],
+      [
+        "O último trem de passageiros partiu num domingo.",
+        "falso"
+      ],
+      [
+        "A esposa de Seu Aurélio também trabalhava na estação.",
+        "não se diz"
+      ],
+      [
+        "A antiga estação continua abandonada até hoje.",
+        "falso"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "relato",
+    "title": "Um objeto que guarda uma história",
+    "fonte": "lettura",
+    "t": "Um projeto de memória oral está reunindo relatos de famílias brasileiras para uma exposição chamada “O que as gavetas guardam”. Após ler a crônica “As cartas da caixa de sapatos”, escreva um relato pessoal para o site do projeto. Comece comentando, em poucas linhas, o que a descoberta da narradora mostra sobre a memória de uma família; depois conte a história de um objeto, uma foto ou um documento da sua família e reflita sobre como a vida de vocês poderia ter sido diferente se algum fato do passado tivesse acontecido de outra forma. Não se esqueça de narrar em primeira pessoa, com um registro semiformal. Seu texto deve ter entre 137 e 197 palavras.",
+    "es": "Un relato personal: partí de la crónica (qué muestra sobre la memoria familiar), contá la historia de un objeto de tu familia y armá una hipótesis en el pasado (se tivesse…, teria…).",
+    "min": 137,
+    "max": 197,
+    "punti": [["Comentar la crónica de las cartas", ["crônica", "cartas", "caixa", "zefinha"]], ["Presentar el objeto y la persona de la familia", ["minha avó", "meu avô", "minha mãe", "meu pai", "bisav", "tio", "tia"]], ["Hipótesis en el pasado", ["tivesse", "teria", "teríamos"]], ["Reflexión sobre la memoria", ["memória", "lembr", "silêncio", "segredo"]]],
+    "model": "O relógio que parou em Buenos Aires\n\nA crônica “As cartas da caixa de sapatos” me fez pensar que a memória de uma família também é feita de silêncios. Às vezes, um único objeto guarda uma história que ninguém teve coragem de contar.\n\nNa minha casa, esse objeto é um relógio de bolso que pertenceu ao meu bisavô, um espanhol que chegou a Buenos Aires em 1923. O relógio está parado às quatro e dez, e meu pai sempre disse que ninguém sabia por quê. Só no ano passado, conversando com uma tia, descobri que meu bisavô tinha comprado uma passagem para o Rio de Janeiro, onde um irmão o esperava. Na véspera da viagem, conheceu minha bisavó num baile e desistiu.\n\nSe ele tivesse embarcado, eu teria nascido brasileiro, e talvez estivesse escrevendo este relato na minha língua materna. Não sei se teríamos sido mais felizes. Sei que o relógio parado, hoje, me parece menos um defeito e mais uma lembrança daquela noite em que tudo poderia ter sido diferente.",
+    "gloss": {
+      "relógio de bolso": "reloj de bolsillo",
+      "passagem": "pasaje",
+      "Na véspera da viagem": "la víspera del viaje, el día antes",
+      "desistiu": "se echó atrás, renunció",
+      "lembrança": "recuerdo"
+    }
+  },
+  "breve": {
+    "title": "Paranapiacaba, a vila da neblina",
+    "genre": "audioguia",
+    "es": "La audioguía de la vieja estación de Paranapiacaba, en la sierra de São Paulo: el ferrocarril inglés del café, el reloj de la torre y la niebla.",
+    "speaker": "Audioguia",
+    "voice": 0,
+    "text": [
+      "Bem-vindo à Vila de Paranapiacaba. Você está na antiga estação, a 800 metros de altitude, no alto da Serra do Mar, em São Paulo.",
+      "A ferrovia foi inaugurada em 1867 por uma companhia inglesa, para levar o café do interior até o porto de Santos. Se os engenheiros não tivessem encontrado uma solução para a serra, que é muito íngreme, o café teria continuado descendo em lombo de mula. A solução foram cabos de aço que puxavam os vagões.",
+      "A vila foi construída para os funcionários da ferrovia. O relógio da torre, que você vê à sua frente, foi trazido da Inglaterra e funciona até hoje.",
+      "Muitos visitantes perguntam pela neblina: ela aparece em quase todas as tardes do ano. Se você tivesse chegado de manhã cedo, talvez tivesse visto a vila inteira coberta de branco. Para continuar a visita, siga até a casa do engenheiro-chefe, a 200 metros daqui."
+    ],
+    "tabella": [
+      [
+        "Altitude da estação (metros)",
+        "800",
+        [
+          "oitocentos",
+          "800 metros"
+        ]
+      ],
+      [
+        "Ano da inauguração da ferrovia",
+        "1867",
+        []
+      ],
+      [
+        "Porto de destino do café",
+        "Santos",
+        [
+          "porto de Santos"
+        ]
+      ],
+      [
+        "País de onde veio o relógio da torre",
+        "Inglaterra",
+        [
+          "da Inglaterra"
+        ]
+      ],
+      [
+        "Distância até a casa do engenheiro-chefe (metros)",
+        "200",
+        [
+          "duzentos",
+          "200 metros"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "A ferrovia foi construída para transportar café.",
+        true
+      ],
+      [
+        "A companhia que construiu a ferrovia era francesa.",
+        false
+      ],
+      [
+        "Os vagões subiam a serra puxados por cabos.",
+        true
+      ],
+      [
+        "O relógio da torre está quebrado.",
+        false
+      ],
+      [
+        "A neblina é comum à tarde.",
+        true
+      ],
+      [
+        "A visita termina na estação.",
+        false
+      ]
+    ],
+    "gloss": {
+      "íngreme": "empinada",
+      "lombo de mula": "lomo de mula",
+      "aço": "acero",
+      "neblina": "niebla",
+      "puxavam": "tiraban de"
+    }
+  }
+}

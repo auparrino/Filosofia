@@ -1,0 +1,46 @@
+{
+ "week": 14,
+ "level": "A2",
+ "title": "Che cosa ti piace di Bologna?",
+ "genre": "sondaggio in diretta",
+ "es": "Radio Portici hace una encuesta: ¿qué les gusta y qué no de la ciudad? Llama otra vez Martín, que ya lleva unos meses en Bologna, y termina recibiendo una invitación.",
+ "speakers": ["Sara", "Martín"],
+ "turns": [
+  ["A", "Oggi facciamo un sondaggio: che cosa vi piace di Bologna e che cosa no? In linea c'è un amico della radio: Martín!"],
+  ["B", "Ciao, Sara! Che bello sentirti."],
+  ["A", "Allora, Martín, tu sei qui da qualche mese. Che cosa ti piace di questa città?"],
+  ["B", "Mi piacciono i portici, perché quando piove non serve l'ombrello. E mi piace tantissimo il cibo: i tortellini, la mortadella, il gelato di via Castiglione..."],
+  ["A", "E che cosa non ti piace?"],
+  ["B", "Non mi piace la nebbia d'inverno. E poi mi manca il mare, e mi mancano gli amici e le grigliate della domenica."],
+  ["A", "Ti capisco. E lo sport? Ti piace il calcio italiano?"],
+  ["B", "Sì, ma non ho ancora una squadra. Sabato ho visto una partita del Bologna allo stadio: mi è sembrata lenta, ma i tifosi sono simpaticissimi!"],
+  ["A", "E la sera che cosa fai? Ti piace ballare?"],
+  ["B", "Mi piace suonare la chitarra, ma ballare... no, cioè, ballo solo il tango, e male!"],
+  ["A", "Allora ti faccio un invito: venerdì la radio organizza una festa in piazza Santo Stefano, con musica dal vivo. Ti va di venire a suonare una canzone argentina?"],
+  ["B", "Mi dispiace, venerdì non posso: ho lezione fino alle nove. Ma sabato sono libero!"],
+  ["A", "Peccato! Allora sabato facciamo una passeggiata e ti porto a mangiare il pesce in un posto buonissimo. D'accordo?"],
+  ["B", "D'accordo! A sabato, Sara!"]
+ ],
+ "gloss": {
+  "sondaggio": "encuesta",
+  "in linea": "en línea, al teléfono",
+  "nebbia": "niebla",
+  "grigliate": "asados, parrilladas",
+  "tifosi": "hinchas",
+  "chitarra": "guitarra",
+  "dal vivo": "en vivo",
+  "Ti va di": "¿tenés ganas de…?"
+ },
+ "questions": [
+  ["Perché a Martín piacciono i portici?", ["Perché sono antichi e famosi in tutto il mondo", "Perché con la pioggia non serve l'ombrello", "Perché ci sono tanti bar e negozi", "Perché sono vicini alla sua casa"], "Perché con la pioggia non serve l'ombrello"],
+  ["Che cosa manca a Martín?", ["Il mare, gli amici e le grigliate", "La nebbia e il freddo", "Una squadra di calcio da tifare allo stadio", "Una chitarra per suonare"], "Il mare, gli amici e le grigliate"],
+  ["Perché Martín non va alla festa di venerdì?", ["Perché non gli piace ballare", "Perché ha lezione fino alle nove", "Perché non sa suonare", "Perché va allo stadio"], "Perché ha lezione fino alle nove"]
+ ],
+ "info": [
+  ["A Martín piace il gelato di via Castiglione.", true],
+  ["Martín ha già una squadra del cuore.", false],
+  ["Sara e Martín si vedono sabato.", true]
+ ],
+ "grammatica": {"label": "piacere, mancare, sembrare y dispiacere con el pronombre indirecto", "forme": ["ti piace", "mi piacciono", "mi piace", "non mi piace", "mi manca", "mi mancano", "mi è sembrata", "mi dispiace", "che cosa vi piace"]},
+ "parole": [["cibo", "cibo"], ["gelato", "gelato"], ["manca", "mancare"], ["squadra", "squadra"], ["partita", "partita"], ["sembrata", "sembrare"], ["ballare", "ballare"], ["suonare", "suonare"], ["cioè", "cioè"], ["canzone", "canzone"], ["dispiace", "dispiacere"], ["passeggiata", "passeggiata"], ["pesce", "pesce"]]
+}

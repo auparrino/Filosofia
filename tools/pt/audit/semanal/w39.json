@@ -1,0 +1,39 @@
+{
+ "week": 39,
+ "title": "CHEFÃO — Nível B2",
+ "level": "B2",
+ "revisado": {"items": 20, "bloques_teoria": 6, "lecturas": 1, "dictogloss": 0, "suoni": 0, "radio": 0, "otros": 0},
+ "veredicto": "bien con reparos",
+ "resumen": "Semana jefe de repaso (3.ª estación) con teoría correcta y compacta y 20 ítems sin errores gramaticales claros en el portugués. Los reparos son: tratar «namorar com» como error absoluto, llamar «passiva» a «precisa-se de», algunas listas de accept incompletas en traducciones y varios ítems que repiten literalmente los quizzes de la lección. El dossier trae solo 20 ítems aunque parts declara 10 + 154 (inconsistente, no verificable). La lectura sobre las Diretas Já es natural y usa la gramática de la semana; un dato (fecha de elecciones si se aprobaba la emenda) conviene verificarlo. Faltan dictogloss, suoni, radio y laboratorio (vacíos).",
+ "bien": [
+  "Lección-hoja de repaso con reglas cortas, ejemplos con traducción y tabla «No/Sí» de las trampas típicas del hispanohablante (quando eu chegue, se eu poderia, precisam-se).",
+  "Notas explicativas correctas y útiles (p. ej. «aprobar un examen = passar», todavía = ainda, tras «se» nunca condicional).",
+  "Lectura histórica verosímil y fiel (10/4/1984 Candelária, emenda Dante de Oliveira 25/4, Tancredo/Sarney) que integra futuro do subjuntivo, infinitivo pessoal y condicional pasado.",
+  "Buena mezcla de tipos (choice, cloze, translate, fixerr, typed) y contextos cariocas coherentes con el curso.",
+  "El ítem 07 acepta la variante coloquial «tinha passado» y la omisión de sujeto, alineado con pt-BR real."
+ ],
+ "hallazgos": [
+  {"id": "s3-39-18", "lang": "pt", "severidad": "duda", "actual": "A Bia namora com um português de Coimbra.", "propuesta": "Aceptar también «namora com» como uso corriente, o aclarar en la consigna «norma culta» (como en s3-39-11) y marcarlo como registro, no como error.", "motivo": "«namorar com» es muy frecuente en pt-BR y registrado en diccionarios; presentarlo como incorrecto sin matiz es exagerado."},
+  {"id": "lesson:3:q1", "lang": "regla", "severidad": "duda", "actual": "A Bia namora ___ Rafa.", "propuesta": "Añadir a la regla: «namorar alguém (norma culta); en habla, también namorar com».", "motivo": "Opción «com o» se marca como errada y la tabla de trampas pone «namoro com a Bia» en la columna No."},
+  {"id": "s3-39-14", "lang": "regla", "severidad": "duda", "actual": "Complete o cartaz com a passiva com se.", "propuesta": "«Complete o cartaz com o verbo + se (sujeito indeterminado).»", "motivo": "«Precisa-se de» es índice de indeterminación del sujeto, no voz pasiva; la consigna (y el título del bloque 5 «pasiva») lo confunde con «vendem-se»."},
+  {"id": "lesson:2:table", "lang": "pt", "severidad": "duda", "actual": "perguntou se eu ia", "propuesta": "perguntou se eu vinha (o perguntou se eu ia, aclarando ir/vir según perspectiva)", "motivo": "«Você vem?» retrocede de forma más directa a «vinha»; «ia» cambia el verbo sin explicarlo."},
+  {"id": "lesson:5:table", "lang": "ejercicio", "severidad": "duda", "actual": "todavia não chegou", "propuesta": "Cambiar la fila a «todavia = ainda (falso amigo): «Todavia não chegou» → «Ainda não chegou»» con aclaración de que todavia en pt significa «sin embargo».", "motivo": "«todavia» es correcto en portugués con valor adversativo; en columna «No» sin explicación parece un error del portugués."},
+  {"id": "w-39", "lang": "regla", "severidad": "duda", "actual": "Se tivesse sido aprovada, o povo teria votado já em 1985.", "propuesta": "Verificar la fecha; si la enmienda preveía elecciones directas en 1984, escribir «teria votado já naquele ano» o «ainda em 1984».", "motivo": "No estoy seguro de que la emenda fijara 1985; el dato histórico debería comprobarse antes de enseñarlo."},
+  {"id": "s3-39-08", "lang": "ejercicio", "severidad": "mejora", "actual": "Quando eu chegar a Lisboa, te ligo", "propuesta": "Añadir a accept: «Quando eu chegar a/em Lisboa, eu ligo pra/para você», «...ligo pra você» con «eu» explícito, y «...te ligarei».", "motivo": "Respuestas naturales equivalentes faltan en la lista (la combinatoria no es completa)."},
+  {"id": "s3-39-16", "lang": "ejercicio", "severidad": "mejora", "actual": "Prefiro samba a funk", "propuesta": "Añadir a accept: «Eu prefiro samba a funk», «Eu prefiro o samba ao funk», «Prefiro o samba a funk».", "motivo": "El enunciado español lleva artículos y la respuesta principal no; faltan variantes con «eu»."},
+  {"id": "s3-39-17", "lang": "ejercicio", "severidad": "mejora", "actual": "Todavía no leí Os Lusíadas.", "propuesta": "Añadir a accept «Ainda não li Os Lusíadas» con comillas/cursiva y «Eu ainda não li Os Lusíadas»; opcional «Nunca li».", "motivo": "Variantes de formato del título pueden rechazarse."},
+  {"id": "s3-39-10", "lang": "ejercicio", "severidad": "mejora", "actual": "É hora de ___, galera!", "propuesta": "Variar el contexto (no repetir «É hora de irmos» de la lección).", "motivo": "Ítem idéntico al ejemplo del bloque 0; se resuelve por memoria."},
+  {"id": "s3-39-04", "lang": "ejercicio", "severidad": "mejora", "actual": "É bom vocês ___ (fazer) a reserva com antecedência.", "propuesta": "Cambiar el verbo/oración (p. ej. «É bom eles ___ (trazer) os documentos») para no duplicar el quiz de la lección.", "motivo": "Casi duplicado del quiz del bloque 0."},
+  {"id": "s3-39-13", "lang": "ejercicio", "severidad": "mejora", "actual": "portanto", "propuesta": "Sustituir «inclusive» por un distractor adversativo-cercano (p. ej. «porque» o «além disso») y mantener «portanto» como conclusivo contrastable.", "motivo": "Los distractores se descartan solo por sentido, no por conocimiento del conector."},
+  {"id": "s3-39-20", "lang": "es", "severidad": "mejora", "actual": "Qual é o conector formal de uma palavra, com «c» inicial, que significa «sin embargo»?", "propuesta": "Pista más directa en portugués: «Escreva o conector formal (uma palavra, começa com c) equivalente a «sin embargo»».", "motivo": "Consigna mezcla idiomas y depende de la pista de la inicial; además «todavia/porém» también son válidos."}
+ ],
+ "mejoras": [
+  {"prioridad": "alta", "que": "Ampliar la cobertura de ítems: discurso indirecto (solo 2 ítems), infinitivo pessoal (2), colocación pronominal (1-2), conectores (2-3) y regencia (5) están poco practicados para un chefão; añadir producción (conjugate, typed con frase) en cada bloque.", "por_que": "Un examen de estación debe medir cada regla con 3-4 ítems."},
+  {"prioridad": "alta", "que": "Reconciliar parts.n_items (10 + 154) con los 20 ítems del dossier; confirmar si faltan ítems o si el conteo está mal.", "por_que": "Inconsistencia que impide evaluar carga y cobertura reales."},
+  {"prioridad": "media", "que": "Evitar que los ítems repitan literalmente los quizzes de la lección (frases de 01, 04, 10, 12, 18).", "por_que": "Se resuelven por reconocimiento, no por regla."},
+  {"prioridad": "media", "que": "Agregar a la lección una explicación breve de cuándo se usa el infinitivo pessoal (sujeto distinto, tras preposición) y la excepción de discurso indirecto con verbos de movimiento (vem→vinha).", "por_que": "La teoría da solo la forma, no el criterio de uso; es la trampa más frecuente."},
+  {"prioridad": "media", "que": "Matizar «namorar com» y «precisa-se de» (norma culta vs uso, sujeto indeterminado vs pasiva).", "por_que": "Evitar enseñar como falso un uso corriente en pt-BR."},
+  {"prioridad": "baja", "que": "Completar dictogloss, suoni (p. ej. ê/é, ã) y laboratorio o dejarlos fuera por diseño; añadir a la lectura una pregunta de inferencia y un ítem V/F distinto de Q2.", "por_que": "La semana jefe carece de trabajo oral y de variedad en la lectura; V/F «A emenda foi aprovada em 1984» repite la pregunta 2."}
+ ],
+ "por_idioma": {"pt": {"errores": 0, "dudas": 2}, "es": {"errores": 0, "dudas": 0}, "en": {"errores": 0, "dudas": 0}}
+}

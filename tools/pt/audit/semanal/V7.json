@@ -1,0 +1,106 @@
+[
+ {
+  "id": "lesson:7",
+  "lote": "w01",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "La regla es excesiva: en pt-BR lo natural para ubicar un lugar es ficar (o estar); «é em» sirve sobre todo para eventos. No es falso del todo (a casa é em Botafogo se oye), pero enseña mal.",
+  "fuente": "tools/pt/lessons/s1.py:142-143",
+  "correccion": "Una diferencia: dónde **queda** algo fijo va con *ficar* (o *estar*): *o apartamento fica em Botafogo*; con eventos, *ser*: *a festa é em Botafogo*."
+ },
+ {
+  "id": "item s1-04-15",
+  "lote": "w04",
+  "veredicto": "RECHAZADO",
+  "razon": "En pt-BR raro = poco frecuente; «extraño» es estranho/esquisito. La advertencia de falso amigo es correcta y útil (ela é meio rara no se usa así).",
+  "fuente": "tools/pt/authored/s1.py:475",
+  "correccion": ""
+ },
+ {
+  "id": "item s1-09-35",
+  "lote": "w09",
+  "veredicto": "RECHAZADO",
+  "razon": "El curso enseña la tabla con tu (és, estás), así que aceptar «Tu viras» es tolerancia inocua; la nota ya dice que la forma base es você vira. No es un error del curso.",
+  "fuente": "tools/pt/authored/s1.py:1045",
+  "correccion": ""
+ },
+ {
+  "id": "item s2-14-03",
+  "lote": "w14",
+  "veredicto": "CONFIRMADO",
+  "razon": "«gosta de música brasileira» (genérico) es igual de correcto; el ejercicio tiene dos respuestas válidas (de/da).",
+  "fuente": "tools/pt/authored/s2.py:86",
+  "correccion": "A Sofía gosta ___ música que toca no rádio. (answer: da; nota: gostar de + a música = da música)"
+ },
+ {
+  "id": "lesson:5:0",
+  "lote": "w20",
+  "veredicto": "CONFIRMADO",
+  "razon": "«e» portugués dentro de una frase en español.",
+  "fuente": "tools/pt/lessons/s2.py:768",
+  "correccion": "...(*muitas pessoas*) y no varían como adverbio (*muito caro*)."
+ },
+ {
+  "id": "item s3-29-39",
+  "lote": "w29",
+  "veredicto": "CONFIRMADO",
+  "razon": "ter es irregular; la nota dice «en los regulares» y ejemplifica con ter: se contradice.",
+  "fuente": "tools/pt/authored/s3.py:509",
+  "correccion": "En los regulares el infinitivo pessoal coincide con el futuro do subjuntivo (falarem) y eso confunde; con ter se separan: terem (infinitivo pessoal) ≠ tiverem (futuro do subjuntivo)."
+ },
+ {
+  "id": "tramo:lettura:hunt",
+  "lote": "w33",
+  "veredicto": "CONFIRMADO",
+  "razon": "La consigna pide todos los pronombres con guion y el texto tiene más: Diga-me, resumiam-se, montá-lo, refazê-lo, respondeu-lhe, riram-se (también Tentou dissuadi-lo ya está). Tocarlos no puntuaría.",
+  "fuente": "docs/lang/pt/tramo_data.js:4526-4540 (y fuente en tools/pt/tramo/w*.json)",
+  "correccion": "Agregar a targets: \"diga-me\", \"resumiam-se\", \"montá-lo\", \"refazê-lo\", \"respondeu-lhe\", \"riram-se\"."
+ },
+ {
+  "id": "lesson:5:warn",
+  "lote": "w43",
+  "veredicto": "CONFIRMADO",
+  "razon": "em relação à y devido à no son fijas: la crase aparece solo ante femenino con artículo (em relação ao prazo, devido a problemas). Solo à disposição es fija.",
+  "fuente": "tools/pt/lessons/s4.py:433",
+  "correccion": "Con crase fija: *à disposição*. Con *em relação a* y *devido a* la crase depende de lo que sigue: *em relação à proposta*, *em relação ao prazo*, *devido a problemas*. Sin crase ante verbo y ante masculino: *a partir de hoje*, *a pedido do senhor*."
+ },
+ {
+  "id": "dictogloss 46",
+  "lote": "w46",
+  "veredicto": "CONFIRMADO",
+  "razon": "El texto contrasta con el uso brasileño (pega-se... e não o trem); lo europeo es apanha-se o comboio. Pegar es la forma brasileña, inconsistente con el contraste. Cambiar también el chunk.",
+  "fuente": "docs/lang/pt/dictogloss_data.js:442 y 443",
+  "correccion": "Em Lisboa, apanha-se o comboio, e não o trem; ... chunk: \"apanha-se o comboio\""
+ },
+ {
+  "id": "item s4-48-39",
+  "lote": "w48",
+  "veredicto": "CONFIRMADO",
+  "razon": "La regla es falsa: construir → construção, destruir → destruição, contribuir → contribuição; solo concluir/incluir/excluir dan -usão.",
+  "fuente": "tools/pt/authored/s4.py:1541",
+  "correccion": "concluir → conclusão (como incluir → inclusão): ojo, no es regla general de -uir: construir → construção, contribuir → contribuição."
+ },
+ {
+  "id": "tramo-conn",
+  "lote": "T-extra-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "Se trata de «una guía» (el texto modelo), femenino; «un guía» es la persona.",
+  "fuente": "tools/pt/tramo/fichas.json:698 y docs/lang/pt/tramo_data.js:1695",
+  "correccion": "Una guía de 60 palabras."
+ },
+ {
+  "id": "nouns:25",
+  "lote": "T-lessico-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Também» portugués en nota en español.",
+  "fuente": "tools/pt/bank/parole_nomi.py:1009 (y docs/lang/pt/data/bank.json)",
+  "correccion": "También el barrilete (en algunas regiones)."
+ },
+ {
+  "id": "testi:diagnosi.js:4",
+  "lote": "T-ui-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "razão se escribe con z; el ejemplo contradice la regla -ção. Corazón → coração, razón → razão.",
+  "fuente": "docs/lang/pt/diagnosi.js:942",
+  "correccion": "-zón es *-ção* o *-zão*: coração, razão."
+ }
+]

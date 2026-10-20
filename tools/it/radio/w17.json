@@ -1,0 +1,49 @@
+{
+ "week": 17,
+ "level": "A2",
+ "title": "La famiglia di Dario",
+ "genre": "chiacchierata in studio",
+ "es": "El domingo la familia de Dario vino de Nápoles a visitarlo. Sara mira la foto de la comida en la computadora de la radio y quiere saber quién es cada uno.",
+ "speakers": ["Sara", "Dario"],
+ "turns": [
+  ["A", "Buongiorno! Dario, sul sito della radio c'è una foto bellissima: un tavolo lunghissimo e tante persone. Chi sono?"],
+  ["B", "È la mia famiglia! Domenica sono venuti tutti da Napoli per il mio compleanno. Abbiamo passato una giornata splendida."],
+  ["A", "Allora dimmi chi è chi. Questa signora con gli occhiali?"],
+  ["B", "Questa è mia madre. E quel signore alto vicino alla finestra è mio padre: è lui che ha cucinato."],
+  ["A", "E questi due ragazzi uguali?"],
+  ["B", "Sono i miei cugini, Gennaro e Ciro: sono gemelli. Nessuno li riconosce, neanche la loro madre! Lei è mia zia Rosa, la sorella di mio padre."],
+  ["A", "E quella bambina con il gelato in mano?"],
+  ["B", "È Sofia, mia nipote, la figlia di mia sorella. Mia sorella è quella con il vestito rosso, e quello con la barba è suo marito."],
+  ["A", "E i tuoi nonni?"],
+  ["B", "I miei nonni purtroppo non sono venuti: sono anziani e ogni viaggio è una fatica. Ma alcuni parenti hanno portato un regalo da parte loro: una scatola di sfogliatelle."],
+  ["A", "Quanta gente! E dove avete mangiato? A casa tua?"],
+  ["B", "Scherzi? La mia casa è piccolissima: ha solo una camera e una cucina. Abbiamo mangiato in un'osteria qui vicino. Il proprietario ci ha lasciato tutta la sala."],
+  ["A", "Che bella famiglia. È chiaro che ti vogliono bene!"],
+  ["B", "Sì. E qualcuno ha già bisogno di tornare: mia madre dice che a Bologna fa troppo freddo!"]
+ ],
+ "gloss": {
+  "sito": "sitio web",
+  "splendida": "espléndida, hermosísima",
+  "gemelli": "mellizos",
+  "riconosce": "reconoce",
+  "fatica": "esfuerzo, cansancio",
+  "da parte loro": "de parte de ellos",
+  "sfogliatelle": "masas de hojaldre típicas de Nápoles",
+  "Scherzi?": "¿Me estás cargando?",
+  "osteria": "bodegón, fonda",
+  "proprietario": "dueño",
+  "ti vogliono bene": "te quieren"
+ },
+ "questions": [
+  ["Perché la famiglia di Dario è venuta a Bologna?", ["Per il compleanno di Dario", "Per il matrimonio della sorella", "Per vedere la radio", "Per le vacanze di Natale"], "Per il compleanno di Dario"],
+  ["Chi è Sofia?", ["La cugina di Dario", "La figlia della sorella di Dario", "La zia di Dario, sorella del padre", "La moglie di Dario"], "La figlia della sorella di Dario"],
+  ["Dove hanno mangiato?", ["A casa di Dario, in cucina", "In un'osteria vicino alla casa di Dario", "In un ristorante di Napoli", "Nella sala della radio"], "In un'osteria vicino alla casa di Dario"]
+ ],
+ "info": [
+  ["Il padre di Dario ha cucinato.", true],
+  ["I nonni di Dario sono venuti in treno.", false],
+  ["La madre di Dario vuole trasferirsi a Bologna.", false]
+ ],
+ "grammatica": {"label": "demostrativos, posesivos (sin artículo con los familiares) e indefinidos", "forme": ["questa signora", "questa è mia madre", "quel signore", "mio padre", "questi due ragazzi", "i miei cugini", "la loro madre", "mia zia", "quella bambina", "mia nipote", "suo marito", "i tuoi nonni", "i miei nonni", "nessuno", "ogni viaggio", "alcuni parenti", "qualcuno", "casa tua"]},
+ "parole": [["cugini", "cugino"], ["zia", "zio"], ["sorella", "sorella"], ["nipote", "nipote"], ["figlia", "figlio"], ["marito", "marito"], ["nonni", "nonno"], ["parenti", "parente"], ["giornata", "giornata"], ["lasciato", "lasciare"], ["bisogno", "bisogno"]]
+}

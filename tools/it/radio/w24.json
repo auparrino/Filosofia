@@ -1,0 +1,45 @@
+{
+ "week": 24,
+ "level": "B1",
+ "title": "L'autobus della notte",
+ "genre": "commento alle notizie",
+ "es": "En el diario del barrio sale una noticia que enoja a los estudiantes: la ciudad quiere sacar un colectivo nocturno. Sara y Leo la comentan, cada uno con su opinión, y leen los mensajes de los oyentes.",
+ "speakers": ["Sara", "Leo"],
+ "turns": [
+  ["A", "Buongiorno! Oggi commentiamo una notizia del giornale di quartiere: il Comune vuole cancellare l'autobus della notte, quello che parte dalla stazione a mezzanotte e mezza. In studio c'è Leo. Leo, che te ne pare?"],
+  ["B", "Mi pare una sciocchezza. Penso che sia un errore grave: molti studenti tornano a casa tardi dal lavoro, e senza l'autobus devono prendere un taxi o tornare a piedi."],
+  ["A", "Però il Comune dice che di notte i passeggeri sono pochi e che l'autobus costa troppo. Secondo me hanno un po' ragione: i soldi sono delle nostre tasse."],
+  ["B", "Non sono d'accordo. Credo che i mezzi pubblici servano proprio a questo: a chi non ha la macchina. E poi dubito che i passeggeri siano così pochi: io lo prendo ogni venerdì ed è sempre pieno."],
+  ["A", "Vediamo che cosa dicono gli ascoltatori. Scrive Marta: «Mi sembra che il Comune abbia torto. Io lavoro in un ristorante e finisco all'una. Voglio che qualcuno pensi anche a noi»."],
+  ["B", "Brava Marta! Ecco, è proprio questo l'argomento."],
+  ["A", "Scrive invece il signor Bruno: «Non credo che sia un problema: la notte i giovani fanno rumore sull'autobus e non sono educati. Meglio che stiano a casa!»"],
+  ["B", "Questo mi pare un pettegolezzo, non un argomento! Io non conosco nessuno che faccia rumore alle due di notte."],
+  ["A", "Va bene, calma. C'è anche chi propone una soluzione: un autobus più piccolo, ogni ora invece di ogni mezz'ora. Pare che il Comune ci stia pensando."],
+  ["B", "Una soluzione così mi piace. Basta che sia affidabile e che passi davvero, perché d'inverno aspettare alla fermata è terribile."],
+  ["A", "Allora speriamo che il Comune ascolti anche Radio Portici. E voi, ascoltatori: pensate che l'autobus della notte serva? Scriveteci, e leggeremo i messaggi domani."]
+ ],
+ "gloss": {
+  "quartiere": "barrio",
+  "che te ne pare?": "¿qué te parece?",
+  "grave": "grave, serio",
+  "passeggeri": "pasajeros",
+  "rumore": "ruido",
+  "propone": "propone",
+  "ci stia pensando": "lo esté pensando",
+  "Basta che": "con tal de que, alcanza con que",
+  "fermata": "parada",
+  "Scriveteci": "escríbannos"
+ },
+ "questions": [
+  ["Che cosa vuole fare il Comune?", ["Cancellare l'autobus della notte", "Aumentare il prezzo del biglietto", "Chiudere la stazione di notte", "Comprare autobus più grandi"], "Cancellare l'autobus della notte"],
+  ["Perché Leo non crede che i passeggeri siano pochi?", ["Perché lo dice il giornale", "Perché lui prende l'autobus il venerdì ed è sempre pieno", "Perché lo ha letto in un messaggio", "Perché lavora in un ristorante fino all'una"], "Perché lui prende l'autobus il venerdì ed è sempre pieno"],
+  ["Quale soluzione piace a Leo?", ["Un taxi gratis per tutti gli studenti", "Un autobus più piccolo, ogni ora", "Andare a casa a piedi", "Un autobus solo il venerdì"], "Un autobus più piccolo, ogni ora"]
+ ],
+ "info": [
+  ["All'inizio Sara pensa che il Comune abbia un po' ragione.", true],
+  ["Marta lavora in un bar della stazione.", false],
+  ["Secondo il signor Bruno i giovani non sono educati.", true]
+ ],
+ "grammatica": {"label": "el congiuntivo presente después de penso, credo, mi sembra, dubito, voglio, speriamo", "forme": ["penso che sia", "credo che i mezzi pubblici servano", "dubito che i passeggeri siano", "mi sembra che il comune abbia torto", "voglio che qualcuno pensi", "non credo che sia", "meglio che stiano", "nessuno che faccia", "pare che il comune ci stia pensando", "basta che sia", "che passi", "speriamo che il comune ascolti", "pensate che l'autobus della notte serva"]},
+ "parole": [["notizia", "notizia"], ["cancellare", "cancellare"], ["pare", "parere"], ["sciocchezza", "sciocchezza"], ["tasse", "tasse"], ["secondo", "secondo"], ["d'accordo", "d'accordo"], ["mezzi pubblici", "mezzi pubblici"], ["dubito", "dubitare"], ["torto", "torto"], ["argomento", "argomento"], ["educati", "educato"], ["pettegolezzo", "pettegolezzo"], ["affidabile", "affidabile"]]
+}

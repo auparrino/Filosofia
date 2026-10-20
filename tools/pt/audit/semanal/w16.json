@@ -1,0 +1,204 @@
+{
+ "week": 16,
+ "title": "Pronomes objeto",
+ "level": "A2",
+ "revisado": {
+  "items": 51,
+  "bloques_teoria": 9,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 10,
+  "radio": 1,
+  "otros": 1
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida: el portugués es correcto en todo el dossier (no encontré errores de pt) y la teoría contrasta bien norma escrita vs habla de Brasil (próclise, «vi ele», objeto nulo). Hay un error de ejercicio (s2-16-23, género ambiguo), una nota con una analogía falsa con el español (s2-16-36) y algunas ambigüedades en ítems pragmáticos. El problema principal es de equilibrio: ~14 ítems practican la ênclise escrita (-lo/-la) y muy pocos el uso real que el tema promete, y hay triplicados (comigo, comprá-lo, não me viu).",
+ "bien": [
+  "Pt correcto y brasileño en todo: próclise coloquial, «a gente», pro/pra, objeto nulo; los ejemplos usan vocabulario carioca real (Feira Hippie, Uruguaiana, camelô).",
+  "Doble registro bien explicado (escrito: eu o vi / comprá-lo; habla: vi ele / comprei) con advertencias claras sobre cuándo usar cada uno.",
+  "Teoría ordenada en 4 partes con tabla, ejemplos con traducción, errores típicos del hispanohablante (para mim ver, «se lo», «conmigo», tilde en abri-la).",
+  "Buena mezcla de tipos (choice, cloze, translate, fixerr, garden, typed, scopri) y listas accept generosas en translate (pra/para, Vou te ligar).",
+  "Lectura, flood de próclise, dictogloss y radioteatro reciclan los pronombres de la semana con vocabulario temático; el radio incluye las 12 formas de grammatica realmente presentes en el texto."
+ ],
+ "hallazgos": [
+  {
+   "id": "s2-16-23",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Eu vi ___ ontem na Lapa. (a Rafa, como se dice al hablar)",
+   "propuesta": "Cambiar la pista a «(a Rafael, como se dice al hablar)» o aceptar también «ela» (Rafa puede ser Rafael o Rafaela).",
+   "motivo": "El género del referente es ambiguo: «ela» es igual de correcto y se marcaría mal."
+  },
+  {
+   "id": "s2-16-36",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "*Com* + *nós* se fusiona en *conosco* (en Brasil, con *s*), como nuestro «con nosotros».",
+   "propuesta": "*Com* + *nós* se fusiona en *conosco* (en Brasil, con *s*), como el español «conmigo»; en español «con nosotros» no se fusiona.",
+   "motivo": "Analogía falsa: «con nosotros» son dos palabras en español; solo conmigo/contigo se fusionan."
+  },
+  {
+   "id": "prag-16-4",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "como, más o menos",
+   "propuesta": "Quitar «por ejemplo» como opción o cambiar la nota; o poner un estímulo donde tipo solo pueda ser aproximación.",
+   "motivo": "La nota y la lección dicen que tipo también introduce un ejemplo, así que «por ejemplo» es defendible; solo el contexto (unas dez) lo descarta."
+  },
+  {
+   "id": "col-16-1",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "El favor se pede (se pide) y se faz (se hace), nunca se dá: você me faz um favor?",
+   "propuesta": "Reemplazar «pede» por un distractor realmente incorrecto (p. ej. «tem»/«põe») o reformular la nota.",
+   "motivo": "«pedir um favor» es colocación válida (la propia nota lo dice); solo el sentido de la frase descarta «pede»."
+  },
+  {
+   "id": "prag-16-2",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "— Você cozinha muito bem! — ___",
+   "propuesta": "Dar contexto: «— Adorei o jantar! Você cozinha muito bem! — ___» (la respuesta correcta alude a «gostou»).",
+   "motivo": "«Que bom que você gostou!» responde a una comida probada; sin contexto, el elogio general admite un «obrigado!» como respuesta."
+  },
+  {
+   "id": "lesson:4",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "El portugués no duplica el objeto.",
+   "propuesta": "«En el uso cotidiano el portugués no duplica el objeto» (la duplicación con ênfasis, «dei-lhe o livro a ele», existe en registro escrito).",
+   "motivo": "Afirmación absoluta y levemente exagerada."
+  },
+  {
+   "id": "fl-proclise",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "cosa imposible en español («¡Llamame!»)",
+   "propuesta": "«cosa imposible en español con el imperativo («¡Llamame!» lleva el pronombre detrás)»",
+   "motivo": "«Te espero» es normal en español; lo imposible es la próclise con imperativo afirmativo, no al comienzo de frase."
+  },
+  {
+   "id": "s2-16-29",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Eu disse para ele ontem.",
+   "propuesta": "Ampliar accept: «Eu disse pra ele ontem.», «Eu disse isso para ele ontem.», «Eu lhe disse ontem.», «Disse-lhe ontem.»",
+   "motivo": "Respuesta única en un fixerr con varias correcciones igual de naturales."
+  },
+  {
+   "id": "s2-16-10",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Te ligo amanhã",
+   "propuesta": "Agregar accept: «Amanhã eu te ligo», «Amanhã te ligo», «Te ligo amanhã.»",
+   "motivo": "Orden con adverbio inicial muy natural y no aceptado."
+  },
+  {
+   "id": "s2-16-38",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Isso fica entre ___ e você.",
+   "propuesta": "Enseñar «entre mim e você» en la lección (bloque con preposición) o cambiar el ítem.",
+   "motivo": "«entre» no figura entre las preposiciones del bloque; el coloquial «entre eu e você» compite con la norma."
+  },
+  {
+   "id": "s2-16-14",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Leia as frases e descubra a regra.",
+   "propuesta": "Poner 2-3 frases de ejemplo en el stem o cambiar la consigna.",
+   "motivo": "La consigna remite a frases que el ítem no muestra (igual en s2-16-32)."
+  },
+  {
+   "id": "s2-16-44",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "para nós → ___",
+   "propuesta": "Verificar que los tres ejemplos previos muestren el patrón para mim → comigo; si no, cambiar a «com + nós → ___».",
+   "motivo": "Sin los ejemplos, «para nós → conosco» parece una transformación incoherente."
+  },
+  {
+   "id": "w-16",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "E o bolo? Você esqueceu?",
+   "propuesta": "Introducir el bolo antes (p. ej. «a Bia faz aniversário; a Sofía prometeu levar um bolo»).",
+   "motivo": "El bolo aparece de la nada; el vf sobre «esqueceu o bolo na feira» queda forzado."
+  },
+  {
+   "id": "w-16",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "\"escrito\": \"escrito\"",
+   "propuesta": "Eliminar esa glosa o traducir «escrito» con contexto (p. ej. «escrito (por escrito)»).",
+   "motivo": "Glosa idéntica a la palabra: no aporta."
+  },
+  {
+   "id": "p-140",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "El presente (eu falo) carga el acento en la raíz y la -o final suena «u»; el perfeito (ele falou) lo carga al final, en una ô cerrada.",
+   "propuesta": "Usar los ejemplos del par: «eu canto» / «ele cantou».",
+   "motivo": "El ejemplo de la nota no coincide con el par mostrado (canto/cantou)."
+  },
+  {
+   "id": "p-119",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "El español las confunde; el portugués no.",
+   "propuesta": "«El español rioplatense pronuncia las dos igual (/b/); el portugués las distingue.»",
+   "motivo": "Más preciso: no es una confusión sino que el español estándar no tiene la distinción."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Rebalancear la práctica: reducir los ~14 ítems de ênclise escrita (-lo/-la; hay 3 sobre comprá-lo y 3 sobre comigo) y sumar ítems de uso real: «quero ver ela», «dei pra ele», pro/pra, objeto nulo con otros verbos, me/te + verbo en respuestas y mensajes.",
+   "por_que": "El tema declara «lo que de verdad se dice en Brasil» pero la práctica pesa sobre la norma escrita."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar ítems para lo enseñado sin práctica: formas nasales (dão-no, põe-na), plural os/as/lhes, tras vocal queda o (vi-o) y lhes; hoy solo aparecen en teoría o en notas.",
+   "por_que": "Hay puntos de la lección sin ningún ejercicio."
+  },
+  {
+   "prioridad": "media",
+   "que": "Eliminar o fusionar duplicados casi idénticos: s2-16-05/11/13 (não me viu), s2-16-20/26/28 (comprá-lo), s2-16-34/40/45 (comigo).",
+   "por_que": "Triple repetición con poco valor incremental."
+  },
+  {
+   "prioridad": "media",
+   "que": "Enseñar en la lección que tras vocal el pronombre queda -o/-a (vi-o, comprei-a), ya que s2-16-25 acepta «Vi-o» y s2-16-32 lo menciona solo en la nota.",
+   "por_que": "Se evalúa/acepta algo no explicado en los bloques."
+  },
+  {
+   "prioridad": "media",
+   "que": "Mejorar ítems pragmáticos (prag-16-2, prag-16-4, col-16-1) con contexto o distractores claramente erróneos; los de la serie B1 (colocações/pragmática) están marcados B1 dentro de una semana A2.",
+   "por_que": "Evitar ambigüedad y respetar el nivel."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Variar la lectura: el texto principal mezcla comprou-a/mostrou-lhe con «Me dá» sin explicar el cambio de registro; el final dice «eu vi ele» que no aparece en el relato. Hacer que el diálogo de Bia incluya «eu vi ele».",
+   "por_que": "Cohesión entre texto y cierre metalingüístico."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Revisar que el bloque 6 («Palavras que não estão no dicionário (3)») se sienta conectado con el tema de pronombres; hoy hay 4 ítems de pragmática/léxico sin relación gramatical.",
+   "por_que": "Carga lateral al tema central."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "es": {
+   "errores": 1,
+   "dudas": 1
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

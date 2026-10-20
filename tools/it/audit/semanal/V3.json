@@ -1,0 +1,170 @@
+[
+ {
+  "id": "asc-1-10",
+  "lote": "w01",
+  "veredicto": "CONFIRMADO",
+  "razon": "La doble nn no es la ñ; la nota contradice la regla gn=ñ. Solo hay parentesco etimológico.",
+  "fuente": "tools/authored/ascolto.py:22",
+  "correccion": "anno = año (con doble n; sin la doble, «ano» es otra palabra). Ojo: la ñ del español se escribe gn en italiano (bagno)."
+ },
+ {
+  "id": "sfida:r07-01h",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "La sfida no aparece en la semana 1: course.json la coloca en week 22 (w.challenges). El 'week':1 del challenge y wk=1 de los ítems solo afecta el muestreo de boss/gym.",
+  "fuente": "docs/data/course.json weeks[22].challenges",
+  "correccion": ""
+ },
+ {
+  "id": "sfida:r23-01b",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "La sfida se muestra en la semana 43, no en la 1 (el wk=1 solo sesga el pool de bosses).",
+  "fuente": "docs/data/course.json weeks[43].challenges",
+  "correccion": ""
+ },
+ {
+  "id": "p-173",
+  "lote": "w02",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "La nota es confusa: «chena» en italiano se lee [kena]; como respelling castellano de [tʃena] induce a error. El par cena/chena es válido como par mínimo, lo malo es la nota.",
+  "fuente": "docs/js/ascolto_data.js:195",
+  "correccion": "ce = [tʃe] (como «che» en castellano); che = [ke]: «cena» ≠ «chena» (se lee «kena»)."
+ },
+ {
+  "id": "lettura w-06",
+  "lote": "w06",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "El texto solo dice que mañana debe trabajar temprano; que 'no puede quedarse hasta tarde' es inferencia no escrita y Sara acepta ir al cine. Pregunta mal planteada.",
+  "fuente": "docs/js/letture_settimana.js:94",
+  "correccion": "[\"¿Qué tiene que hacer Sara mañana?\", [\"trabajar temprano\", \"estar enferma\", \"ir al cine con Laura\", \"quedarse en casa\"], \"trabajar temprano\"]"
+ },
+ {
+  "id": "sfida r23-07",
+  "lote": "w06",
+  "veredicto": "RECHAZADO",
+  "razon": "La sfida r23-07 se ubica en la semana 43 (weeks[43].challenges); su wk=6 en el ítem solo es un piso para el muestreo de bosses, no aparece en semana 6.",
+  "fuente": "docs/data/course.json weeks[43].challenges",
+  "correccion": ""
+ },
+ {
+  "id": "l2-d-03",
+  "lote": "w08",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Magari è l'influenza» = quizás sea la gripe es natural; hay dos respuestas válidas y la nota es falsa.",
+  "fuente": "tools/authored/lessico2.py:412",
+  "correccion": "Cambiar el distractor «magari» por «purtroppo» (options: forse, purtroppo, meno male) y nota: «Forse» = quizás; «purtroppo» y «meno male» valoran, no dudan. (Alternativa: accept también «magari».)"
+ },
+ {
+  "id": "p-046",
+  "lote": "w11",
+  "veredicto": "CONFIRMADO",
+  "razon": "Errata: «dello» en lugar de «detto».",
+  "fuente": "docs/js/ascolto_data.js:62",
+  "correccion": "Los participios detto, fatto, letto, scritto llevan doble."
+ },
+ {
+  "id": "item s:r20-01c:e",
+  "lote": "w15",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Mi è piaciuto molto» (el viaje) es igual de natural y hoy no está en accept.",
+  "fuente": "tools/audit/patches/sfide/ch15-20.json:4772 (alt de r20-01c:e)",
+  "correccion": "Agregar a alt/accept: «L'anno scorso sono andato in Corsica. Mi è piaciuto molto.», con andata, con coma y con moltissimo."
+ },
+ {
+  "id": "item g2-va-39",
+  "lote": "w19",
+  "veredicto": "RECHAZADO",
+  "razon": "Es fixerr: la UI (app.js:4759) juzga contra [good].concat(goodAlt) y goodAlt=['andrò'] ya está; el accept no interviene.",
+  "fuente": "tools/authored/grammatica2.py:1746; docs/js/app.js:4759",
+  "correccion": ""
+ },
+ {
+  "id": "suoni p-057",
+  "lote": "w20",
+  "veredicto": "CONFIRMADO",
+  "razon": "Falso: sarei y avrei llevan una sola r; solo vorrei tiene rr.",
+  "fuente": "docs/js/ascolto_data.js:73 (similar p-170, línea 190)",
+  "correccion": "Doble r en vorrei (también verrei, berrei); sarei y avrei llevan una sola r."
+ },
+ {
+  "id": "item rf-22-10",
+  "lote": "w23",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Oggi Sabato» se lee 'hoy sábado'; el apellido queda ambiguo.",
+  "fuente": "tools/authored/refuerzo.py:397",
+  "correccion": "Ernesto Sabato è ___ famoso di Borges."
+ },
+ {
+  "id": "lesson:1",
+  "lote": "w28",
+  "veredicto": "CONFIRMADO",
+  "razon": "«siempre al principio» es demasiado absoluto y contradice g2-cb-02 (acepta 'Non sono uscito, siccome pioveva'). Aparece en dos lugares.",
+  "fuente": "tools/lessons/s3.py:105 y :109",
+  "correccion": "*siccome* (como) suele ir al principio de la oración; y en la tabla: «siccome suele ir al principio»."
+ },
+ {
+  "id": "g2-sc-17-c",
+  "lote": "w32",
+  "veredicto": "CONFIRMADO",
+  "razon": "Con sapere el modo normal es indicativo (avevano); 'avessero' no es la única respuesta y contradice la lección.",
+  "fuente": "tools/authored/grammatica2.py:675",
+  "correccion": "stem: «Credevo che loro ___ (avere) un figlio.», answer avessero, note «Credevo → avessero.»"
+ },
+ {
+  "id": "item c1-pass-06",
+  "lote": "w35",
+  "veredicto": "CONFIRMADO",
+  "razon": "Evalúa si passivante, enseñado en semana 36; en semana 35 solo hay remisión. El tópico 'passivo' lo manda a 35.",
+  "fuente": "tools/authored/c1_sintassi.py:42",
+  "correccion": "Cambiar topic a 'si impersonale' (semana 36) o asignar w=36 para que no salga en la semana 35."
+ },
+ {
+  "id": "s:r02-11:a",
+  "lote": "w37",
+  "veredicto": "CONFIRMADO",
+  "razon": "La pista (di/dell' – di/del) contradice la respuesta 'd' | di'.",
+  "fuente": "tools/audit/patches/sfide/ch01-07.json:547",
+  "correccion": "(d'/dell' – di/del)"
+ },
+ {
+  "id": "sfide r20-01e",
+  "lote": "w43",
+  "veredicto": "RECHAZADO",
+  "razon": "chapterTitle no se muestra: app.js:2922-2926 usa consigna (español) y solo el número de capítulo; ítems en italiano.",
+  "fuente": "docs/js/app.js:2922",
+  "correccion": ""
+ },
+ {
+  "id": "item rf-46-18",
+  "lote": "w45",
+  "veredicto": "CONFIRMADO",
+  "razon": "«infischiarsene» no está en la lección ni en las keys de la semana 45 (solo en glosario).",
+  "fuente": "tools/authored/refuerzo.py:878; lección en tools/build_course.py:513",
+  "correccion": "Agregar infischiarsene (di) a la lista de pronominales de la lección semana 45 (y keys), p. ej. «infischiarsene: no importarle nada»."
+ },
+ {
+  "id": "lettura w-50",
+  "lote": "w50",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "«salsa» existe en italiano; para pasta 'sugo' es lo habitual, pero presentarlo como falso amigo es exagerado; el episodio enseña un matiz, no un error.",
+  "fuente": "docs/js/letture_settimana.js:415-416",
+  "correccion": "in un negozio ha chiesto una \"salsa\" per la pasta: in italiano per la pasta si dice \"sugo\" (salsa indica quelle fredde o da condimento); o sustituir por un falso amigo real (p. ej. «burro»)."
+ },
+ {
+  "id": "item ex-fp-20",
+  "lote": "w52",
+  "veredicto": "CONFIRMADO",
+  "razon": "En castellano «famoso» también lleva s simple: el contraste no existe.",
+  "fuente": "tools/authored/esame_c1.py:214",
+  "correccion": "Sufijo -oso: famoso. Igual que en castellano."
+ },
+ {
+  "id": "frase:404",
+  "lote": "T-frasi-banca-2",
+  "veredicto": "CONFIRMADO",
+  "razon": "«buenísimo» no se traduce con «bellissimo» y la nota habla de «lindo».",
+  "fuente": "tools/bank/frasi_banca.py:833",
+  "correccion": "es: «Fue un viaje lindísimo.»"
+ }
+]

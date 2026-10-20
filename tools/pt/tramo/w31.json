@@ -1,0 +1,207 @@
+{
+  "week": 31,
+  "level": "B2",
+  "lettura": {
+    "title": "O último jornal de papel do vale",
+    "emoji": "🗞️",
+    "genre": "reportagem",
+    "grammar": "discurso indireto e correlação de tempos",
+    "text": "Na manhã em que visitamos a redação do Correio do Vale, Marlene Andrade estava revisando, de caneta vermelha, a página de obituários. A jornalista, de 67 anos, contou que fazia aquilo toda quinta-feira havia mais de três décadas e que ainda não tinha se acostumado a encontrar nomes conhecidos na lista. “Numa cidade de vinte mil habitantes, a gente conhece todo mundo que morre”, disse, sem tirar os olhos do papel.\n\nO semanário, fundado pelo pai dela em 1974, é hoje o único veículo de imprensa de uma região de seis municípios no sul da Bahia. Marlene explicou que a tiragem, que já tinha chegado a oito mil exemplares, caíra para pouco mais de mil, e que a publicidade das lojas locais mal pagava o papel. Perguntei se ela tinha pensado em fechar. Ela respondeu que pensava nisso todos os dias, mas que ainda não tinha coragem.\n\nPesquisadores que estudam o jornalismo local chamam de “desertos de notícias” os municípios que não têm nenhum veículo dedicado à cobertura da vida da cidade. Segundo o professor de comunicação Henrique Sales, que acompanha o fenômeno há alguns anos, quando um jornal como o de Marlene desaparece, a população perde muito mais do que uma fonte de informação. Ele afirmou que, sem imprensa local, ninguém fiscaliza as contas da prefeitura nem as decisões da câmara de vereadores, e acrescentou que os boatos passam a circular sem nenhum contraponto nos grupos de mensagens.\n\nMarlene conhece bem esse risco. Ela lembrou que, dois anos antes, um áudio anônimo tinha espalhado que a água da cidade estava contaminada, e que as pessoas esvaziaram os supermercados em poucas horas. Foi o Correio do Vale, segundo ela, que ligou para o laboratório, publicou o resultado da análise e acalmou a população. “Se não fosse a gente, o prefeito ia desmentir no rádio e metade da cidade ia dizer que ele estava mentindo”, comentou.\n\nO filho de Marlene, Tiago, de 34 anos, quer transformar o jornal num site com assinatura digital. Ele me disse que já tinha feito as contas e que, se conseguisse quinhentos assinantes, o projeto se pagaria. A mãe desconfia. Afirmou que respeitava a ideia, mas que não sabia se os leitores mais velhos, que são a maioria, acompanhariam a mudança.\n\nAntes de irmos embora, Marlene nos mostrou a coleção completa do jornal, encadernada ano a ano, numa estante que ocupa uma parede inteira. Perguntamos o que aconteceria com aquilo tudo se o jornal fechasse. Ela ficou em silêncio e depois disse que preferia não pensar nisso naquele dia, porque ainda tinha uma edição para fechar.",
+    "gloss": {
+      "fosse": "(se não fosse a gente) si no fuera por nosotros",
+      "mal": "(mal pagava) apenas alcanzaba para pagar",
+      "redação": "redacción (del diario)",
+      "caneta": "birome, lapicera",
+      "obituários": "necrológicas",
+      "acostumado": "acostumbrado",
+      "semanário": "semanario",
+      "veículo": "medio (de comunicación)",
+      "tiragem": "tirada",
+      "caíra": "había caído",
+      "fiscaliza": "controla",
+      "vereadores": "concejales",
+      "boatos": "rumores",
+      "contraponto": "contrapeso, versión opuesta",
+      "espalhado": "difundido",
+      "esvaziaram": "vaciaron",
+      "desmentir": "desmentir",
+      "assinatura": "suscripción",
+      "assinantes": "suscriptores",
+      "desconfia": "desconfía",
+      "encadernada": "encuadernada",
+      "estante": "biblioteca, estantería"
+    },
+    "questions": [
+      ["Qual é o foco principal da reportagem?", ["A biografia do pai de Marlene, fundador do jornal em 1974.", "A crise de um jornal local e o que sua possível perda significa.", "A disputa entre Marlene e o prefeito sobre o caso da água contaminada.", "As técnicas de revisão usadas pelos jornais do interior."], "A crise de um jornal local e o que sua possível perda significa."],
+      ["Segundo o professor Henrique Sales, o que acontece em um “deserto de notícias”?", ["A população passa a ler apenas jornais das capitais.", "Os poderes locais ficam sem fiscalização e os boatos se espalham.", "Os anunciantes migram todos para as rádios comunitárias.", "Os jornalistas se mudam para cidades maiores."], "Os poderes locais ficam sem fiscalização e os boatos se espalham."],
+      ["Qual é a função do episódio da água contaminada na reportagem?", ["Exemplificar concretamente a importância do jornal para a cidade.", "Mostrar que o prefeito da cidade é pouco confiável e mente no rádio.", "Criticar a qualidade dos laboratórios da região.", "Explicar por que a tiragem do jornal caiu tanto."], "Exemplificar concretamente a importância do jornal para a cidade."],
+      ["Como Marlene reage ao projeto do filho?", ["Apoia-o sem reservas e já começou a vender assinaturas.", "Proíbe qualquer mudança enquanto estiver viva.", "Com respeito, mas com dúvidas sobre os leitores idosos.", "Diz que prefere vender o jornal a um grupo da capital."], "Com respeito, mas com dúvidas sobre os leitores idosos."],
+      ["Na última frase, a palavra “fechar” ganha duplo sentido porque…", ["Marlene decidiu fechar o jornal naquela mesma semana.", "a repórter não entendeu a resposta de Marlene.", "a coleção seria fechada ao público a partir do dia seguinte.", "alude ao fim do jornal e também ao fechamento da edição."], "alude ao fim do jornal e também ao fechamento da edição."]
+    ],
+    "vf": [
+      ["O Correio do Vale é publicado uma vez por semana.", "verdadeiro"],
+      ["A tiragem do jornal hoje é maior do que nos anos de maior sucesso.", "falso"],
+      ["Tiago já trabalhou em um jornal digital de Salvador.", "não se diz"],
+      ["Marlene disse que nunca pensou em fechar o jornal.", "falso"],
+      ["Segundo Tiago, quinhentos assinantes bastariam para sustentar o site.", "verdadeiro"]
+    ],
+    "hunt": {
+      "label": "Toque nos verbos que introduzem o discurso indireto",
+      "targets": ["contou", "explicou", "perguntei", "respondeu", "afirmou", "acrescentou", "lembrou", "perguntamos"]
+    }
+  },
+  "ascolto": {
+    "title": "“Eu nunca disse isso”",
+    "genre": "conversa entre colegas de redação",
+    "es": "En la redacción de un portal de noticias, una editora y un periodista hablan de un entrevistado que asegura que sus palabras fueron tergiversadas.",
+    "speakers": ["Renata, editora", "Gustavo, repórter"],
+    "turns": [
+      ["A", "Gustavo, senta aqui um minutinho. O empresário da entrevista de domingo ligou hoje cedo. Ele disse que nunca tinha falado aquilo sobre os funcionários."],
+      ["B", "Como assim, nunca tinha falado? Ele falou, Renata. Está gravado."],
+      ["A", "Calma, eu sei. Só estou te contando o que ele disse. Segundo ele, a frase foi tirada de contexto e o texto deu a entender que ele ia demitir metade da equipe."],
+      ["B", "Mas ele disse exatamente isso. Ele falou que, se as vendas não melhorassem até dezembro, ia ter que cortar metade do pessoal. Eu só coloquei no discurso indireto."],
+      ["A", "Então, aí é que está. No título, a gente pôs “Empresário anuncia demissão de metade dos funcionários”. Não tem nenhum “se” no título, né?"],
+      ["B", "Tá, o título ficou forte. Mas quem fez o título foi o pessoal do fechamento, não fui eu."],
+      ["A", "Eu sei, não estou te culpando. Estou tentando entender o que a gente responde. Ele pediu uma correção e falou que, se a gente não publicasse até amanhã, ia procurar um advogado."],
+      ["B", "Olha, eu acho que o texto está correto. O título, sim, exagerou. A condição sumiu, virou um anúncio."],
+      ["A", "Concordo. Então vamos fazer assim: a gente mantém o texto, porque a gravação confirma tudo, e publica uma nota de esclarecimento dizendo que o título foi alterado para refletir melhor a declaração."],
+      ["B", "Faz sentido. E eu mando para ele o trecho do áudio, para ele ver que a gente não inventou nada."],
+      ["A", "Isso. Mas manda com educação, tá? Sem aquele tom de quem ganhou a discussão."],
+      ["B", "Pode deixar. Aliás, acho que vale uma conversa com o pessoal do fechamento sobre títulos. Não é a primeira vez que isso acontece."],
+      ["A", "Anotado. Vou levar isso para a reunião de pauta de amanhã."]
+    ],
+    "gloss": {
+      "deixar": "(pode deixar) dejalo en mis manos, quedate tranquilo/a",
+      "aí": "(aí é que está) ahí está el problema",
+      "empresário": "empresario",
+      "cedo": "temprano",
+      "gravado": "grabado",
+      "demitir": "despedir, echar",
+      "pessoal": "personal, empleados",
+      "fechamento": "cierre (el equipo que titula y cierra la edición)",
+      "sumiu": "desapareció",
+      "esclarecimento": "aclaración",
+      "trecho": "fragmento",
+      "pauta": "temario (“reunião de pauta”: reunión de temario)",
+      "anotado": "anotado, tomo nota"
+    },
+    "questions": [
+      ["Do que o empresário reclamou?", ["De não ter sido entrevistado pessoalmente.", "De que sua frase teria sido tirada de contexto.", "De que a entrevista foi publicada sem foto.", "De que o repórter gravou a conversa sem permissão."], "De que sua frase teria sido tirada de contexto."],
+      ["O que o empresário realmente disse, segundo Gustavo?", ["Que já tinha demitido metade da equipe em dezembro.", "Que nunca demitiria ninguém, mesmo com a crise.", "Que ia demitir metade do pessoal se as vendas não melhorassem.", "Que ia contratar mais gente se as vendas melhorassem."], "Que ia demitir metade do pessoal se as vendas não melhorassem."],
+      ["Onde, de fato, estava o problema da matéria?", ["No título, que transformou uma condição em anúncio.", "No texto do repórter, que inventou a declaração do empresário.", "Na gravação, que estava com trechos incompreensíveis.", "Na foto escolhida pelo fechamento para ilustrar a matéria."], "No título, que transformou uma condição em anúncio."],
+      ["Qual é a solução combinada pelos dois?", ["Apagar a matéria do site e pedir desculpas publicamente.", "Esperar o advogado do empresário antes de qualquer ação.", "Refazer a entrevista com outras perguntas.", "Manter o texto, alterar o título e publicar um esclarecimento."], "Manter o texto, alterar o título e publicar um esclarecimento."],
+      ["O que Renata pede a Gustavo ao enviar o áudio?", ["Que envie também a transcrição completa.", "Que seja educado e não demonstre triunfo.", "Que não mencione a nota de esclarecimento.", "Que peça ao empresário que retire a ameaça."], "Que seja educado e não demonstre triunfo."]
+    ],
+    "vf": [
+      ["A entrevista com o empresário foi gravada.", "verdadeiro"],
+      ["Gustavo foi quem escreveu o título da matéria.", "falso"],
+      ["O empresário já tinha dado outras entrevistas ao portal.", "não se diz"],
+      ["Gustavo acha que o problema com os títulos é um caso isolado.", "falso"]
+    ]
+  },
+  "compito": {
+    "genre": "resumo",
+    "title": "Resumo para a newsletter do curso",
+    "fonte": "lettura",
+    "t": "Você é estudante de jornalismo e colabora com a newsletter semanal do seu curso, que recomenda aos colegas uma reportagem por semana. Após ler a reportagem “O último jornal de papel do vale”, escreva um resumo para a newsletter, apresentando o fenômeno dos desertos de notícias, a situação do Correio do Vale, o episódio da água contaminada e as posições de Marlene e de Tiago sobre o futuro do jornal. Não se esqueça de relatar as falas em discurso indireto, com os tempos verbais adequados, de não dar a sua opinião e de usar um registro formal. Seu texto deve ter entre 143 e 203 palavras.",
+    "es": "Un resumen objetivo: sin opinión personal, con las ideas principales en orden y las declaraciones pasadas a discurso indirecto (disse que…, afirmou que…, explicou que…).",
+    "min": 143,
+    "max": 203,
+    "punti": [["Presentar el reportaje y el diario", ["correio do vale", "semanário", "jornal"]], ["Explicar los desertos de notícias", ["deserto"]], ["El episodio del agua", ["água", "contaminada", "boato"]], ["Posiciones de Marlene y Tiago", ["tiago", "filho", "digital", "site"]], ["Discurso indirecto", ["afirmou que", "disse que", "explicou que", "segundo", "contou que"]]],
+    "model": "A reportagem “O último jornal de papel do vale” conta a história do Correio do Vale, semanário fundado em 1974 e hoje o único veículo de imprensa de seis municípios do sul da Bahia. A jornalista Marlene Andrade, filha do fundador, explicou que a tiragem tinha caído de oito mil para pouco mais de mil exemplares e que a publicidade mal cobria os custos. Ela admitiu que pensava em fechar o jornal todos os dias.\n\nO texto relaciona o caso aos chamados desertos de notícias, municípios sem cobertura jornalística local. Segundo o professor Henrique Sales, nessas cidades ninguém fiscaliza a prefeitura e os boatos circulam sem contraponto. Marlene lembrou que, dois anos antes, um áudio falso sobre água contaminada tinha provocado pânico, e que foi o jornal que publicou a análise do laboratório e acalmou a população.\n\nQuanto ao futuro, o filho de Marlene, Tiago, afirmou que pretendia transformar o jornal em um site com assinatura digital e que quinhentos assinantes bastariam. A mãe disse que respeitava a ideia, mas duvidava que os leitores mais velhos acompanhassem a mudança.",
+    "gloss": {
+      "tiragem": "tirada, la cantidad de ejemplares impresos",
+      "mal cobria os custos": "apenas cubría los costos (mal = apenas, casi no)",
+      "fiscaliza a prefeitura": "controla a la municipalidad",
+      "boatos": "rumores",
+      "assinatura digital": "suscripción digital (assinatura = suscripción, también firma)",
+      "assinantes": "suscriptores"
+    }
+  },
+  "breve": {
+    "title": "A última banca do centro",
+    "genre": "notícia de rádio",
+    "es": "Una noticia de radio de Itajubá: cierra el último puesto de diarios del centro; lo que dijo el dueño y lo que dijo la municipalidad.",
+    "speaker": "Repórter",
+    "voice": 0,
+    "text": [
+      "Rádio Vale Notícias, boa tarde. O principal assunto de hoje em Itajubá é o fechamento da última banca de jornal do centro.",
+      "A banca do seu Aristides, na praça da matriz, funcionou por 42 anos. Ontem, ele contou à nossa reportagem que vendia mais de 300 jornais por dia nos anos 90 e que hoje vende menos de 20. Disse que ia fechar no fim do mês porque o aluguel do ponto tinha subido de novo.",
+      "A prefeitura informou que estudava uma forma de manter a banca aberta como ponto de troca de livros. O secretário de Cultura, Renato Brandão, afirmou que a decisão seria tomada até sexta-feira e pediu que os moradores mandassem sugestões pelo site da prefeitura.",
+      "Seu Aristides agradeceu o apoio dos clientes e disse que, se a banca virar ponto de troca, quer continuar trabalhando lá como voluntário."
+    ],
+    "tabella": [
+      [
+        "Anos de funcionamento da banca",
+        "42",
+        [
+          "quarenta e dois",
+          "42 anos"
+        ]
+      ],
+      [
+        "Jornais vendidos por dia nos anos 90 (mais de…)",
+        "300",
+        [
+          "trezentos"
+        ]
+      ],
+      [
+        "Jornais vendidos por dia hoje (menos de…)",
+        "20",
+        [
+          "vinte"
+        ]
+      ],
+      [
+        "Prazo para a decisão da prefeitura",
+        "sexta-feira",
+        [
+          "sexta",
+          "sexta feira",
+          "até sexta"
+        ]
+      ],
+      [
+        "Nome do secretário de Cultura",
+        "Renato Brandão",
+        [
+          "Renato Brandao",
+          "Brandão"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "O dono da banca vai fechar por causa do aluguel.",
+        true
+      ],
+      [
+        "A prefeitura já decidiu comprar a banca.",
+        false
+      ],
+      [
+        "A prefeitura pediu sugestões aos moradores.",
+        true
+      ],
+      [
+        "Seu Aristides vai se mudar para outra cidade.",
+        false
+      ],
+      [
+        "Seu Aristides quer trabalhar como voluntário.",
+        true
+      ],
+      [
+        "A banca fica na estação de trem.",
+        false
+      ]
+    ],
+    "gloss": {
+      "banca": "puesto de diarios",
+      "ponto": "local (del negocio)",
+      "reportagem": "equipo de periodistas",
+      "prefeitura": "municipalidad"
+    }
+  }
+}

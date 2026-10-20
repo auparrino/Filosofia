@@ -1,0 +1,232 @@
+{
+ "week": 46,
+ "title": "Suffissi e alterazione",
+ "level": "C1",
+ "revisado": {
+  "items": 32,
+  "sfide": 1,
+  "bloques_teoria": 4,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 0
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana coherente en lo central (sufijos alterativos y falsos alterados): teoría clara y casi toda correcta, ítems cortos y bien resueltos. Los reparos son tres ítems mal hechos o fuera de tema (d03-059/060, g2-cb-39), un typo en español (Mariíta) y una etiqueta en inglés. El nivel real es A2-B1, no C1; hay mucho reconocimiento y poca producción, faltan ortografía (h/interfijos) y contraste ITA-ESP, y suoni está vacío.",
+ "bien": [
+  "Distinción clara entre alterados productivos y falsos alterados (tacchino, mattone, postino) con ejemplos memorables.",
+  "Ejemplos y notas en general correctos, con tono rioplatense natural.",
+  "Lectura y dictogloss bien construidos con abundante uso de la gramática de la semana y chunks pertinentes.",
+  "Buena cobertura de -ino/-one/-accio en ítems (unos 20) y presencia de adverbios alterados (benino, maluccio).",
+  "Las respuestas aceptadas suelen ser completas y las opciones erróneas son claramente distintas."
+ ],
+ "hallazgos": [
+  {
+   "id": "item d03-056",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "Mariíta, con cariño (Maria + -uccia) → ___",
+   "propuesta": "Mariíta → «Mariucha, con cariño (Maria + -uccia) → ___» o «Maria, con cariño (Maria + -uccia) → ___»",
+   "motivo": "«Mariíta» es una grafía inexistente en español; corregir o simplificar la glosa."
+  },
+  {
+   "id": "item d03-060",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "reserva (notazione + prefijo pre-) → ___",
+   "propuesta": "reserva (notare + prefijo pre- → verbo prenotare; sustantivo con -zione) o reemplazar por un ítem de ri-/s-/stra-",
+   "motivo": "prenotazione no es «pre- + notazione» (viene de prenotare = pre- + notare); la derivación propuesta es falsa y pre- no se enseña en la lección."
+  },
+  {
+   "id": "item d03-059",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "reacción (azione + prefijo re-) → ___",
+   "propuesta": "Cambiar por un prefijo enseñado (ri-: «fare → ___», «vedere → ___»)",
+   "motivo": "re- no aparece en la lección (solo ri-, s-, in-, dis-, stra-, mal-); además sin note ni valor productivo en italiano."
+  },
+  {
+   "id": "item rf-24-16",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "¿Qué matiz tiene «poetastro»?",
+   "propuesta": "Enseñar -astro en la lección antes de evaluarlo",
+   "motivo": "-astro no está en la teoría de la semana."
+  },
+  {
+   "id": "item rf-24-17",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "¿Qué significa «giallastro»?",
+   "propuesta": "Agregar -astro/-astra (giallastro, poetastro) a la tabla de sufijos",
+   "motivo": "-astro no está enseñado; solo aparece en vocab y en el ítem."
+  },
+  {
+   "id": "item g2-cb-39",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Chiamami. Forse hai bisogno di aiuto. (nel caso in cui)",
+   "propuesta": "Retirar de esta semana (es de conectores + congiuntivo) o mover a su semana",
+   "motivo": "No practica formación de palabras; ítem ajeno al tema declarado."
+  },
+  {
+   "id": "item rf-24-08",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "___",
+   "propuesta": "Usar como stem una consigna sin hueco, p. ej. «Elegí la palabra que NO es un diminutivo»",
+   "motivo": "El stem «___» no aporta nada y confunde: no hay hueco que completar."
+  },
+  {
+   "id": "item b2-idio-08",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Cap. 6 del Soluzioni.",
+   "propuesta": "Eliminar la referencia o explicar qué es «Soluzioni»",
+   "motivo": "Referencia a un libro que el alumno no conoce; parece nota de la fuente."
+  },
+  {
+   "id": "item rf-24-23",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Aspetta un attimino",
+   "propuesta": "Agregar «Aspettami un attimino», «Aspetta un momentino», «Aspetta un secondino»",
+   "motivo": "Variantes naturales (con pronombre) no aceptadas; «ratito» tampoco es exactamente pochino."
+  },
+  {
+   "id": "item rf-24-24",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Che bel cagnolino!",
+   "propuesta": "Agregar «Che carino quel cagnolino», «Che bel cagnolino carino», y aceptar sin «!»",
+   "motivo": "Faltan órdenes/variantes naturales."
+  },
+  {
+   "id": "item d03-057",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "mezz’oretta",
+   "propuesta": "Agregar «mezzoretta» a accept",
+   "motivo": "Grafía habitual sin apóstrofo también correcta."
+  },
+  {
+   "id": "item s:r06-01b:a",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "un tantino",
+   "propuesta": "Sacar «un tantino» de accept o aclarar en el note",
+   "motivo": "«un tantino» no es un adverbio derivado con -ino de «poco»; la nota habla de -ettino, que es una descomposición confusa (poco+-ett+-ino)."
+  },
+  {
+   "id": "item r06-01b",
+   "lang": "en",
+   "severidad": "error",
+   "actual": "Suffixes",
+   "propuesta": "Suffissi (o «Sufijos»)",
+   "motivo": "Etiqueta de capítulo en inglés visible al alumno."
+  },
+  {
+   "id": "lesson:0",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "*la porta → il portone*, *la donna → il donnone*",
+   "propuesta": "Aclarar que también hay forma femenina (macchinona, donnona) y que el cambio de género no es regla fija",
+   "motivo": "La warn dice «suele volver masculino» pero el bloque 3 usa «macchinona» femenina y d03-058/rf-24-11 solo muestran el caso masculino; confunde."
+  },
+  {
+   "id": "lesson:1",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Una fetta di focacc*ia*.",
+   "propuesta": "Una fetta di foc*accia*.",
+   "motivo": "El énfasis marca «-ia», pero el falso alterado que se ilustra es -accia."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "ripetere",
+   "propuesta": "Reemplazar por «rimettere», «riscrivere», «rileggere»",
+   "motivo": "ripetere (lat. repetere) no se forma con ri- productivo; mal ejemplo de «de nuevo»."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "negación o intensificación | scontento, sfortuna, sbagliare",
+   "propuesta": "«negación o valor contrario: scontento, sfortuna, scomodo»",
+   "motivo": "sbagliare no es un caso claro de s- negativo; y la «intensificación» no se ilustra."
+  },
+  {
+   "id": "lettura w-46",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "giornalino: revistita, diarito",
+   "propuesta": "giornalino: «revistita / historieta / diario chico»",
+   "motivo": "«diarito» es poco natural y giornalino suele leerse como revista infantil/historieta."
+  },
+  {
+   "id": "dictogloss w46",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "è uscito un solicello timido",
+   "propuesta": "è uscito un solicino / un sole timido",
+   "motivo": "«solicello» es raro y casi poético; poco rentable para un alumno como dictado."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Reescribir/quitar d03-059, d03-060 y g2-cb-39; si se quiere practicar prefijos, sumar ítems de ri-, s-, stra-, mal- que sí están en la lección.",
+   "por_que": "Hay ítems falsos, sin base en la teoría o fuera de tema."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Subir la dificultad al nivel C1: interfijos (pioggerellina, cagnolino, bastoncino), ortografía (amico→amichetto, poco→pochino), restricciones de combinación, connotación según contexto, register.",
+   "por_que": "El material actual es A2/B1 y no responde a 'un recurso que el italiano usa muchísimo más que el español'."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar contraste con el español (-ito/-illo/-ón/-azo) y errores típicos: calcar el diminutivo español, decir *casita* → *casina*, ignorar el cambio de significado.",
+   "por_que": "La teoría no explica los errores del hispanohablante."
+  },
+  {
+   "prioridad": "media",
+   "que": "Rebalancear tipos: hoy predominan choice de significado; sumar cloze de producción con contexto, fixerr y combina sobre alterados, y opciones que evalúen la regla (no solo el sentido).",
+   "por_que": "Poca progresión de reconocimiento a producción."
+  },
+  {
+   "prioridad": "media",
+   "que": "Completar suoni: acento y ritmo en -ino/-etto, geminadas (-etto, -accio, -uccio), pares como pochino/pochetto, entonación de un «Che tempaccio!» irónico.",
+   "por_que": "La sección de fonética está totalmente vacía."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agrupar los ítems en parts (reconocimiento, formación, falsos alterados, producción) y ordenar por dificultad.",
+   "por_que": "parts está vacío y los ítems mezclan ids de distintas fuentes sin progresión."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Ampliar las preguntas de la lectura a 5-6, incluyendo inferencias de connotación y un vero/falso; usar maglione como falso alterato.",
+   "por_que": "Las 3 preguntas son solo literales."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Unificar formato de accept (apóstrofos, puntuación final) y ampliar variantes en traducciones.",
+   "por_que": "Riesgo de rechazar respuestas correctas."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "es": {
+   "errores": 1,
+   "dudas": 2
+  },
+  "en": {
+   "errores": 1,
+   "dudas": 0
+  }
+ }
+}

@@ -1,0 +1,197 @@
+{
+ "week": 5,
+ "title": "Presente: verbos regulares",
+ "level": "A1",
+ "revisado": {
+  "items": 46,
+  "bloques_teoria": 8,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 18,
+  "radio": 0,
+  "otros": 3
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida y bien secuenciada: tres conjugaciones, você/a gente en tercera persona, cambios ortográficos c→ç y g→j, y profesión/rutina, con buen contraste con el español. Hay un error de concordancia en un fixerr (numa escritório), un uso incorrecto de «a gente» en la lectura y una nota fonética falsa (bebe). Los ejercicios son casi todos de reconocimiento/cloze guiado, con mucha repetición de conheço y poca producción libre ni práctica del sujeto expreso, de tu ni de preposiciones. La carga (8 bloques, 46 ítems, léxico de rutina y trabajo) es alta para A1.",
+ "bien": [
+  "La regla de «você/vocês = tercera» y «a gente + 3.ª singular» está clara y se refuerza con choice, cloze, fixerr, garden y scopri.",
+  "Buenas advertencias contra calcos (você falas, a gente vamos, conhezco, acordar sin se) y los falsos amigos escritório/oficina.",
+  "La tabla de cambios ortográficos (c→ç, g→j, ficar sin cambio) es correcta y completa para el nivel.",
+  "El bloque «Tu con su verbo» presenta el tu para comprender sin exigir producirlo, y es correcto sobre norma y habla.",
+  "Lectura natural, con casi todos los verbos de la semana en la hunt, y preguntas vero/falso/non si dice bien armadas.",
+  "El laboratorio «capire» (¿quién lo hace?) entrena bien el vínculo terminación-persona."
+ ],
+ "hallazgos": [
+  {
+   "id": "item s1-05-39",
+   "lang": "pt",
+   "severidad": "error",
+   "actual": "Ela trabalha numa escritório de advogados.",
+   "propuesta": "Ela trabalha num escritório de advogados.",
+   "motivo": "escritório es masculino: la respuesta modelo tiene «numa escritório», error de concordancia."
+  },
+  {
+   "id": "lettura w-05",
+   "lang": "pt",
+   "severidad": "error",
+   "actual": "De tarde, a gente estuda junto: a Sofía estuda português e a Bia estuda espanhol.",
+   "propuesta": "De tarde, elas estudam juntas: a Sofía estuda português e a Bia estuda espanhol.",
+   "motivo": "Narrador en tercera persona: «a gente» no puede referirse a Sofía y Bia (incluye al hablante); confunde la pregunta «estudian juntas» y la gloss."
+  },
+  {
+   "id": "suoni p-010",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "bebe es llana, con é abierta y la e final como «i».",
+   "propuesta": "bebe es llana (tónica en la primera sílaba, e cerrada /e/) y la e final suena como «i»; el contraste es de acento, no de abertura.",
+   "motivo": "La vocal tónica de beber/bebe es cerrada /e/, no abierta; la nota enseña una pronunciación falsa."
+  },
+  {
+   "id": "lesson:1:0",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "En la práctica, en Brasil usás tres formas: *falo, fala, falamos*… y *falam*.",
+   "propuesta": "En la práctica, en Brasil usás cuatro formas: *falo, fala, falamos* y *falam*.",
+   "motivo": "Dice «tres» y enumera cuatro."
+  },
+  {
+   "id": "item s1-05-32",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "El Rio lleva artículo y no hay «a» personal ni de lugar.",
+   "propuesta": "El nombre Rio lleva artículo (o Rio); y no se usa «a» antes del objeto: conheço o Rio.",
+   "motivo": "Nota confusa: en español tampoco se dice «conozco a Río»; la referencia al «a» de lugar no se entiende."
+  },
+  {
+   "id": "lesson:6:1",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "se *almoça* entre las 12 y las 14 y se *janta* entre las 19 y las 21: más temprano que en Argentina",
+   "propuesta": "El almuerzo es similar al argentino; se *janta* algo más temprano (19-21 h frente a 21-22 h).",
+   "motivo": "El almuerzo no es más temprano que en Argentina; la generalización es inexacta."
+  },
+  {
+   "id": "item s1-05-10",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Trabalho num ___.",
+   "propuesta": "Trabalho em um ___. (o quitar la contracción del enunciado)",
+   "motivo": "«num» (masculino) delata «escritório» frente a «oficina» (femenina) sin usar el falso amigo; el alumno acierta por género."
+  },
+  {
+   "id": "item s1-05-26",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Ela trabalha ___ garçonete. (de)",
+   "propuesta": "Ela trabalha ___ garçonete. (de / como)  o quitar la pista «(de)»",
+   "motivo": "La pista dice «de» pero la respuesta principal es «como»; confunde."
+  },
+  {
+   "id": "item s1-05-28",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"accept\": [\"Você fala português?\", \"Tu falas português?\", \"Tu fala português?\"]",
+   "propuesta": "Agregar «Fala português?» y «Falas português?»",
+   "motivo": "La teoría (bloque 3) enseña que el sujeto puede omitirse; respuesta natural no aceptada."
+  },
+  {
+   "id": "item s1-05-30",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"accept\": [\"Eles trabalham muito.\", \"Elas trabalham muito.\"]",
+   "propuesta": "Agregar «Trabalham muito.»",
+   "motivo": "Forma sin pronombre igual de correcta, enseñada en la semana."
+  },
+  {
+   "id": "item s1-05-31",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"accept\": [\"Vocês comem carne?\"]",
+   "propuesta": "Agregar «Comem carne?»",
+   "motivo": "Falta la variante sin sujeto; además se podría aceptar «Vocês comem carne?» sin signo."
+  },
+  {
+   "id": "item s1-05-20",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ela ___ para Buenos Aires amanhã. (partir)",
+   "propuesta": "Ela ___ de manhã. (partir) o usar un adverbio habitual",
+   "motivo": "Presente con valor de futuro («amanhã») no se enseña esta semana."
+  },
+  {
+   "id": "item s1-05-07",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Eu ___ o Rio muito bem.",
+   "propuesta": "(variar) p. ej. esquecer / oferecer / exigir",
+   "motivo": "conheço aparece en 07, 21, 32, 38, 40 y 46 y dirijo/corrijo en 08, 22, 41: casi duplicados; sobra repetición y faltan otros verbos."
+  },
+  {
+   "id": "dictogloss w5",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "La rutina de Lucas de lunes a viernes: el metro, el almuerzo, la cena.",
+   "propuesta": "La rutina de Lucas de lunes a viernes: el subte, el almuerzo, la cena.",
+   "motivo": "La gloss usa «subte» (rioplatense) pero el resumen dice «el metro»; inconsistencia."
+  },
+  {
+   "id": "laboratorio ponte:ditongos",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "ie / ue → e / o",
+   "propuesta": "Mantener, pero vincularlo con la semana o moverlo",
+   "motivo": "Puente fonético no relacionado con el presente regular; no se refuerza en ejercicios."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Corregir item s1-05-39, la lectura w-05 («a gente estuda junto») y la nota fonética de bebe (p-010).",
+   "por_que": "Son los únicos errores objetivos y enseñan mal."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Añadir ítems de producción (typed/translate) que exijan sujeto omitido vs expreso y tu + verbo, y de preposiciones (em/como, de manhã/à noite, aos domingos).",
+   "por_que": "Puntos enseñados en la lección (bloques 3, 5, 6, 7) casi sin práctica."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir la repetición de conheço/dirijo (6 y 3 ítems) y sumar verbos nuevos (esquecer, pegar, exigir, escrever, vender, receber).",
+   "por_que": "Mejora la cobertura de verbos regulares -er/-ir, ahora casi sin verbos -ir fuera de abrir/partir."
+  },
+  {
+   "prioridad": "media",
+   "que": "Ampliar los accept con las variantes sin pronombre (Fala português?, Trabalham muito., Comem carne?).",
+   "por_que": "La teoría dice que son correctas; hoy el alumno sería penalizado."
+  },
+  {
+   "prioridad": "media",
+   "que": "Aligerar la lección: mover «gostar de», há/desde y aos domingos a otra semana o marcarlos como opcionales.",
+   "por_que": "Ocho bloques para A1 con temas adicionales a la conjugación sobrecargan."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Hacer ítems de elección menos dependientes de la forma (p. ej. 10 por género) y quitar distractores solo españoles obvios (despierto, almorzo).",
+   "por_que": "Evalúan la regla, no la pista."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Relacionar el puente ie/ue→e/o con la semana o moverlo.",
+   "por_que": "No tiene relación con el presente regular."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 2,
+   "dudas": 0
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

@@ -1,0 +1,167 @@
+{
+  "week": 31,
+  "level": "B2",
+  "lettura": {
+    "title": "«Pensavo che sarei diventata socia. Poi ho scelto le capre»",
+    "emoji": "🐐",
+    "genre": "intervista",
+    "grammar": "condizionale passato e futuro nel passato",
+    "text": "Laura Benedetti, quarantun anni, per dodici anni ha fatto l'avvocata d'affari in uno studio del centro di Milano. Tre anni fa ha lasciato tutto e ha aperto un piccolo caseificio sulle colline dell'Oltrepò pavese, dove produce formaggi di capra. L'abbiamo incontrata tra una mungitura e una consegna.\n\nQuando ha cominciato a lavorare, come immaginava il suo futuro? «In modo molto preciso. Pensavo che sarei diventata socia dello studio prima dei quarant'anni, che avrei comprato casa in città e che, un giorno, avrei rallentato. Tutti mi dicevano che i primi anni sarebbero stati durissimi e che poi le cose sarebbero migliorate. In realtà non miglioravano mai: cambiavano solo i clienti.»\n\nC'è stato un momento preciso in cui ha deciso di andarsene? «Sì, e me lo ricordo benissimo. Era un venerdì sera, ero in ufficio alle undici e ho ricevuto un messaggio di mia sorella: mio nipote aveva appena fatto il suo primo saggio di pianoforte. Io avrei dovuto esserci, gliel'avevo promesso. Quella sera ho capito che avrei continuato a perdere cose così, una dopo l'altra, senza nemmeno accorgermene.»\n\nQualcuno ha cercato di fermarla? «Moltissimi. Il mio capo mi ha detto che avrei rovinato una carriera brillante e che me ne sarei pentita entro sei mesi. Anche i miei genitori, che avevano fatto tanti sacrifici per farmi studiare, all'inizio erano preoccupati. Mia madre, per esempio, avrebbe preferito che mi prendessi un anno sabbatico, senza bruciare i ponti.»\n\nSe ne è pentita? «No, ma non voglio raccontare una favola. Il primo inverno è stato terribile: due capre si sono ammalate, i permessi sanitari sono arrivati con mesi di ritardo e avevo finito quasi tutti i risparmi. Con il senno di poi, avrei fatto le cose in modo diverso: avrei seguito un corso serio prima di partire e avrei cercato dei soci. Cominciare da sola è stato un errore.»\n\nCom'è oggi una sua giornata tipo? «Mi alzo alle cinque e mezza per la mungitura, poi passo la mattina in laboratorio a fare i formaggi. Il pomeriggio faccio le consegne ai ristoranti della zona e, due volte alla settimana, vado al mercato di Voghera. Se qualcuno, dieci anni fa, mi avesse detto che avrei passato le giornate così, gli avrei riso in faccia.»\n\nChe cosa le manca del vecchio lavoro? «Mi mancano i colleghi, le discussioni intelligenti, perfino un po' l'adrenalina. E lo stipendio, ovviamente. Ma non tornerei indietro. Oggi lavoro forse più di prima, però sono io a decidere quando fermarmi.»\n\nChe cosa direbbe a chi sogna di cambiare vita? «Di non fidarsi delle storie che si leggono sui giornali, compresa la mia. Nessuno racconta le notti passate a fare i conti. Però direi anche un'altra cosa: se fossi rimasta, oggi guadagnerei di più, ma non conoscerei la persona che sono diventata. E questa persona, sinceramente, mi piace di più.»",
+    "gloss": {
+      "compresa": "incluida",
+      "decidere": "(sono io a decidere) soy yo la que decide: *essere* + persona + *a* + infinitivo destaca quién (semana 48)",
+      "farmi": "(per farmi studiare) para que yo pudiera estudiar: *fare* + infinitivo = hacer que alguien haga (semana 40)",
+      "andarsene": "irse (de un lugar): *andare* + *se ne* (semana 45)",
+      "cui": "(in cui, con cui…) en el que, con el que: *cui* es el relativo después de preposición (semana 34)",
+      "socia": "socia (de un estudio)",
+      "caseificio": "quesería",
+      "capra": "cabra",
+      "mungitura": "ordeñe",
+      "consegna": "entrega",
+      "rallentato": "bajado el ritmo",
+      "nipote": "sobrino",
+      "saggio": "muestra (de fin de curso)",
+      "accorgermene": "darme cuenta",
+      "rovinato": "arruinado",
+      "pentita": "arrepentida (*pentirsene*: arrepentirse de algo; *se ne è pentita?* ¿se arrepintió?)",
+      "bruciare": "quemar",
+      "favola": "cuento de hadas",
+      "ammalate": "(se) enfermaron",
+      "permessi": "habilitaciones, permisos",
+      "risparmi": "ahorros",
+      "senno": "(con il senno di poi) con el diario del lunes",
+      "soci": "socios",
+      "stipendio": "sueldo",
+      "fermarmi": "parar",
+      "conti": "cuentas"
+    },
+    "questions": [
+      ["Come immaginava Laura il suo futuro all'inizio della carriera?", ["Pensava che avrebbe lasciato Milano dopo pochi anni", "Come una carriera lineare fino a diventare socia", "Sognava già di aprire un'attività tutta sua", "Voleva lavorare poco e guadagnare molto"], "Come una carriera lineare fino a diventare socia"],
+      ["Che cosa ha fatto scattare la decisione di Laura?", ["Un litigio violento con il suo capo", "Aver perso un momento importante in famiglia", "Un esaurimento dovuto allo stress", "La proposta di un'amica di aprire un'azienda agricola"], "Aver perso un momento importante in famiglia"],
+      ["Come hanno reagito all'inizio i genitori di Laura?", ["Con entusiasmo immediato", "Con indifferenza", "Con preoccupazione", "Con rabbia e minacce"], "Con preoccupazione"],
+      ["Che cosa farebbe diversamente Laura, col senno di poi?", ["Non lascerebbe mai lo studio legale", "Aprirebbe il caseificio più vicino a Milano", "Chiederebbe alla banca un prestito più alto", "Si preparerebbe meglio e non partirebbe da sola"], "Si preparerebbe meglio e non partirebbe da sola"],
+      ["Che cosa intende Laura quando dice di non fidarsi delle storie «compresa la mia»?", ["Che in passato ha mentito ai giornalisti per farsi pubblicità", "Che i racconti di svolta tacciono le difficoltà", "Che il suo caseificio in realtà va male", "Che sconsiglia a tutti di cambiare vita"], "Che i racconti di svolta tacciono le difficoltà"]
+    ],
+    "vf": [
+      ["Laura ha lavorato dodici anni come avvocata.", "vero"],
+      ["Il capo di Laura approvava la sua scelta.", "falso"],
+      ["Oggi il caseificio ha alcuni dipendenti.", "non si dice"],
+      ["Laura ha aperto il caseificio insieme a dei soci.", "falso"],
+      ["A Laura manca lo stipendio di una volta.", "vero"]
+    ],
+    "hunt": {
+      "label": "Tocá los auxiliares del condizionale passato (avrei, sarei…)",
+      "targets": ["sarei", "avrei", "sarebbero", "avrebbe"]
+    }
+  },
+  "ascolto": {
+    "title": "Che cosa è andato storto",
+    "genre": "conversazione tra colleghi",
+    "es": "Dos colegas de una empresa de software comentan por qué un cliente importante no renovó el contrato y cómo escribir el informe que les pide el director.",
+    "speakers": ["Sonia, responsabile di progetto", "Paolo, collega"],
+    "turns": [
+      ["A", "Paolo, hai saputo? Il cliente di Verona non ha rinnovato il contratto."],
+      ["B", "Sì, me l'ha detto Rossi stamattina. Sinceramente, non ci speravo più."],
+      ["A", "Come non ci speravi? A settembre il direttore ci aveva assicurato che l'avrebbero firmato senza problemi."],
+      ["B", "Appunto, a settembre. Ma poi abbiamo consegnato il software con due mesi di ritardo, e con metà delle funzioni che avevamo promesso."],
+      ["A", "Lo so, lo so. Però non è stata solo colpa nostra. Il team di sviluppo avrebbe dovuto avvisarci molto prima che non ce l'avrebbe fatta."],
+      ["B", "Guarda, secondo me noi avremmo dovuto chiederlo. Cioè, io ricordo benissimo una riunione a luglio in cui Marco ha detto: forse ci serve più tempo. Nessuno l'ha preso sul serio. Io stesso ho pensato che stesse esagerando, come al solito."],
+      ["A", "È vero. Io avrei voluto rimandare la consegna, ma il direttore non voleva nemmeno sentirne parlare."],
+      ["B", "E lì forse avremmo dovuto insistere. Anche per iscritto, magari. Una mail, due righe."],
+      ["A", "Mah, non so se sarebbe cambiato qualcosa. Comunque adesso il direttore vuole una relazione su che cosa è andato storto. Entro venerdì."],
+      ["B", "Allora facciamola onesta, per favore. Non una lista di colpe degli altri."],
+      ["A", "Ci mancherebbe. Anche perché il direttore la leggerà insieme all'amministratore delegato, e non voglio che sembri che ci stiamo solo difendendo. Io proporrei tre punti: la stima dei tempi sbagliata, la comunicazione tra i team, e il fatto che abbiamo promesso troppo al cliente."],
+      ["B", "Io aggiungerei una cosa: le riunioni di controllo. Le facevamo ogni due settimane; avremmo dovuto farle ogni settimana, almeno nell'ultima fase."],
+      ["A", "Giusto. E poi qualche proposta concreta, sennò sembra solo un funerale."],
+      ["B", "Esatto, hai ragione. Ti preparo io la prima bozza?"],
+      ["A", "Sì, grazie. Poi la rivediamo insieme giovedì mattina, così venerdì la mandiamo al direttore con calma e senza sorprese."]
+    ],
+    "gloss": {
+      "cui": "(in cui, con cui…) en el que, con el que: *cui* es el relativo después de preposición (semana 34)",
+      "rinnovato": "renovado",
+      "consegnato": "entregado",
+      "sviluppo": "desarrollo",
+      "rimandare": "postergar",
+      "iscritto": "(per iscritto) por escrito",
+      "righe": "renglones",
+      "storto": "(andare storto) salir mal",
+      "relazione": "informe",
+      "stima": "estimación",
+      "sennò": "si no",
+      "bozza": "borrador",
+      "mancherebbe": "(ci mancherebbe) ¡faltaba más!"
+    },
+    "questions": [
+      ["Che cosa è successo con il cliente di Verona?", ["Ha chiesto nuove funzioni al software", "Non ha rinnovato il contratto", "Ha pagato con due mesi di ritardo", "Ha cambiato il suo referente"], "Non ha rinnovato il contratto"],
+      ["Che cosa aveva assicurato il direttore a settembre?", ["Che avrebbe assunto nuovi sviluppatori", "Che la consegna sarebbe stata rimandata", "Che avrebbe incontrato lui il cliente", "Che il cliente avrebbe firmato"], "Che il cliente avrebbe firmato"],
+      ["Qual è la posizione di Paolo sulle responsabilità?", ["La colpa è solo del team di sviluppo", "Anche loro avrebbero dovuto insistere", "La colpa è tutta del direttore generale", "Nessuno avrebbe potuto prevedere il problema"], "Anche loro avrebbero dovuto insistere"],
+      ["Come deve essere la relazione, secondo Paolo?", ["Onesta, senza scaricare le colpe", "Breve e senza alcuna proposta", "Firmata dal direttore in persona", "Inviata direttamente al cliente"], "Onesta, senza scaricare le colpe"],
+      ["Quale punto aggiunge Paolo alla relazione?", ["Un nuovo contratto con il cliente", "Un corso sulla stima dei tempi", "Il cambio del responsabile di progetto", "Riunioni di controllo più frequenti"], "Riunioni di controllo più frequenti"]
+    ],
+    "vf": [
+      ["A luglio un collega aveva segnalato un possibile ritardo.", "vero"],
+      ["La relazione va consegnata entro lunedì.", "falso"],
+      ["Il direttore ha già deciso di licenziare qualcuno.", "non si dice"],
+      ["Il software è stato consegnato con tutte le funzioni promesse.", "falso"]
+    ]
+  },
+  "compito": {
+    "genre": "relazione",
+    "title": "Relazione sul mancato rinnovo del contratto",
+    "fonte": "ascolto",
+    "t": "Hai ascoltato la conversazione tra Sonia e Paolo sul cliente di Verona. Immagina di essere Sonia e scrivi la relazione per il direttore (143-203 parole, registro formale), organizzata in sezioni: descrivi che cosa è successo, analizza le cause usando le informazioni della conversazione e proponi almeno due misure per evitare che accada di nuovo. Usa il condizionale passato per indicare che cosa si sarebbe dovuto fare.",
+    "es": "Informe formal al director en secciones (hechos, causas, propuestas), con los datos del audio. Usá condizionale passato para lo que se debería haber hecho (avremmo dovuto…).",
+    "min": 143,
+    "max": 203,
+    "punti": [
+      ["los hechos: el cliente no renovó", ["cliente", "verona", "rinnov"]],
+      ["las causas (demora, estimación, comunicación)", ["ritardo", "stima", "comunicazione", "cause"]],
+      ["al menos dos propuestas", ["propon", "propost", "settiman", "per iscritto"]],
+      ["registro formal y cierre", ["gentile direttore", "egregio", "cordiali saluti", "distinti saluti", "oggetto"]]
+    ],
+    "model": "Oggetto: mancato rinnovo del contratto con il cliente di Verona\n\nGentile Direttore,\n\ncome richiesto, le invio una breve analisi di quanto accaduto con il cliente di Verona, che ha deciso di non rinnovare il contratto.\n\n1. I fatti. Il software è stato consegnato con due mesi di ritardo e con circa metà delle funzioni previste. A settembre eravamo convinti che il cliente avrebbe firmato il rinnovo; questa previsione si è rivelata troppo ottimistica.\n\n2. Le cause. In primo luogo, la stima dei tempi era sbagliata. In secondo luogo, la comunicazione tra i team non ha funzionato: già a luglio era stato segnalato un possibile ritardo, ma nessuno ha approfondito. Con il senno di poi, avremmo dovuto rimandare la consegna e avvisare il cliente per tempo. Infine, abbiamo promesso più di quanto potessimo realizzare.\n\n3. Proposte. Proponiamo riunioni di controllo settimanali nelle fasi finali dei progetti e la registrazione per iscritto di ogni segnalazione di rischio.\n\nRestiamo a disposizione per discuterne.\n\nCordiali saluti,\nSonia Ferri",
+    "gloss": {
+      "mancato rinnovo": "falta de renovación, no renovación",
+      "si è rivelata": "resultó ser",
+      "era stato segnalato": "se había advertido, había sido señalado (voz pasiva: se ve en la semana 35)",
+      "nessuno ha approfondito": "nadie lo investigó a fondo",
+      "Con il senno di poi": "visto ahora, con lo que sabemos después",
+      "avremmo dovuto rimandare": "tendríamos que haber postergado",
+      "per iscritto": "por escrito",
+      "Restiamo a disposizione": "quedamos a disposición"
+    }
+  },
+  "breve": {
+    "title": "Un messaggio per il magazzino",
+    "genre": "messaggio in segreteria",
+    "es": "Una empresa de software deja un mensaje en el contestador de un cliente para postergar una instalación.",
+    "speaker": "Sonia Ricci",
+    "voice": 1,
+    "text": [
+      "Buongiorno, sono Sonia Ricci, della Ricci & Neri Software. Chiamo per il programma di gestione del vostro magazzino. Avremmo dovuto consegnarvi la nuova versione venerdì, ma purtroppo abbiamo trovato un problema nel collegamento con la contabilità, e non vorremmo installare un programma che poi non funziona.",
+      "Le propongo quindi di spostare l'installazione a martedì prossimo, il 14, alle nove del mattino. Il nostro tecnico, Paolo Gatti, avrebbe bisogno di circa tre ore e di un accesso al server; durante l'installazione il magazzino dovrebbe restare chiuso.",
+      "Mi rendo conto che è un disagio: per questo non vi faremo pagare la prima assistenza annuale, che sarebbe costata quattrocento euro.",
+      "Se martedì non vi va bene, mi può richiamare entro domani sera, oppure scrivermi una mail. Mi scuso ancora per il ritardo. Arrivederci."
+    ],
+    "tabella": [
+      ["Giorno proposto per l'installazione", "martedì", ["martedì 14", "martedì prossimo", "14", "il 14"]],
+      ["Ora dell'installazione", "9", ["nove", "alle nove", "9:00", "9.00"]],
+      ["Nome del tecnico", "Paolo Gatti", ["Gatti", "Paolo"]],
+      ["Ore di lavoro necessarie", "3", ["tre", "tre ore"]],
+      ["Costo che il cliente non pagherà (euro)", "400", ["quattrocento"]]
+    ],
+    "info": [
+      ["La consegna era prevista per venerdì.", true],
+      ["Il problema riguarda il collegamento con la contabilità.", true],
+      ["Durante l'installazione il magazzino può lavorare normalmente.", false],
+      ["La prima assistenza annuale sarà gratuita.", true],
+      ["Bisogna richiamare entro martedì.", false],
+      ["Sonia chiede di pagare una penale.", false]
+    ],
+    "gloss": {
+      "magazzino": "depósito",
+      "contabilità": "contabilidad",
+      "disagio": "molestia, inconveniente"
+    }
+  }
+}

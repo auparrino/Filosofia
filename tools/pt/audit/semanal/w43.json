@@ -1,0 +1,327 @@
+{
+ "week": 43,
+ "title": "Correspondência formal",
+ "level": "C1",
+ "revisado": {
+  "items": 48,
+  "bloques_teoria": 6,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 0,
+  "radio": 0,
+  "otros": 4
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida en contenido (fórmulas de apertura/cierre, tratamiento en 3.ª persona, crase con V. Sa., 'agradeceria se' + imperfeito do subjuntivo) y con un tramo (lectura + diálogo + mail modelo) muy bien armado y fiel a la realidad brasileña. Hay un solo error de regla relevante (la 'crase fija' de 'em relação à/devido à') y un error de nota en s4-43-04. El problema principal es de nivel y diseño: para C1 los ítems son de dificultad A2/B1, muy repetitivos (seguem/à disposição/crase con tratamiento) y con aceptaciones incompletas. Faltan suoni, radio y laboratorio.",
+ "bien": [
+  "Teoría breve, ordenada y con contraste explícito con el español (Estimado/Prezado, Atentamente/Atenciosamente, 'saudos' como calco).",
+  "Reglas centrales correctas: verbo y posesivo en 3.ª con V. Sa./o senhor, ausencia de crase ante tratamientos, 'agradeceria se' + imperfeito.",
+  "Lectura de tramo y diálogo 'Cadê o meu diploma?' naturales, con registro coloquial brasileño auténtico y preguntas bien construidas (vero/falso/non si dice válidos).",
+  "Datos culturales verificados: Os Sertões (1902, Canudos 1897), Vieira (1608–1697, Sermão aos Peixes 1654, Quinto Império), manual de redação sobre Respeitosamente/Atenciosamente.",
+  "Tarea de escritura con modelo dentro del rango de palabras (214 en el cuerpo, 226 con asunto/firma; rango 205–265) y puntos de evaluación coherentes.",
+  "Vocabulario específico útil (deferir, indeferir, ofício, requerimento, ata, homologação) con notas de falsos amigos."
+ ],
+ "hallazgos": [
+  {
+   "id": "s4-43-04",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "*Dirigir-se a* + *o rei* da *ao rei*; con sustantivo masculino no hay *crase*.",
+   "propuesta": "*Dirigir-se a* + *o rei* da *ao rei*; con sustantivo masculino no hay *crase*. (o bien: «a + o rei = ao rei»)",
+   "motivo": "«da» es portugués dentro de una nota en español (se lee como verbo 'da'); además la nota habla de «dirigir-se» y el enunciado usa «dirigida»."
+  },
+  {
+   "id": "lesson:5:warn",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Con crase fija: *à disposição*, *em relação à*, *devido à*.",
+   "propuesta": "Con crase fija: *à disposição*. Con *em relação a* y *devido a* la crase depende del sustantivo que sigue: *em relação à proposta*, *em relação ao prazo*, *devido a problemas*.",
+   "motivo": "«em relação à» y «devido à» no son fijas: solo hay crase ante sustantivo femenino con artículo. Enseña mal la regla (y contradice el ítem 22/46)."
+  },
+  {
+   "id": "lesson:5:warn",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Sin crase ante verbo y ante masculino: *a partir de hoje*, *a pedido do senhor*.",
+   "propuesta": "Sin crase ante verbo, masculino ni plural indefinido: *a partir de hoje*, *a pedido do senhor*.",
+   "motivo": "Los ejemplos no ilustran «ante verbo»; «a partir de» y «a pedido de» son locuciones, y la explicación queda confusa."
+  },
+  {
+   "id": "lesson:0:warn",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*Estimado* existe pero en Brasil suena raro.",
+   "propuesta": "*Estimado* existe en Brasil, pero es menos habitual que *Prezado*.",
+   "motivo": "«suena raro» es exagerado: «Estimado Sr.» se usa en cartas y mails brasileños, aunque menos que Prezado."
+  },
+  {
+   "id": "item s4-43-22",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Em relação ___ sua solicitação, informo que foi deferida.",
+   "propuesta": "Aceptar también «a» (em relação a sua solicitação) o aclarar en la consigna que se pide la forma con crase",
+   "motivo": "Ante posesivo + sustantivo femenino la crase es optativa; solo «à» como respuesta penaliza una forma también correcta."
+  },
+  {
+   "id": "item s4-43-33",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Segue em anexo os documentos pedidos.",
+   "propuesta": "Mantener, pero avisar en la nota que «segue em anexo» + plural es muy común en el uso real aunque la norma pide «seguem»",
+   "motivo": "Presentar «Segue em anexo os documentos» como error absoluto es prescriptivo; el uso real lo tolera mucho."
+  },
+  {
+   "id": "item s4-43-36",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "\"accept\": [\"Atenciosamente, Martín\"]",
+   "propuesta": "accept: [\"Atenciosamente, Martín\", \"Cordialmente, Martín\"]",
+   "motivo": "La lección y la nota dicen «Atenciosamente o Cordialmente», pero solo se acepta la primera (y el ítem 42 sí acepta Cordialmente). También podría aceptarse «Saudações cordiais»."
+  },
+  {
+   "id": "item s4-43-36",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "Saudos cordiais, Martín",
+   "propuesta": "Saudações cordiais, Martín (variante real) como aclaración en la nota",
+   "motivo": "«Saudações cordiais» es un cierre formal real en Brasil; la nota dice solo que «Saludos cordiales» no se calca y deja pensar que 'Saudações' tampoco existe."
+  },
+  {
+   "id": "item s4-43-39",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "vir → ___",
+   "propuesta": "Indicar la forma pedida en la consigna (p. ej. «vir → se ___ (imperfeito do subjuntivo)»)",
+   "motivo": "Sin los tres ejemplos visibles, la consigna no dice qué forma se pide y la respuesta «se viesse» incluye «se» que el alumno no tiene por qué agregar. Además es gramática de verbos irregulares no enseñada esta semana."
+  },
+  {
+   "id": "item s4-43-37",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "desfazer → ___",
+   "propuesta": "Verificar que los 3 ejemplos de la consigna muestren el condicional; si no, aclarar «futuro do pretérito»",
+   "motivo": "Evalúa el condicional irregular de desfazer/refazer, no trabajado en la lección; casi duplicado con s4-43-38."
+  },
+  {
+   "id": "item s4-43-40",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Leia as frases e descubra a regra.",
+   "propuesta": "Incluir las frases-modelo en el ítem o cambiar la consigna",
+   "motivo": "La consigna remite a frases que no aparecen en el enunciado; el alumno solo ve la pregunta teórica."
+  },
+  {
+   "id": "item s4-43-08",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"options\": [\"Seguem\", \"Segue\", \"Sigue\"]",
+   "propuesta": "Cambiar «Sigue» por un distractor que dependa de la regla (p. ej. «Seguiu» o «Seguirão»)",
+   "motivo": "«Sigue» es español puro y se descarta sin aplicar la regla; la discriminación real es Seguem/Segue."
+  },
+  {
+   "id": "item s4-43-02",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "[\"Atenciosamente\", \"Um grande beijo\", \"Saudos cordiais\"]",
+   "propuesta": "Mantener, pero ver la nota",
+   "motivo": "El ítem 'lesson:1:q' ofrece «Atentamente» como distractor y esta nota dice que «Atentamente también existe»: la opción se vuelve discutible como 'incorrecta'."
+  },
+  {
+   "id": "lesson:1:q:0",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"Atenciosamente,\", \"Saudos cordiais,\", \"Atentamente,\"",
+   "propuesta": "Reemplazar «Atentamente,» por otro distractor claro",
+   "motivo": "Es una opción que el propio curso reconoce como existente (nota de s4-43-02); ambigua como distractor."
+  },
+  {
+   "id": "item s4-43-12",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Solicito ___ Vossa Excelência a revisão do processo.",
+   "propuesta": "Mantener; es casi duplicado de s4-43-24 (Informo ___ V. Sa.) y de lesson:5:q",
+   "motivo": "Tres ítems prueban lo mismo (a + tratamiento sin crase)."
+  },
+  {
+   "id": "item s4-43-13",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "___ Senhor Coordenador, (apertura formal)",
+   "propuesta": "Variar (p. ej. «Prezada ___ Ana Souza» o pedir un saludo completo)",
+   "motivo": "Duplica s4-43-01 y s4-43-03 (Prezado/a concordado); muchos ítems de baja demanda."
+  },
+  {
+   "id": "item s4-43-27",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"accept\": [\"Segue em anexo o atestado médico.\", \"Segue anexo o atestado médico\", \"Envio em anexo o atestado médico\", \"Segue o atestado médico em anexo\", \"Encaminho em anexo o atestado médico\"]",
+   "propuesta": "Agregar «Anexo o atestado médico» y «Estou anexando o atestado médico»",
+   "motivo": "Alumno natural puede usar el verbo «anexar»; ítem casi duplicado con s4-43-28."
+  },
+  {
+   "id": "item s4-43-30",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"accept\": [\"Gostaria de solicitar uma prorrogação do prazo.\"",
+   "propuesta": "Agregar «Gostaria de solicitar prorrogação do prazo», «Gostaria de pedir uma prorrogação do prazo», «Solicito uma prorrogação do prazo»",
+   "motivo": "Alternativas igual de correctas y naturales no aceptadas."
+  },
+  {
+   "id": "item s4-43-31",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"accept\": [\"Agradeceria se pudesse responder até sexta.\"",
+   "propuesta": "Agregar «Eu agradeceria se o senhor pudesse responder até sexta» y «até a sexta»",
+   "motivo": "Falta la combinación Eu + o senhor, natural y correcta."
+  },
+  {
+   "id": "item col-43-2",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "[\"prorrogue\", \"demore\", \"atrase\"]",
+   "propuesta": "Reemplazar «atrase» por un distractor claramente no colocacional (p. ej. «estique»)",
+   "motivo": "«atrasar o prazo» se oye con el sentido de postergar; el ítem depende del sentido más que de la colocación. Además es raro que una empresa 'prorrogue' su propio plazo de entrega."
+  },
+  {
+   "id": "item col-43-1",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Sacarse una duda → tirar (informal) o esclarecer (formal) uma dúvida.",
+   "propuesta": "Aclarar que «tirar uma dúvida» es la colocación más frecuente y que «sacar» no sirve",
+   "motivo": "Nota correcta pero deja implícito por qué «sacar» es incorrecto (calco)."
+  },
+  {
+   "id": "lesson:2",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "En cartas oficiales: *Vossa Senhoria* (V. Sa.), también en 3.ª.",
+   "propuesta": "Agregar cuándo se usa V. Sa. (mayoría de autoridades/jefaturas) y cuándo V. Exa. (altas autoridades), como dice la lectura del tramo",
+   "motivo": "La lección presenta Vossa Excelência solo en un ejemplo, sin criterio de uso; la lectura sí lo explica."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "El mail formal brasileño tiene fórmulas fijas: *venho por meio desta*",
+   "propuesta": "Agregar nota de registro: «venho por meio desta» suena anticuado y hoy se prefiere «Escrevo para solicitar»",
+   "motivo": "La lectura del tramo dice que muchos especialistas la consideran reemplazable; la lección la presenta sin matiz."
+  },
+  {
+   "id": "lesson:3:warn",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "*seguir* concuerda con lo adjuntado: *seguem anexos os documentos*, *segue anexa a lista*. Con *em anexo*, *anexo* no cambia, pero el verbo sí: *seguem em anexo*.",
+   "propuesta": "*Seguir* concuerda con lo adjunto: *seguem em anexo os documentos*, *segue em anexo a lista*; sin «em», *anexo* también concuerda: *seguem anexos*, *segue anexa*.",
+   "motivo": "Explicación enredada: mezcla dos estructuras y no muestra ejemplos claros."
+  },
+  {
+   "id": "tramo:lettura:vf:4",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "“Cordialmente” é o fecho mais adequado para escrever a um ministro.",
+   "propuesta": "Cambiar por una afirmación explícita en el texto (p. ej. «Para autoridades superiores o texto recomenda “Respeitosamente”» = verdadeiro)",
+   "motivo": "El texto no menciona ministros junto a Cordialmente; el 'falso' exige inferencia entre dos párrafos."
+  },
+  {
+   "id": "tramo:ascolto",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Já se passaram quase cinco meses",
+   "propuesta": "Ajustar a «quase seis meses»",
+   "motivo": "Defensa en marzo + toma de posesión en 3 semanas (modelo: 16 de octubre) implica ~6 meses, no ~5."
+  },
+  {
+   "id": "tramo:compito",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Já escrevi ao professor em questão, a quem expliquei a situação, e aguardo sua resposta.",
+   "propuesta": "Eliminar o sustituir por «Pretendo escrever ao professor em questão»",
+   "motivo": "El modelo afirma hechos que el audio no da (Beatriz ya escribió; fecha «16 de outubro»); el audio solo dice 'daqui a três semanas'."
+  },
+  {
+   "id": "tramo:lettura",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"level\": \"B2+\"",
+   "propuesta": "Alinear con el nivel C1 de la semana o elevar la complejidad",
+   "motivo": "La lectura del tramo está marcada B2+ y el resto del tramo C1; inconsistencia de nivel."
+  },
+  {
+   "id": "c-vieira",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"grammar\": \"narrativa e argumentação\"",
+   "propuesta": "Vincular al tema de la semana o aceptar que es episodio cultural independiente",
+   "motivo": "El episodio de Vieira no usa ni refuerza correspondencia formal."
+  },
+  {
+   "id": "vocab:hesitar",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Más formal que *vacilar*, que en el habla es «mandarse una macana».",
+   "propuesta": "Más formal que *vacilar*; (en el habla, *dar uma vacilada* = hacer una macana)",
+   "motivo": "«Vacilar» también significa «dudar» en portugués; la nota sugiere que solo es 'macana', lo que confunde."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Subir la exigencia de los ítems a C1: pedir redacción de fórmulas completas, reformulación de registro (informal→formal), correcciones de mails largos con varios errores, uso de deferir/indeferir/ressarcimento/encaminhar y 'Vossa Excelência' vs 'Vossa Senhoria'.",
+   "por_que": "Los 48 ítems evalúan sobre todo A2/B1 (Prezado/Prezada, Seguem/Segue, crase simple) en una semana de nivel C1."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Corregir la advertencia de crase ('em relação à', 'devido à' no son fijas) y la nota de s4-43-04.",
+   "por_que": "Es el único contenido falso/engañoso y contradice los ítems 22 y 46."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Ampliar los accept de los translate/fixerr/combina (Cordialmente en s4-43-36, 'anexar', 'Eu agradeceria se o senhor...', 'solicitar prorrogação').",
+   "por_que": "Hay respuestas correctas y naturales que el alumno recibiría como error."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir repeticiones (seguem/segue ×7, à disposição ×3, crase con tratamiento ×4, Prezado/a ×3) y reemplazar por producción: mini-redacción de asunto+apertura+pedido+cierre.",
+   "por_que": "Pocos tipos distintos de práctica por regla; falta escalonar de reconocimiento a producción."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar a la lección: criterio V. Sa./V. Exa., 'Respeitosamente' vs 'Atenciosamente', 'Saudações cordiais', matiz de que 'venho por meio desta' suena anticuado, y asunto del mail y 'Prezado Professor Doutor'.",
+   "por_que": "El tramo ya explica esto, pero la lección (que es lo que se practica) no."
+  },
+  {
+   "prioridad": "media",
+   "que": "Incorporar ejercicios con el léxico del vocab que hoy solo aparece en glosas (deferir/indeferir, ressarcimento, pendência, ofício).",
+   "por_que": "Vocabulario enseñado sin práctica; 'deferida' aparece en ítems sin haber sido presentada en la lección."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Resolver incoherencias menores: nivel B2+ de la lectura del tramo, 5 vs 6 meses en el diálogo, invenciones del mail modelo, vf de 'ministro', Vieira sin vínculo temático.",
+   "por_que": "Consistencia interna y trazabilidad de las respuestas."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Completar suoni, radio y laboratorio (están vacíos) con, p. ej., entonación formal de una llamada o pares 'deferir/diferir', 'ata/ato'.",
+   "por_que": "La semana no trabaja pronunciación ni escucha fuera del tramo; el dictogloss solo tiene un texto fácil para C1."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Cargar los ítems garden y scopri con sus ejemplos visibles o quitar la mención 'Veja os exemplos'; justificar o mover desfazer/refazer/vir, que no se enseñan en la lección.",
+   "por_que": "Consigna incompleta y gramática ajena al tema."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 1,
+   "dudas": 1
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

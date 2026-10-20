@@ -1,0 +1,337 @@
+{
+ "week": 21,
+ "title": "Le particelle NE e CI",
+ "level": "B1",
+ "revisado": {
+  "items": 42,
+  "sfide": 8,
+  "bloques_teoria": 5,
+  "lecturas": 3,
+  "dictogloss": 1,
+  "suoni": 9
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Teoría breve y clara con ejemplos rioplatenses y contraste con el español; el núcleo (ne partitivo, ne = di, ci locativo, ci = a, expresiones fijas) está bien cubierto y las lecturas y el dictogloss usan bien la gramática de la semana. Los problemas: una regla exagerada (ci obligatorio), casi un cuarto de los ejercicios (cortesía, dislocación con li, verbos de percepción, pronombres dobles y ne con da) no corresponde a lo enseñado, y algunos ítems de suoni y sfide tienen fallas de diseño. Poca práctica de farcela, avercela y non poterne più, sin ítems de escucha o producción libre.",
+ "bien": [
+  "Reglas cortas con contraste explícito con el español y el criterio práctico «di → ne, a/in/su → ci».",
+  "Buena cobertura del ne partitivo con concordancia del participio (c1-ne-03, sfide r07-04i, lectura fl-ne).",
+  "Distinción volerci/metterci bien explicada y practicada en varios ítems (c1-ci-03/04, l2-c-96/97/98).",
+  "Tres lecturas con contexto verosímil (mercado, biblioteca, bar) y caza de formas pertinente.",
+  "Las respuestas aceptadas en las traducciones son en general generosas (variantes con Lei/tu, sinónimos, nulla/niente).",
+  "Dictogloss corto y sobre el tema, con chunks bien elegidos."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:2:warn",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "«Sí, voy mañana» a secas suena incompleto en italiano: *sì, ci vado domani*.",
+   "propuesta": "Reformular: «Sì, vado domani» es correcto; con *ci* la frase es más natural/redundante cuando el lugar ya se nombró, pero no es obligatorio. Cambiar también el «en italiano, sí» del bloque.",
+   "motivo": "Afirma una obligatoriedad falsa: sin *ci* la frase es gramatical y frecuente."
+  },
+  {
+   "id": "g2-ct-25",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Vai a Milano? — Sì, ci vado la settimana prossima",
+   "propuesta": "Agregar a accept «Vai a Milano? — Sì, vado la settimana prossima» y corregir la nota («voy solo suena incompleto»).",
+   "motivo": "«Sì, vado…» es una respuesta correcta y natural; la nota es exagerada."
+  },
+  {
+   "id": "g2-sc-11",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "en italiano hay que decirlo",
+   "propuesta": "«en italiano es muy frecuente decirlo».",
+   "motivo": "Absoluto exagerado; ver lesson:2."
+  },
+  {
+   "id": "lesson:0:warn",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Cada vez que respondas con una cantidad, *ne* tiene que estar.",
+   "propuesta": "«Cuando respondas con una cantidad SIN nombrar la cosa (ne ho tre), ne es obligatorio; con el sustantivo (ho tre libri) no se usa».",
+   "motivo": "Sobregeneraliza: «Ho tre libri» es correcto sin ne."
+  },
+  {
+   "id": "s:r07-03d:c",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"accept\": [\"ne\",\"lo\"]",
+   "propuesta": "Aceptar solo «ne» (la consigna pide «ne») o cambiar la consigna a «Elegí ne o lo».",
+   "motivo": "La consigna pide «ne», la nota dice que «lo» significa otra cosa y aun así se acepta."
+  },
+  {
+   "id": "s:r07-03d:d",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"accept\": [\"ne\",\"le\"]",
+   "propuesta": "Aceptar solo «ne» o reformular la consigna.",
+   "motivo": "Misma contradicción con la consigna «Poné ne»."
+  },
+  {
+   "id": "s:r07-04c:g",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Sì, e ne sono rimasto sconvolto.",
+   "propuesta": "Reemplazar por un ítem con «di» o enseñar en la lección que ne también sustituye «da + algo».",
+   "motivo": "La lección solo enseña ne = di + algo; la nota introduce ne + «da» sin haberlo enseñado."
+  },
+  {
+   "id": "s:r07-04c:h",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Sì, ne sta uscendo proprio adesso.",
+   "propuesta": "Cambiar a un ítem enseñado (ej. «Sì, ne parla proprio adesso») o enseñar ne = «de ahí» (ne esco/ne sta uscendo).",
+   "motivo": "Uso de ne ablativo no enseñado y sonoridad forzada; en la lengua real sería «sta uscendo proprio adesso»."
+  },
+  {
+   "id": "c1-ci-04",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Io ___ due ore per arrivare, ma in generale ___ un'ora.",
+   "propuesta": "Explicitar en la consigna que el segundo hueco es impersonal, o aceptar también «ci metto» / poner «ci vogliono» sin sujeto ambiguo.",
+   "motivo": "«ma in generale ci metto un'ora» también es posible; la respuesta depende de la intención no marcada."
+  },
+  {
+   "id": "g2-out-cor-01",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Voglio un caffè. → (cortés) ___ un caffè.",
+   "propuesta": "Mover los 12 ítems g2-out-cor-01..12 (condicional de cortesía: vorrei, potrebbe, daresti, passerebbe, sarebbe…) a la semana del condizionale, o enseñarlos en un bloque de la lección.",
+   "motivo": "No pertenecen a NE/CI y exigen condizionale no enseñado en esta lección."
+  },
+  {
+   "id": "g2-ct-26",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Hace dos años que no lo veo.",
+   "propuesta": "Reemplazar por un ítem de ne/ci (p. ej. «Hace dos años que voy a ese mercado» → ci vado da due anni).",
+   "motivo": "Evalúa «da + presente», ajeno al tema de la semana."
+  },
+  {
+   "id": "r10-15:a",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Quanto hai pagato i sandali? → ___?",
+   "propuesta": "Sustituir por un ítem con ne o retirar de esta semana.",
+   "motivo": "Practica la dislocación con «li», no ne/ci."
+  },
+  {
+   "id": "r10-15:d",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Ne retoma la cantidad: quante ne volete di pesche.",
+   "propuesta": "«Ne retoma «di pesche»; la cantidad la expresa «quante»».",
+   "motivo": "Nota imprecisa: ne no retoma la cantidad sino el complemento partitivo."
+  },
+  {
+   "id": "r27-06c",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Eccoli che arrivano adesso",
+   "propuesta": "Retirar este desafío (ecco + pronombre, vedere + infinito) o moverlo a la semana de verbos de percepción.",
+   "motivo": "Gramática de capítulo posterior (causativos y percepción) que la lección no enseña."
+  },
+  {
+   "id": "l2-c-93",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "I ragazzi ___ senza salutare.",
+   "propuesta": "Agregar a la lección un bloque breve sobre pronombres combinados (me ne vado / se ne sono andati / ce n'è) o marcar el ítem como extra.",
+   "motivo": "Exige pronombres dobles y su forma en passato prossimo, no enseñados (igual l2-c-94, d08-045)."
+  },
+  {
+   "id": "d08-045",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Non ce n’è.",
+   "propuesta": "Enseñar ci + ne = ce n'è (ce ne sono) en la lección antes de evaluarlo.",
+   "motivo": "La nota introduce la combinación sin haberla presentado."
+  },
+  {
+   "id": "g2-ct-24",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Vuoi mele? — Sì, ne voglio due",
+   "propuesta": "Quitar «Vuoi mele?» y «Vuoi le mele?» de accept.",
+   "motivo": "«Vuoi mele?» no es natural y «le mele» cambia el sentido (definido)."
+  },
+  {
+   "id": "r07-04i:b",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"i | i\"",
+   "propuesta": "Agregar «i | o» a accept.",
+   "motivo": "«Ne ho comprato due chili» es igualmente natural."
+  },
+  {
+   "id": "fl-ne Q3",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "¿Qué sobró al final de la cena?",
+   "propuesta": "«¿Qué dice Martín al final sobre la comida?» o cambiar la opción a «no sobró ni un tortellino».",
+   "motivo": "Se pregunta «qué sobró» y la respuesta dice que no sobró nada; además hace 2 postres no implica que sobren."
+  },
+  {
+   "id": "w-21",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Poi passo dal formaggio.",
+   "propuesta": "Poi passo dal formaggiaio. / Poi passo al banco del formaggio.",
+   "motivo": "«da» + cosa no funciona; falta el comerciante o el puesto."
+  },
+  {
+   "id": "g2-gd-55",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Mirá los tres ejemplos y completá el cuarto.",
+   "propuesta": "Mostrar los tres ejemplos en el enunciado.",
+   "motivo": "El stem solo muestra un ejemplo, la consigna remite a tres."
+  },
+  {
+   "id": "suoni p-058",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"a\": \"ne\", \"b\": \"nne\"",
+   "propuesta": "Reemplazar por un par mínimo real (p. ej. «pena»/«penne» o «sano»/«sanno»).",
+   "motivo": "«nne» no existe; no es un par mínimo y el alumno no puede discriminar nada útil."
+  },
+  {
+   "id": "suoni p-092",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"a\": \"ólio\", \"b\": \"òlio\"",
+   "propuesta": "Reemplazar por un par mínimo real de e/o abiertas y cerradas (p. ej. «pèsca» [fruta]/«pésca» [pesca], o «èsse»/«ésse»).",
+   "motivo": "Solo una variante existe; con grafía idéntica no hay contraste léxico."
+  },
+  {
+   "id": "suoni p-118",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"a\": \"pezzo\", \"b\": \"pesso\"",
+   "propuesta": "Usar un par real: «pezzo»/«pesso» → «razza»/«rasa» o «pazzo»/«passo».",
+   "motivo": "«pesso» no existe; par de una sola palabra real."
+  },
+  {
+   "id": "suoni p-143",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "-isce suena «ishe».",
+   "propuesta": "«-isce suena como «-ishshe»: sc + e/i da [ʃ] larga (geminada)».",
+   "motivo": "Entre vocales [ʃʃ] es larga; «ishe» suena a sh corta y borra el contraste real."
+  },
+  {
+   "id": "suoni c-028",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "\"Me ne vado.\", \"Mene vado.\"",
+   "propuesta": "Reemplazar la opción «Mene vado.» por una que difiera en sonido (p. ej. «Me ne vada.» o «Ne me vado.»).",
+   "motivo": "Si «say» es audio, «Me ne vado» y «Mene vado» suenan idénticas; solo se distinguen por escrito."
+  },
+  {
+   "id": "suoni c-029",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "ce = [che]",
+   "propuesta": "«ce = [tʃe], como «che» en «che, boludo»; no es la «che» italiana [ke]».",
+   "motivo": "La notación [che] choca con la opción «Che la faccio», que en italiano es [ke]."
+  },
+  {
+   "id": "suoni a-021",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Los infinitivos en -ere suelen ser esdrújulos: vìvere, prèndere, scrìvere.",
+   "propuesta": "«Muchos infinitivos en -ere son esdrújulos (vìvere, prèndere) y otros llanos (avére, vedére, sapére, potére): hay que aprenderlos».",
+   "motivo": "«Suelen» exagera; muchos verbos frecuentes tienen acento en la -e-."
+  },
+  {
+   "id": "sfide chapter",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "Personal pronouns / Interrogatives / Causative verbs and verbs of perception",
+   "propuesta": "Traducir o esconder el campo «chapter»: Pronombres personales / Interrogativos / Causativos y verbos de percepción.",
+   "motivo": "Texto en inglés visible si el alumno ve el capítulo del desafío."
+  },
+  {
+   "id": "lesson:4",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Verbos pronominales: andarsene, farcela, avercela, volerci, metterci.",
+   "propuesta": "Agregar «avercela con» a la tabla, o sacarlo de keys.",
+   "motivo": "La key menciona «avercela» pero la tabla y los ejemplos no lo incluyen."
+  },
+  {
+   "id": "vocab cipolla",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "Ne vuoi un po'? Sono cipolle di Tropea.",
+   "propuesta": "Ne vuoi qualcuna? Sono cipolle di Tropea.",
+   "motivo": "«un po'» con un contable plural suena poco natural."
+  },
+  {
+   "id": "dictogloss al mercato",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "ma ne vale la pena",
+   "propuesta": "Aceptable; agregar «valerne la pena» a la lección o cambiar por «ma vale la pena».",
+   "motivo": "Modismo con ne no enseñado."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Corregir la regla «ci obligatorio» (lesson:2) y los ítems/notas que la repiten (g2-ct-25, g2-sc-11), aceptando «Sì, vado domani».",
+   "por_que": "Es la regla de mayor impacto y afecta a varios ítems."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Sacar o reubicar los ítems ajenos a NE/CI: 12 de cortesía (g2-out-cor), g2-ct-26, r10-15:a y r27-06c.",
+   "por_que": "Diluyen el objetivo de la semana y exigen gramática no enseñada."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar a la lección un bloque breve de posición (con infinitivo: vederci, comprarne; imperativo) y de pronombres dobles (me ne vado, ce n'è, se ne sono andati) o retirar los ítems que los exigen.",
+   "por_que": "Los ejercicios sfide piden posiciones y combinaciones sin base en la lección."
+  },
+  {
+   "prioridad": "media",
+   "que": "Sumar 6-8 ítems propios de expresiones (farcela, avercela, non poterne più, averne abbastanza) y de ci = a con verbos varios (riuscirci, crederci, contarci); hoy casi no se practican.",
+   "por_que": "Casi no hay práctica de la mitad de la tabla de expresiones."
+  },
+  {
+   "prioridad": "media",
+   "que": "Incluir en teoría que ne remite a cosas y para personas se usa di lui/di lei; sumar ne = «de ahí» solo si se lo va a evaluar (r07-04c:g/h).",
+   "por_que": "Evita que el alumno use ne con personas."
+  },
+  {
+   "prioridad": "media",
+   "que": "Arreglar los pares de suoni (p-058, p-092, p-118) con pares mínimos reales y la opción homófona de c-028.",
+   "por_que": "Un par que no discrimina nada no entrena el oído."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Sumar tipos de ejercicio de producción (typed, listen, qa): hoy casi todo es choice/cloze/translate.",
+   "por_que": "Mayor variedad reconocimiento-producción."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Unificar comillas en las lecturas (« » vs \" \") y reformular la pregunta 3 de fl-ne.",
+   "por_que": "Mejora de calidad menor."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

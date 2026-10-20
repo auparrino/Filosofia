@@ -1,0 +1,289 @@
+{
+ "week": 4,
+ "title": "Aggettivi qualificativi",
+ "level": "A1",
+ "revisado": {
+  "items": 68,
+  "sfide": 6,
+  "bloques_teoria": 4,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 17
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana correcta en italiano: no encontré errores seguros en respuestas, notas ni textos. El problema es de alineación entre teoría y práctica: hay ítems sobre molto, avere (edad, caldo), plurales en -co/-go y che X di Y que la lección no enseña, mientras que faltan nacionalidad y profesiones, prometidas en 'fare' y 'tema'. La práctica es muy repetitiva (30 cloze casi idénticos, simpatiche 4 veces) y casi sin producción libre. Estimo unos 25-30% de falsos positivos en las dudas.",
+ "bien": [
+  "Concordancia -o/-e y los irregulares bello/quello, buono, santo bien explicados con tablas y ejemplos correctos.",
+  "Contraste de posición con pares de sentido (vecchio amico / amico vecchio, povero uomo) claros y bien practicados (rf-4-18, 19).",
+  "Notas de los ítems mayormente precisas y útiles (h de simpatiche, latte/fiore masculinos, gente singular, «rosse» = rojas).",
+  "Lectura natural, con muchos adjetivos de la semana, glosas rioplatenses (remeras, pelo) y distractores bien construidos.",
+  "Ítems fixerr basados en errores reales del hispanohablante (molti belle, buonos, simpaticas, il gente).",
+  "Pares mínimos de suoni correctos en su mayoría (fóro/fòro, cólto/còlto, sera/serra, rosa/rossa)."
+ ],
+ "hallazgos": [
+  {
+   "id": "vocab:brutto",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "",
+   "propuesta": "La mia camera è brutta ma comoda.",
+   "motivo": "La entrada de vocabulario tiene la frase de ejemplo vacía."
+  },
+  {
+   "id": "vocab:pantalone",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Questo pantalone è molto lungo.",
+   "propuesta": "Questi pantaloni sono molto lunghi.",
+   "motivo": "El singular «pantalone» es válido pero menos natural que el plural para un A1; el plural refuerza además la concordancia."
+  },
+  {
+   "id": "vocab:bravo",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "bravo → bueno",
+   "propuesta": "bravo → bueno/hábil (falso amigo: en español «bravo» = enojado, feroz)",
+   "motivo": "«bravo» italiano es 'capaz, competente'; falta advertir el falso amigo."
+  },
+  {
+   "id": "d05-013",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "(santo) ___ Apostoli",
+   "propuesta": "Cambiar por un ejemplo en singular (p. ej. (santo) ___ Pietro / ___ Anna) o enseñar antes el plural Santi",
+   "motivo": "Exige el plural «Santi», que la lección no enseña (solo San, Sant', Santo, Santa); el enunciado además habla de una sola forma."
+  },
+  {
+   "id": "d05-018",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "(santo) ___ Elisabetta",
+   "propuesta": "(santo) ___Elisabetta o aclarar que el apóstrofo se escribe pegado; añadir en note que «Santa Elisabetta» también es correcto",
+   "motivo": "El hueco con espacio antes de Elisabetta confunde cómo escribir el apóstrofo; se acepta «Santa» pero la explicación no lo dice."
+  },
+  {
+   "id": "d05-027",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"accept\": [\"zio simpatico\"]",
+   "propuesta": "accept: [\"zio simpatico\", \"simpatico zio\"]",
+   "motivo": "«un simpatico zio» es muy natural en italiano y la consigna dice 'antes o después según corresponda'."
+  },
+  {
+   "id": "g2-gd-45",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "(muy lindas) → ___ belle",
+   "propuesta": "Enseñar molto (adverbio invariable / adjetivo variable) en la lección antes de practicarlo (también g2-gd-46, g2-va-08, g2-va-20)",
+   "motivo": "Cuatro ítems evalúan molto/muy y la teoría de la semana no lo trata; tampoco se ven en el dossier los 'tres ejemplos' que menciona la consigna."
+  },
+  {
+   "id": "g2-gd-48",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "(tengo treinta años) → ___ trent'anni",
+   "propuesta": "Añadir a la lección un bloque breve 'edad: avere + anni'",
+   "motivo": "La edad (fare de la semana) se practica pero no se enseña en la lección; lo mismo con avere caldo/freddo (g2-va-34)."
+  },
+  {
+   "id": "g2-va-34",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Oggi sono molto caldo.",
+   "propuesta": "Enseñar avere caldo/freddo antes o mover el ítem a la semana donde se enseña",
+   "motivo": "Evalúa una estructura no presentada en la lección de adjetivos."
+  },
+  {
+   "id": "rf-4-11",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "I miei vicini sono ___ (simpatico).",
+   "propuesta": "Añadir a la lección un bloque sobre plurales en -co/-ca/-go/-ga (simpatici/simpatiche, antichi, lunghe, larghe, amici)",
+   "motivo": "Al menos 8 ítems (d05-008, g2-va-43, rf-4-10..13, 17, p-177) practican estos plurales sin que la lección los explique; la nota del ítem cita la regla pero recién ahí aparece."
+  },
+  {
+   "id": "rf-4-15",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Mi piacciono le rose ___.",
+   "propuesta": "Le rose che ho comprato sono ___. / Ho delle rose ___.",
+   "motivo": "Usa «mi piacciono» (piacere), estructura no enseñada en una semana A1 sobre adjetivos; se puede evitar."
+  },
+  {
+   "id": "rf-4-13",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Ojo: «largo» es ancho, no «lungo».",
+   "propuesta": "Ojo: en italiano largo = ancho; lungo = largo (en español).",
+   "motivo": "Confuso: en el vocabulario lungo se traduce como «largo», y la nota parece negar esa equivalencia."
+  },
+  {
+   "id": "rf-4-25",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"accept\": [\"Che belle scarpe!\"]  /  En exclamaciones, «che» + adjetivo delante.",
+   "propuesta": "accept: también «Che scarpe belle!»; nota: «Che belle scarpe!» es lo más habitual, aunque «che scarpe belle!» también existe",
+   "motivo": "«Che + sustantivo + adjetivo» es igualmente correcto; la nota da a entender que solo va delante."
+  },
+  {
+   "id": "rf-4-23",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Le ragazze argentine sono molto simpatiche",
+   "propuesta": "Aceptar también la versión con punto final: «Le ragazze argentine sono molto simpatiche.»",
+   "motivo": "Verificar que la comparación normaliza puntuación; el resto de traducciones va sin punto y con «!» donde corresponde."
+  },
+  {
+   "id": "rf-4-10",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Le tue cugine sono molto ___ (simpatico).",
+   "propuesta": "Reemplazar por otro adjetivo en -ca (p. ej. pratica, tedesca) ",
+   "motivo": "«simpatiche» se practica 4 veces (d05-008, rf-4-10, g2-va-43, rf-4-23); rf-4-21 repite además «grandi» de d05-004."
+  },
+  {
+   "id": "r11-02",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "Exclamations",
+   "propuesta": "Esclamazioni (o «Exclamaciones»)",
+   "motivo": "El nombre del capítulo de la sfida está en inglés y es visible al alumno."
+  },
+  {
+   "id": "s:r11-02:b",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Che ___! (quella casa – meraviglia)",
+   "propuesta": "Limitar la sfida a che + adjetivo + sustantivo, o enseñar «che X di Y» en la lección",
+   "motivo": "«che meraviglia di casa / che amore di ragazza» (b y d) es una estructura no enseñada y las respuestas no son deducibles de la consigna."
+  },
+  {
+   "id": "s:r11-02:e",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"accept\": [\"orecchini carini\",\"carini questi orecchini\",\"begli orecchini\"]",
+   "propuesta": "Quitar «begli orecchini» o explicar que es una alternativa válida",
+   "motivo": "Se acepta una palabra distinta de la dada (bello en lugar de carino) sin que la nota lo mencione."
+  },
+  {
+   "id": "p-128",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "remera; malla",
+   "propuesta": "remera; suéter",
+   "motivo": "En rioplatense «malla» es el traje de baño; para «maglia» (prenda de punto) induce a error."
+  },
+  {
+   "id": "p-020",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "olor fuerte",
+   "propuesta": "toba (roca volcánica)",
+   "motivo": "El sentido principal de «tufo» es la roca (toba); «olor fuerte» es secundario y poco útil para un A1."
+  },
+  {
+   "id": "p-021",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "«brutto» = feo, con doble t: un falso amigo con doble.",
+   "propuesta": "«brutto» = feo (no 'bruto'): se escribe con doble t.",
+   "motivo": "Redacción confusa; bruto/brutto además son parecidos en español, no un 'falso amigo con doble'."
+  },
+  {
+   "id": "p-102",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "zero / sero",
+   "propuesta": "zero / sera (o pares con [dz]/[ts] reales como razza/rassa no usar); revisar p-103 (zona/sona) y p-152 (vita/bita)",
+   "motivo": "Varios pares usan la segunda palabra inexistente ('sero', 'sona', 'bita'), que no es un par mínimo real para entrenar el oído."
+  },
+  {
+   "id": "lesson:4",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "El castellano apocopa *buen* y *san* solo en masculino. El italiano también tiene *buon'amica* en femenino.",
+   "propuesta": "Separar: apócope (buon, gran, san) vs elisión (buon'amica, grand'uomo, sant'Anna). Aclarar que buon'amica es opcional y poco frecuente; y cuándo se usa gran (delante de consonante, no s+cons./z)",
+   "motivo": "Mezcla apócope con elisión y da a entender que buon'amica es la norma; no explica cuándo grande → gran vs grand'."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Tabla bello/quello: l' → bell', quell'",
+   "propuesta": "Añadir fila/ejemplo femenino: l' → bell'amica, quell'amica",
+   "motivo": "Falta mostrar que la elisión también vale para femenino singular; los ítems no lo evalúan."
+  },
+  {
+   "id": "lesson:2",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "nunca «una rossa macchina»",
+   "propuesta": "casi nunca / no es lo normal: «una rossa macchina»",
+   "motivo": "«Nunca» es exagerado: el adjetivo de color antepuesto existe en registro poético."
+  },
+  {
+   "id": "w-04",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "¿Qué tiene Elisa? / Tocá los adjetivos de color (colorate)",
+   "propuesta": "Precisar «¿Qué cosa tiene Elisa que Marta no?» o «¿Qué vehículo tiene Elisa?»; en la caza usar solo colores (quitar colorate)",
+   "motivo": "«Tener» es ambiguo (Elisa también tiene remeras, pelo corto...) y «colorate» no es un color; además no hay preguntas vero/falso/non si dice."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Añadir a la lección bloques cortos sobre: plurales en -co/-ca/-go/-ga, molto (adverbio invariable vs adjetivo) y avere + anni/caldo, o mover esos ítems a otra semana.",
+   "por_que": "Más de 12 ítems evalúan contenido que la lección no enseña."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Cubrir el objetivo declarado (nacionalidad, profesiones, aspecto físico): bloque con nacionalidades (-ano, -ese, -ino) y profesiones, más 4-6 ítems (È argentina / Sono insegnante).",
+   "por_que": "'fare' y 'tema' prometen países y profesiones y la semana no los trabaja."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir los 30 cloze de d05 (estructura idéntica) a ~15 y reemplazar por ítems de producción: traducciones (hoy solo 3), typed, qa o descripciones de una persona.",
+   "por_que": "Hay mucho reconocimiento y poca producción; los cloze son repetitivos."
+  },
+  {
+   "prioridad": "media",
+   "que": "Eliminar duplicados (simpatiche x4, grandi x2, begli x2) y ampliar la cobertura de quello (solo se practica bello; no hay ítems de quello) y de bell'/quell' femeninos.",
+   "por_que": "Se enseña quello pero no se practica; se repiten formas fáciles."
+  },
+  {
+   "prioridad": "media",
+   "que": "Añadir a la lección un contraste con el español y errores típicos: «molto/mucho» y «muy», concordancia de gente/persone, ausencia de -s.",
+   "por_que": "La teoría casi no menciona los errores típicos del hispanohablante que los fixerr sí practican."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Completar la lectura con preguntas vero/falso/non si dice y una pregunta sobre bel/buon; revisar que el dictogloss (Marta y Paolo) no reutilice el nombre de la lectura.",
+   "por_que": "Más variedad de comprensión; evitar confusión de personajes."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Revisar suoni: reemplazar pares con palabra inexistente (sero, sona, bita) y ampliar las notas 'gli palatal' / 'v labiodental' con una pista articulatoria.",
+   "por_que": "Las notas telegráficas y los pares con no-palabras entrenan poco."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Estimar carga: 68 ítems + 6 sfide es alta para A1; considerar dividir 'parts' (hoy vacío) en bloques por punto enseñado.",
+   "por_que": "Sin 'parts' la práctica llega sin agrupar por regla."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 3
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

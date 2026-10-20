@@ -1,0 +1,47 @@
+{
+ "week": 14,
+ "level": "A2",
+ "title": "Do que você gosta?",
+ "genre": "enquete ao vivo",
+ "es": "La radio hace una encuesta: ¿qué les gusta y qué no les gusta a los oyentes? Llama Sofía, que ya lleva unos meses en Río, y habla de comida, de música y de fútbol.",
+ "speakers": ["Nanda", "Sofía"],
+ "turns": [
+  ["A", "Hoje a enquete da Rádio Calçadão é: do que você gosta no Rio e do que você não gosta? E temos na linha a nossa amiga argentina, a Sofía!"],
+  ["B", "Oi, Nanda! Adoro essa pergunta."],
+  ["A", "Então vamos começar pela comida. Do que você gosta?"],
+  ["B", "Eu gosto muito de feijão com farofa. E adoro os petiscos de boteco: pastel de queijo, aipim frito... Tudo muito gostoso!"],
+  ["A", "E do que você não gosta?"],
+  ["B", "Não gosto de açaí com banana. E sinto falta do nosso doce de leite, sabe? O daqui é diferente."],
+  ["A", "E música? Você gosta de samba?"],
+  ["B", "Gosto! Estou aprendendo a tocar violão para tocar samba com os amigos. Mas preciso de muita paciência: é difícil!"],
+  ["A", "E futebol? Pra que time você torce?"],
+  ["B", "Na Argentina eu torço pelo Rosario Central. Aqui eu gosto do Botafogo, porque é o time do bairro. No domingo eu jogo pelada na praia com uns colegas."],
+  ["A", "Pelada na praia? E em que posição você joga?"],
+  ["B", "Goleira! Eu não gosto de correr. Por isso eu não gosto de academia também."],
+  ["A", "Vocês ouviram, ouvintes? A Sofía já é quase carioca. Mas ela precisa de uma coisa: um doce de leite argentino. Quem tem, liga pra rádio!"]
+ ],
+ "gloss": {
+  "enquete": "encuesta",
+  "na linha": "en línea, al teléfono",
+  "boteco": "bar de barrio",
+  "açaí": "fruta amazónica que se come como helado",
+  "sinto falta": "extraño",
+  "doce de leite": "dulce de leche",
+  "paciência": "paciencia",
+  "colegas": "compañeros",
+  "posição": "posición",
+  "ouvintes": "oyentes"
+ },
+ "questions": [
+  ["Do que a Sofía gosta na comida brasileira?", ["Do açaí com banana", "Do feijão com farofa e dos petiscos", "Do doce de leite do Rio", "De tudo, sem exceção"], "Do feijão com farofa e dos petiscos"],
+  ["Por que a Sofía está aprendendo violão?", ["Para tocar samba com os amigos", "Porque quer tocar na rádio com a Nanda", "Porque o violão é argentino", "Para dar aulas de música"], "Para tocar samba com os amigos"],
+  ["Por que a Sofía gosta do Botafogo?", ["Porque é o time da Argentina", "Porque é o time do bairro dela", "Porque o goleiro do time também é argentino", "Porque o time ganha sempre"], "Porque é o time do bairro dela"]
+ ],
+ "info": [
+  ["A Sofía sente falta do doce de leite argentino.", true],
+  ["A Sofía joga futebol de goleira.", true],
+  ["A Sofía vai à academia todos os dias.", false]
+ ],
+ "grammatica": {"label": "gostar de: el que gusta es el sujeto (gosto de, do que você gosta?)", "forme": ["do que você gosta", "do que você não gosta", "eu gosto muito de feijão", "não gosto de açaí", "você gosta de samba", "eu gosto do botafogo", "não gosto de correr", "não gosto de academia", "sinto falta do nosso doce de leite", "preciso de muita paciência", "torço pelo"]},
+ "parole": [["feijão", "feijão"], ["farofa", "farofa"], ["petiscos", "petisco"], ["pastel", "pastel"], ["aipim", "aipim"], ["gostoso", "gostoso"], ["violão", "violão"], ["time", "time"], ["torce", "torcer"], ["pelada", "pelada"], ["academia", "academia"]]
+}

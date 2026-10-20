@@ -1,0 +1,46 @@
+{
+ "week": 10,
+ "level": "A2",
+ "title": "Achados e perdidos",
+ "genre": "quadro do programa",
+ "es": "En la radio hay una caja de «objetos perdidos» del barrio. Hoy Dona Lúcia, la vecina de ochenta años, pasa por el estudio: busca algo suyo y Nanda le muestra lo que hay en la caja.",
+ "speakers": ["Nanda", "Dona Lúcia"],
+ "turns": [
+  ["A", "Bom dia! Hoje tem o nosso quadro «Achados e perdidos». No estúdio está a Dona Lúcia, nossa vizinha. Dona Lúcia, o que a senhora procura?"],
+  ["B", "Bom dia, minha filha. Eu procuro os meus óculos. Em casa não estão: nem no quarto, nem embaixo do travesseiro!"],
+  ["A", "Aqui na caixa tem uns óculos. São estes, pretos?"],
+  ["B", "Não, esses não são meus. Os meus são vermelhos. Esses pretos parecem os do meu irmão."],
+  ["A", "E este guarda-chuva amarelo? É da senhora?"],
+  ["B", "Também não. Mas é igual ao guarda-chuva da minha neta, a Carol. Acho que é dela."],
+  ["A", "Então eu ligo pra Carol. E esta carteira marrom?"],
+  ["B", "Nossa, essa carteira é do meu genro, o marido da minha filha! Ele procura essa carteira há uma semana. É a cara dele: esquece tudo!"],
+  ["A", "E os seus óculos, Dona Lúcia? Não estão na caixa..."],
+  ["B", "Ai, que cabeça a minha! Olha só: estão aqui, na minha bolsa, dentro do estojo. Que vergonha, minha filha!"],
+  ["A", "Tá tudo bem! E vocês, ouvintes: se esse guarda-chuva é seu, a rádio fica na rua Voluntários da Pátria."]
+ ],
+ "gloss": {
+  "quadro": "sección (de un programa)",
+  "Achados e perdidos": "objetos perdidos",
+  "estúdio": "estudio (de radio)",
+  "procura": "busca",
+  "caixa": "caja",
+  "neta": "nieta",
+  "genro": "yerno",
+  "É a cara dele": "es típico de él",
+  "estojo": "estuche",
+  "ouvintes": "oyentes",
+  "embaixo do": "debajo de"
+ },
+ "questions": [
+  ["¿Qué busca Dona Lúcia?", ["Sus anteojos", "Su paraguas", "Su billetera", "A su nieta"], "Sus anteojos"],
+  ["¿De quién es la billetera marrón, según Dona Lúcia?", ["De su hermano", "De su yerno", "De su nieta", "De Nanda"], "De su yerno"],
+  ["¿Dónde están, al final, los anteojos de Dona Lúcia?", ["En la caja de la radio", "En la casa del hermano", "En su cartera, en el estuche", "En el paraguas amarillo"], "En su cartera, en el estuche"]
+ ],
+ "info": [
+  ["Los anteojos de Dona Lúcia son rojos.", true],
+  ["El paraguas amarillo es de Nanda.", false],
+  ["Nanda va a llamar a Carol.", true]
+ ],
+ "grammatica": {"label": "los posesivos (seu, dele, dela) y los demostrativos (este, esse)", "forme": ["os meus óculos", "são estes", "esses não são meus", "os meus são vermelhos", "os do meu irmão", "este guarda-chuva", "é da senhora", "da minha neta", "é dela", "esta carteira", "essa carteira", "do meu genro", "da minha filha", "a cara dele", "os seus óculos", "na minha bolsa", "é seu"]},
+ "parole": [["óculos", "óculos"], ["irmão", "irmão / irmã"], ["guarda-chuva", "guarda-chuva"], ["carteira", "carteira"], ["quarto", "quarto"], ["travesseiro", "travesseiro"]]
+}

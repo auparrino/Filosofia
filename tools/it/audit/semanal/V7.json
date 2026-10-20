@@ -1,0 +1,170 @@
+[
+ {
+  "id": "sfida:r07-02c",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "El campo week=1 del desafío no se usa: renderSfide (app.js:2903-2908) filtra por w.challenges y la semana 1 tiene challenges=[]; el desafío aparece solo en las semanas 10 (Pronomi personali).",
+  "fuente": "docs/js/app.js:2905-2908; course.json weeks[9].challenges",
+  "correccion": ""
+ },
+ {
+  "id": "sfida:r15-06",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "El campo week=1 del desafío no se usa: renderSfide (app.js:2903-2908) filtra por w.challenges y la semana 1 tiene challenges=[]; el desafío aparece solo en las semanas 9 y 50.",
+  "fuente": "docs/js/app.js:2905-2908; course.json weeks[8],[49].challenges",
+  "correccion": ""
+ },
+ {
+  "id": "sfida:r28-01e",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "El campo week=1 del desafío no se usa: renderSfide (app.js:2903-2908) filtra por w.challenges y la semana 1 tiene challenges=[]; el desafío aparece solo en las semanas 42 (Verbi e preposizioni).",
+  "fuente": "docs/js/app.js:2905-2908; course.json weeks[41].challenges",
+  "correccion": ""
+ },
+ {
+  "id": "lettura ep2",
+  "lote": "w05",
+  "veredicto": "CONFIRMADO",
+  "razon": "«estacionado» no es glosa válida de stagionato (en rioplatense estacionado = parqueado; el motivo del revisor sobre «aparcado» es incorrecto, pero la glosa igual es mala). Idéntico problema en letture_settimana.js:330.",
+  "fuente": "docs/js/letture.js:56 (y docs/js/letture_settimana.js:330)",
+  "correccion": "stagionato: \"curado, añejado\"  (en letture_settimana.js: stagionato: \"curado\")"
+ },
+ {
+  "id": "item l2-c-44",
+  "lote": "w06",
+  "veredicto": "CONFIRMADO",
+  "razon": "La nota dice que «cola» en italiano es el pegamento: falso, el pegamento es «colla» (con ll).",
+  "fuente": "tools/authored/lessico2.py:183 (+ docs/data/course.json/bank)",
+  "correccion": "Hacer la cola → fare la fila (o fare la coda). «Cola» no existe con ese sentido en italiano: el pegamento es «colla» y la cola de un animal es «coda»."
+ },
+ {
+  "id": "lesson:intro",
+  "lote": "w08",
+  "veredicto": "CONFIRMADO",
+  "razon": "En italiano la preposición también va delante de la pregunta (Con chi esci?), igual que en castellano; la diferencia es falsa para hispanohablantes.",
+  "fuente": "tools/lessons/s1.py:811-813 (semana 8 intro)",
+  "correccion": "Preguntar en italiano es casi igual que en castellano: sin inversión ni auxiliar. Cambian sobre todo algunas formas fijas (qual è, come mai, che cosa)."
+ },
+ {
+  "id": "g2-va-80",
+  "lote": "w09",
+  "veredicto": "RECHAZADO",
+  "razon": "Es fixerr: el alumno toca «in la» y lo corrige; goodAlt=[\"nella\"] ya hace que «nella» se acepte (app.js:4759). No hay accept faltante.",
+  "fuente": "tools/authored/grammatica2.py:1910-1913; docs/js/app.js:4759",
+  "correccion": ""
+ },
+ {
+  "id": "l2-c-87",
+  "lote": "w12",
+  "veredicto": "CONFIRMADO",
+  "razon": "Nota truncada: «*Porsi a no» es ininteligible.",
+  "fuente": "tools/authored/lessico2.py:353",
+  "correccion": "Ponerse a + infinitivo → mettersi a + infinitivo. «Porsi a + infinitivo» no existe; y sin pronombre, «mettere» significa poner algo (no ponerse a)."
+ },
+ {
+  "id": "item g2-ct-17",
+  "lote": "w17",
+  "veredicto": "CONFIRMADO",
+  "razon": "La alt sin artículo («di mio amico») es incorrecta, no «menos natural»; amico no es pariente.",
+  "fuente": "tools/authored/grammatica2.py:1163-1166",
+  "correccion": "Quitar la alt/accept «Questo libro è di mio amico Paolo» y la última frase de la nota; poner: «…Sin artículo («di mio amico») es incorrecto.»"
+ },
+ {
+  "id": "g2-sc-16-b",
+  "lote": "w20",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Vorrei un tavolo per due» es natural y correcto; el stem no fija sujeto, así que dos opciones valen.",
+  "fuente": "tools/authored/grammatica2.py:651-653",
+  "correccion": "stem: «(Noi) ___ un tavolo per due, per favore.» (o reemplazar el distractor «Vorrei» por «Vuole»)"
+ },
+ {
+  "id": "item g2-sc-12",
+  "lote": "w22",
+  "veredicto": "CONFIRMADO",
+  "razon": "En «dámelo» (da+me+lo) el indirecto va primero también en castellano; el distractor es falso y confunde.",
+  "fuente": "tools/authored/grammatica2.py:554-563 (opción 2)",
+  "correccion": "«Primero el directo y después el indirecto: «lo me», «lo gli».»"
+ },
+ {
+  "id": "suoni p-119",
+  "lote": "w24",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "En el estándar (DOP) pranzo lleva [dz] tras n; [ts] es variante del norte. La nota es inexacta aunque no grave.",
+  "fuente": "docs/js/ascolto_data.js:137",
+  "correccion": "[dz] tras n en pranzo (estándar; en el norte se oye también [ts])."
+ },
+ {
+  "id": "item d22-020",
+  "lote": "w30",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "Gramatical pero forzado: insistere que expresa voluntad y pide imperfetto (scrivessi); con avessi scritto solo cabe leerlo como «sostener que ya había escrito».",
+  "fuente": "tools/audit/patches/dummies/ch16-22.json:2564; docs/data/bank_dummies.json:8720",
+  "correccion": "stem: «Lui sosteneva che io gli ___ (avere/scrivere).» (answer avessi scritto)"
+ },
+ {
+  "id": "p-188",
+  "lote": "w34",
+  "veredicto": "CONFIRMADO",
+  "razon": "«cuale» suena idéntico a «quale» [ˈkwale]: no es par mínimo auditivo y la nota no distingue nada.",
+  "fuente": "docs/js/ascolto_data.js:210",
+  "correccion": "Reemplazar por un par audible, p. ej. P(\"p-188\",\"altro\",34,\"che\",\"ce\",\"que\",\"(no existe)\",\"che = [ke]; ce = [tʃe].\")"
+ },
+ {
+  "id": "suoni c-043",
+  "lote": "w36",
+  "veredicto": "RECHAZADO",
+  "razon": "Es un ítem de elegir la grafía correcta (como «Nacue», «Diche»); la nota enseña que el «si» impersonal va sin acento. No es ambiguo en lo que evalúa.",
+  "fuente": "docs/js/ascolto_data.js:258",
+  "correccion": ""
+ },
+ {
+  "id": "lettura w-42",
+  "lote": "w42",
+  "veredicto": "CONFIRMADO",
+  "razon": "«prima la sera» no es italiano.",
+  "fuente": "docs/js/letture_settimana.js:970",
+  "correccion": "…di tornare a casa prima di sera e ha provato…"
+ },
+ {
+  "id": "suoni c-049",
+  "lote": "w45",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Non ce la faccio più» tiene 5 palabras; answer \"6\" es incorrecta (cf. c-042 cuenta palabras).",
+  "fuente": "docs/js/ascolto_data.js:264",
+  "correccion": "answer: \"5\"; note: \"non / ce / la / faccio / più: cinco palabras; ce la faccio son tres.\""
+ },
+ {
+  "id": "item rf2-47-05",
+  "lote": "w47",
+  "veredicto": "CONFIRMADO",
+  "razon": "«mezzo» concuerda: un'ora e mezza, due ore e mezza; solo es mezzo con masculino.",
+  "fuente": "tools/authored/refuerzo2.py:319",
+  "correccion": "un chilo e mezzo; después de «e», mezzo/mezza concuerda con lo contado: un chilo e mezzo, due ore e mezza, una pizza e mezza."
+ },
+ {
+  "id": "item ex-cl-10",
+  "lote": "w52",
+  "veredicto": "CONFIRMADO",
+  "razon": "«si risparmi» es agramatical; con «pur + gerundio» va indicativo.",
+  "fuente": "tools/authored/esame_c1.py:83",
+  "correccion": "___ lavorando da casa si risparmia tempo, si rischia di isolarsi."
+ },
+ {
+  "id": "sfida s:r27-06b:f",
+  "lote": "w52",
+  "veredicto": "RECHAZADO",
+  "razon": "Fare + infinitivo puede ser permisivo (fammi vedere = dejame ver) y el enunciado dice que hay varias posibilidades; «Falle» es alt intencional.",
+  "fuente": "tools/audit/patches/sfide/ch21-28.json:4066-4072",
+  "correccion": ""
+ },
+ {
+  "id": "parole:0",
+  "lote": "T-lessico-2",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "«en el médico» no es español natural; dal medico = a lo del médico / al consultorio. «al médico» sí es aceptable.",
+  "fuente": "tools/bank/parole_verbi_agg.py:1154 (docs/data/bank.json)",
+  "correccion": "da + il. Dal medico = al médico / en lo del médico."
+ }
+]

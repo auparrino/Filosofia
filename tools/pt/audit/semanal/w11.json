@@ -1,0 +1,191 @@
+{
+ "week": 11,
+ "title": "Pretérito perfeito",
+ "level": "A2",
+ "revisado": {
+  "items": 48,
+  "bloques_teoria": 7,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 18,
+  "radio": 1,
+  "otros": 13
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida y sin errores gramaticales claros en portugués: formas, grafía (-quei/-guei/-cei), irregulares y la equivalencia comi = comí/he comido están bien explicadas y ejercitadas. Los reparos son de diseño: mucha redundancia (la frase «hoy he comido mucho» aparece 4 veces y varios ítems repiten ejemplos de la teoría), distractores en español demasiado obvios, falta de práctica de los conectores del relato y de varios verbos del vocabulario, y dos reglas enunciadas de forma demasiado absoluta (terminación -e de los irregulares; l intervocálica). Falsos positivos estimados: ~25% en las dudas.",
+ "bien": [
+  "Teoría ordenada en tres partes (regulares/grafía, irregulares agrupados, comi = comí y he comido) con tablas, ejemplos y avisos de errores típicos del hispanohablante (faló, tuve, vino/viu).",
+  "Contraste clave bien trabajado: perfeito simple para «he comido» y aclaración de que tenho comido es otra cosa (remite a semana 21), repetido en choice, translate, fixerr y scopri.",
+  "Buen par de lecturas (Paraty y Pão de Açúcar) que usan casi solo perfeito, con caza de formas y preguntas bien formadas; radio y dictogloss reciclan el vocabulario de la semana (voo, mala, pousada, saudade, enfim).",
+  "Pares mínimos pertinentes (pôde/pode, pôs/pós, vim/vi, come/comi, falo/falou, sai/saí) que apuntan a las confusiones de la semana, con notas fonéticas correctas.",
+  "Ítems de translate con accept amplios (con/sin sujeto, pra/para, tu/você) y notas claras en voseo."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Raíz nueva y terminaciones *-e* (eu, ele), *-emos*, *-eram*. Las formas de *eu* y *ele* son casi siempre iguales.",
+   "propuesta": "Raíz nueva (pud-, quis-, diss-, soub-, trouxe-, pus-) y terminaciones propias: eu -e/-i/-s (pude, quis, pus), nós -emos, eles -eram. Eu y ele coinciden en quis, disse, soube, trouxe; difieren en pude/pôde y pus/pôs.",
+   "motivo": "La tabla contradice «terminaciones -e» (quis, pus, pôs) y 2 de 6 verbos difieren entre eu y ele."
+  },
+  {
+   "id": "lesson:0",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Y *falaram*, no «hablaron» calcado a «falaron».",
+   "propuesta": "Y *falaram*, con -ram: no «falaron» (calco de «hablaron»).",
+   "motivo": "La frase está enrevesada y confunde qué es lo incorrecto."
+  },
+  {
+   "id": "lesson:6",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*semana passada*, *mês passado*, *ano passado*: sin artículo y sin «el».",
+   "propuesta": "*semana passada*, *mês passado*, *ano passado* (también *na semana passada*, *no mês passado*): el artículo es opcional.",
+   "motivo": "«Sin artículo» es demasiado absoluto: ambas variantes son normales en pt-BR."
+  },
+  {
+   "id": "s1-11-38",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Hoje eu tenho comido muito.",
+   "propuesta": "Reformular como elección de equivalencia a «hoy he comido» o aclarar en la consigna que se busca la forma equivalente a «he comido».",
+   "motivo": "«Hoje eu tenho comido muito» es gramatical en pt-BR (iterativo); el error es de sentido, no de forma."
+  },
+  {
+   "id": "s1-11-27",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "colocou",
+   "propuesta": "Quitar «colocou» y «botou» de accept (o cambiar la consigna a «Reescribí con pôr»).",
+   "motivo": "La consigna pide pôr en perfeito: aceptar otros verbos desactiva la práctica de la forma irregular."
+  },
+  {
+   "id": "s1-11-11",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "dijo",
+   "propuesta": "Reemplazar «dijo» por un error plausible en portugués (p. ej. «disseu»).",
+   "motivo": "«dijo» es español y se descarta por sentido, no por regla; igual con fue (s1-11-07/08), vino (s1-11-12), vio (s1-11-13), hicieram (s1-11-10)."
+  },
+  {
+   "id": "s1-11-45",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Leé las frases y descubrí la regla.",
+   "propuesta": "Mostrar 2-3 frases en el enunciado (p. ej. Hoje eu acordei cedo / Ontem eu acordei cedo) o cambiar la consigna a «Elegí la regla correcta».",
+   "motivo": "La consigna remite a frases que el ítem no muestra (también s1-11-46)."
+  },
+  {
+   "id": "s1-11-36",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Hoy he comido mucho.",
+   "propuesta": "Variar el enunciado (p. ej. «Hoy me desperté temprano», «Esta mañana llegué tarde») en translate y fixerr.",
+   "motivo": "«Hoy he comido mucho» aparece 4 veces (lesson:5 q, s1-11-15, s1-11-36, s1-11-38) y otra vez en s1-11-45."
+  },
+  {
+   "id": "s1-11-48",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "ele ___ (pôr)",
+   "propuesta": "Cambiar por un ítem de saber/trazer (p. ej. «nós ___ (saber)»).",
+   "motivo": "Duplica s1-11-27 (pôs); en cambio saber (soube) no se practica en ningún ítem."
+  },
+  {
+   "id": "s1-11-37",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Você já foi a Salvador?",
+   "propuesta": "Añadir a accept: «Você já foi pra Salvador?», «Você já foi em Salvador?», «Já foi pra Salvador?».",
+   "motivo": "Un alumno escribiría con naturalidad «pra» o «em» coloquial."
+  },
+  {
+   "id": "s1-11-33",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "O que você fez ontem?",
+   "propuesta": "Añadir a accept: «O que fez ontem?», «O que tu fizeste ontem?», «Que você fez ontem?».",
+   "motivo": "Falta tu + fizeste, que la propia tabla enseña."
+  },
+  {
+   "id": "s1-11-32",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Fui à praia.",
+   "propuesta": "Añadir a accept: «Fui na praia.», «Eu fui na praia.».",
+   "motivo": "Variante coloquial muy frecuente en pt-BR."
+  },
+  {
+   "id": "radio:A Sofía voltou de Salvador",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "A Bia provou a pimenta e chorou de rir!",
+   "propuesta": "A Bia provou a pimenta e chorou de tão ardida!",
+   "motivo": "Llorar por el picante no es «chorou de rir»; no encaja con la causa."
+  },
+  {
+   "id": "laboratorio:ponte:ele",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Hay excepciones cultas: *calor*, *vela*.",
+   "propuesta": "Hay muchas excepciones, no solo cultas: *mala* (vocabulario de esta semana), *sala*, *cola*, *bala*, *tela*. Presentarla como tendencia en palabras heredadas.",
+   "motivo": "Se presenta como ley general y «mala» la contradice; llamar «cultas» a las excepciones es inexacto."
+  },
+  {
+   "id": "p-147",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "vil",
+   "propuesta": "Reemplazar el par vil/vi por uno frecuente (p. ej. sal/sai, mal/mau).",
+   "motivo": "«vil» es muy raro para A2 y no se vincula con el perfeito de la semana."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Reducir redundancia y reemplazar ~8 ítems: eliminar repeticiones de «hoy he comido mucho» y los ecos de la teoría (trabalhei, fiquei, pôs, cheguei, fui à praia); usar el espacio para saber/soube, trazer, ir embora, esquecer.",
+   "por_que": "Muchas frases son idénticas a los ejemplos de la lección y hay verbos del vocabulario sin ningún ítem."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Añadir ítems de producción para «contar un viaje» (primeiro/depois/aí/no fim, anteontem/semana passada): ordenar un relato o translate de dos frases encadenadas.",
+   "por_que": "El bloque 6 se enseña pero solo tiene un ítem (s1-11-29)."
+  },
+  {
+   "prioridad": "media",
+   "que": "Mejorar distractores de choice con errores plausibles en portugués (disseu, eu foi, tivi, estive/esteve) en vez de formas castellanas (dijo, fue, vino, vio).",
+   "por_que": "Evalúan reconocer el idioma y no la regla."
+  },
+  {
+   "prioridad": "media",
+   "que": "Equilibrar: 26 ítems de irregulares frente a 8 de «comi = he comido» y ninguno de nós regular (falamos presente/pasado); sumar 3-4 ítems de contraste presente vs perfeito (falo/falou) que conecten con suoni.",
+   "por_que": "El «nós = presente» está en la teoría pero sin práctica."
+  },
+  {
+   "prioridad": "media",
+   "que": "Corregir la regla de «terminaciones -e» y añadir una línea sobre tu (falaste, foste): forma regional, en la mayor parte de Brasil se usa você + tercera.",
+   "por_que": "La tabla muestra tu pero no se explica cuándo usarlo."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Añadir frases a scopri s1-11-45/46, preguntas V/F a ep3, matizar la nota de l intervocálica y unificar «ônibus» = colectivo/micro en glosas y ejemplos.",
+   "por_que": "Claridad y coherencia de glosario."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

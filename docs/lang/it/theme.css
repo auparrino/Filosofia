@@ -1,0 +1,644 @@
+/* La Via C1 — el tema italiano (docs/lang/it/theme.css).
+
+   Se carga después de css/app.css (la estructura común): los tokens de
+   color, Playfair Display en los títulos, la placa de cerámica pintada y
+   las mayólicas de Vietri. */
+
+/* La Via C1 — la Costiera Amalfitana en verano.
+
+   Arriba, el cielo del Tirreno que se vuelve durazno al atardecer; abajo,
+   el blanco de cal de las casas (modo claro) o la noche en el puerto, azul
+   tinta con las ventanas encendidas (modo oscuro).  Lo que se toca lleva los
+   colores de la costa: el azul profundo del Tirreno y el cobalto de las
+   mayólicas, el amarillo de los limones de Amalfi, la terracota de los
+   techos, el verde de las hojas de limonero y el rosa de las buganvilias.
+   Las mayólicas de Vietri (limones, hojas, olas) aparecen solo en detalles:
+   la guarda de la cabecera, el fondo de las tarjetas especiales y los
+   banners; nunca detrás del texto largo.  La marca es una placa de cerámica
+   pintada a mano, como los números de las casas de Positano.  Títulos en
+   Playfair Display (la cursiva de una etiqueta de limoncello); el resto en
+   Atkinson Hyperlegible, hecha para leer. */
+
+:root {
+  --terracotta: #c4461f;        /* los techos y las macetas */
+  --terracotta-scura: #9e3614;
+  --terracotta-chiara: #e8704a;
+  --verde: #1f7f45;             /* la hoja del limonero */
+  --verde-chiaro: #36a862;
+  --verde-scuro: #155c32;
+  --oro: #f7c600;               /* el limón de Amalfi */
+  --oro-scuro: #8a6700;
+  --azzurro: #0d5ba8;           /* el Tirreno */
+  --azzurro-scuro: #0a3f78;
+  --azzurro-chiaro: #3b86d1;
+  --cobalto: #1d4f9c;           /* el azul de la mayólica */
+  --buganvillea: #d6457a;       /* las buganvilias sobre las escaleras */
+  --pesca: #f8b98f;             /* el atardecer */
+  --cielo: #9fcdec;             /* el cielo de arriba */
+  --cielo-chiaro: #fbe0cc;      /* que se vuelve durazno */
+  --intonaco: #fcf7ee;          /* el blanco de cal: el fondo */
+  --carta: #fffdf9;             /* las tarjetas */
+  --travertino: #f3e7d3;        /* la toba de los muros */
+  --smalto: #fffaf0;            /* el esmalte de la cerámica */
+  --inchiostro: #172437;
+  --grigio: #5f6570;
+  --grigio-chiaro: #eadfcd;     /* los filetes */
+  --limone: var(--oro);
+  /* alias storici usati in tutto il foglio */
+  --rosso: var(--terracotta); --rosso-chiaro: var(--terracotta-chiara); --rosso-scuro: var(--terracotta-scura);
+  --blu: var(--azzurro); --blu-scuro: var(--azzurro-scuro);
+  --sfondo: var(--intonaco);
+  --ombra: 0 1px 2px rgba(20,40,80,.06), 0 8px 24px rgba(20,40,80,.10);
+  --raggio: 16px;
+  --serif: "Playfair Display", "Georgia", "Times New Roman", serif;
+  --sans: "Atkinson", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  /* Las mayólicas de Vietri.  La guarda de la cabecera: una tira de
+     azulejo con olas blancas y limones sobre cobalto.  La baldosa: un limón
+     con dos hojas y flores de cobalto que se completan en las esquinas, en
+     tres tintas: a todo color y apenas visible (tarjetas especiales), en
+     blanco (banners y botones grandes) y en tinta (nodos). */
+  --cenefa: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='8'%3E%3Crect width='32' height='8' fill='%231d4f9c'/%3E%3Cpath d='M0 6.2C4 2.2 8 2.2 12 5s8 3 12 0 6-2.6 8-1.8' fill='none' stroke='%23fffaf0' stroke-width='1.3'/%3E%3Cellipse cx='26' cy='2.6' rx='2.4' ry='1.7' fill='%23f7c600'/%3E%3Ccircle cx='8.5' cy='5.8' r='.9' fill='%23fffaf0'/%3E%3C/svg%3E");
+  --maiolica: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56'%3E%3Cg opacity='.06'%3E%3Cpath d='M0 0h11A11 11 0 0 1 0 11zM56 0v11A11 11 0 0 1 45 0zM56 56H45a11 11 0 0 1 11-11zM0 56V45a11 11 0 0 1 11 11z' fill='%231d4f9c'/%3E%3Cpath d='M28 3l3 5-3 5-3-5zM28 43l3 5-3 5-3-5zM3 28l5-3 5 3-5 3zM43 28l5-3 5 3-5 3z' fill='%231d4f9c'/%3E%3Cpath d='M20.5 24c-4.5-1-7-4.5-6.5-8.5 4 .2 7 3 6.5 8.5zM33 21c1.5-4.4 5.4-6.4 9-5-1 4-4.5 6.3-9 5z' fill='%232f8a43'/%3E%3Cellipse cx='28' cy='30' rx='8.5' ry='6.3' transform='rotate(-22 28 30)' fill='%23f7c600'/%3E%3Ccircle cx='36' cy='26.6' r='1.4' fill='%23f7c600'/%3E%3C/g%3E%3C/svg%3E");
+  --maiolica-chiara: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56'%3E%3Cg fill='%23fff' fill-opacity='.16'%3E%3Cpath d='M0 0h11A11 11 0 0 1 0 11zM56 0v11A11 11 0 0 1 45 0zM56 56H45a11 11 0 0 1 11-11zM0 56V45a11 11 0 0 1 11 11z'/%3E%3Cpath d='M28 3l3 5-3 5-3-5zM28 43l3 5-3 5-3-5zM3 28l5-3 5 3-5 3zM43 28l5-3 5 3-5 3z'/%3E%3Cpath d='M20.5 24c-4.5-1-7-4.5-6.5-8.5 4 .2 7 3 6.5 8.5zM33 21c1.5-4.4 5.4-6.4 9-5-1 4-4.5 6.3-9 5z'/%3E%3Cellipse cx='28' cy='30' rx='8.5' ry='6.3' transform='rotate(-22 28 30)'/%3E%3C/g%3E%3C/svg%3E");
+  --maiolica-tinta: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56'%3E%3Cg fill='%231d4f9c' fill-opacity='.07'%3E%3Cpath d='M0 0h11A11 11 0 0 1 0 11zM56 0v11A11 11 0 0 1 45 0zM56 56H45a11 11 0 0 1 11-11zM0 56V45a11 11 0 0 1 11 11z'/%3E%3Cpath d='M28 3l3 5-3 5-3-5zM28 43l3 5-3 5-3-5zM3 28l5-3 5 3-5 3zM43 28l5-3 5 3-5 3z'/%3E%3Cellipse cx='28' cy='30' rx='8.5' ry='6.3' transform='rotate(-22 28 30)'/%3E%3C/g%3E%3C/svg%3E");
+  /* Positano en escalera: las casas pastel y la cúpula de mayólica */
+  --positano: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 150 64'%3E%3Cpath d='M0 64V44L30 30 62 12 96 20 124 8 150 18V64z' fill='%23000' fill-opacity='.10'/%3E%3Crect x='8' y='44' width='20' height='20' fill='%23fff3e2'/%3E%3Crect x='26' y='38' width='18' height='26' fill='%23ffd9c2'/%3E%3Crect x='42' y='30' width='20' height='34' fill='%23ffe9a6'/%3E%3Crect x='60' y='36' width='16' height='28' fill='%23ffc6b8'/%3E%3Crect x='76' y='24' width='22' height='40' fill='%23fff6ea'/%3E%3Crect x='98' y='32' width='18' height='32' fill='%23f7b0a0'/%3E%3Crect x='114' y='20' width='20' height='44' fill='%23ffe0a0'/%3E%3Crect x='132' y='28' width='18' height='36' fill='%23fff3e2'/%3E%3Cpath d='M78 24a9 9 0 0 1 18 0z' fill='%23f7c600'/%3E%3Cpath d='M82 24a5 9 0 0 1 10 0z' fill='%231d4f9c' fill-opacity='.8'/%3E%3Cpath d='M86 15h2v-4h-2z' fill='%23fff6ea'/%3E%3Cg fill='%23172437' fill-opacity='.35'%3E%3Crect x='13' y='50' width='3' height='5'/%3E%3Crect x='20' y='50' width='3' height='5'/%3E%3Crect x='31' y='44' width='3' height='5'/%3E%3Crect x='37' y='44' width='3' height='5'/%3E%3Crect x='47' y='37' width='3' height='5'/%3E%3Crect x='54' y='37' width='3' height='5'/%3E%3Crect x='47' y='48' width='3' height='5'/%3E%3Crect x='65' y='42' width='3' height='5'/%3E%3Crect x='82' y='32' width='3' height='6'/%3E%3Crect x='90' y='32' width='3' height='6'/%3E%3Crect x='82' y='44' width='3' height='6'/%3E%3Crect x='103' y='38' width='3' height='5'/%3E%3Crect x='109' y='38' width='3' height='5'/%3E%3Crect x='119' y='27' width='3' height='5'/%3E%3Crect x='126' y='27' width='3' height='5'/%3E%3Crect x='119' y='38' width='3' height='5'/%3E%3Crect x='137' y='34' width='3' height='5'/%3E%3C/g%3E%3C/svg%3E");
+  color-scheme: light;
+}
+
+/* oscuro: la noche en el puerto, azul tinta, con la luz cálida de las casas */
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) {
+    --terracotta: #e8683f; --terracotta-scura: #c24a22; --terracotta-chiara: #ff9068;
+    --verde: #3fc27a; --verde-chiaro: #62d894; --verde-scuro: #22945a;
+    --oro: #ffd45a; --oro-scuro: #e0aa1c;
+    --azzurro: #6aa9f0; --azzurro-scuro: #3f86d6; --azzurro-chiaro: #8cc0f7;
+    --cobalto: #3a6fc4; --buganvillea: #f06d9c; --pesca: #ffb07a;
+    --cielo: #13294a; --cielo-chiaro: #0c1c33;
+    --intonaco: #081322; --carta: #0f1d31; --travertino: #172a44; --smalto: #f1e8d4;
+    --inchiostro: #f1eee7; --grigio: #a4adba; --grigio-chiaro: #22344e;
+    --ombra: 0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
+    --positano: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 150 64'%3E%3Cpath d='M0 64V44L30 30 62 12 96 20 124 8 150 18V64z' fill='%23000' fill-opacity='.25'/%3E%3Crect x='8' y='44' width='20' height='20' fill='%2344506e'/%3E%3Crect x='26' y='38' width='18' height='26' fill='%23574866'/%3E%3Crect x='42' y='30' width='20' height='34' fill='%234d5a73'/%3E%3Crect x='60' y='36' width='16' height='28' fill='%235e4a6a'/%3E%3Crect x='76' y='24' width='22' height='40' fill='%23505c7a'/%3E%3Crect x='98' y='32' width='18' height='32' fill='%23634a66'/%3E%3Crect x='114' y='20' width='20' height='44' fill='%23485672'/%3E%3Crect x='132' y='28' width='18' height='36' fill='%2344506e'/%3E%3Cpath d='M78 24a9 9 0 0 1 18 0z' fill='%23f7c600'/%3E%3Cpath d='M82 24a5 9 0 0 1 10 0z' fill='%231d4f9c' fill-opacity='.8'/%3E%3Cpath d='M86 15h2v-4h-2z' fill='%23505c7a'/%3E%3Cg fill='%23ffc86a' fill-opacity='.95'%3E%3Crect x='13' y='50' width='3' height='5'/%3E%3Crect x='20' y='50' width='3' height='5'/%3E%3Crect x='31' y='44' width='3' height='5'/%3E%3Crect x='37' y='44' width='3' height='5'/%3E%3Crect x='47' y='37' width='3' height='5'/%3E%3Crect x='54' y='37' width='3' height='5'/%3E%3Crect x='47' y='48' width='3' height='5'/%3E%3Crect x='65' y='42' width='3' height='5'/%3E%3Crect x='82' y='32' width='3' height='6'/%3E%3Crect x='90' y='32' width='3' height='6'/%3E%3Crect x='82' y='44' width='3' height='6'/%3E%3Crect x='103' y='38' width='3' height='5'/%3E%3Crect x='109' y='38' width='3' height='5'/%3E%3Crect x='119' y='27' width='3' height='5'/%3E%3Crect x='126' y='27' width='3' height='5'/%3E%3Crect x='119' y='38' width='3' height='5'/%3E%3Crect x='137' y='34' width='3' height='5'/%3E%3C/g%3E%3C/svg%3E");
+    --maiolica: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56'%3E%3Cg opacity='.05'%3E%3Cpath d='M0 0h11A11 11 0 0 1 0 11zM56 0v11A11 11 0 0 1 45 0zM56 56H45a11 11 0 0 1 11-11zM0 56V45a11 11 0 0 1 11 11z' fill='%236aa9f0'/%3E%3Cpath d='M28 3l3 5-3 5-3-5zM28 43l3 5-3 5-3-5zM3 28l5-3 5 3-5 3zM43 28l5-3 5 3-5 3z' fill='%236aa9f0'/%3E%3Cpath d='M20.5 24c-4.5-1-7-4.5-6.5-8.5 4 .2 7 3 6.5 8.5zM33 21c1.5-4.4 5.4-6.4 9-5-1 4-4.5 6.3-9 5z' fill='%233fc27a'/%3E%3Cellipse cx='28' cy='30' rx='8.5' ry='6.3' transform='rotate(-22 28 30)' fill='%23ffd45a'/%3E%3C/g%3E%3C/svg%3E");
+    --maiolica-tinta: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56'%3E%3Cg fill='%23fff' fill-opacity='.035'%3E%3Cpath d='M0 0h11A11 11 0 0 1 0 11zM56 0v11A11 11 0 0 1 45 0zM56 56H45a11 11 0 0 1 11-11zM0 56V45a11 11 0 0 1 11 11z'/%3E%3Cpath d='M28 3l3 5-3 5-3-5zM28 43l3 5-3 5-3-5zM3 28l5-3 5 3-5 3zM43 28l5-3 5 3-5 3z'/%3E%3Cellipse cx='28' cy='30' rx='8.5' ry='6.3' transform='rotate(-22 28 30)'/%3E%3C/g%3E%3C/svg%3E");
+    color-scheme: dark;
+  }
+}
+html[data-theme="dark"] {
+    --terracotta: #e8683f; --terracotta-scura: #c24a22; --terracotta-chiara: #ff9068;
+    --verde: #3fc27a; --verde-chiaro: #62d894; --verde-scuro: #22945a;
+    --oro: #ffd45a; --oro-scuro: #e0aa1c;
+    --azzurro: #6aa9f0; --azzurro-scuro: #3f86d6; --azzurro-chiaro: #8cc0f7;
+    --cobalto: #3a6fc4; --buganvillea: #f06d9c; --pesca: #ffb07a;
+    --cielo: #13294a; --cielo-chiaro: #0c1c33;
+    --intonaco: #081322; --carta: #0f1d31; --travertino: #172a44; --smalto: #f1e8d4;
+    --inchiostro: #f1eee7; --grigio: #a4adba; --grigio-chiaro: #22344e;
+    --ombra: 0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
+    --positano: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 150 64'%3E%3Cpath d='M0 64V44L30 30 62 12 96 20 124 8 150 18V64z' fill='%23000' fill-opacity='.25'/%3E%3Crect x='8' y='44' width='20' height='20' fill='%2344506e'/%3E%3Crect x='26' y='38' width='18' height='26' fill='%23574866'/%3E%3Crect x='42' y='30' width='20' height='34' fill='%234d5a73'/%3E%3Crect x='60' y='36' width='16' height='28' fill='%235e4a6a'/%3E%3Crect x='76' y='24' width='22' height='40' fill='%23505c7a'/%3E%3Crect x='98' y='32' width='18' height='32' fill='%23634a66'/%3E%3Crect x='114' y='20' width='20' height='44' fill='%23485672'/%3E%3Crect x='132' y='28' width='18' height='36' fill='%2344506e'/%3E%3Cpath d='M78 24a9 9 0 0 1 18 0z' fill='%23f7c600'/%3E%3Cpath d='M82 24a5 9 0 0 1 10 0z' fill='%231d4f9c' fill-opacity='.8'/%3E%3Cpath d='M86 15h2v-4h-2z' fill='%23505c7a'/%3E%3Cg fill='%23ffc86a' fill-opacity='.95'%3E%3Crect x='13' y='50' width='3' height='5'/%3E%3Crect x='20' y='50' width='3' height='5'/%3E%3Crect x='31' y='44' width='3' height='5'/%3E%3Crect x='37' y='44' width='3' height='5'/%3E%3Crect x='47' y='37' width='3' height='5'/%3E%3Crect x='54' y='37' width='3' height='5'/%3E%3Crect x='47' y='48' width='3' height='5'/%3E%3Crect x='65' y='42' width='3' height='5'/%3E%3Crect x='82' y='32' width='3' height='6'/%3E%3Crect x='90' y='32' width='3' height='6'/%3E%3Crect x='82' y='44' width='3' height='6'/%3E%3Crect x='103' y='38' width='3' height='5'/%3E%3Crect x='109' y='38' width='3' height='5'/%3E%3Crect x='119' y='27' width='3' height='5'/%3E%3Crect x='126' y='27' width='3' height='5'/%3E%3Crect x='119' y='38' width='3' height='5'/%3E%3Crect x='137' y='34' width='3' height='5'/%3E%3C/g%3E%3C/svg%3E");
+    --maiolica: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56'%3E%3Cg opacity='.05'%3E%3Cpath d='M0 0h11A11 11 0 0 1 0 11zM56 0v11A11 11 0 0 1 45 0zM56 56H45a11 11 0 0 1 11-11zM0 56V45a11 11 0 0 1 11 11z' fill='%236aa9f0'/%3E%3Cpath d='M28 3l3 5-3 5-3-5zM28 43l3 5-3 5-3-5zM3 28l5-3 5 3-5 3zM43 28l5-3 5 3-5 3z' fill='%236aa9f0'/%3E%3Cpath d='M20.5 24c-4.5-1-7-4.5-6.5-8.5 4 .2 7 3 6.5 8.5zM33 21c1.5-4.4 5.4-6.4 9-5-1 4-4.5 6.3-9 5z' fill='%233fc27a'/%3E%3Cellipse cx='28' cy='30' rx='8.5' ry='6.3' transform='rotate(-22 28 30)' fill='%23ffd45a'/%3E%3C/g%3E%3C/svg%3E");
+    --maiolica-tinta: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56'%3E%3Cg fill='%23fff' fill-opacity='.035'%3E%3Cpath d='M0 0h11A11 11 0 0 1 0 11zM56 0v11A11 11 0 0 1 45 0zM56 56H45a11 11 0 0 1 11-11zM0 56V45a11 11 0 0 1 11 11z'/%3E%3Cpath d='M28 3l3 5-3 5-3-5zM28 43l3 5-3 5-3-5zM3 28l5-3 5 3-5 3zM43 28l5-3 5 3-5 3z'/%3E%3Cellipse cx='28' cy='30' rx='8.5' ry='6.3' transform='rotate(-22 28 30)'/%3E%3C/g%3E%3C/svg%3E");
+    color-scheme: dark;
+  }
+
+@font-face { font-family: "Playfair Display"; font-style: normal; font-weight: 600 900; font-display: swap;
+  src: url(fonts/playfair-normal.woff2) format("woff2"); }
+@font-face { font-family: "Playfair Display"; font-style: italic; font-weight: 600 900; font-display: swap;
+  src: url(fonts/playfair-italic.woff2) format("woff2"); }
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: .005em;
+  line-height: 1.55;
+  color: var(--inchiostro);
+  /* el cielo del Tirreno que se vuelve durazno, y abajo el blanco de cal */
+  background: linear-gradient(180deg, var(--cielo) 0, #d9dcec 110px, #f7dcd6 170px, var(--cielo-chiaro) 250px, var(--intonaco) 490px) fixed, var(--intonaco);
+  -webkit-text-size-adjust: 100%;
+  min-height: 100vh;
+}
+/* de noche, el puerto: las ventanas encendidas de Positano sobre el agua */
+@media (prefers-color-scheme: dark) { html:not([data-theme="light"]) body {
+  background: radial-gradient(90% 260px at 88% 0, rgba(255,176,90,.16), transparent 70%) fixed,
+    radial-gradient(60% 200px at 8% 40px, rgba(255,210,120,.07), transparent 70%) fixed,
+    linear-gradient(180deg, var(--cielo) 0, var(--cielo-chiaro) 230px, var(--intonaco) 480px) fixed, var(--intonaco); } }
+html[data-theme="dark"] body {
+  background: radial-gradient(90% 260px at 88% 0, rgba(255,176,90,.16), transparent 70%) fixed,
+    radial-gradient(60% 200px at 8% 40px, rgba(255,210,120,.07), transparent 70%) fixed,
+    linear-gradient(180deg, var(--cielo) 0, var(--cielo-chiaro) 230px, var(--intonaco) 480px) fixed, var(--intonaco); }
+
+/* ---------- cabecera: blanco de cal translúcido, con la guarda de mayólica */
+header.top {
+  position: sticky; top: 0; z-index: 20;
+  background: color-mix(in srgb, var(--carta) 86%, transparent);
+  -webkit-backdrop-filter: saturate(1.3) blur(14px); backdrop-filter: saturate(1.3) blur(14px);
+  padding: calc(8px + env(safe-area-inset-top)) 0 0; border-bottom: 1px solid color-mix(in srgb, var(--grigio-chiaro) 60%, transparent);
+}
+header.top::before {
+  content: ""; position: absolute; left: 0; right: 0; top: 0; height: 8px;
+  background: var(--cenefa) repeat-x 0 0 / 32px 8px;
+}
+
+/* la placa de cerámica pintada a mano, como los números de las casas de
+   Positano: esmalte blanco, filete de cobalto, un hilo amarillo y una
+   ramita de limón; letras de cobalto en cursiva.  Es
+   siempre clara (de noche, iluminada por el farol). */
+.targa { position: relative; display: inline-flex; flex-direction: column; align-items: center;
+  color: #16427f; padding: 6px 15px 5px; text-align: center;
+  border-radius: 10px 8px 11px 7px / 8px 10px 7px 11px;
+  background:
+    radial-gradient(120% 100% at 28% 10%, #fff 0, var(--smalto) 50%, color-mix(in srgb, var(--smalto) 86%, #c9b48c) 100%);
+  box-shadow: inset 0 0 0 2px #2257a6, inset 0 0 0 3.5px var(--smalto), inset 0 0 0 4.5px #f2b705,
+    0 2px 6px rgba(20,40,80,.18); }
+.targa::after { content: ""; position: absolute; right: -7px; top: -8px; width: 22px; height: 17px; pointer-events: none;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 22 17'%3E%3Cpath d='M3 9C1 5 3 1 8 1c0 4-2 7-5 8z' fill='%232f8a43'/%3E%3Cpath d='M4 8.5 7.5 3' stroke='%23e6f2e0' stroke-width='.7'/%3E%3Cellipse cx='13' cy='10.5' rx='7.2' ry='5.4' transform='rotate(-20 13 10.5)' fill='%23f7c600' stroke='%23c99a00' stroke-width='.8'/%3E%3Cellipse cx='11' cy='8.6' rx='2.4' ry='1.2' transform='rotate(-20 11 8.6)' fill='%23fff' fill-opacity='.55'/%3E%3C/svg%3E") no-repeat 0 0 / contain; }
+.targa .t-sup { font-family: var(--sans); font-size: .56rem; font-weight: 700; letter-spacing: .2em;
+  text-transform: uppercase; color: #a63a17; line-height: 1.4; }
+.targa .t-via { font-family: var(--serif); font-style: italic; font-weight: 800; font-size: 1.22rem; letter-spacing: .005em;
+  line-height: 1.1; }
+.brand.targa { margin: 4px 6px 4px 0; }
+.targa.big { display: flex; width: 100%; box-sizing: border-box; margin: 18px 0 10px; padding: 16px 22px 18px;
+  border-radius: 14px 11px 15px 10px / 11px 14px 10px 15px;
+  background:
+    radial-gradient(120% 100% at 28% 10%, #fff 0, var(--smalto) 50%, color-mix(in srgb, var(--smalto) 86%, #c9b48c) 100%);
+  box-shadow: inset 0 0 0 3.5px #2257a6, inset 0 0 0 6px var(--smalto), inset 0 0 0 7.5px #f2b705, var(--ombra); }
+.targa.big::after { right: -6px; top: -10px; width: 34px; height: 26px; }
+.targa.big .t-sup { font-size: .68rem; letter-spacing: .26em; }
+.targa.big .t-via { font-size: 1.6rem; line-height: 1.15; margin-top: 3px; }
+@media (max-width: 520px) { .targa.big .t-via { font-size: 1.36rem; } }
+.stat span { font-size: .6875rem; color: var(--grigio); text-transform: uppercase; letter-spacing: .1em; font-weight: 700; }
+.stat.hot b { color: var(--terracotta); }
+.ring { --p: 0; width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; flex: none;
+  background: conic-gradient(var(--oro) 0, var(--terracotta-chiara) calc(var(--p) * 1%), var(--grigio-chiaro) 0); }
+.ring b { width: 32px; height: 32px; border-radius: 50%; background: var(--carta);
+  display: grid; place-items: center; font-size: .72rem; font-weight: 800; }
+.mode { border: 1px solid var(--grigio-chiaro); background: var(--carta); color: inherit;
+  border-radius: 50%; width: 38px; height: 38px; font-size: 1rem; padding: 0; }
+.xpbar i { display: block; height: 100%; background: linear-gradient(90deg, var(--azzurro-chiaro), var(--oro), var(--terracotta)); transition: width .6s cubic-bezier(.2,.8,.2,1); }
+
+/* ------------------------------------------------------------------ schede */
+
+.card {
+  background: var(--carta); border-radius: var(--raggio); border: 1px solid var(--grigio-chiaro);
+  box-shadow: var(--ombra); padding: 20px; margin: 16px 0;
+}
+
+/* ------------------------------------------------------------------- testo */
+
+h1 { font-family: var(--serif); font-size: 2rem; font-weight: 800; letter-spacing: -.005em; line-height: 1.14; margin: 24px 0 6px; }
+/* el saludo, en cursiva: como pintado sobre un azulejo */
+h1.hello { font-style: italic; font-size: 2.2rem; }
+h3 { font-size: .78rem; margin: 18px 0 8px; text-transform: uppercase; letter-spacing: .12em;
+     color: var(--grigio); font-weight: 700; }
+p.lead { color: var(--grigio); margin: 0 0 18px; font-size: 1.04rem; }
+p.fare { margin: -8px 0 16px; font-size: .95rem; }
+.muted { color: var(--grigio); font-size: .85rem; }
+.note { font-size: .88rem; color: var(--grigio); margin-top: 6px; }
+/* l'italiano dentro il testo: corsivo leggibile, verde bottiglia */
+.lesson i.it, ul.exs .it, .note i.it, .call i.it, .diag i.it, .feedback p i.it {
+  font-style: italic; font-weight: 700; color: var(--verde); }
+p.version { text-align: center; margin: 18px 0 8px; opacity: .8; }
+
+/* ----------------------------------------------------------------- bottoni */
+
+.btn {
+  border: none; border-radius: 12px; padding: 13px 20px; font-weight: 700; letter-spacing: .01em;
+  background: var(--terracotta); color: #fff;
+  transition: transform .08s, background .15s, filter .15s;
+}
+@media (hover: hover) { .btn:hover:not(:disabled) { background: var(--terracotta-scura); } }
+.btn:active:not(:disabled) { transform: scale(.98); background: var(--terracotta-scura); }
+/* de noche la terracota se enciende; el botón baja un tono para que el blanco se lea */
+@media (prefers-color-scheme: dark) { html:not([data-theme="light"]) .btn:not(.ghost):not(.gold) { background: var(--terracotta-scura); } }
+html[data-theme="dark"] .btn:not(.ghost):not(.gold) { background: var(--terracotta-scura); }
+.btn.ghost { background: var(--carta); color: var(--inchiostro); border: 1.5px solid var(--grigio-chiaro); }
+@media (hover: hover) { .btn.ghost:hover:not(:disabled) { background: var(--intonaco); } }
+.btn.ghost:active:not(:disabled) { background: var(--intonaco); }
+.btn.gold { background: var(--oro); color: #3a2a00; }
+@media (hover: hover) { .btn.gold:hover:not(:disabled) { background: var(--oro-scuro); color: #fff; } }
+.btn.gold:active:not(:disabled) { background: var(--oro-scuro); color: #fff; }
+.tab { border: none; background: transparent; color: var(--grigio);
+       padding: 8px 14px; border-radius: 10px; font-weight: 700; }
+.tab.on { background: var(--carta); color: var(--inchiostro); border: 1px solid var(--grigio-chiaro); }
+.goalbar { height: 8px; background: var(--grigio-chiaro); border-radius: 99px; overflow: hidden; margin-top: 10px; }
+.goalbar i { display: block; height: 100%; border-radius: 99px; background: linear-gradient(90deg, var(--oro), var(--terracotta)); transition: width .5s ease; }
+.bigbtn { border: none; border-radius: 14px; padding: 16px 16px 14px; text-align: left; color: #fff;
+  display: flex; flex-direction: column; gap: 2px; min-height: 118px; position: relative;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.35), 0 6px 16px color-mix(in srgb, var(--tinta, #000) 28%, transparent);
+  overflow: hidden; isolation: isolate;
+  transition: transform .08s, filter .15s; }
+.bigbtn b { font-size: 1.2rem; font-weight: 800; margin-top: auto; letter-spacing: -.005em; }
+/* la pausa caffè: el atardecer sobre Positano, con las casas en escalera */
+.bigbtn.pausa { --tinta: var(--terracotta); grid-column: span 2; min-height: 112px;
+  background: var(--maiolica-chiara) repeat 0 0 / 56px 56px, linear-gradient(165deg, #f6a55a 0, #e8704a 38%, #c4461f 72%, #a8365e); }
+@media (prefers-color-scheme: dark) { html:not([data-theme="light"]) .bigbtn.pausa {
+  background: var(--maiolica-chiara) repeat 0 0 / 56px 56px, linear-gradient(165deg, #d8643a 0, #b0413a 40%, #6e2f5c 75%, #2e2a55); } }
+html[data-theme="dark"] .bigbtn.pausa {
+  background: var(--maiolica-chiara) repeat 0 0 / 56px 56px, linear-gradient(165deg, #d8643a 0, #b0413a 40%, #6e2f5c 75%, #2e2a55); }
+.bigbtn.pausa::after { content: ""; position: absolute; right: 10px; bottom: 0; width: 150px; height: 64px; z-index: -1;
+  background: var(--positano) no-repeat 100% 100% / contain; opacity: .9; }
+/* la sfida: un limón de Amalfi */
+.bigbtn.giorno { --tinta: var(--oro-scuro); color: #3a2a00;
+  background: var(--maiolica-chiara) repeat 0 0 / 56px 56px, linear-gradient(160deg, #ffe680, var(--oro) 60%, #e9ae00); }
+/* el ripasso: el Tirreno */
+.bigbtn.ripasso { --tinta: var(--azzurro); grid-column: span 2; min-height: 84px;
+  background: var(--maiolica-chiara) repeat 0 0 / 56px 56px, linear-gradient(160deg, #3b86d1, #0d5ba8 60%, #0a3f78); }
+/* las palabras: el limonar */
+.bigbtn.parole { --tinta: var(--verde); background: linear-gradient(160deg, #3aa864, #1f7f45 60%, #155c32); }
+/* el lampo: el cobalto de la mayólica */
+.bigbtn.lampo { --tinta: #1d4f9c; background: var(--maiolica-chiara) repeat 0 0 / 56px 56px, linear-gradient(160deg, #3f74c4, #1d4f9c 62%, #143a78); }
+/* las escenas: las buganvilias */
+.bigbtn.scena { --tinta: var(--buganvillea); background: linear-gradient(160deg, #ee7ea4, #d6457a 60%, #a8325e); }
+.weekcard > b { font-size: 1.25rem; font-weight: 800; }
+.weekcard .prog, .scene .prog { height: 5px; background: var(--grigio-chiaro); border-radius: 99px; overflow: hidden; margin-top: 6px; }
+.weekcard .prog i, .scene .prog i { display: block; height: 100%; background: var(--verde-chiaro); }
+.weekcard.first { border-left: 4px solid var(--terracotta); }
+/* la tarjeta del percorso: una pared de mayólicas, apenas insinuada */
+.weekcard.hero { background: var(--maiolica) repeat 0 0 / 56px 56px, var(--carta); }
+.weekcard.first > b { color: var(--terracotta); }
+.weekcard.clin, .lab.clin { border-color: var(--terracotta); }
+
+.fdg { border-left: 5px solid var(--oro); }
+.fdg .fit, .fit { font-size: 1.35rem; font-weight: 700; color: var(--verde); margin: 4px 0 2px; letter-spacing: -.005em; }
+.fit.big { font-size: 1.8rem; line-height: 1.25; }
+.fes { color: var(--grigio); }
+.heat i { aspect-ratio: 1; border-radius: 5px; background: var(--grigio-chiaro); }
+.heat i.h1 { background: color-mix(in srgb, var(--oro) 45%, transparent); }
+.heat i.h2 { background: color-mix(in srgb, var(--terracotta-chiara) 70%, transparent); }
+.heat i.h3 { background: var(--verde); }
+.heat i:last-child { outline: 2px solid var(--oro); outline-offset: 1px; }
+
+.strands { display: flex; height: 10px; border-radius: 5px; overflow: hidden; margin: 10px 0 8px; background: var(--grigio-chiaro); }
+.strands i { display: block; height: 100%; }
+.strands .s-input { background: var(--azzurro); } .strands .s-output { background: var(--terracotta); }
+.strands .s-forma { background: var(--verde); } .strands .s-fluidez { background: var(--oro); }
+
+.install { border: 1.5px dashed var(--verde); }
+.pathsum b { font-size: 1.25rem; font-weight: 800; white-space: nowrap; color: var(--azzurro); }
+.season p { margin: 0 0 12px; font-size: .9rem; }
+.banner { position: relative; border-radius: var(--raggio); padding: 16px 18px; color: #fff; margin-top: 8px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.35), 0 6px 16px rgba(20,50,90,.14); }
+.banner h2 { margin: 2px 0; font-family: var(--serif); font-weight: 800; font-size: 1.6rem; letter-spacing: -.005em; }
+.banner p { margin: 0; font-size: .88rem; opacity: .92; color: inherit; }
+/* las cuatro estaciones, con la mayólica encima: los limones (Le
+   Fondamenta), la terracota de los techos y los puentes (Il Ponte), el
+   Tirreno abierto (La Corrente) y el atardecer sobre Positano (La Vetta) */
+.season .banner { overflow: hidden; isolation: isolate; }
+.season .banner.s1 { background: var(--maiolica-chiara) repeat 0 0 / 56px 56px, linear-gradient(160deg, #ffe680, var(--oro) 58%, #e9ae00); color: #3a2a00; }
+.season .banner.s2 { background: var(--maiolica-chiara) repeat 0 0 / 56px 56px, linear-gradient(160deg, #e8704a, #c4461f 60%, #9e3614); }
+.season .banner.s3 { background: var(--maiolica-chiara) repeat 0 0 / 56px 56px, linear-gradient(160deg, #3b86d1, #0d5ba8 60%, #0a3f78); }
+.season .banner.s4 { background: var(--maiolica-chiara) repeat 0 0 / 56px 56px, linear-gradient(165deg, #f6a55a, #d9573a 50%, #a8365e 80%, #6a2f6e); }
+.season .banner.s4::after { content: ""; position: absolute; right: 8px; bottom: 0; width: 150px; height: 64px; z-index: -1;
+  background: var(--positano) no-repeat 100% 100% / contain; opacity: .55; }
+.node .dot { width: 68px; height: 68px; border-radius: 50%; font-size: 1.4rem; font-weight: 800;
+  color: var(--verde); background: var(--carta); border: 2px solid var(--verde); transition: transform .08s; }
+.node.full .dot { background: var(--oro); border-color: var(--oro); color: #3a2a00; }
+.node.current .dot { background: var(--terracotta); border-color: var(--terracotta); color: #fff;
+  animation: nodepulse 1.8s ease-in-out infinite; }
+@keyframes nodepulse { 50% { box-shadow: 0 0 0 9px color-mix(in srgb, var(--terracotta) 22%, transparent); } }
+.node.boss .dot { width: 80px; height: 80px; font-size: 1.8rem; border-radius: 18px;
+  border-color: var(--terracotta); color: var(--terracotta); background: var(--maiolica-tinta) repeat 0 0 / 40px 40px, var(--carta); }
+.node.boss.current .dot, .node.boss.full .dot { background: var(--terracotta); color: #fff; border-color: var(--terracotta); }
+.node.locked .dot { background: transparent; border: 2px dashed var(--grigio-chiaro); color: var(--grigio); font-size: 1.1rem; }
+.node .bubble { position: absolute; top: -30px; background: var(--terracotta); color: #fff; font-weight: 800; font-size: .7rem;
+  letter-spacing: .08em; padding: 4px 12px; border-radius: 8px; animation: bob 1.4s ease-in-out infinite; z-index: 2; }
+.node .bubble::after { content: ""; position: absolute; left: 50%; bottom: -6px; margin-left: -6px; border: 6px solid transparent;
+  border-top-color: var(--terracotta); border-bottom: 0; }
+.node .nt { font-size: .76rem; font-weight: 700; line-height: 1.25; margin-top: 8px; color: var(--inchiostro); }
+.node .nm { display: block; font-size: .7rem; color: var(--grigio); font-weight: 600; }
+.node.locked .nt { color: var(--grigio); }
+.stars i { font-style: normal; color: var(--grigio-chiaro); font-size: .95rem; }
+.stars i.on { color: var(--oro); }
+.week { background: var(--carta); border: 1px solid var(--grigio-chiaro); border-radius: 12px; padding: 12px 14px;
+  text-align: left; display: flex; flex-direction: column; gap: 4px; position: relative; color: inherit; }
+.week .n { font-size: .68rem; color: var(--grigio); letter-spacing: .08em; text-transform: uppercase; }
+.week .meta { font-size: .72rem; color: var(--grigio); }
+.week.done { border-color: var(--verde); }
+.week.done::after { content: "✓"; position: absolute; top: 10px; right: 12px; color: var(--verde); font-weight: 800; }
+.week.bossweek { border-color: var(--oro); }
+.week .prog { height: 4px; background: var(--grigio-chiaro); border-radius: 99px; overflow: hidden; margin-top: 6px; }
+.week .prog i { display: block; height: 100%; background: var(--verde-chiaro); }
+.mission { display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: center; text-align: left;
+  border: 1px solid var(--grigio-chiaro); background: var(--carta); color: inherit; border-radius: 12px; padding: 12px 14px;
+  transition: transform .08s; }
+.mission .mi { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; font-size: 1.3rem;
+  background: var(--intonaco); }
+.mission.done .mi { background: var(--verde); color: #fff; }
+.mission b { display: block; font-size: 1.05rem; font-weight: 800; }
+.mission small { display: block; color: var(--grigio); font-weight: 600; font-size: .78rem; line-height: 1.3; }
+.mission .go { font-size: 1.4rem; color: var(--terracotta); font-weight: 800; }
+.mission.boss { border-color: var(--terracotta); }
+.scene, .lab, .ep { background: var(--carta); border: 1px solid var(--grigio-chiaro); border-radius: 12px;
+  padding: 13px 14px; text-align: left; color: inherit; display: flex; flex-direction: column; gap: 3px; position: relative;
+  transition: transform .08s; }
+.scene b, .lab b, .ep b { font-weight: 800; font-size: 1.05rem; }
+.scene .meta, .lab .meta { font-size: .72rem; color: var(--grigio); margin-top: 4px; }
+.scene.done, .ep.done { border-color: var(--verde); }
+.scene.done::after { content: "✓"; position: absolute; top: 12px; right: 14px; color: var(--verde); font-weight: 800; }
+.lab { display: grid; grid-template-columns: auto 1fr; column-gap: 12px; align-items: center; }
+.ep { flex-direction: row; align-items: center; gap: 12px; }
+.ep b { display: block; }
+.ep .score { margin-left: auto; font-weight: 700; color: var(--verde); font-family: var(--mono); }
+.badge { border: 1px solid var(--grigio-chiaro); border-radius: 12px; padding: 12px; text-align: center; opacity: .4; }
+.badge.won { opacity: 1; border-color: var(--oro); }
+.badge b { display: block; font-size: .85rem; margin-top: 4px; }
+.badge span { font-size: .72rem; color: var(--grigio); }
+.rank .rk { font-size: 1.9rem; font-weight: 800; color: var(--azzurro); }
+.set { display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  padding: 10px 0; border-bottom: 1px solid var(--grigio-chiaro); flex-wrap: wrap; }
+.set small { display: block; color: var(--grigio); font-size: .75rem; font-weight: 400; }
+.set select, .set input[type=time] { padding: 8px 10px; border-radius: 9px; color: inherit;
+  border: 1px solid var(--grigio-chiaro); background: var(--carta); }
+.set input[type=checkbox] { width: 24px; height: 24px; accent-color: var(--verde); }
+table.res td { padding: 6px 4px; border-bottom: 1px solid var(--grigio-chiaro); }
+.eb i { display: block; height: 8px; border-radius: 99px; background: var(--terracotta-chiara); opacity: .75; }
+.eb b { font-family: var(--mono); font-size: .8rem; }
+.eb small { color: var(--verde); font-weight: 600; }
+.refs { font-size: .82rem; color: var(--grigio); }
+.tag { display: inline-block; font-size: .7rem; background: var(--grigio-chiaro); padding: 2px 8px;
+       border-radius: 99px; margin: 0 4px 4px 0; }
+.chal { border-left: 3px solid var(--grigio-chiaro); padding-left: 14px; margin: 14px 0; }
+
+/* -------------------------------------------------------------------- nav */
+
+.nav { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
+  display: flex; justify-content: space-around;
+  background: color-mix(in srgb, var(--carta) 92%, transparent);
+  -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px);
+  border-top: 1px solid var(--grigio-chiaro);
+  padding: 6px 4px calc(6px + env(safe-area-inset-bottom)); }
+.nav button { flex: 1; border: none; background: none; color: var(--grigio);
+  font-size: .68rem; font-weight: 700; letter-spacing: .02em; display: flex; flex-direction: column;
+  align-items: center; gap: 2px; padding: 6px 0 4px; position: relative; }
+.nav button.on { color: var(--azzurro); }
+.nav button.on::after { content: ""; position: absolute; bottom: 0; width: 22px; height: 3px; border-radius: 3px;
+  background: var(--azzurro); }
+.hud .muted { font-style: italic; font-weight: 700; font-size: 1rem;
+  color: var(--azzurro-scuro); white-space: nowrap; }
+@media (prefers-color-scheme: dark) { html:not([data-theme="light"]) .hud .muted { color: var(--azzurro); } }
+html[data-theme="dark"] .hud .muted { color: var(--azzurro); }
+.hud .dai { font-style: italic; font-weight: 700; font-size: .95rem;
+  color: var(--terracotta); white-space: nowrap; animation: rise .4s ease backwards; }
+.hearts .over { font-size: .72rem; font-weight: 900; color: var(--terracotta); vertical-align: middle; }
+.combo { font-weight: 800; color: var(--terracotta); white-space: nowrap; }
+/* la via: una linea sottile che avanza */
+.progressline { flex: 1 1 140px; height: 8px; background: color-mix(in srgb, var(--carta) 55%, transparent); border-radius: 99px;
+  overflow: hidden; min-width: 0; }
+.progressline i { display: block; height: 100%; background: linear-gradient(90deg, var(--oro), var(--terracotta)); border-radius: 99px;
+  transition: width .5s cubic-bezier(.2,.8,.2,1); }
+#quit, #lesquit { padding: 6px 12px; border: none; background: transparent; font-size: 1.1rem; color: var(--grigio); }
+/* il filetto del sole: limone e corallo */
+body.ingame #app > .card::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 6px;
+  background: var(--cenefa) repeat-x 0 0 / 24px 6px; }
+.prompt { color: var(--grigio); font-size: .9rem; font-weight: 600; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+.stem .gap { color: var(--azzurro); border-bottom: 3px solid var(--azzurro); padding: 0 18px; }
+.stem .gap.n { display: inline-grid; place-items: center; min-width: 30px; height: 26px; padding: 0 8px; margin: 0 2px;
+  border: none; border-radius: 8px; background: color-mix(in srgb, var(--oro) 22%, transparent); color: var(--oro-scuro);
+  font-family: var(--sans); font-size: .85rem; font-weight: 800; vertical-align: middle; }
+@media (prefers-color-scheme: dark) { html:not([data-theme="light"]) .stem .gap.n { color: var(--oro); } }
+html[data-theme="dark"] .stem .gap.n { color: var(--oro); }
+.stem .w.gl:active { background: color-mix(in srgb, var(--verde) 15%, transparent); }
+.stem .w.gl.new { text-decoration: underline dotted; text-underline-offset: 4px; text-decoration-color: var(--verde); }
+.opt { position: relative; text-align: left; padding: 14px 16px 14px 54px; border-radius: 12px; font-weight: 700; font-size: 1.05rem;
+  border: 1.5px solid var(--grigio-chiaro); background: var(--carta); color: inherit;
+  transition: transform .06s, background .15s, border-color .15s; }
+.opt::before { counter-increment: opt; content: counter(opt); position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+  width: 28px; height: 28px; border-radius: 50%; display: grid; place-items: center; font-size: .9rem;
+  font-weight: 800; color: var(--grigio); border: 1.5px solid var(--grigio-chiaro); }
+@media (hover: hover) { .opt:hover:not(:disabled) { border-color: var(--terracotta); } }
+.opt:active:not(:disabled) { transform: scale(.99); border-color: var(--terracotta); }
+.opt.right { border-color: var(--verde); background: color-mix(in srgb, var(--verde) 14%, var(--carta)); color: var(--verde-scuro);
+  animation: bump .35s cubic-bezier(.3,1.6,.5,1); }
+.opt.right::before { content: "✓"; color: #fff; background: var(--verde); border-color: var(--verde); }
+.opt.wrong { border-color: var(--terracotta); background: color-mix(in srgb, var(--terracotta) 12%, var(--carta)); color: var(--terracotta-scura);
+  animation: shake .32s ease; }
+.opt.wrong::before { content: "✕"; color: #fff; background: var(--terracotta); border-color: var(--terracotta); }
+@media (prefers-color-scheme: dark) { html:not([data-theme="light"]) .opt.right { color: var(--verde-chiaro); } html:not([data-theme="light"]) .opt.wrong { color: var(--terracotta-chiara); } }
+html[data-theme="dark"] .opt.right { color: var(--verde-chiaro); } html[data-theme="dark"] .opt.wrong { color: var(--terracotta-chiara); }
+.typed input, .typed textarea {
+  flex: 1; min-width: 0; padding: 14px 16px; border-radius: 12px; background: var(--carta);
+  border: 1.5px solid var(--grigio-chiaro); color: inherit; font: inherit; font-size: 1.08rem; font-weight: 700; }
+.typed textarea { flex: 1 1 100%; resize: none; overflow: hidden; line-height: 1.4; min-height: 54px; }
+.typed input:focus, .typed textarea:focus { border-color: var(--terracotta);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--terracotta) 15%, transparent); }
+.accents button { border: 1.5px solid var(--grigio-chiaro); background: var(--carta); color: inherit;
+  border-radius: 10px; padding: 7px 12px; font-weight: 700; }
+.accents button:active { background: var(--intonaco); }
+
+.tiles-answer { min-height: 64px; border-bottom: 1.5px dashed var(--grigio-chiaro);
+  display: flex; flex-wrap: wrap; gap: 7px; padding: 6px 0 10px; align-items: center; }
+.tile { border: 1.5px solid var(--grigio-chiaro); background: var(--carta); color: inherit;
+  border-radius: 10px; padding: 10px 15px; font-weight: 700; font-size: 1.05rem;
+  transition: transform .06s, opacity .2s, border-color .15s; }
+.tile:active:not(:disabled) { transform: scale(.97); border-color: var(--terracotta); }
+.tile.on { border-color: var(--terracotta); }
+
+.bigplay { width: 92px; height: 92px; border-radius: 50%; border: none; font-size: 2.3rem;
+  background: var(--terracotta); color: #fff; margin: 6px 0 8px; transition: transform .08s; }
+.peek { margin: 8px 0; font-weight: 600; color: var(--verde); }
+.words .hit { color: var(--verde); }
+.words .miss { color: var(--terracotta); text-decoration: underline dotted; }
+
+.intro .badge-new, .lescard .badge-new { display: inline-block; font-size: .7rem; font-weight: 800; text-transform: uppercase;
+  letter-spacing: .12em; color: var(--verde); background: color-mix(in srgb, var(--verde) 10%, transparent);
+  padding: 3px 10px; border-radius: 4px; margin-bottom: 8px; }
+.lescard.quiz .badge-new { color: var(--terracotta); background: color-mix(in srgb, var(--terracotta) 10%, transparent); }
+
+/* il verdetto: un foglio che sale dal basso, con il «Bravo!» in Playfair corsivo */
+.feedback { margin-top: 16px; padding: 14px 16px; border-radius: 12px;
+            border-left: 4px solid var(--grigio); background: var(--intonaco); animation: slide .22s ease; }
+.feedback.giusto { border-color: var(--verde); }
+.feedback.quasi { border-color: var(--oro); }
+.feedback.sbagliato { border-color: var(--terracotta); }
+.feedback .verdict { font-family: var(--serif); font-style: italic; font-size: 1.55rem; font-weight: 800;
+  letter-spacing: -.005em; margin-bottom: 6px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.xpgain { font-size: .85rem; font-weight: 800; background: var(--oro); color: #3a2a00;
+  padding: 2px 10px; border-radius: 99px; animation: pop .4s cubic-bezier(.3,1.6,.5,1) .15s both; }
+
+body.ingame .feedback:not(.prompt) {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; margin: 0;
+  border: none; border-top: 4px solid transparent; border-radius: 18px 18px 0 0; max-height: 72vh; overflow-y: auto;
+  padding: 20px 20px calc(18px + env(safe-area-inset-bottom));
+  box-shadow: 0 -8px 30px rgba(40,20,10,.14);
+  animation: sheet .32s cubic-bezier(.2,.9,.25,1.05);
+}
+@media (min-width: 700px) { body.ingame .feedback:not(.prompt) { left: 50%; width: 660px; margin-left: -330px; } }
+body.ingame .feedback.giusto { background: #dcf6e6; color: #0f5b34; border-top-color: var(--verde); }
+body.ingame .feedback.quasi { background: #fff1bf; color: #5c4200; border-top-color: var(--oro); }
+body.ingame .feedback.sbagliato { background: #ffe4da; color: #7d2a13; border-top-color: var(--terracotta); }
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) body.ingame .feedback.giusto { background: #123f28; color: #d9f7e5; } html:not([data-theme="light"]) body.ingame .feedback.quasi { background: #3d3010; color: #ffeec0; } html:not([data-theme="light"]) body.ingame .feedback.sbagliato { background: #46201a; color: #ffdfd3; }
+}
+html[data-theme="dark"] body.ingame .feedback.giusto { background: #123f28; color: #d9f7e5; } html[data-theme="dark"] body.ingame .feedback.quasi { background: #3d3010; color: #ffeec0; } html[data-theme="dark"] body.ingame .feedback.sbagliato { background: #46201a; color: #ffdfd3; }
+body.ingame .feedback.giusto #next, body.ingame .feedback.giusto #lesnext2 { background: var(--verde); }
+body.ingame .feedback.quasi #next { background: var(--oro); color: #3a2a00; }
+body.ingame .feedback.sbagliato #next, body.ingame .feedback.sbagliato #lesnext2 { background: var(--terracotta); }
+.feedback.prompt { display: block; color: inherit; font-size: inherit; font-weight: inherit; margin-bottom: 0;
+  border-left-width: 4px; border-color: var(--oro); border-radius: 12px;
+  background: color-mix(in srgb, var(--oro) 12%, var(--carta)); }
+
+/* +xp che vola verso l'anello */
+.xpfloat { position: fixed; z-index: 80; pointer-events: none; font-weight: 900; color: var(--oro-scuro);
+  font-size: 1.3rem; text-shadow: 0 2px 0 rgba(255,255,255,.7); animation: xpfly .9s cubic-bezier(.2,.8,.3,1) forwards; }
+@media (prefers-color-scheme: dark) { html:not([data-theme="light"]) .xpfloat { color: var(--oro); text-shadow: 0 2px 0 rgba(0,0,0,.6); } }
+html[data-theme="dark"] .xpfloat { color: var(--oro); text-shadow: 0 2px 0 rgba(0,0,0,.6); }
+.diag .tag { display: inline-block; font-size: .7rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase;
+  background: color-mix(in srgb, var(--terracotta) 12%, transparent); color: var(--terracotta-scura);
+  padding: 2px 8px; border-radius: 4px; margin-bottom: 6px; }
+@media (prefers-color-scheme: dark) { html:not([data-theme="light"]) .diag .tag { color: var(--terracotta-chiara); } }
+html[data-theme="dark"] .diag .tag { color: var(--terracotta-chiara); }
+.feedback.giusto .diag .tag, .feedback.quasi .diag .tag { background: color-mix(in srgb, var(--verde) 14%, transparent); color: var(--verde); }
+.diag p { margin: 6px 0 0; font-size: .92rem; }
+.diff .k { display: inline-block; min-width: 34px; font-family: inherit; font-size: .7rem; color: var(--grigio); text-transform: uppercase; }
+.diff b.bad { color: var(--terracotta-chiara); text-decoration: line-through; font-weight: 700; }
+.diff b.fix { color: var(--verde); font-weight: 800; }
+.selfrepair { color: var(--verde); font-weight: 650; }
+.fixerr .w.missed { background: color-mix(in srgb, var(--oro) 35%, transparent); }
+.scorebig b { font-family: var(--serif); font-size: 3.4rem; line-height: 1; font-weight: 900; letter-spacing: -.02em; color: var(--azzurro); }
+.scorebig span { color: var(--grigio); font-weight: 700; background: var(--intonaco); padding: 4px 12px; border-radius: 99px; }
+.lesdone .bigstar { font-size: 5rem; line-height: 1; color: var(--oro); animation: starpop .7s cubic-bezier(.3,1.6,.5,1); }
+.lampobar i { background: linear-gradient(90deg, var(--terracotta), var(--oro)); transition: width .1s linear; }
+
+/* ------------------------------------------------------------------- teoria */
+
+.lesson { background: var(--carta); border-radius: var(--raggio); border: 1px solid var(--grigio-chiaro);
+          box-shadow: var(--ombra); padding: 20px 18px; margin-top: 14px; line-height: 1.62; }
+.lesson .intro { font-size: 1.05rem; line-height: 1.6; color: var(--inchiostro);
+                 border-left: 3px solid var(--verde); padding-left: 14px; margin: 0 0 4px; }
+.lesson .blk { padding-top: 20px; margin-top: 20px; border-top: 1px solid var(--grigio-chiaro); }
+.lesson h2 { font-weight: 800; font-size: 1.35rem; margin: 0 0 10px; letter-spacing: -.01em; }
+.lesson p { margin: 0 0 10px; }
+.lesson p.rule { font-size: 1.06rem; line-height: 1.5; color: var(--inchiostro);
+  background: color-mix(in srgb, var(--verde) 7%, var(--carta)); border-left: 4px solid var(--verde);
+  border-radius: 0 8px 8px 0; padding: 10px 12px; margin: 0 0 12px; }
+.lesson details.more { margin-top: 12px; border-top: 1px dashed var(--grigio-chiaro); padding-top: 8px; }
+.lesson details.more summary { cursor: pointer; font-weight: 700; font-size: .9rem; color: var(--verde); list-style: none; padding: 6px 0; }
+.lescard .blk { border-top: none; margin-top: 0; padding-top: 0; }
+.lescard .intro { font-size: 1.05rem; line-height: 1.6; }
+table.gram th { text-align: left; font-size: .72rem; text-transform: uppercase; letter-spacing: .1em; color: var(--grigio);
+  font-weight: 700; padding: 6px 10px 6px 0; border-bottom: 2px solid var(--grigio-chiaro); white-space: nowrap; }
+table.gram td { padding: 7px 10px 7px 0; vertical-align: top; border-bottom: 1px solid var(--grigio-chiaro); }
+ul.exs li { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; padding: 9px 0; border-bottom: 1px dashed var(--grigio-chiaro); }
+ul.exs .it { font-weight: 700; color: var(--verde); }
+ul.exs .es { grid-column: 1; color: var(--grigio); font-size: .87rem; }
+ul.vocab li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px; padding: 6px 0; border-bottom: 1px dashed var(--grigio-chiaro); }
+ul.vocab li small { flex-basis: 100%; color: var(--grigio); padding-left: 34px; }
+.call b { display: block; font-size: .7rem; text-transform: uppercase; letter-spacing: .12em; margin-bottom: 5px; }
+.call p { margin: 0; }
+.call.warn { background: color-mix(in srgb, var(--terracotta) 8%, var(--carta)); border-left: 3px solid var(--terracotta); }
+.call.warn b { color: var(--terracotta); }
+.call.tip { background: color-mix(in srgb, var(--oro) 12%, var(--carta)); border-left: 3px solid var(--oro); }
+.call.tip b { color: var(--oro-scuro); }
+@media (prefers-color-scheme: dark) { html:not([data-theme="light"]) .call.tip b { color: var(--oro); } }
+html[data-theme="dark"] .call.tip b { color: var(--oro); }
+.text p { margin: 0 0 12px; }
+.text .gl { border-bottom: 2px dotted var(--verde); cursor: pointer; }
+.text.hunt .w.on { background: color-mix(in srgb, var(--oro) 35%, transparent); }
+.text.hunt .w.hit { background: color-mix(in srgb, var(--verde) 25%, transparent); }
+.text.hunt .w.missed { text-decoration: underline 3px var(--oro); }
+.text.hunt .w.bad { background: color-mix(in srgb, var(--terracotta) 20%, transparent); text-decoration: line-through; }
+#qtext { margin: 8px 0 12px; padding: 10px 12px; border-radius: 10px; background: var(--intonaco); }
+.glossbox { position: fixed; left: 50%; transform: translate(-50%, -12px); opacity: 0;
+  top: calc(84px + env(safe-area-inset-top)); z-index: 65; pointer-events: none;
+  background: var(--inchiostro); color: var(--intonaco); padding: 10px 16px; border-radius: 12px;
+  font-weight: 600; max-width: 92vw; transition: all .18s ease; }
+ul.reqs li { padding: 3px 0; color: var(--grigio); }
+ul.reqs li.ok { color: var(--verde); font-weight: 700; }
+textarea.scrivi { width: 100%; box-sizing: border-box; min-height: 160px; resize: none; overflow: hidden;
+  font: inherit; font-size: 1.05rem; line-height: 1.5; padding: 14px; border-radius: 12px;
+  border: 1.5px solid var(--grigio-chiaro); background: var(--carta); color: var(--inchiostro); }
+textarea.scrivi:focus { border-color: var(--terracotta); }
+.scrivi-marked mark.bad { background: color-mix(in srgb, var(--terracotta) 22%, transparent); text-decoration: underline wavy var(--terracotta); }
+.scrivi-marked mark.soft { background: color-mix(in srgb, var(--oro) 20%, transparent); }
+ol.findings li { padding: 6px 0; border-top: 1px solid var(--grigio-chiaro); }
+ol.findings li.soft { color: var(--grigio); }
+p.model { font-size: 1.02rem; line-height: 1.6; }
+details.aibox input, .card input#aikey, .card input#gemkey, .card input#gisttoken { display: block; width: 100%; box-sizing: border-box; min-width: 0;
+  padding: 10px 12px; border-radius: 12px; border: 1.5px solid var(--grigio-chiaro); background: var(--carta); color: var(--inchiostro); font: inherit; }
+.aiout { border-top: 1px solid var(--grigio-chiaro); margin-top: 10px; padding-top: 8px; }
+
+/* ------------------------------------------------------------------- varie */
+
+.toast { position: fixed; left: 50%; bottom: calc(84px + env(safe-area-inset-bottom)); transform: translateX(-50%);
+  background: var(--inchiostro); color: var(--intonaco); padding: 11px 18px; border-radius: 12px; font-weight: 700;
+  box-shadow: var(--ombra); z-index: 60; max-width: 90vw; text-align: center; animation: rise .3s cubic-bezier(.2,.8,.2,1); }
+/* el confeti: azulejos de mayólica (cuadrados) y limones (redondos) */
+.confetti span.bit { border-radius: 2px; box-shadow: 0 0 0 .5px rgba(0,0,0,.08); }
+.confetti span.bit.round { border-radius: 50%; }
+@keyframes fall { 0% { transform: translateY(0) rotate(0); } 50% { transform: translateY(55vh) translateX(18px) rotate(280deg); }
+  100% { transform: translateY(110vh) translateX(-10px) rotate(560deg); opacity: .75; } }
+
+/* ------------------------------------------------------------------ mobile */
+
+@media (max-width: 520px) {
+  header.top .bar { padding: 8px 12px; gap: 6px; }
+  .stats { gap: 7px; }
+  .stat { min-width: 32px; }
+  .stat span { font-size: .6875rem; letter-spacing: .02em; }
+  .mode { width: 34px; height: 34px; font-size: .95rem; }
+  .ring { width: 36px; height: 36px; } .ring b { width: 28px; height: 28px; font-size: .68rem; }
+  .targa { padding: 4px 9px 3px; } .targa .t-via { font-size: 1rem; } .targa .t-sup { font-size: .52rem; }
+  h1 { font-size: 1.85rem; margin-top: 16px; }
+  h1.hello { font-size: 2.05rem; }
+  .card { padding: 16px; }
+  .stem { font-size: 1.38rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #app > *, .pulse, .combo.pop, .feedback, .confetti span, .opt.right, .opt.wrong, .xpfloat, .stat.hot b i,
+  .toast, .xpgain, .tiles-answer .tile, .node.current .dot, .node .bubble, .lesdone .bigstar, .ring.bump, .hud .dai {
+    animation: none !important; }
+}
+
+/* --- stanchezza --- */
+.note.fatigue { background: var(--travertino); margin: 0 0 10px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.stem.big { font-size: 1.9rem; text-align: center; }
+.pairrow i.dur { display: inline-block; height: 8px; width: 34px; border-radius: 4px; background: var(--azzurro); }
+.pairrow i.dur.long { width: 68px; background: var(--terracotta); }
+.seg .tab.on { background: var(--azzurro); color: #fff; border-color: var(--azzurro); }
+.text .w.now { background: color-mix(in srgb, var(--oro) 45%, transparent); border-radius: 4px; }
+.text.enh .w.form { background: color-mix(in srgb, var(--azzurro) 22%, transparent); border-radius: 4px; padding: 0 2px; font-weight: 700; }
+body.kar-partial .text .w:not(.gl):not(.now) { color: transparent; border-bottom: 2px solid var(--grigio-chiaro); }
+.note.flood { border-left: 3px solid var(--azzurro); }
+.bubble.ia { align-self: flex-start; background: var(--travertino); border-bottom-left-radius: 4px; }
+.bubble.me { align-self: flex-end; background: color-mix(in srgb, var(--azzurro) 18%, transparent); border-bottom-right-radius: 4px; }
+.chips .tab.on { background: var(--azzurro); color: #fff; border-color: var(--azzurro); }
+.weekcard.ritorno { border-left: 4px solid var(--oro); }
+.dgnotes textarea { width: 100%; margin-top: 4px; }
+.dgnotesview { white-space: pre-wrap; padding: 8px 10px; border-radius: 8px;
+  background: color-mix(in srgb, var(--oro) 12%, transparent); }
+mark.dgok { background: color-mix(in srgb, var(--verde) 26%, transparent); color: inherit; border-radius: 3px; }
+mark.dgmiss { background: color-mix(in srgb, var(--terracotta) 24%, transparent); color: inherit; border-radius: 3px; }
+mark.dgcasi { background: color-mix(in srgb, var(--limone, #f4c430) 38%, transparent); color: inherit; border-radius: 3px; }
+
+/* Glosas de opción múltiple en las lecturas */
+.text .w.mcg { background: color-mix(in srgb, var(--oro) 30%, transparent); border-radius: 4px; padding: 0 2px;
+  border-bottom: 2px dotted var(--oro-scuro); cursor: pointer; }
+.mcbox { position: fixed; left: 50%; bottom: 84px; z-index: 60; width: min(92vw, 420px);
+  transform: translate(-50%, 16px); opacity: 0; pointer-events: none; transition: opacity .18s, transform .18s;
+  background: var(--carta); border: 1px solid var(--grigio-chiaro); border-radius: 14px; padding: 12px 14px 10px; box-shadow: var(--ombra); }
+
+/* Lección en pasos: Mirá → regla → tabla en tarjetas → trampa */
+.stepbadge { display: inline-block; font-size: .72rem; font-weight: 800; text-transform: uppercase; letter-spacing: .1em;
+  color: var(--verde-scuro); background: color-mix(in srgb, var(--verde) 12%, transparent); border-radius: 999px; padding: 3px 10px; margin-bottom: 10px; }
+.step-trap .stepbadge { color: var(--terracotta-scura); background: color-mix(in srgb, var(--terracotta) 12%, transparent); }
+mark.hl { background: color-mix(in srgb, var(--oro) 38%, transparent); color: inherit; border-radius: 4px; padding: 0 2px; }
+ul.exs.look .it { font-size: 1.08rem; color: var(--inchiostro); font-weight: 600; }
+.rowcard { border: 1px solid var(--grigio-chiaro); border-radius: 14px; padding: 12px 16px;
+  background: var(--carta); box-shadow: var(--ombra); }
+.rowcard .rc-h { font-weight: 800; font-size: 1.1rem; margin-bottom: 4px; color: var(--verde-scuro); }
+.rowcard .rc-line { display: flex; align-items: baseline; gap: 10px; padding: 5px 0; border-top: 1px dashed var(--grigio-chiaro); }
+.rowcard .rc-k { display: block; font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; color: var(--grigio); }
+
+/* ---- mapas de preposiciones (docs/js/mapas.js): los colores del dibujo ---- */
+:root { --mapa-tr: var(--terracotta); --mapa-lm: var(--azzurro); --mapa-soft: var(--cielo-chiaro);
+        --mapa-ink: var(--inchiostro); --mapa-bg: var(--carta); --mapa-line: var(--grigio-chiaro); }
+
+/* --- Biblioteca: los colores del lector (docs/css/app.css usa --bx-*) --- */
+:root { --bx-ok: var(--verde-scuro); --bx-mid: var(--oro-scuro); --bx-hard: var(--terracotta-scura); --bx-sub: var(--terracotta); --bx-line: var(--grigio-chiaro); }
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]) { --bx-ok: var(--verde-chiaro); --bx-mid: var(--oro); --bx-hard: var(--terracotta-chiara); --bx-sub: var(--oro); }
+}
+html[data-theme="dark"] { --bx-ok: var(--verde-chiaro); --bx-mid: var(--oro); --bx-hard: var(--terracotta-chiara); --bx-sub: var(--oro); }

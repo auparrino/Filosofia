@@ -1,0 +1,285 @@
+{
+ "week": 34,
+ "level": "B2",
+ "lettura": {
+  "title": "L'amicizia dopo i trent'anni",
+  "emoji": "🤝",
+  "genre": "articolo di costume",
+  "grammar": "pronomi relativi (che, cui, il quale)",
+  "text": "C'è un momento, di solito tra i trenta e i quarant'anni, in cui molte persone si accorgono di una cosa che nessuno aveva previsto: gli amici, quelli con cui si passavano le serate senza bisogno di organizzarsi, sono diventati impegni da fissare in agenda. Ci si scrive «dobbiamo vederci», si propone una data che poi salta, e intanto passano i mesi. Non è un dramma, ma è una piccola perdita di cui si parla poco.\n\nLe ragioni sono note. Il lavoro, che occupa sempre più spazio; i figli, per i quali ogni ora libera diventa preziosa; i traslochi, che separano persone che avevano condiviso tutto per anni. Lo psicologo Emanuele Verdi, il cui ultimo libro è dedicato proprio a questo tema, parla di «amicizie in pausa»: rapporti che nessuno ha deciso di chiudere, ma che nessuno ha più il tempo di coltivare.\n\nSecondo Verdi, il problema non è la mancanza di affetto, ma la scomparsa dei contesti in cui l'amicizia nasceva spontaneamente. A scuola, all'università, nella squadra di calcio, ci si incontrava senza cercarsi. Da adulti, invece, ogni incontro richiede un'iniziativa, e la persona che la prende rischia di sentirsi sempre quella che insiste. Chi aspetta di essere chiamato, spesso, aspetta invano.\n\nC'è poi un fenomeno più sottile, che riguarda la coppia. Molte persone, quando iniziano una relazione stabile, finiscono per concentrare nel partner tutti i bisogni che prima distribuivano tra varie amicizie: la confidenza, il divertimento, il consiglio. È una scelta comprensibile, ma pesante, sia per chi la fa sia per il partner, al quale si chiede di essere tutto. Non a caso, alcuni terapeuti di coppia consigliano di «restituire» agli amici una parte di quelle funzioni.\n\nCi sono però anche buone notizie. Le amicizie adulte, quando sopravvivono, sono spesso più profonde. Si sceglie con più cura la gente con cui passare il poco tempo libero, e si impara a distinguere le persone su cui si può contare da quelle con le quali si condividevano soltanto le abitudini. Molti raccontano di aver ritrovato, dopo anni di silenzio, un vecchio amico con il quale la conversazione è ripartita come se non si fosse mai interrotta.\n\nChe cosa si può fare, allora? Le proposte di Verdi sono sorprendentemente pratiche: fissare un appuntamento ricorrente, per esempio una cena al mese nello stesso posto, in modo che non si debba ricominciare ogni volta da capo; accettare che un'amicizia possa vivere anche di messaggi vocali e di telefonate brevi; e soprattutto smettere di tenere il conto delle telefonate. L'amicizia, conclude, non è un conto in banca in cui bisogna tenere il saldo in pari.\n\nForse la cosa più importante è ricordare che quelle amicizie in pausa non sono finite. Spesso basta un messaggio, quello che rimandiamo da mesi, per scoprire che dall'altra parte c'è qualcuno che aspettava esattamente la stessa cosa.",
+  "gloss": {
+      "caso": "(non a caso) no por casualidad",
+      "sia": "(sia per chi... sia per...) tanto para quien... como para...: *sia... sia* = tanto... como",
+      "incontrava": "(ci si incontrava) uno se encontraba: *ci si* impersonal con reflexivo (semana 36)",
+      "scrive": "(ci si scrive) nos escribimos, uno se escribe: *ci si* es el *si* impersonal con un verbo reflexivo (semana 36)",
+   "accorgono": "se dan cuenta",
+   "impegni": "compromisos",
+   "fissare": "agendar, fijar",
+   "salta": "se cae, se suspende",
+   "preziosa": "valiosa",
+   "traslochi": "mudanzas",
+   "coltivare": "cultivar, mantener",
+   "scomparsa": "desaparición",
+   "invano": "en vano",
+   "sottile": "sutil",
+   "confidenza": "intimidad, confianza",
+   "pesante": "pesada",
+   "restituire": "devolver",
+   "sopravvivono": "sobreviven",
+   "ricorrente": "fija, periódica",
+   "capo": "(da capo) desde cero",
+   "vocali": "(messaggi vocali) audios",
+   "smettere": "dejar de",
+   "saldo": "saldo",
+   "pari": "(in pari) equilibrado",
+   "rimandiamo": "postergamos"
+  },
+  "questions": [
+   [
+    "Qual è l'idea centrale del testo?",
+    [
+     "Dopo i trent'anni non si hanno più veri amici",
+     "Da adulti l'amicizia si complica, ma resiste",
+     "La coppia conta più di qualsiasi amicizia",
+     "Solo gli amici d'infanzia sono amici veri"
+    ],
+    "Da adulti l'amicizia si complica, ma resiste"
+   ],
+   [
+    "Che cosa intende Verdi con «amicizie in pausa»?",
+    [
+     "Amicizie finite dopo un brutto litigio",
+     "Rapporti mai chiusi ma trascurati",
+     "Rapporti tra ex compagni di scuola",
+     "Amicizie che vivono solo sui social"
+    ],
+    "Rapporti mai chiusi ma trascurati"
+   ],
+   [
+    "Perché da giovani era più facile stringere amicizie?",
+    [
+     "Perché si era meno esigenti e più ingenui",
+     "Perché si avevano più soldi da spendere",
+     "Perché la vita offriva incontri spontanei",
+     "Perché non esistevano ancora i telefoni"
+    ],
+    "Perché la vita offriva incontri spontanei"
+   ],
+   [
+    "Quale rischio per la coppia descrive il quarto paragrafo?",
+    [
+     "Caricare il partner di troppe aspettative",
+     "Isolarsi dalla propria famiglia d'origine",
+     "Litigare continuamente a causa degli amici",
+     "Annoiarsi dopo pochi anni di convivenza"
+    ],
+    "Caricare il partner di troppe aspettative"
+   ],
+   [
+    "Che cosa significa la metafora del «conto in banca»?",
+    [
+     "L'amicizia costa molto denaro",
+     "Non bisogna calcolare chi dà di più",
+     "Bisogna risparmiare tempo per gli amici",
+     "Gli amici vanno scelti con prudenza"
+    ],
+    "Non bisogna calcolare chi dà di più"
+   ]
+  ],
+  "vf": [
+   [
+    "Verdi ha scritto un libro sulle amicizie adulte.",
+    "vero"
+   ],
+   [
+    "Secondo il testo, le amicizie adulte sono sempre più superficiali.",
+    "falso"
+   ],
+   [
+    "Verdi ha perso molti amici dopo essersi sposato.",
+    "non si dice"
+   ],
+   [
+    "Verdi consiglia, per esempio, una cena fissa al mese.",
+    "vero"
+   ],
+   [
+    "Il testo sostiene che i messaggi vocali distruggono l'amicizia.",
+    "falso"
+   ]
+  ],
+  "hunt": {
+   "label": "Tocá los pronombres relativos cui, il quale / la quale y chi",
+   "targets": [
+    "cui",
+    "quale",
+    "quali",
+    "chi"
+   ]
+  }
+ },
+ "ascolto": {
+   "title": "Lui vive a Lisbona",
+   "genre": "chiacchierata tra amiche",
+   "es": "Dos amigas se ponen al día por teléfono: una acaba de pasar unos días con un chico que vive en otro país, y la otra tiene algo que decirle.",
+   "speakers": [
+     "Chiara",
+     "Valentina"
+   ],
+   "turns": [
+     ["A", "Vale! Finalmente. Ti ho scritto tre volte, eh. Ero quasi preoccupata."],
+     ["B", "Lo so, lo so, scusami. Hai ragione. È stata una settimana… boh, pazzesca."],
+     ["A", "Pazzesca in che senso? Bella o brutta?"],
+     ["B", "Tutte e due. Cioè… ti ricordi Matteo? Il ragazzo di cui ti avevo parlato a Capodanno?"],
+     ["A", "Aspetta. Quello che hai conosciuto al matrimonio di tua cugina? Quello che lavora a Lisbona?"],
+     ["B", "Esatto, lui. Niente, è venuto a trovarmi. Cinque giorni."],
+     ["A", "Cinque giorni! E me lo dici così? Allora, com'è andata?"],
+     ["B", "Benissimo. Cioè, quasi troppo bene. È questo il problema."],
+     ["A", "In che senso il problema?"],
+     ["B", "Nel senso che adesso lui è tornato a Lisbona e io sto qui, in un appartamento in cui tutto mi ricorda lui. Sembro una ragazzina, lo so."],
+     ["A", "Ma no, dai, è normale. E avete… cioè, avete parlato di come andare avanti?"],
+     ["B", "Un po'. Lui dice che la distanza non è un problema, tipo che ci sono i voli economici, le videochiamate…"],
+     ["A", "Mh."],
+     ["B", "Io però… vabbè, lo sai. Una relazione a distanza l'ho già vissuta, quella con Luca, e sai com'è finita."],
+     ["A", "Sì, ma scusa… Luca era una persona con la quale non riuscivi a parlare nemmeno nella stessa stanza. Non è che il problema fosse la distanza."],
+     ["B", "Mh. Forse hai ragione. Non ci avevo mai pensato in questi termini."],
+     ["A", "Te lo giuro."],
+     ["B", "È vero, eh. Anche quando cenavamo insieme io parlavo e lui guardava il telefono. Matteo invece mi ascolta, mi fa domande, si ricorda le cose che gli racconto."],
+     ["A", "E poi, scusa se te lo dico…"],
+     ["B", "Dimmi."],
+     ["A", "Tu hai sempre messo i fidanzati al centro di tutto. Quando stavi con Luca sparivi. Per mesi. Io ci ero rimasta male, sai?"],
+     ["B", "Davvero? Ma… non me l'avevi mai detto."],
+     ["A", "Te lo dico adesso. Con affetto, eh. È che questa volta non voglio che tu rinunci alle cose e alle persone a cui tieni. Tipo il corso di teatro, che avevi mollato proprio in quel periodo."],
+     ["B", "Il teatro, sì… Hai ragione. Senti, facciamo così: sabato cena da me, solo noi due, e ti racconto tutto con calma. Senza telefono."],
+     ["A", "Senza telefono? Tu? Boh, questo lo voglio proprio vedere."],
+     ["B", "Promesso! Anzi, se lui chiama, rispondo il giorno dopo."],
+     ["A", "Ecco, questa è l'amica che conosco. Allora a sabato. Il dolce lo porto io."]
+   ],
+   "gloss": {
+     "pazzesca": "de locos",
+     "capodanno": "Año Nuevo",
+     "cugina": "prima",
+     "videochiamate": "videollamadas",
+     "stanza": "cuarto, habitación",
+     "sparivi": "desaparecías",
+     "rimasta": "(ci ero rimasta male) me había dolido",
+     "rinunci": "renuncies",
+     "tieni": "(a cui tieni) que te importan",
+     "mollato": "largado, abandonado",
+     "promesso": "prometido",
+     "boh": "qué sé yo, ni idea (muletilla)",
+     "vabbè": "bueno, en fin (muletilla)",
+     "tipo": "(muletilla) como, onda",
+     "giuro": "(te lo giuro) te lo juro"
+   },
+   "questions": [
+     ["Perché Chiara era preoccupata?", ["Valentina aveva perso il lavoro", "Valentina non rispondeva ai messaggi", "Valentina si era trasferita a Lisbona", "Valentina aveva litigato con Matteo"], "Valentina non rispondeva ai messaggi"],
+     ["Dove si sono conosciuti Valentina e Matteo?", ["A una festa di Capodanno", "Durante un viaggio a Lisbona", "Al matrimonio di una cugina", "Su un'applicazione di incontri"], "Al matrimonio di una cugina"],
+     ["Che cosa preoccupa Valentina?", ["Che Matteo abbia un'altra ragazza", "Che la distanza rovini la storia", "Che Chiara sia gelosa di Matteo", "Che i genitori non approvino Matteo"], "Che la distanza rovini la storia"],
+     ["Secondo Chiara, perché era finita la storia con Luca?", ["Per la distanza tra le due città", "Per colpa del lavoro di Luca", "Perché i due non comunicavano", "Per le pressioni delle famiglie"], "Perché i due non comunicavano"],
+     ["Che cosa rimprovera Chiara all'amica?", ["Di trascurare gli amici quando è innamorata", "Di cambiare fidanzato troppo spesso", "Di non averle mai presentato Matteo", "Di passare troppo tempo al telefono con lei"], "Di trascurare gli amici quando è innamorata"],
+     ["Che cosa vuol dire Chiara con «questo lo voglio proprio vedere»?", ["Che dubita che l'amica ci riesca davvero", "Che vuole conoscere presto Matteo", "Che ha voglia di vedere un film", "Che vuole vedere il nuovo telefono"], "Che dubita che l'amica ci riesca davvero"]
+   ],
+   "vf": [
+     ["Matteo è rimasto da Valentina cinque giorni.", "vero"],
+     ["Valentina non ha mai avuto relazioni a distanza.", "falso"],
+     ["Matteo ha intenzione di trasferirsi in Italia.", "non si dice"],
+     ["Le due amiche decidono di cenare insieme sabato.", "vero"]
+   ]
+ },
+ "compito": {
+  "genre": "email_informale",
+  "title": "Un'email a un amico perso di vista",
+  "fonte": "lettura",
+  "t": "Hai letto l'articolo «L'amicizia dopo i trent'anni» e ti sei ricordato/a di un amico o di un'amica che non senti da molto tempo. Scrivigli/le un'email (160-220 parole, registro informale) in cui racconti dell'articolo e delle «amicizie in pausa», spieghi perché vi siete persi di vista, ricordi un momento vissuto insieme e proponi un modo concreto per rivedervi o sentirvi più spesso. Usa diversi pronomi relativi (che, cui, il quale…).",
+  "es": "Mail informal a un amigo con quien perdiste contacto: mencioná el artículo, explicá por qué se distanciaron, recordá algo compartido y proponé algo concreto. Usá relativos variados (di cui, con il quale…).",
+  "min": 160,
+  "max": 220,
+  "punti": [
+   [
+    "mencionar el artículo y las «amicizie in pausa»",
+    [
+     "articolo",
+     "pausa",
+     "ho letto"
+    ]
+   ],
+   [
+    "explicar por qué se perdieron de vista",
+    [
+     "trasferit",
+     "lavoro",
+     "tempo",
+     "persi di vista"
+    ]
+   ],
+   [
+    "recordar un momento compartido",
+    [
+     "ricord",
+     "quella volta",
+     "estate"
+    ]
+   ],
+   [
+    "proponer algo concreto",
+    [
+     "propongo",
+     "vediamoci",
+     "videochiamata",
+     "cena"
+    ]
+   ],
+   [
+    "saludo y despedida informales",
+    [
+     "ciao",
+     "un abbraccio",
+     "a presto",
+     "baci"
+    ]
+   ]
+  ],
+  "model": "Ciao Fede,\n\nquanto tempo! Ti scrivo perché ieri sera ho letto un articolo che mi ha fatto pensare subito a te. Parlava delle «amicizie in pausa», cioè di quei rapporti che nessuno ha deciso di chiudere ma che, un po' alla volta, si spengono per mancanza di tempo. E mi sono reso conto che la nostra è proprio una di quelle.\n\nNon c'è stato nessun litigio, lo so. Semplicemente io mi sono trasferito a Torino per lavoro, tu hai avuto la bambina, e i messaggi sono diventati sempre più rari. Ogni tanto pensavo di chiamarti, poi rimandavo, e intanto passavano i mesi.\n\nTi ricordi l'estate in cui abbiamo attraversato la Sicilia con quella Panda a cui non funzionava l'aria condizionata? Ancora oggi è il viaggio di cui parlo di più, e tu sei l'amico con il quale ho riso di più in vita mia.\n\nAllora ti propongo una cosa semplice: una videochiamata la prima domenica di ogni mese, anche solo mezz'ora. E a dicembre, quando torno a Bari, una cena vera, solo noi due.\n\nChe ne dici? Rispondimi quando puoi, senza fretta.\n\nUn abbraccio forte,\nPaolo",
+  "gloss": {
+    "quanto tempo!": "¡tanto tiempo!",
+    "si spengono": "se apagan",
+    "Ogni tanto": "de vez en cuando",
+    "rimandavo": "lo postergaba, lo iba dejando",
+    "Che ne dici?": "¿qué te parece?"
+  }
+ },
+  "breve": {
+    "title": "Ciao Chiara, sono Valentina",
+    "genre": "messaggio in segreteria",
+    "es": "Una amiga le deja un mensaje de voz a otra para organizar una cena con las compañeras de departamento de la facultad.",
+    "speaker": "Valentina",
+    "voice": 1,
+    "text": [
+      "Ciao Chiara, sono Valentina. Ti ho chiamata due volte ma hai il telefono spento, quindi ti lascio un messaggio. Ti ricordi di Marta, quella con cui dividevamo l'appartamento a Bologna? Mi ha scritto ieri: torna in Italia per due settimane e vorrebbe rivederci tutte.",
+      "Ho pensato a una cena sabato 21, nel ristorante di cui ti parlavo, quello in via Saragozza dove fanno dei tortellini buonissimi. Ho già sentito Giulia, che viene sicuramente, e Silvia, la quale però deve ancora chiedere al marito se può tenere i bambini.",
+      "Ho prenotato per le otto e mezza, per cinque persone. Se non puoi, dimmelo entro giovedì, così cambio la prenotazione, che è gratuita fino a due giorni prima.",
+      "Dai, non facciamo passare altri dieci anni! Chiamami quando senti questo messaggio. Un bacio."
+    ],
+    "tabella": [
+      ["Città in cui vivevano insieme", "Bologna", []],
+      ["Giorno della cena", "sabato 21", ["21", "sabato", "il 21", "sabato ventuno"]],
+      ["Ora della prenotazione", "20.30", ["20:30", "otto e mezza", "8 e mezza", "8.30", "le otto e mezza"]],
+      ["Numero di persone", "5", ["cinque"]],
+      ["Ultimo giorno per rispondere", "giovedì", ["entro giovedì"]]
+    ],
+    "info": [
+      ["Chiara aveva il telefono spento.", true],
+      ["Marta torna a vivere in Italia.", false],
+      ["Silvia deve organizzarsi per i bambini.", true],
+      ["Giulia non può venire.", false],
+      ["Cambiare la prenotazione costa dieci euro.", false],
+      ["Valentina vuole rivedere presto le amiche.", true]
+    ],
+    "gloss": {
+      "spento": "apagado",
+      "dividevamo": "compartíamos",
+      "prenotazione": "reserva"
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+ "lote": "T-errori-1",
+ "revisado": 364,
+ "veredicto": "bien con reparos",
+ "resumen": "Banco de 364 ejercicios trova_errore (preposiciones, auxiliares, concordancia, artículos, posesivos, doppie, tildes, calcos del español). Todas las soluciones 'right' son gramaticalmente correctas y los errores señalados son reales; no hallé errores duros en italiano ni en español. Hay pocas dudas (frases donde el 'error' es aceptable en el uso) y algunas notas imprecisas. El problema principal es de cobertura: 82% A1-A2, casi nada B2 y nada C1 en un curso C1.",
+ "bien": [
+  "Todas las frases 'right' son correctas y naturales; los errores son típicos del hispanohablante rioplatense.",
+  "Notas breves en español con voseo correcto (decís, querés, acordate) y ejemplos de contraste es/it útiles.",
+  "Buena selección de transferencia: a personal, hay→c'è, posesivos con parientes, género (latte, sale, miele), doppie, ñ/ll/gn/gli.",
+  "Se incluyen 'alt' para variantes válidas en varios ítems (in/per, sulla/nella, ma/però).",
+  "Sin duplicados literales y sin ítems con bad==good; las categorías coinciden con el contenido."
+ ],
+ "hallazgos": [
+  {
+   "id": "errore:44",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Passo per casa tua dopo cena.",
+   "propuesta": "Reemplazar la frase o aceptar «Passo per casa tua» como correcta",
+   "motivo": "«Passare per casa di qualcuno» es normal en italiano; presentar «per» como error es dudoso."
+  },
+  {
+   "id": "errore:102",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "(con avere es raro y se evita)",
+   "propuesta": "«durare» admite essere y avere; decir que avere «es raro» es exagerado (el ejercicio 131 sí es válido)",
+   "motivo": "Treccani admite «ha durato»; la nota sobreafirma."
+  },
+  {
+   "id": "errore:127",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Di mele, ne ho comprato tre.",
+   "propuesta": "Marcar como opcional o cambiar de ejemplo",
+   "motivo": "Con «ne» partitivo la concordancia del participio es opcional; «ne ho comprato tre» es aceptable."
+  },
+  {
+   "id": "errore:37",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Sono nata il 5 di maggio.",
+   "propuesta": "Aclarar en el why que «il 5 di maggio» es posible pero menos frecuente",
+   "motivo": "No es un error real; existe en el uso (más literario)."
+  },
+  {
+   "id": "errore:9",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Domani vado al dentista alle dieci.",
+   "propuesta": "Agregar alt «al dentista» como registro coloquial o aclarar el why",
+   "motivo": "«Vado al dentista» es muy frecuente; «dal» es lo normativo."
+  },
+  {
+   "id": "errore:181",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Il mio nonno ha novant'anni.",
+   "propuesta": "Agregar la nota «con nonno/nonna el artículo es común en el habla»",
+   "motivo": "«Il mio nonno» es de uso corriente; no es error claro (igual 182 «La mia cugina»)."
+  },
+  {
+   "id": "errore:182",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "La mia cugina studia medicina.",
+   "propuesta": "Igual que 181",
+   "motivo": "Con cugino/a el artículo es frecuente en uso real; presentar como error es rígido."
+  },
+  {
+   "id": "errore:52",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Fino nunca va solo delante del sustantivo.",
+   "propuesta": "«Fino se usa siempre con a: fino a domani, fino alle sei (a + le).»",
+   "motivo": "Nota confusa e imprecisa (existe «fino ad ora», etc.); explicar solo «fino a»."
+  },
+  {
+   "id": "errore:66",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Le chiavi sono in il tavolo della cucina.",
+   "propuesta": "Separar en dos ejercicios (contracción y in→su)",
+   "motivo": "Hay dos errores a la vez (in il sin contraer y preposición equivocada) y el why sólo explica uno."
+  },
+  {
+   "id": "errore:32",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "La preposición del origen es da.",
+   "propuesta": "«Dipendere se construye con da: dipende da te.»",
+   "motivo": "Explicación forzada; «origen» no describe bien el uso."
+  },
+  {
+   "id": "errore:255",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "en español no existen",
+   "propuesta": "«en español casi no hay consonantes dobles (solo rr, ll, cc/nn en pocos casos)»",
+   "motivo": "Afirmación falsa: el español tiene rr, ll, cc, nn (innato)."
+  },
+  {
+   "id": "errore:258",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Las dobles se marcan en la pronunciación con una pequeña pausa.",
+   "propuesta": "«La consonante doble se pronuncia más larga (se sostiene el sonido).»",
+   "motivo": "La geminada es un alargamiento, no una pausa."
+  },
+  {
+   "id": "errore:309",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "El sonido de la ll española (palatal) se escribe gli en italiano",
+   "propuesta": "«La grafía ll española corresponde a gli en italiano (aunque en rioplatense suene sh/zh)»",
+   "motivo": "Para el alumno rioplatense la «ll» no es palatal lateral; la explicación fonética confunde."
+  },
+  {
+   "id": "errore:310",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "La ll del español corresponde a gli: bottiglia, meglio, moglie.",
+   "propuesta": "Igual que 309: aclarar que es correspondencia gráfica",
+   "motivo": "Misma imprecisión fonética."
+  },
+  {
+   "id": "errore:313",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Sin h sonaría como «yi».",
+   "propuesta": "«Sin h se leería /dʒi/, como «yi/shi» suave, no como «gui».»",
+   "motivo": "Aproximación fonética poco clara para rioplatense."
+  },
+  {
+   "id": "errore:253",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ho fatto molte fote durante il viaggio.",
+   "propuesta": "Sustituir por un error plausible (p. ej. «foti» o «fotos»)",
+   "motivo": "«fote» no es un error de transferencia real; no enseña lo que dice."
+  },
+  {
+   "id": "errore:338",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Hay tanti turisti a Venezia.",
+   "propuesta": "Fusionar con 337 o cambiar la estructura (p. ej. «Hay que...», «había»)",
+   "motivo": "Duplica la lección de 337 (hay → c'è/ci sono)."
+  },
+  {
+   "id": "errore:357",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Lavoro hasta le sei.",
+   "propuesta": "Reemplazar por otro caso (p. ej. «hasta mañana»)",
+   "motivo": "Repite el error 52 «fino le sei» con casi la misma frase."
+  },
+  {
+   "id": "errore:363",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Il mio perro si chiama Toby.",
+   "propuesta": "Cambiar el nombre/frase",
+   "motivo": "Repite casi literal 184 «Mio cane si chiama Toby»."
+  },
+  {
+   "id": "errore:2",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "bad: a / good: in",
+   "propuesta": "Guardar el índice/posición del token erróneo",
+   "motivo": "wrong.replace(bad,good) da otra frase (coincide con «a» de «Quest'estate»); igual en 5, 10, 11, 30, 32, 34, 40, 56, 319: si la app localiza el token por texto, puede marcar mal."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Ampliar a B2-C1: congiuntivo (dopo che/benché/credo che), concordanza dei tempi, periodo ipotetico, pronomi combinati, ci/ne, si passivante/impersonale, pronomi relativi (cui, il quale), gerundio/participio assoluto, passato remoto, registro.",
+   "por_que": "Distribución: A1 135, A2 164, B1 61, B2 4, C1 0. Curso C1 con casi 82% de ítems de nivel A."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Subir el nivel de los ítems existentes: hay ortografía y artículos etiquetados A1/A2 que un alumno C1 ya domina; usar el banco como repaso y agregar errores en frases largas, con distractores.",
+   "por_que": "Casi todo es un error de una palabra en una frase corta y evidente; poca exigencia para C1."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir redundancia: ~10 ejercicios de 'in il/a la/da le' sin contraer (66, 68-75, 165, 166), 3 de in banca/ufficio (10, 11, 56), 5 pares de a personal casi idénticos, dos hay→ci sono (337, 338), 8 y 358.",
+   "por_que": "Consumen espacio sin aportar variedad; el peso w=11 en muchos ítems agrava el sesgo hacia estas categorías."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar falsos amigos léxicos reales (burro, salire, embarazada/imbarazzata, largo/largo, guardare, sensible/sensibile...) y más parola_spagnola no triviales; hoy predominan palabras obvias (muy, cuando, ahora, camisa).",
+   "por_que": "Los calcos evidentes no exigen atención; el riesgo real son los falsos amigos."
+  },
+  {
+   "prioridad": "media",
+   "que": "Corregir las notas imprecisas (ll palatal en rioplatense, 'doble pausa', 'en español no hay dobles', 'yi', 'ha durato raro', 'fino nunca va solo') y aclarar en las variantes aceptables (il mio nonno, per casa tua, ne ho comprato).",
+   "por_que": "Las notas son el valor didáctico del ejercicio; las imprecisiones pueden confundir."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Agregar notas de registro (formal/informal) y de alt donde hay uso real en ambas formas; considerar índice del token erróneo en vez de texto bad/good.",
+   "por_que": "Evita marcar como errores usos aceptables y localizaciones ambiguas del token."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

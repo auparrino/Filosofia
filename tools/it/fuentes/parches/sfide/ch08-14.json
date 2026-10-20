@@ -1,0 +1,4052 @@
+{
+ "r08-01": {
+  "consigna": "Estás devolviendo sus cosas a los invitados que se van de la fiesta. Completá con el posesivo adecuado y su artículo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Claudio, ecco ___ giacca.",
+    "answer": "la tua",
+    "alt": [],
+    "note": "Tuteo a una persona y sustantivo femenino singular: la tua."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Letizia, ecco ___ ombrello.",
+    "answer": "il tuo",
+    "alt": [],
+    "note": "Ombrello es masculino singular: il tuo (el artículo es obligatorio con objetos)."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Signor Nardi, ecco ___ cappotto.",
+    "answer": "il Suo",
+    "alt": [
+     "il suo"
+    ],
+    "note": "Al señor se le habla de Lei, así que el posesivo es il Suo (con mayúscula de cortesía)."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Signori, ecco ___ impermeabili.",
+    "answer": "i vostri",
+    "alt": [
+     "i Loro",
+     "i loro"
+    ],
+    "note": "Para varias personas se usa hoy vostro; i Loro es la forma muy formal."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Ragazzi, ecco ___ giacche a vento.",
+    "answer": "le vostre",
+    "alt": [],
+    "note": "Varios chicos (voi) y sustantivo femenino plural: le vostre."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Paolo e Claudia, ecco ___ zaino.",
+    "answer": "il vostro",
+    "alt": [],
+    "note": "Dos dueños (voi) y un solo objeto masculino: il vostro."
+   }
+  ]
+ },
+ "r08-02": {
+  "consigna": "Reescribí la parte indicada usando la forma adecuada de suo o loro (con el artículo que corresponda).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Non ho mai visto la casa del signor Pirelli. → Non ho mai visto ___.",
+    "answer": "la sua casa",
+    "alt": [],
+    "note": "Un solo dueño: suo concuerda con la cosa poseída (casa, femenino)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "La casa di Mariella è molto piccola. → ___ è molto piccola.",
+    "answer": "La sua casa",
+    "alt": [],
+    "note": "Suo sirve tanto para 'de él' como para 'de ella'; concuerda con casa."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ti piace la nuova casa di Emilia e Patrizio? → Ti piace ___?",
+    "answer": "la loro nuova casa",
+    "alt": [],
+    "note": "Varios dueños: loro, que es invariable y lleva artículo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "L'appartamento di Gianni ha un balcone enorme. → ___ ha un balcone enorme.",
+    "answer": "Il suo appartamento",
+    "alt": [],
+    "note": "Appartamento es masculino: il suo."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "L'appartamento di Gigliola si trova al secondo piano. → ___ si trova al secondo piano.",
+    "answer": "Il suo appartamento",
+    "alt": [],
+    "note": "Aunque la dueña sea mujer, concuerda con appartamento: il suo."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "L'appartamento dei signori Mancini è in via Manin. → ___ è in via Manin.",
+    "answer": "Il loro appartamento",
+    "alt": [],
+    "note": "Varios dueños: il loro."
+   },
+   {
+    "label": "g",
+    "type": "cloze",
+    "stem": "Non mi piacciono le amiche di Sandra. → Non mi piacciono ___.",
+    "answer": "le sue amiche",
+    "alt": [],
+    "note": "Femenino plural: le sue."
+   },
+   {
+    "label": "h",
+    "type": "cloze",
+    "stem": "Siamo usciti con le amiche di Flavia e Fulvio. → Siamo usciti con ___.",
+    "answer": "le loro amiche",
+    "alt": [],
+    "note": "Varios dueños: loro no cambia, pero el artículo sí (le)."
+   },
+   {
+    "label": "i",
+    "type": "cloze",
+    "stem": "I figli del signor Vezzani frequentano l'università. → ___ frequentano l'università.",
+    "answer": "I suoi figli",
+    "alt": [],
+    "note": "Con parientes en plural el artículo es obligatorio: i suoi figli."
+   },
+   {
+    "label": "j",
+    "type": "cloze",
+    "stem": "I figli dei vicini vivono tutti all'estero. → ___ vivono tutti all'estero.",
+    "answer": "I loro figli",
+    "alt": [],
+    "note": "Con loro siempre va artículo, incluso con parientes: i loro figli."
+   }
+  ]
+ },
+ "r08-03": {
+  "consigna": "Completá con el equivalente italiano de lo que está entre paréntesis.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Conosce ___ (mis hijos)?",
+    "answer": "i miei figli",
+    "alt": [],
+    "note": "Los parientes en plural llevan artículo: i miei figli."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Questi sono ___ (nuestros nietos).",
+    "answer": "i nostri nipoti",
+    "alt": [],
+    "note": "Plural de pariente: artículo obligatorio."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Queste sono ___ (mis sobrinas).",
+    "answer": "le mie nipoti",
+    "alt": [],
+    "note": "Nipote es 'nieta' o 'sobrina'; en plural lleva artículo: le mie nipoti."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Ti faccio conoscere ___ (nuestras hijas).",
+    "answer": "le nostre figlie",
+    "alt": [],
+    "note": "Plural de pariente: le nostre figlie."
+   }
+  ]
+ },
+ "r08-04": {
+  "consigna": "Presentá a tu familia y amigos con la forma adecuada del posesivo (con o sin artículo).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Questo è ___ (mi) marito, Enrico, e questa è ___ (nuestra) figlia, Laura.",
+    "answer": "mio | nostra",
+    "alt": [],
+    "note": "Pariente en singular sin modificadores: el posesivo va sin artículo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Questo è ___ (mi) figlio, Claudio, e questa è ___ (su) fidanzata, Emilia.",
+    "answer": "mio | la sua",
+    "alt": [],
+    "note": "Figlio va sin artículo, pero fidanzata no es pariente: la sua."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Questa è Alessandra, ___ (nuestra) figlia più grande, e questo è ___ (su) fidanzato, Alessio.",
+    "answer": "la nostra | il suo",
+    "alt": [],
+    "note": "Si el pariente lleva un adjetivo (più grande) vuelve el artículo; fidanzato siempre lo lleva."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Ti presento ___ (mi) mamma e ___ (mi) fratellino, Roberto.",
+    "answer": "la mia | il mio",
+    "alt": [
+     "mia | il mio"
+    ],
+    "note": "Mamma y los diminutivos (fratellino) llevan artículo."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Questa è ___ (mi) moglie e queste sono ___ (nuestras) figlie, Simonetta e Chiara.",
+    "answer": "mia | le nostre",
+    "alt": [],
+    "note": "Moglie en singular va sin artículo; figlie en plural lo lleva."
+   }
+  ]
+ },
+ "r08-05": {
+  "consigna": "Completá con el pronombre posesivo italiano adecuado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Tu prendi la tua macchina e io prendo ___ (la mía).",
+    "answer": "la mia",
+    "alt": [],
+    "note": "El pronombre posesivo concuerda con macchina y lleva artículo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Io ho invitato le mie amiche e lei ha invitato ___ (las suyas).",
+    "answer": "le sue",
+    "alt": [],
+    "note": "Femenino plural: le sue."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "A me piace il mio professore, a te piace ___ (el tuyo)?",
+    "answer": "il tuo",
+    "alt": [],
+    "note": "Pronombre masculino singular: il tuo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Tu porti tuo padre e io porto ___ (el mío).",
+    "answer": "il mio",
+    "alt": [],
+    "note": "Como pronombre, el posesivo lleva artículo aunque se refiera a un pariente."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Io chiederò il permesso ai miei genitori e tu chiedi il permesso ___ (a los tuyos).",
+    "answer": "ai tuoi",
+    "alt": [],
+    "note": "A + i = ai: ai tuoi (sobreentendido genitori)."
+   }
+  ]
+ },
+ "r08-06": {
+  "consigna": "Reemplazá lo que está entre paréntesis por el pronombre posesivo, prestando atención al artículo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Enrico, è ___ (tuyo) questo libro? – No, non è ___ (mío). ___ (El mío) è qui.",
+    "answer": "tuo | mio | Il mio",
+    "alt": [
+     "il tuo | mio | il mio",
+     "tuo | il mio | il mio",
+     "il tuo | il mio | il mio"
+    ],
+    "note": "Después de essere el artículo suele omitirse; como sujeto (Il mio è qui) es obligatorio."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Che bella sciarpa! È ___ (suya), signora? – No, non è ___ (mía). ___ (La mía) è quella nera.",
+    "answer": "Sua | mia | La mia",
+    "alt": [
+     "la Sua | mia | la mia",
+     "Sua | la mia | la mia",
+     "la Sua | la mia | la mia"
+    ],
+    "note": "A la señora se le habla de Lei: Sua; como sujeto, La mia lleva artículo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ho trovato delle chiavi. Sono ___ (de él)? – No, non sono ___ (de él), sono ___ (mías).",
+    "answer": "sue | sue | mie",
+    "alt": [
+     "le sue | le sue | le mie"
+    ],
+    "note": "Chiavi es femenino plural: sue, mie; tras essere el artículo es opcional."
+   }
+  ]
+ },
+ "r08-01b": {
+  "consigna": "Traducí al italiano (en italiano no existe el genitivo sajón: se usa di).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "La madre de Leonardo está enferma.",
+    "answer": "La madre di Leonardo è malata.",
+    "alt": [
+     "La mamma di Leonardo è malata."
+    ],
+    "note": "El poseedor va después con di: la madre di Leonardo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "La esposa del señor Palladino está de vacaciones.",
+    "answer": "La moglie del signor Palladino è in vacanza.",
+    "alt": [
+     "La moglie del signor Palladino è in ferie."
+    ],
+    "note": "Di + il = del; signore pierde la -e delante del apellido."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "El gato de los vecinos es negro.",
+    "answer": "Il gatto dei vicini è nero.",
+    "alt": [],
+    "note": "No hay genitivo sajón: el poseedor va con *di*, unido al artículo: *di* + *i* = *dei vicini*."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Encontré los zapatos de Elisabetta y también los de Antonio.",
+    "answer": "Ho trovato le scarpe di Elisabetta e anche quelle di Antonio.",
+    "alt": [
+     "Ho trovato le scarpe di Elisabetta e quelle di Antonio."
+    ],
+    "note": "Para no repetir el sustantivo se usa quello di (aquí quelle, por scarpe)."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Perdí la carta de Marta y también la de su hermana.",
+    "answer": "Ho perso la lettera di Marta e anche quella di sua sorella.",
+    "alt": [
+     "Ho perso la lettera di Marta e quella di sua sorella."
+    ],
+    "note": "Quella di reemplaza a la lettera di."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Nos vemos en lo de Giovanni.",
+    "answer": "Ci vediamo da Giovanni.",
+    "alt": [
+     "Ci vediamo a casa di Giovanni."
+    ],
+    "note": "'En lo de alguien' se dice da + persona."
+   }
+  ]
+ },
+ "r08-02b": {
+  "consigna": "Combiná el posesivo con un indefinido, un número o un demostrativo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "È arrivato con ___ (tres amigos suyos).",
+    "answer": "tre suoi amici",
+    "alt": [
+     "tre amici suoi"
+    ],
+    "note": "Con un número delante, el posesivo va sin artículo: tre suoi amici."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Siamo uscite con ___ (algunos clientes nuestros).",
+    "answer": "alcuni nostri clienti",
+    "alt": [
+     "alcuni clienti nostri",
+     "qualche nostro cliente",
+     "qualche cliente nostro"
+    ],
+    "note": "Alcuni/qualche reemplazan al artículo: alcuni nostri clienti."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ho litigato con ___ (esos amigos tuyos).",
+    "answer": "quei tuoi amici",
+    "alt": [
+     "quegli amici tuoi"
+    ],
+    "note": "El demostrativo reemplaza al artículo: quei tuoi amici."
+   }
+  ]
+ },
+ "r08-03b": {
+  "consigna": "Completá con el posesivo italiano adecuado (propio, de uno).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "È importante trovare soddisfazione nel ___ (propio) lavoro.",
+    "answer": "proprio",
+    "alt": [],
+    "note": "Con sujeto impersonal se usa proprio."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "È necessario esaminare ___ (la propia) coscienza.",
+    "answer": "la propria",
+    "alt": [],
+    "note": "Proprio concuerda con coscienza y lleva artículo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ognuno ha diritto alla ___ (propia) opinione.",
+    "answer": "propria",
+    "alt": [],
+    "note": "Con ognuno se usa proprio, que concuerda con opinione."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Ho pagato con ___ (mis propios) soldi.",
+    "answer": "i miei",
+    "alt": [
+     "i miei propri"
+    ],
+    "note": "Para enfatizar alcanza con el posesivo: con i miei soldi."
+   }
+  ]
+ },
+ "r08-01c": {
+  "consigna": "Completá con el equivalente italiano. Ojo: muchas veces el italiano no usa el posesivo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Piove, devi prendere ___ (tu paraguas).",
+    "answer": "l'ombrello",
+    "alt": [],
+    "note": "Cuando el dueño es obvio, alcanza con el artículo: l'ombrello."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Angelo arriverà domani con ___ (su esposa).",
+    "answer": "sua moglie",
+    "alt": [],
+    "note": "Acá el posesivo hace falta para saber de quién es; moglie en singular va sin artículo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Fa freddo, perché non ti metti ___ (tu pulóver)?",
+    "answer": "il maglione",
+    "alt": [
+     "il golf"
+    ],
+    "note": "Con ropa y verbo reflexivo (mettersi) basta el artículo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Mi fa male ___ (el pie).",
+    "answer": "il piede",
+    "alt": [],
+    "note": "Con partes del cuerpo se usa el artículo, igual que en castellano."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Si sono tolti ___ (el sombrero).",
+    "answer": "il cappello",
+    "alt": [
+     "i cappelli"
+    ],
+    "note": "Con verbo reflexivo el italiano usa el artículo y, a menudo, el singular distributivo."
+   }
+  ]
+ },
+ "r09-03": {
+  "consigna": "Completá con la forma adecuada de quello, dos veces en cada ítem.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Ho scelto ___ gonna. Ho scelto ___ altra gonna.",
+    "answer": "quella | quell'",
+    "alt": [],
+    "note": "Femenino: quella; delante de vocal se apostrofa: quell'altra."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Ho scelto ___ impermeabile. Ho scelto ___ altro impermeabile.",
+    "answer": "quell' | quell'",
+    "alt": [],
+    "note": "Masculino singular delante de vocal: quell'."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Hai visto ___ programma? Hai visto ___ strano programma?",
+    "answer": "quel | quello",
+    "alt": [],
+    "note": "Quel delante de consonante; quello delante de s + consonante (strano)."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Hai visto ___ documentario? Hai visto ___ interessante documentario cinese?",
+    "answer": "quel | quell'",
+    "alt": [],
+    "note": "La forma depende de la palabra que sigue: quel documentario, quell'interessante."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Non mi piacciono ___ colori. Non mi piacciono ___ altri colori.",
+    "answer": "quei | quegli",
+    "alt": [],
+    "note": "Quei delante de consonante; quegli delante de vocal."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Non mi piacciono ___ edifici. Non mi piacciono ___ grandi edifici moderni.",
+    "answer": "quegli | quei",
+    "alt": [],
+    "note": "Quegli delante de vocal (edifici); quei delante de consonante (grandi)."
+   }
+  ]
+ },
+ "r09-04": {
+  "consigna": "¿Qué animales te señalan en el zoológico? Completá con la forma adecuada del pronombre quello.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Guarda quella tigre! – Quale? – ___ lì. (Esa)",
+    "answer": "Quella",
+    "alt": [],
+    "note": "Como pronombre concuerda con tigre: quella."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Guarda quel leone! – Quale? – ___ lì. (Ese)",
+    "answer": "Quello",
+    "alt": [],
+    "note": "Como pronombre la forma masculina es siempre quello, nunca quel."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Hai visto quegli ippopotami? – Quali? – ___. ___. (Esos. Esos tres.)",
+    "answer": "Quelli | Quei tre",
+    "alt": [],
+    "note": "Pronombre plural: quelli; adjetivo delante de consonante: quei tre."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Hai visto quei pappagalli? – Quali? – ___. ___. (Esos. Los verdes.)",
+    "answer": "Quelli | Quelli verdi",
+    "alt": [],
+    "note": "Pronombre plural: quelli, también con un adjetivo detrás."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Hai visto quell'elefante? – Quale? – ___? (¿Ese?) – No, ___. (ese otro más chico)",
+    "answer": "Quello | quell'altro più piccolo",
+    "alt": [],
+    "note": "Pronombre: quello; delante de altro, adjetivo apostrofado: quell'altro."
+   }
+  ]
+ },
+ "r09-05": {
+  "consigna": "Traducí al italiano usando questo y quello.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Esta es la cocina y este, acá, es el baño.",
+    "answer": "Questa è la cucina e questo qui è il bagno.",
+    "alt": [
+     "Questa è la cucina e questo qua è il bagno.",
+     "Questa è la cucina e qui c'è il bagno.",
+     "Questa è la cucina e questo è il bagno."
+    ],
+    "note": "Questo para lo cercano; qui/qua refuerzan la cercanía."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Esta es mi pieza, acá, y esa es la tuya, allá.",
+    "answer": "Questa qui è la mia camera e quella lì è la tua.",
+    "alt": [
+     "Questa qua è la mia camera e quella là è la tua.",
+     "Questa è la mia camera e quella lì è la tua.",
+     "Questa qui è la mia stanza e quella lì è la tua.",
+     "Questa è la mia stanza e quella lì è la tua.",
+     "Questa è la mia camera e quella là è la tua."
+    ],
+    "note": "Questo (qui) para lo cercano, quello (lì) para lo lejano."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "¿Cuánto cuesta esta (una pasta, una masita)? ¿Y esa?",
+    "answer": "Quanto costa questa? E quella?",
+    "alt": [],
+    "note": "Los pronombres concuerdan con pasta: questa, quella."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "¿Cuánto cuestan estas (cartoline, postales)? ¿Y esas?",
+    "answer": "Quanto costano queste? E quelle?",
+    "alt": [],
+    "note": "Femenino plural: queste, quelle."
+   }
+  ]
+ },
+ "r09-01": {
+  "consigna": "Reaccioná a cada frase usando ciò o questo: escribí en italiano la respuesta. Puede haber más de una posibilidad.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Riccardo è molto depresso. – Eso no me interesa.",
+    "answer": "Ciò non mi interessa.",
+    "alt": [
+     "Questo non mi interessa.",
+     "Ciò non m'interessa.",
+     "Questo non m'interessa."
+    ],
+    "note": "Para retomar lo dicho se usa ciò o questo, no quello."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Sabrina non è ancora arrivata. – Eso no quiere decir que no vaya a venir.",
+    "answer": "Ciò non vuol dire che non venga.",
+    "alt": [
+     "Questo non vuol dire che non venga.",
+     "Ciò non significa che non venga.",
+     "Questo non significa che non venga.",
+     "Ciò non vuol dire che non verrà.",
+     "Questo non vuol dire che non verrà.",
+     "Ciò non significa che non verrà.",
+     "Questo non significa che non verrà."
+    ],
+    "note": "Ciò/questo retoma toda la frase anterior."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Silvia guadagna meno di Umberto. – Eso no parece justo.",
+    "answer": "Ciò non mi sembra giusto.",
+    "alt": [
+     "Questo non mi sembra giusto.",
+     "Ciò non sembra giusto.",
+     "Questo non sembra giusto.",
+     "Ciò non mi pare giusto.",
+     "Questo non mi pare giusto."
+    ],
+    "note": "Ciò/questo como sujeto que resume lo dicho."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Sono divorziati. – Eso no es cierto.",
+    "answer": "Ciò non è vero.",
+    "alt": [
+     "Questo non è vero.",
+     "Non è vero."
+    ],
+    "note": "Ciò/questo retoma la afirmación; también se puede omitir."
+   }
+  ]
+ },
+ "r09-02": {
+  "consigna": "Comentá estas situaciones: escribí en italiano la respuesta (ojo, 'eso es…' no se traduce con quello).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Marco si è rotto la gamba. – ¡Qué lástima, no puede ir a esquiar! (andare a sciare)",
+    "answer": "Che peccato, non può andare a sciare!",
+    "alt": [
+     "Peccato, non può andare a sciare!",
+     "È un peccato, non può andare a sciare!"
+    ],
+    "note": "'Qué lástima' es che peccato o simplemente peccato."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "I nuovi clienti non hanno pagato. – ¡Qué situación incómoda! ¿Qué hacemos?",
+    "answer": "Che imbarazzo, cosa facciamo?",
+    "alt": [
+     "Che imbarazzo, che cosa facciamo?",
+     "Che imbarazzo, che facciamo?",
+     "È imbarazzante, cosa facciamo?",
+     "È imbarazzante, che cosa facciamo?",
+     "È imbarazzante, che facciamo?"
+    ],
+    "note": "Se usa che + sustantivo o è + adjetivo, sin pronombre sujeto."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Costerà mezzo milione. – ¡Es absurdo!",
+    "answer": "È assurdo!",
+    "alt": [
+     "Ma è assurdo!",
+     "Che assurdità!",
+     "Assurdo!"
+    ],
+    "note": "'Eso es…' se dice simplemente è…, sin pronombre."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Ho perso le chiavi di casa. – ¡Qué embole! ¿Tenés una llave de repuesto? (una chiave di riserva)",
+    "answer": "Che seccatura! Hai una chiave di riserva?",
+    "alt": [
+     "Che scocciatura! Hai una chiave di riserva?",
+     "Che noia! Hai una chiave di riserva?",
+     "Che seccatura! Ce l'hai una chiave di riserva?"
+    ],
+    "note": "Che + sustantivo expresa la reacción: che seccatura."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Ti posso dare un passaggio? – Gracias, sos muy amable.",
+    "answer": "Grazie, sei molto gentile.",
+    "alt": [
+     "Grazie, molto gentile.",
+     "Grazie, sei gentilissimo.",
+     "Grazie, sei gentilissima."
+    ],
+    "note": "En italiano se dice 'sei gentile' (o 'molto gentile'), no 'quello è gentile'."
+   }
+  ]
+ },
+ "r09-03b": {
+  "consigna": "Te está mostrando la ciudad tu anfitrión. Hacele preguntas en italiano tratándolo de Lei.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Questo è il liceo Leopardi. – ¿Acá es donde usted fue al colegio?",
+    "answer": "È qui che è andato a scuola?",
+    "alt": [
+     "È qua che è andato a scuola?",
+     "È qui che è andata a scuola?",
+     "È qui che ha fatto il liceo?",
+     "È qui che è andato al liceo?"
+    ],
+    "note": "Para enfatizar el lugar se usa la construcción è qui che…"
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Quello lì è il mercato coperto. – ¿Ahí es donde usted hace las compras?",
+    "answer": "È lì che fa la spesa?",
+    "alt": [
+     "È là che fa la spesa?",
+     "È lì che fa gli acquisti?",
+     "È lì che fa le compere?"
+    ],
+    "note": "È lì che… para lo que está lejos."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Questa qua è la piazza principale. – ¿Acá es donde está el museo?",
+    "answer": "È qui che si trova il museo?",
+    "alt": [
+     "È qua che si trova il museo?",
+     "È qui che c'è il museo?",
+     "È qua che c'è il museo?"
+    ],
+    "note": "È qui che… + verbo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Quella lì è una pasticceria rinomata. – ¿Ahí es donde trabaja su hija?",
+    "answer": "È lì che lavora Sua figlia?",
+    "alt": [
+     "È là che lavora Sua figlia?"
+    ],
+    "note": "È lì che…; Sua figlia sin artículo por ser pariente en singular."
+   }
+  ]
+ },
+ "r09-04b": {
+  "consigna": "Traducí al italiano usando ecco perché o ecco come cuando se pueda. Puede haber más de una posibilidad.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Il treno si è fermato a Prato. – Por eso llego tarde.",
+    "answer": "Ecco perché sono in ritardo.",
+    "alt": [
+     "È per questo che sono in ritardo.",
+     "Per questo sono in ritardo."
+    ],
+    "note": "*ecco perché* presenta la explicación de algo recién dicho («por eso»): *ecco* señala, como «he ahí»."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Manca la benzina. – ¡Por eso el auto no arranca!",
+    "answer": "Ecco perché la macchina non parte!",
+    "alt": [
+     "Ecco perché la macchina non si avvia!",
+     "Ecco perché l'auto non parte!",
+     "È per questo che la macchina non parte!"
+    ],
+    "note": "Ecco perché introduce la consecuencia."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Non lo sai usare? – Mirá, así es como funciona…",
+    "answer": "Guarda, ecco come funziona.",
+    "alt": [
+     "Ecco come funziona.",
+     "Guarda, funziona così.",
+     "Guarda, ecco come funziona…"
+    ],
+    "note": "*ecco come* = «así es como»: *ecco* presenta y señala, sin verbo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Come lo sai che Tilda si separa dal marito? – Mi hermano es amigo del marido; así me enteré.",
+    "answer": "Mio fratello è amico di suo marito, ecco come l'ho saputo.",
+    "alt": [
+     "Mio fratello è un amico di suo marito, ecco come l'ho saputo.",
+     "Mio fratello è amico del marito, ecco come l'ho saputo.",
+     "Mio fratello è un amico del marito, ecco come l'ho saputo.",
+     "Mio fratello è amico di suo marito, ecco come lo so.",
+     "Mio fratello è un amico di suo marito, ecco come lo so.",
+     "Mio fratello è amico del marito, ecco come lo so.",
+     "Mio fratello è un amico del marito, ecco come lo so."
+    ],
+    "note": "Ecco come l'ho saputo = así me enteré (ecco come lo so = así es como lo sé)."
+   }
+  ]
+ },
+ "r09-05b": {
+  "consigna": "Traducí al italiano eligiendo entre ecco quello che y quello che.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Para acceder a internet, esto es lo que tenés que hacer… (avere accesso a)",
+    "answer": "Per avere accesso a internet, ecco quello che devi fare.",
+    "alt": [
+     "Per avere accesso a internet, ecco cosa devi fare.",
+     "Per avere accesso a internet, ecco ciò che devi fare.",
+     "Per avere accesso a internet ecco quello che devi fare."
+    ],
+    "note": "*ecco quello che* presenta lo que viene («esto es lo que...»); *quello che* = «lo que», porque el italiano no tiene «lo» neutro."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Esto es lo que me dijo…",
+    "answer": "Ecco quello che mi ha detto.",
+    "alt": [
+     "Ecco cosa mi ha detto.",
+     "Ecco ciò che mi ha detto."
+    ],
+    "note": "Ecco quello che presenta lo que sigue."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Sí, eso es lo que pienso hacer. (aver intenzione di)",
+    "answer": "Sì, è quello che ho intenzione di fare.",
+    "alt": [
+     "Sì, è ciò che ho intenzione di fare.",
+     "Sì, è proprio quello che ho intenzione di fare."
+    ],
+    "note": "Cuando se identifica («es lo que»), va *è quello che*, sin *ecco*, que solo presenta."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "No es eso lo que quiero decir.",
+    "answer": "Non è quello che voglio dire.",
+    "alt": [
+     "Non è ciò che voglio dire.",
+     "Non è quello che intendo dire.",
+     "Non è quello che intendo."
+    ],
+    "note": "Non è quello che… (sin ecco)."
+   }
+  ]
+ },
+ "r10-01": {
+  "consigna": "Pasá cada afirmación a pregunta: en italiano alcanza con la entonación (y el signo de pregunta). Escribí en italiano la pregunta que corresponde al castellano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Partono stasera. → ¿Se van esta noche?",
+    "answer": "Partono stasera?",
+    "alt": [
+     "Stasera partono?"
+    ],
+    "note": "La pregunta no cambia el orden: solo la entonación y el signo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Cambiamo discorso. → ¿Cambiamos de tema?",
+    "answer": "Cambiamo discorso?",
+    "alt": [],
+    "note": "Mismas palabras, entonación de pregunta."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Non vengono con noi. → ¿No vienen con nosotros?",
+    "answer": "Non vengono con noi?",
+    "alt": [],
+    "note": "La negación también se mantiene igual en la pregunta."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "È arrivata la posta. → ¿Llegó el correo?",
+    "answer": "È arrivata la posta?",
+    "alt": [
+     "La posta è arrivata?"
+    ],
+    "note": "El sujeto puede ir antes o después del verbo."
+   }
+  ]
+ },
+ "r10-02": {
+  "consigna": "Transformá las preguntas indirectas en preguntas directas.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Vorrei sapere quando viene l'avvocato. → ___?",
+    "answer": "Quando viene l'avvocato",
+    "alt": [],
+    "note": "En la pregunta directa el sujeto suele ir después del verbo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Non so se la signorina è polacca. → ___?",
+    "answer": "La signorina è polacca",
+    "alt": [
+     "È polacca la signorina"
+    ],
+    "note": "Sin palabra interrogativa, desaparece se y alcanza la entonación."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Non ho capito cosa vuole la dottoressa. → ___?",
+    "answer": "Cosa vuole la dottoressa",
+    "alt": [
+     "Che cosa vuole la dottoressa",
+     "Che vuole la dottoressa"
+    ],
+    "note": "Se mantiene la palabra interrogativa: (che) cosa."
+   }
+  ]
+ },
+ "r10-03": {
+  "consigna": "Solo querés confirmar los datos. Traducí al italiano con la coletilla adecuada (vero?, no?, non trovi?…).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Llegó el correo, ¿no?",
+    "answer": "La posta è arrivata, vero?",
+    "alt": [
+     "È arrivata la posta, vero?",
+     "La posta è arrivata, no?",
+     "È arrivata la posta, no?",
+     "La posta è arrivata, non è vero?",
+     "È arrivata la posta, non è vero?"
+    ],
+    "note": "Para pedir confirmación se agrega vero?, no? o non è vero?"
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Te llamás Carla, ¿no?",
+    "answer": "Ti chiami Carla, vero?",
+    "alt": [
+     "Ti chiami Carla, no?",
+     "Ti chiami Carla, non è vero?"
+    ],
+    "note": "Vero? al final pide confirmación."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Es una mujer fascinante, ¿no te parece? (tu)",
+    "answer": "È una donna affascinante, non trovi?",
+    "alt": [
+     "È una donna affascinante, non ti pare?",
+     "È una donna affascinante, non credi?",
+     "È una donna affascinante, vero?",
+     "È una donna affascinante, non ti sembra?"
+    ],
+    "note": "Non trovi? / non ti pare? buscan el acuerdo del otro."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Se van el lunes, ¿no?",
+    "answer": "Partono lunedì, vero?",
+    "alt": [
+     "Partono lunedì, no?",
+     "Partono lunedì, non è vero?"
+    ],
+    "note": "Vero? no cambia según el verbo, a diferencia del inglés."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "No pagaste, ¿no? (tu)",
+    "answer": "Non hai pagato, vero?",
+    "alt": [
+     "Non hai pagato, no?",
+     "Non hai pagato, non è vero?"
+    ],
+    "note": "Tras una frase negativa también se usa vero?"
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "La verdad es que no quieren venir, ¿no?",
+    "answer": "La verità è che non vogliono venire, vero?",
+    "alt": [
+     "La verità è che non vogliono venire, no?",
+     "La verità è che non vogliono venire, non è vero?"
+    ],
+    "note": "La coletilla va al final: vero?"
+   }
+  ]
+ },
+ "r10-02b": {
+  "consigna": "Unas preguntas para precisar. Completá en italiano usando el presente (y quand'è che / dov'è che para dar énfasis).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Dimmi un po' – ___? (¿cuándo te vas, exactamente?)",
+    "answer": "quand'è che parti",
+    "alt": [
+     "quando è che parti",
+     "quando parti"
+    ],
+    "note": "Quand'è che… pide precisión: 'cuándo es que…'."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Spiegami un po' – ___? (¿dónde nos encontramos exactamente esta noche?)",
+    "answer": "dov'è che ci vediamo stasera",
+    "alt": [
+     "dove è che ci vediamo stasera",
+     "dov'è che ci incontriamo stasera",
+     "dove ci vediamo stasera",
+     "dove ci incontriamo stasera"
+    ],
+    "note": "Dov'è che… enfatiza el lugar."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Dimmi un po' – ___? (¿desde cuándo estás esperando?)",
+    "answer": "da quand'è che aspetti",
+    "alt": [
+     "da quando è che aspetti",
+     "da quando aspetti"
+    ],
+    "note": "Da quando + presente: la acción sigue en curso."
+   }
+  ]
+ },
+ "r10-03b": {
+  "consigna": "Traducí al italiano con quando, dove o perché. Tené en cuenta las posibles posiciones del sujeto.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "¿Cuándo se van? (voi)",
+    "answer": "Quando partite?",
+    "alt": [
+     "Quando ve ne andate?"
+    ],
+    "note": "Con pronombre sujeto implícito: interrogativo + verbo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "¿Cuándo sale el tren?",
+    "answer": "Quando parte il treno?",
+    "alt": [
+     "Il treno quando parte?"
+    ],
+    "note": "Tras quando el sujeto va después del verbo (o adelante, destacado)."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "¿Adónde van? (voi)",
+    "answer": "Dove andate?",
+    "alt": [],
+    "note": "Dove + verbo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "¿Adónde van los chicos?",
+    "answer": "Dove vanno i bambini?",
+    "alt": [
+     "I bambini dove vanno?",
+     "Dove vanno i ragazzi?"
+    ],
+    "note": "Tras dove el sujeto va después del verbo."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "¿Por qué te reís? (tu)",
+    "answer": "Perché ridi?",
+    "alt": [],
+    "note": "Perché + verbo."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "¿Por qué se ríen las chicas?",
+    "answer": "Perché ridono le ragazze?",
+    "alt": [
+     "Perché le ragazze ridono?",
+     "Le ragazze perché ridono?"
+    ],
+    "note": "Con perché el sujeto puede ir antes o después del verbo."
+   }
+  ]
+ },
+ "r10-04": {
+  "consigna": "Completá con el equivalente italiano de la pregunta indirecta.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Dimmi ___ (dónde queda el cine). (trovarsi)",
+    "answer": "dove si trova il cinema",
+    "alt": [
+     "dov'è il cinema"
+    ],
+    "note": "En la pregunta indirecta el sujeto suele ir después del verbo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Mi sai dire ___ (cuándo vuelve Maria)?",
+    "answer": "quando torna Maria",
+    "alt": [
+     "quando ritorna Maria",
+     "quando Maria torna"
+    ],
+    "note": "Pregunta indirecta con el presente, como en castellano."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Mi dispiace, non so ___ (cuándo abre el banco).",
+    "answer": "quando apre la banca",
+    "alt": [
+     "a che ora apre la banca"
+    ],
+    "note": "Quando + verbo + sujeto."
+   }
+  ]
+ },
+ "r10-05": {
+  "consigna": "Traducí al italiano. En todos los casos menos uno vas a usar la misma palabra interrogativa (come).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "¿Cómo es que llegan tarde? (voi)",
+    "answer": "Come mai siete in ritardo?",
+    "alt": [
+     "Come mai arrivate in ritardo?",
+     "Come mai arrivate tardi?"
+    ],
+    "note": "*come mai?* = «¿cómo es que?, ¿por qué?»: pregunta con sorpresa, con el verbo en indicativo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "¿Cómo hago para llegar al centro?",
+    "answer": "Come si arriva in centro?",
+    "alt": [
+     "Come faccio ad arrivare in centro?",
+     "Come si va in centro?",
+     "Come faccio per arrivare in centro?",
+     "Come arrivo in centro?"
+    ],
+    "note": "Come para preguntar el modo."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "¿Qué tal tu nuevo trabajo? (tu)",
+    "answer": "Com'è il tuo nuovo lavoro?",
+    "alt": [
+     "Come è il tuo nuovo lavoro?"
+    ],
+    "note": "Para pedir una descripción: com'è…?"
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "No quiero salir. – ¿Por qué no?",
+    "answer": "Perché no?",
+    "alt": [],
+    "note": "Este es el único caso sin come: 'por qué no' = perché no."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "¿Me da un vaso de agua? – ¡Pero claro! (Lei)",
+    "answer": "Ma come no!",
+    "alt": [
+     "Come no!"
+    ],
+    "note": "Come no! significa '¡claro que sí!'."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "No sé cómo funciona esto: ¿qué hago?",
+    "answer": "Non so come funziona: cosa faccio?",
+    "alt": [
+     "Non so come funziona: che cosa faccio?",
+     "Non so come funziona: che faccio?",
+     "Non so come funziona questo: cosa faccio?",
+     "Non so come funziona, cosa faccio?",
+     "Non so come funziona, che cosa faccio?",
+     "Non so come funzioni: cosa faccio?",
+     "Non so come funzioni: che cosa faccio?",
+     "Non so come funzioni, cosa faccio?"
+    ],
+    "note": "Come introduce la pregunta indirecta de modo."
+   }
+  ]
+ },
+ "r10-06": {
+  "consigna": "Traducí al italiano (para 'exactamente' podés usar quand'è che / dov'è che).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "¿Cuándo llegan Pino y Mariella?",
+    "answer": "Quando arrivano Pino e Mariella?",
+    "alt": [
+     "Pino e Mariella quando arrivano?"
+    ],
+    "note": "Quando + verbo + sujeto."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "¿A qué hora sale exactamente el avión?",
+    "answer": "Quand'è che parte l'aereo?",
+    "alt": [
+     "Quando è che parte l'aereo?",
+     "Quando parte esattamente l'aereo?",
+     "A che ora parte esattamente l'aereo?",
+     "Quando parte l'aereo esattamente?",
+     "A che ora parte l'aereo esattamente?",
+     "A che ora è che parte l'aereo?"
+    ],
+    "note": "Quand'è che… da precisión a la pregunta."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "¿Dónde vive Susanna?",
+    "answer": "Dove abita Susanna?",
+    "alt": [
+     "Dove vive Susanna?",
+     "Susanna dove abita?"
+    ],
+    "note": "Dove + verbo + sujeto."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "¿Dónde trabaja exactamente tu papá? (tu)",
+    "answer": "Dov'è che lavora tuo padre?",
+    "alt": [
+     "Dove è che lavora tuo padre?",
+     "Dove lavora esattamente tuo padre?",
+     "Dov'è che lavora tuo papà?",
+     "Dove lavora esattamente tuo papà?"
+    ],
+    "note": "Dov'è che… precisa el lugar; tuo padre sin artículo."
+   }
+  ]
+ },
+ "r10-07": {
+  "consigna": "Reescribí las preguntas de forma más enfática y coloquial (adelantá o repetí el objeto con un pronombre).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Dove hai trovato quel libro? → ___?",
+    "answer": "Dove l'hai trovato quel libro",
+    "alt": [
+     "Ma dove l'hai trovato quel libro",
+     "Dove l'hai trovato, quel libro"
+    ],
+    "note": "En el habla se anticipa el objeto con un pronombre (l') y se lo pone al final."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Quando hai visto il film? → ___?",
+    "answer": "Quando l'hai visto il film",
+    "alt": [
+     "Quando l'hai visto, il film"
+    ],
+    "note": "Pronombre + participio concordado (visto) y el sustantivo al final."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Perché hai buttato via il pane? → ___?",
+    "answer": "Perché l'hai buttato via il pane",
+    "alt": [
+     "Perché l'hai buttato via, il pane",
+     "Ma perché l'hai buttato via il pane"
+    ],
+    "note": "Dislocación a la derecha: l'hai buttato via il pane."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Come giustifichi il tuo comportamento? → ___?",
+    "answer": "Come lo giustifichi il tuo comportamento",
+    "alt": [
+     "Come lo giustifichi, il tuo comportamento"
+    ],
+    "note": "El pronombre lo anticipa el objeto que va al final."
+   }
+  ]
+ },
+ "r10-08": {
+  "consigna": "Traducí al italiano. Usá voi para 'ustedes'.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "¿Quién es ese hombre?",
+    "answer": "Chi è quell'uomo?",
+    "alt": [],
+    "note": "Chi = quién; quell' delante de vocal."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "¿De quién es ese libro? (¿quién lo escribió?)",
+    "answer": "Di chi è quel libro?",
+    "alt": [],
+    "note": "La preposición va adelante: di chi."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "¿A quién le gusta el helado?",
+    "answer": "A chi piace il gelato?",
+    "alt": [],
+    "note": "Con piacere se pregunta a chi."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "¿De quién están hablando? (voi)",
+    "answer": "Di chi parlate?",
+    "alt": [
+     "Di chi state parlando?"
+    ],
+    "note": "Parlare di → di chi, con la preposición adelante."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "¿De quién es este paraguas?",
+    "answer": "Di chi è questo ombrello?",
+    "alt": [],
+    "note": "Posesión: di chi è…?"
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "¿Qué hicieron? (voi)",
+    "answer": "Che cosa avete fatto?",
+    "alt": [
+     "Cosa avete fatto?",
+     "Che avete fatto?"
+    ],
+    "note": "Che cosa, cosa o che son equivalentes."
+   },
+   {
+    "label": "g",
+    "type": "translate",
+    "stem": "¿Qué necesitan? (voi) (aver bisogno di)",
+    "answer": "Di che cosa avete bisogno?",
+    "alt": [
+     "Di cosa avete bisogno?",
+     "Di che avete bisogno?"
+    ],
+    "note": "Aver bisogno di: la preposición va delante del interrogativo."
+   },
+   {
+    "label": "h",
+    "type": "translate",
+    "stem": "¿De qué están hablando? (voi)",
+    "answer": "Di che cosa parlate?",
+    "alt": [
+     "Di cosa parlate?",
+     "Di che parlate?",
+     "Di che cosa state parlando?",
+     "Di cosa state parlando?"
+    ],
+    "note": "Parlare di → di che cosa."
+   }
+  ]
+ },
+ "r10-13": {
+  "consigna": "Traducí al italiano usando quanto.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "¿Cuántos espaguetis querés? (tu)",
+    "answer": "Quanti spaghetti vuoi?",
+    "alt": [],
+    "note": "Spaghetti es plural en italiano: quanti."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "¿Cuánta salsa querés? (tu)",
+    "answer": "Quanto sugo vuoi?",
+    "alt": [
+     "Quanta salsa vuoi?"
+    ],
+    "note": "Sugo es masculino singular: quanto."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "¿Cuántos son? (voi)",
+    "answer": "Quanti siete?",
+    "alt": [],
+    "note": "Para preguntar cuántas personas hay: quanti siete?"
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "No sé cuántos huevos quedan.",
+    "answer": "Non so quante uova rimangono.",
+    "alt": [
+     "Non so quante uova restano.",
+     "Non so quante uova sono rimaste."
+    ],
+    "note": "Uovo es masculino en singular pero femenino en plural (le uova): quante."
+   }
+  ]
+ },
+ "r10-14": {
+  "consigna": "Preguntá en italiano usando quanto.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "¿A qué distancia queda tu casa? (tu)",
+    "answer": "Quanto dista casa tua?",
+    "alt": [
+     "Quanto è lontana casa tua?",
+     "Quant'è lontana casa tua?",
+     "Quanto dista la tua casa?"
+    ],
+    "note": "Quanto + dista / è lontano para la distancia."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "¿Cuánto tarda en llegar? (Lei) (impiegare/metterci)",
+    "answer": "Quanto tempo impiega per arrivarci?",
+    "alt": [
+     "Quanto ci mette ad arrivarci?",
+     "Quanto tempo ci mette ad arrivarci?",
+     "Quanto impiega ad arrivarci?",
+     "Quanto tempo impiega ad arrivarci?",
+     "Quanto ci mette per arrivarci?",
+     "Quanto ci mette ad arrivare?",
+     "Quanto tempo ci mette ad arrivare?",
+     "Quanto ci mette per arrivare?",
+     "Quanto tempo impiega ad arrivare?",
+     "Quanto tempo impiega per arrivare?",
+     "Quanto impiega ad arrivare?",
+     "Quanto impiega per arrivare?"
+    ],
+    "note": "Quanto (tempo) ci mette / impiega para la duración."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "¿Qué tan grande es su cocina? (Lei)",
+    "answer": "Quanto è grande la Sua cucina?",
+    "alt": [
+     "Quant'è grande la Sua cucina?"
+    ],
+    "note": "Quanto è + adjetivo pregunta por la medida."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "¿Qué ancho tiene? (largo/a, hablando de la cocina)",
+    "answer": "Quanto è larga?",
+    "alt": [
+     "Quant'è larga?"
+    ],
+    "note": "Largo significa 'ancho'; concuerda con cucina."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "¿Dentro de cuánto podemos vernos?",
+    "answer": "Fra quanto possiamo vederci?",
+    "alt": [
+     "Tra quanto possiamo vederci?",
+     "Fra quanto ci possiamo vedere?",
+     "Tra quanto ci possiamo vedere?"
+    ],
+    "note": "*fra/tra* + tiempo = «dentro de»; en pregunta: *fra quanto?*"
+   }
+  ]
+ },
+ "r10-15": {
+  "consigna": "Reescribí las preguntas de forma más coloquial, usando un pronombre además del sustantivo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Quanto hai pagato i sandali? → ___?",
+    "answer": "Quanto li hai pagati i sandali",
+    "alt": [
+     "Quanto li hai pagati, i sandali"
+    ],
+    "note": "El pronombre li anticipa el objeto y el participio concuerda (pagati)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Quanti cioccolatini rimangono? → ___?",
+    "answer": "Quanti ne rimangono di cioccolatini",
+    "alt": [
+     "Quanti ne rimangono, di cioccolatini",
+     "Di cioccolatini quanti ne rimangono"
+    ],
+    "note": "Con cantidades se usa ne … di + sustantivo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Quanta benzina avete consumato? → ___?",
+    "answer": "Quanta ne avete consumata di benzina",
+    "alt": [
+     "Quanta ne avete consumata, di benzina",
+     "Quanta ne avete consumato di benzina",
+     "Quanta ne avete consumato, di benzina"
+    ],
+    "note": "Ne + participio (a menudo concordado) y di + sustantivo al final."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Quante pesche volete? → ___?",
+    "answer": "Quante ne volete di pesche",
+    "alt": [
+     "Quante ne volete, di pesche",
+     "Di pesche quante ne volete"
+    ],
+    "note": "Ne retoma la cantidad: quante ne volete di pesche."
+   }
+  ]
+ },
+ "r10-01b": {
+  "consigna": "Completá con la forma correcta del verbo en italiano (tu).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Perché ___ (pagás) più del necessario?",
+    "answer": "paghi",
+    "alt": [],
+    "note": "Pagare agrega h delante de i para mantener el sonido: paghi."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Ma perché ___ (lo ayudás)? Non è mica un bambino!",
+    "answer": "lo aiuti",
+    "alt": [],
+    "note": "El pronombre va delante del verbo conjugado: lo aiuti."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ma perché ___ (te enojás)? Non c'è più niente da fare.",
+    "answer": "ti arrabbi",
+    "alt": [],
+    "note": "Arrabbiarsi es reflexivo: ti arrabbi."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Che lo ___ (llamás) a fare? Non è mai in casa.",
+    "answer": "chiami",
+    "alt": [],
+    "note": "Che … a fare? = ¿para qué…?; el verbo en presente."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Che ci ___ (vas) a fare a Londra?",
+    "answer": "vai",
+    "alt": [],
+    "note": "*che ci vai a fare?* = «¿a qué vas?»: *ci* retoma el lugar (Londres) y es obligatorio."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Che ci ___ (hacés) qui?",
+    "answer": "fai",
+    "alt": [],
+    "note": "*che ci fai qui?* = «¿qué hacés acá?»: *ci* es un refuerzo de lugar que el italiano coloquial usa siempre en esta pregunta."
+   }
+  ]
+ },
+ "r10-03c": {
+  "consigna": "¿Quién te obliga? Completá la respuesta con los pronombres correctos.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Lavoro ogni weekend. – Ma Giulia, sei matta, chi ___ fa fare?",
+    "answer": "te lo",
+    "alt": [],
+    "note": "Chi te lo fa fare? = ¿quién te obliga?; ti + lo = te lo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Prendiamo la metropolitana tutti i giorni. – Ma siete matti, chi ___ fa fare?",
+    "answer": "ve lo",
+    "alt": [],
+    "note": "Para voi: vi + lo = ve lo."
+   }
+  ]
+ },
+ "r10-01c": {
+  "consigna": "Elegí el pronombre correcto: interrogativo o relativo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Dimmi ___ vuoi. (Decime qué querés.)",
+    "answer": "che cosa",
+    "alt": [
+     "cosa",
+     "che",
+     "quello che",
+     "ciò che"
+    ],
+    "note": "Tras dimmi es una pregunta indirecta (che cosa), aunque quello che también es posible."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Fa' ___ ti dico. (Hacé lo que te digo.)",
+    "options": [
+     "che cosa",
+     "quello che",
+     "chi"
+    ],
+    "answer": "quello che",
+    "alt": [
+     "ciò che"
+    ],
+    "note": "'Lo que' relativo = quello che / ciò che; che cosa solo pregunta."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Voglio sapere ___ viene. (Quiero saber quién viene.)",
+    "options": [
+     "chi",
+     "che"
+    ],
+    "answer": "chi",
+    "alt": [],
+    "note": "Pregunta indirecta por una persona: chi."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Gli ospiti ___ vengono sono italiani. (Los invitados que vienen son italianos.)",
+    "options": [
+     "chi",
+     "che"
+    ],
+    "answer": "che",
+    "alt": [],
+    "note": "Relativo con antecedente (gli ospiti): che."
+   },
+   {
+    "label": "e",
+    "type": "choice",
+    "stem": "Non mi hai detto ___ giochi a tennis. (No me dijiste con quién jugás al tenis.)",
+    "options": [
+     "con chi",
+     "con cui"
+    ],
+    "answer": "con chi",
+    "alt": [],
+    "note": "Pregunta indirecta: con chi."
+   },
+   {
+    "label": "f",
+    "type": "choice",
+    "stem": "La ragazza ___ esci è simpaticissima. (La chica con la que salís es simpatiquísima.)",
+    "options": [
+     "con chi",
+     "con cui"
+    ],
+    "answer": "con cui",
+    "alt": [],
+    "note": "Relativo con preposición: con cui."
+   },
+   {
+    "label": "g",
+    "type": "choice",
+    "stem": "Mi dai una penna ___ funziona? (¿Me das una birome que funcione?)",
+    "options": [
+     "quale",
+     "che"
+    ],
+    "answer": "che",
+    "alt": [],
+    "note": "Relativo sujeto: che."
+   },
+   {
+    "label": "h",
+    "type": "choice",
+    "stem": "Non so ___ penna funziona. (No sé qué birome funciona.)",
+    "options": [
+     "quale",
+     "chi"
+    ],
+    "answer": "quale",
+    "alt": [
+     "che"
+    ],
+    "note": "Interrogativo para elegir entre varias cosas: quale (che es coloquial); chi solo se usa para personas."
+   }
+  ]
+ },
+ "r11-01": {
+  "consigna": "¿Cómo reaccionás? Elegí la exclamación más adecuada.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Tus amigos te dicen que no pueden venir:",
+    "options": [
+     "Che peccato!",
+     "Che noia!",
+     "Che fortuna!"
+    ],
+    "answer": "Che peccato!",
+    "alt": [
+     "Che delusione!"
+    ],
+    "note": "Peccato (o delusione) expresa pena; noia es aburrimiento y fortuna, suerte."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Perdiste el vuelo:",
+    "options": [
+     "Che guaio!",
+     "Che sorpresa!",
+     "Che fortuna!"
+    ],
+    "answer": "Che guaio!",
+    "alt": [
+     "Che disastro!"
+    ],
+    "note": "Guaio (o disastro) es un problema; sorpresa y fortuna no encajan."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Tu amigo fue al lugar de encuentro equivocado:",
+    "options": [
+     "Che pasticcio!",
+     "Che meraviglia!",
+     "Che bellezza!"
+    ],
+    "answer": "Che pasticcio!",
+    "alt": [
+     "Che rabbia!"
+    ],
+    "note": "Pasticcio (lío; también che rabbia!); meraviglia y bellezza son positivos."
+   }
+  ]
+ },
+ "r11-02": {
+  "consigna": "¡Qué lindo! Elogiá todo con che! y el adjetivo o sustantivo dado. Ojo con la concordancia.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Che ___! (quel giardino – bello)",
+    "answer": "bel giardino",
+    "alt": [
+     "bello quel giardino"
+    ],
+    "note": "Bello delante del sustantivo se trunca como el artículo: bel giardino."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Che ___! (quella casa – meraviglia)",
+    "answer": "meraviglia di casa",
+    "alt": [
+     "meraviglia quella casa"
+    ],
+    "note": "Che + sustantivo + di + sustantivo: che meraviglia di casa!"
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Che ___! (quei ragazzi – simpatico)",
+    "answer": "ragazzi simpatici",
+    "alt": [
+     "simpatici quei ragazzi"
+    ],
+    "note": "Simpatico en plural masculino: simpatici."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Che ___! (quella ragazza – amore)",
+    "answer": "amore di ragazza",
+    "alt": [
+     "amore quella ragazza"
+    ],
+    "note": "*che* + sustantivo + *di* + sustantivo es un elogio: *che amore di ragazza!*, literalmente «¡qué amor de chica!»."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Che ___! (questi orecchini – carino)",
+    "answer": "orecchini carini",
+    "alt": [
+     "carini questi orecchini",
+     "begli orecchini"
+    ],
+    "note": "Carino concuerda en masculino plural: carini."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Che ___! (questa maglietta – bellino)",
+    "answer": "maglietta bellina",
+    "alt": [
+     "bellina questa maglietta"
+    ],
+    "note": "Bellino concuerda con maglietta: bellina."
+   }
+  ]
+ },
+ "r11-03": {
+  "consigna": "¿Qué comentás? Escribí en italiano la exclamación (con come o quanto).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Te quedaste afuera sin llaves: ¡Qué tonto que soy!",
+    "answer": "Come sono stupido!",
+    "alt": [
+     "Quanto sono stupido!",
+     "Come sono stupida!",
+     "Quanto sono stupida!",
+     "Che stupido che sono!",
+     "Che stupida che sono!"
+    ],
+    "note": "Come/quanto + verbo para exclamar sobre una cualidad."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "No estás disfrutando del concierto: ¡Qué mal que tocan!",
+    "answer": "Come suonano male!",
+    "alt": [
+     "Quanto suonano male!"
+    ],
+    "note": "Come + verbo + adverbio."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Tu pareja perdió la agenda: ¡Qué distraído que sos!",
+    "answer": "Come sei sbadato!",
+    "alt": [
+     "Come sei sbadata!",
+     "Quanto sei sbadato!",
+     "Quanto sei sbadata!",
+     "Come sei distratto!",
+     "Come sei distratta!",
+     "Che sbadato che sei!",
+     "Che sbadata che sei!"
+    ],
+    "note": "Come sei + adjetivo concordado."
+   }
+  ]
+ },
+ "r11-05": {
+  "consigna": "Completá con quanto o come. A veces sirven los dos.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___ dorme quel ragazzo!",
+    "answer": "Quanto",
+    "alt": [
+     "Come"
+    ],
+    "note": "Con un verbo sirven quanto y come."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "___ soldi hai speso!",
+    "answer": "Quanti",
+    "alt": [],
+    "note": "Delante de un sustantivo solo quanto, concordado: quanti soldi."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "___ sono lenti!",
+    "answer": "Come",
+    "alt": [
+     "Quanto"
+    ],
+    "note": "Con essere + adjetivo sirven come y quanto."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "___ mi dispiace!",
+    "answer": "Quanto",
+    "alt": [
+     "Come"
+    ],
+    "note": "Con un verbo sirven los dos."
+   }
+  ]
+ },
+ "r11-06": {
+  "consigna": "¿Qué decís? Elegí la exclamación adecuada para cada situación.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Te invitaron a un concierto.",
+    "options": [
+     "Che bella!",
+     "Che bello!",
+     "Com'è bella!"
+    ],
+    "answer": "Che bello!",
+    "alt": [],
+    "note": "Para una situación se usa el masculino neutro: che bello!"
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Qué raro, tu amigo no apareció.",
+    "options": [
+     "Che strana!",
+     "Che strano!",
+     "Com'è strana!"
+    ],
+    "answer": "Che strano!",
+    "alt": [
+     "Com'è strano!",
+     "Quant'è strano!"
+    ],
+    "note": "Para una situación, masculino neutro: che strano! (o com'è / quant'è strano!)."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "El helado está riquísimo.",
+    "options": [
+     "Che buona!",
+     "Che buono!",
+     "Com'è buona!"
+    ],
+    "answer": "Che buono!",
+    "alt": [
+     "Che gelato squisito!",
+     "Che squisito!",
+     "Com'è buono!"
+    ],
+    "note": "Gelato es masculino: che buono! (o che gelato squisito!)."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Ese chico es muy capo.",
+    "options": [
+     "Com'è brava!",
+     "Che brava!",
+     "Che bravo!"
+    ],
+    "answer": "Che bravo!",
+    "alt": [
+     "Com'è bravo!",
+     "Quant'è bravo!"
+    ],
+    "note": "Ragazzo es masculino: che bravo! (también com'è bravo! / quant'è bravo!)."
+   }
+  ]
+ },
+ "r11-01b": {
+  "consigna": "Completá con la interjección adecuada. Puede haber varias posibilidades.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___ (¡Uf, qué macana!) ho dimenticato di chiudere la porta a chiave!",
+    "answer": "Accidenti",
+    "alt": [
+     "Mannaggia",
+     "Uffa",
+     "Cavolo",
+     "Porca miseria",
+     "Accipicchia"
+    ],
+    "note": "Accidenti / mannaggia expresan fastidio."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Corrado ha dato del tu al preside! – ___ (¡No me digas!) E che cosa gli è successo?",
+    "answer": "Ma va'",
+    "alt": [
+     "Ma va",
+     "Ma dai",
+     "Davvero",
+     "Ma no",
+     "Ma davvero",
+     "Non mi dire"
+    ],
+    "note": "Ma va' / ma dai expresan sorpresa incrédula."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Come sto? – ___ (¡Guau! ¡Bárbaro!), sembri una diva con quel vestito!",
+    "answer": "Caspita",
+    "alt": [
+     "Accidenti",
+     "Accipicchia",
+     "Wow",
+     "Mamma mia",
+     "Favoloso",
+     "Fantastico",
+     "Caspita, fantastica",
+     "Wow, fantastica",
+     "Accidenti, fantastica"
+    ],
+    "note": "Caspita / accipicchia expresan admiración."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Abbiamo finito tutti quanti i compiti. – ___ (¡Muy bien!)",
+    "answer": "Bravi",
+    "alt": [
+     "Bravissimi",
+     "Complimenti",
+     "Bene",
+     "Benissimo",
+     "Ottimo",
+     "Brave",
+     "Bravi!"
+    ],
+    "note": "Bravi (concordado) felicita."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Alberto è stato ricoverato in ospedale. – ___ (¡Ay, Dios!), che cos'ha?",
+    "answer": "Oddio",
+    "alt": [
+     "Oh Dio",
+     "Mamma mia",
+     "Oh no",
+     "Povero",
+     "Poveretto",
+     "Accidenti"
+    ],
+    "note": "Oddio / mamma mia expresan preocupación."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Non vengo prima delle sei stasera. – ___ (¡Uf, por favor! / ¡Qué bronca!), me lo potevi dire prima!",
+    "answer": "Accidenti",
+    "alt": [
+     "Mannaggia",
+     "Porca miseria",
+     "Cavolo",
+     "Uffa",
+     "Insomma",
+     "Accidenti a te",
+     "Santo cielo"
+    ],
+    "note": "Accidenti / mannaggia marcan fastidio."
+   },
+   {
+    "label": "g",
+    "type": "cloze",
+    "stem": "Vieni con noi domani? – ___ (¡Ni loco! / ¡Qué va!), domani c'è l'esame! – ___ (¡Ay, Dios!), avevo dimenticato!",
+    "answer": "Figurati | Mamma mia",
+    "alt": [
+     "Figurati | Oddio",
+     "Figurati | Oh Dio",
+     "Figurati | Accidenti",
+     "Figurati | Caspita",
+     "Figurati | Oh no",
+     "Ma figurati | Mamma mia",
+     "Ma figurati | Oddio",
+     "Ma figurati | Oh Dio",
+     "Ma figurati | Accidenti",
+     "Ma figurati | Caspita",
+     "Ma figurati | Oh no",
+     "Ma scherzi | Mamma mia",
+     "Ma scherzi | Oddio",
+     "Ma scherzi | Oh Dio",
+     "Ma scherzi | Accidenti",
+     "Ma scherzi | Caspita",
+     "Ma scherzi | Oh no",
+     "Scherzi | Mamma mia",
+     "Scherzi | Oddio",
+     "Scherzi | Oh Dio",
+     "Scherzi | Accidenti",
+     "Scherzi | Caspita",
+     "Scherzi | Oh no",
+     "Macché | Mamma mia",
+     "Macché | Oddio",
+     "Macché | Oh Dio",
+     "Macché | Accidenti",
+     "Macché | Caspita",
+     "Macché | Oh no",
+     "Ma va' | Mamma mia",
+     "Ma va' | Oddio",
+     "Ma va' | Oh Dio",
+     "Ma va' | Accidenti",
+     "Ma va' | Caspita",
+     "Ma va' | Oh no",
+     "Ma no | Mamma mia",
+     "Ma no | Oddio",
+     "Ma no | Oh Dio",
+     "Ma no | Accidenti",
+     "Ma no | Caspita",
+     "Ma no | Oh no"
+    ],
+    "note": "Figurati / ma scherzi niegan con fuerza; mamma mia / oddio expresan sorpresa."
+   },
+   {
+    "label": "h",
+    "type": "cloze",
+    "stem": "Vuoi un'altra fetta di torta? – ___ (¡Dios me libre! / ¡Ni loca!), sto a dieta!",
+    "answer": "Per carità",
+    "alt": [
+     "Dio me ne scampi",
+     "Neanche per sogno",
+     "Per l'amor di Dio",
+     "Ma figurati",
+     "Macché",
+     "Nemmeno per sogno"
+    ],
+    "note": "*Per carità!* rechaza algo con énfasis («¡Dios me libre!»)."
+   }
+  ]
+ },
+ "r12-01": {
+  "consigna": "Completá con el equivalente italiano de algo, alguien, nada o nadie.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "C'è ___ che non capisco.",
+    "answer": "qualcosa",
+    "alt": [],
+    "note": "«Algo» = *qualcosa*, una sola palabra; con *c'è* («hay»)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "C'è ___ alla porta.",
+    "answer": "qualcuno",
+    "alt": [],
+    "note": "«Alguien» = *qualcuno*: *c'è qualcuno alla porta*."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Non c'è ___ nel cassetto.",
+    "answer": "niente",
+    "alt": [
+     "nulla"
+    ],
+    "note": "Con non: niente / nulla."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Non c'è ___ in giro. (por ahí)",
+    "answer": "nessuno",
+    "alt": [],
+    "note": "Nadie con non: nessuno."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "C'è ___ in casa?",
+    "answer": "qualcuno",
+    "alt": [],
+    "note": "En preguntas, «alguien» también es *qualcuno* (*nessuno* sería «nadie»)."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Posso fare ___?",
+    "answer": "qualcosa",
+    "alt": [],
+    "note": "*qualcosa* («algo») es una sola palabra y funciona como objeto directo sin artículo: *posso fare qualcosa?*"
+   }
+  ]
+ },
+ "r12-02": {
+  "consigna": "Traducí al italiano con los pronombres indefinidos adecuados.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "¿Quiere algo? (Lei)",
+    "answer": "Vuole qualcosa?",
+    "alt": [
+     "Desidera qualcosa?",
+     "Vuole niente?"
+    ],
+    "note": "«Algo» en preguntas = *qualcosa*; *niente* en pregunta se usa, pero es coloquial."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "No conozco a nadie que se llame Orazio.",
+    "answer": "Non conosco nessuno che si chiami Orazio.",
+    "alt": [
+     "Non conosco nessuno che si chiama Orazio.",
+     "Non conosco nessuno di nome Orazio."
+    ],
+    "note": "Non … nessuno: doble negación obligatoria."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Hay alguien al teléfono.",
+    "answer": "C'è qualcuno al telefono.",
+    "alt": [],
+    "note": "«Hay alguien» = *c'è qualcuno*: *c'è* porque *qualcuno* es singular."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "No necesito nada.",
+    "answer": "Non ho bisogno di niente.",
+    "alt": [
+     "Non ho bisogno di nulla.",
+     "Non mi serve niente.",
+     "Non mi serve nulla."
+    ],
+    "note": "Non … niente/nulla."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "¿Hay alguien en la puerta?",
+    "answer": "C'è qualcuno alla porta?",
+    "alt": [],
+    "note": "Qualcuno en preguntas; 'en la puerta' = alla porta."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "¿Alguien vio mis anteojos?",
+    "answer": "Qualcuno ha visto i miei occhiali?",
+    "alt": [
+     "Ha visto qualcuno i miei occhiali?"
+    ],
+    "note": "Qualcuno como sujeto va con verbo en singular."
+   }
+  ]
+ },
+ "r12-03": {
+  "consigna": "Respondé las preguntas con pronombres indefinidos.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Avete scattato delle belle foto? – Sì, ___. (algunas)",
+    "answer": "alcune",
+    "alt": [
+     "qualcuna"
+    ],
+    "note": "Foto es femenino plural: alcune (o qualcuna, en singular)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Hai ricevuto qualche bel regalo? – Sì, ___. (algunos)",
+    "answer": "alcuni",
+    "alt": [
+     "qualcuno"
+    ],
+    "note": "Regali, masculino: alcuni / qualcuno."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Avete dei progetti interessanti per quest'estate? – No, ___. (ninguno)",
+    "answer": "nessuno",
+    "alt": [],
+    "note": "Nessuno siempre va en singular."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Mi serve un foglio di carta. – Ce n'è ___ sulla scrivania. (alguno)",
+    "answer": "qualcuno",
+    "alt": [],
+    "note": "Con ce n'è (singular) va qualcuno, que es singular."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Hai per caso qualche busta? – Sì, ce n'è ___ nel cassetto. (alguna)",
+    "answer": "qualcuna",
+    "alt": [],
+    "note": "Busta es femenino: qualcuna."
+   }
+  ]
+ },
+ "r12-07": {
+  "consigna": "Completá con la forma adecuada del pronombre ognuno.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___ ha diritto alla pensione.",
+    "answer": "Ognuno",
+    "alt": [],
+    "note": "Ognuno (cada uno) va con el verbo en singular."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "In ___ delle stanze c'erano dei fiori.",
+    "answer": "ognuna",
+    "alt": [],
+    "note": "Stanze es femenino: ognuna."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "___ dei cinque figli è sposato.",
+    "answer": "Ognuno",
+    "alt": [],
+    "note": "Figli masculino: ognuno."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "___ di voi deve pagare domani.",
+    "answer": "Ognuno",
+    "alt": [
+     "Ognuna"
+    ],
+    "note": "Ognuno di voi (ognuna si son todas mujeres)."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Devi compilare la domanda in ___ delle sue parti.",
+    "answer": "ognuna",
+    "alt": [],
+    "note": "Parti es femenino: ognuna."
+   }
+  ]
+ },
+ "r12-08": {
+  "consigna": "Completá con la forma correcta del pronombre ciascuno.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Le cartoline costano un euro e 20 centesimi ___.",
+    "answer": "ciascuna",
+    "alt": [],
+    "note": "Ciascuno concuerda con lo que se reparte: cartoline → ciascuna."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "I panini costano tre euro ___.",
+    "answer": "ciascuno",
+    "alt": [],
+    "note": "Panini, masculino: ciascuno."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Il generale ha dato una medaglia a ___ dei soldati.",
+    "answer": "ciascuno",
+    "alt": [],
+    "note": "Soldati, masculino: ciascuno."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Alle mie figlie ho dato 200 euro ___.",
+    "answer": "ciascuna",
+    "alt": [],
+    "note": "Figlie, femenino: ciascuna."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "I miei figli hanno un computer ___.",
+    "answer": "ciascuno",
+    "alt": [],
+    "note": "Figli, masculino: ciascuno."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "___ di noi è libero di scegliere il proprio destino.",
+    "answer": "Ciascuno",
+    "alt": [],
+    "note": "Ciascuno di noi + verbo en singular."
+   }
+  ]
+ },
+ "r12-09": {
+  "consigna": "Traducí al italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Todo el mundo necesita afecto.",
+    "answer": "Ognuno ha bisogno di affetto.",
+    "alt": [
+     "Tutti hanno bisogno di affetto.",
+     "Ciascuno ha bisogno di affetto."
+    ],
+    "note": "Ognuno + singular, o tutti + plural."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Cada una de sus hijas se casó con un hombre rico.",
+    "answer": "Ognuna delle sue figlie ha sposato un uomo ricco.",
+    "alt": [
+     "Ciascuna delle sue figlie ha sposato un uomo ricco.",
+     "Ognuna delle sue figlie si è sposata con un uomo ricco.",
+     "Ciascuna delle sue figlie si è sposata con un uomo ricco."
+    ],
+    "note": "Ognuna/ciascuna delle… con verbo en singular."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "En los cuatro restaurantes los mozos son antipáticos.",
+    "answer": "In tutti e quattro i ristoranti i camerieri sono antipatici.",
+    "alt": [
+     "In ognuno dei quattro ristoranti i camerieri sono antipatici.",
+     "In tutti e quattro i ristoranti i camerieri sono sgradevoli."
+    ],
+    "note": "Tutti e + número + artículo + sustantivo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Todos ustedes tienen que hacer un esfuerzo.",
+    "answer": "Tutti voi dovete fare uno sforzo.",
+    "alt": [
+     "Dovete fare tutti uno sforzo.",
+     "Tutti dovete fare uno sforzo.",
+     "Ognuno di voi deve fare uno sforzo.",
+     "Dovete tutti fare uno sforzo."
+    ],
+    "note": "Tutti voi + plural (u ognuno di voi + singular)."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Cada uno de ustedes merece un premio. (meritare)",
+    "answer": "Ognuno di voi merita un premio.",
+    "alt": [
+     "Ciascuno di voi merita un premio."
+    ],
+    "note": "Ognuno/ciascuno di voi + verbo en singular."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Los lirios son caros. Cuestan 10 euros cada uno. (gigli)",
+    "answer": "I gigli sono cari. Costano 10 euro ciascuno.",
+    "alt": [
+     "I gigli sono cari. Costano 10 euro l'uno.",
+     "I gigli sono cari. Costano dieci euro ciascuno.",
+     "I gigli sono cari. Costano dieci euro l'uno.",
+     "I gigli sono cari. Costano 10 euro l'uno"
+    ],
+    "note": "Para el precio unitario: ciascuno o l'uno, al final."
+   }
+  ]
+ },
+ "r12-11": {
+  "consigna": "Traducí al italiano con chiunque.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "No es nada: cualquiera lo habría hecho.",
+    "answer": "Non è niente: l'avrebbe fatto chiunque.",
+    "alt": [
+     "Non è niente, l'avrebbe fatto chiunque.",
+     "Non è nulla: l'avrebbe fatto chiunque.",
+     "Non è niente: chiunque l'avrebbe fatto.",
+     "Non è niente, chiunque l'avrebbe fatto."
+    ],
+    "note": "*chiunque* = «cualquiera» (persona); acá es sujeto y va al final, con el condizionale passato."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Es fácil: cualquiera sabe hacerlo.",
+    "answer": "È semplice: lo sa fare chiunque.",
+    "alt": [
+     "È semplice, lo sa fare chiunque.",
+     "È semplice: chiunque lo sa fare.",
+     "È semplice: chiunque sa farlo.",
+     "È semplice, chiunque lo sa fare.",
+     "È facile: lo sa fare chiunque.",
+     "È facile, lo sa fare chiunque.",
+     "È facile: chiunque lo sa fare.",
+     "È facile: chiunque sa farlo.",
+     "È facile, chiunque lo sa fare."
+    ],
+    "note": "Chiunque como sujeto va con verbo en singular."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Quienquiera que llame, decile que no estoy.",
+    "answer": "Chiunque chiami, digli che sono fuori.",
+    "alt": [
+     "Chiunque chiami, digli che non ci sono.",
+     "Chiunque telefoni, digli che sono fuori.",
+     "Chiunque telefoni, digli che non ci sono.",
+     "Chiunque chiami, digli che non sono in casa."
+    ],
+    "note": "*chiunque* + congiuntivo = «quienquiera que»: *chiunque chiami*."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Cualquiera de ustedes tendrá que estar listo para ayudar.",
+    "answer": "Chiunque di voi dovrà essere pronto ad aiutare.",
+    "alt": [
+     "Chiunque di voi dovrà essere pronto a aiutare."
+    ],
+    "note": "Chiunque di voi + singular."
+   }
+  ]
+ },
+ "r12-01b": {
+  "consigna": "Completá con ogni o qualche.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Mi saluta ___ volta che mi vede.",
+    "options": [
+     "ogni",
+     "qualche"
+    ],
+    "answer": "ogni",
+    "alt": [],
+    "note": "*ogni* = «cada», invariable y siempre con singular: *ogni volta*."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "___ volta mi saluta, ma non sempre.",
+    "options": [
+     "ogni",
+     "qualche"
+    ],
+    "answer": "qualche",
+    "alt": [],
+    "note": "*qualche volta* = «a veces»: *qualche* va con singular aunque signifique «algunas»."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Vado in Italia ___ anno.",
+    "options": [
+     "ogni",
+     "qualche"
+    ],
+    "answer": "ogni",
+    "alt": [],
+    "note": "*ogni anno* = «todos los años»: *ogni* + singular."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Ci vediamo fra ___ anno.",
+    "options": [
+     "ogni",
+     "qualche"
+    ],
+    "answer": "qualche",
+    "alt": [],
+    "note": "*qualche* + singular = «algunos»: *fra qualche anno*, «dentro de algunos años»."
+   },
+   {
+    "label": "e",
+    "type": "choice",
+    "stem": "___ studente deve munirsi di una tessera.",
+    "options": [
+     "ogni",
+     "qualche"
+    ],
+    "answer": "ogni",
+    "alt": [],
+    "note": "*ogni* + singular abarca a todos: *ogni studente*, con el verbo en singular."
+   },
+   {
+    "label": "f",
+    "type": "choice",
+    "stem": "C'è ___ studente che non ha la tessera?",
+    "options": [
+     "ogni",
+     "qualche"
+    ],
+    "answer": "qualche",
+    "alt": [],
+    "note": "*qualche* + singular = «algún»: *c'è qualche studente...?*"
+   }
+  ]
+ },
+ "r12-03b": {
+  "consigna": "Completá con la forma correcta del adjetivo nessuno.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Non c'è ___ problema.",
+    "answer": "nessun",
+    "alt": [],
+    "note": "Nessuno se trunca como uno: nessun problema."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Non abbiamo ___ alternativa.",
+    "answer": "nessuna",
+    "alt": [],
+    "note": "Femenino delante de consonante: nessuna."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Non hai fatto ___ sforzo!",
+    "answer": "nessuno",
+    "alt": [],
+    "note": "Delante de s + consonante: nessuno sforzo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Non ho ___ voglia di farlo.",
+    "answer": "nessuna",
+    "alt": [],
+    "note": "Voglia, femenino: nessuna."
+   }
+  ]
+ },
+ "r12-05": {
+  "consigna": "Respondé en italiano, cuidando el equivalente de 'cualquier(a)'.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "A che ora ti chiamo? – A cualquier hora.",
+    "answer": "A qualsiasi ora.",
+    "alt": [
+     "A qualunque ora."
+    ],
+    "note": "«Cualquier» = *qualsiasi* o *qualunque*: invariables y con sustantivo singular."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Che colore preferisci? – Cualquier color está bien.",
+    "answer": "Qualsiasi colore va bene.",
+    "alt": [
+     "Qualunque colore va bene.",
+     "Va bene qualsiasi colore.",
+     "Va bene qualunque colore."
+    ],
+    "note": "Qualsiasi + sustantivo singular."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Che vino beviamo? – El que quieras.",
+    "answer": "Quello che vuoi.",
+    "alt": [
+     "Quello che preferisci.",
+     "Quello che ti pare."
+    ],
+    "note": "«El que quieras» = *quello che vuoi*: el italiano usa indicativo donde el castellano pone subjuntivo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Un whisky? Che marca vuoi? – Cualquiera.",
+    "answer": "Una qualsiasi.",
+    "alt": [
+     "Una qualunque.",
+     "Qualsiasi marca.",
+     "Va bene qualsiasi marca.",
+     "Qualunque marca va bene.",
+     "Qualsiasi marca va bene."
+    ],
+    "note": "Como pronombre: una qualsiasi (concordando con marca)."
+   }
+  ]
+ },
+ "r12-06": {
+  "consigna": "Traducí al italiano con qualunque o qualsiasi.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Voy a aceptar tu decisión, sea cual sea.",
+    "answer": "Accetterò la tua decisione, qualunque sia.",
+    "alt": [
+     "Accetterò la tua decisione, qualsiasi sia.",
+     "Accetterò la tua decisione, qualunque essa sia."
+    ],
+    "note": "*qualunque* + congiuntivo = «sea cual sea»: *qualunque sia*."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Por él, Elisabetta haría cualquier cosa.",
+    "answer": "Per lui Elisabetta farebbe qualsiasi cosa.",
+    "alt": [
+     "Per lui Elisabetta farebbe qualunque cosa.",
+     "Elisabetta farebbe qualsiasi cosa per lui.",
+     "Elisabetta farebbe qualunque cosa per lui.",
+     "Per lui, Elisabetta farebbe qualsiasi cosa."
+    ],
+    "note": "«Cualquier cosa» = *qualsiasi cosa*: *qualsiasi* no cambia."
+   }
+  ]
+ },
+ "r12-01c": {
+  "consigna": "Reemplazá lo que está entre paréntesis por la forma adecuada de tutto.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Abbiamo organizzato ___ (todo).",
+    "answer": "tutto",
+    "alt": [],
+    "note": "*tutto* como pronombre = «todo»: invariable, masculino singular."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Vengono ___ (todos)?",
+    "answer": "tutti",
+    "alt": [],
+    "note": "*tutti* como pronombre se refiere a personas y va en masculino plural si el grupo es mixto: *vengono tutti?*"
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Siamo ___ (todos) qui.",
+    "answer": "tutti",
+    "alt": [
+     "tutte"
+    ],
+    "note": "Tutti (tutte si son todas mujeres)."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Hanno dimenticato ___ (todos los) libri.",
+    "answer": "tutti i",
+    "alt": [],
+    "note": "Tutto + artículo + sustantivo: tutti i libri."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Sono stato a letto ___ (toda la) giornata.",
+    "answer": "tutta la",
+    "alt": [],
+    "note": "Giornata es femenino: tutta la giornata."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Lavoro ___ (todas las) sere.",
+    "answer": "tutte le",
+    "alt": [],
+    "note": "*tutto* + artículo + sustantivo, como en castellano: *tutte le sere*."
+   },
+   {
+    "label": "g",
+    "type": "cloze",
+    "stem": "Vengono ___ (absolutamente todos) da noi.",
+    "answer": "tutti quanti",
+    "alt": [],
+    "note": "Tutti quanti refuerza: absolutamente todos."
+   },
+   {
+    "label": "h",
+    "type": "cloze",
+    "stem": "La minestra ti fa bene. La devi mangiare ___ (toda).",
+    "answer": "tutta",
+    "alt": [],
+    "note": "Tutta concuerda con minestra (la)."
+   },
+   {
+    "label": "i",
+    "type": "cloze",
+    "stem": "___ (Toda la) commissione sarà rieletta.",
+    "answer": "Tutta la",
+    "alt": [],
+    "note": "*tutto* concuerda y lleva artículo: *tutta la commissione*."
+   },
+   {
+    "label": "j",
+    "type": "cloze",
+    "stem": "___ (Todos, sin excepción, los) studenti sono stati bocciati.",
+    "answer": "Tutti quanti gli",
+    "alt": [],
+    "note": "Tutti quanti + artículo: gli delante de s + consonante."
+   }
+  ]
+ },
+ "r12-01d": {
+  "consigna": "Completá con el equivalente italiano de 'los/las tres…'.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___ (Las tres) case danno sul mare.",
+    "answer": "Tutte e tre le",
+    "alt": [],
+    "note": "Tutte e + número + artículo + sustantivo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "___ (Los cinco) appartamenti sono lussuosi.",
+    "answer": "Tutti e cinque gli",
+    "alt": [],
+    "note": "Gli delante de vocal: tutti e cinque gli appartamenti."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "___ (Las cuatro) mie sorelle sono insegnanti.",
+    "answer": "Tutte e quattro le",
+    "alt": [],
+    "note": "Tutte e quattro le mie sorelle."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "___ (Los seis) giudici sono corrotti.",
+    "answer": "Tutti e sei i",
+    "alt": [],
+    "note": "Tutti e sei i giudici."
+   }
+  ]
+ },
+ "r12-01e": {
+  "consigna": "Traducí al italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Dejé mi agenda en algún lado.",
+    "answer": "Ho lasciato la mia agenda da qualche parte.",
+    "alt": [
+     "Ho lasciato l'agenda da qualche parte."
+    ],
+    "note": "«En algún lado» = *da qualche parte*: el italiano usa *da* + *parte* para «lado» en estas expresiones."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Vamos a otro lado.",
+    "answer": "Andiamo da qualche altra parte.",
+    "alt": [
+     "Andiamo da un'altra parte.",
+     "Andiamo altrove."
+    ],
+    "note": "Para «lado, lugar» indefinido el italiano usa *da* + *parte*: *da qualche altra parte*; también vale *altrove*."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "No voy a ningún lado.",
+    "answer": "Non vado da nessuna parte.",
+    "alt": [],
+    "note": "«A ningún lado» = *da nessuna parte*, con *non* delante del verbo: *non vado da nessuna parte*."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "¿No se vende en ningún otro lado?",
+    "answer": "Non si vende da nessun'altra parte?",
+    "alt": [
+     "Non si vende in nessun altro posto?"
+    ],
+    "note": "Nessun'altra con apóstrofo delante del femenino."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Estos zapatos se consiguen en todos lados.",
+    "answer": "Queste scarpe si trovano dappertutto.",
+    "alt": [
+     "Queste scarpe si trovano ovunque.",
+     "Queste scarpe si trovano dovunque.",
+     "Queste scarpe si trovano da tutte le parti."
+    ],
+    "note": "*dappertutto* (o *ovunque*) resume «en todos lados» en una sola palabra, sin preposición."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Buscaron en todos los demás lugares.",
+    "answer": "Hanno cercato da tutte le altre parti.",
+    "alt": [
+     "Hanno cercato in tutti gli altri posti."
+    ],
+    "note": "«En todos los demás lados» = *da tutte le altre parti*: *da* + *parte* en plural."
+   }
+  ]
+ },
+ "r12-02b": {
+  "consigna": "Traducí al italiano (usá tu cuando haga falta).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "¿Lo viste en algún lado?",
+    "answer": "L'hai visto da qualche parte?",
+    "alt": [],
+    "note": "En algún lado = da qualche parte; el participio concuerda con lo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Te conocí en algún lado. (conoscere)",
+    "answer": "Ti ho conosciuto da qualche parte.",
+    "alt": [
+     "Ti ho conosciuta da qualche parte.",
+     "Ti ho già conosciuto da qualche parte.",
+     "Ti ho già conosciuta da qualche parte."
+    ],
+    "note": "*conoscere* en passato prossimo significa «conocer a alguien por primera vez»; «en algún lado» se arma con *da qualche parte*."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "¿Vamos a otro lado?",
+    "answer": "Andiamo da qualche altra parte?",
+    "alt": [
+     "Andiamo altrove?",
+     "Andiamo da un'altra parte?"
+    ],
+    "note": "«A otro lado» = *da qualche altra parte*: *da* + *parte*."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "No quiero ir a ningún lado.",
+    "answer": "Non voglio andare da nessuna parte.",
+    "alt": [],
+    "note": "Non … da nessuna parte."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "No quiero ir a ningún otro lado.",
+    "answer": "Non voglio andare da nessun'altra parte.",
+    "alt": [
+     "Non voglio andare in nessun altro posto."
+    ],
+    "note": "Con *nessuno* después del verbo hace falta *non* delante: *non voglio andare da nessun'altra parte*, igual que «no ... a ningún lado»."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Busqué por todos lados.",
+    "answer": "Ho cercato dappertutto.",
+    "alt": [
+     "Ho cercato ovunque.",
+     "Ho cercato dovunque.",
+     "Ho cercato da tutte le parti.",
+     "Ho guardato dappertutto."
+    ],
+    "note": "*dappertutto* («por todos lados») no lleva preposición: *ho cercato dappertutto*."
+   }
+  ]
+ },
+ "r12-03c": {
+  "consigna": "Traducí al italiano estas frases de avisos publicitarios.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Con el nuevo software podés encontrar un taxi en cualquier momento.",
+    "answer": "Con il nuovo software puoi trovare un tassì in ogni momento.",
+    "alt": [
+     "Con il nuovo software puoi trovare un taxi in ogni momento.",
+     "Con il nuovo software puoi trovare un tassì in qualsiasi momento.",
+     "Con il nuovo software puoi trovare un taxi in qualsiasi momento."
+    ],
+    "note": "«En cualquier momento» = *in ogni momento* o *in qualsiasi momento*: con *in*, no «a»."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Tenés que estar listo para salir en cualquier momento.",
+    "answer": "Devi essere pronto a partire in ogni momento.",
+    "alt": [
+     "Devi essere pronto a partire in qualsiasi momento.",
+     "Devi essere pronta a partire in ogni momento.",
+     "Devi essere pronta a partire in qualsiasi momento.",
+     "Devi essere pronto a partire in qualunque momento.",
+     "Devi essere pronto a uscire in ogni momento.",
+     "Devi essere pronto a uscire in qualsiasi momento.",
+     "Devi essere pronto a uscire in qualunque momento.",
+     "Devi essere pronta a partire in qualunque momento.",
+     "Devi essere pronta a uscire in ogni momento.",
+     "Devi essere pronta a uscire in qualsiasi momento.",
+     "Devi essere pronta a uscire in qualunque momento."
+    ],
+    "note": "«En cualquier momento» = *in ogni/qualsiasi momento*. Para «salir» de viaje se usa *partire*; *uscire* es salir de un lugar."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Se puede comer en cualquier momento del día si se tiene una alimentación sana.",
+    "answer": "Si può mangiare in qualsiasi momento della giornata se si ha un'alimentazione sana.",
+    "alt": [
+     "Si può mangiare in qualunque momento della giornata se si ha un'alimentazione sana.",
+     "Si può mangiare in ogni momento della giornata se si ha un'alimentazione sana."
+    ],
+    "note": "*in qualsiasi momento*: *qualsiasi* invariable + singular; «si se tiene» = *se si ha*."
+   }
+  ]
+ },
+ "r12-04": {
+  "consigna": "Traducí al italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Como cuando quiero, a cualquier hora del día.",
+    "answer": "Mangio quando voglio, a qualsiasi ora del giorno.",
+    "alt": [
+     "Mangio quando voglio, a qualunque ora del giorno.",
+     "Mangio quando voglio, a qualsiasi ora della giornata.",
+     "Mangio quando voglio, in qualsiasi momento della giornata."
+    ],
+    "note": "*qualsiasi* y *qualunque* son invariables y van con sustantivo singular: *a qualsiasi ora del giorno*."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Cuando tengas ganas, vení a verme. (tu)",
+    "answer": "Quando vuoi, vieni a trovarmi.",
+    "alt": [
+     "Vieni a trovarmi quando vuoi.",
+     "Quando ne hai voglia, vieni a trovarmi.",
+     "Vieni a trovarmi quando ne hai voglia.",
+     "Ogni volta che vuoi, vieni a trovarmi."
+    ],
+    "note": "«Venir a ver, visitar» a alguien = *venire a trovare*; tras *quando* con valor futuro va el presente o futuro, no el congiuntivo."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Necesito estar localizable en todo momento.",
+    "answer": "Devo essere reperibile in ogni momento.",
+    "alt": [
+     "Devo essere reperibile in qualsiasi momento.",
+     "Ho bisogno di essere reperibile in ogni momento.",
+     "Ho bisogno di essere reperibile in qualsiasi momento.",
+     "Devo essere raggiungibile in ogni momento."
+    ],
+    "note": "«En todo momento» = *in ogni momento*: *ogni* + singular."
+   }
+  ]
+ },
+ "r13-01": {
+  "consigna": "Uní la información en una sola oración usando un pronombre relativo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Marta è un'amica. Marta mi è molto simpatica. → ___.",
+    "answer": "Marta è un'amica che mi è molto simpatica",
+    "alt": [],
+    "note": "Che reemplaza al sujeto repetido."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Edoardo è un lontano cugino. Edoardo lavora a Parigi. → ___.",
+    "answer": "Edoardo è un lontano cugino che lavora a Parigi",
+    "alt": [],
+    "note": "Che como sujeto de la relativa."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "I signori Colucci sono i vicini. I signori Colucci litigano tanto. → ___.",
+    "answer": "I signori Colucci sono i vicini che litigano tanto",
+    "alt": [],
+    "note": "Che vale para singular y plural."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "La Rinascente è un grande magazzino. La Rinascente si trova nelle maggiori città italiane. → ___.",
+    "answer": "La Rinascente è un grande magazzino che si trova nelle maggiori città italiane",
+    "alt": [],
+    "note": "Che como sujeto."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "'Roma Città Aperta' è un film di Rossellini. Non ho mai visto 'Roma Città Aperta'. → ___.",
+    "answer": "'Roma Città Aperta' è un film di Rossellini che non ho mai visto",
+    "alt": [
+     "Roma Città Aperta è un film di Rossellini che non ho mai visto"
+    ],
+    "note": "Che también funciona como objeto directo."
+   }
+  ]
+ },
+ "r13-02": {
+  "consigna": "Traducí al italiano usando pronombres relativos.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "El departamento que alquilé está en el primer piso. (affittare)",
+    "answer": "L'appartamento che ho affittato è al primo piano.",
+    "alt": [
+     "L'appartamento che ho preso in affitto è al primo piano."
+    ],
+    "note": "En italiano el relativo nunca se omite: che."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "El hombre que conociste es el marido de la dueña, que se va hoy. (la padrona)",
+    "answer": "L'uomo che hai conosciuto è il marito della padrona, che parte oggi.",
+    "alt": [
+     "L'uomo che hai conosciuto è il marito della padrona, il quale parte oggi.",
+     "L'uomo che hai conosciuto è il marito della padrona che parte oggi.",
+     "L'uomo che hai conosciuto è il marito della padrona, la quale parte oggi."
+    ],
+    "note": "Il quale evita la ambigüedad: se refiere al marido."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Aumentaron el alquiler, lo cual no es justo. (l'affitto)",
+    "answer": "Hanno aumentato l'affitto, il che non è giusto.",
+    "alt": [
+     "Hanno aumentato l'affitto, cosa che non è giusta.",
+     "Hanno aumentato l'affitto, e ciò non è giusto.",
+     "Hanno alzato l'affitto, il che non è giusto."
+    ],
+    "note": "Para retomar toda la frase: il che / cosa che."
+   }
+  ]
+ },
+ "r13-03": {
+  "consigna": "Completá con el relativo: che o il/la quale (il quale no se usa como objeto directo). Si sirven los dos, vale cualquiera.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "La borsa ___ ho comprato è viola.",
+    "answer": "che",
+    "alt": [],
+    "note": "Objeto directo: solo che."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "A Parigi abbiamo trovato un ristorante italiano ___ ci è molto piaciuto.",
+    "answer": "che",
+    "alt": [
+     "il quale"
+    ],
+    "note": "Sujeto: che o il quale."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "È la stazione ___ è stata bombardata nel 1944.",
+    "answer": "che",
+    "alt": [],
+    "note": "En la construcción è … che (frase enfática) solo va che."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "In macchina hanno portato anche il cane, ___ è stato buono buono.",
+    "answer": "che",
+    "alt": [
+     "il quale"
+    ],
+    "note": "Relativa explicativa con sujeto: che o il quale."
+   }
+  ]
+ },
+ "r13-04": {
+  "consigna": "Traducí al italiano (tu). Ojo: «lo que» relativo es quello che o ciò che; «qué» exclamativo o interrogativo es che o che cosa.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Lo que estás haciendo es absurdo.",
+    "answer": "Quello che fai è assurdo.",
+    "alt": [
+     "Ciò che fai è assurdo.",
+     "Quello che stai facendo è assurdo.",
+     "Ciò che stai facendo è assurdo."
+    ],
+    "note": "Relativo: 'lo que' = quello che / ciò che."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Podés hacer lo que quieras.",
+    "answer": "Puoi fare quello che vuoi.",
+    "alt": [
+     "Puoi fare ciò che vuoi.",
+     "Puoi fare quello che ti pare."
+    ],
+    "note": "Relativo: quello che; en italiano va en indicativo."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Voy a hacer lo que pueda.",
+    "answer": "Farò quello che posso.",
+    "alt": [
+     "Farò ciò che posso.",
+     "Farò quello che potrò."
+    ],
+    "note": "Relativo: quello che."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Lo que no me gusta es el color.",
+    "answer": "Quello che non mi piace è il colore.",
+    "alt": [
+     "Ciò che non mi piace è il colore."
+    ],
+    "note": "Relativo: quello che."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "¡Qué color horrible!",
+    "answer": "Che colore orribile!",
+    "alt": [
+     "Che colore orrendo!",
+     "Che brutto colore!"
+    ],
+    "note": "Exclamativo: che + sustantivo."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "¿Qué puedo hacer?",
+    "answer": "Che cosa posso fare?",
+    "alt": [
+     "Cosa posso fare?",
+     "Che posso fare?"
+    ],
+    "note": "Interrogativo: (che) cosa."
+   },
+   {
+    "label": "g",
+    "type": "translate",
+    "stem": "No sé qué hacer.",
+    "answer": "Non so cosa fare.",
+    "alt": [
+     "Non so che cosa fare.",
+     "Non so che fare."
+    ],
+    "note": "Interrogativo indirecto: cosa + infinitivo."
+   }
+  ]
+ },
+ "r13-01b": {
+  "consigna": "Uní las dos oraciones reemplazando la parte repetida por un relativo con preposición (cui o il quale).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Il professor Binni è un insegnante. Ho molto rispetto per il professor Binni. → ___.",
+    "answer": "Il professor Binni è un insegnante per cui ho molto rispetto",
+    "alt": [
+     "Il professor Binni è un insegnante per il quale ho molto rispetto"
+    ],
+    "note": "Con preposición: per cui / per il quale."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Carlotta è la nipote. Ho regalato una bicicletta a Carlotta. → ___.",
+    "answer": "Carlotta è la nipote a cui ho regalato una bicicletta",
+    "alt": [
+     "Carlotta è la nipote alla quale ho regalato una bicicletta",
+     "Carlotta è la nipote cui ho regalato una bicicletta"
+    ],
+    "note": "A cui / alla quale (a + la quale)."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Aldo e Stefano sono colleghi. Lavoro con Aldo e Stefano da due anni. → ___.",
+    "answer": "Aldo e Stefano sono colleghi con cui lavoro da due anni",
+    "alt": [
+     "Aldo e Stefano sono colleghi con i quali lavoro da due anni",
+     "Aldo e Stefano sono colleghi coi quali lavoro da due anni"
+    ],
+    "note": "Con cui / con i quali (plural)."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Fiorella è la mia assistente. Senza Fiorella non potrei lavorare. → ___.",
+    "answer": "Fiorella è la mia assistente senza la quale non potrei lavorare",
+    "alt": [
+     "Fiorella è la mia assistente, senza la quale non potrei lavorare",
+     "Fiorella è la mia assistente senza cui non potrei lavorare",
+     "Fiorella è la mia assistente, senza cui non potrei lavorare"
+    ],
+    "note": "Con preposiciones largas como senza se prefiere la quale."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Il signor Feroni è il nostro capo. Secondo lui, siamo tutti pigri. → ___.",
+    "answer": "Il signor Feroni è il nostro capo, secondo il quale siamo tutti pigri",
+    "alt": [
+     "Il signor Feroni è il nostro capo secondo il quale siamo tutti pigri",
+     "Il signor Feroni è il nostro capo, secondo cui siamo tutti pigri",
+     "Il signor Feroni è il nostro capo secondo cui siamo tutti pigri"
+    ],
+    "note": "Con secondo se usa sobre todo il quale (secondo il quale), aunque secondo cui también es correcto."
+   }
+  ]
+ },
+ "r13-04b": {
+  "consigna": "Cuestiones de familia. Traducí al italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "1905 es el año en que nació mi abuelo.",
+    "answer": "Il 1905 è l'anno in cui è nato mio nonno.",
+    "alt": [
+     "Il 1905 è l'anno in cui nacque mio nonno.",
+     "Il 1905 è l'anno in cui mio nonno è nato.",
+     "Il 1905 è l'anno nel quale è nato mio nonno."
+    ],
+    "note": "Tiempo: in cui; los años llevan artículo (il 1905)."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Los motivos por los que emigró no están claros.",
+    "answer": "I motivi per cui è emigrato non sono chiari.",
+    "alt": [
+     "I motivi per i quali è emigrato non sono chiari.",
+     "Le ragioni per cui è emigrato non sono chiare.",
+     "Le ragioni per le quali è emigrato non sono chiare.",
+     "Il motivo per cui è emigrato non è chiaro."
+    ],
+    "note": "Causa: per cui / per il quale."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "La casa de Londres en la que vivía fue bombardeada durante la guerra. (è stata bombardata)",
+    "answer": "La casa di Londra in cui abitava è stata bombardata durante la guerra.",
+    "alt": [
+     "La casa di Londra dove abitava è stata bombardata durante la guerra.",
+     "La casa di Londra in cui viveva è stata bombardata durante la guerra.",
+     "La casa di Londra nella quale abitava è stata bombardata durante la guerra.",
+     "La casa a Londra in cui abitava è stata bombardata durante la guerra.",
+     "La casa di Londra dove viveva è stata bombardata durante la guerra."
+    ],
+    "note": "Lugar: in cui / dove / nella quale."
+   }
+  ]
+ },
+ "r13-01c": {
+  "consigna": "Traducí al italiano (tu).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Quale piatto prendo? – El que prefieras.",
+    "answer": "Quello che preferisci.",
+    "alt": [],
+    "note": "«El que prefieras» = *quello che preferisci*: el italiano usa indicativo donde el castellano pone subjuntivo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Quali riviste compro? – Las que quieras.",
+    "answer": "Quelle che vuoi.",
+    "alt": [],
+    "note": "Quelle che concuerda con riviste."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Non mi piace quella ragazza. – Quale? – La que estudia medicina.",
+    "answer": "Quella che studia medicina.",
+    "alt": [],
+    "note": "«La que» = *quella che*: pronombre demostrativo + *che*, porque el italiano no usa el artículo solo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Mi presti qualche libro? – Claro, llevate los que quieras.",
+    "answer": "Certo, prendi quelli che vuoi.",
+    "alt": [
+     "Certo, prendi quello che vuoi.",
+     "Certo, prendine quanti vuoi.",
+     "Certo, prendi quelli che ti pare."
+    ],
+    "note": "«Los que» se dice *quelli che*, y tras él el italiano usa indicativo (*vuoi*) donde el castellano pone subjuntivo («quieras»)."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "___ (Los que lleguen / Quien llegue) in ritardo dovranno/dovrà tornare domani.",
+    "answer": "Chi arriva",
+    "alt": [
+     "Quelli che arrivano",
+     "Coloro che arrivano",
+     "Chi arriverà",
+     "Quelli che arriveranno"
+    ],
+    "note": "*chi* (siempre singular) o *quelli che* (plural) = «el que / los que»: *chi arriva in ritardo dovrà...*"
+   }
+  ]
+ },
+ "r13-06": {
+  "consigna": "Tiempos difíciles. Una revista femenina les preguntó a sus lectoras-blogueras: «In questo momento di crisi economica, a che cosa di non strettamente necessario non siete comunque disposte a rinunciare?». Resultados: un weekend con lui (53%), un paio di stivali nuovi (20%), il viaggio di Natale (14%), una borsa nuova (14%). Leé la encuesta y respondé en italiano, con pronombres relativos: ¿a qué no renunciarías vos? (por ejemplo: «Quello a cui non rinuncerei mai è…»). Actividad de escritura libre: corregila vos mismo.",
+  "interactive": false
+ },
+ "r14-01": {
+  "consigna": "Escribí en italiano las respuestas.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Ti chiami Edda? – No, no me llamo Edda, me llamo Emma.",
+    "answer": "No, non mi chiamo Edda, mi chiamo Emma.",
+    "alt": [
+     "No, non mi chiamo Edda, ma Emma.",
+     "No, non mi chiamo Edda. Mi chiamo Emma."
+    ],
+    "note": "No responde; non niega el verbo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Pioverà domani? – Creo que no. – ¡Espero que no!",
+    "answer": "Credo di no. Spero di no!",
+    "alt": [
+     "Penso di no. Spero di no!",
+     "Credo di no. Speriamo di no!",
+     "Penso di no. Speriamo di no!",
+     "Non credo. Spero di no!",
+     "Non credo. Speriamo di no!"
+    ],
+    "note": "«Creo que no / espero que no» = *credo di no / spero di no*: el italiano pone *di* delante de *sì/no*."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Perché lo chiami? – Porque quisiera saber si pagó o no.",
+    "answer": "Perché vorrei sapere se ha pagato o no.",
+    "alt": [
+     "Perché vorrei sapere se ha pagato o meno.",
+     "Perché vorrei sapere se ha pagato oppure no."
+    ],
+    "note": "Para cerrar una pregunta indirecta con «o no», el italiano dice *o no* o, más formal, *o meno*: *sapere se ha pagato o meno*."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Prendi l'aereo? – No, me gusta viajar en tren, no en avión.",
+    "answer": "No, mi piace viaggiare in treno, non in aereo.",
+    "alt": [
+     "No, mi piace viaggiare in treno e non in aereo."
+    ],
+    "note": "Para negar una parte de la frase: non + esa parte."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Prendiamo un bicchierino insieme? – No, perdoná, hoy nada de vino.",
+    "answer": "No, mi dispiace, niente vino oggi.",
+    "alt": [
+     "No, mi dispiace, oggi niente vino.",
+     "No, scusa, niente vino oggi.",
+     "No, scusa, oggi niente vino."
+    ],
+    "note": "«Nada de» + sustantivo = *niente* + sustantivo, sin *di*: *niente vino*."
+   }
+  ]
+ },
+ "r14-01b": {
+  "consigna": "La palabra justa para cada situación. Elegí la respuesta adecuada.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Ti piace l'appartamento? –",
+    "options": [
+     "Mica male!",
+     "Meno male!"
+    ],
+    "answer": "Mica male!",
+    "alt": [],
+    "note": "*mica male* = «nada mal» (un elogio); *meno male* es «menos mal», con otro sentido."
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Hai studiato il testo? –",
+    "options": [
+     "Meno male!",
+     "Nient'affatto!"
+    ],
+    "answer": "Nient'affatto!",
+    "alt": [
+     "Niente!"
+    ],
+    "note": "Nient'affatto = para nada (también niente = no estudié nada); meno male = menos mal."
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Che cosa ti ha detto? –",
+    "options": [
+     "Niente.",
+     "Per niente."
+    ],
+    "answer": "Niente.",
+    "alt": [],
+    "note": "A '¿qué te dijo?' se responde niente (nada); per niente = para nada."
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Quand'è che si sposano? –",
+    "options": [
+     "Mai più!",
+     "Mai!"
+    ],
+    "answer": "Mai!",
+    "alt": [],
+    "note": "*Mai!* solo es una respuesta tajante («¡nunca!»); *mai più* se usa para algo que ya pasó y no se va a repetir."
+   },
+   {
+    "label": "e",
+    "type": "choice",
+    "stem": "Ti piacerebbe tornarci? –",
+    "options": [
+     "Mai più!",
+     "Meno male!"
+    ],
+    "answer": "Mai più!",
+    "alt": [
+     "Mai!"
+    ],
+    "note": "Volver a un lugar: mai più (nunca más), o simplemente mai; meno male = menos mal."
+   },
+   {
+    "label": "f",
+    "type": "choice",
+    "stem": "È stato interessante? –",
+    "options": [
+     "Niente.",
+     "Per niente!"
+    ],
+    "answer": "Per niente!",
+    "alt": [
+     "Assolutamente no!"
+    ],
+    "note": "*per niente* = «para nada», como respuesta negativa enfática; *niente* solo no responde a la pregunta."
+   },
+   {
+    "label": "g",
+    "type": "choice",
+    "stem": "Hai capito? –",
+    "options": [
+     "Per niente!",
+     "Mai più!"
+    ],
+    "answer": "Per niente!",
+    "alt": [
+     "Nient'affatto!"
+    ],
+    "note": "*per niente* (o *nient'affatto*) = «para nada»; *mai più* sería «nunca más»."
+   },
+   {
+    "label": "h",
+    "type": "choice",
+    "stem": "Hai intenzione di pagare la multa? –",
+    "options": [
+     "Assolutamente no!",
+     "Mica male!"
+    ],
+    "answer": "Assolutamente no!",
+    "alt": [
+     "Mai!"
+    ],
+    "note": "Assolutamente no (o mai!) rechaza con fuerza; mica male = nada mal."
+   }
+  ]
+ },
+ "r14-01c": {
+  "consigna": "Traducí al italiano, prestando atención a la posición de las negaciones.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "No vi a nadie.",
+    "answer": "Non ho visto nessuno.",
+    "alt": [],
+    "note": "Nessuno va después del participio."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Nunca vio el Mont Blanc.",
+    "answer": "Non ha mai visto il Monte Bianco.",
+    "alt": [],
+    "note": "Mai va entre el auxiliar y el participio."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Todavía no se fue.",
+    "answer": "Non è ancora partita.",
+    "alt": [
+     "Non se n'è ancora andata.",
+     "Non è ancora uscita.",
+     "Non è ancora partito.",
+     "Non se n'è ancora andato.",
+     "Non è ancora uscito.",
+     "Non è ancora andata via.",
+     "Non è ancora andato via."
+    ],
+    "note": "Ancora va entre el auxiliar y el participio."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "No quiero comer nada.",
+    "answer": "Non voglio mangiare niente.",
+    "alt": [
+     "Non voglio mangiare nulla."
+    ],
+    "note": "Niente va después del infinitivo."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Ella nunca quiere ayudar.",
+    "answer": "Non vuole mai aiutare.",
+    "alt": [
+     "Non vuole aiutare mai.",
+     "Lei non vuole mai aiutare."
+    ],
+    "note": "Mai suele ir después del verbo conjugado."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Ya no quiero venir.",
+    "answer": "Non voglio più venire.",
+    "alt": [
+     "Non voglio venire più."
+    ],
+    "note": "«Ya no» = *non ... più*: *non* delante del verbo y *più* después (con modal: *non voglio più venire*)."
+   }
+  ]
+ },
+ "r14-02": {
+  "consigna": "Traducí al italiano con non … affatto, non … assolutamente o non … per niente.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "No me gusta para nada.",
+    "answer": "Non mi piace per niente.",
+    "alt": [
+     "Non mi piace affatto.",
+     "Non mi piace per nulla."
+    ],
+    "note": "*non ... per niente* = «para nada»: doble negación obligatoria, como en castellano."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "No lo conozco para nada.",
+    "answer": "Non lo conosco affatto.",
+    "alt": [
+     "Non lo conosco per niente.",
+     "Non lo conosco per nulla."
+    ],
+    "note": "*non ... affatto* = «en absoluto, para nada»: *affatto* solo no niega, necesita *non*."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "No es para nada antipático.",
+    "answer": "Non è affatto antipatico.",
+    "alt": [
+     "Non è per niente antipatico.",
+     "Non è per nulla antipatico."
+    ],
+    "note": "Affatto va después del verbo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "De ninguna manera tenés que irte. (tu)",
+    "answer": "Non devi assolutamente partire.",
+    "alt": [
+     "Non devi partire assolutamente.",
+     "Non devi assolutamente andartene.",
+     "Non devi andartene assolutamente.",
+     "Non devi assolutamente andare via.",
+     "Non devi andare via assolutamente."
+    ],
+    "note": "Non … assolutamente refuerza una prohibición."
+   }
+  ]
+ },
+ "r14-01d": {
+  "consigna": "¿No me digas que…? Esperás que tus peores temores no se cumplan. Traducí al italiano con mica (tu).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "¿No te habrás olvidado de mandar la carta, no?",
+    "answer": "Non ti sarai mica dimenticato di spedire la lettera?",
+    "alt": [
+     "Non ti sarai mica dimenticata di spedire la lettera?",
+     "Non ti sei mica dimenticato di spedire la lettera?",
+     "Non ti sei mica dimenticata di spedire la lettera?",
+     "Non avrai mica dimenticato di spedire la lettera?",
+     "Non hai mica dimenticato di spedire la lettera?",
+     "Non ti sarai mica dimenticato di imbucare la lettera?",
+     "Non ti sarai mica dimenticato di mandare la lettera?",
+     "Non ti sarai mica dimenticata di mandare la lettera?",
+     "Non avrai mica dimenticato di mandare la lettera?"
+    ],
+    "note": "Non … mica expresa el temor de que algo haya pasado."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "¿No habrás invitado a los vecinos, no?",
+    "answer": "Non avrai mica invitato i vicini?",
+    "alt": [
+     "Non hai mica invitato i vicini?"
+    ],
+    "note": "Mica va entre auxiliar y participio."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "¿No habrás dejado el horno prendido, no? (lasciare acceso il forno)",
+    "answer": "Non avrai mica lasciato acceso il forno?",
+    "alt": [
+     "Non hai mica lasciato acceso il forno?",
+     "Non avrai mica lasciato il forno acceso?",
+     "Non hai mica lasciato il forno acceso?"
+    ],
+    "note": "El futuro compuesto (avrai lasciato) expresa suposición."
+   }
+  ]
+ },
+ "r14-03": {
+  "consigna": "Traducí al italiano usando dos palabras negativas además de non.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Nunca explica nada.",
+    "answer": "Non spiega mai niente.",
+    "alt": [
+     "Non spiega mai nulla."
+    ],
+    "note": "Non … mai niente: se acumulan las negaciones."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "No va a ofender más a nadie.",
+    "answer": "Non offenderà più nessuno.",
+    "alt": [],
+    "note": "Non … più nessuno."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "No quedó nada más.",
+    "answer": "Non è rimasto più niente.",
+    "alt": [
+     "Non è rimasto più nulla.",
+     "Non rimane più niente.",
+     "Non c'è rimasto più niente.",
+     "Non è rimasto più nient'altro."
+    ],
+    "note": "Non … più niente."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Todavía no encontré nada.",
+    "answer": "Non ho ancora trovato niente.",
+    "alt": [
+     "Non ho ancora trovato nulla."
+    ],
+    "note": "Non … ancora niente."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "No encontré absolutamente nada.",
+    "answer": "Non ho mica trovato niente.",
+    "alt": [
+     "Non ho mica trovato nulla.",
+     "Non ho trovato proprio niente.",
+     "Non ho trovato proprio nulla.",
+     "Non ho trovato niente di niente.",
+     "Non ho trovato assolutamente niente.",
+     "Non ho trovato assolutamente nulla."
+    ],
+    "note": "Mica refuerza la negación (≈ para nada): non … mica … niente. También sirven proprio niente o assolutamente niente."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "No le voy a decir nada a nadie.",
+    "answer": "Non dirò niente a nessuno.",
+    "alt": [
+     "Non dirò nulla a nessuno.",
+     "Non dico niente a nessuno."
+    ],
+    "note": "Non … niente a nessuno."
+   }
+  ]
+ }
+}

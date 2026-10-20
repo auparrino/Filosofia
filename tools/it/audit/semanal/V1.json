@@ -1,0 +1,170 @@
+[
+ {
+  "id": "lesson:block:1",
+  "lote": "w01",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "La columna «Suena» usa «che, chi» para ce/ci y la fila siguiente usa «che, chi» como grafía (suena ke, ki); la advertencia «che se lee ke, nunca che» tampoco ayuda. Ambigüedad real, aunque el sonido de ce/ci sí es «ch» de chico.",
+  "fuente": "tools/lessons/s1.py:33",
+  "correccion": "Fila ce, ci → Suena: «ch de chico (tʃe, tʃi)»; fila che, chi → «k de queso (ke, ki)». Warn: «*che* y *chi* suenan «ke», «ki», no «che», «chi»; *ce, ci* sí suenan «che, chi».»"
+ },
+ {
+  "id": "sfida:r07-01f",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "No está en la semana 1: s:r07-01f está en la semana 10 (Pronomi personali) y sus ítems solo llevan un tag wk=1 interno; es el tema de esa semana (tónicos tras preposición, keys de la semana 10).",
+  "fuente": "docs/data/course.json weeks[9].challenges (r07-01f)",
+  "correccion": ""
+ },
+ {
+  "id": "sfida:r16-01e",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "No está en la semana 1: r16-01e (tranne/a parte) está en la semana 28 (Connettivi); el wk=1 es un tag interno de los ítems, no su ubicación.",
+  "fuente": "docs/data/course.json weeks[27].challenges (r16-01e)",
+  "correccion": ""
+ },
+ {
+  "id": "lesson:*",
+  "lote": "w02",
+  "veredicto": "CONFIRMADO",
+  "razon": "El fare de la semana 2 es c'è/ci sono y 9+ ítems lo evalúan, pero los 7 bloques de la lección no lo enseñan (solo una mención al pasar en la semana 1: «Hay = c'è / ci sono»).",
+  "fuente": "tools/lessons/s1.py:~201-235 (lección semana 2); items g2-sc-04*, g2-gd-47, g2-va-05 en semana 2",
+  "correccion": "Agregar bloque «Decir qué hay»: *c'è* + singular (C'è una lavagna), *ci sono* + plural (Ci sono tre sedie); negación *non c'è / non ci sono*; «hay» es invariable en español, en italiano concuerda con lo que hay; error típico: «ci sono molta gente» → *c'è molta gente*."
+ },
+ {
+  "id": "item d06-065",
+  "lote": "w05",
+  "veredicto": "CONFIRMADO",
+  "razon": "Terminare es sinónimo natural de finire y «terminan» se traduce con ambos; hoy solo se aceptan finiscono.",
+  "fuente": "tools/audit/patches/dummies/ch03-08.json:1824 (d06-065; alt/accept)",
+  "correccion": "Agregar a alt/accept: «Cominciano ma non terminano.», «Loro cominciano ma non terminano.», «Iniziano ma non terminano.», «Loro iniziano ma non terminano.»"
+ },
+ {
+  "id": "sfida r07-04e",
+  "lote": "w06",
+  "veredicto": "RECHAZADO",
+  "razon": "r07-04e está en la semana 10 (Pronomi personali), donde se enseñan enclíticos con infinitivo e imperativo (key de la semana). El wk=6 es un tag interno; no está en la semana 6.",
+  "fuente": "docs/data/course.json weeks[9].challenges (r07-04e)",
+  "correccion": ""
+ },
+ {
+  "id": "lesson:0",
+  "lote": "w08",
+  "veredicto": "RECHAZADO",
+  "razon": "«No inviertas nada» está en el bloque de preguntas de sí/no, donde es correcto; el bloque 4 trata de interrogativos con sujeto explícito. Simplificación aceptable, no contradicción real.",
+  "fuente": "tools/lessons/s1.py:829",
+  "correccion": "(opcional) «Y en las de sí/no no inviertas nada: *Marco è a casa?*»"
+ },
+ {
+  "id": "p-085",
+  "lote": "w10",
+  "veredicto": "CONFIRMADO",
+  "razon": "messe (mésse, cosecha) es singular; la glosa plural «cosechas» es incorrecta. La otra (mèsse = misas, plural de messa) está bien.",
+  "fuente": "docs/js/ascolto_data.js:102",
+  "correccion": "P(\"p-085\", \"vocali\", 10, \"mésse\", \"mèsse\", \"cosecha\", \"misas\", VOC, [\"messe\", \"messe\"])"
+ },
+ {
+  "id": "item g2-va-57",
+  "lote": "w14",
+  "veredicto": "RECHAZADO",
+  "razon": "En fixerr se corrige con good/goodAlt, no con accept (app.js:4759); goodAlt ya incluye «A me», así que corregir a «A me» se acepta.",
+  "fuente": "tools/authored/grammatica2.py:1818-1821 (goodAlt=[\"A me\"])",
+  "correccion": ""
+ },
+ {
+  "id": "sfide r14-02",
+  "lote": "w18",
+  "veredicto": "RECHAZADO",
+  "razon": "chapterTitle no se muestra: app.js:2922-2926 muestra c.consigna (español) y «cap. N». Inglés no visible.",
+  "fuente": "docs/js/app.js:2922",
+  "correccion": ""
+ },
+ {
+  "id": "s:r26-04:d",
+  "lote": "w20",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "Correcto que la nota es engañosa: andavano (imperfetto) no equivale a «tendrían que haber sido» (condicional compuesto); expresa obligación en el pasado. Aunque el imperfetto modal sí se usa para «debería haber sido», la glosa/nota es incoherente.",
+  "fuente": "docs/data/course.json items s:r26-04:d (origen sfide r26-04)",
+  "correccion": "Consigna: «Le finestre ___ pulite. (había que limpiarlas)»; nota: «Imperfecto de andare = obligación en el pasado: andavano pulite = había que limpiarlas / debían limpiarse.»"
+ },
+ {
+  "id": "lettura fl-combinati",
+  "lote": "w22",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "La frase es incoherente: en el texto Martín solo tiene el diccionario y la profesora ofrece dejarle sus apuntes; «se li ha ancora» (usted los tiene) no tiene sentido; lo natural es «se li ho ancora». Ligera ambigüedad si Martín hubiera prestado apuntes, pero el texto no lo dice.",
+  "fuente": "docs/js/letture.js:721",
+  "correccion": "E gli appunti del corso, se li ho ancora, glieli lascio volentieri."
+ },
+ {
+  "id": "a-024",
+  "lote": "w27",
+  "veredicto": "CONFIRMADO",
+  "razon": "La nota describe la palabra equivocada: la respuesta es casìno (llana, lío) y la nota habla de casinò (aguda).",
+  "fuente": "docs/js/ascolto_data.js:309",
+  "correccion": "note: \"Llana: ca-SÌ-no = lío, desorden. La aguda con acento escrito es casinò (el casino de juego).\""
+ },
+ {
+  "id": "item g2-ct-40",
+  "lote": "w30",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Quería» es ambiguo (yo/él); voleva che venissi con me es traducción igualmente correcta y no se acepta.",
+  "fuente": "tools/authored/grammatica2.py:1255",
+  "correccion": "accept/alt: agregar «Voleva che venissi con me», «Voleva che tu venissi con me» (y «Lui voleva…»/«Lei voleva…»)."
+ },
+ {
+  "id": "item c1-pass-04",
+  "lote": "w35",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "Hay sentencia con el «si»: es un cloze con oración, así que «no hay oración» es falso. Pero la consigna «Reescribí» no corresponde a un cloze, y el ítem aparece en la semana 35 (voce passiva) cuando el si passivante se enseña en la 36 (tag wk=5 también incorrecto).",
+  "fuente": "tools/authored/c1_sintassi.py:29-34",
+  "correccion": "prompt: «Completá con el verbo en la forma del «si passivante».»; mover a la semana 36 (o quitarlo de la 35)."
+ },
+ {
+  "id": "lesson:2",
+  "lote": "w37",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "«dare» también cambia de raíz en tú/nosotros/vosotros (desti, demmo, deste) y stare (stesti, stemmo, steste); pero el bloque enseña 1-3-6 y esas formas son más bien terminaciones regulares con raíz irregular. Corregir la frase «único irregular entero» que es inexacta.",
+  "fuente": "tools/lessons/s3.py:654 (semana 37)",
+  "correccion": "*essere* es irregular entero (*fui, fosti, fu, fummo, foste, furono*). *dare* y *stare* cambian de raíz en todas las personas: *diedi/detti, desti, diede/dette, demmo, deste, diedero/dettero*; *stetti, stesti, stette, stemmo, steste, stettero*."
+ },
+ {
+  "id": "vocab pregare",
+  "lote": "w42",
+  "veredicto": "CONFIRMADO",
+  "razon": "La glosa de la lista de vocab de la semana 42 dice solo «rezar», pero el ejemplo «Ti prego, non dirlo a nessuno» es «rogar»; el banco ya tiene «rezar / rogar».",
+  "fuente": "docs/data/course.json weeks[41].vocab (pregare); tools/bank/parole_verbi_agg.py:382",
+  "correccion": "[\"pregare\",\"rogar / rezar\",\"Ti prego, non dirlo a nessuno.\"]"
+ },
+ {
+  "id": "item rf-46-01",
+  "lote": "w45",
+  "veredicto": "CONFIRMADO",
+  "razon": "«vosotros» es peninsular; el curso es rioplatense (vos/ustedes).",
+  "fuente": "tools/authored/refuerzo.py:808",
+  "correccion": "Imperativo de andarsene: vattene (vos), andatevene (ustedes)."
+ },
+ {
+  "id": "lettura w-48",
+  "lote": "w48",
+  "veredicto": "CONFIRMADO",
+  "razon": "«a lui» dislocado exige la retoma con «gli»; lo natural y la regla de la semana es «non gliel'ho mai detto».",
+  "fuente": "docs/js/letture_settimana.js:1035",
+  "correccion": "Ma questo, a lui, non gliel'ho mai detto."
+ },
+ {
+  "id": "item ex-cl-51",
+  "lote": "w52",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "«Per la prima volta da vent'anni» existe y es corriente; la nota «no se usa da» es demasiado categórica (aunque con passato remoto «dopo/in» son preferibles). Conviene aceptar «da» y suavizar.",
+  "fuente": "tools/authored/esame_c1.py:181",
+  "correccion": "accept/alt: agregar «da»; nota: «Lo más natural: «dopo vent'anni» o «in vent'anni»; «da vent'anni» también se usa.»"
+ },
+ {
+  "id": "sfida g2-va-12",
+  "lote": "w52",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "goodAlt ya incluye «Neanche io» y «Nemmeno io» (el fixerr se califica con good/goodAlt, no con accept). Falta «Neppure io» (y «Neanche a me»).",
+  "fuente": "tools/authored/grammatica2.py:1638",
+  "correccion": "goodAlt: [\"Neanche io\", \"Nemmeno io\", \"Neppure io\", \"Neanche a me\", \"Nemmeno a me\"]"
+ }
+]

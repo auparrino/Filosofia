@@ -1,0 +1,37 @@
+{
+ "week": 6,
+ "level": "A1",
+ "title": "Qual é o rolê?",
+ "genre": "programa da manhã",
+ "es": "Es viernes a la mañana en Rádio Calçadão, la radio comunitaria de Botafogo. Nanda, la conductora, le pregunta a Téo, su compañero, qué planes tiene para el fin de semana.",
+ "speakers": ["Nanda", "Téo"],
+ "turns": [
+  ["A", "Bom dia, Botafogo! Aqui é a Rádio Calçadão, com a Nanda e o Téo. Téo, qual é o rolê do fim de semana?"],
+  ["B", "Hoje de noite eu saio com uns amigos. A gente vai a um bar na Lapa: o chope lá é barato."],
+  ["A", "Legal! E amanhã, o que você faz?"],
+  ["B", "Amanhã é a minha folga. De manhã quero passear na praia e de noite tem um show de samba. Você quer vir?"],
+  ["A", "Eu topo! Quanto custa o ingresso?"],
+  ["B", "Trinta reais. É caro, mas a banda é ótima."],
+  ["A", "Estou sem grana este mês... Mas eu vou. Eu curto muito samba!"],
+  ["B", "No domingo eu não saio de casa. Durmo até tarde e vejo o jogo na TV."],
+  ["A", "E vocês, ouvintes? Estão a fim de sair? A gente quer saber o que vocês fazem!"]
+ ],
+ "gloss": {
+  "fim de semana": "fin de semana",
+  "chope": "chop, cerveza tirada",
+  "ouvintes": "oyentes",
+  "banda": "banda (de música)"
+ },
+ "questions": [
+  ["¿Adónde va Téo esta noche?", ["A un bar de la Lapa con amigos", "A un show de samba en la Lapa, con Nanda", "A la playa, a pasear", "A la casa de Nanda"], "A un bar de la Lapa con amigos"],
+  ["¿Por qué Nanda duda antes de aceptar la invitación?", ["Porque no le gusta el samba", "Porque este mes no tiene plata", "Porque el sábado a la noche trabaja en la radio", "Porque no conoce la banda"], "Porque este mes no tiene plata"],
+  ["¿Qué hace Téo el domingo?", ["Va a la playa temprano", "Se queda en casa y ve el partido", "Trabaja en la radio", "Sale con amigos a la Lapa"], "Se queda en casa y ve el partido"]
+ ],
+ "info": [
+  ["La entrada del show cuesta treinta reales.", true],
+  ["Téo trabaja el sábado.", false],
+  ["A Nanda le gusta el samba.", true]
+ ],
+ "grammatica": {"label": "el presente de los irregulares: sair, ir, fazer, querer, vir, ver, dormir", "forme": ["saio", "vai", "faz", "quero", "quer vir", "vou", "fazem", "durmo", "vejo"]},
+ "parole": [["rolê", "rolê"], ["chope", "chope"], ["folga", "folga"], ["passear", "passear"], ["topo", "topar"], ["ingresso", "ingresso"], ["grana", "grana"], ["curto", "curtir"], ["a fim de", "a fim de"]]
+}

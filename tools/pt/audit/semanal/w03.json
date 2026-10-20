@@ -1,0 +1,196 @@
+{
+ "week": 3,
+ "title": "Artigos e contrações",
+ "level": "A1",
+ "revisado": {
+  "items": 48,
+  "bloques_teoria": 7,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 16,
+  "radio": 0,
+  "otros": 2
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida: el portugués de todo el dossier es correcto y brasileño, la teoría es corta, ordenada y con buenos contrastes con el español, y casi todos los ejercicios tienen una sola respuesta clara. Los reparos son una regla falsa repetida («á no existe»), una pregunta de lectura que nombra a un personaje inexistente en el texto, notas fonéticas imprecisas (rato = «jato», nota de «mão» en mundo/mudo) y varios ítems redundantes con pocas prácticas de nos/nas, num/numa, uns/umas y dele/dela. Hay cero ítems de escucha y poca producción libre.",
+ "bien": [
+  "Teoría gradual (artículo, em, de, a/por, nombres y posesivos, ubicación) con tablas, ejemplos cariocas y contraste constante con el español («em o no existe», «por la» queda separado).",
+  "Vocabulario y lectura contextualizados en Río (padaria, boteco, calçadão, Botafogo) y la lectura reutiliza casi todas las contracciones de la semana; la caza de formas (hunt) coincide con el texto.",
+  "Los traductores tienen accept amplios y naturales (tô, a gente, fica, sobre, variantes con/sin Eu), sin portuñol ni lusismos.",
+  "Las notas distinguen bien lo obligatorio (no/na/do/da/pelo) de lo opcional (num/em um, artículo ante nombres y posesivos) y avisan de dum/duma europeos.",
+  "Buena mezcla inicial de tipos (choice, cloze, translate, fixerr, garden, scopri, typed) y suoni pertinentes (no/nó átono, chão/são, mal/má con l vocalizada, polícia)."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:4",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Y *à* lleva acento grave (`), no agudo: «á» no existe.",
+   "propuesta": "Y *à* lleva acento grave (`), no agudo: *á* sería otra cosa (aparece en palabras como *já*, *está*, *lá*), no la fusión a + a.",
+   "motivo": "La letra á sí existe en portugués (já, lá, está); la afirmación es falsa."
+  },
+  {
+   "id": "item s1-03-08",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "*Á* con acento agudo no existe en portugués.",
+   "propuesta": "Con acento agudo (*á*) no marca esta fusión: la crase siempre es grave (*à*). (*á* existe en otras palabras: *já*, *lá*.)",
+   "motivo": "Afirmación falsa: á existe en portugués; lo incorrecto es usarla para a + a."
+  },
+  {
+   "id": "lettura w-03",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "¿Qué ve Sofía desde la ventana?",
+   "propuesta": "¿Qué ve el narrador (o: la persona que escribe) desde la ventana de su cuarto?",
+   "motivo": "El texto está en primera persona (Eu moro…) y no menciona a ninguna Sofía."
+  },
+  {
+   "id": "suoni p-100",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "La r inicial es una j suave: rato = «jato». Sin r, ato.",
+   "propuesta": "La r inicial suena como una j española suave [h], como en «jamón» (en Río, a veces más áspera): rato ≈ «jato» con j castellana. No confundir con la j portuguesa de jato.",
+   "motivo": "En portugués «jato» se pronuncia con [ʒ] (sh sonora), así que la equivalencia escrita confunde al alumno."
+  },
+  {
+   "id": "suoni p-027",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "La vocal nasal suena también por la nariz y no termina en una n ni una m que se oiga: «mão» no es «man».",
+   "propuesta": "En mundo la vocal u es nasal: suena por la nariz y la n no se pronuncia como consonante aparte; en mudo la u es oral.",
+   "motivo": "La nota habla de «mão», que no aparece en el par mundo/mudo."
+  },
+  {
+   "id": "laboratorio dade",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Ojo con dos que cambian también la vocal: *edad → idade*, *mitad → metade*.",
+   "propuesta": "Ojo: algunas cambian también otra letra: *edad → idade*, *mitad → metade*, *novedad → novidade*, *calidad → qualidade*; y libertad → liberdade (t → d).",
+   "motivo": "La lista de ejemplos de la misma ficha tiene más cambios que los dos anunciados (novidade, qualidade, liberdade, possibilidade)."
+  },
+  {
+   "id": "item s1-03-18",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "El español solo contrae «del».",
+   "propuesta": "El español solo contrae «del» y «al»; el portugués contrae con todos los artículos.",
+   "motivo": "Impreciso: el español también contrae «al»; la nota de s1-03-21 dice lo contrario («como nuestro al»)."
+  },
+  {
+   "id": "item s1-03-32",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "El español solo contrae «del»; el portugués contrae también plurales y femeninos.",
+   "propuesta": "El español solo contrae «del» (y «al»), únicamente con masculino singular; el portugués contrae también femeninos y plurales.",
+   "motivo": "Misma imprecisión sobre «al»."
+  },
+  {
+   "id": "item s1-03-15",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Completá con el artículo.",
+   "propuesta": "Completá con el artículo definido (el, la…).",
+   "motivo": "«A amiga» y «Uma amiga» encajan en «___ amiga da Bia é argentina»; la consigna no desambigua (el accept solo es «A»)."
+  },
+  {
+   "id": "item s1-03-44",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Leé las frases y descubrí la regla.",
+   "propuesta": "Mostrar 3-4 frases de ejemplo (o f. o João, a Bia, a minha casa) antes de preguntar, o cambiar la consigna.",
+   "motivo": "El enunciado dice «estas frases de Río» pero el ítem no trae ninguna visible."
+  },
+  {
+   "id": "item s1-01-41",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "año → ___",
+   "propuesta": "Moverlo a la semana del tema (ñ → nh / sonidos) o reemplazarlo por un ítem de contracciones.",
+   "motivo": "Evalúa ñ/nh, que no se enseña en la teoría de esta semana (artículos y contracciones)."
+  },
+  {
+   "id": "lettura w-03",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "¿Quién es el dueño de la panadería? [opciones: un portugués de Oporto | un vecino carioca de Botafogo | Bia | un argentino]",
+   "propuesta": "Reemplazar «Bia» por un distractor plausible del texto (p. ej. «un vecino del boteco»).",
+   "motivo": "«Bia» no figura en el texto y se descarta sin comprender; no evalúa nada."
+  },
+  {
+   "id": "lettura w-03",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "De noite, há música nos bares da rua",
+   "propuesta": "De noite, tem música nos bares da rua",
+   "motivo": "En la lección se enseña «tem» existencial; «há» no se enseñó todavía (A1, semana 3) y en el habla brasileña predomina «tem»."
+  },
+  {
+   "id": "item s1-03-01",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "options: [\"As\", \"Las\", \"Os\"]",
+   "propuesta": "Mantener un distractor «español» como máximo por ítem y reforzar con pares de la regla (As/Os/Às) en los demás.",
+   "motivo": "Los ítems s1-03-01 a 04 y 12 usan «Las/Una/El/de la»: se descartan sin conocer la regla."
+  },
+  {
+   "id": "item s1-03-36",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Estou em a praia de Copacabana.",
+   "propuesta": "Variar el contexto (p. ej. «Estamos em os bares da Lapa.») para no repetir «estar + em + a praia».",
+   "motivo": "Casi duplicado de s1-03-05, s1-03-29 y s1-03-17 (todos «estar + em + a praia/o Rio»)."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Corregir la afirmación «á no existe» en lesson:4 y en la nota de s1-03-08, y la pregunta de lectura con «Sofía».",
+   "por_que": "Son los dos únicos contenidos objetivamente falsos o rotos del dossier."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar ítems de escucha/reconocimiento oral (pelo vs. pé-lo, no/nó, na/nas) y de producción guiada (describir una foto con 3 contracciones), hoy no hay ni listen ni typed de frase.",
+   "por_que": "Las contracciones se oyen átonas y sin práctica auditiva el alumno no las produce al hablar."
+  },
+  {
+   "prioridad": "media",
+   "que": "Rebalancear cobertura: hoy hay muchos ítems sobre no/na/do/da/pelo, pero solo 1-2 sobre nos/nas, dos/das, num/numa, uns/umas, pelos/pelas, aos/às y 0 sobre dele/dela y ser/ficar. Reemplazar duplicados (s1-03-05/29/36, s1-03-17/22) por esos puntos.",
+   "por_que": "Puntos enseñados en la teoría que casi no se practican."
+  },
+  {
+   "prioridad": "media",
+   "que": "Cambiar distractores en español (Las, Una, El, de la) por distractores de regla (género equivocado: do/da; ao/à; no/na).",
+   "por_que": "Evaluar la regla, no el descarte de formas castellanas."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar un ítem de contraste «no» (em+o) vs «não» (negación) y «da» preposición vs. «da» verbo dar, ya advertidos en la teoría.",
+   "por_que": "Errores típicos de hispanohablantes avisados pero sin práctica."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Aclarar la nota de mundo/mudo y rato/ato, y la lista de la ficha -dad.",
+   "por_que": "Evitar explicaciones fonéticas y morfológicas inexactas."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Separar ítems de semana 1 (año → ano, mitad → metade) del set de esta semana o justificar su presencia.",
+   "por_que": "Mezclan temas no enseñados aquí y aumentan la carga (48 ítems en A1)."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 3
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

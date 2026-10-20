@@ -1,0 +1,170 @@
+[
+ {
+  "id": "lesson:block:0",
+  "lote": "w01",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "El ítem citado está bien (signore/gn). El hallazgo real es válido: el 'fare'/tema de la semana 1 (saludos ciao/buongiorno/arrivederci, tu/Lei, deletrear) casi no aparece en la lección (ciao 1 vez, sin buongiorno/arrivederci/Lei/nombres de letras).",
+  "fuente": "docs/data/course.json weeks[0].lesson; tools/lessons (semana 1)",
+  "correccion": "Agregar un bloque a la lección de la semana 1 con saludos (ciao/buongiorno/arrivederci), tu vs Lei, mi chiamo y nombres de las letras (a, bi, ci, di...) con un par de preguntas, o ajustar 'fare'/'tema' a lo que sí se enseña."
+ },
+ {
+  "id": "sfida:r07-03g",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "La sfida NO se sirve en la semana 1: weeks[0].challenges está vacío y ningún item s:r07-03g está en weeks[0].items; está en la semana 10 (Pronomi personali). El wk:1 es solo un valor por defecto de datos (usado para agrupar en pools de boss), no expone el ejercicio en la semana 1.",
+  "fuente": "docs/data/course.json weeks[9].challenges (semana 10); app.js:2907",
+  "correccion": ""
+ },
+ {
+  "id": "sfida:r22-08",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "Igual: la sfida está en la semana 12 (Riflessivi e imperativo), no en la 1; wk:1 es un default de datos, no aparece en la semana 1.",
+  "fuente": "docs/data/course.json weeks[11].challenges (semana 12); app.js:2907",
+  "correccion": ""
+ },
+ {
+  "id": "p-174",
+  "lote": "w02",
+  "veredicto": "CONFIRMADO",
+  "razon": "Es audio TTS de pares mínimos: «cuesto» se lee [kwesto], igual que «questo», así que no hay contraste audible. Además la nota dice [ku] (mal).",
+  "fuente": "docs/js/ascolto_data.js:196",
+  "correccion": "P(\"p-174\", \"altro\", 2, \"questo\", \"chesto\", \"este\", \"(no existe)\", \"qu = [kw]: «questo», nunca «kesto».\")"
+ },
+ {
+  "id": "lettura w-06",
+  "lote": "w06",
+  "veredicto": "CONFIRMADO",
+  "razon": "Para volver a la propia casa se dice tornare/rientrare; «viene a casa» es poco natural en tercera persona (narrador en Torino). Es cambio inocuo.",
+  "fuente": "docs/js/letture_settimana.js:85",
+  "correccion": "Il pomeriggio torna a casa stanca, ma la sera esce con gli amici."
+ },
+ {
+  "id": "sfida r19-03b",
+  "lote": "w06",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "Solo vale lo menor: el passato prossimo de «Hanno chiuso» es el estímulo ya enseñado (sem. 19 es posterior a passato prossimo) y el futuro sí se enseña en esa semana; pero la consigna dice «se usa el presente» y el item a acepta «Allora andrò a trovarla.», inconsistente.",
+  "fuente": "tools/audit/patches/sfide/ch15-20.json:3527 (r19-03b, item a, alt)",
+  "correccion": "Quitar «Allora andrò a trovarla.» de alt (o cambiar la consigna a «se usa el presente; el futuro también se oye»)."
+ },
+ {
+  "id": "d11-002",
+  "lote": "w08",
+  "veredicto": "RECHAZADO",
+  "razon": "La semana 8 enseña justo eso (bloque «El sujeto va al final»); la consigna es explícita y ya se acepta la variante sin coma. «Sono a scuola, i ragazzi?» es italiano natural (dislocación a destra).",
+  "fuente": "docs/data/bank_dummies.json:3974; course.json weeks[7] lesson",
+  "correccion": ""
+ },
+ {
+  "id": "g2-gd-12",
+  "lote": "w11",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Nací» es pretérito simple, sin auxiliar; la comparación con haber es falsa.",
+  "fuente": "tools/authored/grammatica2.py:71",
+  "correccion": "... En castellano «nacido» es regular y «he nacido» va con haber: acá cambian las dos cosas (essere y concordancia: nata/nato)."
+ },
+ {
+  "id": "connesso c-022",
+  "lote": "w15",
+  "veredicto": "RECHAZADO",
+  "razon": "El ítem es de ortografía: «Cera una volta» no es una frase con sentido y la nota enseña c'era = ci + era; es el contraste c'era/cera intencional. (Opcional: el TTS no distingue, pero se resuelve por apóstrofo/sentido.)",
+  "fuente": "docs/js/ascolto_data.js:237",
+  "correccion": ""
+ },
+ {
+  "id": "suoni p-184",
+  "lote": "w18",
+  "veredicto": "RECHAZADO",
+  "razon": "La notación del curso usa grafías castellanas: ce/ci = [che]/[chi] (p-171 ci=[chi], p-173 ce=[che]) y che = [ke] (p-172). «cie = [che]» es consistente con esa convención y correcto (cielo=/tʃɛlo/, chelo=/kelo/).",
+  "fuente": "docs/js/ascolto_data.js:206",
+  "correccion": ""
+ },
+ {
+  "id": "lettura w-20",
+  "lote": "w20",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Ristorante al mare» = frente/junto al mar; «en el mar» sugiere dentro del agua. Cambiar opción y respuesta.",
+  "fuente": "docs/js/letture_settimana.js:633",
+  "correccion": "[\"¿Qué quiere hacer Marco?\", [\"abrir un restaurante frente al mar\", ...], \"abrir un restaurante frente al mar\"]"
+ },
+ {
+  "id": "item c1-comp-04",
+  "lote": "w23",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Ha» (3.ª) con «sembri» (2.ª): no concuerdan. (Además «di quanto non + congiuntivo» se ve en sem. 23 antes del congiuntivo, pero para 2.ª sg. la forma coincide con el indicativo.)",
+  "fuente": "tools/authored/c1_sintassi.py:222",
+  "correccion": "stem=\"Hai più soldi ___ non sembri.\""
+ },
+ {
+  "id": "p-095",
+  "lote": "w27",
+  "veredicto": "CONFIRMADO",
+  "razon": "En italiano estándar cóppa (o cerrada) = nuca/salume; còppa (o abierta) = copa/trofeo. Las glosas están invertidas.",
+  "fuente": "docs/js/ascolto_data.js:112",
+  "correccion": "P(\"p-095\", \"vocali\", 27, \"cóppa\", \"còppa\", \"nuca\", \"copa (trofeo)\", VOC, [\"coppa\", \"coppa\"])"
+ },
+ {
+  "id": "suoni p-187",
+  "lote": "w30",
+  "veredicto": "CONFIRMADO",
+  "razon": "Estándar: qui = [kwi] (u semiconsonante), cui = [kui] (u vocal). La nota dice [kui] para ambos y anula el contraste.",
+  "fuente": "docs/js/ascolto_data.js:209",
+  "correccion": "\"qui = [kwi] (la u es semiconsonante, una sola sílaba); cui = [kui] (la u es vocal, más marcada).\""
+ },
+ {
+  "id": "item c1-pass-05",
+  "lote": "w35",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "El ítem (si impersonale) está en topic «passivo» y se sirve en la semana 35, aunque «Si passivante e si impersonale» se enseña en la 36 (donde también está). Es un desajuste de ubicación, no un error de contenido.",
+  "fuente": "tools/authored/c1_sintassi.py:35 (topic=\"passivo\"; en course.json weeks[34].items[4])",
+  "correccion": "Cambiar topic a \"si impersonale\" (o darle w=36) para que solo aparezca desde la semana 36."
+ },
+ {
+  "id": "item g2-sc-21-c",
+  "lote": "w37",
+  "veredicto": "CONFIRMADO",
+  "razon": "«divenne» es forma correcta y frecuente del passato remoto de diventare; hoy se marcaría mal.",
+  "fuente": "tools/authored/grammatica2.py:759",
+  "correccion": "accept=[\"diventò\", \"divenne\"]"
+ },
+ {
+  "id": "vocab ringraziati",
+  "lote": "w42",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "«Agradecidos» en español es adjetivo (grateful); el participio de «li ho ringraziati» es «(los) agradecí»/«a quienes se agradeció». Error real pero menor.",
+  "fuente": "tools/bank/glossario.py:67 (course.json semana 42 vocab)",
+  "correccion": "\"ringraziati\": (\"agradecidos (part. de ringraziare: «los agradecí»)\", \"A2\")"
+ },
+ {
+  "id": "item g2-cb-38",
+  "lote": "w45",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "El participio assoluto no se enseña en ninguna lección (0 menciones) y no encaja en «Costruzioni verbali speciali». Su tema natural es la semana 44 (Gerundio e participio); el desajuste de 'conector' es cosmético.",
+  "fuente": "tools/authored/grammatica2.py:1559 (w=45)",
+  "correccion": "Cambiar a w=44 y agregar el participio assoluto (partito il treno...) a la lección de la semana 44; o retirar el ítem."
+ },
+ {
+  "id": "lettura w-49",
+  "lote": "w49",
+  "veredicto": "CONFIRMADO",
+  "razon": "«la cui durata si prevede di due settimane» es agramatical.",
+  "fuente": "docs/js/letture_settimana.js:1050",
+  "correccion": "la cui durata è prevista in due settimane"
+ },
+ {
+  "id": "item ex-cl-02",
+  "lote": "w52",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "«un lavoratore ogni cinque» es natural y correcto; la nota se contradice (marca * algo que existe). Se acepta «su» como respuesta preferida pero debería aceptarse «ogni».",
+  "fuente": "tools/authored/esame_c1.py:65-66",
+  "correccion": "accept: [\"su\", \"ogni\"]; nota: «uno su cinque» = uno de cada cinco (también «uno ogni cinque»). Error típico: *uno di cinque."
+ },
+ {
+  "id": "errore:392",
+  "lote": "T-errori-2",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "Para un rioplatense «cartera» es el bolso de mujer (borsa) y «billetera» es portafoglio; la nota es peninsular/mexicana. El ejercicio sirve (portafoglio es correcto), pero la nota confunde.",
+  "fuente": "tools/bank/errori_banca.py:857-858",
+  "correccion": "Nota: «Cartera» es falso amigo: en España/México es billetera (portafoglio); en Argentina es el bolso de mujer (borsa). Cartella = carpeta o mochila escolar. Agregar «la borsa» a las respuestas aceptadas si no es contexto inequívoco."
+ }
+]

@@ -1,0 +1,312 @@
+{
+ "week": 34,
+ "title": "Pronomi relativi",
+ "level": "B2",
+ "revisado": {
+  "items": 54,
+  "sfide": 2,
+  "bloques_teoria": 6,
+  "lecturas": 3,
+  "dictogloss": 1,
+  "suoni": 3
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida en contenido: la teoría de che/cui/il cui/il quale/chi/quello che es correcta, corta y con buenos ejemplos, y las respuestas de los ítems son casi todas correctas y con accept generoso. Los reparos son de diseño: mucha redundancia (in cui/per cui, refrán, sorella di Marco, libro del que), poca producción libre de quello che/il che/chi, un solo fixerr, «dove» usado y aceptado sin enseñarse, y un par mínimo de suoni inválido (quale/cuale). Las lecturas son claras pero usan poco il cui, chi y quello che. Hay un ítem ajeno al tema (l2-d-48).",
+ "bien": [
+  "Teoría correcta y ordenada en dos partes (che/cui/il cui; il quale/chi/lo que), con contraste explícito con el castellano y el matiz de «cui» sin «a».",
+  "Las notas de los ítems explican la regla (concordancia de il cui con lo poseído, «che» sin preposición) y las respuestas verificadas son correctas.",
+  "Buenos ítems de discriminación: c1-rel-02 (ragazza / il cui padre), g2-cb-23 y rf-15 (ambigüedad resuelta con la quale), g2-sc-19 (scopri).",
+  "Accept amplio en las traducciones (in cui / dove / nella quale; abito / vivo; passato prossimo / remoto).",
+  "La lectura fl-relativi es natural, coherente y usa cui, il quale y sus preposiciones con contexto vivo; el dictogloss integra che, cui, la quale, il che, chi y quello che en un texto único."
+ ],
+ "hallazgos": [
+  {
+   "id": "p-188",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "cuale",
+   "propuesta": "Reemplazar el par por uno real y relevante, p. ej. «che» / «ce» (es: «que» / «che, tse»), nota: che = [ke], ce = [tʃe]",
+   "motivo": "«cuale» no existe y suena igual que «quale» [ˈkwale]: no es un par mínimo y no entrena ningún contraste; la nota «qua = [kua]» no distingue nada"
+  },
+  {
+   "id": "a-027",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "perdòno",
+   "propuesta": "perdóno",
+   "motivo": "En «perdono» (sustantivo/verbo) la o tónica es cerrada [o]; el acento grave marca o abierta. Con «pèrdono» sí corresponde è. Además el ítem no se relaciona con el tema de la semana"
+  },
+  {
+   "id": "rf-38-08",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "L'Argentina ha vinto la partita, ___ ci ha sorpreso tutti.",
+   "propuesta": "L'Argentina ha vinto la partita, ___ ci ha sorpresi tutti.",
+   "motivo": "«ci ha sorpreso tutti» es forzado: el participio suele concordar con «ci» plural (sorpresi); alternativa: «ci ha sorpreso» a secas"
+  },
+  {
+   "id": "g2-cb-22",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Ho telefonato al direttore. Il direttore non c'era. (il quale)",
+   "propuesta": "Cambiar la frase a algo coherente, p. ej. «Ho parlato con il direttore. Il direttore non sapeva niente. (il quale)»",
+   "motivo": "«Telefonare» a alguien que «non c'era» es semánticamente contradictorio; además el ítem acepta «che non c'era», que ignora el conector pedido (il quale)"
+  },
+  {
+   "id": "g2-cb-22",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ho telefonato al direttore, che non c'era.",
+   "propuesta": "Quitar de accept la variante con «che» (la consigna exige il quale)",
+   "motivo": "La consigna fija el conector entre paréntesis; aceptar «che» evita practicar il quale"
+  },
+  {
+   "id": "g2-cb-23",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ho conosciuto la sorella di Marco, che vive a Torino.",
+   "propuesta": "Quitar de accept la variante con «che» o aclararlo en la nota",
+   "motivo": "La nota dice que «che» es ambiguo y la consigna pide «la quale»; aceptar «che» contradice el objetivo del ítem"
+  },
+  {
+   "id": "g2-cb-21",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Parlare di → di cui. Sin artículo: nunca «del cui».",
+   "propuesta": "Parlare di → di cui (nunca «del cui» cuando no hay sustantivo poseído; «del cui + sustantivo» sí existe: la persona del cui aiuto ho bisogno).",
+   "motivo": "«Nunca del cui» dicho sin matiz contradice la teoría (nel cui giardino) y puede leerse como falso"
+  },
+  {
+   "id": "rf-38-10",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Preposición + cui, o preposición articulada + quale.",
+   "propuesta": "Preposición + cui, o preposición + artículo + quale (con la quale).",
+   "motivo": "«con la quale» no es una preposición articulada (con + la no se fusionan); la terminología es imprecisa"
+  },
+  {
+   "id": "rf-38-18",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Sin antecedente, referido a persona: chi.",
+   "propuesta": "Aclarar que aquí «chi» es interrogativo indirecto (= quién), distinto del relativo «chi = el que» de la lección; o cambiar el ítem a «Chi ha rotto il vaso pagherà»",
+   "motivo": "La nota mezcla interrogativo y relativo sin antecedente; la consigna «(quién)» además delata la respuesta"
+  },
+  {
+   "id": "l2-d-48",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Non ci vorrà molto: ___ mezz'ora.",
+   "propuesta": "Sustituir por un ítem de relativos (p. ej. quel che / tutto ciò che)",
+   "motivo": "Ítem ajeno al tema de la semana (marcadores del discurso, sin diálogo visible pese a la consigna «encaja en el diálogo»)"
+  },
+  {
+   "id": "r10-01c",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "Interrogatives",
+   "propuesta": "Interrogativos",
+   "motivo": "Título de capítulo en inglés, si es visible al alumno"
+  },
+  {
+   "id": "r13-04b",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "Relative pronouns",
+   "propuesta": "Pronombres relativos",
+   "motivo": "Título de capítulo en inglés, si es visible al alumno"
+  },
+  {
+   "id": "lesson:0",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*che* es invariable: personas y cosas, sujeto u objeto directo. **Nunca** lleva preposición delante.",
+   "propuesta": "Agregar: en el uso coloquial «che» también aparece con valor temporal (il giorno che ci siamo conosciuti), pero en la norma se prefiere «in cui»",
+   "motivo": "«Nunca» es demasiado tajante; el alumno oirá «il giorno che...» sin haberlo visto"
+  },
+  {
+   "id": "lesson:0",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "El relativo **no se omite nunca**, igual que en castellano: *il libro che ho letto*, nunca «il libro ho letto».",
+   "propuesta": "Reemplazar el aviso por un error típico del hispanohablante: repetir el pronombre («la ragazza che parlo con lei») o usar «che» tras preposición",
+   "motivo": "El aviso previene un error del inglés, no del español rioplatense; el error real (che + preposición, pronombre repetido) solo aparece en un ítem"
+  },
+  {
+   "id": "c1-rel-04",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "«in cui» o «dove»; «che» solo sin preposición.",
+   "propuesta": "Enseñar «dove» como relativo de lugar en el bloque de cui",
+   "motivo": "«dove» se acepta y se menciona en muchas notas (rf-38-02, -12, g2-cb-20, sfide) pero la lección nunca lo presenta"
+  },
+  {
+   "id": "rf-38-24",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Non capisco ciò che dici",
+   "propuesta": "Agregar a accept «Non capisco quel che dici»",
+   "motivo": "«quel che» se enseña en el bloque 5 y es respuesta igual de natural"
+  },
+  {
+   "id": "g2-sc-19-c",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "La persona ___ ho telefonato non ha risposto.",
+   "propuesta": "Agregar a accept «alla quale»",
+   "motivo": "Respuesta correcta y enseñada en la semana que hoy se rechaza"
+  },
+  {
+   "id": "g2-va-69",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "La ragazza con cui parlo è Anna.",
+   "propuesta": "Agregar a accept «La ragazza con la quale parlo è Anna.»",
+   "motivo": "Corrección igual de válida no contemplada"
+  },
+  {
+   "id": "rf-38-14",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Il paese ___ viene mia nonna è in Calabria.",
+   "propuesta": "Agregar a accept «da dove» (es coloquial y frecuente), coherente con los otros ítems de lugar que aceptan «dove»",
+   "motivo": "Inconsistencia con rf-38-12, que sí acepta «dove»"
+  },
+  {
+   "id": "s:r13-04b:b",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "I motivi per cui è emigrato non sono chiari.",
+   "propuesta": "Agregar variantes con «è emigrata» / «sono emigrati»",
+   "motivo": "«emigró» en español no marca género; un alumno que piense en una abuela quedaría marcado como incorrecto"
+  },
+  {
+   "id": "rf-38-09",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "___ dorme non piglia pesci.",
+   "propuesta": "Reemplazar por otro ejemplo de chi (p. ej. «Chi ha finito può uscire» con distractores basados en la regla)",
+   "motivo": "El mismo refrán aparece en la lección, en d14-030 y aquí: se memoriza, no se practica"
+  },
+  {
+   "id": "rf-38-22",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "La chica con la que salgo es italiana.",
+   "propuesta": "Variar el contenido (otra preposición: da cui, su cui, tra cui)",
+   "motivo": "Casi duplicado de g2-ct-46 (La chica con la que hablás es mi prima) y de sfide r10-01c:f"
+  },
+  {
+   "id": "rf-38-23",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Es el libro del que todos hablan.",
+   "propuesta": "Variar la estructura o eliminarlo",
+   "motivo": "Casi duplicado de g2-ct-47 y de c1-rel-01 (libro di cui ti ho parlato)"
+  },
+  {
+   "id": "rf-38-24",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "No entiendo lo que decís.",
+   "propuesta": "Cambiar el ejemplo (p. ej. «No creo a quello che dice»/«Tutto quello che mi hai detto»)",
+   "motivo": "Es idéntico al ejemplo de la lección (Non capisco quello che dici) y casi a c1-rel-03"
+  },
+  {
+   "id": "rf-38-15",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Elegí el relativo que deja claro que la que vive en París es la hermana.",
+   "propuesta": "Cambiar la frase o quitar el ítem",
+   "motivo": "Repite la frase de la lección y de g2-cb-23 (sorella di Marco)"
+  },
+  {
+   "id": "g2-ct-46",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Prima = cugina; pariente singular → sin artículo.",
+   "propuesta": "«prima» (prima hermana) = cugina; con un pariente en singular el posesivo va sin artículo: mia cugina.",
+   "motivo": "La nota es críptica y «prima» se confunde con el italiano prima (antes)"
+  },
+  {
+   "id": "d14-021",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "il ragazzo ___ padre è medico (el chico cuyo padre es médico)",
+   "propuesta": "Usar casos donde poseedor y poseído difieran en género (la ragazza il cui padre), como en c1-rel-02",
+   "motivo": "En d14-021 y d14-022 el género del poseedor coincide con el del poseído: se acierta con la regla equivocada"
+  },
+  {
+   "id": "rf-38-11",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Completá con el relativo (por el que).",
+   "propuesta": "Quitar el paréntesis con la preposición en español o dejarlo solo en el primero",
+   "motivo": "Los paréntesis rf-38-10 a -14 regalan la preposición; el alumno solo elige cui, sin decidir la preposición"
+  },
+  {
+   "id": "c-calvino",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "congiuntivo imperfetto",
+   "propuesta": "Cambiar la lectura por una que use los relativos de la semana (o etiquetar su gramática real)",
+   "motivo": "La lectura es B1, con etiqueta gramatical ajena a la semana y solo dos relativos (che ha visitato, da cui è partito)"
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Reducir duplicados (in cui/per cui, refrán ×3, sorella di Marco ×3, libro del que ×3, «lo que decís» = ejemplo de la lección) y reasignar esos cupos a producción de quello che/tutto ciò che/il che y a más ítems fixerr/typed.",
+   "por_que": "Los puntos 4 de las claves (quello che, il che) casi no se producen; los ya dominados se repiten."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar «dove» como relativo de lugar en el bloque de cui y el error típico del hispanohablante (che + preposición, pronombre repetido: «la ragazza che parlo con lei») con más de un fixerr.",
+   "por_que": "Se usa y acepta «dove» sin enseñarlo, y el error más frecuente solo se practica una vez."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Reemplazar el par p-188 (quale/cuale) por un par real, p. ej. che [ke] / ce [tʃe], y corregir el acento de «perdòno».",
+   "por_que": "El par actual no contrasta ningún sonido; las suoni de esta semana no se relacionan con los relativos."
+  },
+  {
+   "prioridad": "media",
+   "que": "Ampliar las lecturas para incluir il cui, chi, quello che e il che (fl-relativi y w-34 no los usan) y sustituir c-calvino (B1, congiuntivo) por un texto con relativos.",
+   "por_que": "La lectura debe reciclar la gramática de la semana."
+  },
+  {
+   "prioridad": "media",
+   "que": "Quitar de accept las variantes que ignoran el conector pedido (g2-cb-22, g2-cb-23) y agregar variantes válidas omitidas (alla quale, quel che, da dove, con la quale, è emigrata).",
+   "por_que": "Evita marcar bien respuestas correctas y evita que se esquive la estructura objetivo."
+  },
+  {
+   "prioridad": "media",
+   "que": "Quitar los paréntesis en español que revelan la preposición (rf-38-10 a -14) en parte de los ítems y variar los casos de il cui (poseedor y poseído de distinto género, nel cui).",
+   "por_que": "Que el alumno decida la preposición y aplique la concordancia real."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Retirar l2-d-48, traducir los títulos de capítulo en inglés y ajustar las claves («cui siempre con preposición» vs. la excepción de «a»).",
+   "por_que": "Coherencia con el tema y con el idioma de la interfaz."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Una lectura más exigente en las preguntas (todas son literales) e incluir alguna «non si dice».",
+   "por_que": "Las preguntas actuales se responden localizando una palabra, sin comprender la relación sintáctica."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 2
+  }
+ }
+}

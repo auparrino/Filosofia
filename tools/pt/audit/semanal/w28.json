@@ -1,0 +1,221 @@
+{
+ "week": 28,
+ "title": "Imperfeito do subjuntivo e condicionais",
+ "level": "B2",
+ "revisado": {
+  "items": 46,
+  "bloques_teoria": 9,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 4,
+  "radio": 0,
+  "otros": 3
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida en el núcleo (forma en -sse, irregulares desde la 3.ª plural del perfeito, se + imperfeito + condicional, queria que, como se): teoría clara, ejercicios correctos y con buenos accept. Los reparos: 2 de los 3 últimos bloques de teoría (opinar con talvez/é possível que, sotaque do Pará) casi no tienen ejercicios; la práctica es repetitiva (choice/cloze/translate); hay un error de concordancia de tiempos en la columna del tramo y una afirmación dialectal dudosa (tu vais en Pará). Falta el eje «lamentar» del fare.",
+ "bien": [
+  "La regla «tronco de la 3.ª plural del perfeito + -sse» se enseña con tabla de irregulares completa y se refuerza con ítems garden/typed/scopri.",
+  "Contraste constante con el español rioplatense (se tivesse vs «tuviera», «que vá» como calco, imperfeito en la principal como en «si pudiera, iba»).",
+  "Buenos distractores basados en la regla (vissem/viessem, sabesse/soubesse, vivera = pluscuamperfecto, for/tivermos = futuro do subjuntivo) y fixerr bien elegidos (poderia tras se, traga, tivera, fossemos sin circunflejo).",
+  "Los accept de translate/combina contemplan registro escrito y oral (iria/ia, pra/para/à, eu explícito o no).",
+  "La lectura del tramo (columna del iogurte) usa casi todas las construcciones de la semana de forma natural, con preguntas de inferencia de buen nivel B2; el podcast y la publicidad dan práctica de escucha pertinente.",
+  "Vocabulario bien alineado con los textos (abrir mão de, largar, juntar, encarar, etc.)."
+ ],
+ "hallazgos": [
+  {
+   "id": "tramo lettura (E se a gente escolhesse menos?)",
+   "lang": "pt",
+   "severidad": "error",
+   "actual": "Proponho algo mais modesto: que parássemos de tratar cada escolha como se fosse a última.",
+   "propuesta": "Proponho algo mais modesto: que paremos de tratar cada escolha como se fosse a última.",
+   "motivo": "Principal en presente (proponho) pide presente de subjuntivo; la propia lección enseña imperfeito solo tras principal en pasado/condicional (y la frase anterior usa «voltem»). También ajustar gloss y hunt target «parássemos»."
+  },
+  {
+   "id": "lesson:8:0 (Sotaque da semana: Pará)",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "En Belém se usa *tu* con su verbo (*tu vais*, *tu queres*)",
+   "propuesta": "En Belém se usa *tu* con el verbo en 3.ª persona: *tu vai*, *tu quer*; y ejemplo «*Tu vai* ao Círio?»",
+   "motivo": "«tu vais/tu queres» son formas de Portugal; en el Pará el tuteo es con verbo en 3.ª persona. Presenta como brasileño algo europeo."
+  },
+  {
+   "id": "lesson:8:ex",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "*Tu vais* ao Círio?",
+   "propuesta": "*Tu vai* ao Círio?",
+   "motivo": "Misma razón: forma europea de 2.ª persona presentada como pt-BR del Pará."
+  },
+  {
+   "id": "col-28-2",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Se você ___ mão desse emprego, se arrependeria. (abrisse / largasse / deixasse)",
+   "propuesta": "Cambiar distractor «largasse» (p. ej. por «tirasse» o «pegasse») o reformular el enunciado",
+   "motivo": "«largar mão de» es locución real en pt-BR (desistir), por lo que «largasse» podría ser aceptable; riesgo de 2 correctas."
+  },
+  {
+   "id": "col-28-1",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Se eu ganhasse ___ loteria, abriria uma pousada. (na / a / em)",
+   "propuesta": "Quitar «a» de las opciones o aclarar en el enunciado",
+   "motivo": "«ganhar a loteria» también existe; «a» no es claramente incorrecto. La nota «sin preposición suena a español» es discutible."
+  },
+  {
+   "id": "s3-28-28",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "O que tu farias se ganhasse na loteria",
+   "propuesta": "Retirar las variantes con «tu farias» del accept (o usar «tu faria … ganhasses»)",
+   "motivo": "Mezcla «tu» con condicional de 2.ª persona (europeo) y subjuntivo en 3.ª persona; incoherente y no enseñado en pt-BR."
+  },
+  {
+   "id": "s3-28-28",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "O que você faria se ganhasse na loteria",
+   "propuesta": "Agregar accept: «se ganhasse a loteria», «se ganhasse o prêmio da Mega-Sena», «o que você faria se ganhasse na Mega-Sena» (ya está)",
+   "motivo": "Respuesta natural no cubierta («ganhar a loteria»)."
+  },
+  {
+   "id": "s3-28-26",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Se a gente fosse ricos, moraríamos no Leblon",
+   "propuesta": "Retirar o cambiar por «Se a gente fosse rico»",
+   "motivo": "Mezcla a gente + predicativo plural y luego verbo en 1.ª plural; mala norma para enseñar. Mejor quitar las variantes con «a gente fosse ricos»."
+  },
+  {
+   "id": "s3-28-30",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Eu queria que tu viesses comigo",
+   "propuesta": "Quitar «tu viesses» del accept o dejarlo solo como tolerancia",
+   "motivo": "Forma de 2.ª persona (no enseñada en la tabla, que solo trae ele/você, nós, eles) y poco brasileña."
+  },
+  {
+   "id": "s3-28-32",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Se eu fosse tu, não iria",
+   "propuesta": "Quitar del accept",
+   "motivo": "«fosse tu» sin concordancia regional es raro en pt-BR; el curso usa você."
+  },
+  {
+   "id": "lesson:2:warn",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*-a-* lleva tilde aguda (*falássemos*), *-e-* circunflejo (*comêssemos*), *-i-* aguda (*partíssemos*). Y *fôssemos*, con circunflejo.",
+   "propuesta": "Agregar: «Los irregulares con -e- abierta llevan agudo: tivéssemos, pudéssemos, estivéssemos, viéssemos, déssemos, disséssemos, puséssemos»",
+   "motivo": "Un alumno generalizaría «-e- = circunflejo» y escribiría *tivêssemos*; los ítems 14, 24, 38, 39 exigen agudo sin que la regla lo diga."
+  },
+  {
+   "id": "s3-28-05",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "moraria / morasse / moraría",
+   "propuesta": "Cambiar «moraría» por una opción gramatical distinta (p. ej. «morava»)",
+   "motivo": "Distractor puramente ortográfico (tilde inexistente) que no evalúa la regla de la semana; la nota explica algo ajeno al tema."
+  },
+  {
+   "id": "s3-28-37",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "ir → ___ (fôssemos) / s3-28-43 ser → ___ (fôssemos)",
+   "propuesta": "Reemplazar uno de los dos (p. ej. garden con «pôr → puséssemos» o «trazer → trouxéssemos»)",
+   "motivo": "ir/ser comparten forma: 37, 43 y el cloze 17/26 repiten lo mismo; los garden no muestran los «tres ejemplos» que mencionan en el dossier."
+  },
+  {
+   "id": "s3-28-21",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Queria que você ___ (vir) no meu aniversário.",
+   "propuesta": "Variar: usar otro verbo/estructura en 21, 30 o 46",
+   "motivo": "«Queria que você viesse» se repite en 21, 30 y 46 (y viessem/viesse en 04 y 38): casi duplicados."
+  },
+  {
+   "id": "tramo breve",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "Neste inverno, de maio a agosto",
+   "propuesta": "Neste inverno, de junho a setembro",
+   "motivo": "El invierno austral va de junio a septiembre; «de maio a agosto» suena a baja temporada y no a invierno."
+  },
+  {
+   "id": "dictogloss w28",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "sertão: el interior seco y pobre del Nordeste",
+   "propuesta": "sertão: el interior semiárido del Nordeste",
+   "motivo": "«pobre» es estereotipo; la glosa debe describir el clima/geografía."
+  },
+  {
+   "id": "tramo lettura q3",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "terra, escola nem trabalho",
+   "propuesta": "nem terra, nem escola, nem trabalho",
+   "motivo": "Opción correcta mal formada gramaticalmente («terra, escola nem trabalho»)."
+  },
+  {
+   "id": "p-173 (suoni)",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "prêmio / premio (verbo)",
+   "propuesta": "Reemplazar por un par de la semana (p. ex. «vê / vem», «pôde / pode»)",
+   "motivo": "Par no relacionado con el tema; además el «es» muestra «premio» igual en ambas filas, sin contraste útil para el hispanohablante."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Agregar ejercicios para los bloques 7 (opinar con acho que / talvez / é possível que + subjuntivo) y 8 (Pará), o moverlos a otra semana; hoy la parte «Opinar por escrito» solo tiene 2 ítems de colocaciones y el contraste indicativo/subjuntivo con acho que / não acho que no se practica.",
+   "por_que": "Se enseñan puntos sin práctica asociada (2 de 9 bloques) y la sección rompe la unidad temática de la semana."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Diversificar la práctica: casi todo es choice/cloze/translate sobre la misma estructura; añadir producción semiabierta (completar la otra mitad de la hipótesis, transformar «Como não tenho… → Se eu tivesse…», elegir entre indicativo/futuro do subj./imperfeito del subj. según real vs irreal).",
+   "por_que": "Falta el contraste real (se eu puder/for) vs irreal (se eu pudesse), que es el error central del hispanohablante, solo aparece en distractores."
+  },
+  {
+   "prioridad": "media",
+   "que": "Cubrir el eje «lamentar» del fare: quem dera, ah se eu pudesse, como se (ya está), oxalá/tomara que + imperfeito; hay solo una mención en la lectura del tramo.",
+   "por_que": "El objetivo comunicativo declarado incluye lamentar y no se enseña ni practica."
+  },
+  {
+   "prioridad": "media",
+   "que": "Aclarar en la lección la acentuación de los irregulares (tivéssemos, pudéssemos, viéssemos, déssemos con agudo) y dar una regla corta de estas formas esdrújulas.",
+   "por_que": "Los ítems las exigen y la advertencia actual induce a error."
+  },
+  {
+   "prioridad": "media",
+   "que": "Ajustar el criterio de accept: eliminar las variantes con tu + 2.ª persona y «a gente fosse ricos», y sumar variantes naturales (ganhar a loteria, para/pra Noronha).",
+   "por_que": "Evita enseñar formas europeas/dudosas y rechazar respuestas correctas."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Reducir repeticiones (queria que você viesse x3, fôssemos x3, como se fosse x4) y rebalancear: 14 choice contra 3 garden y 2 typed.",
+   "por_que": "Carga de 46 ítems alta con redundancia; se aprende más con variedad."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Alinear suoni con la semana (pares como pude/pudesse, vê/vem; entonación de condicionales) en lugar de prêmio/democracia.",
+   "por_que": "Pares y ejercicio de acento no se relacionan con el imperfeito do subjuntivo."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 1,
+   "dudas": 4
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

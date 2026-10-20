@@ -1,0 +1,262 @@
+{
+ "week": 24,
+ "title": "Congiuntivo presente: forme",
+ "level": "B1",
+ "revisado": {
+  "items": 17,
+  "sfide": 17,
+  "bloques_teoria": 5,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 4
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "La teoría de formas es clara y correcta (tablas exactas, irregulares bien elegidos, buen contraste con el castellano) y las respuestas del banco son casi todas correctas. Los problemas son de diseño: los ítems c1-cong exigen decidir por uso lo que la lección posterga a la semana 25, hay ortografía (paghi, comincino, mangi) no enseñada y las sfide mezclan capítulos ajenos (sufijos, pasiva). Hay una nota fonética inexacta (pranzo) y una opción doble en c1-cong-05. Pocos falsos positivos esperables en los errores (~10-15%); las dudas son más discutibles (~35%).",
+ "bien": [
+  "Las tablas del congiuntivo (regulares, -isc y 16 irregulares) son correctas y completas para el nivel.",
+  "El truco «noi = indicativo, voi sale de noi» reduce la carga de memoria y es exacto.",
+  "La comparación con la vocal del castellano (-ar → e vs -are → i) ataca el error típico del hispanohablante.",
+  "El bloque «Ya lo venías usando» conecta con el imperativo formal ya conocido.",
+  "Las sfide r24 practican bien irregulares (fare, andare, dare, dire, stare, avere, volere, potere, bere, rimanere) en contexto.",
+  "La lectura w-24 y el dictogloss usan el congiuntivo con verbos de opinión, y la caza de formas cubre todas las formas del texto."
+ ],
+ "hallazgos": [
+  {
+   "id": "item c1-cong-05",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Si dice che ___ molto brava.",
+   "propuesta": "Cambiar el enunciado a uno con una sola opción posible (p. ej. «Non credo che ___ molto brava.» sia/è/era) o quitar «è» de las opciones.",
+   "motivo": "«Si dice che è molto brava» es italiano estándar y frecuente: hay dos opciones correctas (sia y è)."
+  },
+  {
+   "id": "item c1-cong-05",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "«Si dice che» (se dice que) introduce rumor, no hecho: congiuntivo.",
+   "propuesta": "«Si dice che» admite indicativo (lo normal) y congiuntivo (registro más cuidado); no afirmar que exige congiuntivo.",
+   "motivo": "Generalización falsa: enseña como obligatorio algo opcional."
+  },
+  {
+   "id": "item c1-cong-05",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Elegí la forma correcta (registro cuidado).",
+   "propuesta": "Explicar en la consigna qué significa «registro cuidado» o eliminar la aclaración.",
+   "motivo": "Consigna poco clara: el alumno no sabe qué criterio aplicar."
+  },
+  {
+   "id": "item c1-cong-07",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "«Aspettare che» y «prima che» piden congiuntivo («finché non» lo admite, aunque suele ir con indicativo).",
+   "propuesta": "«Aspettare che» y «prima che» piden congiuntivo.",
+   "motivo": "La aclaración sobre «finché non» es confusa (con valor de futuro suele llevar congiuntivo) y no se relaciona con el ítem."
+  },
+  {
+   "id": "item c1-cong-09",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Cerco una segretaria che ___ il cinese.",
+   "propuesta": "Mantener solo si la semana enseña antes el uso (relativa con antecedente indeterminado), o moverlo a la semana 25.",
+   "motivo": "La lección dice «el uso, la semana que viene», pero c1-cong-05/07/08/09 exigen elegir entre indicativo y congiuntivo por uso (si dice che, aspettare che, prima che, relativas)."
+  },
+  {
+   "id": "item d20-001",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Suggeriamo che lui ___ (pagare) il conto.",
+   "propuesta": "Agregar a la lección un mini-bloque de ortografía (-care/-gare → -chi/-ghi; -ciare/-giare → -ci/-gi; -iare → -i) o retirar pagare/cominciare/mangiare.",
+   "motivo": "La h de «paghi» (y comincino, mangi en las sfide) no se enseña en ningún bloque."
+  },
+  {
+   "id": "item d20-009",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Può darsi che loro ___ (cantare).",
+   "propuesta": "Reemplazar por otra estructura o por un irregular (p. ej. «Voglio che loro ___ (fare)»).",
+   "motivo": "Casi duplicado de c1-cong-13 («Può darsi che loro non ___»); además falta practicar dovere, noi e irregulares con loro/voi."
+  },
+  {
+   "id": "lesson:blocks:2",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Al revés que en castellano: *-are* hace **-i** (*che parli*); *-ere* e *-ire* hacen **-a** (*che prenda*, *che dorma*).",
+   "propuesta": "Solo -are es distinto del castellano: «Como en castellano, -ere/-ire hacen -a; pero -are hace -i, no -e».",
+   "motivo": "«Al revés» contradice el propio «more» del bloque, donde se dice que -ere/-ire coinciden con el castellano."
+  },
+  {
+   "id": "lesson:blocks:2",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Es la confusión más común del hispanohablante.",
+   "propuesta": "Aclarar que el error típico es el indicativo tras credere/sperare («che parla») o la -e castellana («che parle»); quitar «más común» si no hay datos.",
+   "motivo": "El aviso bajo el título «La vocal que confunde» habla del indicativo y no de la vocal; la afirmación de frecuencia no está sustentada."
+  },
+  {
+   "id": "lesson:blocks:1",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "En castellano la terminación ya dice quién («que vengas»), así que el pronombre se te va a olvidar.",
+   "propuesta": "En castellano solo la 2ª persona se distingue («que vengas»); «que venga» también es yo/él. Contrastar sobre todo el tu.",
+   "motivo": "En español el subjuntivo presente también tiene 1ª y 3ª persona idénticas, así que el contraste está exagerado."
+  },
+  {
+   "id": "lesson:blocks:0",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Tomá el *io* del presente, sacale la *-o* y sumá las terminaciones: *vengo → venga*, *faccio → faccia*.",
+   "propuesta": "Escribir las terminaciones en la regla («-are: -i; -ere/-ire: -a») y aclarar que noi/voi no salen del io.",
+   "motivo": "La regla remite a «las terminaciones» sin enunciarlas y no cubre noi/voi (que se explican recién en el bloque 3)."
+  },
+  {
+   "id": "lesson:parts:1",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Irregulares y usos",
+   "propuesta": "Renombrar a «Irregulares e imperativo formal» (o agregar un bloque de usos).",
+   "motivo": "El título promete usos, pero la lección los posterga a la semana 25."
+  },
+  {
+   "id": "lettura c-boom",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "presente e passato prossimo",
+   "propuesta": "Sustituir por una lectura sobre opiniones/actualidad con congiuntivo, o marcarla como lectura cultural de repaso.",
+   "motivo": "No usa el congiuntivo, ni se relaciona con «Temas de actualidad» ni con «Dar y pedir opiniones»."
+  },
+  {
+   "id": "suoni p-119",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "[ts] en pranzo.",
+   "propuesta": "«pranzo» se pronuncia con [dz] en el estándar (ˈprandzo); en el norte se oye también [ts].",
+   "motivo": "Nota fonética inexacta: en pranzo la z es sonora tras n en el italiano estándar."
+  },
+  {
+   "id": "suoni c-034",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Che sia vero.",
+   "propuesta": "Cambiar la opción por otra distinta al oído, o explicitar que se elige por entonación.",
+   "motivo": "Las opciones se distinguen solo por la puntuación y «Che sia vero.» también es una oración posible; el ítem depende del audio."
+  },
+  {
+   "id": "dictogloss Un consiglio a Luca",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Comunque vada, sappi che io ci sono.",
+   "propuesta": "Reemplazar por una frase con congiuntivo enseñado (p. ej. «Spero che vada tutto bene»).",
+   "motivo": "«Comunque vada» y «sappi» (imperativo irregular) son estructuras no enseñadas y difíciles de transcribir."
+  },
+  {
+   "id": "sfide r16-02:d",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "___: è stato fermato dalla polizia. (Y no solo eso: lo paró la policía.)",
+   "propuesta": "Usar «E non basta:» o «Non solo: ...» con un enunciado que continúe con «ma anche».",
+   "motivo": "«Non solo: è stato fermato» es poco natural; falta el correlato «ma anche»."
+  },
+  {
+   "id": "sfide r16-02:a",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "___ Emilio ___ Elisabetta sono stati promossi. (Tanto Emilio como Elisabetta aprobaron.)",
+   "propuesta": "Indicar en la consigna cómo se escriben los dos huecos (separados por « | »).",
+   "motivo": "Los ítems de dos o tres huecos (r16-02, r22-01, r22-03, r22-07) no explican el formato de respuesta."
+  },
+  {
+   "id": "sfide r24-05:b",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "È possibile che il treno ___ in ritardo. (essere) (Es posible que el tren llegue tarde.)",
+   "propuesta": "Traducir «Es posible que el tren esté retrasado.» o pedir arrivare.",
+   "motivo": "La traducción («llegue tarde») no coincide con el verbo pedido (essere)."
+  },
+  {
+   "id": "sfide s:r22-01b:c",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Mi dia un po' di pane",
+   "propuesta": "Agregar en accept «Mi dia del pane»; en s:r22-01b:d agregar «Ci prepari un caffè».",
+   "motivo": "Variantes igual de naturales que un alumno escribiría no están aceptadas."
+  },
+  {
+   "id": "sfide r26-01",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Non è giusto che il governo critichi gli insegnanti.",
+   "propuesta": "Mover la pasiva a la semana correspondiente o reemplazar por ejercicios de forma del congiuntivo.",
+   "motivo": "Exige la voz pasiva (con tiempos compuestos de essere) que no se enseña esta semana."
+  },
+  {
+   "id": "sfide r06-05",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "Suffixes",
+   "propuesta": "Traducir los nombres de capítulo («Sufijos», «Pronombres personales», «Demostrativos», «Indefinidos», «Conectores», «El imperativo», «El subjuntivo», «La voz pasiva y construcciones afines»).",
+   "motivo": "Los campos «chapter» de las sfide están en inglés; si el alumno los ve, es texto en inglés."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Alinear los ítems con lo enseñado: mover c1-cong-05/07/08/09 a la semana 25 o agregar un bloque breve de disparadores (credo che, spero che, voglio che, bisogna che).",
+   "por_que": "La lección promete solo formas pero los ítems piden elegir indicativo vs congiuntivo por uso."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar un bloque de ortografía (-care/-gare, -ciare/-giare, -iare) y una lista corta de verbos -isc (capire, preferire, spedire, tradire).",
+   "por_que": "Los ítems ya piden paghi, comincino, mangi, capiscano, spediscano sin haberlo enseñado."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Corregir c1-cong-05 (dos opciones válidas) y su nota sobre «si dice che».",
+   "por_que": "Es el único ítem del banco con respuesta ambigua y enseña una regla demasiado rígida."
+  },
+  {
+   "prioridad": "media",
+   "que": "Diversificar tipos de ejercicio: agregar conjugate/tabla, fixerr («che parla» → «che parli») y typed con noi y voi; hoy solo hay cloze y choice.",
+   "por_que": "El error típico (indicativo o vocal equivocada) y la forma noi no se practican."
+  },
+  {
+   "prioridad": "media",
+   "que": "Balancear cobertura: agregar ítems de noi, dovere (debba/debbano), uscire, scegliere, y voi irregular.",
+   "por_que": "En items solo hay 2 con voi y ninguno con noi; debba no aparece en ejercicios."
+  },
+  {
+   "prioridad": "media",
+   "que": "Depurar las sfide: reemplazar sufijos (r06-05), demostrativos, indefinidos, conectores y pasiva por repaso del imperativo formal y forms del congiuntivo.",
+   "por_que": "8 de 17 sfide no tocan el tema de la semana."
+  },
+  {
+   "prioridad": "media",
+   "que": "Cambiar o complementar la lectura c-boom por un texto de actualidad con congiuntivo.",
+   "por_que": "No practica el tema, ni «Dar y pedir opiniones»."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Agregar notas a los cloze d20-001..010 y usar terminología uniforme (congiuntivo vs «subjuntivo» en las notas de sfide).",
+   "por_que": "Los d20 no explican el error; las sfide dicen subjuntivo y la lección congiuntivo."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Agregar preguntas «non si dice» a la lectura w-24 y verificar los n_items de parts (18 y 12) contra los 17 ítems reales.",
+   "por_que": "Las preguntas son todas de opción; el conteo de parts no coincide."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

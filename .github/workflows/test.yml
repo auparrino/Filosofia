@@ -1,0 +1,110 @@
+name: tests
+
+# Una corrida por push: en una rama con PR del mismo repo ya corre el push,
+# así que el evento pull_request solo cuenta para los forks.
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+# Un push nuevo a la misma rama cancela la corrida anterior.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: tests y lint
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name != github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: package.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      - name: Tests de lógica, datos y contenido (npm test)
+        run: npm test
+      - name: Lint (eslint sobre docs/)
+        run: npm run lint
+
+  build:
+    name: docs/ se reproduce desde las fuentes
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name != github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: package.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      # los .txt de GITenberg y las listas de palabras de la Biblioteca
+      - uses: actions/cache@v4
+        with:
+          path: tools/.cache/biblioteca
+          key: biblioteca-${{ hashFiles('tools/lib/biblioteca_fuentes.js') }}
+      - name: npm run build
+        run: npm run build > /dev/null
+      - name: Lo generado en docs/ coincide con lo commiteado
+        run: |
+          if ! git diff --stat --exit-code -- docs/; then
+            echo "::error::docs/ no está al día con tools/: corré npm run build y commiteá lo que cambie"
+            exit 1
+          fi
+          nuevos=$(git status --porcelain --untracked-files=all -- docs/)
+          if [ -n "$nuevos" ]; then
+            echo "$nuevos"
+            echo "::error::npm run build deja archivos nuevos en docs/: commitealos (o sacalos del build)"
+            exit 1
+          fi
+
+  sim:
+    name: un año simulado por idioma
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name != github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: package.json
+      - name: npm run sim
+        run: npm run sim > sim.log || { tail -n 60 sim.log; exit 1; }
+      - name: Resumen
+        if: always()
+        run: grep -E "^sim |no dominadas" sim.log || true
+
+  smoke:
+    name: prueba de humo en Chromium
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name != github.repository
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: package.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version-file: .python-version
+      - name: Playwright y Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56
+          npx playwright install --with-deps chromium
+      - name: La app entera en Chromium (tools/lib/smoke_browser.js)
+        run: node tools/lib/smoke_browser.js
+      - name: Cada misión jugada entera queda hecha (tools/lib/smoke_misiones.js)
+        run: node tools/lib/smoke_misiones.js
+      - name: El teclado de la app en cada idioma (tools/lib/smoke_teclado.js)
+        run: node tools/lib/smoke_teclado.js
+      - name: El alemán en Chromium (tools/lib/smoke_aleman.js)
+        run: node tools/lib/smoke_aleman.js

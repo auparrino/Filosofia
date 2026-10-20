@@ -1,0 +1,302 @@
+{
+ "week": 22,
+ "title": "Pronomi combinati",
+ "level": "B1",
+ "revisado": {
+  "items": 28,
+  "sfide": 17,
+  "bloques_teoria": 5,
+  "lecturas": 3,
+  "dictogloss": 1,
+  "suoni": 4
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "La teoría núcleo (tabla mi→me, glielo, participio, imperativo) es correcta y clara, con buenos avisos contra el calco «se lo». Los ítems no tienen errores graves de italiano, pero hay 1 opción distractora que contradice la regla (g2-sc-12), 1 respuesta aceptada incorrecta en una sfida (r20-06:d) y 1 incoherencia en una lectura (fl-combinati). El principal problema es de cobertura: «ne» no se enseña y se exige mucho, y el imperativo y el participio casi no se practican; 10 de 28 ítems son la misma tabla. Varias sfide son de otros temas.",
+ "bien": [
+  "Tabla completa de combinaciones (mi/ti/gli-le/ci/vi/si × lo/la/li/le/ne) y aviso claro «mi lo no existe».",
+  "Buen contraste con el castellano: glielo vs «se lo», y se lo reflexivo (se lo mette).",
+  "Las sfide de combinados (r07-01g, 02h, 03h, 04g, 06b, 07b) son naturales, contextualizadas y con respuestas correctas y variantes aceptadas amplias.",
+  "La lectura fl-combinati muestra bien glielo/gliela/glieli/gliene y las formas pegadas (dirglielo, portaglielo) en un diálogo cotidiano.",
+  "Explicaciones (note) breves y correctas en casi todos los ítems; el voseo es consistente.",
+  "Dictogloss pertinente: reúne combinados en presente con una situación social realista."
+ ],
+ "hallazgos": [
+  {
+   "id": "item g2-sc-12",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Primero el directo y después el indirecto, como en «dámelo».",
+   "propuesta": "Primero el directo y después el indirecto: «lo me», «lo gli».",
+   "motivo": "«dámelo» = da+me+lo: el indirecto va primero también en castellano; el ejemplo del distractor refuta la propia opción y confunde (además contradice la intro de la lección)."
+  },
+  {
+   "id": "item g2-sc-12",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "En castellano «se lo» pierde la persona; en italiano glielo es él o ella.",
+   "propuesta": "En castellano y en italiano el indirecto de 3.ª persona se neutraliza: «se lo» y glielo valen para él, ella, usted y ellos; lo que cambia es la forma (se→glie-) y que va en una sola palabra.",
+   "motivo": "glielo tampoco distingue género/número (la lección dice «él, ella, usted y ellos»); el contraste es falso o confuso."
+  },
+  {
+   "id": "sfide r20-06:d",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "['o | a', 'a | a'] (accept de «Angelo, ti sei mess___ la giacca?»)",
+   "propuesta": "Aceptar solo «o | a» (messo … messa) y ajustar la nota.",
+   "motivo": "Angelo es varón; con objeto nominal pospuesto el participio concuerda con el sujeto (ti sei messo la giacca). «messa» en el primer hueco no es estándar; la nota lo presenta como admitido y enseña mal."
+  },
+  {
+   "id": "lettura fl-combinati",
+   "lang": "it",
+   "severidad": "error",
+   "actual": "E gli appunti del corso, se li ha ancora, glieli lascio volentieri.",
+   "propuesta": "E gli appunti del corso, se li ho ancora, glieli lascio volentieri.",
+   "motivo": "Como está, la profesora dice «si usted todavía los tiene, se los dejo»: absurdo (son sus apuntes los que ofrece); el sujeto de «avere» debe ser ella."
+  },
+  {
+   "id": "lettura w-22",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "L'ho dato a mia sorella: gliel'ho prestato perché le piace quell'autore.",
+   "propuesta": "L'ho prestato a mia sorella: le piace quell'autore.",
+   "motivo": "Doble verbo (dato / prestato) en dos frases seguidas, redundante y contradictorio (regalar vs prestar); además duplica el pronombre sin necesidad."
+  },
+  {
+   "id": "lesson:blocks[4] «Con infinitivo e imperativo, pegados»",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Con infinitivo e imperativo van **pegados al final**, como en castellano: *dirtelo*, *dammelo*.",
+   "propuesta": "Aclarar: imperativo de tú/noi/voi y de infinitivo pegados; el imperativo de Lei va delante (Me lo dica, Glielo porti) y con el negativo de tú vale también «Non me lo dire».",
+   "motivo": "La generalización es falsa para Lei (que la lección misma usa en las sfide: «me lo preparerebbe», «Glielo porti»); el alumno escribiría «dicamelo» por analogía."
+  },
+  {
+   "id": "item l2-c-90",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "faccio / fo / posso",
+   "propuesta": "Cambiar «fo» por un distractor claramente inexistente (p. ej. «faco») o por «faccia».",
+   "motivo": "«ce la fo» es una forma toscana viva; la opción no es errónea sin matices y puede confundir."
+  },
+  {
+   "id": "item c-031",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Te lo dico dopo. / Telo dico dopo. / Ti lo dico dopo.",
+   "propuesta": "Reemplazar «Telo dico dopo.» por un distractor fonéticamente distinto (p. ej. «Te lo dico ora.» o «Me lo dico dopo.»).",
+   "motivo": "Si es ejercicio auditivo, «Te lo» y «Telo» suenan idénticos: no se puede resolver oyendo."
+  },
+  {
+   "id": "sfide r07-05e:a",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "dati (accept único; igual en :b, :c, :d)",
+   "propuesta": "Aceptar también la forma sin concordancia: dato, regalato, ecc., como ya se hace en :e y :f.",
+   "motivo": "Con «ne» partitivo la no-concordancia es muy frecuente en el italiano actual; hay incoherencia entre los ítems a-d y e-f."
+  },
+  {
+   "id": "sfide r07-05e:f",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "bevuta",
+   "propuesta": "Poner «bevuto» como respuesta principal y «bevuta» como aceptada.",
+   "motivo": "Con «un po'» lo natural es el masculino neutro; la nota prioriza la forma menos usual."
+  },
+  {
+   "id": "sfide r07-04b:d",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Hai la chiave? – Sì ___ ho.",
+   "propuesta": "Sì, ___ ho. Aceptar «ce l'» y «l'» (Sì, l'ho).",
+   "motivo": "Falta la coma tras «Sì»; «l'ho» es correcta aunque menos frecuente (en :e igual con «li»)."
+  },
+  {
+   "id": "sfide r07-02h:e",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Repetí las preguntas de forma abreviada, reemplazando los sustantivos por pronombres.",
+   "propuesta": "Repetí las frases de forma abreviada, reemplazando lo que se repite por pronombres.",
+   "motivo": ":e y :f son afirmaciones, no preguntas; y en :e/:f se reemplaza un partitivo, no un sustantivo."
+  },
+  {
+   "id": "sfide r07-05e:a",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Antonietta ha raccolto dei fiori e me ne ha ___ alcuni. (dare)",
+   "propuesta": "Enseñar antes en la lección el «ne» partitivo y su concordancia (ne ho comprati tre).",
+   "motivo": "La lección no explica qué reemplaza «ne» ni su concordancia; el ítem exige gramática no enseñada esta semana (igual: c1-pron-04, r07-01g:c, r07-04g, r07-05d)."
+  },
+  {
+   "id": "item g2-ct-73",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Ce la faccio da solo.",
+   "propuesta": "Añadir a la lección una nota sobre farcela / cavarsela / fregarsene, o mover estos ítems (g2-ct-73, g2-ct-74, l2-c-90, l2-c-91, l2-c-95, sfide r07-04b:d) a otra semana.",
+   "motivo": "Modismos con «la/ne» fijos no se enseñan en la lección (solo andarsene); ejercitan léxico más que la regla de los pronombres combinados."
+  },
+  {
+   "id": "sfide r27-06",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Non far cambiare la ruota a Luciano, Adriana lo sa fare. (reemplazá «la ruota» y «a Luciano»)",
+   "propuesta": "Mover a semanas posteriores o reducir: el causativo (fare/lasciare + infinitivo) supera un B1 temprano.",
+   "motivo": "Combina pronombres dobles con construcción causativa (Non fargliela cambiare, farglieli fare) sin haberlo enseñado; nivel B2."
+  },
+  {
+   "id": "sfide r28-02:b",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Li ho cominciati a capire.",
+   "propuesta": "Quitar esta variante del accept (dejar Ho cominciato a capirli / Ho iniziato a capirli).",
+   "motivo": "Con «cominciare a» el ascenso del clítico con participio concordado es dudoso y poco natural; no conviene validarlo."
+  },
+  {
+   "id": "sfide r28-02:e",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Non riesco a pagare.",
+   "propuesta": "Sacar «Non riesco a pagare.» del accept.",
+   "motivo": "La consigna pide un verbo distinto en cada oración y «riuscire a» ya se usó en :d."
+  },
+  {
+   "id": "item g2-ct-28",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Igual que en castellano, pero con e: me lo, te lo, ce lo, ve lo.",
+   "propuesta": "Como en castellano (me lo, te lo), pero con e también en ce lo y ve lo (castellano: nos lo, os lo).",
+   "motivo": "«ce lo/ve lo» no son «igual que en castellano»; la frase es imprecisa."
+  },
+  {
+   "id": "item c1-pron-05",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Voglio dirtelo. / Te lo voglio dire.",
+   "propuesta": "Pedir producción: «Voglio ___ (dire + te + lo)» o convertir una de las frases en errónea (p. ej. «Voglio te lo dire»).",
+   "motivo": "La opción «Las dos son correctas» es adivinable y no evalúa nada."
+  },
+  {
+   "id": "item g2-sc-12",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Leé las frases y descubrí la regla",
+   "propuesta": "Incluir en el ítem 2-3 frases de ejemplo antes de la pregunta.",
+   "motivo": "La consigna remite a «las frases» pero el ítem solo trae la pregunta."
+  },
+  {
+   "id": "sfide r20-04:c",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "(Fui en auto, es más cómodo.)",
+   "propuesta": "(Tomé el auto, es más cómodo.)",
+   "motivo": "«Fui en auto» no lleva a «Ho preso la macchina»: la pista en castellano no coincide con el enunciado italiano."
+  },
+  {
+   "id": "lettura ep7",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "gloss: subito, ancora, chiesto, spiegato, entro, festeggiamo, stesso",
+   "propuesta": "Agregar glosas: colloquio (entrevista de trabajo), fame da lupo (un hambre atroz), curriculum.",
+   "motivo": "Faltan palabras clave de la lectura (colloquio, fame da lupo)."
+  },
+  {
+   "id": "vocab prosciutto",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "Me lo dai il prosciutto crudo?",
+   "propuesta": "Me lo dai, il prosciutto crudo? / Mi dai il prosciutto crudo?",
+   "motivo": "La dislocación con «lo» redundante sin coma desconcierta al alumno en una lista de vocabulario; ejemplo poco útil para «prosciutto»."
+  },
+  {
+   "id": "pares p-185",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "ghia = [gia] duro; gia = [dya].",
+   "propuesta": "ghiaccio [ˈɡjattʃo] / giaccio [ˈdʒattʃo]: ghia = /gj/, gia = /dʒ/ (como «y» rioplatense africada, no como «i» + a).",
+   "motivo": "La notación [gia]/[dya] es imprecisa y el par no se relaciona con la semana; mejor un par con gli (ali/agli, fili/figli)."
+  },
+  {
+   "id": "sfide:chapter",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "Personal pronouns / Interrogatives / The past indicative tenses / The conditional / Causative verbs and verbs of perception / Verbs and prepositions",
+   "propuesta": "Traducir o ocultar las etiquetas de capítulo: Pronombres personales, Interrogativos, Pasados del indicativo, Condicional, Causativos, Verbos y preposiciones.",
+   "motivo": "Si el campo «chapter» es visible al alumno, es inglés en un texto en español."
+  },
+  {
+   "id": "item l2-c-92",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "È tardi, ___.",
+   "propuesta": "Diferenciar o eliminar uno de los tres (g2-va-31, l2-c-92 y el tip de la lección tratan lo mismo: me ne vado).",
+   "motivo": "Casi duplicado; además la opción «me voy» es un calco obvio en castellano."
+  },
+  {
+   "id": "item g2-ct-73",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Puedo solo",
+   "propuesta": "Agregar al accept: «Puedo hacerlo solo», «Lo puedo hacer solo».",
+   "motivo": "Respuestas naturales en castellano que un alumno escribiría no están aceptadas."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Agregar a la lección un bloque sobre «ne» (partitivo y di+sustantivo: ne ho, ce ne sono, ce n'è, me ne occupo) y su concordancia con el participio (ne ho comprati tre).",
+   "por_que": "Las sfide (r07-01g, 02h, 04g, 05d, 05e) y varios ítems dependen de «ne» y la teoría solo lo lista en una columna."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Sumar 6-8 ítems propios de producción: imperativo/infinitivo pegado (dammelo, diglielo, portarmelo, non dirmelo) y passato prossimo (me l'ha data, gliele ho date).",
+   "por_que": "La lección enseña ambos puntos pero los ítems solo los cubren con una opción trivial (c1-pron-05) y un fixerr; casi no hay práctica."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Reequilibrar los ítems: 10 de 28 son la misma tabla mecánica (d08-031..040). Reducir a 5-6 y agregar ítems en contexto con elección, fixerr con errores típicos (mi lo, gli lo, se lo) y traducción.",
+   "por_que": "Progresión pobre: mucho reconocimiento de tabla y poca producción contextualizada de los errores típicos."
+  },
+  {
+   "prioridad": "media",
+   "que": "Ampliar el contraste con el castellano: se lo→glielo, nos lo/os lo→ce lo/ve lo, se lo reflexivo, y los errores típicos (mi lo, gli lo, glie lo separado, orden inverso).",
+   "por_que": "La lección solo cubre «no calques se lo»; falta lista de errores típicos del rioplatense."
+  },
+  {
+   "prioridad": "media",
+   "que": "Corregir el punto de imperativo: aclarar que Lei/formal va proclítico y que con «non + infinitivo» valen las dos posiciones.",
+   "por_que": "La regla actual es demasiado general."
+  },
+  {
+   "prioridad": "media",
+   "que": "Depurar las sfide: 6 de 17 (r20-04, r20-06, r21-03, r27-06, r28-02, r10-03c) practican otros temas o superan el B1; mover o reemplazar por combinados (reflexivos: te li lavi, se lo toglie; ci+lo: ce l'ho).",
+   "por_que": "Diluyen el foco de la semana y algunas exigen gramática posterior."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reescribir fl-combinati y w-22 para que la historia sea coherente (aclarar quién habla y a quién trata de Lei) y añadir pronombres con imperativo y participio concordado.",
+   "por_que": "Hay incoherencias de guion (appunti, dato/prestato) y las tres lecturas repiten casi solo formas de presente/pasado con glielo."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Reemplazar el par p-185 y c-031 por pares con gli/li (ali/agli, fili/figli, glielo/lielo) y ejercicios auditivos con diferencias audibles.",
+   "por_que": "La fonética de la semana debería practicar la /ʎ/ de gli-."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Añadir 1-2 ítems de pronombres con «ci» locativo (ce l'ho, ce n'è) o sacarlos de las sfide de esta semana.",
+   "por_que": "Aparecen sin enseñanza previa."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 1,
+   "dudas": 2
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

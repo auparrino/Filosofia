@@ -1,0 +1,453 @@
+{
+  "week": 42,
+  "level": "B2+",
+  "lettura": {
+    "title": "A feira mudou de rua",
+    "emoji": "🥬",
+    "genre": "crônica",
+    "grammar": "orações reduzidas de gerúndio, particípio e infinitivo",
+    "text": "A notícia saiu numa quinta-feira, espremida entre um acidente na marginal e a previsão de chuva: “Feira livre da Rua das Acácias será transferida para avenida vizinha”. Lida assim, parecia apenas mais uma decisão administrativa, dessas que ninguém comenta. Terminada a leitura, fechei o jornal e fui fazer café. Mas a frase ficou comigo o dia inteiro, zumbindo como mosca em janela fechada.\n\nMoro nesta rua há dezoito anos. Chegando aqui, recém-casado, descobri que as quartas-feiras tinham um som próprio: o estalo dos ferros das barracas sendo montadas às cinco da manhã, o grito do homem do pastel anunciando a primeira fornada, a discussão diária entre a dona da banca de flores e o feirante das bananas sobre quem invadira o espaço de quem. Acordando com aquele barulho, eu reclamava nos primeiros meses. Depois passei a esperar por ele, e hoje, confesso, durmo mal nas terças, ansioso por ouvi-lo.\n\nSegundo a nota oficial, a mudança atende a pedidos de moradores. Pedidos de quem, não se sabe. Perguntando aqui e ali, não encontrei ninguém que tivesse assinado abaixo-assinado algum. Encontrei, isso sim, o seu Tadashi, que vende verduras na mesma esquina desde antes de eu nascer e que, sabendo da transferência pelo sobrinho, passou a noite fazendo contas. “Na avenida, o freguês passa de carro”, disse ele, arrumando os maços de coentro com a delicadeza de quem penteia uma criança. “Aqui ele passa a pé. Quem passa a pé para, olha, conversa. Quem passa de carro só buzina.”\n\nNa padaria, ao comentar o assunto, ouvi opiniões divididas. O síndico do prédio da esquina, dizendo-se cansado de lavar a calçada toda quarta-feira, achou a mudança excelente. Uma professora aposentada, interrompendo o síndico sem cerimônia, lembrou que foi na feira que ela conheceu o marido, quarenta anos atrás, disputando o último cacho de uva. O padeiro, prudente, preferiu não tomar partido: vende pão para os dois lados. Saí de lá convencido de que ninguém tinha pedido nada a ninguém.\n\nHá quem diga que a feira suja a rua, atrapalha o trânsito, atrai pombos. Tudo verdade. Vista de cima, por uma janela de apartamento, ela deve parecer uma desordem de lonas coloridas e caixotes empilhados. Vista de perto, porém, é outra coisa. É o lugar onde a aposentada do 302 conversa com alguém pela primeira vez na semana; onde o menino aprende, ajudando o pai, a fazer troco de cabeça; onde a moça recém-chegada da Bahia encontra o tempero que não achava em nenhum mercado. Desmontada a última barraca, fica a rua suja, é verdade. Mas fica também uma cidade um pouco menos solitária.\n\nAo ler de novo a notícia, à noite, reparei num detalhe que me escapara: a transferência seria “provisória”, enquanto durassem as obras de recapeamento da avenida — ou seja, a feira iria justamente para a rua em obras. Tentei entender a lógica e desisti. Os jornais, sendo feitos às pressas, às vezes publicam o comunicado sem perguntar nada a ninguém. Não os culpo. Culpo um pouco a mim mesmo, que li a notícia sem estranhar, como quem lê a previsão do tempo.\n\nNa quarta-feira seguinte, levantei cedo e desci. As barracas ainda estavam lá, montadas como sempre. Seu Tadashi me contou, piscando o olho, que os feirantes tinham se reunido com um vereador e que a mudança fora adiada “para estudos”. Adiada, não cancelada. Aprendi, com os anos, que nesta cidade as coisas adiadas tanto podem voltar amanhã quanto nunca mais. Por via das dúvidas, a dona das flores já afixou na barraca um cartaz escrito à mão: “Daqui não saio”.\n\nComprei coentro de que não precisava, um pastel que não devia comer e flores para ninguém em particular. Voltando para casa, carregando as sacolas, pensei que a crônica talvez sirva para isto: para ler de novo, com vagar, as notícias que passam depressa demais. Por trás de cada nota de três linhas há uma rua, uma quarta-feira, um homem arrumando verduras como quem arruma a vida. Publicada a notícia, a cidade segue. Cabe a alguém lembrar que ela não segue igual.",
+    "gloss": {
+      "cabe": "(cabe a alguém) le toca a alguien",
+      "espremida": "apretujada",
+      "marginal": "autopista urbana",
+      "zumbindo": "zumbando",
+      "estalo": "chasquido",
+      "barracas": "puestos",
+      "fornada": "hornada",
+      "feirante": "feriante",
+      "abaixo-assinado": "petitorio",
+      "coentro": "cilantro",
+      "freguês": "cliente",
+      "penteia": "peina",
+      "buzina": "toca bocina",
+      "atrapalha": "estorba, complica",
+      "pombos": "palomas",
+      "caixotes": "cajones",
+      "troco": "vuelto",
+      "tempero": "condimento",
+      "recapeamento": "repavimentación",
+      "vereador": "concejal",
+      "adiada": "postergada",
+      "vagar": "calma",
+      "sacolas": "bolsas"
+    },
+    "questions": [
+      [
+        "Qual fato motiva a crônica?",
+        [
+          "Um acidente na marginal próxima ao bairro.",
+          "A notícia da transferência da feira para outra via.",
+          "O fechamento definitivo da feira da Rua das Acácias.",
+          "A aposentadoria de seu Tadashi."
+        ],
+        "A notícia da transferência da feira para outra via."
+      ],
+      [
+        "Por que seu Tadashi se preocupa com a mudança?",
+        [
+          "Porque na avenida o aluguel da barraca é mais caro.",
+          "Porque na avenida se perde o contato com o freguês que passa a pé.",
+          "Porque não tem carro para levar as verduras até lá.",
+          "Porque o sobrinho não poderá mais ajudá-lo."
+        ],
+        "Porque na avenida se perde o contato com o freguês que passa a pé."
+      ],
+      [
+        "Qual é a função do contraste entre a feira “vista de cima” e “vista de perto”?",
+        [
+          "Opor a aparência de desordem ao valor social da feira.",
+          "Mostrar que o cronista mora num andar alto.",
+          "Criticar a sujeira deixada pelos feirantes na rua.",
+          "Comparar a feira com os supermercados do bairro."
+        ],
+        "Opor a aparência de desordem ao valor social da feira."
+      ],
+      [
+        "Que incoerência o cronista percebe ao reler a notícia?",
+        [
+          "A nota oficial não tinha data de publicação nem assinatura.",
+          "A feira iria para uma avenida que estaria em obras.",
+          "Os moradores tinham assinado contra a mudança.",
+          "A prefeitura negava ter tomado a decisão."
+        ],
+        "A feira iria para uma avenida que estaria em obras."
+      ],
+      [
+        "Segundo o cronista, qual é o papel da crônica?",
+        [
+          "Corrigir os erros cometidos pelos jornalistas.",
+          "Reler com calma o que passa depressa demais.",
+          "Defender os comerciantes contra a prefeitura.",
+          "Informar os leitores antes dos jornais."
+        ],
+        "Reler com calma o que passa depressa demais."
+      ]
+    ],
+    "vf": [
+      [
+        "O cronista sempre gostou do barulho da feira.",
+        "falso"
+      ],
+      [
+        "A mudança foi adiada, mas não cancelada.",
+        "verdadeiro"
+      ],
+      [
+        "O vereador mora na Rua das Acácias.",
+        "não se diz"
+      ],
+      [
+        "Seu Tadashi soube da transferência pelo sobrinho.",
+        "verdadeiro"
+      ],
+      [
+        "A maioria dos moradores da rua apoiava a transferência.",
+        "não se diz"
+      ]
+    ],
+    "hunt": {
+      "label": "Toque nos verbos que formam orações reduzidas de gerúndio ou particípio (Terminada a leitura…, Chegando aqui…)",
+      "targets": [
+        "terminada",
+        "chegando",
+        "acordando",
+        "perguntando",
+        "sabendo",
+        "arrumando",
+        "vista",
+        "ajudando",
+        "desmontada",
+        "sendo",
+        "voltando",
+        "publicada"
+      ]
+    }
+  },
+  "ascolto": {
+    "title": "O Cine Glória reabre as portas",
+    "genre": "reportagem ao vivo na rádio",
+    "es": "En un programa matinal de radio, el conductor habla en vivo con un cronista que está en la reapertura de un viejo cine de barrio del centro de la ciudad.",
+    "speakers": [
+      "Rogério, apresentador",
+      "Henrique, repórter"
+    ],
+    "turns": [
+      [
+        "A",
+        "Bom dia, você ouve o Manhã Brasil. E hoje a gente começa com uma boa notícia, coisa rara, né? Depois de vinte e oito anos fechado, o Cine Glória, no centro da cidade, reabre as portas neste sábado. Nosso repórter Henrique está lá. Henrique, bom dia!"
+      ],
+      [
+        "B",
+        "Bom dia, Rogério! Olha, chegando aqui às sete da manhã, eu já encontrei gente na calçada. Tem uma fila pequena, mas animada, de pessoas que vieram só pra ver a fachada iluminada de novo."
+      ],
+      [
+        "A",
+        "Refresca a memória de quem é mais novo: o que aconteceu com o Glória?"
+      ],
+      [
+        "B",
+        "Então, o Glória foi inaugurado nos anos cinquenta e, durante décadas, foi o principal cinema da cidade. Com a chegada dos cinemas de shopping, o público foi diminuindo e, fechado em noventa e oito, o prédio virou depósito de uma loja de móveis. Por pouco não foi demolido."
+      ],
+      [
+        "A",
+        "E como ele foi salvo?"
+      ],
+      [
+        "B",
+        "Foi uma mobilização dos moradores, principalmente de um grupo de ex-funcionários e de estudantes de arquitetura. Tendo conseguido o tombamento do prédio, eles convenceram a prefeitura a comprar o imóvel. A reforma foi paga em parte com verba pública e em parte com uma vaquinha on-line, que juntou doações de mais de três mil pessoas."
+      ],
+      [
+        "A",
+        "Três mil pessoas! E como ficou por dentro?"
+      ],
+      [
+        "B",
+        "Rogério, ao entrar, dá um arrepio. Restauraram o teto pintado, as luminárias, até as cortinas vermelhas do palco. Mas as poltronas são novas, bem mais confortáveis, e o projetor é digital. A sala antiga tinha mil lugares; agora são quatrocentos, pra caber um café e uma pequena biblioteca de cinema no mezanino."
+      ],
+      [
+        "A",
+        "E a programação? Porque não adianta reabrir e ficar vazio."
+      ],
+      [
+        "B",
+        "É justamente essa a preocupação da gestão. A ideia é misturar filmes brasileiros, clássicos e lançamentos, com ingresso a preço popular. Às quartas, sessão gratuita pra escolas públicas. E, terminada cada sessão de domingo, vai ter debate com críticos ou com a própria equipe do filme."
+      ],
+      [
+        "A",
+        "Você conversou com alguém que frequentava o cinema antigo?"
+      ],
+      [
+        "B",
+        "Conversei com a dona Iolanda, de oitenta e dois anos, que trabalhou na bilheteria por quase vinte anos. Ela me contou, emocionada, que conheceu o marido na fila de um filme de faroeste e que chorou quando viu as portas lacradas. Hoje ela é convidada de honra e vai cortar a fita da inauguração."
+      ],
+      [
+        "A",
+        "Que bonito. E tem alguém contra?"
+      ],
+      [
+        "B",
+        "Tem, sim, algumas críticas. Um grupo de comerciantes acha que o dinheiro público deveria ter ido pra outras áreas, como a saúde. E tem quem duvide que o cinema se sustente sozinho depois do primeiro ano. A gestão responde que o espaço também vai ser alugado pra eventos, pra ajudar nas contas."
+      ],
+      [
+        "A",
+        "Henrique, e qual é o filme da reabertura?"
+      ],
+      [
+        "B",
+        "A gestão guardou segredo até agora, mas me confirmou há pouco: escolhido pelos antigos frequentadores, vai ser o mesmo clássico brasileiro que encerrou as atividades em noventa e oito, agora em cópia restaurada. Um jeito de fechar o círculo, como eles dizem."
+      ],
+      [
+        "A",
+        "Obrigado, Henrique. Aproveita a sessão por nós."
+      ]
+    ],
+    "gloss": {
+      "calçada": "vereda",
+      "tombamento": "declaración de patrimonio histórico",
+      "imóvel": "inmueble",
+      "verba": "fondos",
+      "vaquinha": "colecta",
+      "arrepio": "escalofrío",
+      "palco": "escenario",
+      "poltronas": "butacas",
+      "mezanino": "entrepiso",
+      "adianta": "sirve (de algo)",
+      "ingresso": "entrada",
+      "bilheteria": "boletería",
+      "faroeste": "western",
+      "lacradas": "clausuradas",
+      "fita": "cinta"
+    },
+    "questions": [
+      [
+        "Por que o Cine Glória perdeu público até fechar?",
+        [
+          "Por causa de um incêndio que destruiu o palco.",
+          "Pela concorrência dos cinemas de shopping.",
+          "Porque a prefeitura proibiu as sessões noturnas.",
+          "Porque o prédio foi vendido a uma loja."
+        ],
+        "Pela concorrência dos cinemas de shopping."
+      ],
+      [
+        "Como foi financiada a reforma?",
+        [
+          "Só com dinheiro de uma loja de móveis da região.",
+          "Com verba pública e doações de milhares de pessoas.",
+          "Com um empréstimo feito pelos ex-funcionários.",
+          "Com a venda antecipada de ingressos para o ano todo."
+        ],
+        "Com verba pública e doações de milhares de pessoas."
+      ],
+      [
+        "Por que a nova sala tem menos lugares do que a antiga?",
+        [
+          "Para abrir espaço para um café e uma biblioteca.",
+          "Porque as normas de segurança atuais exigem corredores mais largos entre as fileiras.",
+          "Porque o público atual é bem menor.",
+          "Porque o projetor digital ocupa mais espaço."
+        ],
+        "Para abrir espaço para um café e uma biblioteca."
+      ],
+      [
+        "Qual é a crítica de alguns comerciantes?",
+        [
+          "O cinema vai tirar clientes das lojas.",
+          "O dinheiro público deveria ter outro destino.",
+          "Os ingressos estão caros demais para o bairro.",
+          "As obras atrapalharam o comércio por meses."
+        ],
+        "O dinheiro público deveria ter outro destino."
+      ],
+      [
+        "O que a gestão quer dizer com “fechar o círculo”?",
+        [
+          "Reabrir com o mesmo filme da última sessão de 1998.",
+          "Encerrar definitivamente a polêmica com os comerciantes.",
+          "Terminar a reforma antes do fim do ano.",
+          "Exibir apenas filmes antigos na primeira semana."
+        ],
+        "Reabrir com o mesmo filme da última sessão de 1998."
+      ]
+    ],
+    "vf": [
+      [
+        "O prédio do cinema chegou a ser demolido.",
+        "falso"
+      ],
+      [
+        "Dona Iolanda trabalhou na bilheteria do Glória.",
+        "verdadeiro"
+      ],
+      [
+        "Os ingressos das sessões de domingo custam mais caro.",
+        "não se diz"
+      ],
+      [
+        "Às quartas há sessões gratuitas para escolas públicas.",
+        "verdadeiro"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "relato",
+    "title": "Memórias do bairro",
+    "fonte": "entrambi",
+    "t": "O jornal da sua cidade abriu uma seção chamada “Memórias do bairro”, com relatos de leitores sobre lugares e hábitos que mudaram ou desapareceram. Após ler a crônica “A feira mudou de rua” e ouvir a reportagem da rádio sobre a reabertura do Cine Glória, escreva um relato para essa seção contando uma experiência sua ligada a um espaço do seu bairro que mudou ou desapareceu (uma feira, uma banca de jornal, um cinema, uma padaria…). No relato, descreva o lugar e as pessoas, conte o que aconteceu, relacione sua experiência com pelo menos um dos casos da semana e termine com uma reflexão. Use registro semiformal e procure empregar orações reduzidas de gerúndio, particípio e infinitivo. Seu texto deve ter entre 199 e 259 palavras.",
+    "es": "Relato personal en pasado para la sección de un diario: un lugar de tu barrio que cambió, desapareció o volvió, conectado con la crónica o con la nota sobre el cine, con reflexión final. Usá reducidas: “chegando em casa”, “fechada a banca”, “ao passar”.",
+    "min": 199,
+    "max": 259,
+    "punti": [
+      [
+        "Describir el lugar y las personas",
+        [
+          "banca",
+          "bairro",
+          "esquina",
+          "padaria",
+          "cinema"
+        ]
+      ],
+      [
+        "Contar qué pasó, en pasado",
+        [
+          "fechou",
+          "desapare",
+          "mudou",
+          "demolid"
+        ]
+      ],
+      [
+        "Relacionar con la feria de la crónica o con el Cine Glória",
+        [
+          "feira",
+          "cine glória",
+          "glória",
+          "reabert"
+        ]
+      ],
+      [
+        "Cerrar con una reflexión sobre la memoria del barrio",
+        [
+          "memória",
+          "lembrança",
+          "saudade",
+          "me ensinou",
+          "percebo que",
+          "esquecê",
+          "perde um pedaço",
+          "ainda procuro"
+        ]
+      ]
+    ],
+    "model": "A banca do seu Arlindo\n\nDurante quase vinte anos, a esquina da minha rua teve uma banca de jornal pintada de verde. Era do seu Arlindo, um homem baixinho que conhecia cada morador pelo nome e pelo jornal que lia. Meu pai comprava ali o jornal todos os domingos e, chegando em casa, me entregava primeiro o caderno de quadrinhos, guardando para si as notícias de política.\n\nLembro que, aos dez anos, eu passava na banca voltando da escola só para olhar as revistas penduradas. Seu Arlindo fingia não ver e, terminado o movimento da tarde, às vezes me deixava ler uma inteira sentado num caixote.\n\nA banca fechou há seis anos. Aposentado o dono, ninguém quis assumir o ponto, e hoje há ali apenas um poste com cartazes de aluguel. Não houve notícia no jornal, nem despedida. Simplesmente, numa segunda-feira, as portas não abriram mais.\n\nLendo recentemente a crônica sobre a feira da Rua das Acácias e ouvindo a reportagem sobre a reabertura do Cine Glória, percebi que as duas histórias falam da mesma coisa: certos lugares não servem apenas para vender produtos ou exibir filmes, mas para criar encontros. Quando eles desaparecem, o bairro perde um pedaço da própria voz; quando voltam, é porque alguém se recusou a esquecê-los.\n\nHoje leio as notícias no celular, como quase todo mundo. Mas, ao passar por aquela esquina, ainda procuro, por reflexo, a banca verde e o sorriso do seu Arlindo.",
+    "gloss": {
+      "banca de jornal": "kiosco de diarios y revistas",
+      "seu Arlindo": "don Arlindo (seu = señor, trato popular)",
+      "caderno de quadrinhos": "el suplemento de historietas",
+      "penduradas": "colgadas",
+      "caixote": "cajón de madera",
+      "assumir o ponto": "hacerse cargo del puesto (ponto = local de un comercio)",
+      "cartazes de aluguel": "carteles de alquiler"
+    }
+  },
+  "breve": {
+    "title": "O Cine Glória reabre",
+    "genre": "anúncio de rádio",
+    "es": "Un anuncio de radio: reabre un viejo cine de Juiz de Fora; la sala, los precios, la función del estreno y los descuentos.",
+    "speaker": "Voz do anúncio",
+    "voice": 1,
+    "text": [
+      "Fechado há dez anos, o Cine Glória, no centro de Juiz de Fora, reabre as portas neste sábado. Totalmente reformado, o cinema de rua mais antigo da cidade volta com uma sala de 280 lugares e uma tela nova.",
+      "Para comemorar, a primeira semana é de clássicos brasileiros, com ingressos a 12 reais. Chegando antes das 18 horas, você ganha a pipoca. Comprando pelo site, você evita filas: os ingressos ficam no celular.",
+      "Na estreia, no sábado às 20 horas, será exibido O Auto da Compadecida, seguido de um debate com o diretor de fotografia do filme. Terminada a sessão, haverá música ao vivo no saguão.",
+      "Estudantes e maiores de 60 anos, apresentando documento, pagam meia. Cine Glória: um cinema de rua, de volta à rua. Avenida Rio Branco, 1.420."
+    ],
+    "tabella": [
+      [
+        "Anos em que o cinema ficou fechado",
+        "10",
+        [
+          "dez",
+          "dez anos",
+          "10 anos"
+        ]
+      ],
+      [
+        "Lugares da sala",
+        "280",
+        [
+          "duzentos e oitenta",
+          "280 lugares"
+        ]
+      ],
+      [
+        "Preço do ingresso na primeira semana (reais)",
+        "12",
+        [
+          "doze",
+          "12 reais",
+          "R$ 12"
+        ]
+      ],
+      [
+        "Até que horas se ganha a pipoca",
+        "18",
+        [
+          "18 horas",
+          "18h",
+          "seis da tarde",
+          "18:00"
+        ]
+      ],
+      [
+        "Filme da estreia",
+        "O Auto da Compadecida",
+        [
+          "Auto da Compadecida"
+        ]
+      ],
+      [
+        "Número na Avenida Rio Branco",
+        "1.420",
+        [
+          "1420",
+          "mil quatrocentos e vinte"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "O cinema passou por uma reforma completa.",
+        true
+      ],
+      [
+        "Os ingressos só podem ser comprados na bilheteria.",
+        false
+      ],
+      [
+        "Depois da estreia, haverá um debate.",
+        true
+      ],
+      [
+        "O diretor do filme vai estar na estreia.",
+        false
+      ],
+      [
+        "Quem tem mais de 60 anos paga meia com documento.",
+        true
+      ],
+      [
+        "A pipoca é grátis em todas as sessões.",
+        false
+      ]
+    ],
+    "gloss": {
+      "tela": "pantalla",
+      "pipoca": "pochoclo",
+      "saguão": "hall",
+      "ingressos": "entradas"
+    }
+  }
+}

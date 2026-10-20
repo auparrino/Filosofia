@@ -1,0 +1,161 @@
+{
+ "lote": "T-extra-1",
+ "revisado": 7,
+ "veredicto": "bien con reparos",
+ "resumen": "Material en general sólido: notas por qué precisas, variaciones con plantillas correctas, fichas de Fora do app bien graduadas por nivel y géneros de tramo con buenos modelos. Los errores son de cifras y rotulado en español: cuentas de palabras falsas en 10 de 12 modelos, «Diez fórmulas» con 11, «Un guía», y un falso amigo traducido mal (repórter→cronista). Casi no hay errores de portugués; reparos menores sobre participios (tinha pagado) y la norma o/lhe frente al habla.",
+ "bien": [
+  "porque: 32 categorías de error con explicaciones claras y 'near' coherente; las capas de regla comparan bien con el español (crase, gostar, perfeito composto, nasal).",
+  "fuera: 47 fichas (semanas 6-52) con progresión A1-C1, fuente variada (video, podcast, texto, canción) y vocabulario útil; la gramática de la ficha coincide con la semana en el config.",
+  "variaciones: plantillas con contracciones y concordancia correctas, y distractores bad bien elegidos (ao praia, Meu irmã, num casa).",
+  "tramo-conn: cada género trae ficha, fórmulas bilingües, tratamiento (senhor/você), modelo anotado y criterios de adequação coherentes con el Celpe-Bras; el portugués de los modelos es natural y correcto.",
+  "frasi-ui: tablas es↔pt de trampas y contracciones correctas; textos de UI (lab-ui, frasi-ui) sin errores."
+ ],
+ "hallazgos": [
+  {
+   "id": "fuera",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "[\"o repórter\",\"el cronista\"] (semana 21)",
+   "propuesta": "[\"o repórter\",\"el reportero\"]",
+   "motivo": "repórter es «reportero»; «cronista» es otra cosa (autor de crônicas) y ya aparece como o cronista en la semana 49."
+  },
+  {
+   "id": "fuera",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "[\"o bilhete\",\"la esquela\"] (semana 41)",
+   "propuesta": "[\"o bilhete\",\"la notita, el mensaje\"]",
+   "motivo": "En rioplatense «esquela» evoca la participación fúnebre; en A Cartomante es el billete/mensaje que recibe Camilo."
+  },
+  {
+   "id": "tramo-conn",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "Diez fórmulas que resuelven casi cualquier carta formal.",
+   "propuesta": "Once fórmulas… (o quitar una de la lista)",
+   "motivo": "La lista de carta_formal tiene 11 entradas, no 10."
+  },
+  {
+   "id": "tramo-conn",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Cinco partes. La referencia a la nota va arriba de todo (carta_leitor)",
+   "propuesta": "Seis partes.",
+   "motivo": "La lista de Estrutura de carta_leitor tiene 6 ítems (vocativo, nota, posición, argumentos, sugerencia, firma)."
+  },
+  {
+   "id": "tramo-conn",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "Un guía de 60 palabras. (texto_instrucional)",
+   "propuesta": "Una guía de 60 palabras.",
+   "motivo": "El texto es «la guía» (femenino); «un guía» es la persona que guía."
+  },
+  {
+   "id": "tramo-conn",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Cuenta de palabras declarada en cada Modelo anotado: e-mail «95 palabras» (real 69), artículo «100» (72), carta del lector «90» (74), reseña «95» (81), resumo «90» (81), relato «95» (77), carta abierta «80» (57), proposta «80» (57), post «70» (54), guía «60» (55); carta formal 90 (89) y opinión 100 (94) están bien",
+   "propuesta": "Corregir los números a la cuenta real (o alargar los modelos), p. ej. «Un e-mail de 70 palabras»",
+   "motivo": "El alumno compara la extensión pedida con el modelo y los números declarados son falsos en 10 de 12 géneros."
+  },
+  {
+   "id": "tramo-conn",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Além disso, ouve uma rádio comunitária que tenta cobrir o vazio. (modelo de resumo)",
+   "propuesta": "Além disso, ouve os responsáveis por uma rádio comunitária que tenta cobrir o vazio.",
+   "motivo": "«ouve uma rádio» suena a «escucha la radio», no a que la repórter la entrevista; el sentido queda ambiguo."
+  },
+  {
+   "id": "porque",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Con *ter* va el participio regular e invariable (tinha pagado); con *ser, estar, ficar*, el irregular y concordado (foi paga).",
+   "propuesta": "Mostrar tinha aceitado / tinha entregado como ejemplos; aclarar que pagar, ganhar, gastar y pegar usan pago, ganho, gasto, pego también con ter (tinha pago).",
+   "motivo": "En el Brasil «tinha pagado» casi no se usa; la regla general no vale para esos verbos y el ejemplo induce a un uso raro."
+  },
+  {
+   "id": "porque",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "el objeto directo es *o, a*; el indirecto, *lhe* ... Eu o conheço.",
+   "propuesta": "Agregar que en el habla se dice Eu conheço ele / Eu vi ela y que lhe es poco frecuente (se usa te, para ele).",
+   "motivo": "El curso enseña pt-BR hablado; o/a/lhe son la norma escrita formal."
+  },
+  {
+   "id": "porque",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "las terminadas en *-agem* son femeninas",
+   "propuesta": "casi todas las terminadas en -agem son femeninas (o personagem, o pajem son excepciones)",
+   "motivo": "Regla sin excepción declarada."
+  },
+  {
+   "id": "variaciones",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "Sofía (frame frase:oi:7, tpl «{s} {n} {v} Sofía.»)",
+   "propuesta": "Si la frase es de pt: Sofia; si es el personaje argentino, dejarlo y decirlo",
+   "motivo": "Con tilde parece un error ortográfico en portugués; el nombre propio argentino la lleva, pero el alumno puede copiarlo así."
+  },
+  {
+   "id": "tramo-conn",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "[\"He llegado ayer\",\"en portugués, cheguei ontem: nunca «tenho chegado»\"]",
+   "propuesta": "Llegué ayer → cheguei ontem (y «he llegado hoy» → cheguei hoje)",
+   "motivo": "Un rioplatense no dice «he llegado ayer»; el ejemplo muestra una trampa que este público casi no tiene."
+  },
+  {
+   "id": "radio-meta",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Caio, el repórter de bicicleta ... estudiante de Letras, 22 años, repórter en bicicleta",
+   "propuesta": "Caio, el repórter (en cursiva) o «reportero en bicicleta»",
+   "motivo": "Palabra portuguesa mezclada con el castellano sin marca; mejor señalarla o traducirla."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Generar o validar automáticamente la cuenta de palabras de cada modelo anotado frente al número del texto de la ficha.",
+   "por_que": "10 de 12 cifras son falsas y el alumno las usa como referencia de extensión."
+  },
+  {
+   "prioridad": "media",
+   "que": "Corregir los rótulos en español: «Diez/Once fórmulas», «Cinco/Seis partes», «Un guía/Una guía», cronista/reportero, esquela.",
+   "por_que": "Errores chicos pero visibles en una ficha de referencia."
+  },
+  {
+   "prioridad": "media",
+   "que": "Matizar la regla de participios (pagar/ganhar/gastar) y agregar la variante hablada de pronombres objeto (conheço ele).",
+   "por_que": "Evita enseñar un uso poco brasileño."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Unificar el idioma de las preguntas de las fichas de Fora do app (semanas 6-13 en español, desde la 14 muchas en portugués) y sumar notas de vocabulario más largas en las semanas de B2/C1.",
+   "por_que": "Coherencia y gradación de la dificultad."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Incluir en tramo-conn un modelo con extensión cercana al mínimo exigido en el examen y no más corto que lo declarado.",
+   "por_que": "Los modelos son bastante más cortos que lo que pide el propio texto."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "es": {
+   "errores": 4,
+   "dudas": 3
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ },
+ "falsos_positivos_estimados": "alrededor de 20% (los hallazgos en dudas y mejoras son los más inciertos)"
+}

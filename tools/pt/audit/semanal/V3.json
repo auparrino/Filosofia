@@ -1,0 +1,106 @@
+[
+ {
+  "id": "item s1-01-34",
+  "lote": "w01",
+  "veredicto": "CONFIRMADO",
+  "razon": "'Tengo hambre' admite 'Tenho fome' (muy natural en pt-BR); la nota solo ensena estar com pero la consigna no lo exige.",
+  "fuente": "tools/pt/authored/s1.py:156 (item s1-01-34, course.json)",
+  "correccion": "Agregar a accept/alt: \"Tenho fome.\", \"Eu tenho fome.\""
+ },
+ {
+  "id": "lesson:4",
+  "lote": "w03",
+  "veredicto": "CONFIRMADO",
+  "razon": "'á' sí existe (já, lá, está); la afirmación es falsa.",
+  "fuente": "tools/pt/lessons/s1.py:378",
+  "correccion": "Y *à* lleva acento grave (`), no agudo: *á* es otra cosa (*já*, *lá*, *está*), no la fusión a + a."
+ },
+ {
+  "id": "lesson:2",
+  "lote": "w07",
+  "veredicto": "CONFIRMADO",
+  "razon": "Error de concordancia en la glosa española; debe ser 'veintiuna personas'.",
+  "fuente": "tools/pt/lessons/s1.py:832",
+  "correccion": "[\"vinte e *uma* pessoas\", \"veintiuna personas\"]"
+ },
+ {
+  "id": "lesson:0",
+  "lote": "w13",
+  "veredicto": "CONFIRMADO",
+  "razon": "'personagem' y 'pajem' son masculinos (el banco mismo lo marca); 'todo -agem' es falso. Igual en vocab bagagem.",
+  "fuente": "tools/pt/lessons/s1.py:1551 (y tools/pt/vocab/s2.py:233 'como todo -agem')",
+  "correccion": "Géneros al revés: *o leite, a árvore*, y casi todo *-agem* es femenino (excepciones: *o personagem, o pajem*)."
+ },
+ {
+  "id": "lesson:0",
+  "lote": "w17",
+  "veredicto": "CONFIRMADO",
+  "razon": "'falarei' no lleva tilde; la regla contradice su propio ejemplo.",
+  "fuente": "tools/pt/lessons/s2.py:407",
+  "correccion": "Llevan tilde *-ás, -á, -ão*; *-ei* y *-emos* no: *falarei, falará, falaremos, falarão*."
+ },
+ {
+  "id": "item s3-27-28",
+  "lote": "w27",
+  "veredicto": "CONFIRMADO",
+  "razon": "'a gente chegar..., te liga' sin sujeto en la principal se lee como imperativo ('llamala'); también la variante con 'ao Rio'.",
+  "fuente": "tools/pt/authored/s3.py:168 (item s3-27-28; accept y alt)",
+  "correccion": "Reemplazar ambas 'te liga' por 'Assim que a gente chegar ao/no Rio, a gente te liga'."
+ },
+ {
+  "id": "item s3-31-42",
+  "lote": "w31",
+  "veredicto": "RECHAZADO",
+  "razon": "En pt-BR coloquial 'no outro dia' también se usa narrativamente como 'al día siguiente' ('no outro dia ele voltou'); aceptarla no es falso amigo grave y la consigna es de respuesta libre.",
+  "fuente": "tools/pt/authored/s3.py:828",
+  "correccion": ""
+ },
+ {
+  "id": "lesson:6:ex:3",
+  "lote": "w35",
+  "veredicto": "CONFIRMADO",
+  "razon": "La nota de la semana enseña 'namorar alguém' sin 'com' y rechaza 'namorar com'; el ejemplo la contradice.",
+  "fuente": "tools/pt/lessons/s3.py:991",
+  "correccion": "[\"O cara *com quem* ela casou é gaúcho.\", \"El chico con el que se casó es gaúcho.\"]"
+ },
+ {
+  "id": "vocab:folgado",
+  "lote": "w45",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "'camiseta larga' es normal en pt-BR; la oración sugiere que 'larga' es incorrecta. Problema de redacción, no de léxico.",
+  "fuente": "tools/pt/vocab/s5_tramo.py:262",
+  "correccion": "Uma camiseta folgada não aperta o corpo."
+ },
+ {
+  "id": "item s4-47-35",
+  "lote": "w47",
+  "veredicto": "RECHAZADO",
+  "razon": "El fixerr ya acepta 'Ademais' vía goodAlt:[\"Ademais\"] (app.js:6828 usa [good].concat(goodAlt)); no falta accept.",
+  "fuente": "tools/pt/authored/s4.py:1372; docs/js/app.js:6828",
+  "correccion": ""
+ },
+ {
+  "id": "ex-cl-43",
+  "lote": "w52",
+  "veredicto": "CONFIRMADO",
+  "razon": "'como en italiano' es residuo de otro curso; sin sentido para el alumno hispanohablante.",
+  "fuente": "tools/pt/authored/esame_c1.py:212",
+  "correccion": "Interrogativa indirecta en pasado: presente → imperfeito (queria); no se usa subjuntivo."
+ },
+ {
+  "id": "nouns:0",
+  "lote": "T-lessico-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "'todas las -agem son femeninas' es falso (personagem, m/f según el banco).",
+  "fuente": "tools/pt/bank/parole_nomi.py:85",
+  "correccion": "Género distinto: el garaje → a garagem (casi todas las -agem son femeninas; excepción: o/a personagem)."
+ },
+ {
+  "id": "nouns:39",
+  "lote": "T-lessico-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "'também' es portugués dentro de una glosa en español.",
+  "fuente": "tools/pt/bank/parole_nomi.py:1481",
+  "correccion": "Renda = ingreso de dinero; también el encaje (de bilro)."
+ }
+]

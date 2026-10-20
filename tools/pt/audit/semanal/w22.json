@@ -1,0 +1,157 @@
+{
+ "week": 22,
+ "title": "Particípios e voz passiva",
+ "level": "B1",
+ "revisado": {
+  "items": 47,
+  "bloques_teoria": 6,
+  "lecturas": 3,
+  "dictogloss": 1,
+  "suoni": 6,
+  "radio": 1,
+  "otros": 18
+ },
+ "veredicto": "bien",
+ "resumen": "Semana sólida y correcta en portugués: no encontré errores de pt ni de en. La teoría es corta, con tabla, ejemplos y advertencias, y los ejercicios cubren bien participios irregulares/dobles y la pasiva con ser/estar. Los reparos son una regla simplificada (ter + regular vs. uso real de tinha pago), una nota sobre firmar, un ítem con dos respuestas posibles (estavam presos), mucha repetición de ítems (entregue, pela, construída) y un bloque final (-ção/-mento) fuera del tema. Laboratorio, duelos y tramo están vacíos.",
+ "bien": [
+  "Tablas de participios irregulares y dobles claras, con contraste ser = acción / estar = estado.",
+  "Advertencias útiles de interferencia (cubierto→coberto, construído→construída, 'por la'→pela, chegado/«tinha chego»).",
+  "Mezcla de tipos de ejercicio (choice, cloze, translate, fixerr, garden, scopri, typed) que va del reconocimiento a la producción.",
+  "Lectura del Cristo Redentor con datos correctos (1931, Silva Costa, Leonida/Landowski, 2007) y buena densidad de pasivas; el dictogloss la retoma.",
+  "Radioteatro de trámites muy contextualizado (BO, RG, CPF, lotérica, boleto) que recicla el vocabulario de la semana.",
+  "Honestidad sobre el uso real brasileño (tinha pago, tenho gasto) en la lección y en las notas."
+ ],
+ "hallazgos": [
+  {
+   "id": "s2-22-29",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Os ladrões ___ presos pela polícia.",
+   "propuesta": "Agregar contexto de acción puntual (p. ex. «Ontem, os ladrões ___ presos pela polícia.») o cambiar el distractor «estavam»",
+   "motivo": "«Os ladrões estavam presos pela polícia» también es gramatical, así que hay dos opciones válidas."
+  },
+  {
+   "id": "s2-22-41",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "«Firmar» se dice *assinar* (la firma es *a assinatura*); *firmar* existe pero es «afirmar, fijar».",
+   "propuesta": "«Firmar» (un documento) se dice *assinar*; *firmar* existe pero se usa en sentido de «sellar/establecer» (firmar um acordo, firmar posição).",
+   "motivo": "Firmar um contrato/acordo se usa en Brasil con sentido de concretar; la nota es incompleta y se contradice con col-22-1 ('Firmar es assinar')."
+  },
+  {
+   "id": "s2-22-40",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"accept\": [\"O ladrão foi preso\"]",
+   "propuesta": "Agregar «O ladrão foi detido»",
+   "motivo": "«detener» se traduce naturalmente también como detido."
+  },
+  {
+   "id": "keys:2",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "ter / haver + regular (tinha pagado); ser / estar + irregular (foi pago).",
+   "propuesta": "Usar un ejemplo con aceitar/entregar (tinha aceitado) y aclarar que con pagar, ganhar y gastar en Brasil domina tinha pago/ganho/gasto.",
+   "motivo": "«tinha pagado» es raro en pt-BR y contradice la propia nota de la lección (block 2 'more')."
+  },
+  {
+   "id": "s2-22-23",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Son intercambiables con cualquier auxiliar: tinha pago, foi pagado.",
+   "propuesta": "Quitar «tinha pago» del distractor (p. ej. «Son intercambiables: tinha entregue, foi entregado») y mostrar las frases que pide la consigna.",
+   "motivo": "La nota admite tinha pago como correcto; además la consigna dice «Leia as frases» y no se ven frases."
+  },
+  {
+   "id": "lesson:1",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "O boleto está *pago*.\", \"La factura está paga.",
+   "propuesta": "«La boleta de pago está paga.» / «La cuenta está paga.»",
+   "motivo": "En el vocabulario boleto = «boleta de pago»; usar «factura» confunde con nota fiscal."
+  },
+  {
+   "id": "lesson:5",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "[\"cidadão\", \"a cidadania\"]",
+   "propuesta": "Cambiar por un ejemplo de -dade/-mento/-ção (p. ej. «igual → a igualdade», «mover → o movimento»)",
+   "motivo": "-ia no figura en los sufijos enseñados y esta fila no ilustra ninguno."
+  },
+  {
+   "id": "lettura c-samba",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "\"logo\": \"pronto\"",
+   "propuesta": "\"logo\": \"luego, poco después\"",
+   "motivo": "En el texto «logo» es «poco después»; «pronto» en rioplatense se lee como «ya, listo» y confunde."
+  },
+  {
+   "id": "s2-22-26",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "[\"pela\", \"por la\", \"por a\"]",
+   "propuesta": "[\"pela\", \"pelo\", \"por a\"]",
+   "motivo": "«por la» no es portugués; un distractor «pelo» evalúa la concordancia con prefeitura/professora, que es el punto real."
+  },
+  {
+   "id": "s2-22-27",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "[\"foi\", \"é\", \"esteve\"]",
+   "propuesta": "Reemplazar «é» por «era» o «fica», o aclarar que se pide el pretérito",
+   "motivo": "La propia lección enseña el presente de titular («Ladrão é preso»), así que «é inaugurado» no es claramente erróneo."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Reducir la repetición de ítems: entregue aparece en 5 ítems, pela en 5 (incluido el de la lección), construída en 4, pago en 3, cobert* en 2. Reemplazar por verbos poco practicados (aceso, preso/imprimir, escrito, posto, vindo, dito, visto).",
+   "por_que": "Dejan sin cobertura a dito/visto/vindo/coberto en producción y inflan la carga sin más aprendizaje."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Alinear la regla «ter + regular» con el uso brasileño: practicar tinha aceitado/entregado/elegido y declarar aparte pago/ganho/gasto (aceptar tinha pago y tinha gasto en los ítems con ter).",
+   "por_que": "Evita enseñar una norma que los brasileños no usan con esos tres verbos."
+  },
+  {
+   "prioridad": "media",
+   "que": "Mover el bloque -ção/-mento/-dade a otra semana o dejarlo como recurso de lectura, o agregar un ítem de comprensión con palabras de la semana (pagamento, construção).",
+   "por_que": "Está en la parte de pasiva pero no se relaciona con ella."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar ítems de producción libre (reescribir activa→pasiva: «A prefeitura fechou o túnel» → «O túnel foi fechado pela prefeitura») y el contraste ser/estar con el mismo verbo.",
+   "por_que": "Hoy casi todo es completar la forma; falta producir la transformación de la voz y el agente."
+  },
+  {
+   "prioridad": "media",
+   "que": "Completar laboratorio (ponte/capire), duelos y tramo, que están vacíos.",
+   "por_que": "No hay puente de consolidación ni tarea de escritura de la semana (p. ej. una noticia breve en pasiva)."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Agregar «pagar meia» y «credencial» a las glosas del radioteatro y unificar «sete novas maravilhas» (dictogloss) con «Sete Maravilhas do Mundo Moderno» (lectura).",
+   "por_que": "Coherencia entre textos y vocabulario no glosado."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Incluir la pasiva con se (alugam-se casas, vende-se) o avisar que viene más adelante.",
+   "por_que": "Es la otra forma muy frecuente de «voz pasiva» en trámites y carteles."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

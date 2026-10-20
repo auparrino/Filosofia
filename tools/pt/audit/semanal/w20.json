@@ -1,0 +1,271 @@
+{
+ "week": 20,
+ "title": "Indefinidos, negação e quantidade",
+ "level": "B1",
+ "revisado": {
+  "items": 52,
+  "bloques_teoria": 9,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 7,
+  "radio": 1,
+  "otros": 1
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana correcta en el contenido: el portugués es brasileño y natural, y las reglas de tudo/todo, nenhum/ninguém y doble negación son verdaderas. Casi no hay errores duros (uno solo, un «e» en medio de una frase en español). Los problemas son de diseño: 8 ítems repiten tudo y 6 repiten «también no», mientras que algum/alguém y nenhum pospuesto casi no se practican. Hay distractores en español demasiado obvios, dos ítems de colocaciones sin teoría previa, y el nivel B1 resulta bajo para el contenido (más cercano a A2+). Falsos positivos estimados: ~20-25% de las dudas.",
+ "bien": [
+  "Teoría clara y breve: tudo (pronombre) vs todo + sustantivo, con warns de errores típicos del hispanohablante (ningún→nenhum, tampoco→também não).",
+  "Los fixerr (ningún, nadie, tampoco) apuntan a calcos reales del español.",
+  "Buenos accept en traducciones (todo dia / todos os dias, Havia/Tinha, problema nenhum, Nem eu).",
+  "Pragmática útil y bien contextualizada (pois é, ué, nem pensar, acho que não é bem assim) con registro cuidado.",
+  "Radioteatro y lectura naturales, que reciclan la gramática de la semana (nada deu certo, ninguém atendeu, nem tudo é ruim) y vocabulario coloquial brasileño.",
+  "El material auditivo (suoni, dictogloss) es correcto y coherente con la semana."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:5:0",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "*muito / pouco* concuerdan con el sustantivo (*muitas pessoas*) e no varían como adverbio (*muito caro*).",
+   "propuesta": "*muito / pouco* concuerdan con el sustantivo (*muitas pessoas*) y no varían como adverbio (*muito caro*).",
+   "motivo": "«e» portugués dentro de una frase en español."
+  },
+  {
+   "id": "lesson:5:0",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Nunca «muy»: *muito* sirve para «muy» y «mucho».",
+   "propuesta": "No hay un «muy» aparte: *muito* sirve para «muy» y «mucho» (*muito caro*, *muito tempo*).",
+   "motivo": "«Nunca «muy»» es confuso: parece prohibir una palabra española en vez de avisar que no existe equivalente."
+  },
+  {
+   "id": "lesson:0:0",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*todo / toda / todos / todas* acompañan a un sustantivo.",
+   "propuesta": "*todo / toda / todos / todas* acompañan a un sustantivo (ojo: *todos* puede ir solo con el sentido de «todas las personas»: *Todos gostaram*).",
+   "motivo": "Simplificación: *todos* pronominal es muy común y el scopri s2-20-23 repite la simplificación."
+  },
+  {
+   "id": "item s2-20-04",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "En español usamos el plural; en portugués, singular.",
+   "propuesta": "En portugués se dice *todo dia* (singular) o *todos os dias* (plural, igual de correcto).",
+   "motivo": "La nota sugiere que el plural no existe en portugués; la propia lección y el accept de s2-20-16 aceptan *todos os dias*."
+  },
+  {
+   "id": "lesson:intro",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "la negación que en Brasil aparece dos veces en la misma frase",
+   "propuesta": "la doble negación (*não vi ninguém*), que funciona igual que en español",
+   "motivo": "Sugiere que es rasgo brasileño, pero el bloque dice después que es la misma lógica del español."
+  },
+  {
+   "id": "lesson:4:0",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Sei *não*.",
+   "propuesta": "Sei *não*. (habla, muy frecuente en Minas y el Nordeste)",
+   "motivo": "«nordeste y Río» no se puede comprobar; «sei não» es más típico de Minas/Nordeste. Revisar la atribución regional."
+  },
+  {
+   "id": "item col-20-1",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Não ___ bola para o que ele diz: ele está brincando.",
+   "propuesta": "Agregar «dar bola» a la lección/vocab o mover el ítem a la semana donde se enseñe",
+   "motivo": "«dar bola» no se enseña en la lección ni en el vocab de la semana 20; además el sujeto omitido deja ambigua la lectura imperativo/indicativo."
+  },
+  {
+   "id": "item col-20-2",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Ninguém consegue ___ papo com ele: ele não fala nada!",
+   "propuesta": "Dejar una sola opción plausible (p. ej. cambiar «dar» por «pegar») o aceptar también «dar»",
+   "motivo": "«dar papo» existe en el habla, por lo que «dar» no es del todo incorrecta; además la colocación no se enseña en la lección."
+  },
+  {
+   "id": "item s2-20-29",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Sim vou",
+   "propuesta": "Sim, vou (si se quiere un distractor, usar «Sim não»)",
+   "motivo": "«Sim, vou» es natural y correcto; el distractor sólo se descarta por la coma ausente, no por la regla enseñada."
+  },
+  {
+   "id": "item s2-20-21",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "(sin sustantivo) comi → ___",
+   "propuesta": "Dar un enunciado completo, p. ej. «Comi ___ (sin sustantivo)»",
+   "motivo": "Con «comi →» caben muchas completaciones (comi muito, comi demais...); la única respuesta aceptada depende de ver los ejemplos."
+  },
+  {
+   "id": "item s2-20-16",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Todo dia vou à praia",
+   "propuesta": "Agregar accept: «Todos os dias vou pra praia», «Todo dia eu vou pra praia», «Vou pra praia todo dia», «Vou para a praia todo dia»",
+   "motivo": "Faltan variantes coloquiales muy naturales (pra, para a) en una traducción abierta."
+  },
+  {
+   "id": "item s2-20-17",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Não tenho nenhum problema",
+   "propuesta": "Agregar accept: «Não tenho problema algum», «Eu não tenho problema algum»",
+   "motivo": "«problema algum» es la variante estándar equivalente."
+  },
+  {
+   "id": "item s2-20-22",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "nenhum amigo",
+   "propuesta": "Agregar accept «amigo nenhum»",
+   "motivo": "La lección enseña la posposición (problema nenhum); la variante es igual de correcta."
+  },
+  {
+   "id": "item s2-20-45",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "também não",
+   "propuesta": "Agregar accept «nem eu» o aclarar en la consigna «con dos palabras»",
+   "motivo": "«Eu nem» no existe, pero «Eu também não» vs «Nem eu» se evalúan distinto en otros ítems; la consigna no lo aclara."
+  },
+  {
+   "id": "item prag-20-1",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "— O ônibus atrasou de novo. — ___",
+   "propuesta": "— O ônibus atrasou de novo. — ___ (le das la razón)",
+   "motivo": "Sin aclaración, «Ué!» o «Eita!» también serían plausibles; además duplica casi exacto la pregunta de lección (bloque 6)."
+  },
+  {
+   "id": "item prag-20-4",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Un colega dice algo con lo que no estás de acuerdo: ___",
+   "propuesta": "Variar el contexto respecto de la pregunta de la lección (bloque 7)",
+   "motivo": "Ítem casi duplicado de la pregunta del bloque 7 (misma respuesta y opciones)."
+  },
+  {
+   "id": "item s2-20-25",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ninguno",
+   "propuesta": "Reemplazar los distractores en español (Ninguno, ninguna, alguno, jamás, tampoco, ni, Sí) por distractores portugueses que evalúen la regla (p. ej. «Não ninguém», «Nenhum»)",
+   "motivo": "Las opciones en español se descartan por no ser portugués, no por la regla; ocurre en s2-20-05, 06, 25, 26, 27, 28, 29, 30."
+  },
+  {
+   "id": "lesson:1:table",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "sempre, alguma vez (siempre, alguna vez)",
+   "propuesta": "sempre, já (já foi?)",
+   "motivo": "«alguma vez» es poco natural en el habla brasileña; el par afirmativo de nunca más común es «já» (Você já foi a Manaus?)."
+  },
+  {
+   "id": "dictogloss:A praia vazia",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Nenhum vendedor, nenhum turista: só eu e o mar. Comprei tudo o que precisava na barraca",
+   "propuesta": "Nenhum turista, só eu e o mar. Comprei tudo o que precisava na barraca",
+   "motivo": "Contradicción interna: si no había ningún vendedor, no se explica la compra en la barraca."
+  },
+  {
+   "id": "dictogloss:A praia vazia",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Não sei, não",
+   "propuesta": "Não sei, não: no sé, eh / no estoy seguro (el «não» repetido al final es típico del habla)",
+   "motivo": "La glosa «qué sé yo» corresponde a *sei lá*, no a *não sei, não*."
+  },
+  {
+   "id": "lettura w-20",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Sofía",
+   "propuesta": "Sofia",
+   "motivo": "Ortografía española con tilde dentro de un texto en portugués; en pt el nombre es Sofia (si es decisión del curso, mantener y avisar)."
+  },
+  {
+   "id": "radio:Ninguém merece!",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "Às seis da manhã? De jeito nenhum!",
+   "propuesta": "Às seis da manhã? Nossa!",
+   "motivo": "«De jeito nenhum» es una negativa/rechazo; aquí la locutora reacciona con asombro, donde «Nossa!» es más natural."
+  },
+  {
+   "id": "lab:tude",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "-tud → -tude / -dão",
+   "propuesta": "Mantener, pero conectar con la semana o mover a una semana de vocabulario",
+   "motivo": "El puente no se relaciona con indefinidos y negación; además «soledad → solidão» es -dad, no -tud."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Redistribuir los ítems: reducir tudo/todo (8 ítems) y también não/nem (6) y sumar 4-5 ítems de algum/alguém/algo, nenhum pospuesto (amigo nenhum), nem...nem, nunca vs jamais y bastante/cada.",
+   "por_que": "Hay muchos ítems redundantes y algunos puntos enseñados (tabla algum/algo, cada, bastante, nem...nem) casi no se practican."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Reemplazar los distractores en español (ninguno, jamás, tampoco, Sí) por distractores en portugués que contrasten la regla (p. ej. «Não ninguém», «Nenhum» vs «Ninguém»).",
+   "por_que": "Los distractores en español se descartan por no ser portugués y no entrenan la regla de la semana."
+  },
+  {
+   "prioridad": "media",
+   "que": "Incluir en la lección o el vocab las colocaciones de col-20-1/2 (dar bola, bater papo) o mover los ítems; revisar que «dar» sea inválido en col-20-2.",
+   "por_que": "Los ítems evalúan contenido no enseñado en la semana."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar producción: más translate/typed (nem...nem, algum, nunca con não) y alguna respuesta libre breve; hoy el 85% es reconocimiento o relleno de una palabra.",
+   "por_que": "La progresión reconocimiento→producción se corta; falta producir oraciones con negación completa."
+  },
+  {
+   "prioridad": "media",
+   "que": "Revisar el nivel: el contenido es A2+/B1 bajo. Si se conserva B1, sumar contraste con construcciones más complejas (negación con infinitivo, «nem sempre», «nada de», «qualquer», «ninguém mais»).",
+   "por_que": "Los ejercicios sólo piden formas básicas de indefinidos."
+  },
+  {
+   "prioridad": "media",
+   "que": "Aclarar en la teoría que la doble negación es igual al español y que *todos* también puede ser pronombre; ajustar el texto de intro y la nota de s2-20-04.",
+   "por_que": "Evita reglas que suenan más absolutas de lo que son."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Ampliar la lectura w-20 con muito/pouco/demais/nunca y agregar «nunca» y «também não» a los targets de la caza.",
+   "por_que": "La lectura no cubre cantidad (demais) ni nunca, y la caza deja fuera «também»."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Alivianar la parte 3 (bloque 8 Sotaque Bahia): sólo una pregunta de cultura, sin práctica y ajena al tema de indefinidos.",
+   "por_que": "La parte «Reaccionar» mezcla pragmática, colocaciones y acento con sólo 7 ítems."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Vincular el laboratorio (-tud→-tude) con la semana o reubicarlo; completar «duelos»/«tramo» vacíos si el esquema de semanas los espera.",
+   "por_que": "El puente léxico no tiene relación con el tema de la semana."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "es": {
+   "errores": 1,
+   "dudas": 1
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

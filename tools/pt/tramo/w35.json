@@ -1,0 +1,212 @@
+{
+  "week": 35,
+  "level": "B2",
+  "lettura": {
+    "title": "Despachantes: os tradutores da burocracia",
+    "emoji": "🗂️",
+    "genre": "perfil jornalístico",
+    "grammar": "regência verbal",
+    "text": "Às oito da manhã, quando as portas do cartório ainda estão fechadas, Neide Araújo já está sentada no banquinho de plástico que carrega consigo há quase trinta anos. Despachante no centro de São Paulo, ela assiste diariamente a um espetáculo que conhece de cor: gente que chega com a pasta errada, que se esqueceu de uma cópia autenticada, que não sabe a qual guichê se dirigir. “Meu trabalho é traduzir”, resume. “O cidadão fala português, o Estado fala outra língua.”\n\nA profissão, que muitos consideravam condenada ao desaparecimento com a digitalização dos serviços públicos, resiste. E não só resiste: em certos nichos, cresce. Transferência de veículos, regularização de imóveis, pedidos de segunda via de documentos antigos, processos de cidadania para descendentes de imigrantes — tudo isso ainda exige alguém que saiba a que norma obedecer e em que ordem proceder. “O aplicativo resolve o simples”, diz Neide. “Quando o caso foge do padrão, ninguém quer depender de um robô.”\n\nOs clientes confirmam. Rodrigo, engenheiro de 41 anos, recorreu a um despachante depois de perder três manhãs tentando registrar um terreno herdado do avô. “Eu preferia mil vezes pagar a taxa a voltar àquela fila”, conta. Ele admite que, no início, desconfiava da categoria. “Tem muita gente que associa despachante a jeitinho, a atalho. Mas o que eu encontrei foi alguém que simplesmente conhecia o caminho.”\n\nEssa desconfiança, aliás, é um tema recorrente entre os próprios profissionais. Carlos Menezes, que preside uma associação regional da categoria, afirma que o setor aspira a um reconhecimento que nunca teve. “Nosso trabalho visa à segurança do cidadão, não a burlar regras”, insiste. Segundo ele, a formalização do ofício implica responsabilidades claras: contrato por escrito, recibo, prestação de contas. Quem não simpatiza com a categoria, argumenta, costuma confundir o despachante sério com o intermediário informal que circula na porta das repartições.\n\nMas há algo que nenhum regulamento descreve: o vínculo. Neide se lembra do nome de quase todos os clientes antigos. Sabe quem casou, quem se divorciou, quem namora a filha de quem — porque, no fim das contas, a burocracia acompanha a vida. Casamento pede certidão; herança pede inventário; mudança de país pede tradução juramentada. “Eu já atendi três gerações da mesma família”, diz, com orgulho. “O avô confiava em mim, o filho confia, e agora o neto me manda mensagem pelo celular.”\n\nÉ justamente nesse ponto que o ofício se transforma. Os despachantes mais jovens trabalham a distância, digitalizam documentos, acompanham processos por plataformas on-line e raramente pisam num cartório. Para eles, o desafio não é mais enfrentar filas, mas explicar ao cliente o que significa cada etapa. “As pessoas não gostam de assinar o que não entendem”, observa Juliana Prado, de 29 anos, que abriu seu escritório virtual durante a pandemia. “Eu passo mais tempo respondendo a dúvidas do que preenchendo formulários.”\n\nNeide não pensa em se aposentar tão cedo. Quando lhe perguntam se o computador vai substituí-la, ela ri e aponta para a fila que se forma na calçada. “Enquanto existir papel, carimbo e gente com pressa, alguém vai precisar de mim.” Talvez tenha razão. Talvez a burocracia mude de forma, mas não de natureza: sempre haverá um cidadão perdido diante de uma regra que não compreende — e alguém disposto a lhe mostrar o caminho.",
+    "gloss": {
+      "cartório": "escribanía, registro civil",
+      "banquinho": "banquito",
+      "cor": "(de cor) de memoria",
+      "pasta": "carpeta",
+      "autenticada": "certificada por escribano",
+      "guichê": "ventanilla",
+      "imóveis": "inmuebles",
+      "foge": "se sale (de)",
+      "recorreu": "acudió, recurrió",
+      "herdado": "heredado",
+      "taxa": "arancel",
+      "jeitinho": "atajo criollo, viveza",
+      "atalho": "atajo",
+      "burlar": "eludir, trampear",
+      "prestação": "(prestação de contas) rendición",
+      "repartições": "oficinas públicas",
+      "certidão": "partida, certificado",
+      "inventário": "sucesión",
+      "juramentada": "pública (traducción)",
+      "preenchendo": "llenando, completando",
+      "aposentar": "jubilarse",
+      "calçada": "vereda",
+      "carimbo": "sello"
+    },
+    "questions": [
+      ["Qual é a ideia central do texto?", ["A digitalização tornou os despachantes desnecessários.", "O despachante continua útil como mediador entre cidadão e Estado.", "Os despachantes sobrevivem oferecendo atalhos ilegais aos seus clientes.", "O governo pretende regulamentar a profissão de despachante."], "O despachante continua útil como mediador entre cidadão e Estado."],
+      ["Ao dizer “O cidadão fala português, o Estado fala outra língua”, Neide quer dizer que:", ["os órgãos públicos atendem mal os imigrantes.", "os documentos oficiais são escritos em língua estrangeira.", "a lógica da burocracia é opaca para o cidadão comum.", "ela precisa dominar vários idiomas no trabalho."], "a lógica da burocracia é opaca para o cidadão comum."],
+      ["Por que Rodrigo desconfiava dos despachantes?", ["Porque os associava a jeitinhos e atalhos.", "Porque já tinha sido enganado por um deles.", "Porque achava a taxa cobrada muito alta.", "Porque preferia resolver tudo pelo aplicativo."], "Porque os associava a jeitinhos e atalhos."],
+      ["Segundo Carlos Menezes, a formalização da profissão:", ["permitiria aos despachantes cobrar taxas mais altas.", "eliminaria de vez o intermediário informal das repartições.", "traz obrigações como contrato, recibo e prestação de contas.", "depende de uma lei que ainda está sendo votada."], "traz obrigações como contrato, recibo e prestação de contas."],
+      ["O que diferencia o trabalho de Juliana Prado do de Neide?", ["Ela atende apenas clientes jovens pela internet.", "Ela dedica mais tempo a explicar os processos.", "Ela cobra menos por cada serviço.", "Ela trabalha só com cidadania estrangeira."], "Ela dedica mais tempo a explicar os processos."]
+    ],
+    "vf": [
+      ["Neide trabalha como despachante há cerca de três décadas.", "verdadeiro"],
+      ["Rodrigo conseguiu registrar o terreno sozinho depois de três manhãs na fila.", "falso"],
+      ["A associação presidida por Carlos Menezes tem sede em São Paulo.", "não se diz"],
+      ["Juliana cobra menos que os despachantes tradicionais.", "não se diz"],
+      ["Neide pretende se aposentar nos próximos meses.", "falso"]
+    ],
+    "hunt": {
+      "label": "Toque nos verbos cuja regência exige atenção (assistir a, obedecer a, visar a, namorar alguém, confiar em…)",
+      "targets": ["assiste", "obedecer", "depender", "preferia", "aspira", "visa", "implica", "simpatiza", "namora", "confiava", "gostam", "pensa"]
+    }
+  },
+  "ascolto": {
+    "title": "Namoro no trabalho: pode ou não pode?",
+    "genre": "programa de consultas na rádio",
+    "es": "En un programa de radio de consultas legales, una abogada laboralista atiende el llamado de una oyente preocupada por una nueva regla de su empresa.",
+    "speakers": ["Helena, advogada e apresentadora", "Patrícia, ouvinte"],
+    "turns": [
+      ["A", "Boa tarde, você está ouvindo o Direito na Hora, e a gente já tem uma ouvinte na linha. Pode falar, Patrícia, tudo bem?"],
+      ["B", "Tudo bem, Helena, obrigada por me atender. Olha, é uma situação meio delicada. Eu trabalho numa empresa de logística há uns quatro anos e, faz seis meses, eu namoro um colega do setor financeiro."],
+      ["A", "Certo. E qual é a dúvida?"],
+      ["B", "Então, semana passada saiu um comunicado novo do RH dizendo que relacionamentos entre funcionários precisam ser informados à empresa. E aí fiquei insegura, sabe? Eu não sei se sou obrigada a obedecer a isso, se isso pode implicar demissão..."],
+      ["A", "Entendi. Vamos por partes. Primeiro: a lei não proíbe ninguém de namorar um colega de trabalho. A vida afetiva é assunto seu, é da sua intimidade. Nenhuma empresa pode punir alguém, nem demitir por justa causa, simplesmente porque essa pessoa namora outra."],
+      ["B", "Ah, que alívio."],
+      ["A", "Agora, calma, tem um porém. A empresa pode, sim, criar regras de conduta. Por exemplo, ela pode pedir que um casal não trabalhe na mesma equipe quando um é chefe do outro. Isso visa a evitar conflito de interesses. Seu namorado é seu superior?"],
+      ["B", "Não, não, nada disso. A gente nem trabalha no mesmo andar. Eu mal vejo ele durante o expediente."],
+      ["A", "Então o caso é mais simples. Veja: se o comunicado só pede que vocês informem a relação, eu diria que não custa conversar com o RH, de maneira discreta. Mas se a empresa exigir detalhes da vida pessoal, ou ameaçar punição, aí ela extrapola o poder de direção."],
+      ["B", "E se eu preferir não falar nada?"],
+      ["A", "Olha, é um direito seu. Mas pensa assim: informar não é confessar nada errado. Às vezes, ser transparente evita fofoca, evita mal-entendido. Eu aconselho você a guardar uma cópia desse comunicado e, se houver qualquer pressão, procurar o sindicato ou um advogado."],
+      ["B", "Tá bom. Posso só perguntar mais uma coisa rapidinho? Se um dia a gente terminar, e a relação ficar ruim no trabalho?"],
+      ["A", "Boa pergunta, e acontece mais do que a gente imagina. Aí o que vale é o comportamento profissional. Ninguém pode usar o cargo pra se vingar, nem constranger o outro na frente dos colegas. Se isso acontecer, pode configurar assédio, e a empresa tem o dever de agir."],
+      ["B", "Entendi. Muito obrigada, Helena, me ajudou bastante."],
+      ["A", "Imagina, Patrícia. E boa sorte pra vocês dois. Depois do intervalo, a gente volta com uma pergunta sobre férias vencidas."]
+    ],
+    "gloss": {
+      "imagina": "(respuesta a un gracias) ¡de nada!, ¡por favor!",
+      "mal": "(eu mal vejo ele) casi no lo veo",
+      "demissão": "despido",
+      "demitir": "despedir",
+      "porém": "pero, reparo",
+      "andar": "piso",
+      "expediente": "horario laboral",
+      "extrapola": "se excede en",
+      "fofoca": "chisme",
+      "sindicato": "gremio",
+      "vingar": "vengarse",
+      "constranger": "intimidar, incomodar",
+      "assédio": "acoso",
+      "vencidas": "adeudadas, no gozadas"
+    },
+    "questions": [
+      ["Por que Patrícia ligou para o programa?", ["Foi demitida por namorar um colega.", "Um comunicado do RH a deixou insegura.", "O namorado passou a ser chefe dela.", "Quer processar a empresa por assédio."], "Um comunicado do RH a deixou insegura."],
+      ["Segundo Helena, que regra a empresa pode criar?", ["Proibir qualquer namoro entre funcionários.", "Exigir detalhes da vida afetiva do casal.", "Separar o casal quando um chefia o outro.", "Demitir um dos dois se o namoro terminar."], "Separar o casal quando um chefia o outro."],
+      ["Quando Helena diz que a empresa “extrapola o poder de direção”, ela quer dizer que a empresa:", ["ultrapassa os limites da sua autoridade.", "exerce corretamente o seu direito de mandar.", "delega decisões ao sindicato.", "muda a direção de um departamento."], "ultrapassa os limites da sua autoridade."],
+      ["Qual é a posição de Helena sobre informar o namoro ao RH?", ["É obrigatório e deve ser feito por escrito.", "Calar é um direito dela, mas informar pode evitar mal-entendidos.", "Deve ser evitado, porque pode gerar punição.", "Só é necessário se o namoro for sério."], "Calar é um direito dela, mas informar pode evitar mal-entendidos."],
+      ["O que Helena aconselha Patrícia a fazer desde já?", ["Pedir transferência para outro andar.", "Guardar uma cópia do comunicado.", "Contratar um advogado imediatamente.", "Terminar o namoro para evitar problemas."], "Guardar uma cópia do comunicado."]
+    ],
+    "vf": [
+      ["Patrícia e o namorado trabalham no mesmo andar.", "falso"],
+      ["Patrícia trabalha na empresa há cerca de quatro anos.", "verdadeiro"],
+      ["O namorado de Patrícia já conversou com o RH.", "não se diz"],
+      ["Para Helena, usar o cargo para se vingar de um ex pode configurar assédio.", "verdadeiro"]
+    ]
+  },
+  "compito": {
+    "genre": "carta_leitor",
+    "title": "Carta ao jornal sobre os despachantes",
+    "fonte": "lettura",
+    "t": "Você é leitor(a) de um jornal de circulação nacional e já precisou enfrentar um trâmite burocrático complicado. Após ler o perfil “Despachantes: os tradutores da burocracia”, escreva uma carta do leitor para a seção de cartas do jornal, comentando o texto. Na sua carta, retome pelo menos dois argumentos ou depoimentos apresentados no perfil, relate brevemente uma experiência pessoal com a burocracia e posicione-se sobre o futuro da profissão diante da digitalização dos serviços públicos. Não se esqueça de identificar o texto ao qual você se refere, de assinar a carta e de usar registro formal. Seu texto deve ter entre 165 e 225 palavras.",
+    "es": "Carta de lector formal: tiene que citar el perfil del diario, usar al menos dos ideas del texto, contar una experiencia propia y opinar. Cuidá la regencia (assistir a, recorrer a, obedecer a, concordar com).",
+    "min": 165,
+    "max": 225,
+    "punti": [["Identificar el texto comentado", ["despachantes", "perfil", "reportagem", "matéria"]], ["Retomar al menos dos ideias o testimonios del texto", ["neide", "menezes", "juliana", "rodrigo", "aplicativo"]], ["Contar una experiencia personal con trámites", ["cartório", "fila", "document", "processo"]], ["Opinar sobre el futuro frente a la digitalización", ["digital", "futuro"]]],
+    "model": "Prezados editores,\n\nLi com grande interesse o perfil “Despachantes: os tradutores da burocracia”, publicado na última edição, e gostaria de acrescentar o ponto de vista de quem já dependeu desses profissionais.\n\nNo ano passado, precisei regularizar o apartamento que meus pais me deixaram. Assisti a uma verdadeira maratona: três idas ao cartório, duas filas intermináveis e um documento recusado porque faltava uma firma reconhecida. Só consegui concluir o processo quando recorri a uma despachante, que, assim como a senhora Neide, sabia exatamente a que regra obedecer e em que ordem agir.\n\nConcordo com o texto quando afirma que o aplicativo resolve apenas o simples. Também me pareceu justo o argumento de Carlos Menezes: não se deve confundir o profissional sério com o intermediário informal que oferece atalhos na porta das repartições.\n\nNo entanto, discordo do otimismo absoluto de Neide. A digitalização não vai eliminar a profissão, mas vai transformá-la, como mostra o exemplo de Juliana Prado. O despachante do futuro será menos um especialista em filas e mais um orientador que explica ao cidadão aquilo que o Estado insiste em complicar.\n\nAtenciosamente,\n\nMariana Lopes\nCampinas (SP)",
+    "gloss": {
+      "Despachantes": "gestores: los que hacen trámites por otros",
+      "idas ao cartório": "idas al registro, a la escribanía",
+      "firma reconhecida": "firma certificada por escribano",
+      "repartições": "oficinas públicas"
+    }
+  },
+  "breve": {
+    "title": "Central de atendimento do Detran",
+    "genre": "mensagem automática de central de atendimento",
+    "es": "El mensaje grabado de la central de la oficina de tránsito de Río: horarios, teclas para cada trámite y una novedad sobre la inspección de vehículos.",
+    "speaker": "Voz gravada",
+    "voice": 1,
+    "text": [
+      "Olá! Você ligou para a central de atendimento do Detran do Rio de Janeiro. Esta ligação pode ser gravada. Atendemos de segunda a sexta, das 8 às 17 horas.",
+      "Se você precisa de informações sobre a primeira habilitação, digite 1. Se quer agendar a renovação da carteira de motorista, digite 2. Para consultar multas e pagar o boleto, digite 3. Para falar com um atendente, digite 9.",
+      "Atenção: a partir do dia 10, a vistoria de veículos só será feita com hora marcada. Não se esqueça do documento do carro e do comprovante de pagamento da taxa, que custa 234 reais. Quem chegar mais de 15 minutos atrasado vai precisar marcar outro dia.",
+      "Você também pode resolver quase tudo pelo aplicativo, sem sair de casa. Por favor, aguarde: em breve você será atendido."
+    ],
+    "tabella": [
+      [
+        "Horário em que a central fecha",
+        "17",
+        [
+          "17 horas",
+          "17h",
+          "cinco da tarde",
+          "17:00"
+        ]
+      ],
+      [
+        "Tecla para renovar a carteira de motorista",
+        "2",
+        [
+          "dois"
+        ]
+      ],
+      [
+        "Tecla para falar com um atendente",
+        "9",
+        [
+          "nove"
+        ]
+      ],
+      [
+        "Valor da taxa da vistoria (reais)",
+        "234",
+        [
+          "duzentos e trinta e quatro",
+          "R$ 234",
+          "234 reais"
+        ]
+      ],
+      [
+        "Tolerância de atraso na vistoria (minutos)",
+        "15",
+        [
+          "quinze",
+          "15 minutos"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "A central não atende nos fins de semana.",
+        true
+      ],
+      [
+        "As multas só podem ser pagas no banco.",
+        false
+      ],
+      [
+        "A vistoria vai precisar de agendamento.",
+        true
+      ],
+      [
+        "A vistoria é gratuita para carros novos.",
+        false
+      ],
+      [
+        "Muitos serviços podem ser feitos pelo aplicativo.",
+        true
+      ],
+      [
+        "Quem se atrasar pode fazer a vistoria no mesmo dia.",
+        false
+      ]
+    ],
+    "gloss": {
+      "habilitação": "registro de conducir",
+      "vistoria": "inspección técnica (como la VTV)",
+      "boleto": "boleta de pago",
+      "digite": "marcá (en el teclado)",
+      "multas": "multas"
+    }
+  }
+}

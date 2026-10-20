@@ -1,0 +1,389 @@
+{
+ "week": 8,
+ "title": "Domande e interrogativi",
+ "level": "A2",
+ "revisado": {
+  "items": 44,
+  "sfide": 0,
+  "bloques_teoria": 5,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 16
+ },
+ "veredicto": "necesita trabajo",
+ "resumen": "La lección es corta y clara en su parte de interrogativos, pero tiene una contradicción interna (sí/no sin inversión vs. «sujeto al final») y la mitad de la práctica (d11-002..010) obliga a una forma poco natural. La intro plantea un contraste con el español que no existe (la preposición también va delante en castellano). Casi no hay práctica de preposición+interrogativo ni de che/quale, y el objetivo declarado (direcciones, ciudad) no aparece. Hay un error de contenido en l2-d-03 (magari). Estimo ~15% de falsos positivos en las dudas y ~5% en los errores.",
+ "bien": [
+  "Tabla de interrogativos completa y con ejemplos claros, glosas rioplatenses (voseo, cartera, lapicera).",
+  "Buena advertencia sobre «¿» inexistente y sobre Qual è sin apóstrofo, reforzada en tres ejercicios (a2-ort-05, g2-va-72, c-011).",
+  "Ítems de choice quanto/quanta/quanti/quante con distractores basados en la regla de concordancia.",
+  "Ítems conjugate d11-036..040 conectan interrogativos con respuestas personales y son correctos.",
+  "Dictogloss y lectura recorren casi todos los interrogativos de forma natural."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:intro",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Cambian la posición de la preposición y algunas formas fijas.",
+   "propuesta": "Quitar la afirmación: en castellano la preposición también abre la pregunta (¿Con quién salís?). Decir en cambio: «Como en castellano, la preposición va delante (contraste con el inglés Who are you with?); lo que cambia son las formas fijas (qual è, come mai, che cosa)».",
+   "motivo": "El contraste con el español es falso: el hispanohablante no comete ese error; solo el anglohablante."
+  },
+  {
+   "id": "lesson:2",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "La preposición **abre** la pregunta, nunca queda al final ni se omite.",
+   "propuesta": "Aclarar que es igual que en español y que el contraste es con el inglés; agregar el error real del rioplatense (omitir la preposición o usar 'dove' por 'da dove/adónde').",
+   "motivo": "Bloque sin contraste útil con el español; enseña una regla que el alumno ya domina."
+  },
+  {
+   "id": "lesson:4",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Si la pregunta tiene sujeto explícito, va **después del verbo**, al final.",
+   "propuesta": "Matizar: «En preguntas con interrogativo, el sujeto suele ir después del verbo (Dove abita Marco?); ponerlo antes (Perché Marco non viene?) también es normal».",
+   "motivo": "Regla absoluta y sobregeneralizada; además contradice el bloque 0 (Marco è a casa?)."
+  },
+  {
+   "id": "lesson:0",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Y no inviertas nada: *Marco è a casa?*",
+   "propuesta": "Eliminar o reformular la advertencia para no chocar con el bloque 4; o decir «en sí/no el sujeto se queda donde está».",
+   "motivo": "La teoría dice en un bloque 'no inviertas nada' y en otro 'el sujeto va al final'; el alumno recibe consignas contradictorias."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*che* pregunta qué tipo de cosa; *quale* pide **elegir** entre opciones conocidas.",
+   "propuesta": "Agregar que quale/qual è también pide identificar un dato (Qual è il tuo numero?) y que con sustantivo che y quale conviven (Che/Quale libro leggi?) con matiz.",
+   "motivo": "La regla no cubre su propio ejemplo 'Qual è il problema?' (no hay opciones conocidas) y presenta como excluyentes formas casi intercambiables."
+  },
+  {
+   "id": "d11-002",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Sono a scuola, i ragazzi?",
+   "propuesta": "Reemplazar la consigna por interrogativas con palabra interrogativa (Dove sono i ragazzi?) o aceptar también la versión sin inversión: I ragazzi sono a scuola?",
+   "motivo": "Convertir sí/no con sujeto dislocado tras coma es poco natural, no está enseñado (el bloque 4 solo trata interrogativos) y contradice el bloque 0."
+  },
+  {
+   "id": "d11-003",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "È impegnatissima, tua madre?",
+   "propuesta": "Agregar a accept: Tua madre è impegnatissima? (o rehacer el ítem con interrogativo)",
+   "motivo": "Misma serie: respuesta forzada poco natural (dislocación) y falta la versión natural sin inversión que enseña el bloque 0. En d11-006 y d11-010 el pronombre sujeto al final cambia el sentido (énfasis/reproche)."
+  },
+  {
+   "id": "d11-004",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Parla inglese, Giuseppe?",
+   "propuesta": "Agregar a accept: Giuseppe parla inglese? (o rehacer el ítem con interrogativo)",
+   "motivo": "Misma serie: respuesta forzada poco natural (dislocación) y falta la versión natural sin inversión que enseña el bloque 0. En d11-006 y d11-010 el pronombre sujeto al final cambia el sentido (énfasis/reproche)."
+  },
+  {
+   "id": "d11-005",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Sono molto belle, le nuove macchine?",
+   "propuesta": "Agregar a accept: Le nuove macchine sono molto belle? (o rehacer el ítem con interrogativo)",
+   "motivo": "Misma serie: respuesta forzada poco natural (dislocación) y falta la versión natural sin inversión que enseña el bloque 0. En d11-006 y d11-010 el pronombre sujeto al final cambia el sentido (énfasis/reproche)."
+  },
+  {
+   "id": "d11-006",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Prepari da mangiare, tu?",
+   "propuesta": "Agregar a accept: Tu prepari da mangiare? (o rehacer el ítem con interrogativo)",
+   "motivo": "Misma serie: respuesta forzada poco natural (dislocación) y falta la versión natural sin inversión que enseña el bloque 0. En d11-006 y d11-010 el pronombre sujeto al final cambia el sentido (énfasis/reproche)."
+  },
+  {
+   "id": "d11-009",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Visitano i musei fiorentini, le donne?",
+   "propuesta": "Agregar a accept: Le donne visitano i musei fiorentini? (o rehacer el ítem con interrogativo)",
+   "motivo": "Misma serie: respuesta forzada poco natural (dislocación) y falta la versión natural sin inversión que enseña el bloque 0. En d11-006 y d11-010 el pronombre sujeto al final cambia el sentido (énfasis/reproche)."
+  },
+  {
+   "id": "d11-010",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Leggo ogni giorno, io?",
+   "propuesta": "Agregar a accept: Io leggo ogni giorno? (o rehacer el ítem con interrogativo)",
+   "motivo": "Misma serie: respuesta forzada poco natural (dislocación) y falta la versión natural sin inversión que enseña el bloque 0. En d11-006 y d11-010 el pronombre sujeto al final cambia el sentido (énfasis/reproche)."
+  },
+  {
+   "id": "d11-002",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Convertí la afirmación en pregunta: pasá el sujeto al final, después de una coma, y agregá el signo de pregunta.",
+   "propuesta": "Reducir de 7 ítems casi idénticos (d11-002..010) a 2-3 y reemplazar el resto por ítems de preposición+interrogativo, che/quale, perché/porque",
+   "motivo": "Siete ítems duplicados en mecánica que practican un punto secundario y dejan sin práctica los puntos centrales."
+  },
+  {
+   "id": "d11-019",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "¿Cuál materia es tu preferida?",
+   "propuesta": "¿Cuál es tu materia preferida? (IT: Qual è la tua materia preferida?)",
+   "motivo": "«Cuál» + sustantivo suena forzado en español rioplatense; además 'Quale materia è la tua preferita?' es poco natural en italiano."
+  },
+  {
+   "id": "d11-032",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Quanti studenti mangiano nella mensa universitaria? Molti? (sí, muchos)",
+   "propuesta": "Quanti studenti mangiano nella mensa universitaria? (muchos)",
+   "motivo": "La pregunta repite «Molti?» y el paréntesis «sí, muchos» confunden qué se pregunta; la consigna dice 'reusá las palabras' pero el enunciado ya contiene la respuesta."
+  },
+  {
+   "id": "d11-031",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Respondé en italiano con una oración completa: reusá las palabras de la pregunta y agregá el dato que está entre paréntesis.",
+   "propuesta": "Aclarar en la consigna que la respuesta corta (Sono molto gentili.) también vale, o quitar 'completa'",
+   "motivo": "La consigna pide oración completa pero accept admite la corta; incoherencia menor."
+  },
+  {
+   "id": "d11-035",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "I biglietti sono sul tavolo.",
+   "propuesta": "Agregar a accept: I biglietti sono sopra il tavolo. / Sono sopra il tavolo. / Sono sul tavolo.",
+   "motivo": "«sopra il tavolo» es igual de natural y no se acepta."
+  },
+  {
+   "id": "d11-034",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Il museo apre alle 9.00.",
+   "propuesta": "Agregar a accept: Il museo apre alle 9:00. / alle 9,00. / alle ore 9.",
+   "motivo": "Variantes de escritura de la hora que un alumno usaría."
+  },
+  {
+   "id": "d11-018",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "___ stoffa ci vuole? (¿Cuánta tela hace falta?)",
+   "propuesta": "Usar un enunciado sin ci vuole (p. ej. Quanta stoffa compri?) o enseñar ci vuole antes",
+   "motivo": "Estructura no enseñada hasta esta semana."
+  },
+  {
+   "id": "d11-021",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Completá la pregunta con una de estas opciones (sin repetir ninguna): come sono, dov'è, dove, quando, dove sono.",
+   "propuesta": "Enseñar la elisión dov'è (y dove è) en la lección antes de exigirla; la lista de opciones ya da la respuesta",
+   "motivo": "dov'è aparece solo en ejercicios y suoni, no en la teoría; el banco de palabras vuelve el ítem de simple emparejamiento."
+  },
+  {
+   "id": "g2-gd-49",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "(estoy cansado) → ___ stanco",
+   "propuesta": "Cambiar el ítem por uno del tema (interrogativos) o revisar que los tres ejemplos de la consigna existan",
+   "motivo": "Tema ajeno a la semana (essere/stare) y el enunciado remite a «los tres ejemplos» que no figuran en el dossier."
+  },
+  {
+   "id": "g2-gd-49",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Los estados con adjetivo van con essere: sono stanco, sono contento, sono malato.",
+   "propuesta": "Los estados transitorios/físicos con adjetivo suelen ir con essere; stare se combina con algunos adjetivos (sto attento, sto zitto, sto tranquillo)",
+   "motivo": "Generalización falsa: hay adjetivos con stare."
+  },
+  {
+   "id": "l2-d-03",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "«Forse» = quizás, neutro. «Magari» lleva un deseo adentro (ojalá), así que no encaja con algo que no se quiere, como una gripe.",
+   "propuesta": "Aceptar también «magari» (magari è l'influenza = quizás sea la gripe) o cambiar el enunciado/distractor; corregir la nota",
+   "motivo": "Magari significa también «quizás» y es muy natural acá: hay 2 respuestas correctas y la nota es falsa."
+  },
+  {
+   "id": "l2-d-04",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Non è ___ (para nada) vero!",
+   "propuesta": "Agregar a accept: affatto, per niente",
+   "motivo": "«Non è affatto vero» y «per niente» corresponden igual de bien a «para nada»; además mica (coloquial) no está enseñado."
+  },
+  {
+   "id": "l2-d-01",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "— Vieni al mare con noi domenica? — ___! Ma devo lavorare.",
+   "propuesta": "Mover los ítems de marcadores discursivos (l2-d-*) a una sección de conversación o ubicarlos en una semana que los enseñe",
+   "motivo": "Mica, anzi, cioè, boh, mah no se enseñan en la lección de interrogativos."
+  },
+  {
+   "id": "a2-ort-05",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Quale'",
+   "propuesta": "Reemplazar por «Quale» (que es válida) o por otro distractor plausible; y aclarar que qual è / quale è coexisten",
+   "motivo": "«Quale'» es demasiado obvio y no representa un error real; el error real es Qual'."
+  },
+  {
+   "id": "vocab:elementare",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "dov'è la scuola elementare?",
+   "propuesta": "Dov'è la scuola elementare?",
+   "motivo": "La oración de ejemplo empieza con minúscula."
+  },
+  {
+   "id": "vocab:aereo",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "Quand'è che parte l'aereo?",
+   "propuesta": "Quando parte l'aereo?",
+   "motivo": "Estructura con «è che» no enseñada en A2; se puede usar la forma simple."
+  },
+  {
+   "id": "lettura w-08",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"level\": \"A1\"",
+   "propuesta": "level: A2",
+   "motivo": "La lectura está marcada A1 dentro de una semana A2."
+  },
+  {
+   "id": "lettura w-08",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Quando apri la mattina?",
+   "propuesta": "A che ora apri la mattina? (y agregar Di dove sei?, Quale piatto...)",
+   "motivo": "La lectura no muestra preposición+interrogativo, quale ni sujeto al final, que son el núcleo de la lección; solo hay 3 preguntas de comprensión (todas de opción múltiple)."
+  },
+  {
+   "id": "dictogloss w8",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "tutti hanno domande",
+   "propuesta": "tutti hanno delle domande / tutti fanno domande",
+   "motivo": "«hanno domande» sin partitivo suena calcado del español."
+  },
+  {
+   "id": "p-038",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "dano",
+   "propuesta": "Reemplazar por un par real: cane/canne, pena/penna, nono/nonno",
+   "motivo": "«dano» no existe; los pares con no-palabras (dano, stasione, chiessa, bira, oni) no entrenan discriminación sobre léxico real."
+  },
+  {
+   "id": "p-083",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "«sé» cerrada y tónica; «se» átona.",
+   "propuesta": "«sé» (pronombre) y «se» difieren solo en la tonicidad; ambas e son cerradas. Usar un par de vocales real, p. ej. pesca/pèsca o e/è (é/è)",
+   "motivo": "La nota implica que la vocal cambia, pero en «se» también es [e]; además el par es solo ortográfico (categoría vocali)."
+  },
+  {
+   "id": "p-109",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "[ts] en stazione.",
+   "propuesta": "[tts]: en stazione la africada es siempre larga (stat-tsione)",
+   "motivo": "La nota fonética es imprecisa: la z de -zione es geminada."
+  },
+  {
+   "id": "c-010",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Dov'è l'ufficio?",
+   "propuesta": "Definir qué se cuenta: si son sílabas, Do-vè-l'uf-fi-cio son 5; si son palabras, son 4 (dove, è, lo, ufficio)",
+   "motivo": "La respuesta '4' es ambigua/inconsistente con la nota (dos elisiones) según qué se cuente."
+  },
+  {
+   "id": "c-011",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Quale è il tuo nome?",
+   "propuesta": "Cambiar el distractor: «quale è» también es gramatical (solo menos frecuente) y no diferencia oralmente",
+   "motivo": "Distractor que en italiano estándar es aceptable."
+  },
+  {
+   "id": "c-011",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "Qual è il tuo nome?",
+   "propuesta": "Come ti chiami? (o usar Qual è il tuo numero di telefono?)",
+   "motivo": "«Qual è il tuo nome?» es calco del inglés; lo natural para nombre es «Come ti chiami?». Igual en g2-va-72."
+  },
+  {
+   "id": "lesson:*",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "fare: Preguntar y dar direcciones / tema: Indicaciones, la ciudad",
+   "propuesta": "Agregar vocabulario y ejercicios de direcciones: Scusi, dov'è...?, a destra/sinistra, dritto, vicino/lontano, Lei",
+   "motivo": "Ni la teoría ni los ítems tratan indicaciones ni la ciudad, que son el objetivo declarado (fare/tema)."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Reescribir/eliminar el bloque «sujeto al final» y los ítems d11-002..010: enseñar que en sí/no el sujeto se queda antes del verbo y que con interrogativo puede ir después; aceptar ambas formas",
+   "por_que": "Hoy la teoría se contradice (bloque 0 vs 4) y los ejercicios exigen una forma poco natural."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Cumplir el objetivo comunicativo (preguntar y dar direcciones): vocabulario de la ciudad, dov'è/c'è, a destra/sinistra, scusi, y 6-8 ítems en contexto",
+   "por_que": "fare/tema no aparecen en la lección ni en los ítems."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Añadir ejercicios de preposición+interrogativo (di chi, con chi, a che ora, da dove, di che cosa), perché/porque y che vs quale",
+   "por_que": "Son el núcleo de la lección y casi no tienen práctica (solo d11-037)."
+  },
+  {
+   "prioridad": "media",
+   "que": "Corregir la intro: el contraste de la preposición es con el inglés, no con el español; agregar errores típicos del rioplatense (omitir preposición, calcar ¿qué tal?, «quando» por «adónde»)",
+   "por_que": "Falta el contraste real hispanohablante."
+  },
+  {
+   "prioridad": "media",
+   "que": "Corregir l2-d-03 (magari = quizás) y ampliar accept en l2-d-04 y ejercicios de traducción/producción libre",
+   "por_que": "Evitar respuestas correctas rechazadas."
+  },
+  {
+   "prioridad": "media",
+   "que": "Equilibrar tipos: hoy hay solo qa, choice, cloze, conjugate y 3 ítems sueltos; agregar producción escrita corta (formular la pregunta a partir de la respuesta) y traducción es→it",
+   "por_que": "Falta progresión reconocimiento → producción y hay 0 sfide."
+  },
+  {
+   "prioridad": "media",
+   "que": "Alinear la lectura a A2 e incluir che/quale, preposición+interrogativo y preguntas vero/falso",
+   "por_que": "Nivel A1 y sin cobertura de las reglas nuevas."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Revisar suoni: sustituir no-palabras por pares reales, corregir [tts] y sé/se, reconsiderar la coherencia de conta (c-010)",
+   "por_que": "Los pares mínimos son poco fiables."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Conciliar n_items de parts (67+21) con los 44 del dossier y retirar ítems ajenos (marcadores l2-d, essere/stare)",
+   "por_que": "Coherencia de carga y de foco."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 3
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

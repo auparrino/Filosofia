@@ -1,0 +1,396 @@
+{
+  "week": 51,
+  "level": "C1",
+  "lettura": {
+    "title": "O centro vai voltar a ter moradores?",
+    "emoji": "🏙️",
+    "genre": "reportagem especial",
+    "grammar": "revisão B2-C1",
+    "text": "Às sete da noite de uma terça-feira, a rua que concentra alguns dos edifícios mais bonitos do centro da cidade parece um cenário abandonado. As lojas baixaram as portas, os escritórios apagaram as luzes, e os poucos pedestres caminham depressa em direção ao metrô. No alto das fachadas art déco, janelas quebradas e faixas de “aluga-se” desbotadas pelo sol contam uma história que se repete em várias capitais brasileiras: o centro, que durante décadas foi o coração econômico e simbólico das cidades, esvaziou-se.\n\nAs causas são conhecidas. A partir dos anos 1970 e 1980, empresas e bancos migraram para novos bairros de negócios, com prédios modernos, estacionamento e segurança privada. As famílias de classe média seguiram o mesmo caminho, em direção a condomínios e bairros residenciais cada vez mais afastados. Mais recentemente, a popularização do trabalho remoto deu o golpe que faltava: muitas empresas descobriram que não precisavam de tantos andares de escritório e devolveram salas inteiras. O resultado é um paradoxo urbano. Milhares de pessoas procuram moradia perto do trabalho e do transporte, enquanto prédios inteiros, justamente nas áreas mais bem servidas de metrô e ônibus, permanecem vazios.\n\nÉ nesse contexto que ganhou força a palavra retrofit, termo emprestado do inglês para designar a reforma profunda de edifícios antigos, adaptando-os a novos usos. A ideia é simples de enunciar e complicada de executar: transformar antigos prédios comerciais em apartamentos, para as famílias morarem perto de onde trabalham. “Se os prédios voltarem a ter moradores, o comércio volta a ter clientes à noite, a rua volta a ter gente, e a sensação de insegurança diminui”, resume a arquiteta Camila Rocha, que coordena projetos de requalificação urbana. “Uma cidade viva é aquela em que as pessoas moram, e não apenas passam.”\n\nOs obstáculos, porém, são numerosos. Muitos desses edifícios foram projetados para outra época e para outra função: têm poucos banheiros, instalações elétricas precárias, elevadores antigos e plantas difíceis de dividir em unidades residenciais. Alguns são tombados pelo patrimônio histórico, o que exige cuidados adicionais com fachadas e materiais. Há ainda a questão da propriedade: não é raro que um mesmo prédio pertença a dezenas de herdeiros que não se entendem, ou que acumule dívidas de impostos há anos. “Enquanto não houver regras mais claras e algum incentivo, o proprietário vai preferir esperar, porque o prédio vazio, no papel, continua valendo dinheiro”, observa Rocha.\n\nPara os proprietários tirarem os projetos da gaveta, algumas prefeituras passaram a oferecer descontos em impostos, a simplificar o licenciamento e a flexibilizar exigências da legislação urbanística para quem se dispuser a reformar. Os defensores dessas medidas argumentam que o custo para o poder público é pequeno diante dos benefícios: aproveita-se uma infraestrutura que já existe, em vez de levar asfalto, esgoto e transporte para bairros cada vez mais distantes. Os críticos, por sua vez, temem que os incentivos acabem beneficiando sobretudo grandes incorporadoras, que poderão lucrar com apartamentos pequenos e caros sem resolver o problema de quem mais precisa.\n\nNa prefeitura, o discurso é otimista, mas cauteloso. Um técnico da secretaria de urbanismo, que pediu para não ser identificado, admite que os primeiros resultados ficaram aquém do esperado. “Muita gente achava que bastaria aprovar uma lei para os prédios se encherem de moradores em dois anos. Não é assim. Cada edifício é um quebra-cabeça jurídico, técnico e financeiro”, explica. Segundo ele, a equipe pretende criar um cadastro público dos imóveis vazios da região, para que interessados possam identificar oportunidades e para que os proprietários que mantiverem prédios abandonados por muito tempo sejam, no futuro, cobrados com impostos progressivos.\n\nEssa é, talvez, a questão central do debate: quem vai morar no centro requalificado? Movimentos de moradia, que há anos ocupam prédios abandonados para chamar a atenção para o déficit habitacional, lembram que o centro nunca esteve realmente vazio. Nele vivem trabalhadores informais, famílias em cortiços e pessoas em situação de rua. “Se as reformas só servirem para trazer gente de fora e expulsar quem já está aqui, não é revitalização, é substituição”, afirma Maria Aparecida Souza, a dona Cida, que mora há oito anos num prédio ocupado a poucas quadras da praça principal. Ela teme a possibilidade de os antigos moradores serem expulsos sem nenhuma alternativa e defende que parte dos apartamentos reformados seja obrigatoriamente destinada à habitação social, com aluguéis compatíveis com a renda de quem trabalha na região.\n\nEntre os comerciantes, o sentimento é de expectativa cautelosa. Jorge Nakamura, que mantém há trinta anos uma papelaria na mesma esquina, já viu vários planos de revitalização serem anunciados com festa e esquecidos logo em seguida. “Quando os moradores chegarem de verdade, eu abro até mais tarde. Mas, por enquanto, só vi maquete”, brinca. Ele reconhece, no entanto, que algo parece estar mudando: dois prédios da sua rua estão em obras, e um terceiro, desocupado há mais de uma década, acaba de ser vendido.\n\nOs especialistas ouvidos pela reportagem concordam em pelo menos um ponto: não existe solução única. O retrofit pode ser uma peça importante, desde que venha acompanhado de habitação social, de serviços públicos, como escolas, postos de saúde e creches, e de espaços de convivência. Sem isso, corre-se o risco de trocar um centro vazio por um centro exclusivo. Se as cidades tiverem a coragem de enfrentar ao mesmo tempo a questão urbanística e a social, talvez possam, finalmente, fazer as pazes com o lugar onde nasceram.",
+    "gloss": {
+      "pedestres": "peatones",
+      "faixas": "carteles, pasacalles",
+      "desbotadas": "desteñidas",
+      "esvaziou-se": "se vació",
+      "andares": "pisos",
+      "moradia": "vivienda",
+      "emprestado": "tomado prestado",
+      "requalificação": "revitalización, recualificación",
+      "plantas": "planos, distribución de ambientes",
+      "tombados": "declarados patrimonio histórico",
+      "herdeiros": "herederos",
+      "dívidas": "deudas",
+      "gaveta": "cajón",
+      "licenciamento": "habilitación, permisos",
+      "esgoto": "cloacas",
+      "incorporadoras": "desarrolladoras inmobiliarias",
+      "lucrar": "ganar plata, lucrar",
+      "déficit": "déficit",
+      "cortiços": "conventillos",
+      "quadras": "cuadras",
+      "aluguéis": "alquileres",
+      "renda": "ingresos",
+      "cautelosa": "cauta",
+      "maquete": "maqueta",
+      "desocupado": "desocupado, vacío",
+      "creches": "guarderías, jardines maternales",
+      "aquém": "por debajo",
+      "quebra-cabeça": "rompecabezas",
+      "cadastro": "registro, padrón"
+    },
+    "questions": [
+      [
+        "Qual é o tema central da reportagem?",
+        [
+          "A história da arquitetura art déco nas capitais do país.",
+          "A conversão de prédios vazios do centro em moradia e os seus dilemas.",
+          "O aumento da violência nas áreas centrais das grandes cidades.",
+          "A volta das empresas ao centro depois do fim do trabalho remoto."
+        ],
+        "A conversão de prédios vazios do centro em moradia e os seus dilemas."
+      ],
+      [
+        "Qual é o “paradoxo urbano” descrito no segundo parágrafo?",
+        [
+          "O centro tem muito transporte público, mas quase nenhum passageiro.",
+          "Falta moradia enquanto prédios bem localizados ficam vazios.",
+          "As empresas voltaram ao centro, mas os funcionários trabalham em casa.",
+          "Os aluguéis do centro subiram apesar do abandono dos edifícios."
+        ],
+        "Falta moradia enquanto prédios bem localizados ficam vazios."
+      ],
+      [
+        "Segundo Camila Rocha, por que muitos proprietários preferem esperar?",
+        [
+          "Porque a prefeitura proíbe reformas nas áreas centrais.",
+          "Porque esperam que as empresas voltem a alugar as salas.",
+          "Porque o prédio vazio mantém o seu valor no papel.",
+          "Porque os moradores das ocupações impedem as obras."
+        ],
+        "Porque o prédio vazio mantém o seu valor no papel."
+      ],
+      [
+        "O que dona Cida quer dizer com “não é revitalização, é substituição”?",
+        [
+          "Que os prédios antigos deveriam ser demolidos e substituídos por novos.",
+          "Que o comércio tradicional está sendo trocado por grandes redes.",
+          "Que os moradores atuais não aceitam nenhuma mudança no bairro.",
+          "Que as reformas podem expulsar quem já mora no centro."
+        ],
+        "Que as reformas podem expulsar quem já mora no centro."
+      ],
+      [
+        "Qual é a atitude de Jorge Nakamura diante das mudanças?",
+        [
+          "Cético, mas atento a sinais de mudança.",
+          "Totalmente entusiasmado com o retrofit.",
+          "Contrário a qualquer reforma na sua rua.",
+          "Indiferente, porque pretende fechar a loja em breve."
+        ],
+        "Cético, mas atento a sinais de mudança."
+      ]
+    ],
+    "vf": [
+      [
+        "O trabalho remoto contribuiu para esvaziar escritórios no centro.",
+        "verdadeiro"
+      ],
+      [
+        "Segundo o texto, qualquer prédio do centro pode ser reformado sem restrições.",
+        "falso"
+      ],
+      [
+        "Dona Cida defende que parte dos apartamentos reformados seja destinada à habitação social.",
+        "verdadeiro"
+      ],
+      [
+        "Jorge Nakamura pretende vender a sua papelaria.",
+        "não se diz"
+      ],
+      [
+        "Os especialistas afirmam que o retrofit, sozinho, resolve o problema do centro.",
+        "falso"
+      ]
+    ],
+    "hunt": {
+      "label": "Toque nos verbos no futuro do subjuntivo (se voltarem, quando chegarem…) e no infinitivo pessoal (para os proprietários tirarem…)",
+      "targets": [
+        "voltarem",
+        "morarem",
+        "houver",
+        "tirarem",
+        "dispuser",
+        "servirem",
+        "serem",
+        "chegarem",
+        "tiverem",
+        "encherem",
+        "mantiverem"
+      ]
+    }
+  },
+  "ascolto": {
+    "title": "Um centro para quem?",
+    "genre": "palestra com perguntas do público",
+    "es": "Al final de una charla sobre el centro de las ciudades, un urbanista responde las preguntas de una estudiante de arquitectura del público.",
+    "speakers": [
+      "Henrique Tavares (urbanista)",
+      "Paula (estudante)"
+    ],
+    "turns": [
+      [
+        "A",
+        "E é por isso que eu insisto: o centro não precisa de um grande projeto salvador, precisa de muitas pequenas decisões na mesma direção. Bom, acho que já falei demais. Vamos abrir para as perguntas. Pode falar, por favor."
+      ],
+      [
+        "B",
+        "Boa noite, professor. Meu nome é Paula, sou estudante de arquitetura. Eu queria fazer uma pergunta talvez meio provocativa. Todo mundo fala em retrofit como se fosse uma solução mágica. Mas reformar um prédio de setenta anos é caríssimo. Não seria mais barato demolir e construir do zero?"
+      ],
+      [
+        "A",
+        "Ótima pergunta, e não tem nada de provocativa. Olha, depende do prédio, é claro. Mas, em muitos casos, a conta não é tão simples quanto parece. Quando você demole, você joga fora a estrutura, que é justamente a parte mais cara e mais poluente de uma obra. Pense no concreto, no aço, no transporte do entulho. Do ponto de vista ambiental, o prédio mais sustentável costuma ser aquele que já existe. E tem outro ponto: muitos desses edifícios contam a história da cidade. Se a gente demolir tudo o que é antigo, o centro vira um lugar igual a qualquer outro."
+      ],
+      [
+        "B",
+        "Mas e quando o prédio simplesmente não serve para moradia? Tipo, sem janela nos fundos, sem ventilação nenhuma?"
+      ],
+      [
+        "A",
+        "Aí, sim, pode ser o caso de pensar em outro uso. Nem todo prédio precisa virar apartamento. Pode virar escola, centro cultural, espaço de trabalho compartilhado, hotel. O importante é que ele volte a ter vida. Um centro saudável tem uso misto: gente morando, trabalhando, estudando e se divertindo no mesmo lugar, em horários diferentes."
+      ],
+      [
+        "B",
+        "Posso fazer mais uma? É sobre gentrificação. O senhor acha que é possível reformar o centro sem expulsar quem já mora lá?"
+      ],
+      [
+        "A",
+        "Acho possível, mas não acho automático. Se ninguém fizer nada, o mercado resolve do jeito dele, que é trazer quem pode pagar mais. Então é preciso intervir. Algumas ferramentas são conhecidas. Reservar uma porcentagem das unidades reformadas para habitação social. Criar programas de aluguel social, em que o poder público é o dono dos apartamentos e cobra um aluguel compatível com a renda da família. E, principalmente, conversar com os moradores antes de decidir, e não depois."
+      ],
+      [
+        "B",
+        "E as ocupações? Porque aqui perto tem várias."
+      ],
+      [
+        "A",
+        "Olha, eu entendo que o tema divide opiniões. Mas eu diria o seguinte: as ocupações, gostemos ou não, mostraram à cidade que esses prédios podiam ser habitados. Tirar as famílias sem oferecer uma alternativa digna não resolve nada, só transfere o problema para outro endereço. Em vários casos, o caminho mais inteligente foi justamente reformar o prédio ocupado junto com os moradores."
+      ],
+      [
+        "B",
+        "Mas isso não acaba incentivando novas ocupações?"
+      ],
+      [
+        "A",
+        "É uma preocupação legítima, e eu ouço muito. Mas veja: a melhor forma de evitar ocupações é não deixar prédio vazio durante décadas, né? Um prédio abandonado é praticamente um convite. Se ele tiver uso, se tiver gente morando ou trabalhando, o problema nem aparece."
+      ],
+      [
+        "B",
+        "Última, prometo. O que o senhor diria para um comerciante que está cansado de ouvir promessas?"
+      ],
+      [
+        "A",
+        "Eu diria que ele tem toda a razão de estar cansado. E diria também que ele é parte da solução. Um térreo com loja aberta, iluminada, com gente entrando e saindo, faz mais pela segurança de uma rua do que dez câmeras. Por isso, os projetos precisam garantir que o andar de baixo dos prédios reformados continue sendo comércio. A gente chama isso de fachada ativa."
+      ],
+      [
+        "B",
+        "Muito obrigada, professor. Ajudou bastante, de verdade."
+      ],
+      [
+        "A",
+        "Eu que agradeço. São perguntas assim que fazem uma palestra valer a pena."
+      ]
+    ],
+    "gloss": {
+      "agradeço": "(eu que agradeço / eu é que agradeço) gracias a vos",
+      "salvador": "salvador",
+      "demolir": "demoler",
+      "concreto": "hormigón",
+      "aço": "acero",
+      "entulho": "escombros",
+      "fundos": "contrafrente",
+      "compartilhado": "compartido",
+      "porcentagem": "porcentaje",
+      "aluguel": "alquiler",
+      "ocupações": "edificios tomados, tomas",
+      "endereço": "dirección, domicilio",
+      "térreo": "planta baja",
+      "andar": "piso"
+    },
+    "questions": [
+      [
+        "Qual é a ideia com que o palestrante encerra a sua exposição?",
+        [
+          "O centro precisa de muitas pequenas decisões coerentes.",
+          "O centro precisa de um grande projeto que resolva tudo.",
+          "O retrofit deveria ser proibido em prédios históricos.",
+          "As prefeituras deveriam vender todos os prédios vazios."
+        ],
+        "O centro precisa de muitas pequenas decisões coerentes."
+      ],
+      [
+        "Por que o palestrante relativiza a ideia de demolir e construir do zero?",
+        [
+          "Porque a lei proíbe demolições nas áreas centrais.",
+          "Porque os prédios novos não costumam atrair moradores.",
+          "Porque descartar a estrutura é caro e poluente.",
+          "Porque demolir leva mais tempo do que reformar."
+        ],
+        "Porque descartar a estrutura é caro e poluente."
+      ],
+      [
+        "O que ele propõe para prédios que não servem para moradia?",
+        [
+          "Demoli-los para abrir praças e estacionamentos.",
+          "Dar-lhes outros usos, como escola ou centro cultural.",
+          "Mantê-los fechados até aparecer um comprador interessado.",
+          "Vendê-los às incorporadoras pelo menor preço possível."
+        ],
+        "Dar-lhes outros usos, como escola ou centro cultural."
+      ],
+      [
+        "Segundo o palestrante, o que acontece se o poder público não intervier?",
+        [
+          "O centro continuará vazio para sempre.",
+          "As ocupações se espalharão por toda a cidade.",
+          "Os comerciantes abandonarão definitivamente o centro.",
+          "O mercado trará moradores que podem pagar mais."
+        ],
+        "O mercado trará moradores que podem pagar mais."
+      ],
+      [
+        "O que é “fachada ativa”, segundo a palestra?",
+        [
+          "Uma fachada histórica restaurada com todo o cuidado.",
+          "Um sistema de câmeras instalado nas entradas dos prédios.",
+          "Um térreo com comércio aberto e movimento.",
+          "Uma parede decorada com arte urbana e iluminação."
+        ],
+        "Um térreo com comércio aberto e movimento."
+      ]
+    ],
+    "vf": [
+      [
+        "Paula é estudante de arquitetura.",
+        "verdadeiro"
+      ],
+      [
+        "O palestrante defende retirar as ocupações para acelerar as reformas.",
+        "falso"
+      ],
+      [
+        "O palestrante já coordenou pessoalmente a reforma de um prédio ocupado.",
+        "não se diz"
+      ],
+      [
+        "Para o palestrante, câmeras garantem mais segurança do que lojas abertas.",
+        "falso"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "proposta",
+    "title": "Proposta: um centro para quem já vive nele",
+    "fonte": "entrambi",
+    "t": "Você mora no centro de uma capital brasileira e faz parte da associação de moradores do bairro. A Secretaria Municipal de Urbanismo abriu uma chamada para receber propostas da sociedade civil sobre a reforma de prédios vazios (o retrofit). Após ler a reportagem «O centro vai voltar a ter moradores?» e ouvir a palestra do urbanista Henrique Tavares, escreva, em nome da associação, uma proposta à Secretaria para que o retrofit traga vida nova ao centro sem expulsar quem já vive lá. Apresente o problema, use informações e argumentos dos dois textos (citando pelo menos uma pessoa de cada um), exponha as medidas propostas e os resultados esperados.",
+    "es": "Propuesta a una institución, en nombre de la asociación: el problema con datos, las fuentes de la lectura y de la charla, medidas numeradas y resultados esperados. Registro formal y trato de V. Sa. / o senhor.",
+    "min": 250,
+    "max": 310,
+    "punti": [["Presentar el problema del centro vacío", ["vazio", "esvazi", "apagadas", "fechadas"]], ["Usar información del reportaje", ["camila", "rocha", "dona cida", "reportagem"]], ["Usar información de la charla", ["tavares", "palestra", "urbanista"]], ["Discutir el riesgo de expulsión", ["substituição", "expuls", "exclusivo"]], ["Medidas numeradas y resultados esperados", ["habitação social", "aluguel social", "espera-se", "propomos"]]],
+    "model": "Proposta: um centro para quem já vive nele\n\nÀ Secretaria Municipal de Urbanismo\n\nA Associação de Moradores do Centro vem apresentar a esta Secretaria a seguinte proposta, em resposta à chamada pública sobre a reforma de prédios vazios. Quem passa pela nossa região depois das sete da noite conhece a cena: lojas fechadas, faixas de «aluga-se» desbotadas e prédios inteiros com as janelas apagadas. O chamado retrofit pode mudar esse quadro, mas é preciso definir para quem.\n\nOs argumentos a favor são fortes. Como lembra a arquiteta Camila Rocha, ouvida numa reportagem recente, se os prédios voltarem a ser habitados, a rua volta a ter gente e a sensação de insegurança diminui. Além disso, como explicou o urbanista Henrique Tavares em palestra no bairro, reformar costuma ser mais sustentável do que demolir. O risco, contudo, é real: se os incentivos servirem apenas às grandes incorporadoras, teremos trocado um centro vazio por um centro exclusivo. Dona Cida, moradora de um prédio ocupado, resumiu bem: sem cuidado, não haverá revitalização, e sim substituição.\n\nPropomos, portanto, três medidas. Primeiro, que uma parte das unidades reformadas seja obrigatoriamente destinada à habitação social, inclusive por meio de programas de aluguel social. Segundo, que os moradores das ocupações e dos cortiços sejam ouvidos antes de qualquer projeto. Terceiro, que o térreo dos prédios continue sendo comércio, com fachadas ativas.\n\nCom isso, espera-se um centro ocupado dia e noite, com comércio vivo e sem expulsão de quem nunca o abandonou. Colocamo-nos à disposição para detalhar a proposta.\n\nAtenciosamente,\nAssociação de Moradores do Centro",
+    "gloss": {"faixas": "carteles de tela, pasacalles", "desbotadas": "descoloridas", "incorporadoras": "empresas desarrolladoras inmobiliarias", "prédio ocupado": "edificio tomado por familias sin vivienda", "cortiços": "conventillos", "térreo": "planta baja"}
+  },
+  "breve": {
+    "title": "Rádio Câmara: o programa Centro Vivo",
+    "genre": "notícia de rádio",
+    "es": "Una noticia de la radio del concejo municipal de Porto Alegre: se aprueba un programa para volver a poblar el centro; cifras, condiciones y la crítica de la oposición.",
+    "speaker": "Repórter",
+    "voice": 0,
+    "text": [
+      "Rádio Câmara, boletim das seis da tarde. A Câmara Municipal de Porto Alegre aprovou ontem, por 24 votos a 11, o programa Centro Vivo, que pretende trazer de volta moradores para o Centro Histórico.",
+      "Pelo projeto, prédios de escritórios vazios há mais de cinco anos poderão ser transformados em apartamentos. Os proprietários que aderirem ao programa terão desconto de até 60% no IPTU durante dez anos. Em contrapartida, 20% dos apartamentos deverão ser alugados a famílias de baixa renda, com aluguel limitado a um terço da renda familiar.",
+      "A oposição votou contra: segundo o vereador Paulo Nunes, sem investimento em segurança e transporte, o programa pode acabar beneficiando só as construtoras. Já a prefeitura estima que, se tudo correr como previsto, cerca de 4 mil pessoas passem a morar no centro até 2030.",
+      "O projeto segue agora para a sanção do prefeito, que tem 15 dias úteis para assinar. Voltamos amanhã, no mesmo horário."
+    ],
+    "tabella": [
+      [
+        "Votos a favor do programa",
+        "24",
+        [
+          "vinte e quatro",
+          "24 votos"
+        ]
+      ],
+      [
+        "Desconto máximo no IPTU",
+        "60%",
+        [
+          "60",
+          "60 %",
+          "sessenta por cento",
+          "60 por cento"
+        ]
+      ],
+      [
+        "Parte dos apartamentos para famílias de baixa renda",
+        "20%",
+        [
+          "20",
+          "20 %",
+          "vinte por cento",
+          "20 por cento"
+        ]
+      ],
+      [
+        "Pessoas que devem morar no centro até 2030",
+        "4 mil",
+        [
+          "4.000",
+          "4000",
+          "quatro mil"
+        ]
+      ],
+      [
+        "Prazo do prefeito para assinar (dias úteis)",
+        "15",
+        [
+          "quinze",
+          "15 dias",
+          "15 dias úteis"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "O programa quer transformar escritórios vazios em moradias.",
+        true
+      ],
+      [
+        "O projeto foi aprovado por unanimidade.",
+        false
+      ],
+      [
+        "Os proprietários que aderirem pagam menos imposto.",
+        true
+      ],
+      [
+        "Todos os apartamentos serão para famílias de baixa renda.",
+        false
+      ],
+      [
+        "Para a oposição, o programa pode favorecer as construtoras.",
+        true
+      ],
+      [
+        "O prefeito já assinou o projeto.",
+        false
+      ]
+    ],
+    "gloss": {
+      "vereador": "concejal",
+      "iptu": "impuesto inmobiliario (como el ABL)",
+      "contrapartida": "contrapartida",
+      "sanção": "promulgación",
+      "aderirem": "adhieran",
+      "renda": "ingreso"
+    }
+  }
+}

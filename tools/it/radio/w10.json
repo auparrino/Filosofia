@@ -1,0 +1,40 @@
+{
+ "week": 10,
+ "level": "A2",
+ "title": "Un regalo per Tommaso",
+ "genre": "telefonata in diretta",
+ "es": "Llama la signora Franca, una vecina del barrio que escucha la radio todas las mañanas. Su nieto cumple años y ella no sabe qué regalarle: le pide ayuda a Sara.",
+ "speakers": ["Sara", "Franca"],
+ "turns": [
+  ["A", "Abbiamo un'altra telefonata. Pronto, chi parla?"],
+  ["B", "Buongiorno, sono la signora Franca, di via del Pratello. Vi ascolto ogni mattina!"],
+  ["A", "Buongiorno, signora Franca! Grazie. Come la possiamo aiutare?"],
+  ["B", "Ecco, sabato è il compleanno di mio nipote Tommaso: compie sedici anni. Voglio fargli un regalo, ma non so che cosa. Mi date un'idea?"],
+  ["A", "Certo! Gli piacciono i libri? Può regalargli un bel romanzo."],
+  ["B", "No, no. I libri non li legge: li guarda e basta. Lui ascolta la musica tutto il giorno."],
+  ["A", "Allora gli regala dei biglietti per un concerto! Così passa una bella sera con gli amici, e lei lo fa felice."],
+  ["B", "Che bella idea! Ma io i biglietti non li so comprare su internet."],
+  ["A", "Non è un problema: li compra al teatro Duse, in via Cartoleria. Oppure chiede aiuto a sua figlia."],
+  ["B", "Ha ragione. Adesso la chiamo subito. Grazie, Sara, siete gentilissimi!"],
+  ["A", "Grazie a lei, signora Franca! E tanti auguri a Tommaso. Lo abbracciamo tutti da Radio Portici!"]
+ ],
+ "gloss": {
+  "nipote": "nieto",
+  "compie": "cumple (años)",
+  "romanzo": "novela",
+  "e basta": "y nada más",
+  "gentilissimi": "muy amables"
+ },
+ "questions": [
+  ["¿Qué quiere hacer la signora Franca?", ["Comprar entradas para ella", "Hacerle un regalo a su nieto", "Invitar a Sara a un concierto", "Aprender a comprar por internet"], "Hacerle un regalo a su nieto"],
+  ["¿Por qué un libro no es un buen regalo para Tommaso?", ["Porque ya tiene muchos", "Porque no lee libros", "Porque son caros", "Porque su abuela los lee"], "Porque no lee libros"],
+  ["¿Qué le aconseja Sara para comprar las entradas?", ["Comprarlas en el teatro o pedirle ayuda a la hija", "Comprarlas por internet con Tommaso", "Pedirle las entradas a la radio", "Esperar el cumpleaños de Tommaso"], "Comprarlas en el teatro o pedirle ayuda a la hija"]
+ ],
+ "info": [
+  ["Tommaso cumple dieciséis años el sábado.", true],
+  ["A Tommaso le gusta la música.", true],
+  ["La signora Franca compra las entradas por internet.", false]
+ ],
+ "grammatica": {"label": "los pronombres de objeto directo e indirecto", "forme": ["la possiamo aiutare", "fargli", "mi date", "gli piacciono", "regalargli", "li legge", "li guarda", "gli regala", "lo fa felice", "li compra", "la chiamo", "lo abbracciamo"]},
+ "parole": [["ascolto", "ascoltare"], ["aiutare", "aiutare"], ["ecco", "ecco"], ["pronto", "pronto"], ["chiamo", "chiamare"], ["abbracciamo", "abbracciare"], ["signora", "signore"], ["ascolta", "ascoltare"]]
+}

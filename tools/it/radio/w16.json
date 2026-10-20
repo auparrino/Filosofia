@@ -1,0 +1,42 @@
+{
+ "week": 16,
+ "level": "A2",
+ "title": "Una mattina di corsa",
+ "genre": "chiacchierata in studio",
+ "es": "Dario llega corriendo a la radio, con un minuto de atraso y un aspecto extraño. Sara quiere saber qué pasó desde que se despertó; después cuenta su propia mañana.",
+ "speakers": ["Sara", "Dario"],
+ "turns": [
+  ["A", "Buongiorno da Radio Portici! Sono le sette e un minuto e Dario è appena entrato in studio... di corsa. Dario, che cosa ti è successo?"],
+  ["B", "Non chiedere! Stanotte è andata via la luce e la sveglia non ha suonato. Mi sono svegliato alle sei e mezza, al buio, e mi sono alzato di corsa."],
+  ["A", "E poi?"],
+  ["B", "Non mi sono fatto la doccia e non mi sono fatto la barba: non c'era tempo. Mi sono vestito al buio e mi sono messo la prima giacca che ho trovato."],
+  ["A", "Lo vedo! Guarda le scarpe: una è nera e una è marrone."],
+  ["B", "Oh no! E non è tutto. Sono uscito e pioveva, ma ho dimenticato l'ombrello. Allora mi sono tolto la giacca e l'ho messa sulla testa."],
+  ["A", "Bravo! Almeno la testa è asciutta. E sei venuto in bicicletta?"],
+  ["B", "Sì, e mi sono sbrigato tantissimo. Per questo sono arrivato con un solo minuto di ritardo!"],
+  ["A", "Io invece stamattina mi sono alzata alle cinque, come sempre. Mi sono preparata con calma, mi sono truccata e sono andata a correre ai Giardini Margherita."],
+  ["B", "Alle cinque? Con la pioggia? Tu sei matta, Sara!"],
+  ["A", "Un po' matta, sì, ma asciutta! E voi, ascoltatori, vi siete mai vestiti al buio? Raccontateci le vostre mattine di fretta!"]
+ ],
+ "gloss": {
+  "è andata via la luce": "se cortó la luz",
+  "giacca": "saco, campera",
+  "marrone": "marrón",
+  "asciutta": "seca",
+  "matta": "loca",
+  "ascoltatori": "oyentes",
+  "Raccontateci": "cuéntennos"
+ },
+ "questions": [
+  ["Perché la sveglia di Dario non ha suonato?", ["Perché era rotta da una settimana", "Perché stanotte è andata via la luce", "Perché Dario l'ha dimenticata in radio", "Perché era domenica"], "Perché stanotte è andata via la luce"],
+  ["Che cosa ha fatto Dario quando ha cominciato a piovere?", ["È tornato a casa a prendere l'ombrello", "Ha preso l'autobus", "Si è messo la giacca sulla testa", "Ha aspettato sotto i portici"], "Si è messo la giacca sulla testa"],
+  ["Che cosa ha fatto Sara stamattina?", ["Si è alzata presto ed è andata a correre", "Si è svegliata tardi per la pioggia", "Ha preparato la colazione a Dario", "Si è vestita al buio come Dario"], "Si è alzata presto ed è andata a correre"]
+ ],
+ "info": [
+  ["Dario si è fatto la barba in fretta.", false],
+  ["Le scarpe di Dario sono di due colori diversi.", true],
+  ["Dario è arrivato in ritardo di un'ora.", false]
+ ],
+ "grammatica": {"label": "los reflexivos en passato prossimo, siempre con essere", "forme": ["mi sono svegliato", "mi sono alzato", "non mi sono fatto la barba", "mi sono vestito", "mi sono messo", "mi sono tolto", "mi sono sbrigato", "mi sono alzata", "mi sono preparata", "mi sono truccata", "vi siete mai vestiti"]},
+ "parole": [["stanotte", "stanotte"], ["sveglia", "sveglia"], ["buio", "buio"], ["corsa", "corsa"], ["fatto la barba", "farsi la barba"], ["messo", "mettersi"], ["pioveva", "piovere"], ["dimenticato", "dimenticare"], ["tolto", "togliersi"], ["bravo", "bravo"], ["sbrigato", "sbrigarsi"], ["stamattina", "stamattina"], ["truccata", "truccarsi"], ["fretta", "fretta"]]
+}

@@ -1,0 +1,5243 @@
+{
+ "r15-01": {
+  "consigna": "Traducí al italiano. Ojo con la preposición: a, in, da o su.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Vivo en el último piso. (ultimo)",
+    "answer": "Abito all'ultimo piano.",
+    "alt": [
+     "Vivo all'ultimo piano.",
+     "Sto all'ultimo piano."
+    ],
+    "note": "Con piano se usa a + artículo: all'ultimo piano."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "El restaurante está en la esquina, a la derecha.",
+    "answer": "Il ristorante è all'angolo, a destra.",
+    "alt": [
+     "Il ristorante è all'angolo a destra.",
+     "Il ristorante è all'angolo, sulla destra.",
+     "Il ristorante è all'angolo sulla destra.",
+     "Il ristorante è sull'angolo, a destra.",
+     "Il ristorante è sull'angolo a destra.",
+     "Il ristorante è sull'angolo, sulla destra.",
+     "Il ristorante è sull'angolo sulla destra."
+    ],
+    "note": "‘En la esquina’ es all'angolo; ‘a la derecha’, a destra o sulla destra."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "La librería está a 200 metros de mi casa.",
+    "answer": "La libreria è a 200 metri da casa mia.",
+    "alt": [
+     "La libreria è a duecento metri da casa mia.",
+     "La libreria è a 200 metri dalla mia casa.",
+     "La libreria è a duecento metri dalla mia casa."
+    ],
+    "note": "La distancia se expresa con a y el punto de partida con da: a 200 metri da…"
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Vivo en una ciudad al suroeste de Londres. (sud ovest)",
+    "answer": "Abito in una città a sud ovest di Londra.",
+    "alt": [
+     "Vivo in una città a sud ovest di Londra.",
+     "Abito in una città a sud-ovest di Londra.",
+     "Vivo in una città a sud-ovest di Londra.",
+     "Abito in una cittadina a sud ovest di Londra."
+    ],
+    "note": "Los puntos cardinales van con a: a sud ovest di Londra."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Dan una película interesante en la tele.",
+    "answer": "C'è un film interessante alla televisione.",
+    "alt": [
+     "C'è un film interessante in televisione.",
+     "C'è un film interessante alla tv.",
+     "C'è un film interessante in tv.",
+     "Danno un film interessante alla televisione.",
+     "Danno un film interessante in televisione.",
+     "Fanno un film interessante in televisione.",
+     "Fanno un film interessante alla televisione."
+    ],
+    "note": "‘En la tele’ se dice alla televisione o in televisione."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Tu mamá está al teléfono.",
+    "answer": "Tua madre è al telefono.",
+    "alt": [
+     "Tua mamma è al telefono.",
+     "C'è tua madre al telefono."
+    ],
+    "note": "‘Estar al teléfono’ es essere al telefono, con a + artículo."
+   },
+   {
+    "label": "g",
+    "type": "translate",
+    "stem": "Nos vemos en diciembre, para Navidad.",
+    "answer": "Ci vediamo a dicembre, a Natale.",
+    "alt": [
+     "Ci vediamo a dicembre a Natale.",
+     "Ci vediamo in dicembre, a Natale.",
+     "Ci vediamo in dicembre a Natale.",
+     "Ci vediamo a dicembre, per Natale.",
+     "Ci vediamo a dicembre per Natale.",
+     "Ci vediamo in dicembre, per Natale.",
+     "Ci vediamo in dicembre per Natale."
+    ],
+    "note": "Los meses van con a o in; las fiestas, con a: a Natale."
+   },
+   {
+    "label": "h",
+    "type": "translate",
+    "stem": "¿A qué hora venís, Ida?",
+    "answer": "A che ora vieni, Ida?",
+    "alt": [
+     "A che ora vieni Ida?",
+     "A che ora arrivi, Ida?",
+     "A che ora arrivi Ida?"
+    ],
+    "note": "La hora se pregunta con a: a che ora…?"
+   }
+  ]
+ },
+ "r15-02": {
+  "consigna": "Traducí al italiano usando la preposición in con el verbo adecuado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Tengo que ir a Francia.",
+    "answer": "Devo andare in Francia.",
+    "alt": [],
+    "note": "Con países se usa in: andare in Francia."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Tengo que llamar a Italia.",
+    "answer": "Devo telefonare in Italia.",
+    "alt": [
+     "Devo chiamare in Italia."
+    ],
+    "note": "También para llamar a un país se usa in: telefonare in Italia."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Voy en avión.",
+    "answer": "Vado in aereo.",
+    "alt": [
+     "Ci vado in aereo."
+    ],
+    "note": "Los medios de transporte van con in sin artículo: in aereo, in treno."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Entremos al negocio.",
+    "answer": "Entriamo nel negozio.",
+    "alt": [
+     "Entriamo in negozio."
+    ],
+    "note": "Entrare se construye con in: entrare nel negozio / in negozio."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "¿Vivís en Inglaterra?",
+    "answer": "Abiti in Inghilterra?",
+    "alt": [
+     "Vivi in Inghilterra?",
+     "Abita in Inghilterra?",
+     "Vive in Inghilterra?"
+    ],
+    "note": "Con países, in sin artículo: in Inghilterra."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Está en el cajón. (il cassetto)",
+    "answer": "È nel cassetto.",
+    "alt": [
+     "Sta nel cassetto."
+    ],
+    "note": "‘Dentro de’ algo concreto: in + artículo, nel cassetto."
+   },
+   {
+    "label": "g",
+    "type": "translate",
+    "stem": "Duermo en el tren.",
+    "answer": "Dormo in treno.",
+    "alt": [
+     "Dormo sul treno."
+    ],
+    "note": "In treno, sin artículo, como con los demás medios de transporte (también se oye sul treno)."
+   }
+  ]
+ },
+ "r15-03": {
+  "consigna": "Respondé las preguntas en italiano usando in o a.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "A chi devi telefonare? – Tengo que llamar a mi prima que está en Italia, en Roma.",
+    "answer": "Devo telefonare a mia cugina in Italia, a Roma.",
+    "alt": [
+     "Devo telefonare a mia cugina in Italia a Roma.",
+     "Devo chiamare mia cugina in Italia, a Roma.",
+     "Devo chiamare mia cugina in Italia a Roma."
+    ],
+    "note": "Países con in (in Italia), ciudades con a (a Roma)."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "È difficile imparare a guidare? – No, se puede aprender en pocos meses.",
+    "answer": "No, si può imparare in pochi mesi.",
+    "alt": [
+     "No si può imparare in pochi mesi.",
+     "No, s'impara in pochi mesi.",
+     "No s'impara in pochi mesi.",
+     "No, si impara in pochi mesi.",
+     "No si impara in pochi mesi.",
+     "No, puoi imparare in pochi mesi.",
+     "No puoi imparare in pochi mesi."
+    ],
+    "note": "El tiempo que lleva hacer algo se expresa con in: in pochi mesi."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "In quanti siete? – Somos seis.",
+    "answer": "Siamo in sei.",
+    "alt": [],
+    "note": "Para decir cuántos son en un grupo se usa essere in + número."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Quand'è che è nato Piero? – Nació en abril, a las 5, al amanecer.",
+    "answer": "È nato in aprile, alle 5, all'alba.",
+    "alt": [
+     "È nato in aprile alle 5 all'alba.",
+     "È nato ad aprile, alle 5, all'alba.",
+     "È nato ad aprile alle 5 all'alba.",
+     "È nato in aprile, alle cinque, all'alba.",
+     "È nato in aprile alle cinque all'alba.",
+     "È nato ad aprile, alle cinque, all'alba.",
+     "È nato ad aprile alle cinque all'alba."
+    ],
+    "note": "Meses con in o a; horas y momentos del día con a + artículo: alle 5, all'alba."
+   }
+  ]
+ },
+ "r15-04": {
+  "consigna": "Completá con la preposición da (sola o articulada) y lo que sigue, según la traducción.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Sono partito ___ ieri. (Partí de Londres ayer.)",
+    "answer": "da Londra",
+    "alt": [],
+    "note": "Da indica el punto de partida."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Sono uscito ___ alle sette. (Salí de la oficina a las siete.)",
+    "answer": "dall'ufficio",
+    "alt": [],
+    "note": "Da + artículo marca el lugar del que se sale: dall'ufficio."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "L'aereo parte ___ numero 34. (El avión sale por la puerta número 34.)",
+    "answer": "dall'uscita",
+    "alt": [],
+    "note": "Da indica desde dónde parte algo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Siamo entrati ___. (Entramos por la ventana.)",
+    "answer": "dalla finestra",
+    "alt": [],
+    "note": "Da también indica el lugar por donde se pasa: dalla finestra."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Non guardare ___. (No mires por la ventana.)",
+    "answer": "dalla finestra",
+    "alt": [],
+    "note": "‘Mirar por la ventana’ es guardare dalla finestra."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "___ mi piaceva viaggiare. (Cuando era estudiante me gustaba viajar.)",
+    "answer": "Da studente",
+    "alt": [],
+    "note": "Da + sustantivo significa ‘cuando era / en calidad de’."
+   },
+   {
+    "label": "g",
+    "type": "cloze",
+    "stem": "Sono qui ___. (Estoy acá desde el sábado.)",
+    "answer": "da sabato",
+    "alt": [],
+    "note": "Da + presente expresa ‘desde’ con una acción que sigue."
+   },
+   {
+    "label": "h",
+    "type": "cloze",
+    "stem": "Vuoi qualcosa ___? (¿Querés algo para tomar?)",
+    "answer": "da bere",
+    "alt": [],
+    "note": "Da + infinitivo indica finalidad: qualcosa da bere."
+   }
+  ]
+ },
+ "r15-06": {
+  "consigna": "¿Adónde vas? Completá «Vado…» con a, da o in, con artículo cuando haga falta.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Vado ___ Italia.",
+    "answer": "in",
+    "alt": [],
+    "note": "Países: in."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Vado ___ Sicilia.",
+    "answer": "in",
+    "alt": [],
+    "note": "Regiones e islas grandes: in."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Vado ___ Toscana.",
+    "answer": "in",
+    "alt": [],
+    "note": "Regiones: in."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Vado ___ Capri.",
+    "answer": "a",
+    "alt": [],
+    "note": "Islas pequeñas, como las ciudades: a."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Vado ___ Bari.",
+    "answer": "a",
+    "alt": [],
+    "note": "Ciudades: a."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Vado ___ supermercato. (il supermercato)",
+    "answer": "al",
+    "alt": [],
+    "note": "Muchos lugares con artículo van con a + artículo: al supermercato."
+   },
+   {
+    "label": "g",
+    "type": "cloze",
+    "stem": "Vado ___ Rinascente. (la Rinascente)",
+    "answer": "alla",
+    "alt": [],
+    "note": "Negocios con nombre propio y artículo: a + artículo, alla Rinascente."
+   },
+   {
+    "label": "h",
+    "type": "cloze",
+    "stem": "Vado ___ farmacia.",
+    "answer": "in",
+    "alt": [],
+    "note": "Muchos locales van con in sin artículo: in farmacia."
+   },
+   {
+    "label": "i",
+    "type": "cloze",
+    "stem": "Vado ___ piscina.",
+    "answer": "in",
+    "alt": [],
+    "note": "In sin artículo: in piscina."
+   },
+   {
+    "label": "j",
+    "type": "cloze",
+    "stem": "Vado ___ Franco.",
+    "answer": "da",
+    "alt": [],
+    "note": "A lo de una persona se va con da: da Franco."
+   },
+   {
+    "label": "k",
+    "type": "cloze",
+    "stem": "Vado ___ parrucchiere. (il parrucchiere)",
+    "answer": "dal",
+    "alt": [],
+    "note": "Con profesionales se usa da + artículo: dal parrucchiere."
+   },
+   {
+    "label": "l",
+    "type": "cloze",
+    "stem": "Vado ___ medico. (il medico)",
+    "answer": "dal",
+    "alt": [],
+    "note": "Da + persona: dal medico."
+   },
+   {
+    "label": "m",
+    "type": "cloze",
+    "stem": "Vado ___ zoo. (lo zoo)",
+    "answer": "allo",
+    "alt": [],
+    "note": "*a* + *lo* = *allo*: *lo zoo* lleva *lo* porque empieza con z."
+   },
+   {
+    "label": "n",
+    "type": "cloze",
+    "stem": "Vado ___ mare. (il mare)",
+    "answer": "al",
+    "alt": [],
+    "note": "Andare al mare, con a + artículo."
+   },
+   {
+    "label": "o",
+    "type": "cloze",
+    "stem": "Vado ___ casa.",
+    "answer": "a",
+    "alt": [],
+    "note": "La casa propia: a casa, sin artículo."
+   },
+   {
+    "label": "p",
+    "type": "cloze",
+    "stem": "Vado ___ campagna.",
+    "answer": "in",
+    "alt": [],
+    "note": "In campagna, sin artículo, igual que in montagna."
+   }
+  ]
+ },
+ "r15-07": {
+  "consigna": "¿Dónde se encuentran? Completá «Ci vediamo…» con a, da o in (con artículo si hace falta).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Ci vediamo ___ casa mia.",
+    "answer": "a",
+    "alt": [],
+    "note": "A casa mia, sin artículo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Ci vediamo ___ biblioteca.",
+    "answer": "in",
+    "alt": [],
+    "note": "In biblioteca, sin artículo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ci vediamo ___ Franca.",
+    "answer": "da",
+    "alt": [],
+    "note": "En lo de una persona: da Franca."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Ci vediamo ___ fermata dell'autobus. (la fermata)",
+    "answer": "alla",
+    "alt": [],
+    "note": "A + artículo: alla fermata."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Ci vediamo ___ trattoria.",
+    "answer": "in",
+    "alt": [],
+    "note": "In trattoria, como in pizzeria, in banca."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Ci vediamo ___ mia sorella.",
+    "answer": "da",
+    "alt": [],
+    "note": "Da + persona: da mia sorella."
+   },
+   {
+    "label": "g",
+    "type": "cloze",
+    "stem": "Ci vediamo ___ bar. (il bar)",
+    "answer": "al",
+    "alt": [],
+    "note": "Al bar, con a + artículo."
+   },
+   {
+    "label": "h",
+    "type": "cloze",
+    "stem": "Ci vediamo ___ banca.",
+    "answer": "in",
+    "alt": [],
+    "note": "In banca, sin artículo."
+   },
+   {
+    "label": "i",
+    "type": "cloze",
+    "stem": "Ci vediamo ___ fruttivendolo. (il fruttivendolo)",
+    "answer": "dal",
+    "alt": [],
+    "note": "Negocio nombrado por quien lo atiende: da + artículo."
+   },
+   {
+    "label": "j",
+    "type": "cloze",
+    "stem": "Ci vediamo ___ ristorante. (il ristorante)",
+    "answer": "al",
+    "alt": [],
+    "note": "Al ristorante, con a + artículo."
+   },
+   {
+    "label": "k",
+    "type": "cloze",
+    "stem": "Ci vediamo ___ ‘Gigino’.",
+    "answer": "da",
+    "alt": [],
+    "note": "Locales con nombre de persona: da ‘Gigino’."
+   },
+   {
+    "label": "l",
+    "type": "cloze",
+    "stem": "Ci vediamo ___ centro.",
+    "answer": "in",
+    "alt": [],
+    "note": "In centro, sin artículo."
+   }
+  ]
+ },
+ "r15-08": {
+  "consigna": "Traducí al italiano estas expresiones con di.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "un cinturón de seguridad",
+    "answer": "una cintura di sicurezza",
+    "alt": [],
+    "note": "Di une dos sustantivos para formar un nombre compuesto."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "la casa de Mauro",
+    "answer": "la casa di Mauro",
+    "alt": [],
+    "note": "Di indica posesión."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "una pintura de Leonardo",
+    "answer": "un dipinto di Leonardo",
+    "alt": [
+     "un quadro di Leonardo"
+    ],
+    "note": "Di indica el autor de una obra."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "un aumento de 2.000 euros",
+    "answer": "un aumento di 2.000 euro",
+    "alt": [
+     "un aumento di 2000 euro",
+     "un aumento di duemila euro"
+    ],
+    "note": "Di introduce una cantidad; euro no cambia en plural."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "una botella de dos litros",
+    "answer": "una bottiglia di due litri",
+    "alt": [
+     "una bottiglia da due litri",
+     "una bottiglia di 2 litri",
+     "una bottiglia da 2 litri"
+    ],
+    "note": "Di (o da, para la capacidad) indica la medida."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "un día de invierno",
+    "answer": "una giornata d'inverno",
+    "alt": [
+     "una giornata di inverno",
+     "un giorno d'inverno",
+     "un giorno di inverno"
+    ],
+    "note": "Di indica la estación o la época: d'inverno."
+   }
+  ]
+ },
+ "r15-09": {
+  "consigna": "Traducí al italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "un profesor de idiomas",
+    "answer": "un insegnante di lingue",
+    "alt": [
+     "un professore di lingue",
+     "un docente di lingue"
+    ],
+    "note": "Di indica la materia: insegnante di lingue."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "la esposa del primer ministro",
+    "answer": "la moglie del primo ministro",
+    "alt": [],
+    "note": "Di + artículo para la posesión: del primo ministro."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "una novela de Manzoni",
+    "answer": "un romanzo di Manzoni",
+    "alt": [],
+    "note": "Di indica el autor."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "una nena de diez años",
+    "answer": "una bambina di dieci anni",
+    "alt": [
+     "una bambina di 10 anni",
+     "una ragazzina di dieci anni",
+     "una ragazza di dieci anni"
+    ],
+    "note": "La edad se expresa con di: di dieci anni."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "el vuelo de las ocho",
+    "answer": "il volo delle otto",
+    "alt": [
+     "il volo delle 8"
+    ],
+    "note": "Di + artículo con la hora: delle otto."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "un viaje de cinco horas",
+    "answer": "un viaggio di cinque ore",
+    "alt": [
+     "un viaggio di 5 ore"
+    ],
+    "note": "La duración se expresa con di."
+   },
+   {
+    "label": "g",
+    "type": "translate",
+    "stem": "las ocho de la noche",
+    "answer": "le otto di sera",
+    "alt": [
+     "le 8 di sera",
+     "le otto della sera",
+     "le 8 della sera"
+    ],
+    "note": "‘De la noche’ con la hora: di sera."
+   }
+  ]
+ },
+ "r15-10": {
+  "consigna": "Completá con la preposición correcta: di o da.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Vuoi una tazza ___ caffè o preferisci un tè?",
+    "answer": "di",
+    "alt": [],
+    "note": "Di indica el contenido: una taza llena de café."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Mi ha regalato sei tazzine ___ caffè.",
+    "answer": "da",
+    "alt": [],
+    "note": "Da indica el uso: tacitas para café."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ho bisogno di due francobolli ___ un euro.",
+    "answer": "da",
+    "alt": [],
+    "note": "Da indica el valor de estampillas, billetes o monedas."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Ha pagato una multa ___ 400 euro.",
+    "answer": "di",
+    "alt": [
+     "da"
+    ],
+    "note": "Di introduce el importe (también se oye da)."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Gina è ___ Pisa, è pisana.",
+    "answer": "di",
+    "alt": [],
+    "note": "Essere di indica el lugar de origen."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Gina è arrivata ___ Pisa.",
+    "answer": "da",
+    "alt": [],
+    "note": "Da indica el lugar desde donde se llega."
+   }
+  ]
+ },
+ "r15-11": {
+  "consigna": "Completá las prendas y objetos con di, a o da: a indica diseño o forma, da para qué sirve, di de qué está hecho.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "un anello ___ oro (un anillo de oro)",
+    "answer": "d'",
+    "alt": [
+     "di"
+    ],
+    "note": "Di indica el material; delante de vocal se apostrofa: d'oro."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "un abito ___ sera (un vestido de noche)",
+    "answer": "da",
+    "alt": [],
+    "note": "Da indica el uso: da sera."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "una gonna ___ fiori (una pollera floreada)",
+    "answer": "a",
+    "alt": [],
+    "note": "A indica el diseño: a fiori."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "un cappello ___ paglia (un sombrero de paja)",
+    "answer": "di",
+    "alt": [],
+    "note": "Di indica el material: di paglia."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "occhiali ___ sole (anteojos de sol)",
+    "answer": "da",
+    "alt": [],
+    "note": "Da indica para qué sirven: da sole."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "una camicia ___ quadretti (una camisa a cuadros)",
+    "answer": "a",
+    "alt": [],
+    "note": "A indica el diseño: a quadretti."
+   }
+  ]
+ },
+ "r15-13": {
+  "consigna": "Respondé en italiano, usando per donde corresponda.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Che lavoro fa? – Trabajo para una compañía aérea. (una compagnia aerea)",
+    "answer": "Lavoro per una compagnia aerea.",
+    "alt": [],
+    "note": "Per indica para quién se trabaja."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Lei è qui in vacanza? – No, estoy acá por trabajo.",
+    "answer": "No, sono qui per lavoro.",
+    "alt": [
+     "No sono qui per lavoro.",
+     "No, sono qui per affari.",
+     "No sono qui per affari."
+    ],
+    "note": "Per indica el motivo: per lavoro."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Lei per che cosa è qui? – Estoy acá para aprender italiano. Es por mi trabajo.",
+    "answer": "Sono qui per imparare l'italiano. È per il mio lavoro.",
+    "alt": [
+     "Sono qui per imparare l'italiano. È per lavoro.",
+     "Sono qui per imparare l'italiano, è per il mio lavoro.",
+     "Sono qui per imparare l'italiano è per il mio lavoro."
+    ],
+    "note": "Per + infinitivo expresa finalidad; per + sustantivo, el motivo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Quanto si trattiene a Milano? – Me quedo un mes. (mi trattengo)",
+    "answer": "Mi trattengo per un mese.",
+    "alt": [
+     "Mi trattengo un mese."
+    ],
+    "note": "Per indica la duración prevista."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "È libero domani? – Lo siento, tengo muchas citas para mañana.",
+    "answer": "Mi dispiace, ho molti appuntamenti per domani.",
+    "alt": [
+     "Mi dispiace ho molti appuntamenti per domani.",
+     "Mi dispiace, ho tanti appuntamenti per domani.",
+     "Mi dispiace ho tanti appuntamenti per domani.",
+     "Mi dispiace, ho molti impegni per domani.",
+     "Mi dispiace ho molti impegni per domani."
+    ],
+    "note": "Per indica el momento previsto: per domani."
+   }
+  ]
+ },
+ "r15-15": {
+  "consigna": "Completá la oración con el equivalente italiano de lo que está entre paréntesis.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "I tifosi giravano ___ la città. (por)",
+    "answer": "per",
+    "alt": [],
+    "note": "Per indica movimiento por un lugar."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Erano seduti ___. (en el suelo)",
+    "answer": "per terra",
+    "alt": [
+     "a terra"
+    ],
+    "note": "‘En el suelo’ se dice per terra."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "L'ho incontrato ___. (en la calle)",
+    "answer": "per strada",
+    "alt": [
+     "per la strada",
+     "in strada"
+    ],
+    "note": "‘En la calle’, de paso, se dice per strada."
+   }
+  ]
+ },
+ "r15-20": {
+  "consigna": "Reemplazá in o da por con, con los cambios necesarios.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Andiamo in macchina. → Andiamo ___ macchina.",
+    "answer": "con la",
+    "alt": [],
+    "note": "Con exige el artículo: con la macchina."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Sono partito in treno. → Sono partito ___ treno.",
+    "answer": "con il",
+    "alt": [
+     "col"
+    ],
+    "note": "Con + artículo: con il treno (o col treno)."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "È un uomo alto dai baffi lunghi. → È un uomo alto ___ baffi lunghi.",
+    "answer": "con i",
+    "alt": [
+     "coi"
+    ],
+    "note": "Da + artículo describe rasgos; con i dice lo mismo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "È una signora elegante dai capelli biondi tinti. → È una signora elegante ___ capelli biondi tinti.",
+    "answer": "con i",
+    "alt": [
+     "coi"
+    ],
+    "note": "Dai capelli equivale a con i capelli."
+   }
+  ]
+ },
+ "r15-21": {
+  "consigna": "Completá con su (sola o articulada) y lo que sigue, según la traducción.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Ho lasciato i documenti ___. (Dejé los documentos sobre el escritorio.)",
+    "answer": "sulla scrivania",
+    "alt": [],
+    "note": "Su + la = sulla: ‘sobre, encima de’."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Il gatto è salito ___. (El gato se subió al techo.)",
+    "answer": "sul tetto",
+    "alt": [],
+    "note": "«Subirse a» = *salire su*: *su* + *il* = *sul tetto*."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "‘Il ponte ___’ è un film piuttosto vecchio. (El puente sobre el río Kwai)",
+    "answer": "sul fiume Kwai",
+    "alt": [],
+    "note": "Su indica posición encima de algo: il ponte sul fiume."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "È un film ___ in Giappone. (Es una película sobre la guerra en Japón.)",
+    "answer": "sulla guerra",
+    "alt": [],
+    "note": "Su también significa ‘acerca de’: un film sulla guerra."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Siamo stati ___. (Estuvimos en el Mont Blanc.)",
+    "answer": "sul Monte Bianco",
+    "alt": [],
+    "note": "Con montañas se usa su: sul Monte Bianco."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Il viaggio costa ___ due milioni. (El viaje cuesta alrededor de dos millones.)",
+    "answer": "sui",
+    "alt": [],
+    "note": "Su + artículo + número = ‘alrededor de’: sui due milioni."
+   },
+   {
+    "label": "g",
+    "type": "cloze",
+    "stem": "Ho letto la notizia ___. (Leí la noticia en el diario.)",
+    "answer": "sul giornale",
+    "alt": [],
+    "note": "‘En el diario’ se dice sul giornale."
+   },
+   {
+    "label": "h",
+    "type": "cloze",
+    "stem": "Ho lasciato l'ombrello ___. (Me olvidé el paraguas en el colectivo.)",
+    "answer": "sull'autobus",
+    "alt": [
+     "in autobus",
+     "nell'autobus"
+    ],
+    "note": "Con medios de transporte, ‘dentro de’ puede ser su: sull'autobus."
+   }
+  ]
+ },
+ "r15-22": {
+  "consigna": "Completá con fra (o tra) y lo que sigue, según la traducción.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Arrivo ___. (Llego entre las cinco y las seis.)",
+    "answer": "fra le cinque e le sei",
+    "alt": [
+     "tra le cinque e le sei"
+    ],
+    "note": "*fra/tra* = «entre» dos momentos: *fra le cinque e le sei*."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Arrivo ___. (Llego dentro de una semana.)",
+    "answer": "fra una settimana",
+    "alt": [
+     "tra una settimana"
+    ],
+    "note": "*fra* + período de tiempo = «dentro de» (en el futuro): *fra una settimana*."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Mario è seduto ___ e il nonno. (Mario está sentado entre la prima y el abuelo.)",
+    "answer": "fra la cugina",
+    "alt": [
+     "tra la cugina"
+    ],
+    "note": "*fra* (o *tra*, son intercambiables) indica posición en medio de dos personas o cosas, como «entre»."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "___ preferisco Luciano. (De todos mis primos, prefiero a Luciano.)",
+    "answer": "Fra i miei cugini",
+    "alt": [
+     "Tra i miei cugini"
+    ],
+    "note": "*fra* = «de entre» dentro de un grupo: *fra i miei cugini*."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "L'incrocio si trova ___. (El cruce está a dos kilómetros.)",
+    "answer": "fra due chilometri",
+    "alt": [
+     "tra due chilometri"
+    ],
+    "note": "*fra* + distancia = «a tantos kilómetros (más adelante)»: *fra due chilometri*."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "La nuova casa si trova ___ e Livorno. (La casa nueva está entre Génova y Livorno.)",
+    "answer": "fra Genova",
+    "alt": [
+     "tra Genova"
+    ],
+    "note": "*fra* ubica algo en medio de dos lugares; *fra* y *tra* son intercambiables y se elige por sonido (*tra fratelli*, *fra tre*)."
+   },
+   {
+    "label": "g",
+    "type": "cloze",
+    "stem": "Si vede la casa ___. (Se ve la casa entre los árboles.)",
+    "answer": "fra gli alberi",
+    "alt": [
+     "tra gli alberi"
+    ],
+    "note": "*fra* = «entre, en medio de»: *fra gli alberi*."
+   },
+   {
+    "label": "h",
+    "type": "cloze",
+    "stem": "___ c'è un'intesa speciale. (Entre ellos hay un entendimiento especial.)",
+    "answer": "Fra di loro",
+    "alt": [
+     "Tra di loro",
+     "Fra loro",
+     "Tra loro"
+    ],
+    "note": "Delante de pronombre, fra puede llevar di: fra di loro."
+   }
+  ]
+ },
+ "r15-01b": {
+  "consigna": "Elegí la forma correcta: con o sin di.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Ci vediamo ___.",
+    "answer": "dopo cena",
+    "alt": [],
+    "note": "Dopo va sin di delante de un sustantivo.",
+    "options": [
+     "dopo cena",
+     "dopo di cena"
+    ]
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Marina andrà in vacanza ___.",
+    "answer": "dopo di me",
+    "alt": [],
+    "note": "Delante de un pronombre personal, dopo lleva di.",
+    "options": [
+     "dopo me",
+     "dopo di me"
+    ]
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Abita ___.",
+    "answer": "verso il centro",
+    "alt": [],
+    "note": "Verso va sin di delante de un sustantivo.",
+    "options": [
+     "verso il centro",
+     "verso del centro"
+    ]
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Non ho nessun obbligo ___.",
+    "answer": "verso di lui",
+    "alt": [],
+    "note": "Delante de un pronombre, verso lleva di.",
+    "options": [
+     "verso lui",
+     "verso di lui"
+    ]
+   },
+   {
+    "label": "e",
+    "type": "choice",
+    "stem": "Mauro è ___ oggi.",
+    "answer": "fuori città",
+    "alt": [],
+    "note": "Fuori città: expresión fija, sin di (a veces fuori di città) y nunca con a.",
+    "options": [
+     "fuori città",
+     "fuori a città"
+    ]
+   },
+   {
+    "label": "f",
+    "type": "choice",
+    "stem": "Quando l'ha saputo era ___ dalla rabbia.",
+    "answer": "fuori di sé",
+    "alt": [],
+    "note": "Delante de un pronombre, fuori lleva di: fuori di sé.",
+    "options": [
+     "fuori sé",
+     "fuori di sé"
+    ]
+   },
+   {
+    "label": "g",
+    "type": "choice",
+    "stem": "Non riesco a lavorare ___.",
+    "answer": "senza un po' di musica",
+    "alt": [],
+    "note": "Senza va sin di delante de un sustantivo.",
+    "options": [
+     "senza un po' di musica",
+     "senza di un po' di musica"
+    ]
+   },
+   {
+    "label": "h",
+    "type": "cloze",
+    "stem": "___ (sin vos) non riesco a lavorare.",
+    "answer": "Senza di te",
+    "alt": [
+     "Senza te"
+    ],
+    "note": "Delante de un pronombre, senza suele llevar di (senza di te); senza te también es correcto."
+   }
+  ]
+ },
+ "r15-02b": {
+  "consigna": "Completá con di, con a (sola o con artículo) o solo con el artículo, según corresponda.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Il portafoglio è dentro ___ borsa.",
+    "answer": "la",
+    "alt": [
+     "alla"
+    ],
+    "note": "Delante de un sustantivo: dentro la borsa (o dentro alla borsa)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Dentro ___ me sono molto arrabbiato.",
+    "answer": "di",
+    "alt": [],
+    "note": "Delante de un pronombre, dentro lleva di."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Le scarpe sono dietro ___ porta.",
+    "answer": "la",
+    "alt": [
+     "alla"
+    ],
+    "note": "Delante de un sustantivo: dietro la porta (o dietro alla porta)."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Le chiavi sono dietro ___ te.",
+    "answer": "di",
+    "alt": [],
+    "note": "Delante de un pronombre, dietro lleva di."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Oltre ___ te non conosco nessuno.",
+    "answer": "a",
+    "alt": [
+     "di"
+    ],
+    "note": "Oltre, en el sentido de ‘además de’, lleva a (o di) delante de un pronombre."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Oltre ___ libri, ci hanno dato delle videocassette.",
+    "answer": "ai",
+    "alt": [
+     "i"
+    ],
+    "note": "‘Además de’ se dice oltre a: oltre ai libri."
+   }
+  ]
+ },
+ "r15-03b": {
+  "consigna": "Le decís a un amigo dónde estacionaste. Usá una vez cada una: di fronte al, accanto alla, davanti a, nel, in fondo alla, dall'altra parte della.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Ho parcheggiato ___ cortile. (en el patio)",
+    "answer": "nel",
+    "alt": [],
+    "note": "*in* + *il* = *nel*: el italiano contrae *in* con el artículo, como «en el»."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Ho parcheggiato ___ tua macchina. (al lado de tu auto)",
+    "answer": "accanto alla",
+    "alt": [],
+    "note": "*accanto a* = «al lado de»: el italiano usa *a*, no «de»: *accanto alla*."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ho parcheggiato ___ cinema. (enfrente del cine)",
+    "answer": "di fronte al",
+    "alt": [],
+    "note": "*di fronte a* = «enfrente de»: *a* + *il* = *al cinema*."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Ho parcheggiato ___ strada. (del otro lado de la calle)",
+    "answer": "dall'altra parte della",
+    "alt": [],
+    "note": "*dall'altra parte di* = «del otro lado de»: *da* + *l'*, y *di* + *la* = *della*."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Ho parcheggiato ___ strada. (al fondo de la calle)",
+    "answer": "in fondo alla",
+    "alt": [],
+    "note": "*in fondo a* = «al fondo de»: *a* + *la* = *alla*."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Ho parcheggiato ___ casa tua. (delante de tu casa)",
+    "answer": "davanti a",
+    "alt": [],
+    "note": "Davanti a = delante de; casa tua va sin artículo."
+   }
+  ]
+ },
+ "r15-01c": {
+  "consigna": "Describí a estas personas completando con la preposición adecuada.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Pina è molto interessata ___ imparare il greco.",
+    "answer": "a",
+    "alt": [
+     "ad"
+    ],
+    "note": "Interessato a + infinitivo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Alberta è proprio decisa ___ cambiare casa.",
+    "answer": "a",
+    "alt": [],
+    "note": "Deciso a + infinitivo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ida è ansiosa ___ partire ma Delia non sembra disposta ___ muoversi.",
+    "answer": "di | a",
+    "alt": [],
+    "note": "Ansioso di + infinitivo; disposto a + infinitivo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Diego è molto soddisfatto ___ suo lavoro, è responsabile ___ tutto il reparto.",
+    "answer": "del | di",
+    "alt": [],
+    "note": "Soddisfatto di (del suo lavoro); responsabile di."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Ada è veramente portata ___ la musica ma è negata ___ i numeri.",
+    "answer": "per | per",
+    "alt": [],
+    "note": "Portato per y negato per: tener o no tener talento para algo."
+   }
+  ]
+ },
+ "r15-02c": {
+  "consigna": "Traducí al italiano. Ojo con la preposición que pide cada adjetivo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Estoy harto de mi trabajo.",
+    "answer": "Sono stufo del mio lavoro.",
+    "alt": [
+     "Sono stufa del mio lavoro.",
+     "Sono stanco del mio lavoro.",
+     "Sono stanca del mio lavoro."
+    ],
+    "note": "Stufo di / stanco di: harto de."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Estoy conforme con los resultados.",
+    "answer": "Sono soddisfatto dei risultati.",
+    "alt": [
+     "Sono soddisfatta dei risultati.",
+     "Sono contento dei risultati.",
+     "Sono contenta dei risultati."
+    ],
+    "note": "Soddisfatto di: en italiano no se usa con."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Encantado de conocerte.",
+    "answer": "Sono lieto di conoscerti.",
+    "alt": [
+     "Sono lieta di conoscerti.",
+     "Piacere di conoscerti.",
+     "Sono contento di conoscerti.",
+     "Sono contenta di conoscerti.",
+     "Lieto di conoscerti.",
+     "Lieta di conoscerti."
+    ],
+    "note": "Lieto di / contento di + infinitivo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Me encantaría ayudar.",
+    "answer": "Sarei felice di aiutare.",
+    "alt": [
+     "Sarei contento di aiutare.",
+     "Sarei contenta di aiutare.",
+     "Sarei lieto di aiutare.",
+     "Sarei lieta di aiutare.",
+     "Mi piacerebbe aiutare.",
+     "Mi piacerebbe molto aiutare."
+    ],
+    "note": "Felice di + infinitivo."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Es amable conmigo.",
+    "answer": "È gentile con me.",
+    "alt": [],
+    "note": "Gentile con qualcuno."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Está casada con un ingeniero.",
+    "answer": "È sposata con un ingegnere.",
+    "alt": [],
+    "note": "Sposato con qualcuno."
+   },
+   {
+    "label": "g",
+    "type": "translate",
+    "stem": "Está enamorada de Pino.",
+    "answer": "È innamorata di Pino.",
+    "alt": [],
+    "note": "Innamorato di qualcuno."
+   },
+   {
+    "label": "h",
+    "type": "translate",
+    "stem": "Alfonso siempre se viste de negro.",
+    "answer": "Alfonso si veste sempre di nero.",
+    "alt": [
+     "Alfonso veste sempre di nero.",
+     "Alfonso è sempre vestito di nero."
+    ],
+    "note": "Vestirsi di + color."
+   }
+  ]
+ },
+ "r15-03c": {
+  "consigna": "Completá con el adjetivo y la preposición adecuados.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "I piumini sono ___ fibre sintetiche. (rellenos de)",
+    "answer": "imbottiti di",
+    "alt": [],
+    "note": "Imbottito di: relleno de (almohadones, camperas)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "È un piatto realizzato con polenta ___ funghi e formaggio. (rellena de)",
+    "answer": "ripiena di",
+    "alt": [
+     "farcita di",
+     "farcita con"
+    ],
+    "note": "Ripieno di: relleno de, en cocina; concuerda con polenta."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "La vasca del bagno è ___ acqua sporchissima. (llena de)",
+    "answer": "piena di",
+    "alt": [],
+    "note": "Pieno di: lleno de."
+   }
+  ]
+ },
+ "r15-04b": {
+  "consigna": "Completá la oración con las preposiciones correctas.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Pietro è bravo ___ scuola, soprattutto ___ italiano e ___ pallavolo.",
+    "answer": "a | in | a",
+    "alt": [],
+    "note": "Bravo a scuola; bravo in una materia; bravo a un deporte."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Libera ___ ogni preoccupazione Simona era tutta pronta ___ uscire.",
+    "answer": "da | a",
+    "alt": [
+     "da | per"
+    ],
+    "note": "Libero da; pronto a (o per) + infinitivo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "L'appartamento è costituito ___ tre piccole stanze.",
+    "answer": "da",
+    "alt": [
+     "di"
+    ],
+    "note": "Costituito da: compuesto por."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Nel salotto c'è un divano ricoperto ___ una stoffa indiana e un vecchio pianoforte coperto ___ polvere.",
+    "answer": "di | di",
+    "alt": [
+     "da | di"
+    ],
+    "note": "Coperto / ricoperto di: cubierto de."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "La zia ci ha preparato un meraviglioso pandoro ricoperto ___ cioccolato e zucchero.",
+    "answer": "di",
+    "alt": [],
+    "note": "Ricoperto di + la sustancia."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Dopo l'alluvione il pavimento era ricoperto ___ uno strato di fango puzzolente.",
+    "answer": "da",
+    "alt": [
+     "di"
+    ],
+    "note": "Ricoperto da cuando se nombra la capa que cubre (también di)."
+   }
+  ]
+ },
+ "r15-01d": {
+  "consigna": "Traducí al italiano. Ojo con la preposición que acompaña a cada sustantivo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "La causa del accidente no está clara.",
+    "answer": "La causa dell'incidente non è chiara.",
+    "alt": [],
+    "note": "Causa di: la causa dell'incidente."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Mi hermana es experta en la Italia medieval.",
+    "answer": "Mia sorella è un'esperta dell'Italia medievale.",
+    "alt": [
+     "Mia sorella è un'esperta di Italia medievale.",
+     "Mia sorella è esperta di Italia medievale.",
+     "Mia sorella è esperta dell'Italia medievale.",
+     "Mia sorella è un'esperta dell'Italia medioevale."
+    ],
+    "note": "Esperto di (también esperto in, sobre todo con materias: esperto in informatica): esperta dell'Italia medievale."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Su amor por los animales es bien conocido.",
+    "answer": "Il suo amore per gli animali è ben noto.",
+    "alt": [
+     "Il suo amore per gli animali è ben conosciuto.",
+     "Il suo amore per gli animali è noto.",
+     "Il suo amore per gli animali è risaputo."
+    ],
+    "note": "Amore per: amor por."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Su aversión a los gatos era extraordinaria.",
+    "answer": "La sua avversione per i gatti era straordinaria.",
+    "alt": [
+     "La sua avversione ai gatti era straordinaria."
+    ],
+    "note": "Avversione per (o a)."
+   }
+  ]
+ },
+ "r16-01": {
+  "consigna": "Completá el texto con los conectores dados, usando cada uno una vez: e anche, e, inoltre, in più, oltre a.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "",
+    "type": "cloze",
+    "stem": "Durante le vacanze sono andato in giro con mio fratello. Abbiamo visitato tutta la Campania, ___ la Sicilia (1: y también). ___ siamo stati nelle isole Eolie al largo della Sicilia (2: además). In Campania abbiamo visto Napoli, Salerno, Amalfi ___ Ravello (3: y). In Sicilia siamo stati un po' dappertutto. ___ visitare le città principali di Messina, Palermo, Catania, Siracusa e Trapani, siamo stati nel centro, a Enna e ___ abbiamo visitato Erice e il tempio di Segesta (4: además de; 5: además).",
+    "answer": "e anche | Inoltre | e | Oltre a | in più",
+    "alt": [
+     "e anche | In più | e | Oltre a | inoltre"
+    ],
+    "note": "E anche suma un elemento; inoltre e in più agregan información; oltre a + infinitivo significa ‘además de’."
+   }
+  ]
+ },
+ "r16-02": {
+  "consigna": "Completá con el conector que corresponde según la traducción.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___ Emilio ___ Elisabetta sono stati promossi. (Tanto Emilio como Elisabetta aprobaron.)",
+    "answer": "Sia | che",
+    "alt": [
+     "Sia | sia"
+    ],
+    "note": "«Tanto ... como» = *sia ... che* (o *sia ... sia*); con dos sujetos el verbo va en plural."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Emilio è stato promosso, ___ Elisabetta. (Emilio aprobó, y Elisabetta también.)",
+    "answer": "come pure",
+    "alt": [
+     "come anche",
+     "e anche"
+    ],
+    "note": "*come pure* = «y también»: suma un elemento al final, tras coma."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "___ Giorgio ___ Giovanna sono stati promossi. (Ni Giorgio ni Giovanna aprobaron.)",
+    "answer": "Né | né",
+    "alt": [],
+    "note": "Né… né = ni… ni; con né al principio no hace falta non."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Dopo la festa Giorgio è tornato ubriaco. ___: è stato fermato dalla polizia. (Y no solo eso: lo paró la policía.)",
+    "answer": "Non solo",
+    "alt": [
+     "E non solo"
+    ],
+    "note": "Non solo = no solo eso; anuncia algo más."
+   }
+  ]
+ },
+ "r16-01b": {
+  "consigna": "Completá en italiano lo que está en castellano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Cosa prendete? – ___ (Tenemos cerveza o vino.)",
+    "answer": "Abbiamo birra o vino.",
+    "alt": [
+     "Abbiamo birra oppure vino.",
+     "Abbiamo della birra o del vino."
+    ],
+    "note": "O / oppure para presentar una alternativa."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Facciamo quello che vuoi tu, ___ (podemos o quedarnos acá o ir al cine).",
+    "answer": "possiamo o restare qui o andare al cinema",
+    "alt": [
+     "possiamo restare qui oppure andare al cinema",
+     "possiamo o restare qui oppure andare al cinema",
+     "possiamo restare qui o andare al cinema",
+     "possiamo o rimanere qui o andare al cinema",
+     "possiamo rimanere qui oppure andare al cinema"
+    ],
+    "note": "«O ... o» = *o ... o*: la conjunción se repite delante de cada opción, como en castellano."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Dobbiamo rispondere subito, ___ (si no, vamos a perder el contrato).",
+    "answer": "altrimenti perderemo il contratto",
+    "alt": [
+     "altrimenti perdiamo il contratto",
+     "se no perderemo il contratto",
+     "se no perdiamo il contratto",
+     "sennò perdiamo il contratto",
+     "sennò perderemo il contratto"
+    ],
+    "note": "*altrimenti* (o *se no*) = «si no, de lo contrario»: introduce la consecuencia de no hacer algo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "È meglio parlargli direttamente ___ (en vez de mandar un correo).",
+    "answer": "invece di mandare un'email",
+    "alt": [
+     "invece di mandargli un'email",
+     "anziché mandare un'email",
+     "anziché mandargli un'email",
+     "invece di mandare una mail",
+     "invece di mandargli una mail",
+     "anziché mandare una mail"
+    ],
+    "note": "*invece di* (o *anziché*) + infinitivo = «en vez de»: *invece di mandare*."
+   }
+  ]
+ },
+ "r16-01c": {
+  "consigna": "Contrastar y comparar: completá con el conector italiano adecuado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Io studio legge ___ mia sorella studia architettura. (pero)",
+    "answer": "ma",
+    "alt": [],
+    "note": "*ma* opone dos ideas, como «pero»."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Io studio legge ___ mia sorella studia architettura. (mientras que)",
+    "answer": "mentre",
+    "alt": [
+     "invece"
+    ],
+    "note": "*mentre* no solo marca simultaneidad: también contrasta dos hechos, como «mientras que»; va con indicativo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Io studio medicina, ___ non mi piace molto! (sin embargo)",
+    "answer": "però",
+    "alt": [
+     "ma",
+     "tuttavia"
+    ],
+    "note": "*però* = «pero, sin embargo»: más flexible que *ma* en la posición."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Io sono nato a Torino, Leonardo ___ è nato a Palermo. (en cambio)",
+    "answer": "invece",
+    "alt": [
+     "però"
+    ],
+    "note": "Invece, después del sujeto, marca el contraste: en cambio."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Sta male, ___ ha intenzione di dare l'esame. (y sin embargo)",
+    "answer": "eppure",
+    "alt": [
+     "tuttavia",
+     "ciononostante",
+     "però",
+     "nonostante ciò"
+    ],
+    "note": "*eppure* = «y sin embargo»: opone algo inesperado a lo anterior."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Non mi piace viaggiare in aereo, ___ è molto comodo. (por otro lado)",
+    "answer": "d'altra parte",
+    "alt": [
+     "d'altro canto",
+     "però",
+     "tuttavia"
+    ],
+    "note": "*d'altra parte* = «por otro lado»: presenta el otro aspecto."
+   }
+  ]
+ },
+ "r16-01d": {
+  "consigna": "Completá con un equivalente italiano adecuado. Puede haber más de una opción.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___ sei qui, mi puoi aiutare. (Ya que)",
+    "answer": "Visto che",
+    "alt": [
+     "Dato che",
+     "Siccome",
+     "Poiché",
+     "Giacché",
+     "Dal momento che"
+    ],
+    "note": "*visto che* (o *dato che*) = «ya que»: causa conocida, con indicativo."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "___ la banca è chiusa, sono rimasto senza soldi. (Como)",
+    "answer": "Siccome",
+    "alt": [
+     "Dato che",
+     "Visto che",
+     "Poiché",
+     "Giacché",
+     "Dal momento che"
+    ],
+    "note": "*siccome* = «como» causal: va siempre al principio de la oración, como el «como» castellano."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "___ perso la chiave, sono rimasto chiuso fuori. (Como había)",
+    "answer": "Avendo",
+    "alt": [
+     "Siccome avevo",
+     "Dato che avevo",
+     "Visto che avevo",
+     "Poiché avevo"
+    ],
+    "note": "El gerundio compuesto (avendo perso) expresa la causa."
+   }
+  ]
+ },
+ "r16-01e": {
+  "consigna": "Completá con el conector adecuado. Puede haber más de una opción.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Io mangio di tutto ___ il baccalà. (excepto; baccalà = bacalao)",
+    "answer": "tranne",
+    "alt": [
+     "eccetto",
+     "salvo",
+     "fuorché",
+     "a parte"
+    ],
+    "note": "*tranne* (o *eccetto, salvo*) = «excepto»: va directo, sin preposición: *tranne il baccalà*."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Non ha obiettato nessuno, ___ tuo fratello. (excepto)",
+    "answer": "tranne",
+    "alt": [
+     "eccetto",
+     "salvo",
+     "fuorché",
+     "a parte"
+    ],
+    "note": "*tranne* («salvo») va delante del sustantivo sin preposición: *tranne tuo fratello*, no «tranne a»."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "___ mia madre, nessuno parla inglese. (Aparte de)",
+    "answer": "A parte",
+    "alt": [
+     "Tranne",
+     "Eccetto",
+     "Salvo",
+     "Fuorché"
+    ],
+    "note": "*a parte* = «aparte de»; el sustantivo va directo, sin *di*: *a parte mia madre*."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Chiedimi tutto, ___ invitare quella gente! (salvo)",
+    "answer": "tranne",
+    "alt": [
+     "fuorché",
+     "eccetto",
+     "salvo",
+     "tranne che",
+     "eccetto che",
+     "salvo che",
+     "a parte"
+    ],
+    "note": "Con un infinitivo se usa tranne / fuorché."
+   }
+  ]
+ },
+ "r16-02b": {
+  "consigna": "Completá con un conector italiano adecuado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Io voglio andarci ___ è lontano. (aunque)",
+    "answer": "anche se",
+    "alt": [],
+    "note": "*anche se* = «aunque» con indicativo para un hecho real (el castellano también usa indicativo acá)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Mi sono divertito ___ la pioggia. (a pesar de)",
+    "answer": "nonostante",
+    "alt": [
+     "malgrado"
+    ],
+    "note": "*nonostante* (o *malgrado*) + sustantivo = «a pesar de», sin preposición: *nonostante la pioggia*."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "So che c'è sciopero ma io parto ___. (igual)",
+    "answer": "lo stesso",
+    "alt": [
+     "comunque",
+     "ugualmente"
+    ],
+    "note": "*lo stesso* al final de la frase significa «igual, de todos modos»: mantiene la decisión pese al obstáculo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "La partita è cominciata male per loro, ma ___ sono riusciti a vincere. (de todos modos)",
+    "answer": "comunque",
+    "alt": [
+     "lo stesso",
+     "ugualmente",
+     "alla fine"
+    ],
+    "note": "*comunque* = «de todos modos» como adverbio; con congiuntivo significa «como sea que»."
+   }
+  ]
+ },
+ "r16-04": {
+  "consigna": "Completá con conectores italianos adecuados.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___ so, è sposato da due anni. (Por lo que)",
+    "answer": "Per quanto",
+    "alt": [
+     "Per quello che",
+     "Per quel che",
+     "Da quanto",
+     "Da quello che",
+     "Da quel che"
+    ],
+    "note": "*per quanto* + verbo = «por lo que»: *per quanto so*, «por lo que sé»."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Quest'anno andiamo in ferie ___ vadano gli affari. (como sea que)",
+    "answer": "comunque",
+    "alt": [
+     "in qualunque modo",
+     "in qualsiasi modo"
+    ],
+    "note": "*comunque* + congiuntivo = «como sea que»: *comunque vadano gli affari*."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Non so se saranno d'accordo, ___ li chiamo domani. (en todo caso)",
+    "answer": "eventualmente",
+    "alt": [
+     "casomai",
+     "caso mai",
+     "semmai",
+     "nel caso",
+     "in ogni caso",
+     "comunque",
+     "in tutti i casi"
+    ],
+    "note": "Eventualmente en italiano significa ‘en todo caso, si hace falta’, no ‘finalmente’."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "___ trovassi un appartamento, lo compreresti? (Supongamos que)",
+    "answer": "Mettiamo che",
+    "alt": [
+     "Supponiamo che",
+     "Poniamo che",
+     "E se",
+     "Ammettiamo che"
+    ],
+    "note": "Mettiamo che / supponiamo che + congiuntivo."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "___ tu non potessi venire, fammelo sapere subito. (Si / En caso de que)",
+    "answer": "Se",
+    "alt": [
+     "Qualora",
+     "Nel caso che",
+     "Nel caso in cui",
+     "Nel caso",
+     "Caso mai",
+     "Casomai",
+     "Semmai"
+    ],
+    "note": "Se o qualora + congiuntivo para una hipótesis."
+   }
+  ]
+ },
+ "r16-05": {
+  "consigna": "Completá con el conector de condición según la traducción.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Mi va bene qualsiasi orario ___ io lo sappia prima. (siempre que)",
+    "answer": "purché",
+    "alt": [
+     "a patto che",
+     "a condizione che",
+     "sempre che"
+    ],
+    "note": "*purché* + congiuntivo = «siempre que, con tal de que»: condición indispensable."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Ci troviamo in biblioteca ___ non sia chiusa. (a menos que)",
+    "answer": "a meno che",
+    "alt": [
+     "salvo che"
+    ],
+    "note": "A meno che (non) + congiuntivo = a menos que; el non no es negación."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ti accompagno ___ essere tornato prima delle dieci. (con la condición de)",
+    "answer": "a condizione di",
+    "alt": [
+     "a patto di"
+    ],
+    "note": "A condizione di + infinitivo, cuando el sujeto es el mismo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Lo perdono solo ___ chieda scusa a mia sorella. (con tal de que)",
+    "answer": "a patto che",
+    "alt": [
+     "a condizione che",
+     "purché"
+    ],
+    "note": "*a patto che* pone una condición indispensable y exige congiuntivo (*chieda*), como «con tal de que» + subjuntivo."
+   }
+  ]
+ },
+ "r16-01f": {
+  "consigna": "Elegí la expresión que NO encaja en la oración (la intrusa).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Da studente ho vissuto a Firenze. ___ avevo pochissimi soldi.",
+    "answer": "In questi giorni",
+    "alt": [],
+    "note": "In questi giorni habla del presente; aquí se habla de un pasado lejano.",
+    "options": [
+     "A quell'epoca",
+     "A quel tempo",
+     "In questi giorni"
+    ]
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Spero di vederti ___.",
+    "answer": "nei giorni scorsi",
+    "alt": [],
+    "note": "Nei giorni scorsi mira al pasado; spero di vederti mira al futuro.",
+    "options": [
+     "nei giorni scorsi",
+     "nei prossimi giorni",
+     "in questi giorni"
+    ]
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "___ ho avuto tanto da fare.",
+    "answer": "Nei prossimi giorni",
+    "alt": [],
+    "note": "Nei prossimi giorni es futuro y no va con el passato prossimo.",
+    "options": [
+     "Negli ultimi tempi",
+     "Nei prossimi giorni",
+     "In questi giorni"
+    ]
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "___ non faccio niente di bello.",
+    "answer": "In quel momento",
+    "alt": [],
+    "note": "In quel momento señala un momento puntual del pasado, no un período actual.",
+    "options": [
+     "In questi giorni",
+     "In quel momento"
+    ]
+   }
+  ]
+ },
+ "r16-01g": {
+  "consigna": "Completá con un conector adecuado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___, dove eravamo rimasti? (Bueno)",
+    "answer": "Allora",
+    "alt": [
+     "Dunque",
+     "Bene",
+     "Ebbene"
+    ],
+    "note": "Allora / dunque para retomar la conversación."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Siamo tornati sul Web. Scusate il ritardo! ___, ecco alcune spiegazioni: si sono rotti due dischi sulla catena del server e anche il disco USB che ospita il backup. (Antes que nada)",
+    "answer": "Innanzitutto",
+    "alt": [
+     "Innanzi tutto",
+     "Prima di tutto",
+     "Anzitutto",
+     "Per prima cosa"
+    ],
+    "note": "*innanzitutto* = «antes que nada»: abre una enumeración."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "È difficile definire l'identità iraniana: ___ è un misto di elementi persiani, islamici e occidentali, con tutti i paradossi che questo comporta. (a grandes rasgos)",
+    "answer": "a grandi linee",
+    "alt": [
+     "in linea di massima",
+     "grosso modo",
+     "in generale",
+     "generalmente"
+    ],
+    "note": "*a grandi linee* (o *grosso modo*) = «a grandes rasgos»: el italiano usa *linee* («líneas») donde nosotros «rasgos»."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Le elezioni libanesi hanno dimostrato che ___ la politica interna non è stata proprio ‘interna’. (en el fondo)",
+    "answer": "in fondo",
+    "alt": [
+     "fondamentalmente",
+     "sostanzialmente",
+     "in sostanza",
+     "in pratica"
+    ],
+    "note": "*in fondo* = «en el fondo, básicamente»: matiza una conclusión."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Appartengono a famiglie ___ forse più ricche delle nostre. (en general)",
+    "answer": "tutto sommato",
+    "alt": [
+     "nel complesso",
+     "nell'insieme",
+     "in genere",
+     "in generale",
+     "generalmente"
+    ],
+    "note": "*tutto sommato* (o *nel complesso*) = «en general, a fin de cuentas»: resume un balance."
+   }
+  ]
+ },
+ "r17-01": {
+  "consigna": "Traducí al italiano. Escribí los números con letras.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "un kilo",
+    "answer": "un chilo",
+    "alt": [
+     "un chilogrammo"
+    ],
+    "note": "Kilo en italiano se escribe chilo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "una feta",
+    "answer": "una fetta",
+    "alt": [],
+    "note": "«Feta, tajada» = *fetta*, con doble t; es femenino como en castellano."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "diecisiete libros",
+    "answer": "diciassette libri",
+    "alt": [],
+    "note": "Del 17 al 19 las unidades van detrás: *diciassette* (dieci + sette, con doble s)."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "diecinueve páginas",
+    "answer": "diciannove pagine",
+    "alt": [],
+    "note": "*diciannove*: dieci + nove, con doble n."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "treinta y un estudiantes",
+    "answer": "trentuno studenti",
+    "alt": [
+     "trentun studenti"
+    ],
+    "note": "Ventuno, trentuno… suelen perder la -o delante del sustantivo (trentun giorni), pero delante de s + consonante se prefiere la forma entera: trentuno studenti."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "cuarenta y ocho horas",
+    "answer": "quarantotto ore",
+    "alt": [],
+    "note": "Con otto (y uno) la decena pierde la vocal: quarantotto."
+   },
+   {
+    "label": "g",
+    "type": "translate",
+    "stem": "tres capítulos",
+    "answer": "tre capitoli",
+    "alt": [],
+    "note": "Tre sin tilde; sí la llevan ventitré, trentatré…"
+   },
+   {
+    "label": "h",
+    "type": "translate",
+    "stem": "veintitrés chicas",
+    "answer": "ventitré ragazze",
+    "alt": [],
+    "note": "Ventitré lleva tilde en la última e."
+   },
+   {
+    "label": "i",
+    "type": "translate",
+    "stem": "cien libras",
+    "answer": "cento sterline",
+    "alt": [],
+    "note": "‘Cien’ es cento, sin un."
+   },
+   {
+    "label": "j",
+    "type": "translate",
+    "stem": "doscientas libras",
+    "answer": "duecento sterline",
+    "alt": [],
+    "note": "Los cientos no concuerdan en género: duecento."
+   },
+   {
+    "label": "k",
+    "type": "translate",
+    "stem": "mil euros",
+    "answer": "mille euro",
+    "alt": [],
+    "note": "Mille sin un; euro es invariable."
+   },
+   {
+    "label": "l",
+    "type": "translate",
+    "stem": "diez mil euros",
+    "answer": "diecimila euro",
+    "alt": [],
+    "note": "El plural de mille es -mila: diecimila."
+   },
+   {
+    "label": "m",
+    "type": "translate",
+    "stem": "un millón de pesetas",
+    "answer": "un milione di pesete",
+    "alt": [
+     "un milione di pesetas"
+    ],
+    "note": "Milione es sustantivo y va con di."
+   },
+   {
+    "label": "n",
+    "type": "translate",
+    "stem": "cinco millones de dólares",
+    "answer": "cinque milioni di dollari",
+    "alt": [],
+    "note": "Milioni + di + sustantivo."
+   },
+   {
+    "label": "o",
+    "type": "translate",
+    "stem": "tres millones quinientos mil euros",
+    "answer": "tre milioni cinquecentomila euro",
+    "alt": [
+     "tre milioni e cinquecentomila euro"
+    ],
+    "note": "Sin di porque sigue otro número; cinquecentomila va en una sola palabra."
+   }
+  ]
+ },
+ "r17-02": {
+  "consigna": "Completá con el equivalente italiano de las cifras, escrito con letras.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___ automobilisti non sono assicurati. (El diez por ciento de los)",
+    "answer": "Il dieci per cento degli",
+    "alt": [],
+    "note": "Los porcentajes llevan artículo: il dieci per cento degli…"
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "___ popolazione ha votato. (El cincuenta y uno por ciento de la)",
+    "answer": "Il cinquantuno per cento della",
+    "alt": [],
+    "note": "Il + porcentaje + di + artículo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "L'olio costa ___ litro. (25 euros el)",
+    "answer": "venticinque euro al",
+    "alt": [],
+    "note": "‘Por litro’ se dice al litro."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "___ è stato un anno brutto per gli agricoltori. (2017)",
+    "answer": "Il duemiladiciassette",
+    "alt": [],
+    "note": "Los años llevan artículo: il duemiladiciassette."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Per chiamare fuori bisogna fare ___. (el 9)",
+    "answer": "il nove",
+    "alt": [],
+    "note": "Los números como cifra que se marca llevan artículo: il nove."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Il mio numero di telefono è ___ interno ___. (02 39 24 81, interno 750)",
+    "answer": "zero due trentanove ventiquattro ottantuno | settecentocinquanta",
+    "alt": [
+     "zero due trentanove ventiquattro ottantuno | sette cinque zero",
+     "zero due, trentanove, ventiquattro, ottantuno | settecentocinquanta",
+     "zero due, trentanove, ventiquattro, ottantuno | sette cinque zero"
+    ],
+    "note": "Los números de teléfono se leen de a dos cifras."
+   }
+  ]
+ },
+ "r17-03": {
+  "consigna": "Decí la hora en italiano y también en formato de 24 horas.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Las diez de la mañana: ___ (formato 24 horas: ___)",
+    "answer": "le dieci di mattina | le dieci",
+    "alt": [
+     "le dieci del mattino | le dieci",
+     "le dieci | le dieci"
+    ],
+    "note": "De mañana las dos formas coinciden: le dieci."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "La una de la tarde: ___ (formato 24 horas: ___)",
+    "answer": "l'una del pomeriggio | le tredici",
+    "alt": [
+     "l'una di pomeriggio | le tredici",
+     "l'una | le tredici"
+    ],
+    "note": "L'una va en singular; en 24 horas, le tredici."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Las ocho de la noche: ___ (formato 24 horas: ___)",
+    "answer": "le otto di sera | le venti",
+    "alt": [
+     "le otto della sera | le venti",
+     "le otto | le venti"
+    ],
+    "note": "Hablando se dice *le otto di sera*; en horarios oficiales se cuenta hasta 24: *le venti*."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Las once de la noche: ___ (formato 24 horas: ___)",
+    "answer": "le undici di sera | le ventitré",
+    "alt": [
+     "le undici della sera | le ventitré",
+     "le undici di notte | le ventitré",
+     "le undici | le ventitré"
+    ],
+    "note": "*le undici di sera* en la charla, *le ventitré* en horarios (con acento en *tré*)."
+   }
+  ]
+ },
+ "r17-04": {
+  "consigna": "Hacé las cuentas en italiano, con los números en letras. Para ‘es igual a’ podés usar fa, è uguale a o uguale.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Doce por doce es igual a ciento cuarenta y cuatro.",
+    "answer": "Dodici per dodici fa centoquarantaquattro.",
+    "alt": [
+     "Dodici per dodici è uguale a centoquarantaquattro.",
+     "Dodici per dodici uguale centoquarantaquattro.",
+     "Dodici per dodici è centoquarantaquattro.",
+     "Dodici moltiplicato per dodici fa centoquarantaquattro."
+    ],
+    "note": "Per = por (multiplicar); ‘es igual a’: fa / è uguale a."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Dos mil menos mil quinientos es igual a quinientos.",
+    "answer": "Duemila meno millecinquecento fa cinquecento.",
+    "alt": [
+     "Duemila meno millecinquecento è uguale a cinquecento.",
+     "Duemila meno millecinquecento uguale cinquecento.",
+     "Duemila meno millecinquecento è cinquecento."
+    ],
+    "note": "Meno = menos; los números compuestos van en una sola palabra."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Cuarenta y cinco dividido nueve y multiplicado por seis es igual a treinta.",
+    "answer": "Quarantacinque diviso nove e moltiplicato per sei fa trenta.",
+    "alt": [
+     "Quarantacinque diviso nove e moltiplicato per sei è uguale a trenta.",
+     "Quarantacinque diviso nove e moltiplicato per sei uguale trenta.",
+     "Quarantacinque diviso nove moltiplicato per sei fa trenta.",
+     "Quarantacinque diviso per nove e moltiplicato per sei fa trenta.",
+     "Quarantacinque diviso nove per sei fa trenta."
+    ],
+    "note": "Las operaciones: *diviso* (dividido), *moltiplicato per* (multiplicado por); «es igual a» = *fa*."
+   }
+  ]
+ },
+ "r17-01b": {
+  "consigna": "Traducí al italiano, con los números en letras.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "el primero de octubre",
+    "answer": "il primo ottobre",
+    "alt": [
+     "il 1° ottobre"
+    ],
+    "note": "Solo el día 1 se dice con ordinal: il primo; los demás, con cardinal."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "la Segunda Guerra Mundial",
+    "answer": "la Seconda Guerra Mondiale",
+    "alt": [
+     "la seconda guerra mondiale"
+    ],
+    "note": "Ordinal femenino: seconda."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "el Tercer Mundo",
+    "answer": "il Terzo Mondo",
+    "alt": [],
+    "note": "Los ordinales del 1 al 10 son formas propias: *terzo* («tercero»), concordado: *il Terzo Mondo*."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "la décima vez",
+    "answer": "la decima volta",
+    "alt": [],
+    "note": "Los ordinales concuerdan en género y número: *decimo → decima volta*."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "el vigésimo aniversario",
+    "answer": "il ventesimo anniversario",
+    "alt": [],
+    "note": "Desde el 11, el ordinal se forma con -esimo: ventesimo."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Isabel II",
+    "answer": "Elisabetta II",
+    "alt": [
+     "Elisabetta seconda"
+    ],
+    "note": "Con reyes y papas se usa el ordinal sin artículo, igual que en castellano."
+   },
+   {
+    "label": "g",
+    "type": "translate",
+    "stem": "el siglo VIII d. C.",
+    "answer": "l'ottavo secolo d.C.",
+    "alt": [
+     "l'ottavo secolo dopo Cristo",
+     "l'VIII secolo d.C.",
+     "l'ottavo secolo d. C.",
+     "l'VIII secolo dopo Cristo"
+    ],
+    "note": "Los siglos se dicen con ordinal: l'ottavo secolo."
+   }
+  ]
+ },
+ "r17-02b": {
+  "consigna": "Expresá estos siglos de la otra manera.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "il ventesimo secolo = ___",
+    "answer": "il Novecento",
+    "alt": [
+     "il '900",
+     "novecento"
+    ],
+    "note": "Del siglo XIII en adelante se puede decir il Duecento, il Trecento… il Novecento (el siglo XX)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "il quattordicesimo secolo = ___",
+    "answer": "il Trecento",
+    "alt": [
+     "trecento"
+    ],
+    "note": "El siglo XIV corresponde a los años 1300: il Trecento."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "il Quattrocento = ___",
+    "answer": "il quindicesimo secolo",
+    "alt": [
+     "il XV secolo",
+     "quindicesimo secolo"
+    ],
+    "note": "Los siglos se nombran por las centenas: *il Quattrocento* = los años 1400, o sea el siglo XV (*quindicesimo secolo*)."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "l'Ottocento = ___",
+    "answer": "il diciannovesimo secolo",
+    "alt": [
+     "il XIX secolo",
+     "diciannovesimo secolo"
+    ],
+    "note": "*l'Ottocento* = los años 1800, que son el siglo XIX: *il diciannovesimo secolo*."
+   }
+  ]
+ },
+ "r17-02c": {
+  "consigna": "Traducí al italiano usando los numerales aproximativos (un centinaio, una ventina…).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Había unos cien invitados.",
+    "answer": "C'era un centinaio di invitati.",
+    "alt": [
+     "C'erano un centinaio di invitati.",
+     "C'erano circa cento invitati."
+    ],
+    "note": "*-aio* forma números aproximados: *un centinaio di* («unos cien»), con *di* delante del sustantivo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Había unos veinte estudiantes.",
+    "answer": "C'era una ventina di studenti.",
+    "alt": [
+     "C'erano una ventina di studenti.",
+     "C'erano circa venti studenti."
+    ],
+    "note": "*-ina* forma aproximados: *una ventina di* («unos veinte»)."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Hay unos mil manifestantes. (manifestanti)",
+    "answer": "Ci sono un migliaio di manifestanti.",
+    "alt": [
+     "C'è un migliaio di manifestanti.",
+     "Ci sono circa mille manifestanti."
+    ],
+    "note": "*mille* hace el aproximado *un migliaio di*; el plural *migliaia* es femenino (*migliaia di persone*)."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Hay miles de manifestantes.",
+    "answer": "Ci sono migliaia di manifestanti.",
+    "alt": [],
+    "note": "*migliaia di* = «miles de»: plural femenino de *migliaio*, con *di*."
+   }
+  ]
+ },
+ "r18-03": {
+  "consigna": "Escribilo bien: poné el verbo en presente.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Tu ___ troppo. (mangiare)",
+    "answer": "mangi",
+    "alt": [],
+    "note": "Los verbos en -iare con i átona no duplican la i: tu mangi (pero tu invii, tu scii)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Tu ___ troppo di affitto. (pagare)",
+    "answer": "paghi",
+    "alt": [],
+    "note": "Los verbos en -gare agregan h para conservar el sonido duro: paghi."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Perché non ___ subito? (cominciare – noi)",
+    "answer": "cominciamo",
+    "alt": [],
+    "note": "Cominciare pierde la i ante otra i: cominciamo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "___ spesso a bridge. (giocare – noi)",
+    "answer": "Giochiamo",
+    "alt": [],
+    "note": "Los verbos en -care agregan h: giochiamo."
+   }
+  ]
+ },
+ "r18-04": {
+  "consigna": "Completá con el presente de los verbos reflexivos.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Rita e Anna ___ a casa nostra. (annoiarsi)",
+    "answer": "si annoiano",
+    "alt": [],
+    "note": "Loro: si + tercera persona plural."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Renato e Luca ___ sempre a Londra! (perdersi)",
+    "answer": "si perdono",
+    "alt": [],
+    "note": "Verbo en -ere: si perdono."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Giovanna e Paola ___ da me. (divertirsi)",
+    "answer": "si divertono",
+    "alt": [],
+    "note": "Verbo en -ire sin -isc-: si divertono."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Aldo ___ della loro stupidità! (stupirsi)",
+    "answer": "si stupisce",
+    "alt": [],
+    "note": "Stupire lleva -isc-: si stupisce."
+   }
+  ]
+ },
+ "r18-01": {
+  "consigna": "Completá la pregunta y la respuesta con el presente del verbo indicado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Giulio, ___ tempo di prendere un caffè? – Mi dispiace, non ___ tempo. (avere)",
+    "answer": "hai | ho",
+    "alt": [],
+    "note": "Avere: io ho, tu hai (con h muda)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Sandra, dove ___ di casa? – ___ in via Carducci, numero 12. (stare)",
+    "answer": "stai | Sto",
+    "alt": [],
+    "note": "Stare: io sto, tu stai. Stare di casa = vivir."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Lucia, che ___ domani? – Domani ___ una lunga passeggiata in campagna. (fare)",
+    "answer": "fai | faccio",
+    "alt": [],
+    "note": "Fare es irregular: faccio, fai."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Lino, ___ l'esame oggi? – No, lo ___ domani. (dare)",
+    "answer": "dai | do",
+    "alt": [],
+    "note": "Dare: io do, tu dai."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Antonella, dove ___ stasera? – Stasera ___ da Alessandro. (andare)",
+    "answer": "vai | vado",
+    "alt": [],
+    "note": "Andare es irregular: vado, vai."
+   }
+  ]
+ },
+ "r18-02": {
+  "consigna": "Pasá el verbo a la persona indicada y escribí su infinitivo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Esco spesso la sera. (io → noi): ___ spesso la sera. (infinitivo: ___)",
+    "answer": "Usciamo | uscire",
+    "alt": [],
+    "note": "Uscire: esco, pero usciamo (la raíz cambia)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Vado raramente all'estero. (io → noi): ___ raramente all'estero. (infinitivo: ___)",
+    "answer": "Andiamo | andare",
+    "alt": [],
+    "note": "Andare: vado, pero andiamo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Cosa propone? (lui/lei → loro): Cosa ___? (infinitivo: ___)",
+    "answer": "propongono | proporre",
+    "alt": [],
+    "note": "Proporre se conjuga como porre: propongono."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Ma cosa mi dici? (tu → voi): Ma cosa mi ___? (infinitivo: ___)",
+    "answer": "dite | dire",
+    "alt": [],
+    "note": "Dire: dici, pero voi dite."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Traduciamo un articolo. (noi → io): ___ un articolo. (infinitivo: ___)",
+    "answer": "Traduco | tradurre",
+    "alt": [],
+    "note": "Los verbos en -durre toman la raíz -duc-: traduco."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Dov'è? (lui/lei → loro): Dove ___? (infinitivo: ___)",
+    "answer": "sono | essere",
+    "alt": [],
+    "note": "Essere: è → sono."
+   },
+   {
+    "label": "g",
+    "type": "cloze",
+    "stem": "Siamo in anticipo. (noi → io): ___ in anticipo. (infinitivo: ___)",
+    "answer": "Sono | essere",
+    "alt": [],
+    "note": "Essere: io sono, igual que loro sono."
+   }
+  ]
+ },
+ "r18-03b": {
+  "consigna": "Completá con el presente de estos verbos modales.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Scusa, ___ partire adesso, non ___ aspettare. (volere – io; potere – io)",
+    "answer": "voglio | posso",
+    "alt": [],
+    "note": "Volere: voglio; potere: posso."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "___ venire subito o ___ chiedere permesso? (potere – tu; dovere – tu)",
+    "answer": "Puoi | devi",
+    "alt": [],
+    "note": "Potere: puoi; dovere: devi."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Non ___ ancora se ___ lavorare domani. (sapere – noi; dovere – noi)",
+    "answer": "sappiamo | dobbiamo",
+    "alt": [],
+    "note": "Sapere: sappiamo; dovere: dobbiamo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Se non ___ aspettare, ___ mangiare adesso. (volere – voi; potere – voi)",
+    "answer": "volete | potete",
+    "alt": [],
+    "note": "Voi volete, voi potete: regulares en esta persona."
+   }
+  ]
+ },
+ "r18-01b": {
+  "consigna": "Traducí al italiano. Pista, verbos que sirven: alzarsi, bere, dire, essere, fare, fare colazione, riuscire a, sentire, uscire.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Me levanto temprano y salgo de casa a las siete.",
+    "answer": "Mi alzo presto ed esco di casa alle sette.",
+    "alt": [
+     "Mi alzo presto e esco di casa alle sette.",
+     "Mi alzo presto ed esco da casa alle sette.",
+     "Mi alzo presto ed esco di casa alle 7."
+    ],
+    "note": "Alzarsi es reflexivo; uscire di casa = salir de casa."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Gran Bretaña es una isla e Italia es una península. (isola, penisola)",
+    "answer": "La Gran Bretagna è un'isola e l'Italia è una penisola.",
+    "alt": [],
+    "note": "Los nombres de países llevan artículo: la Gran Bretagna, l'Italia."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "¿Toman café a la mañana? (voi)",
+    "answer": "Bevete il caffè la mattina?",
+    "alt": [
+     "Bevete caffè la mattina?",
+     "Bevete il caffè di mattina?",
+     "Bevete caffè di mattina?",
+     "Bevete il caffè al mattino?"
+    ],
+    "note": "Bere: bevete (raíz bev-)."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "¿De qué trabajás? (tu)",
+    "answer": "Che lavoro fai?",
+    "alt": [
+     "Che lavoro fai tu?",
+     "Che cosa fai di lavoro?",
+     "Cosa fai di lavoro?"
+    ],
+    "note": "Para preguntar el trabajo: *che lavoro fai?* («¿qué trabajo hacés?»), con *fare*."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "¿Desayunan en el bar?",
+    "answer": "Fanno colazione al bar?",
+    "alt": [
+     "Fanno colazione nel bar?",
+     "Fate colazione al bar?",
+     "Fate colazione nel bar?"
+    ],
+    "note": "«Desayunar» = *fare colazione*: el italiano usa *fare* + sustantivo, no un verbo propio."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "¿Qué dice? No lo escucho.",
+    "answer": "Cosa dice? Non lo sento.",
+    "alt": [
+     "Che cosa dice? Non lo sento.",
+     "Che dice? Non lo sento.",
+     "Cosa dice? Non riesco a sentirlo.",
+     "Che cosa dice? Non riesco a sentirlo."
+    ],
+    "note": "Dire: dice; sentire = oír."
+   },
+   {
+    "label": "g",
+    "type": "translate",
+    "stem": "No puedo abrir la ventana.",
+    "answer": "Non riesco ad aprire la finestra.",
+    "alt": [
+     "Non riesco a aprire la finestra."
+    ],
+    "note": "«Poder» por capacidad o esfuerzo = *riuscire a* + infinitivo: *non riesco ad aprire*."
+   }
+  ]
+ },
+ "r18-03c": {
+  "consigna": "¿Desde cuándo? Respondé en italiano con presente + da.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Da quanto tempo impari l'italiano? – Hace dos años que aprendo italiano.",
+    "answer": "Imparo l'italiano da due anni.",
+    "alt": [
+     "Studio l'italiano da due anni.",
+     "Lo imparo da due anni.",
+     "Da due anni.",
+     "Imparo l'italiano da 2 anni.",
+     "Imparo italiano da due anni.",
+     "Studio italiano da due anni."
+    ],
+    "note": "Presente + da + período para una acción que sigue."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Da quant'è che abiti qui? – Hace un par de meses que vivo acá.",
+    "answer": "Abito qui da un paio di mesi.",
+    "alt": [
+     "Vivo qui da un paio di mesi.",
+     "Da un paio di mesi."
+    ],
+    "note": "Presente + da: abito qui da…"
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Da quando uscite insieme? – Salimos desde enero.",
+    "answer": "Usciamo insieme da gennaio.",
+    "alt": [
+     "Da gennaio.",
+     "Usciamo da gennaio."
+    ],
+    "note": "Da + punto de partida: da gennaio."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Da quant'è che vi conoscete? – Nos conocemos hace tres meses.",
+    "answer": "Ci conosciamo da tre mesi.",
+    "alt": [
+     "Da tre mesi."
+    ],
+    "note": "Ci conosciamo da… (presente, no pasado)."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "Da quant'è che non ci sentiamo? – No hablamos desde el año pasado.",
+    "answer": "Non ci sentiamo dall'anno scorso.",
+    "alt": [
+     "Dall'anno scorso."
+    ],
+    "note": "Da + artículo: dall'anno scorso."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "È da molto che sei in Italia? – Estoy en Italia desde septiembre.",
+    "answer": "Sono in Italia da settembre.",
+    "alt": [
+     "Da settembre."
+    ],
+    "note": "Presente + da + mes."
+   },
+   {
+    "label": "g",
+    "type": "translate",
+    "stem": "Lo aspetti da molto tempo? – Lo espero desde las nueve.",
+    "answer": "Lo aspetto dalle nove.",
+    "alt": [
+     "Dalle nove.",
+     "Lo aspetto dalle 9."
+    ],
+    "note": "Con horas: dalle nove."
+   },
+   {
+    "label": "h",
+    "type": "translate",
+    "stem": "Da quand'è che noi non ci vediamo? – ¡No nos vemos desde que nos recibimos!",
+    "answer": "Non ci vediamo da quando ci siamo laureati!",
+    "alt": [
+     "Non ci vediamo da quando ci siamo laureate!",
+     "Da quando ci siamo laureati!",
+     "Da quando ci siamo laureate!"
+    ],
+    "note": "Da quando + pasado introduce el punto de partida."
+   }
+  ]
+ },
+ "r18-05": {
+  "consigna": "Elegí el tiempo verbal correcto.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "___ gli occhiali da due anni.",
+    "answer": "Porto",
+    "alt": [],
+    "note": "Da + período con acción que sigue: presente.",
+    "options": [
+     "Porto",
+     "Ho portato"
+    ]
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "___ gli occhiali per due anni.",
+    "answer": "Ho portato",
+    "alt": [],
+    "note": "Per + período cerrado: pasado (ya no los uso).",
+    "options": [
+     "Porto",
+     "Ho portato"
+    ]
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Dal 2008 ___ casa quattro volte.",
+    "answer": "ho cambiato",
+    "alt": [],
+    "note": "Acciones contadas (quattro volte): passato prossimo.",
+    "options": [
+     "cambio",
+     "ho cambiato"
+    ]
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Dal 2008 ___ nello stesso posto.",
+    "answer": "abito",
+    "alt": [],
+    "note": "Situación que continúa desde 2008: presente.",
+    "options": [
+     "abito",
+     "ho abitato"
+    ]
+   },
+   {
+    "label": "e",
+    "type": "choice",
+    "stem": "Da quando ci conosciamo ___ ogni settimana a sua madre.",
+    "answer": "scrive",
+    "alt": [],
+    "note": "Hábito que continúa: presente.",
+    "options": [
+     "scrive",
+     "ha scritto"
+    ]
+   },
+   {
+    "label": "f",
+    "type": "choice",
+    "stem": "Da quando ci conosciamo ___ cinque libri.",
+    "answer": "ha scritto",
+    "alt": [],
+    "note": "Resultado contado (cinque libri): passato prossimo.",
+    "options": [
+     "scrive",
+     "ha scritto"
+    ]
+   }
+  ]
+ },
+ "r18-01c": {
+  "consigna": "Respondé con el presente de los verbos dados (también podés usar stare + gerundio).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Volete venire a cena con noi? – No, ci dispiace, in questo momento ___. (studiare)",
+    "answer": "stiamo studiando",
+    "alt": [
+     "studiamo"
+    ],
+    "note": "Para una acción en curso: stare + gerundio o presente."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Posso parlarti un attimo? – No, mi dispiace, ___ un rapporto. (leggere)",
+    "answer": "sto leggendo",
+    "alt": [
+     "leggo"
+    ],
+    "note": "Stare + gerundio: sto leggendo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Vieni al cinema con me? – Adesso non posso, ___ i compiti. (fare)",
+    "answer": "sto facendo",
+    "alt": [
+     "faccio"
+    ],
+    "note": "Gerundio de fare: facendo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "I bambini, cosa ___? – ___ in giardino. (fare; divertirsi)",
+    "answer": "fanno | Si divertono",
+    "alt": [
+     "stanno facendo | Si stanno divertendo",
+     "fanno | Si stanno divertendo",
+     "stanno facendo | Si divertono",
+     "fanno | Stanno divertendosi",
+     "stanno facendo | Stanno divertendosi"
+    ],
+    "note": "Con stare + gerundio el pronombre va antes de stare o pegado al gerundio."
+   }
+  ]
+ },
+ "r18-01d": {
+  "consigna": "¿Qué dijeron? Pasá a estilo indirecto con el comienzo dado (verbo introductorio en presente).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "‘Staremo da voi a mezzogiorno per prendere l'aperitivo.’ → Barbara dice ___.",
+    "answer": "che staranno da noi a mezzogiorno per prendere l'aperitivo",
+    "alt": [
+     "che staranno da voi a mezzogiorno per prendere l'aperitivo"
+    ],
+    "note": "Con dice en presente el tiempo no cambia; cambian la persona (staremo → staranno) y el ‘voi’ pasa a ‘noi’."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "‘Non mi trovo bene. Il medico mi dice che dovrei stare a casa.’ → Antonietta dice ___.",
+    "answer": "che non si trova bene e che il medico le dice che dovrebbe stare a casa",
+    "alt": [
+     "che non si trova bene e il medico le dice che dovrebbe stare a casa",
+     "che non si trova bene, il medico le dice che dovrebbe stare a casa",
+     "che non si trova bene il medico le dice che dovrebbe stare a casa"
+    ],
+    "note": "Mi → si / le y la primera persona pasa a tercera."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "‘Ci siamo conosciuti un mese fa e stiamo molto bene insieme.’ → Secondo Elisabetta e Marco ___.",
+    "answer": "si sono conosciuti un mese fa e stanno molto bene insieme",
+    "alt": [],
+    "note": "Noi → loro: ci siamo conosciuti → si sono conosciuti."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "‘Nostro padre ci ha lasciato due anni fa, ma lo vediamo ogni tanto.’ → Secondo i figli della vicina ___.",
+    "answer": "il loro padre li ha lasciati due anni fa, ma lo vedono ogni tanto",
+    "alt": [
+     "il loro padre li ha lasciati due anni fa ma lo vedono ogni tanto",
+     "il padre li ha lasciati due anni fa, ma lo vedono ogni tanto",
+     "il padre li ha lasciati due anni fa ma lo vedono ogni tanto"
+    ],
+    "note": "Nostro → il loro; ci → li; vediamo → vedono."
+   }
+  ]
+ },
+ "r18-02b": {
+  "consigna": "Traducí al italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Dice que Mario llega mañana pero que no está bien.",
+    "answer": "Dice che Mario arriva domani ma che non sta bene.",
+    "alt": [
+     "Dice che Mario arriva domani ma non sta bene.",
+     "Dice che Mario arriva domani, ma che non sta bene.",
+     "Dice che Mario arriva domani, ma non sta bene."
+    ],
+    "note": "Con dice en presente se mantiene el presente: arriva, sta."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Sé que Susanna perdió otra vez las llaves: ¡siempre es tan distraída! (distratta)",
+    "answer": "So che Susanna ha perso di nuovo le chiavi: è sempre così distratta!",
+    "alt": [
+     "So che Susanna ha di nuovo perso le chiavi: è sempre così distratta!",
+     "So che Susanna ha perso ancora le chiavi: è sempre così distratta!",
+     "So che Susanna ha perso un'altra volta le chiavi: è sempre così distratta!",
+     "So che Susanna ha perso di nuovo le chiavi, è sempre così distratta!",
+     "So che Susanna ha perso di nuovo le chiavi è sempre così distratta!",
+     "So che Susanna ha perso di nuovo le chiavi: è sempre tanto distratta!"
+    ],
+    "note": "So che + passato prossimo para lo ocurrido; presente para lo habitual."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Mi hermana dice que nuestro tío antes siempre comía demasiado pero que ahora no come casi nada. (quasi niente)",
+    "answer": "Mia sorella dice che nostro zio mangiava sempre troppo ma che adesso non mangia quasi niente.",
+    "alt": [
+     "Mia sorella dice che nostro zio mangiava sempre troppo ma adesso non mangia quasi niente.",
+     "Mia sorella dice che nostro zio mangiava sempre troppo ma che ora non mangia quasi niente.",
+     "Mia sorella dice che nostro zio prima mangiava sempre troppo ma che adesso non mangia quasi niente.",
+     "Mia sorella dice che nostro zio mangiava sempre troppo, ma che adesso non mangia quasi niente.",
+     "Mia sorella dice che nostro zio prima mangiava sempre troppo ma adesso non mangia quasi niente."
+    ],
+    "note": "Imperfetto para el hábito pasado, presente para el actual; nostro zio sin artículo."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Sé que tienen que llegar alrededor de las once, pero suelen llegar tarde. (fare tardi)",
+    "answer": "So che devono arrivare verso le undici, ma di solito fanno tardi.",
+    "alt": [
+     "So che devono arrivare verso le undici ma di solito fanno tardi.",
+     "So che dovrebbero arrivare verso le undici, ma di solito fanno tardi.",
+     "So che dovrebbero arrivare verso le undici ma di solito fanno tardi.",
+     "So che devono arrivare intorno alle undici, ma di solito fanno tardi.",
+     "So che devono arrivare intorno alle undici ma di solito fanno tardi.",
+     "So che dovrebbero arrivare intorno alle undici, ma di solito fanno tardi.",
+     "So che dovrebbero arrivare intorno alle undici ma di solito fanno tardi.",
+     "So che devono arrivare verso le undici, ma fanno sempre tardi.",
+     "So che devono arrivare verso le undici ma fanno sempre tardi."
+    ],
+    "note": "Di solito + presente para lo habitual."
+   }
+  ]
+ },
+ "r19-01": {
+  "consigna": "Elegí la forma correcta del futuro.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Fra poco ___ quella lettera.",
+    "answer": "scriverò",
+    "alt": [],
+    "note": "Los verbos en -ere forman el futuro con -er-: scriverò.",
+    "options": [
+     "scriverò",
+     "scrivirò"
+    ]
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Domani Enrico ___ da me.",
+    "answer": "dormirà",
+    "alt": [],
+    "note": "Los verbos en -ire conservan la i: dormirà.",
+    "options": [
+     "dormerà",
+     "dormirà"
+    ]
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "___ domani con i loro amici.",
+    "answer": "Torneranno",
+    "alt": [],
+    "note": "Los verbos en -are cambian la a por e: torneranno (con -nno).",
+    "options": [
+     "Tornaranno",
+     "Torneranno",
+     "Tornerano"
+    ]
+   }
+  ]
+ },
+ "r19-02": {
+  "consigna": "Poné el verbo en futuro.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Se vuoi ___ con te stasera. (io – giocare)",
+    "answer": "giocherò",
+    "alt": [],
+    "note": "Los verbos en -care agregan h: giocherò."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Se volete vi ___ il gioco. (noi – spiegare)",
+    "answer": "spiegheremo",
+    "alt": [],
+    "note": "Los verbos en -gare agregan h: spiegheremo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Quand'è che ___ a studiare? (loro – cominciare)",
+    "answer": "cominceranno",
+    "alt": [],
+    "note": "Los verbos en -ciare pierden la i: cominceranno."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Quand'è che ___ il tuo successo? (tu – festeggiare)",
+    "answer": "festeggerai",
+    "alt": [],
+    "note": "Los verbos en -giare pierden la i: festeggerai."
+   }
+  ]
+ },
+ "r19-03": {
+  "consigna": "Completá con el futuro de los verbos dados.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Fra poco ___ a casa e ___ il bucato. (io – andare; fare)",
+    "answer": "andrò | farò",
+    "alt": [],
+    "note": "Andare → andrò (sin e); fare → farò."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Domani ___ stare a casa o ___ uscire? (tu – dovere; potere)",
+    "answer": "dovrai | potrai",
+    "alt": [],
+    "note": "Dovere → dovrai; potere → potrai (futuro contracto)."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "I nostri figli ___ a Rimini e ci ___ dopo le vacanze. (rimanere; vedere)",
+    "answer": "rimarranno | vedranno",
+    "alt": [],
+    "note": "Rimanere → rimarranno; vedere → vedranno."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "La settimana prossima ___ moltissimo da fare, ma ___ disponibile venerdì. (io – avere; io – essere)",
+    "answer": "avrò | sarò",
+    "alt": [],
+    "note": "Avere → avrò; essere → sarò."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Martedì vi ___ se ___ o no. (noi – dire; noi – venire)",
+    "answer": "diremo | verremo",
+    "alt": [],
+    "note": "Dire → diremo; venire → verremo (doble r)."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "___ l'articolo o lo ___ a qualcun altro? (tu – tradurre; dare)",
+    "answer": "Tradurrai | darai",
+    "alt": [],
+    "note": "Tradurre → tradurrai; dare → darai (sin cambiar la a)."
+   }
+  ]
+ },
+ "r19-01b": {
+  "consigna": "Decí qué va a pasar seguro, con el futuro del verbo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Guarda che nuvoloni! – ___ di sicuro. (piovere)",
+    "answer": "Pioverà",
+    "alt": [],
+    "note": "Futuro para una predicción: pioverà."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Marco non ha studiato. – ___ sicuramente bocciato. (essere)",
+    "answer": "Sarà",
+    "alt": [],
+    "note": "Essere → sarà."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Abbiamo perso il treno. Purtroppo ___ in ritardo. (arrivare)",
+    "answer": "arriveremo",
+    "alt": [],
+    "note": "Arrivare → arriveremo (a → e)."
+   }
+  ]
+ },
+ "r19-02b": {
+  "consigna": "¿Todo va a mejorar? Hacé tus predicciones políticas con el futuro.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Le tasse ___ e gli stipendi ___ fermi. (aumentare; restare)",
+    "answer": "aumenteranno | resteranno",
+    "alt": [],
+    "note": "-are → -eranno."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Gli automobilisti ___ le strade e ___ l'ambiente. (affollare; inquinare)",
+    "answer": "affolleranno | inquineranno",
+    "alt": [],
+    "note": "-are → -eranno."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Per gli anziani la vita ___ più dura. ___ di più e alla fine ___ una pensione più piccola di prima. (diventare; lavorare; ottenere)",
+    "answer": "diventerà | Lavoreranno | otterranno",
+    "alt": [],
+    "note": "Ottenere se conjuga como tenere: otterranno."
+   }
+  ]
+ },
+ "r19-03b": {
+  "consigna": "Decisiones del momento: traducí al italiano. En italiano se usa el presente.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Lo sai che Marina è all'ospedale? – Entonces voy a visitarla. (andare a trovare)",
+    "answer": "Allora vado a trovarla.",
+    "alt": [
+     "Allora la vado a trovare.",
+     "Vado a trovarla, allora.",
+     "Vado a trovarla allora.",
+     "La vado a trovare, allora.",
+     "La vado a trovare allora."
+    ],
+    "note": "Para una decisión tomada en el momento se usa el presente."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Hanno chiuso l'autostrada. – Entonces tomamos la ruta. (prendere la statale)",
+    "answer": "Allora prendiamo la statale.",
+    "alt": [
+     "Prendiamo la statale, allora.",
+     "Prendiamo la statale allora.",
+     "Allora prenderemo la statale."
+    ],
+    "note": "Presente para decidir en el momento."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "È il compleanno di Giacomo. – Entonces le mando una tarjeta. (mandare un biglietto di auguri)",
+    "answer": "Allora gli mando un biglietto di auguri.",
+    "alt": [
+     "Gli mando un biglietto di auguri, allora.",
+     "Gli mando un biglietto di auguri allora.",
+     "Allora gli manderò un biglietto di auguri."
+    ],
+    "note": "Presente + gli (a él)."
+   }
+  ]
+ },
+ "r19-04": {
+  "consigna": "Contá tus planes en italiano. Ojo con el tiempo verbal.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Mañana voy a Turín.",
+    "answer": "Domani vado a Torino.",
+    "alt": [
+     "Domani andrò a Torino."
+    ],
+    "note": "Para planes con fecha se usa el presente (o el futuro)."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Tomamos el tren a las cinco.",
+    "answer": "Prendiamo il treno alle cinque.",
+    "alt": [
+     "Prenderemo il treno alle cinque.",
+     "Prendiamo il treno alle 5.",
+     "Prenderemo il treno alle 5."
+    ],
+    "note": "Presente para un plan decidido."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Le voy a mandar flores a mi mamá.",
+    "answer": "Mando dei fiori a mia madre.",
+    "alt": [
+     "Manderò dei fiori a mia madre.",
+     "Mando dei fiori a mia mamma.",
+     "Manderò dei fiori a mia mamma.",
+     "Mando dei fiori alla mamma.",
+     "Mando fiori a mia madre."
+    ],
+    "note": "‘Voy a + infinitivo’ no se traduce con andare: presente o futuro."
+   }
+  ]
+ },
+ "r19-05": {
+  "consigna": "Mirás fotos de parientes que no ves hace años. Traducí usando el futuro de probabilidad.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Debe tener por lo menos sesenta años. (almeno)",
+    "answer": "Avrà almeno sessant'anni.",
+    "alt": [
+     "Avrà almeno sessanta anni.",
+     "Avrà almeno 60 anni."
+    ],
+    "note": "El futuro expresa suposición: avrà = debe tener."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "¿De qué trabajará?",
+    "answer": "Che lavoro farà?",
+    "alt": [
+     "Chissà che lavoro farà?",
+     "Chissà che lavoro farà.",
+     "Cosa farà di lavoro?"
+    ],
+    "note": "Futuro para preguntarse algo: farà."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Estará casado, supongo.",
+    "answer": "Sarà sposato.",
+    "alt": [
+     "Sarà sposato, suppongo.",
+     "Sarà sposato suppongo."
+    ],
+    "note": "El futuro expresa suposición en el presente: *sarà sposato* = «supongo que está casado», igual que «estará» en castellano."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Será rica, pero es realmente tonta.",
+    "answer": "Sarà ricca, ma è proprio stupida!",
+    "alt": [
+     "Sarà ricca ma è proprio stupida!",
+     "Sarà ricca, ma è veramente stupida!",
+     "Sarà ricca ma è veramente stupida!",
+     "Sarà ricca, ma è davvero stupida!",
+     "Sarà ricca ma è davvero stupida!"
+    ],
+    "note": "Sarà… ma: futuro concesivo, igual que en castellano."
+   }
+  ]
+ },
+ "r19-07": {
+  "consigna": "Promesas y predicciones: traducí al italiano tuteando.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Si me das una mano, te compro un helado.",
+    "answer": "Se mi dai una mano, ti compro un gelato.",
+    "alt": [
+     "Se mi dai una mano ti compro un gelato.",
+     "Se mi dai una mano, ti comprerò un gelato.",
+     "Se mi dai una mano ti comprerò un gelato.",
+     "Se mi darai una mano, ti comprerò un gelato.",
+     "Se mi darai una mano ti comprerò un gelato."
+    ],
+    "note": "Se + presente, presente (o futuro) en la principal."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Si me prestás el auto, te pago la nafta.",
+    "answer": "Se mi presti la macchina, ti pago la benzina.",
+    "alt": [
+     "Se mi presti la macchina ti pago la benzina.",
+     "Se mi presti la macchina, ti pagherò la benzina.",
+     "Se mi presti la macchina ti pagherò la benzina.",
+     "Se mi presterai la macchina, ti pagherò la benzina.",
+     "Se mi presterai la macchina ti pagherò la benzina."
+    ],
+    "note": "Benzina = nafta; se + presente."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Si no te apurás, vamos a llegar tarde. (sbrigarsi, fare tardi)",
+    "answer": "Se non ti sbrighi, faremo tardi.",
+    "alt": [
+     "Se non ti sbrighi faremo tardi.",
+     "Se non ti sbrighi, facciamo tardi.",
+     "Se non ti sbrighi facciamo tardi.",
+     "Se non ti sbrigherai, faremo tardi.",
+     "Se non ti sbrigherai faremo tardi."
+    ],
+    "note": "Sbrigarsi → ti sbrighi (con h)."
+   }
+  ]
+ },
+ "r19-08": {
+  "consigna": "¿Qué va a pasar si…? Completá en italiano con el futuro.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Se non aumentano gli stipendi quest'anno… ___ (los docentes van a hacer paro). (fare sciopero)",
+    "answer": "gli insegnanti faranno sciopero",
+    "alt": [
+     "gli insegnanti sciopereranno",
+     "i professori faranno sciopero",
+     "i docenti faranno sciopero"
+    ],
+    "note": "Futuro de fare: faranno."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Se i rifornimenti non arrivano presto… ___ (la gente se va a morir de hambre). (morire di fame)",
+    "answer": "la gente morirà di fame",
+    "alt": [
+     "le persone moriranno di fame"
+    ],
+    "note": "La gente es singular en italiano: morirà."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Se non riusciranno a salvare le foreste equatoriali… ___ (el clima de la Tierra va a cambiar).",
+    "answer": "il clima della Terra cambierà",
+    "alt": [
+     "il clima terrestre cambierà",
+     "cambierà il clima della Terra"
+    ],
+    "note": "Cambiare → cambierà (a → e; la i se conserva: cambi-erà; solo -ciare/-giare/-sciare pierden la i)."
+   }
+  ]
+ },
+ "r19-01c": {
+  "consigna": "Completá en italiano para decir qué habrá pasado (futuro anteriore).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Fra una settimana… ___ (lo vas a haber olvidado).",
+    "answer": "l'avrai dimenticato",
+    "alt": [
+     "lo avrai dimenticato",
+     "ti sarai dimenticato di lui",
+     "ti sarai dimenticata di lui",
+     "te ne sarai dimenticato",
+     "te ne sarai dimenticata"
+    ],
+    "note": "Futuro anteriore: avere/essere en futuro + participio."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Quando leggerà questa lettera… ___ (yo ya me voy a haber ido).",
+    "answer": "sarò già partito",
+    "alt": [
+     "sarò già partita",
+     "me ne sarò già andato",
+     "me ne sarò già andata",
+     "sarò già andato via",
+     "sarò già andata via"
+    ],
+    "note": "Partire usa essere: sarò partito/a."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "A quest'ora domani… ___ (Giovanni ya va a haber vuelto).",
+    "answer": "Giovanni sarà tornato",
+    "alt": [
+     "Giovanni sarà già tornato",
+     "Giovanni sarà rientrato",
+     "Giovanni sarà già rientrato"
+    ],
+    "note": "Tornare usa essere: sarà tornato."
+   }
+  ]
+ },
+ "r19-02c": {
+  "consigna": "Un amigo no llegó. ¿Qué habrá pasado? Traducí al italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "¿Se habrá equivocado de camino? (sbagliare strada)",
+    "answer": "Avrà sbagliato strada?",
+    "alt": [],
+    "note": "Futuro anteriore para una suposición sobre el pasado."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Habrá tenido un accidente.",
+    "answer": "Avrà avuto un incidente.",
+    "alt": [
+     "Avrà fatto un incidente."
+    ],
+    "note": "Futuro anteriore para suponer algo pasado: *avrà avuto*; y «accidente» de tránsito = *incidente*."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Será buen conductor, pero hay mal tiempo. (un bravo autista)",
+    "answer": "Sarà un bravo autista, ma fa brutto tempo.",
+    "alt": [
+     "Sarà un bravo autista ma fa brutto tempo.",
+     "Sarà un bravo autista, ma c'è brutto tempo.",
+     "Sarà un bravo autista ma c'è brutto tempo.",
+     "Sarà un bravo autista, ma il tempo è brutto.",
+     "Sarà un bravo autista ma il tempo è brutto."
+    ],
+    "note": "Sarà… ma: futuro concesivo."
+   }
+  ]
+ },
+ "r19-03c": {
+  "consigna": "Completá en italiano con el futuro anteriore.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Potrò passare a prenderti alle sette… ___ (si terminé la tarea).",
+    "answer": "se avrò finito i compiti",
+    "alt": [],
+    "note": "Futuro anteriore para lo que estará terminado antes."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Ti restituirò il libro… ___ (cuando lo haya leído).",
+    "answer": "quando l'avrò letto",
+    "alt": [
+     "quando lo avrò letto"
+    ],
+    "note": "Quando + futuro anteriore (en castellano, subjuntivo)."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Ti inviterò da me… ___ (una vez que haya arreglado el departamento). (sistemare)",
+    "answer": "una volta che avrò sistemato l'appartamento",
+    "alt": [
+     "quando avrò sistemato l'appartamento",
+     "dopo che avrò sistemato l'appartamento",
+     "appena avrò sistemato l'appartamento"
+    ],
+    "note": "Una volta che + futuro anteriore."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Ti verrò a trovare… ___ (después de hacer las compras).",
+    "answer": "dopo che avrò fatto la spesa",
+    "alt": [
+     "dopo aver fatto la spesa",
+     "quando avrò fatto la spesa",
+     "dopo avere fatto la spesa"
+    ],
+    "note": "Dopo che + futuro anteriore; fare la spesa = hacer las compras."
+   }
+  ]
+ },
+ "r19-04b": {
+  "consigna": "Convertí las frases anteriores en promesas firmes con appena (registro coloquial: presente y passato prossimo).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Passo a prenderti ___.",
+    "answer": "appena ho finito i compiti",
+    "alt": [
+     "appena avrò finito i compiti",
+     "non appena ho finito i compiti",
+     "non appena avrò finito i compiti"
+    ],
+    "note": "En el registro coloquial, appena + passato prossimo reemplaza al futuro anteriore."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Ti restituisco il libro ___.",
+    "answer": "appena l'ho letto",
+    "alt": [
+     "appena lo ho letto",
+     "appena l'avrò letto",
+     "appena lo avrò letto",
+     "non appena l'ho letto"
+    ],
+    "note": "Appena + passato prossimo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ti invito da me ___.",
+    "answer": "appena ho sistemato l'appartamento",
+    "alt": [
+     "appena avrò sistemato l'appartamento",
+     "non appena ho sistemato l'appartamento"
+    ],
+    "note": "Appena + passato prossimo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Ti vengo a trovare ___.",
+    "answer": "appena ho fatto la spesa",
+    "alt": [
+     "appena avrò fatto la spesa",
+     "non appena ho fatto la spesa"
+    ],
+    "note": "Appena + passato prossimo."
+   }
+  ]
+ },
+ "r19-05b": {
+  "consigna": "Traducí al italiano en registro coloquial (presente y passato prossimo en lugar del futuro).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Vení a verme cuando termines.",
+    "answer": "Vieni a trovarmi quando hai finito.",
+    "alt": [
+     "Vienimi a trovare quando hai finito.",
+     "Passa da me quando hai finito.",
+     "Vieni da me quando hai finito."
+    ],
+    "note": "Quando + passato prossimo en vez del futuro anteriore."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Mandale el libro (a él) una vez que haya pagado.",
+    "answer": "Mandagli il libro una volta che ha pagato.",
+    "alt": [
+     "Mandagli il libro quando ha pagato.",
+     "Mandagli il libro appena ha pagato.",
+     "Mandagli il libro dopo che ha pagato."
+    ],
+    "note": "Mandagli: el pronombre se pega al imperativo."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Apenas se divorcie se vuelve a casar enseguida.",
+    "answer": "Appena divorzia si risposa subito.",
+    "alt": [
+     "Appena ha divorziato si risposa subito.",
+     "Non appena divorzia si risposa subito.",
+     "Appena divorzia, si risposa subito.",
+     "Appena ha divorziato, si risposa subito."
+    ],
+    "note": "Coloquialmente, el presente reemplaza al futuro."
+   }
+  ]
+ },
+ "r20-01": {
+  "consigna": "Completá las preguntas con el participio pasado del verbo indicado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Hai ___ una pizza? (ordinare)",
+    "answer": "ordinato",
+    "alt": [],
+    "note": "Verbos en -are: participio en -ato."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Avete ___ la lettera? (ricevere)",
+    "answer": "ricevuto",
+    "alt": [],
+    "note": "Verbos en -ere regulares: participio en -uto."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Hai ___ il problema? (capire)",
+    "answer": "capito",
+    "alt": [],
+    "note": "Verbos en -ire: participio en -ito."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Siete ___ in centro? (andare)",
+    "answer": "andati",
+    "alt": [
+     "andate"
+    ],
+    "note": "Con essere el participio concuerda con el sujeto: voi → andati/e."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "È ___ per strada? (cadere)",
+    "answer": "caduto",
+    "alt": [
+     "caduta"
+    ],
+    "note": "Con essere concuerda con el sujeto: caduto/a."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Sei ___ ieri? (partire)",
+    "answer": "partito",
+    "alt": [
+     "partita"
+    ],
+    "note": "Partire usa essere: partito/a."
+   }
+  ]
+ },
+ "r20-02": {
+  "consigna": "Completá con el auxiliar correcto y el participio pasado.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___ un errore madornale. (cometí; fare)",
+    "answer": "Ho fatto",
+    "alt": [],
+    "note": "Fare usa avere y tiene participio irregular: fatto."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "___ subito. (respondió; rispondere)",
+    "answer": "Ha risposto",
+    "alt": [],
+    "note": "Rispondere: participio irregular risposto, con avere."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Luca, ___ la finestra? (¿abriste?; aprire)",
+    "answer": "hai aperto",
+    "alt": [],
+    "note": "Aprire: participio irregular aperto."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Ieri sera ___ da Ornella. (estuve; stare)",
+    "answer": "sono stato",
+    "alt": [
+     "sono stata"
+    ],
+    "note": "Stare usa essere: sono stato/a."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Oggi ___ a casa. (me quedé; rimanere)",
+    "answer": "sono rimasto",
+    "alt": [
+     "sono rimasta"
+    ],
+    "note": "Rimanere usa essere; participio irregular rimasto."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "L'anno scorso ___ da noi. (vinieron; venire)",
+    "answer": "sono venuti",
+    "alt": [
+     "sono venute"
+    ],
+    "note": "Venire usa essere; participio irregular venuto."
+   }
+  ]
+ },
+ "r20-03": {
+  "consigna": "Completá con el auxiliar y el participio pasado de los verbos reflexivos.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Mi ___ alle sette. (alzarsi)",
+    "answer": "sono alzato",
+    "alt": [
+     "sono alzata"
+    ],
+    "note": "Los reflexivos usan essere y el participio concuerda con el sujeto."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Mi ___ male in autobus. (sentirsi)",
+    "answer": "sono sentito",
+    "alt": [
+     "sono sentita"
+    ],
+    "note": "Reflexivo → essere: mi sono sentito/a."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Mi ___ accanto a Rita. (sedersi)",
+    "answer": "sono seduto",
+    "alt": [
+     "sono seduta"
+    ],
+    "note": "Sedersi → mi sono seduto/a."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Mi ___ il cappotto. (mettersi)",
+    "answer": "sono messo",
+    "alt": [
+     "sono messa"
+    ],
+    "note": "Mettersi: participio irregular messo, con essere."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Mi ___ le scarpe in casa. (togliersi)",
+    "answer": "sono tolto",
+    "alt": [
+     "sono tolta",
+     "sono tolte"
+    ],
+    "note": "Togliersi: participio tolto; puede concordar con el sujeto o con el objeto (tolte)."
+   }
+  ]
+ },
+ "r20-04": {
+  "consigna": "Completá con el passato prossimo, según la traducción.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Conosco bene la Sardegna. Ci ___ molte volte. Mi è sempre ___. (Conozco bien Cerdeña. Estuve muchas veces. Siempre me gustó.)",
+    "answer": "sono stato | piaciuta",
+    "alt": [
+     "sono stata | piaciuta"
+    ],
+    "note": "El passato prossimo cubre experiencias hasta hoy; piacere concuerda con lo que gusta (la Sardegna)."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "L'anno scorso ___ in Sardegna. Mi ___ moltissimo. (El año pasado estuve en Cerdeña. Me gustó muchísimo.)",
+    "answer": "sono stato | è piaciuta",
+    "alt": [
+     "sono stata | è piaciuta"
+    ],
+    "note": "En italiano hablado, el passato prossimo sirve también para un pasado terminado."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Hai preso l'aereo o hai viaggiato in treno? – ___ la macchina, è più comodo. (Fui en auto, es más cómodo.)",
+    "answer": "Ho preso",
+    "alt": [],
+    "note": "Prendere: participio irregular preso, con avere."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Giulia, ___ la macchina. Te la riporto stasera. (Giulia, me llevé el auto. Te lo devuelvo esta noche.)",
+    "answer": "ho preso",
+    "alt": [],
+    "note": "Passato prossimo para una acción reciente con efecto en el presente."
+   }
+  ]
+ },
+ "r20-06": {
+  "consigna": "Completá la terminación del participio, haciendo la concordancia cuando haga falta.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Hanno scritt___ la lettera? L'hanno scritt___?",
+    "answer": "o | a",
+    "alt": [],
+    "note": "Con avere no se concuerda, salvo con un pronombre directo delante: l'hanno scritta."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Avete lett___ i giornali? Li avete lett___?",
+    "answer": "o | i",
+    "alt": [],
+    "note": "Li delante del verbo obliga a concordar: li avete letti."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Hai parlat___ con Franca? – No, non le ho parlat___.",
+    "answer": "o | o",
+    "alt": [],
+    "note": "Le es indirecto: no hay concordancia."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Angelo, ti sei mess___ la giacca? – No, non me la sono mess___, fa troppo caldo.",
+    "answer": "o | a",
+    "alt": [],
+    "note": "Con reflexivo el participio concuerda con el sujeto (messo); con la delante, con el objeto (me la sono messa)."
+   }
+  ]
+ },
+ "r20-07": {
+  "consigna": "¿Podés contar lo que dijeron? Pasá a estilo indirecto (verbo introductorio en pasado).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "‘Rimango qui fino a domani per vedervi tutti.’ → La nonna ha detto che ___.",
+    "answer": "rimaneva lì fino al giorno dopo per vederci tutti",
+    "alt": [
+     "sarebbe rimasta lì fino al giorno dopo per vederci tutti",
+     "rimaneva lì fino all'indomani per vederci tutti",
+     "sarebbe rimasta lì fino all'indomani per vederci tutti",
+     "rimaneva qui fino a domani per vederci tutti",
+     "sarebbe rimasta qui fino a domani per vederci tutti"
+    ],
+    "note": "Presente → imperfetto (o condizionale passato); qui → lì, domani → il giorno dopo; vi → ci."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "‘Se ce la faccio a finire il lavoro, passerò da te domani sera.’ → Giulio mi ha assicurato che ___.",
+    "answer": "se ce la faceva a finire il lavoro, sarebbe passato da me la sera dopo",
+    "alt": [
+     "se ce la faceva a finire il lavoro sarebbe passato da me la sera dopo",
+     "se ce l'avesse fatta a finire il lavoro, sarebbe passato da me la sera dopo",
+     "se ce l'avesse fatta a finire il lavoro sarebbe passato da me la sera dopo",
+     "se ce la faceva a finire il lavoro, sarebbe passato da me la sera seguente",
+     "se ce la faceva a finire il lavoro sarebbe passato da me la sera seguente",
+     "se ce la faceva a finire il lavoro, sarebbe passato da me domani sera",
+     "se ce la faceva a finire il lavoro sarebbe passato da me domani sera"
+    ],
+    "note": "Futuro → condizionale passato (sarebbe passato); da te → da me."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "‘Se tutto va bene ci vediamo qui alle sei.’ → Alfonso ha detto che ___.",
+    "answer": "se tutto andava bene ci vedevamo lì alle sei",
+    "alt": [
+     "se tutto andava bene ci saremmo visti lì alle sei",
+     "se tutto andava bene, ci vedevamo lì alle sei",
+     "se tutto andava bene, ci saremmo visti lì alle sei",
+     "se tutto andava bene ci vedevamo qui alle sei",
+     "se tutto andava bene ci saremmo visti qui alle sei"
+    ],
+    "note": "Presente → imperfetto; qui → lì."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "‘Dovrei chiamare mia madre domani mattina perché sta male.’ → Paola mi ha spiegato che ___.",
+    "answer": "avrebbe dovuto chiamare sua madre la mattina dopo perché stava male",
+    "alt": [
+     "avrebbe dovuto chiamare sua madre la mattina seguente perché stava male",
+     "doveva chiamare sua madre la mattina dopo perché stava male",
+     "avrebbe dovuto chiamare sua madre l'indomani mattina perché stava male",
+     "avrebbe dovuto chiamare sua madre la mattina dopo, perché stava male"
+    ],
+    "note": "Condizionale presente → condizionale passato; mia → sua; sta → stava."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "‘Mi dispiace non essere venuta ieri, ma la macchina era guasta e io avevo dimenticato di chiamare il meccanico.’ → Mia sorella mi ha detto che ___.",
+    "answer": "le dispiaceva non essere venuta il giorno prima, ma la macchina era guasta e lei aveva dimenticato di chiamare il meccanico",
+    "alt": [
+     "le dispiaceva non essere venuta il giorno prima ma la macchina era guasta e lei aveva dimenticato di chiamare il meccanico",
+     "le dispiaceva non essere venuta il giorno prima, ma la macchina era guasta e aveva dimenticato di chiamare il meccanico",
+     "le dispiaceva non essere venuta il giorno prima ma la macchina era guasta e aveva dimenticato di chiamare il meccanico",
+     "le dispiaceva di non essere venuta il giorno prima, ma la macchina era guasta e lei aveva dimenticato di chiamare il meccanico",
+     "le dispiaceva di non essere venuta il giorno prima ma la macchina era guasta e lei aveva dimenticato di chiamare il meccanico",
+     "le dispiaceva di non essere venuta il giorno prima, ma la macchina era guasta e aveva dimenticato di chiamare il meccanico",
+     "le dispiaceva di non essere venuta il giorno prima ma la macchina era guasta e aveva dimenticato di chiamare il meccanico"
+    ],
+    "note": "Mi dispiace → le dispiaceva; ieri → il giorno prima; imperfetto y trapassato no cambian."
+   }
+  ]
+ },
+ "r20-08": {
+  "consigna": "Pasá al passato prossimo, con el auxiliar y la concordancia correctos.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Quella chiave mi serve per aprire il portone. → Quella chiave mi ___ per aprire il portone.",
+    "answer": "è servita",
+    "alt": [],
+    "note": "Servire (en este sentido) usa essere y concuerda con el sujeto: la chiave."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Quei soldi non mi bastano per comprare la borsetta. → Quei soldi non mi ___ per comprare la borsetta.",
+    "answer": "sono bastati",
+    "alt": [],
+    "note": "Bastare usa essere: sono bastati (i soldi)."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "In quella casa mi succedono delle cose strane. → In quella casa mi ___ delle cose strane.",
+    "answer": "sono successe",
+    "alt": [],
+    "note": "Succedere usa essere y concuerda con cose: successe."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Mi piace quella coppia allegra. → Mi ___ quella coppia allegra.",
+    "answer": "è piaciuta",
+    "alt": [],
+    "note": "Piacere usa essere y concuerda con lo que gusta: la coppia."
+   }
+  ]
+ },
+ "r20-09": {
+  "consigna": "¿Esta oración admite el otro auxiliar? Elegí la otra versión correcta o indicá que no la hay.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "choice",
+    "stem": "Non sono potuto partire.",
+    "answer": "Non ho potuto partire.",
+    "alt": [],
+    "note": "Con un modal + verbo que usa essere (partire) se puede usar essere o avere.",
+    "options": [
+     "Non ho potuto partire.",
+     "(ninguna: solo admite este auxiliar)"
+    ]
+   },
+   {
+    "label": "b",
+    "type": "choice",
+    "stem": "Non ho voluto vederlo.",
+    "answer": "(ninguna: solo admite este auxiliar)",
+    "alt": [],
+    "note": "Vedere usa avere, así que el modal solo puede llevar avere.",
+    "options": [
+     "Non sono voluto vederlo.",
+     "(ninguna: solo admite este auxiliar)"
+    ]
+   },
+   {
+    "label": "c",
+    "type": "choice",
+    "stem": "Hai dovuto cambiare treno?",
+    "answer": "(ninguna: solo admite este auxiliar)",
+    "alt": [],
+    "note": "Cambiare treno usa avere, así que el modal solo lleva avere.",
+    "options": [
+     "Sei dovuto cambiare treno?",
+     "(ninguna: solo admite este auxiliar)"
+    ]
+   },
+   {
+    "label": "d",
+    "type": "choice",
+    "stem": "Sei dovuto tornare a casa?",
+    "answer": "Hai dovuto tornare a casa?",
+    "alt": [],
+    "note": "Tornare usa essere: el modal admite essere o avere.",
+    "options": [
+     "Hai dovuto tornare a casa?",
+     "(ninguna: solo admite este auxiliar)"
+    ]
+   }
+  ]
+ },
+ "r20-10": {
+  "consigna": "Reescribí la oración sin cambiar el significado (mové el pronombre y cambiá el auxiliar).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Ci siamo dovuti fermare. → ___ fermarci.",
+    "answer": "Abbiamo dovuto",
+    "alt": [],
+    "note": "Si el pronombre va pegado al infinitivo, el modal lleva avere."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Elena si è dovuta riposare. → Elena ___ riposarsi.",
+    "answer": "ha dovuto",
+    "alt": [],
+    "note": "Pronombre pegado al infinitivo → avere, sin concordancia."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Ho potuto sposarmi presto. → ___ sposare presto.",
+    "answer": "Mi sono potuto",
+    "alt": [
+     "Mi sono potuta"
+    ],
+    "note": "Si el pronombre va delante, el modal lleva essere y concuerda."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Marta non ha voluto fidanzarsi. → Marta non ___ fidanzare.",
+    "answer": "si è voluta",
+    "alt": [],
+    "note": "Pronombre delante → essere: si è voluta (concuerda con Marta)."
+   }
+  ]
+ },
+ "r20-01b": {
+  "consigna": "Las cosas ya no son como antes. Completá con el imperfetto.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Adesso la città è piena di macchine. Trent'anni fa… ___ (había muy pocos autos).",
+    "answer": "c'erano pochissime macchine",
+    "alt": [
+     "c'erano pochissime auto",
+     "c'erano molto poche macchine",
+     "c'erano poche macchine"
+    ],
+    "note": "Imperfetto para describir cómo eran las cosas."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Al giorno d'oggi la gente ha paura di uscire di notte. Vent'anni fa… ___ (nadie tenía miedo).",
+    "answer": "nessuno aveva paura",
+    "alt": [
+     "non aveva paura nessuno"
+    ],
+    "note": "Imperfetto de avere: aveva."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Al giorno d'oggi tutti i giovani bevono tanto. Anni fa… ___ (tomaban muy poco).",
+    "answer": "bevevano pochissimo",
+    "alt": [
+     "bevevano molto poco",
+     "bevevano poco"
+    ],
+    "note": "Imperfetto para hábitos del pasado: bevevano."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Adesso nessuno va più a Messa. Ai miei tempi… ___ (todos iban a misa).",
+    "answer": "tutti andavano a Messa",
+    "alt": [
+     "andavano tutti a Messa",
+     "tutti andavano a messa",
+     "andavano tutti a messa"
+    ],
+    "note": "Imperfetto para lo habitual: andavano."
+   }
+  ]
+ },
+ "r20-02b": {
+  "consigna": "Entraron a robar al lado. Respondé en italiano con el imperfetto.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Non ha sentito niente quando hanno rotto il vetro della finestra? – No, estaba escuchando la radio.",
+    "answer": "No, stavo ascoltando la radio.",
+    "alt": [
+     "No stavo ascoltando la radio.",
+     "No, ascoltavo la radio.",
+     "No ascoltavo la radio.",
+     "No, stavo sentendo la radio.",
+     "No stavo sentendo la radio.",
+     "No, sentivo la radio.",
+     "No sentivo la radio."
+    ],
+    "note": "Imperfetto (o stavo + gerundio) para la acción en curso interrumpida."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Sono passati per il giardino? – No sé, estaba preparando la cena en la cocina.",
+    "answer": "Non lo so, stavo preparando la cena in cucina.",
+    "alt": [
+     "Non lo so stavo preparando la cena in cucina.",
+     "Non so, stavo preparando la cena in cucina.",
+     "Non so stavo preparando la cena in cucina.",
+     "Non lo so, preparavo la cena in cucina.",
+     "Non lo so preparavo la cena in cucina.",
+     "Non so, preparavo la cena in cucina.",
+     "Non so preparavo la cena in cucina."
+    ],
+    "note": "Stavo + gerundio para una acción en desarrollo."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Non ha visto nessuno fuori? – Era buio, ma sì, ___ qualcuno. ___ una giacca a vento e un berretto di lana. L'ho visto mentre ___ su un furgoncino bianco. (había; llevaba puesta; subía)",
+    "answer": "c'era | Portava | saliva",
+    "alt": [
+     "c'era | Indossava | saliva",
+     "c'era | Portava | stava salendo",
+     "c'era | Indossava | stava salendo",
+     "c'era | Aveva | saliva"
+    ],
+    "note": "Imperfetto para describir y para la acción en curso (mentre saliva); passato prossimo para el hecho puntual (l'ho visto)."
+   }
+  ]
+ },
+ "r20-05": {
+  "consigna": "Traducí al italiano con el tiempo correcto (imperfetto + da o trapassato).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "No la veía desde diciembre.",
+    "answer": "Non la vedevo da dicembre.",
+    "alt": [
+     "Non la vedeva da dicembre."
+    ],
+    "note": "Imperfetto + da: acción que seguía en ese momento del pasado."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "La conocía desde que tenía tres años.",
+    "answer": "La conoscevo da quando avevo tre anni.",
+    "alt": [
+     "La conosceva da quando aveva tre anni.",
+     "La conoscevo da quando aveva tre anni."
+    ],
+    "note": "Imperfetto + da quando."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Hacía una hora que esperaba.",
+    "answer": "Aspettava da un'ora.",
+    "alt": [
+     "Era da un'ora che aspettava.",
+     "Aspettavo da un'ora.",
+     "Era da un'ora che aspettavo."
+    ],
+    "note": "Imperfetto + da + duración."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Desde 1980 había tenido tres maridos.",
+    "answer": "Dal 1980 aveva avuto tre mariti.",
+    "alt": [
+     "Dal 1980 aveva già avuto tre mariti.",
+     "Dal 1980 avevo avuto tre mariti.",
+     "Dal 1980 avevo già avuto tre mariti."
+    ],
+    "note": "Hechos contados: trapassato prossimo (aveva avuto)."
+   }
+  ]
+ },
+ "r20-07b": {
+  "consigna": "No estabas preparado para lo que iba a pasar. Completá en italiano.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Non sapevo che… ___ (venían tan pronto).",
+    "answer": "venivano così presto",
+    "alt": [
+     "sarebbero venuti così presto",
+     "venivano tanto presto",
+     "sarebbero venuti tanto presto",
+     "sarebbero arrivati così presto",
+     "arrivavano così presto"
+    ],
+    "note": "Lo que iba a pasar, contado desde el pasado (non sapevo): imperfetto, como nuestro «venían»."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Mio figlio non mi aveva detto che… ___ (dormía afuera).",
+    "answer": "dormiva fuori",
+    "alt": [
+     "avrebbe dormito fuori"
+    ],
+    "note": "Imperfetto con valor de futuro en el pasado."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Mio marito non mi aveva avvertito che… ___ (traía veinte invitados a cenar).",
+    "answer": "portava venti invitati a cena",
+    "alt": [
+     "avrebbe portato venti invitati a cena"
+    ],
+    "note": "Imperfetto con valor de futuro en el pasado."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Nessuno mi aveva detto che… ___ (estaban por vender la casa).",
+    "answer": "stavano per vendere la casa",
+    "alt": [],
+    "note": "*stare per* + infinitivo = «estar por», acá en imperfetto: *stavano per vendere*."
+   }
+  ]
+ },
+ "r20-08b": {
+  "consigna": "¿Cómo protestarías? Completá con la forma correcta del verbo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Loro me lo ___ dire, almeno! (potere – podrían habérmelo dicho)",
+    "answer": "avrebbero potuto",
+    "alt": [
+     "potevano"
+    ],
+    "note": "«Podrían haber» = condizionale passato de *potere* + infinitivo simple: *avrebbero potuto dire*."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Mio figlio me lo ___ dire, almeno! (dovere – debería habérmelo dicho)",
+    "answer": "avrebbe dovuto",
+    "alt": [
+     "doveva"
+    ],
+    "note": "«Debería haber dicho» se arma con el condizionale passato del modal + infinitivo simple: *avrebbe dovuto dire*, no «dovuto aver detto»."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Qualcuno mi ___ avvertire almeno! (potere – podría haberme avisado)",
+    "answer": "avrebbe potuto",
+    "alt": [
+     "poteva"
+    ],
+    "note": "Condizionale passato: avrebbe potuto."
+   }
+  ]
+ },
+ "r20-09b": {
+  "consigna": "Si hubieras sabido, lo habrías ayudado. Completá con la forma correcta de los verbos.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Ho dovuto prendere un tassì. – Ma se lo ___ ti ___ a prendere. (sapere; venire)",
+    "answer": "avessi saputo | sarei venuto",
+    "alt": [
+     "avessi saputo | sarei venuta",
+     "sapevo | venivo"
+    ],
+    "note": "Hipótesis irreal en el pasado: se + congiuntivo trapassato, condizionale passato."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Ho perso la mia carta di credito. – Ma se me lo ___ ti ___ dei soldi. (dire; prestare)",
+    "answer": "avessi detto | avrei prestato",
+    "alt": [
+     "dicevi | prestavo"
+    ],
+    "note": "Se + congiuntivo trapassato + condizionale passato."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Giovanni non ha capito quello che bisogna fare. – Ma bastava chiamarmi e glielo ___ subito! (spiegare)",
+    "answer": "avrei spiegato",
+    "alt": [
+     "spiegavo"
+    ],
+    "note": "Condizionale passato para lo que habría pasado."
+   }
+  ]
+ },
+ "r20-01c": {
+  "consigna": "Traducí al italiano eligiendo bien los tiempos (passato prossimo o imperfetto).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "El martes, mientras Anna escuchaba la radio, Pietro preparó la cena.",
+    "answer": "Martedì, mentre Anna ascoltava la radio, Pietro ha preparato la cena.",
+    "alt": [
+     "Martedì mentre Anna ascoltava la radio Pietro ha preparato la cena.",
+     "Martedì, mentre Anna ascoltava la radio, Pietro ha fatto la cena.",
+     "Martedì mentre Anna ascoltava la radio Pietro ha fatto la cena."
+    ],
+    "note": "Mentre + imperfetto para la acción de fondo."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "El miércoles Anna limpió la casa mientras Pietro preparaba una clase. (una lezione)",
+    "answer": "Mercoledì Anna ha pulito la casa mentre Pietro preparava una lezione.",
+    "alt": [
+     "Mercoledì, Anna ha pulito la casa mentre Pietro preparava una lezione."
+    ],
+    "note": "Acción completa: passato prossimo; acción de fondo: imperfetto."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Ayer fuimos a una fiesta. Fue una noche maravillosa.",
+    "answer": "Ieri siamo andati a una festa. È stata una serata meravigliosa.",
+    "alt": [
+     "Ieri siamo andati ad una festa. È stata una serata meravigliosa.",
+     "Ieri siamo andate a una festa. È stata una serata meravigliosa.",
+     "Ieri siamo andati a una festa, è stata una serata meravigliosa.",
+     "Ieri siamo andati a una festa è stata una serata meravigliosa.",
+     "Ieri siamo andati a una festa. È stata una notte meravigliosa."
+    ],
+    "note": "Valoración de un hecho terminado: passato prossimo (è stata)."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Ayer salimos a caminar porque era una noche hermosa.",
+    "answer": "Ieri siamo andati a fare una passeggiata perché era una bella serata.",
+    "alt": [
+     "Ieri abbiamo fatto una passeggiata perché era una bella serata.",
+     "Ieri siamo usciti a fare una passeggiata perché era una bella serata.",
+     "Ieri siamo andate a fare una passeggiata perché era una bella serata.",
+     "Ieri siamo andati a fare una passeggiata perché era una serata bellissima.",
+     "Ieri siamo andati a fare una passeggiata perché era una bella notte.",
+     "Ieri siamo usciti a camminare perché era una bella serata.",
+     "Ieri siamo andati a camminare perché era una bella serata."
+    ],
+    "note": "Descripción de las circunstancias: imperfetto (era)."
+   },
+   {
+    "label": "e",
+    "type": "translate",
+    "stem": "El año pasado fui a Córcega. Me gustó mucho.",
+    "answer": "L'anno scorso sono andato in Corsica. Mi è piaciuta molto.",
+    "alt": [
+     "L'anno scorso sono andata in Corsica. Mi è piaciuta molto.",
+     "L'anno scorso sono andato in Corsica. Mi è piaciuta moltissimo.",
+     "L'anno scorso sono andata in Corsica. Mi è piaciuta moltissimo.",
+     "L'anno scorso sono andato in Corsica, mi è piaciuta molto.",
+     "L'anno scorso sono andato in Corsica mi è piaciuta molto.",
+     "L'anno scorso sono andata in Corsica, mi è piaciuta molto.",
+     "L'anno scorso sono andata in Corsica mi è piaciuta molto.",
+     "L'anno scorso sono andato in Corsica. Mi è piaciuto molto.",
+     "L'anno scorso sono andata in Corsica. Mi è piaciuto molto.",
+     "L'anno scorso sono andato in Corsica. Mi è piaciuto moltissimo.",
+     "L'anno scorso sono andata in Corsica. Mi è piaciuto moltissimo.",
+     "L'anno scorso sono andato in Corsica, mi è piaciuto molto.",
+     "L'anno scorso sono andato in Corsica mi è piaciuto molto.",
+     "L'anno scorso sono andata in Corsica, mi è piaciuto molto.",
+     "L'anno scorso sono andata in Corsica mi è piaciuto molto."
+    ],
+    "note": "Juicio sobre una experiencia terminada: passato prossimo."
+   },
+   {
+    "label": "f",
+    "type": "translate",
+    "stem": "Cuando vivía en Londres me gustaba visitar los museos.",
+    "answer": "Quando abitavo a Londra mi piaceva visitare i musei.",
+    "alt": [
+     "Quando vivevo a Londra mi piaceva visitare i musei.",
+     "Quando abitavo a Londra, mi piaceva visitare i musei.",
+     "Quando vivevo a Londra, mi piaceva visitare i musei."
+    ],
+    "note": "Situación y gusto habitual en el pasado: imperfetto."
+   }
+  ]
+ },
+ "r20-02c": {
+  "consigna": "Completá con la forma correcta del verbo (imperfetto o passato prossimo de los modales, sapere).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "___ partire alle tre ma il treno è in ritardo. (Tenía que)",
+    "answer": "Dovevo",
+    "alt": [],
+    "note": "Imperfetto de dovere: algo previsto que quizá no ocurra."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "___ partire subito, mia figlia si è sentita male. (Tuve que)",
+    "answer": "Ho dovuto",
+    "alt": [
+     "Sono dovuto",
+     "Sono dovuta"
+    ],
+    "note": "Passato prossimo de dovere: la obligación se cumplió."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Purtroppo ___ il professore perché era malato. (no pude ver)",
+    "answer": "non ho potuto vedere",
+    "alt": [],
+    "note": "Passato prossimo de potere: un intento concreto fallido."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Mi hanno detto che ___ il medico prima di lunedì. (no podía ver)",
+    "answer": "non potevo vedere",
+    "alt": [],
+    "note": "Imperfetto de potere: situación general, no un hecho concreto."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "___ dalla segretaria che il mio capo era in vacanza. (Me enteré)",
+    "answer": "Ho saputo",
+    "alt": [],
+    "note": "*sapere* en passato prossimo significa «enterarse»: *ho saputo*."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "___ che il mio capo era in vacanza. (Sabía)",
+    "answer": "Sapevo",
+    "alt": [],
+    "note": "*sapere* en imperfetto = «saber, estar al tanto»: *sapevo*."
+   }
+  ]
+ },
+ "r20-01d": {
+  "consigna": "Completá con el trapassato prossimo en todos los casos menos uno. ¿Cuál es la excepción?",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Ieri Patrizio mi ha portato i libri che io gli ___ l'altro giorno. (chiedere)",
+    "answer": "avevo chiesto",
+    "alt": [],
+    "note": "Trapassato: acción anterior a otra pasada."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Mio fratello ___ in medicina ma non ha mai voluto fare il medico. (laurearsi)",
+    "answer": "si era laureato",
+    "alt": [],
+    "note": "Reflexivo → essere: si era laureato."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Quando Marcello ___ era meglio non ascoltarlo. (bere)",
+    "answer": "aveva bevuto",
+    "alt": [],
+    "note": "Trapassato: cuando había tomado (antes de lo habitual en el pasado)."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Il funzionario voleva sapere dove ___ io e mio fratello. (nascere)",
+    "answer": "eravamo nati",
+    "alt": [],
+    "note": "Nascere usa essere: eravamo nati."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Non mi ha dato il numero che ___. (chiedere – io)",
+    "answer": "avevo chiesto",
+    "alt": [],
+    "note": "Acción anterior: avevo chiesto."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Quando ___, ho visto Enzo che saliva le scale. (uscire – io)",
+    "answer": "sono uscito",
+    "alt": [
+     "sono uscita"
+    ],
+    "note": "Es la excepción: las dos acciones son sucesivas en el mismo plano, passato prossimo."
+   },
+   {
+    "label": "g",
+    "type": "cloze",
+    "stem": "Mi ha spiegato che quando ___ aveva visto Enzo che saliva le scale. (uscire – lui)",
+    "answer": "era uscito",
+    "alt": [],
+    "note": "Salió antes de ver a Enzo, y todo antes de que te lo explicara (mi ha spiegato): trapassato, *era uscito*."
+   }
+  ]
+ },
+ "r20-03b": {
+  "consigna": "Traducí al italiano evitando el trapassato donde sea posible (participio o infinitivo compuesto).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "translate",
+    "stem": "Apenas salí de casa me sentí mal. (sentirsi male)",
+    "answer": "Appena uscito di casa mi sono sentito male.",
+    "alt": [
+     "Appena uscita di casa mi sono sentita male.",
+     "Appena uscito di casa, mi sono sentito male.",
+     "Appena uscita di casa, mi sono sentita male.",
+     "Appena sono uscito di casa mi sono sentito male.",
+     "Appena sono uscita di casa mi sono sentita male.",
+     "Uscito di casa, mi sono sentito male.",
+     "Uscito di casa mi sono sentito male."
+    ],
+    "note": "Appena + participio pasado evita el trapassato."
+   },
+   {
+    "label": "b",
+    "type": "translate",
+    "stem": "Después de terminar los exámenes me conseguí un trabajo.",
+    "answer": "Dopo aver finito gli esami mi sono trovato un lavoro.",
+    "alt": [
+     "Dopo aver finito gli esami mi sono trovata un lavoro.",
+     "Dopo aver finito gli esami, mi sono trovato un lavoro.",
+     "Dopo aver finito gli esami, mi sono trovata un lavoro.",
+     "Finiti gli esami, mi sono trovato un lavoro.",
+     "Finiti gli esami mi sono trovato un lavoro.",
+     "Finiti gli esami, mi sono trovata un lavoro.",
+     "Finiti gli esami mi sono trovata un lavoro.",
+     "Dopo avere finito gli esami mi sono trovato un lavoro.",
+     "Dopo aver finito gli esami ho trovato un lavoro.",
+     "Dopo aver finito gli esami, ho trovato un lavoro.",
+     "Finiti gli esami, ho trovato un lavoro.",
+     "Finiti gli esami ho trovato un lavoro."
+    ],
+    "note": "Dopo + infinitivo compuesto (aver finito) o participio absoluto (finiti gli esami)."
+   },
+   {
+    "label": "c",
+    "type": "translate",
+    "stem": "Ya me había ido cuando llegaron.",
+    "answer": "Ero già partito quando sono arrivati.",
+    "alt": [
+     "Ero già partita quando sono arrivati.",
+     "Ero già uscito quando sono arrivati.",
+     "Ero già uscita quando sono arrivati.",
+     "Quando sono arrivati ero già partito.",
+     "Quando sono arrivati ero già partita.",
+     "Ero già andato via quando sono arrivati.",
+     "Me n'ero già andato quando sono arrivati.",
+     "Me n'ero già andata quando sono arrivati."
+    ],
+    "note": "Acá el trapassato es inevitable: anterioridad respecto de otro pasado."
+   },
+   {
+    "label": "d",
+    "type": "translate",
+    "stem": "Una vez que mi mujer salió del hospital, pude volver al trabajo. (uscire da)",
+    "answer": "Uscita mia moglie dall'ospedale, sono potuto tornare al lavoro.",
+    "alt": [
+     "Uscita mia moglie dall'ospedale sono potuto tornare al lavoro.",
+     "Uscita mia moglie dall'ospedale, ho potuto tornare al lavoro.",
+     "Uscita mia moglie dall'ospedale ho potuto tornare al lavoro.",
+     "Una volta uscita mia moglie dall'ospedale, sono potuto tornare al lavoro.",
+     "Una volta uscita mia moglie dall'ospedale sono potuto tornare al lavoro.",
+     "Una volta uscita mia moglie dall'ospedale, ho potuto tornare al lavoro.",
+     "Una volta uscita mia moglie dall'ospedale ho potuto tornare al lavoro.",
+     "Una volta che mia moglie è uscita dall'ospedale, sono potuto tornare al lavoro.",
+     "Una volta che mia moglie è uscita dall'ospedale sono potuto tornare al lavoro.",
+     "Una volta che mia moglie è uscita dall'ospedale, ho potuto tornare al lavoro.",
+     "Una volta che mia moglie è uscita dall'ospedale ho potuto tornare al lavoro."
+    ],
+    "note": "Participio absoluto (uscita mia moglie) en lugar del trapassato."
+   }
+  ]
+ },
+ "r20-01e": {
+  "consigna": "Completá con el passato remoto del verbo.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Dopo il loro matrimonio ___ una casa al mare. (comprare)",
+    "answer": "comprarono",
+    "alt": [],
+    "note": "Passato remoto de -are, loro: -arono."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Dopo l'omicidio del figlio, la famiglia ___ una lettera anonima. (ricevere)",
+    "answer": "ricevette",
+    "alt": [
+     "ricevé"
+    ],
+    "note": "Passato remoto de -ere, lui/lei: -ette o -é."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Finiti gli esami, Agnese ___ per ventiquattr'ore. (dormire)",
+    "answer": "dormì",
+    "alt": [],
+    "note": "Passato remoto de -ire, lui/lei: -ì."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "___ vicino alla finestra. (sedersi – loro)",
+    "answer": "Si sedettero",
+    "alt": [
+     "Si sederono"
+    ],
+    "note": "Sedersi: si sedettero (o si sederono)."
+   }
+  ]
+ },
+ "r20-01f": {
+  "consigna": "Completá con la forma correcta del verbo: passato prossimo, passato remoto o trapassato remoto.",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Quando ___ di parlare, scoppiò a ridere. (finire)",
+    "answer": "ebbe finito",
+    "alt": [],
+    "note": "Trapassato remoto: quando + acción anterior a un passato remoto."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Quando ___ di parlare, è scoppiato a ridere. (finire)",
+    "answer": "ha finito",
+    "alt": [
+     "aveva finito"
+    ],
+    "note": "Con passato prossimo en la principal no se usa el trapassato remoto."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Quando ___ squillare il campanello, Luciano si nascose subito. (sentire)",
+    "answer": "sentì",
+    "alt": [],
+    "note": "Acciones inmediatas y sucesivas: passato remoto en las dos."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Quando ___ squillare il campanello, Luciano si è nascosto subito. (sentire)",
+    "answer": "ha sentito",
+    "alt": [],
+    "note": "Passato prossimo en las dos oraciones."
+   }
+  ]
+ },
+ "r20-01g": {
+  "consigna": "¿Qué te dijeron que iba a pasar? Escribí las palabras exactas (estilo directo).",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "Mi ha detto che la sera quando aveva finito i compiti sarebbe andato al cinema. → ‘___’",
+    "answer": "Stasera, quando avrò finito i compiti, andrò al cinema.",
+    "alt": [
+     "Stasera quando avrò finito i compiti andrò al cinema.",
+     "Stasera, quando ho finito i compiti, vado al cinema.",
+     "Stasera quando ho finito i compiti vado al cinema.",
+     "Stasera, quando avrò finito i compiti, vado al cinema.",
+     "Stasera quando avrò finito i compiti vado al cinema."
+    ],
+    "note": "Condizionale passato → futuro; trapassato → futuro anteriore; la sera → stasera."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "Mi ha fatto sapere che il giorno dopo se aveva tempo sarebbe passato da Mara. → ‘___’",
+    "answer": "Domani, se ho tempo, passerò da Mara.",
+    "alt": [
+     "Domani se ho tempo passerò da Mara.",
+     "Domani, se avrò tempo, passerò da Mara.",
+     "Domani se avrò tempo passerò da Mara.",
+     "Domani, se ho tempo, passo da Mara.",
+     "Domani se ho tempo passo da Mara."
+    ],
+    "note": "Il giorno dopo → domani; imperfetto → presente; condizionale passato → futuro."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "Mi avevano detto che se Marco non era ancora malato, dovevano vederlo sabato. → ‘___’",
+    "answer": "Se Marco non è ancora malato, dobbiamo vederlo sabato.",
+    "alt": [
+     "Se Marco non è ancora malato dobbiamo vederlo sabato.",
+     "Se Marco non è ancora malato, lo dobbiamo vedere sabato.",
+     "Se Marco non è ancora malato lo dobbiamo vedere sabato.",
+     "Se Marco non è ancora malato, dovremo vederlo sabato.",
+     "Se Marco non è ancora malato dovremo vederlo sabato.",
+     "Se Marco non è ancora malato, dovremmo vederlo sabato.",
+     "Se Marco non è ancora malato dovremmo vederlo sabato."
+    ],
+    "note": "Imperfetto → presente."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "Dichiarò che ogni volta che lo avesse visto fumare lo avrebbe sgridato. → ‘___’",
+    "answer": "Ogni volta che ti vedrò fumare ti sgriderò.",
+    "alt": [
+     "Ogni volta che ti vedrò fumare, ti sgriderò.",
+     "Ogni volta che lo vedrò fumare lo sgriderò.",
+     "Ogni volta che lo vedrò fumare, lo sgriderò.",
+     "Ogni volta che ti vedo fumare ti sgrido."
+    ],
+    "note": "Congiuntivo trapassato → futuro; condizionale passato → futuro."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "Mi ha fatto sapere che si doveva sposare una volta che si fosse laureata. → ‘___’",
+    "answer": "Mi devo sposare una volta che mi sarò laureata.",
+    "alt": [
+     "Devo sposarmi una volta che mi sarò laureata.",
+     "Mi dovrò sposare una volta che mi sarò laureata.",
+     "Dovrò sposarmi una volta che mi sarò laureata.",
+     "Mi devo sposare una volta che mi sono laureata.",
+     "Devo sposarmi una volta che mi sono laureata."
+    ],
+    "note": "Congiuntivo trapassato → futuro anteriore (mi sarò laureata)."
+   },
+   {
+    "label": "f",
+    "type": "cloze",
+    "stem": "Mi ha detto che se riusciva a convincere la moglie, gli sarebbe piaciuto tornare l'anno dopo. → ‘___’",
+    "answer": "Se riesco a convincere mia moglie, mi piacerebbe tornare l'anno prossimo.",
+    "alt": [
+     "Se riesco a convincere mia moglie mi piacerebbe tornare l'anno prossimo.",
+     "Se riuscirò a convincere mia moglie, mi piacerebbe tornare l'anno prossimo.",
+     "Se riuscirò a convincere mia moglie mi piacerebbe tornare l'anno prossimo.",
+     "Se riesco a convincere mia moglie, mi piacerebbe tornare l'anno che viene.",
+     "Se riesco a convincere mia moglie mi piacerebbe tornare l'anno che viene."
+    ],
+    "note": "Condizionale passato → condizionale presente; l'anno dopo → l'anno prossimo."
+   }
+  ]
+ },
+ "r20-02d": {
+  "consigna": "Contá lo que te dijeron, empezando con Disse che…",
+  "interactive": true,
+  "items": [
+   {
+    "label": "a",
+    "type": "cloze",
+    "stem": "‘Se sei stanco devi riposarti, altrimenti non potrai uscire stasera.’ → Disse che ___.",
+    "answer": "se ero stanco dovevo riposarmi, altrimenti non avrei potuto uscire quella sera",
+    "alt": [
+     "se ero stanco dovevo riposarmi altrimenti non avrei potuto uscire quella sera",
+     "se ero stanca dovevo riposarmi, altrimenti non avrei potuto uscire quella sera",
+     "se ero stanca dovevo riposarmi altrimenti non avrei potuto uscire quella sera",
+     "se ero stanco, dovevo riposarmi, altrimenti non avrei potuto uscire quella sera"
+    ],
+    "note": "Presente → imperfetto; futuro → condizionale passato; stasera → quella sera."
+   },
+   {
+    "label": "b",
+    "type": "cloze",
+    "stem": "‘Ogni volta che mi sento giù, chiamo mia sorella oppure vado a fare una passeggiata nel parco qui vicino.’ → Disse che ___.",
+    "answer": "ogni volta che si sentiva giù, chiamava sua sorella oppure andava a fare una passeggiata nel parco lì vicino",
+    "alt": [
+     "ogni volta che si sentiva giù chiamava sua sorella oppure andava a fare una passeggiata nel parco lì vicino",
+     "ogni volta che si sentiva giù, chiamava sua sorella o andava a fare una passeggiata nel parco lì vicino",
+     "ogni volta che si sentiva giù chiamava sua sorella o andava a fare una passeggiata nel parco lì vicino"
+    ],
+    "note": "Presente → imperfetto; mia → sua; qui → lì."
+   },
+   {
+    "label": "c",
+    "type": "cloze",
+    "stem": "‘Non ho fatto niente dopo la laurea, ma quando ho incontrato mia moglie mi sono messo a lavorare.’ → Disse che ___.",
+    "answer": "non aveva fatto niente dopo la laurea, ma quando aveva incontrato sua moglie si era messo a lavorare",
+    "alt": [
+     "non aveva fatto niente dopo la laurea ma quando aveva incontrato sua moglie si era messo a lavorare",
+     "non aveva fatto nulla dopo la laurea, ma quando aveva incontrato sua moglie si era messo a lavorare",
+     "non aveva fatto nulla dopo la laurea ma quando aveva incontrato sua moglie si era messo a lavorare"
+    ],
+    "note": "Passato prossimo → trapassato prossimo."
+   },
+   {
+    "label": "d",
+    "type": "cloze",
+    "stem": "‘Quando ho perso il lavoro ero disperato e non sapevo cosa fare.’ → Disse che ___.",
+    "answer": "quando aveva perso il lavoro era disperato e non sapeva cosa fare",
+    "alt": [
+     "quando aveva perso il lavoro, era disperato e non sapeva cosa fare",
+     "quando aveva perso il lavoro era disperato e non sapeva che cosa fare"
+    ],
+    "note": "Passato prossimo → trapassato; el imperfetto no cambia."
+   },
+   {
+    "label": "e",
+    "type": "cloze",
+    "stem": "‘Non appena ho capito che non avrei trovato un lavoro in Italia, sono partito per l'Inghilterra.’ → Disse che ___.",
+    "answer": "non appena aveva capito che non avrebbe trovato un lavoro in Italia, era partito per l'Inghilterra",
+    "alt": [
+     "non appena aveva capito che non avrebbe trovato un lavoro in Italia era partito per l'Inghilterra",
+     "appena aveva capito che non avrebbe trovato un lavoro in Italia, era partito per l'Inghilterra",
+     "appena aveva capito che non avrebbe trovato un lavoro in Italia era partito per l'Inghilterra"
+    ],
+    "note": "Passato prossimo → trapassato; el condizionale passato queda igual."
+   }
+  ]
+ }
+}

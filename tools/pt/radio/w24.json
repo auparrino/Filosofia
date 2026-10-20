@@ -1,0 +1,52 @@
+{
+ "week": 24,
+ "level": "B1",
+ "title": "Roteiro para o feriadão",
+ "genre": "quadro de viagens",
+ "es": "Se acerca un fin de semana largo. Caio quiere hacer un viaje de mochilero con poca plata y Nanda lo ayuda a armar el itinerario, con condiciones, finalidades y algún «aunque».",
+ "speakers": ["Nanda", "Caio"],
+ "turns": [
+  ["A", "Bom dia! Semana que vem tem feriadão, e o Caio veio aqui para montar o roteiro dele. Caio, qual é o plano?"],
+  ["B", "Quero fazer um mochilão pela Serra da Mantiqueira, mas com um orçamento pequeno. Tenho só quinhentos reais para quatro dias."],
+  ["A", "Dá para fazer, contanto que você durma em albergue. Compre a passagem de ônibus hoje, antes que fique cara. No feriadão a rodoviária fica lotada."],
+  ["B", "Já comprei! E a hospedagem? Não conheço ninguém lá."],
+  ["A", "Eu tenho uma amiga que trabalha num albergue em Visconde de Mauá. Vou te passar o número dela para que você reserve uma cama. Caso não tenha vaga, ela conhece outros lugares baratos."],
+  ["B", "Valeu! E o que eu não posso perder?"],
+  ["A", "Tem uma trilha até um mirante lindo. Saia cedo, para que chegue lá em cima antes do pôr do sol. E leve lanterna, a não ser que você queira descer no escuro."],
+  ["B", "Tá bom. Embora eu não seja muito atlético, eu adoro trilha."],
+  ["A", "E a estrada até lá? É de terra em alguns trechos. Espere até que o tempo esteja seco para subir de carona."],
+  ["B", "E se chove o feriadão inteiro? Aí eu adio a viagem?"],
+  ["A", "Não adie! Mesmo que chova, dá para aproveitar: tem cachoeiras, queijos, café. Só não leve canga de praia, porque lá faz frio."],
+  ["B", "Ha! A canga já está na mochila. Vou tirar, antes que eu me esqueça."],
+  ["A", "E, se o dinheiro acaba, tem sempre o bate-volta: você vai e volta no mesmo dia. Mas acho que não vai ser preciso."],
+  ["B", "Obrigado, Nanda! Na volta, eu conto tudo aqui na rádio."],
+  ["A", "Combinado, a gente espera. Boa viagem, Caio! E vocês, ouvintes: para onde vocês vão no feriadão?"]
+ ],
+ "gloss": {
+  "montar": "armar",
+  "Serra da Mantiqueira": "cordillera entre Río, São Paulo y Minas",
+  "albergue": "albergue, hostel",
+  "vaga": "lugar libre",
+  "Valeu": "¡gracias!",
+  "lanterna": "linterna",
+  "escuro": "oscuro",
+  "atlético": "atlético",
+  "de terra": "de tierra",
+  "trechos": "tramos",
+  "seco": "seco",
+  "queijos": "quesos",
+  "ouvintes": "oyentes"
+ },
+ "questions": [
+  ["Onde o Caio vai dormir, segundo a Nanda?", ["Num hotel caro", "Num albergue barato", "Na casa de um amigo", "Na rodoviária"], "Num albergue barato"],
+  ["Por que o Caio precisa sair cedo para a trilha?", ["Para que chegue ao mirante antes do pôr do sol", "Porque a trilha fecha ao meio-dia", "Porque faz calor à tarde", "Para que pegue o ônibus de volta"], "Para que chegue ao mirante antes do pôr do sol"],
+  ["O que a Nanda diz sobre a chuva?", ["Que o Caio deve adiar a viagem para outro feriadão", "Que mesmo com chuva dá para aproveitar", "Que nunca chove no feriadão", "Que a trilha fica fechada"], "Que mesmo com chuva dá para aproveitar"]
+ ],
+ "info": [
+  ["O Caio tem quinhentos reais para quatro dias.", true],
+  ["A amiga da Nanda trabalha num albergue.", true],
+  ["O Caio vai levar a canga de praia na viagem.", false]
+ ],
+ "grammatica": {"label": "el subjuntivo después de conjunciones: para que, antes que, contanto que, caso, embora, a não ser que, até que, mesmo que", "forme": ["contanto que você durma", "antes que fique cara", "para que você reserve", "caso não tenha vaga", "para que chegue", "a não ser que você queira", "embora eu não seja", "até que o tempo esteja seco", "mesmo que chova", "antes que eu me esqueça"]},
+ "parole": [["feriadão", "feriadão"], ["roteiro", "roteiro"], ["mochilão", "o mochilão"], ["orçamento", "orçamento"], ["passagem", "passagem"], ["lotada", "lotado"], ["hospedagem", "a hospedagem"], ["mirante", "mirante"], ["pôr do sol", "pôr do sol"], ["estrada", "estrada"], ["adio", "adiar"], ["aproveitar", "aproveitar"], ["canga", "canga"], ["bate-volta", "bate-volta"]]
+}

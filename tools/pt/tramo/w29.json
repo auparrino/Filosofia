@@ -1,0 +1,213 @@
+{
+  "week": 29,
+  "level": "B2",
+  "lettura": {
+    "title": "Estágio não é emprego (mas também não é favor)",
+    "emoji": "🎓",
+    "genre": "guia informativo",
+    "grammar": "infinitivo pessoal",
+    "text": "Todo semestre, milhares de universitários começam o primeiro estágio com a mesma mistura de entusiasmo e insegurança. Querem aprender, querem causar boa impressão e, muitas vezes, aceitam qualquer condição por medo de perderem a vaga. Preparamos este guia para vocês conhecerem seus direitos antes de assinarem qualquer papel.\n\nO que é, afinal, um estágio? Pela lei, o estágio é um ato educativo. Isso significa que a prioridade não é a produção da empresa, mas o aprendizado do estudante. Por isso, a instituição de ensino, a empresa e o estagiário assinam um termo de compromisso que descreve as atividades previstas. É fundamental vocês guardarem uma cópia desse documento: é ele que vai servir de prova se algo der errado.\n\nHorário e descanso. Para quem está no ensino superior, a jornada não pode passar de seis horas por dia. É comum, porém, os estagiários ficarem até mais tarde “só hoje”, e depois todos os dias, sem ninguém se dar conta. Hora extra não faz parte do estágio. Além disso, depois de um ano no mesmo lugar, vocês têm direito a um recesso de trinta dias, de preferência coincidindo com as férias escolares, justamente para poderem descansar da rotina dupla.\n\nBolsa e transporte. No estágio não obrigatório, aquele que o estudante faz por escolha própria, a empresa deve pagar uma bolsa e um auxílio-transporte. Desconfiem de propostas que oferecem apenas “experiência” como recompensa: experiência não paga aluguel nem passagem de ônibus.\n\nQuando algo não vai bem. Muitos colegas contam que passam o dia tirando cópias ou atendendo o telefone, tarefas que nada têm a ver com o curso. Antes de pedirem demissão, conversem com o supervisor da empresa e com o professor orientador. Eles existem justamente para os estágios cumprirem sua função. Se a situação não mudar, procurem a coordenação do curso: vocês têm o direito de serem ouvidos sem sofrerem represálias.\n\nPor fim, um lembrete: conhecer os direitos não é ser encrenqueiro. As boas empresas são as primeiras a quererem estagiários bem informados, porque sabem que um estágio bem feito é o começo de uma carreira sólida. Ao terminarem a leitura, compartilhem este guia com os colegas. Quanto mais estudantes souberem disso, mais difícil vai ser alguém abusar.\n\nColetivo Estágio Justo, centro acadêmico da Faculdade de Administração",
+    "gloss": {
+      "estágio": "pasantía",
+      "vaga": "puesto, lugar",
+      "assinarem": "firmen (ustedes)",
+      "estagiário": "pasante",
+      "termo": "acta, convenio",
+      "jornada": "jornada laboral",
+      "recesso": "receso, licencia",
+      "bolsa": "beca, asignación",
+      "auxílio-transporte": "viático para transporte",
+      "desconfiem": "desconfíen",
+      "passagem": "boleto, pasaje",
+      "ônibus": "colectivo",
+      "tirando": "sacando (fotocopias)",
+      "demissão": "renuncia",
+      "orientador": "tutor",
+      "represálias": "represalias",
+      "lembrete": "recordatorio",
+      "encrenqueiro": "problemático, quilombero",
+      "compartilhem": "compartan",
+      "abusar": "abusar, aprovecharse"
+    },
+    "questions": [
+      ["Qual é o principal objetivo do texto?", ["Denunciar uma empresa específica que explora estagiários.", "Informar os estudantes sobre seus direitos no estágio.", "Convencer os universitários a não fazerem estágio.", "Explicar como conseguir um emprego depois do estágio."], "Informar os estudantes sobre seus direitos no estágio."],
+      ["Por que o guia recomenda guardar uma cópia do termo de compromisso?", ["Porque a universidade exige o documento no fim do curso.", "Porque sem ele a bolsa não é paga.", "Porque ele pode servir como prova em caso de problema.", "Porque a empresa costuma perder os documentos dos estagiários."], "Porque ele pode servir como prova em caso de problema."],
+      ["No terceiro parágrafo, a expressão “só hoje”, entre aspas, sugere que…", ["a empresa paga as horas extras apenas em dias especiais.", "os estagiários trabalham menos às sextas-feiras.", "a lei permite exceções uma vez por semana.", "a exceção acaba virando hábito sem ninguém perceber."], "a exceção acaba virando hábito sem ninguém perceber."],
+      ["O que o texto aconselha a quem só tira cópias e atende o telefone?", ["Conversar com o supervisor e o orientador antes de desistir.", "Pedir demissão imediatamente e procurar outra vaga.", "Recorrer à Justiça sem avisar a empresa.", "Aceitar a situação, porque faz parte do aprendizado."], "Conversar com o supervisor e o orientador antes de desistir."],
+      ["Qual é o tom do último parágrafo?", ["Resignado, pois os abusos nunca vão acabar.", "Irônico em relação às empresas que contratam estagiários.", "Encorajador, associando informação a proteção coletiva.", "Agressivo, ameaçando as empresas com processos."], "Encorajador, associando informação a proteção coletiva."]
+    ],
+    "vf": [
+      ["Segundo o guia, o estágio é, antes de tudo, um ato educativo.", "verdadeiro"],
+      ["O guia afirma que horas extras são permitidas se forem bem pagas.", "falso"],
+      ["O recesso de trinta dias vale para qualquer estagiário desde o primeiro mês.", "falso"],
+      ["O Coletivo Estágio Justo oferece assessoria jurídica gratuita.", "não se diz"],
+      ["No estágio não obrigatório, a empresa deve pagar bolsa e auxílio-transporte.", "verdadeiro"]
+    ],
+    "hunt": {
+      "label": "Toque nos infinitivos pessoais (o infinitivo com pessoa)",
+      "targets": ["perderem", "conhecerem", "assinarem", "guardarem", "ficarem", "poderem", "pedirem", "cumprirem", "serem", "sofrerem", "quererem", "terminarem"]
+    }
+  },
+  "ascolto": {
+    "title": "Estudar e trabalhar: quando o chefe não ajuda",
+    "genre": "programa de rádio com consultas",
+    "es": "En un programa de radio sobre derechos laborales, una oyente que trabaja y estudia de noche le cuenta su problema a una abogada.",
+    "speakers": ["Jéssica, ouvinte", "Sandra, advogada"],
+    "turns": [
+      ["B", "Boa noite, Jéssica, você está no ar. Pode contar a sua dúvida."],
+      ["A", "Boa noite, doutora. Então, eu trabalho numa loja de material de construção, de carteira assinada, e faço faculdade de enfermagem à noite. Quando eu entrei, combinei com o gerente de sair às cinco e meia, para dar tempo de chegar na aula."],
+      ["B", "Certo. E o que mudou?"],
+      ["A", "Mudou o gerente, né? O novo quer que todo mundo fique até as sete, porque é o horário de mais movimento. Eu já perdi duas provas este mês."],
+      ["B", "Entendi. Olha, Jéssica, a primeira coisa: esse acordo de horário foi feito por escrito ou só de boca?"],
+      ["A", "Só de boca. Na época parecia tranquilo."],
+      ["B", "É o que acontece na maioria dos casos. Então, o meu conselho é, antes de vocês discutirem de novo, você pedir uma reunião com o RH e levar o comprovante de matrícula e o horário das aulas. É importante eles verem que é uma coisa séria, não um capricho."],
+      ["A", "E se ele disser que não?"],
+      ["B", "Aí vale a pena procurar o sindicato da categoria. Às vezes a convenção coletiva tem regras sobre funcionário estudante. E, principalmente, guarde tudo: mensagens, escala, e-mails. Sem prova, fica a sua palavra contra a dele."],
+      ["A", "Tá, mas eu tenho medo de ser mandada embora."],
+      ["B", "Eu entendo, e é um medo legítimo. Por isso eu sugiro ir por etapas, com calma, sem confronto logo de cara. Muitas empresas preferem ajustar a escala a perder uma boa funcionária. E, se tudo der errado, pelo menos você vai ter documentado tudo para os seus direitos serem respeitados."],
+      ["A", "Obrigada, doutora. Vou fazer isso amanhã mesmo."]
+    ],
+    "gloss": {
+      "documentado": "(vai ter documentado) vas a haber documentado: futuro compuesto (semana 30)",
+      "carteira": "libreta de trabajo (“de carteira assinada”: en blanco)",
+      "combinei": "acordé, arreglé",
+      "movimento": "movimiento de clientes",
+      "boca": "boca (“de boca”: de palabra)",
+      "matrícula": "inscripción",
+      "capricho": "capricho",
+      "sindicato": "sindicato",
+      "escala": "cronograma de turnos",
+      "mandada": "echada (“mandada embora”: despedida)",
+      "etapas": "etapas, pasos",
+      "cara": "cara (“logo de cara”: de entrada)"
+    },
+    "questions": [
+      ["Qual é o problema de Jéssica?", ["O novo gerente exige que ela fique até tarde, e ela perde aulas.", "Ela foi demitida por faltar ao trabalho em dias de prova.", "A loja se recusa a registrar a carteira de trabalho dela desde o começo.", "O salário dela foi reduzido depois da mudança de gerente."], "O novo gerente exige que ela fique até tarde, e ela perde aulas."],
+      ["Por que a advogada pergunta se o acordo foi feito por escrito?", ["Porque acordos verbais são proibidos por lei.", "Porque isso muda a força da prova que Jéssica tem.", "Porque quer saber se o gerente antigo ainda trabalha lá.", "Porque o sindicato só aceita casos com contrato novo."], "Porque isso muda a força da prova que Jéssica tem."],
+      ["O que Jéssica deve levar à reunião com o RH?", ["Uma carta do sindicato e um advogado.", "A carteira de trabalho e os recibos de salário.", "O comprovante de matrícula e o horário das aulas.", "Uma declaração dos colegas de loja."], "O comprovante de matrícula e o horário das aulas."],
+      ["Qual é a estratégia geral sugerida pela advogada?", ["Entrar logo na Justiça para garantir os direitos.", "Aceitar o novo horário até o fim do semestre.", "Pedir transferência para outra loja da rede.", "Agir aos poucos, dialogando e reunindo provas."], "Agir aos poucos, dialogando e reunindo provas."],
+      ["Segundo a advogada, por que a empresa talvez aceite ajustar a escala?", ["Porque a lei obriga todas as lojas a liberar estudantes.", "Porque pode preferir isso a perder uma boa funcionária.", "Porque o gerente novo está em período de experiência.", "Porque o movimento da loja diminui à noite."], "Porque pode preferir isso a perder uma boa funcionária."]
+    ],
+    "vf": [
+      ["Jéssica estuda enfermagem no período noturno.", "verdadeiro"],
+      ["O acordo inicial sobre o horário foi registrado em contrato.", "falso"],
+      ["A convenção coletiva da categoria de Jéssica garante horário especial para estudantes.", "não se diz"],
+      ["Jéssica pretende procurar o RH no dia seguinte.", "verdadeiro"]
+    ]
+  },
+  "compito": {
+    "genre": "carta_formal",
+    "title": "Pedido de regularização do estágio",
+    "fonte": "lettura",
+    "t": "Você faz estágio há oito meses numa agência de publicidade. Sua jornada frequentemente passa de seis horas, você passa boa parte do dia fazendo tarefas que não têm relação com o curso e nunca recebeu uma cópia do termo de compromisso. Após ler o guia “Estágio não é emprego (mas também não é favor)”, escreva uma carta formal para a gerente de Recursos Humanos da agência, Sra. Beatriz Andrade, expondo a situação, mencionando o que o guia informa sobre os direitos do estagiário e propondo soluções concretas. Não se esqueça de manter um tom respeitoso e cooperativo, com abertura e fecho adequados. Seu texto deve ter entre 131 e 191 palavras.",
+    "es": "Una carta formal a Recursos Humanos: describí los tres problemas, apoyate en lo que dice la guía y proponé soluciones. Registro formal (Prezada Sra., Atenciosamente) y, si podés, infinitivo personal (para nós combinarmos…).",
+    "min": 131,
+    "max": 191,
+    "punti": [["La jornada que pasa de seis horas", ["seis horas", "6 horas", "jornada"]], ["Las tareas sin relación con el curso", ["tarefas", "atividades", "cópias"]], ["Lo que dice el guía sobre los derechos del pasante", ["lei", "11.788", "recesso", "seguro", "supervis", "direito"]], ["El termo de compromisso que nunca recibió", ["termo", "compromisso"]], ["Una solución concreta", ["propon", "sugir", "solução", "soluções", "reorganiz", "gostaria que", "seria possível"]]],
+    "model": "São Paulo, 12 de março de 2026\n\nPrezada Sra. Beatriz Andrade,\n\nMeu nome é Lucas Ferreira e faço estágio no setor de criação desta agência há oito meses. Escrevo para expor algumas questões e, principalmente, para buscarmos juntos uma solução.\n\nEm primeiro lugar, minha jornada tem ultrapassado com frequência as seis horas diárias. Segundo o guia do Coletivo Estágio Justo, esse é o limite para estudantes do ensino superior, e hora extra não faz parte do estágio, que é, pela lei, um ato educativo. Além disso, grande parte do meu dia é dedicada a tarefas como tirar cópias e atender o telefone, que pouco têm a ver com a minha formação. Por fim, até hoje não recebi uma cópia do termo de compromisso.\n\nGostaria de sugerir uma reunião com o meu supervisor e com o professor orientador para revermos as atividades previstas e para eu receber o documento. Tenho certeza de que, com esses ajustes, o estágio será ainda mais proveitoso para ambas as partes.\n\nAgradeço desde já a atenção.\n\nAtenciosamente,\nLucas Ferreira",
+    "gloss": {
+      "Prezada": "Estimada (fórmula de carta formal: se ve en la semana 43)",
+      "faço estágio": "hago una pasantía",
+      "tirar cópias": "sacar fotocopias",
+      "termo de compromisso": "el convenio de pasantía que firman las partes",
+      "Agradeço desde já a atenção": "desde ya, gracias por su atención (fórmula de cierre: semana 43)",
+      "Atenciosamente": "saludo atentamente (se ve en la semana 43)"
+    }
+  },
+  "breve": {
+    "title": "Um recado da Editora Horizonte",
+    "genre": "recado na caixa postal",
+    "es": "Un mensaje en el contestador: la oficina de personal de una editorial cita a una candidata a una pasantía.",
+    "speaker": "Cláudia Mendes, do RH",
+    "voice": 1,
+    "text": [
+      "Oi, Juliana, boa tarde. Aqui é a Cláudia Mendes, do RH da Editora Horizonte. Estou ligando sobre a vaga de estágio em revisão de textos: você foi selecionada para a última etapa, parabéns!",
+      "A entrevista vai ser na quinta-feira, dia 14, às 10 horas, no nosso escritório da Rua da Assembleia, número 98, oitavo andar. Vai ser em grupo, com quatro candidatos. Antes de começarmos, cada um vai fazer um teste curto de revisão, de uns trinta minutos.",
+      "É importante vocês trazerem o comprovante de matrícula da faculdade e um documento com foto. A bolsa é de 1.800 reais, mais vale-transporte, para seis horas por dia.",
+      "Se não puder vir, me avisa até terça, tá? O meu ramal é 2173. Um abraço e até quinta!"
+    ],
+    "tabella": [
+      [
+        "Dia do mês da entrevista",
+        "14",
+        [
+          "dia 14",
+          "catorze",
+          "quatorze"
+        ]
+      ],
+      [
+        "Horário da entrevista",
+        "10",
+        [
+          "10 horas",
+          "10h",
+          "dez",
+          "dez horas",
+          "10:00"
+        ]
+      ],
+      [
+        "Andar do escritório",
+        "8",
+        [
+          "oitavo",
+          "8º",
+          "oitavo andar"
+        ]
+      ],
+      [
+        "Valor da bolsa (reais)",
+        "1.800",
+        [
+          "1800",
+          "mil e oitocentos",
+          "R$ 1.800",
+          "1.800 reais"
+        ]
+      ],
+      [
+        "Ramal da Cláudia",
+        "2173",
+        [
+          "2 1 7 3",
+          "21 73"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "A Juliana passou para a última etapa da seleção.",
+        true
+      ],
+      [
+        "A entrevista vai ser individual.",
+        false
+      ],
+      [
+        "Os candidatos vão fazer um teste de revisão.",
+        true
+      ],
+      [
+        "O estágio é de oito horas por dia.",
+        false
+      ],
+      [
+        "Além da bolsa, a editora paga o transporte.",
+        true
+      ],
+      [
+        "A Juliana precisa levar o currículo impresso.",
+        false
+      ]
+    ],
+    "gloss": {
+      "ramal": "interno (del teléfono)",
+      "bolsa": "pago de la pasantía",
+      "vale-transporte": "subsidio para el transporte",
+      "comprovante": "constancia",
+      "matrícula": "inscripción",
+      "estágio": "pasantía"
+    }
+  }
+}

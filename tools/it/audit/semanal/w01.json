@@ -1,0 +1,469 @@
+{
+ "week": 1,
+ "title": "Suoni e ortografia",
+ "level": "A1",
+ "revisado": {
+  "items": 73,
+  "sfide": 20,
+  "bloques_teoria": 7,
+  "lecturas": 2,
+  "dictogloss": 0,
+  "suoni": 17
+ },
+ "veredicto": "necesita trabajo",
+ "resumen": "Los ejercicios de ortografía y de essere/avere son correctos casi en su totalidad (0 errores de italiano confirmados) y la teoría de sonidos es clara. Pero la semana no cumple su propio objetivo: no enseña ni practica saludos, tu/Lei ni deletreo, y 46 de 73 ítems son essere/avere mientras el título es «Suoni e ortografia». Además trae 20 desafíos (sfide) de capítulos B1-C1 (infinitivo compuesto, «lo si beve», causativos) que no corresponden a un A1 semana 1. Hay un par de notas engañosas (anno/ñ, tabla c/che) y no hay dictogloss ni suoni de habla conectada/entonación/acento.",
+ "bien": [
+  "Ejemplos de dobles y pares mínimos (nono/nonno, sete/sette, casa/cassa) bien elegidos y con contraste en español.",
+  "Buena idea de decir qué es realmente el error típico del hispanohablante (doble consonante, e- protética, v/b).",
+  "Lecciones cortas con ejemplo + traducción; notas de ítems claras en la mayoría (é/è, ho/o, hanno/anno).",
+  "Ítems de essere/avere con expresiones idiomáticas (ho fame/sete/sonno/torto/fretta) que pegan directo con el contraste con el español.",
+  "Lecturas simples y naturales, con glosas y caza de formas (hunt) alineada con el tema."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:block:1",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "che, chi (como en «chico»)",
+   "propuesta": "En la columna «Suena» usar transcripción no ambigua: «ce, ci» suena «che, chi (como «chico»)»/[tʃ]; y «che, chi» suena «ke, ki». Mejor: «ce, ci → ch de «chico»» y «che, chi → k de «queso»».",
+   "motivo": "La misma cadena «che, chi» aparece como sonido de ce/ci y como grafía de che/chi (sonido ke, ki): dos filas contradictorias que confunden al principiante."
+  },
+  {
+   "id": "lesson:block:1",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "casi «li» muy rápida",
+   "propuesta": "gli = [ʎ], una l palatal (como la «ll» tradicional o «li» pronunciada de una vez, sin «i» separada); avisar que la «ll» rioplatense NO sirve.",
+   "motivo": "Inconsistente con a2-ort-06 y p-121 («ll tradicional; no li») y peligroso para un rioplatense (ll = sh)."
+  },
+  {
+   "id": "lesson:block:5",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Ni *b* = *v* ni «e» delante de *s* + consonante: *vino* con v de labios y dientes",
+   "propuesta": "Dos advertencias separadas: «*v* no es *b*: *vino* se pronuncia con labio inferior y dientes.» y «Delante de *s* + consonante no va «e»: *scuola*, *studente*, nunca «escuola».»",
+   "motivo": "Redacción telegráfica y sintácticamente rara («Ni b = v ni «e»...»)."
+  },
+  {
+   "id": "lesson:block:0",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Ya tenés el 80% de la pronunciación: las vocales son las tuyas.",
+   "propuesta": "Ya tenés gran parte de la pronunciación: las vocales son las tuyas.",
+   "motivo": "Cifra inventada sin sustento."
+  },
+  {
+   "id": "lesson:block:0",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "¿Cómo se escribe «señor» en italiano?",
+   "propuesta": "Falta en toda la semana el contenido del «fare» (nombres de las letras del alfabeto para deletrear, saludos ciao/buongiorno/arrivederci, tu/Lei, mi chiamo).",
+   "motivo": "El tema «Saludos, tu / Lei, alfabeto» y el objetivo «Saludar, despedirte y deletrear tu nombre» no se enseñan ni se practican en ninguna parte del dossier."
+  },
+  {
+   "id": "asc-1-10",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "anno = año: la doble n es la que en español es ñ.",
+   "propuesta": "anno = año, con doble n larga; ojo: la ñ del español se escribe gn en italiano (bagno).",
+   "motivo": "La doble nn no es la ñ: contradice la regla enseñada (gn = ñ) y confunde. Solo hay parentesco histórico (annus > año)."
+  },
+  {
+   "id": "asc-1-05",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "casa, con s simple (suena casi como z suave)",
+   "propuesta": "casa, con s simple entre vocales (sonora [z] en el norte, como en «mismo»); cassa, con ss sorda y larga.",
+   "motivo": "Para un rioplatense «z» = s sorda; «z suave» confunde. La lección habla de «z inglesa»."
+  },
+  {
+   "id": "rf-1-09",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "como la «ll» de un porteño que «shea»",
+   "propuesta": "como la «sh» inglesa o la «ll/y» rioplatense de «yo».",
+   "motivo": "«shea» no es una palabra; explicación poco clara."
+  },
+  {
+   "id": "asc-1-12",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Para el sonido k se escribe ch.",
+   "propuesta": "Para el sonido k ante e/i se escribe ch (chiesa, che).",
+   "motivo": "«ch» sin restricción sugiere que ch = k siempre, incluso en «cha»."
+  },
+  {
+   "id": "a2-ort-04",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "¿Dónde lleva acento gráfico?",
+   "propuesta": "Consigna: «¿Cuál está bien escrita?». Explicar en la lección la diferencia grave/agudo (à vs á) o quitar la opción «cittá».",
+   "motivo": "La consigna pregunta «dónde» pero la clave real es grave vs agudo, algo no enseñado en la lección (solo se menciona è/é)."
+  },
+  {
+   "id": "a2-ort-06",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "[ʎ], como la «ll» tradicional (no la rioplatense)",
+   "propuesta": "«como una l palatal (casi «li» dicha de una vez); no es «gl» ni «j»».",
+   "motivo": "Pide IPA y una pronunciación (ll lleísta) que el rioplatense no tiene; en A1 conviene describir sin símbolos."
+  },
+  {
+   "id": "a2-ort-01",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "¿Cuál se pronuncia con sonido duro [k]?",
+   "propuesta": "¿Cuál se pronuncia con sonido duro, como «k»?",
+   "motivo": "Uso de IPA no enseñado en la lección en varias opciones/notas (a2-ort-01, rf-1-06, rf-1-07, rf-1-09, rf-1-18, rf-1-25)."
+  },
+  {
+   "id": "d07-018",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Tienen sueño.",
+   "propuesta": "accept: agregar «Avete sonno.» y «Voi avete sonno.»",
+   "motivo": "En rioplatense «tienen» es también «ustedes»: voi es tan válido como loro."
+  },
+  {
+   "id": "d07-020",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Voi es lo normal; Loro es muy formal.",
+   "propuesta": "Sacar «Hanno freddo?/Loro hanno freddo?» de accept o aclarar que «Loro» de cortesía es arcaico.",
+   "motivo": "«Ustedes» = voi; aceptar hanno con ese sentido enseña un uso casi inexistente y anticipa Lei/Loro no enseñados."
+  },
+  {
+   "id": "d07-011",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Luigi ___ un gatto che è vecchio vecchio.",
+   "propuesta": "Luigi ___ un gatto vecchio.",
+   "motivo": "Introduce relativo («che») y la repetición intensiva «vecchio vecchio», no enseñados en la semana 1."
+  },
+  {
+   "id": "rf-1-24",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "La città è bella",
+   "propuesta": "accept: agregar «La città è carina» y punto final coherente con el resto («La città è bella.»)",
+   "motivo": "Traducción que exige artículo + concordancia del adjetivo, no enseñados; y «carina» es tan natural como «bella»."
+  },
+  {
+   "id": "d07-014",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Io non ___ una macchina.",
+   "propuesta": "(sin cambio)",
+   "motivo": "Sin ejercicios de negación ni de pregunta con essere/avere; solo aparecen incidentalmente."
+  },
+  {
+   "id": "suoni:p-161",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "caro",
+   "propuesta": "Reemplazar p-161 (caro/carro) por otro par de vibrantes (p. ej. pero/perro con 'pero' italiano: caro/carro ya está en p-006).",
+   "motivo": "Par duplicado: p-006 y p-161 son el mismo (caro/carro), además de asc-1-07."
+  },
+  {
+   "id": "suoni:p-096",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "sio",
+   "propuesta": "Cambiar por un par real, p. ej. zio/dio o razza/rassa.",
+   "motivo": "El segundo miembro «sio» no existe: el par mínimo no es de palabras reales."
+  },
+  {
+   "id": "suoni:p-121",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "gli es una l palatal, como la ll tradicional; no «li».",
+   "propuesta": "Unificar con la lección: «l palatal (ʎ): la lengua toca el paladar; distinto de la ll rioplatense (sh)».",
+   "motivo": "Contradice la lección («casi li») y remite a un sonido que el rioplatense no posee."
+  },
+  {
+   "id": "suoni:p-071",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "pésca",
+   "propuesta": "Marcar en la nota que son pares para el oído y que el par «pesca/pesca» se distingue solo por é/è (ya lo dice).",
+   "motivo": "Los pares de vocali no son distinguibles por escrito (written idénticos) y pueden frustrar en el dictado; dejar para nivel posterior."
+  },
+  {
+   "id": "r12-01b:e",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "___ studente deve munirsi di una tessera.",
+   "propuesta": "Agregar contexto: «___ studente deve munirsi di una tessera (todos).»",
+   "motivo": "«Qualche studente deve...» también es gramatical; el sentido de «todos» no está en el enunciado."
+  },
+  {
+   "id": "r22-08:b",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Lo mettiamo qui.",
+   "propuesta": "Dejar solo los pares inequívocos o admitir 'sugerencia' en contexto (Lo mettiamo qui?).",
+   "motivo": "Con noi + presente se hacen propuestas habituales («Lo mettiamo qui?»): la clave «no es sugerencia» es discutible; igual r22-08:e «Ci andiamo domani»."
+  },
+  {
+   "id": "r13-06",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "corregila vos mismo",
+   "propuesta": "corregila vos mismo/a (o «revisá tu texto»)",
+   "motivo": "Con voseo mixto y sin marca de género; además el porcentaje suma 101% (53+20+14+14) y la lista no sigue el orden del texto."
+  },
+  {
+   "id": "r16-01e:d",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Con un infinitivo se usa tranne / fuorché.",
+   "propuesta": "«Con un infinitivo se usa tranne / fuorché / salvo / eccetto (a veces + che).»",
+   "motivo": "La nota dice que solo tranne/fuorché sirven, pero accept admite salvo, eccetto y a parte."
+  },
+  {
+   "id": "sfida:r02-03",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Completá con la preposición articulada correcta (preposición + artículo). En una oración no hace falta el artículo.",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Articles» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Articles) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r02-07",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Combiná «in» y «di» con el artículo determinado donde sea necesario.",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Articles» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Articles) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r07-05",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Decidí si el pronombre expresa una acción reflexiva o recíproca.",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Personal pronouns» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Personal pronouns) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r07-02c",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Reemplazá el sustantivo por el pronombre de objeto directo correcto.",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Personal pronouns» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Personal pronouns) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r07-02e",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Usando «c'è» o «ci sono», completá en italiano lo que está entre paréntesis.",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Personal pronouns» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Personal pronouns) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r07-01f",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Completá con pronombres tónicos (los que van después de preposición).",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Personal pronouns» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Personal pronouns) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r07-03g",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Elegí el pronombre adecuado: sé, lui, lei o loro.",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Personal pronouns» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Personal pronouns) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r07-01h",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Corregí estas ideas sobre Italia completando con «si» y otro pronombre.",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Personal pronouns» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Personal pronouns) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r11-05",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Completá con quanto o come. A veces sirven los dos.",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Exclamations» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Exclamations) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r12-01b",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Completá con ogni o qualche.",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Indefinites» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Indefinites) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r13-06",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Actividad de escritura libre: corregila vos mismo.",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Relative pronouns» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Relative pronouns) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r15-06",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "¿Adónde vas? Completá «Vado…» con a, da o in, con artículo cuando haga falta.",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Prepositions» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Prepositions) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r15-07",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "¿Dónde se encuentran? Completá «Ci vediamo…» con a, da o in (con artículo si hace falta).",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Prepositions» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Prepositions) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r16-01e",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Completá con el conector adecuado. Puede haber más de una opción.",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Connectives» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Connectives) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r22-08",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "¿Cuáles de estas oraciones son sugerencias («hagamos…»)?",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «The imperative» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (The imperative) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r23-01b",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "«Estoy contento de haber…»: completá con el infinitivo compuesto.",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Non-finite verb forms» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Non-finite verb forms) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r23-04",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Completá en italiano con el infinitivo compuesto.",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Non-finite verb forms» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Non-finite verb forms) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r27-07",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Completá con el pronombre adecuado.",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Causative verbs and verbs of perception» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Causative verbs and verbs of perception) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r28-01b",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Completá con a + infinitivo (finalidad, sucesión o simultaneidad). En la oración b también podría ir per.",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Verbs and prepositions» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Verbs and prepositions) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "sfida:r28-01e",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Completá con la preposición correcta (a o di).",
+   "propuesta": "Quitar de la semana 1 y reubicar en la semana del capítulo «Verbs and prepositions» (o filtrar por semana).",
+   "motivo": "Contenido de nivel B1-C1 (Verbs and prepositions) en una semana A1 de sonidos/essere-avere: exige gramática no enseñada."
+  },
+  {
+   "id": "d07-012",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Voi ___ una bellissima casa.",
+   "propuesta": "Voi ___ una casa grande.",
+   "motivo": "Superlativo -issima no enseñado; en A1 W1 conviene evitarlo."
+  },
+  {
+   "id": "lettura ep1",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "mia: mi (la mia = mi)",
+   "propuesta": "mia: mi (la mia casa = mi casa)",
+   "motivo": "Glosa confusa; y faltan glosas de grande/piccolo/casa mientras w-01 sí glosa piccola."
+  },
+  {
+   "id": "d07-*",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "(abbiamo)",
+   "propuesta": "Agregar ítems con «abbiamo» (noi) y «hanno» en conjugate, y «ho ragione», «ho voglia di».",
+   "motivo": "«abbiamo» no se evalúa en ningún ítem de la semana (ni «ho ragione»); la tabla de avere queda incompleta."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Quitar las 20 sfide de capítulos posteriores (r02…r28) de la semana 1 y reemplazarlas por desafíos propios: deletrear tu nombre, saludos formal/informal, dictado de dobles.",
+   "por_que": "Exigen gramática B1-C1 no enseñada y rompen la progresión A1."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar teoría y práctica de lo prometido en «fare/tema»: nombres de las letras (a, bi, ci, di…), ciao/buongiorno/buonasera/arrivederci, mi chiamo, tu vs Lei con essere (Lei è).",
+   "por_que": "Sin eso el alumno no puede saludar ni deletrear su nombre, que es el objetivo declarado."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Reequilibrar ítems: bajar essere/avere de 46 a ~25 y subir ortografía (dictado tipeado, sci/schi, gn/gli, tildes) con tipos de producción (typed, scopri).",
+   "por_que": "El título es sonidos/ortografía pero 63% de los ítems son conjugación; casi no hay producción escrita de ortografía."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reescribir la tabla c/g: separar «grafía» y «sonido» con un mismo código (como «chico»/«queso») y unificar la descripción de gli (l palatal, no ll rioplatense) en lección, ítems y suoni.",
+   "por_que": "Hoy hay descripciones contradictorias de che/chi y de gli."
+  },
+  {
+   "prioridad": "media",
+   "que": "Corregir notas: asc-1-10 (anno/ñ), asc-1-05 (z suave), rf-1-09 («shea»); evitar IPA en A1 o explicar la notación una vez.",
+   "por_que": "Explicaciones que confunden o contradicen la lección."
+  },
+  {
+   "prioridad": "media",
+   "que": "Añadir «abbiamo», «hanno» (conjugate) y ho ragione/ho voglia di con ítems; en la lección incluir voglia di (ya se evalúa en d07-033 solo en la nota).",
+   "por_que": "Cobertura incompleta de la tabla de avere."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Agregar dictogloss corto (p. ej. «Sono Lucia…») y suoni de habla conectada/entonación/acento (pregunta vs afirmación: Sei stanco? / Sei stanco.).",
+   "por_que": "Hoy dictogloss, connesso, intonazione y accento están vacíos."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Alinear vocab con la semana (ciao, grazie, per favore, mi chiamo, lettere) en lugar de fare/andare/volere con ejemplos en passato prossimo.",
+   "por_que": "Vocabulario y ejemplos usan gramática que aparece después."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Balancear pares mínimos: eliminar duplicado caro/carro (p-006/p-161) y el par irreal zio/sio.",
+   "por_que": "Duplicado y palabra inexistente."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 1,
+   "dudas": 3
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

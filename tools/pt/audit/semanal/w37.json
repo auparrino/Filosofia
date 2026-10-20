@@ -1,0 +1,231 @@
+{
+ "week": 37,
+ "title": "Verbos irregulares e derivados",
+ "level": "B2",
+ "revisado": {
+  "items": 48,
+  "bloques_teoria": 7,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 3,
+  "radio": 0,
+  "otros": 4
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "La semana es correcta en lo lingüístico: no encontré errores seguros de portugués ni de español en teoría, ítems, lecturas ni claves. Los reparos son de diseño: mucha redundancia (interveio, propôs, coube, passeio, odeio, mantêm repetidos 3-4 veces), distractores en español demasiado obvios, consignas que remiten a ejemplos que no se ven (scopri/garden) y puntos enseñados sin práctica (valer, construir/divertir-se, rever, -iar regulares). El nivel B2 corresponde a las lecturas, pero la gramática de los ítems es A2-B1 puramente morfológica y mecánica.",
+ "bien": [
+  "Teoría clara y bien organizada en tres partes con tablas comparativas (ter/manter/obter, pôr/propor/supor), ejemplos con contexto cultural real (Palmares, Pombal, Jobim, Lei Áurea) y advertencias útiles (tilde mantém/mantêm, preveem sin circunflejo, «interviu» como error típico).",
+  "El mnemónico MARIO para los -iar irregulares y el contraste copio/odeio es excelente y accionable; el error «quepo» y los hispanismos (propuso, mantienem) apuntan a interferencias reales.",
+  "Buena progresión de tipos: choice, cloze, translate, fixerr, garden, scopri, typed y combina cubren reconocimiento y producción; los combina integran la morfología en frases con conectores.",
+  "Las lecturas del tramo (artículo sobre sensores en Recife, podcast sobre reparación de celulares) reciclan de forma natural prever, obter, manter, intervir, propor, medeia, rastreia; preguntas, V/F y no se diz bien construidos; modelo de escritura (209 palabras) dentro del rango 177-237.",
+  "El dictogloss sobre Canudos es históricamente correcto y concentra derivados (interveio, mantinha, obtiveram, compôs, tinha previsto, caiba).",
+  "Vocabulario de ciencia/trámites/tecnología útil y con notas rioplatenses bien pensadas (falsos amigos pasta/massa, tela, rede)."
+ ],
+ "hallazgos": [
+  {
+   "id": "s3-37-24",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Sempre ___ (perder) o metrô por um minuto.",
+   "propuesta": "Eu sempre ___ (perder) o metrô por um minuto.",
+   "motivo": "Sin sujeto, «perde» (ele/você) también es correcto; solo se acepta «perco»."
+  },
+  {
+   "id": "s3-37-19",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Chico Buarque ___ (compor) canções contra a censura durante a ditadura.",
+   "propuesta": "Agregar «(perfeito)» en la consigna o aceptar también «compunha».",
+   "motivo": "«durante a ditadura» + plural de canciones admite imperfeito; solo se acepta «compôs» y la consigna no pide perfeito."
+  },
+  {
+   "id": "s3-37-37",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Veja os três perfeitos (ele) e complete o quarto.",
+   "propuesta": "Mostrar en el enunciado los tres perfeitos previos (p. ej. ter → teve; vir → veio; pôr → pôs) o cambiar la consigna a «Complete o perfeito (ele)».",
+   "motivo": "La consigna remite a tres ejemplos que no aparecen en el stem («manter → ele ___»)."
+  },
+  {
+   "id": "s3-37-38",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Veja os três presentes (eu) e complete o quarto.",
+   "propuesta": "Incluir en el stem los tres presentes (copio, anuncio, elogio → odeio) o simplificar la consigna.",
+   "motivo": "Misma consigna que remite a ejemplos ausentes; sin ellos el «garden» pierde su sentido."
+  },
+  {
+   "id": "s3-37-39",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Veja os três presentes (eu) e complete o quarto.",
+   "propuesta": "Incluir en el stem los tres presentes regulares previos (p. ej. falo, como, parto → passeio).",
+   "motivo": "Consigna que remite a ejemplos que el alumno no ve."
+  },
+  {
+   "id": "s3-37-40",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Leia as frases e descubra a regra.",
+   "propuesta": "Agregar 3-4 frases de muestra (mantém, interveio, propôs, previu) antes de la pregunta, o cambiar a «Escolha a regra correta».",
+   "motivo": "No hay frases que leer; es una pregunta teórica directa, no un descubrimiento inductivo."
+  },
+  {
+   "id": "s3-37-41",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Leia as frases e descubra a regra.",
+   "propuesta": "Agregar frases de muestra (passeio, freio, copio, odeio, medeio) o cambiar la consigna.",
+   "motivo": "No hay frases que leer; además la respuesta correcta es la única opción larga y precisa, se detecta sin razonar."
+  },
+  {
+   "id": "lesson:0",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "*ter* no lleva tilde en *tem*, pero los derivados sí: *mantém* (él), *mantêm* (ellos), porque son agudas.",
+   "propuesta": "*tem* (sing.) no lleva tilde pero *têm* (pl.) sí; los derivados llevan: *mantém* (aguda en -ém) y *mantêm* (circunflejo, igual que *têm*).",
+   "motivo": "«porque son agudas» solo explica mantém; mantêm es paroxítona y lleva circunflejo por analogía con têm."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*prevejo, prevê, preveem; previ, previu; preveja; previr*",
+   "propuesta": "Rotular cada forma: «fut. subj.: previr (quando eu previr)» y agregar *prover* como excepción (proveu, no «proviu»).",
+   "motivo": "«previr» sin etiqueta se lee como infinitivo; y la regla «exactamente como el verbo base» tiene la excepción prover (pretérito proveu / prover)."
+  },
+  {
+   "id": "item s3-37-40",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Exactamente como el verbo base, con el prefijo delante.",
+   "propuesta": "«Prácticamente igual que el verbo base (salvo detalles como prover)» o dejar la afirmación pero con una nota de excepción.",
+   "motivo": "«Exactamente» es exagerado: prover (de ver) no sigue a ver en el pretérito ni en el futuro del subjuntivo."
+  },
+  {
+   "id": "lesson:5",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Cinco van como *-ear*: **M**ediar, **A**nsiar, **R**emediar, **I**ncendiar, **O**diar → *odeio, medeio*.",
+   "propuesta": "Agregar «(y también receiar → receio, intermediar)» o suavizar «Todo lo demás en -iar es regular» a «casi todo lo demás».",
+   "motivo": "La lectura del tramo usa «receiam» (receiar, irregular como los MARIO) y lo pide en la caza de formas sin que la teoría lo haya cubierto."
+  },
+  {
+   "id": "tramo:lettura:hunt",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "receiam",
+   "propuesta": "Quitar «receiam» de la lista de targets o enseñar receiar junto a MARIO.",
+   "motivo": "Hay que reconocer un -iar irregular (receio) que la lección no enseña (solo cinco)."
+  },
+  {
+   "id": "lettura w-37",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "e intervieram em cada etapa da obra.",
+   "propuesta": "e participaram de cada etapa da obra. (o «e atuaram em cada etapa da obra»)",
+   "motivo": "Intervir con trabajadores de la obra es poco natural en pt-BR («intervir» implica interferir/mediar); forzado para incluir el verbo."
+  },
+  {
+   "id": "lettura w-37",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Quem visita Brasília hoje obtém uma aula de arquitetura moderna ao ar livre",
+   "propuesta": "Quem visita Brasília hoje ganha uma aula de arquitetura moderna ao ar livre",
+   "motivo": "«obter uma aula» es una colocación poco natural; «obter» se usa con resultados, permisos, datos."
+  },
+  {
+   "id": "col-37-2",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "arcar",
+   "propuesta": "Reemplazar la opción «carregar» por una claramente incorrecta (p. ej. «suprir»).",
+   "motivo": "«carregar com os custos» es posible en el habla; la opción errónea no es claramente incorrecta."
+  },
+  {
+   "id": "s3-37-29",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Passeamos pela orla",
+   "propuesta": "Agregar en accept «Passeamos na orla», «Nós passeamos na orla», «Passeamos à beira-mar».",
+   "motivo": "«passear na orla» es igual de natural que «pela orla»."
+  },
+  {
+   "id": "s3-37-31",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Não coube tudo na mala",
+   "propuesta": "Agregar en accept «Nem tudo coube na mala», «Tudo não coube na mala», «Não coube tudo na valise».",
+   "motivo": "Alternativas naturales no aceptadas; la traducción de «no entró todo» admite «nem tudo coube»."
+  },
+  {
+   "id": "s3-37-44",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Assim que obteve os dados, o pesquisador publicou o artigo.",
+   "propuesta": "Agregar en accept «O pesquisador, assim que obteve os dados, publicou o artigo.»",
+   "motivo": "Orden con inciso, natural y correcto, no aceptado."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Reducir la redundancia de ítems: cada forma aparece 3-4 veces (interveio en s3-37-04, 15, 26, 33 y c-041; propôs en 06, 27, 34; passeio en 10, 35, 39; odeio en 11, 30, 38; coube en 23, 31). Reemplazar duplicados por práctica de formas hoy sin ítems.",
+   "por_que": "Se practican siempre los mismos verbos y se saltan puntos enseñados."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar ítems para lo enseñado sin práctica: valer (valho/valha), construir y divertir-se, rever/revir, conter/deter, frear, -iar regulares (copio, anuncio) como contraste con odeio, 3.ª persona plural (mantêm/obtêm) en contexto, e imperfecto/futuro (mantinha, mantiver) en 1-2 ítems.",
+   "por_que": "El bloque 6 enseña seis verbos y casi solo se practican caber y perder; los -iar regulares no tienen ejercicio."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Reformular las consignas de scopri y garden (40, 41, 37-39) para que muestren los ejemplos a los que refieren o cambiarlas por otras que describan lo que realmente hay que hacer.",
+   "por_que": "«Leia as frases» / «Veja os três...» sin frases ni ejemplos desorienta."
+  },
+  {
+   "prioridad": "media",
+   "que": "Mejorar los distractores: reemplazar opciones puramente en español (mantienem, propuso, Conviene, paseio, previo) por errores plausibles en portugués (mantém/mantem, interviu, propôz, preveêm, prevê/previm, caibo/cabo, intervio) o formas de otros tiempos.",
+   "por_que": "Con distractores españoles se elimina por 'no suena portugués' sin evaluar la regla."
+  },
+  {
+   "prioridad": "media",
+   "que": "Subir la exigencia hacia B2: ítems de integración en contexto (parágrafos con 3-4 huecos de distintos derivados, subjuntivo/futuro del subjuntivo con 'quando/se/embora', infinitivo flexionado tras intervir/propor) en lugar de solo morfología aislada.",
+   "por_que": "Las formas son A2-B1; el nivel B2 solo aparece en las lecturas."
+  },
+  {
+   "prioridad": "media",
+   "que": "Alinear la teoría con las lecturas: agregar receiar/intermediar, la excepción prover y una nota sobre usos de manter (sostener, conservar, mantener un negocio) y obter vs conseguir.",
+   "por_que": "La lectura usa receiam, mantido, detém y rastreia, y el tema declara los 'menos frecuentes'."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Revisar las notas de uso de la lectura w-37 (intervieram, obtém) para que ilustren usos naturales de esos verbos.",
+   "por_que": "Los ejemplos forzados enseñan colocaciones poco idiomáticas."
+  },
+  {
+   "prioridad": "baja",
+   "que": "El par mínimo p-178 (fórmula/formula) y el ítem de acento (fobia) no se relacionan con el tema semanal; el sonido de la semana podría centrarse en tilde mantém/mantêm o e/ê en prever/preveem, y radio, duelos, laboratorio (ponte/capire) están vacíos.",
+   "por_que": "Mayor coherencia temática y aprovechamiento de las secciones de pronunciación y de puente."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Considerar partir los 48 ítems con 24 de forma casi idéntica (choice+cloze) o intercalar tipos más productivos (qa, listen, plural).",
+   "por_que": "Mucha repetición del mismo formato sin variación de dificultad."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

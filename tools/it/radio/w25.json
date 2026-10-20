@@ -1,0 +1,49 @@
+{
+ "week": 25,
+ "level": "B1",
+ "title": "La posta del cuore",
+ "genre": "rubrica di consigli",
+ "es": "Último programa de la temporada: Sara y Dario abren «La posta del cuore» (el correo sentimental). Dario lee la carta de una oyente con un problema de pareja y los dos le dan consejos.",
+ "speakers": ["Sara", "Dario"],
+ "turns": [
+  ["A", "Ed eccoci all'ultima puntata della stagione: oggi apriamo «La posta del cuore». Dario, leggi tu la lettera?"],
+  ["B", "Volentieri. Scrive Chiara, ventisei anni: «Cari Sara e Dario, sto con Paolo da tre anni e siamo una bella coppia. Ma da qualche mese Paolo è geloso della mia amicizia con Luca, un collega di lavoro. Ogni volta che esco con i colleghi si lamenta e mi chiede con chi sono. Io non credo di aver fatto niente di male. Venerdì abbiamo litigato e adesso non ci parliamo. Che cosa mi consigliate?»"],
+  ["A", "Povera Chiara. Prima di tutto, è giusto che lei esca con i suoi colleghi. In un rapporto sano bisogna che ci sia fiducia."],
+  ["B", "Sono d'accordo, ma bisogna ammettere anche un'altra cosa: forse Paolo si sente escluso. È normale che una persona abbia paura di perdere chi ama."],
+  ["A", "Può darsi. Allora il mio consiglio è questo: bisogna che si parlino con calma, senza gridare. Chiara, è importante che tu spieghi a Paolo chi è Luca, e che lui ti dica che cosa lo preoccupa."],
+  ["B", "E io le consiglio di invitare Paolo alla prossima cena con i colleghi. Così vede che Luca è solo un amico."],
+  ["A", "Bella idea! Però attenzione: non è giusto nemmeno che Paolo controlli sempre il telefono di Chiara. Se non cambia, è meglio che lei ci pensi bene."],
+  ["B", "Vuoi dire che è meglio che si lascino?"],
+  ["A", "No, non dico questo. Spero che non si lascino! Dico solo che l'amore senza fiducia non dura."],
+  ["B", "Allora, Chiara, noi speriamo che facciate pace presto e che venerdì prossimo usciate tutti insieme."],
+  ["A", "Ti auguro che la cena vada benissimo! E voi, cari ascoltatori, grazie per questa stagione con Radio Portici. Ci sentiamo a settembre!"],
+  ["B", "Buone vacanze a tutti!"]
+ ],
+ "gloss": {
+  "eccoci": "acá estamos",
+  "puntata": "emisión, capítulo",
+  "stagione": "temporada",
+  "collega": "compañero de trabajo",
+  "colleghi": "compañeros de trabajo",
+  "abbiamo litigato": "nos peleamos",
+  "sano": "sano",
+  "escluso": "excluido",
+  "Può darsi": "puede ser",
+  "gridare": "gritar",
+  "lo preoccupa": "le preocupa",
+  "nemmeno": "tampoco, ni siquiera",
+  "dura": "dura"
+ },
+ "questions": [
+  ["Perché Chiara scrive alla radio?", ["Perché Paolo è geloso di un suo collega", "Perché vuole lasciare il lavoro", "Perché Luca è innamorato di lei", "Perché Paolo non vuole uscire"], "Perché Paolo è geloso di un suo collega"],
+  ["Che cosa consiglia Dario?", ["Di non uscire più la sera con i colleghi di lavoro", "Di invitare Paolo alla cena con i colleghi", "Di cambiare lavoro", "Di scrivere una lettera a Luca"], "Di invitare Paolo alla cena con i colleghi"],
+  ["Secondo Sara, che cosa è necessario in una coppia?", ["La fiducia", "La gelosia", "Uscire sempre insieme", "Avere gli stessi amici"], "La fiducia"]
+ ],
+ "info": [
+  ["Chiara e Paolo stanno insieme da tre anni.", true],
+  ["Dario pensa che Paolo abbia paura di perdere Chiara.", true],
+  ["Sara consiglia a Chiara di lasciare Paolo subito.", false]
+ ],
+ "grammatica": {"label": "cuándo va el congiuntivo: è giusto che, bisogna che, spero che, è meglio che, ti auguro che", "forme": ["è giusto che lei esca", "bisogna che ci sia", "è normale che una persona abbia", "bisogna che si parlino", "è importante che tu spieghi", "che lui ti dica", "che paolo controlli", "è meglio che lei ci pensi", "che si lascino", "spero che non si lascino", "speriamo che facciate pace", "che usciate", "ti auguro che la cena vada"]},
+ "parole": [["coppia", "coppia"], ["geloso", "geloso"], ["amicizia", "amicizia"], ["lamenta", "lamentarsi"], ["consigliate", "consigliare"], ["giusto", "giusto"], ["rapporto", "rapporto"], ["bisogna", "bisognare"], ["fiducia", "fiducia"], ["ammettere", "ammettere"], ["lascino", "lasciarsi"], ["spero", "sperare"], ["facciate pace", "fare pace"], ["auguro", "augurare"]]
+}

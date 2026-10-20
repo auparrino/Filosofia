@@ -1,0 +1,382 @@
+{
+  "week": 46,
+  "level": "C1",
+  "lettura": {
+    "title": "Casette, libroni e tempacci: il mondo con la lente",
+    "emoji": "🔍",
+    "genre": "rubrica di lingua (risposta a una lettrice)",
+    "grammar": "suffissi e alterazione (diminutivi, accrescitivi, peggiorativi)",
+    "text": "«Gentile professoressa, insegno italiano in Germania e i miei studenti mi fanno sempre la stessa domanda: perché gli italiani dicono “un attimino”, “un caffettino”, “una domandina”? È solo gentilezza o c'è qualcos'altro? E come si fa a sapere quale suffisso usare? La ringrazio. Ingrid K., Monaco di Baviera»\n\nCara Ingrid, la sua domanda tocca uno dei tesori più preziosi, e più insidiosi, della nostra lingua: l'alterazione. Con un semplice suffisso l'italiano riesce a cambiare le dimensioni di una cosa, ma anche il modo in cui la guardiamo. Una casa diventa una casetta o una casina se è piccola e graziosa, un casone se è grande, una casaccia se è brutta o malridotta, una casupola se è modesta e un po' misera. Non si tratta di parole nuove da cercare nel vocabolario, ma di sfumature, e sono proprio le sfumature a mettere in difficoltà chi impara.\n\nPartiamo dai diminutivi, i più amati: -ino, -etto, -ello, -uccio. In teoria indicano piccolezza, ma nella pratica esprimono soprattutto affetto, confidenza, delicatezza. Il fratellino non è necessariamente basso di statura: è il fratello più giovane, quello che si protegge. Un vestitino può essere semplicemente un vestito carino, leggero, estivo. E quando al bar qualcuno chiede «un caffettino», non vuole meno caffè degli altri: sta chiedendo con garbo, quasi scusandosi del disturbo. Lo stesso vale per il celebre «attimino», che fa inorridire i puristi ma che nella lingua parlata serve ad attenuare una richiesta: «Aspetti un attimino» suona molto meno brusco di «Aspetti».\n\nEcco quindi la risposta alla sua prima domanda: sì, spesso è gentilezza, ma una gentilezza con una funzione precisa. Il diminutivo rimpicciolisce la richiesta, la rende meno ingombrante. Una «domandina» promette di rubare poco tempo, anche quando poi si rivela una domanda lunghissima. C'è però anche un risvolto meno innocente: il diminutivo può diventare ironico o perfino sprezzante. Se un collega definisce il proprio progetto «un lavoretto», forse è modesto; se a definirlo così è un altro, forse lo sta sminuendo. E «il signorino», detto a un ragazzo di vent'anni che non si alza dal divano, non è certo un complimento.\n\nGli accrescitivi, con il suffisso -one, ingrandiscono: un librone è un libro grosso e pesante, un nasone un naso importante, un ragazzone un ragazzo grande e grosso, spesso con una sfumatura bonaria. Curiosamente, -one tende a rendere maschili anche i nomi femminili: la porta diventa il portone, la palla il pallone. I peggiorativi, invece, come -accio e -astro, esprimono disprezzo o un giudizio negativo: un tempaccio è un tempo pessimo, una parolaccia è una parola volgare, un poetastro è un cattivo poeta. Con i colori e i sapori, -astro indica piuttosto un'approssimazione, spesso poco gradevole: giallastro, verdastro, dolciastro.\n\nE adesso la cattiva notizia. Non tutto ciò che finisce in -ino o in -one è un alterato. Il tacchino non è un piccolo tacco, il mattone non è un grande matto, il burrone non ha niente a che fare con il burro e il lampone non è un lampo gigante. Inoltre, molti alterati nel tempo si sono lessicalizzati, cioè sono diventati parole autonome: il fumetto non è un piccolo fumo, anche se il nome viene dalle nuvolette che contengono le battute dei personaggi; il cavalletto del pittore non è un cavallino; il portone e il pallone, che citavo prima, hanno ormai una vita propria. In questi casi il dizionario è l'unico amico fidato.\n\nCome scegliere, allora, il suffisso giusto? Qui devo essere sincera: non esiste una regola che valga sempre. Si dice gattino e non gattetto, ma casetta e casina convivono tranquillamente; libretto, poi, oltre a un piccolo libro è il testo di un'opera lirica. Contano l'abitudine, il suono e a volte la zona d'Italia, perché certe forme sono più frequenti in una regione che in un'altra. Anche la combinazione dei suffissi ha i suoi misteri: da casa si arriva a casettina, ma nessuno direbbe mai «casinetta». Il consiglio che do ai miei studenti è di non inventare alterati, almeno all'inizio, ma di raccoglierli come si raccolgono le conchiglie: uno alla volta, notando in quale contesto e con quale tono li usano i parlanti.\n\nPer concludere, cara Ingrid, dica ai suoi studenti che gli alterati sono una lente: permettono di guardare le cose da vicino o da lontano, con tenerezza o con fastidio. Usarli bene significa aver capito non solo che cosa diciamo, ma come ci sentiamo quando lo diciamo. E questo, glielo assicuro, è un traguardo che va ben oltre la grammatica. Un caro saluto (e non un salutino, visto che la domanda meritava una risposta lunga).",
+    "gloss": {
+      "insidiosi": "traicioneros",
+      "graziosa": "linda, coqueta",
+      "malridotta": "venida abajo, en mal estado",
+      "misera": "pobre, mísera",
+      "sfumature": "matices",
+      "garbo": "delicadeza, buenos modales",
+      "inorridire": "horrorizar",
+      "attenuare": "suavizar",
+      "rimpicciolisce": "achica",
+      "ingombrante": "que ocupa mucho, molesta",
+      "risvolto": "costado, implicancia",
+      "sprezzante": "despectivo",
+      "sminuendo": "menospreciando",
+      "bonaria": "bonachona",
+      "disprezzo": "desprecio",
+      "tacchino": "pavo",
+      "tacco": "taco (del zapato)",
+      "mattone": "ladrillo",
+      "burrone": "barranco",
+      "burro": "manteca",
+      "lampone": "frambuesa",
+      "lampo": "relámpago",
+      "fumetto": "historieta",
+      "cavalletto": "caballete",
+      "conchiglie": "caracoles de mar",
+      "traguardo": "meta, logro"
+    },
+    "questions": [
+      [
+        "Che cosa chiede Ingrid nella sua lettera?",
+        [
+          "Perché si usano tanti diminutivi e come scegliere il suffisso",
+          "Come correggere gli errori di pronuncia dei suoi studenti tedeschi",
+          "Quali parolacce italiane è meglio non insegnare in classe",
+          "Se «attimino» si può usare nei testi scritti ufficiali"
+        ],
+        "Perché si usano tanti diminutivi e come scegliere il suffisso"
+      ],
+      [
+        "Secondo la professoressa, chi al bar chiede «un caffettino»…",
+        [
+          "vuole una tazza più piccola del solito",
+          "sta chiedendo con cortesia",
+          "preferisce un caffè più leggero",
+          "sta scherzando con il barista"
+        ],
+        "sta chiedendo con cortesia"
+      ],
+      [
+        "In quale caso il diminutivo può risultare offensivo?",
+        [
+          "Quando lo si usa con persone più anziane",
+          "Quando lo si usa in un testo scritto",
+          "Quando serve a sminuire il lavoro o la persona",
+          "Quando lo si aggiunge a nomi di colori"
+        ],
+        "Quando serve a sminuire il lavoro o la persona"
+      ],
+      [
+        "Perché la professoressa cita tacchino, mattone e burrone?",
+        [
+          "Come esempi di accrescitivi rari e antichi",
+          "Per mostrare che non tutto ciò che finisce in -ino o -one è alterato",
+          "Per spiegare l'origine regionale e dialettale di alcuni suffissi italiani",
+          "Come parole che gli stranieri pronunciano spesso male"
+        ],
+        "Per mostrare che non tutto ciò che finisce in -ino o -one è alterato"
+      ],
+      [
+        "Quale consiglio dà per imparare gli alterati?",
+        [
+          "Inventarne di nuovi per fare esercizio",
+          "Raccoglierli osservando contesto e tono",
+          "Imparare a memoria le regole dei suffissi",
+          "Evitarli del tutto nella lingua parlata"
+        ],
+        "Raccoglierli osservando contesto e tono"
+      ]
+    ],
+    "vf": [
+      [
+        "Ingrid insegna italiano in Germania.",
+        "vero"
+      ],
+      [
+        "Secondo la professoressa, «attimino» è accettato anche dai puristi.",
+        "falso"
+      ],
+      [
+        "Il suffisso -one può rendere maschile un nome femminile.",
+        "vero"
+      ],
+      [
+        "La professoressa ha scritto un dizionario degli alterati.",
+        "non si dice"
+      ],
+      [
+        "Il fumetto si chiama così perché è un libro di piccole dimensioni.",
+        "falso"
+      ]
+    ],
+    "hunt": {
+      "label": "Tocá los sustantivos y adjetivos alterados (diminutivos, aumentativos, despectivos)",
+      "targets": ["attimino", "caffettino", "domandina", "casetta", "casina", "casone", "casaccia", "casupola", "fratellino", "vestitino", "lavoretto", "signorino", "librone", "nasone", "ragazzone", "tempaccio", "parolaccia", "poetastro", "giallastro", "verdastro", "dolciastro", "nuvolette", "cavallino", "gattino", "gattetto", "libretto", "casettina", "casinetta", "salutino"]
+    }
+  },
+  "ascolto": {
+    "title": "Un nome per un gelato",
+    "genre": "riunione di lavoro",
+    "es": "Dos colegas de una agencia de publicidad discuten qué nombre ponerle a una nueva línea de helados artesanales.",
+    "speakers": [
+      "Giulia, copywriter",
+      "Andrea, responsabile marketing"
+    ],
+    "turns": [
+      [
+        "A",
+        "Allora, Andrea, ti ho preparato la lista dei nomi per la gelateria dei signori Rossetti. Te la leggo o preferisci vederla?"
+      ],
+      [
+        "B",
+        "Leggimela, dai, così sento anche come suonano. Il nome di un gelato deve suonare bene, prima ancora di significare qualcosa."
+      ],
+      [
+        "A",
+        "Giusto. Il primo è «Nuvoletta». Pensavo alla leggerezza, alla panna, a qualcosa di morbido."
+      ],
+      [
+        "B",
+        "Carino. Forse un po' troppo carino, però. Mi fa pensare a una linea per bambini, e il cliente vuole anche un pubblico adulto, gente che passa la sera dopo cena."
+      ],
+      [
+        "A",
+        "Ci avevo pensato anch'io. E un nome in inglese? Ormai lo fanno tutti."
+      ],
+      [
+        "B",
+        "Ecco, proprio perché lo fanno tutti, io lo eviterei. I Rossetti fanno gelato artigianale con il latte delle colline qui intorno: un nome inglese li farebbe sembrare una catena da aeroporto. E poi l'italiano, con i suoi suffissi, ci dà una tavolozza che l'inglese non ha. Con una sola parola puoi dire piccolo, affettuoso, un po' goloso, un po' ironico."
+      ],
+      [
+        "A",
+        "Hai ragione, è la nostra arma segreta. Allora vado avanti, e «Nuvoletta» per ora la tengo come riserva. Il secondo è «Golosone». Qui l'idea è opposta: abbondanza, voglia di esagerare, il piacere senza sensi di colpa."
+      ],
+      [
+        "B",
+        "Questo mi piace di più, ha un tono simpatico, un po' ironico. Il suffisso fa subito pensare a una persona grande e bonaria, uno che si concede una coppetta in più. Però c'è un rischio."
+      ],
+      [
+        "A",
+        "Quale?"
+      ],
+      [
+        "B",
+        "Che qualcuno lo senta come una presa in giro. Sai, con tutta l'attenzione che c'è oggi sul peso, sulla linea… Se la cliente tipo si sente dare della golosona, magari se la prende."
+      ],
+      [
+        "A",
+        "Mah, secondo me è più affettuoso che offensivo. Comunque ti capisco. Il terzo è «Cremino», che però in alcune zone è già il nome di un cioccolatino, quindi forse no. E poi c'è la mia proposta preferita: «Freddino»."
+      ],
+      [
+        "B",
+        "Freddino? Non so. Suona un po' negativo, come quando dici «oggi fa freddino» e ti stringi nel cappotto."
+      ],
+      [
+        "A",
+        "Appunto! Il gioco è proprio quello: è il freddo piacevole, quello piccolo, che consola. Pensa a uno slogan tipo «Un freddino che scalda il cuore»."
+      ],
+      [
+        "B",
+        "Ecco, detta così comincia a funzionare. Il problema è che lo slogan lo devi spiegare, e un nome che ha bisogno delle istruzioni parte svantaggiato."
+      ],
+      [
+        "A",
+        "Allora facciamo così: nella lista finale lasciamo «Golosone» e «Freddino» e scartiamo «Nuvoletta» e «Cremino». D'accordo?"
+      ],
+      [
+        "B",
+        "D'accordo, ma aggiungerei un controllo. Prima di presentarli, verifichiamo che non esistano già marchi registrati con questi nomi, altrimenti ci facciamo una figuraccia."
+      ],
+      [
+        "A",
+        "Giustissimo, me ne occupo io domani mattina. E per le coppe? I Rossetti vogliono anche un nome per ogni formato."
+      ],
+      [
+        "B",
+        "Lì possiamo divertirci di più con gli alterati. Una coppa piccola può essere «la coccola», quella gigante «il coppone»… anzi no, coppone suona malissimo."
+      ],
+      [
+        "A",
+        "Suona quasi come un insulto, in effetti. E «coppetta» è troppo banale, la usano tutti. Ci penso stanotte e domani ti mando una proposta scritta."
+      ],
+      [
+        "B",
+        "Perfetto. Mandala anche alla direttrice, così venerdì la presentiamo ai clienti. E porta qualche campione di gelato, che aiuta sempre."
+      ]
+    ],
+    "gloss": {
+      "dare": "(si sente dare della golosona) le dicen golosa: *dare del / della* + adjetivo = tratar de",
+      "morbido": "suave, esponjoso",
+      "golosone": "golosazo",
+      "bonaria": "bonachona",
+      "coppetta": "vasito (de helado)",
+      "presa": "presa in giro: burla, cargada",
+      "stringi": "te acurrucás, te envolvés",
+      "scalda": "calienta",
+      "svantaggiato": "en desventaja",
+      "scartiamo": "descartamos",
+      "marchi": "marcas",
+      "figuraccia": "papelón",
+      "coccola": "mimo",
+      "campione": "muestra",
+      "tavolozza": "paleta (de colores)"
+    },
+    "questions": [
+      [
+        "Perché Andrea vuole sentire i nomi letti ad alta voce?",
+        [
+          "Perché non ha con sé gli occhiali",
+          "Perché per lui il suono di un nome è fondamentale",
+          "Perché vuole registrare la riunione",
+          "Perché la lista non è ancora stata stampata per tutti"
+        ],
+        "Perché per lui il suono di un nome è fondamentale"
+      ],
+      [
+        "Qual è il rischio di «Golosone», secondo Andrea?",
+        [
+          "Che sia difficile da pronunciare per i turisti",
+          "Che faccia pensare solo a una linea per bambini",
+          "Che qualche cliente lo senta come una presa in giro",
+          "Che esista già come nome di un cioccolatino"
+        ],
+        "Che qualche cliente lo senta come una presa in giro"
+      ],
+      [
+        "Perché viene scartato «Cremino»?",
+        [
+          "Perché in alcune zone indica già un dolce",
+          "Perché al cliente non piace la crema",
+          "Perché suona troppo simile a «Freddino»",
+          "Perché Andrea lo trova troppo infantile"
+        ],
+        "Perché in alcune zone indica già un dolce"
+      ],
+      [
+        "Che cosa pensa Andrea di «Freddino» alla fine della discussione?",
+        [
+          "Che è perfetto così com'è e non va toccato",
+          "Che è troppo simile a «Nuvoletta»",
+          "Che è offensivo per una parte dei clienti",
+          "Che funziona con lo slogan, ma va spiegato"
+        ],
+        "Che funziona con lo slogan, ma va spiegato"
+      ],
+      [
+        "Che cosa faranno prima di presentare i nomi ai clienti?",
+        [
+          "Un sondaggio tra i clienti della gelateria",
+          "Una prova di assaggio con i gusti nuovi",
+          "Un controllo sui marchi già registrati",
+          "Una riunione con i signori Rossetti"
+        ],
+        "Un controllo sui marchi già registrati"
+      ]
+    ],
+    "vf": [
+      [
+        "Il cliente vuole attirare anche un pubblico adulto.",
+        "vero"
+      ],
+      [
+        "Giulia considera «Golosone» un nome offensivo.",
+        "falso"
+      ],
+      [
+        "I Rossetti hanno già deciso i gusti della nuova linea.",
+        "non si dice"
+      ],
+      [
+        "La proposta sarà presentata ai clienti venerdì.",
+        "vero"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "relazione",
+    "title": "Relazione sulla riunione per il nome della linea di gelati",
+    "fonte": "ascolto",
+    "t": "Lavori nell'agenzia pubblicitaria di Giulia e Andrea e hai assistito alla riunione sul nome della nuova linea di gelati dei signori Rossetti. La direttrice, che non era presente, ti chiede una breve relazione scritta (222-282 parole, registro formale) in cui riassumi le proposte discusse con i loro vantaggi e svantaggi, spieghi quali nomi sono stati scartati e perché, indichi quale nome raccomandi tu motivando la scelta e ricordi i prossimi passi decisi.",
+    "es": "Informe interno formal para la directora: resumí las propuestas con pros y contras (fijate en qué aporta cada sufijo), decí qué se descartó y por qué, recomendá un nombre y cerrá con los próximos pasos.",
+    "min": 222,
+    "max": 282,
+    "punti": [
+      [
+        "resumir las propuestas",
+        [
+          "golosone",
+          "freddino",
+          "nuvoletta"
+        ]
+      ],
+      [
+        "explicar lo descartado y por qué",
+        [
+          "scartat",
+          "esclus"
+        ]
+      ],
+      [
+        "recomendar un nombre con argumentos",
+        [
+          "raccomand",
+          "consigli",
+          "propong"
+        ]
+      ],
+      [
+        "próximos pasos",
+        [
+          "marchi",
+          "registrat",
+          "venerdì",
+          "prossim"
+        ]
+      ]
+    ],
+    "model": "Oggetto: nome della nuova linea di gelati Rossetti\n\nGentile direttrice,\n\ndi seguito riassumo la riunione di ieri tra Giulia, copywriter, e Andrea, responsabile marketing, dedicata alla scelta del nome per la nuova linea di gelati dei signori Rossetti.\n\nGiulia ha presentato quattro proposte. «Nuvoletta», che evoca leggerezza e morbidezza, è stata giudicata graziosa ma troppo infantile per un cliente che vuole attirare anche un pubblico adulto. «Cremino» è stato scartato perché in alcune zone è già il nome di un cioccolatino. Restano quindi due candidati. «Golosone» ha un tono simpatico e ironico, e l'accrescitivo trasmette abbondanza e piacere; secondo Andrea, però, alcuni clienti potrebbero sentirlo come una presa in giro legata al peso. «Freddino», che Giulia interpreta come un «freddo piccolo e piacevole», è originale, ma rischia di sembrare negativo e funziona soprattutto accompagnato da uno slogan, come «Un freddino che scalda il cuore».\n\nPersonalmente raccomando «Freddino»: il diminutivo è affettuoso, non offende nessuno e si presta bene a una campagna costruita sul contrasto tra freddo e calore. Il fatto che richieda una spiegazione mi sembra un rischio accettabile, dato che il nome comparirebbe sempre insieme allo slogan.\n\nQuanto ai prossimi passi, Giulia verificherà che i due nomi non siano già marchi registrati e preparerà una proposta scritta per i nomi dei diversi formati di coppa. Il materiale Le sarà inviato in tempo per la presentazione ai clienti di venerdì.\n\nCordiali saluti,\nPaolo Neri",
+    "gloss": {
+      "graziosa": "linda, simpática",
+      "scartato": "descartado",
+      "una presa in giro": "una cargada, una burla",
+      "si presta bene a": "se presta bien para",
+      "marchi registrati": "marcas registradas",
+      "Quanto ai": "en cuanto a los",
+      "coppa": "vasito, copa (de helado)"
+    }
+  },
+  "breve": {
+    "title": "Piccolissimi, la nuova linea",
+    "genre": "pubblicità radiofonica",
+    "es": "La publicidad radial de una heladería que lanza helados en tamaño mini.",
+    "speaker": "Voce della pubblicità",
+    "voice": 1,
+    "text": [
+      "Una pausetta? Un momentino tutto per te? Da Gelateria Bianchi arriva «Piccolissimi»: la nuova linea di gelati in coppetta mini, quattro gusti in una sola vaschetta, per chi vuole assaggiare tutto senza esagerare.",
+      "Pistacchio di Bronte, nocciola del Piemonte, fragolina di bosco e il nostro famoso cioccolatone fondente, fatto con cacao al settanta per cento. Solo ingredienti naturali, senza coloranti.",
+      "E per i più golosi c'è il «Gelatone della domenica»: una coppa da mezzo chilo con panna e biscottini, da dividere in famiglia, a dodici euro.",
+      "Solo per il mese di giugno, presentando questo annuncio alla cassa, la seconda coppetta costa la metà. Gelateria Bianchi, in piazza Garibaldi, aperta tutti i giorni fino a mezzanotte. Piccoli gelati, grandi sorrisi."
+    ],
+    "tabella": [
+      ["Nome della nuova linea", "Piccolissimi", []],
+      ["Percentuale di cacao del cioccolato", "70", ["settanta", "70%", "settanta per cento"]],
+      ["Peso della coppa della domenica", "mezzo chilo", ["500 grammi", "mezzo kg", "0,5 kg", "500 g"]],
+      ["Prezzo della coppa della domenica (euro)", "12", ["dodici"]],
+      ["Ora di chiusura della gelateria", "mezzanotte", ["a mezzanotte", "24", "le 24", "fino a mezzanotte"]]
+    ],
+    "info": [
+      ["Nella coppetta mini ci sono quattro gusti.", true],
+      ["I gelati contengono coloranti.", false],
+      ["La coppa grande è pensata per una famiglia.", true],
+      ["L'offerta vale per tutta l'estate.", false],
+      ["Con l'annuncio la seconda coppetta costa la metà.", true],
+      ["La gelateria è chiusa la domenica.", false]
+    ],
+    "gloss": {
+      "vaschetta": "potecito",
+      "assaggiare": "probar",
+      "golosi": "golosos",
+      "cassa": "caja"
+    }
+  }
+}

@@ -1,0 +1,326 @@
+{
+ "week": 45,
+ "title": "Falsos amigos e heterossemânticos",
+ "level": "C1",
+ "revisado": {
+  "items": 48,
+  "bloques_teoria": 7,
+  "lecturas": 5,
+  "dictogloss": 1,
+  "suoni": 0,
+  "radio": 0,
+  "otros": 29
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana temática (falsos amigos, heterogenéricos, heterotónicos) con contenido léxico en general correcto y lecturas amenas y bien armadas. No hallé errores de portugués en ítems; los problemas reales son: un par heterogenérico mal elegido (legume/verdura), una frase confusa sobre «camiseta larga», respuestas válidas no aceptadas y distractores que se descartan por género o por ser españoles. Suoni, radio, laboratorio y duelos están vacíos pese a que el tema (heterotónicos) pide práctica oral. Nivel C1 discutible: los ítems son A2-B1. Tasa estimada de falsos positivos: ~20%.",
+ "bien": [
+  "Lectura del tramo (crónica) natural, humorística, con vocabulario de la semana bien contextualizado y preguntas de comprensión inferencial válidas",
+  "Lección con tablas de dos columnas «Significa / Para lo español decí» y advertencias claras sobre el error típico del hispanohablante",
+  "Ejercicios con notas explicativas útiles en casi todos los ítems; buena variedad de tipos (choice, cloze, translate, fixerr, garden, combina)",
+  "Dictogloss y ascolto (programa de radio) pertinentes y con contenido correcto; la carta modelo cumple el rango 216-276 palabras (247)",
+  "Coherencia léxica entre lección, ítems, vocabulario y lecturas (esquisito, polvo, borracha, apelido, oficina/escritório)"
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:5",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "o legume (la verdura)",
+   "propuesta": "Reemplazar la fila por un heterogenérico real, p. ej. «o champanhe (el champán)» o «o dó (la lástima)», o aclarar «o legume = la legumbre»",
+   "motivo": "«verdura» es otra palabra; el heterogenérico real es legume/legumbre (m./f.), no legume/verdura"
+  },
+  {
+   "id": "tramo:lettura",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Uma camiseta larga, em português, é folgada, não comprida; uma avenida larga é uma avenida ampla.",
+   "propuesta": "Uma camiseta «larga» (no sentido espanhol de longa) em português é comprida; camiseta larga em português já quer dizer folgada. Ex.: «Uma camiseta folgada é a que não aperta; a que tem o corpo longo é comprida.»",
+   "motivo": "«camiseta larga» es portugués correcto (= holgada); la frase presenta como falso amigo algo que no lo es y es confusa"
+  },
+  {
+   "id": "vocab:folgado",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Uma camiseta larga, em português, é uma camiseta folgada.",
+   "propuesta": "Uma camiseta folgada não aperta o corpo (larga também se diz, mas é a mesma ideia).",
+   "motivo": "en pt-BR «camiseta larga» es normal; la frase da a entender que es incorrecto"
+  },
+  {
+   "id": "vocab:caprichar",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Resolvi caprichar no português: «Que comida exquisita!».",
+   "propuesta": "Resolvi caprichar no português: «Que comida esquisita!».",
+   "motivo": "en una frase en portugués aparece la grafía española «exquisita»; el tramo cuenta que dijo «esquisita»"
+  },
+  {
+   "id": "s4-45-09",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Deixei o carro na ___ para trocar o óleo.",
+   "propuesta": "Usar el hueco sin artículo con marca de género (p. ej. «Levei o carro para a ___» sigue filtrando); alternativa: «Deixei o carro em/no… » o hacer que los 3 distractores sean femeninos (oficina / garagem / empresa)",
+   "motivo": "«na» elimina por género «escritório» y «ofício»; se acierta sin conocer el falso amigo"
+  },
+  {
+   "id": "lesson:4:q",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Meu pai trabalha num ___ em Botafogo.",
+   "propuesta": "Dar opciones del mismo género (escritório, consultório, ofício) o incluir «oficina» con «numa»",
+   "motivo": "«num» descarta «oficina» por género; el distractor útil (el falso amigo) no funciona"
+  },
+  {
+   "id": "s4-45-33",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "O feijão da minha avó é delicioso!",
+   "propuesta": "Agregar a accept: «O feijão da minha avó é gostoso!», «…é uma delícia!»",
+   "motivo": "«gostoso» es igual de correcto y la propia lección lo da («delicioso, gostoso»)"
+  },
+  {
+   "id": "s4-45-22",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "comprida",
+   "propuesta": "Agregar a accept «longa» (el ítem 31 sí la acepta)",
+   "motivo": "«A ponte Rio-Niterói é muito longa» es igual de natural; inconsistente con s4-45-31"
+  },
+  {
+   "id": "s4-45-27",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "A rua é larga e comprida.",
+   "propuesta": "Agregar accept: «A rua é comprida e larga», «A rua é larga e longa» (sin punto final)",
+   "motivo": "orden inverso y «longa» son respuestas naturales no aceptadas"
+  },
+  {
+   "id": "s4-45-29",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Vou ao escritório de metrô.",
+   "propuesta": "Agregar accept: «Vou de metrô ao escritório», «Vou de metrô para o escritório», «Vou de metrô pro escritório», «Vou ao escritório no metrô»",
+   "motivo": "orden del complemento libre; en pt-BR «vou no metrô» también se oye"
+  },
+  {
+   "id": "s4-45-25",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "A comida era esquisita, não deliciosa.",
+   "propuesta": "Agregar accept: «A comida era rara, não deliciosa», «…não gostosa», «A comida estava esquisita, não gostosa»",
+   "motivo": "«rara» y «gostosa» son equivalentes naturales"
+  },
+  {
+   "id": "s4-45-15",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "contestou",
+   "propuesta": "Agregar accept «impugnou» (y «questionou» si se quiere)",
+   "motivo": "la pista dice «cuestionar» y la lección da «cuestionar, impugnar»; «impugnou a multa» es incluso más usual"
+  },
+  {
+   "id": "s4-45-16",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "roxo",
+   "propuesta": "Agregar accept «violeta»",
+   "motivo": "la pista en español es «violeta» y «cabelo violeta» es correcto"
+  },
+  {
+   "id": "s4-45-34",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Trabalho numa oficina de advocacia em Botafogo.",
+   "propuesta": "Aclarar la consigna: «corrija la palabra y lo que concuerda con ella (numa → num)» o cambiar la frase a «Trabalho em uma oficina…»",
+   "motivo": "hay que corregir dos palabras (oficina y numa) pero la consigna pide tocar una"
+  },
+  {
+   "id": "s4-45-43",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "*Puxar* no se parece a «pujar».",
+   "propuesta": "*Puxar* se parece a «pujar» (y por eso engaña): puxar = tirar hacia uno; empujar = empurrar.",
+   "motivo": "«pujar» sí existe y se parece formalmente a «puxar»; la nota dice lo contrario o es confusa"
+  },
+  {
+   "id": "s4-45-12",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Los sustantivos en -agem son femeninos: a viagem longa.",
+   "propuesta": "Casi todos los sustantivos en -agem son femeninos (a viagem, a imagem, a coragem); excepciones: o personagem, o pajem.",
+   "motivo": "generalización con excepciones conocidas"
+  },
+  {
+   "id": "s4-45-39",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Los sustantivos en -agem son femeninos: a viagem.",
+   "propuesta": "Casi todos los sustantivos en -agem son femeninos: a viagem.",
+   "motivo": "idem, regla absoluta falsa por «o personagem»"
+  },
+  {
+   "id": "s4-45-37",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "la leche → ___",
+   "propuesta": "Verificar que la interfaz muestre los tres ejemplos previos; si no, el ítem no es un «garden path» y 37-39 son simples traducciones",
+   "motivo": "en el dossier no aparecen los «tres exemplos» que menciona la consigna (idem 38 y 39)"
+  },
+  {
+   "id": "s4-45-40",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "¿Qué pasa con estos sustantivos?",
+   "propuesta": "Incluir en el ítem las frases a observar (la consigna dice «Leia as frases»)",
+   "motivo": "sin las frases no se puede «descubrir» la regla; además los distractores son absurdos"
+  },
+  {
+   "id": "s4-45-41",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Son todas palabras de origen tupí.",
+   "propuesta": "Reemplazar por un distractor plausible: «Se escriben con tilde en portugués y sin tilde en español» / «Cambian de género respecto del español»",
+   "motivo": "distractor absurdo: se descarta sin pensar en la regla; la opción correcta es la única larga y específica"
+  },
+  {
+   "id": "s4-45-04",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "ancha",
+   "propuesta": "Reemplazar «ancha» por un distractor portugués plausible (p. ej. «amplia» o «grande»)",
+   "motivo": "«ancha» es español y se descarta de inmediato; lo mismo «pulpo», «goma», «rubia», «postre», «exquisito» (s4-45-01/02/03/05/10)"
+  },
+  {
+   "id": "s4-45-17",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Trabalho num ___ (oficina) no Centro.",
+   "propuesta": "Quitar la pista «(oficina)» o poner «(lugar de trabajo con computadoras)»",
+   "motivo": "la glosa en español induce a escribir la palabra falsa; y duplica el ítem lesson ex. «Trabalho num escritório no Centro» y s4-45-34"
+  },
+  {
+   "id": "s4-45-26",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Mi apellido es Silva y mi apodo, Tuca.",
+   "propuesta": "Mantener solo uno entre este y lesson:0 (q «Mi apellido es Pereira», s4-45-13)",
+   "motivo": "apelido/sobrenome se practica 4 veces de forma casi idéntica"
+  },
+  {
+   "id": "lettura w-45",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Oswald e Tarsila se conheceram em Paris.",
+   "propuesta": "Cambiar el v/f a una afirmación realmente «não se diz» (p. ej. «Tarsila pintou o Abaporu em 1928.» ya está en el texto → usar «Oswald nasceu em São Paulo.»)",
+   "motivo": "históricamente se conocieron en São Paulo (1922); un alumno informado marcará «falso», no «não se diz»"
+  },
+  {
+   "id": "lettura w-45",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "brincadeira",
+   "propuesta": "Quitar «brincadeira» de los targets o cambiarlo por «brincar» (que sí es falso amigo, brincar = saltar)",
+   "motivo": "«brincadeira» no es falso amigo (no hay palabra española igual); la consigna pide palabras que en español significan otra cosa"
+  },
+  {
+   "id": "lecturas:c-darcy",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "argumentação e condicional",
+   "propuesta": "Revisar el vínculo con la semana: la lectura de Cultura no practica léxico traicionero",
+   "motivo": "grammar declarado no coincide con el foco de la semana (ok si la serie Cultura es transversal)"
+  },
+  {
+   "id": "tramo:lettura",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "pegadinhas: trampitas, cáscaras de banana",
+   "propuesta": "pegadinhas: trampas, jugarretas, cámara oculta",
+   "motivo": "«cáscaras de banana» es una glosa incorrecta/forzada de «pegadinha»"
+  },
+  {
+   "id": "lesson:1",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "*engraçado* es gracioso (que da risa).",
+   "propuesta": "Quitar «engraçado» de «Adjetivos que engañan» o aclarar que NO es falso amigo (es equivalente)",
+   "motivo": "no engaña a un hispanohablante; diluye la lista de palabras peligrosas"
+  },
+  {
+   "id": "vocab:o cachorro",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Falso amigo: perro adulto. El cachorro es *filhote*.",
+   "propuesta": "Falso amigo: en español «cachorro» es la cría; en pt-BR «cachorro» es cualquier perro (la cría es *filhote* o *cachorrinho*).",
+   "motivo": "«perro adulto» es impreciso; cachorro en Brasil también se usa para el cachorrito"
+  },
+  {
+   "id": "s4-45-02",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "No Mercado do Bolhão, no Porto, comprei ___ para o almoço.",
+   "propuesta": "No Mercado Municipal de São Paulo, comprei ___ para o almoço.",
+   "motivo": "contexto europeo en un curso de pt-BR (además de «polvo à lagareiro» en el vocabulario)"
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Completar suoni/radio/laboratorio/duelos (hoy vacíos): pares mínimos de acento (academia/academía, polícia/policía, nível, limite) y reglas puente de género",
+   "por_que": "los heterotónicos son un fenómeno oral y no hay práctica auditiva ni de pronunciación"
+  },
+  {
+   "prioridad": "alta",
+   "que": "Rediseñar distractores: evitar opciones españolas obvias (pulpo, ancha, exquisito, rubia, goma) y pistas de género/artículo; usar opciones portuguesas plausibles",
+   "por_que": "los 14 choice se resuelven descartando el español o por concordancia, sin conocer el falso amigo"
+  },
+  {
+   "prioridad": "alta",
+   "que": "Ampliar accept en traducciones y cloze (gostoso, longa, rara, impugnou, violeta, orden de palabras)",
+   "por_que": "varias respuestas naturales hoy se marcarían como erróneas"
+  },
+  {
+   "prioridad": "media",
+   "que": "Equilibrar cobertura: heterotónicos solo practican academia y polícia (nível, alergia, limite, oxigênio, anemia sin ítems); tirar, acordar, grato, cadastro, engraçado sin práctica; heterogenéricos con 14 ítems",
+   "por_que": "hay puntos enseñados sin ejercicio y otros sobreentrenados"
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir duplicados: esquisito (~6 ítems), larga/comprida (4 y 27 más 22 y 31 con la ponte), escritório (17, 34, 45), apelido/sobrenome (4 ítems)",
+   "por_que": "repetición casi idéntica en vez de producción nueva"
+  },
+  {
+   "prioridad": "media",
+   "que": "Revisar nivel/progresión: lo central (leite/dor, copo/taça) es A2-B1; para C1 sumar falsos amigos de registro y matiz (pegadinha, folgado, caprichar), producción libre y contraste de colocaciones",
+   "por_que": "el nivel declarado C1 no corresponde a la dificultad de los ítems"
+  },
+  {
+   "prioridad": "media",
+   "que": "Poner en los ítems garden/scopri los ejemplos/frases a observar y limitar la consigna a lo mostrado",
+   "por_que": "sin ellos la mecánica de descubrimiento no funciona"
+  },
+  {
+   "prioridad": "baja",
+   "que": "Agregar más producción libre (typed solo 2 ítems) y un ítem sobre «propina/gorjeta» y «presunto/suposto», vistos en lectura/vocab pero sin ítem propio",
+   "por_que": "pasar de reconocimiento a producción"
+  },
+  {
+   "prioridad": "baja",
+   "que": "Anclar contextos al Brasil (mercado de São Paulo en vez de Porto)",
+   "por_que": "coherencia con pt-BR"
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

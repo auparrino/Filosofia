@@ -1,0 +1,50 @@
+{
+ "week": 25,
+ "level": "B1",
+ "title": "Quem é quem no Calçadão",
+ "genre": "programa de fim de temporada",
+ "es": "Último programa de la temporada. Para despedirse, Nanda y Téo juegan a «¿Quién es quién?»: describen a la gente del barrio sin decir el nombre y el otro tiene que adivinar.",
+ "speakers": ["Nanda", "Téo"],
+ "turns": [
+  ["A", "Bom dia! Este é o último programa da temporada, e para fechar a gente vai jogar «Quem é quem». Eu descrevo uma pessoa do bairro e o Téo adivinha. Pronto, Téo?"],
+  ["B", "Pronto! Pode começar."],
+  ["A", "É uma senhora que mora num sobrado antigo, cuja varanda está sempre cheia de plantas. É a pessoa com quem a gente fala quase todo dia, e que lembra de tudo: do bonde, das brincadeiras, das festas."],
+  ["B", "Fácil: a Dona Lúcia! Agora eu. É um sujeito magrelo, de boné, que anda de bicicleta por toda a cidade. É o repórter para quem eu dou as notícias do trânsito."],
+  ["A", "O Caio! Ele é muito gente boa. Próximo: é uma moça argentina que chegou ao Rio no ano passado, cujo português melhora a cada semana, e que sempre chega atrasada."],
+  ["B", "A Sofía, claro! Ela é fofa. Agora um difícil: é o homem que tem uma barraca no calçadão, onde vende mate e biscoito. É o sujeito ao qual todo mundo pede informação."],
+  ["A", "O seu Tião! Mas ele não é o porteiro do prédio da esquina?"],
+  ["B", "Não, o porteiro é o irmão dele, que trabalha na portaria à noite. O seu Tião é o da barraca."],
+  ["A", "Ah, tá! E o último: é um paulista que veio para o Rio há um ano, que carrega um estojo cheio de trecos na mochila, que compara tudo com São Paulo, mas que já fala «biscoito» e não «bolacha»."],
+  ["B", "Ei, sou eu! Mas eu não sou metido, hein?"],
+  ["A", "Não é metido, não. É o colega com quem eu mais gosto de trabalhar."],
+  ["B", "Que fofa! E você é a locutora sem a qual esta rádio não existe."],
+  ["A", "Obrigada, Téo. Ouvintes, obrigada por esta temporada: vocês são as pessoas para quem a gente faz este programa. Até a próxima!"],
+  ["B", "Tchau, Botafogo! Um beijo para todo mundo que escuta a Rádio Calçadão."]
+ ],
+ "gloss": {
+  "temporada": "temporada",
+  "fechar": "cerrar",
+  "adivinha": "adivina",
+  "plantas": "plantas",
+  "brincadeiras": "juegos",
+  "melhora": "mejora",
+  "mate": "mate helado (bebida típica de la playa)",
+  "biscoito": "galletita",
+  "bolacha": "galletita (en São Paulo)",
+  "Ei": "¡eh!",
+  "locutora": "locutora",
+  "ouvintes": "oyentes"
+ },
+ "questions": [
+  ["Como é a casa da Dona Lúcia?", ["Um apartamento pequeno", "Um sobrado antigo com uma varanda cheia de plantas", "Uma barraca no calçadão", "Uma casa nova com quintal"], "Um sobrado antigo com uma varanda cheia de plantas"],
+  ["Quem é o seu Tião?", ["O porteiro do prédio da esquina", "O homem da barraca do calçadão", "O irmão do Caio", "Um repórter da rádio"], "O homem da barraca do calçadão"],
+  ["O que mostra que o Téo já é um pouco carioca?", ["Ele anda de bicicleta", "Ele já diz «biscoito» e não «bolacha»", "Ele não compara mais nada com a cidade de São Paulo", "Ele usa boné"], "Ele já diz «biscoito» e não «bolacha»"]
+ ],
+ "info": [
+  ["A Sofía sempre chega atrasada.", true],
+  ["O porteiro da esquina é o irmão do seu Tião.", true],
+  ["A Nanda acha que o Téo é metido.", false]
+ ],
+ "grammatica": {"label": "los relativos: que, quem (con preposición), onde, cujo, o qual", "forme": ["uma senhora que mora", "cuja varanda", "com quem a gente fala", "um sujeito magrelo, de boné, que anda", "para quem eu dou", "cujo português", "onde vende", "ao qual todo mundo pede", "que trabalha", "com quem eu mais gosto", "sem a qual", "para quem a gente faz", "que escuta"]},
+ "parole": [["sobrado", "sobrado"], ["varanda", "varanda"], ["sujeito", "sujeito"], ["magrelo", "magrelo"], ["boné", "boné"], ["gente boa", "gente boa"], ["fofa", "fofo"], ["barraca", "barraca"], ["calçadão", "calçadão"], ["porteiro", "o porteiro"], ["portaria", "a portaria"], ["estojo", "estojo"], ["trecos", "treco"], ["metido", "metido"]]
+}

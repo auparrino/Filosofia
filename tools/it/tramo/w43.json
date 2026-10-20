@@ -1,0 +1,371 @@
+{
+  "week": 43,
+  "level": "B2+",
+  "lettura": {
+    "title": "Il cioccolato fa dimagrire? Istruzioni per leggere una notizia scientifica",
+    "emoji": "🔬",
+    "genre": "articolo divulgativo",
+    "grammar": "l'infinito (soggetto, istruzioni, subordinate)",
+    "text": "«Mangiare cioccolato ogni giorno aiuta a perdere peso.» Un titolo così, quando compare sul telefono, è difficile da ignorare. Condividerlo richiede un secondo; verificarlo, molto di più. Eppure saper distinguere una scoperta seria da una notizia gonfiata è diventata, in pochi anni, una competenza quasi indispensabile, come saper leggere un'etichetta al supermercato o un contratto d'affitto. La lettura frettolosa, mentre si aspetta l'autobus o si scorre una bacheca, rende tutto ancora più difficile: si tende a fidarsi di ciò che conferma quello che si pensava già, e a scartare il resto.\n\nIl problema non riguarda soltanto le bufale costruite ad arte. Molto più spesso si parte da uno studio vero, magari pubblicato su una rivista rispettabile, e lo si semplifica passaggio dopo passaggio: il comunicato stampa dell'università esagera un po', il primo sito che lo riprende esagera ancora, e alla fine il titolo dice una cosa che i ricercatori non si sono mai sognati di affermare. Chiedere agli autori che cosa pensino dei titoli sui loro lavori è un esercizio istruttivo: molti allargano le braccia, rassegnati.\n\nPer non cadere nella trappola non serve essere scienziati. Basta prendere l'abitudine di porsi qualche domanda prima di credere a ciò che si legge. Ecco una piccola guida, da tenere a portata di mano.\n\nPrimo: non fermarsi al titolo. Leggere l'articolo fino in fondo, cercando il nome della rivista e degli autori. Se non vengono citati, è già un segnale d'allarme.\n\nSecondo: controllare su chi è stato fatto lo studio. Molte ricerche iniziali si fanno su topi o su cellule in laboratorio. Scoprire che una sostanza ha un effetto su un topo è un risultato interessante, ma pensare che valga automaticamente per le persone è un salto enorme.\n\nTerzo: guardare i numeri. Uno studio condotto su venti volontari per due settimane non ha lo stesso peso di uno condotto su migliaia di persone per dieci anni. Non occorre saper calcolare le statistiche: basta domandarsi se il campione è abbastanza grande e se il periodo è abbastanza lungo per giustificare le conclusioni.\n\nQuarto: non confondere la correlazione con la causa. Osservare che chi mangia più cioccolato pesa meno non significa aver dimostrato che il cioccolato fa dimagrire. Potrebbe valere il contrario, oppure potrebbe esserci un terzo fattore: per esempio, chi fa più sport può concedersi qualche dolce in più senza ingrassare.\n\nQuinto: chiedersi chi ha pagato. Essere finanziati da un'azienda non rende automaticamente falsa una ricerca, ma è un'informazione che il lettore ha il diritto di conoscere. Una ricerca sui benefici del cioccolato finanziata da un produttore di dolciumi merita un supplemento di prudenza.\n\nSesto: aspettare. La scienza procede per conferme. Un singolo studio, per quanto brillante, è un indizio, non una prova. Prima di cambiare dieta, abitudini o convinzioni, conviene vedere se altri gruppi di ricerca, lavorando in modo indipendente, arrivano agli stessi risultati.\n\nSettimo: diffidare delle parole magiche. Termini come «svolta», «miracoloso», «definitivo» o «gli scienziati confermano» dovrebbero far suonare un campanello. Nella ricerca vera le conclusioni sono quasi sempre prudenti, piene di «potrebbe», «sembra», «nel campione analizzato». Trovare nel titolo una certezza che nello studio non c'è significa aver già individuato il punto in cui la notizia è stata gonfiata.\n\nSeguire queste regole non vuol dire diventare diffidenti verso la scienza. Anzi: significa prenderla sul serio, rispettandone i tempi e i limiti. Chi ha imparato a dubitare di un titolo sensazionale è anche chi, davanti a un consenso scientifico solido, per esempio sull'efficacia dei vaccini o sul cambiamento climatico, sa riconoscerne il valore invece di considerarlo un'opinione fra tante.\n\nResta una responsabilità che non si può scaricare interamente sui lettori. Scrivere di scienza con correttezza significa, per i giornalisti, rinunciare a volte al titolo più cliccato; per i ricercatori, accettare di spiegare il proprio lavoro con parole semplici senza gonfiarlo; per le università, evitare comunicati stampa che promettono miracoli. Informare bene costa fatica a tutti. Informare male, però, costa molto di più, perché a pagare il prezzo della confusione sono proprio le persone che cercavano una risposta.\n\nE il cioccolato? Mangiarne un quadratino dopo pranzo resta uno dei piccoli piaceri della vita. Aspettarsi che ci faccia dimagrire, per ora, no.",
+    "gloss": {
+      "pagare": "(a pagare il prezzo... sono...) los que pagan el precio son...: *essere* + *a* + infinitivo (semana 48)",
+      "dimagrire": "adelgazar",
+      "gonfiata": "inflada, exagerada",
+      "etichetta": "etiqueta",
+      "bufale": "noticias falsas",
+      "arte": "(ad arte) a propósito, deliberadamente",
+      "rivista": "revista",
+      "comunicato": "comunicado",
+      "sognati": "(non si sono mai sognati) ni se les ocurrió",
+      "allargano": "abren (allargare le braccia: encogerse de hombros)",
+      "rassegnati": "resignados",
+      "trappola": "trampa",
+      "portata": "(a portata di mano) a mano",
+      "topi": "ratones",
+      "salto": "salto",
+      "campione": "muestra",
+      "correlazione": "correlación",
+      "ingrassare": "engordar",
+      "finanziati": "financiados",
+      "dolciumi": "golosinas",
+      "supplemento": "extra, dosis adicional",
+      "indizio": "indicio",
+      "diffidenti": "desconfiados",
+      "consenso": "consenso",
+      "scaricare": "descargar, echar (la responsabilidad)",
+      "cliccato": "con más clics",
+      "quadratino": "cuadradito",
+      "bacheca": "muro, feed (de una red social)",
+      "svolta": "giro, avance decisivo",
+      "campanello": "timbre (far suonare un campanello: encender una alarma)"
+    },
+    "questions": [
+      [
+        "Qual è lo scopo principale dell'articolo?",
+        [
+          "Dimostrare che il cioccolato fa bene alla salute",
+          "Insegnare a valutare le notizie scientifiche",
+          "Denunciare le università che pubblicano studi falsi",
+          "Spiegare come si scrive un articolo scientifico"
+        ],
+        "Insegnare a valutare le notizie scientifiche"
+      ],
+      [
+        "Secondo l'autore, come nasce spesso una notizia scientifica esagerata?",
+        [
+          "Da ricercatori che inventano i dati",
+          "Da siti che copiano notizie straniere",
+          "Da una serie di semplificazioni di uno studio vero",
+          "Da lettori che non leggono gli articoli"
+        ],
+        "Da una serie di semplificazioni di uno studio vero"
+      ],
+      [
+        "Perché uno studio sui topi non basta, secondo il testo?",
+        [
+          "Perché i topi mangiano troppo cioccolato",
+          "Perché gli studi sugli animali sono ormai vietati",
+          "Perché l'effetto può non valere per gli umani",
+          "Perché i topi vivono troppo poco"
+        ],
+        "Perché l'effetto può non valere per gli umani"
+      ],
+      [
+        "Nell'esempio del cioccolato, quale potrebbe essere il «terzo fattore»?",
+        [
+          "Lo sport praticato da chi mangia dolci",
+          "La qualità del cioccolato consumato ogni giorno",
+          "L'età dei volontari dello studio",
+          "Il finanziamento di un'azienda"
+        ],
+        "Lo sport praticato da chi mangia dolci"
+      ],
+      [
+        "Qual è la posizione dell'autore nei confronti della scienza?",
+        [
+          "È scettico e invita a non fidarsi degli scienziati",
+          "Pensa che debba occuparsene solo chi l'ha studiata",
+          "Crede che ogni studio vada preso come una verità",
+          "Ne ha fiducia, ma chiede di rispettarne tempi e limiti"
+        ],
+        "Ne ha fiducia, ma chiede di rispettarne tempi e limiti"
+      ]
+    ],
+    "vf": [
+      [
+        "Secondo l'autore, uno studio finanziato da un'azienda è sempre falso.",
+        "falso"
+      ],
+      [
+        "Per l'autore, un singolo studio è un indizio e non una prova.",
+        "vero"
+      ],
+      [
+        "L'autore ha partecipato come volontario a uno studio sul cioccolato.",
+        "non si dice"
+      ],
+      [
+        "Secondo l'articolo, per giudicare uno studio bisogna essere esperti di statistica.",
+        "falso"
+      ],
+      [
+        "L'autore attribuisce una parte di responsabilità anche ai giornalisti e alle università.",
+        "vero"
+      ]
+    ],
+    "hunt": {
+      "label": "Tocá los infinitivos que funcionan como sujeto de la oración (también después de basta, serve, occorre, conviene)",
+      "targets": ["mangiare", "condividerlo", "verificarlo", "saper", "chiedere", "essere", "prendere", "scoprire", "pensare", "domandarsi", "osservare", "vedere", "trovare", "seguire", "scrivere", "informare", "mangiarne", "aspettarsi"]
+    }
+  },
+  "ascolto": {
+    "title": "Un sensore sul balcone",
+    "genre": "conferenza con domande del pubblico",
+    "es": "Al final de una charla pública, una investigadora responde las preguntas de un vecino sobre un proyecto en el que los ciudadanos miden la calidad del aire.",
+    "speakers": [
+      "Irene Monti, ricercatrice",
+      "Stefano, dal pubblico"
+    ],
+    "turns": [
+      [
+        "A",
+        "E con questo arrivo all'ultima parte della presentazione. Riassumendo: misurare l'aria che respiriamo non è più un compito riservato alle stazioni ufficiali. Con un sensore da pochi euro, installato su un balcone, anche un cittadino può raccogliere dati utili. Ecco, ora lascio spazio alle domande. Sì, prego, il signore in terza fila."
+      ],
+      [
+        "B",
+        "Buonasera, grazie. Io sono uno di quelli che hanno letto il volantino e si sono chiesti: ma serve davvero? Voglio dire, un sensore che costa come una pizza può essere preciso quanto una centralina da migliaia di euro?"
+      ],
+      [
+        "A",
+        "Domanda giustissima, e la risposta è no. Cioè, un singolo sensore economico è meno preciso, questo va detto chiaramente. Però il punto non è sostituire le centraline ufficiali, è completarle. In città le centraline sono poche, e misurano l'aria in pochi punti. Avere trecento sensori sparsi nei quartieri ci permette di vedere differenze che altrimenti resterebbero invisibili: la via stretta con il traffico, il cortile della scuola, il parco."
+      ],
+      [
+        "B",
+        "E come fate a fidarvi dei dati, se i sensori sono imprecisi?"
+      ],
+      [
+        "A",
+        "Allora, prima di distribuirli, li mettiamo tutti per qualche settimana accanto a una centralina ufficiale, per calibrarli. In pratica confrontiamo le loro misure con quelle della centralina e correggiamo gli errori sistematici. Poi, una volta installati, usiamo degli algoritmi per scartare i valori anomali. Sbagliare un singolo dato è normale; sbagliare trecento dati nello stesso modo è molto più difficile."
+      ],
+      [
+        "B",
+        "Capito. E per partecipare che cosa bisogna fare, concretamente? Io non sono molto tecnologico, lo confesso."
+      ],
+      [
+        "A",
+        "Nessun problema, il progetto è pensato proprio per chi non lo è. Partecipare è semplice: basta iscriversi sul sito, ritirare il sensore in biblioteca e seguire le istruzioni del foglietto. Le regole principali sono tre. Primo, installarlo all'aperto, ad almeno un metro e mezzo da terra. Secondo, non metterlo vicino alla caldaia, al barbecue o alla finestra della cucina, altrimenti misura la sua cena invece dell'aria del quartiere. Terzo, lasciarlo sempre acceso e collegato al wifi."
+      ],
+      [
+        "B",
+        "E i dati poi chi li vede? Non vorrei ritrovarmi con informazioni su casa mia in giro per internet."
+      ],
+      [
+        "A",
+        "I dati sono pubblici, ma la posizione viene resa approssimativa: sulla mappa appare il quartiere, non il suo indirizzo. E naturalmente può ritirarsi dal progetto quando vuole, senza dover dare spiegazioni."
+      ],
+      [
+        "B",
+        "Un'ultima cosa. Supponiamo che il mio sensore trovi valori alti. Che cosa succede? Serve a qualcosa saperlo?"
+      ],
+      [
+        "A",
+        "Serve, eccome. Intanto, conoscere il problema è il primo passo per affrontarlo. In progetti simili, i dati raccolti dai cittadini sono stati usati per chiedere più alberi, zone a traffico limitato davanti alle scuole, nuove piste ciclabili. Non sempre ci si riesce, ovviamente. Però presentarsi a un'assemblea con dei numeri, invece che solo con delle impressioni, cambia parecchio la discussione."
+      ],
+      [
+        "B",
+        "Mi ha convinto. Dove si ritirano, in biblioteca?"
+      ],
+      [
+        "A",
+        "Esatto, alla biblioteca centrale, dal lunedì al venerdì. E grazie a lei per le domande: erano proprio quelle che speravo di ricevere."
+      ]
+    ],
+    "gloss": {
+      "fate": "(come fate a fidarvi?) ¿cómo hacen para confiar?: *fare a* + infinitivo",
+      "volantino": "volante, folleto",
+      "centralina": "estación de monitoreo",
+      "sparsi": "distribuidos, esparcidos",
+      "cortile": "patio",
+      "calibrarli": "calibrarlos",
+      "scartare": "descartar",
+      "anomali": "anómalos",
+      "foglietto": "papelito, instructivo",
+      "caldaia": "caldera",
+      "approssimativa": "aproximada",
+      "ritirarsi": "retirarse, darse de baja",
+      "eccome": "¡y cómo!, claro que sí",
+      "ciclabili": "(piste ciclabili) bicisendas"
+    },
+    "questions": [
+      [
+        "Che cosa preoccupa all'inizio il partecipante?",
+        [
+          "Il costo elevato dei sensori",
+          "La precisione di sensori così economici",
+          "La difficoltà di trovare la biblioteca giusta",
+          "Il rumore prodotto dal dispositivo"
+        ],
+        "La precisione di sensori così economici"
+      ],
+      [
+        "Secondo la ricercatrice, qual è il vero vantaggio dei sensori dei cittadini?",
+        [
+          "Sostituire del tutto le centraline ufficiali",
+          "Mostrare differenze tra zone vicine della città",
+          "Ridurre i costi della ricerca universitaria",
+          "Controllare le emissioni di ogni singola abitazione"
+        ],
+        "Mostrare differenze tra zone vicine della città"
+      ],
+      [
+        "A che cosa serve lasciare i sensori accanto a una centralina ufficiale?",
+        [
+          "A proteggerli dalla pioggia e dal vento",
+          "A verificare che il wifi funzioni bene",
+          "A mostrare ai cittadini come si usano",
+          "A calibrarli correggendo gli errori sistematici"
+        ],
+        "A calibrarli correggendo gli errori sistematici"
+      ],
+      [
+        "Perché la ricercatrice dice che il sensore potrebbe misurare «la sua cena»?",
+        [
+          "Per spiegare, con una battuta, dove non installarlo",
+          "Per dire che il sensore rileva anche gli odori di casa",
+          "Perché il sensore va messo in cucina",
+          "Perché i dati includono le abitudini alimentari"
+        ],
+        "Per spiegare, con una battuta, dove non installarlo"
+      ],
+      [
+        "Come viene protetta la privacy dei partecipanti?",
+        [
+          "I dati non vengono mai pubblicati",
+          "Ogni sensore ha una password personale",
+          "Sulla mappa compare solo il quartiere",
+          "I dati vengono cancellati ogni mese"
+        ],
+        "Sulla mappa compare solo il quartiere"
+      ]
+    ],
+    "vf": [
+      [
+        "I sensori si ritirano alla biblioteca centrale.",
+        "vero"
+      ],
+      [
+        "Il partecipante si definisce un esperto di tecnologia.",
+        "falso"
+      ],
+      [
+        "Il progetto è finanziato dal Comune.",
+        "non si dice"
+      ],
+      [
+        "Chi partecipa può lasciare il progetto quando vuole.",
+        "vero"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "saggio",
+    "title": "Cittadini e scienza",
+    "fonte": "entrambi",
+    "t": "Hai letto l'articolo «Il cioccolato fa dimagrire? Istruzioni per leggere una notizia scientifica» e hai ascoltato la conferenza sui sensori per misurare la qualità dell'aria. Scrivi un breve saggio per la rivista della tua università sul tema: «I cittadini comuni possono partecipare alla scienza?». Presenta una tesi, sostienila con argomenti tratti dal testo e dall'audio, considera almeno un limite o un'obiezione e scrivi una conclusione. Dai un titolo al saggio. Registro formale, da 205 a 265 parole.",
+    "es": "Ensayo argumentativo con título, tesis, argumentos de las dos fuentes, una objeción y conclusión. Aprovechá el infinitivo como sujeto (Imparare a…, Raccogliere dati…) y en subordinadas (prima di, senza, per).",
+    "min": 205,
+    "max": 265,
+    "punti": [
+      [
+        "plantear una tesis clara",
+        [
+          "a mio avviso",
+          "ritengo",
+          "credo",
+          "sostengo",
+          "secondo me"
+        ]
+      ],
+      [
+        "argumentar con la lectura",
+        [
+          "titolo",
+          "studio",
+          "articolo",
+          "notizi"
+        ]
+      ],
+      [
+        "argumentar con la conferencia",
+        [
+          "sensor",
+          "aria",
+          "centralin"
+        ]
+      ],
+      [
+        "reconocer un límite u objeción",
+        [
+          "tuttavia",
+          "limiti",
+          "rischi",
+          "obiezione"
+        ]
+      ],
+      [
+        "cerrar con una conclusión",
+        [
+          "in conclusione",
+          "per concludere",
+          "insomma",
+          "concludendo"
+        ]
+      ]
+    ],
+    "model": "Cittadini e scienza: spettatori o protagonisti?\n\nPer molto tempo la scienza è stata considerata un territorio riservato agli esperti, mentre al pubblico spettava soltanto il compito di ricevere, più o meno passivamente, i risultati. Oggi questa divisione non regge più. A mio avviso, partecipare alla scienza è diventato per i cittadini non solo possibile, ma necessario, e in due modi diversi.\n\nIl primo è la lettura critica. Come ricorda un recente articolo divulgativo, un titolo sensazionale su uno studio condotto su pochi volontari o su qualche topo può fare il giro del web in poche ore. Imparare a controllare la fonte, a guardare i numeri e a non confondere la correlazione con la causa è già una forma di partecipazione: significa difendere la scienza dalle sue caricature.\n\nIl secondo modo è più concreto. In una conferenza sulla qualità dell'aria, una ricercatrice ha spiegato come centinaia di sensori economici, installati sui balconi, possano mostrare differenze tra quartieri che le centraline ufficiali non vedono. Raccogliere dati, in questo caso, vuol dire anche avere argomenti per chiedere cambiamenti alla propria amministrazione.\n\nBisogna tuttavia riconoscere i limiti di questa partecipazione. Un sensore economico è meno preciso, e un lettore attento non diventa per questo uno scienziato: senza la calibrazione e il controllo degli esperti, i dati dei cittadini rischierebbero di creare più confusione che conoscenza.\n\nIn conclusione, credo che la scienza abbia bisogno di cittadini attivi, purché la loro partecipazione resti una collaborazione e non una sostituzione.",
+    "gloss": {
+      "spettava": "le correspondía, le tocaba",
+      "non regge più": "ya no se sostiene",
+      "A mio avviso": "en mi opinión",
+      "fare il giro del web": "dar la vuelta a internet, hacerse viral",
+      "topo": "ratón",
+      "centraline": "estaciones de medición",
+      "purché": "siempre que, con tal de que (+ congiuntivo)"
+    }
+  },
+  "breve": {
+    "title": "Istruzioni: il sensore sul balcone",
+    "genre": "istruzioni",
+    "es": "Las instrucciones grabadas para instalar el sensor de un proyecto de ciencia ciudadana que mide el aire.",
+    "speaker": "Voce delle istruzioni",
+    "voice": 0,
+    "text": [
+      "Istruzioni per installare il sensore dell'aria del progetto «Respira». Prima di tutto, scegliere un balcone o una finestra ad almeno un metro e mezzo da terra, lontano da camini, condizionatori e griglie della cucina.",
+      "Fissare il sensore con le due fascette incluse nella confezione, con i fori rivolti verso il basso, per evitare che entri la pioggia. Non coprirlo e non metterlo al sole diretto: il calore falsa le misure.",
+      "Collegare il cavo a una presa elettrica interna e aspettare che la luce verde lampeggi. A questo punto, aprire l'applicazione, inserire il codice di sei cifre scritto sotto il sensore e indicare l'indirizzo.",
+      "I dati vengono inviati ogni dieci minuti. Se la luce diventa rossa, staccare il cavo, aspettare trenta secondi e ricollegarlo. Per qualsiasi problema, scrivere all'indirizzo di assistenza del progetto."
+    ],
+    "tabella": [
+      ["Altezza minima da terra", "un metro e mezzo", ["1,5 metri", "1,5", "1.5", "1,5 m", "un metro e mezzo da terra"]],
+      ["Fascette nella confezione (numero)", "2", ["due"]],
+      ["Cifre del codice", "6", ["sei"]],
+      ["Ogni quanti minuti partono i dati", "10", ["dieci", "ogni 10 minuti", "ogni dieci minuti"]],
+      ["Secondi di attesa se la luce è rossa", "30", ["trenta"]]
+    ],
+    "info": [
+      ["Il sensore va messo vicino alla griglia della cucina.", false],
+      ["I fori del sensore devono essere rivolti verso il basso.", true],
+      ["È meglio mettere il sensore al sole diretto.", false],
+      ["Il codice è scritto sotto il sensore.", true],
+      ["Prima di aprire l'applicazione bisogna aspettare la luce verde.", true],
+      ["Se la luce è rossa bisogna chiamare un tecnico.", false]
+    ],
+    "gloss": {
+      "fascette": "precintos",
+      "fori": "agujeros",
+      "presa": "enchufe",
+      "lampeggi": "titile",
+      "staccare": "desenchufar"
+    }
+  }
+}

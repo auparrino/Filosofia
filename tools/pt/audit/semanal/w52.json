@@ -1,0 +1,242 @@
+{
+ "week": 52,
+ "title": "Exame final C1",
+ "level": "C1",
+ "revisado": {
+  "items": 192,
+  "bloques_teoria": 7,
+  "lecturas": 7,
+  "dictogloss": 0,
+  "suoni": 0,
+  "radio": 0,
+  "otros": 24
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana final de repaso con 192 ítems, 3 pruebas de escucha, 3 de lectura y 12 tareas de escritura. El contenido lingüístico y factual es muy sólido: casi todas las respuestas, notas y datos históricos resultan correctos y los textos son naturales. Los reparos son sobre todo de diseño: la lección es mínima frente a la práctica, todos los ítems cuelgan de la última parte, la carga es excesiva y hay pocas dudas puntuales de pt, es y de consigna.",
+ "bien": [
+  "Los cloze están enlazados en narrativas coherentes (Freyre/Florestan, la casa del abuelo, pau-brasil, seu Álvaro) con muchas notas explicativas correctas y con contraste con el español.",
+  "Cobertura gramatical C1 amplia: futuro do subjuntivo, infinitivo pessoal, mais-que-perfeito, crase, cujo, colocação pronominal, discurso indirecto, pasivas.",
+  "Los accept son generosos en casi todos los ítems (variantes tinha/havia/ouvira, embora/ainda que/mesmo que).",
+  "Los textos de lectura y escucha (corte de 1808, 25 de Abril, borracha, Revolta da Vacina) son factualmente correctos, con pregunta de emparejamiento y V/F con cita justificativa.",
+  "Las 12 tareas de escritura siguen el formato Celpe-Bras (insumo + género + interlocutor + propósito) con una rúbrica de 4 criterios.",
+  "Léxico bien elegido: falsos amigos, heterogenéricos, colocaciones y registros con distractores plausibles."
+ ],
+ "hallazgos": [
+  {
+   "id": "ex-cl-46",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "accept: ['que'] / nota: «no digas *a primeira vez em que* en el habla corriente»",
+   "propuesta": "accept ['que','em que']; nota: «A primeira vez que / em que: las dos son correctas; *em que* es la forma más cuidada»",
+   "motivo": "«A primeira vez em que alguém lhe escrevia» es correcta (y la preferida por la norma culta); rechazarla y desaconsejarla es falso."
+  },
+  {
+   "id": "ex-cl-43",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "No se usa subjuntivo como en italiano.",
+   "propuesta": "No se usa subjuntivo: «perguntou se ela queria» (indicativo).",
+   "motivo": "Referencia al italiano sin sentido para un hispanohablante (resto de plantilla de otro curso)."
+  },
+  {
+   "id": "ex-fa-12",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Ela ficou roxa de vergonha.",
+   "propuesta": "Ela ficou roxa de frio. (o: «O céu ficou roxo no fim da tarde.»)",
+   "motivo": "En pt-BR se dice «vermelha de vergonha»; «roxa de vergonha» no es idiomático, y la nota luego dice que «rojo» es vermelho."
+  },
+  {
+   "id": "ex-tr-05",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Como estava chovendo, ficamos no boteco. → ___ chovendo, ficamos no boteco.",
+   "propuesta": "Como estava cansado, ficou em casa. → ___ cansado, ficou em casa. (Estando)",
+   "motivo": "«Estando chovendo» suena forzado; lo natural es «Chovendo,...» o «Como estava chovendo»."
+  },
+  {
+   "id": "ex-cl-26",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "En Brasil se «pega» (no se «toma») el ómnibus, el metrô o el bondinho.",
+   "propuesta": "En Brasil lo habitual es «pegar» el ônibus/metrô; «tomar» también se oye, pero suena menos natural.",
+   "motivo": "«No se toma» es exagerado: «tomar o ônibus» existe en pt-BR."
+  },
+  {
+   "id": "lesson:2:warn",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Las tres que el corrector busca primero: *quando chegar* (no «chegue»), *houve* (no «houveram») y *à* ante femenino.",
+   "propuesta": "... y la crase: *à* solo cuando se juntan la preposición *a* y el artículo *a* (vou à praia, pero «para a escola», «a pé»).",
+   "motivo": "«À ante femenino» enseña mal: la crase no aparece ante todo sustantivo femenino."
+  },
+  {
+   "id": "lesson:6:table",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "houveram / haviam | houve / havia",
+   "propuesta": "houveram / haviam (impersonal) | houve / havia  (*haviam* sí es correcto como auxiliar: «haviam chegado»)",
+   "motivo": "«Haviam» no es un error en general, solo cuando es impersonal; la fila puede llevar a hipercorregir."
+  },
+  {
+   "id": "lesson:6:q",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "¿Cuál está bien escrita? ... «Tiveram muitas reclamações.»",
+   "propuesta": "Cambiar la consigna a «¿Cuál es la forma correcta en escritura formal?» o reemplazar la opción por «Tinham muitas reclamações» con sentido impersonal.",
+   "motivo": "«Tiveram muitas reclamações» es gramatical con sujeto nulo («ellos tuvieron»), así que hay dos opciones defendibles."
+  },
+  {
+   "id": "meta:focus",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Cinco pruebas como en el Celpe-Bras y los exámenes C1.",
+   "propuesta": "Cinco pruebas al estilo de los exámenes C1 (el Celpe-Bras tiene otro formato).",
+   "motivo": "La lección dice que el Celpe-Bras es distinto y sin preguntas de gramática: el foco se contradice."
+  },
+  {
+   "id": "meta:keys",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Compreensão oral y escrita. / Estruturas y léxico. / Produção escrita: texto argumentativo y carta formal.",
+   "propuesta": "Compreensão oral e escrita. / Estruturas e léxico. / Produção escrita: texto argumentativo e carta formal. (o todo en español)",
+   "motivo": "Mezcla de portugués con la conjunción española «y»."
+  },
+  {
+   "id": "lettura w-52",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "\"mão\": \"mano\"",
+   "propuesta": "\"mão\": \"mano (la mano)\"",
+   "motivo": "En rioplatense «mano» es «amigo»; el gloss sin artículo confunde."
+  },
+  {
+   "id": "lettura w-52",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "pediram-lhe um texto sobre o mar",
+   "propuesta": "pediram a ela um texto sobre o mar",
+   "motivo": "Enclisis europea/literaria en un texto presentado como brasileño y usado como meta de la caza de formas; en pt-BR neutro es más natural la forma analítica."
+  },
+  {
+   "id": "ex-rg-12",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "(coloquial) Ele pisou na bola. → (neutro) Ele ___.",
+   "propuesta": "Reemplazar por otra expresión (p. ej. «deu bola fora»/«bateu na trave»)",
+   "motivo": "Casi duplicado de ex-co-12 (pisar na bola dos veces)."
+  },
+  {
+   "id": "ex-fa-14",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Escolha o significado correto (cuidado com o espanhol). Comprei ___ mel na feira de Laranjeiras.",
+   "propuesta": "Consigna propia: «Escolha o artigo correto» (también ex-fa-15 y ex-fa-16)",
+   "motivo": "En esos tres ítems no se elige un significado sino un artículo; la opción «la» es trivial."
+  },
+  {
+   "id": "ex-tr-26",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Reformule a frase sem mudar o sentido ... Vou ao museu. → Vou ___ Biblioteca Nacional.",
+   "propuesta": "Consigna: «Complete com a preposição (+ artigo) correta.»",
+   "motivo": "La frase de origen y la de destino tienen sentidos distintos; la consigna de reformulación no corresponde."
+  },
+  {
+   "id": "ex-rg-09",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "['aguardo', 'espero', 'esperamento']",
+   "propuesta": "['aguardo', 'espero', 'aguardando'] (o «espera»)",
+   "motivo": "«esperamento» no existe: el distractor se descarta sin pensar en la regla."
+  },
+  {
+   "id": "ex-fp-01",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Complete com a palavra pedida, formada a partir da palavra-base. (ex-fp-01 a ex-fp-36)",
+   "propuesta": "Agregar a la lección un bloque breve de formación de palabras (-ção/-são, -dade, -eza, -agem, diminutivos, prefijos in-/des-) o redistribuir los ítems",
+   "motivo": "36 ítems evalúan derivación y gentilicios, tema que ningún bloque de la lección de esta semana repasa."
+  },
+  {
+   "id": "asc-3",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "No meio das duas cidades tem a Praça Internacional",
+   "propuesta": "Parque Internacional (verificar el nombre oficial; si se mantiene «Praça», agregar «também chamada de Parque Internacional»)",
+   "motivo": "El espacio compartido entre Santana do Livramento y Rivera se conoce habitualmente como Parque Internacional."
+  },
+  {
+   "id": "let-3",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "O ouro branco da Amazônia",
+   "propuesta": "O ouro negro da Amazônia (o explicar «ouro branco» por el color del látex)",
+   "motivo": "La borracha se conoce sobre todo como «ouro negro»; «ouro branco» suele designar otros productos."
+  },
+  {
+   "id": "v1-t4",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Aviso do Real Gabinete Português de Leitura (reglas de consulta: quince días de antecedencia, 10h às 16h, etc.)",
+   "propuesta": "Usar una biblioteca ficticia («Biblioteca Machado de Assis») o aclarar que el aviso es inventado",
+   "motivo": "Atribuye requisitos inventados a una institución real."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Reorganizar las partes: hoy 'parts' asigna 0 ítems a «Las pruebas» y «Estructuras y léxico» y todos (204 declarados, 192 reales) a «Escribir para el examen». Repartir los ítems por bloque (cloze/narrativos → estructuras; fp/co/fa → léxico; rg y tr → escribir) y corregir el contador.",
+   "por_que": "Hoy no hay vínculo explícito entre cada regla de la lección y su práctica."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Partir la semana en 2-3 sesiones: 192 ítems (108 cloze, 54 choice, 30 typed) + 3 ascolto + 3 lettura + 12 tareas de escritura son excesivos para una lección.",
+   "por_que": "Riesgo de abandono en la última semana; el examen debería ser un recorrido, no una sola sesión."
+  },
+  {
+   "prioridad": "media",
+   "que": "Ampliar la teoría (solo 7 bloques breves) con repaso explícito de crase y regência (assistir a, preferir a, chamar a atenção para), pasiva/«se» apassivador, discurso indirecto, registro (coloquial vs. culto) y formación de palabras, que son lo que más se evalúa en los ítems.",
+   "por_que": "Muchos ítems evalúan puntos que la lección de la semana no repasa."
+  },
+  {
+   "prioridad": "media",
+   "que": "Añadir tipos de ítem de producción más cercanos al examen (reescritura de un párrafo con errores típicos de hispanohablante, completar conectores en un texto argumentativo) y reducir los cloze de un solo hueco gramatical muy guiados.",
+   "por_que": "El 56 % son cloze; casi no hay detección de errores ni escritura corta autocorregible."
+  },
+  {
+   "prioridad": "media",
+   "que": "Nivelar la dificultad: varios ítems son B1-B2 (ex-fp-01/02/07, ex-fa-14..16, ex-co-13) en una prueba C1; introducir ítems de matiz (concesivas, mesóclise, regência con relativo, colocación pronominal) o marcar el tramo como repaso.",
+   "por_que": "El nivel C1 se prueba poco en el tramo léxico."
+  },
+  {
+   "prioridad": "media",
+   "que": "La semana no tiene dictogloss, suoni, radio, laboratorio, duelos ni tramo: al menos un dictogloss/escucha corta cierra mejor el curso y evaluaría la comprensión oral que el examen declara.",
+   "por_que": "Falta práctica oral/auditiva propia de un examen con comprensión oral."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Unificar los 12 rubrics (idénticos, en español) añadiendo criterios y ejemplos de nivel por tarea y un modelo de texto de Avançado Superior.",
+   "por_que": "El alumno no puede autoevaluar su escritura."
+  },
+  {
+   "prioridad": "baja",
+   "que": "En asc-3 explicar que «tu atravessa» (voseo gaúcho) y «bah» son regionales; en las lecturas de Portugal (let-2) marcar léxico/ortografía europeos.",
+   "por_que": "Evita que se generalicen como pt-BR estándar."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 3
+  },
+  "es": {
+   "errores": 1,
+   "dudas": 3
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

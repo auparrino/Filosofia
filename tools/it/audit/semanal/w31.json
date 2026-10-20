@@ -1,0 +1,353 @@
+{
+ "week": 31,
+ "title": "Condizionale passato",
+ "level": "B2",
+ "revisado": {
+  "items": 46,
+  "sfide": 17,
+  "bloques_teoria": 4,
+  "lecturas": 3,
+  "dictogloss": 1,
+  "suoni": 3
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "La semana es lingüísticamente sólida: no encontré errores gramaticales en italiano ni en las respuestas aceptadas. Los problemas son de diseño: los ítems son drills muy repetitivos de un solo formato (cloze/translate), casi la mitad no practica el tema (condicional simple, concordancia del subjuntivo, sfide de otros capítulos), el Uso 3 (noticia sin confirmar) y la función «aconsejar» no tienen ningún ejercicio, y la lección no enseña modal+essere (sarebbe dovuto) que sí aparece en ítems y lecturas. Además hay varias respuestas aceptadas incompletas y un par de notas imprecisas.",
+ "bien": [
+  "Forma, tabla y tres usos claramente separados, con ejemplos traducidos y contraste con el español (calco «verrebbe»).",
+  "Los cloze/translate con auxiliar avere/essere y participio son correctos y con accept bien pensado para género (venuto/a, state/stati).",
+  "La lettura w-31 y fl-condpassato usan el condizionale passato de forma natural (Avrei dovuto..., Ti saresti sentito meglio?) y el hunt de formas es pertinente.",
+  "Buen dictogloss «Rimpianti» que reúne los tres usos (arrepentimiento, promesa incumplida, futuro en el pasado) con chunks útiles.",
+  "Las sfide con reportes y reproches (r20-08b, r21-04b) practican avrebbe potuto/dovuto en contexto comunicativo.",
+  "Notas explicativas útiles sobre venire+essere, reflexivos+essere e «debería haber = avrei dovuto»."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:Uso 2:warn",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*ha detto che verrebbe* es el calco del castellano y está mal. El castellano usa el condicional simple; el italiano, el compuesto.",
+   "propuesta": "Matizar: «Con verbo introductor en pasado, el futuro se expresa con condicional compuesto (sarebbe venuto) o, en registro coloquial, con imperfetto (veniva). El condizionale semplice queda para previsiones con dovere/potere (dovrebbe arrivare)».",
+   "motivo": "«Nunca simple» es demasiado tajante y el propio curso (sfide r21-01c, r21-02c) acepta dovrebbe/potrebbe e el imperfetto sin que la lección lo haya explicado."
+  },
+  {
+   "id": "lesson:Uso 1:tip",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "*Avresti dovuto / potuto / voluto* + infinitivo es la fórmula del reproche y del arrepentimiento.",
+   "propuesta": "Separar: «avresti/avrebbe dovuto/potuto + inf. = reproche a otro»; «avrei dovuto/potuto/voluto + inf. = arrepentimiento propio».",
+   "motivo": "«Avresti voluto» no es fórmula de reproche; mezclar persona y función confunde el tema declarado (aconsejar y arrepentirte)."
+  },
+  {
+   "id": "d21-025",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Sarebbe dovuto restare",
+   "propuesta": "Agregar a la lección un punto sobre modal + verbo de essere (avrebbe dovuto partire / sarebbe dovuto partire, ambos válidos) y poner como respuesta principal la forma con avere.",
+   "motivo": "Se exige/ejemplifica sarebbe dovuto/potuto (también en d21-026, -028, -029, r21-01c y en la lettura «Sarei dovuto uscire») y la lección nunca lo enseña."
+  },
+  {
+   "id": "d21-021",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "Sarebbe restato",
+   "propuesta": "Sarebbe rimasto (dejar restato solo como aceptada)",
+   "motivo": "«Restato» es correcto pero menos frecuente; la forma primaria debería ser la más natural (rimasto)."
+  },
+  {
+   "id": "d18-060",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Tu ___ (essere + informarsi)?",
+   "propuesta": "Tu ___ (informarsi: incluí el pronombre)?  o  ___ informato (con «ti» dado en el enunciado)",
+   "motivo": "La respuesta exige «ti saresti informato» pero la consigna solo dice que el auxiliar está indicado; el alumno que escribe «saresti informato» queda mal sin saber por qué."
+  },
+  {
+   "id": "d21-011",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "(Yo) puedo comer.",
+   "propuesta": "Reemplazar los 10 ítems d21-011..020 (posso/potrei, devo/dovrei) por ítems de condizionale passato con dovere/potere/volere, o reducirlos a 4.",
+   "motivo": "Practican presente vs condicional simple, no el tema de la semana; ocupan 20 % de los ítems con baja rentabilidad."
+  },
+  {
+   "id": "c1-conc-01",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Credevo che ___ già partito.",
+   "propuesta": "Mover los ítems c1-conc-01..05 (secuencia de congiuntivo) a la semana de concordancia o reducirlos; dejar solo c1-conc-06 y -07 que sí tratan el futuro en el pasado.",
+   "motivo": "Cinco ítems de subjuntivo consumen espacio sin practicar el condizionale passato."
+  },
+  {
+   "id": "c1-conc-03",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "avessi detto",
+   "propuesta": "Cambiar el distractor por uno claramente no gramatical, o reformular a «Avrei voluto che tu mi ___ la verità» (con dos respuestas posibles bien decididas).",
+   "motivo": "«Volevo che tu mi avessi detto la verità» es aceptable en italiano con matiz de anterioridad; la opción depende del sentido, no de la regla."
+  },
+  {
+   "id": "c1-conc-06",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "es el segundo gran error del hispanohablante.",
+   "propuesta": "...es un error típico del hispanohablante.",
+   "motivo": "Referencia colgante («el segundo») a un primer error que el alumno no ve en el ítem; la opción «sarebbe stato partito» además es demasiado obvia."
+  },
+  {
+   "id": "g2-ct-43",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ha detto che sarebbe arrivato alle cinque",
+   "propuesta": "Agregar a accept: «Disse che sarebbe arrivato alle cinque», «Ha detto che arrivava alle cinque»",
+   "motivo": "Otros ítems (c1-conc-07, r21-02c) aceptan passato remoto e imperfetto; este ítem rechaza respuestas igual de correctas."
+  },
+  {
+   "id": "g2-cb-15",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Parla piano. Tutti capiscono. (in modo che)",
+   "propuesta": "Reemplazar por un ítem de combina con condizionale passato (p. ej. «Non sono venuto. Ero malato. → Sarei venuto se non fossi stato malato» solo si el periodo ipotetico ya se enseñó) o retirarlo.",
+   "motivo": "Evalúa in modo che + congiuntivo, ajeno al tema de la semana."
+  },
+  {
+   "id": "g2-va-55",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Avrei venuto, ma ero malato.",
+   "propuesta": "Variar el verbo (p. ej. «Avrei uscito» / «Avrebbe partito») o el punto (mi avrei alzato → mi sarei alzato).",
+   "motivo": "Casi duplicado de g2-ct-42 y del ejemplo de la lección («Sarei venuto, ma non ho potuto»): venire+essere se repite cuatro veces."
+  },
+  {
+   "id": "s:r21-02b:a",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Avremmo protestato",
+   "propuesta": "Agregar accept: «Noi avremmo protestato»",
+   "motivo": "Otros ítems aceptan el pronombre sujeto opcional; aquí un alumno natural lo escribiría."
+  },
+  {
+   "id": "s:r21-03b:c",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "gli sarebbe piaciuto venire. Gli piacerebbe venire la settimana prossima",
+   "propuesta": "Agregar «...la prossima settimana» y en s:r21-03b:d «avrei voluto finirlo. Vorrei finirlo presto» (y «al più presto»).",
+   "motivo": "Variantes naturales no aceptadas; además son ítems de dos oraciones largos y frágiles para un translate."
+  },
+  {
+   "id": "s:r21-04b:c",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Non la avreste dovuta impiegare.",
+   "propuesta": "Quitar esta variante (la forma estándar es l'avreste) y aceptar «Non avreste dovuto assumerla», dando «assumere» en la pista en lugar de impiegare.",
+   "motivo": "«La avreste» no se elide contra la norma; y «contratar» es assumere, impiegare (pista del enunciado) suena forzado."
+  },
+  {
+   "id": "s:r21-01c:a",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Informes de viaje: completá las dos versiones de cada oración en italiano.",
+   "propuesta": "Informes de viaje: completá las dos oraciones en italiano.",
+   "motivo": "No son «dos versiones» de una oración sino dos frases distintas; la consigna confunde."
+  },
+  {
+   "id": "s:r21-01c:a",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "l'aereo dovrebbe partire fra un'ora | l'autostrada potrebbe essere bloccata dalla neve",
+   "propuesta": "Agregar accept con «decollare» (l'aereo dovrebbe decollare fra un'ora).",
+   "motivo": "Con aviones lo natural es decollare (el vocabulario de la semana trae «decollo»)."
+  },
+  {
+   "id": "s:r24-07b:e",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Se guadagnassi di più",
+   "propuesta": "Agregar accept: «Se guadagnasse di più»",
+   "motivo": "«Si ganara más…» no fija la persona; en el ítem c sí se aceptan ambas."
+  },
+  {
+   "id": "s:r24-02d:e",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Imperfecto del subjuntivo referido al pasado (ieri).",
+   "propuesta": "Aclarar que es un uso de contemporaneidad en el pasado y que la forma estándar del curso es «Credo che ieri fosse/sia stato».",
+   "motivo": "Contradice la nota de c1-conc-02 (principal en presente + pasado = congiuntivo passato) y puede confundir."
+  },
+  {
+   "id": "s:r27-09:d",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Ho fatto cadere il vassoio.",
+   "propuesta": "Reemplazar por otro causativo (p. ej. «Me hice cortar el pelo» → Mi sono fatto tagliare i capelli) y para «se me cayó» aceptar «Mi è caduto il vassoio».",
+   "motivo": "Casi duplicado de s:r27-09:b, y «se me cayó» no es causativo; la nota «expresa el accidente» es engañosa."
+  },
+  {
+   "id": "s:r27-09:c",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Farsi prestare = pedir prestado; con farsi, auxiliar essere.",
+   "propuesta": "Farsi prestare = conseguir que te presten (pedir prestado se dice chiedere in prestito).",
+   "motivo": "Equivalencia imprecisa que puede llevar a usar farsi prestare por chiedere in prestito."
+  },
+  {
+   "id": "s:r27-09:f",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Gli ho fatto ricordare che non aveva pagato.",
+   "propuesta": "Quitar «far ricordare» de accept.",
+   "motivo": "Cambia el sentido (recordar ≠ hacer notar) y no es una expresión idiomática."
+  },
+  {
+   "id": "s:r11-01:a",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Peccato (o delusione) expresa pena; noia es aburrimiento y fortuna, suerte.",
+   "propuesta": "Peccato expresa pena; noia es aburrimiento y fortuna, suerte. (y sacar de accept las respuestas que no están en options: Che delusione!, Che disastro!, Che rabbia!)",
+   "motivo": "Las notas y accept de r11-01 nombran opciones que el alumno nunca ve."
+  },
+  {
+   "id": "s:r15-08:e",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Traducí al italiano estas expresiones con di.",
+   "propuesta": "Traducí al italiano estas expresiones (con di o da según corresponda) / o quitar «da» de accept.",
+   "motivo": "La consigna pide di pero se aceptan y explican respuestas con da."
+  },
+  {
+   "id": "sfide:chapter",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "The past indicative tenses",
+   "propuesta": "Traducir o ocultar los rótulos chapter: «Tiempos del pasado», «El condicional», «El subjuntivo», «Voz pasiva», «Verbos causativos», «Exclamaciones», «Preposiciones»",
+   "motivo": "Si el campo chapter se muestra al alumno, hay inglés visible (Exclamations, Prepositions, The conditional, The subjunctive, The passive voice and related constructions, Causative verbs and verbs of perception)."
+  },
+  {
+   "id": "vocab:assicurare",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Le avrei assicurato che tutto andava bene.",
+   "propuesta": "Le avevo assicurato che tutto andava bene.  (o «Le avrei assicurato che tutto andasse bene» con contexto)",
+   "motivo": "«Avrei assicurato... andava» es pragmáticamente raro y mezcla condicional e imperfetto; como ejemplo de vocabulario confunde."
+  },
+  {
+   "id": "vocab:tema",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "autostrada / bolletta / decollo",
+   "propuesta": "Reemplazar 2-3 palabras por léxico de vida laboral (colloquio, stipendio, licenziarsi, scadenza, riunione).",
+   "motivo": "El tema es «Vida laboral» y el vocabulario apenas lo toca."
+  },
+  {
+   "id": "p-064",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "avrebe",
+   "propuesta": "Usar un par mínimo real de geminada (fato/fatto, sete/sette, caro/carro) y mantener avrebbe en la nota; en es poner «habría» y no «tendría».",
+   "motivo": "«avrebe» no existe: no es un par mínimo; además «tendría» traduce mal la función auxiliar de avrebbe."
+  },
+  {
+   "id": "c-040",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Avrei dovuto dire te lo.",
+   "propuesta": "Reformular como ítem escrito («¿Cómo se escribe?») o quitar «dire te lo»/«dirtelo» de la elección auditiva.",
+   "motivo": "«dire te lo» y «dirtelo» suenan igual (dirtelo); la opción no discrimina por oído, solo por ortografía."
+  },
+  {
+   "id": "a-026",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "sùbito",
+   "propuesta": "Reemplazar por avrèbbe / sarèbbe / perché-poiché… o palabra de la semana con acento relevante (p. ej. «infatti», «autostrada»).",
+   "motivo": "Nada conecta el ítem con el condizionale passato ni con el vocabulario de la semana."
+  },
+  {
+   "id": "lettura:c-garibaldi",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "presente storico e futuro nel passato",
+   "propuesta": "Rotular «presente storico; avrebbe detto (noticia/atribución no confirmada)» y marcar como lectura cultural B1, o reemplazar por un texto B2 con uso 2 (futuro en el pasado).",
+   "motivo": "«Diventerà» es un futuro simple narrativo, no futuro en el pasado con condizionale; el nivel B1 no corresponde a una semana B2 y solo contiene un condizionale passato (avrebbe detto)."
+  },
+  {
+   "id": "lettura:fl-condpassato",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "«Avresti dovuto chiamarlo dal treno. Ti avrebbe aspettato dieci minuti.»",
+   "propuesta": "Agregar antes «ho preso quello delle 8:10» o cambiar a «Avresti dovuto chiamarlo appena hai perso il treno».",
+   "motivo": "Martín perdió el tren de las 7:40, así que «dal treno» y «ho guardato il finestrino» quedan sin explicar."
+  },
+  {
+   "id": "lettura:w-31",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "dispiace",
+   "propuesta": "dispiace (mi dispiace): lo lamento / lo siento",
+   "motivo": "La glosa «lamento» deja sin explicar la construcción con mi (me molesta/lamento)."
+  },
+  {
+   "id": "lettura:w-31",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "¿Cómo reacciona el cliente?",
+   "propuesta": "Sumar 1-2 preguntas vero/falso/non si dice (p. ej. «Paolo llegó a Roma a las diez»: falso) y una sobre «sarei arrivato alle dieci».",
+   "motivo": "Las tres preguntas son de comprensión literal y ninguna obliga a interpretar el condizionale passato."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Agregar ítems para el Uso 3 (noticia sin confirmar: «Secondo il giornale, il ministro si ___ dimesso») y para aconsejar («Al posto tuo ___ (dire) di no»).",
+   "por_que": "Dos de los tres usos y la función comunicativa (fare) no tienen ejercicios."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Rebalancear los 46 ítems: sacar los 10 de posso/potrei y los 5 de concordancia del subjuntivo y sumar choice de elección de auxiliar, fixerr de «verrebbe», typed de reproches y ítems de contraste uso 1 vs uso 2 vs uso 3.",
+   "por_que": "Más de un tercio de los ítems no practica el condizionale passato y falta variedad (solo cloze, translate, choice y un fixerr)."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Añadir a la lección el caso modal + infinitivo con verbos de essere (avrebbe/sarebbe dovuto partire), la posición de los clíticos (avresti dovuto dirmelo / me lo avresti dovuto dire) y el imperfetto coloquial como alternativa del futuro en el pasado.",
+   "por_que": "Aparecen en ítems, sfide y lecturas pero no se enseñan; y matizar «nunca simple»."
+  },
+  {
+   "prioridad": "media",
+   "que": "Sumar a la lección un recuadro de errores típicos del hispanohablante: «avrei venuto», «ha detto che verrebbe», «avrei potuto» vs «potrei» y el «habría» periodístico contra «avrebbe» de deseo.",
+   "por_que": "El contraste con el español está solo en un warn."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reemplazar la lettura c-garibaldi por un texto B2 relacionado con la semana, o rotularla como lectura cultural B1; sumar preguntas vero/falso/non si dice en w-31.",
+   "por_que": "No usa la gramática de la semana ni corresponde al nivel."
+  },
+  {
+   "prioridad": "media",
+   "que": "Mejorar suoni: par mínimo real de geminada (fato/fatto), ítem de habla conectada auditivo (dirtelo vs dirti lo) y acento en avrèbbe/sarèbbe.",
+   "por_que": "Los tres ítems de suoni no son pertinentes o no discriminan por oído."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Ampliar accept con pronombre sujeto opcional, passato remoto y variantes naturales (la prossima settimana, avrei voluto finirlo, decollare).",
+   "por_que": "Evitar rechazar respuestas correctas."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Ajustar vocabulario al tema «Vida laboral» y traducir/ocultar los rótulos chapter en inglés de las sfide.",
+   "por_que": "Coherencia temática y sin inglés visible."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

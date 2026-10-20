@@ -1,0 +1,876 @@
+[
+ {
+  "id": "item:g2-va-72",
+  "src": "tools/authored/c1_*.py",
+  "rule": "regla",
+  "msg": "qual'è → qual è — Qual'è il tuo nome?"
+ },
+ {
+  "id": "lesson:51:3",
+  "src": "tools/lessons/s4.py",
+  "rule": "regla",
+  "msg": "qual'è → qual è — qual'è"
+ },
+ {
+  "id": "item:ex-rg-10",
+  "src": "tools/authored/c1_*.py",
+  "rule": "inglés",
+  "msg": "emails — «Cordiali saluti» es el cierre estándar en emails de trabajo. «Un bacione» y «ciao ciao» son íntimos."
+ },
+ {
+  "id": "item:l2-d-15",
+  "src": "tools/authored/c1_*.py",
+  "rule": "inglés",
+  "msg": "ferrari — — Ha comprato una Ferrari. — ___? Con quello stipendio?"
+ },
+ {
+  "id": "item:l2-d-41",
+  "src": "tools/authored/c1_*.py",
+  "rule": "inglés",
+  "msg": "hmm — «Mah» = y... no sé, expresa escepticismo o duda. «Boh» es ni idea; «mah» es «hmm, lo dudo»."
+ },
+ {
+  "id": "item:mj-04-02",
+  "src": "tools/authored/c1_*.py",
+  "rule": "inglés",
+  "msg": "sim, pa — Simpatico es esdrújula (sim-PA-ti-co): el masculino plural hace -ci, sin h."
+ },
+ {
+  "id": "item:mj-04-11",
+  "src": "tools/authored/c1_*.py",
+  "rule": "inglés",
+  "msg": "marie — Pierre e Marie sono ___ (francese)."
+ },
+ {
+  "id": "item:mj-46-02",
+  "src": "tools/authored/c1_*.py",
+  "rule": "inglés",
+  "msg": "ell — Interfijo -er- + -ell- + -ina: pioggerellina."
+ },
+ {
+  "id": "lesson:1:1",
+  "src": "tools/lessons/s1.py",
+  "rule": "inglés",
+  "msg": "na — *ce*na / *che*"
+ },
+ {
+  "id": "lesson:1:3",
+  "src": "tools/lessons/s1.py",
+  "rule": "inglés",
+  "msg": "caff — citt*à*, caff*è*, per*ò*"
+ },
+ {
+  "id": "lesson:2:1",
+  "src": "tools/lessons/s1.py",
+  "rule": "inglés",
+  "msg": "ban — ban*co* → ban*chi*"
+ },
+ {
+  "id": "lesson:3:5",
+  "src": "tools/lessons/s1.py",
+  "rule": "inglés",
+  "msg": "films — i films"
+ },
+ {
+  "id": "lesson:4:0",
+  "src": "tools/lessons/s1.py",
+  "rule": "inglés",
+  "msg": "italian — Marco e Anna sono italian*i*."
+ },
+ {
+  "id": "lesson:5:0",
+  "src": "tools/lessons/s1.py",
+  "rule": "inglés",
+  "msg": "dorm — Dorm*iamo* poco."
+ },
+ {
+  "id": "lesson:5:1",
+  "src": "tools/lessons/s1.py",
+  "rule": "inglés",
+  "msg": "prefer — Prefer*isco* il tè."
+ },
+ {
+  "id": "lesson:5:2",
+  "src": "tools/lessons/s1.py",
+  "rule": "inglés",
+  "msg": "pa, stud — Pa*ghi* tu?"
+ },
+ {
+  "id": "lesson:46:0",
+  "src": "tools/lessons/s4.py",
+  "rule": "inglés",
+  "msg": "temp — Che temp*accio*!"
+ },
+ {
+  "id": "lesson:46:1",
+  "src": "tools/lessons/s4.py",
+  "rule": "inglés",
+  "msg": "matt — Un muro di matt*oni*."
+ },
+ {
+  "id": "lesson:46:4",
+  "src": "tools/lessons/s4.py",
+  "rule": "inglés",
+  "msg": "ell — interfijo -ell-"
+ },
+ {
+  "id": "scena:aneddoto",
+  "src": "docs/js/frasi.js",
+  "rule": "inglés",
+  "msg": "apps — Moraleja: nunca confiar en las apps."
+ },
+ {
+  "id": "lettura:fl-condpassato",
+  "src": "docs/js/letture.js",
+  "rule": "inglés",
+  "msg": "slide — Lunedì è stato un disastro, e Martín lo sa. Seduto al bar con Giulia, fa la lista di tutto quello che avrebbe "
+ },
+ {
+  "id": "testi:app.js:0",
+  "src": "docs/js/app.js",
+  "rule": "inglés",
+  "msg": "min — Anotado. Con tres sesiones de dos minutos ya cuenta: el atajo «Ripasso 2 min» está en el ícono de la app."
+ },
+ {
+  "id": "testi:app.js:1",
+  "src": "docs/js/app.js",
+  "rule": "inglés",
+  "msg": "chang, lesson, step, kind — material conocido a velocidad normal es lo que hace crecer la fluidez del oído (Chang & Millett 2014). Esta se"
+ },
+ {
+  "id": "testi:app.js:3",
+  "src": "docs/js/app.js",
+  "rule": "inglés",
+  "msg": "commons —  palabras. Voces de Lingua Libre (Wikimedia Commons), licencia CC BY-SA 4.0: "
+ },
+ {
+  "id": "item:ex-fp-01",
+  "rule": "lessico",
+  "msg": "acia ×1 — item:ex-fp-01: Adjetivos en -ace → sustantivo en -acia: efficace → efficacia, tenace → tenacia."
+ },
+ {
+  "id": "testi:app.js",
+  "rule": "lessico",
+  "msg": "aiza ×1 — testi:app.js:4: Clave de Gemini (AIza…)"
+ },
+ {
+  "id": "item:mj-46-09",
+  "rule": "lessico",
+  "msg": "amicetto ×1 — item:mj-46-09: Ieri ho visto un amicetto di Luca."
+ },
+ {
+  "id": "item:mj-46-03",
+  "rule": "lessico",
+  "msg": "amiguito ×2 — item:mj-46-03: amico → un ___ di mio figlio (amiguito) | lesson:46:4: Es un amiguito de mi hijo."
+ },
+ {
+  "id": "lesson:19",
+  "rule": "lessico",
+  "msg": "anderò ×1 — lesson:19:1: *andare* y *vedere* pierden la vocal: *andrò*, *vedrò*. «anderò» o «vederò» no existen."
+ },
+ {
+  "id": "item:ex-fp-14",
+  "rule": "lessico",
+  "msg": "anza ×1 — item:ex-fp-14: Sufijo -anza para verbos en -are: speranza, fidanza, alleanza."
+ },
+ {
+  "id": "item:g2-va-51",
+  "rule": "lessico",
+  "msg": "aprito ×2 — item:g2-va-51: Abbiamo aprito la finestra. | lesson:11:5: Nada de «ho fatto» → «ho facciuto» ni «ho aperto» → «ho aprito»: el irregular no se regula"
+ },
+ {
+  "id": "lesson:11",
+  "rule": "lessico",
+  "msg": "arrivat ×1 — lesson:11:2: Siamo arrivat*i* tardi."
+ },
+ {
+  "id": "lesson:46",
+  "rule": "lessico",
+  "msg": "astra ×1 — lesson:46:0: -astro / -astra"
+ },
+ {
+  "id": "lesson:1",
+  "rule": "lessico",
+  "msg": "azz ×1 — lesson:1:0: il *j*azz, il *w*eekend"
+ },
+ {
+  "id": "lettura:w-21",
+  "rule": "lessico",
+  "msg": "bepi ×1 — lettura:w-21: Il sabato vado al mercato di piazza delle Erbe: ci vado da dieci anni. Compro sempre la fr"
+ },
+ {
+  "id": "item:g2-gd-15",
+  "rule": "lessico",
+  "msg": "bevere ×2 — item:g2-gd-15: Bere viene del antiguo «bevere», de la segunda conjugación: bevuto, no «bevito». «Bebido»  | item:mj-06-06: Gerundio irregular: sale de la raíz larga bevere → bevendo."
+ },
+ {
+  "id": "item:g2-gd-15",
+  "rule": "lessico",
+  "msg": "bevito ×1 — item:g2-gd-15: Bere viene del antiguo «bevere», de la segunda conjugación: bevuto, no «bevito». «Bebido» "
+ },
+ {
+  "id": "lesson:46",
+  "rule": "lessico",
+  "msg": "bott ×1 — lesson:46:1: Mi si è staccato un bott*one*."
+ },
+ {
+  "id": "item:g2-va-42",
+  "rule": "lessico",
+  "msg": "buonos ×1 — item:g2-va-42: Questi ragazzi sono molto buonos."
+ },
+ {
+  "id": "item:mj-46-01",
+  "rule": "lessico",
+  "msg": "cagn ×1 — item:mj-46-01: La raíz cambia (cagn-) y aparece el interfijo -ol-: cagnolino. «Canino» es el colmillo."
+ },
+ {
+  "id": "lettura:w-11",
+  "rule": "lessico",
+  "msg": "callecitas ×1 — lettura:w-11: callecitas (de Venecia)"
+ },
+ {
+  "id": "lesson:2",
+  "rule": "lessico",
+  "msg": "cas ×3 — lesson:2:0: la cas*a* → le cas*e* | lesson:2:0: la cas*a* → le cas*e*"
+ },
+ {
+  "id": "lesson:5",
+  "rule": "lessico",
+  "msg": "cer ×1 — lesson:5:2: Cosa cer*chi*?"
+ },
+ {
+  "id": "item:mj-20-04",
+  "rule": "lessico",
+  "msg": "cercaremmo ×1 — item:mj-20-04: Noi cercaremmo un albergo più economico."
+ },
+ {
+  "id": "lesson:1",
+  "rule": "lessico",
+  "msg": "chena ×1 — lesson:1:1: cena / que: «chena», «ke»"
+ },
+ {
+  "id": "lesson:20",
+  "rule": "lessico",
+  "msg": "cher ×1 — lesson:20:1: Ortografía: cher-, gher-, mangi-"
+ },
+ {
+  "id": "lesson:5",
+  "rule": "lessico",
+  "msg": "cherchi ×1 — lesson:5:2: Sin la *h*, «cerci» se leería «cherchi». Y nunca «mangii» ni «studii»: una sola *i*."
+ },
+ {
+  "id": "lesson:2",
+  "rule": "lessico",
+  "msg": "chiav ×2 — lesson:2:0: la chiav*e* → le chiav*i* | lesson:2:0: la chiav*e* → le chiav*i*"
+ },
+ {
+  "id": "testi:app.js",
+  "rule": "lessico",
+  "msg": "cils ×1 — testi:app.js:1: Cinco pruebas como en el CILS: ascolto, lettura, strutture, lessico, scrittura. Mínimo 55 "
+ },
+ {
+  "id": "lesson:1",
+  "rule": "lessico",
+  "msg": "citt ×1 — lesson:1:3: citt*à*, caff*è*, per*ò*"
+ },
+ {
+  "id": "item:g2-va-71",
+  "rule": "lessico",
+  "msg": "citta ×1 — item:g2-va-71: Vado in citta."
+ },
+ {
+  "id": "lesson:3",
+  "rule": "lessico",
+  "msg": "cittàs ×1 — lesson:3:5: le cittàs"
+ },
+ {
+  "id": "item:g2-sc-25",
+  "rule": "lessico",
+  "msg": "clítico ×7 — item:g2-sc-25: Regla: cuando el objeto va al inicio para darle tema, se retoma con el clítico: la pizza L | item:g2-ct-03: Conosco Marco sin «a». Lo vedo: el clítico va delante. Todos los días = tutti i giorni u o"
+ },
+ {
+  "id": "item:g2-gd-22",
+  "rule": "lessico",
+  "msg": "conoscuto ×1 — item:g2-gd-22: Conoscere → conosciuto: la -i- se conserva para que la sc siga sonando [ʃ] delante de u (l"
+ },
+ {
+  "id": "lesson:1",
+  "rule": "lessico",
+  "msg": "cá ×1 — lesson:1:3: habitación: CÁ-mera, sin tilde"
+ },
+ {
+  "id": "item:mj-24-12",
+  "rule": "lessico",
+  "msg": "debb ×1 — item:mj-24-12: dovere: debba, dobbiamo, dobbiate, debbano (raíz debb- salvo noi/voi)."
+ },
+ {
+  "id": "lettura:w-35",
+  "rule": "lessico",
+  "msg": "decameron ×1 — lettura:w-35: Il Parmigiano Reggiano è prodotto soltanto in alcune province dell'Emilia-Romagna e della "
+ },
+ {
+  "id": "lettura:w-46",
+  "rule": "lessico",
+  "msg": "diarito ×1 — lettura:w-46: revistita, diarito"
+ },
+ {
+  "id": "item:ex-fp-10",
+  "rule": "lessico",
+  "msg": "difficilità ×1 — item:ex-fp-10: Irregular: difficile → difficoltà (no *difficilità). Igual facile → facilità es regular."
+ },
+ {
+  "id": "item:ex-cl-24",
+  "rule": "lessico",
+  "msg": "ducendo ×1 — item:ex-cl-24: Gerundio modal: dice cómo se hizo algo. Los verbos en -durre forman el gerundio en -ducend"
+ },
+ {
+  "id": "lesson:1",
+  "rule": "lessico",
+  "msg": "dyelato ×2 — lesson:1:1: helado / spaghetti: «dyelato», «spaguetti» | lesson:1:1: *gi, ge* no son la j castellana ni la ll porteña: *gelato* suena «dyelato». *che, chi* sue"
+ },
+ {
+  "id": "lettura:fl-remoto",
+  "rule": "lessico",
+  "msg": "dèi ×2 — lettura:fl-remoto: Sul tortellino esiste una leggenda che a Bologna tutti conoscono. Una notte, molti secoli  | lettura:fl-remoto: Sul tortellino esiste una leggenda che a Bologna tutti conoscono. Una notte, molti secoli "
+ },
+ {
+  "id": "item:g2-ct-27",
+  "rule": "lessico",
+  "msg": "dò ×2 — item:g2-ct-27: Glielo dò domani | item:g2-ct-27: Se lo → glielo (gli + lo, pegados). Do (yo doy) se escribe sin acento en la norma actual, "
+ },
+ {
+  "id": "lesson:46",
+  "rule": "lessico",
+  "msg": "ecoturismo ×1 — lesson:46:6: ecosistema, ecoturismo"
+ },
+ {
+  "id": "lesson:1",
+  "rule": "lessico",
+  "msg": "eekend ×1 — lesson:1:0: il *j*azz, il *w*eekend"
+ },
+ {
+  "id": "item:g2-gd-05",
+  "rule": "lessico",
+  "msg": "endere ×1 — item:g2-gd-05: Prendere → preso: los verbos en -endere suelen hacer -eso (prendere/preso, spendere/speso,"
+ },
+ {
+  "id": "item:g2-sc-15",
+  "rule": "lessico",
+  "msg": "epistémico ×1 — item:g2-sc-15: Regla: el futuro también sirve para suponer o calcular en el presente (futuro epistémico),"
+ },
+ {
+  "id": "item:g2-va-77",
+  "rule": "lessico",
+  "msg": "esquisito ×1 — item:g2-va-77: Il pranzo era esquisito."
+ },
+ {
+  "id": "item:ex-fp-02",
+  "rule": "lessico",
+  "msg": "eza ×1 — item:ex-fp-02: Sufijo -ezza para cualidades: sicurezza, bellezza, ricchezza. En castellano suele ser -ida"
+ },
+ {
+  "id": "item:ex-fp-02",
+  "rule": "lessico",
+  "msg": "ezza ×2 — item:ex-fp-02: Sufijo -ezza para cualidades: sicurezza, bellezza, ricchezza. En castellano suele ser -ida | item:ex-fp-08: Sufijo -ezza: bellezza. Ojo a la doble z."
+ },
+ {
+  "id": "lesson:11",
+  "rule": "lessico",
+  "msg": "facciuto ×1 — lesson:11:5: Nada de «ho fatto» → «ho facciuto» ni «ho aperto» → «ho aprito»: el irregular no se regula"
+ },
+ {
+  "id": "item:l2-c-52",
+  "rule": "lessico",
+  "msg": "fingito ×1 — item:l2-c-52: Hacerse el que / fingir → fare finta di + infinitivo, sin reflexivo. Existe «fingere», per"
+ },
+ {
+  "id": "lesson:46",
+  "rule": "lessico",
+  "msg": "focacc ×1 — lesson:46:1: Una fetta di focacc*ia*."
+ },
+ {
+  "id": "lesson:2",
+  "rule": "lessico",
+  "msg": "fote ×1 — lesson:2:2: Las palabras acortadas tampoco cambian: *la foto → le foto*, *la moto → le moto*. Nada de "
+ },
+ {
+  "id": "item:g2-gd-17",
+  "rule": "lessico",
+  "msg": "frire ×1 — item:g2-gd-17: Offrire → offerto, como aprire/aperto, coprire/coperto, soffrire/sofferto. «Ofrecido» es r"
+ },
+ {
+  "id": "lesson:46",
+  "rule": "lessico",
+  "msg": "gatito ×4 — lesson:46:0: Tenemos un gatito. | lettura:w-46: un gatito negro y un perrito blanco"
+ },
+ {
+  "id": "lesson:46",
+  "rule": "lessico",
+  "msg": "gatt ×1 — lesson:46:0: Abbiamo un gatt*ino*."
+ },
+ {
+  "id": "item:g2-gd-03",
+  "rule": "lessico",
+  "msg": "ggere ×1 — item:g2-gd-03: Leggere → letto, con doble t. «Leído» es regular en castellano y te empuja a inventar «leg"
+ },
+ {
+  "id": "lesson:20",
+  "rule": "lessico",
+  "msg": "gher ×1 — lesson:20:1: Ortografía: cher-, gher-, mangi-"
+ },
+ {
+  "id": "lesson:1",
+  "rule": "lessico",
+  "msg": "gio ×1 — lesson:1:1: *cia*o, *gio*rno"
+ },
+ {
+  "id": "testi:app.js",
+  "rule": "lessico",
+  "msg": "groq ×1 — testi:app.js:4: Clave de Groq (gsk_…)"
+ },
+ {
+  "id": "testi:app.js",
+  "rule": "lessico",
+  "msg": "gsk ×1 — testi:app.js:4: Clave de Groq (gsk_…)"
+ },
+ {
+  "id": "lesson:1",
+  "rule": "lessico",
+  "msg": "güésto ×1 — lesson:1:4: «güésto»"
+ },
+ {
+  "id": "lesson:11",
+  "rule": "lessico",
+  "msg": "hacido ×1 — lesson:11:5: Nada de «ho fatto» → «ho facciuto» ni «ho aperto» → «ho aprito»: el irregular no se regula"
+ },
+ {
+  "id": "lesson:28",
+  "rule": "lessico",
+  "msg": "hermosísimo ×1 — lesson:28:0: No es feo; al contrario: ¡es hermosísimo!"
+ },
+ {
+  "id": "item:g2-va-15",
+  "rule": "lessico",
+  "msg": "hipercorrección ×1 — item:g2-va-15: Hipercorrección: esame lleva una sola m (como en castellano). No todas las palabras doblan"
+ },
+ {
+  "id": "lesson:46",
+  "rule": "lessico",
+  "msg": "icci ×2 — lesson:46:4: Muchas bases piden un **interfijo** (*-c-, -ol-, -er-, -icci-*). Y *c/g* duras conservan s | lesson:46:4: interfijo -icci- + -olo"
+ },
+ {
+  "id": "item:ex-fp-02",
+  "rule": "lessico",
+  "msg": "idad ×1 — item:ex-fp-02: Sufijo -ezza para cualidades: sicurezza, bellezza, ricchezza. En castellano suele ser -ida"
+ },
+ {
+  "id": "lesson:46",
+  "rule": "lessico",
+  "msg": "interfijos ×1 — lesson:46:4: Interfijos y ortografía con h"
+ },
+ {
+  "id": "item:g2-gd-34",
+  "rule": "lessico",
+  "msg": "iste ×2 — item:g2-gd-34: Los nombres en -ista tienen dos plurales: masculino -isti (i turisti, i giornalisti) y fem | item:g2-gd-35: Y al revés: la turista → le turiste. En femenino el plural es -iste; -isti es solo masculi"
+ },
+ {
+  "id": "item:g2-gd-34",
+  "rule": "lessico",
+  "msg": "isti ×2 — item:g2-gd-34: Los nombres en -ista tienen dos plurales: masculino -isti (i turisti, i giornalisti) y fem | item:g2-gd-35: Y al revés: la turista → le turiste. En femenino el plural es -iste; -isti es solo masculi"
+ },
+ {
+  "id": "item:ex-fp-04",
+  "rule": "lessico",
+  "msg": "ita ×3 — item:ex-fp-04: Nombres de acción en -ita a partir del participio: crescere → crescita, perdere → perdita. | item:ex-fp-12: Sustantivo en -ita: perdita (pérdida). Error típico: *perdida."
+ },
+ {
+  "id": "item:ex-fp-17",
+  "rule": "lessico",
+  "msg": "ità ×1 — item:ex-fp-17: Sufijo -ità: velocità. Invariable en plural: le velocità."
+ },
+ {
+  "id": "lettura:w-48",
+  "rule": "lessico",
+  "msg": "juve ×1 — lettura:w-48: Il caffè, lo prendo sempre al bar sotto casa. Il barista, Gino, lo conosco da vent'anni. D"
+ },
+ {
+  "id": "testi:app.js",
+  "rule": "lessico",
+  "msg": "languagetool ×1 — testi:app.js:4: , y LanguageTool tampoco."
+ },
+ {
+  "id": "lesson:5",
+  "rule": "lessico",
+  "msg": "legg ×1 — lesson:5:0: Legg*i* molto."
+ },
+ {
+  "id": "item:g2-gd-03",
+  "rule": "lessico",
+  "msg": "leggiuto ×2 — item:g2-gd-03: Leggere → letto, con doble t. «Leído» es regular en castellano y te empuja a inventar «leg | item:g2-va-50: Ho leggiuto un bel libro."
+ },
+ {
+  "id": "testi:app.js",
+  "rule": "lessico",
+  "msg": "lescard ×1 — testi:app.js:1: card lescard lesson step-' + st.kind + '"
+ },
+ {
+  "id": "lesson:2",
+  "rule": "lessico",
+  "msg": "libr ×3 — lesson:2:0: il libr*o* → i libr*i* | lesson:2:0: il libr*o* → i libr*i*"
+ },
+ {
+  "id": "lesson:46",
+  "rule": "lessico",
+  "msg": "llenísimo ×1 — lesson:46:3: El tren estaba llenísimo."
+ },
+ {
+  "id": "item:g2-gd-33",
+  "rule": "lessico",
+  "msg": "logi ×1 — item:g2-gd-33: -go → -ghi en general, pero los nombres de personas en -logo hacen -logi: psicologi, biolo"
+ },
+ {
+  "id": "item:g2-va-70",
+  "rule": "lessico",
+  "msg": "makina ×1 — item:g2-va-70: Macchina con doble c. «Machina» además se leería [makina] igual, pero está mal escrito."
+ },
+ {
+  "id": "lesson:27",
+  "rule": "lessico",
+  "msg": "malísimo ×1 — lesson:27:7: Cocina malísimo."
+ },
+ {
+  "id": "item:mj-24-06",
+  "rule": "lessico",
+  "msg": "mangii ×4 — item:mj-24-06: -giare no repite la i: mangi (no «mangii»). | item:mj-24-16: È meglio che tu mangii meno."
+ },
+ {
+  "id": "lettura:w-35",
+  "rule": "lessico",
+  "msg": "martillito ×1 — lettura:w-35: martillito"
+ },
+ {
+  "id": "testi:diagnosi.js",
+  "rule": "lessico",
+  "msg": "mezz ×1 — testi:diagnosi.js:2: mezzo mezza mezzi mezze mezz'|metà"
+ },
+ {
+  "id": "testi:app.js",
+  "rule": "lessico",
+  "msg": "millett ×1 — testi:app.js:1: material conocido a velocidad normal es lo que hace crecer la fluidez del oído (Chang & Mi"
+ },
+ {
+  "id": "item:mj-40-09",
+  "rule": "lessico",
+  "msg": "mostrámelas ×1 — item:mj-40-09: Completá con el imperativo de fare y los pronombres (mostrámelas)."
+ },
+ {
+  "id": "lesson:46",
+  "rule": "lessico",
+  "msg": "multiétnico ×1 — lesson:46:6: Vive en un barrio multiétnico."
+ },
+ {
+  "id": "item:g2-gd-20",
+  "rule": "lessico",
+  "msg": "ncere ×1 — item:g2-gd-20: Vincere → vinto (como convincere/convinto, dipingere/dipinto). «Ganado» es regular en cast"
+ },
+ {
+  "id": "lesson:44",
+  "rule": "lessico",
+  "msg": "ndo ×1 — lesson:44:3: Se usa mucho menos que el «estar + -ndo» castellano. «Estoy estudiando italiano este año» "
+ },
+ {
+  "id": "lesson:3",
+  "rule": "lessico",
+  "msg": "nessuni ×1 — lesson:3:16: nessuni"
+ },
+ {
+  "id": "item:g2-gd-20",
+  "rule": "lessico",
+  "msg": "ngere ×1 — item:g2-gd-20: Vincere → vinto (como convincere/convinto, dipingere/dipinto). «Ganado» es regular en cast"
+ },
+ {
+  "id": "lettura:w-22",
+  "rule": "lessico",
+  "msg": "notita ×1 — lettura:w-22: notita"
+ },
+ {
+  "id": "lesson:4",
+  "rule": "lessico",
+  "msg": "nuov ×3 — lesson:4:0: Il libro è nuov*o*. La casa è nuov*a*. | lesson:4:0: Il libro è nuov*o*. La casa è nuov*a*."
+ },
+ {
+  "id": "lesson:46",
+  "rule": "lessico",
+  "msg": "olo ×1 — lesson:46:4: interfijo -icci- + -olo"
+ },
+ {
+  "id": "lesson:46",
+  "rule": "lessico",
+  "msg": "oni ×1 — lesson:46:1: Un muro di matt*oni*."
+ },
+ {
+  "id": "lesson:1",
+  "rule": "lessico",
+  "msg": "otel ×2 — lesson:1:0: *h*otel | lesson:1:0: se lee «otel»"
+ },
+ {
+  "id": "lettura:w-11",
+  "rule": "lessico",
+  "msg": "padua ×2 — lettura:w-11: de Padua | lettura:w-11: de Padua"
+ },
+ {
+  "id": "lesson:20",
+  "rule": "lessico",
+  "msg": "pagarebbe ×1 — lesson:20:1: Igual que en el futuro (*pagherò*, *cercherò*): si sabés uno, sabés el otro. Escribir *pag"
+ },
+ {
+  "id": "item:mj-24-15",
+  "rule": "lessico",
+  "msg": "pagi ×1 — item:mj-24-15: Voglio che tu pagi il conto."
+ },
+ {
+  "id": "lesson:46",
+  "rule": "lessico",
+  "msg": "palito ×1 — lesson:46:4: Un palito de pan."
+ },
+ {
+  "id": "lesson:5",
+  "rule": "lessico",
+  "msg": "parl ×5 — lesson:5:0: Parl*i* italiano? | lesson:5:0: Parl*ano* inglese."
+ },
+ {
+  "id": "lesson:15",
+  "rule": "lessico",
+  "msg": "parlavàno ×1 — lesson:15:0: *loro* lleva el acento en la misma sílaba que *io*: *parlàvo → parlàvano*, nunca «parlavàn"
+ },
+ {
+  "id": "lesson:15",
+  "rule": "lessico",
+  "msg": "parlàvano ×1 — lesson:15:0: *loro* lleva el acento en la misma sílaba que *io*: *parlàvo → parlàvano*, nunca «parlavàn"
+ },
+ {
+  "id": "lesson:15",
+  "rule": "lessico",
+  "msg": "parlàvo ×1 — lesson:15:0: *loro* lleva el acento en la misma sílaba que *io*: *parlàvo → parlàvano*, nunca «parlavàn"
+ },
+ {
+  "id": "lesson:11",
+  "rule": "lessico",
+  "msg": "partit ×2 — lesson:11:2: Marco è partit*o*. / Anna è partit*a*. | lesson:11:2: Marco è partit*o*. / Anna è partit*a*."
+ },
+ {
+  "id": "lesson:1",
+  "rule": "lessico",
+  "msg": "peshe ×1 — lesson:1:1: pescado: «peshe»"
+ },
+ {
+  "id": "item:mj-47-09",
+  "rule": "lessico",
+  "msg": "pil ×1 — item:mj-47-09: Nel 2023 il PIL è cresciuto ___ due punti percentuali."
+ },
+ {
+  "id": "lesson:3",
+  "rule": "lessico",
+  "msg": "pizz ×1 — lesson:3:0: la pizz*a*"
+ },
+ {
+  "id": "item:g2-va-54",
+  "rule": "lessico",
+  "msg": "potria ×1 — item:g2-va-54: Scusi, potria aiutarmi?"
+ },
+ {
+  "id": "item:ex-fp-09",
+  "rule": "lessico",
+  "msg": "pover ×1 — item:ex-fp-09: Sufijo -tà: povertà (pobreza). Se pierde la -o final: pover-tà."
+ },
+ {
+  "id": "item:g2-gd-17",
+  "rule": "lessico",
+  "msg": "prire ×1 — item:g2-gd-17: Offrire → offerto, como aprire/aperto, coprire/coperto, soffrire/sofferto. «Ofrecido» es r"
+ },
+ {
+  "id": "item:l2-d-59",
+  "rule": "lessico",
+  "msg": "pucha ×1 — item:l2-d-59: «Cavolo!» = ¡uy!, ¡la pucha! Eufemismo suave de una palabrota. «Col cavolo» = ni a palos; "
+ },
+ {
+  "id": "lesson:42",
+  "rule": "lessico",
+  "msg": "qn ×3 — lesson:42:5: pregare qn di + inf. | lesson:42:5: chiedere a qn di + inf."
+ },
+ {
+  "id": "lesson:3",
+  "rule": "lessico",
+  "msg": "qualcuni ×1 — lesson:3:15: qualcuni giorni"
+ },
+ {
+  "id": "lettura:fl-causativo",
+  "rule": "lessico",
+  "msg": "ragú ×1 — lettura:fl-causativo: ¿Cuánto tiempo hace cocinar el ragú?"
+ },
+ {
+  "id": "testi:app.js",
+  "rule": "lessico",
+  "msg": "repasos ×2 — testi:app.js:0: Anotado. Bajé la retención a 85 %: menos repasos por día. | testi:app.js:3: : todavía pocos repasos ("
+ },
+ {
+  "id": "item:g2-gd-18",
+  "rule": "lessico",
+  "msg": "respuesto ×1 — item:g2-gd-18: Rispondere → risposto (como nascondere/nascosto). Fijate que el participio se parece a «re"
+ },
+ {
+  "id": "lettura:w-46",
+  "rule": "lessico",
+  "msg": "revistita ×1 — lettura:w-46: revistita, diarito"
+ },
+ {
+  "id": "lettura:w-46",
+  "rule": "lessico",
+  "msg": "rinconcito ×1 — lettura:w-46: rinconcito"
+ },
+ {
+  "id": "item:g2-gd-18",
+  "rule": "lessico",
+  "msg": "risponduto ×1 — item:g2-gd-18: Rispondere → risposto (como nascondere/nascosto). Fijate que el participio se parece a «re"
+ },
+ {
+  "id": "lesson:1",
+  "rule": "lessico",
+  "msg": "rno ×1 — lesson:1:1: *cia*o, *gio*rno"
+ },
+ {
+  "id": "item:g2-gd-19",
+  "rule": "lessico",
+  "msg": "romputo ×1 — item:g2-gd-19: Rompere → rotto. El castellano «roto» ayuda, pero en italiano lleva doble t: rotto, no «ro"
+ },
+ {
+  "id": "lesson:1",
+  "rule": "lessico",
+  "msg": "rta ×1 — lesson:1:5: p*ò*rta / s*ó*le"
+ },
+ {
+  "id": "item:g2-ct-51",
+  "rule": "lessico",
+  "msg": "rávena ×1 — item:g2-ct-51: Dante nació en Florencia y murió en Rávena."
+ },
+ {
+  "id": "lettura:w-11",
+  "rule": "lessico",
+  "msg": "saor ×1 — lettura:w-11: Sabato scorso Anna e Luca sono andati a Venezia. Sono partiti da Padova alle nove e sono a"
+ },
+ {
+  "id": "lesson:1",
+  "rule": "lessico",
+  "msg": "sca ×2 — lesson:1:5: p*è*sca / p*é*sca | lesson:1:5: p*è*sca / p*é*sca"
+ },
+ {
+  "id": "item:g2-gd-04",
+  "rule": "lessico",
+  "msg": "scrito ×1 — item:g2-gd-04: Scrivere → scritto. Acá el castellano ayuda («escrito»), pero el patrón -uto de los ejempl"
+ },
+ {
+  "id": "lesson:13",
+  "rule": "lessico",
+  "msg": "scriv ×1 — lesson:13:1: Loro scriv*ono* molto."
+ },
+ {
+  "id": "lesson:1",
+  "rule": "lessico",
+  "msg": "señore ×1 — lesson:1:0: señore"
+ },
+ {
+  "id": "item:g2-va-43",
+  "rule": "lessico",
+  "msg": "simpaticas ×1 — item:g2-va-43: Le ragazze sono simpaticas."
+ },
+ {
+  "id": "item:mj-04-04",
+  "rule": "lessico",
+  "msg": "simpatichi ×2 — item:mj-04-04: Marco e Luca sono simpatichi. | lesson:4:4: Sin h no hay sonido duro: «simpatichi» y «bianci» están mal. Sustantivos que rompen la reg"
+ },
+ {
+  "id": "lesson:1",
+  "rule": "lessico",
+  "msg": "sinnore ×1 — lesson:1:0: sinnore"
+ },
+ {
+  "id": "item:g2-gd-22",
+  "rule": "lessico",
+  "msg": "sk ×1 — item:g2-gd-22: Conoscere → conosciuto: la -i- se conserva para que la sc siga sonando [ʃ] delante de u (l"
+ },
+ {
+  "id": "lettura:w-46",
+  "rule": "lessico",
+  "msg": "sombrerito ×1 — lettura:w-46: sombrerito"
+ },
+ {
+  "id": "lesson:5",
+  "rule": "lessico",
+  "msg": "studii ×1 — lesson:5:2: Sin la *h*, «cerci» se leería «cherchi». Y nunca «mangii» ni «studii»: una sola *i*."
+ },
+ {
+  "id": "item:g2-gd-03",
+  "rule": "lessico",
+  "msg": "tto ×1 — item:g2-gd-03: Leggere → letto, con doble t. «Leído» es regular en castellano y te empuja a inventar «leg"
+ },
+ {
+  "id": "lesson:2",
+  "rule": "lessico",
+  "msg": "turist ×2 — lesson:2:5: i turist*i* / le turist*e* | lesson:2:5: i turist*i* / le turist*e*"
+ },
+ {
+  "id": "item:g2-gd-10",
+  "rule": "lessico",
+  "msg": "udere ×1 — item:g2-gd-10: Chiudere → chiuso: los verbos en -udere hacen -uso (chiudere/chiuso, concludere/concluso)."
+ },
+ {
+  "id": "lesson:2",
+  "rule": "lessico",
+  "msg": "uov ×2 — lesson:2:3: l'uov*o* → le uov*a* | lesson:2:3: l'uov*o* → le uov*a*"
+ },
+ {
+  "id": "item:mj-49-08",
+  "rule": "lessico",
+  "msg": "ura ×2 — item:mj-49-08: Nominalización: chiudere → la chiusura (sufijo -ura). | lesson:49:5: -ura"
+ },
+ {
+  "id": "lesson:11",
+  "rule": "lessico",
+  "msg": "uscit ×1 — lesson:11:2: Le ragazze sono uscit*e*."
+ },
+ {
+  "id": "lesson:15",
+  "rule": "lessico",
+  "msg": "vamo ×1 — lesson:15:0: Infinitivo sin *-re* + *-vo, -vi, -va, -vamo, -vate, -vano*: *parlavo, vendevo, dormivo*."
+ },
+ {
+  "id": "item:g2-gd-21",
+  "rule": "lessico",
+  "msg": "venu ×1 — item:g2-gd-21: Venire es de la tercera conjugación, pero el participio es venuto (como en francés «venu»)"
+ },
+ {
+  "id": "lettura:w-46",
+  "rule": "lessico",
+  "msg": "viejito ×1 — lettura:w-46: viejito"
+ },
+ {
+  "id": "item:g2-gd-14",
+  "rule": "lessico",
+  "msg": "vivuto ×1 — item:g2-gd-14: Vivere → vissuto, con doble s. «Vivido» es regular en castellano y te lleva a «vivuto». Pu"
+ },
+ {
+  "id": "lesson:15",
+  "rule": "lessico",
+  "msg": "vo ×1 — lesson:15:0: Infinitivo sin *-re* + *-vo, -vi, -va, -vamo, -vate, -vano*: *parlavo, vendevo, dormivo*."
+ },
+ {
+  "id": "item:g2-va-53",
+  "rule": "lessico",
+  "msg": "vorrebbo ×1 — item:g2-va-53: Vorrebbo un caffè, per favore."
+ },
+ {
+  "id": "testi:app.js",
+  "rule": "lessico",
+  "msg": "wikimedia ×1 — testi:app.js:3:  palabras. Voces de Lingua Libre (Wikimedia Commons), licencia CC BY-SA 4.0: "
+ }
+]

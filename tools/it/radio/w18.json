@@ -1,0 +1,50 @@
+{
+ "week": 18,
+ "level": "A2",
+ "title": "Il portafoglio di Leo",
+ "genre": "collegamento dal mercato",
+ "es": "Leo, el corresponsal en bicicleta, tenía que contar el mercado de la Piazzola, pero llama a la radio desesperado: perdió algo importante.",
+ "speakers": ["Sara", "Leo"],
+ "turns": [
+  ["A", "E adesso andiamo al mercato della Piazzola con il nostro Leo. Leo, com'è il mercato stamattina?"],
+  ["B", "Sara, il mercato è bellissimo, ma io ho un problema: non trovo più il portafoglio!"],
+  ["A", "No! Che peccato! Ma sei sicuro? Guarda bene nello zaino."],
+  ["B", "Ho guardato dappertutto: non c'è. Non ho più niente: né i soldi, né i documenti, né la tessera dell'autobus."],
+  ["A", "Calma, Leo. Spiegaci che cosa è successo."],
+  ["B", "Allora, sono arrivato alle nove e ho fatto la spesa per mia madre: frutta, verdura e un chilo di pane. Poi avevo fame e ho mangiato una piadina. Quando ho pagato la piadina il portafoglio c'era, ma adesso non c'è più."],
+  ["A", "E non hai visto nessuno vicino a te?"],
+  ["B", "Boh! Non mi ricordo niente. C'era tantissima gente e io non ho mai fatto attenzione. Che sbadato!"],
+  ["A", "Non è mica colpa tua. Forza, torna al banco delle piadine. Magari l'hai lasciato lì."],
+  ["B", "Vado... Aspetta, Sara, c'è una signora che mi chiama con qualcosa in mano. Non ci credo: è il mio portafoglio!"],
+  ["A", "Che meraviglia! E chi è questa signora?"],
+  ["B", "È la signora Franca! Dice che ascolta sempre la radio e ha riconosciuto la mia voce. Grazie, signora! Non so come ringraziarla."],
+  ["A", "La signora Franca non spreca mai un'occasione per aiutare qualcuno! Leo, adesso puoi spendere i tuoi soldi: offri almeno un caffè alla signora!"],
+  ["B", "Ma figurati! Le offro anche la piadina!"]
+ ],
+ "gloss": {
+  "dappertutto": "por todos lados",
+  "né": "ni (né… né: ni… ni)",
+  "tessera": "tarjeta, abono",
+  "Spiegaci": "explicanos",
+  "fatto attenzione": "prestado atención (fare attenzione)",
+  "banco": "puesto (del mercado)",
+  "Non ci credo": "no lo puedo creer",
+  "ha riconosciuto": "reconoció",
+  "spreca": "desperdicia",
+  "occasione": "ocasión, oportunidad",
+  "piadina": "pan chato relleno de la Romaña",
+  "ringraziarla": "agradecerle (a usted)"
+ },
+ "questions": [
+  ["Che cosa ha perso Leo?", ["Lo zaino con la frutta", "Il portafoglio", "La bicicletta", "Il telefono della radio"], "Il portafoglio"],
+  ["Che cosa ha fatto Leo al mercato prima di perdere il portafoglio?", ["Ha fatto la spesa e ha mangiato una piadina", "Ha comprato un regalo per la signora Franca", "Ha preso un caffè con un amico", "Ha parlato con alcune persone"], "Ha fatto la spesa e ha mangiato una piadina"],
+  ["Come ha fatto la signora Franca a trovare Leo?", ["L'ha visto in televisione", "Ha riconosciuto la sua voce", "Ha chiamato la radio", "L'ha trovato sul banco delle piadine"], "Ha riconosciuto la sua voce"]
+ ],
+ "info": [
+  ["Nel portafoglio c'erano anche i documenti di Leo.", true],
+  ["Leo ha visto chi ha preso il portafoglio.", false],
+  ["La signora Franca ha lasciato il portafoglio alla polizia.", false]
+ ],
+ "grammatica": {"label": "la doble negación y las exclamaciones", "forme": ["non trovo più", "non ho più niente", "né i soldi", "non hai visto nessuno", "non mi ricordo niente", "non ho mai fatto", "non è mica", "che peccato", "che sbadato", "che meraviglia", "non spreca mai", "figurati"]},
+ "parole": [["peccato", "peccato"], ["portafoglio", "portafoglio"], ["soldi", "soldi"], ["spesa", "spesa"], ["fame", "fame"], ["boh", "boh"], ["sbadato", "sbadato"], ["mica", "mica"], ["forza", "forza"], ["magari", "magari"], ["meraviglia", "meraviglia"], ["spendere", "spendere"], ["figurati", "figurati"], ["spiegaci", "spiegare"]]
+}

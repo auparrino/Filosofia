@@ -1,0 +1,226 @@
+{
+ "week": 51,
+ "title": "Revisão B2-C1",
+ "level": "C1",
+ "revisado": {
+  "items": 48,
+  "bloques_teoria": 7,
+  "lecturas": 3,
+  "dictogloss": 1,
+  "suoni": 0,
+  "radio": 0,
+  "otros": 4
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana de repaso sólida en contenido: el portugués de lecturas, ítems y teoría es correcto y no hallé errores claros. Los problemas son de diseño: muchos ítems copian ejemplos de la lección, hay ítems garden mal enunciados, accept incompleto o europeo, y metadatos inconsistentes. Para C1 la dificultad es baja y la teoría es fina. Suoni, radio y laboratorio vacíos.",
+ "bien": [
+  "Lecturas de calidad (Palmares, Mia Couto, reportagem del centro) con datos históricos correctos y buen uso del futuro do subjuntivo e infinitivo pessoal.",
+  "Teoría con contraste español-portugués y avisos de error típico (quando chegue, tem estado, namorar com).",
+  "Mezcla de tipos (choice, cloze, translate, fixerr, combina) con progresión del reconocimiento a la producción.",
+  "Tramo completo y coherente: lectura, escucha, tarea con modelo (256 palabras, dentro de 250-310) y noticia con tabla.",
+  "Vocabulario de expresiones (de quebra, de mão beijada) con notas útiles y correctas."
+ ],
+ "hallazgos": [
+  {
+   "id": "item s4-51-18",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Passei ___ orla de bicicleta.",
+   "propuesta": "Passei ___ (por + a) orla de bicicleta.",
+   "motivo": "Sin pista de la preposición, «na orla» también es posible; los demás cloze de contracción dan la pista (a + aquele, em + a)."
+  },
+  {
+   "id": "item s4-51-36",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Sin el acento grave, falta la preposición.",
+   "propuesta": "Sin el acento grave, falta la fusión de la preposición a con el artículo a (a + a = à).",
+   "motivo": "En «vou a praia» la preposición está; lo que falta es la contracción con el artículo."
+  },
+  {
+   "id": "lesson:4",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "preferir X a Y | preferir X antes que Y",
+   "propuesta": "preferir X a Y | preferir X a Y (no «antes que»)",
+   "motivo": "La glosa española «preferir X antes que Y» es una construcción distinta y confunde la regencia."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Preposición + artículo se funden siempre: *no, na, do, pelo, num, dele*.",
+   "propuesta": "Preposición + artículo se funden con a, de, em, por (*ao, do, no, pelo*); con *para, com, sem, sobre* no hay contracción.",
+   "motivo": "«Siempre» es falso en general (para o, com a no se funden)."
+  },
+  {
+   "id": "item s4-51-15",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "houveram → houver: enquanto + futuro.",
+   "propuesta": "enquanto houver (de *houve*; haver impersonal no tiene plural)",
+   "motivo": "«houveram» no existe en la norma con haver existencial, y el ítem 32 enseña «houve» siempre singular."
+  },
+  {
+   "id": "item s4-51-25",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Quando chegares, liga-me",
+   "propuesta": "Retirar esa variante (2.ª persona de Portugal) del accept; agregar «Quando chegar, liga pra mim».",
+   "motivo": "Aceptar tu/enclisis europea en un curso pt-BR; falta la variante coloquial sin você."
+  },
+  {
+   "id": "item s4-51-29",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Vamos à praia às três.",
+   "propuesta": "Agregar a accept: «Vamos pra praia às três», «Vamos para a praia às três».",
+   "motivo": "Variantes muy naturales con pra/para a no aceptadas."
+  },
+  {
+   "id": "item s4-51-43",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Como se diz «oficina» (lugar de trabalho) no Brasil?",
+   "propuesta": "Como se diz, em português, o que em espanhol é «oficina» (lugar de trabajo de oficinistas)? Accept: escritório, o escritório.",
+   "motivo": "«oficina» también es palabra portuguesa (taller); la consigna es ambigua y falta «o escritório»."
+  },
+  {
+   "id": "item s4-51-46",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Embora houvesse muita gente, conseguimos entrar.",
+   "propuesta": "Enseñar embora + subjuntivo imperfecto en la lección o reemplazar por una estructura de la semana.",
+   "motivo": "Imperfeito do subjuntivo no aparece en ningún bloque de lesson."
+  },
+  {
+   "id": "item s4-51-37",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "fazer → ___",
+   "propuesta": "Mostrar en el enunciado los tres ejemplos (p. ej. falar → quando eu falar) y la pauta «quando eu ___».",
+   "motivo": "El dossier no muestra los ejemplos; «quando eu fizer» no se deduce del enunciado (se aceptaría «se eu fizer»)."
+  },
+  {
+   "id": "item s4-51-38",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "eles → ___",
+   "propuesta": "Dar el verbo y el marco: «sair, eles → para eles ___».",
+   "motivo": "Sin verbo ni marco no se sabe que hay que escribir «para eles saírem»."
+  },
+  {
+   "id": "item s4-51-08",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "options: na / em a / em",
+   "propuesta": "Reemplazar «em» por «a» o aclarar que con Tijuca se usa artículo.",
+   "motivo": "«Moro em Tijuca» suena posible a algunos hablantes; solo la nota resuelve."
+  },
+  {
+   "id": "item s4-51-06",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "ha feito",
+   "propuesta": "Cambiar el distractor por «tinha feito» o «fazia».",
+   "motivo": "«ha feito» es calco obvio del español y se descarta sin aplicar la regla."
+  },
+  {
+   "id": "item s4-51-11",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "options: oficina / escritório / loja",
+   "propuesta": "Usar «___ para consertar» sin artículo previo, o poner «na/no» en las opciones.",
+   "motivo": "«na escritório» se descarta por género, no por el falso amigo."
+  },
+  {
+   "id": "item s4-51-24",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "(Formal) ___ (haver, perfeito) muitos protestos em 2013.",
+   "propuesta": "Agregar al lesson «houve» como forma escrita de haver o quitar «Houve» como único aceptado.",
+   "motivo": "«Houve» no se enseña en la lección (solo «há»)."
+  },
+  {
+   "id": "parts",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"n_items\": 300",
+   "propuesta": "n_items = 23 / 13 / 12 aproximados (total 48)",
+   "motivo": "Los n_items declarados (23/13/300) no coinciden con los 48 ítems reales."
+  },
+  {
+   "id": "item s4-51-13",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Quando vocês ___ (ir) a Salvador, provem o acarajé.",
+   "propuesta": "Cambiar la frase: está idéntica al quiz de la lección.",
+   "motivo": "Varios ítems copian ejemplos de la lección (s4-51-01, 07, 09, 13, 18, 19, 25, 27, 30, 33): se memoriza, no se aplica la regla."
+  },
+  {
+   "id": "item s4-51-31",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "El dolor era fuerte.",
+   "propuesta": "Variar el sustantivo (a ponte, o sangue) ",
+   "motivo": "«dor» se repite en 31 y 39; «ponte», «sangue», «leite» e «de repente» no tienen ejercicio."
+  },
+  {
+   "id": "dictogloss",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "a estátua de Camões, que, segundo a tradição, salvou Os Lusíadas",
+   "propuesta": "a estátua de Camões, o poeta que, segundo a tradição, salvou Os Lusíadas",
+   "motivo": "El «que» parece referirse a la estátua."
+  },
+  {
+   "id": "breve",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "sanção\": \"promulgación",
+   "propuesta": "sanción (del intendente; equivale a promulgar la ley)",
+   "motivo": "«sanción» es el término exacto en español; «promulgación» es otro acto."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Sustituir los ejemplos de la lección copiados en ítems por frases nuevas y añadir ítems C1 reales (mais-que-perfeito, futuro do pretérito, voz passiva, colocação pronominal).",
+   "por_que": "Hoy muchos ítems repiten la lección y son de nivel A2-B1, no C1."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Completar la teoría: formación del perfeito composto, cuándo no flexionar el infinitivo, futuro do subjuntivo con como/conforme/quem, imperfeito do subjuntivo.",
+   "por_que": "Los ítems evalúan puntos que la lección no cubre o toca muy rápido."
+  },
+  {
+   "prioridad": "media",
+   "que": "Añadir ejercicios para de repente, ponte, sangue, leite, esquisito y registro (solo 2 ítems).",
+   "por_que": "Puntos enseñados sin práctica."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reescribir los ítems garden con los ejemplos visibles y corregir accept (variantes pra/para a, o escritório, sin formas europeas).",
+   "por_que": "Evitar respuestas correctas rechazadas."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Corregir n_items de parts y completar suoni, radio y laboratorio.",
+   "por_que": "Metadatos incoherentes y secciones vacías."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

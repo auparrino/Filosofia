@@ -1,0 +1,4750 @@
+[
+ {
+  "week": 1,
+  "text": "Ciao! Mi chiamo Federico e sono da Rosario, in Argentina. Ho ventisei anni e tengo un gatto negro. Oggi sto un po' stanco, ma sono felice perché e venerdì!",
+  "corrected": "Ciao! Mi chiamo Federico e sono di Rosario, in Argentina. Ho ventisei anni e ho un gatto nero. Oggi sono un po' stanco, ma sono felice perché è venerdì!",
+  "errors": [
+   {
+    "wrong": "sono da",
+    "right": "sono di",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "tengo",
+    "right": "ho",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "negro",
+    "right": "nero",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "sto un po'",
+    "right": "sono un po'",
+    "cat": "lessico"
+   },
+   {
+    "wrong": "e venerdì",
+    "right": "è venerdì",
+    "cat": "accento"
+   }
+  ]
+ },
+ {
+  "week": 1,
+  "text": "Ciao! Mi chiamo Camila e sono argentino. Abito a Mendoza. Tengo trentadue anni e ho un sorella e due cani. Oggi sono bene, ma sono molta stanca.",
+  "corrected": "Ciao! Mi chiamo Camila e sono argentina. Abito a Mendoza. Ho trentadue anni e ho una sorella e due cani. Oggi sto bene, ma sono molto stanca.",
+  "errors": [
+   {
+    "wrong": "sono argentino",
+    "right": "sono argentina",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "Tengo",
+    "right": "Ho",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "un sorella",
+    "right": "una sorella",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "sono bene",
+    "right": "sto bene",
+    "cat": "lessico"
+   },
+   {
+    "wrong": "molta stanca",
+    "right": "molto stanca",
+    "cat": "concordanza"
+   }
+  ]
+ },
+ {
+  "week": 2,
+  "text": "Nella mia famiglia siamo in cinque. Ho due fratello e una sorella. Abbiamo tre gatti e due pesce. In casa ho molti libros, due computers e tante piante. Le mie amice hanno due cani.",
+  "corrected": "Nella mia famiglia siamo in cinque. Ho due fratelli e una sorella. Abbiamo tre gatti e due pesci. In casa ho molti libri, due computer e tante piante. Le mie amiche hanno due cani.",
+  "errors": [
+   {
+    "wrong": "due fratello",
+    "right": "due fratelli",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "due pesce",
+    "right": "due pesci",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "libros",
+    "right": "libri",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "computers",
+    "right": "computer",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "amice",
+    "right": "amiche",
+    "cat": "ortografia"
+   }
+  ]
+ },
+ {
+  "week": 2,
+  "text": "Non ho fratelli, ma ho quattro primos. Ho due tartarughe e un gatto. Nella mia casa ci sono tre stanza, due bagni e molte finestre. In cucina ho sei bicchiere e dieci piati. I miei chiavi sono sempre sul tavolo.",
+  "corrected": "Non ho fratelli, ma ho quattro cugini. Ho due tartarughe e un gatto. Nella mia casa ci sono tre stanze, due bagni e molte finestre. In cucina ho sei bicchieri e dieci piatti. Le mie chiavi sono sempre sul tavolo.",
+  "errors": [
+   {
+    "wrong": "primos",
+    "right": "cugini",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "stanza",
+    "right": "stanze",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "bicchiere",
+    "right": "bicchieri",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "piati",
+    "right": "piatti",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "I miei chiavi",
+    "right": "Le mie chiavi",
+    "cat": "concordanza"
+   }
+  ]
+ },
+ {
+  "week": 3,
+  "text": "Buongiorno! Per me un cappuccino e una brioche, e per il mio amico un aranciata e un spuntino. Sul bancone ci sono i snack, i cornetti e il zucchero. La latte di bar è molto buono.",
+  "corrected": "Buongiorno! Per me un cappuccino e una brioche, e per il mio amico un'aranciata e uno spuntino. Sul bancone ci sono gli snack, i cornetti e lo zucchero. Il latte del bar è molto buono.",
+  "errors": [
+   {
+    "wrong": "un aranciata",
+    "right": "un'aranciata",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "un spuntino",
+    "right": "uno spuntino",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "i snack",
+    "right": "gli snack",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "il zucchero",
+    "right": "lo zucchero",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "La latte",
+    "right": "Il latte",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "di bar",
+    "right": "del bar",
+    "cat": "preposizione"
+   }
+  ]
+ },
+ {
+  "week": 3,
+  "text": "Scusi! Due caffé, per favore: uno per me e uno per la mia amica. Lei vuole anche un bicchiere de acqua. Nel bancone ci sono i tramezzini, le pizzette e un strudel. La aranciata del bar è muy buona.",
+  "corrected": "Scusi! Due caffè, per favore: uno per me e uno per la mia amica. Lei vuole anche un bicchiere d'acqua. Sul bancone ci sono i tramezzini, le pizzette e uno strudel. L'aranciata del bar è molto buona.",
+  "errors": [
+   {
+    "wrong": "caffé",
+    "right": "caffè",
+    "cat": "accento"
+   },
+   {
+    "wrong": "de acqua",
+    "right": "d'acqua",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "Nel bancone",
+    "right": "Sul bancone",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "un strudel",
+    "right": "uno strudel",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "La aranciata",
+    "right": "L'aranciata",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "muy",
+    "right": "molto",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 4,
+  "text": "Mia amica Julieta è argentino. È alta e magro e ha gli occhi azzurro. È molto simpatica e inteligente, ma un po' timida.",
+  "corrected": "La mia amica Julieta è argentina. È alta e magra e ha gli occhi azzurri. È molto simpatica e intelligente, ma un po' timida.",
+  "errors": [
+   {
+    "wrong": "Mia amica",
+    "right": "La mia amica",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "argentino",
+    "right": "argentina",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "magro",
+    "right": "magra",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "azzurro",
+    "right": "azzurri",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "inteligente",
+    "right": "intelligente",
+    "cat": "doppie"
+   }
+  ]
+ },
+ {
+  "week": 4,
+  "text": "Il mio vicino si chiama Mateo. E uruguaiano e ha sessant'anni. È basso e un po' gordo, ha la barba bianco e il capelli corti. È un persona generosa e allegra, ma a volte è nervosso.",
+  "corrected": "Il mio vicino si chiama Mateo. È uruguaiano e ha sessant'anni. È basso e un po' grasso, ha la barba bianca e i capelli corti. È una persona generosa e allegra, ma a volte è nervoso.",
+  "errors": [
+   {
+    "wrong": "E uruguaiano",
+    "right": "È uruguaiano",
+    "cat": "accento"
+   },
+   {
+    "wrong": "gordo",
+    "right": "grasso",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "bianco",
+    "right": "bianca",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "il capelli",
+    "right": "i capelli",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "un persona",
+    "right": "una persona",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "nervosso",
+    "right": "nervoso",
+    "cat": "doppie"
+   }
+  ]
+ },
+ {
+  "week": 5,
+  "text": "Ogni giorno prendo l'autobus a le sette. Lavoro a una banca in centro. A mezzogiorno io e i miei colleghi mangiano un'insalata. Il pomeriggio studia inglese. La sera miro la televisione e ceno con mia moglie.",
+  "corrected": "Ogni giorno prendo l'autobus alle sette. Lavoro in una banca in centro. A mezzogiorno io e i miei colleghi mangiamo un'insalata. Il pomeriggio studio inglese. La sera guardo la televisione e ceno con mia moglie.",
+  "errors": [
+   {
+    "wrong": "a le sette",
+    "right": "alle sette",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "a una banca",
+    "right": "in una banca",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "mangiano",
+    "right": "mangiamo",
+    "cat": "persona"
+   },
+   {
+    "wrong": "studia",
+    "right": "studio",
+    "cat": "persona"
+   },
+   {
+    "wrong": "miro",
+    "right": "guardo",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 5,
+  "text": "Studio medicina a la università di Buenos Aires. La mattina vado in subte e le lezioni comincia alle nove. A pranzo mangio un pizza con le mie compagne. Il pomeriggio lavoro in una farmacia e la sera lego un libro.",
+  "corrected": "Studio medicina all'università di Buenos Aires. La mattina vado in metropolitana e le lezioni cominciano alle nove. A pranzo mangio una pizza con le mie compagne. Il pomeriggio lavoro in una farmacia e la sera leggo un libro.",
+  "errors": [
+   {
+    "wrong": "a la università",
+    "right": "all'università",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "subte",
+    "right": "metropolitana",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "comincia",
+    "right": "cominciano",
+    "cat": "persona"
+   },
+   {
+    "wrong": "un pizza",
+    "right": "una pizza",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "lego",
+    "right": "leggo",
+    "cat": "doppie"
+   }
+  ]
+ },
+ {
+  "week": 6,
+  "text": "Il sabato salgo con i miei amici e faciamo una passeggiata in centro. La domenica vado a mia nonna e tutti i cugini viene a pranzo. Il pomeriggio ho che studiare, ma voglio solo dormire!",
+  "corrected": "Il sabato esco con i miei amici e facciamo una passeggiata in centro. La domenica vado da mia nonna e tutti i cugini vengono a pranzo. Il pomeriggio devo studiare, ma voglio solo dormire!",
+  "errors": [
+   {
+    "wrong": "salgo",
+    "right": "esco",
+    "cat": "falso_amico"
+   },
+   {
+    "wrong": "faciamo",
+    "right": "facciamo",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "a mia nonna",
+    "right": "da mia nonna",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "viene",
+    "right": "vengono",
+    "cat": "persona"
+   },
+   {
+    "wrong": "ho che studiare",
+    "right": "devo studiare",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 6,
+  "text": "Il venerdì sera vado alla casa di Diego e giochiamo alla PlayStation. Il sabato mattina devo pulire la casa e fare la compra. La sera viene i miei suoceri e io facio la pizza. La domenica leggo il periodico e non esco mai.",
+  "corrected": "Il venerdì sera vado a casa di Diego e giochiamo alla PlayStation. Il sabato mattina devo pulire la casa e fare la spesa. La sera vengono i miei suoceri e io faccio la pizza. La domenica leggo il giornale e non esco mai.",
+  "errors": [
+   {
+    "wrong": "alla casa",
+    "right": "a casa",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "fare la compra",
+    "right": "fare la spesa",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "viene",
+    "right": "vengono",
+    "cat": "persona"
+   },
+   {
+    "wrong": "facio",
+    "right": "faccio",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "periodico",
+    "right": "giornale",
+    "cat": "falso_amico"
+   }
+  ]
+ },
+ {
+  "week": 7,
+  "text": "Lunedi alle nove ho una riunione con il mio capo. Martedì a le sei vado in palestra. Mercoledì dieciotto è il compleanno di mia madre: la cena comincia alle otto e media. Giovedì alle una pranzo con Carla. Venerdì alle dieci vado a ballare con i miei amici.",
+  "corrected": "Lunedì alle nove ho una riunione con il mio capo. Martedì alle sei vado in palestra. Mercoledì diciotto è il compleanno di mia madre: la cena comincia alle otto e mezza. Giovedì all'una pranzo con Carla. Venerdì alle dieci vado a ballare con i miei amici.",
+  "errors": [
+   {
+    "wrong": "Lunedi",
+    "right": "Lunedì",
+    "cat": "accento"
+   },
+   {
+    "wrong": "a le sei",
+    "right": "alle sei",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "dieciotto",
+    "right": "diciotto",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "media",
+    "right": "mezza",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "alle una",
+    "right": "all'una",
+    "cat": "preposizione"
+   }
+  ]
+ },
+ {
+  "week": 7,
+  "text": "Il lunedì e il mercoledì ho lezione di italiano dalle sette a le nove. Martedì quindice vado al dentista a mezzogiorno. Giovedì alle cuatro e un quarto gioco a tennis con mio fratello. Sabato ventiuno è la festa di Pablo: comincia alle nove di sera.",
+  "corrected": "Il lunedì e il mercoledì ho lezione di italiano dalle sette alle nove. Martedì quindici vado dal dentista a mezzogiorno. Giovedì alle quattro e un quarto gioco a tennis con mio fratello. Sabato ventuno è la festa di Pablo: comincia alle nove di sera.",
+  "errors": [
+   {
+    "wrong": "a le nove",
+    "right": "alle nove",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "quindice",
+    "right": "quindici",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "al dentista",
+    "right": "dal dentista",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "cuatro",
+    "right": "quattro",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "ventiuno",
+    "right": "ventuno",
+    "cat": "ortografia"
+   }
+  ]
+ },
+ {
+  "week": 8,
+  "text": "Ciao! Come ti chiami? Da dove sei? Quanti anni tieni? Dove abiti? Di cosa lavori? Quale è il tuo sport preferito? Perche studi italiano?",
+  "corrected": "Ciao! Come ti chiami? Di dove sei? Quanti anni hai? Dove abiti? Che lavoro fai? Qual è il tuo sport preferito? Perché studi italiano?",
+  "errors": [
+   {
+    "wrong": "Da dove sei?",
+    "right": "Di dove sei?",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "tieni",
+    "right": "hai",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "Di cosa lavori?",
+    "right": "Che lavoro fai?",
+    "cat": "lessico"
+   },
+   {
+    "wrong": "Quale è",
+    "right": "Qual è",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "Perche",
+    "right": "Perché",
+    "cat": "accento"
+   }
+  ]
+ },
+ {
+  "week": 8,
+  "text": "Ciao, benvenuto! Come ti chiami? Di dove sei? Quanto tempo abiti a Roma? Con chi vive? Hai figlios? Che cosa fai il fine di settimana? Chi e il tuo cantante preferito?",
+  "corrected": "Ciao, benvenuto! Come ti chiami? Di dove sei? Da quanto tempo abiti a Roma? Con chi vivi? Hai figli? Che cosa fai il fine settimana? Chi è il tuo cantante preferito?",
+  "errors": [
+   {
+    "wrong": "Quanto tempo",
+    "right": "Da quanto tempo",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "Con chi vive",
+    "right": "Con chi vivi",
+    "cat": "persona"
+   },
+   {
+    "wrong": "figlios",
+    "right": "figli",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "il fine di settimana",
+    "right": "il fine settimana",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "Chi e",
+    "right": "Chi è",
+    "cat": "accento"
+   }
+  ]
+ },
+ {
+  "week": 9,
+  "text": "Lunedì vado in Rosario in treno per lavoro. Mercoledì vado al medico in piedi, perché lo studio è vicino a casa mia. Giovedì parto a Montevideo in nave con mi fratello. Sabato vado da Lucas: studiamo insieme per l'esame.",
+  "corrected": "Lunedì vado a Rosario in treno per lavoro. Mercoledì vado dal medico a piedi, perché lo studio è vicino a casa mia. Giovedì parto per Montevideo in nave con mio fratello. Sabato vado da Lucas: studiamo insieme per l'esame.",
+  "errors": [
+   {
+    "wrong": "in Rosario",
+    "right": "a Rosario",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "al medico",
+    "right": "dal medico",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "in piedi",
+    "right": "a piedi",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "a Montevideo",
+    "right": "per Montevideo",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "mi fratello",
+    "right": "mio fratello",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 9,
+  "text": "Domani vado alla banca e poi nel supermercato vicino a casa. Giovedì vado a la lezione di italiano: studio italiano desde marzo. Il fine settimana vado in montagna con i miei amici in macchina, e domenica sera torniamo in Buenos Aires.",
+  "corrected": "Domani vado in banca e poi al supermercato vicino a casa. Giovedì vado alla lezione di italiano: studio italiano da marzo. Il fine settimana vado in montagna con i miei amici in macchina, e domenica sera torniamo a Buenos Aires.",
+  "errors": [
+   {
+    "wrong": "alla banca",
+    "right": "in banca",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "nel supermercato",
+    "right": "al supermercato",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "a la lezione",
+    "right": "alla lezione",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "desde",
+    "right": "da",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "in Buenos Aires",
+    "right": "a Buenos Aires",
+    "cat": "preposizione"
+   }
+  ]
+ },
+ {
+  "week": 10,
+  "text": "Marco? Sì, conosco a Marco da molti anni e lo vedo ogni settimana. Anna? Lo chiamo stasera e gli racconto tutto. Mia nonna? La telefono ogni domenica. I miei cugini? Le vedo solo a Natale, ma gli scrivo spesso.",
+  "corrected": "Marco? Sì, conosco Marco da molti anni e lo vedo ogni settimana. Anna? La chiamo stasera e le racconto tutto. Mia nonna? Le telefono ogni domenica. I miei cugini? Li vedo solo a Natale, ma gli scrivo spesso.",
+  "errors": [
+   {
+    "wrong": "conosco a Marco",
+    "right": "conosco Marco",
+    "cat": "a_personale"
+   },
+   {
+    "wrong": "Lo chiamo",
+    "right": "La chiamo",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "gli racconto",
+    "right": "le racconto",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "La telefono",
+    "right": "Le telefono",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "Le vedo",
+    "right": "Li vedo",
+    "cat": "pronome"
+   }
+  ]
+ },
+ {
+  "week": 10,
+  "text": "Paola? Sì, la conosco bene: lo vedo in palestra ogni giorno. Il professore di italiano? Le scrivo una mail esta sera. I miei genitori? Gli chiamo ogni sera e gli racconto la giornata. Domani invito a Luca a cena, perché lo incontro poco.",
+  "corrected": "Paola? Sì, la conosco bene: la vedo in palestra ogni giorno. Il professore di italiano? Gli scrivo una mail stasera. I miei genitori? Li chiamo ogni sera e gli racconto la giornata. Domani invito Luca a cena, perché lo incontro poco.",
+  "errors": [
+   {
+    "wrong": "lo vedo",
+    "right": "la vedo",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "Le scrivo",
+    "right": "Gli scrivo",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "esta sera",
+    "right": "stasera",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "Gli chiamo",
+    "right": "Li chiamo",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "invito a Luca",
+    "right": "invito Luca",
+    "cat": "a_personale"
+   }
+  ]
+ },
+ {
+  "week": 11,
+  "text": "Sabato mattina ho andato al mercato e ho comprato frutta e verdura. Nel pomeriggio ho leggiuto un libro e ho dormito un po'. La sera ho uscito con Paola: abbiamo mangiato una pizza a un ristorante nuevo e abbiamo tornato a casa tardi.",
+  "corrected": "Sabato mattina sono andato al mercato e ho comprato frutta e verdura. Nel pomeriggio ho letto un libro e ho dormito un po'. La sera sono uscito con Paola: abbiamo mangiato una pizza in un ristorante nuovo e siamo tornati a casa tardi.",
+  "errors": [
+   {
+    "wrong": "ho andato",
+    "right": "sono andato",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "ho leggiuto",
+    "right": "ho letto",
+    "cat": "participio"
+   },
+   {
+    "wrong": "ho uscito",
+    "right": "sono uscito",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "a un ristorante",
+    "right": "in un ristorante",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "nuevo",
+    "right": "nuovo",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "abbiamo tornato",
+    "right": "siamo tornati",
+    "cat": "ausiliare"
+   }
+  ]
+ },
+ {
+  "week": 11,
+  "text": "Il fine settimana scorso sono stato a Tigre con mia sorella. Siamo partite presto e abbiamo preso il treno. Abbiamo camminato molto e abbiamo fatto un giro in barca. A pranzo ho mangiato un pesce molto rico. La sera siamo tornato in casa stanchissime e io sono dormita dieci ora.",
+  "corrected": "Il fine settimana scorso sono stata a Tigre con mia sorella. Siamo partite presto e abbiamo preso il treno. Abbiamo camminato molto e abbiamo fatto un giro in barca. A pranzo ho mangiato un pesce molto buono. La sera siamo tornate a casa stanchissime e io ho dormito dieci ore.",
+  "errors": [
+   {
+    "wrong": "sono stato",
+    "right": "sono stata",
+    "cat": "participio"
+   },
+   {
+    "wrong": "molto rico",
+    "right": "molto buono",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "siamo tornato",
+    "right": "siamo tornate",
+    "cat": "participio"
+   },
+   {
+    "wrong": "in casa",
+    "right": "a casa",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "sono dormita",
+    "right": "ho dormito",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "ora",
+    "right": "ore",
+    "cat": "concordanza"
+   }
+  ]
+ },
+ {
+  "week": 12,
+  "text": "Ogni giorno me sveglio alle sei e mezza, ma mi alzo alle sette. Doppo mi faccio la doccia, mi vesto e bevo un caffè. Tre consigli per te: ti alza presto, mangi più frutta e non lavori troppo!",
+  "corrected": "Ogni giorno mi sveglio alle sei e mezza, ma mi alzo alle sette. Dopo mi faccio la doccia, mi vesto e bevo un caffè. Tre consigli per te: alzati presto, mangia più frutta e non lavorare troppo!",
+  "errors": [
+   {
+    "wrong": "me sveglio",
+    "right": "mi sveglio",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "Doppo",
+    "right": "Dopo",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "ti alza presto",
+    "right": "alzati presto",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "mangi",
+    "right": "mangia",
+    "cat": "persona"
+   },
+   {
+    "wrong": "non lavori",
+    "right": "non lavorare",
+    "cat": "tempo_modo"
+   }
+  ]
+ },
+ {
+  "week": 12,
+  "text": "Io sveglio alle otto, ma resto a letto dieci minuti. Poi mi alzo, mi lavo la faccia e mi vesto. A la nove esco de casa. Consigli per te, Sofia: studi un po' ogni giorno, non ti preoccupi per gli errori e vai a letto presto!",
+  "corrected": "Io mi sveglio alle otto, ma resto a letto dieci minuti. Poi mi alzo, mi lavo la faccia e mi vesto. Alle nove esco di casa. Consigli per te, Sofia: studia un po' ogni giorno, non preoccuparti per gli errori e vai a letto presto!",
+  "errors": [
+   {
+    "wrong": "sveglio",
+    "right": "mi sveglio",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "A la nove",
+    "right": "Alle nove",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "esco de casa",
+    "right": "esco di casa",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "studi",
+    "right": "studia",
+    "cat": "persona"
+   },
+   {
+    "wrong": "non ti preoccupi",
+    "right": "non preoccuparti",
+    "cat": "tempo_modo"
+   }
+  ]
+ },
+ {
+  "week": 14,
+  "text": "A me mi piace molto la cucina italiana, soprattutto la pasta. Mi piace anche i dolci. Non mi piace il fútbol: è noioso! A mia madre piace la musica classica, ma non gli piacciono i posti con molto gente.",
+  "corrected": "A me piace molto la cucina italiana, soprattutto la pasta. Mi piacciono anche i dolci. Non mi piace il calcio: è noioso! A mia madre piace la musica classica, ma non le piacciono i posti con molta gente.",
+  "errors": [
+   {
+    "wrong": "A me mi piace",
+    "right": "A me piace",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "Mi piace anche",
+    "right": "Mi piacciono anche",
+    "cat": "persona"
+   },
+   {
+    "wrong": "fútbol",
+    "right": "calcio",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "gli piacciono",
+    "right": "le piacciono",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "molto gente",
+    "right": "molta gente",
+    "cat": "concordanza"
+   }
+  ]
+ },
+ {
+  "week": 14,
+  "text": "Mi piace molto viaggiare e mi piacciono leggere romanzi. Non mi piacciono le verduras, ma mi piace molto il pesce. A mio padre piace il tango, ma non piace ballare. A la mia ragazza piacciono i gatti, ma a me non mi piacciono.",
+  "corrected": "Mi piace molto viaggiare e mi piace leggere romanzi. Non mi piacciono le verdure, ma mi piace molto il pesce. A mio padre piace il tango, ma non gli piace ballare. Alla mia ragazza piacciono i gatti, ma a me non piacciono.",
+  "errors": [
+   {
+    "wrong": "mi piacciono leggere",
+    "right": "mi piace leggere",
+    "cat": "persona"
+   },
+   {
+    "wrong": "verduras",
+    "right": "verdure",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "non piace",
+    "right": "non gli piace",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "A la mia",
+    "right": "Alla mia",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "non mi piacciono",
+    "right": "non piacciono",
+    "cat": "pronome"
+   }
+  ]
+ },
+ {
+  "week": 15,
+  "text": "Quando era piccolo abitavo a Tandil, in una casa con un giardino. Ogni estate sono andato al mare con i miei cugini e giocavamo tutto il giorno in spiaggia. La mia maestra si chiamava Rosa ed era molto cariñosa. Un giorno cadevo da un albero e mi ho rotto un braccio.",
+  "corrected": "Quando ero piccolo abitavo a Tandil, in una casa con un giardino. Ogni estate andavo al mare con i miei cugini e giocavamo tutto il giorno in spiaggia. La mia maestra si chiamava Rosa ed era molto affettuosa. Un giorno sono caduto da un albero e mi sono rotto un braccio.",
+  "errors": [
+   {
+    "wrong": "era piccolo",
+    "right": "ero piccolo",
+    "cat": "persona"
+   },
+   {
+    "wrong": "sono andato",
+    "right": "andavo",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "cariñosa",
+    "right": "affettuosa",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "cadevo",
+    "right": "sono caduto",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "mi ho rotto",
+    "right": "mi sono rotto",
+    "cat": "ausiliare"
+   }
+  ]
+ },
+ {
+  "week": 15,
+  "text": "Da piccola vivevo in campagna con i miei nonni. Il mio nonno aveva tante mucche e due cavalli. Ogni mattina io aiutava la nonna in cucina e il pomeriggio giocavo con il mio cane. Non c'era negozi, ma io ero felice. Una volta, però, è arrivata una tormenta e siamo stato senza luce per tre giorni.",
+  "corrected": "Da piccola vivevo in campagna con i miei nonni. Mio nonno aveva tante mucche e due cavalli. Ogni mattina io aiutavo la nonna in cucina e il pomeriggio giocavo con il mio cane. Non c'erano negozi, ma io ero felice. Una volta, però, è arrivata una tempesta e siamo stati senza luce per tre giorni.",
+  "errors": [
+   {
+    "wrong": "Il mio nonno",
+    "right": "Mio nonno",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "io aiutava",
+    "right": "io aiutavo",
+    "cat": "persona"
+   },
+   {
+    "wrong": "Non c'era",
+    "right": "Non c'erano",
+    "cat": "persona"
+   },
+   {
+    "wrong": "tormenta",
+    "right": "tempesta",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "siamo stato",
+    "right": "siamo stati",
+    "cat": "participio"
+   }
+  ]
+ },
+ {
+  "week": 16,
+  "text": "Ieri mi ho svegliato alle sette e mi sono fatto la doccia. Poi mi sono vestito e sono uscito. Al lavoro mi sono annoiato molto. Il capo si ha arrabbiato con me per un piccolo errore. La sera io e Carla ci siamo visto in un bar e ci siamo divertiti tanto. Me sono addormentato a l'una.",
+  "corrected": "Ieri mi sono svegliato alle sette e mi sono fatto la doccia. Poi mi sono vestito e sono uscito. Al lavoro mi sono annoiato molto. Il capo si è arrabbiato con me per un piccolo errore. La sera io e Carla ci siamo visti in un bar e ci siamo divertiti tanto. Mi sono addormentato all'una.",
+  "errors": [
+   {
+    "wrong": "mi ho svegliato",
+    "right": "mi sono svegliato",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "si ha arrabbiato",
+    "right": "si è arrabbiato",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "ci siamo visto",
+    "right": "ci siamo visti",
+    "cat": "participio"
+   },
+   {
+    "wrong": "Me sono addormentato",
+    "right": "Mi sono addormentato",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "a l'una",
+    "right": "all'una",
+    "cat": "preposizione"
+   }
+  ]
+ },
+ {
+  "week": 16,
+  "text": "Ieri mi sono alzato tardi perché la sveglia non ha suonato. Mi sono lavata in fretta e sono uscita senza colazione. A pranzo io e la mia collega ci abbiamo seduto in un parco vicino dell'ufficio. La sera mi sono fatto un bagno caldo e mi ho addormentata sul divano.",
+  "corrected": "Ieri mi sono alzata tardi perché la sveglia non ha suonato. Mi sono lavata in fretta e sono uscita senza colazione. A pranzo io e la mia collega ci siamo sedute in un parco vicino all'ufficio. La sera mi sono fatta un bagno caldo e mi sono addormentata sul divano.",
+  "errors": [
+   {
+    "wrong": "mi sono alzato",
+    "right": "mi sono alzata",
+    "cat": "participio"
+   },
+   {
+    "wrong": "ci abbiamo seduto",
+    "right": "ci siamo sedute",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "vicino dell'ufficio",
+    "right": "vicino all'ufficio",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "mi sono fatto",
+    "right": "mi sono fatta",
+    "cat": "participio"
+   },
+   {
+    "wrong": "mi ho addormentata",
+    "right": "mi sono addormentata",
+    "cat": "ausiliare"
+   }
+  ]
+ },
+ {
+  "week": 17,
+  "text": "Questo foto è di Natale. Questa è la mia madre e questo è mio padre, davanti a sua casa. Quello ragazzo alto è mio cugino Nico, e quelli bambini sono i suoi figli. La casa grande è della mia zia.",
+  "corrected": "Questa foto è di Natale. Questa è mia madre e questo è mio padre, davanti alla loro casa. Quel ragazzo alto è mio cugino Nico, e quei bambini sono i suoi figli. La casa grande è di mia zia.",
+  "errors": [
+   {
+    "wrong": "Questo foto",
+    "right": "Questa foto",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "la mia madre",
+    "right": "mia madre",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "a sua casa",
+    "right": "alla loro casa",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "Quello ragazzo",
+    "right": "Quel ragazzo",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "quelli bambini",
+    "right": "quei bambini",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "della mia zia",
+    "right": "di mia zia",
+    "cat": "possessivo"
+   }
+  ]
+ },
+ {
+  "week": 17,
+  "text": "Guarda questa foto! Questi sono i miei nonni con il loro cani. Quella signora con il cappello è mia zia Rosa, e quel signore è il suo marito. Quelle ragazze sono mie cugine: ho cinque! E questo è la nostra casa al mare.",
+  "corrected": "Guarda questa foto! Questi sono i miei nonni con i loro cani. Quella signora con il cappello è mia zia Rosa, e quel signore è suo marito. Quelle ragazze sono le mie cugine: ne ho cinque! E questa è la nostra casa al mare.",
+  "errors": [
+   {
+    "wrong": "il loro cani",
+    "right": "i loro cani",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "il suo marito",
+    "right": "suo marito",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "mie cugine",
+    "right": "le mie cugine",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "ho cinque",
+    "right": "ne ho cinque",
+    "cat": "ci_ne"
+   },
+   {
+    "wrong": "questo è",
+    "right": "questa è",
+    "cat": "concordanza"
+   }
+  ]
+ },
+ {
+  "week": 18,
+  "text": "No, grazie, non vado mai in discoteca: la musica è troppa forte. Alla festa di sabato non conosco a nessuno e poi non ho niente di mettere. Domenica? Tampoco: devo studiare. E stasera non esco neanche con te, perche sono stanchissimo. Quanto lavoro!",
+  "corrected": "No, grazie, non vado mai in discoteca: la musica è troppo forte. Alla festa di sabato non conosco nessuno e poi non ho niente da mettere. Domenica? Neanche: devo studiare. E stasera non esco neanche con te, perché sono stanchissimo. Quanto lavoro!",
+  "errors": [
+   {
+    "wrong": "troppa forte",
+    "right": "troppo forte",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "conosco a nessuno",
+    "right": "conosco nessuno",
+    "cat": "a_personale"
+   },
+   {
+    "wrong": "di mettere",
+    "right": "da mettere",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "Tampoco",
+    "right": "Neanche",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "perche",
+    "right": "perché",
+    "cat": "accento"
+   }
+  ]
+ },
+ {
+  "week": 18,
+  "text": "Mi dispiace, ma no posso venire al cinema. Il calcio? Mai non gioco e non mi piace neanche guardarlo. Alla cena di Marco non viene nessuno e non c'è niente per mangiare. Sabato non ho nessun voglia di uscire. Quanto sei pesado!",
+  "corrected": "Mi dispiace, ma non posso venire al cinema. Il calcio? Non gioco mai e non mi piace neanche guardarlo. Alla cena di Marco non viene nessuno e non c'è niente da mangiare. Sabato non ho nessuna voglia di uscire. Quanto sei pesante!",
+  "errors": [
+   {
+    "wrong": "no posso",
+    "right": "non posso",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "Mai non gioco",
+    "right": "Non gioco mai",
+    "cat": "ordine"
+   },
+   {
+    "wrong": "niente per mangiare",
+    "right": "niente da mangiare",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "nessun voglia",
+    "right": "nessuna voglia",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "pesado",
+    "right": "pesante",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 19,
+  "text": "Per le prossime vacanze andarò in Patagonia con mia moglie. Partiremo dentro di due settimane e staremo dieci giorni a Bariloche. Visiteremo i laghi, faremo trekking e mangiaremo tanto cioccolato. Il nostro amico Diego va a venire con noi, ma non risponde al telefono da ieri: sarà già alla montagna!",
+  "corrected": "Per le prossime vacanze andrò in Patagonia con mia moglie. Partiremo fra due settimane e staremo dieci giorni a Bariloche. Visiteremo i laghi, faremo trekking e mangeremo tanto cioccolato. Il nostro amico Diego verrà con noi, ma non risponde al telefono da ieri: sarà già in montagna!",
+  "errors": [
+   {
+    "wrong": "andarò",
+    "right": "andrò",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "dentro di due settimane",
+    "right": "fra due settimane",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "mangiaremo",
+    "right": "mangeremo",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "va a venire",
+    "right": "verrà",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "alla montagna",
+    "right": "in montagna",
+    "cat": "preposizione"
+   }
+  ]
+ },
+ {
+  "week": 19,
+  "text": "Quest'estate andrò in Italia per la prima vez! Starò tre settimane: prima visiterò Roma e poi andrò in Firenze. Vederò il Colosseo e conoscerò ai miei parenti di Napoli. Dormirò da mia zia, che ha una casa molto grande. Mio zio Carlo non risponde mai alle mail: sarà molto ocupato!",
+  "corrected": "Quest'estate andrò in Italia per la prima volta! Starò tre settimane: prima visiterò Roma e poi andrò a Firenze. Vedrò il Colosseo e conoscerò i miei parenti di Napoli. Dormirò da mia zia, che ha una casa molto grande. Mio zio Carlo non risponde mai alle mail: sarà molto occupato!",
+  "errors": [
+   {
+    "wrong": "vez",
+    "right": "volta",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "in Firenze",
+    "right": "a Firenze",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "Vederò",
+    "right": "Vedrò",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "conoscerò ai",
+    "right": "conoscerò i",
+    "cat": "a_personale"
+   },
+   {
+    "wrong": "ocupato",
+    "right": "occupato",
+    "cat": "doppie"
+   }
+  ]
+ },
+ {
+  "week": 20,
+  "text": "Buongiorno, vorei prenotare una camera doppia per tre notte, del quindici al diciotto marzo. Sarebbe possibile avere una camera con vista al mare? Mi piacerebbe anche sapere se c'è il parcheggio. Potria rispondermi prima di venerdì? Attentamente, Diego Ferreyra",
+  "corrected": "Buongiorno, vorrei prenotare una camera doppia per tre notti, dal quindici al diciotto marzo. Sarebbe possibile avere una camera con vista sul mare? Mi piacerebbe anche sapere se c'è il parcheggio. Potrebbe rispondermi prima di venerdì? Cordiali saluti, Diego Ferreyra",
+  "errors": [
+   {
+    "wrong": "vorei",
+    "right": "vorrei",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "notte",
+    "right": "notti",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "del quindici",
+    "right": "dal quindici",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "con vista al mare",
+    "right": "con vista sul mare",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "Potria",
+    "right": "Potrebbe",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "Attentamente",
+    "right": "Cordiali saluti",
+    "cat": "falso_amico"
+   }
+  ]
+ },
+ {
+  "week": 20,
+  "text": "Gentili signori, vi scrivo perché voglio una camera singola per il fine settimana del venti aprile. Sarebbe possibile arrivare tarde, verso mezzanotte? Avrebbe anche un posto per la macchina? Mi piacerebbe avere una camera tranquila, lontana dell'ascensore. Vi ringrazio in anticipo. Distinti saluti, Agustina Rossi",
+  "corrected": "Gentili signori, vi scrivo perché vorrei una camera singola per il fine settimana del venti aprile. Sarebbe possibile arrivare tardi, verso mezzanotte? Avreste anche un posto per la macchina? Mi piacerebbe avere una camera tranquilla, lontana dall'ascensore. Vi ringrazio in anticipo. Distinti saluti, Agustina Rossi",
+  "errors": [
+   {
+    "wrong": "voglio",
+    "right": "vorrei",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "arrivare tarde",
+    "right": "arrivare tardi",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "Avrebbe",
+    "right": "Avreste",
+    "cat": "persona"
+   },
+   {
+    "wrong": "tranquila",
+    "right": "tranquilla",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "lontana dell'ascensore",
+    "right": "lontana dall'ascensore",
+    "cat": "preposizione"
+   }
+  ]
+ },
+ {
+  "week": 21,
+  "text": "Il sabato mattina vado al mercato: ci vado con mia madre. Le mele? Compro due chili. Il formaggio? Lo prendo mezzo chilo. Le uova, invece, le prendo del contadino vicino a casa. Al mercato c'è sempre tante persone, perciò ci resto due horas.",
+  "corrected": "Il sabato mattina vado al mercato: ci vado con mia madre. Le mele? Ne compro due chili. Il formaggio? Ne prendo mezzo chilo. Le uova, invece, le prendo dal contadino vicino a casa. Al mercato ci sono sempre tante persone, perciò ci resto due ore.",
+  "errors": [
+   {
+    "wrong": "Compro due chili",
+    "right": "Ne compro due chili",
+    "cat": "ci_ne"
+   },
+   {
+    "wrong": "Lo prendo",
+    "right": "Ne prendo",
+    "cat": "ci_ne"
+   },
+   {
+    "wrong": "del contadino",
+    "right": "dal contadino",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "c'è",
+    "right": "ci sono",
+    "cat": "persona"
+   },
+   {
+    "wrong": "horas",
+    "right": "ore",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 21,
+  "text": "Il mercato del mio quartiere è bellissimo e ci vado ogni mercoledì, perché li tutto costa meno. Le banane? Compro sei. I limoni? Ne prendo una dozzena. Il pesce? Ne prendo mezzo chilo, perché è molto fresco. Al mercato c'è anche molti puestos di vestiti, ma non li guardo mai.",
+  "corrected": "Il mercato del mio quartiere è bellissimo e ci vado ogni mercoledì, perché lì tutto costa meno. Le banane? Ne compro sei. I limoni? Ne prendo una dozzina. Il pesce? Ne prendo mezzo chilo, perché è molto fresco. Al mercato ci sono anche molti banchi di vestiti, ma non li guardo mai.",
+  "errors": [
+   {
+    "wrong": "li tutto",
+    "right": "lì tutto",
+    "cat": "accento"
+   },
+   {
+    "wrong": "Compro sei",
+    "right": "Ne compro sei",
+    "cat": "ci_ne"
+   },
+   {
+    "wrong": "una dozzena",
+    "right": "una dozzina",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "c'è anche",
+    "right": "ci sono anche",
+    "cat": "persona"
+   },
+   {
+    "wrong": "puestos",
+    "right": "banchi",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 22,
+  "text": "Sabato è il compleanno di Giulia. Il regalo se l'ho già comprato: è una bolsa, e gli la do alla festa. La torta? Mi la prepara mia nonna. Marco vuole sapere la direzione: glielo mando stasera. E tu hai bisogno delle foto? Te le porto io.",
+  "corrected": "Sabato è il compleanno di Giulia. Il regalo gliel'ho già comprato: è una borsa, e gliela do alla festa. La torta? Me la prepara mia nonna. Marco vuole sapere l'indirizzo: glielo mando stasera. E tu hai bisogno delle foto? Te le porto io.",
+  "errors": [
+   {
+    "wrong": "se l'ho",
+    "right": "gliel'ho",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "bolsa",
+    "right": "borsa",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "gli la",
+    "right": "gliela",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "Mi la",
+    "right": "Me la",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "la direzione",
+    "right": "l'indirizzo",
+    "cat": "falso_amico"
+   }
+  ]
+ },
+ {
+  "week": 22,
+  "text": "Domenica festeggiamo i trent'anni di mio fratello. Gli regaliamo una chitarra: lo gli porta mio padre la mattina. Le candeline? Glie le compra mia sorella. I biglietti per il concerto? Me li ha dati mio cugino e io se li regalo alla festa. La torta la fa mia zia: le ho chiesto la receta e me l'ha mandato ieri per email.",
+  "corrected": "Domenica festeggiamo i trent'anni di mio fratello. Gli regaliamo una chitarra: gliela porta mio padre la mattina. Le candeline? Gliele compra mia sorella. I biglietti per il concerto? Me li ha dati mio cugino e io glieli regalo alla festa. La torta la fa mia zia: le ho chiesto la ricetta e me l'ha mandata ieri per email.",
+  "errors": [
+   {
+    "wrong": "lo gli",
+    "right": "gliela",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "Glie le",
+    "right": "Gliele",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "io se li",
+    "right": "io glieli",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "la receta",
+    "right": "la ricetta",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "me l'ha mandato",
+    "right": "me l'ha mandata",
+    "cat": "participio"
+   }
+  ]
+ },
+ {
+  "week": 23,
+  "text": "Buenos Aires è più grande che Roma, ma Roma è più antica. A Roma la vita è più cara che a Buenos Aires, soprattutto le case. Il caffè italiano è più meglio, ma la carne argentina è la più rica del mondo! In centro a Roma ci sono più turisti di abitanti, e il traffico è tanto caotico come a Buenos Aires.",
+  "corrected": "Buenos Aires è più grande di Roma, ma Roma è più antica. A Roma la vita è più cara che a Buenos Aires, soprattutto le case. Il caffè italiano è migliore, ma la carne argentina è la più buona del mondo! In centro a Roma ci sono più turisti che abitanti, e il traffico è caotico come a Buenos Aires.",
+  "errors": [
+   {
+    "wrong": "più grande che",
+    "right": "più grande di",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "più meglio",
+    "right": "migliore",
+    "cat": "lessico"
+   },
+   {
+    "wrong": "più rica",
+    "right": "più buona",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "turisti di abitanti",
+    "right": "turisti che abitanti",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "tanto caotico come",
+    "right": "caotico come",
+    "cat": "lessico"
+   }
+  ]
+ },
+ {
+  "week": 23,
+  "text": "L'Italia è più piccola che l'Argentina, ma ha più abitanti. In Italia si mangia migliore e i stipendi sono più alti, ma anche gli affitti sono più cari. Il gelato argentino è tan buono come quello italiano, e il paesaggio della Patagonia è il più bello del mondo. Però la vita in Argentina è meno tranquila, e Buenos Aires è più caotica di Roma.",
+  "corrected": "L'Italia è più piccola dell'Argentina, ma ha più abitanti. In Italia si mangia meglio e gli stipendi sono più alti, ma anche gli affitti sono più cari. Il gelato argentino è buono come quello italiano, e il paesaggio della Patagonia è il più bello del mondo. Però la vita in Argentina è meno tranquilla, e Buenos Aires è più caotica di Roma.",
+  "errors": [
+   {
+    "wrong": "più piccola che l'Argentina",
+    "right": "più piccola dell'Argentina",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "migliore",
+    "right": "meglio",
+    "cat": "lessico"
+   },
+   {
+    "wrong": "i stipendi",
+    "right": "gli stipendi",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "tan buono come",
+    "right": "buono come",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "tranquila",
+    "right": "tranquilla",
+    "cat": "doppie"
+   }
+  ]
+ },
+ {
+  "week": 24,
+  "text": "Caro Luca, penso che hai ragione: il tuo jefe è molto severo. Credo che è stanco anche lui, ma spero che capisca la situazione. È importante che tu parli con lui presto e che sei sincero. Spero che tutto vadi bene! Un abrazo, Pablo",
+  "corrected": "Caro Luca, penso che tu abbia ragione: il tuo capo è molto severo. Credo che sia stanco anche lui, ma spero che capisca la situazione. È importante che tu parli con lui presto e che sia sincero. Spero che tutto vada bene! Un abbraccio, Pablo",
+  "errors": [
+   {
+    "wrong": "penso che hai",
+    "right": "penso che tu abbia",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "il tuo jefe",
+    "right": "il tuo capo",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "Credo che è",
+    "right": "Credo che sia",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "che sei",
+    "right": "che sia",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "vadi",
+    "right": "vada",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "abrazo",
+    "right": "abbraccio",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 24,
+  "text": "Cara Marta, mi dispiace per la problema con il tuo capo. Penso che lui non ti rispetta abbastanza, ma non credo che sia una persona cattiva. Credo che devi parlare con lui il prima possibile. È importante che lui capisce il valore del tuo lavoro. Spero che tu stia meglio presto. Besos, Carla",
+  "corrected": "Cara Marta, mi dispiace per il problema con il tuo capo. Penso che lui non ti rispetti abbastanza, ma non credo che sia una persona cattiva. Credo che tu debba parlare con lui il prima possibile. È importante che lui capisca il valore del tuo lavoro. Spero che tu stia meglio presto. Baci, Carla",
+  "errors": [
+   {
+    "wrong": "la problema",
+    "right": "il problema",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "ti rispetta",
+    "right": "ti rispetti",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "devi",
+    "right": "tu debba",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "lui capisce",
+    "right": "lui capisca",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "Besos",
+    "right": "Baci",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 25,
+  "text": "Secondo me, lavorare da casa ha molti vantaggi. Credo che sia comodo, perché non si perde tempo nel traffico. Però dubito che tutti hanno una casa adatta. Sembra che molte persone si sentano sole e che lavorano di più. Penso che le aziende devano dare più libertà. È importante che ognuno può scegliere lo che preferisce.",
+  "corrected": "Secondo me, lavorare da casa ha molti vantaggi. Credo che sia comodo, perché non si perde tempo nel traffico. Però dubito che tutti abbiano una casa adatta. Sembra che molte persone si sentano sole e che lavorino di più. Penso che le aziende debbano dare più libertà. È importante che ognuno possa scegliere quello che preferisce.",
+  "errors": [
+   {
+    "wrong": "dubito che tutti hanno",
+    "right": "dubito che tutti abbiano",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "lavorano",
+    "right": "lavorino",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "devano",
+    "right": "debbano",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "può",
+    "right": "possa",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "lo che",
+    "right": "quello che",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 25,
+  "text": "Io lavoro da casa da tre anni e mi piace molto. Non penso che è una cosa per tutti, però. Mio marito crede che io lavoro meno, ma non è vero: sto davanti al computadora da la mattina alla sera! Dubito che il mio capo vuole tornare in ufficio. È importante che ci siano regole chiare e che ognuno si riposi.",
+  "corrected": "Io lavoro da casa da tre anni e mi piace molto. Non penso che sia una cosa per tutti, però. Mio marito crede che io lavori meno, ma non è vero: sto davanti al computer dalla mattina alla sera! Dubito che il mio capo voglia tornare in ufficio. È importante che ci siano regole chiare e che ognuno si riposi.",
+  "errors": [
+   {
+    "wrong": "Non penso che è",
+    "right": "Non penso che sia",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "io lavoro",
+    "right": "io lavori",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "computadora",
+    "right": "computer",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "da la mattina",
+    "right": "dalla mattina",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "vuole",
+    "right": "voglia",
+    "cat": "tempo_modo"
+   }
+  ]
+ },
+ {
+  "week": 27,
+  "text": "Mia sorella Agustina studia architettura all'università. Studia sempre attentamente e lavora rapido. Parla lentamente e chiaramente, e spiega le cose facilemente ai suoi compagni. Raramente se arrabbia. Purtroppo, però, sempre arriva in ritardo: ieri è arrivata tranquilamente alle dieci e la professoressa l'ha guardato severamente.",
+  "corrected": "Mia sorella Agustina studia architettura all'università. Studia sempre attentamente e lavora velocemente. Parla lentamente e chiaramente, e spiega le cose facilmente ai suoi compagni. Raramente si arrabbia. Purtroppo, però, arriva sempre in ritardo: ieri è arrivata tranquillamente alle dieci e la professoressa l'ha guardata severamente.",
+  "errors": [
+   {
+    "wrong": "rapido",
+    "right": "velocemente",
+    "cat": "lessico"
+   },
+   {
+    "wrong": "facilemente",
+    "right": "facilmente",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "se arrabbia",
+    "right": "si arrabbia",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "sempre arriva",
+    "right": "arriva sempre",
+    "cat": "ordine"
+   },
+   {
+    "wrong": "tranquilamente",
+    "right": "tranquillamente",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "l'ha guardato",
+    "right": "l'ha guardata",
+    "cat": "participio"
+   }
+  ]
+ },
+ {
+  "week": 27,
+  "text": "Il mio collega Ramiro lavora in un'agenzia di viaggi. Risponde gentilmente ai clienti e scrive le mail rapidamente. Parla perfectamente tre lingue e ascolta pazientemente a tutti. Controlla regolaremente i prezzi dei voli e raramente sbaglia. Il capo gli stima molto, perché lavora seriamente. L'unico problema? Parla molto forte al telefono e tutti lo sentono da l'altra parte dell'ufficio.",
+  "corrected": "Il mio collega Ramiro lavora in un'agenzia di viaggi. Risponde gentilmente ai clienti e scrive le mail rapidamente. Parla perfettamente tre lingue e ascolta pazientemente tutti. Controlla regolarmente i prezzi dei voli e raramente sbaglia. Il capo lo stima molto, perché lavora seriamente. L'unico problema? Parla molto forte al telefono e tutti lo sentono dall'altra parte dell'ufficio.",
+  "errors": [
+   {
+    "wrong": "perfectamente",
+    "right": "perfettamente",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "ascolta pazientemente a",
+    "right": "ascolta pazientemente",
+    "cat": "a_personale"
+   },
+   {
+    "wrong": "regolaremente",
+    "right": "regolarmente",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "gli stima",
+    "right": "lo stima",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "da l'altra",
+    "right": "dall'altra",
+    "cat": "preposizione"
+   }
+  ]
+ },
+ {
+  "week": 28,
+  "text": "Secondo me è meglio vivere in città, aunque il traffico è un problema. Infatti in città ci sono più servizi: ospedali, scuole e trasporti. In campagna, in cambio, la vita è più tranquilla e la gente sono più gentile. Pero per lavorare bisogna usare sempre il auto, quindi si perde molto tempo. Inoltre d'inverno le giornate sono larghe e noiose.",
+  "corrected": "Secondo me è meglio vivere in città, anche se il traffico è un problema. Infatti in città ci sono più servizi: ospedali, scuole e trasporti. In campagna, invece, la vita è più tranquilla e la gente è più gentile. Però per lavorare bisogna usare sempre l'auto, quindi si perde molto tempo. Inoltre d'inverno le giornate sono lunghe e noiose.",
+  "errors": [
+   {
+    "wrong": "aunque",
+    "right": "anche se",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "in cambio",
+    "right": "invece",
+    "cat": "lessico"
+   },
+   {
+    "wrong": "la gente sono",
+    "right": "la gente è",
+    "cat": "persona"
+   },
+   {
+    "wrong": "Pero",
+    "right": "Però",
+    "cat": "accento"
+   },
+   {
+    "wrong": "il auto",
+    "right": "l'auto",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "larghe",
+    "right": "lunghe",
+    "cat": "lessico"
+   }
+  ]
+ },
+ {
+  "week": 28,
+  "text": "Io sono cresciuta in un paesino, ma adesso vivo a Buenos Aires. Secondo me la città è più interessante, perché c'è molti cinema, teatri e musei. Inoltre è più facile trovare lavoro. Tuttavia il stress è un grande problema, percio ogni mese torno a mio paese per riposarmi. In campagna, invece, tutti si conoscono e la vita è più lenta, anche se a volte è un po' aburrida.",
+  "corrected": "Io sono cresciuta in un paesino, ma adesso vivo a Buenos Aires. Secondo me la città è più interessante, perché ci sono molti cinema, teatri e musei. Inoltre è più facile trovare lavoro. Tuttavia lo stress è un grande problema, perciò ogni mese torno al mio paese per riposarmi. In campagna, invece, tutti si conoscono e la vita è più lenta, anche se a volte è un po' noiosa.",
+  "errors": [
+   {
+    "wrong": "c'è molti",
+    "right": "ci sono molti",
+    "cat": "persona"
+   },
+   {
+    "wrong": "il stress",
+    "right": "lo stress",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "percio",
+    "right": "perciò",
+    "cat": "accento"
+   },
+   {
+    "wrong": "torno a mio paese",
+    "right": "torno al mio paese",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "aburrida",
+    "right": "noiosa",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 29,
+  "text": "Sono contentissimo che Marta ha trovato un lavoro nuovo! Non credo che Luca abbia partito davvero per l'Australia: è raro che non mi abbia detto niente. Mi dispiace che i cugini non siano venuto alla festa di sabato. Spero che almeno abbiano ricevuto l'invito. Chissà se Paola già ha finito la tesi: la scrivo stasera.",
+  "corrected": "Sono contentissimo che Marta abbia trovato un lavoro nuovo! Non credo che Luca sia partito davvero per l'Australia: è strano che non mi abbia detto niente. Mi dispiace che i cugini non siano venuti alla festa di sabato. Spero che almeno abbiano ricevuto l'invito. Chissà se Paola ha già finito la tesi: le scrivo stasera.",
+  "errors": [
+   {
+    "wrong": "ha trovato",
+    "right": "abbia trovato",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "abbia partito",
+    "right": "sia partito",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "è raro",
+    "right": "è strano",
+    "cat": "falso_amico"
+   },
+   {
+    "wrong": "siano venuto",
+    "right": "siano venuti",
+    "cat": "participio"
+   },
+   {
+    "wrong": "già ha finito",
+    "right": "ha già finito",
+    "cat": "ordine"
+   },
+   {
+    "wrong": "la scrivo",
+    "right": "le scrivo",
+    "cat": "pronome"
+   }
+  ]
+ },
+ {
+  "week": 29,
+  "text": "Che belle notizie! Sono felice che tua sorella si è casata con Marco. Mi sembra strano, però, che Diego non ha contestato al tuo messaggio. Non credo che i suoi genitori siano già tornati da Brasile. Peccato che Giulia non abbia potuto venire alla festa! È bello, invece, che voi abbiate comprato una casa nuova.",
+  "corrected": "Che belle notizie! Sono felice che tua sorella si sia sposata con Marco. Mi sembra strano, però, che Diego non abbia risposto al tuo messaggio. Non credo che i suoi genitori siano già tornati dal Brasile. Peccato che Giulia non abbia potuto venire alla festa! È bello, invece, che voi abbiate comprato una casa nuova.",
+  "errors": [
+   {
+    "wrong": "si è",
+    "right": "si sia",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "casata",
+    "right": "sposata",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "non ha",
+    "right": "non abbia",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "contestato",
+    "right": "risposto",
+    "cat": "falso_amico"
+   },
+   {
+    "wrong": "da Brasile",
+    "right": "dal Brasile",
+    "cat": "articolo"
+   }
+  ]
+ },
+ {
+  "week": 30,
+  "text": "Da piccolo i miei genitori volevano che studiavo medicina e che diventasse un bravo medico. Mia madre sperava che imparassi a toccare il pianoforte, ma a me non piaceva. Io, invece, desideravo che mi lasciassero giocare a calcio tutto il giorno con i miei amici. Oggi vorrei che le scuole dassero più importanza a lo sport.",
+  "corrected": "Da piccolo i miei genitori volevano che studiassi medicina e che diventassi un bravo medico. Mia madre sperava che imparassi a suonare il pianoforte, ma a me non piaceva. Io, invece, desideravo che mi lasciassero giocare a calcio tutto il giorno con i miei amici. Oggi vorrei che le scuole dessero più importanza allo sport.",
+  "errors": [
+   {
+    "wrong": "studiavo",
+    "right": "studiassi",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "diventasse",
+    "right": "diventassi",
+    "cat": "persona"
+   },
+   {
+    "wrong": "toccare",
+    "right": "suonare",
+    "cat": "falso_amico"
+   },
+   {
+    "wrong": "dassero",
+    "right": "dessero",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "a lo sport",
+    "right": "allo sport",
+    "cat": "preposizione"
+   }
+  ]
+ },
+ {
+  "week": 30,
+  "text": "Quando ero bambina, la mia maestra voleva che stavamo sempre zitti e che scrivessimo in corsivo. Mio padre voleva che facessi danza clasica, ma io preferivo il basket. Mia nonna sperava che io fosse avvocato come il suo fratello. Oggi mi piacerebbe che i miei figli avessero più tempo libre e che nessuno li obbligasse a fare cose che non gli piacciono.",
+  "corrected": "Quando ero bambina, la mia maestra voleva che stessimo sempre zitti e che scrivessimo in corsivo. Mio padre voleva che facessi danza classica, ma io preferivo il basket. Mia nonna sperava che io fossi avvocato come suo fratello. Oggi mi piacerebbe che i miei figli avessero più tempo libero e che nessuno li obbligasse a fare cose che non gli piacciono.",
+  "errors": [
+   {
+    "wrong": "stavamo",
+    "right": "stessimo",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "clasica",
+    "right": "classica",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "io fosse",
+    "right": "io fossi",
+    "cat": "persona"
+   },
+   {
+    "wrong": "il suo fratello",
+    "right": "suo fratello",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "tempo libre",
+    "right": "tempo libero",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 31,
+  "text": "L'anno scorso dovrei aver studiato di più e avrei andato volentieri a vivere all'estero. Avrei preferito un lavoro meno stressante, ma non ho avuto il coraggio di cambiare. Marco aveva detto che mi aiuterebbe con la mudanza, ma non ha venuto: avrebbe potuto almeno telefonarmi!",
+  "corrected": "L'anno scorso avrei dovuto studiare di più e sarei andato volentieri a vivere all'estero. Avrei preferito un lavoro meno stressante, ma non ho avuto il coraggio di cambiare. Marco aveva detto che mi avrebbe aiutato con il trasloco, ma non è venuto: avrebbe potuto almeno telefonarmi!",
+  "errors": [
+   {
+    "wrong": "dovrei aver studiato",
+    "right": "avrei dovuto studiare",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "avrei andato",
+    "right": "sarei andato",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "mi aiuterebbe",
+    "right": "mi avrebbe aiutato",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "la mudanza",
+    "right": "il trasloco",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "ha venuto",
+    "right": "è venuto",
+    "cat": "ausiliare"
+   }
+  ]
+ },
+ {
+  "week": 31,
+  "text": "L'anno scorso avrei dovuto cercare un altro lavoro: sarei stato molto più felice. Avrei voluto anche fare un viaggio a Europa, ma non avevo abbastanza plata. La mia amica Sol mi aveva promesso che veniva a trovarmi a maggio, ma poi ha cambiato idea. Anche il mio capo aveva detto che mi aumenterebbe lo stipendio: lo sto ancora aspettando!",
+  "corrected": "L'anno scorso avrei dovuto cercare un altro lavoro: sarei stata molto più felice. Avrei voluto anche fare un viaggio in Europa, ma non avevo abbastanza soldi. La mia amica Sol mi aveva promesso che sarebbe venuta a trovarmi a maggio, ma poi ha cambiato idea. Anche il mio capo aveva detto che mi avrebbe aumentato lo stipendio: lo sto ancora aspettando!",
+  "errors": [
+   {
+    "wrong": "sarei stato",
+    "right": "sarei stata",
+    "cat": "participio"
+   },
+   {
+    "wrong": "un viaggio a Europa",
+    "right": "un viaggio in Europa",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "plata",
+    "right": "soldi",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "veniva",
+    "right": "sarebbe venuta",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "mi aumenterebbe",
+    "right": "mi avrebbe aumentato",
+    "cat": "tempo_modo"
+   }
+  ]
+ },
+ {
+  "week": 32,
+  "text": "La settimana scorsa ho avuto un malinteso con il mio amico Nacho. Pensavo che la sua festa era venerdì, invece era giovedì. Venerdì sera ho visto i suoi messaggi: credeva che io ho dimenticato il suo compleano! Mi ho sentito malissimo. Le ho spiegato che non avevo capito la data, e lui mi ha detto che non era arrabbiato e che avrebbe organizzato un'altra cena per me.",
+  "corrected": "La settimana scorsa ho avuto un malinteso con il mio amico Nacho. Pensavo che la sua festa fosse venerdì, invece era giovedì. Venerdì sera ho visto i suoi messaggi: credeva che io avessi dimenticato il suo compleanno! Mi sono sentito malissimo. Gli ho spiegato che non avevo capito la data, e lui mi ha detto che non era arrabbiato e che avrebbe organizzato un'altra cena per me.",
+  "errors": [
+   {
+    "wrong": "festa era",
+    "right": "festa fosse",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "ho dimenticato",
+    "right": "avessi dimenticato",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "compleano",
+    "right": "compleanno",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "Mi ho sentito",
+    "right": "Mi sono sentito",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "Le ho spiegato",
+    "right": "Gli ho spiegato",
+    "cat": "pronome"
+   }
+  ]
+ },
+ {
+  "week": 32,
+  "text": "Il mese scorso ho fatto una brutta figura al lavoro. Il mio capo mi aveva scritto che la riunione sarà alle dieci, ma io credevo che parlasse della settimana dopo. Quando sono arrivata in ufficio, i miei colleghi già erano in la sala. Pensavo che mi aspettavano per il caffè! Poi ho scoperto che il cliente è venuto da Milano solo per me. Che vergüenza!",
+  "corrected": "Il mese scorso ho fatto una brutta figura al lavoro. Il mio capo mi aveva scritto che la riunione sarebbe stata alle dieci, ma io credevo che parlasse della settimana dopo. Quando sono arrivata in ufficio, i miei colleghi erano già nella sala. Pensavo che mi aspettassero per il caffè! Poi ho scoperto che il cliente era venuto da Milano solo per me. Che vergogna!",
+  "errors": [
+   {
+    "wrong": "sarà",
+    "right": "sarebbe stata",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "già erano",
+    "right": "erano già",
+    "cat": "ordine"
+   },
+   {
+    "wrong": "in la sala",
+    "right": "nella sala",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "mi aspettavano",
+    "right": "mi aspettassero",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "è venuto",
+    "right": "era venuto",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "vergüenza",
+    "right": "vergogna",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 33,
+  "text": "Se vincerei la loteria, comprerei una casa a Toscana e smetterei di lavorare. Se avessi più tempo, viaggerei ogni mese e imparerei cucinare bene. Se non cominciavo a studiare italiano, non avrei conosciuto tanti amici nuovi. Se domani fa bel tempo, andiamo al mare con i bambini.",
+  "corrected": "Se vincessi la lotteria, comprerei una casa in Toscana e smetterei di lavorare. Se avessi più tempo, viaggerei ogni mese e imparerei a cucinare bene. Se non avessi cominciato a studiare italiano, non avrei conosciuto tanti amici nuovi. Se domani fa bel tempo, andiamo al mare con i bambini.",
+  "errors": [
+   {
+    "wrong": "vincerei",
+    "right": "vincessi",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "loteria",
+    "right": "lotteria",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "a Toscana",
+    "right": "in Toscana",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "imparerei cucinare",
+    "right": "imparerei a cucinare",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "cominciavo",
+    "right": "avessi cominciato",
+    "cat": "tempo_modo"
+   }
+  ]
+ },
+ {
+  "week": 33,
+  "text": "Se ganassi la lotteria, comprarei un appartamento a Roma e aiuterei i miei genitori. Se potrei, lavorerei solo tre giorni alla settimana. Se non avessi cominciato a studiare italiano, non avrei venuto a vivere qui e non avrei conosciuto a mio marito! Ma basta sognare: se stasera hai tempo, chiamami e ne parliamo davanti a un caffè.",
+  "corrected": "Se vincessi la lotteria, comprerei un appartamento a Roma e aiuterei i miei genitori. Se potessi, lavorerei solo tre giorni alla settimana. Se non avessi cominciato a studiare italiano, non sarei venuta a vivere qui e non avrei conosciuto mio marito! Ma basta sognare: se stasera hai tempo, chiamami e ne parliamo davanti a un caffè.",
+  "errors": [
+   {
+    "wrong": "ganassi",
+    "right": "vincessi",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "comprarei",
+    "right": "comprerei",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "potrei",
+    "right": "potessi",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "avrei venuto",
+    "right": "sarei venuta",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "a mio marito",
+    "right": "mio marito",
+    "cat": "a_personale"
+   }
+  ]
+ },
+ {
+  "week": 34,
+  "text": "Abito in un quartiere che mi piace molto. La piazza in che gioco a carte con i vecini è piccola ma piena di vita. Il fornaio da chi compro il pane è un signore che conosce tutti. La ragazza con il quale divido l'appartamento lavora in un teatro che si trova in centro. C'è anche un signore cuyo cane abbaia tutta la notte.",
+  "corrected": "Abito in un quartiere che mi piace molto. La piazza in cui gioco a carte con i vicini è piccola ma piena di vita. Il fornaio da cui compro il pane è un signore che conosce tutti. La ragazza con la quale divido l'appartamento lavora in un teatro che si trova in centro. C'è anche un signore il cui cane abbaia tutta la notte.",
+  "errors": [
+   {
+    "wrong": "in che",
+    "right": "in cui",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "vecini",
+    "right": "vicini",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "da chi",
+    "right": "da cui",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "con il quale",
+    "right": "con la quale",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "cuyo cane",
+    "right": "il cui cane",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 34,
+  "text": "Vivo a San Telmo, un quartiere dove abitano molti artisti. La domenica c'è il mercato di che ti ho parlato, dove vengono turisti da tutto il mondo. Il bar che vado ogni mattina è il più antico del quartiere. Il cameriere, a chi lascio sempre la propina, è un ragazzo che viene da Rosario. La vicina con cui prendo il caffè è una signora molto simpatica, che ha vivuto in Italia per vent'anni.",
+  "corrected": "Vivo a San Telmo, un quartiere dove abitano molti artisti. La domenica c'è il mercato di cui ti ho parlato, dove vengono turisti da tutto il mondo. Il bar dove vado ogni mattina è il più antico del quartiere. Il cameriere, a cui lascio sempre la mancia, è un ragazzo che viene da Rosario. La vicina con cui prendo il caffè è una signora molto simpatica, che ha vissuto in Italia per vent'anni.",
+  "errors": [
+   {
+    "wrong": "di che",
+    "right": "di cui",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "che vado",
+    "right": "dove vado",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "a chi",
+    "right": "a cui",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "la propina",
+    "right": "la mancia",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "ha vivuto",
+    "right": "ha vissuto",
+    "cat": "participio"
+   }
+  ]
+ },
+ {
+  "week": 35,
+  "text": "L'Obelisco di Buenos Aires è stato construito nel 1936 per celebrare i quattrocento anni della città. È stato progettato per l'architetto Alberto Prebisch ed è stata completata in soltanto due mesi. Negli anni è stato criticato da molti, ma oggi è il simbolo della città. Ogni anno viene visitato da migliaia di turisti ed è stato ristaurato molti tempi.",
+  "corrected": "L'Obelisco di Buenos Aires è stato costruito nel 1936 per celebrare i quattrocento anni della città. È stato progettato dall'architetto Alberto Prebisch ed è stato completato in soltanto due mesi. Negli anni è stato criticato da molti, ma oggi è il simbolo della città. Ogni anno viene visitato da migliaia di turisti ed è stato restaurato molte volte.",
+  "errors": [
+   {
+    "wrong": "è stato construito",
+    "right": "è stato costruito",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "per l'architetto",
+    "right": "dall'architetto",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "è stata completata",
+    "right": "è stato completato",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "ristaurato",
+    "right": "restaurato",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "molti tempi",
+    "right": "molte volte",
+    "cat": "lessico"
+   }
+  ]
+ },
+ {
+  "week": 35,
+  "text": "Il Teatro Colón è stato inaugurato nel 1908. I lavori sono stati cominciato dall'architetto italiano Francesco Tamburini, ma dopo la sua morte sono stati continuati da altri architetti. La sala è stato decorato con materiali portati dall'Europa. Nel 2006 il teatro ha stato chiuso per lavori ed è stato riaperto nel 2010. Oggi la acustica della sala è considerata perfetta, e il teatro viene visitato per migliaia di persone.",
+  "corrected": "Il Teatro Colón è stato inaugurato nel 1908. I lavori sono stati cominciati dall'architetto italiano Francesco Tamburini, ma dopo la sua morte sono stati continuati da altri architetti. La sala è stata decorata con materiali portati dall'Europa. Nel 2006 il teatro è stato chiuso per lavori ed è stato riaperto nel 2010. Oggi l'acustica della sala è considerata perfetta, e il teatro viene visitato da migliaia di persone.",
+  "errors": [
+   {
+    "wrong": "sono stati cominciato",
+    "right": "sono stati cominciati",
+    "cat": "participio"
+   },
+   {
+    "wrong": "è stato decorato",
+    "right": "è stata decorata",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "ha stato chiuso",
+    "right": "è stato chiuso",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "la acustica",
+    "right": "l'acustica",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "per migliaia",
+    "right": "da migliaia",
+    "cat": "preposizione"
+   }
+  ]
+ },
+ {
+  "week": 36,
+  "text": "Per fare un buon asado se usa la carne di manzo. Prima si accende il fuoco con il legno e si aspetta che ci sono le braci. Poi si mette le salsicce e la carne sulla griglia, con molto sale grosso. Si cuoce tutto lentamente, per due o tre ore. Mentre si aspetta, si beve un vino tinto e si chiacchiera con gli amici. Alla fine si taglia la carne e si mangia tutti insieme.",
+  "corrected": "Per fare un buon asado si usa la carne di manzo. Prima si accende il fuoco con la legna e si aspetta che ci siano le braci. Poi si mettono le salsicce e la carne sulla griglia, con molto sale grosso. Si cuoce tutto lentamente, per due o tre ore. Mentre si aspetta, si beve un vino rosso e si chiacchiera con gli amici. Alla fine si taglia la carne e si mangia tutti insieme.",
+  "errors": [
+   {
+    "wrong": "se usa",
+    "right": "si usa",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "il legno",
+    "right": "la legna",
+    "cat": "lessico"
+   },
+   {
+    "wrong": "che ci sono",
+    "right": "che ci siano",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "si mette",
+    "right": "si mettono",
+    "cat": "persona"
+   },
+   {
+    "wrong": "tinto",
+    "right": "rosso",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 36,
+  "text": "Il mate è la bevanda più tipica dell'Argentina. Per prepararlo si usa due cose: una zucca e una cannuccia di metallo, chiamato bombilla. Prima si mette l'erba nella zucca, poi si scalda la acqua, ma non si fa bollire. Il mate si prende in compagnia: si passa la zucca de mano en mano e, quando non si vuole più mate, si dice «grazie».",
+  "corrected": "Il mate è la bevanda più tipica dell'Argentina. Per prepararlo si usano due cose: una zucca e una cannuccia di metallo, chiamata bombilla. Prima si mette l'erba nella zucca, poi si scalda l'acqua, ma non si fa bollire. Il mate si beve in compagnia: si passa la zucca di mano in mano e, quando non si vuole più mate, si dice «grazie».",
+  "errors": [
+   {
+    "wrong": "si usa due cose",
+    "right": "si usano due cose",
+    "cat": "persona"
+   },
+   {
+    "wrong": "chiamato",
+    "right": "chiamata",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "la acqua",
+    "right": "l'acqua",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "si prende",
+    "right": "si beve",
+    "cat": "lessico"
+   },
+   {
+    "wrong": "de mano en mano",
+    "right": "di mano in mano",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 37,
+  "text": "Manuel Belgrano nacque a Buenos Aires in 1770. Da giovane studiò legge in Spagna e poi tornò in Argentina. Fue un grande economista e lavoró molto per l'educazione pubblica. Nel 1812 creò la bandiera argentina, vicino al fiume Paraná. Più tardi vincette due battaglie importanti, a Tucumán e a Salta. Morse a Buenos Aires nel 1820, molto povero. Ancora oggi molte città argentine hanno una strada che porta il suo nome.",
+  "corrected": "Manuel Belgrano nacque a Buenos Aires nel 1770. Da giovane studiò legge in Spagna e poi tornò in Argentina. Fu un grande economista e lavorò molto per l'educazione pubblica. Nel 1812 creò la bandiera argentina, vicino al fiume Paraná. Più tardi vinse due battaglie importanti, a Tucumán e a Salta. Morì a Buenos Aires nel 1820, molto povero. Ancora oggi molte città argentine hanno una strada che porta il suo nome.",
+  "errors": [
+   {
+    "wrong": "in 1770",
+    "right": "nel 1770",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "Fue",
+    "right": "Fu",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "lavoró",
+    "right": "lavorò",
+    "cat": "accento"
+   },
+   {
+    "wrong": "vincette",
+    "right": "vinse",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "Morse",
+    "right": "Morì",
+    "cat": "ortografia"
+   }
+  ]
+ },
+ {
+  "week": 37,
+  "text": "Carlos Gardel nacì a Tolosa, in Francia, nel 1890. Quando ebbe due anni, arrivò a Buenos Aires con la sua madre. Cominciò a cantare nei bar del quartiere e diventò molto famoso. Fecce molti dischi e girò alcuni film a Stati Uniti. Viaggiò in tutta l'America Latina, ma nel 1935 morì in un accidente aereo a Medellín, in Colombia. La sua morte fu una tragedia per tutto il paese.",
+  "corrected": "Carlos Gardel nacque a Tolosa, in Francia, nel 1890. Quando aveva due anni, arrivò a Buenos Aires con sua madre. Cominciò a cantare nei bar del quartiere e diventò molto famoso. Fece molti dischi e girò alcuni film negli Stati Uniti. Viaggiò in tutta l'America Latina, ma nel 1935 morì in un incidente aereo a Medellín, in Colombia. La sua morte fu una tragedia per tutto il paese.",
+  "errors": [
+   {
+    "wrong": "nacì",
+    "right": "nacque",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "ebbe due anni",
+    "right": "aveva due anni",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "con la sua madre",
+    "right": "con sua madre",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "Fecce",
+    "right": "Fece",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "a Stati Uniti",
+    "right": "negli Stati Uniti",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "un accidente",
+    "right": "un incidente",
+    "cat": "falso_amico"
+   }
+  ]
+ },
+ {
+  "week": 38,
+  "text": "Ieri ho incontrato la mia vicina Carla al supermercato. Mi ha detto che era appena tornata da Sicilia e che era molto contenta. Poi mi ha chiesto che se volessi andare a cena da lei sabato. Gli ho risposto che mi piacerebbe, ma che dovevo lavorare. Allora mi ha detto di chiamarla domenica, e io le ho promesso che lo farei.",
+  "corrected": "Ieri ho incontrato la mia vicina Carla al supermercato. Mi ha detto che era appena tornata dalla Sicilia e che era molto contenta. Poi mi ha chiesto se volessi andare a cena da lei sabato. Le ho risposto che mi sarebbe piaciuto, ma che dovevo lavorare. Allora mi ha detto di chiamarla domenica, e io le ho promesso che l'avrei fatto.",
+  "errors": [
+   {
+    "wrong": "da Sicilia",
+    "right": "dalla Sicilia",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "chiesto che se",
+    "right": "chiesto se",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "Gli ho risposto",
+    "right": "Le ho risposto",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "mi piacerebbe",
+    "right": "mi sarebbe piaciuto",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "lo farei",
+    "right": "l'avrei fatto",
+    "cat": "tempo_modo"
+   }
+  ]
+ },
+ {
+  "week": 38,
+  "text": "Martedì mi ha chiamato mio fratello. Mi ha chiesto come stavo e se aveva tempo per aiutarlo con il trasloco. Gli ho detto che lo aiuterò volentieri. Allora mi ha detto di portare il mio auto, perché ha molte scatole. Gli ho domandato a che ora dovevo arrivare e mi ha risposto che dovevo essere li per le otto. Alla fine ha aggiunto che mi avrebbe invitato al pranzo.",
+  "corrected": "Martedì mi ha chiamato mio fratello. Mi ha chiesto come stavo e se avevo tempo per aiutarlo con il trasloco. Gli ho detto che l'avrei aiutato volentieri. Allora mi ha detto di portare la mia auto, perché ha molte scatole. Gli ho domandato a che ora dovevo arrivare e mi ha risposto che dovevo essere lì per le otto. Alla fine ha aggiunto che mi avrebbe invitato a pranzo.",
+  "errors": [
+   {
+    "wrong": "aveva tempo",
+    "right": "avevo tempo",
+    "cat": "persona"
+   },
+   {
+    "wrong": "lo aiuterò",
+    "right": "l'avrei aiutato",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "il mio auto",
+    "right": "la mia auto",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "li per",
+    "right": "lì per",
+    "cat": "accento"
+   },
+   {
+    "wrong": "al pranzo",
+    "right": "a pranzo",
+    "cat": "preposizione"
+   }
+  ]
+ },
+ {
+  "week": 40,
+  "text": "Quando la mia macchina si rompe, la faccio riparare per il meccanico del quartiere, perché io non capisco niente di motori. Ogni mese mi faccio tagliare i miei capelli da Gino, un barbiere che conosco da anni. A casa, invece, lascio fare molte cose a miei figli: gli lascio cucinare la domenica e li faccio pulire la loro camera. Mia figlia vorrebbe farsi fare un tatuaggio, ma io non glielo lascio fare: è troppo chica.",
+  "corrected": "Quando la mia macchina si rompe, la faccio riparare dal meccanico del quartiere, perché io non capisco niente di motori. Ogni mese mi faccio tagliare i capelli da Gino, un barbiere che conosco da anni. A casa, invece, lascio fare molte cose ai miei figli: li lascio cucinare la domenica e gli faccio pulire la loro camera. Mia figlia vorrebbe farsi fare un tatuaggio, ma io non glielo lascio fare: è troppo piccola.",
+  "errors": [
+   {
+    "wrong": "per il meccanico",
+    "right": "dal meccanico",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "i miei capelli",
+    "right": "i capelli",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "a miei figli",
+    "right": "ai miei figli",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "gli lascio cucinare",
+    "right": "li lascio cucinare",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "li faccio pulire",
+    "right": "gli faccio pulire",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "chica",
+    "right": "piccola",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 40,
+  "text": "Sono una persona molto pigra: faccio fare quasi tutto agli altri. I vestiti li faccio lavare alla lavanderia sotto la casa e la spesa me la faccio portare da un ragazzo del supermercato. Il mese scorso ho fatto pintare il salotto da un imbianchino. Mio figlio di sedici anni lo lascio uscire il sabato, ma non lo lascio tornare dopo l'una. E di notte lascio dormire al cane nel mio letto, anche se mio marito non è di accordo.",
+  "corrected": "Sono una persona molto pigra: faccio fare quasi tutto agli altri. I vestiti li faccio lavare in lavanderia sotto casa e la spesa me la faccio portare da un ragazzo del supermercato. Il mese scorso ho fatto dipingere il salotto da un imbianchino. Mio figlio di sedici anni lo lascio uscire il sabato, ma non lo lascio tornare dopo l'una. E di notte lascio dormire il cane nel mio letto, anche se mio marito non è d'accordo.",
+  "errors": [
+   {
+    "wrong": "alla lavanderia",
+    "right": "in lavanderia",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "sotto la casa",
+    "right": "sotto casa",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "pintare",
+    "right": "dipingere",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "lascio dormire al cane",
+    "right": "lascio dormire il cane",
+    "cat": "a_personale"
+   },
+   {
+    "wrong": "di accordo",
+    "right": "d'accordo",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 41,
+  "text": "Stamattina, mentre aspettavo l'autobus, ho visto a un ragazzo correre dietro al colectivo. Poi ho sentito un cane abbaiando dietro una porta. Più tardi ho visto una signora anziana cadere sul marciapiede e ho sentito due ragazzi chiamare la ambulanza. Per fortuna non si era fatta male. Alla fine ho sentito dei musicisti suonare il tango in la piazza e gli ho visto ballare con i turisti.",
+  "corrected": "Stamattina, mentre aspettavo l'autobus, ho visto un ragazzo correre dietro all'autobus. Poi ho sentito un cane abbaiare dietro una porta. Più tardi ho visto una signora anziana cadere sul marciapiede e ho sentito due ragazzi chiamare l'ambulanza. Per fortuna non si era fatta male. Alla fine ho sentito dei musicisti suonare il tango nella piazza e li ho visti ballare con i turisti.",
+  "errors": [
+   {
+    "wrong": "visto a un ragazzo",
+    "right": "visto un ragazzo",
+    "cat": "a_personale"
+   },
+   {
+    "wrong": "al colectivo",
+    "right": "all'autobus",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "abbaiando",
+    "right": "abbaiare",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "la ambulanza",
+    "right": "l'ambulanza",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "in la piazza",
+    "right": "nella piazza",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "gli ho visto",
+    "right": "li ho visti",
+    "cat": "pronome"
+   }
+  ]
+ },
+ {
+  "week": 41,
+  "text": "Dalla mia finestra si vede un piccolo parco. Stamattina ho sentito i uccelli cantare molto presto, alle cinque. Poi ho visto la mia vicina regare le piante sul balcone: l'ho visto anche parlare con i suoi fiori! Verso le otto ho sentito il camion della spazzatura passando e ho visto due cani correre nel parco. Più tardi ho sentito qualcuno suonare il pianoforte nel palazzo di fronte, e lo ho ascoltato per un'ora.",
+  "corrected": "Dalla mia finestra si vede un piccolo parco. Stamattina ho sentito gli uccelli cantare molto presto, alle cinque. Poi ho visto la mia vicina annaffiare le piante sul balcone: l'ho vista anche parlare con i suoi fiori! Verso le otto ho sentito il camion della spazzatura passare e ho visto due cani correre nel parco. Più tardi ho sentito qualcuno suonare il pianoforte nel palazzo di fronte, e l'ho ascoltato per un'ora.",
+  "errors": [
+   {
+    "wrong": "i uccelli",
+    "right": "gli uccelli",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "regare",
+    "right": "annaffiare",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "l'ho visto",
+    "right": "l'ho vista",
+    "cat": "participio"
+   },
+   {
+    "wrong": "passando",
+    "right": "passare",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "lo ho ascoltato",
+    "right": "l'ho ascoltato",
+    "cat": "ortografia"
+   }
+  ]
+ },
+ {
+  "week": 42,
+  "text": "Gentile segreteria, mi chiamo Florencia Ruiz e vi scrivo perché ho deciso iscrivermi a un corso intensivo di italiano. Già ho provato a studiare da sola, ma non riesco di parlare con sicurezza. Ho bisogno sapere se ci sono ancora posti disponibile per il mese di ottobre. Inoltre vorrei imparare a scrivere lettere formali, perché lavoro con un'azienda italiana. Vi chiedo di mandarmi il programma e il precio del corso. Spero di ricevere presto una vostra risposta. Distinti saluti, Florencia Ruiz",
+  "corrected": "Gentile segreteria, mi chiamo Florencia Ruiz e vi scrivo perché ho deciso di iscrivermi a un corso intensivo di italiano. Ho già provato a studiare da sola, ma non riesco a parlare con sicurezza. Ho bisogno di sapere se ci sono ancora posti disponibili per il mese di ottobre. Inoltre vorrei imparare a scrivere lettere formali, perché lavoro con un'azienda italiana. Vi chiedo di mandarmi il programma e il prezzo del corso. Spero di ricevere presto una vostra risposta. Distinti saluti, Florencia Ruiz",
+  "errors": [
+   {
+    "wrong": "iscrivermi",
+    "right": "di iscrivermi",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "Già ho provato",
+    "right": "Ho già provato",
+    "cat": "ordine"
+   },
+   {
+    "wrong": "di parlare",
+    "right": "a parlare",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "bisogno sapere",
+    "right": "bisogno di sapere",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "disponibile",
+    "right": "disponibili",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "il precio",
+    "right": "il prezzo",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 42,
+  "text": "Egregi signori, vi scrivo per chiedere informazioni su vostro corso di conversazione. Ho cominciato studiare italiano due anni fa e ho intenzione a trasferirmi a Bologna l'anno prossimo. Mi piacerebbe di migliorare la pronuncia e smettere di fare tanti errori quando parlo. Vorrei anche continuare a studiare la grammatica. Potreste dirmi se gli insegnanti sono madrelingua? Vi prego di rispondermi entro la fine del mese. Ti ringrazio per l'attenzione. Cordiali saluti, Santiago Pereyra",
+  "corrected": "Egregi signori, vi scrivo per chiedere informazioni sul vostro corso di conversazione. Ho cominciato a studiare italiano due anni fa e ho intenzione di trasferirmi a Bologna l'anno prossimo. Mi piacerebbe migliorare la pronuncia e smettere di fare tanti errori quando parlo. Vorrei anche continuare a studiare la grammatica. Potreste dirmi se gli insegnanti sono madrelingua? Vi prego di rispondermi entro la fine del mese. Vi ringrazio per l'attenzione. Cordiali saluti, Santiago Pereyra",
+  "errors": [
+   {
+    "wrong": "su vostro corso",
+    "right": "sul vostro corso",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "cominciato studiare",
+    "right": "cominciato a studiare",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "intenzione a",
+    "right": "intenzione di",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "Mi piacerebbe di",
+    "right": "Mi piacerebbe",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "Ti ringrazio",
+    "right": "Vi ringrazio",
+    "cat": "persona"
+   }
+  ]
+ },
+ {
+  "week": 43,
+  "text": "Secondo me, il più difficile è parlare con i nativi. Parlando al telefono, per esempio, mi fa molta paura, e capire alle persone quando parlano veloce è quasi impossibile. Prima cominciare a studiare, pensavo che bastasse imparare la grammatica. Dopo di studiare due anni, ho capito che bisogna ascoltare molto e non avere paura di sbagliare. Sbagliare è normale: l'importante è non smettere mai di provare.",
+  "corrected": "Secondo me, la cosa più difficile è parlare con i nativi. Parlare al telefono, per esempio, mi fa molta paura, e capire le persone quando parlano veloce è quasi impossibile. Prima di cominciare a studiare, pensavo che bastasse imparare la grammatica. Dopo aver studiato due anni, ho capito che bisogna ascoltare molto e non avere paura di sbagliare. Sbagliare è normale: l'importante è non smettere mai di provare.",
+  "errors": [
+   {
+    "wrong": "il più difficile",
+    "right": "la cosa più difficile",
+    "cat": "lessico"
+   },
+   {
+    "wrong": "Parlando",
+    "right": "Parlare",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "alle persone",
+    "right": "le persone",
+    "cat": "a_personale"
+   },
+   {
+    "wrong": "Prima cominciare",
+    "right": "Prima di cominciare",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "Dopo di studiare",
+    "right": "Dopo aver studiato",
+    "cat": "tempo_modo"
+   }
+  ]
+ },
+ {
+  "week": 43,
+  "text": "Per me, imparare una lingua da adulti è più difficile che da bambini. Ricordare tutte le parole è impossibile, e usare bene il congiuntivo richiede anni. Lo peggio sono le preposizioni: è difficile di sapere quando usare «a» e quando «in». Io cerco di leggere un po' ogni sera prima di dormire, e dopo aver letto scrivo le parole nuove in un quaderno, perche le dimentico subbito. Senza di praticare non si impara: bisogna parlare, sbagliare e riprovare.",
+  "corrected": "Per me, imparare una lingua da adulti è più difficile che da bambini. Ricordare tutte le parole è impossibile, e usare bene il congiuntivo richiede anni. La cosa peggiore sono le preposizioni: è difficile sapere quando usare «a» e quando «in». Io cerco di leggere un po' ogni sera prima di dormire, e dopo aver letto scrivo le parole nuove in un quaderno, perché le dimentico subito. Senza praticare non si impara: bisogna parlare, sbagliare e riprovare.",
+  "errors": [
+   {
+    "wrong": "Lo peggio",
+    "right": "La cosa peggiore",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "è difficile di sapere",
+    "right": "è difficile sapere",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "perche",
+    "right": "perché",
+    "cat": "accento"
+   },
+   {
+    "wrong": "subbito",
+    "right": "subito",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "Senza di praticare",
+    "right": "Senza praticare",
+    "cat": "preposizione"
+   }
+  ]
+ },
+ {
+  "week": 44,
+  "text": "Ho imparato a manejare a diciotto anni con mio padre. Ogni domenica andavamo in un parcheggio vuoto e io guidavo la sua macchina, guardando a lui ogni due secondi. Sbagliando molti tempi e ascoltando i suoi consigli, ho imparato a usare la frizione senza spegnere il motore. Preso la patente, ho cominciato di portare mia madre al lavoro ogni mattina. Guidando in città, però, ho ancora paura di parcheggiare.",
+  "corrected": "Ho imparato a guidare a diciotto anni con mio padre. Ogni domenica andavamo in un parcheggio vuoto e io guidavo la sua macchina, guardandolo ogni due secondi. Sbagliando molte volte e ascoltando i suoi consigli, ho imparato a usare la frizione senza spegnere il motore. Presa la patente, ho cominciato a portare mia madre al lavoro ogni mattina. Guidando in città, però, ho ancora paura di parcheggiare.",
+  "errors": [
+   {
+    "wrong": "manejare",
+    "right": "guidare",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "guardando a lui",
+    "right": "guardandolo",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "molti tempi",
+    "right": "molte volte",
+    "cat": "lessico"
+   },
+   {
+    "wrong": "Preso la patente",
+    "right": "Presa la patente",
+    "cat": "participio"
+   },
+   {
+    "wrong": "di portare",
+    "right": "a portare",
+    "cat": "preposizione"
+   }
+  ]
+ },
+ {
+  "week": 44,
+  "text": "Ho imparato a fare le empanadas guardando a mia nonna. Stando con lei in cucina, ho capito come si prepara il relleno. Le prime empanadas che ho fatto erano orribile, ma ripetendo la ricetta tante volte sono migliorate. Il trucco è chiudere bene i bordi usando le dita. Finita la scuola, mi ho trasferita a Roma, e adesso i miei amici italiani mi chiedono sempre di prepararli.",
+  "corrected": "Ho imparato a fare le empanadas guardando mia nonna. Stando con lei in cucina, ho capito come si prepara il ripieno. Le prime empanadas che ho fatto erano orribili, ma ripetendo la ricetta tante volte sono migliorate. Il trucco è chiudere bene i bordi usando le dita. Finita la scuola, mi sono trasferita a Roma, e adesso i miei amici italiani mi chiedono sempre di prepararle.",
+  "errors": [
+   {
+    "wrong": "guardando a mia nonna",
+    "right": "guardando mia nonna",
+    "cat": "a_personale"
+   },
+   {
+    "wrong": "il relleno",
+    "right": "il ripieno",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "erano orribile",
+    "right": "erano orribili",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "mi ho trasferita",
+    "right": "mi sono trasferita",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "di prepararli",
+    "right": "di prepararle",
+    "cat": "pronome"
+   }
+  ]
+ },
+ {
+  "week": 45,
+  "text": "L'anno scorso ho chiesto la cittadinanza italiana al consolato. Ci ha voluto otto mesi solo per avere un appuntamento, e ho messo settimane a trovare tutti i documenti dei miei bisnonni. Un giorno l'impiegato mi ha detto che mancava un certificato: me la sono presa tantissimo e mi sono andato senza salutare. Pensavo di non farla. Alla fine, però, me la sono cavato con un avvocato molto bravo, e a marzo ce l'ho fatto: adesso sono cittadino italiano!",
+  "corrected": "L'anno scorso ho chiesto la cittadinanza italiana al consolato. Ci sono voluti otto mesi solo per avere un appuntamento, e ci ho messo settimane a trovare tutti i documenti dei miei bisnonni. Un giorno l'impiegato mi ha detto che mancava un certificato: me la sono presa tantissimo e me ne sono andato senza salutare. Pensavo di non farcela. Alla fine, però, me la sono cavata con un avvocato molto bravo, e a marzo ce l'ho fatta: adesso sono cittadino italiano!",
+  "errors": [
+   {
+    "wrong": "Ci ha voluto",
+    "right": "Ci sono voluti",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "ho messo settimane",
+    "right": "ci ho messo settimane",
+    "cat": "ci_ne"
+   },
+   {
+    "wrong": "mi sono andato",
+    "right": "me ne sono andato",
+    "cat": "ci_ne"
+   },
+   {
+    "wrong": "farla",
+    "right": "farcela",
+    "cat": "ci_ne"
+   },
+   {
+    "wrong": "me la sono cavato",
+    "right": "me la sono cavata",
+    "cat": "participio"
+   },
+   {
+    "wrong": "ce l'ho fatto",
+    "right": "ce l'ho fatta",
+    "cat": "participio"
+   }
+  ]
+ },
+ {
+  "week": 45,
+  "text": "Il mio primo giorno di lavoro a Milano è stato un disastro. Ci ho messo un'ora per arrivare in ufficio, perché ho preso la metro sbagliata. Il mio capo se la è presa con me per il ritardo, e io mi sono sentito malissimo. Volevo andarmi subito, ma non me lo sentivo di lasciare il lavoro dopo un giorno. A pranzo una collega mi ha detto: «Non te la prendi, ci vuole pazienza: ce la farai!». Aveva ragione: alla fine me l'ho cavata abbastanza bene, e adesso ci vado con piacere.",
+  "corrected": "Il mio primo giorno di lavoro a Milano è stato un disastro. Ci ho messo un'ora per arrivare in ufficio, perché ho preso la metro sbagliata. Il mio capo se l'è presa con me per il ritardo, e io mi sono sentita malissimo. Volevo andarmene subito, ma non me la sentivo di lasciare il lavoro dopo un giorno. A pranzo una collega mi ha detto: «Non te la prendere, ci vuole pazienza: ce la farai!». Aveva ragione: alla fine me la sono cavata abbastanza bene, e adesso ci vado con piacere.",
+  "errors": [
+   {
+    "wrong": "se la è presa",
+    "right": "se l'è presa",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "mi sono sentito",
+    "right": "mi sono sentita",
+    "cat": "participio"
+   },
+   {
+    "wrong": "andarmi",
+    "right": "andarmene",
+    "cat": "ci_ne"
+   },
+   {
+    "wrong": "non me lo sentivo",
+    "right": "non me la sentivo",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "te la prendi",
+    "right": "te la prendere",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "me l'ho cavata",
+    "right": "me la sono cavata",
+    "cat": "ausiliare"
+   }
+  ]
+ },
+ {
+  "week": 46,
+  "text": "Abito in una casita con un giardinetto pieno di fiorini. La mia vicina ha un gattone grasso che dorme tutto il giorno sul muretto. In fondo della strada c'è un localino dove fanno dei panini buonissimi: il proprietario è un omone simpatico con una vocione che si sente da lontano. Purtroppo, la sera, nella piazzetta ci sono sempre dei ragazzacci che grida fino a mezzanotte.",
+  "corrected": "Abito in una casetta con un giardinetto pieno di fiorellini. La mia vicina ha un gattone grasso che dorme tutto il giorno sul muretto. In fondo alla strada c'è un localino dove fanno dei panini buonissimi: il proprietario è un omone simpatico con un vocione che si sente da lontano. Purtroppo, la sera, nella piazzetta ci sono sempre dei ragazzacci che gridano fino a mezzanotte.",
+  "errors": [
+   {
+    "wrong": "casita",
+    "right": "casetta",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "fiorini",
+    "right": "fiorellini",
+    "cat": "lessico"
+   },
+   {
+    "wrong": "In fondo della strada",
+    "right": "In fondo alla strada",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "una vocione",
+    "right": "un vocione",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "grida",
+    "right": "gridano",
+    "cat": "persona"
+   }
+  ]
+ },
+ {
+  "week": 46,
+  "text": "Vivo in un appartamentino nel terzo piano di un palazzone grigio. La cucina è piccolina e dal balconito si vede una stradina molto stretta. Il portinaio è un vecchietto simpatico che ha un cagnolino chiamato Pippo. Vicino al palazzo c'è un parchetto dove le mamme portano i suoi bambini. Questa settimana fa un tempaccio, ma il sabato c'è un mercatino con tanti bancarelle, e il quartiere diventa cosi allegro!",
+  "corrected": "Vivo in un appartamentino al terzo piano di un palazzone grigio. La cucina è piccolina e dal balconcino si vede una stradina molto stretta. Il portinaio è un vecchietto simpatico che ha un cagnolino chiamato Pippo. Vicino al palazzo c'è un parchetto dove le mamme portano i loro bambini. Questa settimana fa un tempaccio, ma il sabato c'è un mercatino con tante bancarelle, e il quartiere diventa così allegro!",
+  "errors": [
+   {
+    "wrong": "nel terzo piano",
+    "right": "al terzo piano",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "balconito",
+    "right": "balconcino",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "i suoi bambini",
+    "right": "i loro bambini",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "tanti bancarelle",
+    "right": "tante bancarelle",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "cosi",
+    "right": "così",
+    "cat": "accento"
+   }
+  ]
+ },
+ {
+  "week": 47,
+  "text": "Sabato siamo otto a cena, quindi devo fare una lista. Per il primo mi serve due chili di gnocchi e mezzo litro di panna. Poi compro un chilo e medio di carne per l'arrosto e un paio di etti di prosciutto. Per l'insalata prendo una dozena di pomodori e tre lattughe. Le patate? Compro tre chili. Il vino? Almeno una decina di bottiglie. Ho un budget di centocinquanta euro: il quaranta per cento va per la carne e un terzo per il vino. Il dolce lo compra mia sorella: una torta per una ventina di porzioni.",
+  "corrected": "Sabato siamo in otto a cena, quindi devo fare una lista. Per il primo mi servono due chili di gnocchi e mezzo litro di panna. Poi compro un chilo e mezzo di carne per l'arrosto e un paio di etti di prosciutto. Per l'insalata prendo una dozzina di pomodori e tre lattughe. Le patate? Ne compro tre chili. Il vino? Almeno una decina di bottiglie. Ho un budget di centocinquanta euro: il quaranta per cento va per la carne e un terzo per il vino. Il dolce lo compra mia sorella: una torta per una ventina di porzioni.",
+  "errors": [
+   {
+    "wrong": "siamo otto",
+    "right": "siamo in otto",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "serve due",
+    "right": "servono due",
+    "cat": "persona"
+   },
+   {
+    "wrong": "un chilo e medio",
+    "right": "un chilo e mezzo",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "una dozena",
+    "right": "una dozzina",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "Compro tre chili",
+    "right": "Ne compro tre chili",
+    "cat": "ci_ne"
+   }
+  ]
+ },
+ {
+  "week": 47,
+  "text": "Venerdì invito sette amici a cena, quindi siamo in otto. Ecco la lista: tre kili di patate, mezzo chilo di cipolle, un'etto di parmigiano e un litro di latte. Per le polpette mi servono un chilo di carne macinata, una media dozzina di uova e due etti di pane grattugiato. Da bere: sei bottiglie di vino rossi e una cassa di birra. Spendo circa ottanta euro: la metà per la carne e il venti per ciento per le bevande. Il gelato lo porta Sofia: un chilo basta per una decina di persone.",
+  "corrected": "Venerdì invito sette amici a cena, quindi siamo in otto. Ecco la lista: tre chili di patate, mezzo chilo di cipolle, un etto di parmigiano e un litro di latte. Per le polpette mi servono un chilo di carne macinata, mezza dozzina di uova e due etti di pane grattugiato. Da bere: sei bottiglie di vino rosso e una cassa di birra. Spendo circa ottanta euro: la metà per la carne e il venti per cento per le bevande. Il gelato lo porta Sofia: un chilo basta per una decina di persone.",
+  "errors": [
+   {
+    "wrong": "kili",
+    "right": "chili",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "un'etto",
+    "right": "un etto",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "una media dozzina",
+    "right": "mezza dozzina",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "vino rossi",
+    "right": "vino rosso",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "il venti per ciento",
+    "right": "il venti per cento",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 48,
+  "text": "La festa di compleanno di Martina è stata divertidissima. La torta ha fatto sua madre, e la musica l'ha scelta suo fratello. È stato lei a organizzare tutto in segreto. Alle undici è arrivato Pablo con la chitarra: è stato lui chi ha cominciato a cantare. Le canzoni dei Soda Stereo le abbiamo cantato fino alle tre. I vicini, però, non li avevamo avvisati, e alle due hanno chiamato la polizia!",
+  "corrected": "La festa di compleanno di Martina è stata divertentissima. La torta l'ha fatta sua madre, e la musica l'ha scelta suo fratello. È stata lei a organizzare tutto in segreto. Alle undici è arrivato Pablo con la chitarra: è stato lui che ha cominciato a cantare. Le canzoni dei Soda Stereo le abbiamo cantate fino alle tre. I vicini, però, non li avevamo avvisati, e alle due hanno chiamato la polizia!",
+  "errors": [
+   {
+    "wrong": "divertidissima",
+    "right": "divertentissima",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "La torta ha fatto",
+    "right": "La torta l'ha fatta",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "È stato lei",
+    "right": "È stata lei",
+    "cat": "participio"
+   },
+   {
+    "wrong": "lui chi",
+    "right": "lui che",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "le abbiamo cantato",
+    "right": "le abbiamo cantate",
+    "cat": "participio"
+   }
+  ]
+ },
+ {
+  "week": 48,
+  "text": "A Capodanno abbiamo fatto una festa a casa mia. Il vitello tonnato l'ha preparato mio marito, ma il dolce l'ho fatto io. I bicchieri nuovi gli ha rotti mio cugino ballando la cumbia. Sono stati i bambini a svegliare a tutto il palazzo con i petardi. Il brindis l'abbiamo fatto sul terrazzo, e i fuochi d'artificio li abbiamo guardato fino all'una. E la mattina dopo, chi ha pulito tutto? È stato io!",
+  "corrected": "A Capodanno abbiamo fatto una festa a casa mia. Il vitello tonnato l'ha preparato mio marito, ma il dolce l'ho fatto io. I bicchieri nuovi li ha rotti mio cugino ballando la cumbia. Sono stati i bambini a svegliare tutto il palazzo con i petardi. Il brindisi l'abbiamo fatto sul terrazzo, e i fuochi d'artificio li abbiamo guardati fino all'una. E la mattina dopo, chi ha pulito tutto? Sono stata io!",
+  "errors": [
+   {
+    "wrong": "gli ha rotti",
+    "right": "li ha rotti",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "svegliare a tutto",
+    "right": "svegliare tutto",
+    "cat": "a_personale"
+   },
+   {
+    "wrong": "Il brindis",
+    "right": "Il brindisi",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "li abbiamo guardato",
+    "right": "li abbiamo guardati",
+    "cat": "participio"
+   },
+   {
+    "wrong": "È stato io",
+    "right": "Sono stata io",
+    "cat": "persona"
+   }
+  ]
+ },
+ {
+  "week": 49,
+  "text": "Negli ultimi anni molte città europee hanno chiuso il centro storico alle automobili. In primo luogo, occorre ricordare che il traffico è una delle principali cause della contaminazione urbana. Chiudere il centro, pertanto, migliorerebbe la qualità della aria e influirebbe positivamente nella salute dei cittadini. Inoltre, le strade liberate potrebbero diventare spazi per i pedoni. D'altro canto, sebbene i vantaggi sono evidenti, non si può ignorare i problemi di chi lavora in centro. In conclusione, ritengo che il divieto sia auspicabile, purché viene accompagnato da un serio investimento nel trasporto pubblico.",
+  "corrected": "Negli ultimi anni molte città europee hanno chiuso il centro storico alle automobili. In primo luogo, occorre ricordare che il traffico è una delle principali cause dell'inquinamento urbano. Chiudere il centro, pertanto, migliorerebbe la qualità dell'aria e influirebbe positivamente sulla salute dei cittadini. Inoltre, le strade liberate potrebbero diventare spazi per i pedoni. D'altro canto, sebbene i vantaggi siano evidenti, non si possono ignorare i problemi di chi lavora in centro. In conclusione, ritengo che il divieto sia auspicabile, purché venga accompagnato da un serio investimento nel trasporto pubblico.",
+  "errors": [
+   {
+    "wrong": "della contaminazione urbana",
+    "right": "dell'inquinamento urbano",
+    "cat": "falso_amico"
+   },
+   {
+    "wrong": "della aria",
+    "right": "dell'aria",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "nella salute",
+    "right": "sulla salute",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "vantaggi sono",
+    "right": "vantaggi siano",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "si può ignorare",
+    "right": "si possono ignorare",
+    "cat": "persona"
+   },
+   {
+    "wrong": "viene accompagnato",
+    "right": "venga accompagnato",
+    "cat": "tempo_modo"
+   }
+  ]
+ },
+ {
+  "week": 49,
+  "text": "Il tema della chiusura dei centri storici alle automobili divide l'opinione pubblica. Da un lato, è innegabile che il traffico peggiora la vita di chi abita in centro; dall'altro, bisogna di considerare le esigenze dei commercianti, i quali temono che le vendite diminuiscono. Nonostante questi timori, numerosi studi dimostrano che le zone pedonali attirano più clienti. Inoltre, una città con meno auto è più sicura per i bambini e per gli anziani. Tuttavia, il divieto dovrebbe essere introdotto gradualmente, in modo di permettere ai residenti di adattarsi; servirebbe, pertanto, un calendario chiaro. In conclusione, ritengo che la misura sia necessaria, purché sia accompagnata da un piano di trasporti eficiente.",
+  "corrected": "Il tema della chiusura dei centri storici alle automobili divide l'opinione pubblica. Da un lato, è innegabile che il traffico peggiori la vita di chi abita in centro; dall'altro, bisogna considerare le esigenze dei commercianti, i quali temono che le vendite diminuiscano. Nonostante questi timori, numerosi studi dimostrano che le zone pedonali attirano più clienti. Inoltre, una città con meno auto è più sicura per i bambini e per gli anziani. Tuttavia, il divieto dovrebbe essere introdotto gradualmente, in modo da permettere ai residenti di adattarsi; servirebbe, pertanto, un calendario chiaro. In conclusione, ritengo che la misura sia necessaria, purché sia accompagnata da un piano di trasporti efficiente.",
+  "errors": [
+   {
+    "wrong": "peggiora",
+    "right": "peggiori",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "bisogna di considerare",
+    "right": "bisogna considerare",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "diminuiscono",
+    "right": "diminuiscano",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "in modo di",
+    "right": "in modo da",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "eficiente",
+    "right": "efficiente",
+    "cat": "doppie"
+   }
+  ]
+ },
+ {
+  "week": 50,
+  "text": "Cara Giulia, ti racconto una figuraccia che ho fatto ieri. Avevo il naso chiuso e sono andata a la farmacia. Ho detto al farmacista che ero «costipata», perché in Argentina «constipado» vuol dire raffreddato. Lui mi ha dato una medicina per l'intestino! Quando ho capito lo che era successo, mi sono messo a ridere, e anche il farmacista si ha messo a ridere. Poi, per calmarmi, mi ha offerto un vaso d'acqua: è stato molto carino. Dopo sono salita sull'autobus e sono tornata a casa ridendo. Almeno adesso so che «raffreddata» e «costipata» non sono lo stesso. Un abbraccio, Carla",
+  "corrected": "Cara Giulia, ti racconto una figuraccia che ho fatto ieri. Avevo il naso chiuso e sono andata in farmacia. Ho detto al farmacista che ero «costipata», perché in Argentina «constipado» vuol dire raffreddato. Lui mi ha dato una medicina per l'intestino! Quando ho capito quello che era successo, mi sono messa a ridere, e anche il farmacista si è messo a ridere. Poi, per calmarmi, mi ha offerto un bicchiere d'acqua: è stato molto carino. Dopo sono salita sull'autobus e sono tornata a casa ridendo. Almeno adesso so che «raffreddata» e «costipata» non sono la stessa cosa. Un abbraccio, Carla",
+  "errors": [
+   {
+    "wrong": "a la farmacia",
+    "right": "in farmacia",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "lo che",
+    "right": "quello che",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "mi sono messo",
+    "right": "mi sono messa",
+    "cat": "participio"
+   },
+   {
+    "wrong": "si ha messo",
+    "right": "si è messo",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "un vaso d'acqua",
+    "right": "un bicchiere d'acqua",
+    "cat": "falso_amico"
+   },
+   {
+    "wrong": "sono lo stesso",
+    "right": "sono la stessa cosa",
+    "cat": "lessico"
+   }
+  ]
+ },
+ {
+  "week": 50,
+  "text": "Caro Luca, ti devo raccontare una cosa molto divertente. Ieri sera sono salito con Giulia e i suoi genitori. A cena ho detto che il suo fratello era un «burro», perché non capisce niente di calcio. Tutti mi hanno guardato molto strano: suo padre ha pensato che volevo dire che era morbido e grasso! Poi gli ho spiegato che in Argentina «burro» vuol dire asino, e tutti si sono messi a ridere. Alla fine la cena è stata esquisita. La prossima volta pensarò prima di parlare! Un abbraccio, Diego",
+  "corrected": "Caro Luca, ti devo raccontare una cosa molto divertente. Ieri sera sono uscito con Giulia e i suoi genitori. A cena ho detto che suo fratello era un «burro», perché non capisce niente di calcio. Tutti mi hanno guardato in modo strano: suo padre ha pensato che volessi dire che era morbido e grasso! Poi gli ho spiegato che in Argentina «burro» vuol dire asino, e tutti si sono messi a ridere. Alla fine la cena è stata squisita. La prossima volta penserò prima di parlare! Un abbraccio, Diego",
+  "errors": [
+   {
+    "wrong": "sono salito",
+    "right": "sono uscito",
+    "cat": "falso_amico"
+   },
+   {
+    "wrong": "il suo fratello",
+    "right": "suo fratello",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "molto strano",
+    "right": "in modo strano",
+    "cat": "lessico"
+   },
+   {
+    "wrong": "volevo dire",
+    "right": "volessi dire",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "esquisita",
+    "right": "squisita",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "pensarò",
+    "right": "penserò",
+    "cat": "ortografia"
+   }
+  ]
+ },
+ {
+  "week": 51,
+  "text": "Caro me stesso di un anno fa, ti scrivo per dirti che ce l'hai fatto. Se non avresti cominciato a studiare italiano quella sera di marzo, oggi non potrei leggere romanzi senza diccionario. Quest'anno ho riuscito a parlare con i miei parenti calabresi e ho capito un film senza sottotitoli. Penso che il segreto è stato studiare un po' ogni giorno. Ti chiederei solo una cosa: non avere paura di sbagliare e non smetti mai di parlare. Sarebbe un peccato che tutta questa fatica finisse in un cassetto. Con affetto, il tuo io del futuro.",
+  "corrected": "Caro me stesso di un anno fa, ti scrivo per dirti che ce l'hai fatta. Se non avessi cominciato a studiare italiano quella sera di marzo, oggi non potrei leggere romanzi senza dizionario. Quest'anno sono riuscito a parlare con i miei parenti calabresi e ho capito un film senza sottotitoli. Penso che il segreto sia stato studiare un po' ogni giorno. Ti chiederei solo una cosa: non avere paura di sbagliare e non smettere mai di parlare. Sarebbe un peccato che tutta questa fatica finisse in un cassetto. Con affetto, il tuo io del futuro.",
+  "errors": [
+   {
+    "wrong": "ce l'hai fatto",
+    "right": "ce l'hai fatta",
+    "cat": "participio"
+   },
+   {
+    "wrong": "avresti cominciato",
+    "right": "avessi cominciato",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "senza diccionario",
+    "right": "senza dizionario",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "ho riuscito",
+    "right": "sono riuscito",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "è stato",
+    "right": "sia stato",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "non smetti",
+    "right": "non smettere",
+    "cat": "tempo_modo"
+   }
+  ]
+ },
+ {
+  "week": 51,
+  "text": "Cara Julieta di un anno fa, sono io, la Julieta del futuro. Ti scrivo perché voglio che tu sappia una cosa: hai fatto bene a iscriverti al corso. Se non ti fossi iscritta, adesso non lavorerei in un'azienda italiana e non avrei conosciuto a Francesco. Quest'anno ho lograto a superare l'esame B2 con un voto molto alto. Non credo che tu hai mai pensato di arrivare fin qui. Ti chiederei solo di avere più pazienza con te stessa: i errori fanno parte del percorso. Spero che tu possa leggere questa lettera con un sorriso. Sarebbe bello che tu continui così anche l'anno prossimo. Un bacione, Julieta",
+  "corrected": "Cara Julieta di un anno fa, sono io, la Julieta del futuro. Ti scrivo perché voglio che tu sappia una cosa: hai fatto bene a iscriverti al corso. Se non ti fossi iscritta, adesso non lavorerei in un'azienda italiana e non avrei conosciuto Francesco. Quest'anno sono riuscita a superare l'esame B2 con un voto molto alto. Non credo che tu abbia mai pensato di arrivare fin qui. Ti chiederei solo di avere più pazienza con te stessa: gli errori fanno parte del percorso. Spero che tu possa leggere questa lettera con un sorriso. Sarebbe bello che tu continuassi così anche l'anno prossimo. Un bacione, Julieta",
+  "errors": [
+   {
+    "wrong": "a Francesco",
+    "right": "Francesco",
+    "cat": "a_personale"
+   },
+   {
+    "wrong": "ho lograto",
+    "right": "sono riuscita",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "tu hai mai pensato",
+    "right": "tu abbia mai pensato",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "i errori",
+    "right": "gli errori",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "tu continui",
+    "right": "tu continuassi",
+    "cat": "tempo_modo"
+   }
+  ]
+ },
+ {
+  "week": 1,
+  "text": "Buongiorno! Sono Valentina e soy di Salta, nel nord dell'Argentina. Ho ventinove anni e ho un'appartamento piccolo vicino al parco. Ho anche una bicicleta rossa. Oggi sono contento perché e il mio compleanno!",
+  "corrected": "Buongiorno! Sono Valentina e sono di Salta, nel nord dell'Argentina. Ho ventinove anni e ho un appartamento piccolo vicino al parco. Ho anche una bicicletta rossa. Oggi sono contenta perché è il mio compleanno!",
+  "errors": [
+   {
+    "wrong": "soy",
+    "right": "sono",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "un'appartamento",
+    "right": "un appartamento",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "bicicleta",
+    "right": "bicicletta",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "contento",
+    "right": "contenta",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "e il mio",
+    "right": "è il mio",
+    "cat": "accento"
+   }
+  ]
+ },
+ {
+  "week": 2,
+  "text": "Mi chiamo Tomás e ho tre hermanas. Abitiamo in una casa con due bagno e un giardino. Abbiamo due cani e un pappagalo verde. Nella mia camera ci sono tanti fotografie e due chitarre. I zaini della scuola sono sotto il letto.",
+  "corrected": "Mi chiamo Tomás e ho tre sorelle. Abitiamo in una casa con due bagni e un giardino. Abbiamo due cani e un pappagallo verde. Nella mia camera ci sono tante fotografie e due chitarre. Gli zaini della scuola sono sotto il letto.",
+  "errors": [
+   {
+    "wrong": "hermanas",
+    "right": "sorelle",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "bagno",
+    "right": "bagni",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "pappagalo",
+    "right": "pappagallo",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "tanti fotografie",
+    "right": "tante fotografie",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "I zaini",
+    "right": "Gli zaini",
+    "cat": "articolo"
+   }
+  ]
+ },
+ {
+  "week": 3,
+  "text": "Buongiorno! Per me una spremuta d'arancia e per il mio amico una acqua frizzante, per favore. Prendiamo anche uno tramezzino e due medialunas. Sul bancone ci sono le brioche, i biscotti e il yogurt con i cereali. La crema di il cornetto è molto buono.",
+  "corrected": "Buongiorno! Per me una spremuta d'arancia e per il mio amico un'acqua frizzante, per favore. Prendiamo anche un tramezzino e due cornetti. Sul bancone ci sono le brioche, i biscotti e lo yogurt con i cereali. La crema del cornetto è molto buona.",
+  "errors": [
+   {
+    "wrong": "una acqua",
+    "right": "un'acqua",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "uno tramezzino",
+    "right": "un tramezzino",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "medialunas",
+    "right": "cornetti",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "il yogurt",
+    "right": "lo yogurt",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "di il",
+    "right": "del",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "buono",
+    "right": "buona",
+    "cat": "concordanza"
+   }
+  ]
+ },
+ {
+  "week": 4,
+  "text": "Mio primo Joaquín ha trentacinque anni e abita a Montevideo. È piu alto di me, è rubio e ha la barba lunghe. È una persona molto simpatico e generosa, ma un po' disordinata. I suoi amichi dicono che è un cuoco bravissimo.",
+  "corrected": "Mio cugino Joaquín ha trentacinque anni e abita a Montevideo. È più alto di me, è biondo e ha la barba lunga. È una persona molto simpatica e generosa, ma un po' disordinata. I suoi amici dicono che è un cuoco bravissimo.",
+  "errors": [
+   {
+    "wrong": "primo",
+    "right": "cugino",
+    "cat": "falso_amico"
+   },
+   {
+    "wrong": "piu alto",
+    "right": "più alto",
+    "cat": "accento"
+   },
+   {
+    "wrong": "rubio",
+    "right": "biondo",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "lunghe",
+    "right": "lunga",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "simpatico",
+    "right": "simpatica",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "amichi",
+    "right": "amici",
+    "cat": "ortografia"
+   }
+  ]
+ },
+ {
+  "week": 5,
+  "text": "Dal lunedì al venerdì lavoro in un'officina vicino al porto. Esco di casa alle sette e mezza e vado al lavoro con bicicletta. Io e il mio capo prendono sempre un caffè alle dieci. A mezzogiorno como un panino al parco. Il lavoro finische alle sei. La sera corro un po' e poi cucino per me e per la mia ragazza.",
+  "corrected": "Dal lunedì al venerdì lavoro in un ufficio vicino al porto. Esco di casa alle sette e mezza e vado al lavoro in bicicletta. Io e il mio capo prendiamo sempre un caffè alle dieci. A mezzogiorno mangio un panino al parco. Il lavoro finisce alle sei. La sera corro un po' e poi cucino per me e per la mia ragazza.",
+  "errors": [
+   {
+    "wrong": "un'officina",
+    "right": "un ufficio",
+    "cat": "falso_amico"
+   },
+   {
+    "wrong": "con bicicletta",
+    "right": "in bicicletta",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "prendono",
+    "right": "prendiamo",
+    "cat": "persona"
+   },
+   {
+    "wrong": "como",
+    "right": "mangio",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "finische",
+    "right": "finisce",
+    "cat": "ortografia"
+   }
+  ]
+ },
+ {
+  "week": 6,
+  "text": "Il venerdì sera esco con le mie amiche: vamos a ballare a una discoteca del centro. Il sabato dormo fino a tardi e poi faccio la spesa. La domenica i miei genitori vieneno a pranzo e poi devo aiutare a mia madre in cucina. La sera non posso uscire perchè il lunedì mi alzo alle sei.",
+  "corrected": "Il venerdì sera esco con le mie amiche: andiamo a ballare in una discoteca del centro. Il sabato dormo fino a tardi e poi faccio la spesa. La domenica i miei genitori vengono a pranzo e poi devo aiutare mia madre in cucina. La sera non posso uscire perché il lunedì mi alzo alle sei.",
+  "errors": [
+   {
+    "wrong": "vamos",
+    "right": "andiamo",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "a una discoteca",
+    "right": "in una discoteca",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "vieneno",
+    "right": "vengono",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "aiutare a mia",
+    "right": "aiutare mia",
+    "cat": "a_personale"
+   },
+   {
+    "wrong": "perchè",
+    "right": "perché",
+    "cat": "accento"
+   }
+  ]
+ },
+ {
+  "week": 7,
+  "text": "Lunedì alle otto e mezza ho lezione di inglese. Martedì alle dos vado dal dentista e alle sei gioco a calcio con i colleghi. Mercoledì ventitre è l'anniversario dei miei genitori: abbiamo un tavolo per dodici persone in un ristorante di pesce. Venerdì alle dicianove parto in treno per Mar del Plata; i biglietti costa quaranta euro. Domenica dormo fino al mezzogiorno.",
+  "corrected": "Lunedì alle otto e mezza ho lezione di inglese. Martedì alle due vado dal dentista e alle sei gioco a calcio con i colleghi. Mercoledì ventitré è l'anniversario dei miei genitori: abbiamo un tavolo per dodici persone in un ristorante di pesce. Venerdì alle diciannove parto in treno per Mar del Plata; i biglietti costano quaranta euro. Domenica dormo fino a mezzogiorno.",
+  "errors": [
+   {
+    "wrong": "alle dos",
+    "right": "alle due",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "ventitre",
+    "right": "ventitré",
+    "cat": "accento"
+   },
+   {
+    "wrong": "alle dicianove",
+    "right": "alle diciannove",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "costa",
+    "right": "costano",
+    "cat": "persona"
+   },
+   {
+    "wrong": "fino al mezzogiorno",
+    "right": "fino a mezzogiorno",
+    "cat": "articolo"
+   }
+  ]
+ },
+ {
+  "week": 8,
+  "text": "Ciao! Sei nuovo in ufficio? Come ti chiami? Dove abita? Vieni al lavoro in macchina o con autobus? Qual'è il tuo sport preferito? Ti piace i cani? Cuándo è il tuo compleanno? Vuoi pranzare con noi oggi?",
+  "corrected": "Ciao! Sei nuovo in ufficio? Come ti chiami? Dove abiti? Vieni al lavoro in macchina o in autobus? Qual è il tuo sport preferito? Ti piacciono i cani? Quando è il tuo compleanno? Vuoi pranzare con noi oggi?",
+  "errors": [
+   {
+    "wrong": "abita",
+    "right": "abiti",
+    "cat": "persona"
+   },
+   {
+    "wrong": "con autobus",
+    "right": "in autobus",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "Qual'è",
+    "right": "Qual è",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "Ti piace",
+    "right": "Ti piacciono",
+    "cat": "persona"
+   },
+   {
+    "wrong": "Cuándo",
+    "right": "Quando",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 9,
+  "text": "Questa settimana viaggio molto! Lunedì vado a Córdoba in pullman per una riunione e mercoledì torno di Córdoba in aereo. Giovedì porto la macchina al meccanico, poi vado al lavoro a piedi. Venerdì vado a cena da Paula con il mio marito. Sabato andiamo a Uruguay en barco: passiamo il fine settimana a Colonia.",
+  "corrected": "Questa settimana viaggio molto! Lunedì vado a Córdoba in pullman per una riunione e mercoledì torno da Córdoba in aereo. Giovedì porto la macchina dal meccanico, poi vado al lavoro a piedi. Venerdì vado a cena da Paula con mio marito. Sabato andiamo in Uruguay in nave: passiamo il fine settimana a Colonia.",
+  "errors": [
+   {
+    "wrong": "torno di",
+    "right": "torno da",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "al meccanico",
+    "right": "dal meccanico",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "il mio marito",
+    "right": "mio marito",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "a Uruguay",
+    "right": "in Uruguay",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "en barco",
+    "right": "in nave",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 10,
+  "text": "Sofía? Sì, la conosco da anni. Il mio vicino? La saluto ogni mattina in ascensore. Mia sorella? Gli mando un messaggio ogni giorno. Le mie colleghe? Li invito a cena sabato. I miei amici di Rosario? Li scrivo spesso, ma non li vedo mai. Mañana aspetto a Julián alla stazione.",
+  "corrected": "Sofía? Sì, la conosco da anni. Il mio vicino? Lo saluto ogni mattina in ascensore. Mia sorella? Le mando un messaggio ogni giorno. Le mie colleghe? Le invito a cena sabato. I miei amici di Rosario? Gli scrivo spesso, ma non li vedo mai. Domani aspetto Julián alla stazione.",
+  "errors": [
+   {
+    "wrong": "La saluto",
+    "right": "Lo saluto",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "Gli mando",
+    "right": "Le mando",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "Li invito",
+    "right": "Le invito",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "Li scrivo",
+    "right": "Gli scrivo",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "Mañana",
+    "right": "Domani",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "aspetto a",
+    "right": "aspetto",
+    "cat": "a_personale"
+   }
+  ]
+ },
+ {
+  "week": 11,
+  "text": "Sabato pomeriggio ho giocato a calcio con i miei amici e abbiamo vinciuto tre a uno. Dopo la partita abbiamo andato in un bar e abbiamo bevuto una birra. Domenica ho rimasto a casa: ho pulito la cucina e ho scritto una mail a mia madre. La sera è venuto mia sorella e abbiamo visto una pelicula alla televisione.",
+  "corrected": "Sabato pomeriggio ho giocato a calcio con i miei amici e abbiamo vinto tre a uno. Dopo la partita siamo andati in un bar e abbiamo bevuto una birra. Domenica sono rimasto a casa: ho pulito la cucina e ho scritto una mail a mia madre. La sera è venuta mia sorella e abbiamo visto un film alla televisione.",
+  "errors": [
+   {
+    "wrong": "abbiamo vinciuto",
+    "right": "abbiamo vinto",
+    "cat": "participio"
+   },
+   {
+    "wrong": "abbiamo andato",
+    "right": "siamo andati",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "ho rimasto",
+    "right": "sono rimasto",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "è venuto",
+    "right": "è venuta",
+    "cat": "participio"
+   },
+   {
+    "wrong": "una pelicula",
+    "right": "un film",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 12,
+  "text": "Di solito mi sveglio alle sei e un quarto, ma resto a letto ancora cinque minuti. Poi mi alzo, mi ducho e mi trucco davanti al specchio. Alle sette e mezza mi preparo un tè ed esco. Tre consigli per te, Lucas: spenga il telefono prima di dormire, non bevi troppo caffè e ti ricorda di fare colazione!",
+  "corrected": "Di solito mi sveglio alle sei e un quarto, ma resto a letto ancora cinque minuti. Poi mi alzo, mi faccio la doccia e mi trucco davanti allo specchio. Alle sette e mezza mi preparo un tè ed esco. Tre consigli per te, Lucas: spegni il telefono prima di dormire, non bere troppo caffè e ricordati di fare colazione!",
+  "errors": [
+   {
+    "wrong": "mi ducho",
+    "right": "mi faccio la doccia",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "al specchio",
+    "right": "allo specchio",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "spenga",
+    "right": "spegni",
+    "cat": "persona"
+   },
+   {
+    "wrong": "non bevi",
+    "right": "non bere",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "ti ricorda",
+    "right": "ricordati",
+    "cat": "pronome"
+   }
+  ]
+ },
+ {
+  "week": 14,
+  "text": "A mi piacciono molto gli sport, soprattutto il rugby e il nuoto. Non mi piace i film romantici: sono noiosi. Adoro la pizza con la mozarella e mi piacciono i dolci al cioccolato. Mio fratello? Le piace il jazz, ma non gli piace ballare. A mia nonna piacciono le telenovelas brasiliani.",
+  "corrected": "A me piacciono molto gli sport, soprattutto il rugby e il nuoto. Non mi piacciono i film romantici: sono noiosi. Adoro la pizza con la mozzarella e mi piacciono i dolci al cioccolato. Mio fratello? Gli piace il jazz, ma non gli piace ballare. A mia nonna piacciono le telenovelas brasiliane.",
+  "errors": [
+   {
+    "wrong": "A mi piacciono",
+    "right": "A me piacciono",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "piace i film",
+    "right": "piacciono i film",
+    "cat": "persona"
+   },
+   {
+    "wrong": "la mozarella",
+    "right": "la mozzarella",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "Le piace",
+    "right": "Gli piace",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "brasiliani",
+    "right": "brasiliane",
+    "cat": "concordanza"
+   }
+  ]
+ },
+ {
+  "week": 15,
+  "text": "Quando ero bambina vivevo in Bahía Blanca con i miei genitori e i miei due fratelli. La nostra casa aveva un cortile grande e ogni pomeriggio giocábamos a nascondino. A scuola ero brava e facievo sempre i compiti. Un giorno, al mercato, mi perdevo e ho pianto per un'ora. Un'altra volta mio fratello ha caduto da un albero.",
+  "corrected": "Quando ero bambina vivevo a Bahía Blanca con i miei genitori e i miei due fratelli. La nostra casa aveva un cortile grande e ogni pomeriggio giocavamo a nascondino. A scuola ero brava e facevo sempre i compiti. Un giorno, al mercato, mi sono persa e ho pianto per un'ora. Un'altra volta mio fratello è caduto da un albero.",
+  "errors": [
+   {
+    "wrong": "in Bahía Blanca",
+    "right": "a Bahía Blanca",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "giocábamos",
+    "right": "giocavamo",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "facievo",
+    "right": "facevo",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "mi perdevo",
+    "right": "mi sono persa",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "ha caduto",
+    "right": "è caduto",
+    "cat": "ausiliare"
+   }
+  ]
+ },
+ {
+  "week": 16,
+  "text": "Ieri mi sono svegliato alle sette meno dieci perché la sveglia non ha suonato. Mi ho fatto la barba in cinque minuti e mi sono vestito in fretta. In ufficio mi sono seduto accanto la finestra. A pranzo io e Bauti ci siamo trovato in una trattoria e ci siamo divertiti un montón. La sera mi sono lavato i denti presto e alle dieci ero gia a letto.",
+  "corrected": "Ieri mi sono svegliato alle sette meno dieci perché la sveglia non ha suonato. Mi sono fatto la barba in cinque minuti e mi sono vestito in fretta. In ufficio mi sono seduto accanto alla finestra. A pranzo io e Bauti ci siamo trovati in una trattoria e ci siamo divertiti un sacco. La sera mi sono lavato i denti presto e alle dieci ero già a letto.",
+  "errors": [
+   {
+    "wrong": "Mi ho fatto",
+    "right": "Mi sono fatto",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "accanto la",
+    "right": "accanto alla",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "trovato",
+    "right": "trovati",
+    "cat": "participio"
+   },
+   {
+    "wrong": "un montón",
+    "right": "un sacco",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "gia",
+    "right": "già",
+    "cat": "accento"
+   }
+  ]
+ },
+ {
+  "week": 17,
+  "text": "Guarda queste foto del matrimonio di mia cugina Lara! Qui ci sono miei nonni davanti alla chiesa, e questa è la torta de casamiento. Quell'uomo con la cravatta rossa è quel zio che vive a Madrid. Lara e suo marito sono partiti con sua macchina per la luna di miele. Quella ragazza biondo è la sorella dello sposo.",
+  "corrected": "Guarda queste foto del matrimonio di mia cugina Lara! Qui ci sono i miei nonni davanti alla chiesa, e questa è la torta nuziale. Quell'uomo con la cravatta rossa è quello zio che vive a Madrid. Lara e suo marito sono partiti con la loro macchina per la luna di miele. Quella ragazza bionda è la sorella dello sposo.",
+  "errors": [
+   {
+    "wrong": "miei nonni",
+    "right": "i miei nonni",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "de casamiento",
+    "right": "nuziale",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "quel zio",
+    "right": "quello zio",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "con sua macchina",
+    "right": "con la loro macchina",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "biondo",
+    "right": "bionda",
+    "cat": "concordanza"
+   }
+  ]
+ },
+ {
+  "week": 18,
+  "text": "Andare al museo domenica? No, grazie, non capisco nada di arte. In piscina? Mai vado in piscina, perché non so nuotare. Il campeggio in montagna? Non ho nessun zaino e non ho neanche una tenda. La cena di Pedro? Non viene nessuno dei miei amici e io non conosco sua ragazza. Quanto idee strane hai!",
+  "corrected": "Andare al museo domenica? No, grazie, non capisco niente di arte. In piscina? Non vado mai in piscina, perché non so nuotare. Il campeggio in montagna? Non ho nessuno zaino e non ho neanche una tenda. La cena di Pedro? Non viene nessuno dei miei amici e io non conosco la sua ragazza. Quante idee strane hai!",
+  "errors": [
+   {
+    "wrong": "nada",
+    "right": "niente",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "Mai vado",
+    "right": "Non vado mai",
+    "cat": "ordine"
+   },
+   {
+    "wrong": "nessun zaino",
+    "right": "nessuno zaino",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "sua ragazza",
+    "right": "la sua ragazza",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "Quanto idee",
+    "right": "Quante idee",
+    "cat": "concordanza"
+   }
+  ]
+ },
+ {
+  "week": 19,
+  "text": "A luglio andrò a Sardegna con il mio ragazzo. Prenderemo l'aereo da Roma e quedaremo due settimane in un piccolo albergo vicino al mare. Le spiagge saranno bellissimi e io poterò finalmente leggere tutti i libri che ho comprato. Il mio ragazzo va a noleggiare una barca per visitare le isole vicine. E Carla? Non risponde ai messaggi da giorni: sarà ancora a Berlino!",
+  "corrected": "A luglio andrò in Sardegna con il mio ragazzo. Prenderemo l'aereo da Roma e resteremo due settimane in un piccolo albergo vicino al mare. Le spiagge saranno bellissime e io potrò finalmente leggere tutti i libri che ho comprato. Il mio ragazzo noleggerà una barca per visitare le isole vicine. E Carla? Non risponde ai messaggi da giorni: sarà ancora a Berlino!",
+  "errors": [
+   {
+    "wrong": "a Sardegna",
+    "right": "in Sardegna",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "quedaremo",
+    "right": "resteremo",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "bellissimi",
+    "right": "bellissime",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "poterò",
+    "right": "potrò",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "va a noleggiare",
+    "right": "noleggerà",
+    "cat": "tempo_modo"
+   }
+  ]
+ },
+ {
+  "week": 20,
+  "text": "Gentile signori, vi scrivo perché vorria prenotare una camera matrimoniale per due notti, dal cinque al sette novembre. Sarebbe possibile avere una camera a un piano alto, lontana dalla strada? Vorrei anche sapere se il desayuno è compresa nel prezzo e se c'è un parcheggio vicino. Potrebbe dirmi anche l'orario del check-in? Spero la vostra risposta. Cordiali saluti, Mariana Ferreyra",
+  "corrected": "Gentili signori, vi scrivo perché vorrei prenotare una camera matrimoniale per due notti, dal cinque al sette novembre. Sarebbe possibile avere una camera a un piano alto, lontana dalla strada? Vorrei anche sapere se la colazione è compresa nel prezzo e se c'è un parcheggio vicino. Potreste dirmi anche l'orario del check-in? Aspetto la vostra risposta. Cordiali saluti, Mariana Ferreyra",
+  "errors": [
+   {
+    "wrong": "Gentile signori",
+    "right": "Gentili signori",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "vorria",
+    "right": "vorrei",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "il desayuno",
+    "right": "la colazione",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "Potrebbe dirmi",
+    "right": "Potreste dirmi",
+    "cat": "persona"
+   },
+   {
+    "wrong": "Spero la vostra",
+    "right": "Aspetto la vostra",
+    "cat": "lessico"
+   }
+  ]
+ },
+ {
+  "week": 21,
+  "text": "Il giovedì faccio la spesa al mercato rionale: ne vado in bicicletta, perché è vicino a casa. Le arance? Prendo un chilo, per fare la spremuta. Le frutillas? Ne compro due cestini, se sono freschi. La carne, invece, la prendo in macelleria. Al mercato ci resto sempre un'ora, perché è il più bello della citta e ci sono tanti banchi.",
+  "corrected": "Il giovedì faccio la spesa al mercato rionale: ci vado in bicicletta, perché è vicino a casa. Le arance? Ne prendo un chilo, per fare la spremuta. Le fragole? Ne compro due cestini, se sono fresche. La carne, invece, la prendo in macelleria. Al mercato ci resto sempre un'ora, perché è il più bello della città e ci sono tanti banchi.",
+  "errors": [
+   {
+    "wrong": "ne vado",
+    "right": "ci vado",
+    "cat": "ci_ne"
+   },
+   {
+    "wrong": "Prendo un chilo",
+    "right": "Ne prendo un chilo",
+    "cat": "ci_ne"
+   },
+   {
+    "wrong": "frutillas",
+    "right": "fragole",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "freschi",
+    "right": "fresche",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "citta",
+    "right": "città",
+    "cat": "accento"
+   }
+  ]
+ },
+ {
+  "week": 22,
+  "text": "Domenica festeggiamo i sessant'anni di mia madre. Il regalo? Se lo compriamo io e mio fratello: è un viaggio alle cascate dell'Iguazú. I fiori? Mi li porta la vicina, che ha un giardino bellisimo. Le foto di quando mamma era giovane? Me le ha dato mia zia ieri. Gli invitati vogliono sapere l'orario: glielo mando stasera. E tu vuoi la ricetta della torta? Te la mandarò domani.",
+  "corrected": "Domenica festeggiamo i sessant'anni di mia madre. Il regalo? Glielo compriamo io e mio fratello: è un viaggio alle cascate dell'Iguazú. I fiori? Me li porta la vicina, che ha un giardino bellissimo. Le foto di quando mamma era giovane? Me le ha date mia zia ieri. Gli invitati vogliono sapere l'orario: glielo mando stasera. E tu vuoi la ricetta della torta? Te la manderò domani.",
+  "errors": [
+   {
+    "wrong": "Se lo",
+    "right": "Glielo",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "Mi li",
+    "right": "Me li",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "bellisimo",
+    "right": "bellissimo",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "ha dato",
+    "right": "ha date",
+    "cat": "participio"
+   },
+   {
+    "wrong": "mandarò",
+    "right": "manderò",
+    "cat": "ortografia"
+   }
+  ]
+ },
+ {
+  "week": 23,
+  "text": "Sono nato a Rosario, ma da tre anni vivo a Torino. Rosario è una città più giovane che Torino e ha meno monumenti. D'estate a Rosario fa più calore che a Torino e c'è più umidità. Torino è più tranquillo di Rosario e ci sono meno machine per strada. La pizza torinese è buona, ma secondo me l'asado di Rosario è il meglio del mondo.",
+  "corrected": "Sono nato a Rosario, ma da tre anni vivo a Torino. Rosario è una città più giovane di Torino e ha meno monumenti. D'estate a Rosario fa più caldo che a Torino e c'è più umidità. Torino è più tranquilla di Rosario e ci sono meno macchine per strada. La pizza torinese è buona, ma secondo me l'asado di Rosario è il migliore del mondo.",
+  "errors": [
+   {
+    "wrong": "che Torino",
+    "right": "di Torino",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "più calore",
+    "right": "più caldo",
+    "cat": "lessico"
+   },
+   {
+    "wrong": "più tranquillo",
+    "right": "più tranquilla",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "machine",
+    "right": "macchine",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "il meglio",
+    "right": "il migliore",
+    "cat": "lessico"
+   }
+  ]
+ },
+ {
+  "week": 24,
+  "text": "Caro Diego, ho letto il tuo messaggio. Mi sembra che il tuo capo ha troppe pretese: nessuno puo lavorare dodici ore al giorno! Non credo che tu debba lasciare il laburo, però è importante che lui sappi come ti senti. Spero che capisce presto la situazione. Se vuoi, domani ci vediamo e ne parliamo. Un abbraccio, Carla",
+  "corrected": "Caro Diego, ho letto il tuo messaggio. Mi sembra che il tuo capo abbia troppe pretese: nessuno può lavorare dodici ore al giorno! Non credo che tu debba lasciare il lavoro, però è importante che lui sappia come ti senti. Spero che capisca presto la situazione. Se vuoi, domani ci vediamo e ne parliamo. Un abbraccio, Carla",
+  "errors": [
+   {
+    "wrong": "capo ha",
+    "right": "capo abbia",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "puo",
+    "right": "può",
+    "cat": "accento"
+   },
+   {
+    "wrong": "laburo",
+    "right": "lavoro",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "sappi",
+    "right": "sappia",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "capisce",
+    "right": "capisca",
+    "cat": "tempo_modo"
+   }
+  ]
+ },
+ {
+  "week": 25,
+  "text": "Secondo me lavorare da casa è una buona idea. Penso che molte persone risparmiano tempo e soldi, perché non prendono i mezzi publici. Credo anche che le persone siano più produttivi a casa. Però dubito che i capi si fidano davvero dei dipendenti. Mi sembra che molti lavorino troppo e che non riescono a staccare la sera. È importante che ognuno possa scegliere.",
+  "corrected": "Secondo me lavorare da casa è una buona idea. Penso che molte persone risparmino tempo e soldi, perché non prendono i mezzi pubblici. Credo anche che le persone siano più produttive a casa. Però dubito che i capi si fidino davvero dei dipendenti. Mi sembra che molti lavorino troppo e che non riescano a staccare la sera. È importante che ognuno possa scegliere.",
+  "errors": [
+   {
+    "wrong": "risparmiano",
+    "right": "risparmino",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "publici",
+    "right": "pubblici",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "più produttivi",
+    "right": "più produttive",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "si fidano",
+    "right": "si fidino",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "riescono",
+    "right": "riescano",
+    "cat": "tempo_modo"
+   }
+  ]
+ },
+ {
+  "week": 27,
+  "text": "Il mio coinquilino Bruno studia ingegneria. Ogni mattina si sveglia presto e studia attentamente per tre ore in biblioteca. Risolve rapidamente anche gli esercizi più difficili e aiuta gentilmente a tutti i compagni di corso. Il sabato anche lavora in un ristorante e cucina molto buono. Normalemente è calmo, ma quando sua squadra perde si arrabbia terribilmente.",
+  "corrected": "Il mio coinquilino Bruno studia ingegneria. Ogni mattina si sveglia presto e studia attentamente per tre ore in biblioteca. Risolve rapidamente anche gli esercizi più difficili e aiuta gentilmente tutti i compagni di corso. Il sabato lavora anche in un ristorante e cucina molto bene. Normalmente è calmo, ma quando la sua squadra perde si arrabbia terribilmente.",
+  "errors": [
+   {
+    "wrong": "a tutti i",
+    "right": "tutti i",
+    "cat": "a_personale"
+   },
+   {
+    "wrong": "anche lavora",
+    "right": "lavora anche",
+    "cat": "ordine"
+   },
+   {
+    "wrong": "buono",
+    "right": "bene",
+    "cat": "lessico"
+   },
+   {
+    "wrong": "Normalemente",
+    "right": "Normalmente",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "sua squadra",
+    "right": "la sua squadra",
+    "cat": "possessivo"
+   }
+  ]
+ },
+ {
+  "week": 28,
+  "text": "Io sono cresciuta nel campo, vicino a Pergamino, ma oggi abito a Buenos Aires. Secondo me in città si vive meglio, anche se c'è molto rumore. Infatti ci sono più opportunità di lavoro e i trasporti funzionano abbastanza bene. Sin embargo, i affitti sono carissimi, quindi molte persone vivono lontano del centro. In campagna, invece, la vita è più lenta e tutti si conoscono. Però dopo due giorni io mi anoio!",
+  "corrected": "Io sono cresciuta in campagna, vicino a Pergamino, ma oggi abito a Buenos Aires. Secondo me in città si vive meglio, anche se c'è molto rumore. Infatti ci sono più opportunità di lavoro e i trasporti funzionano abbastanza bene. Tuttavia, gli affitti sono carissimi, quindi molte persone vivono lontano dal centro. In campagna, invece, la vita è più lenta e tutti si conoscono. Però dopo due giorni io mi annoio!",
+  "errors": [
+   {
+    "wrong": "nel campo",
+    "right": "in campagna",
+    "cat": "falso_amico"
+   },
+   {
+    "wrong": "Sin embargo",
+    "right": "Tuttavia",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "i affitti",
+    "right": "gli affitti",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "del centro",
+    "right": "dal centro",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "mi anoio",
+    "right": "mi annoio",
+    "cat": "doppie"
+   }
+  ]
+ },
+ {
+  "week": 29,
+  "text": "Che belle notizie mi hai dato! Sono felice che Lucía ha vinto la borsa di studio per Padova. Mi dispiace, invece, che Tomás e Paula si abbiano lasciato dopo tanti anni. Non credo che Nico abbia sceglito davvero di trasferirsi in campagna: è strano che non me ne abbia parlato! Qué pena che i nonni non siano potuti venire alla festa. Spero almeno che il concerto di Martina abbia avuto un grande esito.",
+  "corrected": "Che belle notizie mi hai dato! Sono felice che Lucía abbia vinto la borsa di studio per Padova. Mi dispiace, invece, che Tomás e Paula si siano lasciati dopo tanti anni. Non credo che Nico abbia scelto davvero di trasferirsi in campagna: è strano che non me ne abbia parlato! Che peccato che i nonni non siano potuti venire alla festa. Spero almeno che il concerto di Martina abbia avuto un grande successo.",
+  "errors": [
+   {
+    "wrong": "ha vinto",
+    "right": "abbia vinto",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "si abbiano lasciato",
+    "right": "si siano lasciati",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "abbia sceglito",
+    "right": "abbia scelto",
+    "cat": "participio"
+   },
+   {
+    "wrong": "Qué pena",
+    "right": "Che peccato",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "esito",
+    "right": "successo",
+    "cat": "falso_amico"
+   }
+  ]
+ },
+ {
+  "week": 30,
+  "text": "Quando ero piccola, i miei genitori volevano che vada a una scuola inglese e che io imparasse bene le lingue. Mia nonna, invece, sperava che stassi più tempo con lei in cucina. Più tardi mio padre voleva che mi iscrivessi alla carriera di Economia, ma io sognavo di fare la giornalista. Oggi vorrei che i ragazzi possono scegliere liberamente il loro futuro, senza le pressioni della famiglia.",
+  "corrected": "Quando ero piccola, i miei genitori volevano che andassi a una scuola inglese e che io imparassi bene le lingue. Mia nonna, invece, sperava che stessi più tempo con lei in cucina. Più tardi mio padre voleva che mi iscrivessi alla facoltà di Economia, ma io sognavo di fare la giornalista. Oggi vorrei che i ragazzi potessero scegliere liberamente il loro futuro, senza le pressioni della famiglia.",
+  "errors": [
+   {
+    "wrong": "vada",
+    "right": "andassi",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "imparasse",
+    "right": "imparassi",
+    "cat": "persona"
+   },
+   {
+    "wrong": "stassi",
+    "right": "stessi",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "carriera",
+    "right": "facoltà",
+    "cat": "falso_amico"
+   },
+   {
+    "wrong": "possono",
+    "right": "potessero",
+    "cat": "tempo_modo"
+   }
+  ]
+ },
+ {
+  "week": 31,
+  "text": "L'anno scorso avrei dovuto ahorrare di più: invece ho speso tutto in vestiti e ristoranti. Avrei rimasto volentieri a Mendoza, anziché trasferirmi a Buenos Aires, dove il affitto costa il doppio. Io e mia sorella avrebbero voluto fare un viaggio insieme, ma non abbiamo mai trovato il tempo. Il mio coinquilino aveva promesso che pagherà metà delle bollette, ma non ha pagato niente. Avrebbe potuto almeno avvisarmi!",
+  "corrected": "L'anno scorso avrei dovuto risparmiare di più: invece ho speso tutto in vestiti e ristoranti. Sarei rimasto volentieri a Mendoza, anziché trasferirmi a Buenos Aires, dove l'affitto costa il doppio. Io e mia sorella avremmo voluto fare un viaggio insieme, ma non abbiamo mai trovato il tempo. Il mio coinquilino aveva promesso che avrebbe pagato metà delle bollette, ma non ha pagato niente. Avrebbe potuto almeno avvisarmi!",
+  "errors": [
+   {
+    "wrong": "ahorrare",
+    "right": "risparmiare",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "Avrei rimasto",
+    "right": "Sarei rimasto",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "il affitto",
+    "right": "l'affitto",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "avrebbero",
+    "right": "avremmo",
+    "cat": "persona"
+   },
+   {
+    "wrong": "pagherà",
+    "right": "avrebbe pagato",
+    "cat": "tempo_modo"
+   }
+  ]
+ },
+ {
+  "week": 32,
+  "text": "Sabato scorso Giulia mi aveva invitata a cena. Pensavo che la cena cominciava alle otto, quindi sono arrivata puntuale con una bottiglia di vino. Giulia, però, era ancora in pigiama! Credevo che ha capito male l'orario, ma ero io che avevo letto male il suo messaggio: la cena era alle dieci. Sapevo che verrà anche suo fratello, ma non immaginavo che portasse a tutti i suoi amici. Alla fine, però, mi sono divertito moltissimo.",
+  "corrected": "Sabato scorso Giulia mi aveva invitata a cena. Pensavo che la cena cominciasse alle otto, quindi sono arrivata puntuale con una bottiglia di vino. Giulia, però, era ancora in pigiama! Credevo che avesse capito male l'orario, ma ero io che avevo letto male il suo messaggio: la cena era alle dieci. Sapevo che sarebbe venuto anche suo fratello, ma non immaginavo che portasse tutti i suoi amici. Alla fine, però, mi sono divertita moltissimo.",
+  "errors": [
+   {
+    "wrong": "cominciava",
+    "right": "cominciasse",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "ha capito",
+    "right": "avesse capito",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "verrà",
+    "right": "sarebbe venuto",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "portasse a",
+    "right": "portasse",
+    "cat": "a_personale"
+   },
+   {
+    "wrong": "mi sono divertito",
+    "right": "mi sono divertita",
+    "cat": "participio"
+   }
+  ]
+ },
+ {
+  "week": 33,
+  "text": "Se io e mia moglie vincessero la lotteria, faremmo il giro del mondo in barca a vela. Se sarei più giovane, andrei a vivere in Italia. Se avessi più tempo libero, facerei un corso di bandoneón. Se non avessi cominciato a studiare italiano, non avrei stato a Napoli l'estate scorsa e non avrei mangiato la vera pizza napoletanna. Se domani non piove, andiamo a correre al parco.",
+  "corrected": "Se io e mia moglie vincessimo la lotteria, faremmo il giro del mondo in barca a vela. Se fossi più giovane, andrei a vivere in Italia. Se avessi più tempo libero, farei un corso di bandoneón. Se non avessi cominciato a studiare italiano, non sarei stato a Napoli l'estate scorsa e non avrei mangiato la vera pizza napoletana. Se domani non piove, andiamo a correre al parco.",
+  "errors": [
+   {
+    "wrong": "vincessero",
+    "right": "vincessimo",
+    "cat": "persona"
+   },
+   {
+    "wrong": "Se sarei",
+    "right": "Se fossi",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "facerei",
+    "right": "farei",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "avrei stato",
+    "right": "sarei stato",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "napoletanna",
+    "right": "napoletana",
+    "cat": "doppie"
+   }
+  ]
+ },
+ {
+  "week": 34,
+  "text": "Vivo a Villa Urquiza, un quartiere che ci sono tantissimi alberi. La palestra en la que vado tre volte a settimana è proprio sotto casa mia. La vicina con chi prendo il mate ogni pomeriggio è una signora che ha novant'anni e che si ricorda di tutto. Mia figlia frequenta una scuola nel quale insegnano anche l'italiano. Il quartiere è un pò lontano dal centro, ma è il posto in cui voglio vivere.",
+  "corrected": "Vivo a Villa Urquiza, un quartiere in cui ci sono tantissimi alberi. La palestra in cui vado tre volte a settimana è proprio sotto casa mia. La vicina con cui prendo il mate ogni pomeriggio è una signora che ha novant'anni e che si ricorda di tutto. Mia figlia frequenta una scuola nella quale insegnano anche l'italiano. Il quartiere è un po' lontano dal centro, ma è il posto in cui voglio vivere.",
+  "errors": [
+   {
+    "wrong": "che ci sono",
+    "right": "in cui ci sono",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "en la que",
+    "right": "in cui",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "con chi",
+    "right": "con cui",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "nel quale",
+    "right": "nella quale",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "un pò",
+    "right": "un po'",
+    "cat": "accento"
+   }
+  ]
+ },
+ {
+  "week": 35,
+  "text": "La Torre di Pisa è il campanile della cattedrale. La costruzione è stato cominciata nel anno 1173, ma la torre è stata completata solo due secoli dopo. Già durante i lavori la torre si ha inclinato a causa del terreno blando. Nel 1990 è stata chiusa al pubblico ed è stata consolidata per un gruppo di ingegneri. Oggi la torre viene visitato da milioni di turisti ogni anno.",
+  "corrected": "La Torre di Pisa è il campanile della cattedrale. La costruzione è stata cominciata nell'anno 1173, ma la torre è stata completata solo due secoli dopo. Già durante i lavori la torre si è inclinata a causa del terreno morbido. Nel 1990 è stata chiusa al pubblico ed è stata consolidata da un gruppo di ingegneri. Oggi la torre viene visitata da milioni di turisti ogni anno.",
+  "errors": [
+   {
+    "wrong": "è stato cominciata",
+    "right": "è stata cominciata",
+    "cat": "participio"
+   },
+   {
+    "wrong": "nel anno",
+    "right": "nell'anno",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "si ha inclinato",
+    "right": "si è inclinata",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "blando",
+    "right": "morbido",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "per un gruppo",
+    "right": "da un gruppo",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "viene visitato",
+    "right": "viene visitata",
+    "cat": "participio"
+   }
+  ]
+ },
+ {
+  "week": 36,
+  "text": "Gli alfajores di maizena sono dolci tipici argentini. Prima si lavora la manteca con lo zucchero, poi si aggiunge i tuorli e la scorza di limone. Dopo si mettono la farina e il amido di mais e si impasta tutto con le mani. Si stende l'impasto e si tagliano dei cerchi piccole. Si cuociono in forno per dieci minuti e si lasciano raffreddare. Infine si uniscono due biscotti con il dulce de leche e si passano i bordi nel coco. Si mangiano con il caffè o con il te.",
+  "corrected": "Gli alfajores di maizena sono dolci tipici argentini. Prima si lavora il burro con lo zucchero, poi si aggiungono i tuorli e la scorza di limone. Dopo si mettono la farina e l'amido di mais e si impasta tutto con le mani. Si stende l'impasto e si tagliano dei cerchi piccoli. Si cuociono in forno per dieci minuti e si lasciano raffreddare. Infine si uniscono due biscotti con il dulce de leche e si passano i bordi nel cocco. Si mangiano con il caffè o con il tè.",
+  "errors": [
+   {
+    "wrong": "la manteca",
+    "right": "il burro",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "si aggiunge",
+    "right": "si aggiungono",
+    "cat": "persona"
+   },
+   {
+    "wrong": "il amido",
+    "right": "l'amido",
+    "cat": "articolo"
+   },
+   {
+    "wrong": "cerchi piccole",
+    "right": "cerchi piccoli",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "coco",
+    "right": "cocco",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "con il te",
+    "right": "con il tè",
+    "cat": "accento"
+   }
+  ]
+ },
+ {
+  "week": 37,
+  "text": "Juan Manuel Fangio nascé a Balcarce, in provincia di Buenos Aires, nel 1911. I suoi genitori erano inmigranti abruzzesi. Da ragazzo lasciò la scuola e lavorò come meccanico in un'officina. Nel 1949 partì per l'Europa e l'anno dopo cominciò a correre in Formula 1. Guadagnò cinque campionati del mondo e diventò una leggenda. Nel 1958 fu rapito a Cuba, ma i rapitori lo liberarono dopo un giorno. Si ritirò quello stesso anno e morò a Buenos Aires nel 1995. Ancora oggi molti lo considerano il pilota più grande de la storia.",
+  "corrected": "Juan Manuel Fangio nacque a Balcarce, in provincia di Buenos Aires, nel 1911. I suoi genitori erano immigrati abruzzesi. Da ragazzo lasciò la scuola e lavorò come meccanico in un'officina. Nel 1949 partì per l'Europa e l'anno dopo cominciò a correre in Formula 1. Vinse cinque campionati del mondo e diventò una leggenda. Nel 1958 fu rapito a Cuba, ma i rapitori lo liberarono dopo un giorno. Si ritirò quello stesso anno e morì a Buenos Aires nel 1995. Ancora oggi molti lo considerano il pilota più grande della storia.",
+  "errors": [
+   {
+    "wrong": "nascé",
+    "right": "nacque",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "inmigranti",
+    "right": "immigrati",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "Guadagnò",
+    "right": "Vinse",
+    "cat": "lessico"
+   },
+   {
+    "wrong": "morò",
+    "right": "morì",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "de la storia",
+    "right": "della storia",
+    "cat": "preposizione"
+   }
+  ]
+ },
+ {
+  "week": 38,
+  "text": "Il mese scorso ho parlato al telefono con mia cugina Rocío. Mi ha detto che il giorno dopo partirà per Madrid, perché aveva trovato lavoro in una scuola. Mi ha chiesto se potevo tenere il suo gatto per qualche setimana. La ho risposto che non c'era nessun problema. Allora mi ha detto de non preoccuparmi, perché il gatto era tranquillo e mangiava poco. Le ho promesso che l'accompagnerò all'aeroporto la mattina dopo.",
+  "corrected": "Il mese scorso ho parlato al telefono con mia cugina Rocío. Mi ha detto che il giorno dopo sarebbe partita per Madrid, perché aveva trovato lavoro in una scuola. Mi ha chiesto se potevo tenere il suo gatto per qualche settimana. Le ho risposto che non c'era nessun problema. Allora mi ha detto di non preoccuparmi, perché il gatto era tranquillo e mangiava poco. Le ho promesso che l'avrei accompagnata all'aeroporto la mattina dopo.",
+  "errors": [
+   {
+    "wrong": "partirà",
+    "right": "sarebbe partita",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "setimana",
+    "right": "settimana",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "La ho risposto",
+    "right": "Le ho risposto",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "de non",
+    "right": "di non",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "l'accompagnerò",
+    "right": "l'avrei accompagnata",
+    "cat": "tempo_modo"
+   }
+  ]
+ },
+ {
+  "week": 40,
+  "text": "Sono una persona molto impegnata, quindi faccio fare tante cose agli altri. La spesa me la faccio portare a casa dal supermercato e le camicie le faccio stirare a la tintoria. Ogni due mesi mi faccio tagliare il pelo da una parrucchiera molto brava. La settimana scorsa ho fatto arreglare la lavatrice, che era rotto da giorni: il tecnico ha messo un'ora a sistemarla e mi ha fatto pagare ottanta euro. A casa, invece, lascio fare molte cose ai miei figli: li lascio cucinare la pizza il venerdì sera e li lascio scegliere il film della domenica.",
+  "corrected": "Sono una persona molto impegnata, quindi faccio fare tante cose agli altri. La spesa me la faccio portare a casa dal supermercato e le camicie le faccio stirare in tintoria. Ogni due mesi mi faccio tagliare i capelli da una parrucchiera molto brava. La settimana scorsa ho fatto riparare la lavatrice, che era rotta da giorni: il tecnico ci ha messo un'ora a sistemarla e mi ha fatto pagare ottanta euro. A casa, invece, lascio fare molte cose ai miei figli: li lascio cucinare la pizza il venerdì sera e li lascio scegliere il film della domenica.",
+  "errors": [
+   {
+    "wrong": "a la tintoria",
+    "right": "in tintoria",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "il pelo",
+    "right": "i capelli",
+    "cat": "falso_amico"
+   },
+   {
+    "wrong": "arreglare",
+    "right": "riparare",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "era rotto",
+    "right": "era rotta",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "ha messo",
+    "right": "ci ha messo",
+    "cat": "ci_ne"
+   }
+  ]
+ },
+ {
+  "week": 41,
+  "text": "Stamattina mi sono svegliato presto e mi sono affacciato alla finestra. Prima ho visto il camion della spazzatura passare lentamente per la calle. Poi ho visto un gatto saltando sul tetto di una machina parcheggiata. Più tardi ho visto due signore uscire dal panificio con le borse piene: le ho visto ridere e salutarsi davanti al portone. Verso le nove ho sentito al mio vicino cantare sotto la doccia, come ogni mattina. Alla fine ho sentito il campanello suonare: era il postino con un pacco per me.",
+  "corrected": "Stamattina mi sono svegliato presto e mi sono affacciato alla finestra. Prima ho visto il camion della spazzatura passare lentamente per la strada. Poi ho visto un gatto saltare sul tetto di una macchina parcheggiata. Più tardi ho visto due signore uscire dal panificio con le borse piene: le ho viste ridere e salutarsi davanti al portone. Verso le nove ho sentito il mio vicino cantare sotto la doccia, come ogni mattina. Alla fine ho sentito il campanello suonare: era il postino con un pacco per me.",
+  "errors": [
+   {
+    "wrong": "la calle",
+    "right": "la strada",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "saltando",
+    "right": "saltare",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "machina",
+    "right": "macchina",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "le ho visto",
+    "right": "le ho viste",
+    "cat": "participio"
+   },
+   {
+    "wrong": "ho sentito al",
+    "right": "ho sentito il",
+    "cat": "a_personale"
+   }
+  ]
+ },
+ {
+  "week": 42,
+  "text": "Gentile segreteria, mi chiamo Lucila Benítez e vi scrivo perché ho deciso a frequentare un corso intensivo di italiano a Siena. Studio la lingua da due anni in Argentina e cerco a leggere un libro italiano ogni mese, ma ho bisogno di parlare di più. Vorrei cominciare a gennaio e continuare studiare fino a marzo. Vi chiedo di inviarmi il calendario delle lezzioni e di consigliarmi un alojamiento vicino alla scuola, possibilmente presso una famiglia. Resto in attesa di una vostra gentile risposta. Distinti saluti, Lucila Benítez",
+  "corrected": "Gentile segreteria, mi chiamo Lucila Benítez e vi scrivo perché ho deciso di frequentare un corso intensivo di italiano a Siena. Studio la lingua da due anni in Argentina e cerco di leggere un libro italiano ogni mese, ma ho bisogno di parlare di più. Vorrei cominciare a gennaio e continuare a studiare fino a marzo. Vi chiedo di inviarmi il calendario delle lezioni e di consigliarmi un alloggio vicino alla scuola, possibilmente presso una famiglia. Resto in attesa di una vostra gentile risposta. Distinti saluti, Lucila Benítez",
+  "errors": [
+   {
+    "wrong": "ho deciso a",
+    "right": "ho deciso di",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "cerco a",
+    "right": "cerco di",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "continuare studiare",
+    "right": "continuare a studiare",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "lezzioni",
+    "right": "lezioni",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "alojamiento",
+    "right": "alloggio",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 43,
+  "text": "Secondo me, la più difficile cosa è parlare senza paura. Capire le regole non basta: bisogna usarle ogni giorno. Ricordare il genere dei nomi sono un incubo, sopratutto quando in spagnolo è diverso. Per migliorare, è necessario di ascoltare molto e leggere ad alta voce. Io, en vez de guardare le serie in spagnolo, le guardo in italiano con i sottotitoli. Dopo aver fatto un errore, cerco di scriverlo in un quaderno per non ripeterlo. L'importante è non smettere mai di provare.",
+  "corrected": "Secondo me, la cosa più difficile è parlare senza paura. Capire le regole non basta: bisogna usarle ogni giorno. Ricordare il genere dei nomi è un incubo, soprattutto quando in spagnolo è diverso. Per migliorare, è necessario ascoltare molto e leggere ad alta voce. Io, invece di guardare le serie in spagnolo, le guardo in italiano con i sottotitoli. Dopo aver fatto un errore, cerco di scriverlo in un quaderno per non ripeterlo. L'importante è non smettere mai di provare.",
+  "errors": [
+   {
+    "wrong": "più difficile cosa",
+    "right": "cosa più difficile",
+    "cat": "ordine"
+   },
+   {
+    "wrong": "nomi sono",
+    "right": "nomi è",
+    "cat": "persona"
+   },
+   {
+    "wrong": "sopratutto",
+    "right": "soprattutto",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "è necessario di",
+    "right": "è necessario",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "en vez de",
+    "right": "invece di",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 44,
+  "text": "Ho imparato a ballare il tango a trent'anni, frequentando una milonga vicino di casa. All'inizio, essendo molto timida, non volevo ballare con gli sconosciuti. Il mio maestro, un signore di settant'anni, mi ha imparato tutto con pazienza. Ascoltando lo e guardando le altre coppie, ho capito come muovere i piedi. Sbagliando tante volte, ho imparato a seguire la musica. Finito le lezioni, ho cominciato a bailare ogni sabato sera con le mie amiche.",
+  "corrected": "Ho imparato a ballare il tango a trent'anni, frequentando una milonga vicino a casa. All'inizio, essendo molto timida, non volevo ballare con gli sconosciuti. Il mio maestro, un signore di settant'anni, mi ha insegnato tutto con pazienza. Ascoltandolo e guardando le altre coppie, ho capito come muovere i piedi. Sbagliando tante volte, ho imparato a seguire la musica. Finite le lezioni, ho cominciato a ballare ogni sabato sera con le mie amiche.",
+  "errors": [
+   {
+    "wrong": "vicino di casa",
+    "right": "vicino a casa",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "mi ha imparato",
+    "right": "mi ha insegnato",
+    "cat": "lessico"
+   },
+   {
+    "wrong": "Ascoltando lo",
+    "right": "Ascoltandolo",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "Finito le lezioni",
+    "right": "Finite le lezioni",
+    "cat": "participio"
+   },
+   {
+    "wrong": "bailare",
+    "right": "ballare",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 45,
+  "text": "Il mese scorso, tornando da Mar del Plata, la macchina si è fermata in mezzo all'autopista. Ci è voluto due ore per trovare un carro attrezzi. Mia moglie se l'ha presa con me perché non avevo controllato l'olio, ma io le ho detto che non entravo niente: la macchina era nuova! Il meccanico ci ha messo dieci minuti a trovare il problema. Alla fine l'abbiamo fatta ad arrivare a casa prima di mezzanotte e, tutto sommato, ce la siamo cavati con poco.",
+  "corrected": "Il mese scorso, tornando da Mar del Plata, la macchina si è fermata in mezzo all'autostrada. Ci sono volute due ore per trovare un carro attrezzi. Mia moglie se l'è presa con me perché non avevo controllato l'olio, ma io le ho detto che non c'entravo niente: la macchina era nuova! Il meccanico ci ha messo dieci minuti a trovare il problema. Alla fine ce l'abbiamo fatta ad arrivare a casa prima di mezzanotte e, tutto sommato, ce la siamo cavata con poco.",
+  "errors": [
+   {
+    "wrong": "all'autopista",
+    "right": "all'autostrada",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "Ci è voluto",
+    "right": "Ci sono volute",
+    "cat": "persona"
+   },
+   {
+    "wrong": "se l'ha presa",
+    "right": "se l'è presa",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "non entravo",
+    "right": "non c'entravo",
+    "cat": "ci_ne"
+   },
+   {
+    "wrong": "l'abbiamo fatta",
+    "right": "ce l'abbiamo fatta",
+    "cat": "ci_ne"
+   },
+   {
+    "wrong": "siamo cavati",
+    "right": "siamo cavata",
+    "cat": "participio"
+   }
+  ]
+ },
+ {
+  "week": 46,
+  "text": "Abito in un paesino in collina, in una casetta con un giardino pieno di alberelli. La mia stanzetta è piccola ma luminosa, e dalla finestra vedo la stradita che porta in piazza. I miei vicini portano suo cagnolino a spasso tre volte al giorno. In piazza c'è una chiesetta con una portona di legno. Il fornaio è un ragazzone simpatico che saluta a tutti con un sorrisone e fa dei cornetti buonisimi. Quando fa un tempaccio come oggi, resto a casa con un bel librone.",
+  "corrected": "Abito in un paesino in collina, in una casetta con un giardino pieno di alberelli. La mia stanzetta è piccola ma luminosa, e dalla finestra vedo la stradina che porta in piazza. I miei vicini portano il loro cagnolino a spasso tre volte al giorno. In piazza c'è una chiesetta con un portone di legno. Il fornaio è un ragazzone simpatico che saluta tutti con un sorrisone e fa dei cornetti buonissimi. Quando fa un tempaccio come oggi, resto a casa con un bel librone.",
+  "errors": [
+   {
+    "wrong": "stradita",
+    "right": "stradina",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "suo cagnolino",
+    "right": "il loro cagnolino",
+    "cat": "possessivo"
+   },
+   {
+    "wrong": "una portona",
+    "right": "un portone",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "saluta a tutti",
+    "right": "saluta tutti",
+    "cat": "a_personale"
+   },
+   {
+    "wrong": "buonisimi",
+    "right": "buonissimi",
+    "cat": "doppie"
+   }
+  ]
+ },
+ {
+  "week": 47,
+  "text": "Sabato ho invitato sette amici a cena: saremo in otto. Preparo un risotto ai funghi, quindi mi servono un chilo di riso, mezza chilo di funghi porcini e un litro e mezzo di brodo. Per l'antipasto compro tre etto di salame e una decena di grissini. Il vino? Ci vuole almeno sei bottiglie, più un par di birre per Marcelo. Ho un budget di centoventi euro: il quaranta per cento va per il vino, e con il resto compro anche il dolce, che deve bastare per una ventina di fette.",
+  "corrected": "Sabato ho invitato sette amici a cena: saremo in otto. Preparo un risotto ai funghi, quindi mi servono un chilo di riso, mezzo chilo di funghi porcini e un litro e mezzo di brodo. Per l'antipasto compro tre etti di salame e una decina di grissini. Il vino? Ci vogliono almeno sei bottiglie, più un paio di birre per Marcelo. Ho un budget di centoventi euro: il quaranta per cento va per il vino, e con il resto compro anche il dolce, che deve bastare per una ventina di fette.",
+  "errors": [
+   {
+    "wrong": "mezza chilo",
+    "right": "mezzo chilo",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "tre etto",
+    "right": "tre etti",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "una decena",
+    "right": "una decina",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "Ci vuole",
+    "right": "Ci vogliono",
+    "cat": "persona"
+   },
+   {
+    "wrong": "un par",
+    "right": "un paio",
+    "cat": "spagnolo"
+   }
+  ]
+ },
+ {
+  "week": 48,
+  "text": "La festa per i trent'anni di Maxi è stata indimenticabile. Era in una quinta fuori città, con un giardino enorme. La carne ha cucinato suo padre, e i dolci li abbiamo portati noi. È stato i suoi amici dell'università a organizzare tutto in segreto: Maxi non sapeva niente! Le canzoni le hanno suonate i suoi cugini con la chitarra. A mezanotte è andata via la luce e la torcia l'ho trovato io, per fortuna.",
+  "corrected": "La festa per i trent'anni di Maxi è stata indimenticabile. Era in una casa di campagna fuori città, con un giardino enorme. La carne l'ha cucinata suo padre, e i dolci li abbiamo portati noi. Sono stati i suoi amici dell'università a organizzare tutto in segreto: Maxi non sapeva niente! Le canzoni le hanno suonate i suoi cugini con la chitarra. A mezzanotte è andata via la luce e la torcia l'ho trovata io, per fortuna.",
+  "errors": [
+   {
+    "wrong": "quinta",
+    "right": "casa di campagna",
+    "cat": "falso_amico"
+   },
+   {
+    "wrong": "ha cucinato",
+    "right": "l'ha cucinata",
+    "cat": "pronome"
+   },
+   {
+    "wrong": "È stato",
+    "right": "Sono stati",
+    "cat": "persona"
+   },
+   {
+    "wrong": "mezanotte",
+    "right": "mezzanotte",
+    "cat": "doppie"
+   },
+   {
+    "wrong": "l'ho trovato",
+    "right": "l'ho trovata",
+    "cat": "participio"
+   }
+  ]
+ },
+ {
+  "week": 49,
+  "text": "Negli ultimi anni il dibattito sulla chiusura dei centri storici al traffico è diventato sempre più acceso. In primo luogo, è evidente che le automobili producono rumore e smog, e pertanto peggiorano la qualità della vita dei residenti. Además, le strade chiuse al traffico diventano più sicure per i peatoni e per i ciclisti. Tuttavia, nonostante questa misura è positiva, bisogna considerare le difficoltà di chi abita in periferia. Le autorità, quindi, deveno potenziare gli autobus e le metropolitane affinché tutti possono raggiungere il centro. In conclusione, ritengo che la chiusura sia una scelta giusta, a condizione che sia accompagnata da investimenti adeguati.",
+  "corrected": "Negli ultimi anni il dibattito sulla chiusura dei centri storici al traffico è diventato sempre più acceso. In primo luogo, è evidente che le automobili producono rumore e smog, e pertanto peggiorano la qualità della vita dei residenti. Inoltre, le strade chiuse al traffico diventano più sicure per i pedoni e per i ciclisti. Tuttavia, nonostante questa misura sia positiva, bisogna considerare le difficoltà di chi abita in periferia. Le autorità, quindi, devono potenziare gli autobus e le metropolitane affinché tutti possano raggiungere il centro. In conclusione, ritengo che la chiusura sia una scelta giusta, a condizione che sia accompagnata da investimenti adeguati.",
+  "errors": [
+   {
+    "wrong": "Además",
+    "right": "Inoltre",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "i peatoni",
+    "right": "i pedoni",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "misura è",
+    "right": "misura sia",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "deveno",
+    "right": "devono",
+    "cat": "ortografia"
+   },
+   {
+    "wrong": "possono",
+    "right": "possano",
+    "cat": "tempo_modo"
+   }
+  ]
+ },
+ {
+  "week": 50,
+  "text": "Caro Fede, ti racconto una figuraccia. Sabato cercavo un negozio di vestiti e ho chiesto a una signora dove fosse una «tenda». Lei mi ha indicato un negozio di tende per le finestre! Por suerte ha capito subito e mi ha spiegato che in italiano si dice «negozio». Io mi ho vergognata tantissimo e le ho detto che ero molto imbarazzata. Poi, tornando a casa, sono salita sull'autobus sbagliato e sono finita all'altra parte della città. Un ragazzo gentile mi ha mostrato la fermata giusto e alla fine abbiamo riduto insieme. Un bacio, Martina",
+  "corrected": "Caro Fede, ti racconto una figuraccia. Sabato cercavo un negozio di vestiti e ho chiesto a una signora dove fosse una «tenda». Lei mi ha indicato un negozio di tende per le finestre! Per fortuna ha capito subito e mi ha spiegato che in italiano si dice «negozio». Io mi sono vergognata tantissimo e le ho detto che ero molto imbarazzata. Poi, tornando a casa, sono salita sull'autobus sbagliato e sono finita dall'altra parte della città. Un ragazzo gentile mi ha mostrato la fermata giusta e alla fine abbiamo riso insieme. Un bacio, Martina",
+  "errors": [
+   {
+    "wrong": "Por suerte",
+    "right": "Per fortuna",
+    "cat": "spagnolo"
+   },
+   {
+    "wrong": "mi ho vergognata",
+    "right": "mi sono vergognata",
+    "cat": "ausiliare"
+   },
+   {
+    "wrong": "all'altra parte",
+    "right": "dall'altra parte",
+    "cat": "preposizione"
+   },
+   {
+    "wrong": "giusto",
+    "right": "giusta",
+    "cat": "concordanza"
+   },
+   {
+    "wrong": "abbiamo riduto",
+    "right": "abbiamo riso",
+    "cat": "participio"
+   }
+  ]
+ },
+ {
+  "week": 51,
+  "text": "Caro Andrés di un anno fa, ti scrivo da un bar di Bologna, dove adesso lavoro. Mai ho pensato di arrivare fin qui! Se non ti fossi iscritto a quel corso di italiano, oggi non vivrei in Italia e non avrei conosciuto a Giulia. È incredibile che tu sei riuscito a studiare ogni sera dopo il lavoro. In questi mesi ho scopruto che sbagliare non è un problema. Ti chiederei solo una cosa: non avere paura di parlare, anche se all'inizio ti sentirai ridicolo. Sarebbe un peccato che tu rinunci per timidezza. Un abbraccio, il tuo io del futuro",
+  "corrected": "Caro Andrés di un anno fa, ti scrivo da un bar di Bologna, dove adesso lavoro. Non ho mai pensato di arrivare fin qui! Se non ti fossi iscritto a quel corso di italiano, oggi non vivrei in Italia e non avrei conosciuto Giulia. È incredibile che tu sia riuscito a studiare ogni sera dopo il lavoro. In questi mesi ho scoperto che sbagliare non è un problema. Ti chiederei solo una cosa: non avere paura di parlare, anche se all'inizio ti sentirai ridicolo. Sarebbe un peccato che tu rinunciassi per timidezza. Un abbraccio, il tuo io del futuro",
+  "errors": [
+   {
+    "wrong": "Mai ho pensato",
+    "right": "Non ho mai pensato",
+    "cat": "ordine"
+   },
+   {
+    "wrong": "avrei conosciuto a",
+    "right": "avrei conosciuto",
+    "cat": "a_personale"
+   },
+   {
+    "wrong": "sei riuscito",
+    "right": "sia riuscito",
+    "cat": "tempo_modo"
+   },
+   {
+    "wrong": "ho scopruto",
+    "right": "ho scoperto",
+    "cat": "participio"
+   },
+   {
+    "wrong": "rinunci",
+    "right": "rinunciassi",
+    "cat": "tempo_modo"
+   }
+  ]
+ }
+]

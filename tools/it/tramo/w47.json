@@ -1,0 +1,384 @@
+{
+  "week": 47,
+  "level": "C1",
+  "lettura": {
+    "title": "Affitti, a Monteverde un monolocale costa il doppio di cinque anni fa",
+    "emoji": "📊",
+    "genre": "articolo di cronaca economica",
+    "grammar": "numerali, misure e quantità",
+    "text": "Trentacinque metri quadri, un angolo cottura, un bagno senza finestra e un canone di 780 euro al mese, spese escluse. È l'annuncio che Federica, ventitré anni, studentessa fuorisede di Ingegneria, ha trovato dopo quasi tre mesi di ricerche. «Ne avrò visti una cinquantina», racconta. «La metà erano già affittati quando chiamavo, e un quarto dei proprietari chiedeva sei mensilità di anticipo.» Alla fine ha rinunciato e oggi divide con altre due ragazze un trilocale in periferia, a quaranta minuti di autobus dalla facoltà.\n\nIl caso di Federica non è un'eccezione. Secondo il rapporto presentato ieri dall'Osservatorio sulla casa dell'Università di Monteverde, negli ultimi cinque anni il canone medio di un monolocale in centro è quasi raddoppiato, passando da circa 410 a 790 euro. Nello stesso periodo i redditi delle famiglie sono cresciuti, in termini reali, di appena il 3 per cento. Tradotto: se nel 2021 per affittare un piccolo appartamento bastava un terzo di uno stipendio medio, oggi ne servono quasi due terzi.\n\nLe cause, spiega il rapporto, sono molteplici. La prima è la crescita degli affitti brevi: gli alloggi offerti sulle piattaforme turistiche sono passati in cinque anni da poco più di seicento a oltre duemilacento, cioè più che triplicati. Nel centro storico, ormai, quasi un appartamento su cinque è destinato ai turisti. La seconda è il numero degli studenti, aumentato di circa il 15 per cento grazie ai nuovi corsi in lingua inglese: una buona notizia per l'ateneo, meno per chi cerca casa. La terza, meno visibile, riguarda gli immobili vuoti: secondo le stime dell'Osservatorio, in città ci sarebbero tra i tremila e i quattromila appartamenti sfitti, spesso perché i proprietari temono inquilini morosi o non hanno i soldi per ristrutturarli.\n\nNon sono soltanto gli studenti a pagarne le conseguenze. Infermieri, insegnanti precari, giovani coppie: il rapporto segnala che, tra i nuovi assunti dell'ospedale cittadino, circa un quarto ha rinunciato al posto o ha chiesto il trasferimento entro un anno, citando proprio il costo della casa. E chi resta si sposta sempre più lontano: negli ultimi tre anni i comuni della cintura, nel raggio di una ventina di chilometri, hanno visto crescere i residenti di quasi il 6 per cento, mentre il centro storico ne ha persi circa un migliaio.\n\nLa questione è ormai diventata politica. Il sindaco, al secondo mandato, ha annunciato un piano da 12 milioni di euro in tre anni: un milione e mezzo per incentivare i proprietari ad affittare a canone concordato, sei milioni per recuperare centoventi alloggi pubblici inutilizzati e il resto per costruire uno studentato da duecentocinquanta posti letto nell'ex caserma di via Garibaldi. «Per la prima volta mettiamo sul tavolo risorse vere», ha dichiarato in consiglio comunale.\n\nL'opposizione, però, parla di numeri gonfiati. «Dodici milioni sembrano tanti, ma divisi per tre anni fanno quattro milioni all'anno, meno del 2 per cento del bilancio comunale», ha replicato la capogruppo della lista civica Monteverde Domani. «E lo studentato, se tutto va bene, aprirà tra quattro anni: nel frattempo migliaia di ragazzi continueranno a pagare cifre folli.» L'opposizione chiede invece un tetto agli affitti brevi, sul modello di altre città europee, limitando a novanta il numero di notti all'anno in cui un appartamento può essere affittato ai turisti.\n\nDall'altra parte, le associazioni dei proprietari respingono l'idea. «Chi affitta ai turisti non è uno speculatore, ma spesso una famiglia che integra la pensione», sostiene il presidente della sezione locale. Secondo i loro calcoli, un appartamento di sessanta metri quadri affittato ai turisti rende in media il doppio di uno affittato a lungo termine, e con meno rischi: «Se un inquilino smette di pagare, per sfrattarlo servono in media diciotto mesi. Chi se lo può permettere?»\n\nTra le due posizioni, il rapporto dell'Osservatorio suggerisce una strada intermedia. Gli autori propongono di combinare un limite moderato agli affitti brevi, concentrato nelle zone più richieste, con una garanzia pubblica per i proprietari che affittano a studenti e giovani lavoratori: un fondo che copra fino a dodici mensilità in caso di mancato pagamento. Secondo le loro simulazioni, se anche solo un decimo degli appartamenti sfitti tornasse sul mercato, i canoni potrebbero scendere tra il 5 e l'8 per cento in due anni. Non una rivoluzione, ammettono, ma un primo passo.\n\nFederica, intanto, fa i conti. Tra affitto, bollette e abbonamento all'autobus, spende circa seicento euro al mese, più della metà di quello che guadagna lavorando nei fine settimana in un bar. «I miei genitori mi aiutano, ma non so per quanto ancora», dice. Il consiglio comunale discuterà il piano del sindaco il prossimo 14 ottobre. Per migliaia di studenti come lei, quella seduta vale più di qualunque esame.",
+    "gloss": {
+      "pagarne": "(non sono soltanto gli studenti a pagarne) no son solo los estudiantes los que lo pagan (semana 48)",
+      "canone": "alquiler (el monto mensual)",
+      "fuorisede": "que estudia lejos de su ciudad",
+      "mensilità": "meses (de alquiler), mensualidades",
+      "trilocale": "departamento de tres ambientes",
+      "redditi": "ingresos",
+      "stipendio": "sueldo",
+      "alloggi": "viviendas",
+      "ateneo": "universidad",
+      "immobili": "inmuebles",
+      "sfitti": "desocupados, sin alquilar",
+      "morosi": "que no pagan, morosos",
+      "ristrutturarli": "refaccionarlos",
+      "assunti": "contratados",
+      "cintura": "conurbano, alrededores",
+      "sindaco": "intendente",
+      "studentato": "residencia estudiantil",
+      "caserma": "cuartel",
+      "gonfiati": "inflados",
+      "capogruppo": "jefa de bloque",
+      "tetto": "tope, límite",
+      "respingono": "rechazan",
+      "rende": "rinde, deja ganancia",
+      "sfrattarlo": "desalojarlo",
+      "bollette": "facturas (de luz, gas)",
+      "abbonamento": "abono",
+      "seduta": "sesión"
+    },
+    "questions": [
+      [
+        "Che cosa significa che oggi, per affittare un piccolo appartamento, «ne servono quasi due terzi»?",
+        [
+          "Che due studenti su tre non riescono a trovare casa",
+          "Che l'affitto assorbe quasi due terzi di uno stipendio medio",
+          "Che gli affitti sono aumentati di due terzi in un anno",
+          "Che due terzi degli alloggi si trovano in centro"
+        ],
+        "Che l'affitto assorbe quasi due terzi di uno stipendio medio"
+      ],
+      [
+        "Qual è l'idea principale dell'articolo?",
+        [
+          "Gli studenti fuorisede preferiscono vivere in periferia",
+          "Il sindaco ha risolto la crisi con un piano ambizioso",
+          "Gli affitti crescono molto più dei redditi e la politica si divide",
+          "Gli affitti brevi sono l'unica causa del caro casa"
+        ],
+        "Gli affitti crescono molto più dei redditi e la politica si divide"
+      ],
+      [
+        "Perché l'opposizione giudica insufficiente il piano del sindaco?",
+        [
+          "Perché la somma annuale è modesta e lo studentato arriverà tardi",
+          "Perché i fondi finiscono tutti nelle tasche dei proprietari privati",
+          "Perché lo studentato sorgerà lontano dal centro della città",
+          "Perché il piano prevede di vendere gli alloggi pubblici"
+        ],
+        "Perché la somma annuale è modesta e lo studentato arriverà tardi"
+      ],
+      [
+        "Come giustificano i proprietari la loro preferenza per gli affitti brevi?",
+        [
+          "Con l'obbligo di pagare meno tasse",
+          "Con la richiesta dei turisti stranieri",
+          "Con il divieto di affittare agli studenti",
+          "Con una rendita maggiore e meno rischi"
+        ],
+        "Con una rendita maggiore e meno rischi"
+      ],
+      [
+        "Qual è l'atteggiamento dell'Osservatorio?",
+        [
+          "Sostiene senza riserve la posizione del sindaco",
+          "Chiede di vietare del tutto gli affitti ai turisti",
+          "Propone una soluzione intermedia e prudente",
+          "Ritiene che il mercato si correggerà da solo"
+        ],
+        "Propone una soluzione intermedia e prudente"
+      ]
+    ],
+    "vf": [
+      [
+        "Federica vive attualmente da sola in un monolocale.",
+        "falso"
+      ],
+      [
+        "Il numero di alloggi turistici è più che triplicato in cinque anni.",
+        "vero"
+      ],
+      [
+        "Federica pensa di lasciare l'università se gli affitti non scendono.",
+        "non si dice"
+      ],
+      [
+        "Secondo l'Osservatorio, il ritorno sul mercato di un decimo degli sfitti potrebbe far scendere i canoni.",
+        "vero"
+      ],
+      [
+        "Per sfrattare un inquilino moroso servono in media dodici mesi.",
+        "falso"
+      ]
+    ],
+    "hunt": {
+      "label": "Tocá los numerales escritos con letras (cardinales, fraccionarios, multiplicativos, colectivos)",
+      "targets": ["trentacinque", "ventitré", "tre", "cinquantina", "metà", "quarto", "sei", "due", "quaranta", "cinque", "raddoppiato", "terzo", "terzi", "seicento", "duemilacento", "triplicati", "tremila", "quattromila", "ventina", "migliaio", "milione", "mezzo", "milioni", "centoventi", "duecentocinquanta", "dodici", "quattro", "migliaia", "novanta", "sessanta", "doppio", "diciotto", "decimo"]
+    }
+  },
+  "ascolto": {
+    "title": "Difendersi dai numeri",
+    "genre": "rubrica radiofonica",
+    "es": "En un programa de radio sobre economía cotidiana, el conductor conversa con una periodista económica sobre cómo leer los números que aparecen en las noticias.",
+    "speakers": [
+      "Conduttore",
+      "Giornalista economica"
+    ],
+    "turns": [
+      [
+        "A",
+        "Buongiorno e bentrovati a «Conti in tasca». Come ogni giovedì, c'è con noi Anna Russo, giornalista economica, che oggi ci aiuta a difenderci dai numeri. Anna, detta così sembra quasi una battuta."
+      ],
+      [
+        "B",
+        "Un po' lo è, ma solo un po'. I numeri nei giornali sono utilissimi, però vanno letti con attenzione. Spesso non mentono, ma raccontano solo una parte della storia."
+      ],
+      [
+        "A",
+        "Partiamo da un esempio concreto."
+      ],
+      [
+        "B",
+        "Allora, prendiamo un titolo che si vede spesso: «La disoccupazione giovanile scende dal 20 al 18 per cento: calo del 2 per cento». Ecco, questo è sbagliato."
+      ],
+      [
+        "A",
+        "Perché? Da venti a diciotto sono due."
+      ],
+      [
+        "B",
+        "Sono due punti percentuali, non due per cento. Se vuoi calcolare di quanto è diminuita in proporzione, due su venti fa il dieci per cento. Quindi il calo è del dieci per cento, oppure di due punti. Sembra un dettaglio da pignoli, ma cambia completamente la percezione."
+      ],
+      [
+        "A",
+        "E i giornalisti lo sanno?"
+      ],
+      [
+        "B",
+        "Molti sì, qualcuno meno. E poi c'è chi lo sa benissimo e sceglie la formula che fa più effetto. Se vuoi un titolo drammatico, dici «aumento del cinquanta per cento». Se vuoi tranquillizzare, dici «più due punti». E magari è lo stesso identico dato."
+      ],
+      [
+        "A",
+        "Cioè?"
+      ],
+      [
+        "B",
+        "Cioè: se un rischio passa dal quattro al sei per cento, è aumentato di due punti, ma in termini relativi è cresciuto della metà. Tutte e due le frasi sono vere. Il lettore, però, reagisce in modo molto diverso."
+      ],
+      [
+        "A",
+        "Mi viene in mente anche il problema delle cifre enormi. Quando sento «tre miliardi», onestamente, non ho la minima idea se siano tanti o pochi."
+      ],
+      [
+        "B",
+        "Ed è normalissimo, il nostro cervello non è fatto per immaginare un miliardo. Il trucco è rapportare la cifra a qualcosa di concreto, per esempio dividerla per il numero degli abitanti. Tre miliardi, in un paese di sessanta milioni di persone, fanno cinquanta euro a testa. Detto così, uno capisce subito di che cosa stiamo parlando."
+      ],
+      [
+        "A",
+        "Passiamo a un'altra parola che si sente ovunque: la media."
+      ],
+      [
+        "B",
+        "Ah, la media è la mia preferita. Facciamo un esperimento mentale: in un bar ci sono dieci persone che guadagnano millecinquecento euro al mese. Entra un calciatore famoso. Il reddito medio del bar schizza a decine di migliaia di euro, ma nessuno dei dieci è diventato più ricco."
+      ],
+      [
+        "A",
+        "Quindi la media inganna."
+      ],
+      [
+        "B",
+        "Può ingannare, soprattutto quando i valori sono molto squilibrati, come i redditi o i prezzi delle case. Per questo gli economisti usano spesso la mediana, cioè il valore che sta esattamente a metà: metà delle persone guadagna di più, metà di meno. È meno spettacolare, ma più onesta."
+      ],
+      [
+        "A",
+        "Un consiglio pratico per chi ci ascolta e domani apre il giornale?"
+      ],
+      [
+        "B",
+        "Tre domande, sempre. Primo: rispetto a che cosa? Un aumento del trenta per cento non dice niente se non so da dove si parte. Secondo: chi ha prodotto il dato, e perché? Terzo: su quante persone? Un sondaggio fatto su duecento persone non vale quanto uno fatto su diecimila."
+      ],
+      [
+        "A",
+        "Rispetto a che cosa, chi e su quanti. Me lo scrivo."
+      ],
+      [
+        "B",
+        "Scriviamocelo tutti, anche noi giornalisti. Io per prima."
+      ],
+      [
+        "A",
+        "Grazie, Anna. Ci sentiamo giovedì prossimo, sempre qui."
+      ]
+    ],
+    "gloss": {
+      "bentrovati": "bienvenidos de nuevo",
+      "disoccupazione": "desempleo",
+      "calo": "baja, descenso",
+      "pignoli": "quisquillosos",
+      "rapportare": "relacionar, comparar",
+      "calciatore": "futbolista",
+      "schizza": "se dispara",
+      "inganna": "engaña",
+      "squilibrati": "muy dispares",
+      "sondaggio": "encuesta"
+    },
+    "questions": [
+      [
+        "Qual è il messaggio principale di Anna?",
+        [
+          "I numeri sui giornali sono quasi sempre falsi",
+          "Solo gli economisti riescono a capire i dati",
+          "I numeri vanno interpretati perché raccontano solo una parte",
+          "I giornalisti dovrebbero evitare del tutto di usare le percentuali"
+        ],
+        "I numeri vanno interpretati perché raccontano solo una parte"
+      ],
+      [
+        "Qual è l'errore nel titolo sulla disoccupazione giovanile?",
+        [
+          "Confonde punti percentuali e variazione percentuale",
+          "Usa i dati di un anno diverso da quello indicato nel titolo",
+          "Parla di giovani invece che di adulti",
+          "Arrotonda troppo le cifre reali"
+        ],
+        "Confonde punti percentuali e variazione percentuale"
+      ],
+      [
+        "Se un rischio passa dal 4 al 6 per cento, secondo Anna…",
+        [
+          "è aumentato del 2 per cento rispetto al valore iniziale",
+          "è raddoppiato",
+          "è aumentato di due punti, cioè della metà",
+          "è aumentato di sei punti"
+        ],
+        "è aumentato di due punti, cioè della metà"
+      ],
+      [
+        "A che cosa serve l'esempio del calciatore nel bar?",
+        [
+          "A criticare gli stipendi del calcio",
+          "A mostrare che la media può deformare la realtà",
+          "A spiegare come si calcola il reddito",
+          "A dimostrare che i bar guadagnano molto"
+        ],
+        "A mostrare che la media può deformare la realtà"
+      ],
+      [
+        "Quale delle domande consigliate da Anna riguarda l'affidabilità della fonte?",
+        [
+          "Rispetto a che cosa?",
+          "Su quante persone?",
+          "Quando è uscito il dato?",
+          "Chi ha prodotto il dato, e perché?"
+        ],
+        "Chi ha prodotto il dato, e perché?"
+      ]
+    ],
+    "vf": [
+      [
+        "Anna partecipa al programma ogni settimana.",
+        "vero"
+      ],
+      [
+        "Secondo Anna, tutti i giornalisti conoscono la differenza tra punti e percentuali.",
+        "falso"
+      ],
+      [
+        "Anna ha scritto un libro sull'uso dei numeri nei media.",
+        "non si dice"
+      ],
+      [
+        "La mediana è il valore che divide a metà un insieme di dati.",
+        "vero"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "sintesi",
+    "title": "La crisi degli affitti a Monteverde in sintesi",
+    "fonte": "lettura",
+    "t": "Il consiglio comunale di Monteverde discuterà il piano per la casa il 14 ottobre. L'associazione studentesca di cui fai parte ti chiede di scrivere per il suo sito una sintesi dell'articolo «Affitti, a Monteverde un monolocale costa il doppio di cinque anni fa» (227-287 parole, registro neutro e informativo). La sintesi deve presentare in modo chiaro i dati principali, le cause individuate dal rapporto, le posizioni del sindaco, dell'opposizione e dei proprietari e la proposta dell'Osservatorio. Riporta le cifre con precisione e non aggiungere opinioni personali.",
+    "es": "Resumen informativo, sin opinión: reorganizá con tus palabras los datos, las causas, las posiciones y la propuesta. Cuidá que las cifras sean exactas y variá la forma de decirlas (el doble, un tercio, una decina…).",
+    "min": 227,
+    "max": 287,
+    "punti": [
+      [
+        "datos principales de los alquileres",
+        [
+          "raddopp",
+          "790",
+          "doppio",
+          "due terzi"
+        ]
+      ],
+      [
+        "causas",
+        [
+          "affitti brevi",
+          "caus",
+          "sfitti"
+        ]
+      ],
+      [
+        "posiciones políticas",
+        [
+          "sindaco",
+          "opposizione",
+          "proprietari"
+        ]
+      ],
+      [
+        "propuesta del Observatorio",
+        [
+          "osservatorio",
+          "fondo",
+          "garanzia"
+        ]
+      ]
+    ],
+    "model": "Affitti a Monteverde: i numeri della crisi e le proposte in discussione\n\nSecondo il rapporto dell'Osservatorio sulla casa dell'Università di Monteverde, in cinque anni il canone medio di un monolocale in centro è quasi raddoppiato, passando da circa 410 a 790 euro, mentre i redditi reali sono cresciuti solo del 3 per cento. Se nel 2021 bastava un terzo di uno stipendio medio, oggi ne servono quasi due terzi.\n\nIl rapporto individua tre cause: gli affitti brevi, più che triplicati fino a oltre duemilacento alloggi; la crescita di circa il 15 per cento degli studenti; la presenza di tre-quattromila appartamenti sfitti. Le conseguenze non riguardano solo gli studenti: un quarto dei nuovi assunti dell'ospedale ha rinunciato al posto o chiesto il trasferimento.\n\nIl sindaco ha presentato un piano da 12 milioni in tre anni, con incentivi per il canone concordato, il recupero di centoventi alloggi pubblici e uno studentato da duecentocinquanta posti. L'opposizione lo giudica insufficiente, perché equivale a meno del 2 per cento del bilancio annuale e lo studentato non sarà pronto prima di quattro anni; chiede quindi di limitare gli affitti turistici a novanta notti all'anno. Le associazioni dei proprietari respingono la proposta: gli affitti brevi renderebbero il doppio e comporterebbero meno rischi, dato che uno sfratto richiede in media diciotto mesi.\n\nL'Osservatorio suggerisce una via di mezzo: un limite moderato agli affitti brevi nelle zone più richieste e un fondo pubblico di garanzia fino a dodici mensilità. Se tornasse sul mercato anche solo un decimo degli sfitti, i canoni potrebbero calare del 5-8 per cento in due anni.\n\nIl piano sarà discusso in consiglio il 14 ottobre.",
+    "gloss": {
+      "canone": "el monto del alquiler",
+      "monolocale": "monoambiente",
+      "sfitti": "vacíos, sin alquilar",
+      "nuovi assunti": "empleados recién contratados",
+      "canone concordato": "alquiler a precio acordado por convenio (más bajo, con beneficios fiscales)",
+      "studentato": "residencia estudiantil",
+      "sfratto": "desalojo",
+      "mensilità": "meses de alquiler, mensualidades"
+    }
+  },
+  "breve": {
+    "title": "Notiziario economico delle sette",
+    "genre": "notiziario radiofonico",
+    "es": "El boletín económico de la mañana: inflación, hipotecas, una residencia estudiantil y la Bolsa.",
+    "speaker": "Giornalista economica",
+    "voice": 1,
+    "text": [
+      "Notiziario economico delle sette. Secondo i dati diffusi ieri dall'Istat, a settembre l'inflazione è scesa all'uno virgola otto per cento, contro il due virgola tre del mese precedente. Calano soprattutto i prezzi dell'energia, mentre gli alimentari restano cari: più tre per cento in un anno.",
+      "Mutui: il tasso medio per l'acquisto della prima casa è sceso sotto il tre per cento per la prima volta da due anni. Secondo le associazioni dei consumatori, su un mutuo di centocinquantamila euro in venticinque anni si risparmiano circa quaranta euro al mese.",
+      "A Monteverde il nuovo studentato nell'ex caserma di via Garibaldi offrirà duecentocinquanta posti letto; i lavori, finanziati con sei milioni di euro, dovrebbero partire a gennaio.",
+      "In Borsa, apertura in lieve rialzo: Milano guadagna lo zero virgola quattro per cento."
+    ],
+    "tabella": [
+      ["Inflazione di settembre (%)", "1,8", ["1.8", "uno virgola otto", "1,8%"]],
+      ["Aumento degli alimentari in un anno (%)", "3", ["tre", "+3", "3%", "piu tre"]],
+      ["Risparmio al mese sul mutuo (euro)", "40", ["quaranta", "circa 40", "circa quaranta"]],
+      ["Posti letto dello studentato", "250", ["duecentocinquanta"]],
+      ["Mese di inizio dei lavori", "gennaio", ["a gennaio"]]
+    ],
+    "info": [
+      ["L'inflazione è salita rispetto al mese precedente.", false],
+      ["I prezzi dell'energia sono in calo.", true],
+      ["Il tasso dei mutui è sotto il tre per cento.", true],
+      ["Lo studentato costerà dodici milioni.", false],
+      ["La Borsa di Milano apre in calo.", false],
+      ["I prezzi degli alimentari restano alti.", true]
+    ],
+    "gloss": {
+      "mutui": "créditos hipotecarios",
+      "tasso": "tasa",
+      "studentato": "residencia estudiantil",
+      "rialzo": "suba"
+    }
+  }
+}

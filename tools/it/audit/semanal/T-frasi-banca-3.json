@@ -1,0 +1,176 @@
+{
+ "lote": "T-frasi-banca-3",
+ "revisado": 135,
+ "veredicto": "bien",
+ "resumen": "135 frases B2/C1 (falsi amici, léxico, tiempos verbales, relativas, concesivas, registro formal, cultura/historia). Italiano y español correctos: no hallé errores firmes, solo dudas sobre notas normativas demasiado categóricas (mi risulta che, si dice che, quien+subjuntivo), un calco (pagare questo), dos gap nulos y algunos tags que no corresponden. Muy buena variedad de variantes aceptadas. Tasa estimada de falsos positivos en las dudas: ~40%.",
+ "bien": [
+  "Traducciones fieles y naturales; varias variantes aceptadas por ítem (remoto/prossimo, sinónimos, género).",
+  "Buenas notas de falsi amici (compromiso/compromesso, educación/istruzione, asistir/partecipare, pruebas/prove).",
+  "Voseo natural (Quedate, Traeme, esperame, proponés) sin errores.",
+  "Cobertura sólida de subjuntivos, periodo ipotetico, trapassato remoto, gerundio/participio assoluto, relativas y refranes.",
+  "Frases de registro formal (cartas, correo) útiles y correctas; gaps con auxiliar y pronombres bien elegidos."
+ ],
+ "hallazgos": [
+  {
+   "id": "frase:750",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Mi risulta che + congiuntivo.",
+   "propuesta": "Mi risulta che + indicativo (afirmativa): «Mi risulta che il volo è in ritardo»; congiuntivo sobre todo en negativa/duda.",
+   "motivo": "La nota presenta como regla fija algo que en afirmativa suele ir con indicativo; la variante «Da quanto ho capito, il volo è in ritardo» ya usa indicativo."
+  },
+  {
+   "id": "frase:825",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Me consta = mi risulta.",
+   "propuesta": "Aclarar que «mi risulta che» admite indicativo (y con «me consta», certeza, es lo más natural): «Mi risulta che ha fatto tutto il possibile».",
+   "motivo": "Me consta expresa certeza; el gap fuerza «abbia fatto» (congiuntivo), más propio de la duda. Tag congiuntivo_presente discutible."
+  },
+  {
+   "id": "frase:758",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Si dice che + congiuntivo imperfetto.",
+   "propuesta": "«Si dice che + indicativo» es lo más común («i Romani erano superstiziosi»); el congiuntivo es posible pero más formal.",
+   "motivo": "La nota enseña como norma algo opcional y descarta la forma habitual."
+  },
+  {
+   "id": "frase:805",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Principal en pasado → congiuntivo imperfetto.",
+   "propuesta": "«Con verbos de opinión en pasado, congiuntivo imperfetto o indicativo (imperfetto/presente)».",
+   "motivo": "La propia lista admite «si costruisce» (indicativo); la nota se contradice."
+  },
+  {
+   "id": "frase:858",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Quien + subjuntivo = chi + indicativo.",
+   "propuesta": "Agregar que también es posible «Chi l'abbia letto saprà…» (variante 3).",
+   "motivo": "La nota no explica la variante con congiuntivo que sí figura en la lista."
+  },
+  {
+   "id": "frase:779",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Gliel'avevo già detto. / L'avevo già avvertito.",
+   "propuesta": "Gliel'avevo già segnalato / Gliel'avevo già fatto presente.",
+   "motivo": "«Advertir» ≠ «dire»; y «L'avevo già avvertito» no ejercita el pronombre combinado del gap/tag."
+  },
+  {
+   "id": "frase:823",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Non posso pagare questo, neanche fossi milionario!",
+   "propuesta": "Non posso pagare una cifra simile / Non posso pagare quello, …",
+   "motivo": "«Pagare questo» calca «eso»; poco natural. La variante «Non posso pagarlo» es correcta."
+  },
+  {
+   "id": "frase:744",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Se l'avessi saputo, restavo a casa.",
+   "propuesta": "Marcar como registro coloquial (Se lo sapevo, restavo) o quitar la variante híbrida.",
+   "motivo": "Mezcla protasis en congiuntivo con apódosis en imperfetto; aceptable pero híbrida."
+  },
+  {
+   "id": "frase:798",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "tags: congiuntivo_presente (gap «è stato»)",
+   "propuesta": "Sacar el tag congiuntivo_presente o poner primera variante «Può darsi che sia stato…».",
+   "motivo": "La respuesta principal usa «forse + indicativo»; el tag no corresponde."
+  },
+  {
+   "id": "frase:816",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "tags: si_impersonale (gap «Si tratta»)",
+   "propuesta": "Cambiar tag a riflessivi/pronominali (trattarsi).",
+   "motivo": "«Si tratta di» es verbo pronominal, no «si» impersonal."
+  },
+  {
+   "id": "frase:754",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Per secoli l'Italia è stata divisa.",
+   "propuesta": "Agregar «è rimasta divisa» y revisar tag passivo.",
+   "motivo": "«Estuvo dividida» es estado; «è stata divisa» se lee como pasiva y el tag passivo no corresponde bien."
+  },
+  {
+   "id": "frase:845",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "gap: None",
+   "propuesta": "Definir gap (p. ej. «Meglio tardi che mai»).",
+   "motivo": "Falta gap; la unidad no tiene hueco de práctica."
+  },
+  {
+   "id": "frase:853",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "gap: None",
+   "propuesta": "Definir gap (p. ej. «In allegato» / «Allego»).",
+   "motivo": "Falta gap."
+  },
+  {
+   "id": "frase:749",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "Portami il giornale quando vieni.",
+   "propuesta": "Añadir «quando verrai» como variante.",
+   "motivo": "Correcto y natural, pero la nota omite el futuro, más estándar."
+  },
+  {
+   "id": "frase:841",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Pueblo (nación) = popolo; pueblo (lugar) = paese.",
+   "propuesta": "Nota sobre insorgere (insorse/insorto), que es el gap.",
+   "motivo": "La nota no explica el verbo que se practica; «stanco» es más débil que «harto» (stufo/esasperato)."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Suavizar/precisar las notas normativas categóricas (mi risulta che, si dice che, principal en pasado→imperfetto) indicando indicativo vs congiuntivo y registro.",
+   "por_que": "Enseñan como regla lo que es opcional y se contradicen con las variantes aceptadas."
+  },
+  {
+   "prioridad": "media",
+   "que": "Auditar tags y gap: completar gap nulos (845, 853) y corregir tags que no se ejercitan (798, 816, 754).",
+   "por_que": "El motor de práctica por tags/gap pierde precisión."
+  },
+  {
+   "prioridad": "media",
+   "que": "Diversificar temas C1: hoy hay mucha historia/filosofía/literatura (Gramsci, Weber, Bauman, Vico, Hegel, Tocqueville...) y poco trabajo, salud, tecnología, vida cotidiana formal.",
+   "por_que": "Sesgo temático y vocabulario poco transferible; la estructura se repite (per quanto+congiuntivo ×5, negarse a ×3, ipotetico ×varios)."
+  },
+  {
+   "prioridad": "media",
+   "que": "Lote solo B2/C1 (57/78): revisar si B2 tiene menos peso del debido y si ítems como «incinta» o «tirchio» son B1/B2 más que C1.",
+   "por_que": "Equilibrio de niveles y progresión."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Añadir nota a las frases sin nota didáctica útil (p. ej. 803 «Ciclo → cicli», 849) que expliquen el punto del tag.",
+   "por_que": "Algunas notas glosan vocabulario trivial en vez de la estructura practicada."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 3
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

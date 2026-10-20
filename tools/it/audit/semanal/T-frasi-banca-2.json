@@ -1,0 +1,213 @@
+{
+ "lote": "T-frasi-banca-2",
+ "revisado": 351,
+ "veredicto": "bien con reparos",
+ "resumen": "351 frases (id 378-728; A2 39, B1 210, B2 102) de un banco muy sólido: el italiano de las respuestas es correcto en casi todo el lote y las notas suelen ser precisas. No encontré errores de italiano; los problemas son notas en español que no coinciden con la frase, dos respuestas alternativas discutibles, etiquetas y gaps incoherentes. Falsos positivos estimados: ~35% de las dudas. El lote está muy sesgado a B1 y no hay A1 ni C1.",
+ "bien": [
+  "Italiano correcto y natural en prácticamente todas las respuestas; buenas variantes equivalentes (Se fossi in te / Al posto tuo, ci vogliono / servono).",
+  "Cobertura sistemática de los contrastes es→it más difíciles: ausiliare essere, pronomi combinati, ne/ci, si impersonale/passivante, congiuntivo, periodo ipotetico, passato remoto.",
+  "Notas útiles y honestas sobre registro (congiuntivo formal vs indicativo, 'ne ho approfittato', 'gliel'ho' con repetición coloquial).",
+  "Voseo y léxico rioplatense (colectivo, laburo, nafta, anteojos, mozo) bien usado y bien mapeado; frases culturales/históricas italianas variadas en B2.",
+  "Las frases erradas a propósito no se mezclan: no hay confusión de formato."
+ ],
+ "hallazgos": [
+  {
+   "id": "frase:404",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "es: Fue un viaje buenísimo. / it: È stato un viaggio bellissimo. / note: Un viaje lindo = bello, no buono.",
+   "propuesta": "Cambiar es a «Fue un viaje lindísimo» (o agregar «È stato un viaggio ottimo/fantastico» y ajustar la nota).",
+   "motivo": "El es dice «buenísimo» pero la nota habla de «lindo»; «buenísimo» no se traduce con «bellissimo»."
+  },
+  {
+   "id": "frase:671",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "Hartarse = stufarsi.",
+   "propuesta": "«Cansarse (de) = stufarsi / stancarsi» (Hartarse no aparece en la frase).",
+   "motivo": "La nota nombra un verbo distinto del que está en el es («cansé»)."
+  },
+  {
+   "id": "frase:726",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Éxito = successo. Uscita es salida.",
+   "propuesta": "«Éxito = successo (no esito: esito es 'resultado')».",
+   "motivo": "El falso amigo real es esito; mencionar uscita confunde."
+  },
+  {
+   "id": "frase:510",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Non ne ho idea: ne es muy frecuente acá.",
+   "propuesta": "«…ne es muy frecuente en italiano.»",
+   "motivo": "«Acá» en voseo remite a Argentina, no a Italia; ambiguo."
+  },
+  {
+   "id": "frase:544",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "No se duplica: non dirlo a nessuno.",
+   "propuesta": "«Desaparece el 'se' (le): non dirlo a nessuno, sin pronombre indirecto».",
+   "motivo": "La nota «No se duplica» es opaca; no explica qué pasa con se lo."
+  },
+  {
+   "id": "frase:410",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Las ciudades son femeninas: ti è piaciuta Firenze.",
+   "propuesta": "«Los nombres de ciudades italianas en -a/-e se tratan como femeninos (Firenze, Roma); ojo: il Cairo».",
+   "motivo": "Generalización falsa en castellano y con excepciones en italiano."
+  },
+  {
+   "id": "frase:480",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Le regole vanno rispettate.",
+   "propuesta": "Dejar solo «Le regole si rispettano» o marcar que 'vanno rispettate' = deber (deben respetarse).",
+   "motivo": "Cambia el sentido: es enuncia un hecho, «vanno» expresa obligación."
+  },
+  {
+   "id": "frase:515",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Ho rotto gli occhiali.",
+   "propuesta": "Quitarla o marcarla como no equivalente (agentivo); la nota debería explicar «mi si sono rotti».",
+   "motivo": "No equivale a «se me rompieron» (involuntario), usa avere contra el gap y la nota no explica la construcción con «si»."
+  },
+  {
+   "id": "frase:598",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Io non direi questo alla riunione.",
+   "propuesta": "Non direi una cosa del genere alla riunione. / Non lo direi alla riunione.",
+   "motivo": "«direi questo» suena rígido; la 3ª variante es la natural."
+  },
+  {
+   "id": "frase:724",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Infatti nessuno l'ha letto.",
+   "propuesta": "In realtà nessuno l'ha letto. / Di fatto nessuno l'ha letto.",
+   "motivo": "«Infatti» confirma lo anterior; «de hecho» aquí corrige/precisa, calco parcial."
+  },
+  {
+   "id": "frase:712",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Sostenere che + congiuntivo en registro formal.",
+   "propuesta": "«Sostenere che + indicativo (habitual); congiuntivo posible en registro muy formal».",
+   "motivo": "La primera respuesta y la nota presentan como norma lo que es opcional."
+  },
+  {
+   "id": "frase:643",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "tags: congiuntivo_imperfetto (Magari mi avessi ascoltato!)",
+   "propuesta": "Etiquetar como congiuntivo_trapassato.",
+   "motivo": "El gap avessi ascoltato es trapassato, no imperfetto."
+  },
+  {
+   "id": "frase:670",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "tags: lessico, gerundio (Passa il tempo a lamentarsi.)",
+   "propuesta": "Quitar 'gerundio' (el it usa infinitivo) o agregar variante con gerundio.",
+   "motivo": "Etiqueta no coincide con lo que la frase enseña."
+  },
+  {
+   "id": "frase:519",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "tags: si_impersonale (Bisogna prenotare in anticipo.)",
+   "propuesta": "Cambiar a lessico / espressioni_impersonali.",
+   "motivo": "Bisogna no es si impersonale."
+  },
+  {
+   "id": "frase:509",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "gap: null (Per me è uguale.)",
+   "propuesta": "gap: [«è uguale», «essere»] o «fa lo stesso».",
+   "motivo": "Falta gap; la frase no se puede usar en ejercicios de hueco."
+  },
+  {
+   "id": "frase:563",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "gap: null (Complimenti per la promozione.)",
+   "propuesta": "gap: [«Complimenti», «fare i complimenti»] o similar.",
+   "motivo": "Falta gap."
+  },
+  {
+   "id": "frase:675",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Mañana → il giorno dopo.",
+   "propuesta": "«Al día siguiente → il giorno dopo / seguente (no domani)».",
+   "motivo": "El es dice «al día siguiente», no «mañana»."
+  },
+  {
+   "id": "frase:672",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Lograr = riuscire a, con essere.",
+   "propuesta": "«Arreglárselas para = riuscire a (con essere)».",
+   "motivo": "La nota nombra lograr; el es usa arreglárselas."
+  },
+  {
+   "id": "frase:691",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "Molti emigranti non sono tornati mai nella loro terra.",
+   "propuesta": "Molti emigranti non sono mai tornati nella loro terra.",
+   "motivo": "Colocación marcada; la habitual es «non sono mai tornati»."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Agregar frases A1 y C1 y rebalancear: hoy A2 11%, B1 60%, B2 29%.",
+   "por_que": "El banco cubre casi solo B1; faltan niveles extremos (presente básico, artículos, c'è; y C1: congiuntivo trapassato en cadena, registros, connettivi elaborados)."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Revisar coherencia nota/es/tags/gap con un script (verbo de la nota presente en el es; gap no nulo; tag congiuntivo_trapassato para avessi+part.).",
+   "por_que": "Los pocos errores reales son inconsistencias entre campos (404, 671, 672, 675, 643, 670, 519, 509, 563)."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir duplicados estructurales: 400/442 (mi piacerebbe), 534/725 (sin embargo), 542/588/590 (cuando + imperativo), varias de 'irse = andarsene'.",
+   "por_que": "Aumentan volumen sin nueva cobertura; conviene diversificar léxico y contextos."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar nota explícita donde falta (mi si sono rotti, ci si abitua, 'Non ne ho idea', 'Bisogna che').",
+   "por_que": "Son construcciones sin equivalente directo en castellano y la nota actual es corta u opaca."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Ampliar temas: casi no hay salud, tecnología, viajes prácticos, comida cotidiana; mucho historia/política en B2.",
+   "por_que": "Sesgo temático hacia historia y trabajo; el alumno rioplatense necesita más situaciones de uso diario."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Revisar nivel: 483 (ci si abitua), 547-549 (Lei) y 664 parecen B1 alto/B2.",
+   "por_que": "Ajuste fino de progresión."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 3
+  },
+  "es": {
+   "errores": 1,
+   "dudas": 3
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

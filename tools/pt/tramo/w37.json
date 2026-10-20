@@ -1,0 +1,210 @@
+{
+  "week": 37,
+  "level": "B2",
+  "lettura": {
+    "title": "Quando o morro avisa: sensores contra deslizamentos",
+    "emoji": "📡",
+    "genre": "artigo de divulgação científica",
+    "grammar": "verbos irregulares e derivados; verbos em -ear e -iar",
+    "text": "Toda vez que o céu escurece sobre as encostas do Recife, milhares de moradores fazem a mesma pergunta: vai dar tempo de sair de casa? Nos morros da cidade, onde as construções se equilibram em terrenos íngremes, a chuva forte não é apenas um incômodo; é uma ameaça concreta. Há poucos anos, uma equipe de pesquisadores propôs uma resposta que combina tecnologia de baixo custo e conhecimento local — e os primeiros resultados surpreenderam até os mais céticos.\n\nA ideia partiu da geóloga Tânia Bezerra, que coordena um laboratório de risco geológico numa universidade pública da capital pernambucana. “Os modelos tradicionais preveem a chuva, mas não preveem o que a chuva faz com cada encosta”, explica. Para preencher essa lacuna, o grupo instalou dezenas de sensores enterrados no solo, capazes de medir a umidade e pequenos movimentos da terra. Os aparelhos transmitem os dados a cada cinco minutos para uma central que os cruza com as informações meteorológicas.\n\nO desafio técnico era grande, mas não o maior. “Os sensores, a gente compra; a confiança da comunidade, a gente conquista”, resume a pesquisadora. Por isso, desde o início, o projeto manteve reuniões mensais com associações de moradores. Foram eles que indicaram onde a água costumava brotar depois das tempestades, quais muros já tinham rachaduras e quais famílias viviam em situação mais delicada. Esse saber, que nenhum satélite detém, orientou a instalação dos equipamentos.\n\nNo primeiro ano, os pesquisadores obtiveram um resultado animador: em três episódios de chuva intensa, o sistema emitiu alertas com cerca de quarenta minutos de antecedência em relação aos pequenos deslizamentos registrados. Quarenta minutos podem parecer pouco, mas bastam para que uma família deixe a casa e se abrigue num ponto seguro. “Não estamos falando de prever catástrofes com dias de antecedência”, pondera Tânia. “Estamos falando de ganhar o tempo suficiente para salvar vidas.”\n\nOs críticos, no entanto, receiam que a tecnologia crie uma falsa sensação de segurança. Um engenheiro que acompanhou o projeto como consultor lembra que os sensores cobrem apenas uma fração das áreas de risco e que alertas falsos podem minar a credibilidade do sistema. “Se o celular apita três vezes e nada acontece, na quarta vez ninguém sai de casa”, adverte. Há também quem tema que o poder público use o monitoramento como pretexto para adiar obras estruturais, como drenagem e contenção de encostas.\n\nA equipe não ignora essas objeções. Pelo contrário: propõe que o sistema seja visto como complemento, e não substituto, das políticas de habitação. Os pesquisadores defendem que, quando os dados indicarem risco permanente, a prefeitura intervenha com obras e, se necessário, com reassentamento — desde que negociado com os moradores. Nas reuniões, quem medeia essas conversas é uma assistente social ligada ao projeto, que também rastreia, casa por casa, as famílias que ainda não recebem os alertas por falta de celular.\n\nSe o modelo será mantido depois do fim do financiamento, ninguém sabe. Os aparelhos precisam de manutenção, as baterias duram pouco e a verba da pesquisa acaba no ano que vem. Ainda assim, outras cidades já demonstraram interesse, e a equipe prevê publicar um manual aberto para que qualquer município possa reproduzir a experiência. Enquanto isso, nos morros do Recife, os moradores aprenderam a olhar para o celular com a mesma atenção com que olham para o céu. Quando o morro avisa, agora há quem traduza o aviso a tempo.",
+    "gloss": {
+      "encostas": "laderas",
+      "morros": "cerros (barrios en las laderas)",
+      "íngremes": "empinados",
+      "incômodo": "molestia",
+      "lacuna": "vacío",
+      "rachaduras": "grietas",
+      "detém": "posee",
+      "obtiveram": "obtuvieron",
+      "antecedência": "anticipación",
+      "abrigue": "se refugie",
+      "pondera": "matiza",
+      "receiam": "temen",
+      "minar": "socavar",
+      "apita": "suena (la alarma)",
+      "adiar": "postergar",
+      "intervenha": "intervenga",
+      "reassentamento": "reubicación",
+      "medeia": "media, hace de mediadora",
+      "rastreia": "rastrea",
+      "verba": "presupuesto, fondos",
+      "manutenção": "mantenimiento"
+    },
+    "questions": [
+      ["Qual é a principal novidade do projeto descrito no artigo?", ["Prever a chuva com vários dias de antecedência.", "Cruzar dados do solo de cada encosta com a previsão do tempo.", "Substituir as obras de contenção por sensores.", "Transferir para áreas seguras todas as famílias que vivem nos morros."], "Cruzar dados do solo de cada encosta com a previsão do tempo."],
+      ["Por que o projeto manteve reuniões mensais com os moradores?", ["Para cobrar uma taxa pelo serviço de alerta.", "Para aproveitar o saber local e ganhar confiança.", "Para convencê-los a abandonar as casas mais próximas das encostas.", "Para vender celulares às famílias."], "Para aproveitar o saber local e ganhar confiança."],
+      ["Com a frase “Se o celular apita três vezes e nada acontece…”, o engenheiro alerta para:", ["o alto custo dos aparelhos celulares.", "o sinal fraco das operadoras de telefonia nos morros mais altos.", "o risco de alarmes falsos desacreditarem o sistema.", "a demora na chegada dos alertas."], "o risco de alarmes falsos desacreditarem o sistema."],
+      ["Como a equipe responde às críticas?", ["Apresenta o sistema como complemento das políticas de habitação.", "Garante que os sensores cobrem todas as áreas de risco.", "Afirma que as obras estruturais são desnecessárias.", "Decide suspender o projeto até obter mais verba."], "Apresenta o sistema como complemento das políticas de habitação."],
+      ["Qual é o tom do último parágrafo?", ["Pessimista e resignado.", "Otimista, mas cauteloso.", "Indignado com a prefeitura.", "Eufórico."], "Otimista, mas cauteloso."]
+    ],
+    "vf": [
+      ["Os sensores enviam dados à central a cada cinco minutos.", "verdadeiro"],
+      ["O sistema previu os deslizamentos com vários dias de antecedência.", "falso"],
+      ["A assistente social mora num dos morros monitorados.", "não se diz"],
+      ["A verba da pesquisa termina no ano que vem.", "verdadeiro"],
+      ["Tânia Bezerra trabalhou antes num serviço de meteorologia.", "não se diz"]
+    ],
+    "hunt": {
+      "label": "Toque nas formas dos verbos irregulares e seus derivados (propor, prever, manter, deter, obter, intervir) e dos verbos em -ear/-iar",
+      "targets": ["propôs", "preveem", "manteve", "detém", "obtiveram", "receiam", "propõe", "intervenha", "medeia", "rastreia", "mantido", "prevê"]
+    }
+  },
+  "ascolto": {
+    "title": "Por que ficou tão difícil consertar o celular?",
+    "genre": "podcast de tecnologia",
+    "es": "En un podcast sobre tecnología cotidiana, la conductora entrevista a un técnico que repara celulares desde hace años sobre las trabas para arreglar los aparatos.",
+    "speakers": ["Fernanda, apresentadora", "Diego, técnico de celulares"],
+    "turns": [
+      ["A", "Olá, olá, começa agora mais um episódio do Fio Terra, o podcast que desmonta a tecnologia do dia a dia. Eu sou a Fernanda e hoje eu tô com o Diego, que tem uma assistência técnica de celulares em Campinas há mais de quinze anos. Diego, seja bem-vindo."],
+      ["B", "Valeu, Fernanda, obrigado pelo convite."],
+      ["A", "Diego, vou direto ao ponto: por que ficou tão difícil consertar um celular?"],
+      ["B", "Olha, tem vários motivos, mas o principal é o seguinte: os fabricantes hoje projetam os aparelhos pra não serem abertos. É bateria colada, é tela colada, é parafuso com formato esquisito que só a ferramenta deles abre. E, pior, algumas peças são pareadas com o aparelho."],
+      ["A", "Pareadas? Explica isso pra quem tá ouvindo."],
+      ["B", "Então, cada peça tem um número de série registrado no sistema. Se eu troco a câmera de um celular por outra câmera original, novinha, mas de outro aparelho, o software percebe e bloqueia algumas funções. Ou fica mostrando uma mensagem de peça desconhecida. Aí o cliente acha que eu fiz um serviço malfeito."],
+      ["A", "Nossa. E como você mantém o negócio funcionando com tanta barreira?"],
+      ["B", "Com muito jeito, né? A gente obtém peças de aparelhos descartados, faz curso, troca informação com técnico do Brasil inteiro. Mas eu não vou mentir: tem modelo que eu nem pego mais. Não compensa."],
+      ["A", "Tem gente que diz que isso é questão de segurança. Que, se qualquer um puder abrir o celular, os dados ficam vulneráveis."],
+      ["B", "É, esse é o argumento das empresas. E faz um certo sentido, não vou negar. Mas, veja, dá pra proteger os dados sem impedir o conserto. Na Europa, por exemplo, já se discutem leis de direito ao reparo, e várias marcas passaram a vender peças e publicar manuais."],
+      ["A", "E aqui no Brasil? Existe alguma proposta?"],
+      ["B", "Existem discussões, mas nada muito avançado. O que eu proponho, e muitos colegas também, é simples: que o fabricante seja obrigado a vender a peça e a ferramenta por um preço justo, e que o governo intervenha quando houver bloqueio sem justificativa técnica."],
+      ["A", "E você prevê alguma mudança nos próximos anos?"],
+      ["B", "Prevejo, sim, mas por pressão do consumidor, mais do que por boa vontade das empresas. O pessoal tá cansado de trocar de celular a cada dois anos. E tem a questão ambiental, né? É muito lixo eletrônico."],
+      ["A", "Pra fechar, uma dica pra quem tá ouvindo e quer que o celular dure mais."],
+      ["B", "Cuida da bateria. Evita deixar chegar a zero, evita calor. E, quando quebrar, procura um técnico de confiança antes de sair comprando outro. Às vezes o conserto custa um terço do preço de um aparelho novo."],
+      ["A", "Anotado. Diego, muito obrigada pela conversa."],
+      ["B", "Eu que agradeço."]
+    ],
+    "gloss": {
+      "agradeço": "(eu que agradeço / eu é que agradeço) gracias a vos",
+      "tô": "estoy (coloquial)",
+      "valeu": "gracias (coloquial)",
+      "desmonta": "desarma",
+      "consertar": "arreglar, reparar",
+      "colada": "pegada",
+      "parafuso": "tornillo",
+      "esquisito": "raro",
+      "pareadas": "vinculadas (al aparato)",
+      "malfeito": "mal hecho",
+      "compensa": "conviene",
+      "conserto": "arreglo",
+      "reparo": "reparación",
+      "lixo": "basura",
+      "dica": "consejo"
+    },
+    "questions": [
+      ["Segundo Diego, qual é a principal causa da dificuldade de conserto?", ["O preço alto das peças originais.", "Os aparelhos são projetados para não serem abertos.", "A falta de técnicos bem formados em todas as regiões do Brasil.", "A proibição legal de abrir os celulares."], "Os aparelhos são projetados para não serem abertos."],
+      ["O que acontece quando se instala uma peça original tirada de outro aparelho?", ["O aparelho perde a garantia na hora.", "A peça não se encaixa no novo aparelho.", "O software limita funções ou exibe um aviso.", "Os dados pessoais do cliente são apagados sem nenhum aviso."], "O software limita funções ou exibe um aviso."],
+      ["Como Diego avalia o argumento da segurança dos dados?", ["Acha que é pura desculpa das empresas.", "Reconhece que faz sentido, mas não justifica impedir o conserto.", "Concorda totalmente e evita abrir aparelhos novos.", "Diz que é um problema só dos celulares europeus."], "Reconhece que faz sentido, mas não justifica impedir o conserto."],
+      ["O que Diego propõe?", ["Que o governo fabrique peças de reposição.", "Que as assistências técnicas sejam certificadas.", "Que fabricantes vendam peças e ferramentas a preço justo.", "Que se proíba a venda de celulares com bateria e tela coladas."], "Que fabricantes vendam peças e ferramentas a preço justo."],
+      ["Por que Diego acredita que haverá mudanças?", ["Pela pressão dos consumidores e pelo lixo eletrônico.", "Porque as empresas mudaram de estratégia.", "Porque o Brasil acabou de aprovar uma lei de direito ao reparo.", "Porque os celulares ficaram mais baratos."], "Pela pressão dos consumidores e pelo lixo eletrônico."]
+    ],
+    "vf": [
+      ["Diego tem uma assistência técnica há mais de quinze anos.", "verdadeiro"],
+      ["Diego aceita consertar qualquer modelo de celular.", "falso"],
+      ["Diego também vende celulares usados na sua loja.", "não se diz"],
+      ["Segundo Diego, o conserto pode custar um terço do preço de um aparelho novo.", "verdadeiro"]
+    ]
+  },
+  "compito": {
+    "genre": "post_blog",
+    "title": "Tecnologia a serviço de quem?",
+    "fonte": "entrambi",
+    "t": "Você mantém um blog sobre ciência e cotidiano, lido principalmente por jovens. Depois de ler o artigo sobre os sensores contra deslizamentos no Recife e de ouvir o episódio do podcast Fio Terra sobre o conserto de celulares, escreva um post para o blog comparando as duas experiências, usando informações do artigo e do podcast, e posicionando-se sobre o papel da tecnologia e do poder público. Convide os seus leitores a participar da discussão.",
+    "es": "Post de blog con título: tono cercano pero cuidado, las dos fuentes de la semana (sensores en Recife y derecho a reparar), tu posición y un cierre que invite a comentar.",
+    "min": 177,
+    "max": 237,
+    "punti": [["Usar el caso de los sensores de Recife", ["sensor", "recife", "encosta", "morro"]], ["Usar el caso del podcast sobre reparación", ["conserto", "reparo", "peça", "celular"]], ["Comparar las dos experiencias", ["duas experiências", "dois casos", "caso oposto", "comparando"]], ["El papel del poder público", ["poder público", "governo", "direito ao reparo", "financiando"]], ["Invitar a los lectores a participar", ["comentários", "o que acha", "deixe"]]],
+    "model": "Tecnologia a serviço de quem?\n\nVocê já parou para pensar em quem ganha com cada aparelho novo que sai por aí? Esta semana, duas histórias me fizeram voltar a essa pergunta, e hoje eu quero dividir com vocês o que aprendi.\n\nA primeira vem do Recife. Uma equipe de geólogos instalou sensores de baixo custo nas encostas dos morros. Cruzando dados de umidade do solo com a previsão do tempo, os pesquisadores obtiveram alertas com cerca de quarenta minutos de antecedência. O detalhe mais bonito, porém, não é técnico: o projeto só funcionou porque manteve diálogo com os moradores, que indicaram onde a terra costumava ceder.\n\nA segunda é o caso oposto. Como contou um técnico de Campinas no podcast Fio Terra, muitos fabricantes projetam celulares que não podem ser abertos e bloqueiam peças trocadas fora da rede autorizada. Nesse modelo, a inovação serve para prender o consumidor, e não para resolver os seus problemas.\n\nComparando as duas experiências, fica claro que a tecnologia não é neutra. Por isso, defendo que o poder público intervenha nos dois casos: financiando projetos como o do Recife e garantindo, por lei, o direito ao reparo.\n\nE você, o que acha? Já tentou consertar um celular e desistiu? Deixe sua opinião nos comentários!",
+    "gloss": {"encostas dos morros": "las laderas de los cerros", "Cruzando dados": "cruzando datos (oración reducida de gerundio: se ve en la semana 42)", "costumava ceder": "solía hundirse, desmoronarse", "rede autorizada": "la red de services oficiales"}
+  },
+  "breve": {
+    "title": "Defesa Civil: quando a sirene tocar",
+    "genre": "instruções",
+    "es": "Las instrucciones de Defensa Civil de Petrópolis para los vecinos de las zonas de riesgo: las sirenas, qué llevar, adónde ir y cómo recibir alertas.",
+    "speaker": "Voz da Defesa Civil",
+    "voice": 0,
+    "text": [
+      "Olá, aqui é a Defesa Civil de Petrópolis, com as instruções para os moradores das áreas de risco. Ouça com atenção.",
+      "A Defesa Civil mantém 22 sirenes na cidade. Elas tocam quando os pluviômetros registram mais de 40 milímetros de chuva em uma hora. Os técnicos preveem que o próximo verão vai ser muito chuvoso.",
+      "Quando a sirene tocar, mantenha a calma e saia de casa imediatamente. Não pare para arrumar malas: leve só documentos, remédios e o celular. Siga as placas verdes até o ponto de apoio mais próximo, que normalmente fica numa escola ou numa igreja.",
+      "Se você tiver vizinhos idosos ou pessoas com deficiência, avise-os e, se puder, ajude-os. Não volte para casa antes que a Defesa Civil libere a área. Para receber alertas por mensagem de texto, envie o seu CEP para o número 40199. O serviço é gratuito."
+    ],
+    "tabella": [
+      [
+        "Número de sirenes na cidade",
+        "22",
+        [
+          "vinte e duas",
+          "22 sirenes"
+        ]
+      ],
+      [
+        "Chuva que faz a sirene tocar (milímetros em uma hora, mais de…)",
+        "40",
+        [
+          "quarenta",
+          "40 milímetros",
+          "40 mm"
+        ]
+      ],
+      [
+        "Cor das placas que levam ao ponto de apoio",
+        "verde",
+        [
+          "verdes",
+          "placas verdes"
+        ]
+      ],
+      [
+        "Número para receber os alertas",
+        "40199",
+        [
+          "40 199",
+          "40.199"
+        ]
+      ],
+      [
+        "O que se envia para receber os alertas",
+        "CEP",
+        [
+          "o CEP",
+          "o seu CEP",
+          "código postal"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "A sirene toca por causa da quantidade de chuva.",
+        true
+      ],
+      [
+        "É preciso levar malas com roupas.",
+        false
+      ],
+      [
+        "Os pontos de apoio ficam, em geral, em escolas ou igrejas.",
+        true
+      ],
+      [
+        "O serviço de alertas custa dois reais por mês.",
+        false
+      ],
+      [
+        "Os moradores devem ajudar os vizinhos idosos, se puderem.",
+        true
+      ],
+      [
+        "Depois de meia hora, os moradores podem voltar para casa.",
+        false
+      ]
+    ],
+    "gloss": {
+      "pluviômetros": "pluviómetros",
+      "ponto de apoio": "refugio, punto de encuentro",
+      "idosos": "ancianos",
+      "libere": "habilite",
+      "cep": "código postal"
+    }
+  }
+}

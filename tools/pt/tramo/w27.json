@@ -1,0 +1,198 @@
+{
+  "week": 27,
+  "level": "B2",
+  "lettura": {
+    "title": "Trocar a capital pelo interior: o que ninguém conta",
+    "emoji": "🚚",
+    "genre": "reportagem",
+    "grammar": "futuro do subjuntivo",
+    "text": "Quando a Renata Siqueira fala da mudança, ela ainda ri do caminhão. Foram onze horas de estrada entre São Paulo e uma cidadezinha no sul de Minas Gerais, com dois filhos, um cachorro e uma geladeira que não passava pela porta da casa nova. “Se alguém me perguntar se valeu a pena, eu vou dizer que sim. Mas vou dizer também que não foi o paraíso que eu tinha imaginado”, conta a designer, de 41 anos.\n\nA história dela não é rara. Nos últimos anos, com o trabalho remoto, muitas famílias das grandes capitais começaram a fazer as contas: aluguel mais barato, menos trânsito, mais tempo com as crianças. Quem acompanha esse tipo de mudança, porém, faz um alerta. “Quem sair da cidade grande só para fugir dos problemas vai encontrar outros”, resume o psicólogo Álvaro Tenório, que atende famílias em transição. Segundo ele, a primeira pergunta não é para onde ir, mas o que a pessoa espera encontrar lá.\n\nOs obstáculos costumam aparecer depois da lua de mel. A internet cai quando chove, o hospital mais próximo fica a quarenta minutos e a escola nem sempre oferece o que os pais queriam. Além disso, a vida social exige paciência: nas cidades pequenas, todo mundo se conhece, e o recém-chegado demora a ser convidado. “Se você quiser fazer amigos, vai ter que participar da festa da igreja, do mutirão da praça, da reunião da escola. Ninguém vai bater na sua porta”, diz Renata.\n\nPara quem estiver pensando em dar esse passo, Tenório sugere um período de teste. “Alugue uma casa por alguns meses antes de vender tudo. Se as crianças se adaptarem e o trabalho continuar funcionando, aí sim vale a pena pensar em algo definitivo.” Ele também recomenda conversar com os moradores antigos, e não só com outros paulistanos que fizeram o mesmo caminho. “Eles vão dizer como é o inverno, onde fica o médico bom, quem conserta o telhado. Isso não aparece em nenhum anúncio de imobiliária.”\n\nRenata, por enquanto, não pensa em voltar. “Enquanto eu puder trabalhar daqui e os meninos estiverem felizes, a gente fica. Quando eles forem para a faculdade, talvez a gente repense. Mas isso é assunto para daqui a dez anos.” Na cozinha, ao lado da janela, a geladeira que não cabia na porta finalmente encontrou o seu lugar.",
+    "gloss": {
+      "daqui": "(daqui a dez anos) dentro de diez años",
+      "caminhão": "camión",
+      "estrada": "ruta",
+      "cidadezinha": "pueblito",
+      "geladeira": "heladera",
+      "aluguel": "alquiler",
+      "fugir": "escapar",
+      "atende": "atiende",
+      "costumam": "suelen",
+      "cai": "se corta",
+      "recém-chegado": "recién llegado",
+      "mutirão": "trabajo comunitario voluntario",
+      "bater": "golpear, tocar (la puerta)",
+      "alugue": "alquilá",
+      "moradores": "vecinos, habitantes",
+      "conserta": "arregla",
+      "telhado": "techo (de tejas)",
+      "imobiliária": "inmobiliaria",
+      "repense": "repensemos",
+      "janela": "ventana",
+      "cabia": "cabía"
+    },
+    "questions": [
+      ["Qual é a ideia central da reportagem?", ["Mudar para o interior pode dar certo, mas exige preparação e expectativas realistas.", "As famílias que deixam as capitais quase sempre se arrependem e acabam voltando para lá.", "O trabalho remoto acabou com os problemas das cidades pequenas de Minas.", "Os psicólogos desaconselham qualquer mudança com filhos pequenos."], "Mudar para o interior pode dar certo, mas exige preparação e expectativas realistas."],
+      ["Por que o texto começa e termina falando da geladeira?", ["Para mostrar que a família gastou demais com a mudança.", "Porque ela simboliza as dificuldades iniciais que acabaram sendo resolvidas.", "Para criticar as casas mal construídas do interior.", "Porque Renata quer vendê-la antes de voltar a São Paulo."], "Porque ela simboliza as dificuldades iniciais que acabaram sendo resolvidas."],
+      ["Segundo Álvaro Tenório, qual deve ser a primeira pergunta de quem quer se mudar?", ["Quanto custa o aluguel na nova cidade.", "Se haverá boa internet e escola perto.", "O que a pessoa espera encontrar no novo lugar.", "Para qual cidade outros paulistanos foram."], "O que a pessoa espera encontrar no novo lugar."],
+      ["No contexto, a expressão “depois da lua de mel” se refere a…", ["o período posterior ao casamento de Renata.", "o fim do encantamento inicial com a nova vida.", "as férias que a família tirou antes de se mudar.", "a época do ano em que chove mais em Minas."], "o fim do encantamento inicial com a nova vida."],
+      ["Por que o psicólogo recomenda conversar com os moradores antigos?", ["Porque eles costumam oferecer aluguéis mais baratos aos recém-chegados da capital.", "Porque os outros paulistanos dão informações falsas.", "Porque é a única forma de ser convidado para as festas.", "Porque conhecem detalhes práticos que não aparecem nos anúncios."], "Porque conhecem detalhes práticos que não aparecem nos anúncios."]
+    ],
+    "vf": [
+      ["A viagem de mudança de Renata durou menos de um dia.", "verdadeiro"],
+      ["Renata afirma que a vida no interior foi exatamente como ela imaginava.", "falso"],
+      ["Tenório sugere vender a casa na capital antes de fazer o período de teste.", "falso"],
+      ["O marido de Renata também trabalha de forma remota.", "não se diz"],
+      ["Renata admite que a família pode repensar a decisão no futuro.", "verdadeiro"]
+    ],
+    "hunt": {
+      "label": "Toque nos verbos no futuro do subjuntivo",
+      "targets": ["perguntar", "sair", "quiser", "estiver", "adaptarem", "continuar", "puder", "estiverem", "forem"]
+    }
+  },
+  "ascolto": {
+    "title": "Morar fora: por onde começar?",
+    "genre": "programa de rádio com consultas",
+    "es": "En un programa de radio, una conductora le lee a un consultor en movilidad internacional las dudas de los oyentes que piensan irse a vivir al exterior.",
+    "speakers": ["Luciana, apresentadora", "Paulo, consultor"],
+    "turns": [
+      ["A", "Boa tarde, você está ouvindo o Vida em Movimento. Hoje o assunto é morar fora do Brasil, e quem responde às perguntas é o Paulo Ribeiro, que trabalha há quinze anos com mudanças internacionais. Tudo bem, Paulo?"],
+      ["B", "Tudo ótimo, Luciana. Obrigado pelo convite."],
+      ["A", "Então, a primeira mensagem é da Juliana, de Belo Horizonte. Ela tem vinte e oito anos, é enfermeira e quer ir para o Canadá. Ela pergunta: por onde eu começo?"],
+      ["B", "Olha, Juliana, a primeira coisa é o documento, não a passagem. Quando você tiver o diploma traduzido e reconhecido, aí sim você começa a procurar vaga. Tem muita gente que faz o contrário, sabe? Compra a passagem, chega lá e descobre que não pode trabalhar na área."],
+      ["A", "E isso demora?"],
+      ["B", "Depende muito do país e da profissão. Na área de saúde, geralmente demora, tipo, um ano ou mais. Por isso, se ela puder, é bom começar agora, enquanto ainda está empregada aqui."],
+      ["A", "Tá. A segunda pergunta é do Rodrigo, de Porto Alegre. Ele quer levar a família inteira, mulher e dois filhos, e tem medo de as crianças sofrerem com a língua."],
+      ["B", "É um medo muito comum, né? Mas, na minha experiência, as crianças são as que se adaptam mais rápido. Quem sofre mais, na verdade, costuma ser o adulto que fica em casa, sem trabalho e sem rede de amigos. Então, Rodrigo, se vocês forem, pensem também em como a sua mulher vai se integrar. Um curso, um trabalho voluntário, qualquer coisa."],
+      ["A", "Interessante, eu não tinha pensado nisso. E a saudade, Paulo? Muita gente escreve falando disso."],
+      ["B", "A saudade vem, não tem jeito. O que eu digo é: não tome nenhuma decisão importante nos primeiros seis meses. Nem de ficar para sempre, nem de voltar correndo. Deixe o tempo passar um pouco."],
+      ["A", "Ótimo conselho. Voltamos depois do intervalo com mais perguntas."]
+    ],
+    "gloss": {
+      "tipo": "(muletilla) como, más o menos",
+      "sofrerem": "(medo de as crianças sofrerem) miedo de que los chicos sufran: infinitivo pessoal (semana 29)",
+      "passagem": "pasaje",
+      "vaga": "puesto de trabajo vacante",
+      "enfermeira": "enfermera",
+      "empregada": "empleada",
+      "tá": "está bien, dale",
+      "saudade": "nostalgia, extrañar",
+      "jeito": "forma, manera (“não tem jeito”: no hay forma de evitarlo)",
+      "intervalo": "tanda publicitaria, pausa"
+    },
+    "questions": [
+      ["Qual é o primeiro passo que Paulo recomenda a Juliana?", ["Comprar logo a passagem para garantir um bom preço.", "Resolver a tradução e o reconhecimento do diploma.", "Procurar uma vaga de enfermeira antes de tudo.", "Pedir demissão para ter tempo de estudar a língua."], "Resolver a tradução e o reconhecimento do diploma."],
+      ["Por que Paulo sugere que Juliana comece o processo já?", ["Porque o reconhecimento na área de saúde costuma ser demorado.", "Porque as regras do Canadá vão mudar no ano que vem.", "Porque ela está prestes a perder o emprego no Brasil.", "Porque as vagas de enfermeira são poucas no inverno."], "Porque o reconhecimento na área de saúde costuma ser demorado."],
+      ["Qual é a opinião de Paulo sobre a adaptação das crianças?", ["As crianças sofrem mais que os adultos com a língua.", "É melhor que as crianças fiquem no Brasil no primeiro ano.", "Em geral, elas se adaptam mais depressa que os adultos.", "Depende de a escola oferecer aulas em português."], "Em geral, elas se adaptam mais depressa que os adultos."],
+      ["O que surpreende a apresentadora na resposta ao Rodrigo?", ["A ideia de que o adulto sem trabalho é quem mais sofre.", "A informação de que o Canadá não aceita famílias grandes.", "O conselho de fazer um curso antes de viajar.", "O fato de Paulo ter morado fora com os filhos."], "A ideia de que o adulto sem trabalho é quem mais sofre."],
+      ["O conselho final de Paulo sobre a saudade é…", ["voltar ao Brasil nas férias para diminuir a saudade.", "evitar decisões definitivas durante os primeiros meses.", "decidir logo se vai ficar, para não sofrer à toa.", "procurar outros brasileiros assim que chegar."], "evitar decisões definitivas durante os primeiros meses."]
+    ],
+    "vf": [
+      ["Paulo trabalha com mudanças internacionais há mais de dez anos.", "verdadeiro"],
+      ["Juliana já tem parentes morando no Canadá.", "não se diz"],
+      ["Rodrigo pretende se mudar sem a mulher e os filhos.", "falso"],
+      ["Paulo diz que a saudade pode ser evitada com planejamento.", "falso"]
+    ]
+  },
+  "compito": {
+    "genre": "email_informal",
+    "title": "Conselhos para uma amiga que quer se mudar",
+    "fonte": "lettura",
+    "t": "Você tem uma amiga, a Camila, que mora no Rio de Janeiro e está pensando em se mudar com a família para uma cidade pequena na serra. Após ler a reportagem “Trocar a capital pelo interior: o que ninguém conta”, escreva um e-mail para a Camila contando a experiência da Renata e os conselhos do psicólogo Álvaro Tenório, e sugerindo como ela pode se preparar para a mudança. Não se esqueça de usar informações da reportagem, de mencionar pelo menos um problema prático e um desafio da vida social, e de usar um registro informal, adequado a uma amiga. Seu texto deve ter entre 120 e 180 palavras.",
+    "es": "Un mail informal a una amiga: contale lo que leíste (Renata y los consejos del psicólogo) y aconsejala. Usá el futuro do subjuntivo (quando você for, se quiser) y cerrá con un saludo cariñoso.",
+    "min": 120,
+    "max": 180,
+    "punti": [["El motivo: la mudanza de Camila a la sierra", ["serra", "cidadezinha", "cidade pequena", "interior"]], ["La experiencia de Renata", ["renata", "designer"]], ["Un problema práctico (internet, hospital, escuela)", ["internet", "hospital", "escola", "médico"]], ["Un desafío de la vida social (la fiesta de la iglesia, las reuniones)", ["festa da igreja", "reuniões", "reunião", "vida social", "vizinh"]], ["El consejo del psicólogo: alquilar antes de vender", ["alug", "tenório", "psicólogo"]]],
+    "model": "Oi, Camila, tudo bem?\n\nFiquei pensando na nossa conversa sobre a mudança para a serra e ontem li uma reportagem que tem tudo a ver com você. Conta a história da Renata, uma designer que saiu de São Paulo com os filhos e foi morar numa cidadezinha de Minas. Ela diz que valeu a pena, mas que não foi o paraíso que imaginava.\n\nOs problemas práticos aparecem logo: a internet cai quando chove e o hospital pode ficar longe. E a vida social exige paciência, porque ninguém vai bater na sua porta. Se você quiser fazer amigos, vai ter que ir à festa da igreja e às reuniões da escola.\n\nO psicólogo da reportagem dá um conselho ótimo: alugue uma casa por alguns meses antes de vender o apartamento. Se as crianças se adaptarem e o seu trabalho continuar funcionando, aí vocês decidem com calma.\n\nQuando você for visitar as cidades, me chama que eu vou junto!\n\nUm beijo grande,\nMarina",
+    "gloss": {
+      "tem tudo a ver com você": "tiene todo que ver con vos, te viene justo",
+      "a internet cai": "se corta internet",
+      "bater na sua porta": "golpear tu puerta",
+      "me chama que eu vou junto": "avisame, que voy con vos (chamar = llamar, avisar; que = porque)"
+    }
+  },
+  "breve": {
+    "title": "Jornal da Serra, as notícias da manhã",
+    "genre": "noticiário de rádio",
+    "es": "El boletín de la mañana de una radio de Petrópolis: una calle cerrada por obras, el boleto de ómnibus, un museo abierto de noche y el tiempo.",
+    "speaker": "Locutor",
+    "voice": 0,
+    "text": [
+      "Bom dia! São sete horas e você está ouvindo o Jornal da Serra, na Rádio Serra FM, de Petrópolis. As principais notícias da manhã.",
+      "Trânsito. A partir de segunda-feira, a Rua do Imperador vai ficar fechada para carros das 8 às 18 horas, por causa das obras na rede de esgoto. A prefeitura informa que as obras devem durar três semanas. Quem precisar chegar ao centro de carro deve usar a Rua Treze de Maio.",
+      "Ônibus. A passagem de ônibus entre Petrópolis e o Rio vai ficar mais cara: passa de 28 para 31 reais no dia primeiro. Os estudantes continuam pagando meia.",
+      "Cultura. O Museu Imperial abre à noite nesta sexta, com entrada gratuita até as 22 horas. Se chover, o concerto do jardim vai acontecer no salão principal.",
+      "Tempo. Hoje, céu nublado de manhã e sol à tarde, com mínima de 14 graus e máxima de 24. Quem for subir a serra à noite deve levar um casaco: vai esfriar bastante.",
+      "O próximo boletim é ao meio-dia. Uma ótima quarta-feira para você."
+    ],
+    "tabella": [
+      [
+        "A Rua do Imperador fica fechada para carros até as…",
+        "18",
+        [
+          "18 horas",
+          "18h",
+          "dezoito",
+          "18:00"
+        ]
+      ],
+      [
+        "Duração prevista das obras",
+        "três semanas",
+        [
+          "3 semanas",
+          "tres semanas"
+        ]
+      ],
+      [
+        "Novo preço da passagem Petrópolis–Rio (reais)",
+        "31",
+        [
+          "trinta e um",
+          "31 reais",
+          "R$ 31"
+        ]
+      ],
+      [
+        "Temperatura mínima de hoje (graus)",
+        "14",
+        [
+          "catorze",
+          "quatorze",
+          "14 graus"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "As obras da Rua do Imperador são na rede de esgoto.",
+        true
+      ],
+      [
+        "Os estudantes vão pagar a passagem inteira.",
+        false
+      ],
+      [
+        "Na sexta à noite, a entrada no Museu Imperial é gratuita.",
+        true
+      ],
+      [
+        "O concerto de sexta foi cancelado por causa da chuva.",
+        false
+      ],
+      [
+        "À noite vai fazer frio na serra.",
+        true
+      ],
+      [
+        "O próximo boletim é às dez horas.",
+        false
+      ]
+    ],
+    "gloss": {
+      "esgoto": "cloacas",
+      "passagem": "pasaje, boleto",
+      "meia": "media tarifa",
+      "boletim": "boletín (de noticias)"
+    }
+  }
+}

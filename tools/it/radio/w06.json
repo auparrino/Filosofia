@@ -1,0 +1,39 @@
+{
+ "week": 6,
+ "level": "A1",
+ "title": "Che cosa fate stasera?",
+ "genre": "programma del mattino",
+ "es": "Es viernes a la mañana en Radio Portici, la radio del barrio en Bologna. Sara, la conductora, le pregunta a Dario, su compañero, qué planes tiene para el fin de semana.",
+ "speakers": ["Sara", "Dario"],
+ "turns": [
+  ["A", "Buongiorno a tutti, qui è Radio Portici e io sono Sara. Oggi è venerdì e con me c'è Dario. Dario, che cosa fai stasera?"],
+  ["B", "Buongiorno, Sara! Stasera esco con due amici. Andiamo in piazza Maggiore: c'è un concerto gratis."],
+  ["A", "Che bello! E dopo, dove andate?"],
+  ["B", "Non lo so. Forse andiamo a mangiare una pizza. Vuoi venire con noi?"],
+  ["A", "Grazie, ma non posso. Stasera devo stare a casa: domani mattina vado al mercato con la mamma."],
+  ["B", "Al mercato il sabato? C'è tanta gente!"],
+  ["A", "Sì, ma lì trovo sempre il pane buono e incontro gli amici del quartiere. E tu, domani che cosa fai?"],
+  ["B", "Domani dormo! E domenica torno a Napoli: la nonna fa il ragù."],
+  ["A", "Allora buon viaggio! E voi, cari ascoltatori, che cosa fate questo fine settimana? Scrivete a Radio Portici: vogliamo sapere tutto!"]
+ ],
+ "gloss": {
+  "stasera": "esta noche",
+  "gratis": "gratis",
+  "quartiere": "barrio",
+  "ragù": "salsa de carne que se cocina muchas horas",
+  "ascoltatori": "oyentes",
+  "fine settimana": "fin de semana"
+ },
+ "questions": [
+  ["¿Adónde va Dario esta noche?", ["A un concierto gratis en piazza Maggiore", "Al mercado del barrio con su mamá", "A Nápoles, a comer con su abuela", "A la radio, a trabajar con Sara"], "A un concierto gratis en piazza Maggiore"],
+  ["¿Por qué Sara no sale esta noche?", ["Porque tiene que trabajar en la radio", "Porque mañana temprano va al mercado", "Porque no le gustan los conciertos", "Porque no tiene plata para la pizza"], "Porque mañana temprano va al mercado"],
+  ["¿Qué hace Dario el domingo?", ["Duerme todo el día", "Va al mercado con Sara", "Vuelve a Nápoles", "Escucha la radio"], "Vuelve a Nápoles"]
+ ],
+ "info": [
+  ["Sara va al mercado el sábado a la mañana.", true],
+  ["El concierto de piazza Maggiore es caro.", false],
+  ["Dario vive con su abuela en Bologna.", false]
+ ],
+ "grammatica": {"label": "presente de los irregulares: andare, fare, uscire, volere, potere, dovere", "forme": ["fai", "esco", "andiamo", "andate", "vuoi", "posso", "devo", "vado", "fa", "fate", "vogliamo"]},
+ "parole": [["esco", "uscire"], ["andiamo", "andare"], ["venire", "venire"], ["vuoi", "volere"], ["posso", "potere"], ["devo", "dovere"], ["stare", "stare"], ["trovo", "trovare"], ["incontro", "incontrare"], ["torno", "tornare"], ["fai", "fare"], ["sapere", "sapere"]]
+}

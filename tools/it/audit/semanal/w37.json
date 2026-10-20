@@ -1,0 +1,259 @@
+{
+ "week": 37,
+ "title": "Passato remoto e trapassato remoto",
+ "level": "B2",
+ "revisado": {
+  "items": 24,
+  "sfide": 4,
+  "bloques_teoria": 4,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 4
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Los 24 ítems principales son correctos y bien alineados con la lección: passato remoto regular e irregular 1-3-6, uso frente al prossimo y reconocimiento del trapassato remoto. Los problemas están en una nota con error de tipeo (1-3-3), la afirmación falsa sobre essere como único irregular entero, y sobre todo en las sfide, que arrastran ejercicios de artículos y de discurso indirecto no enseñados esta semana, con pistas contradictorias y un ítem semánticamente raro. Las lecturas y el dictogloss son buenos; falta práctica de producción y del trapassato remoto en contexto.",
+ "bien": [
+  "Lección corta, ordenada y con tabla del patrón 1-3-6; el contraste passato remoto/prossimo y la variación regional están bien explicados.",
+  "Las notas de los ítems repiten el paradigma completo (fecero, vide, seppi), lo que refuerza la memoria.",
+  "Las dos lecturas (leyenda del tortellino, Colapesce) son auténticas, usan casi solo remoto y tienen caza de formas completa y correcta.",
+  "Dictogloss de Leonardo da Vinci con datos históricos exactos y verbos remotos pertinentes (nacque, visse, dipinse, morì).",
+  "Distractores de forma útiles (fusti, sapei, dicette, nascé) que apuntan a errores reales del hispanohablante."
+ ],
+ "hallazgos": [
+  {
+   "id": "item rf2-37-01",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "nascere, irregular en el patrón 1-3-3: nacqui, nascesti, nacque.",
+   "propuesta": "nascere, irregular en el patrón 1-3-6: nacqui, nascesti, nacque, nascemmo, nasceste, nacquero.",
+   "motivo": "La lección enseña 1-3-6; «1-3-3» es un error de tipeo que confunde."
+  },
+  {
+   "id": "lesson:2",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "*essere* es el único irregular entero: *fui, fosti, fu, fummo, foste, furono*. Y *dare*: *diedi / detti*; *stare*: *stetti*.",
+   "propuesta": "*essere* y *dare* son irregulares en todas las personas: *fui, fosti, fu, fummo, foste, furono*; *diedi (detti), desti, diede (dette), demmo, deste, diedero (dettero)*. *Stare*: *stetti, stesti, stette, stemmo, steste, stettero* (raíz irregular en todas).",
+   "motivo": "Dare también es irregular en tú/nosotros/vosotros (desti, demmo, deste); la frase se contradice a sí misma y el bloque dice «solo en io, lui, loro»."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "El norte usa el passato prossimo para todo; Sicilia y Nápoles, el remoto hasta para lo de esta mañana.",
+   "propuesta": "El norte usa casi solo el passato prossimo; en Toscana y en el sur el remoto es de uso corriente (en el sur, incluso para hechos de hoy).",
+   "motivo": "Simplificación: el centro (Toscana) usa el remoto en el habla; contradice además la nota de g2-sc-21 («norte y centro»)."
+  },
+  {
+   "id": "item g2-sc-21",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "en la conversación del norte y centro se usa el passato prossimo incluso para hechos lejanos.",
+   "propuesta": "en la conversación del norte se usa el passato prossimo incluso para hechos lejanos.",
+   "motivo": "Toscana/centro usa el remoto oralmente; la afirmación exagera."
+  },
+  {
+   "id": "item g2-sc-21",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Remoto en el sur de Italia; prossimo en el norte, con el mismo valor.",
+   "propuesta": "Cambiar la opción, p. ej.: «Remoto solo en el sur; el norte no lo entiende.»",
+   "motivo": "La lección misma dice que el uso regional existe y no es incorrecto; el distractor es parcialmente verdadero. Además la opción correcta es la más larga y detallada (se elige por longitud)."
+  },
+  {
+   "id": "item g2-sc-21",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Leé las frases y descubrí la regla",
+   "propuesta": "Mostrar las frases de ejemplo o cambiar la consigna a «Elegí la regla correcta».",
+   "motivo": "La consigna remite a frases que el ítem no muestra."
+  },
+  {
+   "id": "item g2-sc-21-c",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "\"accept\": [\"diventò\"]",
+   "propuesta": "accept: [\"diventò\", \"divenne\"]",
+   "motivo": "«divenne» es la forma literaria más frecuente de diventare y es igual de correcta; hoy se marcaría mal."
+  },
+  {
+   "id": "item g2-gd-25",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "(comí) → ___ mangiato",
+   "propuesta": "Mover el ítem a la semana de auxiliares essere/avere o reformularlo con un contraste remoto/prossimo.",
+   "motivo": "Consigna dice «los tres ejemplos» que no están; el ítem trabaja essere/avere (no enseñado esta semana) y «comí» en una semana de remoto podría llevar a «mangiai»."
+  },
+  {
+   "id": "item rf2-37-04",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Io ___ la verità solo molti anni dopo.",
+   "propuesta": "Agregar sapere (seppi), nascere (nacqui), conoscere, vivere, bere, mettere a la tabla de irregulares de la lección.",
+   "motivo": "El ítem (y nacque, disse en lecturas) usa irregulares que la tabla no muestra: el alumno debe memorizarlos sin que se enseñaran."
+  },
+  {
+   "id": "sfide r02-11",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Completá con la forma correcta: «di» o «di» + artículo (d' delante de vocal).",
+   "propuesta": "Consigna: «Completá con di o d' (sin artículo en títulos y dinastías).»",
+   "motivo": "La consigna «di o di + artículo» es confusa, y el tema (artículos en títulos) no se enseña en esta semana; solo se justifica por el tema histórico."
+  },
+  {
+   "id": "s:r02-11:a",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Enrico VIII, re ___ Inghilterra, era stato Principe ___ Galles. (di/dell' – di/del)",
+   "propuesta": "Enrico VIII, re ___ Inghilterra, era stato Principe ___ Galles. (d'/di)",
+   "motivo": "La pista ofrece «dell'» y «del» pero la respuesta es «d' | di»: la pista contradice la respuesta y confunde."
+  },
+  {
+   "id": "s:r20-01f:a",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Quando ___ di parlare, scoppiò a ridere. (finire)",
+   "propuesta": "Reformular la consigna sin «una sola vez» y aceptar/discutir «finì»; o agregar un contexto de anterioridad (es: «Cuando había terminado…»).",
+   "motivo": "«Quando finì di parlare, scoppiò a ridere» es igual de correcto; solo la pista de la consigna evita la ambigüedad, y regala la respuesta."
+  },
+  {
+   "id": "sfide r20-01g",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "¿Qué te dijeron que iba a pasar? Escribí las palabras exactas (estilo directo).",
+   "propuesta": "Mover a la semana de discurso indirecto o preceder de una explicación de la concordancia de tiempos.",
+   "motivo": "Exige revertir el discurso indirecto (condicional compuesto → futuro, congiuntivo trapassato → futuro anteriore), no enseñado en la lección de passato remoto; alta carga cognitiva para un cloze."
+  },
+  {
+   "id": "s:r20-01g:a",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Mi ha detto che la sera quando aveva finito i compiti sarebbe andato al cinema.",
+   "propuesta": "Mi ha detto che quella sera, quando avesse finito i compiti, sarebbe andato al cinema.",
+   "motivo": "«la sera» habitual no equivale a «stasera» (sería «quella sera» ↔ «stasera»); la frase base es poco natural y la vuelta a directo es ambigua."
+  },
+  {
+   "id": "s:r20-01g:c",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Mi avevano detto che se Marco non era ancora malato, dovevano vederlo sabato.",
+   "propuesta": "Mi avevano detto che se Marco non era ancora guarito, dovevano vederlo sabato.",
+   "motivo": "«non è ancora malato» carece de sentido; casi seguro se quiso decir «guarito». Además «dovevano» → «devono» (ellos) también sería lógico y no está en accept."
+  },
+  {
+   "id": "s:r20-01g:d",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"Ogni volta che ti vedrò fumare ti sgriderò.\"",
+   "propuesta": "Agregar a accept: «Ogni volta che ti avrò visto fumare, ti sgriderò.» (y con «lo»)",
+   "motivo": "La nota dice congiuntivo trapassato → futuro anteriore, pero éste no se acepta."
+  },
+  {
+   "id": "s:r20-02d:a",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "se ero stanco dovevo riposarmi, altrimenti non avrei potuto uscire quella sera",
+   "propuesta": "Agregar «non sarei potuto uscire», «mi dovevo riposare» y «la sera stessa» a accept.",
+   "motivo": "Variantes igual de correctas que un alumno escribiría (uscire admite essere; posición del clítico)."
+  },
+  {
+   "id": "sfide r20-02d",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Contá lo que te dijeron, empezando con Disse che…",
+   "propuesta": "Trasladar a una semana de discurso indirecto o justificar con una nota de teoría.",
+   "motivo": "Concordancia de tiempos en discurso indirecto no enseñada esta semana; trabaja el passato remoto solo en «Disse»."
+  },
+  {
+   "id": "sfide r02-11",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "\"chapter\": \"Articles\" / \"The past indicative tenses\"",
+   "propuesta": "Traducir al español («Los artículos», «Los tiempos del pasado») o no mostrar el campo.",
+   "motivo": "Si el campo chapter se muestra al alumno, es texto en inglés."
+  },
+  {
+   "id": "lettura w-37",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "\"sostenerla\": \"sostenerla\"",
+   "propuesta": "\"sostenerla\": \"sostenerla (sostenere) = sostenerla / aguantarla\"; \"tuffò\": \"(si tuffò) se zambulló\"",
+   "motivo": "La glosa repite la palabra sin traducir y «tuffò» no refleja el «si tuffò» del texto."
+  },
+  {
+   "id": "lettura fl-remoto",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "vide il suo ombelico",
+   "propuesta": "vide l'ombelico di lei",
+   "motivo": "«il suo» es ambiguo entre la dea y el posadero."
+  },
+  {
+   "id": "pares p-067",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"a\": \"ebbe\", \"b\": \"ebe\"",
+   "propuesta": "Reemplazar por un par real: «cadde / cade» o «vissi / visi».",
+   "motivo": "«ebe» no existe como palabra común (solo el nombre propio Ebe); un par mínimo debe contrastar dos palabras reales; «venne / vene» sí es bueno."
+  },
+  {
+   "id": "connesso c-044",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "cque = [kkue]; Nizza con [tts].",
+   "propuesta": "cque = [kkw]: [ˈnakkwe]; Nizza = [ˈnittsa].",
+   "motivo": "Transcripción imprecisa: la u es semiconsonante [w]."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Limpiar las sfide: quitar o mover r02-11 (artículos) y r20-01g/r20-02d (discurso indirecto); sustituir por ejercicios de remoto (transformar prossimo→remoto en un relato, imperfetto + remoto).",
+   "por_que": "Evalúan gramática no enseñada esta semana y contienen pistas contradictorias e ítems dudosos."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar producción real: 6-8 ítems typed/conjugate/translate con verbos regulares -ere (vendei/vendetti) y -ire, y más irregulares (bere, vivere, mettere, rispondere, volere, sapere, conoscere).",
+   "por_que": "Casi todo es choice/cloze; ningún ítem practica las formas dobles de -ere ni los irregulares que aparecen en las lecturas."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Ampliar la tabla de irregulares con los que usan las lecturas y los ítems (nascere, sapere, vivere, bere, volere, scendere, chiudere, correre, decidere, scoprire) y corregir el tip de essere/dare/stare.",
+   "por_que": "Hoy se exige memorizar formas no mostradas y la lista enseñada no cubre lo que se lee."
+  },
+  {
+   "prioridad": "media",
+   "que": "Practicar el trapassato remoto en 3-4 ítems propios (elegir/completar/reformular con dopo aver + infinitivo) e incluirlo en una lectura.",
+   "por_que": "Es un objetivo declarado pero solo hay 2 ítems de elección y un cloze en sfide; ninguna lectura lo usa."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar a la teoría el contraste con el español (el indefinido cubre remoto y prossimo; error típico: usar remoto para lo de hoy) y el uso combinado remoto + imperfetto en la narración.",
+   "por_que": "Es el mayor problema del rioplatense y la lección no lo nombra; las lecturas lo ejemplifican sin explicación."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reordenar los ítems de menor a mayor dificultad y limpiar ítems reciclados (a2-pr, b2-pass-01, g2-gd-25); reducir duplicados de «Dante nacque» (a2-pr-01, rf2-37-01, g2-ct-51).",
+   "por_que": "La secuencia mezcla ítems de otras semanas y repite el mismo ejemplo."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Mejorar el par mínimo ebbe/ebe y ampliar accept con variantes (divenne, sarei potuto, avrò visto); añadir «non si dice» a las preguntas de lectura y alargar w-37.",
+   "por_que": "Precisión de suoni, aceptar respuestas equivalentes y variar tipos de pregunta; w-37 es muy corta (~95 palabras)."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "es": {
+   "errores": 1,
+   "dudas": 3
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

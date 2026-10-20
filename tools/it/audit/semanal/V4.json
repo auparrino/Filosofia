@@ -1,0 +1,170 @@
+[
+ {
+  "id": "sfida:r02-03",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "En course.json la semana 1 tiene challenges=[] (app.js renderSfide filtra por w.challenges); este ítem aparece en la(s) semana(s) 3 y 13 (artículos) , donde el tema corresponde.",
+  "fuente": "docs/data/course.json weeks[2],[12].challenges",
+  "correccion": ""
+ },
+ {
+  "id": "sfida:r11-05",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "En course.json la semana 1 tiene challenges=[] (app.js renderSfide filtra por w.challenges); este ítem aparece en la(s) semana(s) 18 (exclamaciones), donde el tema corresponde.",
+  "fuente": "docs/data/course.json weeks[17].challenges",
+  "correccion": ""
+ },
+ {
+  "id": "sfida:r23-04",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "En course.json la semana 1 tiene challenges=[] (app.js renderSfide filtra por w.challenges); este ítem aparece en la(s) semana(s) 43 (L'infinito), donde el tema corresponde.",
+  "fuente": "docs/data/course.json weeks[42].challenges",
+  "correccion": ""
+ },
+ {
+  "id": "p-011",
+  "lote": "w02",
+  "veredicto": "CONFIRMADO",
+  "razon": "Sin coma, «si no cambia mucho el sentido» se lee al revés de lo que se quiere decir.",
+  "fuente": "docs/js/ascolto_data.js:27",
+  "correccion": "Un clásico: «ho trent'anni» con doble n; si no, cambia mucho el sentido."
+ },
+ {
+  "id": "item d07-066",
+  "lote": "w06",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "«essere un Cincinnato» = honesto no es expresión corriente (viene del Dummies fuente) y es léxico muy alto para A1; el ítem aparece en semanas 6, 13 y 52.",
+  "fuente": "tools/audit/patches/dummies/ch03-08.json:2464 (item d07-066 en course.json)",
+  "correccion": "stem: «Ella está sin un peso. (essere al verde)»; answer/accept: «Lei è al verde.» / «È al verde.»"
+ },
+ {
+  "id": "suoni c-006",
+  "lote": "w06",
+  "veredicto": "CONFIRMADO",
+  "razon": "«consonante simple» es falso: bel gruppo, bel trono, bel tipo; las excepciones son s+consonante, z, gn, ps, x.",
+  "fuente": "docs/js/ascolto_data.js:221",
+  "correccion": "bello → bel delante de consonante (salvo s + consonante, z, gn, ps, x): un bel giorno, un bel gruppo."
+ },
+ {
+  "id": "p-084",
+  "lote": "w09",
+  "veredicto": "CONFIRMADO",
+  "razon": "«venne» tiene una sola pronunciación (é cerrada); «vènne» no existe. El glosario está invertido (marca vénne como inexistente) y written idéntico en ambas.",
+  "fuente": "docs/js/ascolto_data.js:101",
+  "correccion": "P(\"p-084\", \"vocali\", 9, \"vénti\", \"vènti\", \"veinte\", \"vientos\", VOC, [\"venti\", \"venti\"]),"
+ },
+ {
+  "id": "g2-gd-23",
+  "lote": "w11",
+  "veredicto": "CONFIRMADO",
+  "razon": "Sin sujeto, «è andato» es igualmente correcto y se marcaría mal; los lead son en 1ª persona (ho), pero el enunciado no lo fija.",
+  "fuente": "tools/authored/grammatica2.py:116-118",
+  "correccion": "alt=[\"è\"] (o stem: «andare → (io) ieri ___ andato al cinema»)"
+ },
+ {
+  "id": "item g2-sc-08-c",
+  "lote": "w15",
+  "veredicto": "CONFIRMADO",
+  "razon": "Sin sujeto sirven las 6 personas del imperfetto; solo se aceptan dormivo/dormiva/dormivamo.",
+  "fuente": "tools/authored/grammatica2.py:486-488",
+  "correccion": "alt=[\"dormiva\",\"dormivamo\",\"dormivi\",\"dormivate\",\"dormivano\"] (o stem «Mentre io ___ (dormire)…»)"
+ },
+ {
+  "id": "s:r19-08:c",
+  "lote": "w19",
+  "veredicto": "CONFIRMADO",
+  "razon": "Cambiare → cambierà conserva la i (cambi-erà); lo que cambia es a→e. La nota dice lo contrario.",
+  "fuente": "tools/audit/patches/sfide/ch15-20.json:3736",
+  "correccion": "Cambiare → cambierà (a → e; la i se conserva: cambi-erà; solo -ciare/-giare/-sciare pierden la i)."
+ },
+ {
+  "id": "suoni p-170",
+  "lote": "w20",
+  "veredicto": "CONFIRMADO",
+  "razon": "Duplica p-057 (mismo par vorrei/vorei, semana 20) y la nota generaliza mal: solo algunos verbos llevan rr (verrei, terrei, berrei, rimarrei; no dovrei ni avrei).",
+  "fuente": "docs/js/ascolto_data.js:191 (y :73)",
+  "correccion": "Eliminar p-170, o reemplazar por P(\"p-170\",\"vibranti\",20,\"sera\",\"serra\",\"tarde/noche\",\"invernadero\",\"Una r o dos cambian la palabra: sera / serra.\")"
+ },
+ {
+  "id": "sfide:r28-01",
+  "lote": "w23",
+  "veredicto": "CONFIRMADO",
+  "razon": "Consigna dice «sin preposición» pero c (fare meglio a/ad), f (obbligato a) y h (credo di) llevan preposición. (Se muestra en semana 42.)",
+  "fuente": "tools/audit/patches/sfide/ch21-28.json:4588",
+  "correccion": "Traducí al italiano (verbos seguidos de infinitivo, con o sin preposición)."
+ },
+ {
+  "id": "item g2-cb-02",
+  "lote": "w28",
+  "veredicto": "CONFIRMADO",
+  "razon": "La lección de semana 28 dice que siccome va «siempre al principio» y la nota del ítem dice lo mismo, pero accept admite «Non sono uscito, siccome pioveva».",
+  "fuente": "tools/authored/grammatica2.py:1415",
+  "correccion": "alt=[\"Siccome pioveva non sono uscito.\"] (quitar la variante con siccome al final)"
+ },
+ {
+  "id": "r21-03c",
+  "lote": "w33",
+  "veredicto": "RECHAZADO",
+  "razon": "chapterTitle no se muestra (app.js solo imprime «cap. N»); la consigna visible está en español.",
+  "fuente": "docs/data/course.json challenge r21-03c; docs/js/app.js:2926",
+  "correccion": ""
+ },
+ {
+  "id": "sfide r26-03",
+  "lote": "w35",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "La lección de la semana 35 no menciona rimanere (0 apariciones), y la consigna lo exige. «è rimasta distrutta» es idiomático (estado resultante) aunque matiza el sentido; no hay que sacar el verbo.",
+  "fuente": "tools/audit/patches/sfide/ch21-28.json:3318; lección semana 35 (tools/lessons)",
+  "correccion": "Agregar a la lección de w35: «rimanere + participio = estado resultante: è rimasta distrutta, siamo rimasti stupiti»; mantener el ejercicio."
+ },
+ {
+  "id": "dictogloss 38",
+  "lote": "w38",
+  "veredicto": "CONFIRMADO",
+  "razon": "El título dice telefonata pero el texto (y el es) cuentan un encuentro casual.",
+  "fuente": "docs/js/dictogloss_data.js:211",
+  "correccion": "title: \"Un incontro con Paola\""
+ },
+ {
+  "id": "sfide r20-01e",
+  "lote": "w43",
+  "veredicto": "RECHAZADO",
+  "razon": "r20-01e no está en la lista de la semana 43 (que es de infinitivo y trae 12 desafíos del cap. 23/28/22); solo aparece en la semana 52 (repaso final), donde passato remoto es apropiado. Su campo week:43 es metadato sin efecto visible.",
+  "fuente": "docs/data/course.json weeks[42].challenges / weeks[51].challenges",
+  "correccion": ""
+ },
+ {
+  "id": "item d03-056",
+  "lote": "w46",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Mariíta» no es grafía española estándar; además la glosa es confusa.",
+  "fuente": "tools/audit/patches/dummies/ch03-08.json:552 (y tools/bank/glossario.py:30)",
+  "correccion": "Mariita, con cariño (Maria + -uccia) → ___  (mejor: «María, en diminutivo cariñoso (Maria + -uccia) → ___»)"
+ },
+ {
+  "id": "lettura w-50",
+  "lote": "w50",
+  "veredicto": "CONFIRMADO",
+  "razon": "«salsa» existe en italiano con el mismo sentido (no es falso amigo); el relato es inválido y 'sugo' no lo corrige. Además «negozio: negocio» engaña (negozio = tienda).",
+  "fuente": "docs/js/letture_settimana.js:410-430",
+  "correccion": "targets: [\"imbarazzata\", \"largo\"]; reescribir el episodio de salsa con un falso amigo real (p. ej. «burro» = manteca, no el animal) y ajustar gloss/questions/vf; negozio: «tienda»."
+ },
+ {
+  "id": "lettura w-52",
+  "lote": "w52",
+  "veredicto": "CONFIRMADO",
+  "razon": "«agio» = comodidad/holgura, no «gusto».",
+  "fuente": "docs/js/letture_settimana.js:1100",
+  "correccion": "agio: \"comodidad (a suo agio = cómoda)\""
+ },
+ {
+  "id": "frase:671",
+  "lote": "T-frasi-banca-2",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "«Hartarse = stufarsi» es equivalencia válida, pero el es dice «me cansé»; la nota nombra otro verbo. Problema menor.",
+  "fuente": "tools/bank/frasi_banca.py:1376",
+  "correccion": "Cansarse (de) = stufarsi / stancarsi (hartarse = stufarsi, con más fastidio)."
+ }
+]

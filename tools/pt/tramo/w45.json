@@ -1,0 +1,452 @@
+{
+  "week": 45,
+  "level": "C1",
+  "lettura": {
+    "title": "Esquisito é o polvo",
+    "emoji": "🐙",
+    "genre": "crônica",
+    "grammar": "falsos amigos e heterossemânticos",
+    "text": "Na minha primeira semana em São Paulo, fui convidada para jantar na casa de uma colega do escritório. Levei um vinho de Mendoza, elogiei a vista da varanda e, quando chegou o prato principal, resolvi caprichar no português: “Que comida esquisita!”. Houve um silêncio breve, desses que parecem durar um século. A anfitriã sorriu com educação e perguntou se eu preferia que ela preparasse outra coisa. Só no dia seguinte, conversando com o porteiro do prédio, descobri que esquisito, em português, não quer dizer delicioso: quer dizer estranho, bizarro, suspeito. Eu tinha acabado de chamar de bizarro o polvo mais bem-feito da minha vida.\n\nOs linguistas chamam essas armadilhas de falsos amigos ou, quando a semelhança engana de forma mais sistemática, de heterossemânticos: palavras quase idênticas na forma, mas com significados diferentes em duas línguas vizinhas. Entre o espanhol e o português, elas são tantas que um professor meu garantia que daria para escrever um romance inteiro só com elas. Não duvido. Nos meus primeiros meses no Brasil, colecionei mal-entendidos como quem coleciona figurinhas da Copa.\n\nTeve o dia em que pedi uma borracha na papelaria e fiquei esperando, com um sorriso nervoso, que o vendedor não pensasse que eu estava procurando alguma mulher embriagada. Borracha, aqui, é aquilo que apaga o lápis — e também o material de que são feitos os pneus. Quem bebeu demais é bêbado. Teve também a vez em que, exausta, disse a uma amiga que precisava passar na oficina antes das nove, e ela me perguntou, preocupada, o que tinha acontecido com o meu carro. Oficina, em português, é onde se conserta automóvel. O lugar onde eu passava oito horas por dia, com computador e ar-condicionado, se chama escritório. E escritório, para completar a confusão, não é o móvel onde escrevo estas linhas: esse é a escrivaninha.\n\nCom o tempo, percebi que os falsos amigos não são só uma questão de vocabulário, mas de convivência. Quando me pediram o apelido para colocar no crachá, respondi com o sobrenome do meu pai. O pessoal do RH riu, e só depois entendi que queriam saber como eu gostaria de ser chamada, e não como a minha família se chama. Desde então, sou a Pati para metade do prédio. Com outras palavras, o risco é maior. Perguntar a uma colega se ela está embaraçada, querendo saber se está grávida, pode deixá-la de fato embaraçada — isto é, constrangida. E pedir um vaso de água num restaurante rende, no mínimo, um olhar curioso do garçom, porque o que se pede é um copo; o vaso fica na sala, com flores dentro, ou no banheiro, com outra função.\n\nHá falsos amigos ainda mais traiçoeiros, porque o sentido não é totalmente diferente, só um pouco deslocado. Uma camiseta larga, em português, é folgada, não comprida; uma avenida larga é uma avenida ampla. A palavra propina, que no meu país é o dinheiro que deixamos para o garçom, aqui significa suborno, e usá-la no restaurante pode causar bem mais do que um mal-entendido: pode gerar um escândalo. E o verbo brincar, que para mim sempre foi sinônimo de pular, aqui é o que as crianças fazem no parquinho e o que os adultos fazem quando não estão falando sério.\n\nO caminho inverso, aliás, também tem as suas pegadinhas. Uma amiga carioca que passou uma temporada em Buenos Aires me contou que, logo na primeira semana, ouviu uma vendedora dizer que o vestido que ela experimentava era “exquisito” e saiu da loja ofendida, convencida de que tinha levado uma crítica disfarçada. Dias depois, num restaurante de San Telmo, pediu polvo com toda a confiança do mundo, e o garçom perguntou, muito sério, se ela queria mesmo um prato de poeira. Ela jura que nunca mais pediu frutos do mar sem apontar para o cardápio.\n\nHoje, quase quatro anos depois, erro menos, mas continuo prestando atenção. Aprendi a desconfiar justamente das palavras que parecem fáceis demais. Um amigo, professor de português para estrangeiros, costuma dizer que o maior perigo, para quem fala espanhol, não é o português que a gente não entende, mas o português que a gente acha que entende. Concordo. As palavras desconhecidas nos obrigam a perguntar; as conhecidas demais nos deixam distraídos.\n\nE acrescento: vale a pena rir dos próprios tropeços. Foi graças a eles que fiz amizade com a colega do jantar, que hoje é uma das minhas melhores amigas em São Paulo. Até hoje, quando ela cozinha polvo, me manda uma foto com a mesma legenda: “Olha só que esquisito”.",
+    "gloss": {
+      "caprichar": "esmerarse",
+      "anfitriã": "anfitriona",
+      "esquisito": "raro, extraño",
+      "polvo": "pulpo",
+      "armadilhas": "trampas",
+      "figurinhas": "figuritas",
+      "borracha": "goma de borrar; caucho",
+      "embriagada": "borracha, ebria",
+      "apaga": "borra",
+      "pneus": "neumáticos",
+      "bêbado": "borracho",
+      "oficina": "taller mecánico",
+      "conserta": "arregla",
+      "escritório": "oficina",
+      "escrivaninha": "escritorio (mueble)",
+      "apelido": "apodo",
+      "crachá": "credencial (tarjeta con el nombre)",
+      "sobrenome": "apellido",
+      "embaraçada": "avergonzada, incómoda",
+      "grávida": "embarazada",
+      "constrangida": "incómoda, avergonzada",
+      "vaso": "florero, maceta; inodoro",
+      "copo": "vaso",
+      "garçom": "mozo",
+      "traiçoeiros": "traicioneros",
+      "larga": "ancha",
+      "folgada": "holgada, suelta",
+      "propina": "coima",
+      "suborno": "soborno, coima",
+      "brincar": "jugar; bromear",
+      "pular": "saltar",
+      "parquinho": "plaza de juegos",
+      "tropeços": "tropiezos",
+      "legenda": "epígrafe, texto al pie",
+      "pegadinhas": "trampitas, cáscaras de banana",
+      "poeira": "polvo, tierra",
+      "cardápio": "menú, carta"
+    },
+    "questions": [
+      [
+        "Qual é o tom predominante da crônica?",
+        [
+          "Irritado e queixoso.",
+          "Bem-humorado e autocrítico.",
+          "Técnico e impessoal.",
+          "Nostálgico e melancólico."
+        ],
+        "Bem-humorado e autocrítico."
+      ],
+      [
+        "Por que houve silêncio durante o jantar?",
+        [
+          "A anfitriã não tinha gostado do vinho que a narradora levou.",
+          "A narradora recusou educadamente o prato principal.",
+          "A narradora fez um elogio que soou como crítica.",
+          "O polvo servido tinha ficado realmente estranho."
+        ],
+        "A narradora fez um elogio que soou como crítica."
+      ],
+      [
+        "Segundo o texto, o que distingue os heterossemânticos?",
+        [
+          "Têm a mesma escrita, mas pronúncias muito diferentes.",
+          "Existem apenas entre o espanhol e o português.",
+          "São palavras antigas, que já caíram em desuso nas duas línguas.",
+          "Enganam de maneira mais sistemática."
+        ],
+        "Enganam de maneira mais sistemática."
+      ],
+      [
+        "O episódio do crachá mostra que a narradora…",
+        [
+          "confundiu o apelido com o sobrenome.",
+          "não quis revelar o seu nome verdadeiro.",
+          "já tinha um apelido desde a infância.",
+          "preferia ser chamada pelo sobrenome do pai."
+        ],
+        "confundiu o apelido com o sobrenome."
+      ],
+      [
+        "Com a frase do amigo professor, a narradora sugere que…",
+        [
+          "o português é, no fundo, mais difícil que o espanhol.",
+          "a falsa sensação de compreensão é o maior risco.",
+          "os professores costumam exagerar os perigos da língua.",
+          "é melhor evitar as palavras parecidas com o espanhol."
+        ],
+        "a falsa sensação de compreensão é o maior risco."
+      ]
+    ],
+    "vf": [
+      [
+        "Quando chegou a São Paulo, a narradora trabalhava num escritório.",
+        "verdadeiro"
+      ],
+      [
+        "Segundo a narradora, no Brasil, “propina” é o dinheiro deixado para o garçom.",
+        "falso"
+      ],
+      [
+        "A narradora pretende voltar a morar na Argentina.",
+        "não se diz"
+      ],
+      [
+        "A colega do jantar se tornou uma grande amiga da narradora.",
+        "verdadeiro"
+      ],
+      [
+        "Em português, “escritório” designa o móvel onde se escreve.",
+        "falso"
+      ]
+    ],
+    "hunt": {
+      "label": "Toque nos falsos amigos do espanhol (palavras que parecem iguais, mas significam outra coisa)",
+      "targets": [
+        "esquisito",
+        "polvo",
+        "borracha",
+        "oficina",
+        "escritório",
+        "apelido",
+        "embaraçada",
+        "vaso",
+        "larga",
+        "propina",
+        "brincar"
+      ]
+    }
+  },
+  "ascolto": {
+    "title": "Convidei ela para uma cena",
+    "genre": "programa de rádio com participação de ouvintes",
+    "es": "En un programa de radio de consultas sobre la lengua, la conductora atiende el llamado de un oyente uruguayo que vive en Porto Alegre y cuenta sus problemas con palabras parecidas al español.",
+    "speakers": [
+      "Carla (apresentadora)",
+      "Diego (ouvinte)"
+    ],
+    "turns": [
+      [
+        "A",
+        "Boa tarde! Está no ar o Tira-Dúvidas, o programa em que você liga e a gente resolve aquela dúvida de português que não te deixa dormir. O nosso primeiro ouvinte de hoje é o Diego, que liga de Porto Alegre. Boa tarde, Diego!"
+      ],
+      [
+        "B",
+        "Boa tarde, Carla! Nossa, que emoção falar com você. Eu ouço o programa toda semana."
+      ],
+      [
+        "A",
+        "Que bom! Me conta, qual é a sua dúvida?"
+      ],
+      [
+        "B",
+        "Então, eu sou uruguaio, de Montevidéu, e moro aqui há uns oito meses. Meu português já está razoável, sabe, mas eu vivo caindo em armadilhas. E eu queria saber se existe algum jeito de evitar isso, porque eu já passei cada vergonha…"
+      ],
+      [
+        "A",
+        "Conta uma, para os ouvintes entenderem do que a gente está falando."
+      ],
+      [
+        "B",
+        "Olha, a pior foi no primeiro mês. Eu conheci uma moça no trabalho e convidei ela para uma cena. Achei que estava convidando para jantar, né? E ela respondeu toda animada: adoro teatro, que peça a gente vai ver?"
+      ],
+      [
+        "A",
+        "Clássico! Porque cena, em português, é um trecho de um filme, de uma novela ou de uma peça. O que vocês chamam de cena, aqui é jantar. E aí, deu certo?"
+      ],
+      [
+        "B",
+        "Deu, deu. A gente riu muito e acabou jantando mesmo. Mas teve outras. No supermercado, eu perguntei onde ficava o aceite, e o rapaz me olhou como se eu fosse de outro planeta."
+      ],
+      [
+        "A",
+        "Porque aceite, aqui, é o ato de aceitar alguma coisa. Por exemplo: o aceite de um contrato, o aceite de uma proposta. O que vai na salada é o óleo, ou o azeite, se for de oliva. E, já que a gente está falando de salada, cuidado: se você pedir salsa, vão te trazer salsinha, aquele tempero verde. O que você chama de salsa, aqui é molho."
+      ],
+      [
+        "B",
+        "Nossa, isso eu não sabia! E tem uma que ainda me confunde. Um colega disse que viu um rato na cozinha e eu perguntei: um rato de quanto tempo?"
+      ],
+      [
+        "A",
+        "Essa é ótima! Em espanhol, rato é um momento, né? Aqui é o bicho mesmo, o roedor. O seu rato de espanhol seria um tempinho, um instante. Agora, Diego, respondendo à sua pergunta: não existe vacina contra falso amigo, mas existem estratégias."
+      ],
+      [
+        "B",
+        "Quais?"
+      ],
+      [
+        "A",
+        "A primeira: desconfie das palavras que parecem fáceis demais. Se a palavra é idêntica ao espanhol, vale a pena conferir no dicionário, principalmente se você vai usar numa situação importante, tipo uma reunião ou um e-mail formal. A segunda: faça a sua própria lista. Cada vez que você cair numa armadilha, anote a palavra, o sentido em português e uma frase de exemplo. Sabe por quê? Porque o erro que dá vergonha a gente não esquece nunca mais."
+      ],
+      [
+        "B",
+        "Isso é verdade. A cena eu nunca mais vou esquecer."
+      ],
+      [
+        "A",
+        "Viu? E a terceira é prestar atenção no contexto. Quando você ouvir um brasileiro usar uma palavra conhecida de um jeito estranho, não deixe passar batido: pergunte. Brasileiro adora explicar essas coisas."
+      ],
+      [
+        "B",
+        "Pode deixar. Muito obrigado, Carla, de verdade."
+      ],
+      [
+        "A",
+        "Eu que agradeço, Diego. E manda um abraço para a moça do teatro!"
+      ]
+    ],
+    "gloss": {
+      "agradeço": "(eu que agradeço / eu é que agradeço) gracias a vos",
+      "deixar": "(pode deixar) dejalo en mis manos, quedate tranquilo/a",
+      "armadilhas": "trampas",
+      "vergonha": "vergüenza",
+      "peça": "obra de teatro",
+      "trecho": "fragmento",
+      "jantar": "cena (comida)",
+      "aceite": "aceptación",
+      "óleo": "aceite",
+      "salsinha": "perejil",
+      "tempero": "condimento",
+      "molho": "salsa",
+      "rato": "rata, ratón",
+      "bicho": "animal, bicho",
+      "conferir": "chequear",
+      "batido": "(passar batido) pasar desapercibido"
+    },
+    "questions": [
+      [
+        "Qual é o objetivo principal da ligação de Diego?",
+        [
+          "Reclamar do atendimento que recebeu num supermercado.",
+          "Contar como conheceu a namorada no teatro.",
+          "Pedir estratégias contra os falsos amigos.",
+          "Perguntar como se prepara um bom molho de tomate."
+        ],
+        "Pedir estratégias contra os falsos amigos."
+      ],
+      [
+        "O que a moça entendeu quando Diego a convidou “para uma cena”?",
+        [
+          "Que ele queria jantar na casa dela.",
+          "Que ele a convidava para ver uma peça.",
+          "Que ele estava brincando com ela.",
+          "Que ele pretendia gravar um vídeo com ela."
+        ],
+        "Que ele a convidava para ver uma peça."
+      ],
+      [
+        "Segundo Carla, “aceite”, em português, se refere…",
+        [
+          "a qualquer tipo de óleo de cozinha.",
+          "a um tempero verde usado em saladas.",
+          "ao ato de aceitar algo, como um contrato.",
+          "a uma marca conhecida de azeite de oliva."
+        ],
+        "ao ato de aceitar algo, como um contrato."
+      ],
+      [
+        "Por que Carla recomenda anotar os próprios erros?",
+        [
+          "Porque os erros constrangedores ficam na memória.",
+          "Porque o dicionário nem sempre registra os falsos amigos.",
+          "Porque assim ele pode corrigir os colegas brasileiros.",
+          "Porque o programa vai publicar a lista dos ouvintes."
+        ],
+        "Porque os erros constrangedores ficam na memória."
+      ],
+      [
+        "Com a frase “brasileiro adora explicar essas coisas”, Carla quer…",
+        [
+          "encorajar Diego a perguntar sem medo.",
+          "criticar a mania brasileira de corrigir estrangeiros.",
+          "sugerir que Diego faça aulas particulares.",
+          "mostrar que os brasileiros também erram muito."
+        ],
+        "encorajar Diego a perguntar sem medo."
+      ]
+    ],
+    "vf": [
+      [
+        "Diego mora no Brasil há menos de um ano.",
+        "verdadeiro"
+      ],
+      [
+        "O convite de Diego terminou num mal-entendido que estragou a noite.",
+        "falso"
+      ],
+      [
+        "Diego trabalha num supermercado de Porto Alegre.",
+        "não se diz"
+      ],
+      [
+        "Carla garante que existe um método para nunca mais errar com falsos amigos.",
+        "falso"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "carta_leitor",
+    "title": "O português que a gente acha que entende",
+    "fonte": "lettura",
+    "t": "Você é um(a) leitor(a) hispanofalante do Diário Paulistano, jornal em que foi publicada a crônica “Esquisito é o polvo”. Após ler a crônica, escreva uma carta do leitor ao jornal comentando o texto. Na sua carta, relacione a crônica com uma experiência sua (real ou imaginada) com falsos amigos entre o espanhol e o português e posicione-se sobre a ideia, citada pela cronista, de que o maior perigo é “o português que a gente acha que entende”. Não se esqueça de identificar-se no final.",
+    "es": "Carta de lector a un diario: comentá la crónica, contá una anécdota propia con un falso amigo (que no sea solo repetir las de la crónica) y tomá posición sobre la frase del profesor. Registro formal, con vocativo, despedida y firma.",
+    "min": 216,
+    "max": 276,
+    "punti": [
+      [
+        "Referirse a la crónica y a lo que cuenta",
+        [
+          "esquisito é o polvo",
+          "diário paulistano",
+          "cronista",
+          "crônica"
+        ]
+      ],
+      [
+        "Contar una experiencia con un falso amigo (polvo, esquisito, apelido…)",
+        [
+          "polvo",
+          "esquisito",
+          "exquisito",
+          "embaraçad",
+          "borracha",
+          "apelido",
+          "oficina",
+          "escritório",
+          "sobremesa",
+          "falso amigo",
+          "falsos amigos"
+        ]
+      ],
+      [
+        "Tomar posición sobre «o português que a gente acha que entende»",
+        [
+          "concordo",
+          "discordo",
+          "acha que entende",
+          "achamos que entendemos"
+        ]
+      ]
+    ],
+    "model": "Senhor editor,\n\nSou argentino, moro em Campinas há dois anos e li com um sorriso cúmplice a crônica “Esquisito é o polvo”, publicada no último domingo. Poucas vezes me senti tão bem retratado.\n\nComo a cronista, também tive o meu almoço desastroso. No meu caso, o problema foi a palavra sobremesa: depois de um almoço de negócios, comentei com o meu chefe, diante dos clientes, que o melhor do encontro tinha sido a sobremesa, pensando na conversa tranquila depois da refeição. O silêncio na mesa foi tão longo quanto o descrito no texto. Só mais tarde me explicaram que, no Brasil, sobremesa é o doce servido no fim, e que os clientes tinham entendido que a reunião só valera pelo pudim.\n\nConcordo plenamente com o amigo professor citado pela cronista. As palavras que não entendemos nos obrigam a perguntar; as que achamos que entendemos nos deixam confiantes demais. Esquisito, borracha, escritório ou apelido parecem transparentes justamente porque existem no espanhol, e é essa falsa segurança que provoca os tropeços. Acrescentaria apenas que o risco não é só linguístico: um mal-entendido desses pode passar uma impressão de grosseria ou de desinteresse, como quase aconteceu comigo diante dos clientes.\n\nPor isso, gostaria de sugerir ao jornal que publique mais textos como este. Além de divertidos, eles ajudam os muitos hispanofalantes que vivem no Brasil a perder o medo de errar e, ao mesmo tempo, a desconfiar do que parece fácil demais.\n\nAtenciosamente,\nGustavo Ferreyra, analista de sistemas, Campinas (SP)",
+    "gloss": {
+      "Esquisito é o polvo": "«Raro es el pulpo» (esquisito = raro; polvo = pulpo)",
+      "só valera pelo pudim": "solo había valido por el budín (pluscuamperfecto simple)",
+      "tropeços": "tropiezos",
+      "passar uma impressão": "dar una impresión"
+    }
+  },
+  "breve": {
+    "title": "Promoções do Supermercado Bom Preço",
+    "genre": "anúncio de supermercado",
+    "es": "Un anuncio por los parlantes de un supermercado, con falsos amigos por todas partes: presunto, polvo, talheres, borracha.",
+    "speaker": "Voz do supermercado",
+    "voice": 1,
+    "text": [
+      "Atenção, senhores clientes do Supermercado Bom Preço! Só hoje, até as 20 horas, promoções imperdíveis para o seu fim de semana.",
+      "No balcão de frios, o presunto fatiado sai a 39 reais o quilo, e o queijo prato a 42. Na peixaria, o polvo congelado está com 25% de desconto: aproveite para fazer aquele arroz de polvo no domingo.",
+      "No corredor 7, os copos e as taças de vidro estão pela metade do preço, e na compra de um jogo de talheres você ganha um pano de prato. E para a volta às aulas: na compra de um caderno, a borracha é grátis.",
+      "Lembramos que o estacionamento é gratuito por duas horas para quem apresentar o cupom fiscal no caixa. Bom Preço: o seu supermercado de todo dia."
+    ],
+    "tabella": [
+      [
+        "Preço do quilo do presunto (reais)",
+        "39",
+        [
+          "trinta e nove",
+          "39 reais",
+          "R$ 39"
+        ]
+      ],
+      [
+        "Desconto no polvo",
+        "25%",
+        [
+          "25",
+          "25 %",
+          "vinte e cinco por cento",
+          "25 por cento"
+        ]
+      ],
+      [
+        "Corredor dos copos e das taças",
+        "7",
+        [
+          "sete",
+          "corredor 7"
+        ]
+      ],
+      [
+        "Brinde na compra de um caderno",
+        "borracha",
+        [
+          "uma borracha",
+          "a borracha"
+        ]
+      ],
+      [
+        "Horas de estacionamento grátis",
+        "2",
+        [
+          "duas",
+          "duas horas",
+          "2 horas"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "As promoções valem só hoje.",
+        true
+      ],
+      [
+        "O polvo é vendido fresco.",
+        false
+      ],
+      [
+        "Quem compra talheres ganha um pano de prato.",
+        true
+      ],
+      [
+        "O estacionamento é pago para todos.",
+        false
+      ],
+      [
+        "Para ter o estacionamento grátis, é preciso mostrar o cupom fiscal.",
+        true
+      ],
+      [
+        "O queijo está pela metade do preço.",
+        false
+      ]
+    ],
+    "gloss": {
+      "presunto": "jamón (no «presunto»)",
+      "polvo": "pulpo",
+      "talheres": "cubiertos",
+      "borracha": "goma de borrar",
+      "frios": "fiambres",
+      "taças": "copas"
+    }
+  }
+}

@@ -1,0 +1,270 @@
+{
+ "lote": "T-transfer-1",
+ "revisado": 44,
+ "veredicto": "bien con reparos",
+ "resumen": "Lote de 44 unidades (~1800 filas): 28 esIt, 4 falsi, 2 spelling, 4 regencia, 6 labfalsi. Calidad pt alta y casi sin errores; los hallazgos reales son pocos: «brinco» como juego infantil (contradice el propio banco), la atribución de «ct → t» al Acuerdo de 1990 (falsa para pt-BR), un ejemplo de barrio sin artículo y varios falsos amigos discutibles. No hay inglés fuera de préstamos. Principal debilidad: falta de nivel/ejemplos, duplicación falsi/labfalsi con datos inconsistentes y huecos de cobertura (nunca, nada, antes, entre, para, por, de, tarde, semana, día).",
+ "bien": [
+  "Cobertura muy amplia y ordenada del léxico es→pt (pronombres, contracciones, verbos irregulares, casa, comida, cuerpo, ropa, familia, ciudad).",
+  "Contracciones y crase bien explicadas (en/de/por/a + artículo; nunca «em a»).",
+  "Trampas ortográficas relevantes para hispanohablantes: ñ→nh, ll→lh/ch, -ción→-ção, -ble→-vel, ce→ze, ch→it, etc.",
+  "Falsos amigos bien elegidos y casi todos correctos (esquisito, largo, pelado, cena, borracha, apelido, oficina, embaraçada, contestar, polvo, todavia…).",
+  "Elecciones rioplatenses/cariocas pertinentes (vos/tenés, heladera, palta, ojotas/chinelos, calçadão, Lapa, Búzios).",
+  "Notas que advierten bien: «a gente», «Cena = escena», «Apenas = solo», «Muy no existe», género de a árvore/a ponte/o leite.",
+  "Pocos errores de pt, es o inglés; la ortografía y las tildes de las notas son correctas."
+ ],
+ "hallazgos": [
+  {
+   "id": "esIt:10",
+   "lang": "pt",
+   "severidad": "error",
+   "actual": "Juego (deporte) = jogo; (niños) = brinco, brincadeira.",
+   "propuesta": "Juego (deporte) = jogo; (niños) = brincadeira (brinco = arete).",
+   "motivo": "«brinco» en pt es arete/aro (así lo dice falsi:0 y labfalsi); como «juego» infantil es incorrecto y se contradice con el propio banco. La fila es [\"juego\",\"jogo / brinco / brincadeira\"]: sacar «brinco»."
+  },
+  {
+   "id": "spelling:1",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Desde el Acuerdo de 1990, ct → t: ato, direto, exato, correto, fato.",
+   "propuesta": "ct → t: ato, direto, exato, correto (en Brasil ya se escribía así antes del Acuerdo; es el portugués europeo el que lo cambió). Excepciones: pacto, aspecto, impacto, onde se pronuncia la c.",
+   "motivo": "Atribución falsa para pt-BR; además «fato» no viene de «hecho» por esta regla (es ch→it/f)."
+  },
+  {
+   "id": "spelling:0",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "-an final → -ão: pão, mão.",
+   "propuesta": "-an final → -ão: pão (pan), capitão. Sacar «mão» (viene de mano, ya cubierta por -ano).",
+   "motivo": "Ejemplo que no corresponde al patrón de la regla."
+  },
+  {
+   "id": "spelling:0",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "La n entre vocales a veces cae: lua (luna), coroa (corona).",
+   "propuesta": "La n entre vocales a veces cae: lua (luna), pessoa (persona), coroa (corona), boa (buena).",
+   "motivo": "La fila «una → ua» incluye «coroa», que es -ona; mezcla de dos patrones. Separar -ona/-una y la regla de la «n» intervocálica."
+  },
+  {
+   "id": "esIt:0",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "em + um = num (habla y escrita), o em um: num bar de Lapa.",
+   "propuesta": "...: num bar da Lapa.",
+   "motivo": "El barrio carioca lleva artículo: «na Lapa», «da Lapa». «de Lapa» suena calcado."
+  },
+  {
+   "id": "falsi:0",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Firmar = afirmar, consolidar. Firmar un documento = assinar.",
+   "propuesta": "Aclarar que «firmar um contrato/acordo» sí se usa en Brasil (= cerrar/sellar un acuerdo) y «firma» también aparece en «reconhecer firma» (cartório); marcar como falso amigo parcial.",
+   "motivo": "El par se presenta como falso absoluto; en pt-BR hay usos reales de firmar um contrato. También afecta la nota de esIt:14 («Firmar» en portugués = afirmar, fijar)."
+  },
+  {
+   "id": "falsi:1",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "bonito / metido",
+   "propuesta": "bonito / bacana",
+   "motivo": "La nota dice «bonito, bacana»; «metido» (presumido) no traduce «chulo» en el sentido de «lindo». Además «chulo» no es rioplatense: poco rendimiento didáctico."
+  },
+  {
+   "id": "falsi:1",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Distinto = distinguido (formal). Distinto (diferente) = diferente.",
+   "propuesta": "Distinto en pt también significa «distinto/diferente» (são distintos); sólo «distinguido» sería el matiz no obvio.",
+   "motivo": "No es un falso amigo claro: ambos sentidos existen en pt; el ejercicio puede enseñar que «distinto» no sirve para «diferente»."
+  },
+  {
+   "id": "falsi:2",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "[\"tomada\",\"enchufe; toma (de una ciudad)\",\"tomada\",",
+   "propuesta": "Reemplazar por un falso amigo real o quitar.",
+   "motivo": "El 3.º campo repite la palabra pt: en español no hay «tomada» con otro sentido, así que no hay trampa que enseñar."
+  },
+  {
+   "id": "falsi:0",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Latido = ladrido (del perro). El latido del corazón = a batida.",
+   "propuesta": "El latido del corazón = o batimento (cardíaco); «a batida» es golpe/cóctel.",
+   "motivo": "Inconsistente con labfalsi:1 (batimento). «batimento» es la forma estándar."
+  },
+  {
+   "id": "labfalsi:4",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "*Namorar* va sin preposición: *namoro a Bia*.",
+   "propuesta": "*Namorar* va sin preposición: *namoro a Bia* (esa «a» es el artículo, no una preposición); también se oye *namoro com a Bia*.",
+   "motivo": "Un hispanohablante lee «a Bia» como preposición «a» y se confunde."
+  },
+  {
+   "id": "labfalsi:4",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "aceitar (poner aceite)",
+   "propuesta": "aceitar (poner aceite: lubrificar / pôr azeite)",
+   "motivo": "En pt «aceitar» = aceptar; «poner aceite» no es su sentido habitual. La nota sólo da el sustantivo (azeite), no el verbo."
+  },
+  {
+   "id": "labfalsi:1",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "acordar (ponerse de acuerdo)",
+   "propuesta": "Aclarar que «acordar» también significa «acordar/convenir» en pt formal (acordar um preço).",
+   "motivo": "Presentarlo como sentido inexistente no es exacto; lo prioritario es el de «despertar», pero el par puede inducir a error."
+  },
+  {
+   "id": "falsi:3",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "poste",
+   "propuesta": "lampião / poste de luz",
+   "motivo": "«farol» en español es farol/farola; «poste» no corresponde a un sentido de la palabra. Revisar la tercera columna."
+  },
+  {
+   "id": "falsi:1",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Garrafa = botella. La garrafa (jarra) = a jarra.",
+   "propuesta": "Garrafa = botella (también «garrafão»). En el Río de la Plata garrafa = tubo de gas → botijão.",
+   "motivo": "«garrafa» pt = botella y en es también es botella grande: no es falso amigo claro; el sentido de la tercera columna es forzado (labfalsi:1 usa botijão, mejor)."
+  },
+  {
+   "id": "esIt:21",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Ratón = camundongo; rato = rata. El del compu = mouse.",
+   "propuesta": "Ratón = camundongo (o rato); el del compu = mouse.",
+   "motivo": "«rato» como primer equivalente de «ratón» choca con la nota («rato = rata») y con falsi:0 (rato = ratón/rata y un rato = momento); aclarar qué es lo que se enseña."
+  },
+  {
+   "id": "esIt:3",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Demasiado = demais (detrás): é caro demais.",
+   "propuesta": "Demasiado = demais (va después del adjetivo): é caro demais.",
+   "motivo": "«(detrás)» es ambiguo/confuso para el alumno."
+  },
+  {
+   "id": "esIt:1",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Arriba = em cima, lá em cima; subir = subir.",
+   "propuesta": "Arriba = em cima, lá em cima: está lá em cima.",
+   "motivo": "«subir = subir» es una tautología sin valor didáctico."
+  },
+  {
+   "id": "esIt:16",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "[\"tengo años\",\"tenho anos\",\"\"]",
+   "propuesta": "tengo 30 años → tenho trinta anos (sin «tengo años» suelto)",
+   "motivo": "La frase aislada no es pt natural; falta la cifra y nota («ter X anos»)."
+  },
+  {
+   "id": "esIt:16",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Año = ano (la ñ no existe; ano no tiene nada de raro en portugués).",
+   "propuesta": "Año = ano (nh/ñ no aplica aquí: se pierde la ñ). Ojo: «ano» también es «ânus»; el plural «anos» sin problema.",
+   "motivo": "La frase «no tiene nada de raro» es confusa; mejor aclarar el homógrafo."
+  },
+  {
+   "id": "esIt:17",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "Vereda = calçada (el calçadão de Copacabana).",
+   "propuesta": "Vereda = calçada (o passeio); el calçadão es la vereda ancha de las playas.",
+   "motivo": "Confunde dos cosas distintas (calçada vs calçadão)."
+  },
+  {
+   "id": "esIt:15",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "[\"chatear\",\"conversar / bater papo\",\"\"]",
+   "propuesta": "chatear = conversar online / bater papo no chat. Ojo: «chatear» en pt = aborrecer/fastidiar.",
+   "motivo": "Falso amigo no señalado (chatear pt = molestar)."
+  },
+  {
+   "id": "esIt:11",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "[\"coger\",\"pegar\",\"\"]",
+   "propuesta": "coger = pegar (pero «coger» es vulgar en Argentina; avisar). Quitar o anotar.",
+   "motivo": "Fila sin nota; en rioplatense «coger» es tabú y «pegar» en pt también tiene lectura sexual en ciertos contextos."
+  },
+  {
+   "id": "regencia:1",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "[\"apaixonar\",\"por\"]",
+   "propuesta": "apaixonar-se por (y análogos: preocupar-se, interessar-se, queixar-se, arrepender-se, aproximar-se, afastar-se, candidatar-se, atrever-se, vingar-se, livrar-se, cansar-se, formar-se, acostumar-se, despedir-se, importar-se, matricular-se)",
+   "motivo": "Pares sin el pronombre reflexivo enseñan una forma incompleta; sólo señalar el «-se» o añadir una columna."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Unificar falsi (tools/pt/bank) y labfalsi (docs/lang/pt/lab_data.js) en una sola fuente.",
+   "por_que": "~35 de los 120 pares se repiten con distinta redacción y datos que divergen (latido batida/batimento, garrafa, firmar); hay que mantener una única versión."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Corregir «brinco» en esIt:10 y la regla ct→t en spelling:1.",
+   "por_que": "Son los dos únicos errores objetivos; el primero se contradice con el banco de falsos amigos."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar a esIt las palabras faltantes: nunca, nada, antes, entre, para, por, de, a, tarde, semana, día, ya no, todavía no.",
+   "por_que": "Son A1 y el lote tiene preposiciones/adverbios raros (ante, tras, ahorita) pero no los básicos."
+  },
+  {
+   "prioridad": "media",
+   "que": "Añadir campo de nivel (A1..C1) a esIt/falsi y ejemplos en las filas sin nota (~35 % vacías, sobre todo formas verbales).",
+   "por_que": "El banco mezcla A1 con C1 (desquite, rubro, torpe, logro); sin nivel no se puede secuenciar ni filtrar."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir las formas verbales conjugadas sueltas (tengo, tienes, tiene, hago, hice…) o convertirlas en tablas por verbo con las irregularidades.",
+   "por_que": "Ocupan ~25 % del banco como pares aislados y empujan la memorización de formas en vez de patrones."
+  },
+  {
+   "prioridad": "media",
+   "que": "En regencia añadir significado/ejemplo y el pronombre reflexivo (-se); incluir contrastes con el español (esperar por, entrar em, ir a/para, chegar a/em, perguntar por/sobre).",
+   "por_que": "Hoy son pares desnudos y varios están incompletos sin -se."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Pulir los pares débiles del banco falsi (tomada, chulo, distinto, esposas, vulgar, exquisito, desquite, rubro, torpe) y priorizar falsos amigos de alta frecuencia (puxar, pipa, aceitar bien formulado, prejuízo).",
+   "por_que": "Algunos no son falsos amigos reales o son muy poco frecuentes; el espacio rinde más con los frecuentes."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Ampliar spelling con patrones faltantes: -ía/-io (família), plural -ão/-ões/-ães, x/ch, rr/r, esdrújulas, -ico/-ica, ge/gi, nasalidad (-em/-en).",
+   "por_que": "Cobertura ortográfica actual es sólo la de sufijos/diptongos."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Marcar duplicados léxicos (te/té, papa/papá, jugar/juego, nosotros/nosotras…) y variantes (setiembre/septiembre, cerro/morro).",
+   "por_que": "Evitar repetición y aclarar cuál es la entrada canónica."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 2,
+   "dudas": 9
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

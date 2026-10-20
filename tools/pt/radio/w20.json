@@ -1,0 +1,52 @@
+{
+ "week": 20,
+ "level": "B1",
+ "title": "Ninguém merece!",
+ "genre": "quadro de reclamações",
+ "es": "En la sección «Ninguém merece» (Nadie se lo merece) los oyentes se quejan de lo que no anda en el barrio. Caio lee los mensajes y Nanda reacciona. Al final hay una buena noticia.",
+ "speakers": ["Nanda", "Caio"],
+ "turns": [
+  ["A", "Bom dia! Começa agora o «Ninguém merece», o quadro das reclamações. O Caio está com um monte de mensagens. Caio, qual é a primeira?"],
+  ["B", "A primeira é do seu Jorge, da rua Real Grandeza: «Na minha rua não tem nenhum banco para sentar. Os idosos não têm onde descansar e ninguém faz nada»."],
+  ["A", "Puxa, que chato! Nenhum banco na rua toda?"],
+  ["B", "Nenhum. E a segunda é da Marina: «O ônibus 511 nunca passa na hora. Ontem eu esperei quarenta minutos e nada»."],
+  ["A", "Nossa! Quarenta minutos é demais. Fala sério!"],
+  ["B", "Pois é. A terceira é engraçada: um ouvinte diz que o vizinho canta pagode todo dia às seis da manhã. Ninguém no prédio consegue dormir."],
+  ["A", "Às seis da manhã? De jeito nenhum! E o vizinho canta bem, pelo menos?"],
+  ["B", "Sei lá! A mensagem não diz. Mas acho que não, né?"],
+  ["A", "Coitados... E tem alguma mensagem positiva hoje, Caio? Nem tudo é ruim."],
+  ["B", "Tem, sim. A Dona Lúcia escreveu: «Quero agradecer a todo mundo que limpou a praça no sábado. Tinha tanta gente! Ninguém ficou em casa»."],
+  ["A", "Que bacana! Eu vi as fotos: a praça ficou linda. E muita gente ficou lá batendo papo até de noite."],
+  ["B", "Pois é. Um bom papo resolve muita coisa, tá ligado?"],
+  ["A", "Tô ligada, Caio! Então combinado: a rádio vai mandar as reclamações para a prefeitura. Qualquer ouvinte pode escrever: reclamação ou elogio, tanto faz."],
+  ["B", "E sobre o vizinho do pagode, a gente não pode fazer nada!"],
+  ["A", "Nada mesmo! Até amanhã, ouvintes!"]
+ ],
+ "gloss": {
+  "Ninguém merece": "nadie se lo merece (¡qué cosa!)",
+  "reclamações": "quejas, reclamos",
+  "banco": "banco (para sentarse)",
+  "idosos": "ancianos",
+  "chato": "molesto, fastidioso",
+  "engraçada": "graciosa, divertida",
+  "pagode": "tipo de samba",
+  "consegue": "puede, logra",
+  "Coitados": "pobres",
+  "prefeitura": "municipalidad",
+  "elogio": "elogio",
+  "ouvinte": "oyente",
+  "ouvintes": "oyentes"
+ },
+ "questions": [
+  ["Qual é a reclamação do seu Jorge?", ["O ônibus 511 nunca passa na hora certa", "Não tem nenhum banco na rua dele", "O vizinho canta de manhã", "A praça está suja"], "Não tem nenhum banco na rua dele"],
+  ["Quanto tempo a Marina esperou o ônibus?", ["Quatro minutos", "Catorze minutos", "Quarenta minutos", "Uma hora e quarenta minutos"], "Quarenta minutos"],
+  ["Por que a Dona Lúcia escreveu?", ["Para reclamar do barulho do vizinho do pagode", "Para agradecer a limpeza da praça", "Para pedir um banco novo", "Para pedir uma música"], "Para agradecer a limpeza da praça"]
+ ],
+ "info": [
+  ["O vizinho do pagode canta todo dia às seis da manhã.", true],
+  ["A rádio vai mandar as reclamações para a prefeitura.", true],
+  ["Ninguém foi limpar a praça no sábado.", false]
+ ],
+ "grammatica": {"label": "indefinidos y negación: nenhum, ninguém, nada, nunca, tudo, todo mundo, alguma, qualquer", "forme": ["não tem nenhum banco", "ninguém faz nada", "nenhum banco", "nunca passa", "e nada", "ninguém no prédio", "de jeito nenhum", "alguma mensagem", "nem tudo", "todo mundo", "ninguém ficou", "muita coisa", "qualquer ouvinte", "não pode fazer nada"]},
+ "parole": [["um monte de", "um monte de"], ["puxa", "puxa"], ["demais", "demais"], ["nossa", "nossa!"], ["fala sério", "fala sério!"], ["de jeito nenhum", "de jeito nenhum"], ["sei lá", "sei lá"], ["bacana", "bacana"], ["batendo papo", "bater papo"], ["papo", "o papo"], ["tá ligado", "tá ligado?"], ["combinado", "combinado"], ["tanto faz", "tanto faz"]]
+}

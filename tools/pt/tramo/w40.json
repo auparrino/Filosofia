@@ -1,0 +1,211 @@
+{
+  "week": 40,
+  "level": "B2+",
+  "lettura": {
+    "title": "Permanência estudantil no primeiro ano: principais conclusões",
+    "emoji": "📊",
+    "genre": "sumário executivo de relatório de pesquisa",
+    "grammar": "registro formal e nominalização",
+    "text": "Apresentação. O presente relatório reúne os resultados da pesquisa conduzida pelo Núcleo de Estudos sobre Permanência Estudantil (NEPE) ao longo de dois anos letivos, com o objetivo de identificar os fatores associados à evasão de estudantes no primeiro ano de graduação em uma universidade federal da região Centro-Oeste. A investigação combinou a análise de registros acadêmicos de cerca de 4.800 ingressantes com a realização de entrevistas em profundidade com 62 estudantes, dos quais 27 haviam trancado ou abandonado o curso.\n\nMetodologia. A escolha de uma abordagem mista justifica-se pela insuficiência dos dados quantitativos para a compreensão das motivações individuais. Se, por um lado, os registros permitem a identificação de padrões — como a concentração dos abandonos no segundo semestre —, por outro, somente a escuta dos próprios estudantes possibilita a interpretação desses padrões. As entrevistas foram realizadas mediante consentimento livre e esclarecido, com garantia de anonimato, e submetidas a análise de conteúdo por dois pesquisadores de forma independente.\n\nPrincipais resultados. Constatou-se, em primeiro lugar, que a evasão no primeiro ano não decorre de um único fator, mas da sobreposição de dificuldades de natureza econômica, pedagógica e afetiva. A necessidade de conciliação entre trabalho e estudo foi mencionada por mais da metade dos entrevistados que deixaram o curso. Em segundo lugar, verificou-se uma forte relação entre a reprovação em disciplinas introdutórias de cálculo e de leitura acadêmica e a decisão de abandono. Em terceiro lugar, a ausência de vínculos com colegas e professores apareceu como elemento decisivo: estudantes que relataram sentimento de isolamento nas primeiras semanas apresentaram probabilidade significativamente maior de desistência. Em quarto lugar, observou-se que a distância entre a residência e o campus, associada à precariedade do transporte coletivo noturno, agravou a situação dos estudantes de cursos noturnos, que frequentemente mencionaram o cansaço como justificativa para a ausência às aulas.\n\nDiscussão. Os resultados sugerem que a permanência estudantil não depende apenas da concessão de auxílios financeiros, cuja importância, contudo, não se questiona. A adaptação à cultura universitária — marcada pela exigência de autonomia, pela leitura de textos complexos e pela produção de gêneros acadêmicos pouco familiares — constitui um obstáculo frequentemente subestimado pelas instituições. Observa-se, ainda, que a oferta de apoio pedagógico existente é pouco conhecida: apenas uma minoria dos entrevistados declarou ter recorrido à monitoria ou ao serviço de orientação. Tal constatação indica que o problema reside menos na inexistência de serviços do que na sua divulgação. Tampouco se pode desconsiderar a dimensão afetiva: a construção de redes de amizade e a percepção de pertencimento ao ambiente acadêmico mostraram-se tão relevantes quanto o desempenho nas primeiras avaliações.\n\nRecomendações. Diante do exposto, recomenda-se: (a) a ampliação dos programas de auxílio estudantil, com prioridade para ingressantes em situação de vulnerabilidade socioeconômica; (b) a implementação de um programa de acolhimento nas primeiras semanas de aula, com a participação de estudantes veteranos como mentores; (c) a reformulação das disciplinas introdutórias, com a inclusão de atividades de nivelamento; (d) o fortalecimento da divulgação dos serviços de apoio pedagógico e psicológico; e (e) a criação de um sistema de acompanhamento que permita a identificação precoce de estudantes em risco, a partir de indicadores como a frequência às aulas e o desempenho nas primeiras avaliações.\n\nLimitações. Cabe ressaltar, por fim, que o estudo apresenta limitações. A restrição da amostra a uma única instituição impede a generalização dos resultados para o conjunto do sistema federal de ensino. Além disso, a dificuldade de contato com ex-estudantes pode ter produzido um viés, uma vez que aqueles que aceitaram participar talvez mantivessem uma relação menos conflituosa com a universidade. Sugere-se, portanto, a replicação da pesquisa em outras instituições, bem como a realização de um acompanhamento longitudinal dos estudantes que retornaram aos estudos após o trancamento da matrícula.",
+    "gloss": {
+      "bem": "(bem como) así como, y también",
+      "letivos": "lectivos",
+      "evasão": "deserción",
+      "ingressantes": "ingresantes",
+      "trancado": "congelado (la matrícula)",
+      "abordagem": "enfoque",
+      "esclarecido": "informado",
+      "decorre": "deriva",
+      "sobreposição": "superposición",
+      "reprovação": "desaprobación (materia bochada)",
+      "desistência": "abandono",
+      "auxílios": "ayudas económicas, becas",
+      "monitoria": "tutoría de alumnos avanzados",
+      "acolhimento": "recepción, acogida",
+      "nivelamento": "nivelación",
+      "precoce": "temprana",
+      "frequência": "asistencia",
+      "desempenho": "rendimiento",
+      "ressaltar": "destacar",
+      "amostra": "muestra",
+      "viés": "sesgo",
+      "trancamento": "congelamiento"
+    },
+    "questions": [
+      ["Qual é o objetivo da pesquisa?", ["Avaliar a qualidade dos cursos de graduação da região.", "Identificar fatores ligados ao abandono no primeiro ano.", "Comparar a evasão entre universidades públicas e privadas.", "Medir o impacto dos auxílios financeiros nas notas."], "Identificar fatores ligados ao abandono no primeiro ano."],
+      ["Por que os pesquisadores optaram por uma abordagem mista?", ["Porque os números mostram padrões, mas não os explicam.", "Porque não conseguiram acesso aos registros acadêmicos completos.", "Porque as entrevistas eram mais baratas que as estatísticas.", "Porque o ministério exigia dois tipos de dados."], "Porque os números mostram padrões, mas não os explicam."],
+      ["Segundo o relatório, qual obstáculo costuma ser subestimado pelas instituições?", ["O custo do transporte até a universidade.", "A adaptação às exigências da cultura acadêmica.", "A falta de vagas nas disciplinas introdutórias oferecidas no primeiro semestre.", "O excesso de atividades extracurriculares."], "A adaptação às exigências da cultura acadêmica."],
+      ["A possível existência de “viés” refere-se ao fato de que:", ["os pesquisadores conheciam pessoalmente os entrevistados.", "quem aceitou a entrevista talvez tivesse uma visão menos crítica da universidade.", "os registros acadêmicos continham erros de digitação.", "a amostra incluía apenas estudantes de cálculo."], "quem aceitou a entrevista talvez tivesse uma visão menos crítica da universidade."],
+      ["Qual recomendação responde mais diretamente ao isolamento dos calouros?", ["A ampliação dos auxílios estudantis.", "A reformulação das disciplinas de cálculo.", "O acolhimento com veteranos como mentores.", "O acompanhamento da frequência às aulas e do desempenho nas primeiras provas."], "O acolhimento com veteranos como mentores."]
+    ],
+    "vf": [
+      ["O estudo analisou dados de várias universidades federais.", "falso"],
+      ["Os abandonos concentraram-se no segundo semestre.", "verdadeiro"],
+      ["O relatório considera os auxílios financeiros irrelevantes para a permanência.", "falso"],
+      ["Poucos entrevistados recorreram à monitoria.", "verdadeiro"],
+      ["A pesquisa foi financiada pelo governo estadual.", "não se diz"]
+    ],
+    "hunt": {
+      "label": "Toque nos substantivos que nominalizam uma ação (evasão, análise, identificação…)",
+      "targets": ["evasão", "análise", "realização", "identificação", "interpretação", "conciliação", "reprovação", "concessão", "ampliação", "implementação", "fortalecimento", "acompanhamento"]
+    }
+  },
+  "ascolto": {
+    "title": "O capítulo que precisa de outro registro",
+    "genre": "reunião de orientação acadêmica",
+    "es": "Una profesora se reúne con su tesista de maestría para comentar el primer capítulo que él le mandó y cómo mejorar la escritura.",
+    "speakers": ["Profª Regina, orientadora", "Vítor, mestrando"],
+    "turns": [
+      ["A", "Vítor, entra, senta. Eu li o capítulo que você me mandou. Tem coisa muito boa ali, mas a gente precisa conversar sobre o texto."],
+      ["B", "Pode falar, professora. Eu imaginei que ia ter bastante correção."],
+      ["A", "Não é tanto de conteúdo, é de registro. Olha esse trecho aqui: a gente foi nas escolas e viu que os professores não usavam muito o laboratório porque ninguém ensinou eles. O dado é ótimo. Mas isso é fala, não é texto acadêmico."],
+      ["B", "É, relendo agora eu percebo. Eu escrevi meio no embalo, pensando em arrumar depois."],
+      ["A", "Normal, todo mundo faz isso no primeiro rascunho. Então vamos pensar juntos. Primeiro: quem é a gente? No relatório, a gente evita a primeira pessoa informal. Você pode usar a primeira do plural, visitamos, ou uma construção impessoal."],
+      ["B", "Tipo foram visitadas as escolas?"],
+      ["A", "Pode ser. Ou, melhor ainda, você nominaliza: as visitas às escolas revelaram a baixa utilização dos laboratórios. Percebe? O verbo usar vira utilização, e o foco passa pro fenômeno, não pra você."],
+      ["B", "E o porque ninguém ensinou eles?"],
+      ["A", "Aí tem duas coisas. Uma é gramatical: na escrita formal, é ninguém os ensinou, ou ninguém lhes ensinou isso. A outra é de argumento: você tem certeza de que é por isso? Ou é uma hipótese?"],
+      ["B", "Hum, é o que os professores disseram nas entrevistas. Mas, pensando bem, não dá pra afirmar que é a única causa."],
+      ["A", "Exato. Então você escreve algo como: os relatos dos docentes apontam a ausência de formação específica como um dos fatores explicativos. Viu como a nominalização também ajuda a ser prudente? Um dos fatores já relativiza."],
+      ["B", "Entendi. Só tenho um medo, professora: se eu nominalizar tudo, o texto não fica pesado, cheio de palavra terminada em ção?"],
+      ["A", "Ótima pergunta. Fica, sim, se exagerar. Tem texto acadêmico que é uma sequência de substantivos abstratos e ninguém entende quem fez o quê. O ideal é equilibrar. Nominaliza quando isso resume uma ação que você já explicou, ou quando quer dar destaque a um processo. E mantém os verbos quando a ação precisa de um sujeito claro."],
+      ["B", "Faz sentido. E o prazo? Continua sendo o fim do mês?"],
+      ["A", "Continua, mas eu prefiro receber uma versão revisada daqui a duas semanas, pra dar tempo de a banca ler com calma. E outra coisa: revê as referências, tem autor citado no texto que não aparece na lista final."],
+      ["B", "Pode deixar. Vou fazer uma revisão geral, primeiro de registro, depois das referências."],
+      ["A", "Perfeito. E, Vítor, não desanima. Escrever bem é reescrever. Todo mundo passa por isso, inclusive eu."]
+    ],
+    "gloss": {
+      "deixar": "(pode deixar) dejalo en mis manos, quedate tranquilo/a",
+      "trecho": "fragmento",
+      "relendo": "releyendo",
+      "embalo": "envión, de un tirón",
+      "arrumar": "arreglar",
+      "rascunho": "borrador",
+      "relativiza": "matiza",
+      "destaque": "relieve",
+      "prazo": "plazo",
+      "banca": "jurado (de tesis)",
+      "revê": "revisá",
+      "desanima": "te desanimes"
+    },
+    "questions": [
+      ["Qual é o principal problema do capítulo, segundo a orientadora?", ["O registro, muito próximo da fala.", "A falta de dados sobre as escolas.", "O excesso de citações de outros autores.", "A escolha do tema da pesquisa."], "O registro, muito próximo da fala."],
+      ["Por que a orientadora sugere “as visitas às escolas revelaram…”?", ["Para deixar o texto mais curto e mais fácil de ler.", "Para deslocar o foco do pesquisador para o fenômeno.", "Para evitar repetir o nome das escolas visitadas.", "Para mostrar que as visitas foram feitas por outra equipe."], "Para deslocar o foco do pesquisador para o fenômeno."],
+      ["Além do problema gramatical, o que ela aponta na frase sobre os professores?", ["A frase é longa demais para um texto acadêmico.", "A causa aparece como certeza, e não como hipótese.", "Os professores entrevistados não autorizaram a citação.", "O dado contradiz o que Vítor escreveu na introdução."], "A causa aparece como certeza, e não como hipótese."],
+      ["Qual é o conselho sobre o uso da nominalização?", ["Usá-la em todas as frases para garantir a formalidade.", "Evitá-la, porque torna o texto pesado.", "Equilibrá-la, mantendo verbos quando o sujeito importa.", "Reservá-la apenas para a conclusão do capítulo."], "Equilibrá-la, mantendo verbos quando o sujeito importa."],
+      ["O que a orientadora pede para daqui a duas semanas?", ["A lista de referências completa, separada do capítulo.", "Uma versão revisada, para a banca ler com calma.", "A data da defesa marcada com a secretaria do programa.", "Novas entrevistas com os professores das escolas."], "Uma versão revisada, para a banca ler com calma."]
+    ],
+    "vf": [
+      ["A orientadora criticou sobretudo o conteúdo da pesquisa.", "falso"],
+      ["Há autores citados no texto que não aparecem nas referências.", "verdadeiro"],
+      ["Vítor pesquisa escolas de uma única cidade.", "não se diz"],
+      ["Vítor pretende revisar primeiro o registro e depois as referências.", "verdadeiro"]
+    ]
+  },
+  "compito": {
+    "genre": "resumo",
+    "title": "Resumo do relatório sobre evasão",
+    "fonte": "lettura",
+    "t": "Você é aluno(a) da disciplina de Metodologia Científica. O professor pediu que cada estudante leia o sumário executivo do relatório do NEPE sobre permanência estudantil no primeiro ano e escreva um resumo que será compartilhado com a turma no ambiente virtual da disciplina. Seu resumo deve apresentar o objetivo, a metodologia, os principais resultados, as recomendações e as limitações do estudo. Não copie frases do original: reformule as ideias com suas palavras. Use registro formal e, sempre que possível, nominalizações. Não se esqueça de dar um título ao texto. Seu resumo deve ter entre 188 e 248 palavras.",
+    "es": "Resumen académico impersonal, sin opinión: objetivo, método, resultados, recomendaciones y límites. Reformulá con sustantivos (a identificação, a ampliação…) sin copiar el original.",
+    "min": 188,
+    "max": 248,
+    "punti": [["Objetivo del estudio", ["objetivo", "evasão", "abandono"]], ["Metodología", ["entrevista", "mista", "registros"]], ["Resultados principales", ["resultado", "fatores", "isolamento"]], ["Recomendaciones", ["recomend", "acolhimento", "ampliação"]], ["Limitaciones", ["limitaç", "amostra", "viés"]]],
+    "model": "Fatores de evasão no primeiro ano de graduação: resumo\n\nO relatório do Núcleo de Estudos sobre Permanência Estudantil (NEPE) tem como objetivo a identificação das causas do abandono de cursos no primeiro ano de graduação em uma universidade federal do Centro-Oeste. Para tanto, os pesquisadores adotaram uma abordagem mista, que associou a análise dos registros acadêmicos de aproximadamente 4.800 ingressantes à realização de 62 entrevistas em profundidade.\n\nOs resultados indicam que a evasão decorre da combinação de fatores econômicos, pedagógicos e afetivos. Destacam-se a dificuldade de conciliação entre trabalho e estudo, a reprovação em disciplinas introdutórias e o isolamento social nas primeiras semanas. O estudo aponta, ainda, o desconhecimento dos serviços de apoio pedagógico já oferecidos pela instituição.\n\nCom base nesses dados, o relatório recomenda a ampliação dos auxílios estudantis, a criação de um programa de acolhimento com mentoria de veteranos, a reformulação das disciplinas iniciais, a maior divulgação dos serviços de apoio e a implantação de um sistema de detecção precoce de estudantes em risco.\n\nPor fim, os autores reconhecem limitações, como a restrição da amostra a uma única universidade e a possibilidade de viés na seleção dos entrevistados, e sugerem a replicação do estudo em outras instituições.",
+    "gloss": {
+      "evasão": "deserción, abandono de los estudios",
+      "Para tanto": "para eso, con ese fin",
+      "ingressantes": "ingresantes",
+      "decorre": "deriva, resulta (decorrer de)",
+      "reprovação em disciplinas": "desaprobar materias (disciplina = materia)",
+      "acolhimento": "recibimiento y acompañamiento de los ingresantes",
+      "veteranos": "estudiantes de años avanzados",
+      "viés": "sesgo"
+    }
+  },
+  "breve": {
+    "title": "Comunicado da Pró-Reitoria",
+    "genre": "comunicado institucional",
+    "es": "Un comunicado formal de una universidad federal: la convocatoria para una ayuda de vivienda para estudiantes, con fechas, requisitos y condiciones.",
+    "speaker": "Voz da universidade",
+    "voice": 1,
+    "text": [
+      "Comunicado da Pró-Reitoria de Assuntos Estudantis da Universidade Federal Fluminense.",
+      "Informamos a abertura do processo de seleção para a concessão do auxílio-moradia do segundo semestre. O benefício, no valor mensal de 650 reais, destina-se a estudantes de graduação com renda familiar de até um salário mínimo e meio por pessoa.",
+      "O período de inscrição vai de 3 a 21 de julho, exclusivamente pelo sistema acadêmico. Após o encerramento das inscrições, será realizada a análise da documentação, seguida de entrevista com assistentes sociais. A divulgação do resultado está prevista para 15 de agosto.",
+      "Ressalta-se que a apresentação de documentos incompletos implica a eliminação do candidato. A renovação do benefício dependerá da frequência mínima de 75% nas disciplinas. Dúvidas devem ser encaminhadas ao e-mail da Pró-Reitoria."
+    ],
+    "tabella": [
+      [
+        "Valor mensal do auxílio (reais)",
+        "650",
+        [
+          "seiscentos e cinquenta",
+          "R$ 650",
+          "650 reais"
+        ]
+      ],
+      [
+        "Último dia de inscrição (julho)",
+        "21",
+        [
+          "21 de julho",
+          "vinte e um",
+          "dia 21"
+        ]
+      ],
+      [
+        "Data da divulgação do resultado",
+        "15 de agosto",
+        [
+          "15/8",
+          "15/08",
+          "dia 15 de agosto"
+        ]
+      ],
+      [
+        "Frequência mínima para renovar o benefício",
+        "75%",
+        [
+          "75",
+          "75 %",
+          "setenta e cinco por cento",
+          "75 por cento"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "O auxílio é para estudantes de graduação.",
+        true
+      ],
+      [
+        "As inscrições podem ser feitas pessoalmente.",
+        false
+      ],
+      [
+        "Haverá entrevista com assistentes sociais.",
+        true
+      ],
+      [
+        "O resultado sai no fim de julho.",
+        false
+      ],
+      [
+        "Documentos incompletos eliminam o candidato.",
+        true
+      ],
+      [
+        "O auxílio é pago uma vez por semestre.",
+        false
+      ]
+    ],
+    "gloss": {
+      "auxílio-moradia": "ayuda para la vivienda",
+      "renda": "ingreso",
+      "encerramento": "cierre",
+      "ressalta-se": "se destaca",
+      "frequência": "asistencia (a clase)"
+    }
+  }
+}

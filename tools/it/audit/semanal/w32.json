@@ -1,0 +1,185 @@
+{
+ "week": 32,
+ "title": "Concordanza dei tempi",
+ "level": "B2",
+ "revisado": {
+  "items": 20,
+  "sfide": 0,
+  "bloques_teoria": 4,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 0
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "La teoría es correcta, corta y bien ordenada (dos tablas, pregunta de entrenamiento, aviso del condicional simple del castellano). Casi no hay errores de italiano ni de español. El problema es la práctica: 10 de 20 ítems son el mismo cloze de tiempos compuestos (anterior) y el condizionale passato, el indicativo y el eje 'simultáneo/posterior' casi no se ejercitan. Hay un ítem (g2-sc-17-c) que contradice la propia lección, y varios ítems (l2-d-*) no tienen relación con el tema. Sfide y suoni están vacíos. Falta el vínculo con el tema (italianos y extranjeros).",
+ "bien": [
+  "La lección enseña la lógica en dos preguntas (¿principal presente o pasado? ¿antes, durante o después?) y la repite en el bloque 'Cómo entrenarlo'.",
+  "Las dos tablas (con congiuntivo y con indicativo) son claras y coherentes entre sí.",
+  "El aviso sobre el condicional simple del castellano («vendría») ataca el error típico del hispanohablante: credevo che sarebbe venuto, no *verrebbe*.",
+  "Los ítems d22-021 a d22-030 tienen respuestas correctas, con accept útil (aver/avere, siano partite, si sia perduta) y pistas temporales (già) que hacen el ítem resoluble.",
+  "La lectura 'La lettera del nonno' es natural, usa concordancia real (rispondessi, avesse proibito, fosse stato) y el dictogloss recorre todos los casos, incluido sarebbe arrivata / ci saremmo scritti.",
+  "El ítem g2-va-56 y la nota de g2-sc-17 señalan bien la trampa del castellano «pensaba que era»."
+ ],
+ "hallazgos": [
+  {
+   "id": "g2-sc-17-c",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Non sapevo che loro ___ (avere) un figlio.",
+   "propuesta": "Agregar «avevano» a accept y corregir la nota; o cambiar el verbo a uno de opinión: «Credevo che loro ___ (avere) un figlio.»",
+   "motivo": "Con sapere el modo normal es el indicativo (la propia lección enseña «Sapevo che Luca abitava»); «avevano» es tan correcto como «avessero» y hoy se marcaría mal."
+  },
+  {
+   "id": "g2-sc-17-c",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Non sapevo → avessero.",
+   "propuesta": "Non sapevo che avessero/avevano un figlio: con «non sapere» se admiten ambos; aclarar que sapere suele pedir indicativo.",
+   "motivo": "La nota enseña que «sapevo» pide congiuntivo, lo que es falso como regla general."
+  },
+  {
+   "id": "d22-029",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Speravo di ___ (avere/visitare) tutti i musei prima di partire.",
+   "propuesta": "Speravo di ___ (riuscire a / poter visitare)... o aceptar/usar el infinito presente: «Speravo di visitare tutti i musei prima di partire.»",
+   "motivo": "«prima di partire» marca una acción posterior a «speravo»; «avere visitato» resulta forzado, lo natural es el infinito presente."
+  },
+  {
+   "id": "d22-024",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Il presidente era contento di ___ (avere/cambiare) la legge.",
+   "propuesta": "Enseñar el infinito pasado (di aver + participio) en la lección o mover estos ítems (d22-024, d22-029) a la semana donde se enseñe.",
+   "motivo": "La lección de esta semana no trata el infinitivo pasado; solo lo menciona la consigna."
+  },
+  {
+   "id": "d22-027",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Io non lo avrei creduto se non lo ___ (avere/vedere).",
+   "propuesta": "Reemplazar por una frase de concordancia (p. ej. «Ero sicuro che l'avessero già visto») o etiquetarlo como repaso del periodo ipotetico.",
+   "motivo": "Es un periodo ipotetico del 3.er tipo, no concordanza dei tempi; la consigna dice «según la concordancia de tiempos»."
+  },
+  {
+   "id": "d22-022",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "Le ragazze speravano che i genitori gli ___ (avere/dare) dei soldi.",
+   "propuesta": "Le ragazze speravano che i genitori avessero dato loro dei soldi (o dejar «gli» pero sin referente femenino)",
+   "motivo": "«gli» por «a loro» y referido a «le ragazze» es coloquial; en un B2 conviene el registro neutro (loro)."
+  },
+  {
+   "id": "lesson:0:q1",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Credevo che Marco ___ il giorno dopo.",
+   "propuesta": "Aclarar que tras verbos de opinión también es muy frecuente el congiuntivo imperfetto (Credevo che partisse il giorno dopo) y aceptarlo o mencionarlo en la tabla.",
+   "motivo": "La tabla presenta solo el condizionale passato para lo posterior, pero el propio dictogloss usa «Pensavo che il treno partisse alle otto» con valor posterior."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "Pensavo che *sarebbe piovuto*.",
+   "propuesta": "Pensavo che *sarebbe piovuto* / Pensavo che *avrebbe piovuto*: unificar el auxiliar con el ejemplo anterior («abbia piovuto») o usar un verbo sin doble auxiliar.",
+   "motivo": "Piovere admite essere y avere; el ejemplo mezcla «abbia piovuto» y «sarebbe piovuto» sin comentar la alternancia."
+  },
+  {
+   "id": "g2-sc-17",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Pasa a congiuntivo imperfetto (fosse, venisse, avessero).",
+   "propuesta": "Pasa a congiuntivo imperfetto (o trapassato si la acción es anterior): fosse, venisse, fosse partito.",
+   "motivo": "La regla simplificada omite el trapassato, que es justamente lo que se practica en d22-021/022/025."
+  },
+  {
+   "id": "l2-d-16",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ha invitato tutti, ___ (incluso, hasta) il suo ex.",
+   "propuesta": "Mover los ítems l2-d-16/18/46/47 a la semana de marcadores discursivos, o reescribirlos con contenido de concordanza y del tema «Italianos y extranjeros».",
+   "motivo": "Los cuatro ítems l2-d-* no practican la gramática ni el tema de la semana."
+  },
+  {
+   "id": "w-32",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Tocá los congiuntivi (rispondessi, avesse, abbia, aspetti, fosse)",
+   "propuesta": "Tocá los congiuntivi del texto (hay cinco).",
+   "motivo": "La etiqueta lista las respuestas, así que la caza no exige reconocer nada."
+  },
+  {
+   "id": "w-32",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "que el padre de ella le prohibiera escribirle",
+   "propuesta": "que el padre de ella le hubiera prohibido escribirle",
+   "motivo": "El texto dice «avesse proibito» (anterior); «prohibiera» pierde la anterioridad que la semana enseña."
+  },
+  {
+   "id": "w-32",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "\"entro\": \"dentro de\"",
+   "propuesta": "\"entro\": \"dentro del plazo de / antes de\"",
+   "motivo": "«entro un anno» = a más tardar en un año; «dentro de un año» sugiere exactamente un año."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Rebalancear los ítems: bajar los 10 cloze de compuestos a ~5 y agregar ≥8 ítems de condizionale passato (futuro en el pasado), de indicativo (trapassato/imperfetto/condizionale) y de simultáneo con imperfetto tras presente.",
+   "por_que": "La clave 5 (futuro en el pasado) y toda la tabla con indicativo casi no se practican; casi todo el volumen cae en 'anterior'."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Corregir g2-sc-17-c (aceptar «avevano» o cambiar el verbo) y ajustar la nota «Non sapevo → avessero».",
+   "por_que": "Contradice la lección y penaliza una respuesta correcta."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Agregar ejercicios de producción (translate del castellano «creía que vendría» → credevo che sarebbe venuto, typed, o fixerr con *verrebbe*) y de discriminación (choice congiuntivo vs. indicativo vs. condizionale).",
+   "por_que": "Toda la semana es reconocimiento/cloze y el error típico del aviso no se practica."
+  },
+  {
+   "prioridad": "media",
+   "que": "Sacar o reubicar l2-d-16/18/46/47 y vincular ítems y lectura con «Italianos y extranjeros» / «Discutir estereotipos» (p. ej. «Pensavo che gli italiani fossero…»).",
+   "por_que": "Ahora el tema y el «fare» de la semana no aparecen en la práctica."
+  },
+  {
+   "prioridad": "media",
+   "que": "Completar la teoría con: principal en condicional (Vorrei che venissi), presente + pasado con imperfetto (Penso che fosse stanco) y una línea sobre el congiuntivo imperfetto para lo posterior tras verbos de opinión.",
+   "por_que": "Son casos reales frecuentes que la tabla de dos filas no cubre."
+  },
+  {
+   "prioridad": "media",
+   "que": "Llenar sfide y suoni (pares mínimos -sse/-ssi, -ebbe/-esse, acento en sarebbe/avessero) y agregar preguntas vero/falso/non si dice a la lectura.",
+   "por_que": "Hoy hay 0 sfide, 0 suoni y solo 3 preguntas de opción múltiple sencillas."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Incluir en la lectura un ejemplo de futuro en el pasado (p. ej. «Mi aveva promesso che sarebbe tornato») y hacer que la caza de formas no dé la lista de respuestas.",
+   "por_que": "La lectura no ilustra la clave 5 y la caza es trivial con la lista visible."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Agregar notas a los ítems d22-021..030 (solo d22-024 la tiene) indicando por qué passato o trapassato.",
+   "por_que": "Refuerza el razonamiento de dos preguntas que enseña la lección."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

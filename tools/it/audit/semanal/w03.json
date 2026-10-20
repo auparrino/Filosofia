@@ -1,0 +1,338 @@
+{
+ "week": 3,
+ "title": "Articoli determinativi e indeterminativi",
+ "level": "A1",
+ "revisado": {
+  "items": 70,
+  "sfide": 4,
+  "bloques_teoria": 17,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 21
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Teoría clara y en general correcta (tablas de artículos, plurales, preposiciones articuladas y partitivo sin errores de forma). El italiano de los ítems, las lecturas y el dictogloss no tiene errores gramaticales confirmados. Los reparos son: una regla falsa sobre islas «chicas/grandes» (Cuba), una receta de preposiciones articuladas incompleta, ejemplos de vocab rotos o demasiado avanzados, pares mínimos con no-palabras, y una carga excesiva para A1 semana 3 (artículos + posesivos + países + preposiciones + partitivo + nessun). Tasa de falsos positivos estimada: ~25% (las dudas).",
+ "bien": [
+  "Tablas completas y correctas de il/lo/l', plurales, un/uno/una/un' y de las 5 preposiciones articuladas.",
+  "Contraste constante con el español (il latte, l'acqua femenino, la mano/la foto, la gente singular) y errores típicos del rioplatense.",
+  "Reglas cortas con warn/tip útiles: s impura vs s+vocal, un'/un, i amici no existe, con/per no se funden.",
+  "La lectura w-03 es natural, A1 y usa artículos, preposiciones articuladas y partitivos en contexto; el dictogloss «Al bar» es coherente con el tema (fare).",
+  "Buena mezcla de reconocimiento (choice) y producción (cloze, translate, fixerr, garden) en la primera mitad de la lección; notas explicativas en casi todos los ítems."
+ ],
+ "hallazgos": [
+  {
+   "id": "vocab:ragazzo",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "il libro lo studente il ragazzo lo zaino i libri gli studenti",
+   "propuesta": "Il ragazzo è simpatico. (una frase real)",
+   "motivo": "El ejemplo de «ragazzo» no es una frase: es una lista de sintagmas pegados (dato roto)."
+  },
+  {
+   "id": "lesson:9",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Las islas chicas y los países-ciudad van como las ciudades: *Malta*, *Cuba*, *Capri*. Las islas grandes lo llevan: *la Sicilia*, *la Sardegna*.",
+   "propuesta": "Muchos nombres de islas van sin artículo (Cuba, Malta, Cipro, Creta, Capri); Sicilia y Sardegna suelen llevarlo. No decir que el criterio es el tamaño.",
+   "motivo": "Cuba (unos 105.000 km²) es mucho mayor que Sicilia o Cerdeña: el criterio «chica/grande» es falso y contradice el ejemplo; se repite en ar-u-10, ar-u-11 y s:r02-08:e."
+  },
+  {
+   "id": "ar-u-10",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Las islas chicas y los países-ciudad van como las ciudades: Cuba, Malta.",
+   "propuesta": "Las islas-estado y varias islas mediterráneas van sin artículo: Cuba, Malta, Cipro.",
+   "motivo": "Mismo problema de «isla chica» que en lesson:9 (Cuba no es chica); ar-u-11 dice «islas grandes» para Sicilia."
+  },
+  {
+   "id": "lesson:12",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Tres pasos: elegí el artículo (*lo studio*); *di* → *de*, *in* → *ne*; pegalos y doblá la *l*: *nello studio*.",
+   "propuesta": "Agregar: «con il/i no se dobla: in + il = nel, di + i = dei; se dobla con lo, la, l', le: nello, nella, nell', nelle». Aclarar que a, da, su se pegan tal cual (a+il=al, su+il=sul).",
+   "motivo": "La receta «doblá la l» da *nell libro* si se aplica a il; y no cubre a/da/su."
+  },
+  {
+   "id": "lesson:10",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Llevan artículo lo general (*la musica*), los idiomas (*l'italiano*), los días que se repiten (*il lunedì*) y los años.",
+   "propuesta": "Idiomas: llevan artículo como sujeto/objeto de estudio (*L'italiano è bello*), pero sin artículo tras parlare e in: *parlo italiano*, *in italiano*; con studiare es opcional. Agregar un ejemplo de año (*nel 1990*) o quitarlo.",
+   "motivo": "Regla demasiado general: *parlo italiano* es lo normal y el alumno lo va a escribir; «los años» no tiene ningún ejemplo ni ejercicio."
+  },
+  {
+   "id": "s:r02-01c:e",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Non ho soldi. → Non ho ___ soldo. (ningún)",
+   "propuesta": "Non ho soldi. → Non ho ___ euro. / Non ho fratelli. → Non ho ___ fratello. (ningún)  [o usar «nessun problema»]",
+   "motivo": "«Non ho nessun soldo» suena forzado; lo idiomático es «non ho un soldo / neanche un soldo». Además el accept incluye «un» solo aquí y no en la variante f."
+  },
+  {
+   "id": "s:r02-01c:f",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Non ci sono lenzuola. → Non c'è ___ lenzuolo. (ningún)",
+   "propuesta": "Cambiar por un sustantivo regular: Non ci sono biglietti. → Non c'è ___ biglietto.",
+   "motivo": "Exige el plural irregular «lenzuola» (femenino plural de lenzuolo), que no se enseña y es raro en A1."
+  },
+  {
+   "id": "s:r02-01c:d",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Non abbiamo burro. → Non abbiamo ___ burro. (ni siquiera un poco de)",
+   "propuesta": "Enseñar neanche/nemmeno/neppure en la lección antes de pedirlos, o reemplazar por un ítem con contenido ya visto.",
+   "motivo": "La lección solo enseña «nada» y «nessun»; «neanche un po' di» no aparece."
+  },
+  {
+   "id": "r15-11",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Completá las prendas y objetos con di, a o da: a indica diseño o forma, da para qué sirve, di de qué está hecho.",
+   "propuesta": "Mover a la semana 15 (donde se enseña di/a/da con este valor) o reemplazar por ítems con preposiciones articuladas (al, dal, nel, sul).",
+   "motivo": "Es un desafío de la semana 15 y exige usos de preposiciones (da sera, a fiori, di paglia) que no se enseñan en la semana 3."
+  },
+  {
+   "id": "g2-gd-37",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Mirá los tres ejemplos y completá el cuarto.",
+   "propuesta": "Mostrar los tres ejemplos en el enunciado o cambiar la consigna a «Completá».",
+   "motivo": "El enunciado solo trae «(el estudiante) → ___ studente»: no se ven los tres ejemplos que la consigna menciona (igual en g2-sc-05: «Leé las frases»). La nota dice «gn, y el masculino singular», donde «y» (letra) se confunde con la conjunción."
+  },
+  {
+   "id": "g2-sc-05",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Delante de s + consonante y de z.",
+   "propuesta": "Delante de s + consonante, z, gn, ps (y x, y).",
+   "motivo": "La opción correcta es parcial y los distractores («más de dos sílabas», «nombres de personas») son absurdos: no exigen razonar la regla."
+  },
+  {
+   "id": "p-151",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "vino / bino",
+   "propuesta": "Usar un par real: bene / vene, o bacio / vacio.",
+   "motivo": "«bino» es una no-palabra (el propio dato dice «(no existe)»): el par no sirve para entrenar oído con sentido; además el dossier lo presenta como par mínimo."
+  },
+  {
+   "id": "p-176",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "gelato / ghelato",
+   "propuesta": "Usar un par real: getto (chorro) / ghetto, o gelo / ghelo no; mejor «getto / ghetto».",
+   "motivo": "«ghelato» no existe; el contraste ge/ghe se aprende mejor con dos palabras reales."
+  },
+  {
+   "id": "p-075",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "ésca / èsca",
+   "propuesta": "Reemplazar por un par de vocales cerradas/abiertas frecuente y de nivel A1 (p. ej. pésca / pèsca) o mover a una semana posterior; verificar la pronunciación de esca contra un diccionario de pronunciación (DOP).",
+   "motivo": "La glosa «salga (congiuntivo)» exige un modo no visto en A1 y ambas palabras se escriben igual: solo distinguible por oído y dialectal (la propia nota lo admite)."
+  },
+  {
+   "id": "lettura w-03",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Tocá las preposiciones articuladas (alla, al, nella…)",
+   "propuesta": "Separar dos cazas (preposiciones articuladas vs partitivos) o cambiar la lista: quitar dei/degli/del/della de los usos partitivos, agregar all', dell'.",
+   "motivo": "En el texto «del pesce», «dei fiori», «degli anziani», «dei bambini», «della frutta» son partitivos, no preposiciones articuladas; y all'angolo / dell'acqua no están en la lista."
+  },
+  {
+   "id": "rf-1-22",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Mio nonno ha novant'anni",
+   "propuesta": "Cambiar a una edad ya vista (p. ej. ventisei/trentacinque) o enseñar novanta y la elisión novant'anni antes; aceptar «90 anni».",
+   "motivo": "Exige numeral 90, elisión novant'anni y avere para la edad, no enseñados en esta lección; accept sin cifras."
+  },
+  {
+   "id": "rf-1-23",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Dov'è il cinema?",
+   "propuesta": "Agregar accept con apóstrofo tipográfico: Dov’è il cinema? (y novant’anni en rf-1-22; dell’, d’, dall’ en las sfide).",
+   "motivo": "Otros ítems de la semana aceptan ' y ’; estos y los de las sfide solo el recto: un alumno con teclado móvil puede quedar marcado mal si no se normaliza."
+  },
+  {
+   "id": "rf-1-16",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Vuoi ___ di latte nel caffè?",
+   "propuesta": "Asignar g2-gd-38, rf-1-16, rf-1-17, rf-1-22 y rf-1-23 a una parte de la lección (Indeterminados / Partitivo / Preposiciones).",
+   "motivo": "Cinco ítems no caen en ninguna de las 6 partes (ni por id ni por regex) y quedan sin bloque de teoría asociado."
+  },
+  {
+   "id": "sfida r02-08",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "\"chapter\": \"Articles\"",
+   "propuesta": "Traducir o ocultar el campo chapter (\"Artículos\", \"Preposiciones\") si se muestra al alumno.",
+   "motivo": "Rótulos en inglés en r02-08, r02-09, r02-01c («Articles») y r15-11 («Prepositions»): si son visibles, es inglés en un curso en español."
+  },
+  {
+   "id": "d03-052",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "le verdure",
+   "propuesta": "accept: solo «le verdure»",
+   "motivo": "El enunciado es plural («las verduras») y accept incluye «la verdura» (singular): el ejercicio de plural queda sin verificar."
+  },
+  {
+   "id": "d03-055",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "el casamiento",
+   "propuesta": "Traducí: «la boda» → le nozze (accept: il matrimonio) o dejar solo il matrimonio",
+   "motivo": "«le nozze» es plural y el enunciado es singular; mezcla dos ítems distintos."
+  },
+  {
+   "id": "d03-042",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "___ aeroplano (avión)",
+   "propuesta": "___ aereo (avión) / ___ aeroplano",
+   "motivo": "«aeroplano» es de registro anticuado; «un aereo / un aeroplano» sirve igual, pero «aereo» (o «aeroporto») es más útil."
+  },
+  {
+   "id": "lesson:0",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Casi siempre: **-o** masculino, **-a** femenino.",
+   "propuesta": "Agregar la excepción: -ma masculino (il problema, il programma, il sistema) y profesiones en -ista (il/la turista).",
+   "motivo": "«problema» aparece en la lección y en c-002 y el alumno hispanohablante va a escribir *la problema*; la fila de -a dice siempre «fem.»."
+  },
+  {
+   "id": "lesson:8",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Excepción: parientes en singular sin adjetivo: *mio padre*.",
+   "propuesta": "Agregar: mamma, papà, babbo, nonno/nonna suelen llevar artículo (la mia mamma, il mio papà); mio nonno también se oye.",
+   "motivo": "La regla dada sugiere *mia mamma* como correcto; la forma más frecuente es *la mia mamma*."
+  },
+  {
+   "id": "lesson:13",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Si la palabra va sin artículo, la preposición queda sola: *di Marco*, *a Roma*, *in Italia*",
+   "propuesta": "Presentar primero una tabla: a + ciudad, in + país sin artículo; di + país con artículo (della Francia).",
+   "motivo": "El bloque anterior dice que los países llevan artículo (l'Italia) y este ejemplo dice in Italia sin artículo: la contradicción aparente se explica recién en el warn."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "El castellano dice «estudiante», con una *e* de apoyo. El italiano no la pone en la palabra: la pone en el artículo, *lo studente*.",
+   "propuesta": "Quitar la explicación de la «e de apoyo» y decir solo: «lo» evita el grupo il + s + consonante, difícil de pronunciar.",
+   "motivo": "La analogía es simpática pero falsa: la vocal del artículo es *o*, no una vocal de apoyo, y puede llevar a esperar *le studente*."
+  },
+  {
+   "id": "vocab:finestra",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "Ti dispiacerebbe chiudere la finestra?",
+   "propuesta": "Chiudi la finestra, per favore. / La finestra è aperta.",
+   "motivo": "Condizionale y dispiacere con pronombre indirecto en la semana 3 de A1: el ejemplo es más difícil que la palabra."
+  },
+  {
+   "id": "b2-prep-07",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Mi piace ___ musica classica.",
+   "propuesta": "Reemplazar por otro caso de artículo genérico (Mi piace il gelato / Amo i gatti).",
+   "motivo": "Es duplicado de ar-u-13 («Mi piace ___ musica») y del ejemplo de la lección; además la opción «—» no coincide con «(nada)» usado en el resto."
+  },
+  {
+   "id": "p-018",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "vale / valle",
+   "propuesta": "vale (del verbo valere: «vale», «cuesta») / valle (valle)",
+   "motivo": "La glosa «vale» en rioplatense se lee como muletilla («ok»); confunde el significado de la palabra italiana."
+  },
+  {
+   "id": "r02-09",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Completá usando cada palabra una sola vez: il, le, la, in, da, dall', dell', dell', della, della.",
+   "propuesta": "Bajar la carga: 3-4 huecos con países ya conocidos, o pasar el desafío a una semana posterior.",
+   "motivo": "Desafío con Eolie, isola d'Elba, Slovacchia y Vienna: geografía y vocabulario muy por encima de A1 semana 3, con consigna larga de ubicar palabras únicas."
+  },
+  {
+   "id": "lettura w-03",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "¿Cómo está la calle de noche?",
+   "propuesta": "¿Cómo es la calle por la tarde-noche (la sera)?",
+   "motivo": "«la sera» es atardecer/noche; además la opción correcta mezcla «vacía» (sera) con «tranquila» (primera línea): la pregunta admite lectura global; agregar al menos un vero/falso con «non si dice»."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Reducir o repartir la carga: partitivo (qualche/alcuni/un po' di/nessun), preposiciones articuladas, posesivos y países en una sola semana A1 son demasiado. Mover nessun/alcuni/qualche y las sfide geográficas difíciles a semanas posteriores.",
+   "por_que": "Es contenido típicamente A2 apilado sobre el tema de artículos; 70 ítems + 24 de sfide + 17 bloques."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Rebalancear la práctica: hay ~10 ítems de indeterminados y ~20 de género/lo/gli, pero casi ninguno de producción con al/dal/nel/sul (solo se practica «di» en las sfide) ni con partitivo/qualche/alcuni/nessun (una sola pregunta cada uno en la lección).",
+   "por_que": "Puntos enseñados con muy pocos o ningún ejercicio propio (preposiciones articuladas distintas de di; partitivo)."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Corregir el criterio de las islas («chicas/grandes») en lesson:9, ar-u-10/11 y s:r02-08:e; y completar la receta de fusión para il/i (nel, dei) en lesson:12.",
+   "por_que": "Contenido falso o incompleto que el alumno memoriza como regla."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Arreglar el ejemplo roto de vocab «ragazzo» y reemplazar los ejemplos demasiado avanzados (finestra con condizionale).",
+   "por_que": "Error de datos visible y ejemplos que no corresponden al nivel."
+  },
+  {
+   "prioridad": "media",
+   "que": "Poner los ejercicios en contexto: casi todos son un artículo aislado + sustantivo. Agregar 8-10 frases cortas (Vorrei un caffè; Ho un'amica; Il sabato c'è il mercato) y ítems de tipo typed/listen sobre el tema «pedir en el bar».",
+   "por_que": "El fare «pedir algo en el bar» no se entrena: solo aparece en el dictogloss."
+  },
+  {
+   "prioridad": "media",
+   "que": "Asignar a una parte de la lección los ítems huérfanos (g2-gd-38, rf-1-16/17/22/23) y sacar los que exigen contenido no enseñado (numerales 90, elisión novant'anni, lenzuola, neanche).",
+   "por_que": "Coherencia entre teoría y práctica; evitar exigir gramática no vista."
+  },
+  {
+   "prioridad": "media",
+   "que": "Lectura: agregar preguntas vero/falso/non si dice (hoy son 3 preguntas literales de opción múltiple) y arreglar la caza de formas para separar preposiciones articuladas de partitivos; incluir países/posesivos/idioma para cubrir más reglas.",
+   "por_que": "Comprensión más rica y objetivo de la caza coherente con la etiqueta."
+  },
+  {
+   "prioridad": "media",
+   "que": "Suoni: reemplazar pares con no-palabras (bino, ghelato) y el par ésca/èsca (congiuntivo, dialectal) por pares reales del nivel; sumar pares vinculados a la semana (gli/li, gnocchi/nocchi, lo/il).",
+   "por_que": "Los pares actuales son genéricos y casi ninguno se relaciona con articoli/lo/gli."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Completar la teoría: excepciones en -a masculino (il problema), pariente con artículo (la mia mamma), idiomas sin artículo tras parlare, y una línea de repaso sobre el plural de los sustantivos (-o→-i, -a→-e, -co→-chi) o verificar que esté en semanas previas.",
+   "por_que": "Errores típicos del hispanohablante que hoy no se anticipan."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Unificar formato de opciones «(nada)» vs «—», agregar la variante ’ en los accept de las sfide y de rf-1-*, y traducir/ocultar los rótulos «Articles»/«Prepositions».",
+   "por_que": "Consistencia y evitar falsos negativos/inglés visible."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

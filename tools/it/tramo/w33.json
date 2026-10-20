@@ -1,0 +1,165 @@
+{
+  "week": 33,
+  "level": "B2",
+  "lettura": {
+    "title": "Parto o resto? La rubrica di Anna Lodi",
+    "emoji": "💼",
+    "genre": "rubrica di consigli",
+    "grammar": "periodo ipotetico (tre tipi)",
+    "text": "Cara Anna, ho ventinove anni, vivo a Bari e da tre anni lavoro con un contratto a tempo indeterminato in un'azienda di logistica. Lo stipendio non è alto, ma è sicuro, e la sera torno a casa in dieci minuti. Un mese fa un'azienda farmaceutica di Milano mi ha offerto un posto da responsabile acquisti: più soldi, più responsabilità, una carriera vera. Il problema è che il contratto è di due anni, e a Milano non conosco nessuno.\n\nSe accetto, dovrò lasciare il mio fidanzato, che qui ha appena aperto uno studio, e i miei genitori, che cominciano ad avere bisogno di me. Se rifiuto, temo di passare la vita a chiedermi che cosa mi sono persa. Mia madre dice che se avesse avuto un'occasione così alla mia età, sarebbe partita subito. Il mio ragazzo non dice niente, e forse è peggio. Che cosa faresti al mio posto? Giorgia\n\nCara Giorgia, prima di tutto una confessione: se mi avessi scritto vent'anni fa, ti avrei risposto senza esitare «parti». Ero convinta che la carriera fosse una scala da salire in fretta, e che chi restava fermo perdesse il treno. Oggi sono meno sicura, e credo che la tua domanda meriti una risposta meno istintiva.\n\nPartiamo dai fatti. Un contratto di due anni non è una condanna, ma nemmeno una garanzia. Se fossi in te, prima di decidere, chiederei all'azienda milanese alcune cose concrete: se esiste una reale possibilità di stabilizzazione, se prevedono un contributo per il trasferimento, e se una parte del lavoro si può svolgere a distanza. Se le risposte saranno vaghe, avrai già un'informazione importante. Se invece saranno precise e messe per iscritto, la proposta diventerà molto più seria.\n\nPoi ci sono le persone. Scrivi che il tuo ragazzo non dice niente. Forse tace perché teme che, se parlasse, influenzerebbe la tua scelta. Oppure perché non vuole ammettere che ha paura. In ogni caso, se non ne parlate apertamente adesso, rischiate di ritrovarvi fra due anni con un rancore che nessuno dei due ha scelto. Quanto ai tuoi genitori: se avessero davvero bisogno di assistenza quotidiana, la situazione sarebbe diversa. Da quello che racconti, però, non mi sembra ancora il caso, e Milano non è Sydney.\n\nInfine, una cosa su tua madre. Quando dice che se avesse avuto la tua occasione sarebbe partita, sta parlando di sé, non di te. È un rimpianto legittimo, ma non è una bussola. La domanda giusta non è «che cosa avrebbe fatto lei», ma «che cosa ti farebbe sentire viva fra cinque anni».\n\nIo non so quale sia la risposta. So però che se decidi per paura, in un senso o nell'altro, te ne pentirai. Se decidi dopo aver fatto tutte le domande, qualunque cosa succeda, sarà una scelta tua. Anna",
+    "gloss": {
+      "caso": "(non mi sembra il caso) no me parece que haga falta: *non è il caso* = no corresponde",
+      "quanto": "(quanto a) en cuanto a",
+      "indeterminato": "(a tempo indeterminato) efectivo, sin fecha de fin",
+      "acquisti": "compras",
+      "fidanzato": "novio",
+      "esitare": "dudar",
+      "scala": "escalera",
+      "istintiva": "instintiva, impulsiva",
+      "condanna": "condena",
+      "stabilizzazione": "pase a planta permanente",
+      "trasferimento": "mudanza, traslado",
+      "svolgere": "realizar",
+      "vaghe": "vagas",
+      "iscritto": "(per iscritto) por escrito",
+      "tace": "se calla",
+      "ritrovarvi": "encontrarse (ustedes)",
+      "rancore": "rencor",
+      "quotidiana": "diaria",
+      "rimpianto": "pena por lo que no se hizo",
+      "bussola": "brújula",
+      "pentirai": "(te ne pentirai) te vas a arrepentir",
+      "qualunque": "cualquier"
+    },
+    "questions": [
+      ["Qual è il dilemma di Giorgia?", ["Scegliere tra due aziende di logistica della sua città", "Scegliere tra sicurezza a casa e carriera altrove", "Decidere se sposarsi o riprendere gli studi", "Convincere il fidanzato a trasferirsi a Milano"], "Scegliere tra sicurezza a casa e carriera altrove"],
+      ["Come è cambiato nel tempo il punto di vista di Anna?", ["Oggi è più favorevole alla carriera", "Oggi è più prudente di un tempo", "Non ha mai cambiato idea sul tema", "Oggi pensa che partire sia sempre un errore"], "Oggi è più prudente di un tempo"],
+      ["Perché Anna consiglia di fare domande all'azienda?", ["Perché così si può ottenere uno stipendio molto più alto", "Perché le risposte mostrano se l'offerta è seria", "Perché l'azienda si aspetta una trattativa", "Perché il contratto potrebbe essere irregolare"], "Perché le risposte mostrano se l'offerta è seria"],
+      ["Che cosa pensa Anna della frase della madre di Giorgia?", ["È l'argomento più importante da considerare", "Dimostra che la madre è egoista", "Esprime un rimpianto suo, non un criterio", "È falsa, perché la madre non ebbe mai offerte"], "Esprime un rimpianto suo, non un criterio"],
+      ["Qual è il messaggio finale della rubrica?", ["Conta decidere con consapevolezza, non per paura", "È sempre meglio partire da giovani", "È sempre meglio restare vicino alla propria famiglia", "Bisogna seguire il parere dei genitori"], "Conta decidere con consapevolezza, non per paura"]
+    ],
+    "vf": [
+      ["Giorgia ha un contratto a tempo indeterminato.", "vero"],
+      ["L'offerta di Milano è a tempo indeterminato.", "falso"],
+      ["Il fidanzato di Giorgia ha ricevuto un'offerta a Milano.", "non si dice"],
+      ["Anna ha cambiato lavoro più volte nella sua vita.", "non si dice"],
+      ["Secondo Anna, i genitori di Giorgia hanno già bisogno di assistenza quotidiana.", "falso"]
+    ],
+    "hunt": {
+      "label": "Tocá los verbos de los periodi ipotetici (en la condición y en la consecuencia)",
+      "targets": ["accetto", "dovrò", "rifiuto", "temo", "avesse", "sarebbe", "avessi", "avrei", "fossi", "chiederei", "saranno", "avrai", "diventerà", "parlasse", "influenzerebbe", "parlate", "rischiate", "avessero", "decidi", "pentirai", "sarà"]
+    }
+  },
+  "ascolto": {
+    "title": "Tre strade dopo la fabbrica",
+    "genre": "trasmissione radiofonica di consulenza",
+    "es": "En un programa de radio sobre trabajo, una orientadora laboral atiende la llamada de un oyente de Brescia que perdió el empleo y duda entre tres caminos.",
+    "speakers": ["Silvia Moro, orientatrice", "Andrea, ascoltatore"],
+    "turns": [
+      ["A", "Buonasera, sei in onda con «Lavori in corso». Chi c'è al telefono?"],
+      ["B", "Buonasera, sono Andrea, ho quarantacinque anni e chiamo da Brescia."],
+      ["A", "Ciao Andrea. Raccontaci."],
+      ["B", "Allora, lavoravo in una fabbrica di componenti per auto, e a gennaio l'azienda ha chiuso lo stabilimento. Ho vent'anni di esperienza come tecnico di manutenzione, ma adesso, sinceramente, non so da che parte cominciare."],
+      ["A", "Mi dispiace. Immagino che non sia facile. Hai già delle idee?"],
+      ["B", "Ne ho tre, ed è proprio questo il problema. La prima: un mio ex collega lavora in Baviera e dice che, se andassi lì, troverei lavoro in un mese. La seconda: seguire un corso per diventare installatore di impianti solari. La terza, quella che mi piace di più ma mi fa più paura: aprire un'officina tutta mia."],
+      ["A", "Tre strade molto diverse. Posso farti qualche domanda?"],
+      ["B", "Certo."],
+      ["A", "Parli tedesco?"],
+      ["B", "No, per niente. Ecco, questo è il punto debole."],
+      ["A", "E la tua famiglia che cosa ne pensa?"],
+      ["B", "Mia moglie lavora qui, i ragazzi vanno al liceo. Se partissi, partirei da solo, almeno all'inizio."],
+      ["A", "Allora ti dico come la vedo. Se tu avessi trent'anni e nessun legame, ti direi: vai in Germania e impara la lingua lì. Ma nella tua situazione il costo sarebbe altissimo. Il corso sugli impianti solari, invece, è una scelta intelligente: è un settore che cerca tecnici, e la tua esperienza conta. Se ti iscrivi adesso, in pochi mesi puoi essere operativo."],
+      ["B", "E l'officina?"],
+      ["A", "L'officina non la escluderei, anzi. Ma io la vedrei come un secondo passo. Se avessi aperto un'attività a gennaio, subito dopo la chiusura, avresti rischiato la liquidazione e i risparmi di famiglia. Tra un paio d'anni, con un lavoro stabile e qualche cliente, sarà un'altra storia."],
+      ["B", "Cioè, prima il corso, poi eventualmente l'officina."],
+      ["A", "Esatto. E un'ultima cosa: non restare solo con queste decisioni. Parlane con tua moglie, e anche con i ragazzi."],
+      ["B", "Grazie, davvero. Mi ha già chiarito le idee."]
+    ],
+    "gloss": {
+      "onda": "(in onda) al aire",
+      "stabilimento": "planta (fábrica)",
+      "manutenzione": "mantenimiento",
+      "impianti": "instalaciones",
+      "officina": "taller",
+      "legame": "vínculo, atadura",
+      "iscrivi": "anotás",
+      "operativo": "trabajando, en actividad",
+      "liquidazione": "indemnización",
+      "risparmi": "ahorros"
+    },
+    "questions": [
+      ["Perché Andrea chiama la trasmissione?", ["Vuole protestare per la chiusura improvvisa della fabbrica", "Ha perso il lavoro e non sa che strada scegliere", "Cerca un socio per aprire un'officina", "Vuole informazioni su un corso di tedesco"], "Ha perso il lavoro e non sa che strada scegliere"],
+      ["Quale ostacolo vede la consulente nell'opzione tedesca?", ["Il costo altissimo degli affitti in Baviera", "La mancanza di lavoro per i tecnici", "La lingua e la lontananza dalla famiglia", "L'età ormai troppo avanzata di Andrea"], "La lingua e la lontananza dalla famiglia"],
+      ["Che cosa consiglia di fare per prima cosa?", ["Seguire il corso sugli impianti solari", "Aprire subito l'officina", "Trasferirsi in Germania con tutta la famiglia", "Aspettare che riapra la fabbrica"], "Seguire il corso sugli impianti solari"],
+      ["Che cosa pensa la consulente dell'officina?", ["È un'idea da scartare del tutto", "È un buon progetto, ma per più avanti", "È la scelta migliore da fare subito", "È troppo costosa per chi ha una famiglia"], "È un buon progetto, ma per più avanti"],
+      ["Come si sente Andrea alla fine della telefonata?", ["Ancora più confuso di prima", "Deluso dai consigli ricevuti", "Con le idee più chiare", "Arrabbiato con la consulente"], "Con le idee più chiare"]
+    ],
+    "vf": [
+      ["Andrea ha lavorato vent'anni come tecnico.", "vero"],
+      ["Andrea parla un po' di tedesco.", "falso"],
+      ["La moglie di Andrea è contraria all'officina.", "non si dice"],
+      ["La consulente esclude del tutto l'idea dell'officina.", "falso"]
+    ]
+  },
+  "compito": {
+    "genre": "lettera_formale",
+    "title": "Lettera all'ufficio del personale",
+    "fonte": "lettura",
+    "t": "Immagina di essere Giorgia: hai deciso di seguire i consigli della rubrica di Anna Lodi prima di rispondere all'offerta dell'azienda milanese. Scrivi una lettera formale all'ufficio del personale (154-214 parole, registro formale) in cui ringrazi per l'offerta, esprimi interesse e fai le domande concrete suggerite nella rubrica: possibilità di stabilizzazione, contributo per il trasferimento, lavoro a distanza. Usa almeno due periodi ipotetici.",
+    "es": "Sos Giorgia. Carta formal a Recursos Humanos: agradecer, mostrar interés y hacer las tres preguntas que sugiere la columna. Meté al menos dos periodi ipotetici (se così fosse…, se le condizioni lo permetteranno…).",
+    "min": 154,
+    "max": 214,
+    "punti": [
+      ["agradecer la oferta", ["ringrazi", "grazie"]],
+      ["preguntar por el pase a planta", ["stabilizz", "indeterminato", "rinnov"]],
+      ["preguntar por la ayuda para la mudanza", ["trasferiment", "trasloco", "alloggio"]],
+      ["preguntar por el trabajo a distancia", ["distanza", "remoto", "smart"]],
+      ["fórmula de cierre formal", ["distinti saluti", "cordiali saluti", "in attesa"]]
+    ],
+    "model": "Spettabile Ufficio del Personale,\n\nvi ringrazio per la proposta di lavoro come responsabile acquisti che mi avete inviato la settimana scorsa. Sono molto interessata alla posizione e all'idea di contribuire alla crescita della vostra azienda.\n\nPrima di prendere una decisione definitiva, tuttavia, vorrei chiarire alcuni aspetti, dal momento che accettare significherebbe trasferirmi da Bari a Milano.\n\nIn primo luogo, il contratto proposto ha una durata di due anni. Vi sarei grata se poteste indicarmi quali sono, in concreto, le possibilità di stabilizzazione alla scadenza e secondo quali criteri verrebbero valutate.\n\nIn secondo luogo, vorrei sapere se l'azienda prevede un contributo per le spese di trasferimento o un aiuto nella ricerca di un alloggio. Se così fosse, la mia decisione sarebbe senz'altro più semplice.\n\nInfine, vi chiedo se sia possibile svolgere una parte dell'attività a distanza, per esempio uno o due giorni alla settimana.\n\nSe le condizioni lo permetteranno, sarò felice di iniziare già dal mese prossimo. Resto in attesa di un vostro gentile riscontro.\n\nDistinti saluti,\nGiorgia Lamanna",
+    "gloss": {
+      "Spettabile": "fórmula de saludo a una empresa u oficina: «De mi consideración»",
+      "dal momento che": "dado que, ya que (se ve en la semana 49)",
+      "stabilizzazione": "pase a planta permanente, contrato por tiempo indeterminado",
+      "alla scadenza": "al vencimiento (del contrato)",
+      "Vi sarei grata se poteste": "les agradecería que pudieran (se + congiuntivo imperfetto)",
+      "alloggio": "vivienda, alojamiento",
+      "senz'altro": "sin duda",
+      "riscontro": "respuesta"
+    }
+  },
+  "breve": {
+    "title": "Annunci al binario",
+    "genre": "annuncio in stazione",
+    "es": "Los avisos por altoparlante en una estación: un tren demorado, un cambio de andén y una prohibición.",
+    "speaker": "Voce della stazione",
+    "voice": 1,
+    "text": [
+      "Attenzione! Il treno Frecciarossa 9542 per Milano Centrale, previsto in partenza alle 14 e 20 dal binario 7, partirà con un ritardo stimato di 35 minuti per un guasto a un treno che lo precede. Ci scusiamo per il disagio.",
+      "I viaggiatori del Frecciarossa 9542 che hanno una coincidenza a Bologna possono rivolgersi al personale di bordo. Se il ritardo dovesse superare i sessanta minuti, i viaggiatori avrebbero diritto a un rimborso del venticinque per cento del prezzo del biglietto.",
+      "Attenzione! Il treno regionale 3310 per Lecce, in partenza alle 14 e 35, oggi partirà dal binario 2 anziché dal binario 4. Si prega di non attraversare i binari e di utilizzare il sottopassaggio.",
+      "Si ricorda che è vietato fumare in tutta la stazione, anche sulle banchine. Grazie."
+    ],
+    "tabella": [
+      ["Binario del Frecciarossa per Milano", "7", ["sette", "binario 7"]],
+      ["Ritardo stimato (minuti)", "35", ["trentacinque"]],
+      ["Rimborso se il ritardo supera un'ora (%)", "25", ["venticinque", "25%", "25 per cento", "venticinque per cento"]],
+      ["Binario di oggi del treno per Lecce", "2", ["due", "binario 2"]]
+    ],
+    "info": [
+      ["Il Frecciarossa è in ritardo per un guasto a un altro treno.", true],
+      ["Chi ha una coincidenza a Bologna può parlare con il personale di bordo.", true],
+      ["Con più di un'ora di ritardo si ha diritto a un rimborso.", true],
+      ["Il treno per Lecce è stato cancellato.", false],
+      ["Per cambiare binario si possono attraversare i binari.", false],
+      ["Si può fumare solo sulle banchine.", false]
+    ],
+    "gloss": {
+      "binario": "andén, vía",
+      "guasto": "avería, desperfecto",
+      "coincidenza": "combinación, conexión",
+      "sottopassaggio": "paso bajo nivel",
+      "banchine": "andenes"
+    }
+  }
+}

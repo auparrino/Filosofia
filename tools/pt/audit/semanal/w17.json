@@ -1,0 +1,245 @@
+{
+ "week": 17,
+ "title": "Futuro do presente",
+ "level": "B1",
+ "revisado": {
+  "items": 47,
+  "bloques_teoria": 6,
+  "lecturas": 3,
+  "dictogloss": 1,
+  "suoni": 7,
+  "radio": 1,
+  "otros": 1
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida y bien enfocada: la forma del futuro, los tres irregulares, el contraste hablado/escrito (vou + infinitivo), «Será que» y el clima están enseñados con claridad y contraste con el español. Los ejercicios son casi todos correctos y con buen margen de aceptación. Hay un error de contenido en la teoría (qué formas llevan tilde), una regla falsa en el puente -aje/-agem (personagem), una respuesta aceptada dudosa («Está muito calor») y varios detalles menores de naturalidad y diseño. La práctica se concentra en reconocimiento con distractores hispanizados y falta producción libre.",
+ "bien": [
+  "La teoría ataca los errores típicos del hispanohablante: «tendrei/podrei/vendrei», «falarán», «fazerei», con tablas y advertencias específicas.",
+  "El eje hablado vs. escrito (vou + infinitivo, vou à praia, a gente vai) está bien resuelto y repetido en ítems, lectura y radioteatro.",
+  "«Será que...?» como marca brasileña de la duda, y la mesóclise presentada solo para reconocimiento con la alternativa eu lhe direi.",
+  "Las lecturas ep5 (entrevista formal «como um livro») y la radio usan el futuro con intención pragmática y humor, y el dictogloss cubre irregulares y regulares.",
+  "Buenos márgenes de `accept` en las traducciones (14, 30, 31, 44) y buena mezcla de tipos: choice, cloze, typed, garden, fixerr, translate, scopri.",
+  "Vocabulario temático (clima, estudios, Carnaval) coherente con el tema declarado y con notas culturales correctas."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:0",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Todas llevan tilde menos *nós*: *falarei, falará, falaremos, falarão*.",
+   "propuesta": "Llevan marca gráfica *-ás, -á, -ão*; *-ei* y *-emos* no llevan tilde: *falarei, falaremos*.",
+   "motivo": "«falarei» (eu) tampoco lleva tilde; la afirmación es falsa y contradice el propio ejemplo."
+  },
+  {
+   "id": "laboratorio:agem",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Las palabras en **-aje** pasan a **-agem** y son **femeninas**",
+   "propuesta": "«...y son casi todas femeninas (excepción: o personagem, que también se oye a personagem)».",
+   "motivo": "personagem es masculino en el uso corriente; la lista de words lo incluye."
+  },
+  {
+   "id": "item s2-17-43",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Está muito calor",
+   "propuesta": "Quitar «Está muito calor» de accept (dejar «Faz muito calor», «Está fazendo muito calor», «Está muito quente»).",
+   "motivo": "«Está calor» es uso europeo/coloquial no estándar en pt-BR y contradice la lección (faz calor)."
+  },
+  {
+   "id": "lettura ep5",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "— E se eu não entendo uma pergunta?",
+   "propuesta": "— E se eu não entender uma pergunta?",
+   "motivo": "Tras «se» condicional de futuro eventual el estándar pide subjuntivo; «não entendo» es calco de «si no entiendo»."
+  },
+  {
+   "id": "radio Previsão para o carnaval",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Na minha língua, Caio: no sábado vai chover, sim.",
+   "propuesta": "Traduzindo, Caio: no sábado vai chover, sim.",
+   "motivo": "«Na minha língua» suena forzado; la idea es «en lenguaje llano/traduciendo»."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "*Será que...?* es una de las marcas más brasileñas",
+   "propuesta": "«*Será que...?* es muy frecuente en la lengua hablada de Brasil (también existe en Portugal)».",
+   "motivo": "Exagerado como marca exclusivamente brasileña; también se usa en Portugal."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "en Brasil se dice *Onde será que ele está?*",
+   "propuesta": "Agregar que «Onde estará ele?» (conjetura con futuro) también existe, más formal/escrito.",
+   "motivo": "El futuro simple también expresa conjetura en portugués; la advertencia lo presenta como inexistente."
+  },
+  {
+   "id": "lesson:2",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "[\"*Vou* à praia depois. / *Vou ir* à praia depois. (habla)\", \"Voy a ir a la playa después.\"]",
+   "propuesta": "Separar en dos ejemplos: «Vou à praia depois» = «Voy a la playa después»; «Vou ir à praia» (coloquial) = «Voy a ir a la playa».",
+   "motivo": "La traducción solo corresponde a la segunda frase."
+  },
+  {
+   "id": "lesson:5",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Te ligarei-te amanhã.",
+   "propuesta": "Sustituir por una opción plausible, p. ej. «Ligarei-te amanhã».",
+   "motivo": "Distractor absurdo, se descarta por forma y no por la regla de colocación."
+  },
+  {
+   "id": "lesson:1",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"options\": [\"Teremos\", \"Tendremos\", \"Tenderemos\"]",
+   "propuesta": "Mantener un solo distractor hispanizado y añadir uno que pruebe otra regla (p. ej. «Terêmos»/«Teriamos» para contrastar con el condicional).",
+   "motivo": "Los distractores se reconocen por no parecer portugués, no por la regla."
+  },
+  {
+   "id": "item s2-17-18",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Veja os três exemplos e complete o quarto.",
+   "propuesta": "Mostrar efectivamente los ejemplos en el enunciado, o cambiar la consigna a «Completá el futuro».",
+   "motivo": "El enunciado solo trae «fazer → ___»; no hay tres ejemplos visibles y la consigna es la misma en 18, 19 y 20."
+  },
+  {
+   "id": "item s2-17-27",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Amanhã eu ___ trabalhar cedo. (ir, habla)",
+   "propuesta": "Reemplazar por otro verbo (p. ej. «Sábado nós ___ à praia») o eliminar.",
+   "motivo": "Casi duplicado del q de la lección, de s2-17-24 y de la traducción s2-17-30."
+  },
+  {
+   "id": "item s2-17-32",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"accept\": [\"Irei à praia amanhã.\"]",
+   "propuesta": "Agregar «Vou à praia amanhã.» y «Amanhã irei à praia.»",
+   "motivo": "Quien corrige con la forma hablada, que la nota misma ofrece, queda marcado como error."
+  },
+  {
+   "id": "item s2-17-30",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"Amanhã eu trabalharei cedo\"",
+   "propuesta": "Añadir «Amanhã eu trabalho cedo» y «Amanhã vou trabalhar cedo».",
+   "motivo": "El presente con marca temporal está enseñado en la lección y es lo más natural."
+  },
+  {
+   "id": "item s2-17-31",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Vou te ligar hoje à noite",
+   "propuesta": "Añadir «Vou te ligar de noite» y quitar «hoje», que no está en el enunciado.",
+   "motivo": "El original no dice «hoy»; falta la variante «de noite» muy usada en Brasil."
+  },
+  {
+   "id": "item s2-17-36",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Olha o céu: amanhã ___ sol.",
+   "propuesta": "Cambiar el contexto a un pronóstico escrito («Segundo o boletim, amanhã ___ sol.»).",
+   "motivo": "«Olha o céu» es registro hablado, donde lo natural sería «vai fazer»."
+  },
+  {
+   "id": "item s2-17-20",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "ter, poder y saber son regulares en portugués (al revés que en español); trazer, en cambio, pierde -ze-: trarei.",
+   "propuesta": "«ter y poder son regulares (al revés que en español); trazer, en cambio, pierde -ze-: trarei.»",
+   "motivo": "saber no aparece en la lección; confunde."
+  },
+  {
+   "id": "lesson:5",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Eu *lhe direi* a verdade.",
+   "propuesta": "Añadir en la lección «ir» (irei, iremos) y «ver» (verei, verá) a la tabla.",
+   "motivo": "Ítems 24, 32 y la lectura exigen irei/verá/veremos y la tabla no los incluye."
+  },
+  {
+   "id": "lettura ep6",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"grammar\": \"pronomes objeto\"",
+   "propuesta": "Trasladar ep6 a la semana de pronombres o añadir un bloque breve sobre colocación (me ligar / contatá-lo) y añadir «o» de «Eu o vi» a targets.",
+   "motivo": "La lectura no practica el futuro y el hunt omite «Eu o vi» y varios «me»."
+  },
+  {
+   "id": "vocab lição de casa",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Más de São Paulo; en Río se oye más *dever de casa*.",
+   "propuesta": "«Se oyen las dos; *dever de casa* es la más extendida por todo Brasil».",
+   "motivo": "Afirmación regional difícil de sostener."
+  },
+  {
+   "id": "lettura w-17",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "A Sofía as escreveu num papel",
+   "propuesta": "A Sofía escreveu as promessas num papel",
+   "motivo": "La próclisis de «as» con perfeito en prosa narrativa suena rebuscada para B1; además «manda» en el gloss no aporta («como manda a tradição»)."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Corregir la regla de tildes del bloque 0 (solo -ás, -á, -ão llevan marca) y añadir ir y ver a la tabla de irregulares/regulares.",
+   "por_que": "Es un error en la teoría y hay ítems que exigen formas no mostradas."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Añadir producción semicontrolada: responder un pronóstico, una promesa o una previsión propia con futuro, y un ítem que contraste futuro simple con condicional (falarei/falaria).",
+   "por_que": "Casi todo es reconocimiento con distractores hispanizados; no hay contraste con el condicional ni producción libre."
+  },
+  {
+   "prioridad": "media",
+   "que": "Variar los distractores: menos formas calcadas del español (tendrá, vendrão, hará) y más contrastes de regla (-á/-ão, perfeito/futuro, faz/fazem).",
+   "por_que": "La respuesta se descarta por no parecer portugués."
+  },
+  {
+   "prioridad": "media",
+   "que": "Practicar la forma «tu» (-ás) y «a gente/vocês» o retirarla de la tabla.",
+   "por_que": "Se presenta en la tabla y nunca se pide; los cinco ítems de eu y eles/nós dominan."
+  },
+  {
+   "prioridad": "media",
+   "que": "Mencionar brevemente el futuro del subjuntivo («quando chegar», «se entender») como adelanto o al menos corregir ep5.",
+   "por_que": "Hablar del futuro en portugués lo exige y hoy el curso lo contradice en la lectura."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Unificar el idioma de las consignas (algunas en pt, otras en español) y reducir ítems casi duplicados (24/27/30; 35/45).",
+   "por_que": "Coherencia y carga de la lección."
+  },
+  {
+   "prioridad": "baja",
+   "que": "El puente -aje/-agem está desvinculado del tema de la semana; moverlo o reenmarcarlo, y evitar repetir «vento» en dos pares mínimos (p-046 y p-120).",
+   "por_que": "Cohesión temática y variedad de pares."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 3
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

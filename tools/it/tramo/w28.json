@@ -1,0 +1,162 @@
+{
+  "week": 28,
+  "level": "B2",
+  "lettura": {
+    "title": "Borghi, la seconda vita è possibile?",
+    "emoji": "🏘️",
+    "genre": "articolo d'opinione",
+    "grammar": "connettivi e transizioni",
+    "text": "Da qualche anno i giornali di mezzo mondo raccontano la stessa storia: un paesino italiano, arroccato su una collina, mette in vendita le sue case abbandonate a un euro. Le immagini sono irresistibili: vicoli di pietra, panorami sul mare o sulle montagne, anziani seduti davanti alla chiesa. Di conseguenza, migliaia di stranieri scrivono ai municipi, sognando una nuova vita tra ulivi e campanili. Eppure, a distanza di tempo, vale la pena chiedersi che cosa sia rimasto di tanto entusiasmo.\n\nInnanzitutto, bisogna chiarire un equivoco. La casa a un euro non costa un euro. Anzi, chi la compra si impegna di solito a ristrutturarla entro pochi anni, e i lavori possono costare decine di migliaia di euro. Inoltre, molti edifici sono in condizioni tali che converrebbe quasi demolirli. Non a caso, una parte degli acquirenti ha rinunciato dopo il primo sopralluogo.\n\nD'altra parte, sarebbe ingiusto parlare di un fallimento. In alcuni borghi le iniziative hanno davvero riportato un po' di vita: una coppia olandese ha aperto un piccolo albergo, un'artista americana organizza corsi estivi, qualche famiglia italiana è tornata dalla città. Allo stesso modo, la diffusione del lavoro da remoto dopo la pandemia ha reso credibile un'idea che prima sembrava romantica: vivere in un paese di trecento abitanti senza rinunciare a uno stipendio da città.\n\nTuttavia, il problema dei borghi non si risolve con le case. Si risolve, piuttosto, con i servizi. Una famiglia con figli non si trasferisce dove la scuola ha chiuso, dove il medico passa una volta alla settimana e dove l'autobus per il capoluogo parte due volte al giorno. Per questo motivo, molti sindaci ormai dicono chiaramente che il vero investimento non è il cartello «vendesi», bensì la banda larga, l'ambulatorio, il trasporto pubblico.\n\nC'è infine una questione più delicata, cioè che cosa vogliamo che diventino questi paesi. Se si riempiono soltanto di case per le vacanze, abitate due mesi all'anno, rischiano di trasformarsi in cartoline: bellissime, ma vuote. In altre parole, un borgo vive solo se qualcuno ci passa l'inverno.\n\nInsomma, le case a un euro hanno avuto almeno un merito: hanno costretto il Paese a guardare le sue aree interne, che per decenni erano rimaste invisibili. Adesso, però, serve una politica meno spettacolare e più paziente. Altrimenti, finito il clamore, resteranno soltanto le foto.",
+    "gloss": {
+      "finito": "(finito il clamore) una vez terminado el revuelo: participio solo, sin verbo conjugado (semana 44)",
+      "reso": "(ha reso credibile) volvió creíble: *rendere* + adjetivo = volver, hacer; participio *reso*",
+      "caso": "(non a caso) no por casualidad",
+      "arroccato": "encaramado",
+      "vicoli": "callejones",
+      "municipi": "municipalidades",
+      "ulivi": "olivos",
+      "campanili": "campanarios",
+      "equivoco": "malentendido",
+      "ristrutturarla": "refaccionarla",
+      "converrebbe": "convendría",
+      "demolirli": "demolerlos",
+      "acquirenti": "compradores",
+      "sopralluogo": "visita de inspección",
+      "fallimento": "fracaso",
+      "stipendio": "sueldo",
+      "capoluogo": "capital de provincia",
+      "sindaci": "intendentes",
+      "vendesi": "se vende",
+      "bensì": "sino",
+      "ambulatorio": "salita, consultorio",
+      "cartoline": "postales",
+      "costretto": "obligado",
+      "clamore": "revuelo"
+    },
+    "questions": [
+      ["Qual è la tesi principale dell'autore?", ["Le case a un euro sono state una truffa per stranieri", "Per salvare i borghi servono servizi, non case", "I borghi devono puntare sul turismo estivo", "Il lavoro da remoto ha già ripopolato i paesi"], "Per salvare i borghi servono servizi, non case"],
+      ["Perché l'autore dice che «la casa a un euro non costa un euro»?", ["Perché i comuni aggiungono tasse nascoste", "Perché obbliga a spendere molto nei lavori", "Perché il prezzo reale è stato aumentato dopo", "Perché bisogna pagare un intermediario"], "Perché obbliga a spendere molto nei lavori"],
+      ["Qual è la funzione del terzo paragrafo?", ["Presentare i dati ufficiali dell'iniziativa", "Spiegare le cause del fallimento del progetto", "Bilanciare la critica con esempi positivi", "Raccontare un'esperienza personale dell'autore"], "Bilanciare la critica con esempi positivi"],
+      ["Che cosa intende l'autore con «cartoline: bellissime, ma vuote»?", ["Paesi famosi solo sui social network", "Paesi curati ma senza abitanti tutto l'anno", "Paesi restaurati male e senza alcun gusto", "Paesi che vivono vendendo souvenir ai turisti"], "Paesi curati ma senza abitanti tutto l'anno"],
+      ["Quale merito riconosce l'autore alle case a un euro?", ["Aver attirato l'attenzione sulle aree interne", "Aver risolto lo spopolamento dei paesi", "Aver riportato i giovani nei borghi", "Aver fatto guadagnare molto i comuni"], "Aver attirato l'attenzione sulle aree interne"]
+    ],
+    "vf": [
+      ["Alcuni acquirenti hanno rinunciato dopo aver visto le case.", "vero"],
+      ["Secondo l'autore, l'iniziativa è stata un fallimento completo.", "falso"],
+      ["L'autore ha visitato di persona alcuni borghi.", "non si dice"],
+      ["Molti sindaci ritengono i servizi più importanti delle case in vendita.", "vero"],
+      ["Chi compra una casa a un euro non ha alcun obbligo.", "falso"]
+    ],
+    "hunt": {
+      "label": "Tocá los conectores",
+      "targets": ["eppure", "innanzitutto", "anzi", "inoltre", "tuttavia", "piuttosto", "bensì", "cioè", "insomma", "altrimenti", "però", "infine"]
+    }
+  },
+  "ascolto": {
+    "title": "Partire o restare",
+    "genre": "podcast",
+    "es": "En un podcast sobre italianos que emigran, la conductora conversa con un biólogo que vive en Berlín desde hace años sobre por qué se fue y si piensa volver.",
+    "speakers": ["Giulia, conduttrice", "Davide, biologo"],
+    "turns": [
+      ["A", "Bentornati a «Valigie», il podcast sugli italiani che partono e, qualche volta, tornano. Oggi con me c'è Davide, trentaquattro anni, biologo, che vive a Berlino da sette anni. Ciao Davide."],
+      ["B", "Ciao Giulia, grazie per avermi invitato."],
+      ["A", "Allora, la domanda classica: perché sei partito?"],
+      ["B", "Guarda, la risposta non è romantica. Avevo finito il dottorato a Padova e mi offrivano solo contratti di sei mesi, pagati poco e male. A Berlino, invece, mi hanno proposto un posto di tre anni, con uno stipendio normale. Quindi non è stata una scelta difficile, almeno all'inizio."],
+      ["A", "All'inizio. Vuol dire che poi è diventata difficile?"],
+      ["B", "Sì, cioè, non difficile: complicata. Il lavoro va bene, anzi benissimo. Però a un certo punto ti accorgi che i tuoi genitori invecchiano, che i tuoi amici fanno figli e tu li vedi su WhatsApp. Insomma, paghi un prezzo che non avevi calcolato."],
+      ["A", "C'è chi dice che quelli come te sono una perdita per il Paese. Tu come la vedi?"],
+      ["B", "Mah, in parte è vero: l'Italia spende per formarci e poi il frutto lo raccoglie un altro Paese. D'altra parte, però, non mi sento un disertore. Collaboro con due università italiane, porto studenti a Berlino, faccio da ponte, diciamo."],
+      ["A", "E tornare? Ci pensi?"],
+      ["B", "Ci penso ogni inverno, quando fa buio alle quattro. Scherzi a parte, tornerei se trovassi un posto stabile e un ambiente dove il merito conta davvero. Finora non l'ho trovato. Comunque non escludo niente."],
+      ["A", "Un'ultima cosa: che consiglio daresti a chi sta per partire?"],
+      ["B", "Di partire senza sensi di colpa, ma anche senza tagliare i ponti. Perché, prima o poi, la voglia di casa arriva a tutti."],
+      ["A", "Grazie, Davide. E voi, scriveteci le vostre storie."]
+    ],
+    "gloss": {
+      "vedi": "(tu come la vedi?) ¿vos cómo lo ves?: el *la* no se refiere a nada concreto, es «la cosa»",
+      "dottorato": "doctorado",
+      "accorgi": "(te) das cuenta",
+      "invecchiano": "envejecen",
+      "perdita": "pérdida",
+      "formarci": "formarnos",
+      "raccoglie": "cosecha",
+      "disertore": "desertor",
+      "ponte": "puente (faccio da ponte: hago de puente; *fare da* = hacer de)",
+      "buio": "oscuro, de noche",
+      "scherzi": "bromas (scherzi a parte: hablando en serio)",
+      "colpa": "culpa (sensi di colpa: culpa)",
+      "tagliare": "cortar"
+    },
+    "questions": [
+      ["Perché Davide è partito?", ["Per seguire la compagna in Germania", "Per avere un contratto più lungo e pagato meglio", "Perché voleva imparare bene il tedesco", "Perché a Padova non c'era il suo corso di dottorato"], "Per avere un contratto più lungo e pagato meglio"],
+      ["Che cosa intende con «paghi un prezzo che non avevi calcolato»?", ["La vita a Berlino è molto più cara di quanto pensasse", "Le tasse tedesche sono molto più alte", "La lontananza dagli affetti pesa più del previsto", "Ha dovuto pagare da solo il trasloco"], "La lontananza dagli affetti pesa più del previsto"],
+      ["Come reagisce Davide all'idea di essere «una perdita per il Paese»?", ["La rifiuta del tutto e con rabbia", "La accetta in parte, ma si sente un ponte", "Dice che è colpa delle università italiane", "Dice che l'argomento non gli interessa"], "La accetta in parte, ma si sente un ponte"],
+      ["A quali condizioni tornerebbe in Italia?", ["Uno stipendio più alto di quello tedesco", "Un posto vicino alla famiglia a Padova", "Un lavoro stabile e un ambiente meritocratico", "La direzione di un laboratorio tutto suo"], "Un lavoro stabile e un ambiente meritocratico"],
+      ["Qual è il consiglio finale di Davide?", ["Non partire se si hanno genitori anziani", "Partire solo con un contratto già firmato", "Tornare in Italia entro pochi anni", "Partire senza colpa, mantenendo i legami"], "Partire senza colpa, mantenendo i legami"]
+    ],
+    "vf": [
+      ["Davide vive a Berlino da sette anni.", "vero"],
+      ["Davide ha interrotto ogni rapporto con le università italiane.", "falso"],
+      ["Davide parla bene il tedesco.", "non si dice"],
+      ["Davide esclude di tornare in Italia.", "falso"]
+    ]
+  },
+  "compito": {
+    "genre": "sintesi",
+    "title": "Sintesi: i borghi e le case a un euro",
+    "fonte": "lettura",
+    "t": "Il notiziario di un'associazione culturale italo-argentina ti chiede di riassumere per i soci l'articolo «Borghi, la seconda vita è possibile?». Scrivi una sintesi (126-186 parole, registro neutro) in cui riporti la tesi dell'autore, gli argomenti a favore e contro le case a un euro e la conclusione. Non aggiungere opinioni personali e collega le idee con connettivi adeguati.",
+    "es": "Resumen objetivo del artículo: tesis, argumentos a favor y en contra, conclusión. Nada de opinión propia; usá conectores (innanzitutto, tuttavia, inoltre, in conclusione).",
+    "min": 126,
+    "max": 186,
+    "punti": [
+      ["la tesis del autor (servicios, no casas)", ["servizi", "tesi", "secondo l'autore"]],
+      ["el costo real de las casas", ["ristruttur", "lavori", "spes"]],
+      ["los ejemplos positivos", ["remoto", "positiv", "albergo", "esempi"]],
+      ["la conclusión", ["conclusione", "infine", "insomma", "aree interne"]]
+    ],
+    "model": "L'articolo analizza il fenomeno delle case vendute a un euro nei piccoli borghi italiani e si chiede se queste iniziative abbiano davvero salvato i paesi dallo spopolamento.\n\nInnanzitutto, l'autore chiarisce che il prezzo simbolico è ingannevole: chi compra deve ristrutturare entro pochi anni, spesso con spese molto alte, e infatti diversi acquirenti hanno rinunciato. Tuttavia, riconosce che in alcuni borghi l'iniziativa ha prodotto risultati positivi, anche grazie alla diffusione del lavoro da remoto, che permette di vivere lontano dalle città.\n\nSecondo l'autore, però, il nodo centrale non sono le case ma i servizi: senza scuole, medici e trasporti nessuna famiglia si trasferisce. Inoltre, se i paesi si riempiono solo di seconde case, rischiano di diventare scenografie vuote.\n\nIn conclusione, l'articolo riconosce alle case a un euro il merito di aver attirato l'attenzione sulle aree interne, ma sostiene che ora servano politiche pazienti e concrete.",
+    "gloss": {
+      "borghi": "pueblos antiguos, pueblitos históricos",
+      "abbiano davvero salvato": "hayan salvado realmente (congiuntivo passato: se ve en la semana 29)",
+      "ingannevole": "engañoso",
+      "acquirenti": "compradores",
+      "il nodo centrale": "el punto clave, el meollo",
+      "scenografie vuote": "decorados vacíos, escenografías",
+      "aree interne": "las zonas del interior, lejos de la costa y de las ciudades"
+    }
+  },
+  "breve": {
+    "title": "Porte aperte a Rocca San Felice",
+    "genre": "annuncio radiofonico",
+    "es": "Un aviso de radio invita a un pueblo del interior que abre sus casas en venta durante un día.",
+    "speaker": "Voce dell'annuncio",
+    "voice": 1,
+    "text": [
+      "Siete stanchi del traffico? Sognate una casa con vista sulle colline? Allora non perdete «Porte aperte a Rocca San Felice», domenica 12 maggio.",
+      "Per un giorno intero, dalle dieci alle diciotto, il paese apre al pubblico venti case in vendita nel centro storico. Inoltre, i tecnici del Comune spiegheranno gratuitamente quanto costa ristrutturarle e quali contributi si possono chiedere.",
+      "Non solo case, però: a mezzogiorno pranzo in piazza con i prodotti del territorio, a quindici euro; nel pomeriggio, visita guidata al castello e laboratorio del pane per i bambini.",
+      "Come arrivare? Dalla stazione di Avellino parte una navetta gratuita ogni ora, a partire dalle nove. Tuttavia i posti sono limitati: è necessario prenotare sul sito del Comune entro venerdì.",
+      "Rocca San Felice: trecento abitanti, e c'è posto anche per voi."
+    ],
+    "tabella": [
+      ["Case aperte al pubblico (numero)", "20", ["venti"]],
+      ["Prezzo del pranzo in piazza (euro)", "15", ["quindici"]],
+      ["Stazione da cui parte la navetta", "Avellino", ["stazione di Avellino"]],
+      ["Ultimo giorno per prenotare", "venerdì", ["entro venerdì"]]
+    ],
+    "info": [
+      ["Le case si possono visitare per un giorno intero.", true],
+      ["I tecnici del Comune si fanno pagare le spiegazioni.", false],
+      ["Nel pomeriggio c'è un'attività per i bambini.", true],
+      ["La navetta dalla stazione costa due euro.", false],
+      ["Il castello si visita con una guida.", true],
+      ["Il paese ha tremila abitanti.", false]
+    ],
+    "gloss": {
+      "ristrutturarle": "refaccionarlas",
+      "contributi": "subsidios, ayudas",
+      "navetta": "combi, lanzadera"
+    }
+  }
+}

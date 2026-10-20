@@ -1,0 +1,33 @@
+{
+  "series": { "id": "lunga", "name": "Letture lunghe", "emoji": "📰",
+    "blurb": "De la semana 27 en adelante, un texto largo por semana (de 350 a 900 palabras) de un género real, con preguntas en italiano como en el CILS y el CELI." },
+  "names": { "ascolto": "Ascolti lunghi", "breve": "Ascolti brevi" },
+  "GENRES": {
+    "lettera_formale": { "name": "Lettera formale", "paragraphs": 3,
+      "open": ["\\b(gentile|gentili|egregio|egregia|spettabile|spett\\.le|alla cortese attenzione|all'attenzione)\\b"],
+      "close": ["\\b(distinti saluti|cordiali saluti|in attesa di un suo|in attesa di un vostro|la ringrazio|vi ringrazio|porgo|con osservanza)"],
+      "openHint": "Gentile…, Egregio…, Spettabile…", "closeHint": "Distinti saluti, In attesa di un Suo riscontro…",
+      "hint": "Registro formale con il Lei: apertura, motivo della lettera, sviluppo, richiesta concreta, chiusura e firma." },
+    "email_informale": { "name": "E-mail informale", "paragraphs": 3,
+      "open": ["\\b(cara|caro|care|cari|ciao|carissim[aoie])\\b"],
+      "close": ["\\b(un abbraccio|a presto|baci|un bacio|ciao|fammi sapere|ti abbraccio|a prestissimo|un saluto)\\b"],
+      "openHint": "Caro…, Ciao…", "closeHint": "Un abbraccio, A presto…",
+      "hint": "Registro informale con il tu, ma con paragrafi ordinati: saluto, motivo, sviluppo, saluto finale." },
+    "lettera_lettore": { "name": "Lettera al giornale", "paragraphs": 3,
+      "open": ["\\b(gentile|egregio|egregia|cara redazione|spettabile|caro direttore|cara direttrice|gentile direttore|gentile redazione)\\b"],
+      "close": ["\\b(distinti saluti|cordiali saluti|cordialmente|un lettore|una lettrice|grazie per l'attenzione|ringrazio)"],
+      "openHint": "Gentile direttore, Cara redazione…", "closeHint": "Cordiali saluti + firma",
+      "hint": "Si risponde a un articolo: citarlo, prendere posizione, argomentare, chiudere con una proposta." },
+    "articolo": { "name": "Articolo", "paragraphs": 3, "title": true,
+      "hint": "Titolo nella prima riga; attacco che catturi il lettore, sviluppo con dati del testo o dell'ascolto, chiusura." },
+    "recensione": { "name": "Recensione", "paragraphs": 3, "title": true,
+      "hint": "Titolo; di che cosa si tratta, punti forti e deboli con esempi, giudizio finale e a chi la consiglieresti." },
+    "saggio": { "name": "Testo argomentativo", "paragraphs": 4,
+      "hint": "Introduzione con la tesi, almeno due argomenti con esempi, un'obiezione con la sua risposta, conclusione." },
+    "sintesi": { "name": "Sintesi", "paragraphs": 3,
+      "hint": "Le idee principali con parole tue, nell'ordine logico, senza opinioni personali e senza copiare frasi intere." },
+    "relazione": { "name": "Relazione", "paragraphs": 3, "title": true,
+      "hint": "Titolo; premessa (di che cosa si parla e perché), esposizione ordinata dei fatti, conclusioni o proposte. Registro impersonale." }
+  },
+  "CONNETTIVI": ["tuttavia", "pertanto", "sebbene", "benché", "nonostante", "in primo luogo", "in secondo luogo", "d'altra parte", "d'altronde", "in conclusione", "per concludere", "in altre parole", "ad esempio", "per esempio", "inoltre", "invece", "infatti", "quindi", "dunque", "anzitutto", "innanzitutto", "infine", "insomma", "purché", "affinché", "poiché", "dato che", "visto che", "mentre", "eppure", "comunque", "in effetti", "in sintesi", "di conseguenza", "a patto che", "oltre a", "rispetto a", "al contrario"]
+}

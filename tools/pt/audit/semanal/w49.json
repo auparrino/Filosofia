@@ -1,0 +1,180 @@
+{
+ "week": 49,
+ "title": "Registro culto e coloquial",
+ "level": "C1",
+ "revisado": {
+  "items": 48,
+  "bloques_teoria": 7,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 0,
+  "radio": 0,
+  "otros": 4
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida en contenido: la teoría (a gente→nós, vi-o, tem→há, reducciones, ênclise/mesóclise, camino de vuelta) es correcta y los ítems no tienen errores gramaticales claros. Los problemas son de nivel y cobertura: casi todo es transformación mecánica de nivel A2-B1 para una semana C1, los pronombres con -s/nasal se evalúan sin enseñarse, y el vocabulario formal (outrossim, porquanto, etc.) casi no se practica. Suoni, radio, laboratorio y duelos están vacíos. El tramo (ensayo, escucha, e-mail, comunicado) es de muy buena calidad.",
+ "bien": [
+  "Teoría correcta y bien contrastada: tabla Habla/Formal, advertencias útiles (-r cae y la vocal lleva tilde, houve siempre singular, no mezclar a gente vamos).",
+  "Incluye el camino de vuelta (formal→coloquial) y la advertencia de que «encontrei-o» en la charla suena a libro o a Portugal: criterio pt-BR muy bien tratado.",
+  "Tramo completo y coherente: ensayo sobre adecuación, diálogo de trabajo con situación real, tarea de e-mail con modelo (259 palabras, dentro de 239-299) y comunicado formal del síndico.",
+  "Ítems variados en tipos de reconocimiento y algo de producción (cloze, translate, combina, fixerr); respuestas aceptadas amplias en translate y combina.",
+  "Vocabulario con notas culturales útiles (bronca ≠ enojo, sacar = retirar dinero, hacerse cargo ≠ cargo) y datos históricos/literarios (Grândola, Drummond, Saramago) verificados."
+ ],
+ "hallazgos": [
+  {
+   "id": "col-49-2",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Descuidarse, regalarse → dar mole (informal).",
+   "propuesta": "Descuidarse, dar ventaja → dar mole (informal).",
+   "motivo": "«Regalarse» en español rioplatense es darse lujos; dar mole es bobear/dar ventaja, confunde."
+  },
+  {
+   "id": "col-49-1",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Escolha a palavra que forma a combinação usual.",
+   "propuesta": "Mover los dos ítems col-49-* a una semana de colocaciones o enlazarlos con el registro (p. ej. quitar a dívida como léxico formal).",
+   "motivo": "No evalúan nada de la semana (registro); rompen la coherencia temática."
+  },
+  {
+   "id": "s4-49-38",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "estudamos ele → ___",
+   "propuesta": "Enseñar en la lección la variante -s → -lo (estudamo-lo) o cambiar el ítem.",
+   "motivo": "La lección solo explica -r→-lo y vocal→-o; -s no está enseñado."
+  },
+  {
+   "id": "s4-49-39",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "dão ele → ___",
+   "propuesta": "Agregar a la lección la forma -no tras nasal (dão-no, fazem-no) o quitar el ítem.",
+   "motivo": "El alomorfo -no no se presenta en ningún bloque de teoría."
+  },
+  {
+   "id": "s4-49-09",
+   "lang": "pt",
+   "severidad": "duda",
+   "actual": "Vou te dizer a verdade. → (muy formal) ___ a verdade.",
+   "propuesta": "Vou lhe dizer a verdade. → Dir-lhe-ei a verdade.",
+   "motivo": "Con tratamiento você, en registro muy formal lo esperable es lhe; «te» (tu) choca con el registro formal."
+  },
+  {
+   "id": "s4-49-44",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Não conseguimos entrar, porque havia muitas pessoas",
+   "propuesta": "Quitar de accept las variantes con «porque» (o cambiar la consigna).",
+   "motivo": "La consigna exige el conector «como» y se acepta una respuesta que no lo usa."
+  },
+  {
+   "id": "s4-49-43",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"accept\":[\"Onde está\"]",
+   "propuesta": "Agregar «Onde se encontra».",
+   "motivo": "Respuesta formal igual de natural que un alumno C1 puede escribir."
+  },
+  {
+   "id": "s4-49-26",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Formal: eu o vi o vi-o, nunca «vi ele».",
+   "propuesta": "Formal: eu o vi o vi-o → «Formal: eu o vi / vi-o, nunca «vi ele»».",
+   "motivo": "El «o» entre ambas formas se lee como el artículo portugués; usar barra."
+  },
+  {
+   "id": "s4-49-25",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Vamos a solicitar una reunión.",
+   "propuesta": "Partir de «A gente vai solicitar uma reunião» (→ Nós vamos...) como los demás ítems.",
+   "motivo": "El enunciado en español no exhibe «a gente», así que no practica el punto de la nota."
+  },
+  {
+   "id": "lesson:3:0",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "né? | não é? (o se elimina)",
+   "propuesta": "né? | não é? (en lo formal se escribe entero o se omite)",
+   "motivo": "«(o se elimina)» es ambiguo: no se entiende qué elemento se elimina."
+  },
+  {
+   "id": "lesson:5:0",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "maneiro, irado y sinistro (¡que puede ser elogio!)",
+   "propuesta": "maneiro, irado y sinistro (sinistro, normalmente negativo, también es elogio)",
+   "motivo": "La aclaración entre paréntesis resulta confusa."
+  },
+  {
+   "id": "c-saramago",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "os livros de Saramago são publicados com a ortografia e a gramática do original, em português europeu",
+   "propuesta": "são publicados com a gramática e o vocabulário do original, em português europeu",
+   "motivo": "Las ediciones brasileñas suelen adaptar la ortografía; lo que se conserva es la gramática/léxico."
+  },
+  {
+   "id": "tramo:compito",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "\"videoconferência\",\"reunião\"",
+   "propuesta": "Quitar «reunião» de las palabras clave y exigir «videoconferência»/«videochamada».",
+   "motivo": "«reunião» aparece en cualquier e-mail y daría el punto sin ofrecer la videoconferencia."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Subir la dificultad a C1: ítems de adecuación (elegir el registro para una situación dada), reescribir un párrafo/mail informal a formal, pronombres con atractores (embora, ninguém, todos, talvez), lhe vs o, se apasivante en lo formal.",
+   "por_que": "Casi todo es transformación de una forma (nós vamos, há, tô→estou), nivel A2-B1."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Practicar el vocabulario formal y las gírias de la lista (outrossim, porquanto, haja vista, doravante, conquanto, dar uma bronca, sussa...) y los pares de la tabla (cara, papo, zoar) con ítems propios; enseñar los conectores formales en un bloque.",
+   "por_que": "Están en el vocab pero casi no se practican; solo grana, rolar, curtir, sacar aparecen en ítems."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Completar la teoría de pronombres enclíticos: -lo/-la tras -r/-s/-z, -no/-na tras nasal (dão-no) y lhe; o quitar los garden 38 y 39.",
+   "por_que": "Hoy se evalúa algo no enseñado."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar suoni (reducciones tô/tá/pra/cê, caída de -r final en infinitivos), radio y laboratorio con reglas puente (a gente/nós, tem/há).",
+   "por_que": "Esas secciones están vacías y el tema es muy oral."
+  },
+  {
+   "prioridad": "media",
+   "que": "Más producción: typed solo tiene 2 ítems; sumar escribir la versión formal/coloquial de una frase entera y ítems de dirección coloquial→formal con varias respuestas aceptadas.",
+   "por_que": "Predomina el reconocimiento (choice y cloze de una palabra)."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reescribir la lectura w-49 para que muestre tem/há, vi ele/vi-o y a gente/nós en dos registros, en vez de ser sobre todo historia de Portugal con 4 marcas coloquiales.",
+   "por_que": "La lectura de la semana apenas usa la gramática de la semana."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Glosar procuração, condôminos y taxa condominial en el comunicado del síndico, y mantener coherente el mensaje del tramo (el ensayo dice dir-se-ia casi arcaico, la lección lo presenta como norma).",
+   "por_que": "Léxico no glosado y leve tensión entre ensayo y lección."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

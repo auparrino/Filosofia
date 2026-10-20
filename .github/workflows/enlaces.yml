@@ -1,0 +1,30 @@
+name: Enlaces de «Fuera de la app»
+
+# Los 94 enlaces de las fichas (docs/lang/*/fuera_data.js), pedidos de
+# verdad: cada lunes, a pedido y cuando cambian las fichas.  Aparte de las
+# pruebas: un sitio caído no frena ningún cambio.
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "docs/lang/*/fuera_data.js"
+      - "tools/lib/check_enlaces.js"
+
+permissions:
+  contents: read
+
+jobs:
+  enlaces:
+    name: los enlaces responden
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: package.json
+      - name: Pedir cada enlace (tools/lib/check_enlaces.js)
+        run: node tools/lib/check_enlaces.js

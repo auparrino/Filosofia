@@ -1,0 +1,407 @@
+{
+ "week": 9,
+ "title": "Preposizioni di base",
+ "level": "A2",
+ "revisado": {
+  "items": 72,
+  "sfide": 12,
+  "bloques_teoria": 5,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 14
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "La lección es corta, clara y en general correcta, y los ítems de preposiciones (in/a, da persona, da + tiempo) tienen respuestas acertadas casi siempre. Los problemas son de estructura: las preposiciones articuladas y los medios de transporte, que son parte del tema, no se enseñan. Además, las sfide traen contenido fuera de nivel (participio absoluto, infinitivo compuesto) o de tema. Hay pocos errores duros (un par mínimo falso en suoni y algunas respuestas aceptadas incompletas) y varias reglas exageradas. Tasa estimada de falsos positivos: ~25%.",
+ "bien": [
+  "Reglas cortas con contraste castellano y ejemplos rioplatenses («ceno en lo de Ana», «anteojos de sol»)",
+  "La advertencia sobre da + persona («vado dal dentista») y presente + da es exactamente el error típico del hispanohablante",
+  "Los ítems garden/scopri/fixerr de in/a y da son claros y variados; las notas explican la regla",
+  "Las lecturas (fl-da, w-09) practican la gramática de la semana con texto natural y buenos distractores",
+  "Buena mezcla de tipos (cloze, choice, translate, fixerr, garden, scopri) y sfide r15 muy pertinentes"
+ ],
+ "hallazgos": [
+  {
+   "id": "p-084",
+   "lang": "it",
+   "severidad": "error",
+   "actual": "vénne / vènne",
+   "propuesta": "Reemplazar por un par mínimo real (p. ej. pésca / pèsca, accétta / accètta) o sacar el par",
+   "motivo": "«venne» tiene una sola pronunciación estándar (e cerrada); «vènne» no existe y ambas grafías son iguales: no es un par mínimo y el glosario está invertido"
+  },
+  {
+   "id": "d12-037",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Conto su di te.",
+   "propuesta": "Agregar a accept: \"Conto su te.\", \"Io conto su te.\"",
+   "motivo": "«contare su te» es igual de correcto; su di te es solo la variante con di"
+  },
+  {
+   "id": "d12-037",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "delante de pronombre se dice su di te",
+   "propuesta": "«delante de pronombre se puede decir su di te o su te»",
+   "motivo": "Presentar su di te como obligatorio es exagerado"
+  },
+  {
+   "id": "l2-c-38",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Facciamo una passeggiata in centro",
+   "propuesta": "Agregar a accept: \"Facciamo una passeggiata per il centro\"",
+   "motivo": "«por el centro» se traduce naturalmente con per il centro y hoy no se acepta"
+  },
+  {
+   "id": "g2-va-80",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Sono in la macchina.",
+   "propuesta": "Agregar a accept: \"Sono nella macchina.\"",
+   "motivo": "Corregir a nella macchina es correcto (y es lo que enseña la propia nota); solo se acepta la variante sin artículo"
+  },
+  {
+   "id": "l2-c-42",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "facciamo",
+   "propuesta": "Agregar a accept: \"faremo\"",
+   "motivo": "«noi faremo benzina al prossimo distributore» es igual de natural"
+  },
+  {
+   "id": "c1-prep-05",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Non riesco a finire in tempo",
+   "propuesta": "Agregar a accept: \"Non riesco a finire in orario\", \"Non ce la faccio a finire in tempo\"",
+   "motivo": "«a tiempo» se dice muy naturalmente in orario; hoy se rechaza"
+  },
+  {
+   "id": "g2-ct-02",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Vado dal medico alle otto",
+   "propuesta": "Aceptar también \"alle 8\"",
+   "motivo": "Un alumno puede escribir la hora en cifras"
+  },
+  {
+   "id": "d12-039",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "(ir) con Chiara al teatro",
+   "propuesta": "Cambiar el enunciado a «con Chiara al teatro» o agregar accept: \"Vado con Chiara a teatro\", \"Andiamo a teatro con Chiara\"",
+   "motivo": "El «(ir)» sugiere un verbo, pero la respuesta no lo lleva"
+  },
+  {
+   "id": "c-013",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "4",
+   "propuesta": "Aclarar la consigna (¿palabras escritas, palabras fónicas?) o cambiar la frase",
+   "motivo": "3 (nell'ufficio/del/capo), 4 y 5 (in, l', ufficio, di, il, capo…) son defendibles según cómo se cuente"
+  },
+  {
+   "id": "c-012",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Vado da l'altra parte.",
+   "propuesta": "Reemplazar los distractores por contrastes audibles (p. ej. Vado dall'altra parte / Vado dalla parte)",
+   "motivo": "«dall'altra» y «da l'altra» suenan igual: no se pueden distinguir de oído, solo por ortografía"
+  },
+  {
+   "id": "g2-va-46",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Preposición + artículo se funden siempre: a + il = al, a + la = alla, a + i = ai.",
+   "propuesta": "«di, a, da, in, su + artículo se funden (al, nel, sul…); per, tra, fra y con no (per il, tra i)»",
+   "motivo": "Generalización falsa para per/tra/fra/con; lo mismo en g2-gd-58 («La preposición y el artículo se funden siempre: a + le = alle.»)"
+  },
+  {
+   "id": "g2-gd-42",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "En castellano «en»/«a» no distinguen tamaño; en italiano sí.",
+   "propuesta": "«En castellano se dice a/en para todo destino; el italiano distingue ciudad (a) de país o región (in)»",
+   "motivo": "La regla italiana no es de tamaño (Sicilia/Capri lo muestran), sino de tipo de lugar"
+  },
+  {
+   "id": "lesson:3:warn",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Nunca pasado.",
+   "propuesta": "«Con acciones afirmativas que siguen: presente + da. (En negativas también se oye el passato prossimo: non lo vedo / non l'ho visto da anni)»",
+   "motivo": "Absoluto: «Non l'ho visto da due anni» es correcto; sirve más adelante"
+  },
+  {
+   "id": "lesson:2:warn",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "«Vado al medico» suena a extranjero.",
+   "propuesta": "«Vado dal medico es lo normal; vado al medico se oye pero es menos estándar»",
+   "motivo": "Exagerado; al dentista/al medico aparece en el habla. Afecta a b2-prep-03 (opción «al») y g2-gd-44"
+  },
+  {
+   "id": "lesson:0:table",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "lugar cerrado, países, medios de transporte",
+   "propuesta": "«in: países, regiones, medios de transporte y una lista de lugares (in banca, in ufficio)»",
+   "motivo": "«Lugar cerrado» no sirve de criterio: cinema, ristorante, scuola son cerrados y llevan a (la propia lección dice que hay que memorizar pares)"
+  },
+  {
+   "id": "l2-d-02",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Magari + indicativo = quizás, con esperanza («ojalá que»).",
+   "propuesta": "Usar «Magari domani non piovesse!» para «ojalá», o glosar «quizás»",
+   "motivo": "«Magari domani non piove» equivale más a «quizás», y «ojalá» pide congiuntivo imperfetto (no visto)"
+  },
+  {
+   "id": "g2-va-70",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "«Machina» además se leería [makina] igual, pero está mal escrito.",
+   "propuesta": "«Macchina» se pronuncia con la k larga [makkina]; «machina» tendría una k breve.",
+   "motivo": "«igual» confunde: no suenan igual, es justo el contraste de dobles"
+  },
+  {
+   "id": "p-039",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "lego, juego",
+   "propuesta": "«ato (de legare)»",
+   "motivo": "«lego» en italiano es «ato»; «juego» no es su significado"
+  },
+  {
+   "id": "d12-032",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "per amore o per forza",
+   "propuesta": "Reemplazar por una expresión con preposición ya vista (p. ej. «a piedi», «in banca»)",
+   "motivo": "Modismo de nivel B2 no enseñado; acertar depende de conocer la frase hecha"
+  },
+  {
+   "id": "d12-034",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "in erba",
+   "propuesta": "Reemplazar por una expresión más básica",
+   "motivo": "Modismo poco frecuente, no enseñado, no deducible"
+  },
+  {
+   "id": "l2-c-74",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "tengo",
+   "propuesta": "Mover a semana posterior o enseñar «tenere a» antes",
+   "motivo": "«tenere a qualcuno» es B1+; además no es un «verbo de apoyo»"
+  },
+  {
+   "id": "d12-013",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Gli studenti hanno molti compiti ___ fare.",
+   "propuesta": "Enseñar «da + infinitivo» (qualcosa da bere, compiti da fare) en la lección",
+   "motivo": "Se practica en d12-013 y d12-019 y aparece en el vocabulario (bere), pero la teoría no lo enseña"
+  },
+  {
+   "id": "d12-011",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Noi veniamo ___ stato di Washington.",
+   "propuesta": "Agregar a la lección una tabla de preposiciones articuladas (dal, dallo, dalla, dall', nel, sul, del)",
+   "motivo": "Se exige dallo/dal/alle/al/nella sin haberlas enseñado; las keys las prometen"
+  },
+  {
+   "id": "b2-prep-03",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Vado ___ dentista.",
+   "propuesta": "Reemplazar por otra profesión (dal parrucchiere) o quitar",
+   "motivo": "Casi duplicado de d12-018 («vado ___ dentista»); también b2-prep-01/02 duplican g2-sc-01-a/b; b2-prep-04 duplica g2-gd-53/g2-va-47"
+  },
+  {
+   "id": "d12-035",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Sono in ufficio.",
+   "propuesta": "Cambiar a otro lugar (in banca, in farmacia)",
+   "motivo": "Es idéntico al ejemplo de la lección (lesson:1)"
+  },
+  {
+   "id": "d12-023",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "en el médico (en el consultorio)",
+   "propuesta": "«en lo del médico»",
+   "motivo": "«En el médico» es un calco raro; en rioplatense se dice «en lo del médico»"
+  },
+  {
+   "id": "d12-030",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "in periferia",
+   "propuesta": "Agregar accept: \"nella periferia\", \"alla periferia\"",
+   "motivo": "«en las afueras» admite esas variantes"
+  },
+  {
+   "id": "g2-sc-01",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "«In» si el lugar empieza con vocal, «a» si empieza con consonante.",
+   "propuesta": "Usar un distractor plausible (p. ej. «in con lugares cerrados, a con abiertos»)",
+   "motivo": "Los dos distractores son obvios y no tientan a nadie"
+  },
+  {
+   "id": "r15-13:d",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "Quanto si trattiene a Milano? – Me quedo un mes. (mi trattengo)",
+   "propuesta": "«Quanto si ferma a Milano?» / «Mi fermo un mese»",
+   "motivo": "«trattenersi» es formal y raro para A2; la pista regala la respuesta"
+  },
+  {
+   "id": "s:r23-03b:a",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Riparata la macchina",
+   "propuesta": "Sacar la sfida r23-03b de A2 (participio absoluto, registro escrito) y llevarla a B2/C1",
+   "motivo": "Participio absoluto (r23-03b:a,b,c) no enseñado en semana 9; en r23-03b:c la accept «Dopo aver ricevuto…» ni siquiera es un participio absoluto"
+  },
+  {
+   "id": "s:r23-06:b",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Credo di essere partito lunedì scorso",
+   "propuesta": "Mover r23-03, r23-06 y r27-02b a semanas de B1/B2",
+   "motivo": "Infinitivo compuesto, credere di + infinitivo y percepción + infinitivo (r27-02b, con condizionale «mi piacerebbe») exceden A2 y la semana"
+  },
+  {
+   "id": "s:r08-03:a",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Conosce ___ (mis hijos)?",
+   "propuesta": "Mover r08-03, r10-03b, r10-13, r11-03, r18-02 a su semana",
+   "motivo": "Sfide de posesivos, interrogativos, exclamaciones y presente no tienen que ver con las preposiciones de la semana (solo r15-01 y r15-13 encajan)"
+  },
+  {
+   "id": "s:r18-02:g",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Siamo in anticipo. (noi → io): ___ in anticipo. (infinitivo: ___)",
+   "propuesta": "Cambiar por otro verbo",
+   "motivo": "Casi duplica r18-02:f (essere → sono)"
+  },
+  {
+   "id": "sfide:chapter",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "Possessives / Interrogatives / Exclamations / Prepositions / The present indicative tense / Non-finite verb forms / Causative verbs and verbs of perception",
+   "propuesta": "Traducir o esconder el campo chapter (Posesivos, Interrogativos, Exclamaciones, Preposiciones, Presente indicativo, Formas no finitas, Verbos causativos y de percepción)",
+   "motivo": "Si el alumno ve el nombre del capítulo, es texto en inglés"
+  },
+  {
+   "id": "lettura w-09",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Tocá las preposiciones simples (a, in, da, con, per, tra)",
+   "propuesta": "Agregar al, dai (a + il, da + i) a los targets o explicitar que se buscan solo formas simples",
+   "motivo": "El texto tiene «al mercato» y «dai genitori», preposiciones que el alumno querrá tocar; «in tre ore» (in + duración) no está enseñado"
+  },
+  {
+   "id": "lettura fl-da",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Il barista, Paolo, lavora lì da vent'anni",
+   "propuesta": "Renombrar a Paola (p. ej. Chiara)",
+   "motivo": "Paolo y Paola confunden en un texto corto con preguntas sobre los personajes; el texto practica solo da + tiempo"
+  },
+  {
+   "id": "dictogloss:0",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Giovedì parto per Firenze in treno con Paola. Dormiamo a casa di un amico, vicino alla stazione. Sabato mattina andiamo al mercato a piedi",
+   "propuesta": "Agregar «Venerdì torno a Bologna.» o aclarar dónde está el mercado",
+   "motivo": "Hueco de la semana: no se sabe dónde están el sábado; «a piedi» no se enseñó"
+  },
+  {
+   "id": "lesson:1:warn",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "«Vivo en Roma» es *vivo a Roma*",
+   "propuesta": "«Vivo en Roma» se dice *vivo a Roma*",
+   "motivo": "Redacción torpe: «es» no traduce, «se dice» sí"
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Agregar a la lección un bloque de preposiciones articuladas (tabla di/a/da/in/su × il, lo, la, l', i, gli, le) con 3 ejemplos y el aviso «per/tra/con no se funden»",
+   "por_que": "Las keys lo prometen y más de 15 ítems exigen alle/al/dal/dallo/nella sin haberlo enseñado"
+  },
+  {
+   "prioridad": "alta",
+   "que": "Enseñar de verdad el tema «medios de transporte»: in treno/autobus/macchina/aereo/bici vs a piedi (y con il treno), más vocabulario asociado, con 4 a 6 ítems",
+   "por_que": "Aparece en tema/keys/lectura/dictogloss pero la lección solo tiene «in treno» y no hay ningún ítem con «a piedi»"
+  },
+  {
+   "prioridad": "alta",
+   "que": "Sacar de la semana las sfide fuera de nivel o de tema (r23-03b, r23-06, r23-03, r27-02b, r11-03, r08-03, r10-*, r18-02) y reemplazarlas por sfide de preposiciones (in/a, da persona, da/per/fa)",
+   "por_que": "Participio absoluto, infinitivo compuesto o percepción no son A2 ni de esta semana; solo r15-01 y r15-13 encajan"
+  },
+  {
+   "prioridad": "alta",
+   "que": "Rebalancear los ítems: hoy in/a con lugares suma unos 25, mientras tra/fra tiene 0, con 1, su 3, a piedi/al mare/in montagna 0; agregar 6 a 8 ítems de los puntos ausentes y quitar 5 duplicados (b2-prep-01/02/03 y g2-sc-01-a/b repiten d12-*)",
+   "por_que": "La cobertura está muy sesgada hacia in/a y da"
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar contraste explícito: sono di Roma / vengo da Roma, per due ore vs da due ore vs fa, y un mini bloque «da quanto tempo / da quando»",
+   "por_que": "Los ítems y la lectura fl-da usan «Da quanto tempo?» y el contraste per/da/fa, pero la lección solo lo trata en una advertencia"
+  },
+  {
+   "prioridad": "media",
+   "que": "Suavizar las afirmaciones absolutas («Nunca pasado», «suena a extranjero», «se funden siempre», «lugar cerrado») y corregir los ítems con accept incompletas (d12-037, l2-c-38, g2-va-80, c1-prep-05, l2-c-42)",
+   "por_que": "Hay reglas que un nativo o un alumno avanzado contradice, y respuestas correctas hoy se marcan mal"
+  },
+  {
+   "prioridad": "media",
+   "que": "Reordenar la secuencia de ítems de menor a mayor dificultad: primero elección (b2, sc-01), luego cloze, luego traducción; llevar los modismos (per amore o per forza, in erba, sul serio, conto su di te) al final o a otra semana",
+   "por_que": "Hoy los modismos B2 aparecen mezclados con ítems básicos"
+  },
+  {
+   "prioridad": "media",
+   "que": "Alinear el vocabulario con el tema (treno, macchina, aereo, bici, stazione, aeroporto, a piedi) y sacar sembrare/dispiacere/imparare con frases B2",
+   "por_que": "Las 12 palabras casi no tienen relación con lugares y transporte, y algunas frases de ejemplo son B2"
+  },
+  {
+   "prioridad": "media",
+   "que": "Reemplazar el par p-084 (vénne/vènne) por un par mínimo real (pésca/pèsca) y hacer audibles c-012 y c-013",
+   "por_que": "Hoy el par no existe y dos ítems de suoni no se resuelven de oído"
+  },
+  {
+   "prioridad": "baja",
+   "que": "Reducir la carga: 72 ítems + 62 sub-ítems de sfide + 2 lecturas + suoni son demasiado para una semana; apuntar a unos 50 ítems focalizados",
+   "por_que": "Carga alta para A2 con solo 5 bloques de teoría"
+  },
+  {
+   "prioridad": "baja",
+   "que": "Agregar preguntas vero/falso/non si dice a las lecturas y una pregunta sobre lugares (in/a/da persona) en fl-da",
+   "por_que": "Las 6 preguntas son todas de elección múltiple y fl-da solo evalúa da + tiempo"
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 1,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

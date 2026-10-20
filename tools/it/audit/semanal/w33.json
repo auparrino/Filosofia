@@ -1,0 +1,362 @@
+{
+ "week": 33,
+ "title": "Periodo ipotetico",
+ "level": "B2",
+ "revisado": {
+  "items": 58,
+  "sfide": 1,
+  "bloques_teoria": 5,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 2
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "La teoría es correcta, ordenada y con buen contraste con el español; el italiano de los ítems no tiene errores gramaticales confirmados. Los problemas son de diseño: 30 cloze repetitivos, poca producción, puntos enseñados sin ejercicios (doppio imperfetto, purché, qualora), ítems que evalúan lo no enseñado, un desafío que no corresponde al tema, una lectura infantil para B2 y un par mínimo con una no-palabra. La regla «nunca condicional tras se» está sobregeneralizada. Tasa estimada de falsos positivos en errores/dudas: ~25%.",
+ "bien": [
+  "Teoría clara: tabla de los tres tipos, ejemplos con traducción rioplatense y advertencia explícita sobre «se avrei».",
+  "Los 30 cloze de tipos I, II y III están bien resueltos: aceptan variantes reales (hai/avrai, fossi stato/stata) y no hay respuestas falsas.",
+  "Mixtos y doppio imperfetto están incluidos con la advertencia de registro oral vs escrito.",
+  "La lectura ep10 usa naturalmente los tres tipos y cierra el curso con un tono cálido; el dictogloss cubre tipo I, II y III con chunks pertinentes.",
+  "Buena variedad de tipos (cloze, translate, choice, scopri, combina, fixerr) y varias variantes en accept."
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:1:1",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Detrás de *se* **nunca** va condicional: congiuntivo con el *se*, condicional en la otra parte.",
+   "propuesta": "Precisar: «en la hipótesis (protasi) nunca va condicional». Aclarar que en interrogativas indirectas sí se usa: «Mi chiedo se sarebbe meglio partire», «Non so se verrebbe».",
+   "motivo": "La prohibición «absoluta» es falsa para «se» interrogativo/dubitativo; el alumno B2 ya lo oye y lo usa."
+  },
+  {
+   "id": "lesson:1:1",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "el «si tendría» que se oye por ahí se cuela",
+   "propuesta": "«…en algunas variedades del español se oye «si tendría»; en italiano el error equivalente es «se avrei»».",
+   "motivo": "Frase confusa: no queda claro quién «se cuela» ni en qué lengua; y el «si sería/tendría» no es rioplatense típico ni un calco del italiano."
+  },
+  {
+   "id": "c1-ipot-04",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Nunca condizionale detrás de «se». En español tampoco, pero el calco «si sería» aparece igual: cuidado.",
+   "propuesta": "Nunca condizionale en la hipótesis con «se». En español estándar tampoco («si fuera», no «si sería»); no lo traslades al italiano.",
+   "motivo": "«Calco» es incorrecto: «si sería» no es calco del italiano; la explicación confunde la dirección de la interferencia."
+  },
+  {
+   "id": "lesson:0:0",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "indicativo presente/futuro",
+   "propuesta": "indicativo (presente, futuro, también passato prossimo o imperfetto: «Se hai finito, andiamo»)",
+   "motivo": "La tabla omite tiempos que los ítems d19-002 y otros exigen; el alumno no los vio enseñados."
+  },
+  {
+   "id": "d19-002",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Se loro non ___ (volere), me ne potevano parlare.",
+   "propuesta": "Reemplazar por una frase con presente/futuro, p. ej. «Se loro non ___ (volere), me ne parleranno», o enseñar antes el imperfetto en tipo I.",
+   "motivo": "Exige «se + imperfetto indicativo», que la lección no enseña (solo aparece como doppio imperfetto irreal en el bloque 4); la frase es rara."
+  },
+  {
+   "id": "d19-009",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Se tu ___ (volere) sapere, gli ho telefonato.",
+   "propuesta": "Agregar «volevi» a accept o cambiar la frase: «Se tu ___ (volere) sapere, gli telefono».",
+   "motivo": "«Se volevi sapere, gli ho telefonato» es igual de natural; la principal en passato prossimo hace ambigua la respuesta."
+  },
+  {
+   "id": "d19-032",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "se ne avessi voglia",
+   "propuesta": "Respuesta principal «se avessi voglia»; dejar «se ne avessi voglia» como aceptada.",
+   "motivo": "El «ne» no tiene antecedente en «si tuviera ganas»; la forma neutra es la más natural."
+  },
+  {
+   "id": "c1-ipot-07",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Se avessi saputo, sarei venuto. ≈",
+   "propuesta": "Enseñar en la lección (bloque 3 o 4) la omisión/inversión de «se» («Avessi saputo…»; «Fosse venuto…») o retirar el ítem; hacer distractores gramaticales, no de sentido.",
+   "motivo": "Evalúa algo no enseñado en la lección y los distractores («Se so, vengo») se descartan por sentido."
+  },
+  {
+   "id": "c1-ipot-08",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Magari ___ vero!",
+   "propuesta": "Mantener, pero cambiar «è» por una opción que sea claramente errónea o aclarar el sentido «ojalá» en la consigna.",
+   "motivo": "«Magari è vero!» (=quizá) también es italiano correcto; solo el sentido de deseo lo descarta."
+  },
+  {
+   "id": "c1-ipot-06",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Si hubiera sabido, no habría venido.",
+   "propuesta": "Eliminar o diferenciar (p. ej. cambiar sujeto/verbo).",
+   "motivo": "Casi duplicado de g2-ct-45 y d19-033 (los tres piden «se (l')avessi saputo, non sarei venuto»)."
+  },
+  {
+   "id": "g2-ct-45",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Si lo hubiera sabido, no habría venido.",
+   "propuesta": "Reemplazar por otra oración tipo III con otro verbo (p. ej. «Si hubiera estudiado, habría aprobado»).",
+   "motivo": "Duplicado con c1-ipot-06 y d19-033."
+  },
+  {
+   "id": "c1-ipot-05",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Se ___ (studiare) di più allora, adesso avresti un buon lavoro.",
+   "propuesta": "Se ___ (avere/studiare) …",
+   "motivo": "El resto de los trapassato muestra el auxiliar en el paréntesis (avere/…); aquí y en g2-sc-18-c falta y el alumno puede escribir «studiassi»."
+  },
+  {
+   "id": "g2-sc-18",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "¿Cómo se construye la hipótesis poco probable o imposible?",
+   "propuesta": "«¿Cómo se construye la hipótesis poco probable o contraria a la realidad presente?»",
+   "motivo": "«Imposible» se asocia en la lección al tipo III (trapassato); la respuesta correcta solo cubre el imperfetto, lo que confunde. Además la consigna («Leé las frases…») no muestra frases."
+  },
+  {
+   "id": "g2-cb-18",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Parla. Sa tutto. (come se)",
+   "propuesta": "Enseñar «come se + congiuntivo» en la lección o mover el ítem a la semana correspondiente.",
+   "motivo": "«come se» no figura en la teoría de la semana 33."
+  },
+  {
+   "id": "d19-011",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Se ___ (ascoltare), sapreste ciò che è successo.",
+   "propuesta": "Sin cambio; agregar nota breve.",
+   "motivo": "Ítems 003-030 no tienen `note`: sin retroalimentación explicativa en 55 de 58 ejercicios; el alumno que falla no aprende por qué."
+  },
+  {
+   "id": "lesson:3:0",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "También piden congiuntivo *a meno che non*, *purché*, *a patto che*, *nel caso in cui* y *qualora* (formal).",
+   "propuesta": "«…piden congiuntivo (nel caso in cui también admite condizionale; a patto che, en registro coloquial, futuro)».",
+   "motivo": "«nel caso in cui» se usa habitualmente con condizionale o congiuntivo; la regla es demasiado tajante."
+  },
+  {
+   "id": "lesson:2:0",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Los mixtos, los más reales",
+   "propuesta": "Los mixtos: pasado y presente cruzados",
+   "motivo": "«Los más reales» no significa nada preciso; además «frecuentísimos» es exagerado sin respaldo."
+  },
+  {
+   "id": "d19-016",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Se tu ed io ___ (parlarsi), ci capiremmo.",
+   "propuesta": "Se noi ___ (parlarsi), ci capiremmo.",
+   "motivo": "Frase forzada; el hueco recoge «ci parlassimo» (pronombre incluido) sin avisarlo en la consigna."
+  },
+  {
+   "id": "r21-03c",
+   "lang": "en",
+   "severidad": "error",
+   "actual": "The conditional",
+   "propuesta": "El condicional",
+   "motivo": "Texto en inglés visible en el nombre de capítulo."
+  },
+  {
+   "id": "r21-03c",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "¿Hecho posible o imposible? Decidí si lo que expresa el condicional compuesto pudo cumplirse. Una de las oraciones es ambigua.",
+   "propuesta": "Reemplazar por un desafío sobre períodos hipotéticos: clasificar frases en tipo I/II/III/mixto, o «¿realizable o irreal?».",
+   "motivo": "El desafío trabaja el futuro en el pasado (condizionale composto), no el tema de la semana; además la consigna adelanta cuál es la trampa («una es ambigua»)."
+  },
+  {
+   "id": "s:r21-03c:d",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "L'ENEL ci ha fatto sapere che ci avrebbe inviato la bolletta, ma che gli mancava l'indirizzo.",
+   "propuesta": "«…ma che senza l'indirizzo non poteva farlo, e infatti la bolletta non è mai arrivata.»",
+   "motivo": "«Imposible» se infiere de manera débil: la oración no dice que la factura nunca llegó."
+  },
+  {
+   "id": "s:r21-03c:d",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "L'ENEL",
+   "propuesta": "L'Enel",
+   "motivo": "El nombre de la empresa se escribe Enel, no en mayúsculas."
+  },
+  {
+   "id": "s:r21-03c:b",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Realma mi aveva assicurato",
+   "propuesta": "Rosalba mi aveva assicurato",
+   "motivo": "«Realma» no es un nombre italiano reconocible."
+  },
+  {
+   "id": "s:r21-03c:c",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "Alla fine l'ufficio ci ha avvisato",
+   "propuesta": "L'ufficio ci ha avvisato",
+   "motivo": "«Alla fine» no aporta nada y confunde el sentido de futuro en el pasado."
+  },
+  {
+   "id": "ep10",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Tocá el verbo de cada condición con «se» (congiuntivo)",
+   "propuesta": "Añadir preguntas que exijan la hipótesis: «¿Qué habría pasado si Martín no hubiera encontrado a Giulia?».",
+   "motivo": "Las 3 preguntas son de comprensión literal y no verifican comprensión de las hipótesis; no hay vero/falso."
+  },
+  {
+   "id": "ep10",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Se dovessi tornare a Buenos Aires domani",
+   "propuesta": "Enseñar «se dovessi + infinito» en la lección o glosarlo.",
+   "motivo": "La lectura usa «se dovessi» y lo incluye en la caza, pero no se enseña; faltan glosas de «pendolare», «coinquilina», «assaggiato»."
+  },
+  {
+   "id": "w-33",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Tocá los verbos de la «se» (foste, fossi, avessi, comandassi)",
+   "propuesta": "Tocá los verbos de las condiciones con «se»",
+   "motivo": "La consigna lista las respuestas: el ejercicio de caza pierde todo su sentido."
+  },
+  {
+   "id": "w-33",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Che cosa fareste se foste sindaci della città?",
+   "propuesta": "Elevar el nivel y el registro: texto adulto (mercado laboral, mudanza, cambio de trabajo).",
+   "motivo": "Lectura infantil, de nivel A2-B1 (frases cortas, léxico básico) en un curso B2/C1 cuyo tema es mercado laboral y decisiones de vida."
+  },
+  {
+   "id": "w-33",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "¿Qué habrían hecho el año pasado?",
+   "propuesta": "¿Qué dice Giulia que habrían hecho el año pasado?",
+   "motivo": "No aclara quién; solo Giulia responde. Ambigua."
+  },
+  {
+   "id": "w-33",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "comandassi",
+   "propuesta": "comandassi: mandara (tuviera el mando)",
+   "motivo": "«mandara» solo puede leerse como «enviara»; conviene aclarar. Además glosar «maestra» es innecesario (cognado)."
+  },
+  {
+   "id": "vocab:barca",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "barca",
+   "propuesta": "Reemplazar por léxico del tema (assumere, licenziarsi, colloquio, stipendio, trasferirsi) y añadir ejemplo.",
+   "motivo": "«barca» no tiene frase de ejemplo ni aparece en ningún ejercicio; el tema de mercado laboral casi no aparece."
+  },
+  {
+   "id": "p-065",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "fossi / fosi",
+   "propuesta": "Par real de geminada: «sete / sette», «caro / carro», «cade / cadde» o «sano / sanno».",
+   "motivo": "«fosi» no existe: no es un par mínimo real; el alumno discrimina contra una no-palabra."
+  },
+  {
+   "id": "p-065",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "sostené la consonante como si la pisaras dos veces",
+   "propuesta": "La doble suena más larga: sostené la «s» un instante antes de soltarla.",
+   "motivo": "Metáfora poco clara; nombrar la consonante y describir la duración."
+  },
+  {
+   "id": "c-041",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "potessi y verrei con dobles.",
+   "propuesta": "«potessi» lleva -ss- y «verrei» lleva -rr-: las dos son consonantes dobles.",
+   "motivo": "Nota escueta e imprecisa («con dobles»)."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Rebalancear los ítems: hoy hay 30 cloze casi idénticos (d19-001 a 030) y solo 3-4 producciones completas. Reducir a ~12 cloze y agregar transformaciones (tipo I → II → III de la misma frase), typed con producción libre («Se vincessi la lotteria…») y qa.",
+   "por_que": "Reconocimiento excesivo y producción escasa; la semana no llega a automatizar los tres tipos."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Cubrir todo lo enseñado: hay 0 ítems para el doppio imperfetto (bloque 4), 0 para purché, a patto che, qualora y nel caso in cui, 1 solo para los mixtos (bloque 2, que tiene dos subtipos: pasado→presente y presente→pasado).",
+   "por_que": "Cinco de los seis puntos de la teoría casi no se practican."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Corregir la regla de la prohibición: acotarla a la protasi hipotética y avisar de que «se» interrogativo admite condizionale.",
+   "por_que": "La regla es la insignia de la semana y hoy es demasiado absoluta."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Incluir contraste con el español de forma sistemática: mostrar errores típicos del rioplatense (calcar «si tendría»; usar «se + presente» para tipo II; olvidar el auxiliar del trapassato; concordancia essere/avere) en un cuadro de trampas.",
+   "por_que": "La teoría tiene poco contraste y falta un listado de errores típicos."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar un bloque breve de repaso/formación de congiuntivo imperfetto y trapassato con verbos irregulares (fare/facessi, dire/dicessi, dare/dessi, stare/stessi, bere/bevessi) y ejercicios de conjugate.",
+   "por_que": "Los ítems solo usan regulares, essere y avere; la parte formal se supone dominada."
+  },
+  {
+   "prioridad": "media",
+   "que": "Alinear el tema (mercado laboral, decisiones de vida) con el contenido: vocabulario laboral, ítems tipo «Se accettassi il lavoro a Milano…», y una lectura adulta (reemplazar w-33).",
+   "por_que": "El tema declarado casi no aparece."
+  },
+  {
+   "prioridad": "media",
+   "que": "Añadir `note` a los ítems d19 y traducciones; y hacer que los contenidos no enseñados (imperfetto en tipo I, omisión de se, come se, dovessi) se enseñen antes o se retiren.",
+   "por_que": "Sin feedback explicativo y con ítems fuera de la lección."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reemplazar el desafío r21-03c (condicional compuesto) por uno del período hipotético; corregir chapter en inglés.",
+   "por_que": "No trabaja el tema de la semana."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Mejorar suoni: par mínimo real, y añadir una entrada de intonazione (protasi ascendente, apódosis descendente) y de accento (fòssi/fossi; farebbe, sarebbe).",
+   "por_que": "intonazione/accento vacíos; el par p-065 no es real."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Eliminar duplicados (c1-ipot-06, g2-ct-45, d19-033; c1-ipot-04 y g2-va-11; c1-ipot-01, g2-sc-18-a y g2-ct-44) y revisar que los conteos de `parts` (24+39=63) coincidan con los 58 ítems.",
+   "por_que": "Redundancia e inconsistencias de metadatos."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 1,
+   "dudas": 0
+  }
+ }
+}

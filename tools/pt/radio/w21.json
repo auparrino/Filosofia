@@ -1,0 +1,53 @@
+{
+ "week": 21,
+ "level": "B1",
+ "title": "Sumiu, Sofía!",
+ "genre": "telefonema ao vivo",
+ "es": "Hace semanas que Sofía no llama a la radio. Vuelve a aparecer y se ponen al día: qué viene haciendo últimamente, las novedades del barrio y una fiesta a la que llegó tarde.",
+ "speakers": ["Nanda", "Sofía"],
+ "turns": [
+  ["A", "Olha quem está na linha: a Sofía! Sumiu, hein? Faz um mês que você não liga."],
+  ["B", "Oi, Nanda! Pois é, desculpa. Tenho trabalhado demais: a empresa de Rosário tem me mandado um monte de projetos. E tenho estudado para a prova de português."],
+  ["A", "E tem dormido bem, pelo menos?"],
+  ["B", "Pouco. Aliás, tenho tomado café demais. Acho que engordei dois quilos!"],
+  ["A", "Imagina! Mas me conta as novidades. O que tem rolado aí na sua rua?"],
+  ["B", "Muita coisa! A Carol, a neta caçula da Dona Lúcia, engravidou. O neném nasce em outubro. A Dona Lúcia já está fazendo roupinhas."],
+  ["A", "Que notícia boa! E o que mais?"],
+  ["B", "O seu Jorge, o porteiro, se aposentou e se mudou para Petrópolis. E o João parou de fumar: ele tem corrido no Aterro todo dia e emagreceu muito."],
+  ["A", "E o casamento da Bia? Foi no sábado, não foi?"],
+  ["B", "Foi! Mas você não sabe o que aconteceu comigo. O meu voo de Buenos Aires atrasou três horas. Quando eu cheguei à festa, a cerimônia já tinha acabado e os noivos já tinham cortado o bolo."],
+  ["A", "Ai, que pena! E a Bia ficou chateada?"],
+  ["B", "Nada! Ela tinha guardado um pedaço de bolo para mim e a gente dançou até as quatro. Até o pai dela, que é careca e muito sério, dançou samba!"],
+  ["A", "Que festa! Sofía, liga mais vezes, tá? A gente sente a sua falta."],
+  ["B", "Prometo! A partir de agora vou ligar toda semana."]
+ ],
+ "gloss": {
+  "na linha": "en línea, al teléfono",
+  "Sumiu": "¡desapareciste!",
+  "projetos": "proyectos",
+  "novidades": "novedades",
+  "aconteceu": "pasó",
+  "acabado": "terminado",
+  "roupinhas": "ropita (de bebé)",
+  "porteiro": "portero",
+  "fumar": "fumar",
+  "cerimônia": "ceremonia",
+  "noivos": "novios (los que se casan)",
+  "bolo": "torta",
+  "chateada": "enojada, molesta",
+  "guardado": "guardado",
+  "sente a sua falta": "te extraña"
+ },
+ "questions": [
+  ["Por que a Sofía não ligou para a rádio?", ["Porque estava viajando pela Argentina", "Porque tem trabalhado e estudado muito", "Porque ficou doente", "Porque mudou de bairro"], "Porque tem trabalhado e estudado muito"],
+  ["Qual é a novidade da Carol?", ["Ela se casou", "Ela vai ter um neném", "Ela se mudou para Petrópolis", "Ela parou de fumar"], "Ela vai ter um neném"],
+  ["O que tinha acontecido quando a Sofía chegou ao casamento?", ["A festa já tinha acabado", "A cerimônia já tinha terminado", "A Bia ainda não tinha chegado à festa", "O pai da Bia tinha ido embora"], "A cerimônia já tinha terminado"]
+ ],
+ "info": [
+  ["O seu Jorge se mudou para Petrópolis.", true],
+  ["A Sofía chegou atrasada ao casamento por causa do voo.", true],
+  ["A Bia ficou chateada com a Sofía.", false]
+ ],
+ "grammatica": {"label": "el perfeito composto (tenho feito: lo que se viene repitiendo) y el mais-que-perfeito (tinha feito)", "forme": ["tenho trabalhado", "tem me mandado", "tenho estudado", "tem dormido", "tenho tomado", "tem rolado", "tem corrido", "já tinha acabado", "já tinham cortado", "tinha guardado"]},
+ "parole": [["sumiu", "sumir"], ["pois é", "pois é"], ["aliás", "aliás"], ["engordei", "engordar"], ["rolado", "rolar"], ["caçula", "caçula"], ["engravidou", "engravidar"], ["neném", "neném"], ["aposentou", "aposentar-se"], ["mudou", "mudar-se"], ["parou de", "parar de"], ["emagreceu", "emagrecer"], ["casamento", "casamento"], ["careca", "careca"]]
+}

@@ -1,0 +1,44 @@
+{
+ "week": 8,
+ "level": "A2",
+ "title": "Il gioco «Dove sono?»",
+ "genre": "gioco radiofonico",
+ "es": "Todos los lunes Radio Portici juega a «¿Dónde estoy?»: Leo, el corresponsal en bicicleta, recorre la ciudad y cuenta el camino; Sara hace preguntas hasta adivinar el lugar.",
+ "speakers": ["Sara", "Leo"],
+ "turns": [
+  ["A", "Buongiorno! È lunedì e, come ogni lunedì, c'è il gioco «Dove sono?». Leo è in bicicletta da qualche parte in città. Leo, mi senti?"],
+  ["B", "Ti sento benissimo, Sara!"],
+  ["A", "Allora, dove sei? In quale strada?"],
+  ["B", "Eh, questo è il gioco! Sono in una via lunga, con i portici. Vado dritto e a destra c'è una porta antica della città."],
+  ["A", "Una porta... Ma quante porte ci sono a Bologna? Tante! E adesso che cosa fai?"],
+  ["B", "All'incrocio giro a sinistra. Poi attraverso la strada e comincio a salire. Qui c'è poca gente: qualche turista e tanti bolognesi in tuta."],
+  ["A", "Perché salgono? Che cosa cercano?"],
+  ["B", "Cercano una chiesa. È in alto, sopra la città, e da lì c'è una vista bellissima."],
+  ["A", "Ho un dubbio... Sei sotto il portico di San Luca?"],
+  ["B", "Esatto! Brava, Sara!"],
+  ["A", "E voi, cari ascoltatori: quanti archi ha questo portico? Chi sa la risposta scrive a Radio Portici."]
+ ],
+ "gloss": {
+  "da qualche parte": "en algún lugar",
+  "benissimo": "muy bien, perfecto",
+  "antica": "antigua",
+  "salire": "subir",
+  "salgono": "suben",
+  "tuta": "ropa deportiva, jogging",
+  "vista": "vista, panorama",
+  "archi": "arcos",
+  "ascoltatori": "oyentes"
+ },
+ "questions": [
+  ["¿Cómo se mueve Leo por la ciudad?", ["En bicicleta", "En colectivo", "A pie", "En tren"], "En bicicleta"],
+  ["¿Qué hace Leo en el cruce?", ["Dobla a la derecha", "Dobla a la izquierda", "Sigue derecho", "Se para un rato a descansar"], "Dobla a la izquierda"],
+  ["¿Qué buscan las personas que suben?", ["Una puerta antigua", "Un bar con vista", "Una iglesia en lo alto", "La bicicleta de Leo"], "Una iglesia en lo alto"]
+ ],
+ "info": [
+  ["El juego «Dove sono?» es todos los lunes.", true],
+  ["En la subida hay mucha gente.", false],
+  ["Sara adivina el lugar.", true]
+ ],
+ "grammatica": {"label": "las preguntas: dove, quale, quante, che cosa, perché, chi", "forme": ["dove sei", "in quale strada", "quante porte", "che cosa fai", "perché salgono", "che cosa cercano", "quanti archi", "chi sa"]},
+ "parole": [["dritto", "dritto"], ["destra", "destra"], ["incrocio", "incrocio"], ["giro", "girare"], ["sinistra", "sinistra"], ["attraverso", "attraversare"], ["cercano", "cercare"], ["dubbio", "dubbio"], ["strada", "strada"], ["via", "via"]]
+}

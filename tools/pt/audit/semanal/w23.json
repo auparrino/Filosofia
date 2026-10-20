@@ -1,0 +1,202 @@
+{
+ "week": 23,
+ "title": "Presente do subjuntivo",
+ "level": "B1",
+ "revisado": {
+  "items": 45,
+  "bloques_teoria": 7,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 6,
+  "radio": 1,
+  "otros": 39
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana sólida: la teoría es correcta (formas, siete irregulares, cambios de grafía, achar que + indicativo) y los 45 ítems no contienen errores gramaticales verificables en portugués. Los problemas son menores: consignas de garden sin ejemplos visibles, accept incompleto en algunas traducciones, distractores obvios en español, duplicados y ejercicios sin cobertura de varios puntos enseñados (formas de nós, -ger/-gir, ficar, não acho que). Falsos positivos estimados: ~25% de los hallazgos.",
+ "bien": [
+  "Teoría ordenada en 3 partes con tablas, contraste con el español y advertencias de errores típicos (sea/vaya/sepa/haya, diptongo, deem sin tilde)",
+  "Reglas verificadas: raíz del eu, siete irregulares, cambios c→qu, g→gu, ç→c, g→j y achar que en indicativo",
+  "Buena mezcla de tipos: choice, cloze, translate, fixerr, garden, scopri y typed; progresión de forma a uso",
+  "Lectura w-23, carta de ep8 y radioteatro naturales, con uso abundante del subjuntivo y caza de formas",
+  "Duelos y laboratorio refuerzan el contraste hecho/deseo; vocabulario de salud y relaciones útil y bien glosado"
+ ],
+ "hallazgos": [
+  {
+   "id": "lesson:4:tip",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Para consejos amistosos, *é melhor você...* también se oye con infinitivo o presente al hablar; al escribir, *é melhor que você vá*.",
+   "propuesta": "Para consejos amistosos, al hablar se oye mucho *é melhor você ir* (infinitivo) o *é melhor você vá* (sin *que*); al escribir, *é melhor que você vá*.",
+   "motivo": "«con presente» es ambiguo y sugiere «é melhor você vai», que no es estándar; conviene dar ejemplos concretos."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Con *espero que*, ojo a *goste*: el que gusta sigue siendo el sujeto.",
+   "propuesta": "Con *espero que*, ojo: el sujeto del verbo subordinado es el que siente el gusto: *espero que você goste* (= que te guste), no «que eu goste».",
+   "motivo": "La advertencia es confusa y no explica el error típico (calcar «te guste» con sujeto equivocado)."
+  },
+  {
+   "id": "lesson:5:ex",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Tal vez vaya al bloque.",
+   "propuesta": "Tal vez vaya al bloco (fiesta callejera de carnaval).",
+   "motivo": "«bloque» traduce mal *bloco*, que es una agrupación/fiesta de carnaval; el alumno no lo entiende sin glosa."
+  },
+  {
+   "id": "lesson:6:warn / lab certeza",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "ojo: en portugués *acho que* no pide subjuntivo",
+   "propuesta": "(ojo: igual que en español, *acho que* pide indicativo)",
+   "motivo": "Contradice el «casi como en español» de la semana; en español «creo que» tampoco pide subjuntivo."
+  },
+  {
+   "id": "item s2-23-15",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Mirá los tres ejemplos (subjuntivo) y completá el cuarto.",
+   "propuesta": "Mostrar los tres ejemplos en el enunciado o cambiar la consigna a «Completá el subjuntivo»",
+   "motivo": "La consigna remite a ejemplos que el dossier no muestra; si no se ven, el ejercicio es ambiguo (idem s2-23-16 y s2-23-17)."
+  },
+  {
+   "id": "item s2-23-20",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "que ___ (haver)",
+   "propuesta": "Tomara que ___ (haver) tempo.  → haja",
+   "motivo": "Sin contexto no hay sujeto ni trigger; además *haja* es rarísimo en el habla (se usa *tenha*)."
+  },
+  {
+   "id": "item s2-23-30",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Quero que você venha",
+   "propuesta": "accept: añadir «Quero que venha», «Eu quero que venha»",
+   "motivo": "s2-23-29 acepta la forma sin sujeto y esta no; inconsistencia."
+  },
+  {
+   "id": "item s2-23-31",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "É importante que você descanse",
+   "propuesta": "accept: añadir «Eu acho importante...» no; sí «É importante que descanse»",
+   "motivo": "Falta la variante sin sujeto, igual de natural."
+  },
+  {
+   "id": "item s2-23-42",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Acho que ele vem",
+   "propuesta": "accept: añadir «Eu acho que vem»",
+   "motivo": "Falta la variante con eu y sin sujeto, aceptada en otros ítems análogos."
+  },
+  {
+   "id": "item s2-23-34",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Talvez eu ___ ao bloco.",
+   "propuesta": "Cambiar «vaya» por una opción portuguesa plausible (p. ej. «vai» / «vá» / «for»)",
+   "motivo": "Muchos distractores son formas españolas (esté, sea, vaya, llova), eliminables por sentido sin aplicar la regla."
+  },
+  {
+   "id": "item s2-23-37",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "É possível que ___ à tarde.",
+   "propuesta": "Variar: duplica a s2-23-21 (chova) y lesson q",
+   "motivo": "Hay pares casi duplicados: s2-23-21/37 (chova), s2-23-35/39 y la lección (acho que está), s2-23-01/17 (esteja), s2-23-02/12 (seja)."
+  },
+  {
+   "id": "radio Consultório da Nanda:turno 5",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "E se a Júlia não quer nenhum encontro?",
+   "propuesta": "E se a Júlia não quiser nenhum encontro?",
+   "motivo": "En una semana de subjuntivo, mostrar el futuro del subjuntivo anticipa algo no enseñado; el indicativo coloquial es válido pero conviene evitar confusión."
+  },
+  {
+   "id": "radio Consultório da Nanda:turno 9",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "E, pelo menos, o curativo não vai ser no coração.",
+   "propuesta": "Cambiar la broma o quitarla",
+   "motivo": "Téo no tiene ninguna herida; el chiste con «curativo» no se entiende y no practica el subjuntivo."
+  },
+  {
+   "id": "radio info 3",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "A vacina da gripe já chegou ao posto de saúde.",
+   "propuesta": "A Nanda diz que a vacina da gripe já chegou.",
+   "motivo": "El audio no dice que haya llegado al posto, solo que «já chegou»; la afirmación agrega un dato."
+  },
+  {
+   "id": "lettura ep8",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "mesmo que não perceba",
+   "propuesta": "Mantener, pero añadir una nota o una glosa de «mesmo que» y «qualquer que seja»",
+   "motivo": "Exige subjuntivo tras conjunciones y «qualquer que seja», no enseñados esta semana."
+  },
+  {
+   "id": "duelos subjuntivo",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Sinto muito que você ___ doente.",
+   "propuesta": "Sustituir por un trigger enseñado (p. ej. «É bom que você ___ ...»)",
+   "motivo": "«Sinto muito que» y «Peço que» no figuran en la lección (solo recomendo/sugiro/espero/quero)."
+  },
+  {
+   "id": "dictogloss Conselhos para a Sofía",
+   "lang": "pt",
+   "severidad": "mejora",
+   "actual": "não deixe de ir a uma roda de samba",
+   "propuesta": "Mantener como bloque léxico o glosar como imperativo negativo",
+   "motivo": "Es subjuntivo en imperativo negativo, no tratado en la lección."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Añadir ítems para puntos enseñados sin práctica: ficar→fique, -ger/-gir (proteja, dirija), formas de nós (façamos, sejamos), queira, ouça/peça y «não acho que + subjuntivo».",
+   "por_que": "La lección enseña estos puntos pero los ítems se concentran en esteja/seja/saiba/vá/chova."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir duplicados (chova, esteja, acho que está) y reemplazar distractores españoles obvios por formas portuguesas plausibles (vai, for, fala).",
+   "por_que": "Hoy muchas opciones se descartan por sentido o por ser español, no por la regla."
+  },
+  {
+   "prioridad": "media",
+   "que": "Completar accept en traducciones (variantes sin sujeto, con eu) y mostrar los ejemplos en los garden.",
+   "por_que": "Evita rechazar respuestas correctas y consignas ambiguas."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Añadir práctica de producción libre (escribir un consejo/deseo) y de subjuntivo con a gente y nós; aligerar el uso de haja.",
+   "por_que": "Casi todo es reconocimiento o cloze guiado; haja es raro en el habla."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Revisar triggers y estructuras fuera de lección en ep8, duelos y dictogloss (mesmo que, qualquer que seja, sinto muito que, não deixe de).",
+   "por_que": "Evaluan gramática no enseñada hasta esta semana."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 2
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}

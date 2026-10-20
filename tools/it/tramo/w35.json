@@ -1,0 +1,382 @@
+{
+  "week": 35,
+  "level": "B2",
+  "lettura": {
+    "title": "Il lago che nessuno voleva più",
+    "emoji": "🏞️",
+    "genre": "reportage",
+    "grammar": "la forma passiva (essere, venire, andare)",
+    "text": "Fino a dieci anni fa il lago di Vallombra, in una valle laterale del Trentino, veniva citato soltanto nei rapporti sull'inquinamento. Le sue acque erano state invase dalle alghe, le rive venivano usate come discarica abusiva e la spiaggetta del paese era stata chiusa ai bagnanti. «Qui non passava più nessuno», racconta Elena Dalpiaz, che gestisce il piccolo bar sul molo. «Anche i pescatori erano spariti.»\n\nOggi, in una mattina di settembre, la scena è completamente diversa. Sul pontile vengono accolte le classi delle scuole della valle, un gruppo di volontari controlla le reti di protezione dei canneti e dall'acqua, finalmente trasparente, spuntano le teste di due nuotatori. Com'è stato possibile? La risposta va cercata soprattutto in una decisione presa quasi per disperazione: affidare il lago non a un solo ente, ma a un consorzio in cui sono rappresentati il Comune, gli agricoltori, i pescatori e le associazioni ambientaliste.\n\nIl primo problema da risolvere erano i fertilizzanti. Per decenni i campi intorno al lago erano stati concimati in modo eccessivo, e ogni pioggia trascinava nell'acqua azoto e fosforo, il cibo preferito delle alghe. «All'inizio gli agricoltori venivano trattati come i colpevoli, e naturalmente si chiudevano a riccio», spiega Paolo Endrizzi, agronomo e presidente del consorzio. «Poi abbiamo cambiato approccio: le fasce di terreno lungo le rive sono state piantate a siepi e alberi, e le perdite di reddito vengono compensate con un fondo comune.» Le siepi, che nel frattempo sono cresciute, trattengono buona parte delle sostanze prima che raggiungano il lago.\n\nIl secondo intervento è stato più spettacolare. Il fondale, soffocato da uno strato di fango ricco di nutrienti, è stato ossigenato con un sistema di diffusori alimentati da pannelli solari. Nello stesso periodo sono state reintrodotte alcune specie di pesci che si nutrono di larve e aiutano a mantenere l'equilibrio. Ogni intervento viene monitorato da un laboratorio universitario, e i dati vengono pubblicati ogni tre mesi sul sito del consorzio, in un linguaggio comprensibile anche a chi non è un biologo.\n\nNon tutto, però, è andato liscio. Nel terzo anno una fioritura improvvisa di alghe ha fatto temere il fallimento dell'intero progetto, e in paese le critiche non sono mancate. «Ci dicevano che i soldi andavano spesi per le strade, non per le alghe», ricorda Dalpiaz. Il consorzio ha scelto di non nascondere nulla: sono state organizzate assemblee pubbliche e i cittadini sono stati invitati a partecipare ai prelievi. Molti, che fino a quel momento erano rimasti scettici, si sono trasformati in sostenitori.\n\nResta la domanda più scomoda: il modello di Vallombra può essere esportato? Gli esperti sono prudenti. Un lago piccolo, con pochi comuni affacciati sulle rive, non va confuso con un grande bacino attraversato da interessi economici enormi. Eppure qualche lezione va imparata anche altrove. Le regole, dice Endrizzi, vanno scritte insieme a chi dovrà rispettarle; i risultati vanno comunicati con onestà, anche quando sono deludenti; e i tempi della natura vanno accettati, perché un ecosistema rovinato in cinquant'anni non viene risanato in una stagione.\n\nQuest'estate, per la prima volta dopo quindici anni, la spiaggetta è stata riaperta ai bagnanti. Il cartello del divieto non è stato buttato via: è stato appeso nel bar di Elena, accanto alle foto delle alghe. «Serve a ricordare», dice lei, «che quello che è stato distrutto può essere ricostruito, ma non da soli.»",
+    "gloss": {
+      "alghe": "algas",
+      "rive": "orillas",
+      "discarica": "basural",
+      "abusiva": "ilegal, clandestina",
+      "bagnanti": "bañistas",
+      "molo": "muelle",
+      "pontile": "embarcadero",
+      "canneti": "juncales, cañaverales",
+      "spuntano": "asoman",
+      "consorzio": "consorcio",
+      "concimati": "abonados, fertilizados",
+      "trascinava": "arrastraba",
+      "azoto": "nitrógeno",
+      "riccio": "erizo (chiudersi a riccio: cerrarse, ponerse a la defensiva)",
+      "siepi": "cercos vivos",
+      "reddito": "ingreso",
+      "trattengono": "retienen",
+      "fondale": "fondo (del lago)",
+      "soffocato": "asfixiado",
+      "fango": "barro",
+      "liscio": "liso (andare liscio: salir sin problemas)",
+      "fioritura": "floración",
+      "prelievi": "tomas de muestras",
+      "scettici": "escépticos",
+      "scomoda": "incómoda",
+      "affacciati": "asomados, que dan a",
+      "bacino": "cuenca, lago grande",
+      "deludenti": "decepcionantes",
+      "risanato": "saneado",
+      "cartello": "cartel",
+      "appeso": "colgado"
+    },
+    "questions": [
+      [
+        "Qual è l'idea principale del reportage?",
+        [
+          "Un lago inquinato è rinato grazie a una gestione condivisa",
+          "Gli agricoltori sono stati puniti per l'inquinamento del lago",
+          "Il lago è stato salvato soprattutto da un laboratorio universitario",
+          "Il Comune ha affidato il lago a un'azienda privata"
+        ],
+        "Un lago inquinato è rinato grazie a una gestione condivisa"
+      ],
+      [
+        "Perché, secondo Endrizzi, all'inizio gli agricoltori «si chiudevano a riccio»?",
+        [
+          "Perché non volevano piantare alberi sui loro campi",
+          "Perché il fondo comune non era ancora stato creato",
+          "Perché non si fidavano dei dati dell'università",
+          "Perché si sentivano accusati invece che coinvolti"
+        ],
+        "Perché si sentivano accusati invece che coinvolti"
+      ],
+      [
+        "A che cosa servono le siepi piantate lungo le rive?",
+        [
+          "A proteggere i canneti dai visitatori",
+          "A ossigenare il fango del fondale",
+          "A trattenere i fertilizzanti prima che arrivino al lago",
+          "A compensare gli agricoltori per le perdite di reddito"
+        ],
+        "A trattenere i fertilizzanti prima che arrivino al lago"
+      ],
+      [
+        "Come ha reagito il consorzio alle critiche del terzo anno?",
+        [
+          "Ha sospeso gli interventi per un anno intero",
+          "Ha scelto la trasparenza e ha coinvolto i cittadini",
+          "Ha spostato i fondi sulla manutenzione delle strade",
+          "Ha smesso di pubblicare i dati per evitare polemiche"
+        ],
+        "Ha scelto la trasparenza e ha coinvolto i cittadini"
+      ],
+      [
+        "Che cosa vuole ricordare Elena con il cartello appeso nel bar?",
+        [
+          "Che il divieto di balneazione potrebbe tornare",
+          "Che i turisti devono rispettare le regole del lago",
+          "Che lei era contraria alla riapertura della spiaggia",
+          "Che il risanamento è stato un lavoro collettivo"
+        ],
+        "Che il risanamento è stato un lavoro collettivo"
+      ]
+    ],
+    "vf": [
+      [
+        "Prima del risanamento, la spiaggetta del paese era chiusa ai bagnanti.",
+        "vero"
+      ],
+      [
+        "I dati del monitoraggio vengono pubblicati una volta all'anno.",
+        "falso"
+      ],
+      [
+        "Il progetto è stato finanziato in gran parte dall'Unione europea.",
+        "non si dice"
+      ],
+      [
+        "Secondo gli esperti, il modello di Vallombra va applicato così com'è a qualsiasi lago.",
+        "falso"
+      ],
+      [
+        "Oggi è di nuovo permesso fare il bagno nel lago.",
+        "vero"
+      ]
+    ],
+    "hunt": {
+      "label": "Tocá los auxiliares venire y andare usados en voz pasiva",
+      "targets": [
+        "veniva",
+        "venivano",
+        "vengono",
+        "viene",
+        "va",
+        "vanno",
+        "andavano"
+      ]
+    }
+  },
+  "ascolto": {
+    "title": "Rifiuti, che cosa cambia da lunedì",
+    "genre": "intervista radiofonica",
+    "es": "En una radio local, una conductora entrevista al concejal de ambiente de un pueblo sobre el nuevo sistema de recolección de residuos y le traslada las dudas de los oyentes.",
+    "speakers": [
+      "Giulia, conduttrice",
+      "Marco Ferri, assessore all'ambiente"
+    ],
+    "turns": [
+      [
+        "A",
+        "Buongiorno a tutti e bentornati a Città in onda. Da lunedì a Castelnuovo cambia il modo in cui vengono raccolti i rifiuti, e le telefonate in redazione non si contano. Ne parliamo con Marco Ferri, assessore all'ambiente. Buongiorno, assessore."
+      ],
+      [
+        "B",
+        "Buongiorno a lei e agli ascoltatori. E grazie dell'invito, perché di chiarezza c'è proprio bisogno."
+      ],
+      [
+        "A",
+        "Allora, partiamo dalla domanda più semplice: che cosa cambia, in concreto?"
+      ],
+      [
+        "B",
+        "Allora, la novità principale è la tariffa puntuale. Cioè, finora la tassa sui rifiuti veniva calcolata soprattutto in base ai metri quadrati della casa. D'ora in poi una parte verrà calcolata in base a quanto indifferenziato produce ogni famiglia. In parole povere: chi separa bene, paga meno."
+      ],
+      [
+        "A",
+        "E come fate a sapere quanto produce ogni famiglia?"
+      ],
+      [
+        "B",
+        "Ogni famiglia riceve dei sacchetti grigi con un codice. Quando il sacchetto viene ritirato, il codice viene letto dall'operatore e registrato. Diciamo che è un po' come un contatore, come per l'acqua o la luce."
+      ],
+      [
+        "A",
+        "Molti ascoltatori però ci scrivono che hanno paura di essere controllati. Una signora dice: adesso il Comune saprà che cosa butto via."
+      ],
+      [
+        "B",
+        "Capisco la preoccupazione, davvero. Ma i sacchetti non vengono aperti, vengono solo pesati e contati. I dati sono trattati secondo le norme sulla privacy e non vengono ceduti a nessuno."
+      ],
+      [
+        "A",
+        "Un'altra domanda frequente riguarda i pannolini. Le famiglie con bambini piccoli rischiano di pagare di più?"
+      ],
+      [
+        "B",
+        "No, e questo è importante. Per le famiglie con bambini sotto i tre anni, e anche per chi assiste una persona anziana, è previsto un servizio a parte: i pannolini vanno messi in un contenitore apposito, che viene svuotato due volte a settimana e non viene conteggiato nella tariffa. Basta fare domanda all'ufficio ambiente."
+      ],
+      [
+        "A",
+        "E per chi non ha capito bene come separare? Perché, diciamocelo, il vetro va bene, la carta va bene, ma poi ci sono i casi strani."
+      ],
+      [
+        "B",
+        "Eh, i casi strani sono tanti. Lo scontrino, per esempio: sembra carta, ma va buttato nell'indifferenziato, perché è carta termica. Oppure i cartoni della pizza: se sono molto unti, vanno messi nell'organico. Per questo abbiamo preparato una guida, che è stata distribuita in tutte le case, e c'è anche un'app."
+      ],
+      [
+        "A",
+        "Ultima domanda, assessore, e scusi la franchezza: non è un modo per aumentare le tasse di nascosto?"
+      ],
+      [
+        "B",
+        "No, anzi. Nei comuni dove il sistema è stato introdotto, e parlo di comuni simili al nostro, la quantità di indifferenziato è stata ridotta in modo significativo. E meno rifiuti da smaltire vuol dire costi più bassi per tutti. Certo, i primi mesi saranno un periodo di prova: eventuali errori verranno corretti, e le bollette dei primi sei mesi non saranno penalizzanti."
+      ],
+      [
+        "A",
+        "Grazie, assessore. Chi ha altre domande può scriverci: le giriamo direttamente all'ufficio ambiente."
+      ]
+    ],
+    "gloss": {
+      "fate": "(come fate a sapere?) ¿cómo hacen para saber?: *fare a* + infinitivo",
+      "povere": "(in parole povere) dicho en criollo, en pocas palabras",
+      "giriamo": "(le giriamo) se las pasamos, se las reenviamos",
+      "contano": "(non si contano) son incontables",
+      "puntuale": "(tarifa) según lo que cada uno realmente produce",
+      "indifferenziato": "residuos no reciclables",
+      "sacchetti": "bolsas",
+      "contatore": "medidor",
+      "ceduti": "cedidos, pasados a terceros",
+      "pannolini": "pañales",
+      "apposito": "especial, destinado a eso",
+      "svuotato": "vaciado",
+      "scontrino": "ticket (de compra)",
+      "unti": "grasosos, engrasados",
+      "franchezza": "franqueza",
+      "smaltire": "eliminar, tratar (residuos)",
+      "bollette": "facturas, boletas"
+    },
+    "questions": [
+      [
+        "Qual è lo scopo principale dell'intervista?",
+        [
+          "Chiarire i dubbi dei cittadini sul nuovo sistema",
+          "Annunciare un aumento della tassa sui rifiuti",
+          "Presentare la nuova app del Comune",
+          "Dare voce alle proteste contro l'assessore"
+        ],
+        "Chiarire i dubbi dei cittadini sul nuovo sistema"
+      ],
+      [
+        "Come veniva calcolata finora la tassa sui rifiuti?",
+        [
+          "In base al numero di sacchetti ritirati",
+          "Soprattutto in base alla superficie della casa",
+          "In base al numero di persone in famiglia",
+          "In base al peso dei rifiuti differenziati"
+        ],
+        "Soprattutto in base alla superficie della casa"
+      ],
+      [
+        "Come risponde l'assessore alla signora preoccupata per la privacy?",
+        [
+          "I codici non contengono il nome della famiglia",
+          "I controlli dureranno solo i primi sei mesi",
+          "I sacchetti vengono pesati e contati, non aperti",
+          "I dati vengono letti soltanto dall'ufficio ambiente"
+        ],
+        "I sacchetti vengono pesati e contati, non aperti"
+      ],
+      [
+        "Dove va buttato lo scontrino?",
+        [
+          "Nella raccolta della carta",
+          "Nell'organico, se è sporco",
+          "Nell'indifferenziato",
+          "Nel contenitore dei pannolini"
+        ],
+        "Nell'indifferenziato"
+      ],
+      [
+        "Che cosa lascia capire l'assessore alla fine?",
+        [
+          "Che all'inizio ci potranno essere degli errori",
+          "Che il sistema è già stato sperimentato a Castelnuovo",
+          "Che le bollette aumenteranno nei primi mesi",
+          "Che non conosce i risultati degli altri comuni"
+        ],
+        "Che all'inizio ci potranno essere degli errori"
+      ]
+    ],
+    "vf": [
+      [
+        "Il codice sul sacchetto grigio viene letto al momento del ritiro.",
+        "vero"
+      ],
+      [
+        "Il contenitore per i pannolini viene svuotato una volta al mese.",
+        "falso"
+      ],
+      [
+        "L'app del Comune è disponibile anche in inglese.",
+        "non si dice"
+      ],
+      [
+        "Con il nuovo sistema, chi separa bene i rifiuti pagherà meno.",
+        "vero"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "lettera_formale",
+    "title": "Una proposta per il nostro fiume",
+    "fonte": "lettura",
+    "t": "Hai letto il reportage sul lago di Vallombra. Nella tua città c'è un corso d'acqua, un parco o un'area verde in cattive condizioni. Scrivi una lettera all'assessore all'ambiente del tuo Comune in cui descrivi la situazione, riassumi brevemente il caso di Vallombra e proponi almeno due misure ispirate a quell'esperienza, spiegando perché potrebbero funzionare. Usa un registro formale (da 165 a 225 parole).",
+    "es": "Carta formal a un funcionario: problema local, el ejemplo del lago leído y dos propuestas concretas. Cuidá el Lei con mayúscula, las fórmulas de saludo y usá la voz pasiva donde quede natural.",
+    "min": 165,
+    "max": 225,
+    "punti": [
+      [
+        "describir el problema local",
+        [
+          "torrente",
+          "fiume",
+          "parco",
+          "inquin",
+          "degrad",
+          "rifiuti",
+          "discarica"
+        ]
+      ],
+      [
+        "resumir el caso de Vallombra",
+        [
+          "vallombra",
+          "lago"
+        ]
+      ],
+      [
+        "proponer al menos dos medidas y justificarlas",
+        [
+          "propo",
+          "suggeri",
+          "in primo luogo",
+          "potrebbe"
+        ]
+      ],
+      [
+        "apertura y cierre formales",
+        [
+          "gentile",
+          "egregio",
+          "distinti saluti",
+          "cordiali saluti"
+        ]
+      ]
+    ],
+    "model": "Gentile Assessore,\n\nmi chiamo Lucía Romero e abito da tre anni nel quartiere di San Rocco, attraversato dal torrente Brembiolo. Le scrivo perché le condizioni del torrente sono ormai preoccupanti: le rive vengono usate come discarica, l'acqua è torbida e d'estate l'odore è insopportabile. Il sentiero che lo costeggia, un tempo frequentato da famiglie e sportivi, è stato di fatto abbandonato.\n\nDi recente ho letto un reportage sul lago di Vallombra, in Trentino, che in dieci anni è stato risanato grazie a un consorzio in cui erano rappresentati il Comune, gli agricoltori, i pescatori e le associazioni. Credo che quell'esperienza contenga alcune idee utili anche per noi.\n\nVorrei quindi proporLe due misure. In primo luogo, potrebbe essere creato un tavolo permanente con i residenti, le aziende della zona e i volontari, perché le regole vanno decise insieme a chi dovrà rispettarle. In secondo luogo, i dati sulla qualità dell'acqua dovrebbero essere pubblicati regolarmente, in un linguaggio comprensibile a tutti: solo così la fiducia dei cittadini può essere riconquistata.\n\nSono disponibile, insieme ad altri vicini, a collaborare all'organizzazione di una prima giornata di pulizia delle rive.\n\nIn attesa di un Suo cortese riscontro, Le porgo distinti saluti.\n\nLucía Romero",
+    "gloss": {
+      "Assessore": "funcionario municipal a cargo de un área (secretario, concejal)",
+      "torrente": "arroyo",
+      "discarica": "basural",
+      "torbida": "turbia",
+      "costeggia": "bordea, corre al lado de",
+      "di fatto": "en la práctica",
+      "risanato": "saneado",
+      "tavolo permanente": "mesa de trabajo permanente"
+    }
+  },
+  "breve": {
+    "title": "Riapre la spiaggia del lago",
+    "genre": "avviso pubblico",
+    "es": "Un comunicado de la municipalidad anuncia que la playa del lago vuelve a abrir y explica las reglas.",
+    "speaker": "Voce del Comune",
+    "voice": 0,
+    "text": [
+      "Comunicato del Comune di Vallombra. Si informano i cittadini che, a partire da sabato 3 giugno, la spiaggia del lago è di nuovo aperta alla balneazione. Le analisi dell'acqua, eseguite dall'Agenzia per l'ambiente nelle ultime quattro settimane, hanno dato risultati positivi.",
+      "La spiaggia sarà sorvegliata da un bagnino tutti i giorni dalle dieci alle diciannove. Il parcheggio del molo, invece, viene riservato ai residenti e alle persone con disabilità: tutti gli altri sono invitati a lasciare l'auto nel parcheggio della stazione, da cui parte una navetta gratuita ogni venti minuti.",
+      "È vietato portare cani sulla spiaggia e accendere fuochi sulle rive. I rifiuti vanno portati via o gettati negli appositi contenitori della raccolta differenziata. Chi non rispetta le regole può essere multato fino a duecento euro.",
+      "Per informazioni, rivolgersi all'Ufficio ambiente del Comune."
+    ],
+    "tabella": [
+      ["Giorno di riapertura della spiaggia", "3 giugno", ["sabato 3 giugno", "il 3 giugno", "tre giugno", "sabato"]],
+      ["Ora in cui finisce la sorveglianza del bagnino", "19", ["diciannove", "alle 19", "19:00", "19.00"]],
+      ["Ogni quanti minuti passa la navetta", "20", ["venti", "ogni 20 minuti", "ogni venti minuti"]],
+      ["Multa massima (euro)", "200", ["duecento"]]
+    ],
+    "info": [
+      ["Le analisi dell'acqua sono durate quattro settimane.", true],
+      ["Il parcheggio del molo è aperto a tutti.", false],
+      ["La navetta dalla stazione è gratuita.", true],
+      ["I cani possono stare sulla spiaggia al guinzaglio.", false],
+      ["È vietato accendere fuochi sulle rive.", true],
+      ["Il bagnino c'è solo nel fine settimana.", false]
+    ],
+    "gloss": {
+      "balneazione": "baño (en el mar, en el lago)",
+      "bagnino": "guardavidas",
+      "molo": "muelle",
+      "rive": "orillas"
+    }
+  }
+}

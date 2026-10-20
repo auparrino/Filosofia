@@ -1,0 +1,170 @@
+[
+ {
+  "id": "sfida:r02-07",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "El ítem no aparece en la semana 1: weeks[0].challenges/items no lo incluyen; solo tiene wk:1 (valor por defecto, usado solo para agrupar en el boss). Se muestra en la semana de su capítulo (sem. 3 y 13).",
+  "fuente": "docs/data/course.json challenges[7]",
+  "correccion": ""
+ },
+ {
+  "id": "sfida:r12-01b",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "El ítem no aparece en la semana 1: weeks[0].challenges/items no lo incluyen; solo tiene wk:1 (valor por defecto, usado solo para agrupar en el boss). Se muestra en la semana de su capítulo (sem. 17 y 27).",
+  "fuente": "docs/data/course.json challenges[123]",
+  "correccion": ""
+ },
+ {
+  "id": "sfida:r27-07",
+  "lote": "w01",
+  "veredicto": "RECHAZADO",
+  "razon": "El ítem no aparece en la semana 1: weeks[0].challenges/items no lo incluyen; solo tiene wk:1 (valor por defecto, usado solo para agrupar en el boss). Se muestra en la semana de su capítulo (sem. 40, 51, 52).",
+  "fuente": "docs/data/course.json challenges[311]",
+  "correccion": ""
+ },
+ {
+  "id": "vocab:ragazzo",
+  "lote": "w03",
+  "veredicto": "CONFIRMADO",
+  "razon": "El ejemplo de la palabra de la semana 3 es una lista de sintagmas pegados (respuesta de un ejercicio de artículos tomada automáticamente); se ve en 'Palabras de la semana'.",
+  "fuente": "docs/data/course.json weeks[2].vocab[4][2]; override en tools/bank/esempi.py (ESEMPI); lógica en tools/build_course.py ~1300-1325",
+  "correccion": "ESEMPI['ragazzo'] = 'Il ragazzo è simpatico.'"
+ },
+ {
+  "id": "item l2-c-57",
+  "lote": "w06",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Il rumore fa fastidio a mia nonna» es correcto y muy frecuente (fare/dare fastidio); dos opciones válidas, solo se acepta «dà».",
+  "fuente": "tools/authored/lessico2.py:233",
+  "correccion": "options=['dà','ha','mette'] (reemplazar «fa»)"
+ },
+ {
+  "id": "item g2-va-33",
+  "lote": "w07",
+  "veredicto": "RECHAZADO",
+  "razon": "El fixerr ya trae goodAlt ['Ho trenta anni'] y app.js (judge, ~l.4759) valida contra good+goodAlt; 'accept' no interviene.",
+  "fuente": "tools/authored/grammatica2.py:1722; docs/js/app.js:4759",
+  "correccion": ""
+ },
+ {
+  "id": "d12-037",
+  "lote": "w09",
+  "veredicto": "RECHAZADO",
+  "razon": "Con pronombre tónico tras su se usa «su di te» (forma estándar; «su te» es rara/desaconsejada). El ítem enseña justo eso y la nota lo dice.",
+  "fuente": "docs/data/course.json item d12-037",
+  "correccion": ""
+ },
+ {
+  "id": "p-113",
+  "lote": "w12",
+  "veredicto": "CONFIRMADO",
+  "razon": "zucchero es /ˈdzukkero/ (z sonora, como dozzina [ddz] en p-108); [ts] es incorrecto en estándar, y la doble c no es el contraste (igual en ambos miembros).",
+  "fuente": "docs/js/ascolto_data.js:131",
+  "correccion": "«[dz] (sonora) en zucchero; en succhero la s- es otro sonido. La doble c es igual en las dos.»"
+ },
+ {
+  "id": "r26-02b (s:r26-02b:c)",
+  "lote": "w16",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "Con objeto singular «si mette la TV» es formalmente ambiguo (pasivante/impersonal); la clave del libro dice pasivante, pero por la forma no se decide. Vale también para f («si dice ragazzi»).",
+  "fuente": "docs/data/course.json item s:r26-02b:c (challenge r26-02b, sem. 36)",
+  "correccion": "Cambiar a «Dove si mettono le valigie?» (passivante) o aceptar ambas y aclarar que en singular es ambiguo"
+ },
+ {
+  "id": "s:r07-01i:c",
+  "lote": "w19",
+  "veredicto": "CONFIRMADO",
+  "razon": "Con ha el clítico la se elide: «l'ha ancora mandata»; «non la ha» no es estándar y se enseñaría como válido.",
+  "fuente": "docs/data/course.json item s:r07-01i:c; parche tools/audit/patches/sfide/ch01-07.json",
+  "correccion": "accept: [\"l' | mandata\"]"
+ },
+ {
+  "id": "lesson:2:warn",
+  "lote": "w21",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Sì, vado domani» es gramatical y frecuente; ci es natural pero no obligatorio. «suena incompleto» y «en italiano, sí» exageran.",
+  "fuente": "tools/lessons/s2.py:518-526",
+  "correccion": "warn: «Sin *ci* la frase también es correcta, pero en italiano es más habitual retomar el lugar ya nombrado: *sì, ci vado domani*.»; en r cambiar «en italiano, sí» por «en italiano es más habitual»"
+ },
+ {
+  "id": "suoni a-022",
+  "lote": "w23",
+  "veredicto": "CONFIRMADO",
+  "razon": "fàcile es sdrucciola (tónica en la 1ª de 3 sílabas) pero «fácil» en español es llana: la comparación es falsa.",
+  "fuente": "docs/js/ascolto_data.js:307",
+  "correccion": "note: «Esdrújula (sdrucciola): FÀ-ci-le, aunque en español «fácil» sea llana.»"
+ },
+ {
+  "id": "sfide r24-01b / r24-02b / r24-01c / r24-04c",
+  "lote": "w29",
+  "veredicto": "RECHAZADO",
+  "razon": "chapterTitle no se muestra: renderSfide solo imprime «cap. » + c.chapter (número); el título usa c.consigna en español.",
+  "fuente": "docs/js/app.js:2903-2926",
+  "correccion": ""
+ },
+ {
+  "id": "w-33",
+  "lote": "w33",
+  "veredicto": "CONFIRMADO",
+  "razon": "La consigna del hunt enumera los targets exactos (foste, fossi, avessi, comandassi): se resuelve sin leer.",
+  "fuente": "docs/js/letture_settimana.js:820",
+  "correccion": "label: «Tocá los verbos de las condiciones con «se»»"
+ },
+ {
+  "id": "suoni p-066",
+  "lote": "w35",
+  "veredicto": "RECHAZADO",
+  "razon": "Convención del set: b es un no-palabra marcada «(no existe)» (avrebe, esendo, sopratutto…); no pretende ser par mínimo real; la nota dice «Una sola t: stato».",
+  "fuente": "docs/js/ascolto_data.js:82",
+  "correccion": ""
+ },
+ {
+  "id": "item g2-ct-54",
+  "lote": "w40",
+  "veredicto": "RECHAZADO",
+  "razon": "Regla estándar: parentesco singular sin adjetivo omite artículo (mia madre); mamma/papà lo admiten; «la mia madre» es marcado/no estándar. Simplificación correcta.",
+  "fuente": "tools/authored/grammatica2.py:1312",
+  "correccion": ""
+ },
+ {
+  "id": "c1-part-04",
+  "lote": "w44",
+  "veredicto": "CONFIRMADO",
+  "razon": "Con «si è lavata le mani» el participio concuerda con el sujeto; «lavate» con objeto pospuesto no es estándar y la propia nota dice que concuerda con el sujeto.",
+  "fuente": "tools/authored/c1_pronomi.py:108-112",
+  "correccion": "answer 'ta', alt=[] y accept ['ta']"
+ },
+ {
+  "id": "item d03-060",
+  "lote": "w46",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "La palabra pedida es correcta pero la derivación indicada es falsa: prenotazione = prenotare (pre-+notare) + -zione, no pre- + notazione.",
+  "fuente": "tools/audit/patches/dummies/ch03-08.json:589",
+  "correccion": "stem: «reserva (notare + prefijo pre- + sufijo -zione) → ___»"
+ },
+ {
+  "id": "lettura w-50",
+  "lote": "w50",
+  "veredicto": "RECHAZADO",
+  "razon": "En rioplatense «negocio» = local comercial: la glosa es válida; negozio no está entre los falsos amigos del hunt (imbarazzata, salsa, largo).",
+  "fuente": "docs/js/letture_settimana.js:422",
+  "correccion": ""
+ },
+ {
+  "id": "sfida s:r11-01b:h",
+  "lote": "w52",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Ci mancherebbe» = «faltaba más / de nada», no expresa rechazo; contradice «Per carità». «Ma figurati» sí puede rechazar y puede quedar.",
+  "fuente": "docs/data/course.json item s:r11-01b:h; tools/audit/patches/sfide/ch08-14.json",
+  "correccion": "Quitar «Ci mancherebbe» de accept"
+ },
+ {
+  "id": "nomi:0",
+  "lote": "T-lessico-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "appartamento tiene pp pero una sola t; la nota enseña ortografía falsa.",
+  "fuente": "tools/bank/parole_nomi.py:12 (→ docs/data/bank.json nouns)",
+  "correccion": "«Doble p: appartamento (una sola t).»"
+ }
+]

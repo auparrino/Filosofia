@@ -1,0 +1,106 @@
+[
+ {
+  "id": "lesson:7",
+  "lote": "w01",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Tenho fome/sede/sono» es normal y muy frecuente en pt-BR; llamarlo «raro» es falso.",
+  "fuente": "tools/pt/lessons/s1.py:155-156 (campo warn; copiado a course.json lesson:7)",
+  "correccion": "«En Brasil es muy común estar com + sensación (estou com fome, com sede, com sono); tener + sensación también se dice (tenho fome) y es correcto.» (cambiar también la apertura del warn, que dice que van «con estar com»)"
+ },
+ {
+  "id": "duelos serestar #21/#22/#24",
+  "lote": "w01",
+  "veredicto": "CONFIRMADO",
+  "razon": "«O apartamento está em Botafogo», «a escola está em Copacabana», «a praia está perto/longe» son naturales; los ítems A() solo aceptan «é».",
+  "fuente": "docs/lang/pt/duelli_data.js:55-60 (duelo serestar)",
+  "correccion": "Reemplazar por eventos («A festa é em Botafogo», «O show é em Copacabana») o por «fica»; si se mantienen, redactar el why sin afirmar que «está» es error."
+ },
+ {
+  "id": "lettura w-05",
+  "lote": "w05",
+  "veredicto": "CONFIRMADO",
+  "razon": "Narrador en tercera persona: «a gente» (incluye al hablante) no puede referirse solo a Sofía y Bia; incoherente con «E vocês?».",
+  "fuente": "docs/lang/pt/letture_settimana.js:134",
+  "correccion": "«De tarde, elas estudam juntas: a Sofía estuda português e a Bia estuda espanhol.» (quitar o ajustar gloss «gente» en línea ~139)"
+ },
+ {
+  "id": "lettura fl-dele",
+  "lote": "w10",
+  "veredicto": "CONFIRMADO",
+  "razon": "El español sí tiene la solución «de él / de ella»; la diferencia es que en portugués es la preferida.",
+  "fuente": "docs/lang/pt/letture_data.js:1349",
+  "correccion": "«En español «su» también es ambiguo y también se puede aclarar con «de él / de ella», pero en portugués esa solución es la normal.»"
+ },
+ {
+  "id": "s2-16-23",
+  "lote": "w16",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Rafa» puede ser Rafael o Rafaela; el accept solo tiene «ele», «ela» sería igual de correcto.",
+  "fuente": "tools/pt/authored/s2.py:397 (course.json id s2-16-23)",
+  "correccion": "Cambiar la pista a «(a Rafael, como se dice al hablar)» (o agregar accept «ela»)."
+ },
+ {
+  "id": "item s2-25-22",
+  "lote": "w25",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "«O que eu mais gosto» sin preposición es habla corriente en pt-BR, pero el ítem no marca registro y la semana enseña «de que» en lo escrito (ítems 20, 30, 31).",
+  "fuente": "tools/pt/authored/s2.py:1538-1539",
+  "correccion": "Mantener answer «O que», agregar alt «Do que» y nota: «En el habla se oye *o que eu mais gosto*; en lo escrito, *do que eu mais gosto* / *o que eu mais admiro*.» (o pista «(habla)» en el stem)."
+ },
+ {
+  "id": "item s3-30-37",
+  "lote": "w30",
+  "veredicto": "RECHAZADO",
+  "razon": "El garden muestra los tres ejemplos en el campo lead (chegar, comer, partir) además del stem; la consigna es coherente.",
+  "fuente": "tools/pt/authored/s3.py:652-657",
+  "correccion": ""
+ },
+ {
+  "id": "item s3-35-06",
+  "lote": "w35",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Sonhar com + infinitivo» (sonho com morar) es muy común y correcto; «com» está entre las opciones y es válido.",
+  "fuente": "tools/pt/authored/s3.py:1307",
+  "correccion": "Cambiar a «Sonho ___ uma casa em Ipanema.» (com) o aceptar «com», o quitar «com» de las options; nota: «sonhar com (algo/alguien); con infinitivo se dice sonhar em o sonhar com»."
+ },
+ {
+  "id": "lesson:5",
+  "lote": "w45",
+  "veredicto": "CONFIRMADO",
+  "razon": "El heterogenérico es legume/legumbre (m./f.); «verdura» es otra palabra y rompe el contraste.",
+  "fuente": "tools/pt/lessons/s4.py:722",
+  "correccion": "[\"o legume (la legumbre)\", \"a análise (el análisis)\"]"
+ },
+ {
+  "id": "item s4-46-30",
+  "lote": "w46",
+  "veredicto": "CONFIRMADO",
+  "razon": "El alt acepta el calco «se parece ao», que la propia nota declara incorrecto (es parecer-se com).",
+  "fuente": "tools/pt/authored/s4.py:1191 (también accept en course.json s4-46-30)",
+  "correccion": "Quitar \"O chiado carioca se parece ao de Lisboa\" de alt/accept."
+ },
+ {
+  "id": "tramo:0:compito",
+  "lote": "w50",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "El match es por subcadena exacta: «ficha caiu» falla con «caiu a ficha»; pero cada grupo se cubre con una sola de ~15 expresiones, por lo que el impacto es menor.",
+  "fuente": "docs/lang/pt/tramo_data.js:11773 y :11814",
+  "correccion": "Agregar «caiu a ficha», «pisou na bola», «paguei o pato», «tirei de letra», «enfiei o pé na jaca», «fiz questão», «deu certo»; no hace falta todo el listado propuesto."
+ },
+ {
+  "id": "frase:217",
+  "lote": "T-frasi-banca-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "«estudar» es portugués dentro del enunciado en español (revela la respuesta).",
+  "fuente": "tools/pt/bank/frasi_banca.py:750",
+  "correccion": "\"Empecé a estudiar portugués en marzo.\""
+ },
+ {
+  "id": "nouns:31",
+  "lote": "T-lessico-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "«Também» es portugués en la nota en español.",
+  "fuente": "tools/pt/bank/parole_nomi.py:1233",
+  "correccion": "\"También la cuadra de una escola de samba.\""
+ }
+]

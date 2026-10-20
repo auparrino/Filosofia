@@ -1,0 +1,458 @@
+{
+  "week": 48,
+  "level": "C1",
+  "lettura": {
+    "title": "Sono, telas e o sinal das sete",
+    "emoji": "😴",
+    "genre": "reportagem de divulgação científica",
+    "grammar": "resumo e reformulação: verbos de dizer",
+    "text": "Os adolescentes que estudam no turno da manhã dormem, em média, uma hora e meia a menos do que precisariam, e a conta aparece nas notas, no humor e até na saúde. É o que indica um estudo conduzido por pesquisadores de uma universidade pública de Minas Gerais com cerca de 1.200 alunos do ensino médio de catorze escolas estaduais e particulares. Os resultados, divulgados na semana passada, reacenderam uma discussão antiga entre educadores, médicos e famílias: não estaria a escola começando cedo demais?\n\nDurante dois meses, os estudantes usaram pulseiras que registram os períodos de sono e responderam a questionários sobre rotina, uso de celular e desempenho escolar. Nos dias de aula, eles dormiram, em média, seis horas e quarenta minutos por noite — bem menos do que as oito a dez horas que as sociedades médicas costumam recomendar para essa faixa etária. Nos fins de semana, o quadro se invertia: muitos passavam das onze horas de sono, numa tentativa de “pagar a dívida” acumulada ao longo da semana, o que, segundo os pesquisadores, só bagunça ainda mais o relógio do corpo.\n\nAs consequências não se limitam ao boletim. Os questionários mostraram que os alunos que dormiam menos de sete horas relatavam com mais frequência irritação, dificuldade de concentração e sintomas de ansiedade. Muitos também admitiam cochilar durante as aulas ou compensar o cansaço com café e bebidas energéticas. “A gente chega na escola e fica igual a um zumbi até o intervalo”, resume Júlia, de dezesseis anos, aluna de uma escola estadual de Contagem que participou do estudo. “Só começo a entender alguma coisa lá pelas dez horas.” Para os pesquisadores, depoimentos como o dela ajudam a entender por que as primeiras aulas do dia costumam render tão pouco, e por que tantos professores se queixam de turmas apáticas logo cedo.\n\nA coordenadora da pesquisa, a neurocientista Beatriz Lacerda, ressalta que o problema não se resume a preguiça ou excesso de telas. “Na adolescência, o relógio biológico sofre um atraso natural. O corpo passa a produzir melatonina mais tarde, e o jovem só sente sono perto da meia-noite, às vezes depois”, esclarece. “Exigir que ele esteja alerta às sete da manhã é, do ponto de vista biológico, como exigir que um adulto faça uma prova às quatro da madrugada.”\n\nO estudo também comparou turmas que começavam as aulas às sete horas com outras que entravam às oito ou mais tarde. Segundo os pesquisadores, os alunos que começavam mais tarde dormiam, em média, quarenta minutos a mais e relatavam menos sonolência durante as aulas. Lacerda admite, porém, que os dados não permitem afirmar que o horário, sozinho, explique as diferenças de desempenho. “Há muitos fatores envolvidos: renda familiar, tempo de deslocamento, trabalho fora da escola. Seria irresponsável da nossa parte prometer que atrasar o sinal resolve tudo”, pondera.\n\nA proposta de adiar o início das aulas está longe de ser consenso. O diretor de uma escola estadual da capital mineira que participou do estudo reconhece a importância dos resultados, mas adverte para os efeitos práticos da mudança. “Muitos dos nossos alunos trabalham à tarde ou cuidam dos irmãos menores. Se a aula terminar mais tarde, eles simplesmente não vão conseguir vir”, alega. Representantes de associações de pais lembram, por sua vez, que o horário escolar está amarrado ao horário de trabalho das famílias e ao transporte público, o que torna qualquer alteração bem mais complexa do que parece à primeira vista.\n\nHá também quem sustente que o foco deveria estar em outro lugar: no uso de celulares à noite. Um pediatra ouvido pela reportagem, que não participou da pesquisa, critica o que chama de “culpar o relógio” e defende campanhas de educação sobre o sono voltadas às famílias. Lacerda rebate o argumento sem negar o problema. “As telas agravam o atraso, sem dúvida. Mas o atraso existe mesmo em adolescentes que não usam celular. Não se trata de escolher entre uma coisa e outra”, afirma.\n\nA discussão não é exclusiva do Brasil. Em vários países, escolas e distritos já experimentaram atrasar o início das aulas, com resultados geralmente descritos como positivos, embora nem sempre fáceis de reproduzir em outros contextos. Os autores do estudo mineiro fazem questão de destacar esse ponto: em vez de uma regra nacional, sugerem experiências-piloto em redes de ensino interessadas, acompanhadas de perto por pesquisadores e avaliadas ao longo de pelo menos um ano letivo. A equipe já conversa com duas secretarias municipais de educação sobre um primeiro teste, mas prefere não antecipar nomes enquanto não houver um acordo assinado.\n\nEnquanto isso, a equipe recomenda medidas mais simples, que dependem menos de decisões políticas: evitar provas nos primeiros horários, reservar as primeiras aulas para atividades menos exigentes e conversar com os alunos e com os pais sobre a importância do sono. “Não precisamos esperar uma revolução para começar a mudar”, conclui Lacerda. “Só precisamos parar de tratar o adolescente com sono como um adolescente preguiçoso.”",
+    "gloss": {
+      "questão": "(fazem questão de) se empeñan en",
+      "turno": "turno (mañana, tarde)",
+      "reacenderam": "reavivaron",
+      "pulseiras": "pulseras",
+      "desempenho": "rendimiento",
+      "faixa": "franja (faixa etária = franja etaria)",
+      "quadro": "panorama",
+      "dívida": "deuda",
+      "bagunça": "desordena, desbarajusta",
+      "ressalta": "destaca, subraya",
+      "preguiça": "fiaca, pereza",
+      "esclarece": "aclara",
+      "turmas": "cursos, divisiones",
+      "relatavam": "contaban, informaban",
+      "sonolência": "somnolencia",
+      "deslocamento": "traslado, viaje",
+      "sinal": "timbre (de la escuela)",
+      "pondera": "matiza, sopesa",
+      "adiar": "postergar",
+      "adverte": "advierte",
+      "alega": "aduce, argumenta",
+      "amarrado": "atado",
+      "sustente": "sostenga",
+      "rebate": "refuta, retruca",
+      "letivo": "lectivo (ano letivo = ciclo lectivo)",
+      "exigentes": "exigentes, demandantes",
+      "preguiçoso": "vago, fiaca",
+      "cochilar": "cabecear, dormitar",
+      "zumbi": "zombi",
+      "intervalo": "recreo",
+      "depoimentos": "testimonios",
+      "queixam": "(se queixam) se quejan"
+    },
+    "questions": [
+      [
+        "Qual é o fato principal da reportagem?",
+        [
+          "Uma lei vai atrasar o início das aulas em Minas Gerais.",
+          "Um estudo associa o sono curto dos adolescentes ao horário escolar.",
+          "Os adolescentes dormem mal sobretudo por causa do celular.",
+          "As escolas particulares já começam as aulas mais tarde que as públicas."
+        ],
+        "Um estudo associa o sono curto dos adolescentes ao horário escolar."
+      ],
+      [
+        "Segundo Beatriz Lacerda, por que o adolescente sente sono mais tarde?",
+        [
+          "Pelo excesso de tarefas escolares feitas à noite.",
+          "Porque dorme demais nos fins de semana.",
+          "Por um atraso natural do relógio biológico.",
+          "Porque consome muita cafeína ao longo da tarde."
+        ],
+        "Por um atraso natural do relógio biológico."
+      ],
+      [
+        "Com a frase “Seria irresponsável da nossa parte prometer…”, a pesquisadora…",
+        [
+          "critica os políticos que ignoram a pesquisa.",
+          "reconhece os limites das conclusões do estudo.",
+          "defende o fim das aulas no turno da manhã.",
+          "acusa as escolas de ter manipulado os dados."
+        ],
+        "reconhece os limites das conclusões do estudo."
+      ],
+      [
+        "Qual é o principal argumento do diretor contra a mudança?",
+        [
+          "Muitos alunos trabalham ou cuidam de irmãos à tarde.",
+          "Os professores não aceitariam mudar de horário de jeito nenhum.",
+          "Os resultados do estudo não são confiáveis o suficiente.",
+          "Com a mudança, os alunos dormiriam ainda mais tarde."
+        ],
+        "Muitos alunos trabalham ou cuidam de irmãos à tarde."
+      ],
+      [
+        "Como Lacerda responde à crítica do pediatra?",
+        [
+          "Nega que o celular à noite tenha qualquer efeito sobre o sono dos jovens.",
+          "Concorda que o foco deveria ser apenas a educação das famílias.",
+          "Diz que o pediatra não tem competência para opinar sobre o estudo.",
+          "Admite o papel das telas, mas mantém que o atraso é biológico."
+        ],
+        "Admite o papel das telas, mas mantém que o atraso é biológico."
+      ]
+    ],
+    "vf": [
+      [
+        "Os alunos pesquisados usaram pulseiras que registravam o sono.",
+        "verdadeiro"
+      ],
+      [
+        "O estudo comprovou que o horário, sozinho, explica as diferenças de notas.",
+        "falso"
+      ],
+      [
+        "O pediatra ouvido pela reportagem participou da pesquisa.",
+        "falso"
+      ],
+      [
+        "O estudo foi financiado pelo governo do estado de Minas Gerais.",
+        "não se diz"
+      ],
+      [
+        "Os pesquisadores propõem experiências-piloto em vez de uma regra nacional.",
+        "verdadeiro"
+      ]
+    ],
+    "hunt": {
+      "label": "Toque nos verbos de dizer que atribuem com precisão o que cada fonte diz",
+      "targets": [
+        "ressalta",
+        "esclarece",
+        "admite",
+        "pondera",
+        "reconhece",
+        "adverte",
+        "alega",
+        "sustente",
+        "critica",
+        "rebate",
+        "destacar",
+        "conclui"
+      ]
+    }
+  },
+  "ascolto": {
+    "title": "O verbo que você escolhe é uma opinião",
+    "genre": "programa de rádio sobre mídia",
+    "es": "En un programa de radio sobre medios, el conductor conversa con la defensora del lector de un diario sobre una queja reciente y sobre cómo los verbos y los resúmenes cambian lo que dice una noticia.",
+    "speakers": [
+      "Fábio (apresentador)",
+      "Sônia (ouvidora de jornal)"
+    ],
+    "turns": [
+      [
+        "A",
+        "Estamos de volta com o Mídia em Foco. A nossa convidada de hoje é a Sônia Albuquerque, ouvidora do Gazeta das Gerais, ou seja, a pessoa que recebe as críticas dos leitores e escreve uma coluna semanal avaliando o próprio jornal. Sônia, qual foi a reclamação que mais chamou a sua atenção este mês?"
+      ],
+      [
+        "B",
+        "Olha, Fábio, curiosamente não foi a de um leitor comum. Foi a de uma pesquisadora. O jornal publicou uma matéria sobre um estudo a respeito do sono dos adolescentes, e o título dizia: pesquisa prova que aula cedo derruba as notas. Ela escreveu indignada, porque o estudo não prova nada disso."
+      ],
+      [
+        "A",
+        "Mas então a matéria estava errada?"
+      ],
+      [
+        "B",
+        "O texto da matéria, em si, estava razoável. O problema estava no título e no resumo que foi para as redes sociais. A pesquisadora tinha dito, com todas as letras, que os dados não permitiam afirmar que o horário explica o desempenho. Ela sugeriu uma relação. O título transformou uma sugestão numa prova."
+      ],
+      [
+        "A",
+        "E isso acontece muito?"
+      ],
+      [
+        "B",
+        "Mais do que a gente gostaria. Às vezes é pressa, às vezes é a vontade de ter um título que chame atenção. Mas eu sempre digo aos repórteres: o verbo que você escolhe é uma opinião. Se eu escrevo que o ministro disse, eu estou apenas relatando. Se eu escrevo que ele admitiu, eu dou a entender que ele reconheceu algo negativo, que talvez preferisse esconder. E se eu escrevo que ele alegou, eu estou colocando em dúvida o que ele falou."
+      ],
+      [
+        "A",
+        "Então alegar não é sinônimo de dizer."
+      ],
+      [
+        "B",
+        "Não é, não. Alegar sugere que aquilo é uma justificativa, que pode ou não ser verdade. É um verbo muito usado em notícia policial, por exemplo: o suspeito alegou que estava em casa. Agora imagina usar alegar para um médico explicando um tratamento. O leitor vai desconfiar do médico sem nenhum motivo."
+      ],
+      [
+        "A",
+        "E revelar? Porque eu vejo revelar em todo lugar."
+      ],
+      [
+        "B",
+        "Esse é o meu preferido, de tão mal usado. Revelar é tornar público algo que estava escondido. Se uma atriz dá uma entrevista contando que gosta de praia, ela não revelou nada, ela contou. Mas revelar vende mais, né? Então todo mundo revela tudo o tempo todo."
+      ],
+      [
+        "A",
+        "E as aspas? Porque tem gente que acha que, se está entre aspas, está protegido."
+      ],
+      [
+        "B",
+        "Pois é, essa é outra armadilha. A citação entre aspas tem que ser fiel, palavra por palavra. Mas, mesmo fiel, ela pode enganar, se for tirada do contexto. Uma frase como isso pode ser perigoso, tirada de uma entrevista em que a pessoa dizia exatamente o contrário, vira outra coisa."
+      ],
+      [
+        "A",
+        "E o que o jornal fez no caso da pesquisadora?"
+      ],
+      [
+        "B",
+        "Corrigiu o título na versão digital e publicou uma nota de correção. Eu discuti o caso na minha coluna e propus uma regra simples para a redação: antes de resumir uma pesquisa, releia o que o pesquisador de fato afirmou. Se ele disse indica, não pode virar prova. Se ele disse pode, não pode virar vai."
+      ],
+      [
+        "A",
+        "Parece simples."
+      ],
+      [
+        "B",
+        "Parece, mas exige disciplina. Resumir é escolher, e toda escolha tem consequência. O bom resumo diz menos palavras, mas não diz outra coisa."
+      ],
+      [
+        "A",
+        "Uma grande frase para terminar. Sônia, muito obrigado."
+      ],
+      [
+        "B",
+        "Obrigada a você, Fábio."
+      ]
+    ],
+    "gloss": {
+      "letras": "(com todas as letras) clarito, sin vueltas",
+      "ouvidora": "defensora del lector",
+      "matéria": "nota, artículo periodístico",
+      "derruba": "tira abajo, hunde",
+      "pressa": "apuro",
+      "alegou": "alegó, adujo",
+      "suspeito": "sospechoso",
+      "desconfiar": "desconfiar",
+      "aspas": "comillas",
+      "armadilha": "trampa",
+      "fiel": "fiel, exacta",
+      "redação": "redacción (de un diario)",
+      "releia": "releé"
+    },
+    "questions": [
+      [
+        "Qual é a função de Sônia no jornal?",
+        [
+          "Escrever os títulos das matérias de ciência.",
+          "Receber críticas dos leitores e avaliar o jornal.",
+          "Coordenar a equipe de repórteres da redação.",
+          "Revisar a ortografia de todos os textos antes da publicação."
+        ],
+        "Receber críticas dos leitores e avaliar o jornal."
+      ],
+      [
+        "Por que a pesquisadora reclamou?",
+        [
+          "O jornal publicou o nome dela de forma errada.",
+          "A matéria inteira distorceu os dados do estudo.",
+          "O título transformou uma sugestão numa prova.",
+          "O jornal se recusou a entrevistá-la sobre o estudo."
+        ],
+        "O título transformou uma sugestão numa prova."
+      ],
+      [
+        "Segundo Sônia, o que o verbo “alegar” faz numa notícia?",
+        [
+          "Põe em dúvida o que a pessoa disse.",
+          "Indica que a pessoa confessou um erro grave.",
+          "Mostra a total neutralidade do jornalista.",
+          "Revela uma informação que estava escondida."
+        ],
+        "Põe em dúvida o que a pessoa disse."
+      ],
+      [
+        "Por que Sônia critica o uso frequente de “revelar”?",
+        [
+          "Porque é um verbo informal demais para um jornal sério.",
+          "Porque se aplica a coisas que não eram segredo.",
+          "Porque só deveria aparecer em notícias policiais.",
+          "Porque a maioria dos leitores não entende o seu sentido."
+        ],
+        "Porque se aplica a coisas que não eram segredo."
+      ],
+      [
+        "O que Sônia quer dizer com “o bom resumo diz menos palavras, mas não diz outra coisa”?",
+        [
+          "Que um bom resumo deve ter o menor número possível de palavras.",
+          "Que o resumo pode incluir a opinião de quem o escreve.",
+          "Que resumir é reduzir sem alterar o sentido.",
+          "Que o resumo deve evitar qualquer citação direta."
+        ],
+        "Que resumir é reduzir sem alterar o sentido."
+      ]
+    ],
+    "vf": [
+      [
+        "O jornal corrigiu o título na versão digital.",
+        "verdadeiro"
+      ],
+      [
+        "Segundo Sônia, o texto da matéria também estava cheio de erros.",
+        "falso"
+      ],
+      [
+        "A pesquisadora pediu que o repórter fosse demitido.",
+        "não se diz"
+      ],
+      [
+        "Para Sônia, uma citação fiel entre aspas nunca pode enganar o leitor.",
+        "falso"
+      ]
+    ]
+  },
+  "compito": {
+    "genre": "resumo",
+    "title": "Aula mais tarde? O que diz a pesquisa",
+    "fonte": "lettura",
+    "t": "Você faz parte do conselho de pais de uma escola estadual de Belo Horizonte, que está discutindo a possibilidade de mudar o horário de entrada das aulas. A direção pediu que você escreva, para o boletim informativo da escola, um resumo da reportagem “Sono, telas e o sinal das sete”, para que todas as famílias conheçam o assunto antes da próxima reunião. O resumo deve apresentar o estudo, os seus principais resultados, as posições favoráveis e contrárias à mudança e as recomendações dos pesquisadores, sem acrescentar a sua opinião. Não se esqueça de reformular com as suas palavras (sem copiar frases do texto) e de usar verbos de dizer precisos para atribuir cada ideia à sua fonte.",
+    "es": "Resumen objetivo para el boletín de la escuela: estudio, resultados, posturas a favor y en contra, recomendaciones. Sin opinión propia, reformulando y atribuyendo cada idea con verbos precisos (admite, advierte, sostiene…).",
+    "min": 233,
+    "max": 293,
+    "punti": [
+      [
+        "Presentar el estudio: quién lo hizo y con quiénes",
+        [
+          "estudo",
+          "pesquisa",
+          "1.200",
+          "ensino médio"
+        ]
+      ],
+      [
+        "Resultados principales: horas de sueño y reloj biológico",
+        [
+          "seis horas",
+          "relógio biológico",
+          "dorm"
+        ]
+      ],
+      [
+        "Posturas en contra o con reservas (director, familias, pediatra)",
+        [
+          "diretor",
+          "pediatra",
+          "consenso"
+        ]
+      ],
+      [
+        "Recomendaciones de los investigadores",
+        [
+          "piloto",
+          "recomend",
+          "provas"
+        ]
+      ],
+      [
+        "Atribuir con verbos de decir precisos",
+        [
+          "admite",
+          "adverte",
+          "sustenta",
+          "reconhece",
+          "ressalta"
+        ]
+      ]
+    ],
+    "model": "Aula mais tarde? O que diz a pesquisa sobre o sono dos adolescentes\n\nUma reportagem publicada recentemente apresenta os resultados de um estudo realizado por pesquisadores de uma universidade pública mineira com cerca de 1.200 alunos do ensino médio. De acordo com o levantamento, os estudantes que têm aula de manhã dormem, nos dias letivos, em média seis horas e quarenta minutos, bem abaixo das oito a dez horas recomendadas para essa idade.\n\nA coordenadora da pesquisa, Beatriz Lacerda, explica que isso não se deve apenas à preguiça ou às telas: na adolescência, o relógio biológico atrasa naturalmente, e o jovem só sente sono perto da meia-noite. O estudo também constatou que os alunos que entram às oito horas ou mais tarde dormem cerca de quarenta minutos a mais. A pesquisadora admite, no entanto, que os dados não permitem afirmar que o horário, sozinho, explique as diferenças de desempenho.\n\nA proposta de atrasar o início das aulas não é consenso. O diretor de uma escola estadual que participou do estudo adverte que muitos alunos trabalham ou cuidam de irmãos à tarde, e representantes de pais lembram que o horário escolar depende do trabalho das famílias e do transporte. Um pediatra, por sua vez, defende que o foco seja o uso do celular à noite; Lacerda reconhece que as telas agravam o problema, mas sustenta que o atraso é biológico.\n\nPor fim, os pesquisadores sugerem experiências-piloto, em vez de uma regra nacional, e recomendam medidas simples: evitar provas nos primeiros horários, reservar as primeiras aulas para atividades menos exigentes e conversar com alunos e famílias sobre a importância do sono.",
+    "gloss": {
+      "mineira": "de Minas Gerais",
+      "ensino médio": "la secundaria",
+      "levantamento": "relevamiento",
+      "dias letivos": "días de clase",
+      "por sua vez": "a su vez, por su parte",
+      "experiências-piloto": "pruebas piloto"
+    }
+  },
+  "breve": {
+    "title": "Ciência de Bolso: celular na cama",
+    "genre": "podcast de divulgação científica",
+    "es": "Un podcast que resume un estudio sobre adolescentes, celulares y sueño, con los verbos que presentan lo que dice cada uno: afirmar, alertar, ressaltar, reconhecer, sugerir.",
+    "speaker": "Lívia Prado",
+    "voice": 1,
+    "text": [
+      "Oi, gente! Aqui é a Lívia Prado, e este é o Ciência de Bolso, o podcast que resume uma pesquisa em dois minutos.",
+      "A pesquisa de hoje foi feita pela Universidade de São Paulo com 1.200 adolescentes de 14 a 17 anos. Os autores afirmam que quem usa o celular na cama dorme, em média, 50 minutos a menos por noite. Eles alertam que o problema não é só a luz da tela, mas sobretudo as notificações, que acordam o cérebro.",
+      "A coordenadora do estudo, a médica Helena Costa, ressalta que a escola também tem um papel: nas escolas que começam as aulas às 7 horas, os alunos chegam mais cansados. Ela reconhece, porém, que mudar o horário não é simples, e sugere começar por uma medida barata: deixar o celular fora do quarto.",
+      "E você, dorme com o celular do lado? Conta pra gente nos comentários. Até a próxima!"
+    ],
+    "tabella": [
+      [
+        "Número de adolescentes na pesquisa",
+        "1.200",
+        [
+          "1200",
+          "mil e duzentos"
+        ]
+      ],
+      [
+        "Idade dos participantes",
+        "14 a 17",
+        [
+          "de 14 a 17",
+          "14-17",
+          "14 a 17 anos"
+        ]
+      ],
+      [
+        "Minutos de sono a menos por noite",
+        "50",
+        [
+          "cinquenta",
+          "50 minutos"
+        ]
+      ],
+      [
+        "Nome da coordenadora do estudo",
+        "Helena Costa",
+        [
+          "Helena",
+          "doutora Helena Costa"
+        ]
+      ],
+      [
+        "Horário de início das aulas citado",
+        "7",
+        [
+          "7 horas",
+          "7h",
+          "sete",
+          "sete horas",
+          "7:00"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "Segundo o estudo, as notificações são o maior problema.",
+        true
+      ],
+      [
+        "A pesquisa foi feita com universitários.",
+        false
+      ],
+      [
+        "A coordenadora admite que mudar o horário das aulas é difícil.",
+        true
+      ],
+      [
+        "Os autores recomendam proibir o celular nas escolas.",
+        false
+      ],
+      [
+        "A medida sugerida é deixar o celular fora do quarto.",
+        true
+      ],
+      [
+        "O estudo mostra que a luz da tela não faz mal.",
+        false
+      ]
+    ],
+    "gloss": {
+      "de bolso": "de bolsillo",
+      "notificações": "notificaciones",
+      "ressalta": "destaca",
+      "sobretudo": "sobre todo"
+    }
+  }
+}

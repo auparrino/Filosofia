@@ -1,0 +1,225 @@
+{
+  "week": 43,
+  "level": "B2+",
+  "lettura": {
+    "title": "Prezado, caro ou olá? O tom certo na correspondência formal",
+    "emoji": "✉️",
+    "genre": "guia prático",
+    "grammar": "correspondência formal e formas de tratamento",
+    "text": "Poucos gêneros textuais provocam tanta insegurança quanto a correspondência formal. Estudantes que trocam mensagens espontâneas o dia inteiro travam diante de um e-mail para a coordenação do curso; profissionais experientes hesitam antes de responder a um órgão público. A razão é compreensível: nesses textos, o tom conta tanto quanto o conteúdo. Uma saudação inadequada ou um fecho brusco podem comprometer um pedido perfeitamente legítimo.\n\nComecemos pela abertura. Em cartas e e-mails dirigidos a instituições ou a pessoas com quem não se tem intimidade, “Prezado Senhor” ou “Prezada Senhora”, seguidos do nome ou do cargo, continuam sendo a opção mais segura. “Caro” soa um pouco mais próximo e pode ser usado com colegas ou pessoas já conhecidas. Já o “Olá”, tão comum nas mensagens do dia a dia, deve ser evitado na primeira comunicação com uma instituição, sobretudo quando o objetivo é fazer uma solicitação. Quando não se sabe o nome do destinatário, fórmulas como “Prezados Senhores” ou “À Coordenação do Curso de…” resolvem o problema com elegância.\n\nAs formas de tratamento merecem atenção especial. Na tradição da correspondência oficial brasileira, usa-se “Vossa Senhoria”, abreviado como V. Sa., para a maioria das autoridades e chefias, e “Vossa Excelência” para altas autoridades dos três Poderes, como ministros, governadores e juízes; alguns órgãos simplificaram recentemente essas fórmulas, mas elas continuam muito presentes. Um detalhe gramatical costuma confundir: embora o pronome contenha “Vossa”, a concordância se faz na terceira pessoa. Escreve-se, portanto, “Vossa Senhoria receberá seu certificado”, e não “vosso certificado”. Na correspondência entre particulares e nos e-mails profissionais, contudo, o tratamento cerimonioso vem cedendo espaço a “o senhor” e “a senhora”, que mantêm a cortesia sem soar antiquados: “Gostaria de saber se o senhor poderia…”.\n\nO corpo do texto deve ser objetivo. Recomenda-se apresentar logo no primeiro parágrafo quem escreve e qual é o motivo do contato: “Sou aluna do terceiro semestre do curso de Engenharia Ambiental e venho, por meio desta, solicitar…”. Expressões como “venho por meio desta” ou “sirvo-me do presente” ainda aparecem com frequência, mas muitos especialistas consideram que podem ser substituídas por formulações mais diretas, como “Escrevo para solicitar”. Em seguida, os fatos devem ser expostos em ordem cronológica, com datas e números de protocolo, se houver. Adjetivos excessivos e desabafos emocionais tendem a enfraquecer o pedido: é mais eficaz relatar que o documento foi solicitado há quarenta dias do que afirmar que o atendimento é “uma vergonha”.\n\nO fecho também tem suas regras. Os manuais de redação oficial recomendam “Respeitosamente” para autoridades de hierarquia superior e “Atenciosamente” para as de mesma hierarquia ou inferior. Na prática, fora do serviço público, “Atenciosamente” se tornou o fecho padrão para quase todas as situações formais, e “Cordialmente” funciona bem quando já existe algum contato. Antes do fecho, é comum uma frase de cortesia que retome o pedido — “Agradeço desde já a atenção e aguardo retorno” — e, depois dele, o nome completo, o cargo ou a matrícula e, se for o caso, um telefone para contato.\n\nHá, por fim, a questão do suporte. O e-mail, por ser rápido, convida ao descuido: assunto vago, anexos esquecidos, mensagens enviadas de endereços com apelidos pouco sérios. Um bom e-mail formal tem assunto claro e específico (“Solicitação de segunda chamada – Cálculo I – Turma B”), anexos nomeados de forma compreensível e uma assinatura completa. Convém ainda reler a mensagem antes do envio, verificando nomes próprios e cargos: poucas coisas desagradam tanto quanto ver o próprio nome escrito errado. Também vale conferir se o destinatário é, de fato, a pessoa responsável pelo assunto; muitas mensagens se perdem simplesmente por terem sido enviadas ao setor errado.\n\nNada disso significa que a correspondência formal precise ser rígida ou fria. Uma carta bem escrita pode ser cordial, até calorosa, desde que respeite a distância que a situação exige. O segredo está em lembrar que, do outro lado, há uma pessoa — muitas vezes sobrecarregada — que vai ler dezenas de mensagens naquele dia. Facilitar o trabalho dela, com clareza e cortesia, é a melhor forma de conseguir o que se pede.",
+    "gloss": {
+      "travam": "se traban",
+      "hesitam": "dudan",
+      "órgão": "organismo",
+      "fecho": "cierre, despedida",
+      "chefias": "jefaturas",
+      "juízes": "jueces",
+      "antiquados": "anticuados",
+      "sirvo-me": "me valgo",
+      "protocolo": "número de expediente",
+      "desabafos": "desahogos",
+      "enfraquecer": "debilitar",
+      "vergonha": "vergüenza, desastre",
+      "aguardo": "espero",
+      "retorno": "respuesta",
+      "matrícula": "legajo",
+      "suporte": "medio, soporte",
+      "anexos": "adjuntos",
+      "apelidos": "apodos",
+      "chamada": "(segunda chamada) examen en otra fecha, para quien faltó",
+      "convém": "conviene",
+      "conferir": "chequear",
+      "calorosa": "cálida",
+      "sobrecarregada": "sobrecargada"
+    },
+    "questions": [
+      ["Segundo o texto, por que a correspondência formal gera insegurança?", ["Porque exige um vocabulário técnico difícil.", "Porque nela o tom pesa tanto quanto o conteúdo.", "Porque as regras mudam a cada novo manual publicado.", "Porque as instituições raramente respondem."], "Porque nela o tom pesa tanto quanto o conteúdo."],
+      ["Qual forma de abertura o texto desaconselha no primeiro contato com uma instituição?", ["“Prezado Senhor”", "“Caro colega”", "“Olá”", "“À Coordenação do Curso”"], "“Olá”"],
+      ["O exemplo “Vossa Senhoria receberá seu certificado” serve para mostrar:", ["que “Vossa Senhoria” é usado apenas para juízes.", "a concordância em terceira pessoa com o pronome de tratamento.", "que o possessivo correto seria “vosso”.", "um caso de tratamento antiquado que deve ser evitado."], "a concordância em terceira pessoa com o pronome de tratamento."],
+      ["Por que o autor prefere relatar que o documento foi pedido “há quarenta dias”?", ["Porque fatos objetivos fortalecem o pedido.", "Porque é proibido usar adjetivos em cartas formais.", "Porque o prazo legal de resposta é de quarenta dias.", "Porque a palavra “vergonha” é considerada ofensiva por lei."], "Porque fatos objetivos fortalecem o pedido."],
+      ["Qual é a ideia central do último parágrafo?", ["A formalidade exige frieza e distância absoluta.", "Formalidade não impede cordialidade, e a clareza ajuda quem lê.", "As mensagens devem ser curtas porque ninguém as lê.", "É melhor telefonar do que escrever às instituições."], "Formalidade não impede cordialidade, e a clareza ajuda quem lê."]
+    ],
+    "vf": [
+      ["“Respeitosamente” é recomendado para autoridades de hierarquia superior.", "verdadeiro"],
+      ["O texto proíbe o uso da expressão “venho por meio desta”.", "falso"],
+      ["O autor do guia trabalha numa coordenação universitária.", "não se diz"],
+      ["Fora do serviço público, “Atenciosamente” virou o fecho mais comum.", "verdadeiro"],
+      ["Segundo o texto, “Cordialmente” é o fecho mais adequado para escrever a um ministro.", "falso"]
+    ],
+    "hunt": {
+      "label": "Toque nas fórmulas de saudação, tratamento e despedida da correspondência formal",
+      "targets": ["prezado", "prezada", "prezados", "caro", "senhoria", "excelência", "senhor", "senhora", "venho", "respeitosamente", "atenciosamente", "cordialmente"]
+    }
+  },
+  "ascolto": {
+    "title": "Cadê o meu diploma?",
+    "genre": "telefonema a uma secretaria universitária",
+    "es": "Una egresada de maestría llama a la secretaría de su posgrado porque su diploma se demora y lo necesita con urgencia.",
+    "speakers": ["Anselmo, secretário", "Beatriz, ex-aluna"],
+    "turns": [
+      ["A", "Secretaria de Pós-Graduação em Letras, Anselmo, bom dia."],
+      ["B", "Bom dia, seu Anselmo. Meu nome é Beatriz Andrade, eu defendi o mestrado em março e tô ligando por causa do meu diploma."],
+      ["A", "Pois não, Beatriz. Você tem o número do processo?"],
+      ["B", "Tenho, sim. É 2026 barra 0418. Eu dei entrada no pedido logo depois da defesa, entreguei a versão final da dissertação, a ficha catalográfica, tudo. Já se passaram quase cinco meses e até agora nenhuma notícia."],
+      ["A", "Deixa eu ver aqui no sistema... Olha, o seu processo tá parado na etapa de homologação. Falta a ata de defesa assinada por todos os membros da banca."],
+      ["B", "Mas como assim? A banca assinou no dia."],
+      ["A", "Assinou a ata em papel, sim. O problema é que, desde o ano passado, a universidade exige a assinatura eletrônica, e um dos membros externos, que é de outra universidade, ainda não assinou no sistema."],
+      ["B", "Nossa, eu não fazia ideia. Ninguém me avisou."],
+      ["A", "Pois é, infelizmente isso tem acontecido bastante. O sistema manda o aviso pro professor, e às vezes vai parar na caixa de spam. E, como o professor é de fora, nem sempre conhece o nosso sistema. Não é culpa sua, fica tranquila."],
+      ["B", "Entendi. E o que eu posso fazer? Porque, sendo bem sincera, isso tá me prejudicando. Eu fui aprovada num concurso pra professora de um instituto federal, e a posse é daqui a três semanas. Eles exigem o diploma ou, no mínimo, uma declaração de conclusão."],
+      ["A", "Olha, a declaração de conclusão a gente pode emitir, mas só com autorização do coordenador, já que a homologação não saiu. O ideal é você mandar uma solicitação formal por e-mail ao professor Rezende, explicando a situação e pedindo em caráter de urgência."],
+      ["B", "Por e-mail mesmo? Não precisa ser pelo protocolo?"],
+      ["A", "Pode ser por e-mail, mas com tudo bem certinho: assunto claro, número do processo, e anexa o comprovante de aprovação no concurso, com a data da posse. Ah, e escreve pro endereço institucional da coordenação, não pro e-mail pessoal dele."],
+      ["B", "Tá. E como eu me dirijo a ele? Prezado professor?"],
+      ["A", "Pode ser Prezado Professor Doutor Paulo Rezende, ou só Prezado Professor Rezende. Ele não é muito de cerimônia, mas gosta de mensagem objetiva. Diz logo no começo o que você precisa, sem rodeio."],
+      ["B", "Perfeito. E o membro externo da banca? Eu mesma posso entrar em contato com ele?"],
+      ["A", "Pode, e eu até recomendo. Com educação, claro. Explica que o processo depende da assinatura dele e manda o link do sistema. Eu também vou reenviar o aviso hoje à tarde."],
+      ["B", "Muito obrigada, seu Anselmo. O senhor me salvou."],
+      ["A", "Imagina. Se não tiver resposta até sexta, me liga de novo, que eu levo o caso pessoalmente à coordenação. E, Beatriz, parabéns pela aprovação, viu? Boa sorte no trabalho novo."]
+    ],
+    "gloss": {
+      "parar": "(vai parar na caixa de spam) termina en la carpeta de spam",
+      "imagina": "(respuesta a un gracias) ¡de nada!, ¡por favor!",
+      "pois": "(pois não) dígame, ¿en qué la ayudo?",
+      "defendi": "defendí (la tesis)",
+      "entrada": "(dar entrada) iniciar el trámite",
+      "catalográfica": "(ficha catalográfica) ficha bibliográfica",
+      "homologação": "aprobación oficial",
+      "ata": "acta",
+      "banca": "jurado (de tesis)",
+      "prejudicando": "perjudicando",
+      "posse": "toma de posesión (del cargo)",
+      "comprovante": "comprobante",
+      "certinho": "en regla",
+      "rodeio": "rodeos",
+      "reenviar": "volver a enviar"
+    },
+    "questions": [
+      ["Por que Beatriz ligou para a secretaria?", ["Quer marcar a data da defesa do mestrado.", "O diploma não saiu quase cinco meses após a defesa.", "Perdeu o número do processo do diploma.", "Precisa corrigir um erro de grafia no seu nome no diploma."], "O diploma não saiu quase cinco meses após a defesa."],
+      ["Qual é a causa do atraso?", ["A dissertação final não foi entregue.", "Falta a assinatura eletrônica de um membro externo.", "O coordenador está de férias e não pode assinar nada.", "A ficha catalográfica tinha erros."], "Falta a assinatura eletrônica de um membro externo."],
+      ["Por que o caso é urgente para Beatriz?", ["Ela vai se mudar para o exterior daqui a três semanas.", "Precisa comprovar o mestrado para tomar posse num cargo.", "O prazo para retirar o diploma vai vencer.", "O concurso pede o diploma na inscrição, que termina amanhã."], "Precisa comprovar o mestrado para tomar posse num cargo."],
+      ["O que Anselmo recomenda que Beatriz faça?", ["Ir pessoalmente à coordenação com a ata em papel.", "Enviar ao coordenador um pedido formal com o comprovante.", "Abrir um novo processo pelo protocolo.", "Esperar até sexta antes de tomar qualquer medida."], "Enviar ao coordenador um pedido formal com o comprovante."],
+      ["Como Anselmo descreve o professor Rezende?", ["Muito formal e exigente com os títulos.", "Pouco cerimonioso, mas amigo de mensagens objetivas.", "Difícil de encontrar e lento para responder.", "Rigoroso com prazos e contrário a exceções."], "Pouco cerimonioso, mas amigo de mensagens objetivas."]
+    ],
+    "vf": [
+      ["Beatriz defendeu o mestrado em março.", "verdadeiro"],
+      ["A banca não assinou a ata em papel no dia da defesa.", "falso"],
+      ["O professor Rezende já conhece o caso de Beatriz.", "não se diz"],
+      ["Anselmo vai reenviar o aviso ao membro externo.", "verdadeiro"]
+    ]
+  },
+  "compito": {
+    "genre": "carta_formal",
+    "title": "E-mail formal à coordenação do programa",
+    "fonte": "entrambi",
+    "t": "Você é Beatriz Andrade. Após ouvir o telefonema com a secretaria da Pós-Graduação em Letras e ler o guia “Prezado, caro ou olá?”, escreva um e-mail formal ao coordenador do programa, Prof. Dr. Paulo Rezende, solicitando em caráter de urgência a emissão de uma declaração de conclusão de mestrado. Seu e-mail deve conter assunto claro, saudação adequada, identificação, número do processo, exposição dos fatos informados pela secretaria, o pedido com a justificativa da urgência, menção ao anexo e fecho adequado com assinatura completa. Use registro formal, tratando o destinatário por “o senhor”. Seu texto deve ter entre 205 e 265 palavras.",
+    "es": "Mail formal a una autoridad académica con los datos del audio (proceso, firma pendiente, fecha de toma de posesión) y las convenciones de la lectura: asunto, Prezado, “o senhor”, Atenciosamente.",
+    "min": 205,
+    "max": 265,
+    "punti": [["Asunto y saludo formal", ["assunto", "prezado"]], ["Identificarse y dar el número de proceso", ["0418", "processo"]], ["Exponer los hechos (firma pendiente de la banca)", ["assinatura", "assinou", "banca"]], ["Pedido con urgencia y adjunto", ["declaração", "posse", "anexo"]]],
+    "model": "Assunto: Solicitação urgente de declaração de conclusão de mestrado – Processo 2026/0418\n\nPrezado Professor Rezende,\n\nMeu nome é Beatriz Andrade e defendi minha dissertação de mestrado neste Programa em março deste ano. Escrevo para solicitar, em caráter de urgência, a emissão de uma declaração de conclusão de curso.\n\nLogo após a defesa, dei entrada no pedido de diploma (processo nº 2026/0418) e entreguei toda a documentação exigida. Em contato telefônico com a secretaria, fui informada de que o processo está parado na etapa de homologação, pois um dos membros externos da banca ainda não assinou eletronicamente a ata de defesa. Já escrevi ao professor em questão, a quem expliquei a situação, e aguardo sua resposta.\n\nOcorre que fui aprovada em concurso público para professora de um instituto federal, e a posse está marcada para o dia 16 de outubro. Para assumir o cargo, preciso apresentar o diploma ou, no mínimo, uma declaração de conclusão. Segundo a secretaria, esse documento pode ser emitido mediante autorização da coordenação.\n\nDiante do exposto, solicito que o senhor autorize a emissão da declaração, a fim de que eu não perca a vaga. Envio em anexo o comprovante de aprovação no concurso, no qual consta a data da posse.\n\nAgradeço desde já a atenção e coloco-me à disposição para quaisquer esclarecimentos.\n\nAtenciosamente,\n\nBeatriz Andrade\nPrograma de Pós-Graduação em Letras\nTelefone: (31) 98765-4321",
+    "gloss": {
+      "dissertação de mestrado": "tesis de maestría",
+      "dei entrada no pedido": "inicié el trámite",
+      "membros externos da banca": "los miembros externos del tribunal (banca = jurado de tesis o examen)",
+      "ata de defesa": "el acta de la defensa",
+      "Ocorre que": "resulta que, sucede que",
+      "concurso público": "concurso para un cargo del Estado",
+      "a posse": "la toma de posesión del cargo",
+      "a vaga": "el puesto, la vacante"
+    }
+  },
+  "breve": {
+    "title": "Recado da Secretaria Acadêmica",
+    "genre": "recado formal na caixa postal",
+    "es": "Un mensaje formal en el contestador: la secretaría de una universidad le avisa a Martín que su diploma está listo y cómo retirarlo.",
+    "speaker": "Sônia Albuquerque, da Secretaria",
+    "voice": 1,
+    "text": [
+      "Bom dia. Esta mensagem é para o senhor Martín Pérez. Aqui fala Sônia Albuquerque, da Secretaria Acadêmica da Universidade Federal de Minas Gerais.",
+      "Estou retornando o e-mail que o senhor nos enviou na segunda-feira sobre o seu diploma de mestrado. Informo que o diploma já foi registrado e está disponível para retirada aqui na secretaria, na sala 214 do prédio da reitoria.",
+      "O senhor pode retirá-lo pessoalmente, de segunda a sexta, das 9 às 16 horas, apresentando o passaporte. Caso prefira enviar outra pessoa, será necessária uma procuração com firma reconhecida em cartório. Se o senhor desejar receber o diploma pelo correio, o envio custa 38 reais e leva cerca de dez dias úteis.",
+      "Para qualquer dúvida, o senhor pode ligar para a secretaria, ramal 12. Tenha um bom dia."
+    ],
+    "tabella": [
+      [
+        "Sala onde se retira o diploma",
+        "214",
+        [
+          "sala 214",
+          "duzentos e catorze",
+          "duzentos e quatorze"
+        ]
+      ],
+      [
+        "Horário em que a secretaria fecha",
+        "16",
+        [
+          "16 horas",
+          "16h",
+          "quatro da tarde",
+          "16:00"
+        ]
+      ],
+      [
+        "Documento que Martín deve apresentar",
+        "passaporte",
+        [
+          "o passaporte"
+        ]
+      ],
+      [
+        "Custo do envio pelo correio (reais)",
+        "38",
+        [
+          "trinta e oito",
+          "38 reais",
+          "R$ 38"
+        ]
+      ],
+      [
+        "Prazo de entrega pelo correio (dias úteis)",
+        "10",
+        [
+          "dez",
+          "dez dias",
+          "10 dias",
+          "dez dias úteis"
+        ]
+      ]
+    ],
+    "info": [
+      [
+        "Martín tinha escrito um e-mail para a secretaria.",
+        true
+      ],
+      [
+        "O diploma ainda não foi registrado.",
+        false
+      ],
+      [
+        "Outra pessoa pode retirar o diploma com uma procuração.",
+        true
+      ],
+      [
+        "A secretaria atende também aos sábados.",
+        false
+      ],
+      [
+        "O diploma pode ser enviado pelo correio.",
+        true
+      ],
+      [
+        "O envio pelo correio é gratuito.",
+        false
+      ]
+    ],
+    "gloss": {
+      "retirada": "retiro",
+      "procuração": "poder (notarial)",
+      "firma reconhecida": "firma certificada",
+      "cartório": "escribanía",
+      "úteis": "hábiles"
+    }
+  }
+}

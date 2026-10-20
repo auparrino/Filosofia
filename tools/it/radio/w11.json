@@ -1,0 +1,41 @@
+{
+ "week": 11,
+ "level": "A2",
+ "title": "Com'è andato il fine settimana?",
+ "genre": "chiacchierata del lunedì",
+ "es": "Lunes en Radio Portici: Sara y Dario se cuentan qué hicieron el fin de semana. Uno se fue de paseo y el otro se quedó en Bologna.",
+ "speakers": ["Sara", "Dario"],
+ "turns": [
+  ["A", "Buon lunedì a tutti! Dario, com'è andato il fine settimana? Hai la faccia un po' stanca..."],
+  ["B", "Ciao, Sara! Sabato sono andato in gita al mare con due amici. Abbiamo preso il treno delle sette e siamo arrivati a Rimini alle nove."],
+  ["A", "Al mare a marzo? E che cosa avete fatto?"],
+  ["B", "Abbiamo camminato sulla spiaggia, abbiamo mangiato il pesce e ho assaggiato la piadina con lo squacquerone. Buonissima! Ma è successa una cosa..."],
+  ["A", "Che cosa è successo?"],
+  ["B", "Domenica la mia squadra ha giocato contro il Bologna e ha perso tre a zero. Ho visto la partita in un bar pieno di bolognesi!"],
+  ["A", "Povero Dario! Io invece sono rimasta in città. Sabato ho ricevuto la visita di mia sorella e abbiamo scelto un ristorante nuovo in via del Pratello."],
+  ["B", "E com'è?"],
+  ["A", "Bello, ma domenica ha chiuso per il ponte: siamo arrivate e abbiamo trovato la porta chiusa! Allora abbiamo cucinato a casa."],
+  ["B", "E il Bologna ha vinto. Per te è stato un buon fine settimana!"],
+  ["A", "Sì, ma non ho viaggiato come te. E voi, ascoltatori, che cosa avete fatto lo scorso fine settimana? Scrivete a Radio Portici!"]
+ ],
+ "gloss": {
+  "faccia": "cara",
+  "piadina": "pan chato de la Romaña, relleno",
+  "squacquerone": "queso fresco, blando, de la Romaña",
+  "povero": "pobre",
+  "ponte": "fin de semana largo (el «puente»)",
+  "ascoltatori": "oyentes"
+ },
+ "questions": [
+  ["¿Adónde fue Dario el sábado?", ["A la playa de Rimini, con dos amigos", "A Nápoles, a ver a su familia", "A un restaurante de via del Pratello", "A la cancha, a ver al Bologna"], "A la playa de Rimini, con dos amigos"],
+  ["¿Qué le pasó a Dario el domingo?", ["Perdió el tren de vuelta a Bologna", "Su equipo perdió tres a cero", "Comió pescado en mal estado", "No encontró un bar abierto"], "Su equipo perdió tres a cero"],
+  ["¿Por qué Sara y su hermana cocinaron en casa?", ["Porque el restaurante estaba cerrado", "Porque no tenían plata", "Porque llovía mucho", "Porque la hermana cocina muy bien"], "Porque el restaurante estaba cerrado"]
+ ],
+ "info": [
+  ["Dario llegó a Rimini a las nueve.", true],
+  ["Dario vio el partido en el estadio.", false],
+  ["El domingo Sara fue al mar.", false]
+ ],
+ "grammatica": {"label": "el passato prossimo con avere y con essere", "forme": ["sono andato", "abbiamo preso", "siamo arrivati", "avete fatto", "ho assaggiato", "è successa", "ha perso", "sono rimasta", "ho ricevuto", "abbiamo scelto", "ha chiuso", "ha vinto", "ho viaggiato"]},
+ "parole": [["gita", "gita"], ["spiaggia", "spiaggia"], ["assaggiato", "assaggiare"], ["successo", "succedere"], ["perso", "perdere"], ["rimasta", "rimanere"], ["ricevuto", "ricevere"], ["scelto", "scegliere"], ["ponte", "ponte"], ["chiuso", "chiudere"], ["vinto", "vincere"], ["viaggiato", "viaggiare"], ["scorso", "scorso"]]
+}

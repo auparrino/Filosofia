@@ -1,0 +1,381 @@
+{
+ "week": 11,
+ "title": "Passato prossimo",
+ "level": "A2",
+ "revisado": {
+  "items": 126,
+  "sfide": 48,
+  "bloques_teoria": 8,
+  "lecturas": 3,
+  "dictogloss": 1,
+  "suoni": 15
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "La teoría es sólida y bien secuenciada (forma, auxiliar, concordancia, doble auxiliar, modales, irregulares, adverbios, pronombre directo) y los ítems de italiano son casi todos correctos. Los reparos son de mecánica y cobertura: faltan ítems de già/mai/ancora, doble auxiliar y reflexivos, hay exceso de pronombres y repetición de participios, las 48 sfide no son de la semana y arrastran gramática posterior, y hay 2 notas en español claramente erróneas (g2-gd-12, p-046). Tasa estimada de falsos positivos en los hallazgos: 15-20 %.",
+ "bien": [
+  "La lección enseña el eje correcto (elección del auxiliar) con tablas por grupos, contraste con el castellano y advertencias sobre errores típicos (camminare/viaggiare con avere, «sono andata» en mujer, «ho facciuto»).",
+  "Los participios irregulares están bien elegidos por frecuencia y practicados con cloze, garden y fixerr; las notas de garden explican por qué engaña la analogía con el castellano.",
+  "Buena mezcla de tipos y progresión reconocimiento → producción: participio suelto, cloze con auxiliar, choice, fixerr, traducción con puntos de contraste.",
+  "Las lecturas ep4 y w-11 son naturales, de nivel A2, usan essere y avere en variedad y la caza de participios está bien acotada.",
+  "El dictogloss recoge la gramática de la semana (avere/essere, bevuto, preso) y las entonaciones i-25/i-26 con «già» son pertinentes.",
+  "Las respuestas aceptadas de cloze/traducción contemplan mayormente ambos géneros y variantes (sono andato/a, li ha/hanno, lo ha/l'ha)."
+ ],
+ "hallazgos": [
+  {
+   "id": "g2-gd-12",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "En castellano «nacido» es regular y «nací» va con haber: acá cambian las dos cosas.",
+   "propuesta": "En castellano «nacido» es regular y «he nacido» va con haber: acá cambian las dos cosas (essere y concordancia).",
+   "motivo": "«Nací» es pretérito simple y no lleva auxiliar; la explicación es falsa."
+  },
+  {
+   "id": "p-046",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "Los participios dello, fatto, letto, scritto llevan doble.",
+   "propuesta": "Los participios detto, fatto, letto, scritto llevan doble.",
+   "motivo": "Errata: «dello» por «detto» en la nota del par detto/deto."
+  },
+  {
+   "id": "g2-gd-18",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Fijate que el participio se parece a «respuesto»... pero en castellano decís «respondido», regular: por eso aparece «risponduto».",
+   "propuesta": "Rispondere → risposto (como nascondere/nascosto). En castellano «respondido» es regular y te lleva a inventar «risponduto».",
+   "motivo": "«Respuesto» no existe en castellano (es «respuesta», sustantivo); la explicación confunde."
+  },
+  {
+   "id": "g2-gd-13",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "en castellano «muerto» también es irregular, pero con la m tendés a olvidarlo.",
+   "propuesta": "en castellano «muerto» también es irregular, pero el patrón -ito de los ejemplos te empuja a «morito».",
+   "motivo": "«Con la m tendés a olvidarlo» no se entiende."
+  },
+  {
+   "id": "l2-c-54",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "«Matematica» sin h y con una sola t.",
+   "propuesta": "Eliminar la frase, o decir «Matematica (sin tilde escrita) se acentúa en la 2.ª sílaba: matemàtica».",
+   "motivo": "En castellano «matemática» tampoco lleva h ni doble t; la advertencia no sirve al hispanohablante (parece calco del inglés)."
+  },
+  {
+   "id": "g2-out-pro-12",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "«Las» no es «las» en italiano.",
+   "propuesta": "Quitar la frase o decir: «Las» (a ellas) se dice le, que no es el artículo «le» ni el «le» indirecto de otras frases.",
+   "motivo": "La nota es tautológica/confusa; además mezcla con el «le» indirecto de g2-out-pro-06."
+  },
+  {
+   "id": "lesson:5",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "Nada de «ho fatto» → «ho facciuto» ni «ho aperto» → «ho aprito»: el irregular no se regulariza",
+   "propuesta": "Nada de «ho facciuto» (correcto: ho fatto) ni «ho aprito» (correcto: ho aperto): el irregular no se regulariza",
+   "motivo": "La flecha se lee al revés (parece decir que «ho fatto» es el error)."
+  },
+  {
+   "id": "d16-015",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "I bambini ___ (guardare) la tivvù oggi?",
+   "propuesta": "I bambini ___ (guardare) la tivù oggi?",
+   "motivo": "La grafía estándar es «tivù» (o «TV»); «tivvù» no es la forma normativa."
+  },
+  {
+   "id": "s:r27-07b:a",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "non ci hanno fatti partire",
+   "propuesta": "Dejar solo «non ci hanno fatto partire» / «non ci hanno lasciati partire»",
+   "motivo": "Con fare causativo el participio suele quedar invariable; aceptar «fatti» es dudoso."
+  },
+  {
+   "id": "s:r27-07b:c",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "non mi hanno fatta salire sull'aereo",
+   "propuesta": "Quitar de accept «non mi hanno fatta salire…» y «non mi hanno fatta tornare…» (s:r27-07b:d)",
+   "motivo": "Idem: concordancia del participio de fare causativo, no estándar."
+  },
+  {
+   "id": "chapter:Articles (todas las sfide)",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "Articles / Personal pronouns / Possessives / Demonstratives / Interrogatives / Indefinites / Relative pronouns / Negatives / Prepositions / Connectives / Numerals and units of measurement / The present indicative tense / The future tense / The past indicative tenses / Special verb constructions / Causative verbs and verbs of perception / Verbs and prepositions",
+   "propuesta": "Traducir los rótulos de capítulo al español (Artículos, Pronombres personales, Posesivos, etc.) o no mostrarlos",
+   "motivo": "Si el campo chapter es visible al alumno, es inglés en una interfaz en español."
+  },
+  {
+   "id": "g2-gd-23",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "andare → ieri ___ andato al cinema",
+   "propuesta": "Agregar «è» a accept, o desambiguar el sujeto: «andare → (io) ieri ___ andato al cinema»",
+   "motivo": "El hueco admite «sono» y «è» (lui): una respuesta correcta queda marcada como mala."
+  },
+  {
+   "id": "g2-gd-01",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Mirá los tres ejemplos y completá el cuarto.",
+   "propuesta": "Mostrar los tres ejemplos en el ítem (o cambiar la consigna a «completá el participio»); idem para g2-sc-02/g2-sc-03 («Leé las frases…»)",
+   "motivo": "En el dossier los 27 ítems garden y los scopri no traen los ejemplos/frases que la consigna nombra; si tampoco se ven en la app, la consigna no se sostiene."
+  },
+  {
+   "id": "g2-sc-02",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "«Essere» con verbos de movimiento y cambio, «avere» con los demás.",
+   "propuesta": "Opción correcta: «Essere» con movimiento, cambio de estado, reflexivos y piacere; «avere» con los verbos con objeto directo",
+   "motivo": "«Avere con los demás» es falso (reflexivos, stare, piacere, rimanere van con essere); la nota del mismo ítem ya lo contradice."
+  },
+  {
+   "id": "g2-sc-03",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Con «essere» concuerda con el sujeto; con «avere» queda en -o.",
+   "propuesta": "Con «essere» concuerda con el sujeto; con «avere» no concuerda con el sujeto (salvo con lo/la/li/le delante)",
+   "motivo": "Contradice el bloque 7 de la propia lección, donde con avere sí concuerda con el pronombre directo."
+  },
+  {
+   "id": "b2-pass-03",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "___ molto ieri sera.",
+   "propuesta": "Reemplazar por un verbo ya enseñado, o enseñar en la lección que los verbos meteorológicos admiten los dos auxiliares",
+   "motivo": "Evalúa piovere (verbos meteorológicos), no enseñado en esta semana, y la nota admite dos auxiliares correctos."
+  },
+  {
+   "id": "c-017",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Lo ho visto ieri.",
+   "propuesta": "Cambiar el formato: ítem de escritura en vez de «scegli» por audio; o quitar «Lo ho visto» (d16-033 acepta «lo ha pagato»)",
+   "motivo": "Las tres opciones suenan casi igual; se distingue por ortografía, no por oído. Además es incoherente con d16-033."
+  },
+  {
+   "id": "d16-033",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "l’ha pagato",
+   "propuesta": "Normalizar apóstrofos (’ y ') al corregir; en d16-034/038/039 aceptar también «la hanno…»/«la ha…» solo si se quiere coherencia con «lo ha pagato»",
+   "motivo": "Las respuestas usan ’ tipográfico y otras ' recta (g2-va-29); riesgo de marcar mal lo bien escrito. Además hay criterio desigual en accept (lo ha sí, la ha no)."
+  },
+  {
+   "id": "s:r28-01g:f",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "['a', 'di'] (Hai pensato ___ prenotare? ¿Te acordaste de reservar?)",
+   "propuesta": "accept solo «a»",
+   "motivo": "La propia nota dice que con «di» cambia el sentido («¿consideraste reservar?»), no coincide con la glosa dada."
+  },
+  {
+   "id": "s:r10-08:b",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "¿De quién es ese libro? (¿quién lo escribió?)",
+   "propuesta": "¿De quién es ese libro? (posesión) / o separar «¿Quién escribió ese libro?» → Chi ha scritto quel libro?",
+   "motivo": "La glosa mezcla propietario y autor; ambigüedad de consigna."
+  },
+  {
+   "id": "s:r07-05b:c",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Lo aspetto da un'ora.",
+   "propuesta": "Agregar accept «L'aspetto da un'ora.»",
+   "motivo": "Elisión igual de natural (en r07-05b:a sí se aceptan ambas)."
+  },
+  {
+   "id": "s:r12-03:d",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ce n'è ___ sulla scrivania. (alguno) => qualcuno",
+   "propuesta": "Ce n'è ___ (uno) => uno; o cambiar el enunciado a «dei fogli»",
+   "motivo": "Para «un foglio» lo natural es «ce n'è uno»; «qualcuno» sugiere varios."
+  },
+  {
+   "id": "g2-out-pro-09",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Lo vedo domani",
+   "propuesta": "Agregar accept «Domani lo vedo»; idem g2-out-pro-10 («Stasera li chiamo»)",
+   "motivo": "Orden con adverbio inicial igual de natural (en g2-out-pro-11 sí se acepta)."
+  },
+  {
+   "id": "g2-va-38",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ieri sono andato al mercato con Anna.",
+   "propuesta": "Agregar accept «Ieri sono andata al mercato con Anna.»",
+   "motivo": "El sujeto puede ser femenino; g2-ct-05 ya acepta ambos géneros."
+  },
+  {
+   "id": "l2-c-51",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Ojo con *ha arrivato: «arrivare» va con essere.",
+   "propuesta": "Ojo con «ha arrivato»: «arrivare» va con essere.",
+   "motivo": "El asterisco puede renderizarse como marca de cursiva y el resto de la app no usa esa convención."
+  },
+  {
+   "id": "l2-c-50",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Completá con el passato prossimo del verbo de apoyo.",
+   "propuesta": "Completá con el passato prossimo (verbo + sustantivo: fare colazione).",
+   "motivo": "«Verbo de apoyo» es jerga que el alumno no conoce."
+  },
+  {
+   "id": "l2-d-05",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "— Sei arrabbiato? — No, ___ sono arrabbiato, sono solo stanco.",
+   "propuesta": "Mover a semana con marcadores de discurso / partículas",
+   "motivo": "«Mica» es un marcador coloquial ajeno a la semana y al nivel A2 (y a passato prossimo)."
+  },
+  {
+   "id": "l2-c-79",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Come ___ della festa?",
+   "propuesta": "Ubicar en semana posterior o reemplazar por «Come hai saputo della festa?»",
+   "motivo": "«Venire a sapere» es fraseología B1; distractor «sono venuto a conoscere» dependiente del sentido."
+  },
+  {
+   "id": "g2-out-pro-05",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Telefono a Marco. → ___ telefono stasera.",
+   "propuesta": "Mover los ítems de pronombre indirecto (g2-out-pro-05, -06, -11) a la semana donde se enseñan gli/le",
+   "motivo": "La lección de la semana 11 no enseña el pronombre indirecto y «le» aparece con dos valores (out-pro-04 directo, out-pro-06 indirecto)."
+  },
+  {
+   "id": "lesson:7",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "*lo* y *la* se apostrofan ante *ho*: *l'ho visto*, *l'ho vista*.",
+   "propuesta": "*lo* y *la* se apostrofan ante las formas de avere que empiezan con vocal o h: *l'ho, l'hai, l'ha, l'abbiamo, l'hanno*.",
+   "motivo": "La regla solo menciona «ho», pero el alumno también necesita l'hai, l'ha, l'hanno (ya usado en d16-034)."
+  },
+  {
+   "id": "lesson:4",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "En el examen, usá la forma canónica.",
+   "propuesta": "En el examen se aceptan las dos formas; la canónica es la más segura en escritura formal.",
+   "motivo": "Afirma sin sustento que el examen exige una sola forma; avere con modales + verbo de essere es admitido por la norma."
+  },
+  {
+   "id": "lettura c-dante",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "\"grammar\":\"presente storico\" (Dante nasce… scrive… muore…)",
+   "propuesta": "Reemplazar por un texto en passato prossimo (p. ej. «Dante è nato… ha scritto… è morto…») o mover a la semana del presente storico",
+   "motivo": "La lectura no practica la gramática de la semana y su vocabulario (dotti, volgare, esilio, regno) excede A2."
+  },
+  {
+   "id": "vocab:salire",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "Salgo le scale a piedi.",
+   "propuesta": "Ho salito le scale a piedi. / Faccio le scale a piedi.",
+   "motivo": "Ejemplo poco natural y en presente; no ilustra el passato prossimo de la semana (idem vocab «vincere»: «Tuttavia, la nostra squadra ha vinto» sin contexto previo)."
+  },
+  {
+   "id": "lettura w-11",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "\"sarde\": \"sardinas\" (falta «saor»)",
+   "propuesta": "Glosar «in saor» (sardinas marinadas con cebolla) y unificar comillas (\"…\" vs «…»)",
+   "motivo": "Término cultural sin explicar; el resto del dossier usa comillas angulares."
+  },
+  {
+   "id": "p-047",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "leto → (no existe)",
+   "propuesta": "leto → «(poético, = lieto)» o cambiar el distractor",
+   "motivo": "«Leto» existe como variante poética de «lieto»; «no existe» es impreciso."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Cubrir los puntos enseñados que hoy no tienen ítems propios: colocación de già/mai/ancora/sempre/appena (0 ítems en items; solo la sfida r14-01c), verbos con los dos auxiliares (0), reflexivos con essere (0), piacere y afines en passato prossimo (solo la sfida r25-09), modales + infinitivo (1 ítem). Sumar 3-5 ítems por punto (choice, cloze, fixerr).",
+   "por_que": "La parte 3 declara «già, mai, ancora» pero sus 101 ítems son casi todos de pronombre directo; la lección promete lo que el práctico no entrena."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Rebalancear los 126 ítems: hoy ~35 son de pronombres (d16-021..040, g2-out-pro) y ~12 de participios «garden» repiten los verbos de d16-001..010 (fare, leggere, scrivere, prendere, vedere, aprire, dire). Reducir duplicados y liberar lugar para ítems de auxiliar y de adverbios.",
+   "por_que": "Cinco verbos aparecen 3-4 veces; el pronombre directo con concordancia pesa más que el auxiliar, que la lección presenta como el eje de la semana."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Revisar las 48 sfide: no corresponden a la semana (artículos, futuro r19, relativos r13, causativos r27, verbos+preposiciones r28, connectivos, fra/tra) y varias exigen gramática posterior (future, fare+infinitivo, il quale). Filtrar por lo enseñado hasta la semana 11 y priorizar r20-01/02/09, r25-09, r14-01c, r07-03j.",
+   "por_que": "Una semana N no debería exigir gramática de semanas posteriores; hoy las sfide relevantes son ~8 de 48."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Corregir las notas falsas o confusas de las garden: g2-gd-12 («nací» con haber), g2-gd-18 («respuesto»), g2-gd-13, g2-gd-22 (piaciuto ≠ sc), y la errata «dello» en p-046.",
+   "por_que": "Son las únicas explicaciones incorrectas encontradas; afectan la confianza del alumno."
+  },
+  {
+   "prioridad": "media",
+   "que": "Restaurar/mostrar los ejemplos de los ítems garden y scopri («Mirá los tres ejemplos…», «Leé las frases…») y ordenar scopri antes de la práctica del mismo punto.",
+   "por_que": "Sin ejemplos visibles la consigna no se cumple; el descubrimiento debe preceder al drill."
+  },
+  {
+   "prioridad": "media",
+   "que": "Agregar a la lección un mini bloque de expresiones de tiempo del tema de la semana (ieri, ieri sera, l'altro ieri, stamattina, la settimana scorsa, due giorni fa) y de forma negativa/interrogativa (non ho mangiato, hai mangiato?).",
+   "por_que": "El «tema» declara ieri/la settimana scorsa pero solo hay «scorso» en el vocabulario; ningún ítem trabaja fa/scorso."
+  },
+  {
+   "prioridad": "media",
+   "que": "En la lección: (a) enseñar en el bloque de auxiliar un contraste mínimo de los verbos climáticos si se los va a evaluar; (b) mostrar un ejemplo con reflexivo (mi sono alzato/a) y con piacere plural (sono piaciuti); (c) completar la regla del apóstrofo en l'hai/l'ha/l'hanno; (d) no afirmar que el examen exige la forma canónica de los modales.",
+   "por_que": "La tabla lista reflexivos y piacere sin ejemplo; el b2-pass-03 evalúa algo no enseñado."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reemplazar la lectura c-dante (presente storico, vocabulario alto) por una tercera lectura en passato prossimo con già/mai/ancora y un pronombre + concordancia (p. ej. «L'ho vista ieri»); agregar una pregunta «non si dice» a alguna lectura.",
+   "por_que": "Las lecturas ep4 y w-11 sí sirven, pero la tercera es off-topic; ninguna cubre pronombre directo ni adverbios; las preguntas son solo de opción."
+  },
+  {
+   "prioridad": "media",
+   "que": "Suoni: sustituir pares con palabra inexistente (vizio/visio, chiuso/ciuso, conoscere/conosere, detto/deto, letto/leto) por pares reales (p. ej. caro/carro, pala/palla, fato/fatto, dita/ditta) y rehacer c-017 como ítem de escritura o con audio diferenciable.",
+   "por_que": "Un par mínimo con palabra inexistente entrena poco la percepción; c-017 no es resoluble por oído."
+  },
+  {
+   "prioridad": "media",
+   "que": "Completar accept en traducciones y cloze con alternativas naturales (posición del adverbio inicial, elisión «l'aspetto», género del sujeto en g2-va-38, «ha perduto», «abbiamo preso un bicchiere di vino» en g2-ct-07) y normalizar apóstrofos.",
+   "por_que": "Hoy hay variantes correctas que se marcarían mal."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Sumar ítems de tipo producción libre o listen/typed para cerrar (hoy solo cloze, choice, translate, fixerr, garden, scopri; no hay listen, qa ni combina) y una mini-tarea final «contá tu fin de semana» acorde a fare.",
+   "por_que": "La semana declara «Contar lo que hiciste el fin de semana» pero no hay una producción abierta de varias oraciones."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Quitar/traducir los rótulos de capítulo en inglés de las sfide y limpiar detalles de consigna (verbo de apoyo, asterisco en «*ha arrivato»).",
+   "por_que": "Coherencia de idioma y claridad."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 4
+  },
+  "es": {
+   "errores": 2,
+   "dudas": 5
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

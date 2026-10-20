@@ -1,0 +1,389 @@
+{
+ "week": 20,
+ "title": "Condizionale presente",
+ "level": "B1",
+ "revisado": {
+  "items": 43,
+  "sfide": 13,
+  "bloques_teoria": 4,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 6
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "La teoría es correcta, corta y bien ejemplificada, y los ítems del condizionale (cloze, translate, choice, fixerr) son casi todos correctos. Los problemas son de diseño: los 19 cloze son idénticos, 12 ítems repasan otros tiempos, y 13 sfide de capítulos ajenos o posteriores inflan la carga (~112 actividades). La lección no enseña ortografía ni raíces irregulares que se exigen, y la noticia no confirmada no tiene ejercicios. Hay pocos errores puntuales: ítem con dos respuestas correctas, una nota falsa en suoni y «en el mar» en una pregunta. Estimo ~15% de falsos positivos entre las dudas.",
+ "bien": [
+  "Teoría concisa con tabla completa, ejemplos traducidos y aviso clave sobre noi (-emmo vs -emo).",
+  "Cubre los tres usos del tema (cortesía/deseo/consejo, rumor, adelanto de se) con ejemplos naturales.",
+  "Ítems del condizionale casi sin errores de italiano; buenos fixerr (Vorrebbo, potria) y aceptación de variantes en translate.",
+  "Sfide r21 bien graduadas: formas regulares, irregulares con doble r, dovere/potere/sapere/volere y piacerebbe.",
+  "Lecturas naturales y con la gramática de la semana; dictogloss en contexto útil (mail de hotel)."
+ ],
+ "hallazgos": [
+  {
+   "id": "g2-sc-16-b",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "___ un tavolo per due, per favore.",
+   "propuesta": "Agregar «Vorrei» a accept, o precisar el sujeto: «(Noi) ___ un tavolo per due, per favore.»",
+   "motivo": "Dos opciones correctas: «Vorrei un tavolo per due» es natural y cortés; el enunciado no fija el sujeto."
+  },
+  {
+   "id": "g2-sc-16-a",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Scusi, ___ ripetere, per favore?",
+   "propuesta": "Aclarar en la consigna «la forma más cortés» o cambiar el distractor «può» por uno claramente incorrecto.",
+   "motivo": "«Scusi, può ripetere?» es correcto con Lei; solo es menos cortés, no erróneo."
+  },
+  {
+   "id": "g2-sc-16",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Leé las frases y descubrí la regla",
+   "propuesta": "Mostrar 2-3 frases de ejemplo antes de la pregunta o cambiar la consigna a «Pensá en estas frases: vorrei un caffè, potresti aiutarmi, dovresti riposare».",
+   "motivo": "La consigna remite a frases que el ítem no muestra."
+  },
+  {
+   "id": "l2-d-43",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "___, hai visto Marco ieri?",
+   "propuesta": "Reemplazar el distractor «Tra l'altro» (que también significa «por cierto») por otro, p. ej. «Anzi».",
+   "motivo": "«Tra l'altro, hai visto Marco ieri?» es natural: posible segunda respuesta correcta."
+  },
+  {
+   "id": "g2-out-tem-08",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Sabato scorso ___ al mare con gli amici. (andare)",
+   "propuesta": "Dar sujeto: «Sabato scorso io ___ al mare…» o aceptar también «siamo andati/e», «è andato/a».",
+   "motivo": "Sin sujeto, «siamo andati» es igual de correcto y no se acepta."
+  },
+  {
+   "id": "g2-out-tem-09",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Fra un mese ___ al mare. (andare)",
+   "propuesta": "Dar sujeto (io/noi) y dejar accept coherente.",
+   "motivo": "Accept incluye «andremo» pero no andrai/andrà/andrete: el sujeto es ambiguo."
+  },
+  {
+   "id": "g2-out-tem-01..12",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ahora producilo vos: elegí el tiempo según la pista.",
+   "propuesta": "Reemplazar al menos 6 de los 12 ítems por producción de condizionale (cortesía, deseo, consejo, rumor) o por contraste futuro/condicional.",
+   "motivo": "12 de 43 ítems repasan passato/imperfetto/futuro/presente y no practican el tema de la semana."
+  },
+  {
+   "id": "d18-046",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Mi ___ (tu, fare) un favore?",
+   "propuesta": "Cambiar por otro verbo (p. ej. «___ (tu, venire) con noi?») o quitarlo.",
+   "motivo": "Casi idéntico a s:r21-02:e «Mi ___ un favore? (fare – tu)»."
+  },
+  {
+   "id": "d18-047",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "La mamma ___ (sapere).",
+   "propuesta": "Dar contexto: «La mamma ___ (sapere) dirti dov'è Luca.»",
+   "motivo": "Frase incompleta; no hay pista de sentido que motive el condicional."
+  },
+  {
+   "id": "g2-sc-16-c",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "(Tu) ___ (dovere) mangiare meno dolci.",
+   "propuesta": "Answer «dovresti» en minúscula (el hueco está a mitad de frase).",
+   "motivo": "Mayúscula inicial injustificada; sugiere que va al comienzo."
+  },
+  {
+   "id": "vocab:passaggio",
+   "lang": "es",
+   "severidad": "duda",
+   "actual": "aventón, que te lleven",
+   "propuesta": "«que te lleven en auto» o «que te alcancen».",
+   "motivo": "«Aventón» es mexicano, no rioplatense."
+  },
+  {
+   "id": "vocab:volentieri",
+   "lang": "it",
+   "severidad": "error",
+   "actual": "verrei volentieri ma ho un appuntamento.",
+   "propuesta": "Verrei volentieri, ma ho un appuntamento.",
+   "motivo": "Oración sin mayúscula inicial ni coma antes de «ma»."
+  },
+  {
+   "id": "vocab:nuvola",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "nuvola",
+   "propuesta": "Agregar ejemplo, p. ej. «Guarda quelle nuvole: pioverà.»",
+   "motivo": "Única entrada de vocabulario sin frase de ejemplo."
+  },
+  {
+   "id": "s:r21-02:a",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "___ volentieri ma ho un appuntamento. (venire – io)",
+   "propuesta": "Answer «Verrei» (o stem con minúscula inicial consistente).",
+   "motivo": "Va al comienzo de la oración; inconsistente con «Mi» en r07-08:a."
+  },
+  {
+   "id": "s:r21-01:c",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "lo compraríamos, pero es muy caro",
+   "propuesta": "«lo llevaríamos, pero es muy caro».",
+   "motivo": "«Prendere» no es «comprar»; traducción imprecisa."
+  },
+  {
+   "id": "s:r21-04:a",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Ti ___, ma devo andare a prendere mia figlia. (dare un passaggio)",
+   "propuesta": "Aceptar también «darei» solo, o pedir solo el verbo: «Ti ___ un passaggio…».",
+   "motivo": "La consigna pide «el condicional del verbo»; quien escribe «darei» queda incorrecto."
+  },
+  {
+   "id": "s:r21-02:d",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "___ aiutare? (potere – voi)",
+   "propuesta": "«___ aiutarci? (potere – voi)» con answer «Potreste».",
+   "motivo": "«Potreste aiutare?» sin objeto suena incompleto."
+  },
+  {
+   "id": "s:r26-04:d",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Le finestre ___ pulite. (tendrían que haber sido)",
+   "propuesta": "Consigna «(había que limpiarlas)» y nota: «andavano pulite = había que limpiarlas / debían limpiarse».",
+   "motivo": "«Andavano» es imperfecto (obligación en el pasado); «tendrían que haber sido» es condizionale passato: nota falsa."
+  },
+  {
+   "id": "sfide:r26-04",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "La casa se viene abajo: decí qué hay que hacer usando andare + participio.",
+   "propuesta": "Retirar de la semana 20 o mover a la semana donde se enseñe la pasiva con andare.",
+   "motivo": "Exige andare + participio (pasiva de necesidad), no enseñado en esta semana."
+  },
+  {
+   "id": "sfide:r27-03",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Traducí al italiano con los verbos indicados (construcción causativa).",
+   "propuesta": "Retirar r27-03 y r27-05 o moverlos a la semana del causativo.",
+   "motivo": "Fare/farsi + infinitivo (y a/da del agente) no se enseñan hasta después del condizionale."
+  },
+  {
+   "id": "sfide:r18-01d",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "¿Qué dijeron? Pasá a estilo indirecto con el comienzo dado (verbo introductorio en presente).",
+   "propuesta": "Mover a la semana de discurso indirecto o reducir a un ejemplo.",
+   "motivo": "Estilo indirecto con cambios de persona no es objetivo de esta semana; además el ítem d usa «Secondo…», sin verbo introductorio."
+  },
+  {
+   "id": "s:r18-01d:a",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "‘Staremo da voi a mezzogiorno per prendere l'aperitivo.’ → Barbara dice ___.",
+   "propuesta": "Aclarar quién reporta o dejar una sola respuesta y ajustar la nota.",
+   "motivo": "La nota dice que «voi» pasa a «noi» pero accept admite «da voi»."
+  },
+  {
+   "id": "s:r27-05:a",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Non ho voglia di fare la cena. – Falla preparare ___ figli, allora.",
+   "propuesta": "Aceptar también «dai»; ídem s:r27-05:e con «dagli».",
+   "motivo": "«Farla preparare dai figli» es correcto y en h sí se acepta «da»: criterio inconsistente."
+  },
+  {
+   "id": "s:r14-01:e",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "No, mi dispiace, niente vino oggi.",
+   "propuesta": "Answer principal «No, scusa, niente vino oggi.» y sumar «perdona/scusami».",
+   "motivo": "El español dice «perdoná»; «mi dispiace» es «lo siento», traducción más laxa."
+  },
+  {
+   "id": "s:r14-01:a",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "No responde; non niega el verbo.",
+   "propuesta": "«El «no» inicial es la respuesta; non niega el verbo».",
+   "motivo": "«No responde» se lee como «no contesta»."
+  },
+  {
+   "id": "sfide:*",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "Personal pronouns",
+   "propuesta": "Traducir los rótulos «chapter» (Pronombres personales, Interrogativos, Negaciones, Condicional, etc.) si se muestran al alumno.",
+   "motivo": "Rótulos en inglés (Personal pronouns, Interrogatives, Negatives, The conditional…)."
+  },
+  {
+   "id": "lettura w-20",
+   "lang": "es",
+   "severidad": "error",
+   "actual": "abrir un restaurante en el mar",
+   "propuesta": "«abrir un restaurante frente al mar».",
+   "motivo": "«Al mare» es «junto al mar»; «en el mar» significa dentro del agua."
+  },
+  {
+   "id": "lettura w-20",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "¿Qué problema ve Paolo?",
+   "propuesta": "Preguntar «¿Qué le aconseja Paolo?» (aprender a cocinar) o poner como respuesta «el restaurante podría no dar ganancias».",
+   "motivo": "Paolo menciona dos riesgos; «no sabe cocinar» es inferencia y el otro no figura como opción."
+  },
+  {
+   "id": "dictogloss w20",
+   "lang": "it",
+   "severidad": "duda",
+   "actual": "Noi arriveremmo verso le nove di sera, dopo il lavoro.",
+   "propuesta": "«Noi arriveremo verso le nove di sera, dopo il lavoro.»",
+   "motivo": "Es un plan concreto; el condizionale aquí suena hipotético."
+  },
+  {
+   "id": "dictogloss w20",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "potreste tenere il bagaglio per un giorno?",
+   "propuesta": "«potrebbe tenere il bagaglio per un giorno?»",
+   "motivo": "Alterna Lei («Potrebbe dirmi») y voi («potreste») en el mismo mail."
+  },
+  {
+   "id": "suoni p-057",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Doble r en el condicional: vorrei, sarei, avrei.",
+   "propuesta": "«Doble r en vorrei (también verrei, berrei); sarei y avrei llevan una sola r.»",
+   "motivo": "Falso: sarei y avrei se escriben con una r (tabla de la lección)."
+  },
+  {
+   "id": "suoni p-170",
+   "lang": "regla",
+   "severidad": "error",
+   "actual": "Doble r en el condicional.",
+   "propuesta": "Eliminar el par (duplica p-057) o cambiarlo por «sera/serra» o «caro/carro».",
+   "motivo": "Par idéntico a p-057 y nota que generaliza mal: solo algunos verbos tienen rr."
+  },
+  {
+   "id": "lesson:1",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "es futuro (vamos a hablar)",
+   "propuesta": "«es futuro (hablaremos)».",
+   "motivo": "«Vamos a hablar» es perífrasis; el contraste con «hablaríamos» queda más claro con el futuro simple."
+  },
+  {
+   "id": "lesson:3",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "Aparece en toda comprensión lectora: es un dato que el periodista no garantiza.",
+   "propuesta": "«Es frecuente en titulares y notas de prensa: …»",
+   "motivo": "«Toda comprensión lectora» es exagerado."
+  },
+  {
+   "id": "lesson:4",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Adelanto: nunca condicional tras se",
+   "propuesta": "«Adelanto: en el se hipotético, no se usa condicional».",
+   "motivo": "«Se» + condicional sí existe en interrogativas indirectas (Non so se verrebbe); el título sin calificar es falso."
+  },
+  {
+   "id": "keys:1",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "vorrei y potrei son la base de toda cortesía.",
+   "propuesta": "«…son las fórmulas de cortesía más frecuentes.»",
+   "motivo": "«Toda» exagera (también mi piacerebbe, saprebbe, le dispiacerebbe)."
+  },
+  {
+   "id": "g2-va-54",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "El condizionale italiano termina en -ebbe, no en -ía: potrebbe, sarebbe, vorrebbe.",
+   "propuesta": "«En 3ª persona termina en -ebbe (potrebbe); las otras: -ei, -esti, -emmo, -este, -ebbero.»",
+   "motivo": "Solo vale para la 3ª persona."
+  },
+  {
+   "id": "g2-ct-22",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "«pero» en italiano no existe.",
+   "propuesta": "«Pero» se dice ma (o però, con tilde).",
+   "motivo": "Confuso: «però» sí existe."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Agregar al bloque «Las formas» dos apartados: ortografía (-care/-gare → cher-/gher-, -ciare/-giare pierden i, -iare) y raíces irregulares (andr-, dovr-, potr-, vedr-, vivr-, sapr-, verr-, berr-, rimarr-, dar-/far-/star-), con contraste futuro/condicional (parlerò/parlerei, parleremo/parleremmo).",
+   "por_que": "Los ítems piden mangeresti, pagherebbe, cercherebbero, studieremmo, verrei, berrei, tradurrei sin que la lección lo enseñe."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Añadir ejercicios de reconocimiento y producción del condicional de rumor (elegir «è/sarebbe», reescribir titulares) y de contraste condicional vs futuro; hoy solo la teoría lo trata.",
+   "por_que": "Un tercio del foco declarado (noticia no confirmada) tiene 0 ejercicios y ninguna lectura lo usa."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Reducir carga y foco: sacar los 12 ítems g2-out-tem y las sfide de r07, r10, r14, r18, r26, r27 (tema ajeno o posterior) y reemplazarlos por práctica de cortesía, consejo y deseo.",
+   "por_que": "Unas 112 actividades, pero ~40% no practica el condizionale y varias exigen gramática posterior."
+  },
+  {
+   "prioridad": "media",
+   "que": "Variar los 19 cloze d18 (todos idénticos): sumar choice condizionale/futuro, transformar «Voglio…» → «Vorrei…», tú/Lei, mini-diálogos de bar, hotel y oficina (tema de la semana).",
+   "por_que": "Toda la producción es completar una desinencia; falta cortesía en contexto y el tema «servicios/oficina» apenas aparece."
+  },
+  {
+   "prioridad": "media",
+   "que": "En la teoría, enseñar la diferencia tú/Lei/voi en pedidos (Potresti/Potrebbe/Potreste), «Le dispiacerebbe…?», «Avrei bisogno di…» y un cuadro de errores típicos rioplatenses (vorrei vs voglio, doble m, se avrei).",
+   "por_que": "Los pedidos de la oficina exigen elegir registro; hoy solo hay ejemplos sueltos."
+  },
+  {
+   "prioridad": "media",
+   "que": "Alinear la sección suoni con el tema: pares parleremo/parleremmo, avrei/avrai, sarebbe/sarebbero; eliminar el par duplicado p-170 y corregir la nota de p-057.",
+   "por_que": "Es el punto ortográfico-fonético clave (una m vs dos) y hoy solo se practica vorrei/vorei, con una nota falsa."
+  },
+  {
+   "prioridad": "media",
+   "que": "Que una lectura use condizionale de rumor y sumar preguntas vero/falso/non si dice; revisar la pregunta 2 de w-20.",
+   "por_que": "Las dos lecturas solo usan cortesía/deseo/consejo y sus preguntas son solo de opción múltiple."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Explicar que «avessi» de «Se avessi tempo» es congiuntivo (o usar un ejemplo con tiempo aún no visto marcado como fórmula), y agregar contraste con el español (querría/quisiera).",
+   "por_que": "El bloque 4 introduce una forma no enseñada sin nombrarla."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Traducir rótulos en inglés de sfide, revisar aventón y mayúsculas del vocabulario.",
+   "por_que": "Coherencia de idioma y variedad rioplatense."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 1,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 1,
+   "dudas": 1
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

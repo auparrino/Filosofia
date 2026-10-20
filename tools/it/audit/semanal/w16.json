@@ -1,0 +1,337 @@
+{
+ "week": 16,
+ "title": "Riflessivi al passato",
+ "level": "A2",
+ "revisado": {
+  "items": 46,
+  "sfide": 8,
+  "bloques_teoria": 4,
+  "lecturas": 1,
+  "dictogloss": 1,
+  "suoni": 2
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "El núcleo de la semana (reflexivos con essere, concordancia, recíprocos, modales con pronombre delante/pegado) es correcto y bien explicado, con contraste útil con el español y buena nota de error típico. No encontré errores de italiano en las respuestas aceptadas; los problemas son de diseño: 8 ítems y 5 de las 8 sfide son de otros temas (marcadores, si pasivante, di/a, artículos), los ítems 11-20 exigen imperfetto sin haberlo enseñado, hay ítems casi duplicados y algunas concordancias con el objeto aceptadas con poca base. La lectura es natural pero solo usa 3.ª persona y el dictogloss está marcado B1.",
+ "bien": [
+  "Regla central clara y repetida desde varios ángulos: essere siempre, concordancia con el sujeto, contraste con avere y con el español.",
+  "Bloque 2 (mismo verbo con y sin pronombre) y sfide r25-01 (mitad no reflexivas) entrenan justo la confusión típica.",
+  "Bloque de modales con las dos opciones y el «no mezclar» explícito; sfide r20-10 lo practica en producción.",
+  "Distractores de choice bien pensados (mi ho / sono lavato / concordancia de género) y consignas con indicación de sexo del hablante.",
+  "Lectura corta, natural y con los reflexivos en contexto; dictogloss coherente y sin errores de italiano.",
+  "Los accept incluyen ambas variantes de género en casi todos los ítems."
+ ],
+ "hallazgos": [
+  {
+   "id": "r26-02b (s:r26-02b:c)",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "Dove si mette la TV?",
+   "propuesta": "Cambiar el estímulo por uno con objeto plural (p. ej. «Dove si mettono le valigie?») o quitar el ítem",
+   "motivo": "Con objeto singular, «si mette la TV» es idéntico como si pasivante o impersonal: la forma no permite decidir; solo el plural distingue."
+  },
+  {
+   "id": "rf2-16-12",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Sabato scorso Paola e io ___ in centro.",
+   "propuesta": "Agregar «(habla una mujer)» a la consigna",
+   "motivo": "Nada indica que quien habla sea mujer; si es hombre, «ci siamo incontrati» sería correcto; la nota «Dos mujeres» no se deduce del enunciado."
+  },
+  {
+   "id": "l2-d-55",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "— Non ti piace la pasta? — ___ mi piace!",
+   "propuesta": "Cambiar la opción «Mica» o el enunciado para que solo «Sì che» sea posible (p. ej. sacar «mica» de las opciones)",
+   "motivo": "«Mica mi piace!» también es gramatical (niega/confirma), así que la única respuesta depende del sentido y no de una regla."
+  },
+  {
+   "id": "rf2-16-04",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "si è lavate",
+   "propuesta": "Quitar «si è lavate» de accept (dejar solo «si è lavata»)",
+   "motivo": "La concordancia con el objeto plural es muy rara y muchas gramáticas la dan por incorrecta; aceptarla como equivalente confunde al A2."
+  },
+  {
+   "id": "r20-03 (s:r20-03:e)",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Togliersi: participio tolto; puede concordar con el sujeto o con el objeto (tolte).",
+   "propuesta": "Aceptar solo «sono tolto/tolta» y decir «se concuerda con el sujeto»",
+   "motivo": "Refuerza una concordancia con el objeto que es marginal y contradice el «lo normal es concordar con el sujeto» del resto de la semana."
+  },
+  {
+   "id": "lesson:1",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "La concordancia con el objeto (*mi sono lavate le mani*) se admite, pero es minoritaria.",
+   "propuesta": "«La concordancia con el sujeto es la norma; con el objeto aparece a veces en textos antiguos o literarios y no hace falta usarla»",
+   "motivo": "Afirmación discutible que puede llevar al alumno a imitar una forma poco natural."
+  },
+  {
+   "id": "lesson:0",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "es el error más penalizado del B1",
+   "propuesta": "Suprimir la frase o reemplazarla por «es el error más típico del hispanohablante»",
+   "motivo": "Afirmación no fundamentada (y el nivel de la semana es A2); además «*lavare* solo va con *avere*» es ambiguo (¿solo = sin pronombre?)."
+  },
+  {
+   "id": "lesson:0",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Todos con essere. Todos.",
+   "propuesta": "«Todos con essere (con el pronombre delante del verbo conjugado)»",
+   "motivo": "El título y «una sola regla, absoluta» de la intro chocan con el bloque 4, donde el modal con pronombre pegado lleva avere; conviene matizar."
+  },
+  {
+   "id": "d17-020",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Mentre parlavano con il poeta, Paolo e Francesca ___ (ricordarsi) del tempo felice.",
+   "propuesta": "Poner un solo tiempo posible con una pista clara (p. ej. «All'improvviso, ...») o glosar la alusión a Dante",
+   "motivo": "Se aceptan passato prossimo e imperfetto sin pista, con «mentre» que empuja al imperfetto; la nota es floja y la referencia a Dante no se explica."
+  },
+  {
+   "id": "d17-011",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Completá con el verbo reflexivo entre paréntesis en passato prossimo o en imperfetto, según las pistas de la frase.",
+   "propuesta": "Enseñar antes un mini-bloque de contraste (imperfetto habitual/descriptivo vs passato prossimo puntual) o mover d17-011..d17-020 a la semana donde se trabaje ese contraste",
+   "motivo": "La lección no enseña la elección passato prossimo/imperfetto de los reflexivos; 10 ítems (11-20) la exigen, y varios sin pista clara (d17-018, d17-020, d17-015)."
+  },
+  {
+   "id": "d17-011",
+   "lang": "it",
+   "severidad": "mejora",
+   "actual": "La domenica, lei ed i bambini ___ (divertirsi).",
+   "propuesta": "La domenica, lei e i bambini ___ (divertirsi).",
+   "motivo": "«ed» se reserva casi siempre para «e» + vocal /e/; «e i bambini» es lo natural."
+  },
+  {
+   "id": "d17-015",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Domenica, loro ___ (laurearsi).",
+   "propuesta": "Domenica scorsa, loro ___ (laurearsi).",
+   "motivo": "Sin «scorsa» «Domenica» es ambiguo (pasado o futuro); además es casi duplicado de d17-006 (laurearsi)."
+  },
+  {
+   "id": "l2-d-08",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "— Il treno è in ritardo. — ___ (justamente), per questo sono ancora qui.",
+   "propuesta": "Mover los ítems de marcadores (l2-d-08, 12, 19, 25, 27, 55) a la semana que enseñe conectores",
+   "motivo": "Evalúan marcadores discursivos (appunto, anzi, pure, infatti, mica) que esta semana no enseña."
+  },
+  {
+   "id": "l2-c-78",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "All'improvviso mi ___ in mente un'idea.",
+   "propuesta": "Mover a la semana de verbos con dativo (piacere/venire in mente) o quitarlo",
+   "motivo": "«mi è venuta in mente» tiene «mi» dativo, no reflexivo: introduce confusión con el tema y no está enseñado."
+  },
+  {
+   "id": "l2-c-52",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Marco ___ finta di non vedermi.",
+   "propuesta": "Mover a otra semana (fare finta di / fingere)",
+   "motivo": "Ítem ajeno al tema de la semana; la opción «si è fatto» es un distractor que confunde el foco reflexivo."
+  },
+  {
+   "id": "l2-d-19",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "«Pure» = anche, también (más coloquial, frecuente en el centro-sur).",
+   "propuesta": "«Pure» = anche, también (algo más coloquial que «anche»)",
+   "motivo": "La atribución regional al centro-sur es dudosa: «pure» se usa en toda Italia."
+  },
+  {
+   "id": "r02-01",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ha ___ capelli biondi, ___ occhi azzurri, ___ pelle chiara e ___ orecchie a sventola.",
+   "propuesta": "Reubicar la sfida a la semana de artículos con partes del cuerpo (solo r02-01:c, «si è rotto la gamba», se relaciona con la semana)",
+   "motivo": "Tres de los cuatro ítems de esa sfida (a, b) no tienen relación con los reflexivos en pasado; el enunciado remite a una imagen que el dossier no muestra."
+  },
+  {
+   "id": "r26-02b",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "¿Si pasivante o si impersonal?",
+   "propuesta": "Mover a un nivel B2/C1 o a la semana de «si» impersonal/pasivante",
+   "motivo": "Contenido de nivel B2+ en una semana A2, sin ninguna explicación en la lección; 8 ítems de sfida."
+  },
+  {
+   "id": "r28-01c",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Verbos de empezar, terminar, intentar y decidir: completá con di o a.",
+   "propuesta": "Mover a la semana de verbos + preposición",
+   "motivo": "Tema (di/a + infinitivo) no enseñado esta semana; solo 2 de 10 ítems son reflexivos."
+  },
+  {
+   "id": "r28-01f (s:r28-01f:b)",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "Pedí informes sobre él.",
+   "propuesta": "Agregar a accept «Ho chiesto informazioni su di lui.»",
+   "motivo": "La traducción más literal y natural de «pedí informes» no está aceptada; «Mi sono informato» exige adivinar el verbo."
+  },
+  {
+   "id": "r28-01f (s:r28-01f:a)",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Estoy preocupado por la salud de mi papá.",
+   "propuesta": "Agregar accept «Sono preoccupato per la salute di mio papà.» (y versiones con -a)",
+   "motivo": "«papà» es la traducción natural de «papá» y falta en accept."
+  },
+  {
+   "id": "r28-01f (s:r28-01f:g)",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Gracias por todo. Me alegra poder contar con vos.",
+   "propuesta": "Agregar accept «Mi fa piacere poter contare su di te.»",
+   "motivo": "«Me alegra» se traduce muy naturalmente con «mi fa piacere» y no está aceptado."
+  },
+  {
+   "id": "r20-02c (s:r20-02c:a)",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "___ partire alle tre ma il treno è in ritardo. (Tenía que)",
+   "propuesta": "Aclarar la persona: «(Yo tenía que)» o aceptar Doveva/Dovevamo",
+   "motivo": "La glosa no fija persona: «Doveva» sería igual de correcto; lo mismo en s:r20-02c:d («no podía ver»)."
+  },
+  {
+   "id": "rf2-16-06",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Me olvidé las llaves.",
+   "propuesta": "Agregar accept «Mi sono scordato le chiavi» y «Mi sono scordata le chiavi»",
+   "motivo": "«scordarsi» es sinónimo muy común de «dimenticarsi» en el italiano hablado."
+  },
+  {
+   "id": "g2-ct-14",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Ci siamo divertiti molto alla festa di ieri",
+   "propuesta": "Agregar accept «Ieri ci siamo divertiti molto alla festa» y variantes con «ieri sera»",
+   "motivo": "Faltan variantes naturales de orden y de complemento temporal."
+  },
+  {
+   "id": "g2-sc-09-a",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Anna si ___ svegliata presto.",
+   "propuesta": "Sustituir por un ítem con otro verbo/persona (io/tu) o un contexto de producción",
+   "motivo": "Casi duplicado de rf2-16-01 y g2-va-65; también d17-003, g2-sc-09-c, g2-ct-14 y rf2-16-02 repiten «divertirsi/ci siamo divertiti»."
+  },
+  {
+   "id": "w-16 gloss",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "dado cuenta",
+   "propuesta": "«se dio cuenta (accorgersi)»",
+   "motivo": "La glosa de «accorto» queda incompleta y no ayuda a entender la forma del participio."
+  },
+  {
+   "id": "r20-03 (chapter)",
+   "lang": "en",
+   "severidad": "duda",
+   "actual": "The past indicative tenses",
+   "propuesta": "Traducir o ocultar el campo «chapter» (Articles, The past indicative tenses, Special verb constructions, The passive voice and related constructions, Verbs and prepositions)",
+   "motivo": "Si el nombre de capítulo se muestra al alumno, es inglés visible; si es solo un campo interno, ignorar."
+  },
+  {
+   "id": "dictogloss:16",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "B1",
+   "propuesta": "Bajar a A2 o simplificar el texto",
+   "motivo": "El dictogloss figura como B1 en una semana A2, con 6 reflexivos seguidos en 1.ª persona y un texto de ~65 palabras."
+  },
+  {
+   "id": "dictogloss:16",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "salió corriendo y llegó al trabajo con dos zapatos distintos",
+   "propuesta": "Un día que empezó mal: alguien se despertó tarde, se vistió rápido, salió sin desayunar y llegó al trabajo con zapatos de dos colores.",
+   "motivo": "El resumen dice «corriendo», que no está en el texto (dice «in fretta» y «senza colazione»)."
+  },
+  {
+   "id": "p-053",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "lavvato",
+   "propuesta": "Reemplazar por un par real de geminadas (p. ej. «pala / palla», «caro / carro») o quitar del tramo de reflexivos",
+   "motivo": "«lavvato» no existe: no es un par mínimo real; además es un contraste ortográfico, no auditivo relevante, y no se relaciona con la semana."
+  },
+  {
+   "id": "c-023",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Mi sono svegliato tarde.",
+   "propuesta": "Opciones con contrastes fonéticos reales (svegliato / sveliato / svegiato) y una nota que mencione la /ʎ/ y la doble consonante",
+   "motivo": "La opción «tarde» es un calco ortográfico y no trabaja el sonido señalado en la nota (gli)."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Sacar o reubicar ítems ajenos: l2-d-* (marcadores), l2-c-52/78, sfide r02-01, r26-02b y r28-01c/f; reemplazar por más práctica de la semana.",
+   "por_que": "Un 40% de la carga evalúa contenido no enseñado ni de nivel A2."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Añadir un mini-bloque de teoría sobre reflexivos en imperfetto vs passato prossimo, o quitar el imperfetto de los ítems d17-011..020.",
+   "por_que": "Se exige elegir tiempo sin que la lección lo enseñe."
+  },
+  {
+   "prioridad": "media",
+   "que": "Sumar producción más libre: typed/translate con 1.ª y 2.ª persona, negación (non mi sono...), pronombre pegado al infinitivo y participios irregulares (messo, visto, seduto).",
+   "por_que": "Casi todo es reconocimiento o cloze guiado; el modal y la negación tienen muy pocos ítems."
+  },
+  {
+   "prioridad": "media",
+   "que": "Variar la lectura: incluir 1.ª/2.ª persona (diálogo) y añadir preguntas vero/falso/non si dice y una sobre los auxiliares.",
+   "por_que": "Todo el texto está en 3.ª persona y las 3 preguntas son opción múltiple."
+  },
+  {
+   "prioridad": "media",
+   "que": "Reducir duplicados (divertirsi/ci siamo divertiti, si è svegliata/si è alzata) y decidir una política única sobre la concordancia con el objeto.",
+   "por_que": "Cuatro ítems repiten la misma forma y la política sobre «lavate/tolte» es incoherente."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Alinear el nivel del dictogloss (B1→A2), corregir el par p-053 y mejorar las glosas (accorto).",
+   "por_que": "Detalles de coherencia con el nivel y con la fonética."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Completar accept con sinónimos naturales (scordarsi, papà, mi fa piacere, Ho chiesto informazioni) y variantes de orden.",
+   "por_que": "Evitar rechazar respuestas correctas del alumno."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Rellenar `parts` (vacío) para agrupar los ítems por punto enseñado.",
+   "por_que": "Facilita la progresión de la lección."
+  }
+ ],
+ "por_idioma": {
+  "it": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 1
+  }
+ }
+}

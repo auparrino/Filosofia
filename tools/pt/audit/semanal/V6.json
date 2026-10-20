@@ -1,0 +1,106 @@
+[
+ {
+  "id": "item s1-01-43",
+  "lote": "w01",
+  "veredicto": "CONFIRMADO",
+  "razon": "razão lleva z; razón no pasa a ç. La regla -zón → -ção es falsa para razão (también en diagnosi.js).",
+  "fuente": "tools/pt/authored/s1.py:184; docs/lang/pt/diagnosi.js:942",
+  "correccion": "-ción → -ção (nação, canção); -zón → -ção o -zão: corazón → coração, pero razón → razão (la z se conserva). Mirá la palabra entera."
+ },
+ {
+  "id": "item s1-04-15",
+  "lote": "w04",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "«Ela é rara» se oye en pt-BR con sentido de «extraña», así que el distractor es defendible y la nota «raro no significa extraño» es falsa; falta accept/distractor limpio.",
+  "fuente": "tools/pt/authored/s1.py:474-476",
+  "correccion": "Cambiar distractor «rara» por «estrangeira» (opciones: esquisita / estrangeira / exquisita) y la nota: «*Esquisito/a* es «raro, extraño». *Raro* se usa más para «poco frecuente»; para decir que alguien es extraño, *esquisito*»."
+ },
+ {
+  "id": "suoni p-060",
+  "lote": "w08",
+  "veredicto": "CONFIRMADO",
+  "razon": "En sonha/sonho la o es cerrada nasalizada [õ]; no existe ó abierta ahí. La distinción vocálica enseñada es falsa.",
+  "fuente": "docs/lang/pt/ascolto_data.js:103",
+  "correccion": "nh (una sola consonante, «soña») contra ni (dos sonidos, «Sô-nia»). En ambas la o es cerrada y nasalizada: la diferencia está en nh contra ni."
+ },
+ {
+  "id": "parts",
+  "lote": "w13",
+  "veredicto": "RECHAZADO",
+  "razon": "No existe n_items en el curso pt (course.json parts solo tiene h y blocks); es un artefacto del dossier/auditoría, no del contenido visible.",
+  "fuente": "docs/lang/pt/data/course.json (weeks[13].lesson.parts)",
+  "correccion": ""
+ },
+ {
+  "id": "lettura w-18",
+  "lote": "w18",
+  "veredicto": "CONFIRMADO",
+  "razon": "«single» es inglés en un glosario visible al alumno; en el contexto es «habitación individual».",
+  "fuente": "docs/lang/pt/letture_settimana.js:428",
+  "correccion": "solteiro: \"individual (quarto de solteiro = habitación individual)\""
+ },
+ {
+  "id": "lesson:0",
+  "lote": "w29",
+  "veredicto": "CONFIRMADO",
+  "razon": "sorrir no tiene hiato ni tilde (sorrirem); en cambio sí la llevan saíres/saírem/caírem y no sairmos; falta explicarlo.",
+  "fuente": "tools/pt/lessons/s3.py:275",
+  "correccion": "*sair, cair*: *saíres, saírem* (y *caíres, caírem*) llevan tilde en la *í* porque forman hiato (sa-í-rem). *Sairmos* no la lleva: la i va con la r en la misma sílaba."
+ },
+ {
+  "id": "item s3-32-12",
+  "lote": "w32",
+  "veredicto": "CONFIRMADO",
+  "razon": "El enunciado dice «pra você»: es «te llamaron», no «me llamaron».",
+  "fuente": "tools/pt/authored/s3.py:874",
+  "correccion": "Sujeto indeterminado: ligaram (te llamaron). «Se ligaram» es otra cosa: «se dieron cuenta»."
+ },
+ {
+  "id": "s4-43-04",
+  "lote": "w43",
+  "veredicto": "RECHAZADO",
+  "razon": "«da» es la convención del curso en notas en español («em + o Rio da no Rio», s1.py:1032); se lee como «da como resultado». Sin ambigüedad real.",
+  "fuente": "tools/pt/authored/s4.py:604",
+  "correccion": ""
+ },
+ {
+  "id": "item s4-46-15",
+  "lote": "w46",
+  "veredicto": "CONFIRMADO",
+  "razon": "«jugo» es español dentro del enunciado en portugués, y el enunciado se contradice con la respuesta sumo.",
+  "fuente": "tools/pt/authored/s4.py:1144",
+  "correccion": "No Brasil, «suco»; em Portugal, «___»."
+ },
+ {
+  "id": "item s4-48-25",
+  "lote": "w48",
+  "veredicto": "CONFIRMADO",
+  "razon": "«o» en lugar de «=»: la nota queda sin sentido.",
+  "fuente": "tools/pt/authored/s4.py:1496",
+  "correccion": "concordar com = estar de acordo com."
+ },
+ {
+  "id": "tramo-conn",
+  "lote": "T-extra-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "La lista de fórmulas tiene 11 entradas, no 10.",
+  "fuente": "docs/lang/pt/tramo_data.js:86; tools/pt/tramo/fichas.json:18",
+  "correccion": "Once fórmulas que resuelven casi cualquier carta formal. Aprendelas como bloques: no se traducen palabra por palabra."
+ },
+ {
+  "id": "nouns:17",
+  "lote": "T-lessico-1",
+  "veredicto": "CONFIRMADO_PARCIAL",
+  "razon": "Librería = livraria son cognados; la etiqueta «Falso amigo» es incorrecta. El riesgo real es confundir con biblioteca.",
+  "fuente": "tools/pt/bank/parole_nomi.py:697",
+  "correccion": "Livraria = librería (cognados). Ojo: la biblioteca (donde se piden libros prestados) es a biblioteca."
+ },
+ {
+  "id": "spelling:1",
+  "lote": "T-transfer-1",
+  "veredicto": "CONFIRMADO",
+  "razon": "En Brasil ct → t viene del formulario de 1943, no del Acuerdo de 1990 (que lo cambió en Portugal). Además fato no ilustra bien la regla ct del español.",
+  "fuente": "tools/pt/bank/trasferimento.py:1586",
+  "correccion": "ct → t: ato, direto, exato, correto, perfeito (en Brasil se escribe así desde antes del Acuerdo de 1990). Excepciones: pacto, aspecto, impacto."
+ }
+]

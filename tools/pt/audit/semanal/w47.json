@@ -1,0 +1,269 @@
+{
+ "week": 47,
+ "title": "Argumentação e modalização",
+ "level": "C1",
+ "revisado": {
+  "items": 48,
+  "bloques_teoria": 6,
+  "lecturas": 2,
+  "dictogloss": 1,
+  "suoni": 0,
+  "radio": 0,
+  "otros": 5
+ },
+ "veredicto": "bien con reparos",
+ "resumen": "Semana correcta en contenido: la teoría de modalizadores, concesivas y conectores es exacta, breve y bien ejemplificada, y las lecturas (jeitinho, columna de tarifa zero, debate radial, boletín) son naturales y usan la gramática de la semana. No hallé errores de portugués. Los problemas están en la mecánica de tres ítems fixerr con respuestas aceptadas incompletas (em minha opinião, ademais, embora seja), en varios ítems casi duplicados y en la práctica casi solo de reconocimiento y conjugación del subjuntivo (nivel B1 más que C1). Suoni, laboratorio, radio y duelos están vacíos.",
+ "bien": [
+  "Teoría clara con tabla subjuntivo/indicativo, contraste con el español y advertencias de errores típicos (apesar de que, demais vs além disso, aunque + indicativo).",
+  "Lecturas auténticas y de buen nivel: la columna de opinión (794 palabras) integra modalizadores, concesivas y conectores, con una caza de formas bien pensada y preguntas con distractores razonables.",
+  "El debate radial y el boletín trabajan escucha con modalización real (talvez, tudo indica que, é possível que) y con vf/«não se diz» bien construidos.",
+  "Contexto cultural brasileño coherente (DaMatta, Constituição de 1988, Baía de Guanabara, Os Sertões) y datos históricos verificados (Salazar, 25 de abril, Caetano en Rio).",
+  "Mezcla de tipos aceptable: choice, cloze, translate, fixerr, garden, scopri, combina, con aceptación amplia de variantes en traducción y combina.",
+  "Vocabulario de debate público útil y bien glosado (descaso, ônus, viés, descambar, engavetar)."
+ ],
+ "hallazgos": [
+  {
+   "id": "item s4-47-34",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "\"Na minha opinião, a reforma é necessária.\" (única respuesta aceptada)",
+   "propuesta": "Agregar \"Em minha opinião, a reforma é necessária.\" a accept; nota: «En» es el error; se dice em minha opinião o na minha opinião.",
+   "motivo": "Em minha opinião (sin contracción) es correcto y frecuente en la redação; hoy un alumno que corrige bien queda marcado mal."
+  },
+  {
+   "id": "lesson:1",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "«En mi opinión» → *na minha opinião*, con contracción.",
+   "propuesta": "«En mi opinión» → *na minha opinião* (o *em minha opinião*). Con posesivo la contracción es opcional.",
+   "motivo": "Presenta como obligatoria una contracción que es opcional; la nota del ítem s4-47-34 repite lo mismo (\"em + a = na\")."
+  },
+  {
+   "id": "item s4-47-35",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "\"Além disso, o projeto não resolve nada.\" (única respuesta aceptada)",
+   "propuesta": "Agregar \"Ademais, o projeto não resolve nada.\" a accept.",
+   "motivo": "La nota dice que ademais es válido y la lección lo enseña; corregir Además→Ademais es la corrección mínima y hoy sería rechazada."
+  },
+  {
+   "id": "item s4-47-36",
+   "lang": "ejercicio",
+   "severidad": "error",
+   "actual": "\"Apesar de ser caro, vale a pena.\" (única respuesta aceptada)",
+   "propuesta": "Agregar \"Embora seja caro, vale a pena.\" a accept.",
+   "motivo": "La propia nota y la lección dan embora seja como alternativa equivalente."
+  },
+  {
+   "id": "item s4-47-36",
+   "lang": "regla",
+   "severidad": "duda",
+   "actual": "Apesar de que é caro, vale a pena.",
+   "propuesta": "Reformular el ítem o la nota: «apesar de que» es poco recomendado en el registro formal, pero está registrado en diccionarios; no es calco inequívoco.",
+   "motivo": "Se presenta como error absoluto algo que algunos gramáticos y Houaiss admiten (apesar de que + subjuntivo/indicativo)."
+  },
+  {
+   "id": "item col-47-1",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "A proposta ___ em xeque o modelo atual. (opciones: põe / deixa / faz)",
+   "propuesta": "Cambiar la distractora \"deixa\" por otra claramente no colocacional (p. ej. \"tem\") o aceptar solo si se aclara.",
+   "motivo": "\"Deixar em xeque\" también se usa en portugués brasileño; la opción incorrecta puede ser defendible."
+  },
+  {
+   "id": "item s4-47-23",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Em ___, a cidade precisa de mais árvores. (accept: suma, resumo)",
+   "propuesta": "Agregar \"conclusão\" y \"síntese\" a accept (o dar pista «en suma»).",
+   "motivo": "Em síntese y em conclusão son igual de naturales y el hueco no restringe."
+  },
+  {
+   "id": "item s4-47-42",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "___, a cidade precisa de mais árvores.",
+   "propuesta": "Cambiar la frase o eliminar el ítem.",
+   "motivo": "Casi duplicado de s4-47-23 (misma oración, mismo conector)."
+  },
+  {
+   "id": "item s4-47-43",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Embora ___ tarde, vamos ao show.",
+   "propuesta": "Sustituir por un verbo distinto (p. ej. ter, fazer, poder).",
+   "motivo": "Repite embora + seja de s4-47-17."
+  },
+  {
+   "id": "item s4-47-44",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "A praia está suja. Está cheia. (embora)",
+   "propuesta": "Variar el contenido (otra oración).",
+   "motivo": "La oración «praia suja / cheia» aparece 4 veces: ejemplo de lección, s4-47-28, s4-47-33 y este ítem."
+  },
+  {
+   "id": "item s4-47-14",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Tudo indica que a economia ___ (crescer, presente) pouco.",
+   "propuesta": "Variar la oración.",
+   "motivo": "Casi duplicado de s4-47-02 (misma frase con tudo indica que a economia)."
+  },
+  {
+   "id": "item s4-47-30",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Mesmo que chova, vamos a Petrópolis.",
+   "propuesta": "Poner como respuesta principal \"vamos para Petrópolis\" (mantener la actual en accept).",
+   "motivo": "Casi duplicado de s4-47-07; y «vamos a + ciudad» resulta menos natural en el habla brasileña y puede reforzar el calco."
+  },
+  {
+   "id": "item s4-47-37",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "fazer → ___ (respuesta: por mais que eu faça)",
+   "propuesta": "Mostrar los tres ejemplos previos en la consigna y aceptar también \"faça\" / \"por mais que faça\"; fijar el conector en el enunciado.",
+   "motivo": "En el dossier el enunciado no indica qué conector usar y la respuesta exige la frase entera con eu; riesgo de ambigüedad (igual en s4-47-38 y s4-47-39)."
+  },
+  {
+   "id": "item s4-47-38",
+   "lang": "ejercicio",
+   "severidad": "duda",
+   "actual": "dizer → ___ (respuesta: embora ele diga)",
+   "propuesta": "Igual que s4-47-37: explicitar el patrón de los ejemplos.",
+   "motivo": "Sin los ejemplos visibles la respuesta esperada no es deducible y se aceptaría solo una frase exacta."
+  },
+  {
+   "id": "item col-47-1",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "A proposta ___ em xeque o modelo atual.",
+   "propuesta": "Enseñar las colocaciones pôr em xeque / dar ensejo a en la lección (o en una tarjeta previa).",
+   "motivo": "Los ítems col-47-1 y col-47-2 evalúan léxico que no aparece en la teoría de la semana."
+  },
+  {
+   "id": "item s4-47-05",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Em mi opinião / A meu ponto de vista",
+   "propuesta": "Reemplazar \"Em mi opinião\" por una variante portuguesa (p. ej. \"Em minha vista\" o \"De meu ver\").",
+   "motivo": "\"Em mi\" es evidentemente español y se descarta por forma, no por regla; lo mismo pasa con \"Delante\" y \"sino también\" en s4-47-11 y 12."
+  },
+  {
+   "id": "item s4-47-04",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Pode ser que Freyre ___ exagerado a harmonia entre as raças.",
+   "propuesta": "Mantener, pero enseñar el perfeito do subjuntivo (tenha + particípio) o usar un verbo simple.",
+   "motivo": "El ítem exige tenha + participio, forma no enseñada en la lección."
+  },
+  {
+   "id": "lesson:1",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "A mi ver, el problema son las cloacas.",
+   "propuesta": "A mi juicio / a mi modo de ver, el problema son las cloacas.",
+   "motivo": "«A mi ver» no es una fórmula natural en español; la traducción literal confunde."
+  },
+  {
+   "id": "lesson:4",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "Es el caso de la Bahía de Guanabara, que todavía recibe cloacas.",
+   "propuesta": "...que todavía recibe aguas cloacales / desagües.",
+   "motivo": "«Recibe cloacas» es poco natural."
+  },
+  {
+   "id": "lesson:0",
+   "lang": "regla",
+   "severidad": "mejora",
+   "actual": "*tudo indica que*, *ao que parece*, *parece que*, con indicativo.",
+   "propuesta": "Agregar la fórmula muy frecuente *ao que tudo indica* y *pelo visto*.",
+   "motivo": "Falta la expresión fija más común del campo; hoy solo aparece tudo indica que."
+  },
+  {
+   "id": "lettura w-47",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Toque nas palavras que atenuam (convém, tudo indica, ainda que, é possível, talvez)",
+   "propuesta": "Etiquetar como «modalizadores y marcadores del texto» o quitar convém y ainda que.",
+   "motivo": "Convém es deóntico y ainda que es concesivo: no «atenúan»; consigna imprecisa."
+  },
+  {
+   "id": "lettura c-cravos",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "Toque nos países que se tornaram independentes (Angola, Moçambique…)",
+   "propuesta": "Limitar la caza al último párrafo o aclararlo en la consigna.",
+   "motivo": "Angola, Guiné-Bissau y Moçambique aparecen también en el 2.º párrafo (guerras), por lo que el alumno puede tocarlos antes."
+  },
+  {
+   "id": "lettura c-cravos",
+   "lang": "es",
+   "severidad": "mejora",
+   "actual": "\"cano\": \"caño\"",
+   "propuesta": "\"cano\": \"cañón (del fusil)\"",
+   "motivo": "En español «caño» es tubo; el contexto pide cañón."
+  },
+  {
+   "id": "compito Tarifa zero",
+   "lang": "ejercicio",
+   "severidad": "mejora",
+   "actual": "punti: [\"acrescentaria\",\"sugiro\",\"proponho\",\"talvez\",\"provavelmente\"]",
+   "propuesta": "Añadir seria, poderia, deveria, é possível que, a meu ver, ainda que, por mais que.",
+   "motivo": "La lista de palabras clave de modalización es estrecha y deja fuera la gramática de la semana (concesión)."
+  }
+ ],
+ "mejoras": [
+  {
+   "prioridad": "alta",
+   "que": "Corregir accept de s4-47-34 (em minha opinião), s4-47-35 (ademais) y s4-47-36 (embora seja), y la afirmación de contracción obligatoria en lesson:1.",
+   "por_que": "Hoy se marca mal a alumnos que responden correctamente y se enseña una regla demasiado rígida."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Subir el nivel real de los ejercicios: añadir transformación e interpretación C1 (reescribir una opinión con modalizador, elegir entre ainda que/embora/por mais que según registro, ordenar un párrafo argumentativo, completar conectores en texto corrido).",
+   "por_que": "La mayoría de los 48 ítems son choice de 3 opciones o cloze de conjugar subjuntivo, propios de B1, no de un C1 de debate público."
+  },
+  {
+   "prioridad": "alta",
+   "que": "Eliminar o variar los ítems casi duplicados (praia suja ×4, árvores ×2, seja ×2, tudo indica ×2, chova ×2).",
+   "por_que": "Reducen la cobertura efectiva: ~10 ítems repiten oraciones y se podría practicar talvez, não se pode negar que, por um lado/outro, antes de tudo y contrapartida."
+  },
+  {
+   "prioridad": "media",
+   "que": "Cubrir con ítems lo enseñado sin práctica: talvez + subjuntivo, provavelmente, inclusive, é o caso de, não se pode negar que, do meu ponto de vista, acredita-se que/nota-se que (registro formal).",
+   "por_que": "Aparecen en la teoría pero no se evalúan; además faltan ítems de producción abierta (el único está en el tramo)."
+  },
+  {
+   "prioridad": "media",
+   "que": "Completar el contenido con conectores de causa/consecuencia y contraste formales (visto que, uma vez que, tendo em vista, porém, contudo, todavia) y con ao que tudo indica / pelo visto.",
+   "por_que": "El foco declara «matizar y sostener una tesis» y los conectores de causa son esenciales para la redação del ENEM."
+  },
+  {
+   "prioridad": "media",
+   "que": "Rellenar suoni (entonación de concesión y matiz, pares como seja/sejam, tenha/tenham, nasales), laboratorio (reglas puente subjuntivo es/pt) y radio/duelos, hoy vacíos.",
+   "por_que": "La semana no trabaja pronunciación ni reglas puente; la entonación de concesiones es rentable."
+  },
+  {
+   "prioridad": "baja",
+   "que": "Alargar o enriquecer la lectura de la semana (154 palabras, vocabulario fácil) y ligar la lectura cultural c-cravos (narrativa histórica, sobre Portugal) a un hilo argumentativo o aclarar por qué está en esta semana.",
+   "por_que": "La lectura es corta para C1 y la de cultura no usa la gramática de la semana."
+  }
+ ],
+ "por_idioma": {
+  "pt": {
+   "errores": 0,
+   "dudas": 1
+  },
+  "es": {
+   "errores": 0,
+   "dudas": 0
+  },
+  "en": {
+   "errores": 0,
+   "dudas": 0
+  }
+ }
+}
