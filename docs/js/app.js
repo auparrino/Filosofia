@@ -722,7 +722,7 @@
   /* The version, so a glance says whether the phone already loaded the
      latest one (it must match VERSION = "agora-vN" in sw.js: test_version
      and the CI check it).  One version for the app and every edition. */
-  var APP_VERSION = "v0.1.0";
+  var APP_VERSION = "v0.2.0";
   // Settimana XVII: Roman numerals on the street signs (LANG.ui.romanWeeks).
   function romano(n) {
     var out = "", v = [[50, "L"], [40, "XL"], [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"]];

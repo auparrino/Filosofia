@@ -1,6 +1,6 @@
 {
   "name": "agora",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Ágora: la historia de la filosofía en 52 semanas, de los presocráticos a hoy, con sus ramas, como curso-juego. En castellano (después, también en italiano, portugués y alemán). Sitio estático sin dependencias.",
   "engines": {

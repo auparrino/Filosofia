@@ -16,7 +16,7 @@
  * apps (La Via C1, con «c1-», en auparrino.github.io/It) y sus cachés no
  * se tocan nunca.
  */
-var VERSION = "agora-v0.1.0";
+var VERSION = "agora-v0.2.0";
 var PREFIX = "agora-";
 var VOCI = "agora-voci";
 importScripts("js/boot.js");
