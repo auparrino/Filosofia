@@ -116,3 +116,18 @@ edición cotejada.
   - *Poética* 13, 1453a29-30.
 - **Datos aproximados:** Castelvetro (1570) y la unidad de lugar, Bernays
   (1857), Leon Golden, el «síndrome de Diógenes» en los años setenta.
+
+## Semanas 11, 12 y 14
+
+- **Saramago, *La caverna*:** los seis cuerpos en el subsuelo y el epígrafe
+  de la *República* están de memoria.
+- **Borges, «El idioma analítico de John Wilkins»:** las categorías de la
+  enciclopedia china están citadas de memoria, y las fechas (1942 y 1952)
+  hay que confirmarlas.
+- **Vlastos:** el artículo sobre el tercer hombre (1954) y el ensayo sobre el
+  amor («en los años setenta», sin año exacto).
+- **Stephanus y Bekker:**
+  - *República* VIII 544c;
+  - *Teeteto* 184c-d;
+  - *Tópicos* VI 1, 139a28-31;
+  - *Metafísica* I 9, 990b1-8, 991a8-11 y 991a20-22.
