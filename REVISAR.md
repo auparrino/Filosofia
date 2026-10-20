@@ -298,3 +298,12 @@ edición cotejada.
   - el *Shifa'*;
   - la muerte de Halevi;
   - la caída de Averroes en 1195.
+
+## Semanas 55 y 68
+
+- **Hegel, parágrafos de la *Fenomenología* (numeración de Miller):** confirmar § 50 (el «esquema sin vida»), § 205 (los chicos que se pelean), § 343 («el ser del espíritu es un hueso»), §§ 451-452 (la familia y el entierro) y § 470.
+- ***Antígona* 926** («porque sufrimos, reconocemos que hemos errado»): el número de verso es aproximado.
+- **Berkeley, *Tres diálogos*:** el espíritu que percibe las cosas cuando yo no las percibo va como «II y III, en resumen»; falta ver en cuál de los dos está.
+- **Berkeley, «percipi o percipere»:** atribuida a los *Comentarios filosóficos* sin número de entrada (probablemente la 429).
+- **El limerick del patio:** va como «atribuido a Ronald Knox; respuesta anónima».
+- **La tesis de Haití** (Buck-Morss) va como hipótesis discutida, no como dato.
