@@ -322,7 +322,7 @@ WEEK = {
         ap(ch(2, "¿Qué muestra el ejemplo?", "Alguien sabe que existe un barco; con cada cosa que aprende que no es (no es un accidente, no es un mineral, no es un animal…) se acerca a saber qué es.", "que las negaciones dan un conocimiento real, aunque no positivo",
               ["que las negaciones dan un conocimiento real, aunque no positivo", "que no se puede saber nada de los barcos", "que hay que afirmar todos los atributos posibles"],
               "*Guía* I 60 (en resumen). Es la respuesta a «si todo es negativo, no sabemos nada».")),
-        ap(ch(2, "¿Qué ataca la objeción?", "«Si "Dios es sabio" solo quiere decir "Dios no es ignorante", entonces "Dios es bueno" no dice nada más que "Dios no es malo", y no sabemos nada de Dios.»", "la tesis de que solo valen los atributos negativos",
+        ap(ch(2, "¿Qué ataca la objeción?", "«Si “Dios es sabio” solo quiere decir “Dios no es ignorante”, entonces “Dios es bueno” no dice nada más que “Dios no es malo”, y no sabemos nada de Dios.»", "la tesis de que solo valen los atributos negativos",
               ["la tesis de que solo valen los atributos negativos", "la existencia de Dios", "la incorporeidad de Dios"],
               "Es la objeción que le hará Tomás (semana 36), que propone la analogía como camino intermedio entre lo unívoco y lo equívoco.")),
         ap(ch(2, "¿Qué premisa implícita?", "Maimónides: «Sabio, dicho de Dios y de un hombre, no tiene ningún significado en común». ¿Qué supone?", "que un término es o unívoco o puramente equívoco, sin término medio",
