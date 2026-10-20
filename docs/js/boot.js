@@ -36,7 +36,7 @@
   var LANGS = {
     // El curso arranca chico: las primeras semanas de la Antigüedad.
     es: { name: "Castellano", flag: "🏛️", brand: "Ágora", storage: "agora-es",
-          blurb: "La historia de la filosofía en 52 semanas, de los presocráticos a hoy, con sus ramas.",
+          blurb: "La historia de la filosofía de los presocráticos a hoy, con todas sus ramas y otras tradiciones, en estaciones de 13 semanas.",
           themeColor: { light: "#efe6d6", dark: "#1a1612" }, bg: "#f4ede1",
           fonts: [],
           missing: LEAN,
@@ -75,7 +75,7 @@
     { core: "reglas.js" }, { core: "unamas.js" },
     { lang: "biblioteca_data.js" }, { core: "biblioteca.js" },
     { lang: "radio_data.js" }, { core: "radio.js" }, { core: "tramo.js" },
-    { lang: "fuera_data.js" }, { core: "fuera.js" }, { core: "trabajo.js" },
+    { lang: "fuera_data.js" }, { core: "fuera.js" }, { core: "trabajo.js" }, { core: "seminario.js" },
     { core: "plan.js" }, { core: "progreso.js" }, { core: "inicio.js" },
     { core: "capas.js" }, { core: "nube.js" }, { core: "teclado.js" },
     { core: "app.js" }

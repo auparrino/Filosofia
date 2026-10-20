@@ -444,10 +444,10 @@
     }
     // 2. the typical errors on the answer itself
     if (opts.length < 3 && Lez) {
-      var tr = Lez.traps(answer, Math.random, week || 52, W0);
+      var tr = Lez.traps(answer, Math.random, week || 999, W0);
       tr.slice(0, 3).forEach(add);
       // Only one mistake possible: the next option carries two.
-      if (opts.length < 2 && tr.length) Lez.traps(tr[0], Math.random, week || 52, W0).slice(0, 2).forEach(add);
+      if (opts.length < 2 && tr.length) Lez.traps(tr[0], Math.random, week || 999, W0).slice(0, 2).forEach(add);
     }
     // 2b. the same word in another shape (never another word that merely
     //     looks like a plural next to the only plural of the right word)
@@ -856,7 +856,7 @@
   }
   function buildBoss(course, week, state, opts) {
     opts = opts || {};
-    var size = opts.size || (week.week === 52 ? 40 : 25);
+    var size = opts.size || (week.week === root.Engine.finalWeek() ? 40 : 25);
     var map = opts.map || itemsById(course);
     var used = bossUsed(state, week.week);
     // Half from the season it closes, a quarter from the one before, the
@@ -912,7 +912,7 @@
     var isW = function (it) { return !!BOSS_WRITTEN[it.type] && !it.options; };
     var split = function (pool) { return { w: pool.filter(isW), c: pool.filter(function (it) { return !isW(it); }) }; };
     var P = { own: split(pools.own), prev: split(pools.prev), old: split(pools.old) };
-    var nProd = week.week === 52 ? 15 : 12, nStr = Math.max(4, nBook - nProd);
+    var nProd = week.week === root.Engine.finalWeek() ? 15 : 12, nStr = Math.max(4, nBook - nProd);
     var pick = function (kind, n) {
       var got = byWeek(P.own[kind], Math.round(n * 0.5)).concat(byWeek(P.prev[kind], Math.round(n * 0.25)), byWeek(P.old[kind], n));
       var seen = {};
@@ -1167,7 +1167,7 @@
      semana, así las frases llegan cuando la gramática que usan ya se vio
      (las opiniones con subjuntivo después de su semana, no el primer día).
      La semana la trae la escena misma (scene.week); si no la trae, la tabla
-     del idioma (LANG.rules.sceneWeek) o la 52. */
+     del idioma (LANG.rules.sceneWeek) o la última. */
   var SCENE_WEEK = R.sceneWeek || {};
   var sceneById = null;
   function sceneWeek(id) {
@@ -1176,7 +1176,7 @@
       Frasi.SCENES.forEach(function (s) { sceneById[s.id] = s; });
     }
     var sc = sceneById && sceneById[id];
-    return (sc && +sc.week) || SCENE_WEEK[id] || 52;
+    return (sc && +sc.week) || SCENE_WEEK[id] || root.Engine.weeks();
   }
   function scenesOfWeek(week) {
     if (!Frasi) return [];
@@ -1188,7 +1188,7 @@
      nunca una de una semana futura. */
   function nextScene(state) {
     if (!Frasi) return null;
-    var unlocked = Math.min((state && state.unlocked) || 1, 52);
+    var unlocked = Math.min((state && state.unlocked) || 1, root.Engine.weeks());
     var cards = (state && state.cards) || {};
     var ordered = Frasi.SCENES.slice().sort(function (a, b) { return sceneWeek(a.id) - sceneWeek(b.id); });
     var reached = ordered.filter(function (s) { return sceneWeek(s.id) <= unlocked; });

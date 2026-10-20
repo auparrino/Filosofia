@@ -42,7 +42,7 @@
   var state = Engine.load();
   // Devoluciones: the names of tenses follow the week the learner is in.
   var DV = window.Devolucion || null;
-  if (DV) DV.weekFrom(function () { return Math.min(state.unlocked || 1, 52); });
+  if (DV) DV.weekFrom(function () { return Math.min(state.unlocked || 1, NW()); });
 
   /* Tema: "" sigue al teléfono; "light" u "dark" lo fuerzan.  Se aplica antes
      de dibujar nada, así no hay parpadeo. */
@@ -476,7 +476,7 @@
   /* The phrase of the day; a package without phrases yet: a word of the
      weeks already open (the same one all day), with its example. */
   function phraseOfTheDay() {
-    var f = Frasi.ofTheDay(new Date(), Math.min(state.unlocked || 1, 52));
+    var f = Frasi.ofTheDay(new Date(), Math.min(state.unlocked || 1, NW()));
     if (f) return f;
     var pool = [];
     course.weeks.slice(0, Math.min(state.unlocked || 1, course.weeks.length)).forEach(function (w) { (w.vocab || []).forEach(function (v) { pool.push(v); }); });
@@ -496,7 +496,7 @@
     var weekend = Engine.goalFor(state) < (Engine.goalValue ? Engine.goalValue(state.goal) : state.goal || 200);
     var strands = Engine.strandsLast(state, 7);
     var dailyDone = state.dailyDone === Engine.dayKey();
-    var w = course.weeks[Math.min(state.unlocked, 52) - 1];
+    var w = course.weeks[Math.min(state.unlocked, NW()) - 1];
     var f = phraseOfTheDay();
     var fText = f[LG.code] || f.it;
     var known = Frasi.ALL.filter(function (x) { return state.cards[x.id]; }).length;
@@ -721,7 +721,7 @@
      chance of recall, no backlog shown, the rest redistributes itself. */
   function ritornoItems() {
     var items = Drills.buildColdest ? Drills.buildColdest(course, state, 10, drillOpts()) : Drills.buildReview(course, state, 10, drillOpts());
-    if (items.length < 6) items = items.concat(Drills.buildRound(course, course.weeks[Math.min(state.unlocked, 52) - 1], { map: itemMap, state: state, silent: state.silent, size: 8 - items.length }));
+    if (items.length < 6) items = items.concat(Drills.buildRound(course, course.weeks[Math.min(state.unlocked, NW()) - 1], { map: itemMap, state: state, silent: state.silent, size: 8 - items.length }));
     return items;
   }
 
@@ -731,7 +731,7 @@
   function dosItems() {
     var items = Drills.buildReview(course, state, 6, drillOpts());
     if (items.length < 6) {
-      var w = course.weeks[Math.min(state.unlocked, 52) - 1];
+      var w = course.weeks[Math.min(state.unlocked, NW()) - 1];
       items = items.concat(Drills.buildRound(course, w, { map: itemMap, state: state, silent: state.silent, size: 6 - items.length, only: partItems(w) }));
     }
     return items.slice(0, 6);
@@ -756,7 +756,7 @@
     K.frame(g, W, H);
     g.fillStyle = K.head.color || K.text; g.textAlign = "center";
     g.font = "bold 22px Georgia, serif";
-    g.fillText((LG.brand + " · " + UI.week).toUpperCase() + " " + weekNum(Math.min(state.unlocked, 52)), W / 2, K.head.y);
+    g.fillText((LG.brand + " · " + UI.week).toUpperCase() + " " + weekNum(Math.min(state.unlocked, NW())), W / 2, K.head.y);
     g.fillStyle = K.text;
     g.font = K.rank.font; g.fillText(Engine.rankFor(Engine.levelFor(state.xp).level).toUpperCase(), W / 2, K.rank.y);
     var sg = Engine.subGoals(state), cov = window.Freq && Freq.loaded() ? Freq.coverage(knownWords()).fundamental[0] : null;
@@ -873,7 +873,7 @@
      arriba —las escenas, el oído, el duelo que se abre, la escritura
      guiada—, la entrada a «Consultar» y el resto plegado por secciones. */
   function renderFrasi() {
-    var week = Math.min(state.unlocked || 1, 52), C = window.Capas;
+    var week = Math.min(state.unlocked || 1, NW()), C = window.Capas;
     var fold = C ? C.fold : function (k, t, m, body) { return "<h2>" + t + "</h2>" + body; };
     var noH2 = function (h) { return String(h || "").replace(/^\s*<h2>[\s\S]*?<\/h2>/, ""); };
     var html = '<button class="btn ghost" id="toio">← ' + UI.me + "</button>" + "<h1>" + UI.train + "</h1>" +
@@ -1015,7 +1015,7 @@
      Escuchas, Biblioteca y la velocidad de lectura, cada lista por estación
      con la actual abierta. */
   function renderLeggi() {
-    var done = state.letture || {}, week = Math.min(state.unlocked || 1, 52), C = window.Capas;
+    var done = state.letture || {}, week = Math.min(state.unlocked || 1, NW()), C = window.Capas;
     var fold = C ? C.fold : function (k, t, m, body) { return "<h2>" + t + "</h2>" + body; };
     var sNames = (course.seasons || []).map(function (s) { return s.name; });
     var bySeason = function (key, list) {
@@ -1256,7 +1256,7 @@
   function glossify(it, raw) {
     raw = String(raw || "");
     if (!glossable(it)) return esc(raw);
-    var week = Math.min(state.unlocked || 1, 52);
+    var week = Math.min(state.unlocked || 1, NW());
     return raw.split(/([A-Za-zÀ-ÿ]+)/).map(function (t, k) {
       if (k % 2 === 0) return esc(t);
       var g = glossario[t.toLowerCase()];
@@ -1272,7 +1272,7 @@
   function glossifyAny(raw) {
     raw = String(raw || "");
     if (!glossario) return esc(raw);
-    var week = Math.min(state.unlocked || 1, 52);
+    var week = Math.min(state.unlocked || 1, NW());
     return raw.split(/([A-Za-zÀ-ÿ]+)/).map(function (t, k) {
       if (k % 2 === 0) return esc(t);
       var g = glossario[t.toLowerCase()];
@@ -1360,7 +1360,7 @@
         // reordena, quede después de la desbloqueada.
         var open = w.week <= state.unlocked || !!state.weekStats[w.week] || lessonRead(w.week);
         var stars = weekStars(w);
-        var current = w.week === Math.min(state.unlocked, 52) && stars < 3;
+        var current = w.week === Math.min(state.unlocked, NW()) && stars < 3;
         var x = Math.round(Math.sin(k * 0.9) * 32);
         html += '<div class="node' + (w.boss ? " boss" : "") + (open ? "" : " locked") +
             (current ? " current" : "") + (stars === 3 ? " full" : "") + '" style="--x:' + x + '%">' +
@@ -1854,7 +1854,7 @@
       var weak = Drills.weakItems(course, w, state, itemMap).length;
       m({ kind: "debil", done: !!(state.weakDone || {})[w.week], ico: "🩹", opt: true, title: "Tus puntos débiles",
           sub: weak ? "Opcional · " + weak + " ejercicios de la estación que fallaste o casi no viste" : "Opcional · no fallaste nada todavía: repaso al azar" });
-      if (w.week === 52 && window.EsameData) m({ kind: "play", done: st.bossPassed, ico: "🎓", title: UI.examC1,
+      if (w.week === FINAL() && window.EsameData) m({ kind: "play", done: st.bossPassed, ico: "🎓", title: UI.examC1,
           sub: EX.missionSub, cls: "boss" });
       else m({ kind: "play", done: st.bossPassed, ico: "⚔️", title: "Vencé al " + UI.boss,
           sub: "Un examen por destreza: una lectura, una escucha, producción escrita y estructuras. 85 % en total y 55 % en cada una. " +
@@ -1925,6 +1925,7 @@
     if (window.Tramo) Tramo.missions(w, state).forEach(m);   // tramo C1 (tramo.js): escucha larga y tarea
     if (window.Radio) Radio.missions(w, state).forEach(m);   // la serie Radio de las semanas 6-25 (radio.js)
     if (window.Fuera) Fuera.missions(w, state).forEach(m);   // fuera de la app, opcional (fuera.js)
+    if (window.Seminario) Seminario.missions(w, state).forEach(m);   // el seminario y los dilemas de la semana (seminario.js)
     if (window.Trabajo) Trabajo.missions(w, state).forEach(m);   // la escena de trabajo de la semana, opcional (trabajo.js)
     if (window.Lab) {
       Lab.RULES.forEach(function (r, k) {
@@ -2043,8 +2044,10 @@
     return weekPlan(w).filter(function (x) { return !x.done && (x.kind !== "play2" || w.week >= DOMINA_GATE) && !x.opt; })
       .map(function (x) { return x.title + (x.half ? " (a medias)" : ""); });
   }
-  // The weeks of the course (52; a package that is just starting, fewer).
-  function NW() { return course && course.weeks && course.weeks.length || 52; }
+  // The weeks of the course (the ones written so far; Engine.weeks()), and
+  // the week of the final exam (Engine.finalWeek(): the last of the syllabus).
+  function NW() { return course && course.weeks && course.weeks.length || Engine.weeks(); }
+  function FINAL() { return Engine.finalWeek(); }
   function tryAdvance(week) {
     var w = course.weeks[week - 1];
     if (!w || w.boss || week < state.unlocked || week >= NW()) return false;
@@ -2058,7 +2061,7 @@
     if (kind === "lez") startLezione(arg != null ? +arg : undefined);
     else if (kind === "vocab") startRound("vocab");
     else if (kind === "play") {
-      if (w.week === 52 && window.EsameData) { view.screen = "esame"; render(); window.scrollTo(0, 0); }
+      if (w.week === FINAL() && window.EsameData) { view.screen = "esame"; render(); window.scrollTo(0, 0); }
       else startRound(w.boss ? "boss" : "round");
     }
     else if (kind === "play2") startRound("domina");
@@ -2076,6 +2079,7 @@
     else if (window.Tramo && Tramo.handles(kind)) Tramo.go(kind, arg);
     else if (window.Capas && Capas.handles(kind)) Capas.go(kind, arg);
     else if (window.Fuera && Fuera.handles(kind)) Fuera.go(kind, arg);
+    else if (window.Seminario && Seminario.handles(kind)) Seminario.go(kind, arg);
     else if (window.Trabajo && Trabajo.handles(kind)) Trabajo.go(kind, arg);
   }
 
@@ -2187,15 +2191,16 @@
 
     return '<button class="btn ghost" id="back">← ' + UI.pathAl + "</button>" +
       plate(UI.week + " " + weekNum(w.week) + " · " + esc(w.level), esc(w.title), true) +
-      '<p class="lead">' + esc(w.focus) + '</p>' +
-      (w.fare ? '<p class="fare">🎯 Al final de la semana: <b>' + esc(w.fare) + '</b>' +
+      '<p class="lead">' + mk(w.focus) + '</p>' +
+      (w.fare ? '<p class="fare">🎯 Al final de la semana: <b>' + mk(w.fare) + '</b>' +
         (w.tema ? ' <span class="muted">· ' + esc(w.tema) + '</span>' : '') + '</p>' : '') +
       vocabCard(w) +
       missions(w, st, nChal) +
+      (window.Seminario ? Seminario.litCard(w) : "") +      // la literatura de la semana (seminario.js)
       weekExtrasHtml(w) +
       '<div class="card"><h2>Lo que se juega esta semana</h2>' +
         '<ul class="keys">' +
-          w.keys.map(function (k) { return "<li>" + esc(k) + "</li>"; }).join("") +
+          w.keys.map(function (k) { return "<li>" + mk(k) + "</li>"; }).join("") +
         '</ul>' +
         (refs.length ? '<h3>Lectura de apoyo</h3><p class="refs">' + refs.join(" · ") + "</p>" : "") +
       '</div>';
@@ -2253,7 +2258,7 @@
     var w = course.weeks[view.week - 1];
     var items;
     if (kind === "giorno") {
-      w = course.weeks[Math.min(state.unlocked, 52) - 1];
+      w = course.weeks[Math.min(state.unlocked, NW()) - 1];
       view.week = w.week;
       // six written questions of the rules that are due (reglas.js)
       items = window.Reglas ? Reglas.dailyItems(state, 6) : [];
@@ -2272,12 +2277,12 @@
       items = Frasi.sceneSession(arg, state.cards, drillOpts());
     }
     else if (kind === "pausa") {
-      w = course.weeks[Math.min(state.unlocked, 52) - 1];
+      w = course.weeks[Math.min(state.unlocked, NW()) - 1];
       view.week = w.week;
       // Grammar only from lessons already read: before lesson 1 the
       // coffee break is phrases and words, never a conjugation table.
       var taught = null;
-      for (var tw = Math.min(state.unlocked, 52); tw >= 1; tw--) {
+      for (var tw = Math.min(state.unlocked, NW()); tw >= 1; tw--) {
         if (lessonRead(tw)) { taught = course.weeks[tw - 1]; break; }
       }
       items = Drills.buildPausa(course, state, taught, drillOpts());
@@ -2315,7 +2320,7 @@
     }
     // From the week's mission: that week's pairs (the ones its counter
     // counts); from Allena / Treino: everything up to where the learner got.
-    else if (kind === "suoni") items = Suoni.session(state, arg || Math.min(state.unlocked, 52), { silent: state.silent });
+    else if (kind === "suoni") items = Suoni.session(state, arg || Math.min(state.unlocked, NW()), { silent: state.silent });
     else if (kind === "ritorno") items = ritornoItems();
     else if (kind === "dos") items = dosItems();
     else if (kind === "esame") {
@@ -3867,7 +3872,7 @@
     if (round.kind === "debil") { if (!state.weakDone) state.weakDone = {}; state.weakDone[view.week] = true; }
     // Suoni is done with 70 % (six answers at least), not just with six answers.
     if (round.kind === "suoni" && total >= 6) {
-      var sw = round.arg || Math.min(state.unlocked, 52);
+      var sw = round.arg || Math.min(state.unlocked, NW());
       if (!state.suoniPct) state.suoniPct = {};
       state.suoniPct[sw] = Math.max(state.suoniPct[sw] || 0, pct);
       if (pct >= 70) { if (!state.suoniDone) state.suoniDone = {}; state.suoniDone[sw] = Date.now(); }
@@ -4057,7 +4062,7 @@
     }
     if (round.kind === "boss") {
       html += r.passed
-        ? '<p style="margin-top:14px">Semana ' + Math.min(52, view.week + 1) +
+        ? '<p style="margin-top:14px">Semana ' + Math.min(NW(), view.week + 1) +
           " desbloqueada. +" + Engine.XP.boss + " xp</p>"
         : '<p style="margin-top:14px">Hace falta <b>85%</b> de aciertos y 55 % en cada destreza. ' +
           "Repasá el briefing y volvé a intentarlo: si es hoy, con otras preguntas y otros textos.</p>";
@@ -4289,6 +4294,7 @@
           nextRank[0] : "") + "</div></div>" +
       (window.Progreso ? Progreso.summaryCard() : "") +
       allMaterialCard() +
+      (window.Seminario ? '<button class="lab" id="iopos"><span class="e">🤔</span><b>Tus posiciones</b><span class="muted">Lo que elegiste en cada dilema, para mirar si sos consistente.</span></button>' : "") +
       switchCard() +
 
       '<div class="card"><h2>Ajustes</h2>' +
@@ -4301,7 +4307,7 @@
             return '<option value="' + d + '"' + (R.days === d ? " selected" : "") + ">" + d + " días</option>";
           }).join("") + "</select></label>" +
         '<div class="set metafecha"><span>Meta con fecha<small>«llegar a la semana N para el día D»: te digo el ritmo que pide</small></span>' +
-          '<span class="row"><label class="mini">semana <input type="number" id="meta-week" min="2" max="52" inputmode="numeric" value="' + (R.week || "") + '" placeholder="' + Math.min(52, (state.unlocked || 1) + 12) + '"></label>' +
+          '<span class="row"><label class="mini">semana <input type="number" id="meta-week" min="2" max="' + NW() + '" inputmode="numeric" value="' + (R.week || "") + '" placeholder="' + Math.min(52, (state.unlocked || 1) + 12) + '"></label>' +
           '<input type="date" id="meta-date" aria-label="Fecha de la meta" value="' + esc(R.date ? isoDate(R.date) : "") + '">' +
           '<button class="tab" id="meta-save">Guardar</button>' + (R.week ? '<button class="tab" id="meta-clear">Borrar</button>' : "") + "</span></div>" +
         (R.week && window.Progreso ? '<p class="muted small">' + Progreso.targetText(Progreso.target(state)) + "</p>" : "") +
@@ -4417,7 +4423,7 @@
   // The frequent words up to the learner's level that the bank can teach.
   function freqGaps(n) {
     if (!window.Freq || !Freq.loaded() || !Banca.loaded()) return [];
-    var lvl = state.unlocked <= 13 ? "A1" : state.unlocked <= 26 ? "A2" : state.unlocked <= 39 ? "B1" : "B2";
+    var lvl = "Nivel " + Engine.seasonOf(state.unlocked || 1);
     return Freq.nextWords(knownWords(), lvl, 400).filter(Banca.hasWord).slice(0, n || 10);
   }
   function lessicoCard() {
@@ -4813,7 +4819,7 @@
   }
   function applyEra(s) {
     var weekly = /^(briefing|teoria|sfide|lezione)$/.test(s) && view.week;
-    var era = String(ERA_FIXED || eraOf(weekly ? view.week : Math.min(state.unlocked || 1, 52)));
+    var era = String(ERA_FIXED || eraOf(weekly ? view.week : Math.min(state.unlocked || 1, NW())));
     if (document.documentElement.getAttribute("data-era") === era) return;
     document.documentElement.setAttribute("data-era", era);
     try { localStorage.setItem((window.Boot && Boot.ERA) || "agora.era", era); } catch (e) { /* sin almacenamiento */ }
@@ -4856,6 +4862,7 @@
     else if (window.Progreso && Progreso.owns(s)) html = Progreso.render(s);    // tu progreso (progreso.js)
     else if (window.Capas && Capas.owns(s)) html = Capas.render(s);   // «Consultar» (js/capas.js)
     else if (window.Fuera && Fuera.owns(s)) html = Fuera.render(s);   // fuera de la app (fuera.js)
+    else if (window.Seminario && Seminario.owns(s)) html = Seminario.render(s);   // el seminario y los dilemas (seminario.js)
     else if (window.Trabajo && Trabajo.owns(s)) html = Trabajo.render(s);   // para el trabajo (trabajo.js)
 
     var gb = $("#glossbox");
@@ -4885,10 +4892,10 @@
     Ubicacion.start({ course: course, state: state, render: render, done: function (applied, next) {
       persist();
       renderHeader();
-      if (typeof then === "function") { view.week = Math.min(state.unlocked, 52); then(applied); return; }
+      if (typeof then === "function") { view.week = Math.min(state.unlocked, NW()); then(applied); return; }
       // the mini diagnosis of interference, right after the test
-      if (applied && next === "diag") { view.week = Math.min(state.unlocked, 52); view.tab = "oggi"; startRound("diag"); if (view.screen === "gioco") return; }
-      if (applied) { view.week = Math.min(state.unlocked, 52); toast("🔓 Semanas 1 a " + (state.unlocked - 1) + " abiertas. Arrancás en la " + state.unlocked + "."); }
+      if (applied && next === "diag") { view.week = Math.min(state.unlocked, NW()); view.tab = "oggi"; startRound("diag"); if (view.screen === "gioco") return; }
+      if (applied) { view.week = Math.min(state.unlocked, NW()); toast("🔓 Semanas 1 a " + (state.unlocked - 1) + " abiertas. Arrancás en la " + state.unlocked + "."); }
       go(applied ? "percorso" : from);
     } });
     view.screen = "ubicacion";
@@ -5034,7 +5041,7 @@
       b.onclick = function () { goMission(b.dataset.m, b.dataset.arg); };
     });
     on("#heronext", function () {
-      var w = course.weeks[Math.min(state.unlocked, 52) - 1];
+      var w = course.weeks[Math.min(state.unlocked, NW()) - 1];
       var nm = nextMission(w);
       if (!nm) return;
       view.week = w.week; view.tab = "percorso";
@@ -5054,6 +5061,7 @@
     if (window.Progreso) Progreso.wire(view.screen);
     if (window.Capas) Capas.wire(view.screen);
     if (window.Fuera) Fuera.wire(view.screen);
+    if (window.Seminario) Seminario.wire(view.screen);
     if (window.Trabajo) Trabajo.wire(view.screen);
     on("#lesback", function () { view.screen = "briefing"; render(); });
     on("#lesplay", function () {
@@ -5109,7 +5117,7 @@
     on("#lquiz", function () {
       var ep = Letture.byId(view.ep);
       if (ep && readClock && readClock.id === ep.id && Letture.speedNote) {
-        Letture.speedNote(state, ep, readElapsed(), { kar: readClock.kar, week: Math.min(state.unlocked || 1, 52) });
+        Letture.speedNote(state, ep, readElapsed(), { kar: readClock.kar, week: Math.min(state.unlocked || 1, NW()) });
         persist();
       }
       readClock = null;
@@ -5926,7 +5934,7 @@
     var E = esStore();
     if (ver && esameVersions().indexOf(ver) >= 0) esameAttempt(ver);
     else if (esVerResult(E.v[E.ver])) esameAttempt(esameNext());
-    view.week = 52; view.tab = "percorso"; view.screen = "esame";
+    view.week = FINAL(); view.tab = "percorso"; view.screen = "esame";
     render(); window.scrollTo(0, 0);
   }
 
@@ -5942,7 +5950,7 @@
   }
 
   function renderEsame() {
-    var E = esStore(), vid = E.ver, rec = esRec(vid, E), r = rec.p, res = esVerResult(rec), st = weekStat(52);
+    var E = esStore(), vid = E.ver, rec = esRec(vid, E), r = rec.p, res = esVerResult(rec), st = weekStat(FINAL());
     if (res) esCloseAttempt(vid, E);
     var overall = esameResult(), maint = state.phase === "mantenimiento" || !!(overall && overall.passed);
     var html = '<button class="btn ghost" id="eback">← a la semana</button>' +
@@ -6004,7 +6012,7 @@
       });
       on("#enext", function () { esameAttempt($("#enext").dataset.ver); toast("📄 Nueva " + esVerLabel(esCurVer()), 2500); render(); window.scrollTo(0, 0); });
       on("#econsegna", function () {
-        var ws = state.weekStats[52] || (state.weekStats[52] = { attempts: 0, right: 0, bossPassed: false });
+        var ws = state.weekStats[FINAL()] || (state.weekStats[FINAL()] = { attempts: 0, right: 0, bossPassed: false });
         ws.bossPassed = true;
         gain(Engine.XP.boss);
         var won = Engine.checkBadges(state);
@@ -7014,6 +7022,7 @@
   }
 
   function wireIo() {
+    on("#iopos", function () { if (window.Seminario) Seminario.openPositions("io"); });
     if (view.screen !== "io") return;
     on("#aisave", function () {
       var k = saveKeys();
@@ -7052,7 +7061,7 @@
     if (rdays) rdays.onchange = setR;
     on("#meta-save", function () {
       var wk = Math.round(+$("#meta-week").value), d = $("#meta-date").value;
-      if (!(wk >= 2 && wk <= 52) || !/^\d{4}-\d{2}-\d{2}$/.test(d)) { toast("Elegí una semana (2 a 52) y una fecha."); return; }
+      if (!(wk >= 2 && wk <= NW()) || !/^\d{4}-\d{2}-\d{2}$/.test(d)) { toast("Elegí una semana (2 a " + NW() + ") y una fecha."); return; }
       var p = d.split("-");
       Progreso.setRitmo(state, { week: wk, date: +p[0] + "-" + (+p[1]) + "-" + (+p[2]) });
       persist();
@@ -7303,6 +7312,8 @@
       },
       // open a mission as its button does
       mission: function (kind, arg, week) { view.week = week; view.tab = "percorso"; goMission(kind, arg); },
+      // the screen of a week (the smoke test: the literature, the missions)
+      briefing: function (week) { view.week = week; view.tab = "percorso"; view.screen = "briefing"; render(); },
       /* Answer the current question right (or with `verdict`), as a learner
          who knows it: through settle, the same bookkeeping as a real answer;
          a card, a word or an intro goes on, an answered one goes on. */
@@ -7390,7 +7401,7 @@
   if (window.Inicio) Inicio.attach({
     state: function () { return state; }, persist: persist, render: render, go: go, esc: esc, toast: toast,
     ui: function () { return UI; }, lg: function () { return LG; }, course: function () { return course; },
-    week: function () { return course.weeks[Math.min(state.unlocked, 52) - 1]; },
+    week: function () { return course.weeks[Math.min(state.unlocked, NW()) - 1]; },
     nextMission: nextMission, missions: weekPlan,
     missionDone: function (kind, arg, wk) {
       var w = course.weeks[wk - 1];
@@ -7412,7 +7423,7 @@
       return { reads: Letture.ofSeries("lunga").map(function (ep) { return { id: ep.id, title: ep.title, words: Letture.allTokens(ep).length }; }),
                asc: asc, scr: scr, lastTask: scrAt, lastSim: state.simAt || state.phaseAt || 0 };
     },
-    startRound: function (kind, arg) { view.week = Math.min(state.unlocked, 52); startRound(kind, arg); roundFromHoy(); },
+    startRound: function (kind, arg) { view.week = Math.min(state.unlocked, NW()); startRound(kind, arg); roundFromHoy(); },
     startMission: function (kind, arg, wk) {
       view.week = wk;
       if (kind === "ep") { view.ep = arg; view.epFrom = "hoy"; view.tab = "oggi"; showScreen("lettura"); return; }
@@ -7454,6 +7465,14 @@
       if (window.Errores && Errores.recordFindings(state, findings, text, {}).length) persist();
     },
     show: showScreen,
+    toWeek: function () { view.tab = "percorso"; view.screen = "briefing"; render(); window.scrollTo(0, 0); }
+  });
+
+  // El seminario, los dilemas y la literatura (seminario.js): lo semanal del formato.
+  if (window.Seminario) Seminario.attach({
+    state: function () { return state; }, persist: persist, render: render, go: go, toast: toast, mk: mk,
+    course: function () { return course; }, aiKeys: aiKeys, show: showScreen,
+    gain: function (n, strand) { gain(n); if (strand && n) Engine.addStrand(state, strand, n); renderHeader(); },
     toWeek: function () { view.tab = "percorso"; view.screen = "briefing"; render(); window.scrollTo(0, 0); }
   });
 
@@ -7537,11 +7556,14 @@
     .then(function (data) { return bankP.then(function () { return data; }); })
     .then(function (data) {
       course = data;
+      // the length of the course: the weeks written, the final exam (engine.js)
+      Engine.setCourse(course);
+      if (state.unlocked > NW()) state.unlocked = NW();
       try {
         if (window.Mapas) Mapas.install(course);
         itemMap = Drills.itemsById(course);
         registerStories();
-        view.week = Math.min(state.unlocked, 52);
+        view.week = Math.min(state.unlocked, NW());
         if (Engine.checkStreak(state).status === "lost") persist();
         // A new learner: the three screens after the language picker (inicio.js).
         if (window.Inicio && Inicio.boot(view)) { renderHeader(); render(); loadExtrasSoon(); return; }

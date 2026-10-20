@@ -99,6 +99,58 @@ function chromiumPath() {
   const n = await play(30);
   note("ronda de la semana 1: " + n + " respuestas");
   if (n < 5) errors.push("la ronda de la semana 1 respondió solo " + n);
+  // the seminar of week 1: the text in sections, the map, the writing (seminario.js)
+  const plan1 = await page.evaluate(() => window.__test.plan(1));
+  if (!plan1.some(m => m.kind === "sem")) errors.push("la semana 1 no tiene la misión del seminario");
+  if (!plan1.some(m => m.kind === "dil")) errors.push("la semana 1 no tiene el dilema");
+  await page.evaluate(() => window.__test.mission("sem", "1", 1));
+  await page.waitForTimeout(500);
+  if ((await page.evaluate(() => window.__test.screen())) !== "seminario") errors.push("la misión no abrió el seminario");
+  await snap("seminario-texto", true);
+  let tramos = 0;
+  for (let i = 0; i < 8; i++) {
+    const chk = await page.$("[data-semchk]:not([disabled])");
+    if (chk) { await chk.click(); await page.waitForTimeout(250); }
+    if (await page.$("#semnext")) { await page.click("#semnext"); tramos++; await page.waitForTimeout(250); continue; }
+    if (await page.$("#semtomap")) { await page.click("#semtomap"); tramos++; await page.waitForTimeout(300); break; }
+  }
+  note("seminario: " + tramos + " tramos leídos");
+  const prem = await page.$$("[data-semp]");
+  for (let k = 0; k < prem.length; k++) { await page.click("[data-semp]:not(.on) >> nth=0"); await page.waitForTimeout(120); }
+  await page.click("#semreveal").catch(() => errors.push("no se pudo ver el mapa del argumento"));
+  await page.waitForTimeout(300);
+  await snap("seminario-mapa", true);
+  if (!(await page.$(".sem-map"))) errors.push("el mapa del argumento no aparece");
+  await page.click("#semtowrite");
+  await page.waitForTimeout(300);
+  await page.fill("#semtext", ("Saber que no sé es mejor, porque me deja aprender y revisar lo que creo. " ).repeat(14));
+  await page.dispatchEvent("#semtext", "blur");
+  const nrub = (await page.$$("[data-semrub]")).length;
+  for (let k = 0; k < nrub; k++) { await page.check('[data-semrub="' + k + '"]'); await page.waitForTimeout(150); }
+  await page.waitForTimeout(400);
+  if (await page.$("#semsoc")) await page.click("#semsoc");          // the tutor without AI: the questions of the course
+  await page.waitForTimeout(300);
+  await snap("seminario-escrito", true);
+  const semOk = await page.evaluate(() => { const r = (window.__test.state().sem || {})[1]; return !!(r && r.done); });
+  if (!semOk) errors.push("el seminario de la semana 1 no quedó hecho");
+  note("seminario hecho: " + semOk);
+  // the dilemma, and «Tus posiciones»
+  await page.evaluate(() => window.__test.mission("dil", "1:0", 1));
+  await page.waitForTimeout(400);
+  await page.click("[data-dilc] >> nth=0").catch(() => errors.push("el dilema no ofrece posiciones"));
+  await page.waitForTimeout(300);
+  if (await page.$("[data-dilkeep]")) await page.click("[data-dilkeep] >> nth=0");
+  await page.waitForTimeout(300);
+  await snap("dilema", true);
+  if (!(await page.$(".dil-mine"))) errors.push("el dilema no muestra la posición elegida");
+  // the literature of the week, in the week screen
+  await page.evaluate(() => window.__test.briefing(1));
+  await page.waitForTimeout(300);
+  await snap("semana-1", true);
+  const lit = await page.$$eval(".lit li", (li) => li.length).catch(() => 0);
+  note("literatura de la semana 1: " + lit + " obras");
+  if (!lit) errors.push("la semana 1 no muestra su literatura");
+
   // the pause and the review
   await page.evaluate(() => window.__test.start("pausa"));
   await page.waitForTimeout(500);
@@ -131,7 +183,7 @@ function chromiumPath() {
   if (cacheNames.some(k => !/^agora-/.test(k))) errors.push("cachés fuera de «agora-»: " + cacheNames.join(", "));
   // every era paints its own colors
   const bgs = [];
-  for (let e = 1; e <= 6; e++) {
+  for (let e = 1; e <= 8; e++) {
     await page.goto(base + "?test&era=" + e, { waitUntil: "networkidle" });
     await page.waitForFunction(() => window.__test && window.__test.state, null, { timeout: 15000 });
     await page.waitForTimeout(300);
@@ -141,7 +193,7 @@ function chromiumPath() {
     await snap("epoca-" + e);
   }
   note("fondos por época: " + bgs.join(" · "));
-  if (new Set(bgs).size !== 6) errors.push("las seis épocas no tienen seis fondos distintos: " + bgs.join(" · "));
+  if (new Set(bgs).size !== 8) errors.push("las ocho épocas no tienen ocho fondos distintos: " + bgs.join(" · "));
   // the progress stays after a reload
   const xp = await page.evaluate(() => window.__test.state().xp);
   await page.goto(base + "?test", { waitUntil: "networkidle" });

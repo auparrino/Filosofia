@@ -43,7 +43,7 @@
   function mk(s) { return esc(s).replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>").replace(/\*([^*]+)\*/g, '<i class="it">$1</i>'); }
   function UI() { return (root.LANG && root.LANG.ui) || {}; }
   function st() { return H && H.state ? H.state() : { unlocked: 1, cards: {} }; }
-  function curWeek(s) { return Math.min(Math.max((s || st()).unlocked || 1, 1), 52); }
+  function curWeek(s) { return Math.min(Math.max((s || st()).unlocked || 1, 1), root.Engine.weeks()); }
   function seasonOf(w) { return Math.min(4, Math.max(1, Math.ceil((+w || 1) / SEASON))); }
 
   /* ======================================================== las misiones */
@@ -142,7 +142,7 @@
     return '<svg class="speed-curve" viewBox="0 0 ' + W + " " + Hh + '" role="img" aria-label="Palabras por minuto a lo largo del año">' +
       '<line class="ax" x1="' + pad + '" y1="' + (Hh - 16) + '" x2="' + (W - 8) + '" y2="' + (Hh - 16) + '"/>' +
       '<text x="' + pad + '" y="' + (Hh - 3) + '">1</text><text x="' + x(26) + '" y="' + (Hh - 3) + '" text-anchor="middle">26</text>' +
-      '<text x="' + (W - 8) + '" y="' + (Hh - 3) + '" text-anchor="end">52</text>' +
+      '<text x="' + (W - 8) + '" y="' + (Hh - 3) + '" text-anchor="end">' + root.Engine.weeks() + '</text>' +
       '<text x="2" y="' + (y(max) + 4) + '">' + max + "</text>" +
       '<path d="' + path + '"/>' + dots + "</svg>";
   }

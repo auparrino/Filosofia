@@ -270,7 +270,7 @@
     var I = index(course);
     if (!I.N) return null;
     var P = DATA(), MIN = P.minScore || 6;
-    var unlocked = Math.max(1, Math.min(52, ctx.unlocked || 52));
+    var unlocked = Math.max(1, Math.min(999, ctx.unlocked || 999));
     var q = query(it), meta = metaOf(it), r;
 
     // 1. An exercise of the course: its week, its part (the patterns of
@@ -478,7 +478,7 @@
 
   function ctxNow() {
     var st = H.state ? H.state() : {};
-    return { course: H.course ? H.course() : null, week: H.week ? H.week() : null, unlocked: (st && st.unlocked) || 52 };
+    return { course: H.course ? H.course() : null, week: H.week ? H.week() : null, unlocked: (st && st.unlocked) || 999 };
   }
 
   /* After the answer: the «¿Por qué?» button in the feedback and, now and

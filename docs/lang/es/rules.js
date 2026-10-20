@@ -60,11 +60,11 @@
       a2: ["Ciudadano del ágora", "Aprobá el examen de la Antigüedad (semana 13)."],
       b1: ["Copista", "Aprobá el examen del Medioevo y la Modernidad (semana 26)."],
       b2: ["Crítico", "Aprobá el examen de Kant al siglo XX (semana 39)."],
-      c1: ["Filósofo", "Aprobá el examen final."],
+      c1: ["Filósofo", "Aprobá el examen final del curso."],
       congiuntivo: ["Sin una falacia", "Aprobá el examen de la semana 39 sin perder vidas."],
       sfidante: ["Retador", "50 desafíos resueltos."],
       studioso: ["Estudioso", "Leé la teoría de 10 semanas."],
-      erudito: ["Erudito", "Leé la teoría de las 52 semanas."],
+      erudito: ["Erudito", "Leé la teoría de todas las semanas del curso."],
       penna: ["Primera tesis", "Escribí tu primer argumento."],
       scrittore: ["Escritor", "100 respuestas escritas."],
       fulmine: ["Relámpago", "20 aciertos en un «¿Quién lo dijo?» de 60 segundos."],
@@ -151,7 +151,7 @@
               ["mito", "logos"]],
 
     banca: {
-      // Los niveles: uno por estación.
+      // Los niveles: uno por estación (los primeros cuatro; el banco no se usa).
       levels: [13, 26, 39, 52],
       verbPair: [],
       verbPairTags: [],

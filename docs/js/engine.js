@@ -446,17 +446,36 @@
     (state.log || []).forEach(function (x) { if (x[5] === "v" && x[4] === 0 && x[1] >= t) n++; });
     return n;
   }
+  /* The length of the course.  weeks(): how many weeks the course has
+     written (the cap of state.unlocked); planned(): how many it will have
+     (the final exam is the last one).  A boss closes every season of 13
+     weeks, and the final exam closes the course.  app.js (and the tests,
+     with the course they load) call setCourse(course); before that, 52. */
+  var COURSE_WEEKS = 52, PLANNED = 52, SEASON = 13;
+  function setCourse(course) {
+    COURSE_WEEKS = Math.max(1, (course && course.weeks && course.weeks.length) || 52);
+    PLANNED = Math.max(COURSE_WEEKS, (course && course.nweeks) || COURSE_WEEKS);
+  }
+  function weeks() { return COURSE_WEEKS; }
+  function planned() { return PLANNED; }
+  function finalWeek() { return PLANNED; }
+  function isBoss(w) { return w === PLANNED || w % SEASON === 0; }
+  // the boss that closes the season of week w
+  function bossOf(w) { return Math.min(PLANNED, Math.ceil(Math.max(1, w) / SEASON) * SEASON); }
+  function seasonOf(w) { return Math.ceil(Math.max(1, w) / SEASON); }
+
   /* Sub-goals (Bandura & Schunk 1981): the distal goal is the next boss;
      the weekly share of words and course weeks follows from what is left,
      and shrinks by itself when the learner falls behind. */
   function subGoals(state, now) {
     var wk = state.unlocked || 1;
-    var boss = wk <= 13 ? 13 : wk <= 26 ? 26 : wk <= 39 ? 39 : 52;
-    var wordGoal = boss === 13 ? 800 : boss === 26 ? 1800 : boss === 39 ? 2800 : 3800;
+    var boss = bossOf(wk);
+    // the concepts of the course up to that boss: about 13 a week
+    var wordGoal = boss * 13;
     var nWords = Object.keys(state.cards || {}).filter(function (id) { return id.indexOf("v:") === 0 || id.indexOf("b:voc:") === 0; }).length;
     var weeksLeft = Math.max(1, boss - wk + 1);
     var perWeek = Math.max(10, Math.ceil(Math.max(0, wordGoal - nWords) / weeksLeft));
-    return { boss: boss, level: boss === 13 ? "A2" : boss === 26 ? "B1" : boss === 39 ? "B2" : "C1", wordGoal: wordGoal, nWords: nWords,
+    return { boss: boss, level: "Nivel " + seasonOf(boss), wordGoal: wordGoal, nWords: nWords,
              weeksLeft: weeksLeft, wordsPerWeek: perWeek, wordsThisWeek: newWordsThisWeek(state, now) };
   }
   /* Personal records (beat yourself, not a leaderboard: Hanus & Fox 2015). */
@@ -713,7 +732,7 @@
   var MODULE_OBJ = ["mcGloss", "readSess", "readParts", "variants", "hintLevels", "weakDone", "suoniPct", "suoniDone", "capirePct", "identPct",
     "duelli", "ubicacion", "dictogloss", "ascolto", "parlaLog", "esame", "esameDraft", "scrittiDraft", "scritti", "biblio",
     "bossUsed", "strands", "streakBroken", "escritos", "escrituraPlus", "onboard", "hoy", "cierre", "porque", "ritmo", "tiempo",
-    "dos", "radio", "scriviExtra", "tramo", "tres", "fuera", "trabajo", "sync"];
+    "dos", "radio", "scriviExtra", "tramo", "tres", "fuera", "trabajo", "sync", "sem", "dil"];
   var MODULE_ARR = ["aiNotes", "storie", "history"];
   function sanitizeModules(s) {
     MODULE_OBJ.forEach(function (k) { if (k in s && s[k] != null && !isObj(s[k])) delete s[k]; });
@@ -737,8 +756,10 @@
     });
     s.xp = num(s.xp, 0, 0);
     s.coins = num(s.coins, 0, 0);
-    s.unlocked = Math.round(num(s.unlocked, 1, 1, 52));
-    s.week = Math.round(num(s.week, 1, 1, 52));
+    // the course length is not known yet when a save is loaded: app.js
+    // caps unlocked at the weeks the course has
+    s.unlocked = Math.round(num(s.unlocked, 1, 1, 999));
+    s.week = Math.round(num(s.week, 1, 1, 999));
     s.streak = Math.round(num(s.streak, 0, 0));
     s.shields = Math.round(num(s.shields, 1, 0, 3));
     s.spoken = num(s.spoken, 0, 0);
@@ -992,7 +1013,7 @@
     { id: "b2",
       test: function (s) { return !!(s.weekStats[39] || {}).bossPassed; } },
     { id: "c1",
-      test: function (s) { return !!(s.weekStats[52] || {}).bossPassed; } },
+      test: function (s) { return !!(s.weekStats[finalWeek()] || {}).bossPassed; } },
     { id: "congiuntivo",
       test: function (s) { return (s.weekStats[39] || {}).perfect === true; } },
     { id: "sfidante",
@@ -1000,7 +1021,7 @@
     { id: "studioso",
       test: function (s) { return Object.keys(s.read || {}).length >= 10; } },
     { id: "erudito",
-      test: function (s) { return Object.keys(s.read || {}).length >= 52; } },
+      test: function (s) { return Object.keys(s.read || {}).length >= planned(); } },
     { id: "penna",
       test: function (s) { return (s.written || 0) >= 1; } },
     { id: "scrittore",
@@ -1069,6 +1090,7 @@
   }
 
   var api = {
+    setCourse: setCourse, weeks: weeks, planned: planned, finalWeek: finalWeek, isBoss: isBoss, bossOf: bossOf, seasonOf: seasonOf,
     VERDICT: VERDICT,
     XP: XP,
     BADGES: BADGES,

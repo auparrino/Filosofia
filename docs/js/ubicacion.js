@@ -29,7 +29,9 @@
 (function (root) {
   "use strict";
 
-  var MAX_Q = 25, MIN_Q = 12, TOP = 51;       // hasta la semana 51: la 52 es el examen
+  var MAX_Q = 25, MIN_Q = 12;
+  // up to the week before the final exam, among the weeks the course has
+  function TOP() { return Math.max(1, Math.min(root.Engine.weeks(), root.Engine.finalWeek() - 1)); }
   var SLIP = 0.06, SCALE = 2.2;
 
   function esc(s) {
@@ -60,7 +62,7 @@
     var map = {}, out = {};
     (course.items || []).forEach(function (it) { map[it.id] = it; });
     (course.weeks || []).forEach(function (w) {
-      if (w.boss || w.week > TOP) return;
+      if (w.boss || w.week > TOP()) return;
       var list = (w.items || []).map(function (id) { return map[id]; }).filter(usable);
       if (list.length) out[w.week] = list;
     });
@@ -79,7 +81,7 @@
   function prior() {
     // Most who take it know a little: the prior leans to the start.
     var p = [], sum = 0;
-    for (var L = 0; L <= TOP; L++) { p[L] = Math.exp(-L / 16); sum += p[L]; }
+    for (var L = 0; L <= TOP(); L++) { p[L] = Math.exp(-L / 16); sum += p[L]; }
     return p.map(function (x) { return x / sum; });
   }
   function quantile(p, q) {
@@ -100,7 +102,7 @@
 
     function pickNear(k) {
       // the closest week with something not yet asked
-      for (var d = 0; d <= TOP; d++) {
+      for (var d = 0; d <= TOP(); d++) {
         var cands = [k + d, k - d].filter(function (x, i) { return (i === 0 || d > 0) && bank[x]; });
         for (var c = 0; c < cands.length; c++) {
           var left = bank[cands[c]].filter(function (it) { return !S.used[it.id]; });
@@ -112,7 +114,7 @@
     function next() {
       if (done()) return null;
       // where the estimate is most in doubt: just above the median
-      var k = Math.max(weeks[0] || 1, Math.min(TOP, quantile(S.post, 0.5) + 1));
+      var k = Math.max(weeks[0] || 1, Math.min(TOP(), quantile(S.post, 0.5) + 1));
       var q = pickNear(k);
       if (!q) return null;
       S.used[q.it.id] = 1;
@@ -145,7 +147,7 @@
     function result() {
       var median = quantile(S.post, 0.5), low = quantile(S.post, 0.25);
       // a little under the estimate: better to review than to get lost
-      var start = Math.max(1, Math.min(TOP, low + 1));
+      var start = Math.max(1, Math.min(TOP(), low + 1));
       if (start <= 2) start = 1;
       return { level: median, start: start, asked: S.asked.length, right: S.right,
                top: S.asked.reduce(function (m, a) { return a.ok ? Math.max(m, a.week) : m; }, 0),
@@ -170,7 +172,7 @@
   // Never lowers what is open.  Returns how many weeks it opened.
   // With the course, the test talks to the review too (seed).
   function apply(state, start, res, course) {
-    start = Math.max(1, Math.min(52, Math.round(+start || 1)));
+    start = Math.max(1, Math.min(root.Engine.weeks(), Math.round(+start || 1)));
     var before = state.unlocked || 1;
     var rec = { at: Date.now(), start: start, from: before };
     if (res) { rec.level = res.level; rec.asked = res.asked; rec.right = res.right; }

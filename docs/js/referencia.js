@@ -248,7 +248,7 @@
      the page shows readings, phrases and the bank; short sentences first. */
   function pickHits(forms, opts) {
     opts = opts || {};
-    var week = opts.week || 52, max = opts.max || 8, exact = opts.exact || [];
+    var week = opts.week || 999, max = opts.max || 8, exact = opts.exact || [];
     var skip = opts.skip || null;
     var all = candidates(forms), later = 0, total = 0, buckets = {};
     all.forEach(function (k) {
@@ -347,7 +347,7 @@
 
   // The constructions seen up to the week.
   function grammar(week) {
-    week = week || 52;
+    week = week || 999;
     return blocks().filter(function (b) { return b.week <= week; });
   }
 
@@ -468,7 +468,7 @@
   function exercise(q, week, rnd, opts) {
     rnd = rnd || Math.random;
     opts = opts || {};
-    week = week || 52;
+    week = week || 999;
     var forms = q.forms || [], hits = q.hits || [];
     var B = bank(), errs = [];
     ((B && B.errors) || []).forEach(function (e) {
@@ -584,7 +584,7 @@
 
   function lookup(term, opts) {
     opts = opts || {};
-    var week = opts.week || 52, f = formsOf(term), g = D.gloss || {};
+    var week = opts.week || 999, f = formsOf(term), g = D.gloss || {};
     var e = g[lower(term)] || g[f.term] || g[f.lemma] || null;
     var F = root.Freq, De = root.Desglose, info = null;
     if (F && F.loaded && F.loaded()) { try { info = F.info(f.term) || F.info(f.lemma); } catch (x) { info = null; } }
@@ -654,7 +654,7 @@
     return esc(text).replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>").replace(/\*([^*]+)\*/g, '<i class="it">$1</i>');
   }
   function st() { return (H && H.state && H.state()) || {}; }
-  function curWeek() { return Math.min(Math.max(st().unlocked || 1, 1), 52); }
+  function curWeek() { return Math.min(Math.max(st().unlocked || 1, 1), root.Engine.weeks()); }
   function refresh() {
     if (!H) return;
     var g = H.glossary && H.glossary(), c = H.course && H.course();
@@ -938,7 +938,7 @@
   /* At the end of a lesson: what it leaves in «Mi gramática». */
   function lessonNote(week, idx) {
     refresh();
-    var bs = grammar(52).filter(function (b) { return b.week === week && (!idx || idx.indexOf(b.i) >= 0); });
+    var bs = grammar(999).filter(function (b) { return b.week === week && (!idx || idx.indexOf(b.i) >= 0); });
     if (!bs.length) return "";
     var names = bs.slice(0, 4).map(function (b) { return mk(b.h || strip(b.r).slice(0, 40)); });
     return '<p class="note ref-lesnote">🧩 Queda en tu gramática: ' + names.join(" · ") + (bs.length > 4 ? " y " + (bs.length - 4) + " más" : "") +

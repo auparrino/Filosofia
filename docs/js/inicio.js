@@ -17,7 +17,7 @@
  *     de ubicación?; cómo funciona la semana y las pestañas), y Oggi
  *     con una sola tarjeta hasta terminar la primera lección.  Nunca a quien
  *     ya tiene progreso.
- *   · Después del curso: aprobado el examen de la semana 52,
+ *   · Después del curso: aprobado el examen final (la última semana),
  *     state.phase = "mantenimiento".  Oggi cambia de eje (lo arma Plan) y
  *     aparece el cierre del año, compartible como imagen.
  *
@@ -84,8 +84,8 @@
   }
   function etaFor(min, days) {
     if (!P()) return "";
-    var pace = min * days / P().weekMinutes(1), d = new Date(Date.now() + 52 / Math.max(0.05, pace) * 7 * DAY);
-    return "A ese ritmo, terminás las 52 semanas en " + P().fmtMonth(d) + ".";
+    var pace = min * days / P().weekMinutes(1), d = new Date(Date.now() + root.Engine.finalWeek() / Math.max(0.05, pace) * 7 * DAY);
+    return "A ese ritmo, terminás las " + root.Engine.finalWeek() + " semanas en " + P().fmtMonth(d) + ".";
   }
 
   function onbStep2() {
@@ -105,7 +105,7 @@
       oggi: "la próxima misión de tu semana, el repaso y atajos.",
       frasi: "para practicar más: los ejercicios de todas las semanas, los conceptos, la Clínica de tus errores.",
       leggi: "fragmentos de las fuentes y obras enteras.",
-      percorso: "las 52 semanas en cuatro estaciones; cada semana trae sus conceptos, sus misiones y más práctica; cada estación termina con un " + esc(U.boss || "jefe") + ".",
+      percorso: "las " + root.Engine.finalWeek() + " semanas en estaciones de 13; cada semana trae sus conceptos, sus misiones y más práctica; cada estación termina con un " + esc(U.boss || "jefe") + ".",
       io: "tu progreso, tus ajustes, la copia de seguridad y todo el material junto: lecturas, Biblioteca, práctica, Consultar."
     };
     var start = st.unlocked > 1 ? "Arrancás en la semana " + st.unlocked + "." : "Arrancás en la semana 1.";
@@ -367,7 +367,7 @@
   function checkPhase() {
     var st = S();
     if (st.phase) return;
-    var ws = (st.weekStats || {})[52], ex = H.exam ? H.exam() : null;
+    var ws = (st.weekStats || {})[root.Engine.finalWeek()], ex = H.exam ? H.exam() : null;
     if ((ws && ws.bossPassed) || (ex && ex.passed)) {
       st.phase = "mantenimiento";
       st.phaseAt = Date.now();
@@ -392,7 +392,7 @@
     return {
       hours: String(hrs.h).replace(".", ",") + (hrs.measured ? " h" : " h (aprox.)"),
       words: (Pr ? Pr.wordCards(st) : 0).toLocaleString("es-AR"),
-      bosses: [13, 26, 39, 52].filter(function (b) { return ws[b] && ws[b].bossPassed; }).length,
+      bosses: Object.keys(ws).filter(function (b) { return root.Engine.isBoss(+b) && ws[b] && ws[b].bossPassed; }).length,
       exam: ex ? ex.avg + " %" + (ex.passed ? " · aprobado" : "") : ""
     };
   }
@@ -412,7 +412,7 @@
     g.fillText(y.hours + " · " + y.bosses + " jefes de 4", W / 2, K.lines[0]);
     g.fillText(y.words + " palabras", W / 2, K.lines[1]);
     g.font = "20px system-ui, sans-serif"; g.fillStyle = K.muted;
-    g.fillText(y.exam ? "Examen C1: " + y.exam : "52 semanas, de cero a C1", W / 2, K.lines[2]);
+    g.fillText(y.exam ? "Examen final: " + y.exam : root.Engine.finalWeek() + " semanas de filosofía", W / 2, K.lines[2]);
     c.toBlob(function (blob) { H.share(blob, K.file + "un-ano.png", "Mi año de " + U.langEs); }, "image/png");
   }
 

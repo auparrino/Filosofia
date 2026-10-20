@@ -3,12 +3,14 @@
    Se carga después de css/app.css (la estructura común).  La estética
    avanza con la historia: <html data-era="N"> la pone la app según la
    semana en que vas (las épocas, en tools/curso/curso.py ERAS):
-     1 la Antigüedad (1-13)            mármol, terracota, figuras negras, la greca
-     2 el Medioevo (14-18)             pergamino, tinta, bermellón, lapislázuli y oro
-     3 Renacimiento y Barroco (19-26)  sepia de grabado, verdín, Garamond
-     4 Ilustración y siglo XIX (27-33) el salón: burdeos, azul de Prusia, Didot
-     5 el siglo XX (34-45)             la vanguardia: rojo, amarillo, azul, palo seco
-     6 hoy (46-52)                     la red: violeta y verde azulado
+     1 el ágora (1-19)               Grecia: mármol, terracota, figuras negras, la greca
+     2 la stoa (20-26)               Roma y los helenísticos: travertino, pórfido, bronce
+     3 el scriptorium (27-39)        el Medioevo: pergamino, tinta, bermellón, lapislázuli y oro
+     4 el taller (40-52)             Renacimiento y Barroco: sepia de grabado, verdín, Garamond
+     5 el salón (53-66)              la Ilustración: burdeos, azul de Prusia, Didot
+     6 la imprenta de vapor (67-78)  el siglo XIX: papel de diario, hollín, bronce
+     7 la vanguardia (79-91)         el siglo XX: rojo, amarillo, azul, palo seco
+     8 la red (92-117)               hoy: violeta y verde azulado
    Cada época redefine los mismos tokens (los nombres vienen del tema
    carioca de La Via, del que sale la estructura de componentes) y el filete
    de la cabecera (--calcadao).  Sin tipografías propias: las de cada época
@@ -42,8 +44,26 @@
   --sombra: 0 1px 2px rgba(30,20,10,.06), 0 8px 24px rgba(30,20,10,.10);
   color-scheme: light;
 }
-/* época 2: el Medioevo: pergamino, tinta ferrogálica, rúbricas en bermellón, lapislázuli y oro */
+/* época 2: la Roma imperial y los helenísticos: la stoa, el travertino, el pórfido y el bronce */
 html[data-era="2"] {
+  --serif: "Optima", "Candara", "Palatino Linotype", "Georgia", serif;
+  --coral: #8c2f45;
+  --coral-escuro: #702637;
+  --coral-claro: #ae6d7d;
+  --boton: #812b3f; --boton-hover: #692334; --boton-tinta: #fff;
+  --mata: #5d6b3a; --mata-claro: #7d8961; --mata-escuro: #46502c;
+  --sol: #9c7a3c; --sol-escuro: #6d552a;
+  --mar: #3a4f6b; --mar-escuro: #2c3b50; --mar-claro: #758497;
+  --ceu: #e8dfd0; --ceu-claro: #eee7db;
+  --areia: #f2ece2; --papel: #fdf9f2; --pedra: #e7ddcd;
+  --tinta: #241c1a; --cinza: #6b5e57; --cinza-claro: #e2d6c5;
+  --placa: #4a2238;
+  --calcadao: linear-gradient(90deg, #4a2238 0 42%, #9c7a3c 42% 48%, #8c2f45 48%);
+  --sombra: 0 1px 2px rgba(30,20,10,.06), 0 8px 24px rgba(30,20,10,.10);
+  color-scheme: light;
+}
+/* época 3: el Medioevo: pergamino, tinta ferrogálica, rúbricas en bermellón, lapislázuli y oro */
+html[data-era="3"] {
   --serif: "Palatino Linotype", "Book Antiqua", Palatino, "Georgia", serif;
   --coral: #b22a1e;
   --coral-escuro: #8e2218;
@@ -60,8 +80,8 @@ html[data-era="2"] {
   --sombra: 0 1px 2px rgba(30,20,10,.06), 0 8px 24px rgba(30,20,10,.10);
   color-scheme: light;
 }
-/* época 3: el Renacimiento y el Barroco: el taller, la sepia de los grabados, el verdín del bronce */
-html[data-era="3"] {
+/* época 4: el Renacimiento y el Barroco: el taller, la sepia de los grabados, el verdín del bronce */
+html[data-era="4"] {
   --serif: "Garamond", "EB Garamond", "Palatino Linotype", "Georgia", serif;
   --coral: #8c3b2e;
   --coral-escuro: #702f25;
@@ -78,8 +98,8 @@ html[data-era="3"] {
   --sombra: 0 1px 2px rgba(30,20,10,.06), 0 8px 24px rgba(30,20,10,.10);
   color-scheme: light;
 }
-/* época 4: la Ilustración y el siglo XIX: el salón, el burdeos, el azul de Prusia, la Didot */
-html[data-era="4"] {
+/* época 5: la Ilustración y el siglo XIX: el salón, el burdeos, el azul de Prusia, la Didot */
+html[data-era="5"] {
   --serif: "Didot", "Bodoni 72", "Bodoni MT", "Georgia", serif;
   --coral: #7a1f3d;
   --coral-escuro: #621931;
@@ -96,8 +116,26 @@ html[data-era="4"] {
   --sombra: 0 1px 2px rgba(30,20,10,.06), 0 8px 24px rgba(30,20,10,.10);
   color-scheme: light;
 }
-/* época 5: el siglo XX: la vanguardia, rojo, amarillo, azul y negro, la letra de palo seco */
-html[data-era="5"] {
+/* época 6: el siglo XIX: el papel de diario, el hollín, el bronce y el verde de las oficinas */
+html[data-era="6"] {
+  --serif: "Rockwell", "Century Schoolbook", "Clarendon", "Georgia", serif;
+  --coral: #2f5d46;
+  --coral-escuro: #264a38;
+  --coral-claro: #6d8e7e;
+  --boton: #2b5640; --boton-hover: #234634; --boton-tinta: #fff;
+  --mata: #3f6b3a; --mata-claro: #658961; --mata-escuro: #2f502c;
+  --sol: #b08d57; --sol-escuro: #7b633d;
+  --mar: #2c3e5c; --mar-escuro: #212e45; --mar-claro: #6b788d;
+  --ceu: #e6e2d8; --ceu-claro: #ebe7de;
+  --areia: #efebe2; --papel: #fbf9f4; --pedra: #e3ddcf;
+  --tinta: #1a1a1a; --cinza: #5c5a55; --cinza-claro: #ddd7c9;
+  --placa: #1a1a1a;
+  --calcadao: repeating-linear-gradient(90deg, #1a1a1a 0 2px, #efebe2 2px 9px);
+  --sombra: 0 1px 2px rgba(30,20,10,.06), 0 8px 24px rgba(30,20,10,.10);
+  color-scheme: light;
+}
+/* época 7: el siglo XX: la vanguardia, rojo, amarillo, azul y negro, la letra de palo seco */
+html[data-era="7"] {
   --serif: "Helvetica Neue", "Arial", system-ui, sans-serif;
   --coral: #d0281b;
   --coral-escuro: #a62016;
@@ -114,8 +152,8 @@ html[data-era="5"] {
   --sombra: 0 1px 2px rgba(30,20,10,.06), 0 8px 24px rgba(30,20,10,.10);
   color-scheme: light;
 }
-/* época 6: hoy: la red, la pantalla, violeta y verde azulado */
-html[data-era="6"] {
+/* época 8: hoy: la red, la pantalla, violeta y verde azulado */
+html[data-era="8"] {
   --serif: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --coral: #6d4aff;
   --coral-escuro: #573bcc;
@@ -170,111 +208,181 @@ html[data-theme="dark"] {
 /* época 2, de noche */
 @media (prefers-color-scheme: dark) {
   html[data-era="2"]:not([data-theme="light"]) {
-    --coral: #e2584a;
-    --coral-escuro: #c04b3f;
-    --coral-claro: #eb8a80;
-    --boton: #e2584a; --boton-hover: #e98277; --boton-tinta: #220d0b;
-    --mata: #97b37a; --mata-claro: #acc295; --mata-escuro: #71865c;
-    --sol: #e0bc5c; --sol-escuro: #9d8440;
-    --mar: #8fa8e8; --mar-escuro: #6b7eae; --mar-claro: #b1c2ef;
-    --ceu: #1d1810; --ceu-claro: #18140e;
-    --areia: #14110c; --papel: #1f1a12; --pedra: #2a2318;
-    --tinta: #f3e9d2; --cinza: #b8a487; --cinza-claro: #33291c;
-    --placa: #2f4a8f;
-    --calcadao: linear-gradient(90deg, #26428b 0 30%, #b8902c 30% 36%, #b22a1e 36% 64%, #b8902c 64% 70%, #26428b 70%);
+    --coral: #d9677f;
+    --coral-escuro: #b8586c;
+    --coral-claro: #e495a5;
+    --boton: #d9677f; --boton-hover: #e28d9f; --boton-tinta: #210f13;
+    --mata: #a3b277; --mata-claro: #b5c192; --mata-escuro: #7a8659;
+    --sol: #d8b06a; --sol-escuro: #977b4a;
+    --mar: #8fa6c8; --mar-escuro: #6b7c96; --mar-claro: #b1c1d8;
+    --ceu: #1b1417; --ceu-claro: #171214;
+    --areia: #151012; --papel: #1f181b; --pedra: #2a2125;
+    --tinta: #f2ebe2; --cinza: #b5a69c; --cinza-claro: #33282c;
+    --placa: #5a2c46;
+    --calcadao: linear-gradient(90deg, #4a2238 0 42%, #9c7a3c 42% 48%, #8c2f45 48%);
     --sombra: 0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
     color-scheme: dark;
   }
 }
 html[data-theme="dark"][data-era="2"] {
-    --coral: #e2584a;
-    --coral-escuro: #c04b3f;
-    --coral-claro: #eb8a80;
-    --boton: #e2584a; --boton-hover: #e98277; --boton-tinta: #220d0b;
-    --mata: #97b37a; --mata-claro: #acc295; --mata-escuro: #71865c;
-    --sol: #e0bc5c; --sol-escuro: #9d8440;
-    --mar: #8fa8e8; --mar-escuro: #6b7eae; --mar-claro: #b1c2ef;
-    --ceu: #1d1810; --ceu-claro: #18140e;
-    --areia: #14110c; --papel: #1f1a12; --pedra: #2a2318;
-    --tinta: #f3e9d2; --cinza: #b8a487; --cinza-claro: #33291c;
-    --placa: #2f4a8f;
-    --calcadao: linear-gradient(90deg, #26428b 0 30%, #b8902c 30% 36%, #b22a1e 36% 64%, #b8902c 64% 70%, #26428b 70%);
+    --coral: #d9677f;
+    --coral-escuro: #b8586c;
+    --coral-claro: #e495a5;
+    --boton: #d9677f; --boton-hover: #e28d9f; --boton-tinta: #210f13;
+    --mata: #a3b277; --mata-claro: #b5c192; --mata-escuro: #7a8659;
+    --sol: #d8b06a; --sol-escuro: #977b4a;
+    --mar: #8fa6c8; --mar-escuro: #6b7c96; --mar-claro: #b1c1d8;
+    --ceu: #1b1417; --ceu-claro: #171214;
+    --areia: #151012; --papel: #1f181b; --pedra: #2a2125;
+    --tinta: #f2ebe2; --cinza: #b5a69c; --cinza-claro: #33282c;
+    --placa: #5a2c46;
+    --calcadao: linear-gradient(90deg, #4a2238 0 42%, #9c7a3c 42% 48%, #8c2f45 48%);
     --sombra: 0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
     color-scheme: dark;
 }
 /* época 3, de noche */
 @media (prefers-color-scheme: dark) {
   html[data-era="3"]:not([data-theme="light"]) {
-    --coral: #d77a68;
-    --coral-escuro: #b76858;
-    --coral-claro: #e3a295;
-    --boton: #d77a68; --boton-hover: #e19b8e; --boton-tinta: #201210;
-    --mata: #a0b872; --mata-claro: #b3c68e; --mata-escuro: #788a56;
-    --sol: #d9b664; --sol-escuro: #987f46;
-    --mar: #7fbcbc; --mar-escuro: #5f8d8d; --mar-claro: #a5d0d0;
-    --ceu: #1b1814; --ceu-claro: #161411;
-    --areia: #13110f; --papel: #1d1a16; --pedra: #28231d;
-    --tinta: #efe7da; --cinza: #b0a493; --cinza-claro: #302a23;
-    --placa: #4a3c30;
-    --calcadao: repeating-linear-gradient(90deg, #a88532 0 2px, #13110f 2px 5px);
+    --coral: #e2584a;
+    --coral-escuro: #c04b3f;
+    --coral-claro: #eb8a80;
+    --boton: #e2584a; --boton-hover: #e98277; --boton-tinta: #220d0b;
+    --mata: #97b37a; --mata-claro: #acc295; --mata-escuro: #71865c;
+    --sol: #e0bc5c; --sol-escuro: #9d8440;
+    --mar: #8fa8e8; --mar-escuro: #6b7eae; --mar-claro: #b1c2ef;
+    --ceu: #1d1810; --ceu-claro: #18140e;
+    --areia: #14110c; --papel: #1f1a12; --pedra: #2a2318;
+    --tinta: #f3e9d2; --cinza: #b8a487; --cinza-claro: #33291c;
+    --placa: #2f4a8f;
+    --calcadao: linear-gradient(90deg, #26428b 0 30%, #b8902c 30% 36%, #b22a1e 36% 64%, #b8902c 64% 70%, #26428b 70%);
     --sombra: 0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
     color-scheme: dark;
   }
 }
 html[data-theme="dark"][data-era="3"] {
-    --coral: #d77a68;
-    --coral-escuro: #b76858;
-    --coral-claro: #e3a295;
-    --boton: #d77a68; --boton-hover: #e19b8e; --boton-tinta: #201210;
-    --mata: #a0b872; --mata-claro: #b3c68e; --mata-escuro: #788a56;
-    --sol: #d9b664; --sol-escuro: #987f46;
-    --mar: #7fbcbc; --mar-escuro: #5f8d8d; --mar-claro: #a5d0d0;
-    --ceu: #1b1814; --ceu-claro: #161411;
-    --areia: #13110f; --papel: #1d1a16; --pedra: #28231d;
-    --tinta: #efe7da; --cinza: #b0a493; --cinza-claro: #302a23;
-    --placa: #4a3c30;
-    --calcadao: repeating-linear-gradient(90deg, #a88532 0 2px, #13110f 2px 5px);
+    --coral: #e2584a;
+    --coral-escuro: #c04b3f;
+    --coral-claro: #eb8a80;
+    --boton: #e2584a; --boton-hover: #e98277; --boton-tinta: #220d0b;
+    --mata: #97b37a; --mata-claro: #acc295; --mata-escuro: #71865c;
+    --sol: #e0bc5c; --sol-escuro: #9d8440;
+    --mar: #8fa8e8; --mar-escuro: #6b7eae; --mar-claro: #b1c2ef;
+    --ceu: #1d1810; --ceu-claro: #18140e;
+    --areia: #14110c; --papel: #1f1a12; --pedra: #2a2318;
+    --tinta: #f3e9d2; --cinza: #b8a487; --cinza-claro: #33291c;
+    --placa: #2f4a8f;
+    --calcadao: linear-gradient(90deg, #26428b 0 30%, #b8902c 30% 36%, #b22a1e 36% 64%, #b8902c 64% 70%, #26428b 70%);
     --sombra: 0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
     color-scheme: dark;
 }
 /* época 4, de noche */
 @media (prefers-color-scheme: dark) {
   html[data-era="4"]:not([data-theme="light"]) {
-    --coral: #e0668e;
-    --coral-escuro: #be5779;
-    --coral-claro: #e994b0;
-    --boton: #e0668e; --boton-hover: #e88caa; --boton-tinta: #220f15;
-    --mata: #86c29c; --mata-claro: #9eceb0; --mata-escuro: #649275;
-    --sol: #dcb76a; --sol-escuro: #9a804a;
-    --mar: #86a6e0; --mar-escuro: #647ca8; --mar-claro: #aac1e9;
-    --ceu: #151a25; --ceu-claro: #12161f;
-    --areia: #10131b; --papel: #181d29; --pedra: #222838;
-    --tinta: #eef0f5; --cinza: #a6adbd; --cinza-claro: #283043;
-    --placa: #2a4a80;
-    --calcadao: linear-gradient(90deg, #7a1f3d 0 45%, #b38b3d 45% 55%, #1f3a68 55%);
+    --coral: #d77a68;
+    --coral-escuro: #b76858;
+    --coral-claro: #e3a295;
+    --boton: #d77a68; --boton-hover: #e19b8e; --boton-tinta: #201210;
+    --mata: #a0b872; --mata-claro: #b3c68e; --mata-escuro: #788a56;
+    --sol: #d9b664; --sol-escuro: #987f46;
+    --mar: #7fbcbc; --mar-escuro: #5f8d8d; --mar-claro: #a5d0d0;
+    --ceu: #1b1814; --ceu-claro: #161411;
+    --areia: #13110f; --papel: #1d1a16; --pedra: #28231d;
+    --tinta: #efe7da; --cinza: #b0a493; --cinza-claro: #302a23;
+    --placa: #4a3c30;
+    --calcadao: repeating-linear-gradient(90deg, #a88532 0 2px, #13110f 2px 5px);
     --sombra: 0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
     color-scheme: dark;
   }
 }
 html[data-theme="dark"][data-era="4"] {
-    --coral: #e0668e;
-    --coral-escuro: #be5779;
-    --coral-claro: #e994b0;
-    --boton: #e0668e; --boton-hover: #e88caa; --boton-tinta: #220f15;
-    --mata: #86c29c; --mata-claro: #9eceb0; --mata-escuro: #649275;
-    --sol: #dcb76a; --sol-escuro: #9a804a;
-    --mar: #86a6e0; --mar-escuro: #647ca8; --mar-claro: #aac1e9;
-    --ceu: #151a25; --ceu-claro: #12161f;
-    --areia: #10131b; --papel: #181d29; --pedra: #222838;
-    --tinta: #eef0f5; --cinza: #a6adbd; --cinza-claro: #283043;
-    --placa: #2a4a80;
-    --calcadao: linear-gradient(90deg, #7a1f3d 0 45%, #b38b3d 45% 55%, #1f3a68 55%);
+    --coral: #d77a68;
+    --coral-escuro: #b76858;
+    --coral-claro: #e3a295;
+    --boton: #d77a68; --boton-hover: #e19b8e; --boton-tinta: #201210;
+    --mata: #a0b872; --mata-claro: #b3c68e; --mata-escuro: #788a56;
+    --sol: #d9b664; --sol-escuro: #987f46;
+    --mar: #7fbcbc; --mar-escuro: #5f8d8d; --mar-claro: #a5d0d0;
+    --ceu: #1b1814; --ceu-claro: #161411;
+    --areia: #13110f; --papel: #1d1a16; --pedra: #28231d;
+    --tinta: #efe7da; --cinza: #b0a493; --cinza-claro: #302a23;
+    --placa: #4a3c30;
+    --calcadao: repeating-linear-gradient(90deg, #a88532 0 2px, #13110f 2px 5px);
     --sombra: 0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
     color-scheme: dark;
 }
 /* época 5, de noche */
 @media (prefers-color-scheme: dark) {
   html[data-era="5"]:not([data-theme="light"]) {
+    --coral: #e0668e;
+    --coral-escuro: #be5779;
+    --coral-claro: #e994b0;
+    --boton: #e0668e; --boton-hover: #e88caa; --boton-tinta: #220f15;
+    --mata: #86c29c; --mata-claro: #9eceb0; --mata-escuro: #649275;
+    --sol: #dcb76a; --sol-escuro: #9a804a;
+    --mar: #86a6e0; --mar-escuro: #647ca8; --mar-claro: #aac1e9;
+    --ceu: #151a25; --ceu-claro: #12161f;
+    --areia: #10131b; --papel: #181d29; --pedra: #222838;
+    --tinta: #eef0f5; --cinza: #a6adbd; --cinza-claro: #283043;
+    --placa: #2a4a80;
+    --calcadao: linear-gradient(90deg, #7a1f3d 0 45%, #b38b3d 45% 55%, #1f3a68 55%);
+    --sombra: 0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
+    color-scheme: dark;
+  }
+}
+html[data-theme="dark"][data-era="5"] {
+    --coral: #e0668e;
+    --coral-escuro: #be5779;
+    --coral-claro: #e994b0;
+    --boton: #e0668e; --boton-hover: #e88caa; --boton-tinta: #220f15;
+    --mata: #86c29c; --mata-claro: #9eceb0; --mata-escuro: #649275;
+    --sol: #dcb76a; --sol-escuro: #9a804a;
+    --mar: #86a6e0; --mar-escuro: #647ca8; --mar-claro: #aac1e9;
+    --ceu: #151a25; --ceu-claro: #12161f;
+    --areia: #10131b; --papel: #181d29; --pedra: #222838;
+    --tinta: #eef0f5; --cinza: #a6adbd; --cinza-claro: #283043;
+    --placa: #2a4a80;
+    --calcadao: linear-gradient(90deg, #7a1f3d 0 45%, #b38b3d 45% 55%, #1f3a68 55%);
+    --sombra: 0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
+    color-scheme: dark;
+}
+/* época 6, de noche */
+@media (prefers-color-scheme: dark) {
+  html[data-era="6"]:not([data-theme="light"]) {
+    --coral: #6fb08c;
+    --coral-escuro: #5e9677;
+    --coral-claro: #9ac8ae;
+    --boton: #6fb08c; --boton-hover: #93c4a9; --boton-tinta: #111a15;
+    --mata: #8cbf86; --mata-claro: #a3cc9e; --mata-escuro: #698f64;
+    --sol: #d6b27a; --sol-escuro: #967d55;
+    --mar: #8ea3c8; --mar-escuro: #6a7a96; --mar-claro: #b0bfd8;
+    --ceu: #181815; --ceu-claro: #141412;
+    --areia: #121210; --papel: #1c1c19; --pedra: #262620;
+    --tinta: #efebe2; --cinza: #aaa79d; --cinza-claro: #2d2d27;
+    --placa: #2c2c27;
+    --calcadao: repeating-linear-gradient(90deg, #b08d57 0 2px, #121210 2px 9px);
+    --sombra: 0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
+    color-scheme: dark;
+  }
+}
+html[data-theme="dark"][data-era="6"] {
+    --coral: #6fb08c;
+    --coral-escuro: #5e9677;
+    --coral-claro: #9ac8ae;
+    --boton: #6fb08c; --boton-hover: #93c4a9; --boton-tinta: #111a15;
+    --mata: #8cbf86; --mata-claro: #a3cc9e; --mata-escuro: #698f64;
+    --sol: #d6b27a; --sol-escuro: #967d55;
+    --mar: #8ea3c8; --mar-escuro: #6a7a96; --mar-claro: #b0bfd8;
+    --ceu: #181815; --ceu-claro: #141412;
+    --areia: #121210; --papel: #1c1c19; --pedra: #262620;
+    --tinta: #efebe2; --cinza: #aaa79d; --cinza-claro: #2d2d27;
+    --placa: #2c2c27;
+    --calcadao: repeating-linear-gradient(90deg, #b08d57 0 2px, #121210 2px 9px);
+    --sombra: 0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
+    color-scheme: dark;
+}
+/* época 7, de noche */
+@media (prefers-color-scheme: dark) {
+  html[data-era="7"]:not([data-theme="light"]) {
     --coral: #ff5a4a;
     --coral-escuro: #d94c3f;
     --coral-claro: #ff8c80;
@@ -291,7 +399,7 @@ html[data-theme="dark"][data-era="4"] {
     color-scheme: dark;
   }
 }
-html[data-theme="dark"][data-era="5"] {
+html[data-theme="dark"][data-era="7"] {
     --coral: #ff5a4a;
     --coral-escuro: #d94c3f;
     --coral-claro: #ff8c80;
@@ -307,9 +415,9 @@ html[data-theme="dark"][data-era="5"] {
     --sombra: 0 1px 2px rgba(0,0,0,.4), 0 6px 18px rgba(0,0,0,.35);
     color-scheme: dark;
 }
-/* época 6, de noche */
+/* época 8, de noche */
 @media (prefers-color-scheme: dark) {
-  html[data-era="6"]:not([data-theme="light"]) {
+  html[data-era="8"]:not([data-theme="light"]) {
     --coral: #9d85ff;
     --coral-escuro: #8571d9;
     --coral-claro: #baaaff;
@@ -326,7 +434,7 @@ html[data-theme="dark"][data-era="5"] {
     color-scheme: dark;
   }
 }
-html[data-theme="dark"][data-era="6"] {
+html[data-theme="dark"][data-era="8"] {
     --coral: #9d85ff;
     --coral-escuro: #8571d9;
     --coral-claro: #baaaff;
@@ -840,8 +948,10 @@ html[data-theme="dark"] { --bx-ok: var(--mata-claro); --bx-mid: var(--sol); --bx
 /* ------------------------------------------------ toques de cada época */
 /* la placa cambia de forma con la época */
 html[data-era="1"] .placa, :root:not([data-era]) .placa { border-radius: 2px; letter-spacing: .04em; }
-html[data-era="2"] .placa { border-radius: 10px 10px 2px 2px; }
-html[data-era="2"] h1:first-letter, html[data-era="2"] .lesson h2:first-letter { color: var(--coral); }
-html[data-era="4"] h1, html[data-era="4"] h2 { letter-spacing: .01em; }
-html[data-era="5"] .placa, html[data-era="5"] .card, html[data-era="5"] .btn { border-radius: 0; }
-html[data-era="6"] .placa { border-radius: 999px; }
+html[data-era="3"] .placa { border-radius: 10px 10px 2px 2px; }
+html[data-era="3"] h1:first-letter, html[data-era="3"] .lesson h2:first-letter { color: var(--coral); }
+html[data-era="5"] h1, html[data-era="5"] h2 { letter-spacing: .01em; }
+html[data-era="7"] .placa, html[data-era="7"] .card, html[data-era="7"] .btn { border-radius: 0; }
+html[data-era="8"] .placa { border-radius: 999px; }
+html[data-era="2"] .placa { border-radius: 0; letter-spacing: .12em; text-transform: uppercase; }
+html[data-era="6"] .placa { border-radius: 3px; box-shadow: inset 0 0 0 2px var(--placa), inset 0 0 0 3.5px rgba(255,255,255,.8); }

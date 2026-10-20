@@ -129,7 +129,7 @@
       wordOrNot: "¿Lo dijo o no?", wordYes: "✓ Lo dijo", wordNo: "✗ No lo dijo",
       lampo: "¿Quién lo dijo?", lampoEl: "¿Quién lo dijo?",
       boss: "Examen de estación", Boss: "Examen de estación",
-      pathLead: "La historia de la filosofía en 52 semanas, de los presocráticos a hoy, con sus ramas. Por ahora, las primeras semanas; el resto está en construcción. Cada semana tiene <b>3 estrellas</b>: " +
+      pathLead: "La historia de la filosofía de los presocráticos a hoy, con sus ramas y otras tradiciones, en estaciones de 13 semanas con un examen al final de cada una. El curso se está escribiendo: aparecen las semanas que ya están listas. Cada semana tiene <b>3 estrellas</b>: " +
         "jugar la lección, superar la semana y dominarla.",
       fraseDay: "Concepto del día",
       calendarGreen: "Verde",

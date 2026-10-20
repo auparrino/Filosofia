@@ -20,6 +20,7 @@ pack.ALL.forEach(function (code) {
   var ctx = pack(code);
   var Engine = ctx.Engine, Drills = ctx.Drills, Lez = ctx.Lezione, LANG = ctx.LANG;
   var course = pack.data(code, "course.json");
+  Engine.setCourse(course);
   var tag0 = "[" + code + "] ";
 
   /* ------------------------------------------------ el paquete */
@@ -28,7 +29,10 @@ pack.ALL.forEach(function (code) {
   ok(course.lang === code, tag0 + "el curso es de la edición");
 
   /* ------------------------------------------------ las épocas y las estaciones */
-  ok(course.eras.length === 6 && course.eras[0].weeks[0] === 1 && course.eras[course.eras.length - 1].weeks[1] === 52, tag0 + "seis épocas, de la semana 1 a la 52");
+  ok(course.nweeks >= course.weeks.length && course.nweeks % 13 === 0, tag0 + "el temario: " + course.nweeks + " semanas, en estaciones de 13");
+  ok(Engine.weeks() === course.weeks.length && Engine.finalWeek() === course.nweeks, tag0 + "el motor sabe cuántas semanas hay y cuál es el examen final");
+  ok(course.eras.length === 8 && course.eras[0].weeks[0] === 1 && course.eras[course.eras.length - 1].weeks[1] === course.nweeks,
+     tag0 + "ocho épocas, de la semana 1 a la " + course.nweeks);
   course.eras.forEach(function (e, k) {
     ok(e.n === k + 1 && e.name && e.id, tag0 + "época " + (k + 1));
     if (k) ok(e.weeks[0] === course.eras[k - 1].weeks[1] + 1, tag0 + "las épocas van seguidas: " + e.id);
@@ -55,12 +59,26 @@ pack.ALL.forEach(function (code) {
   course.weeks.forEach(function (w, k) {
     var tag = tag0 + "semana " + w.week;
     ok(w.week === k + 1, tag + ": en orden");
+    ok(!!w.boss === (w.week % 13 === 0 || w.week === course.nweeks), tag + ": es de examen si cierra una estación");
+    if (w.boss) {
+      // an exam: every exercise of its season, and a review block per week
+      var season = course.weeks.filter(function (x) { return !x.boss && x.season === w.season; });
+      ok(season.length === 12 && w.items.length === season.reduce(function (n, x) { return n + x.items.length; }, 0),
+         tag + ": el examen trae todos los ejercicios de su estación");
+      ok(w.lesson.blocks.length === season.length, tag + ": un bloque de repaso por semana");
+      var bossRound = Drills.buildBoss(course, w, Engine.load(), { map: Drills.itemsById(course) });
+      ok(bossRound.length >= 20, tag + ": el examen arma una ronda (" + bossRound.length + ")");
+      return;
+    }
+    ok(w.seminario && w.seminario.tramos.length >= 3, tag + ": el seminario de la semana");
+    ok((w.dilemas || []).length >= 1, tag + ": al menos un dilema");
+    ok(w.items.filter(function (id) { return map[id] && map[id].apl; }).length >= 0.4 * w.items.length, tag + ": el 40 % de aplicación");
     ok(w.title && w.focus && w.keys.length >= 4, tag + ": título, foco y claves");
     var era = course.eras.filter(function (e) { return w.week >= e.weeks[0] && w.week <= e.weeks[1]; })[0];
     ok(era && w.era === era.n, tag + ": su época (" + w.era + ")");
-    ok(w.items.length >= 30, tag + ": ejercicios " + w.items.length);
+    ok(w.items.length >= 45, tag + ": ejercicios " + w.items.length);
     ok(w.items.every(function (id) { return map[id]; }), tag + ": ejercicios existentes");
-    ok(w.vocab.length >= 8, tag + ": conceptos " + w.vocab.length);
+    ok(w.vocab.length >= 12, tag + ": conceptos " + w.vocab.length);
     w.vocab.forEach(function (v) {
       ok(v.length === 4 && v.every(Boolean), tag + ": concepto completo «" + v[0] + "»");
       ok(!words[v[0]], tag + ": «" + v[0] + "» ya estaba en la semana " + words[v[0]]); words[v[0]] = w.week;
