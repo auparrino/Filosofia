@@ -336,7 +336,7 @@ WEEK = {
            "Sus cartas argumentan sobre el matrimonio, el amor desinteresado y la intención, y sus *Problemas* discuten la Escritura. Pedro el Venerable la elogia por su saber.")),
         ch(2, "Elegí.", "¿Qué cargo tuvo Eloísa en su madurez?", "abadesa del Paráclito",
            ["abadesa del Paráclito", "profesora en Santa Genoveva", "obispa de Châlons"],
-           "El Paráclito era un oratorio fundado por Abelardo que él le cedió a Eloísa y a sus monjas, hacia 1129."),
+           "El Paráclito era un oratorio fundado por Abelardo que él le cedió a Eloísa y a sus monjas hacia 1129-1131, cuando las echaron de Argenteuil."),
         ch(2, "Elegí.", "¿Qué es la *logica nova*?", "los *Analíticos*, los *Tópicos* y las *Refutaciones sofísticas*, que llegan a mediados del siglo XII",
            ["los *Analíticos*, los *Tópicos* y las *Refutaciones sofísticas*, que llegan a mediados del siglo XII", "la lógica de Abelardo", "la lógica matemática de Frege"],
            "Frente a la *logica vetus* (Isagoge, Categorías, Sobre la interpretación, por Boecio), que es la que usa Abelardo."),

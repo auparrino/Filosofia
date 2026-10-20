@@ -23,8 +23,8 @@ WEEK = {
         "intro": "Después de Voltaire (semana 58), dos ilustrados que no se conformaron con burlarse de los abusos: quisieron explicarlos. Montesquieu compara las leyes de todos los pueblos para entender por qué son como son y cómo se protege la libertad; Rousseau hace un experimento mental, el ser humano antes de toda sociedad, para preguntar algo que todavía incomoda: si la desigualdad que vemos tiene algún fundamento natural.",
         "parts": [
             {"h": "Montesquieu: el espíritu de las leyes", "blocks": [0, 1, 2, 3, 4, 5]},
-            {"h": "Rousseau: el ser humano antes de la sociedad", "blocks": [6, 7, 8]},
-            {"h": "Rousseau: la historia de la desigualdad", "blocks": [9, 10, 11, 12]},
+            {"h": "Rousseau: el ser humano antes de la sociedad", "blocks": [6, 7, 8, 9]},
+            {"h": "Rousseau: la historia de la desigualdad", "blocks": [10, 11, 12, 13]},
         ],
         "blocks": [
             {
@@ -145,7 +145,7 @@ WEEK = {
             },
             {
                 "h": "El hombre natural: amor de sí y piedad",
-                "r": "El salvaje de Rousseau es solitario, robusto, de pocas necesidades, sin lenguaje elaborado ni previsión; no es bueno por virtud ni malo por vicio, porque no tiene relaciones morales con nadie. Lo mueven dos principios **anteriores a la razón**: el **amor de sí** (el interés por su bienestar y su conservación) y la **piedad**, una repugnancia natural a ver sufrir a cualquier ser sensible, sobre todo a un semejante. La piedad modera el amor de sí y hace, en el estado de natural, el oficio de las leyes y de la virtud.",
+                "r": "El salvaje de Rousseau es solitario, robusto, de pocas necesidades, sin lenguaje elaborado ni previsión; no es bueno por virtud ni malo por vicio, porque no tiene relaciones morales con nadie. Lo mueven dos principios **anteriores a la razón**: el **amor de sí** (el interés por su bienestar y su conservación) y la **piedad**, una repugnancia natural a ver sufrir a cualquier ser sensible, sobre todo a un semejante. La piedad modera el amor de sí y hace, en el estado de naturaleza, el oficio de las leyes y de la virtud.",
                 "table": {"head": ["", "Hobbes (semana 45)", "Rousseau"], "rows": [
                     ["el hombre natural", "temeroso, competitivo, en guerra de todos contra todos", "solitario, tranquilo, con pocas necesidades"],
                     ["lo mueve", "el deseo de poder y el miedo a la muerte", "el amor de sí y la piedad"],
@@ -275,7 +275,7 @@ WEEK = {
            ["ridiculiza con ironía un argumento esclavista", "expresa la opinión de Montesquieu", "describe una creencia religiosa sin juzgarla"], "XV 5. El capítulo junta los «argumentos» de los esclavistas para mostrar su absurdo; el XV 2 ya había refutado los fundamentos de la esclavitud.")),
         ap(ch(0, "¿Qué tesis ilustra?", "Dos países que comercian mucho entre sí se vuelven dependientes uno del otro y les conviene no hacerse la guerra.", "el dulce comercio",
            ["el dulce comercio", "la teoría de los climas", "el principio del honor"], "*Del espíritu de las leyes* XX 2: «el efecto natural del comercio es llevar a la paz».")),
-        ap(ch(0, "¿Qué recurso usa?", "En las *Cartas persas*, Usbek se escandaliza de que el rey de Francia haga creer a sus súbditos que un papel vale como dinero.", "la mirada extranjera que vuelve raro lo propio",
+        ap(ch(0, "¿Qué recurso usa?", "En las *Cartas persas* (carta 24), Rica se asombra de que el rey de Francia haga creer a sus súbditos que un papel vale como dinero.", "la mirada extranjera que vuelve raro lo propio",
            ["la mirada extranjera que vuelve raro lo propio", "la duda metódica", "el estado de naturaleza"], "El persa ve como magia lo que para el francés es costumbre: la técnica que también usa Voltaire (semana 58).")),
         # parte 1 — Rousseau: el estado de naturaleza
         ch(1, "Elegí.", "¿Qué preguntó la Academia de Dijon en 1753?", "cuál es el origen de la desigualdad entre los hombres y si la autoriza la ley natural",
@@ -311,7 +311,7 @@ WEEK = {
         # parte 2 — la historia de la desigualdad
         ch(2, "¿Quién lo dijo?", "«El primero que, después de cercar un terreno, se le ocurrió decir *esto es mío* y encontró gente lo bastante simple para creerle, fue el verdadero fundador de la sociedad civil.»", "Rousseau",
            ["Rousseau", "Locke", "Marx"], "*Discurso*, comienzo de la segunda parte. Locke (semana 54) funda la propiedad en el trabajo; Marx (semana 73) va a hablar de la «acumulación originaria»."),
-        ty(2, "Escribí las dos palabras.", "Para el poeta, lo que civilizó a los hombres fueron el oro y la plata; para el filósofo, el hierro y el ___.", "trigo",
+        ty(2, "Escribí la palabra.", "Para el poeta, lo que civilizó a los hombres fueron el oro y la plata; para el filósofo, el hierro y el ___.", "trigo",
            [], "*Discurso*, segunda parte: la metalurgia y la agricultura, «las dos artes» de la gran revolución."),
         ap(ch(2, "¿Cuál es la conclusión de Rousseau?", "Los hombres empiezan a reunirse, cada uno quiere ser mirado, el más hábil o el más lindo es preferido.", "ese es el primer paso hacia la desigualdad y hacia el vicio",
            ["ese es el primer paso hacia la desigualdad y hacia el vicio", "así nace la virtud cívica", "así se funda la propiedad"], "*Discurso*, segunda parte: la estima pública tiene un precio y nacen la vanidad, el desprecio, la vergüenza y la envidia.")),
@@ -337,7 +337,7 @@ WEEK = {
            ["que la sociedad, no la naturaleza, corrompe y oprime", "que el clima decide el carácter", "que la monarquía vive del honor"], "Voltaire se burló de Rousseau, pero su cuento usa el mismo recurso: el «natural» como juez de la civilización. Y el giro final (el hurón resulta hijo de franceses) muestra que lo decisivo fue la crianza.")),
         ap(ch(0, "¿Qué tesis ilustran?", "En las *Cartas persas*, los trogloditas se destruyen porque cada uno piensa solo en sí; sobreviven las dos familias que practican la justicia.", "que sin virtud no hay vida común posible",
            ["que sin virtud no hay vida común posible", "que el clima determina el carácter", "que el hombre natural es solitario"], "Cartas 11-14: Usbek contesta con una fábula a la pregunta de si los hombres son felices por el placer o por la virtud. Anticipa el «principio» de la república.")),
-        ap(ch(2, "¿Qué compara la tabla, en el fondo?", "Montesquieu explica las leyes por el clima, el comercio y las costumbres; Rousseau, la desigualdad por la propiedad y el amor propio.", "dos explicaciones de las instituciones por causas, no por la voluntad de Dios",
+        ap(ch(2, "¿Qué tienen en común?", "Montesquieu explica las leyes por el clima, el comercio y las costumbres; Rousseau, la desigualdad por la propiedad y el amor propio.", "dos explicaciones de las instituciones por causas, no por la voluntad de Dios",
            ["dos explicaciones de las instituciones por causas, no por la voluntad de Dios", "dos defensas del despotismo", "dos teorías del contrato idénticas"], "Los dos buscan las causas naturales e históricas de lo social: es el gesto ilustrado. Rousseau agrega la pregunta por la legitimidad.")),
     ],
     "seminario": seminario(
