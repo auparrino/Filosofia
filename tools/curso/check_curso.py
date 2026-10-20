@@ -44,8 +44,9 @@ for ed in build_course.EDITIONS:
         err(ed, "%s no está al día con tools/curso: corré npm run build" % os.path.relpath(path, ROOT))
 
 seen_vocab = {}
-for w in curso.WEEKS:
+for w in curso.WRITTEN:
     check_week(w, err, seen_vocab)
+waiting = [w["week"] for w in curso.WRITTEN if w not in curso.WEEKS]
 
 # what is seen of the app does not say La Via
 OLD = re.compile(r"La Via|Rumo C1|Weg C1|\bC1\b|[Ii]talian|[Pp]ortugu|[Aa]lemán")
@@ -101,5 +102,7 @@ if errors:
     print("\n".join("FAIL " + e for e in errors))
     print("✗ curso: %d problemas" % len(errors))
     sys.exit(1)
+if waiting:
+    print("· escritas que esperan a una anterior: %s" % waiting)
 print("✓ curso: %d semanas, %d ejercicios, %d conceptos, %d obras literarias (%d argentinas o latinoamericanas), la marca limpia"
       % (len(curso.WEEKS), n_items, len(seen_vocab), n_obras, n_arg))

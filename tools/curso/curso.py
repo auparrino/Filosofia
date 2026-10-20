@@ -62,8 +62,10 @@ def season_of(week):
 
 
 def _load():
-    """The authored weeks (semanas/wNN.py): every week of the syllabus that
-    is not an exam, in order from week 1, as far as they are written."""
+    """The authored weeks (semanas/wNN.py).  WEEKS: those that go in the
+    course, every week of the syllabus that is not an exam, in order from
+    week 1 and up to the first that is not written yet; WRITTEN: all the
+    written ones (the ones after a gap are checked too, but they wait)."""
     weeks = {}
     for f in sorted(glob.glob(os.path.join(HERE, "semanas", "w[0-9][0-9]*.py"))):
         spec = importlib.util.spec_from_file_location("semana_" + os.path.basename(f)[:-3], f)
@@ -77,10 +79,7 @@ def _load():
         if t["n"] not in weeks:
             break
         out.append(weeks[t["n"]])
-    extra = sorted(set(weeks) - {w["week"] for w in out})
-    if extra:
-        raise SystemExit("hay semanas escritas después de un hueco (falta una anterior): %s" % extra)
-    return out
+    return out, [weeks[n] for n in sorted(weeks)]
 
 
-WEEKS = _load()
+WEEKS, WRITTEN = _load()

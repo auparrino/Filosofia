@@ -184,6 +184,9 @@ def main():
             json.dump(course, f, ensure_ascii=False, separators=(",", ":"))
             f.write("\n")
         print("%s: %d semanas, %d ejercicios" % (os.path.relpath(out, ROOT), len(course["weeks"]), len(course["items"])))
+    waiting = [w["week"] for w in curso.WRITTEN if w not in curso.WEEKS]
+    if waiting:
+        print("  escritas que esperan a una anterior (falta una semana antes): %s" % waiting)
 
 
 if __name__ == "__main__":
