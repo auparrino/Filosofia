@@ -256,3 +256,22 @@ edición cotejada.
   - el «huevo que empolló Lutero» de Erasmo;
   - Busenbaum (1650) y la fórmula del fin y los medios.
 - **Mayo de 1810:** el lugar de Suárez se presenta como debate abierto.
+
+## Semanas 36, 37 y 38
+
+- **Capítulos:**
+  - *De ente et essentia* cap. 4 (en algunas ediciones, 5);
+  - *Ciudad de las damas* I 27;
+  - *Suma de lógica* I 64;
+  - la navaja en *Ordinatio* I, d. 30, q. 1;
+  - Buridán, *Cuestiones sobre la Física* VIII, sin número de cuestión.
+- **Eckhart, citas sin cotejar:**
+  - «le pedimos a Dios que nos libre de Dios» (Sermón 52);
+  - «el ojo con el que veo a Dios…» (Sermón 12).
+- **Atribuciones marcadas como tradición:**
+  - «entia non sunt multiplicanda», de John Punch (1639);
+  - el «buey mudo» y la «paja» de Tomás;
+  - Escoto, *Ordinatio* III, d. 37;
+  - la lectura de Villey sobre Ockham.
+- **Traducciones del seminario:** hechas de memoria del latín; en Ockham, I
+  15, conviene cotejar el orden de los argumentos.
