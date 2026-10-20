@@ -14,9 +14,10 @@ después vienen el italiano, el portugués y el alemán.
   la historia y de la religión, antropología filosófica, hermenéutica y
   pensamiento argentino y latinoamericano.
 
-> **En construcción.** El temario está entero (`tools/curso/temario.py`) y
-> las semanas se van escribiendo. Aparecen en la app a medida que están
-> listas. El plan está en [PLAN.md](PLAN.md).
+> **Las 117 semanas están escritas:** 5691 ejercicios, 1748 conceptos, un
+> seminario y dos dilemas por semana. Las citas y fechas que hay que revisar
+> a mano están en [REVISAR.md](REVISAR.md), y lo que sigue, en
+> [PLAN.md](PLAN.md).
 
 ## Cómo se juega
 

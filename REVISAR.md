@@ -393,3 +393,10 @@ edición cotejada.
 - **Arendt:** «donde todos son culpables, nadie lo es», atribuida a «Responsabilidad personal bajo una dictadura» (1964); Anton Schmid, sin capítulo. Las de la posdata, la carta a Scholem (24/7/1963) y la entrevista con Fest (1964), con bastante seguridad.
 - **Datos argentinos:** la Penitenciaría Nacional de Las Heras (1877, planta radial, demolida en 1962); la ley de cupo 24.012 como «de las primeras del mundo»; las cifras del CONICET del texto modelo.
 - **Otras:** «segunda ola» en el artículo de Martha Weinman Lear (1968); «Hombres necios» en *Inundación castálida* (1689); Agustín, *La ciudad de Dios* XII 21 (la numeración cambia según la edición); que *Imposturas intelectuales* casi no trata a Foucault ni a Derrida.
+
+## Semanas 111-113
+
+- **Rodó,** la nordomanía en la parte V de *Ariel*. **Korn,** el «positivismo autóctono», «según su lectura». **Astrada:** la dispersión de Fierro y sus hijos, resumida; «figura central» del Congreso de Mendoza de 1949. **Kusch,** la fagocitación en la «última parte» de *América profunda*. **Bunge,** «no hay física argentina», resumen de su posición.
+- **Wiredu,** el *cogito* en akan («estar ahí, en algún lugar»), sin verificar. **Senghor,** «La emoción es negra…», en «Ce que l'homme noir apporte» (*L'homme de couleur*, 1939). **Soyinka,** la «tigritud», atribuida. **Mbiti,** «soy porque somos», sin capítulo. **Tempels,** el ser como fuerza en el cap. 3. **Menkiti,** el «eso» para los chicos y los muertos, en resumen.
+- **Freire,** cap. 2 según la traducción habitual («mediatizados por el mundo»); «la educación no cambia el mundo…», como de fuente dudosa. **Hatata,** autoría discutida.
+- **Posibles cruces de conceptos:** «colonialidad del poder» (111) y «colonialidad del género» (110); «justicia restaurativa» (113).

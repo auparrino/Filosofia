@@ -13,7 +13,7 @@
 | 7 | El motor sin 52 semanas: un examen cada 13 y el final en la última | **hecho** |
 | 8 | El seminario semanal, los dilemas y la tarjeta de literatura (`docs/js/seminario.js`) | **hecho** |
 | 9 | Ocho épocas en la estética | **hecho** (§3) |
-| 10 | El contenido: 108 semanas de contenido (las 9 de examen se arman solas) | **en curso** |
+| 10 | El contenido: 108 semanas de contenido (las 9 de examen se arman solas) | **hecho**: 5691 ejercicios, 1748 conceptos; falta revisar a mano `REVISAR.md` |
 | 11 | Limpiar el núcleo: sacar los módulos de idioma, renombrar los modos y pasar los errores a malentendidos | pendiente (§6) |
 | 12 | Ejercicios nuevos: relacioná, tabla de verdad, la premisa floja | pendiente |
 | 13 | Ediciones it y pt desde la misma fuente, con un test de paridad; después de | pendiente |
@@ -47,7 +47,8 @@ cada semana. Una semana tiene:
 Las semanas se escriben en paralelo, por estación. Cada una se valida sola,
 y después `npm test` y `npm run sim` controlan el curso entero. Lo que
 queda por revisar a mano son las citas, las fechas y las referencias: los
-agentes que escriben anotan las que no pudieron verificar.
+agentes que escriben anotan las que no pudieron verificar, en
+`REVISAR.md`.
 
 ## 2. El temario: 117 semanas
 
