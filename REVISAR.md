@@ -377,3 +377,12 @@ edición cotejada.
 - **Datos dados por seguros sin verificar:** que Rawls ve el velo implícito en Kant (§ 24); el libro de la biblioteca como ejemplo de Dancy; Nozick, *La vida examinada* (1989), su libertarismo «seriamente inadecuado»; la retractación de Thomson en «Turning the Trolley» (2008).
 - **MacIntyre (1929-2025):** confirmar la fecha de muerte.
 - **«Ética de las virtudes»:** la 106 la tiene como «(neoaristotélica)» y la 115 sin calificador; ver si conviene dejar el concepto solo en la 106.
+
+## Semanas 114-116
+
+- **Nagarjuna,** *Versos fundamentales*: numeración usual (XXIV 8-10, 14, 18-19; XIII 8; I 1 después del homenaje); algunas ediciones numeran distinto el capítulo I.
+- **Wang Yangming** (el bambú, las flores del acantilado, «saber y no actuar»): en resumen, sin sección del *Chuanxi lu*. «Cuando el alumno está listo, el maestro aparece», rastreada a la literatura teosófica sin fuente segura. Las mesas redondas de la Escuela de Kioto (1941-1942), sin verificar.
+- **Casos argentinos:** Sandra (2014-2015) y Cecilia (2016), fechas de memoria; el reconocimiento facial porteño suspendido en 2022, con cautela.
+- **Singer:** «3.000 dólares, más o menos una vida», estimación aproximada en la línea de GiveWell.
+- ***Frankenstein*,** cap. 10 según la edición de 1831. Tolstói, la fábula de *Confesión*, cap. IV. Los puentes de Moses, como caso discutido.
+- **Nagel,** «Lo absurdo»: la última frase va traducida por nosotros (unas 40 palabras).
