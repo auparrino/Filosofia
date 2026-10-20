@@ -355,3 +355,10 @@ edición cotejada.
 - **Neurath,** «hay que callar, pero no sobre algo»: sin fuente exacta, va en resumen.
 - **Anécdotas:** Wittgenstein leyendo a Tagore de espaldas al Círculo (autobiografía de Carnap); los hechos negativos y el «casi tumulto» en Harvard (*La filosofía del atomismo lógico*, conferencia III); el barbero (conferencia VII).
 - **Russell,** «nunca moriría por mis creencias», como atribución dudosa. **Ramsey,** «paradigma de la filosofía», en una nota de *Filosofía* (1929).
+
+## Semanas 88-90
+
+- **Traducciones propias de citas cortas** (Adorno, Horkheimer, Marcuse, Habermas, Gadamer, Ricoeur, Austin): cotejar sobre todo «la tierra enteramente ilustrada resplandece bajo el signo de una calamidad triunfal», «el ser que puede ser comprendido es lenguaje» y el lenguaje ordinario como «la primera palabra» de Austin.
+- ***Investigaciones filosóficas*,** parágrafos citados de memoria: §§ 31, 38, 40, 89, 98, 109, 124, 133, 199, 202, 217, 241, 244, 246, 258, 304, 307, 309 y 580.
+- **Benjamin,** el freno de emergencia (notas preparatorias de las tesis), en resumen. **Habermas,** el principio D en *Conciencia moral y acción comunicativa* (1983). **Marcuse,** «falta de libertad cómoda…», resumen de la primera oración de *El hombre unidimensional*.
+- **Gadamer y Wittgenstein:** el «parentesco» va en general, sin cita.
