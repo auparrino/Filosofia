@@ -342,3 +342,9 @@ edición cotejada.
 - **Einstein y Bergson (1922),** parafraseado; «el asceta de la vida» de Scheler, como expresión dentro de un resumen.
 - **Merleau-Ponty,** «yo puedo» en *Fenomenología de la percepción*, primera parte, cap. III: capítulo sin verificar.
 - **Beauvoir:** la primera traducción castellana (Buenos Aires, Siglo Veinte, 1954, Pablo Palant) y la prohibición en la España de Franco, de memoria; Freud, «la anatomía es el destino», en *El sepultamiento del complejo de Edipo* (1924); revisar los nombres de Simons y Fullbrook en el debate sobre la influencia en Sartre.
+
+## Semanas 82-84
+
+- **Russell y Papá Noel** (crítica a James), resumen citado a *Historia de la filosofía occidental*, sin cotejar. «El mayor descubrimiento de mi generación…», marcada como apócrifa de James; «la educación no es preparación para la vida…», como paráfrasis de *Mi credo pedagógico*.
+- **Husserl:** el seminario (*Meditaciones cartesianas* §§ 8, 14 y 15) está reconstruido de memoria y rotulado «en partes resumida»; que la reseña de Frege «convirtió» a Husserl, como discutido.
+- **Heidegger,** *Ser y tiempo* § 16: los nombres de los tres modos de la falla (llamativo, apremiante, rebelde) son traducción nuestra. Que Carlos Astrada asistió a los cursos de Heidegger (1927-1931), sin verificar.
