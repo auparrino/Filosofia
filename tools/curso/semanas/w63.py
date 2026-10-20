@@ -331,8 +331,8 @@ WEEK = {
         # parte 2 — la dialéctica
         ch(2, "¿Quién lo dijo?", "«La razón humana tiene el singular destino de verse agobiada por preguntas que no puede rechazar, pero que tampoco puede contestar.»", "Kant",
            ["Kant", "Pascal", "Montaigne"], "Kant, *Crítica de la razón pura*, primera frase del prólogo de 1781 (A VII). Pascal y Montaigne humillan a la razón; Kant la examina."),
-        ch(2, "¿Quién lo dijo?", "«Ser no es, evidentemente, un predicado real.»", "Kant",
-           ["Kant", "Hume", "Gassendi"], "Kant, *Crítica de la razón pura* A598/B626. Gassendi había objetado algo parecido a Descartes (*Quintas objeciones*), pero la fórmula es de Kant."),
+        cz(2, "Completá la objeción de Kant al argumento ontológico.", "«Ser no es, evidentemente, un predicado ___.» (*Crítica de la razón pura* A598/B626)", "real",
+           None, "Un predicado real agrega algo al concepto de la cosa; «existe» no le agrega nada: cien táleros reales no contienen más que cien posibles. Gassendi había objetado algo parecido a Descartes (*Quintas objeciones*), pero la fórmula es de Kant."),
         ch(2, "¿Quién lo dijo?", "«Tuve que suprimir el saber para dejar lugar a la fe.»", "Kant",
            ["Kant", "Tertuliano", "Pascal"], "Kant, prólogo a la segunda edición, B XXX. A Tertuliano se le atribuye el apócrifo «creo porque es absurdo» (semana 27)."),
         ch(2, "Elegí.", "La razón, para Kant, es la facultad que busca…", "lo incondicionado: la condición de todas las condiciones",
