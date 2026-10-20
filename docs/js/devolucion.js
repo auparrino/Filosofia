@@ -44,8 +44,8 @@
 
   function data() { return root.DEVOLUCION_DATA || {}; }
   function groups() {
-    var D = root.Diagnosi, L = root.LANG;
-    return (D && D.GROUPS) || (L && L.diagGroups) || {};
+    var L = root.LANG;
+    return (L && L.diagGroups) || {};
   }
 
   /* ---------------------------------------------------------- palabras */
@@ -220,7 +220,7 @@
   function retryNote(it) {
     if (!it || !it.note) return "";
     var answers = [it.answer].concat(it.accept || []);
-    var heard = it.say || (it.frase && (it.type === "listen" || it.type === "dictation") ? it.frase.it : "");
+    var heard = it.say || "";
     if (heard) answers.push(heard);
     var out = maskNote(it.note, answers, heard ? "" : it.stem);
     var right = {};

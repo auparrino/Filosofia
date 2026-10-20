@@ -14,22 +14,18 @@
  * El nivel: la cobertura léxica, el porcentaje de palabras del texto que el
  * alumno probablemente ya conoce en la semana N (Hu y Nation 2000: con 95 %
  * se lee con ayuda, con 98 % solo).  Una palabra se da por conocida en la
- * semana N si es una palabra gramatical, si el curso la enseñó antes de esa
- * semana (glosario), si su lema está entre los 100·N más frecuentes
- * (data/frequenza.json), o si es un cognado transparente (el glosario la
- * traduce con casi la misma palabra —Desglose.transparent— o tiene un sufijo
- * que un hispanohablante lee solo: -ção, -zione, -dade, -ità…).  La
- * autoevaluación al final de cada capítulo («¿Entendiste lo esencial?»)
- * corre esa semana hacia adelante o hacia atrás.
+ * semana N si es una palabra gramatical o un cognado transparente (un
+ * sufijo que un hispanohablante lee solo); la semana de cada palabra la
+ * calcula la herramienta que arma el libro.  La autoevaluación al final de
+ * cada capítulo («¿Entendiste lo esencial?») corre esa semana hacia
+ * adelante o hacia atrás.
  *
- * El lector: páginas cómodas en el teléfono, tocar una palabra da su
- * significado (glosario; si no está, el lema con su frecuencia y el
- * desglose de la forma verbal) y «📌 al repaso» la convierte en tarjeta
- * (la del curso «v:», la del banco «b:voc:» o una propia «lib:»); guarda
- * dónde quedaste, marca capítulos leídos y cuenta palabras y minutos de
- * lectura por día («input» en el perfil), con xp moderada solo por páginas
- * a las que se les dedicó el tiempo mínimo de leerlas.  «Leer en voz alta»
- * usa el karaoke de las lecturas (escucha, no producción oral).
+ * El lector: páginas cómodas en el teléfono, tocar una palabra y «📌 al
+ * repaso» la convierte en tarjeta (la del curso «v:» o una propia «lib:»,
+ * con el significado que escribe el alumno); guarda dónde quedaste, marca
+ * capítulos leídos y cuenta palabras y minutos de lectura por día («input»
+ * en el perfil), con xp moderada solo por páginas a las que se les dedicó
+ * el tiempo mínimo de leerlas.
  *
  * La lógica (páginas, cobertura, estadísticas, recomendación, tarjetas)
  * no toca el DOM: se prueba en node (tools/lib/test_biblioteca.js).  La
@@ -108,8 +104,9 @@
 
   function strip(s) { return String(s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, ""); }
 
-  /* The model of what a learner of week N knows.  o: { lemmi (frequenza.json),
-     gloss (glossario.json), stop (FREQ_DATA.STOP), lemma(w), tokens(text),
+  /* The model of what a learner of week N knows.  o: { lemmi (a frequency
+     list: lemma → [zipf, zipf]), gloss (word → [lemma, meaning, week]),
+     stop (the function words), lemma(w), tokens(text),
      transparent(w, es), cognates: [regex], stems: [[regex, reemplazo]]
      (plural, femenino, diminutivos, clíticos: BIBLIO_DATA.stems), verbs:
      {forma: [infinitivos]} (the conjugator backwards: the build tool has
@@ -444,13 +441,12 @@
   /* ------------------------------------------------------ las tarjetas */
 
   /* 📌 al repaso: the course's own card for the word when there is one
-     (v: the words of the weeks, b:voc: the bank), otherwise a card of the
-     library (lib:) with the meaning and the sentence where it was met. */
+     (v: the concepts of the weeks), otherwise a card of the library (lib:)
+     with the meaning and the sentence where it was met. */
   function cardIdFor(lemma, env) {
     env = env || {};
-    var D = env.Drills || root.Drills, B = env.Banca || root.Banca;
+    var D = env.Drills || root.Drills;
     try { if (D && D.vocabItem && D.vocabItem(lemma, null)) return "v:" + lemma; } catch (e) { /* sin curso */ }
-    if (B && B.loaded && B.loaded() && B.hasWord(lemma)) return "b:voc:" + lemma;
     return "lib:" + lemma;
   }
   function pin(state, word, env) {
@@ -472,17 +468,6 @@
     for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(rnd() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t; }
     return a;
   }
-  // Meanings of the course's glossary, for the options of a lib: card.
-  var POOL = null;
-  function glossPool() {
-    if (POOL) return POOL;
-    var g = DATA.gloss || (H && H.glossary && H.glossary());
-    if (!g) return [];
-    var seen = {};
-    POOL = Object.keys(g).slice(0, 4000).map(function (k) { return g[k][1]; })
-      .filter(function (x) { if (!x || x.length >= 40 || seen[x]) return false; seen[x] = 1; return true; }).slice(0, 400);
-    return POOL;
-  }
   /* The review item of a lib: card, like the words of the week: first the
      meaning among options, then the word from its meaning. */
   function reviewItem(id, state, rnd) {
@@ -494,9 +479,8 @@
     if (!card || !(card.ok >= 1)) {
       var pool = Object.keys(b.words).filter(function (k) { return k !== lemma && b.words[k].es !== e.es; })
         .map(function (k) { return b.words[k].es; });
-      var G = glossPool();
       var opts = [e.es];
-      shuffle(pool, rnd).concat(shuffle(G, rnd)).forEach(function (x) { if (opts.length < 4 && opts.indexOf(x) < 0) opts.push(x); });
+      shuffle(pool, rnd).forEach(function (x) { if (opts.length < 4 && opts.indexOf(x) < 0) opts.push(x); });
       if (opts.length >= 3) {
         return { id: id, src: "biblio", type: "choice", topic: "vocabolario", prompt: "¿Qué significa?",
                  stem: lemma, options: shuffle(opts, rnd), answer: e.es, accept: [e.es], note: note, say: lemma };
@@ -508,7 +492,7 @@
 
   /* --------------------------------------------------------- los datos */
 
-  var DATA = { index: null, books: {}, model: null, gloss: null, freq: null, loading: {} };
+  var DATA = { index: null, books: {}, model: null, loading: {} };
   function base() { return ((root.LANG && root.LANG.base) || "") ; }
   function getJSON(url) {
     return root.fetch(url).then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); });
@@ -527,34 +511,17 @@
   function loadBook(id) {
     return DATA.books[id] ? Promise.resolve(DATA.books[id]) : load("b:" + id, base() + "biblioteca/" + id + ".json", function (x) { DATA.books[id] = x; });
   }
-  function makeModel(freq, gloss) {
-    var F = root.Freq, De = root.Desglose;
-    if (F && freq && !F.loaded()) F.load(freq);
-    return new Model({
-      lemmi: freq && freq.lemmi, gloss: gloss, stop: (root.FREQ_DATA && root.FREQ_DATA.STOP) || (F && F.STOP) || [],
-      lemma: F && F.loaded() ? F.lemma : null, tokens: F ? F.tokens : null,
-      transparent: De && De.transparent, cognates: BD.cognates || []
-    });
+  function makeModel() {
+    return new Model({ stop: [], cognates: BD.cognates || [] });
   }
   function loadModel() {
-    if (DATA.model) return Promise.resolve(DATA.model);
-    // what the app already has in memory is not downloaded again
-    var hg = H && H.glossary && H.glossary(), hf = H && H.freq && H.freq();
-    if (hg) DATA.gloss = hg;
-    if (hf) DATA.freq = hf;
-    return Promise.all([
-      DATA.freq ? null : load("freq", base() + "data/frequenza.json", function (x) { DATA.freq = x; }),
-      DATA.gloss ? null : load("gloss", base() + "data/glossario.json", function (x) { DATA.gloss = x; })
-    ]).then(function () {
-      DATA.model = makeModel(DATA.freq, DATA.gloss);
-      return DATA.model;
-    });
+    if (!DATA.model) DATA.model = makeModel();
+    return Promise.resolve(DATA.model);
   }
   // For the tests and tools: data given directly.
   function setData(d) {
     if (d.index) DATA.index = d.index;
     Object.keys(d.books || {}).forEach(function (k) { DATA.books[k] = d.books[k]; });
-    if (d.freq || d.gloss) { DATA.freq = d.freq || DATA.freq; DATA.gloss = d.gloss || DATA.gloss; DATA.model = makeModel(DATA.freq, DATA.gloss); }
   }
 
   /* --------------------------------------------------------- la interfaz */
@@ -685,8 +652,7 @@
   // with the same model as the coverage): 1 when the book does not list it.
   function wordWeek(book, w) { return (book && book.wk && book.wk[w]) || 1; }
   function toks(t) {
-    var F = root.Freq;
-    return F && F.tokens ? F.tokens(t) : (String(t).toLowerCase().match(/[a-zà-öø-ÿ']+/g) || []);
+    return String(t).toLowerCase().match(/[a-zà-öø-ÿ']+/g) || [];
   }
   function tokenSpans(par, k0, book) {
     var i = k0, W = /[A-Za-zÀ-ÖØ-öø-ÿ]/;
@@ -738,8 +704,7 @@
       '<div class="bx-nav"><button class="btn ghost" id="bx-prev"' + (reading.pg || chN ? "" : " disabled") + ">←</button>" +
         (last ? '<button class="btn" id="bx-end">Terminé el ' + (bk && bk.kind === "cuentos" ? "texto" : "capítulo") + " ✓</button>"
               : '<button class="btn" id="bx-next">Siguiente →</button>') + "</div>" +
-      '<div class="bx-tools"><button class="tab" id="bx-kar">🎧 Leer en voz alta</button>' +
-        '<button class="tab' + (b.under ? " on" : "") + '" id="bx-under">subrayar difíciles</button>' +
+      '<div class="bx-tools"><button class="tab' + (b.under ? " on" : "") + '" id="bx-under">subrayar difíciles</button>' +
         '<button class="tab" id="bx-smaller">A−</button><button class="tab" id="bx-bigger">A+</button>' +
         '<button class="tab' + (b.serif ? " on" : "") + '" id="bx-serif">letra de libro</button></div>' +
       '<p class="muted small">Tocá cualquier palabra para ver qué significa.' + (b.under ? ' Las <span class="w bx-new">subrayadas</span> probablemente no las conocés todavía.' : "") + "</p>";
@@ -772,35 +737,15 @@
   }
 
   function lookup(raw) {
-    var model = DATA.model, F = root.Freq, gloss = DATA.gloss || {};
-    var toks = F ? F.tokens(raw) : [String(raw).toLowerCase()];
-    var w = toks.filter(function (x) { return !(model && model.stop[x]); }).pop() || toks[toks.length - 1] || "";
-    // the lemma: the glossary's, else the first candidate the frequency
-    // list knows (tutti → tutto, casinhas → casa, domandò → domandare)
+    var model = DATA.model, ws = toks(raw);
+    var w = ws.filter(function (x) { return !(model && model.stop[x]); }).pop() || ws[ws.length - 1] || "";
+    // the lemma: the first candidate the model knows (plural, diminutive…)
     var cands = model ? model.lemmas(w) : [w];
-    var g = gloss[w], lemma = g ? g[0] : null;
-    if (!lemma) cands.some(function (c) { if (gloss[c]) { lemma = gloss[c][0]; return true; } return false; });
-    if (!lemma && model) cands.some(function (c) { if (model.rank[c]) { lemma = c; return true; } return false; });
-    // the bank of the course also knows meanings (its nouns, verbs, adjectives)
-    var Bk = root.Banca, bankEs = function (l) {
-      if (!Bk || !Bk.loaded || !Bk.loaded() || !Bk.hasWord(l)) return "";
-      try { var it = Bk.vocabSessionFor({ cards: {} }, [l], 1)[0]; return it && it.type === "choice" ? it.answer : ""; } catch (e) { return ""; }
-    };
-    if (!lemma) cands.some(function (c) { if (bankEs(c)) { lemma = c; return true; } return false; });
-    lemma = lemma || w;
-    var gl = gloss[lemma];
-    var es = g ? g[1] : gl ? gl[1] : bankEs(lemma);
-    var info = F && F.loaded() ? (F.info(w) || F.info(lemma)) : null;
-    var lines = [];
-    try { if (root.Desglose) lines = root.Desglose.lines(w, { gloss: gloss }); } catch (e) { lines = []; }
+    var lemma = null;
+    if (model) cands.some(function (c) { if (model.rank[c]) { lemma = c; return true; } return false; });
     var book = reading && DATA.books[reading.book];
-    return { w: w, lemma: lemma, es: es, level: info ? info[2] : "", zipf: info ? Math.max(info[0], info[1]) : 0,
-             week: book ? wordWeek(book, w) : model ? model.week(w) : 99, lines: lines };
+    return { w: w, lemma: lemma || w, es: "", week: book ? wordWeek(book, w) : model ? model.week(w) : 99 };
   }
-  function freqWord(z) {
-    return !z ? "muy rara (no está en la lista de frecuencias)" : z >= 5 ? "muy frecuente" : z >= 4 ? "frecuente" : z >= 3 ? "poco frecuente" : "rara";
-  }
-  function mk(s) { return esc(s).replace(/\*([^*]+)\*/g, "<i>$1</i>"); }
 
   function showWord(k) {
     var doc = root.document, raw = tapWords[k];
@@ -812,9 +757,7 @@
     var s = st(), id = cardIdFor(x.lemma), has = !!(s.cards && s.cards[id]);
     box.innerHTML = '<p class="it"><b>' + esc(x.w) + "</b>" + (x.lemma && x.lemma !== x.w ? ' <span class="muted">(de <i>' + esc(x.lemma) + "</i>)</span>" : "") +
       ' <button class="tab" id="bx-say" aria-label="escuchar">🔊</button></p>' +
-      (x.es ? '<p class="bx-es">' + esc(x.es) + "</p>" : '<p class="muted small">No está en el glosario del curso.</p>') +
-      (x.lines.length ? '<p class="small">' + x.lines.map(mk).join("<br>") + "</p>" : "") +
-      '<p class="muted small">Palabra ' + freqWord(x.zipf) + (x.level ? " · nivel " + esc(x.level) : "") + "</p>" +
+      (x.es ? '<p class="bx-es">' + esc(x.es) + "</p>" : "") +
       (has ? '<p class="small">📌 Ya está en tu repaso.</p>' :
         (x.es || id.indexOf("lib:") !== 0 ? '<button class="btn" id="bx-pin">📌 al repaso</button>' :
           '<div class="typed"><input id="bx-mine" maxlength="60" placeholder="¿qué creés que significa?"><button class="tab" id="bx-pin">📌 al repaso</button></div>')) +
@@ -845,7 +788,6 @@
       if (r.counted && r.xp && H) { H.gain(r.xp); if (H.strand) H.strand(r.xp); }
       if (!r.counted && r.why === "fast" && H && !warnedFast++) H.toast("Esa página fue muy rápida: no la cuento como leída.", 1800);
     }
-    if (H && H.karaoke) H.karaoke.stop();
   }
 
   function go(view, screen) {
@@ -921,20 +863,6 @@
     on("bx-serif", function () { b.serif = !b.serif; if (H) H.persist(); view.bxPg = reading.pg; go(view, "lector"); });
     on("bx-bigger", function () { b.size = Math.min(3, (b.size || 0) + 1); if (H) H.persist(); view.bxPg = reading.pg; go(view, "lector"); });
     on("bx-smaller", function () { b.size = Math.max(-1, (b.size || 0) - 1); if (H) H.persist(); view.bxPg = reading.pg; go(view, "lector"); });
-    on("bx-kar", function () {
-      if (!H || !H.karaoke) return;
-      var btn = doc.getElementById("bx-kar");
-      if (H.karaoke.playing()) { H.karaoke.stop(); if (btn) btn.textContent = "🎧 Leer en voz alta"; return; }
-      var page = reading.pages[reading.pg] || [];
-      var text = page.filter(function (p) { return !isBreak(p); }).map(function (p) { return isHeading(p) ? headingText(p) : p; }).join("\n");
-      if (btn) btn.textContent = "⏹ Parar";
-      H.karaoke.start({ id: "bx:" + reading.book, title: (bookById(reading.book) || {}).title || "", text: text }, 1, "full");
-      // back to «Leer en voz alta» when the page is over
-      var t = root.setInterval(function () {
-        var b2 = doc.getElementById("bx-kar");
-        if (!b2 || !H.karaoke.playing()) { root.clearInterval(t); if (b2) b2.textContent = "🎧 Leer en voz alta"; }
-      }, 800);
-    });
   }
 
   var api = {

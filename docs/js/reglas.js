@@ -6,9 +6,8 @@
  *    está enlazado al bloque de teoría que lo explica (Porque.blockFor).
  *    Contestar un ejercicio abre o alimenta la ficha de su regla, una vez
  *    por día; cuando la ficha vence, el repaso no repite la oración de
- *    siempre: pide una oración NUEVA con esa regla, del banco (con toda su
- *    gramática ya enseñada: Banca.sentenceOk) o, si el banco no tiene,
- *    otro ejercicio del curso del mismo bloque, escrito y el menos visto.
+ *    siempre: pide otro ejercicio del curso del mismo bloque, escrito y el
+ *    menos visto.
  *    La retención larga de la gramática pide reaprendizaje espaciado en
  *    producción y sobre material nuevo (Rawson & Dunlosky 2022; Serfaty &
  *    Serrano 2024; Loewen et al. 2019).
@@ -20,13 +19,10 @@
  *    escribió.
  *
  * 3. Transferencia por ítem (Engine.enqueue): el chequeo de la lección
- *    fallado, la pregunta de lectura fallada, el bloque del dictogloss que
- *    no salió, el hueco del C-test, vuelven mañana como ficha propia, y la
- *    Clínica abre con «tus errores de esta semana» (Metcalfe 2017).
+ *    fallado vuelve mañana como ficha propia (Metcalfe 2017).
  *
  * 4. Para las rondas: la sfida del día (seis preguntas escritas de reglas
- *    vencidas), las reglas de hace un mes o más en Dominala, la estructura
- *    del mes anterior en Scrivi, la escalera dentro de la ronda (un
+ *    vencidas), las reglas de hace un mes o más en Dominala, la escalera dentro de la ronda (un
  *    reconocimiento bien y rápido: lo siguiente de la misma regla, escrito;
  *    un escrito fallado: con opciones) y las fichas más frías para volver.
  *
@@ -39,22 +35,20 @@
  *   Reglas.isOld(item, state)                ¿una regla de hace un mes o más?
  *   Reglas.dailyItems(state, n) · oldItems(state, week, n)
  *   Reglas.coldest(state, n, known)          las fichas con menos chance de recuerdo
- *   Reglas.scriviExtra(state, week)          la estructura del mes anterior
  *   Reglas.adaptNext(round, item, q, fast)   la escalera dentro de la ronda
- *   Reglas.fromLesson / fromReading / fromDictogloss / fromCtest
- *   Reglas.ownItem(state, id) · ownRecent(state, n) · clinicIntro(state)
+ *   Reglas.fromLesson(state, week, q)        el chequeo fallado, mañana
+ *   Reglas.ownItem(state, id)
  */
 (function (root) {
   "use strict";
 
   var DAY = 86400000;
   function E() { return root.Engine; }
-  function Bk() { return root.Banca && root.Banca.loaded && root.Banca.loaded() ? root.Banca : null; }
 
   var COURSE = null, MAP = null;
-  var RULE = {}, BYWEEK = {}, BANK = null;
+  var RULE = {}, BYWEEK = {};
   function use(course, map) {
-    if (course && course !== COURSE) { COURSE = course; RULE = {}; BYWEEK = {}; BANK = null; }
+    if (course && course !== COURSE) { COURSE = course; RULE = {}; BYWEEK = {}; }
     if (map) MAP = map;
   }
 
@@ -69,11 +63,9 @@
 
   /* ------------------------------------------------------ la regla de un ítem */
 
-  var SKIP_SRC = { lettura: 1, lab: 1, vocab: 1, frasi: 1, coniugatore: 1, ascolto: 1, suoni: 1, esame: 1,
-                   lezione: 1, dictogloss: 1, ctest: 1 };
+  var SKIP_SRC = { vocab: 1, lezione: 1 };
   function eligible(it) {
-    return !!(it && it.id && !SKIP_SRC[it.src] && !it.frase && it.topic !== "esame" && it.type !== "hunt" &&
-              it.type !== "intro" && it.type !== "word" && it.type !== "card");
+    return !!(it && it.id && !SKIP_SRC[it.src] && it.type !== "word" && it.type !== "card");
   }
   function ruleOf(it) {
     if (!it) return null;
@@ -81,10 +73,10 @@
     if (!eligible(it) || !COURSE || !root.Porque) return null;
     if (RULE.hasOwnProperty(it.id)) return RULE[it.id];
     var base = MAP && MAP[it.id], r = null;
-    if (base || /^b:(gap|tr|err):/.test(it.id)) {
+    if (base) {
       var b = null;
-      try { b = root.Porque.blockFor(base || it, { course: COURSE, week: base ? base.week : undefined, unlocked: 999 }); } catch (e) { b = null; }
-      if (b && (base || b.sure)) r = "r:" + b.week + ":" + b.i;
+      try { b = root.Porque.blockFor(base, { course: COURSE, week: base.week, unlocked: 999 }); } catch (e) { b = null; }
+      if (b) r = "r:" + b.week + ":" + b.i;
     }
     RULE[it.id] = r;
     return r;
@@ -107,23 +99,9 @@
     }
     return BYWEEK[p.week][rule] || [];
   }
-  // The sentences of the bank a rule has (built once, the first time).
-  function bankOf(rule) {
-    var B = Bk();
-    if (!B || !COURSE || !root.Porque) return [];
-    if (!BANK) {
-      BANK = {};
-      ((B.bank() || {}).sentences || []).forEach(function (s, i) {
-        var it = B.gapItem(i) || B.translateItem(i), b = null;
-        try { b = root.Porque.blockFor(it, { course: COURSE, unlocked: 999 }); } catch (e) { b = null; }
-        if (b && b.sure) { var k = "r:" + b.week + ":" + b.i; (BANK[k] = BANK[k] || []).push(i); }
-      });
-    }
-    return BANK[rule] || [];
-  }
   // What the review of a rule can ask (a listening or a sound, never).
   function askable(id) { var it = MAP && MAP[id]; return !!it && it.type !== "listen" && !it.nopeek; }
-  function known(rule) { return courseOf(rule).some(askable) || bankOf(rule).length > 0; }
+  function known(rule) { return courseOf(rule).some(askable); }
 
   var TYPED = { cloze: 1, translate: 1, conjugate: 1, plural: 1, numbers: 1, qa: 1, typed: 1 };
   // Production proper: a sentence (or most of one) written, not a form.
@@ -132,33 +110,20 @@
     return !!(SENTENCE[it.type] || String(it.answer || "").trim().split(/\s+/).length >= 3);
   }
 
-  /* The review of a rule: a new sentence with it.  First a sentence of the
-     bank never met whose grammar is all taught; then an exercise of the
-     course of the same block, written and never written before (or the one
-     seen longest ago), never a listening. */
+  /* The review of a rule: an exercise of the course of the same block,
+     written and never written before (or the one seen longest ago), never
+     a listening. */
   function reviewItem(rule, state) {
     var p = parse(rule);
     if (!p) return null;
-    var cards = (state && state.cards) || {}, B = Bk(), out = null;
-    if (B && B.sentenceOk) {
-      var cands = bankOf(rule).filter(function (i) {
-        return !cards["b:gap:" + i] && !cards["b:tr:" + i] && (B.sentenceOk(i, state, "wg") || B.sentenceOk(i, state, "w"));
-      });
-      if (cands.length) {
-        var i = cands[Math.floor(Math.random() * cands.length)];
-        out = (B.sentenceOk(i, state, "wg") && B.gapItem(i)) || (B.sentenceOk(i, state, "w") ? B.translateItem(i) : null);
-        if (out) out.novel = true;
-      }
-    }
-    if (!out) {
-      var ids = courseOf(rule).filter(askable);
-      var rank = function (id) {
-        var it = MAP[id], c = cards[id];
-        return (TYPED[it.type] ? 0 : 4) + (c ? 1 + Math.min(0.99, (c.last || 0) / 1e13) : Math.random() * 0.5);
-      };
-      ids = ids.map(function (id) { return { id: id, r: rank(id) }; }).sort(function (a, b) { return a.r - b.r; });
-      if (ids.length) out = MAP[ids[0].id];
-    }
+    var cards = (state && state.cards) || {};
+    var ids = courseOf(rule).filter(askable);
+    var rank = function (id) {
+      var it = MAP[id], c = cards[id];
+      return (TYPED[it.type] ? 0 : 4) + (c ? 1 + Math.min(0.99, (c.last || 0) / 1e13) : Math.random() * 0.5);
+    };
+    ids = ids.map(function (id) { return { id: id, r: rank(id) }; }).sort(function (a, b) { return a.r - b.r; });
+    var out = ids.length ? MAP[ids[0].id] : null;
     if (!out) return null;
     var copy = {};
     Object.keys(out).forEach(function (k) { copy[k] = out[k]; });
@@ -219,10 +184,7 @@
     if (!state.cards) state.cards = {};
     var produced = o.produced != null ? !!o.produced : !it.recog && it.type !== "choice" && !it.options;
     var res = { card: false, rule: null };
-    // A question of a reading missed comes back tomorrow, with its text.
-    var own = String(it.id).indexOf("own:") === 0;
-    if (it.src === "lettura" && q < 2 && !it.nocard && !own && it.type === "choice" && !it.retry) fromReading(state, it, now);
-    if (it.src !== "coniugatore" && (it.src !== "lettura" || own) && !it.nocard) {
+    if (!it.nocard) {
       var had = !!state.cards[it.id], isCourse = !!(MAP && MAP[it.id]);
       // F4: in the rounds, an exercise of the course right at first makes a
       // card only when it was real production (a sentence written, not a
@@ -240,8 +202,7 @@
         state.recog[it.id] = Math.round(now / 60000);
       }
       if (!skip) {
-        var light = produced && !it.frase && it.src !== "vocab" && it.src !== "lab" && it.src !== "banca" &&
-                    !it.retry && !it.ruleReview && !!LIGHT[o.kind];
+        var light = produced && it.src !== "vocab" && !it.retry && !it.ruleReview && !!LIGHT[o.kind];
         state.cards[it.id] = Eg.schedule(state.cards[it.id], q, {
           light: light, kind: o.ekind, id: it.id, state: state, retry: !!it.retry, hint: !!o.hint,
           fast: !!o.fast, slow: !!o.slow, ms: o.ms, notte: o.notte, now: now });
@@ -251,7 +212,7 @@
       }
     }
     if (it.ruleReview && it.rule) res.rule = feed(state, it.rule, q, { now: now, fast: o.fast, slow: o.slow, hint: o.hint, retry: it.retry, notte: o.notte });
-    else if (!it.retry && it.src !== "coniugatore") res.rule = touch(state, it, q, { now: now, produced: produced, fast: o.fast });
+    else if (!it.retry) res.rule = touch(state, it, q, { now: now, produced: produced, fast: o.fast });
     return res;
   }
 
@@ -324,44 +285,6 @@
     return out;
   }
 
-  /* ------------------------------------------------------ Scrivi */
-
-  /* Scrivi of week W asks, besides its own structures, one of the month
-     before: the one of the most overdue rule card of four weeks ago or
-     more (the structures are the package's: Scrivi.TASKS[week].use, and
-     its detectors do the counting).  Chosen once per week and kept in
-     state.scriviExtra; added to the task in memory, the package's file
-     is not touched. */
-  function scriviExtra(state, week) {
-    var S = root.Scrivi, task = S && S.TASKS && S.TASKS[week];
-    if (!task || !task.use) return null;
-    if (!state.scriviExtra) state.scriviExtra = {};
-    var saved = state.scriviExtra[week];
-    if (saved === undefined && week >= 5 && !(state.scritti || {})[week]) {
-      saved = null;
-      var have = {};
-      task.use.forEach(function (u) { if (!u.extra) have[u[0]] = 1; });
-      var weeks = [];
-      coldRules(state, { maxWeek: week - 4 }).forEach(function (r) { var p = parse(r); if (weeks.indexOf(p.week) < 0) weeks.push(p.week); });
-      for (var k = week - 4; k >= Math.max(1, week - 8); k--) if (weeks.indexOf(k) < 0) weeks.push(k);
-      for (var i = 0; i < weeks.length && !saved; i++) {
-        var t = S.TASKS[weeks[i]];
-        ((t && t.use) || []).forEach(function (u) {
-          if (saved || u.extra || have[u[0]]) return;
-          saved = [u[0], 1, "Del mes pasado (semana " + weeks[i] + "): " + String(u[2]).replace(/^\d+\s+/, "") + ", al menos 1", weeks[i]];
-        });
-      }
-      state.scriviExtra[week] = saved;
-    }
-    task.use = task.use.filter(function (u) { return !u.extra; });
-    if (saved) {
-      var e = saved.slice(0, 3);
-      e.extra = true;
-      task.use.push(e);
-    }
-    return saved || null;
-  }
-
   /* ------------------------------------------------------ la escalera */
 
   /* Inside a round: a recognition right and quick → the next exercise of
@@ -404,67 +327,6 @@
       answer: q.answer, accept: [q.answer], note: rule, ruleShown: rule.length <= 260 ? rule : "", fig: q.fig,
       week: w.week, block: q.block, from: "Chequeo de la lección " + w.week }, { src: "lezione", week: w.week, now: now });
   }
-  // A question of a reading missed: back tomorrow, with its text.
-  function fromReading(state, it, now) {
-    return enqueue(state, "own:" + it.id, {
-      src: "lettura", type: "choice", prompt: it.prompt, stem: it.stem, options: (it.options || []).slice(),
-      answer: it.answer, accept: it.accept || [it.answer], note: it.note || "", ep: it.ep, withText: !!it.ep,
-      nocard: false, from: "Lectura" }, { src: "lettura", now: now });
-  }
-  // The sentence of a text that holds a piece (for a gap of that piece).
-  function sentenceWith(text, piece, norm) {
-    norm = norm || function (x) { return String(x).toLowerCase(); };
-    var ss = String(text || "").replace(/([.!?…]["»”)]*)\s+/g, "$1\n").split(/\n+/);
-    for (var i = 0; i < ss.length; i++) if (norm(ss[i]).indexOf(norm(piece)) >= 0) return ss[i].trim();
-    return "";
-  }
-  function gapIn(sent, piece) {
-    var at = sent.toLowerCase().indexOf(String(piece).toLowerCase());
-    return at < 0 ? "" : sent.slice(0, at) + "___" + sent.slice(at + piece.length);
-  }
-  // The blocks of the dictogloss not recovered: each one as a gap in its sentence.
-  function fromDictogloss(state, t, r, week, now) {
-    if (!state || !t || !r) return 0;
-    var n = 0;
-    (r.missed || []).slice(0, 3).forEach(function (chunk) {
-      var sent = sentenceWith(t.text, chunk);
-      var stem = sent && gapIn(sent, chunk);
-      if (!stem) return;
-      enqueue(state, "own:dg:" + (week || t.week) + ":" + hash(chunk), {
-        src: "dictogloss", type: "cloze", prompt: "El bloque que no salió en el dictogloss «" + (t.title || "") + "»",
-        stem: stem, answer: chunk, accept: [chunk], note: t.es || "", say: sent, week: week || t.week,
-        from: "Dictogloss" }, { src: "dictogloss", week: week || t.week, now: now });
-      n++;
-    });
-    return n;
-  }
-  /* The gaps of the C-test (or of the rational cloze) missed at the first
-     try: each one in its sentence, the rest of the text whole. */
-  function fromCtest(state, built, first, now) {
-    if (!state || !built || !first || !first.per) return 0;
-    var n = 0;
-    first.per.forEach(function (v, i) {
-      if (v === "giusto" || n >= 5) return;
-      var g = built.gaps[i];
-      if (!g) return;
-      var MARK = "\u0001", text = "";
-      (built.parts || []).forEach(function (p) {
-        if (p.t != null) text += p.t;
-        else if (p.gap === i) text += (g.shown || "") + MARK;
-        else if (built.gaps[p.gap]) text += built.gaps[p.gap].full;
-      });
-      var sent = sentenceWith(text, MARK);
-      if (!sent) return;
-      var ans = g.cat === "ctest" ? g.answer : g.full;
-      enqueue(state, "own:ct:" + hash(sent + "|" + g.full), {
-        src: "ctest", type: "cloze", prompt: g.cat === "ctest" ? "Completá la palabra" : "Completá con la palabra que falta",
-        stem: sent.replace(MARK, "___"), answer: ans, accept: [ans, g.full].concat(g.alt || []),
-        note: "", say: sent.replace(MARK, g.cat === "ctest" ? g.answer : g.full), from: "C-test" }, { src: "ctest", now: now });
-      n++;
-    });
-    return n;
-  }
-
   function ownItem(state, id) {
     var o = state && state.own && state.own[id];
     if (!o || !o.it) return null;
@@ -472,39 +334,11 @@
     Object.keys(o.it).forEach(function (k) { copy[k] = o.it[k]; });
     return copy;
   }
-  // The learner's own items of the last seven days not yet learnt, the newest first.
-  function ownRecent(state, n) {
-    var now = Date.now(), cards = (state && state.cards) || {}, own = (state && state.own) || {};
-    return Object.keys(own).filter(function (id) {
-      var c = cards[id];
-      return now - (own[id].at || 0) < 7 * DAY && (!c || !c.reps);
-    }).sort(function (a, b) { return own[b].at - own[a].at; }).slice(0, n || 6)
-      .map(function (id) { var it = ownItem(state, id); if (it) it.clinic = "own"; return it; }).filter(Boolean);
-  }
-  // «Tus errores de esta semana», with their rule, before the exercises.
-  function clinicIntro(state) {
-    var now = Date.now(), seen = {}, rows = [];
-    ((state && state.errLog) || []).forEach(function (e) {
-      if (!e || now - (e.at || 0) > 7 * DAY || seen[e.cat] || rows.length >= 4) return;
-      seen[e.cat] = 1;
-      rows.push(e);
-    });
-    if (!rows.length) return null;
-    var D = root.Diagnosi, label = function (e) { return e.l || (D && D.LABEL && D.LABEL[e.cat]) || e.cat; };
-    return { id: "clinica:intro", src: "clinica", type: "card", prompt: "Tus errores de esta semana",
-             h: "Lo que más se te escapó estos días",
-             body: rows.map(function (e) { return "**" + label(e) + "**" + (e.x ? ": " + strip(e.x) : "."); }).join(" · ") +
-               " Ahora, ejercicios con eso: primero los tuyos, después otros de la misma regla.",
-             ex: rows.filter(function (e) { return e.g && e.e; }).map(function (e) { return [e.g, e.e]; }) };
-  }
-
   var api = {
-    use: use, ruleOf: ruleOf, parse: parse, courseOf: courseOf, bankOf: bankOf, known: known,
+    use: use, ruleOf: ruleOf, parse: parse, courseOf: courseOf, known: known,
     reviewItem: reviewItem, isOld: isOld, afterAnswer: afterAnswer, touch: touch, feed: feed,
     coldest: coldest, coldRules: coldRules, dailyItems: dailyItems, oldItems: oldItems,
-    scriviExtra: scriviExtra, adaptNext: adaptNext,
-    fromLesson: fromLesson, fromReading: fromReading, fromDictogloss: fromDictogloss, fromCtest: fromCtest,
-    ownItem: ownItem, ownRecent: ownRecent, clinicIntro: clinicIntro, hash: hash
+    adaptNext: adaptNext, fromLesson: fromLesson, ownItem: ownItem, hash: hash
   };
   if (typeof module === "object" && module.exports) module.exports = api;
   root.Reglas = api;

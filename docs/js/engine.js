@@ -208,7 +208,7 @@
   // Vocabulary forgets at another pace than grammar: two speeds are fitted.
   function cardKind(id) {
     id = String(id || "");
-    return id.indexOf("v:") === 0 || id.indexOf("b:voc:") === 0 || id.indexOf("frase:") === 0 || id.indexOf("ponte:") === 0 ? "v" : "g";
+    return id.indexOf("v:") === 0 ? "v" : "g";
   }
 
   /* A card from the SM-2 days (ease, interval) gets a stability and a
@@ -472,7 +472,7 @@
     var boss = bossOf(wk);
     // the concepts of the course up to that boss: about 13 a week
     var wordGoal = boss * 13;
-    var nWords = Object.keys(state.cards || {}).filter(function (id) { return id.indexOf("v:") === 0 || id.indexOf("b:voc:") === 0; }).length;
+    var nWords = Object.keys(state.cards || {}).filter(function (id) { return id.indexOf("v:") === 0; }).length;
     var weeksLeft = Math.max(1, boss - wk + 1);
     var perWeek = Math.max(10, Math.ceil(Math.max(0, wordGoal - nWords) / weeksLeft));
     return { boss: boss, level: "Nivel " + seasonOf(boss), wordGoal: wordGoal, nWords: nWords,
@@ -563,7 +563,7 @@
      2022), and so does a phrase written from memory.  The streak bonus
      («racha de escritos») grows only with written answers. */
   var XP = { right: 10, close: 4, bonusCombo: 2, boss: 150, challenge: 6,
-             lesson: 15, recog: 6, written: 10, oldRule: 14, phrase: 12,
+             lesson: 15, recog: 6, written: 10, oldRule: 14,
              textWord: 0.5, textMax: 80, textStruct: 5, textClean: 20 };
   var TYPED_KINDS = { cloze: 1, translate: 1, conjugate: 1, plural: 1, numbers: 1, qa: 1, typed: 1,
                       write: 1, dictation: 1, fixerr: 1, garden: 1 };
@@ -579,7 +579,6 @@
     if (!it) return XP.right;
     if (!written(it)) return XP.recog;
     if (ctx && ctx.old) return XP.oldRule;
-    if (it.frase) return XP.phrase;
     return XP.written;
   }
   // xpFor(verdict, combo) as always; with the item, by its cost (ctx.old: a
@@ -602,8 +601,7 @@
   /* ------------------------------------------- fichas desde cualquier módulo */
 
   /* enqueue(state, id, item, opts): any module can put something in the
-     review: a check of the lesson missed, a question of a reading, a block
-     of the dictogloss not recovered, a gap of the C-test.  The item is
+     review: a check of the lesson missed, what the placement test skipped.  The item is
      kept in state.own (the review can rebuild it from there); the card is
      due tomorrow morning (opts.due: another moment; opts.now).  With
      opts.maint the card starts in maintenance (what the placement test
@@ -729,11 +727,13 @@
      old version) they are dropped, and the module starts them again empty.
      Before 3.0 a single bad field could leave the app without a screen. */
   var SAVE_V = 3;
-  var MODULE_OBJ = ["mcGloss", "readSess", "readParts", "variants", "hintLevels", "weakDone", "suoniPct", "suoniDone", "capirePct", "identPct",
-    "duelli", "ubicacion", "dictogloss", "ascolto", "parlaLog", "esame", "esameDraft", "scrittiDraft", "scritti", "biblio",
-    "bossUsed", "strands", "streakBroken", "escritos", "escrituraPlus", "onboard", "hoy", "cierre", "porque", "ritmo", "tiempo",
-    "dos", "radio", "scriviExtra", "tramo", "tres", "fuera", "trabajo", "sync", "sem", "dil"];
-  var MODULE_ARR = ["aiNotes", "storie", "history"];
+  /* (A save of an older version can bring fields of modules that are gone,
+     such as the readings or the dictogloss of La Via: they are left alone
+     and nothing reads them.) */
+  var MODULE_OBJ = ["readSess", "readParts", "weakDone", "duelli", "ubicacion", "biblio",
+    "bossUsed", "strands", "streakBroken", "escritos", "onboard", "hoy", "cierre", "porque", "ritmo", "tiempo",
+    "dos", "sync", "sem", "dil"];
+  var MODULE_ARR = ["aiNotes", "history"];
   function sanitizeModules(s) {
     MODULE_OBJ.forEach(function (k) { if (k in s && s[k] != null && !isObj(s[k])) delete s[k]; });
     MODULE_ARR.forEach(function (k) { if (k in s && s[k] != null && !Array.isArray(s[k])) delete s[k]; });
@@ -989,12 +989,6 @@
 
   /* ----------------------------------------------------------------- badge */
 
-  // The last episode of Martín's story (letture.js), ep13 if it is not loaded.
-  function lastMartin() {
-    var L = root.Letture, eps = L && L.ofSeries ? L.ofSeries("martin") : [];
-    return eps.length ? eps[eps.length - 1].id : "ep13";
-  }
-
   var BADGES = [
     { id: "primo-passo",
       test: function (s) { return s.totals.attempts >= 1; } },
@@ -1026,30 +1020,6 @@
       test: function (s) { return (s.written || 0) >= 1; } },
     { id: "scrittore",
       test: function (s) { return (s.written || 0) >= 100; } },
-    { id: "fulmine",
-      test: function (s) { return ((s.best || {}).lampo || 0) >= 20; } },
-    { id: "frasario",
-      test: function (s) {
-        return Object.keys(s.cards).filter(function (k) {
-          return k.indexOf("frase:") === 0;
-        }).length >= 100;
-      } },
-    { id: "lettore",
-      test: function (s) { return Object.keys(s.letture || {}).length >= 5; } },
-    { id: "bologna",
-      test: function (s) { return !!(s.letture || {})[lastMartin()]; } },
-    { id: "umanista",
-      test: function (s) {
-        return Object.keys(s.letture || {}).filter(function (k) {
-          return k.indexOf("c-") === 0;
-        }).length >= 10;
-      } },
-    { id: "ponte",
-      test: function (s) {
-        return Object.keys(s.cards).filter(function (k) {
-          return k.indexOf("ponte:") === 0;
-        }).length >= 50;
-      } },
     { id: "perfetta",
       test: function (s) { return Object.keys(s.perfectWeeks || {}).length >= 1; } },
     { id: "dieci-perfette",
@@ -1058,7 +1028,7 @@
       test: function (s) { return !!s.balancedDay; } },
     { id: "cinquecento",
       test: function (s) {
-        return Object.keys(s.cards).filter(function (k) { return k.indexOf("v:") === 0 || k.indexOf("b:voc:") === 0; }).length >= 500;
+        return Object.keys(s.cards).filter(function (k) { return k.indexOf("v:") === 0; }).length >= 500;
       } },
     { id: "giornaliera",
       test: function (s) { return (s.dailyWon || 0) >= 10; } },

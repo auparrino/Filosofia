@@ -182,13 +182,13 @@
     return Math.max(0, start - before);
   }
 
-  /* The placement test talks to the review: the words and the phrases of
-     the weeks skipped become cards in maintenance (known: they come back a
+  /* The placement test talks to the review: the concepts of the weeks
+     skipped become cards in maintenance (known: they come back a
      few a day, and the review finds the gaps by itself, never as a debt);
      what the test got wrong becomes a card due now.  A card already there
      is never touched. */
   function seed(state, course, from, start, res) {
-    var E = G(), D = root.Drills, F = root.Frasi, n = { words: 0, phrases: 0, failed: 0 };
+    var E = G(), n = { words: 0, failed: 0 };
     if (!E || !E.enqueue) return n;
     var now = Date.now(), DAY = 86400000, k = 0;
     // spread over the coming weeks, so the first days are not all old words
@@ -198,32 +198,11 @@
       (w.vocab || []).forEach(function (v) {
         if (!state.cards["v:" + v[0]]) { E.enqueue(state, "v:" + v[0], null, { maint: true, due: when(), now: now }); n.words++; }
       });
-      if (D && F && D.scenesOfWeek) D.scenesOfWeek(w.week).forEach(function (sc) {
-        F.ofScene(sc.id).forEach(function (f) {
-          if (!state.cards[f.id]) { E.enqueue(state, f.id, null, { maint: true, due: when(), now: now }); n.phrases++; }
-        });
-      });
     });
     ((res && res.failed) || []).forEach(function (id) {
       if (!state.cards[id] || state.cards[id].seeded) { delete state.cards[id]; E.enqueue(state, id, null, { due: now, now: now }); n.failed++; }
     });
     return n;
-  }
-
-  /* A mini diagnosis of interference (ten sentences of «find the error»,
-     one per category of the bank, from the grammar already open): the
-     answers start the error profile, which is otherwise empty until the
-     first round. */
-  function diagnosis(state, size) {
-    var B = root.Banca;
-    if (!B || !B.loaded || !B.loaded() || !B.errorItem) return [];
-    var errs = (B.bank() || {}).errors || [], byCat = {}, wk = (state && state.unlocked) || 1;
-    errs.forEach(function (e, i) { if ((e.w || 1) <= wk) (byCat[e.cat] = byCat[e.cat] || []).push(i); });
-    var cats = Object.keys(byCat).sort(function () { return Math.random() - 0.5; });
-    return cats.slice(0, size || 10).map(function (c) {
-      var l = byCat[c];
-      return B.errorItem(l[Math.floor(Math.random() * l.length)]);
-    });
   }
 
   /* ------------------------------------------------------------ pantalla */
@@ -307,18 +286,15 @@
     return html;
   }
 
-  // After applying: what went to the review, and the mini diagnosis.
+  // After applying: what went to the review.
   function htmlApplied() {
     var sd = (ctx.state.ubicacion || {}).seeded || {};
     return '<div class="card ubic center"><div class="bigstar">🔓</div>' +
       "<h1>Arrancás en la semana " + (ctx.state.unlocked || 1) + "</h1>" +
       '<p class="lead">Lo de las semanas que saltaste no se pierde: ' +
-      (sd.words ? sd.words + " palabras" : "") + (sd.words && sd.phrases ? " y " : "") + (sd.phrases ? sd.phrases + " frases" : "") +
-      (sd.words || sd.phrases ? " entran al repaso de a poco, como ya sabidas; si algo no sale, vuelve más seguido." : "") +
+      (sd.words ? sd.words + " conceptos entran al repaso de a poco, como ya sabidos; si algo no sale, vuelve más seguido." : "") +
       (sd.failed ? " Lo que fallaste en el test (" + sd.failed + ") vuelve hoy mismo." : "") + "</p>" +
-      '<p class="muted">¿Diez oraciones para ver dónde te traiciona el castellano? Arman tu perfil de errores desde el primer día (unos tres minutos).</p>' +
-      '<div class="row centerrow" style="margin-top:14px"><button class="btn" id="ubdiag">🔎 Mini diagnóstico</button>' +
-      '<button class="btn ghost" id="ubdone">Ahora no: al camino</button></div></div>';
+      '<div class="row centerrow" style="margin-top:14px"><button class="btn" id="ubdone">Al camino</button></div></div>';
   }
 
   function html() {
@@ -329,10 +305,10 @@
     return htmlIntro();
   }
 
-  function finish(applied, next) {
+  function finish(applied) {
     var c = ctx;
     ctx = null; ses = null; curQ = null;
-    if (c && c.done) c.done(applied, next);
+    if (c && c.done) c.done(applied);
   }
 
   function advance() {
@@ -381,7 +357,6 @@
       view = "applied";
       redraw();
     });
-    on(el, "#ubdiag", function () { finish(true, "diag"); });
     on(el, "#ubdone", function () { finish(true); });
     on(el, "#ubkeep", function () {
       if (!ctx.state.ubicacion || ctx.state.ubicacion.no) {
@@ -410,7 +385,7 @@
       '<div class="row"><button class="btn ghost" id="ubicgo">Hacer el test</button></div></div>';
   }
 
-  var api = { pool: pool, usable: usable, create: create, apply: apply, seed: seed, diagnosis: diagnosis, fresh: fresh, pRight: pRight,
+  var api = { pool: pool, usable: usable, create: create, apply: apply, seed: seed, fresh: fresh, pRight: pRight,
               start: start, html: html, wire: wire, banner: banner, card: card,
               active: function () { return !!ctx; }, current: function () { return curQ; }, MAX_Q: MAX_Q };
   if (typeof module === "object" && module.exports) module.exports = api;

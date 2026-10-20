@@ -21,11 +21,11 @@
  *     state.phase = "mantenimiento".  Oggi cambia de eje (lo arma Plan) y
  *     aparece el cierre del año, compartible como imagen.
  *
- * Se engancha con app.js por Inicio.attach(host) (como tramo.js): render,
+ * Se engancha con app.js por Inicio.attach(host): render,
  * wire, owns, y los ganchos oggiTop / habit / resultButton / boot.
  *
  * Guarda: state.onboard {step, at}, state.hoy {dk, min, steps, tick, fin,
- * run, card, snooze}, state.phase, state.phaseAt, state.cierre, state.simAt.
+ * run, card, snooze}, state.phase, state.phaseAt, state.cierre.
  */
 (function (root) {
   "use strict";
@@ -208,17 +208,13 @@
     var prevWk = root.Engine ? root.Engine.weekKey(new Date(Date.now() - 7 * DAY)) : "";
     if (st.reflect && st.reflect[prevWk]) change = st.reflect[prevWk].change || "";
     var ms = H.missions(w).map(function (m) {
-      var o = { kind: m.kind, arg: m.arg, title: m.title, ico: m.ico, done: !!m.done, opt: !!m.opt, week: w.week };
-      if (m.kind === "ep") o.words = H.words(m.arg);
-      return o;
+      return { kind: m.kind, arg: m.arg, title: m.title, ico: m.ico, done: !!m.done, opt: !!m.opt, week: w.week };
     });
-    var ctx = {
-      now: new Date(), due: H.due(), week: w, missions: ms, strands: root.Engine ? root.Engine.strandsLast(st, 7) : {},
-      change: change, langName: UI().langEs, days: P() ? P().ritmo(st).days : 5, daysDone: P() ? P().daysThisWeek(st) : 0,
-      inputs: { biblio: !!root.Biblioteca, facile: H.readingsDone(), btr: H.canTranslate(), pausa: H.canPausa() }
+    return {
+      now: new Date(), due: H.due(), week: w, missions: ms,
+      change: change, days: P() ? P().ritmo(st).days : 5, daysDone: P() ? P().daysThisWeek(st) : 0,
+      inputs: { biblio: !!root.Biblioteca, pausa: H.canPausa() }
     };
-    if (st.phase === "mantenimiento") ctx.maint = H.maint();
-    return ctx;
   }
 
   function plan(force) {
@@ -243,16 +239,8 @@
     var st = S(), h = hoy(st), today = dk();
     if (h.tick[s.id] || h.fin[s.id]) return true;
     if (s.week) return H.missionDone(s.kind, s.arg, s.week);
-    var at = function (t) { return t && dk(new Date(t)) === today; };
     if (s.kind === "review" || s.kind === "micro") return !H.due();
-    if (s.kind === "ep") return !!(st.letture && st.letture[s.arg] && at(st.letture[s.arg].at));
     if (s.kind === "biblio") return (((st.biblio || {}).days || {})[today] || {}).s >= s.min * 36;
-    if (s.kind === "facile") return ((st.ascolto || {})[today] || {}).sec >= s.min * 36;
-    if (s.kind === "tr-asc" || s.kind === "tr-scr") {
-      var t = st.tramo || {}, x = (s.kind === "tr-asc" ? t.asc : t.scr) || {};
-      return !!(x[s.arg] && at(x[s.arg].at));
-    }
-    if (s.kind === "esame") return Object.keys(st.esame || {}).some(function (k) { return at(st.esame[k].at); });
     return false;
   }
 
@@ -262,26 +250,22 @@
     var st = S(), h = hoy(st);
     h.run = s.id;
     H.persist();
-    if (s.kind === "review" || s.kind === "micro" || s.kind === "pausa" || s.kind === "b-tr") H.startRound(s.kind, null, "hoy");
+    if (s.kind === "review" || s.kind === "micro" || s.kind === "pausa") H.startRound(s.kind, null, "hoy");
     else if (s.kind === "biblio") H.openBiblio();
-    else if (s.kind === "facile") { h.fin[s.id] = true; H.persist(); H.playFacile(); H.render(); }
-    else if (s.kind === "esame") { st.simAt = Date.now(); H.persist(); H.openExam(); }
     else if (s.week) H.startMission(s.kind, s.arg, s.week);
-    else if (s.kind === "ep") H.openReading(s.arg);
-    else if (s.kind === "tr-asc" || s.kind === "tr-scr") H.openTramo(s.kind, s.arg);
   }
 
   function metaLine() {
     var st = S(), Pr = P();
     if (!Pr) return "";
     var r = Pr.ritmo(st), mins = Math.round(Pr.todaySec(st) / 60), days = Pr.daysThisWeek(st);
-    var lv = Pr.levelNow(H.course(), st), inW = Pr.inputWeek(st, { words: H.words }), inT = Pr.inputTarget(lv);
+    var lv = Pr.levelNow(H.course(), st), inW = Pr.inputWeek(st), inT = Pr.inputTarget(lv);
     var T = Pr.target(st);
     var goalPct = Math.min(100, Math.round(mins / Math.max(1, r.min) * 100));
     return '<div class="hoy-meta">' +
       '<div class="hm"><span>Hoy</span><b>' + mins + " / " + r.min + ' min</b><i class="hm-bar"><i style="width:' + goalPct + '%"></i></i></div>' +
       '<div class="hm"><span>Esta semana</span><b>' + (days >= r.days ? days + " días ✓" : days + " de " + r.days + " días") + '</b><i class="hm-bar"><i style="width:' + Math.min(100, Math.round(days / r.days * 100)) + '%"></i></i></div>' +
-      '<div class="hm"><span>Input</span><b>' + inW + " / " + inT + ' min</b><i class="hm-bar in"><i style="width:' + Math.min(100, Math.round(inW / inT * 100)) + '%"></i></i></div>' +
+      '<div class="hm"><span>Lectura</span><b>' + inW + " / " + inT + ' min</b><i class="hm-bar in"><i style="width:' + Math.min(100, Math.round(inW / inT * 100)) + '%"></i></i></div>' +
       "</div>" +
       (st.phase ? "" : '<p class="muted small hoy-eta">' + Pr.etaLine(st) + (T && !T.done ? " " + (T.late ? "La fecha de tu meta ya pasó." : "Tu meta (semana " + T.week + ") pide unos " + T.minutes + " min por día.") : "") +
         ' <button class="linkbtn" id="toprog2">Ver tu progreso</button></p>');
@@ -296,7 +280,7 @@
       '<div class="seg" role="group" aria-label="¿Cuánto tiempo tenés hoy?">' + [5, 15, 30].map(function (m) {
         return '<button data-hmin="' + m + '" class="' + (h.min === m ? "on" : "") + '" aria-pressed="' + (h.min === m ? "true" : "false") + '">' + m + "′</button>";
       }).join("") + "</div></div>" +
-      (maint ? '<p class="muted small">Terminaste el curso: ahora se trata de no perderlo. Repaso a meses, leer y escuchar mucho, escribir de vez en cuando.</p>' : "") +
+      (maint ? '<p class="muted small">Terminaste el curso: ahora se trata de no perderlo. Repaso a meses y leer mucho.</p>' : "") +
       '<ol class="hoy-steps">' + steps.map(function (s) {
         var d = isDone(s), cur = nx && nx.id === s.id;
         return '<li class="hs' + (d ? " done" : "") + (cur ? " cur" : "") + '">' +
@@ -367,11 +351,10 @@
   function checkPhase() {
     var st = S();
     if (st.phase) return;
-    var ws = (st.weekStats || {})[root.Engine.finalWeek()], ex = H.exam ? H.exam() : null;
-    if ((ws && ws.bossPassed) || (ex && ex.passed)) {
+    var ws = (st.weekStats || {})[root.Engine.finalWeek()];
+    if (ws && ws.bossPassed) {
       st.phase = "mantenimiento";
       st.phaseAt = Date.now();
-      if (!st.simAt) st.simAt = Date.now();
       H.persist();
     }
   }
@@ -382,18 +365,16 @@
     return '<div class="card cierre"><h2>🎓 Tu año de ' + esc(UI().langEs) + "</h2>" +
       '<table class="res"><tr><td>Horas de estudio</td><td>' + y.hours + "</td></tr>" +
       "<tr><td>Palabras en tu repaso</td><td>" + y.words + "</td></tr>" +
-      "<tr><td>Jefes vencidos</td><td>" + y.bosses + " / 4</td></tr>" +
-      (y.exam ? "<tr><td>Examen C1</td><td>" + y.exam + "</td></tr>" : "") + "</table>" +
+      "<tr><td>Jefes vencidos</td><td>" + y.bosses + " / 4</td></tr></table>" +
       '<div class="row"><button class="btn" id="yearshare">📤 Compartir tu año</button><button class="tab" id="yearhide">Guardar para después</button></div></div>';
   }
   function yearNumbers() {
-    var st = S(), Pr = P(), ex = H.exam ? H.exam() : null, ws = st.weekStats || {};
+    var st = S(), Pr = P(), ws = st.weekStats || {};
     var hrs = Pr ? Pr.hours(st) : { h: 0, measured: true };
     return {
       hours: String(hrs.h).replace(".", ",") + (hrs.measured ? " h" : " h (aprox.)"),
       words: (Pr ? Pr.wordCards(st) : 0).toLocaleString("es-AR"),
-      bosses: Object.keys(ws).filter(function (b) { return root.Engine.isBoss(+b) && ws[b] && ws[b].bossPassed; }).length,
-      exam: ex ? ex.avg + " %" + (ex.passed ? " · aprobado" : "") : ""
+      bosses: Object.keys(ws).filter(function (b) { return root.Engine.isBoss(+b) && ws[b] && ws[b].bossPassed; }).length
     };
   }
   function shareYear() {
@@ -412,7 +393,7 @@
     g.fillText(y.hours + " · " + y.bosses + " jefes de 4", W / 2, K.lines[0]);
     g.fillText(y.words + " palabras", W / 2, K.lines[1]);
     g.font = "20px system-ui, sans-serif"; g.fillStyle = K.muted;
-    g.fillText(y.exam ? "Examen final: " + y.exam : root.Engine.finalWeek() + " semanas de filosofía", W / 2, K.lines[2]);
+    g.fillText(root.Engine.finalWeek() + " semanas de filosofía", W / 2, K.lines[2]);
     c.toBlob(function (blob) { H.share(blob, K.file + "un-ano.png", "Mi año de " + U.langEs); }, "image/png");
   }
 

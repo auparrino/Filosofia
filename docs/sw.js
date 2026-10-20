@@ -114,37 +114,12 @@ self.addEventListener("message", function (e) {
   }));
 });
 
-// A lasting cache for the voices and the books: what was opened once works
-// offline.
-function lasting(req, key, ok) {
-  return caches.match(key || req).then(function (hit) {
-    return hit || fetch(key || req).then(function (res) {
-      if (res && ok(res)) caches.open(VOCI).then(function (c) { return c.put(key || req, res.clone()); }).catch(function () {});
-      return res;
-    });
-  });
-}
-
 self.addEventListener("fetch", function (e) {
   if (e.request.method !== "GET") return;
   var url = new URL(e.request.url);
-  // Real voices (Lingua Libre, on upload.wikimedia.org).
-  if (url.hostname === "upload.wikimedia.org") {
-    e.respondWith(lasting(e.request, null, function (res) { return res.ok || res.type === "opaque"; }));
-    return;
-  }
   if (url.origin !== location.origin) return;
-  // The sentences of Common Voice (lang/<código>/audio/cv/): cached the
-  // first time they play, in the lasting cache, so a session works offline
-  // afterwards without downloading 5 MB at install.  The player asks by
-  // ranges (206, which cannot be cached): ask for the whole file, a few KB,
-  // and answer with it.
-  if (/\/audio\/cv\//.test(url.pathname)) {
-    e.respondWith(lasting(null, url.href, function (res) { return res.status === 200; }));
-    return;
-  }
   // The books of the Biblioteca (lang/<código>/biblioteca/): kept in the
-  // lasting cache, so a book opened once reads offline after a new version
+  // lasting cache (VOCI, its name from when it also kept the voices), so a book opened once reads offline after a new version
   // too; the copy is refreshed in the background when there is network.
   if (/\/biblioteca\//.test(url.pathname)) {
     e.respondWith(caches.open(VOCI).then(function (c) {

@@ -1,33 +1,21 @@
 /*
  * La fábrica de preguntas.  Convierte el curso (los ítems de autor de
- * data/course.json), el banco y el conjugador del idioma en rondas
- * jugables: la ronda de la semana, el jefe, Dominala, el repaso, la pausa
- * del café y el Lampo / Relâmpago.
+ * data/course.json) en rondas jugables: la ronda de la semana, el jefe,
+ * Dominala, el repaso y la pausa del café.
  *
- * Lo que depende de la lengua lo trae el paquete: las personas del
- * conjugador y cuáles se ejercitan (LANG.rules.persons), las formas que
- * también valen (LANG.rules.conj, Conj.accepted), los distractores de cada
- * lengua (LANG.rules.distract: artículos, preposiciones articuladas o
- * contracciones, clases cerradas, pronombres pegados, plurales), las
- * palabras de la semana (LANG.rules.vocab), la semana de cada escena de
- * frases (LANG.rules.sceneWeek) y los textos (LANG.rules.text).
+ * Lo que depende de la edición lo trae el paquete: los distractores
+ * (LANG.rules.distract: clases cerradas, formas de una misma palabra), los
+ * conceptos de la semana (LANG.rules.vocab) y los textos (LANG.rules.text).
  */
 (function (root) {
   "use strict";
 
   var LANG = root.LANG || {};
   var R = LANG.rules || {};
-  var P = R.persons || {};
   var CR = R.conj || {};
   var DR = R.distract || {};
   var TX = R.text || {};
 
-  // The conjugator is the language's (docs/lang/<code>/conjugator.js): it
-  // is loaded before, as window.Conj.
-  var Conj = root.Conj || null;
-  var Frasi = root.Frasi || null;
-  var Lab = root.Lab || null;
-  var Banca = root.Banca || null;
   var Duelli = root.Duelli || null;
   var Lez = root.Lezione || null;
   var Engine = root.Engine || null;
@@ -80,252 +68,12 @@
     return "=" + stem + "|" + String(it.answer || "").toLowerCase();
   }
 
-  // Bank items near the week's level, to top up a short week without repeating.
-  function bankFill(state, n) {
-    var out = [];
-    if (!Banca || !Banca.loaded()) return out;
-    for (var i = 0; i < n * 3 && out.length < n; i++) {
-      var it = Banca.pausaItem(state);
-      if (it && !out.some(function (o) { return o.id === it.id; })) out.push(it);
-    }
-    return out;
-  }
-
-  /* ------------------------------------------------ preguntas de conjugación */
-
-  /* The persons of the conjugator (0-5), labelled by the language.  Some
-     are never asked (persons.skip: «vós»), some seldom
-     (persons.weighted, a pool of persons to draw from); the third persons
-     can rotate among their pronouns (persons.third: ele, ela, você). */
-  var PERSON_LABEL = P.labels || ["1", "2", "3", "4", "5", "6"];
-  var THIRD = P.third || null;
-  var SKIP = P.skip || [];
-  function personLabel(p) {
-    if (THIRD && p === 2) return THIRD[0][Math.floor(Math.random() * THIRD[0].length)];
-    if (THIRD && p === 5) return THIRD[1][Math.floor(Math.random() * THIRD[1].length)];
-    return PERSON_LABEL[p];
-  }
-  var WEIGHTED = P.weighted || null;
-  function skipped(i) { return SKIP.indexOf(i) >= 0; }
-
-  /* The conjugator (docs/lang/<code>/conjugator.js) knows:
-     - defective verbs (reaver): conjugate(inf, t, { partial: true }) gives
-       null in the persons that do not exist, and throws without partial;
-     - info(inf).persons: the persons that make sense (chover: [2];
-       custar, acontecer, doer: [2, 5]);
-     - accepted(inf, t): the six lists of right answers (double participles:
-       tinha pagado / tinha pago, and the like);
-     and the language may know other right forms (conj.alt: the verbs
-     with essere or avere, mancare, salire…).
-     Everything is read defensively, so the drills run on every
-     conjugator. */
-  function infoOf(verb) { try { return Conj.info(verb) || {}; } catch (e) { return {}; } }
-  // A «tense» that conjugate() does not take (it is not in ALL_TENSES): the
-  // imperative, the gerund, the participle, when the curriculum lists them
-  // as the week's tenses (pt: gerúndio, particípio, imperativo).
-  function outsideConjugate(tense) {
-    return !!Conj.ALL_TENSES && Conj.ALL_TENSES.indexOf(tense) < 0;
-  }
-  // The verb has no such form, and the gym does not ask it: no imperative
-  // (poder, caber: imperative() gives null; chover, with one person only).
-  function lacksForm(verb, tense) {
-    if (tense !== "imperativo" || !CR.imperativeForms || !Conj.imperative || !outsideConjugate(tense)) return false;
-    var own = infoOf(verb).persons;
-    try { return !Conj.imperative(verb) || !!(own && own.length === 1); } catch (e) { return false; }
-  }
-  function conjForms(verb, tense) {
-    if (tense === "imperativo" && CR.imperativeForms && Conj.imperative && outsideConjugate(tense)) {
-      // imperative(inf): the language's persons, or null (poder, caber)
-      if (lacksForm(verb, tense)) throw new Error("sin imperativo: " + verb);
-      return CR.imperativeForms(Conj.imperative(verb));
-    }
-    try { return Conj.conjugate(verb, tense, { partial: true }); }
-    catch (e) { return Conj.conjugate(verb, tense); }
-  }
-  /* The non-finite forms (gerund, participle) when conjugate() does not take
-     them: one form, asked without a person.  { answer, accept, wrong } or
-     null.  wrong: what gets mixed up with it — the form of a learner who
-     treats the verb as regular (fazido, vido), the other non-finite form,
-     the infinitive, the present. */
-  function nonFinite(verb, tense) {
-    if ((tense !== "gerundio" && tense !== "participio") || !outsideConjugate(tense)) return null;
-    var fn = tense === "gerundio" ? Conj.gerund : Conj.participle;
-    if (!fn) return null;
-    var answer = fn(verb);
-    if (!answer) return null;
-    var accept = [answer];
-    if (tense === "participio" && Conj.participles) {
-      var ps = Conj.participles(verb) || {};
-      [ps.irregular, ps.regular].forEach(function (x) { if (x && accept.indexOf(x) < 0) accept.push(x); });
-    }
-    var wrong = [];
-    function add(f) { if (f && accept.indexOf(f) < 0 && wrong.indexOf(f) < 0) wrong.push(f); }
-    try { add(Conj.regular && Conj.regular(verb, tense)); } catch (e) { /* sin forma regular */ }
-    try { add(tense === "gerundio" ? Conj.participle && Conj.participle(verb) : Conj.gerund && Conj.gerund(verb)); } catch (e) { /* */ }
-    add(String(verb).replace(/-.*$/, ""));
-    try { add(Conj.conjugate(verb, "presente")[2]); } catch (e) { /* */ }
-    try { add(Conj.conjugate(verb, (Conj.ALL_TENSES || [])[1])[0]); } catch (e) { /* */ }
-    return { answer: answer, accept: accept, wrong: wrong };
-  }
-  function nonFiniteItem(verb, tense, nf, typed) {
-    var item = {
-      id: (typed ? "conjw:" : "conj:") + verb + ":" + tense + ":0",
-      src: "coniugatore",
-      type: typed ? "cloze" : "choice",
-      topic: "coniugazione",
-      prompt: (typed ? "Escribí" : "Elegí") + " el " + tenseLabel(tense) + " de «" + verb + "»" + esOf(verb),
-      stem: "___ (" + verb + ")",
-      answer: nf.answer,
-      accept: nf.accept,
-      note: verb + " · " + tenseLabel(tense) + ": " + nf.accept.join(" / ")
-    };
-    if (!typed) item.options = shuffle(sample(nf.wrong, 3).concat([nf.answer]));
-    return item;
-  }
-  var EXTRA_LABELS = CR.extraLabels || {};
-  function tenseLabel(t) { return (Conj.TENSE_LABELS || {})[t] || EXTRA_LABELS[t] || t; }
-  // The other right forms of the whole table (conj.alt: the forms with the
-  // other auxiliary), or null.
-  function altFor(verb, tense) {
-    if (!CR.alt) return null;
-    try { return CR.alt(Conj, verb, tense) || null; } catch (e) { return null; }
-  }
-  function acceptedFor(verb, tense, p, answer, alt) {
-    var out = [answer];
-    try {
-      var acc = Conj.accepted ? Conj.accepted(verb, tense) : null;
-      if (acc && acc[p]) [].concat(acc[p]).forEach(function (x) { if (x && out.indexOf(x) < 0) out.push(x); });
-    } catch (e) { /* sin variantes */ }
-    if (alt && alt[p] && out.indexOf(alt[p]) < 0) out.push(alt[p]);
-    return out;
-  }
-  // The persons that can be asked: the week's (persons), the verb's
-  // (info.persons) and the ones the tense has (a defective verb), never
-  // the skipped ones (vós).
-  function personsFor(verb, forms, persons) {
-    var own = infoOf(verb).persons;
-    return [0, 1, 2, 3, 4, 5].filter(function (p) {
-      if (skipped(p)) return false;
-      return forms[p] && (!persons || !persons.length || persons.indexOf(p) >= 0) && (!own || own.indexOf(p) >= 0);
-    });
-  }
-  function labelFor(verb, p) {
-    var own = infoOf(verb).persons;
-    if (own && own.length === 1) return "";                    // chover: impersonal
-    if (own && own.indexOf(0) < 0 && P.impersonal && P.impersonal[p]) return P.impersonal[p];   // custar, doer
-    return personLabel(p);
-  }
-
-  /* known: the tenses already taught (week.known).  Distractors come only
-     from those, so a week-6 learner never sees a subjuntivo as an option. */
-  // Some persons seldom (WEIGHTED: tu), or all alike.
-  function pickPerson(allowed) {
-    var pool = WEIGHTED ? WEIGHTED.filter(function (p) { return allowed.indexOf(p) >= 0; }) : allowed;
-    if (!pool.length) pool = allowed;
-    if (!pool.length) throw new Error("sin personas para conjugar");
-    return pool[Math.floor(Math.random() * pool.length)];
-  }
-  // The forms of the table as the note shows them (the skipped persons and
-  // the missing ones aside), and the other right forms (conj.altNote).
-  function formsNote(verb, tense, forms, alt) {
-    var said = forms.filter(function (f, i) { return !skipped(i) && f; });
-    return verb + " · " + tenseLabel(tense) + ": " + said.join(", ") +
-      (alt && CR.altNote ? CR.altNote(alt) : "");
-  }
-  function esOf(verb) {
-    var i = infoOf(verb);
-    return i.es ? " (" + i.es + ")" : "";
-  }
-  function stemOf(verb, p, tail, tense) {
-    if (tense === "imperativo" && P.imperative) return "(" + P.imperative[p] + ") ___!" + (tail || "");
-    var l = labelFor(verb, p);
-    return (l ? l + " " : "") + "___" + (tail || "");
-  }
-
-  function conjugationDrill(verb, tense, known, persons) {
-    var nf = nonFinite(verb, tense);
-    if (nf) return nonFiniteItem(verb, tense, nf, false);
-    var forms = conjForms(verb, tense);
-    var alt = altFor(verb, tense);
-    var p = pickPerson(personsFor(verb, forms, persons));
-    var answer = forms[p];
-    var accept = acceptedFor(verb, tense, p, answer, alt);
-
-    // Distractors: the same verb in other persons, then the same person in
-    // other tenses — the mistakes a learner actually makes.  Several persons
-    // often share a form (falava/falava/falava), so the pool must be deduped
-    // or the same option shows up twice.  A skipped person (vós) is never
-    // an option, nor a right form with the other auxiliary.
-    var pool = [];
-    function add(f) {
-      if (f && f !== answer && pool.indexOf(f) < 0 && accept.indexOf(f) < 0 &&
-          !(alt && alt.indexOf(f) >= 0)) pool.push(f);
-    }
-    forms.forEach(function (f, i) { if (!skipped(i)) add(f); });
-    var tenses = known && known.length ? known : Conj.ALL_TENSES;
-    shuffle(tenses).forEach(function (t) {
-      if (t === tense || pool.length >= 8) return;
-      try { add(conjForms(verb, t)[p]); } catch (e) { /* no se conjuga en ese tiempo */ }
-    });
-    // Last resort: other persons of other tenses, so we always reach 4 options.
-    shuffle(tenses).forEach(function (t) {
-      if (pool.length >= 3) return;
-      try {
-        conjForms(verb, t).forEach(function (f, i) { if (!skipped(i)) add(f); });
-      } catch (e) { /* no se conjuga en ese tiempo */ }
-    });
-    // Still short (a verb with few distinct forms): the skipped forms after all.
-    SKIP.forEach(function (i) { if (pool.length < 3) add(forms[i]); });
-    if (pool.length < 3) shuffle(Conj.ALL_TENSES).forEach(function (t) {
-      if (pool.length >= 3) return;
-      try { conjForms(verb, t).forEach(add); } catch (e) { /* */ }
-    });
-
-    var options = shuffle(sample(pool, 3).concat([answer]));
-    // «src: coniugatore» and «topic: coniugazione» are the tokens the other
-    // modules and the review look for.
-    return {
-      id: "conj:" + verb + ":" + tense + ":" + p,
-      src: "coniugatore",
-      type: "choice",
-      topic: "coniugazione",
-      prompt: "Conjugá «" + verb + "»" + esOf(verb) + " — " +
-              tenseLabel(tense),
-      stem: stemOf(verb, p, "", tense),
-      options: options,
-      answer: answer,
-      accept: accept,
-      note: formsNote(verb, tense, forms, alt)
-    };
-  }
-
-  function conjugationTyped(verb, tense, persons) {
-    var nf = nonFinite(verb, tense);
-    if (nf) return nonFiniteItem(verb, tense, nf, true);
-    var forms = conjForms(verb, tense);
-    var alt = altFor(verb, tense);
-    var p = pickPerson(personsFor(verb, forms, persons));
-    return {
-      id: "conjw:" + verb + ":" + tense + ":" + p,
-      src: "coniugatore",
-      type: "cloze",
-      topic: "coniugazione",
-      prompt: "Escribí la forma de «" + verb + "»" + esOf(verb) + " — " +
-              tenseLabel(tense),
-      stem: stemOf(verb, p, " (" + verb + ")", tense),
-      answer: forms[p],
-      accept: acceptedFor(verb, tense, p, forms[p], alt),
-      note: formsNote(verb, tense, forms, alt)
-    };
-  }
-
   /* ------------------------------------------ reconocer antes de producir */
 
   /* The first time an exercise shows up, you recognise the answer among
      options; from the second time on, you write it (recognition before
      production: Nation 2013, and the project guide).  The options are the
-     errors a Spanish speaker makes (accent, double consonant, contraction,
-     Spanish spelling, ending, article: Lezione.traps) or answers of the same
+     typical errors on the answer (Lezione.traps) or answers of the same
      week that look alike.
      The id stays the same, so the SRS card is the one of the exercise. */
   var TYPED = { cloze: 1, translate: 1, conjugate: 1, plural: 1, numbers: 1, qa: 1, typed: 1 };
@@ -342,7 +90,7 @@
   var ART_SG = DR.artSg || [], ART_PL = DR.artPl || [];
   var PREP_ART = DR.prepArt || {};
   var WORD_CLASSES = DR.classes || [];
-  // The dictionary of the language's words (Diagnosi.util), or null.
+  // The dictionary of the edition's words, or null.
   function wordTest() { return R.isWord ? R.isWord() : null; }
   function wordVariants(it) {
     var ans = String(it.answer || "").trim().replace(/’/g, "'"), low = ans.toLowerCase(), out = [];
@@ -402,46 +150,6 @@
         // «vos», «usted»: Spanish named in the prompt is not an option
         if (q.split(/\s+/).every(function (w) { return inLang(w.toLowerCase().replace(/’/g, "'")); })) add(q);
       });
-    // 0b. a verb in parentheses («Tu ___ (frequentare)», «(levantar-se)»):
-    //     the other persons of that same verb in the same tense, never
-    //     another verb (conj.infRe: what an infinitive looks like).
-    var infM = CR.infRe ? CR.infRe.exec(it.stem || "") : null;
-    if (infM && Conj && opts.length < 3) {
-      var inf = infM[1].toLowerCase(), forms = null;
-      if (!Conj.VERBS[inf] && Conj.register) { try { Conj.register(inf, {}); } catch (e) { /* */ } }
-      (Conj.ALL_TENSES || Conj.SIMPLE_TENSES).forEach(function (t) {
-        if (forms) return;
-        try {
-          var f = conjForms(inf, t).map(function (x) { return x || ""; });
-          if (f.some(function (x) { return norm(x) === norm(answer) || norm(x.split(" ").slice(1).join(" ")) === norm(answer) || norm(x.split(" ").pop()) === norm(answer); }))
-            forms = f.filter(function (x, i) { return !skipped(i); });      // never a skipped person (vós)
-        } catch (e) { /* */ }
-      });
-      var multi = answer.trim().split(/\s+/).length;
-      addForms(forms, multi);
-    }
-    // 0c. a conjugated form without the infinitive in sight (___ brutto
-    //     tempo → fa; ___ muito calor → faz): the other persons of the verb
-    //     the answer belongs to.
-    if (!infM && it.type === "conjugate" && Conj && root.Diagnosi && root.Diagnosi.verbForms && opts.length < 3) {
-      var vf = root.Diagnosi.verbForms(norm(answer).split(" ").pop())[0];
-      if (vf) { try { addForms(Conj.conjugate(vf.lemma, vf.tense).filter(function (x, i) { return !skipped(i); }), answer.trim().split(/\s+/).length); } catch (e) { /* */ } }
-    }
-    function addForms(forms, multi) {
-      if (forms) shuffle(forms.filter(Boolean)).forEach(function (x) {
-        var xs = x.split(" ");
-        if (opts.length < 3) add(xs.length > multi ? xs.slice(xs.length - multi).join(" ") : x);
-      });
-    }
-    // 1. conjugation: the same verb in other persons
-    if (it.src === "coniugatore" && Conj) {
-      var m = /^conjw?:([^:]+):([^:]+):(\d)$/.exec(it.id);
-      if (m) {
-        var nfm = nonFinite(m[1], m[2]);
-        if (nfm) shuffle(nfm.wrong).forEach(add);
-        else try { shuffle(conjForms(m[1], m[2]).filter(function (x, i) { return !skipped(i) && x; })).forEach(add); } catch (e) { /* no */ }
-      }
-    }
     // 2. the typical errors on the answer itself
     if (opts.length < 3 && Lez) {
       var tr = Lez.traps(answer, Math.random, week || 999, W0);
@@ -451,7 +159,7 @@
     }
     // 2b. the same word in another shape (never another word that merely
     //     looks like a plural next to the only plural of the right word)
-    if (opts.length < 3 && it.src !== "coniugatore") {
+    if (opts.length < 3) {
       wordVariants(it).forEach(function (v) { if (opts.length < 3) add(v); });
     }
     // 3. answers of the same kind from the same week: same shape (a letter
@@ -508,8 +216,7 @@
   function firstRecognize(list, state, week, pool) {
     var cards = (state && state.cards) || {}, recog = (state && state.recog) || {};
     return list.map(function (it) {
-      // phrases have their own ladder (tiles → memory): left alone
-      if (!it || cards[it.id] || recog[it.id] || it.src === "frasi" || it.src === "lab" || it.src === "lettura") return it;
+      if (!it || cards[it.id] || recog[it.id]) return it;
       return recognitionOf(it, pool || list, week) || it;
     });
   }
@@ -549,13 +256,11 @@
 
   // What kind of word: verb, noun, adjective, adverb, expression.
   function wordKind(it, es) {
-    var D = root.Diagnosi && root.Diagnosi.DATA;
     var first = String(es || "").split(/[,;/(]/)[0].trim().toLowerCase();
     if (CR.verbRe && CR.verbRe.test(it) && /(ar|er|ir|ír)(se|lo|la|le)?$/.test(first)) return "v";
     if (/^[¡¿]/.test(es || "")) return "x";
     if (/mente$/.test(it)) return "adv";
-    if (D && D.nouns && (D.nouns[it] || (D.nounsByPlural && D.nounsByPlural[it]))) return "n";
-    if ((D && D.adj && D.adj[it]) || ((R.vocab || {}).adj || []).some(function (re) { return re.test(it); })) return "a";
+    if (((R.vocab || {}).adj || []).some(function (re) { return re.test(it); })) return "a";
     return "o";
   }
   // Closed fields by the Spanish meaning: numbers, days, colours, family…
@@ -574,23 +279,6 @@
     return null;
   }
 
-  // The topic of a noun in the bank (casa, famiglia, comida…).
-  var TOPIC = null;
-  function wordTopic(it) {
-    if (!TOPIC) {
-      TOPIC = {};
-      var b = root.Banca && root.Banca.loaded() ? root.Banca.bank() : null;
-      ((b && b.nouns) || []).forEach(function (n) { if (n[4]) { TOPIC[n[0]] = n[4]; TOPIC[n[2]] = n[4]; } });
-    }
-    var art = (R.vocab || {}).article;
-    return TOPIC[art ? String(it).replace(art, "") : String(it)] || null;
-  }
-  function topicGlosses(topic, v) {
-    var b = root.Banca && root.Banca.loaded() ? root.Banca.bank() : null;
-    return ((b && b.nouns) || []).filter(function (n) { return n[4] === topic && n[0] !== v[0] && n[3] !== v[1]; })
-      .map(function (n) { return n[3]; });
-  }
-
   /* What the answer shows: how the word is used (tools: the tip of each
      word of the week), then the example. */
   function wordNote(v) {
@@ -606,18 +294,16 @@
       // Same field first (hermano among hija, tío, abuelo), then the same
       // kind of word: a verb among nouns, or «ventana» next to «hermano»,
       // gives itself away.
-      var kind = wordKind(v[0], v[1]), topic = wordTopic(v[0]), fld = fieldOf(v[1]);
+      var kind = wordKind(v[0], v[1]), fld = fieldOf(v[1]);
       // the whole list when the week has too few of the same kind
       var all = Object.keys(VOC).map(function (k) { return VOC[k]; }).filter(function (x) { return x.v[0] !== v[0] && x.v[1] !== v[1]; });
       var ranked = shuffle(all).map(function (x) {
-        return { x: x, s: (fld && fieldOf(x.v[1]) === fld ? 8 : 0) + (topic && wordTopic(x.v[0]) === topic ? 4 : 0) +
+        return { x: x, s: (fld && fieldOf(x.v[1]) === fld ? 8 : 0) +
                           (wordKind(x.v[0], x.v[1]) === kind ? 3 : 0) + (Math.abs(x.week - e.week) <= 3 ? 1 : 0) +
                           (Math.abs(x.v[1].length - v[1].length) <= 6 ? 1 : 0) };
       }).sort(function (a, b) { return b.s - a.s; });
       var opts = [v[1]];
-      var field = topic ? topicGlosses(topic, v) : [];
       ranked.filter(function (r) { return r.s >= 4; }).forEach(function (r) { if (opts.length < 4 && opts.indexOf(r.x.v[1]) < 0) opts.push(r.x.v[1]); });
-      shuffle(field).forEach(function (g) { if (opts.length < 4 && opts.indexOf(g) < 0) opts.push(g); });
       ranked.forEach(function (r) { if (opts.length < 4 && opts.indexOf(r.x.v[1]) < 0) opts.push(r.x.v[1]); });
       return { id: id, src: "vocab", type: "choice", topic: "vocabolario",
                prompt: "¿Qué significa?", stem: v[0], options: shuffle(opts), answer: v[1],
@@ -680,8 +366,8 @@
     return recog.concat(writeNew, rest).filter(Boolean).slice(0, size);
   }
 
-  /* Una ronda mezcla tres fuentes para que ninguna sesión sea igual: los
-     ítems de autor de la semana, el banco y el gimnasio de conjugación. */
+  /* Una ronda mezcla los ítems de autor de la semana con lo que quedó sin
+     ver de las semanas anteriores, para que ninguna sesión sea igual. */
   function buildRound(course, week, opts) {
     opts = opts || {};
     var size = opts.size || 12;
@@ -703,22 +389,15 @@
       .map(function (id) { return map[id]; })
       .filter(audible);
 
-    // The gym weighs more when the week brings a new tense (gymShare, from
-    // build_course.py); in review weeks it would only repeat «voi siete».
     // focus: the training of one part of the lesson asks that part and
-    // nothing else (no verb gym, no review, no words of the week).
+    // nothing else (no review, no concepts of the week).
     var focus = !!opts.focus;
     var mix = roundMix(week, opts.state);
-    var wantConj = focus ? 0 : Math.min(
-      week.verbs && week.verbs.length ? Math.ceil(size * Math.max(0.15, Math.min(0.6, (week.gymShare || 0.35) + mix.gym))) : 0,
-      size
-    );
     // push: the week is not passed yet («Superá la semana», 20 right with
     // its own exercises): the round is mostly them, so a round moves the
     // mission by about ten and not by six or seven (3.1).
     var push = !!opts.push && !focus;
-    if (push) wantConj = Math.min(wantConj, 2);
-    var wantBook = size - wantConj;
+    var wantBook = size;
     var wantExtra = focus ? 0 : Math.min(extra.length, Math.round(wantBook / 4 * mix.extra));
     if (push) wantExtra = Math.min(wantExtra, 1);
 
@@ -733,24 +412,12 @@
     });
     pickFresh(extra.concat(shuffle(carry).filter(audible)), wantExtra, opts.state).forEach(function (it) { out.push(it); });
 
-    for (var i = 0; i < wantConj; i++) {
-      var verb = week.verbs[Math.floor(Math.random() * week.verbs.length)];
-      var tense = week.tenses[Math.floor(Math.random() * week.tenses.length)];
-      try {
-        // a weak spot in the verbs (the error profile): more of them written
-        out.push(i % 2 === 0 && !mix.verbsWeak ? conjugationDrill(verb, tense, week.known, week.persons)
-                             : conjugationTyped(verb, tense, week.persons));
-      } catch (e) { /* un verbo que no se conjuga en ese tiempo: se salta */ }
-    }
-
-    // Short: top up with other items of the week, then from the big bank,
-    // never with a repeat.
+    // Short: top up with other items of the week, never with a repeat.
     if (out.length < size) {
       var inRound = {}; out.forEach(function (it) { inRound[it.id] = 1; });
       pickFresh(bookItems.concat(focus ? [] : extra).filter(function (it) { return !inRound[it.id]; }), size - out.length, opts.state)
         .forEach(function (it) { out.push(it); });
     }
-    if (out.length < size && !focus) bankFill(opts.state, size - out.length).forEach(function (it) { out.push(it); });
     // two words of the week, interleaved with the grammar
     if (week.vocab && week.vocab.length && !focus && !push) {
       var vs = vocabSession(course, week, opts.state || {}, 2);
@@ -762,24 +429,18 @@
   function recogOf(state) { return (state && state.recog) || {}; }
 
   /* The mix of a round follows how the week is going (E8): the accuracy of
-     the last answers of the week (weekStats.last) and the error profile.
-     Doing well: more review of the weeks before (interleaving) and more
-     verbs; struggling: the week's own exercises first.  A weak spot in the
-     verbs (the diagnosis' category) brings more verbs, written. */
-  var VERB_CATS = /coniug|ausil|aux|verb|tempo|tempi|persona|modo|congiunt|subjunt|particip|gerund|imperat|condiz|futur|passat|pret|imperf/i;
+     the last answers of the week (weekStats.last).  Doing well: more review
+     of the weeks before (interleaving); struggling: the week's own
+     exercises first. */
   function roundMix(week, state) {
-    var out = { extra: 1, gym: 0, verbsWeak: false, acc: null };
+    var out = { extra: 1, acc: null };
     var ws = state && state.weekStats && week && state.weekStats[week.week];
     var l = (ws && ws.last) || [];
     if (l.length >= 10) {
       var acc = l.reduce(function (a, x) { return a + x; }, 0) / l.length;
       out.acc = acc;
-      if (acc >= 0.9) { out.extra = 1.5; out.gym = 0.05; }
-      else if (acc < 0.7) { out.extra = 0.5; out.gym = -0.1; }
-    }
-    if (Banca && Banca.weakest && state && state.errs) {
-      var wk = Banca.weakest(state, 1)[0];
-      if (wk && VERB_CATS.test(wk.cat)) { out.verbsWeak = true; out.gym += 0.1; }
+      if (acc >= 0.9) out.extra = 1.5;
+      else if (acc < 0.7) out.extra = 0.5;
     }
     return out;
   }
@@ -841,12 +502,9 @@
   }
 
   /* El jefe pesca de todas las semanas ya abiertas, no solo de la última.
-     Es un examen por destreza, como las certificaciones: una lectura con
-     sus preguntas (del tramo desde la 27; de «La settimana» antes), una
-     escucha con preguntas (la escucha larga del tramo, o un texto de la
-     estación leído en voz alta), producción escrita (12-15 ítems) y
-     estructuras (opción múltiple), cada una con su 55 % (it.skill).  Si se
-     repite el mismo día, otras preguntas y otros textos. */
+     Tiene dos partes, cada una con su 55 % (it.skill): producción escrita
+     (12-15 ítems) y estructuras (opción múltiple).  Si se repite el mismo
+     día, otras preguntas. */
   var BOSS_WRITTEN = { cloze: 1, translate: 1, conjugate: 1, plural: 1, numbers: 1, qa: 1, typed: 1, write: 1, fixerr: 1, garden: 1 };
   function bossUsed(state, wk) {
     if (!state || !Engine) return { ids: {}, eps: [] };
@@ -860,7 +518,7 @@
     var map = opts.map || itemsById(course);
     var used = bossUsed(state, week.week);
     // Half from the season it closes, a quarter from the one before, the
-    // rest from anywhere earlier: the C1 exam examines C1, not «io sono».
+    // rest from anywhere earlier.
     var season = (course.seasons || []).filter(function (s) { return week.week >= s.weeks[0] && week.week <= s.weeks[1]; })[0];
     var lo = season ? season.weeks[0] : 1;
     var prevLo = Math.max(1, lo - 13);
@@ -924,13 +582,6 @@
       return got.slice(0, n);
     };
     var prod = pick("w", nProd), str = pick("c", nStr);
-    // Short of written items: the verbs of the week, written.
-    var verbs = week.verbs || [], tenses = week.tenses || ["presente"];
-    for (var g = 0; prod.length < nProd && verbs.length && g < nProd * 2; g++) {
-      var v = verbs[Math.floor(Math.random() * verbs.length)];
-      var t = tenses[Math.floor(Math.random() * tenses.length)];
-      try { prod.push(conjugationTyped(v, t)); } catch (e) { break; }
-    }
     // Short of multiple choice: more written.
     if (str.length < nStr) {
       var have = {};
@@ -943,96 +594,16 @@
     };
     var out = shuffle(tag(prod, "produzione").concat(tag(str, "strutture")));
     out.forEach(function (it) { if (map[it.id]) used.ids[it.id] = 1; });
-    // The reading and the listening, each one as a block of questions.
-    var texts = bossTexts(week, lo, used, opts.silent);
-    var blocks = out.map(function (x) { return [x]; });
-    if (texts.read.length) blocks.splice(Math.floor(blocks.length / 3), 0, texts.read);
-    if (texts.listen.length) blocks.splice(Math.floor(blocks.length * 2 / 3), 0, texts.listen);
-    // One in five more: sentences of the bank never seen, on grammar already
-    // taught, to see whether the rule generalises (reported apart).
-    novelItems(state, Math.round(size * 0.2), out).forEach(function (it, k) {
-      blocks.splice(Math.floor((k + 1) * blocks.length / 6), 0, [it]);
-    });
-    return [].concat.apply([], blocks);
-  }
-
-  /* The texts of the boss: a reading of the season with its questions, and
-     a listening (the long listening of the tramo from week 27; before, a
-     text of the season read aloud, sentence by sentence).  Never the same
-     text twice the same day. */
-  function bossTexts(week, lo, used, silent) {
-    var L = root.Letture, out = { read: [], listen: [] };
-    if (!L || !L.ofSeries) return out;
-    var inSeason = function (ep) { return ep.week >= lo && ep.week <= week.week && (ep.questions || []).length; };
-    var fresh = function (list) {
-      var f = list.filter(function (ep) { return used.eps.indexOf(ep.id) < 0; });
-      return shuffle(f.length ? f : list);
-    };
-    var longs = week.week >= 27 ? L.ofSeries("lunga").filter(inSeason) : [];
-    var rd = fresh(longs.length ? longs : L.ofSeries("settimana").filter(inSeason))[0];
-    if (rd) {
-      used.eps.push(rd.id);
-      out.read = L.session(rd).filter(function (x) { return x.type === "choice"; }).slice(0, 6).map(function (x) {
-        x.skill = "lettura"; x.nocard = true; x.bossText = rd.title;
-        return x;
-      });
-    }
-    if (silent) return out;
-    var TR = root.TRAMO_DATA, asc = null;
-    if (week.week >= 27 && TR && TR.SETTIMANE) {
-      var cands = fresh(TR.SETTIMANE.filter(function (s) {
-        return s.week >= lo && s.week <= week.week && s.ascolto && (s.ascolto.questions || []).length;
-      }).map(function (s) { return { id: "asc-" + s.week, s: s }; }));
-      if (cands[0]) {
-        var a = cands[0].s.ascolto;
-        asc = { id: cands[0].id, title: a.title, questions: a.questions, vf: a.vf,
-                parts: a.turns.map(function (t) { return [t[0], t[1]]; }) };
-      }
-    }
-    if (!asc) {
-      var other = fresh(L.ofSeries("settimana").filter(function (ep) { return inSeason(ep) && ep !== rd; }))[0];
-      if (other) {
-        asc = { id: other.id, title: other.title, questions: other.questions, vf: other.vf,
-                parts: String(other.text || "").replace(/([.!?…]["»”)]*)\s+/g, "$1\n").split(/\n+/)
-                  .filter(function (x) { return x.trim(); }).map(function (x) { return ["A", x.trim()]; }) };
-      }
-    }
-    if (asc && asc.parts.length) {
-      used.eps.push(asc.id);
-      var text = asc.parts.map(function (p) { return p[1]; }).join(" ");
-      out.listen = L.session({ id: "asc:" + asc.id, questions: asc.questions || [], vf: asc.vf || [], hunt: { label: "", targets: [] }, grammar: "" })
-        .filter(function (x) { return x.type === "choice"; }).slice(0, 6).map(function (x, k) {
-          var vf = /:vf\d+$/.test(x.id);
-          return { id: "boss:" + x.id, src: "lettura", type: "listen", skill: "ascolto", nocard: true, nopeek: true,
-                   prompt: vf ? x.prompt + " «" + x.stem + "»" : x.stem, stem: text, parts: asc.parts,
-                   options: x.options, answer: x.answer, accept: x.accept, note: x.note || "",
-                   noauto: k > 0, bossText: asc.title };
-        });
-    }
     return out;
   }
-  function novelItems(state, n, have) {
-    if (!Banca || !Banca.loaded() || !n || !state) return [];
-    var cards = state.cards || {}, seen = {};
-    (have || []).forEach(function (it) { seen[sameKey(it)] = 1; });
-    var pool = Banca.gapSession(state, 60).concat(Banca.translateSession(state, 60))
-      .filter(function (it) { return it && !cards[it.id] && !seen[sameKey(it)]; });
-    return shuffle(pool).slice(0, n).map(function (it) { return Object.assign({}, it, { novel: true }); });
-  }
 
-  /* Las frases de conversación viven fuera del curso: cada repaso vuelve a
-     generar su ejercicio, así la misma frase vuelve con otra forma. */
+  /* The item of a card: the course's, or one that another module makes
+     again each time (a concept, a duel, a word of the Library, a rule). */
   function reviewItem(map, id, opts) {
     if (map[id]) return map[id];
     if (id.indexOf("v:") === 0) return vocabItem(id.slice(2), opts && opts.state);
-    if (Frasi && Frasi.BY_ID[id]) return Frasi.pickItem(Frasi.BY_ID[id], opts);
-    if (Lab && Lab.BY_ID[id]) return Lab.item(id);
-    if (Banca && id.indexOf("b:") === 0) return Banca.item(id);
     if (Duelli && id.indexOf("duel:") === 0) return Duelli.reviewItem(id);
-    if (root.EscrituraPlus && id.indexOf("ep:") === 0) return root.EscrituraPlus.reviewItem(id, opts && opts.state);   // reformulación
     if (root.Biblioteca && id.indexOf("lib:") === 0) return root.Biblioteca.reviewItem(id, opts && opts.state);   // 📌 de la Biblioteca
-    if (root.TresLenguas && id.indexOf("tres:") === 0) return root.TresLenguas.reviewItem(id);   // lo fallado en Tres lenguas
-    if (root.Trabajo && id.indexOf("trab:") === 0) return root.Trabajo.reviewItem(id);   // los ejercicios de las escenas de trabajo
     // a rule: a new sentence with it; an item another module left (Engine.enqueue)
     if (root.Reglas && id.indexOf("r:") === 0) return root.Reglas.reviewItem(id, opts && opts.state);
     if (root.Reglas && id.indexOf("own:") === 0) return root.Reglas.ownItem(opts && opts.state, id);
@@ -1040,14 +611,10 @@
   }
 
   function knownId(map, id, state) {
-    return !!(map[id] || (id.indexOf("v:") === 0 && VOC && VOC[id.slice(2)]) || (Frasi && Frasi.BY_ID[id]) || (Lab && Lab.BY_ID[id]) ||
+    return !!(map[id] || (id.indexOf("v:") === 0 && VOC && VOC[id.slice(2)]) ||
               (root.Reglas && id.indexOf("r:") === 0 && root.Reglas.known(id)) ||
               (id.indexOf("own:") === 0 && state && state.own && state.own[id]) ||
-              (Banca && Banca.loaded() && id.indexOf("b:") === 0 && Banca.item(id)) ||
-              (root.EscrituraPlus && id.indexOf("ep:") === 0) ||
               (root.Biblioteca && id.indexOf("lib:") === 0) ||
-              (root.TresLenguas && id.indexOf("tres:") === 0 && !!root.TresLenguas.reviewItem(id)) ||
-              (root.Trabajo && id.indexOf("trab:") === 0 && !!root.Trabajo.reviewItem(id)) ||
               (Duelli && id.indexOf("duel:") === 0 && !!Duelli.reviewItem(id)));
   }
 
@@ -1132,15 +699,7 @@
     var map = opts.map || itemsById(course);
     var pool = (week.items || []).map(function (id) { return map[id]; })
       .filter(function (it) { return it && !(opts.silent && it.type === "listen"); });
-    var out = pickFresh(pool, DOMINA_SIZE, state);
-    if (out.length < DOMINA_SIZE) {
-      var have = {};
-      out.forEach(function (it) { have[sameKey(it)] = 1; });
-      bankFill(state, DOMINA_SIZE - out.length).forEach(function (it) {
-        if (!have[sameKey(it)]) { have[sameKey(it)] = 1; out.push(it); }
-      });
-    }
-    out = shuffle(out);
+    var out = shuffle(pickFresh(pool, DOMINA_SIZE, state));
     // A few rules of a month ago or more, written, with new sentences
     // (it.old: reported apart, they do not count for the 85 %).
     if (root.Reglas && root.Reglas.oldItems && state) {
@@ -1163,48 +722,10 @@
     return { seen: seen, total: ids.length, ok: ids.length === 0 || seen >= Math.min(40, Math.ceil(ids.length * 0.6)) };
   }
 
-  /* El recorrido es el eje del curso: cada escena de frases tiene su
-     semana, así las frases llegan cuando la gramática que usan ya se vio
-     (las opiniones con subjuntivo después de su semana, no el primer día).
-     La semana la trae la escena misma (scene.week); si no la trae, la tabla
-     del idioma (LANG.rules.sceneWeek) o la última. */
-  var SCENE_WEEK = R.sceneWeek || {};
-  var sceneById = null;
-  function sceneWeek(id) {
-    if (Frasi && Frasi.SCENES && (!sceneById || sceneById.n !== Frasi.SCENES.length)) {
-      sceneById = { n: Frasi.SCENES.length };
-      Frasi.SCENES.forEach(function (s) { sceneById[s.id] = s; });
-    }
-    var sc = sceneById && sceneById[id];
-    return (sc && +sc.week) || SCENE_WEEK[id] || root.Engine.weeks();
-  }
-  function scenesOfWeek(week) {
-    if (!Frasi) return [];
-    return Frasi.SCENES.filter(function (s) { return sceneWeek(s.id) === week; });
-  }
-
-  /* La escena del momento: la primera incompleta entre las ya alcanzadas en
-     el recorrido.  Si están todas completas, la última alcanzada (repaso),
-     nunca una de una semana futura. */
-  function nextScene(state) {
-    if (!Frasi) return null;
-    var unlocked = Math.min((state && state.unlocked) || 1, root.Engine.weeks());
-    var cards = (state && state.cards) || {};
-    var ordered = Frasi.SCENES.slice().sort(function (a, b) { return sceneWeek(a.id) - sceneWeek(b.id); });
-    var reached = ordered.filter(function (s) { return sceneWeek(s.id) <= unlocked; });
-    if (!reached.length) reached = ordered.slice(0, 1);
-    for (var i = 0; i < reached.length; i++) {
-      var p = Frasi.progress(reached[i].id, cards);
-      if (p.seen < p.total) return reached[i];
-    }
-    return reached[reached.length - 1];
-  }
-
-  /* La pausa del café: tres minutos.  Un poco de repaso, dos frases
-     nuevas, algunas conocidas, una pregunta del laboratorio y una de la
-     semana.  Cada frase nueva se presenta temprano y se pide después de
-     algunas preguntas en el medio: enseguida se recuerda «a la vista», sin
-     esfuerzo, y no sirve (espaciado dentro de la sesión: Cepeda et al. 2006). */
+  /* La pausa del café: tres minutos.  Un poco de repaso, conceptos de la
+     semana y dos preguntas de opción de la semana, mezclados
+     (intercalar: Rohrer & Taylor 2007).  week: the last week whose lesson
+     the learner has read; before the first lesson, only the review. */
   function buildPausa(course, state, week, opts) {
     opts = opts || {};
     var map = opts.map || itemsById(course);
@@ -1212,92 +733,27 @@
     var seenIds = {};
     review.forEach(function (it) { seenIds[it.id] = true; });
 
-    var intros = [], drills = [], filler = review.slice();
-    // a package without phrase scenes yet (a language that is starting):
-    // the words of the week take their place
-    var noScenes = !Frasi || !Frasi.SCENES || !Frasi.SCENES.length;
-    if (noScenes && week) vocabSession(course, week, state, 3).forEach(function (it) { if (!seenIds[it.id]) { filler.push(it); seenIds[it.id] = true; } });
-    if (!noScenes) {
-      var sc = nextScene(state);
-      Frasi.ofScene(sc.id).filter(function (f) {
-        return !state.cards[f.id] && !seenIds[f.id];
-      }).slice(0, 2).forEach(function (f) {
-        intros.push({ id: f.id, frase: f, src: "frasi", type: "intro",
-                      prompt: "Frase nueva", stem: f.it, answer: f.it, note: f.note });
-        drills.push(Frasi.pickItem(f, { silent: opts.silent, fresh: true }));
-        seenIds[f.id] = true;
-      });
-      shuffle(Frasi.ALL.filter(function (f) {
-        return state.cards[f.id] && !seenIds[f.id];
-      })).slice(0, 2).forEach(function (f) { filler.push(Frasi.pickItem(f, opts)); });
-    }
-
-    // Interleaving (Rohrer & Taylor 2007): una pregunta del laboratorio.
-    // week: the last week whose lesson the learner has read.  Before the
-    // first lesson there is no grammar to practise: only phrases and words.
-    var labIt = Lab && week ? Lab.randomItem(state.cards, week.week) : null;
-    if (labIt) filler.push(labIt);
+    var filler = review.slice();
+    if (week) vocabSession(course, week, state, 3).forEach(function (it) { if (!seenIds[it.id]) { filler.push(it); seenIds[it.id] = true; } });
 
     // De la semana, solo preguntas de opción: en la pausa se va rápido.
     var bookChoice = ((week && week.items) || []).map(function (id) { return map[id]; })
       .filter(function (it) { return it && it.type === "choice" && !seenIds[it.id]; });
-    var fresh = pickFresh(bookChoice, 2, state).filter(function (it) {
+    pickFresh(bookChoice, 2, state).filter(function (it) {
       var c = state.cards[it.id];
       return !c || !c.due || c.due <= Date.now();   // already known and not due: leave it
-    });
-    fresh.forEach(function (it) { filler.push(it); });
-    if (week) bankFill(state, 2 - fresh.length).forEach(function (it) { filler.push(it); });
-    if (week && week.verbs && week.verbs.length) {
-      try {
-        filler.push(conjugationDrill(
-          week.verbs[Math.floor(Math.random() * week.verbs.length)],
-          week.tenses[Math.floor(Math.random() * week.tenses.length)], week.known, week.persons));
-      } catch (e) { /* se salta */ }
-    }
-    filler = shuffle(filler);
+    }).forEach(function (it) { filler.push(it); });
 
-    // intro A, 2 filler, intro B, 2 filler, drill A, 2 filler, drill B, rest.
-    var out = [];
-    function take(n) { for (var i = 0; i < n && filler.length; i++) out.push(filler.shift()); }
-    if (intros[0]) out.push(intros[0]);
-    take(2);
-    if (intros[1]) out.push(intros[1]);
-    take(2);
-    if (drills[0]) out.push(drills[0]);
-    take(2);
-    if (drills[1]) out.push(drills[1]);
-    take(filler.length);
-    return firstRecognize(out.slice(0, 11), state, week ? week.week : 1);
-  }
-
-  /* Lampo / Relâmpago: 60 segundos de opciones rápidas, del castellano al
-     idioma.  (Las frases guardan el idioma en «it» y el castellano en «es».) */
-  function lampoItem(state) {
-    var pool = Frasi.ALL.filter(function (f) { return state.cards[f.id]; });
-    if (pool.length < 8) pool = Frasi.ALL.slice(0, 40);
-    var f = pool[Math.floor(Math.random() * pool.length)];
-    var near = Frasi.similar(f, 3, "it"), far = [];
-    return {
-      id: f.id, frase: f, src: "frasi", type: "choice",
-      prompt: "¿Cómo se dice?",
-      stem: f.es,
-      options: shuffle([f.it].concat(near.concat(far).map(function (g) { return g.it; }))),
-      answer: f.it, accept: [f.it], note: f.note
-    };
+    return firstRecognize(shuffle(filler).slice(0, 11), state, week ? week.week : 1);
   }
 
   var api = {
     shuffle: shuffle,
     sample: sample,
     itemsById: itemsById,
-    conjugationDrill: conjugationDrill,
-    conjugationTyped: conjugationTyped,
-    lacksForm: lacksForm,
     buildRound: buildRound,
     recognitionOf: recognitionOf,
     withWordIntros: withWordIntros,
-    sceneWeek: sceneWeek,
-    scenesOfWeek: scenesOfWeek,
     firstRecognize: firstRecognize,
     vocabSession: vocabSession,
     vocabItem: vocabItem,
@@ -1316,9 +772,7 @@
     mastered: mastered,
     coverage: coverage,
     dueCount: dueCount,
-    nextScene: nextScene,
-    buildPausa: buildPausa,
-    lampoItem: lampoItem
+    buildPausa: buildPausa
   };
 
   if (typeof module === "object" && module.exports) module.exports = api;

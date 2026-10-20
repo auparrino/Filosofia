@@ -1,7 +1,6 @@
 /*
  * «Ordená el texto»: los párrafos (o las oraciones) de un texto que ya
- * leíste o que reconstruiste en el dictogloss, desordenados, para volver a
- * armarlo.  Es la tarea de cohesión de los exámenes (Celpe-Bras, CELI):
+ * leíste, desordenados, para volver a armarlo.  Es una tarea de cohesión:
  * lo que ordena un texto son los conectores (después, pero, así que), el
  * tiempo (a la mañana, a la noche, al día siguiente) y lo que remite a algo
  * ya dicho (él, ella, eso).  La app los marca como pista.
@@ -27,8 +26,7 @@
 
   function data() { return root.ESCRITOS_DATA || {}; }
   function sentences(text) {
-    return root.CTest ? root.CTest.sentences(text)
-      : String(text).split(/(?<=[.!?…])\s+/).filter(Boolean);
+    return String(text).split(/(?<=[.!?…])\s+/).filter(Boolean);
   }
 
   function shuffle(a, rnd) {
@@ -157,7 +155,7 @@
     return { maxPars: n, maxSent: n };
   }
 
-  var api = { build: build, level: level, grade: grade, clues: clues, shuffle: shuffle, spread: spread };
+  var api = { build: build, level: level, grade: grade, clues: clues, shuffle: shuffle, spread: spread, sentences: sentences };
   if (typeof module === "object" && module.exports) module.exports = api;
   root.Ordenar = api;
 })(typeof window !== "undefined" ? window : globalThis);

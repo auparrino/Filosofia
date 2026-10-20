@@ -14,16 +14,10 @@
  * (Errores.clinicCat).  Una vez por ítem y por ronda, nunca en el jefe, el
  * examen, Dominala ni las rondas de lectura, oído o frases.
  *
- * De dónde sale, en este orden (nada antes de su teoría):
- *   1. una oración del banco con la misma regla (Reglas.bankOf) y toda su
- *      gramática ya enseñada (Banca.sentenceOk): el hueco o, si no tiene,
- *      la traducción;
- *   2. otro ejercicio del mismo bloque de la lección (Reglas.courseOf, que
- *      arma Porque.blockFor), escrito y el menos visto;
- *   3. una oración del banco de la misma categoría de error (Banca.CURE:
- *      gapSession / translateSession por etiqueta, errorSession).
- * Siempre con otra respuesta y otro enunciado que el ítem fallado, y nada
- * que ya esté en la ronda.
+ * De dónde sale (nada antes de su teoría): otro ejercicio del mismo bloque
+ * de la lección (Reglas.courseOf, que arma Porque.blockFor), escrito y el
+ * menos visto.  Siempre con otra respuesta y otro enunciado que el ítem
+ * fallado, y nada que ya esté en la ronda.
  *
  *   UnaMas.offer(item, ctx) → ítem nuevo | null
  *       ctx: { q (0 mal, 1 casi), ekind ("rule" | "vocab" | "slip"),
@@ -31,23 +25,18 @@
  *   UnaMas.take(round, nuevo)     lo pone como la pregunta siguiente
  *   UnaMas.button() / badge(item) el html de la hoja y del enunciado
  *
- * Sin DOM; el núcleo no nombra un idioma.  Test: tools/lib/test_unamas.js.
+ * Sin DOM; el núcleo no nombra una edición.
  */
 (function (root) {
   "use strict";
 
   // The rounds where it makes sense: practice of rules.  Not the boss, the
   // exam, Dominala (they measure), nor reading, listening or phrases.
-  var ROUNDS = { round: 1, gym: 1, debil: 1, clinica: 1, "b-gap": 1, "b-tr": 1, "b-err": 1, lista: 1,
-                 giorno: 1, pausa: 1, micro: 1, review: 1, sfida: 1, ritorno: 1 };
+  var ROUNDS = { round: 1, debil: 1, lista: 1, giorno: 1, pausa: 1, micro: 1, review: 1, sfida: 1, ritorno: 1 };
   var TYPED = { cloze: 1, translate: 1, conjugate: 1, plural: 1, typed: 1, qa: 1, write: 1 };
 
   function Rg() { return root.Reglas || null; }
-  function Bk() { return root.Banca && root.Banca.loaded && root.Banca.loaded() ? root.Banca : null; }
-  function groups() {
-    var D = root.Diagnosi, L = root.LANG || {};
-    return (D && D.GROUPS) || L.diagGroups || {};
-  }
+  function groups() { return (root.LANG || {}).diagGroups || {}; }
   function norm(s) {
     var E = root.Engine;
     return E && E.normalise ? E.normalise(String(s == null ? "" : s)) : String(s == null ? "" : s).toLowerCase().trim();
@@ -57,11 +46,6 @@
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
     });
   }
-  function shuffle(a) {
-    for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t; }
-    return a;
-  }
-
   /* A mistake of a rule: grammar, not a word nor a slip. */
   function isRule(ctx) {
     if (!ctx || ctx.q == null || ctx.q >= 2) return false;
@@ -77,8 +61,7 @@
 
   // A written item (not picked among options, not heard).
   function written(it) {
-    return !!it && !it.options && it.type !== "choice" && it.type !== "listen" && it.type !== "dictation" &&
-           it.type !== "hunt" && it.type !== "tiles" && !it.nopeek && !it.frase;
+    return !!it && !it.options && it.type !== "choice" && it.type !== "listen" && it.type !== "tiles" && !it.nopeek;
   }
 
   /* The sentence of the target language an item works on: the gap filled,
@@ -118,22 +101,6 @@
     };
   }
 
-  function fromBankRule(rule, state, used) {
-    var R = Rg(), B = Bk();
-    if (!R || !R.bankOf || !B || !B.sentenceOk) return null;
-    var cards = (state && state.cards) || {};
-    var idx = R.bankOf(rule).filter(function (i) { return B.sentenceOk(i, state, "wg") || B.sentenceOk(i, state, "w"); });
-    // the ones never met first
-    var fresh = idx.filter(function (i) { return !cards["b:gap:" + i] && !cards["b:tr:" + i]; });
-    var list = shuffle(fresh).concat(shuffle(idx.filter(function (i) { return fresh.indexOf(i) < 0; })));
-    for (var k = 0; k < list.length; k++) {
-      var i = list[k];
-      var x = (B.sentenceOk(i, state, "wg") && B.gapItem(i)) || (B.sentenceOk(i, state, "w") ? B.translateItem(i) : null);
-      if (x && !used(x)) return x;
-    }
-    return null;
-  }
-
   function fromCourse(rule, state, used, map) {
     var R = Rg();
     if (!R || !R.courseOf || !map) return null;
@@ -147,16 +114,6 @@
     };
     ids = ids.map(function (id) { return { id: id, r: rank(id) }; }).sort(function (a, b) { return a.r - b.r; });
     return ids.length ? map[ids[0].id] : null;
-  }
-
-  function fromCategory(cat, state, used) {
-    var B = Bk(), c = B && B.CURE && cat ? B.CURE[cat] : null;
-    if (!c) return null;
-    var cands = [];
-    if (c.tags) cands = cands.concat(B.gapSession(state, 8, c.tags), B.translateSession(state, 4, c.tags));
-    if (c.err && B.errorSession) cands = cands.concat(B.errorSession(state, 4, c.err));
-    cands = cands.filter(function (x) { return x && !used(x); });
-    return cands[0] || null;
   }
 
   // The title of the lesson block of a rule («r:W:B»), to say which rule.
@@ -175,23 +132,17 @@
     if (round && round.unamas && round.unamas[it.id]) return null;
     var R = Rg(), state = ctx.state || {};
     var rule = R && R.ruleOf ? R.ruleOf(it) : null;
-    var cat = ctx.dg && ctx.dg.cat ? ctx.dg.cat : it.cat || null;
-    if (!rule && !cat) return null;
-    var used = usedOf(it, round), map = ctx.map || null, out = null, src = "";
-    if (rule) { out = fromBankRule(rule, state, used); src = "banco"; }
-    if (!out && rule) { out = fromCourse(rule, state, used, map); src = "curso"; }
-    if (!out && cat) { out = fromCategory(cat, state, used); src = "categoria"; }
+    if (!rule) return null;
+    var out = fromCourse(rule, state, usedOf(it, round), ctx.map || null);
     if (!out) return null;
     var copy = {};
     Object.keys(out).forEach(function (k) { copy[k] = out[k]; });
     delete copy.retry;
     copy.unamas = true;
     copy.unamasOf = it.id;
-    copy.unamasSrc = src;
-    if (rule && src !== "categoria") copy.rule = rule;
-    var Er = root.Errores;
-    copy.unamasH = (rule && src !== "categoria" ? ruleTitle(rule, ctx.course) : "") ||
-      (cat && Er && Er.label ? Er.label(cat) : "");
+    copy.unamasSrc = "curso";
+    copy.rule = rule;
+    copy.unamasH = ruleTitle(rule, ctx.course);
     return copy;
   }
 

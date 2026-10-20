@@ -28,8 +28,6 @@
     voicePrefer: /^es[-_](ar|uy|419)/i,   // …the Río de la Plata first
     storage: "agora-es",          // agora-es.save.v1, agora-es.pending.v1…: never change
     base: "lang/es/",
-    lt: "es",                     // LanguageTool (not used yet)
-    lingualibre: null,
     themeColor: { light: "#efe6d6", dark: "#1a1612" },
     hyphenWords: false,
 
@@ -40,9 +38,6 @@
     glue: function () { return null; },
 
     hlStop: { el: 1, la: 1, los: 1, las: 1, un: 1, una: 1, y: 1, o: 1, de: 1, del: 1, en: 1, que: 1, es: 1, se: 1, no: 1, por: 1, con: 1, al: 1, lo: 1 },
-
-    realVoiceSkip: {},
-    pairBar: null,
 
     // The categories of the corrections (there is no diagnosis module yet).
     diagGroups: {
@@ -55,7 +50,7 @@
     interlang: {
       title: "📓 Cuaderno de malentendidos",
       blurb: "Las confusiones que más se repiten al estudiar filosofía. Verde: catorce días sin caer en ella.",
-      list: function () { return (root.Diagnosi && root.Diagnosi.MALENTENDIDOS) || MALENTENDIDOS; }
+      list: MALENTENDIDOS
     },
 
     refNames: {},
@@ -64,26 +59,10 @@
           ["leer", "📚 Para leer a los clásicos"], ["vida", "🌱 Para vivir mejor"], ["debatir", "🗣️ Para discutir con argumentos"],
           ["idiomas", "🌍 Para después leerla en otro idioma"]],
 
-    /* The final exam (there is none yet: esame_data.js is missing and the
-       core does not offer it). */
+    /* The parts of the season exams, in the result (app.js). */
     exam: {
-      prove: [["lettura", "Comprensión de textos", "📖"], ["strutture", "Conceptos", "🧩"],
-              ["lessico", "Autores y escuelas", "🏛️"], ["scrittura", "Ensayo", "✍️"]],
-      abilities: { ascolto: "Comprensión", lettura: "Comprensión", strutture: "Conceptos", produzione: "Argumentación" },
-      rubric: [["tesis", "Tesis clara"], ["razones", "Razones"], ["conceptos", "Uso de los conceptos"], ["objecion", "Objeción y respuesta"]],
-      kinds: { argomentativo: "Ensayo argumentativo", formale: "Comentario de texto", email: "Carta filosófica", other: "Texto" },
-      genres: {},
-      optional: ["strutture", "lessico"],
-      ricName: "Reconstrucción",
-      provaToast: function (id, name) { return "Prueba: " + name; },
-      byAbility: "Por destreza",
-      missionSub: "Como un final de la carrera.",
-      lead: "Pruebas como las de un final de Introducción a la Filosofía.",
-      sub: { ascolto: "", lettura: "", strutture: "", lessico: "", scrittura: "" },
-      final: "Examen final", levelC1: "Nivel 4", passed: "Examen aprobado.",
-      deliver: "Entregar", transcript: "El texto",
-      vfHelp: "verdadera o falsa", vf: "Verdadero o falso", yes: "verdadero", no: "falso",
-      writing: "Ensayo"
+      abilities: { strutture: "Opción múltiple", produzione: "Para escribir" },
+      byAbility: "Por parte"
     },
 
     /* The shareable card: a sheet of parchment with a Greek key frame. */
@@ -109,7 +88,6 @@
 
     ui: {
       langEs: "filosofía",
-      wordAdj: "filosófica",
       tabs: [["oggi", "☀️", "Hoy"], ["percorso", "🏛️", "Camino"], ["io", "👤", "Yo"]],
       allTabs: [["frasi", "🦉", "Entrenar"], ["leggi", "📖", "Leer"]],
       today: "Hoy", train: "Entrenar", read: "Leer", me: "Yo",
@@ -121,28 +99,15 @@
       of: " de ",
       cheer: { last: "¡La última!", almost: "¡Ya casi!", half: "¡Mitad del camino!" },
       hello: function (h) { return h < 12 ? "Buen día ☀️" : h < 20 ? "Buenas tardes 🦉" : "Buenas noches 🌙"; },
-      pausaUna: "una pausa",
       pausaBtn: "<b>Pausa</b><small>3 minutos con lo de tu semana</small>",
       daily: "Desafío del día", dailyWon: "🎯 Desafío del día ganado",
       review: "Repaso", reviewEl: "el repaso", micro: "Repaso de 2 min",
-      words: "Conceptos", wordsFreq: "Conceptos clave",
-      wordOrNot: "¿Lo dijo o no?", wordYes: "✓ Lo dijo", wordNo: "✗ No lo dijo",
-      lampo: "¿Quién lo dijo?", lampoEl: "¿Quién lo dijo?",
+      words: "Conceptos",
       boss: "Examen de estación", Boss: "Examen de estación",
       pathLead: "La historia de la filosofía de los presocráticos a hoy, con sus ramas y otras tradiciones, en estaciones de 13 semanas con un examen al final de cada una. El curso se está escribiendo: aparecen las semanas que ya están listas. Cada semana tiene <b>3 estrellas</b>: " +
         "jugar la lección, superar la semana y dominarla.",
       fraseDay: "Concepto del día",
       calendarGreen: "Verde",
-      ponte: "De la pregunta al argumento.",
-      falsi: "Malentendidos", capire: "Comprender",
-      suoni: "Sonidos", suoniSub: "",
-      tr: "Explicá", gap: "Completá el concepto", err: "Encontrá el error",
-      forme: "Formas", formeSub: "",
-      formeMission: "",
-      scenes: "Citas",
-      stories: "Historias de la semana", easyListen: "Escuchar",
-      series: { flood: "", settimana: "La semana", main: "" },
-      karaoke: "Leer y escuchar",
       theoryBack: "← a la semana", theory: "Teoría · semana ",
       right: ["¡Bien!", "¡Exacto!", "¡Eso!"], wasThis: "Era así:",
       next: "Seguir →", check: "Corregir",
@@ -154,18 +119,13 @@
       quasi: "¡Casi! Un detalle.",
       sbagliato: ["No pasa nada. Era así:", "Tranqui, era así:", "Para la próxima, era así:"],
       keywordEx: "«arjé» → el principio de todo",
-      pausa: "Pausa", sfida: "Desafío", examC1: "Examen final",
+      pausa: "Pausa", sfida: "Desafío",
       perfectWeek: "¡Semana perfecta!",
       great: "🏆 ¡Excelente!", good: "👏 ¡Muy bien!",
       chal: "Desafíos", chalLead: "Desafíos extra de la semana: cada uno es una ronda corta, con corrección. ",
-      scrivi: "Argumentá", parla: "Dialogá", storia: "Historia", storiaOf: "de la semana", storiaArea: "Historia de la semana",
       metaEx: "«En un año, leer la República sin miedo»",
-      freqNote: "",
       exportFile: "agora-copia-", icsFile: "agora-diario.ics", icsId: "AGORA",
       icsSummary: "☕ Pausa: 3 minutos de filosofía", icsAlarm: "¡A pensar! 3 minutos de filosofía",
-      dgNotes: "", dgText: "",
-      parlaIn: "Escribí tu respuesta…", send: "Enviar", hi: "¿Qué es para vos la justicia?", ok: "Entendido.",
-      scriviIn: "Escribí acá tu argumento…",
       switchTo: "", switchCode: ""
     }
   };

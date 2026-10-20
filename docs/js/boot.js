@@ -25,13 +25,8 @@
   "use strict";
 
   // Los archivos del paquete que una edición todavía no tiene (el núcleo
-  // anda sin ellos: sin frases, lecturas, radio, examen…).
-  var LEAN = ["conjugator.js", "frasi_data.js", "trabajo_data.js", "formule_data.js", "lab_data.js",
-              "letture_settimana.js", "tramo_data.js", "letture_data.js", "mapas_data.js", "diagnosi.js", "scrivi.js",
-              "freq_data.js", "ascolto_data.js", "dictogloss_data.js", "esame_data.js",
-              "voci_cv_data.js", "duelli_data.js", "devolucion_data.js", "porque_data.js", "escritura_plus_data.js",
-              "variaciones_data.js", "escritos_data.js", "desglose_data.js", "biblioteca_data.js", "radio_data.js",
-              "fuera_data.js"];
+  // anda sin ellos: sin duelos, Biblioteca…).
+  var LEAN = ["duelli_data.js", "devolucion_data.js", "porque_data.js", "escritos_data.js", "biblioteca_data.js"];
 
   var LANGS = {
     // El curso arranca chico: las primeras semanas de la Antigüedad.
@@ -46,43 +41,28 @@
   // {lang: archivo} vive en docs/lang/<código>/; {core: archivo} en docs/js/;
   // {shared: archivo} en docs/lang/ (datos de todas las ediciones, van con el núcleo).
   var ORDER = [
-    { lang: "lang.js" }, { lang: "rules.js" }, { lang: "conjugator.js" },
+    { lang: "lang.js" }, { lang: "rules.js" },
     { core: "engine.js" }, { core: "ia.js" }, { core: "errores.js" },
-    { lang: "frasi_data.js" }, { lang: "trabajo_data.js" }, { core: "frasi.js" },
-    { lang: "formule_data.js" }, { core: "formule.js" },
-    { lang: "lab_data.js" }, { core: "lab.js" },
-    { lang: "letture_settimana.js" }, { lang: "tramo_data.js" }, { lang: "letture_data.js" }, { core: "letture.js" },
     { core: "lezione.js" },
-    { lang: "mapas_data.js" }, { core: "mapas.js" },
-    { lang: "diagnosi.js" }, { lang: "scrivi.js" },
-    { core: "banca.js" }, { lang: "freq_data.js" }, { core: "frequenza.js" },
-    { lang: "ascolto_data.js" }, { lang: "dictogloss_data.js" }, { lang: "esame_data.js" }, { lang: "voci_cv_data.js" },
-    { core: "suoni.js" },
     { core: "ubicacion.js" },
     { lang: "duelli_data.js" }, { core: "duelli.js" },
     { lang: "devolucion_data.js" }, { core: "devolucion.js" },
     { lang: "porque_data.js" }, { core: "porque.js" },
-    { lang: "escritura_plus_data.js" }, { core: "escritura_plus.js" },
-    { lang: "variaciones_data.js" },
     { lang: "escritos_data.js" },
-    { core: "variaciones.js" },
-    { core: "ctest.js" },
     { core: "ordenar.js" },
     { core: "escritos.js" },
-    { lang: "desglose_data.js" },
-    { core: "voci.js" }, { core: "drills.js" }, { core: "desglose.js" },
+    { core: "drills.js" },
     { core: "referencia.js" },
     { core: "reglas.js" }, { core: "unamas.js" },
     { lang: "biblioteca_data.js" }, { core: "biblioteca.js" },
-    { lang: "radio_data.js" }, { core: "radio.js" }, { core: "tramo.js" },
-    { lang: "fuera_data.js" }, { core: "fuera.js" }, { core: "trabajo.js" }, { core: "seminario.js" },
+    { core: "seminario.js" },
     { core: "plan.js" }, { core: "progreso.js" }, { core: "inicio.js" },
     { core: "capas.js" }, { core: "nube.js" }, { core: "teclado.js" },
     { core: "app.js" }
   ];
 
   // What app.js fetches from the package (lang/<código>/data/).
-  var DATA = ["course.json", "bank.json", "glossario.json", "frequenza.json"];
+  var DATA = ["course.json"];
 
   var KEY = "agora.lang";
   var ERA = "agora.era";      // the era of the last week seen: the colors before app.js loads
@@ -94,7 +74,7 @@
 
   /* Every file of the core (docs/js/) and of one package, relative to
      docs/: what the service worker keeps for offline use. */
-  // Does the package have this file?  (missing: not yet, see LANGS.de)
+  // Does the package have this file?  (missing: not yet, see LANGS.es)
   function has(entry, code) { return !(entry.lang && LANGS[code] && (LANGS[code].missing || []).indexOf(entry.lang) >= 0); }
 
   function coreFiles() {
@@ -151,11 +131,11 @@
 
   /* All the scripts at once with async = false: the browser downloads them
      in parallel and runs them in order (one after the other took 17 s on a
-     slow phone line).  The course and the bank start downloading now too,
-     not when app.js asks for them. */
+     slow phone line).  The course starts downloading now too, not when
+     app.js asks for it. */
   function load(code) {
     dress(code);
-    ["course.json", "bank.json"].filter(function (f) { return (LANGS[code].data || DATA).indexOf(f) >= 0; }).forEach(function (f) {
+    ["course.json"].filter(function (f) { return (LANGS[code].data || DATA).indexOf(f) >= 0; }).forEach(function (f) {
       var l = document.createElement("link");
       l.rel = "preload"; l.as = "fetch"; l.crossOrigin = "anonymous";
       l.href = "lang/" + code + "/data/" + f;

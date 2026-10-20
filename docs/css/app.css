@@ -127,8 +127,7 @@ h2 .stars i { font-size: 1.2rem; }
 .scenes { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
 .labs { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); margin-bottom: 8px; }
 .eps { display: grid; gap: 8px; margin: 10px 0 8px; }
-.scene:active, .lab:active, .ep:active:not(:disabled) { transform: scale(.99); }
-.scene .e { font-size: 1.6rem; }
+.lab:active, .ep:active:not(:disabled) { transform: scale(.99); }
 .lab .e { font-size: 1.5rem; grid-row: span 3; }
 .lab b, .lab .muted, .lab .meta { grid-column: 2; }
 .lab .muted { font-size: .8rem; line-height: 1.35; }
@@ -177,9 +176,7 @@ body.ingame #app > .card { padding: 22px 20px 20px; border-top: none; position: 
 .opt:disabled { cursor: default; }
 .opt:disabled:not(.right):not(.wrong) { opacity: .5; }
 @keyframes bump { 40% { transform: scale(1.03); } }
-.shake { animation: shake .3s ease; }
 @keyframes shake { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
-.lampocard .opt { padding: 15px 16px 15px 54px; }
 
 .typed { display: flex; gap: 8px; flex-wrap: wrap; align-items: stretch; }
 .typed textarea:disabled { opacity: .8; }
@@ -222,8 +219,6 @@ body.ingame:has(.feedback:not(.prompt)) .wrap { padding-bottom: 62vh; }
 @keyframes starpop { from { transform: scale(0) rotate(-60deg); } }
 .lesdone .scorebig { justify-content: center; }
 
-/* lampo */
-.lsec { font-weight: 800; font-size: 1.5rem; min-width: 42px; }
 .lesson .blk:first-of-type { border-top: none; margin-top: 8px; padding-top: 4px; }
 .lesson details.more summary::-webkit-details-marker { display: none; }
 .lesson details.more summary::before { content: "＋ "; }
@@ -247,23 +242,12 @@ ul.vocab .say { padding: 2px 6px; }
 
 .call { border-radius: 0 8px 8px 0; padding: 12px 14px; margin: 14px 0 4px; font-size: .93rem; }
 
-/* ----------------------------------------------------------------- letture */
+/* ------------------------------------------------------------------ textos */
 
 .text { font-size: 1.08rem; line-height: 1.75; }
-.text.hunt .w { border-radius: 6px; padding: 1px 0; cursor: pointer; }
-#qtext .text { font-size: .95rem; }
-.glossbox.on { opacity: 1; transform: translate(-50%, 0); }
 
-/* ------------------------------------------------------------------ scrivi */
+/* ------------------------------------------------------------------ la IA */
 
-ul.reqs { list-style: none; padding: 0; margin: 10px 0 6px; }
-.scrivi-marked { line-height: 1.8; font-size: 1.02rem; }
-.scrivi-marked mark { border-radius: 4px; padding: 0 2px; color: inherit; }
-.scrivi-marked sup { font-size: .65em; font-weight: 800; margin-left: 1px; }
-ol.findings { padding-left: 0; list-style: none; margin: 12px 0; }
-label.ltopt { display: flex; gap: 8px; align-items: flex-start; margin: 10px 2px 0; }
-details.aibox { margin: 10px 2px 0; }
-details.aibox summary { cursor: pointer; }
 ul.ainotes { padding-left: 18px; margin: 8px 0; }
 ul.ainotes li { margin: 4px 0; }
 .confetti { position: fixed; inset: 0; pointer-events: none; z-index: 70; overflow: hidden; }
@@ -271,46 +255,24 @@ ul.ainotes li { margin: 4px 0; }
 .keyword { margin-top: 12px; }
 .keyword .typed input { flex: 1; min-width: 0; }
 
-/* --- suoni, dictogloss, leggi e ascolta --- */
-.options.pair .opt { font-size: 1.35rem; }
-.pairbox { margin: 8px 0; }
-.pairrow { display: flex; align-items: center; gap: 10px; padding: 4px 0; }
-.karbar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; }
+/* --- los ejemplos de un ejercicio --- */
 .seg { display: inline-flex; gap: 4px; }
-body.kar-audio .text { filter: blur(6px); pointer-events: none; }
 .lead-ex { margin: 6px 0 10px; }
 .lead-ex.data ol.exs { padding-left: 20px; }
 .lead-ex.data ol.exs li { display: list-item; font-size: 1.05rem; margin: 4px 0; }
 .options.rules .opt { text-align: left; white-space: normal; line-height: 1.35; }
 
-/* --- parla --- */
-.chat { display: flex; flex-direction: column; gap: 8px; margin: 12px 0; }
+/* --- el globito del camino --- */
 .bubble { max-width: 88%; padding: 10px 14px; border-radius: 16px; line-height: 1.4; }
-.bubble .easy { display: block; margin-top: 6px; font-size: .88em; opacity: .85; }
-.typing { display: inline-flex; gap: 4px; align-items: center; height: 1.2em; }
-.typing i { width: 6px; height: 6px; border-radius: 50%; background: currentColor; opacity: .35; animation: typing 1s infinite ease-in-out; }
-.typing i:nth-child(2) { animation-delay: .15s; } .typing i:nth-child(3) { animation-delay: .3s; }
-@keyframes typing { 0%, 80%, 100% { opacity: .25; transform: translateY(0); } 40% { opacity: .9; transform: translateY(-3px); } }
-@media (prefers-reduced-motion: reduce) { .typing i { animation: none; opacity: .6; } }
-.aiorder { border: 0; padding: 0; margin: 8px 0; display: grid; gap: 6px; }
-.aiorder label { display: flex; gap: 8px; align-items: center; min-height: 44px; }
+ .typing i:nth-child(3) { animation-delay: .3s; }
 
 /* --- abitudine e mete --- */
 .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0; }
 .planline { margin: -4px 0 12px; }
 .card.goalweek { padding-bottom: 12px; }
 
-/* --- esame --- */
-.equestions { padding-left: 20px; }
-.equestions li { margin: 10px 0; }
-.eopt { display: block; padding: 4px 0; }
-.egap { width: 100%; max-width: 220px; }
-.etitle { width: 100%; margin-bottom: 4px; }
-
-/* Dictogloss: las notas y la reconstrucción, dentro de la app */
-.dgnotes { display: block; margin: 12px 0; }
-.dgnotes[hidden] { display: none; }
-.muted .w.mcg, .muted .w.gl { font-style: normal; }
+/* la lección en pasos */
+.muted .w.gl { font-style: normal; }
 .mcbox.on { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
 .mcbox .options { margin: 8px 0; }
 ul.exs.look li { padding: 12px 0; }
@@ -378,23 +340,10 @@ html[data-lang="pick"] header.top, html[data-lang="pick"] nav.nav { display: non
 .pick-lang.de .plate { background: #fff; color: #1f3b5c; border: 2px solid #1f3b5c; box-shadow: 0 0 0 2px #fff; }
 .pick-foot { text-align: center; color: var(--pk-gris); font-size: .85rem; margin-top: 18px; }
 
-/* «Cómo se arma»: la frase palabra por palabra (docs/js/desglose.js) */
-.desglose { margin: 10px 0 4px; padding: 8px 12px; border-radius: 12px;
-  background: color-mix(in srgb, currentColor 6%, transparent); font-size: .95em; }
-.desglose summary { cursor: pointer; font-weight: 700; list-style: none; }
-.desglose summary::-webkit-details-marker { display: none; }
-.desglose summary::after { content: " ▾"; opacity: .6; }
-.desglose:not([open]) summary::after { content: " ▸"; }
-.desglose ul { margin: 6px 0 0; padding-left: 18px; }
-.desglose li { margin: 3px 0; line-height: 1.35; }
-
 /* --- Tarea: concordancias + «Mi gramática» (docs/js/referencia.js) --- */
 .ref-go { font: inherit; font-size: .78rem; font-weight: 700; padding: 1px 8px; margin-left: 2px; border-radius: 999px;
   border: 1px solid color-mix(in srgb, currentColor 35%, transparent); background: transparent; color: inherit;
   cursor: pointer; vertical-align: 1px; white-space: nowrap; }
-.glossbox.has-ref { pointer-events: auto; }
-.glossbox .ref-gl { display: inline-block; margin: 6px 0 0; font-size: .85rem; padding: 3px 10px;
-  border-color: currentColor; }
 .refsheet { width: min(94vw, 480px); max-height: calc(100vh - 150px); max-height: calc(100dvh - 150px);
   overflow-y: auto; overscroll-behavior: contain; z-index: 66; box-sizing: border-box; }
 .refsheet h2 { margin: 2px 0 4px; font-size: 1.2rem; }
@@ -431,70 +380,14 @@ details.ref-item summary::-webkit-details-marker { display: none; }
 .ref-body .tw { overflow-x: auto; }
 .ref-body .rule { margin: 10px 0 6px; }
 
-/* ---------------------------------------------- fix-frases: Treino, «Adiviná», fórmulas */
-
-.scene.locked, .scene:disabled { opacity: .5; cursor: not-allowed; }
-.scene:disabled:active { transform: none; }
-.note.formula { border-left: 3px solid var(--oro, var(--sol, #e0b020)); padding-left: 8px; }
-.formule-list li { display: grid; gap: 2px; }
-.formule-list .it b { background: color-mix(in srgb, var(--oro, var(--sol, #e0b020)) 35%, transparent); border-radius: 3px; padding: 0 2px; }
-.blk.formule { border-left: 3px solid var(--oro, var(--sol, #e0b020)); padding-left: 10px; margin-bottom: 14px; }
-
-/* ---- mapas de preposiciones y test de ubicación (mapas.js, ubicacion.js) ----
-   Los colores del dibujo son tokens del tema (--mapa-*, en theme.css). */
-.mapas { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin: 12px 0; }
-.mapas.one, .mapas.bare { grid-template-columns: minmax(0, 280px); justify-content: center; }
-.mapa { margin: 0; padding: 8px 8px 10px; border-radius: 12px; background: var(--mapa-bg, #fff);
-        border: 1px solid var(--mapa-line, rgba(0,0,0,.12)); text-align: center; }
-.mapa-svg { display: block; width: 100%; height: auto; }
-.mapa-svg .lm { fill: var(--mapa-soft, #e8f1fb); stroke: var(--mapa-lm, #1a6fd8); stroke-width: 2.5; }
-.mapa-svg .lm.zona { stroke-dasharray: 6 4; }
-.mapa-svg .leg { stroke: var(--mapa-lm, #1a6fd8); stroke-width: 2.5; stroke-linecap: round; fill: none; }
-.mapa-svg .pin { fill: var(--mapa-lm, #1a6fd8); stroke: none; }
-.mapa-svg .tr { fill: var(--mapa-tr, #e0522b); stroke: var(--mapa-bg, #fff); stroke-width: 2; }
-.mapa-svg .ghost { fill: none; stroke: var(--mapa-tr, #e0522b); stroke-width: 2; stroke-dasharray: 3 3; opacity: .75; }
-.mapa-svg .mv { fill: none; stroke: var(--mapa-tr, #e0522b); stroke-width: 2.5; stroke-linecap: round; }
-.mapa-svg .mv.back { stroke-dasharray: 5 4; opacity: .8; }
-.mapa-svg .mv.ahead { stroke-dasharray: 2 5; }
-.mapa-svg .head { fill: var(--mapa-tr, #e0522b); }
-.mapa-svg .tie { fill: none; stroke: var(--mapa-lm, #1a6fd8); stroke-width: 2; stroke-dasharray: 2 4; stroke-linecap: round; }
-.mapa-svg .heart { fill: var(--mapa-tr, #e0522b); }
-.mapa-svg .lbl { fill: var(--mapa-ink, #1f2630); font: 700 13px var(--sans, system-ui); text-anchor: middle; }
-.mapa figcaption { display: flex; flex-direction: column; gap: 2px; margin-top: 4px; line-height: 1.3; }
-.mapa .mp-prep { font-size: 1.15rem; color: var(--mapa-tr, #e0522b); }
-.mapa .mp-ex { font-size: .92rem; }
-.mapa .mp-es { font-size: .78rem; opacity: .75; }
+/* ---- el test de ubicación (ubicacion.js) ---- */
 .ubic-list { margin: 8px 0 14px; padding-left: 20px; }
 .ubic-list li { margin: 4px 0; line-height: 1.4; }
 .ubic-foot { margin-top: 12px; gap: 8px; }
 .ubic-q .typed { display: flex; gap: 8px; margin-top: 8px; }
 .ubic-q .typed input { flex: 1; min-width: 0; }
 .ubic-banner .row { margin-top: 8px; gap: 8px; }
-/* Tres lenguas: italiano ↔ portugués ↔ español (docs/js/tres_lenguas.js) */
-.tl-list { display: grid; gap: 10px; margin: 12px 0 18px; }
-.tl-c { padding: 12px 14px; margin: 0; }
-.tl-c summary { cursor: pointer; list-style: none; }
-.tl-c summary::-webkit-details-marker { display: none; }
-.tl-t { display: block; font-weight: 800; margin-bottom: 8px; }
-.tl-t::after { content: " ▸"; opacity: .5; font-weight: 400; }
-.tl-c[open] .tl-t::after { content: " ▾"; }
-.tl-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; }
-.tl-cell { min-width: 0; padding: 6px 8px; border-radius: 10px; font-size: .88rem; line-height: 1.3;
-  background: color-mix(in srgb, currentColor 6%, transparent); overflow-wrap: anywhere; }
-.tl-cell .tl-flag { margin-right: 4px; }
-.tl-cell .tl-l { font-size: .68rem; text-transform: uppercase; letter-spacing: .06em; opacity: .7; }
-.tl-cell b { display: block; margin-top: 2px; font-weight: 700; }
-.tl-note { margin: 10px 0 6px; line-height: 1.45; }
-.tl-ex { display: grid; gap: 4px; font-size: .9rem; font-style: italic; opacity: .9; }
-.tl-ex.left { text-align: left; margin: 12px 0; font-style: normal; }
-.tl-hud { margin: 12px 0 8px; font-size: .85rem; }
-.tl-duel .tl-text { text-align: center; }
-.tl-toks { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 14px; }
-.tl-tok { font-size: 1.05rem; padding: 6px 10px; }
-.tl-fb { margin: 0 0 12px; padding: 10px 12px; border-radius: 10px; line-height: 1.4; }
-.tl-fb.ok { background: color-mix(in srgb, #1d9b58 16%, transparent); }
-.tl-fb.ko { background: color-mix(in srgb, #e0522b 16%, transparent); }
-@media (max-width: 360px) { .tl-row { grid-template-columns: 1fr; } }
+
 /* porque: «📖 ¿Por qué?» (el bloque de teoría en una hoja sobre la ronda) y
    «🧐 ¿Qué tenía de malo?» (autoexplicación) — docs/js/porque.js */
 .porque-back { position: fixed; inset: 0; z-index: 66; background: rgba(10, 14, 20, .45);
@@ -512,51 +405,8 @@ details.ref-item summary::-webkit-details-marker { display: none; }
 body.porque-open { overflow: hidden; }
 .feedback .porque-btn { font-weight: 700; }
 body.ingame .feedback .porque-btn { align-self: center; color: inherit; }
-.porque-quiz { margin: 10px 0 6px; padding: 10px 12px; border-radius: 12px;
-  background: color-mix(in srgb, currentColor 7%, transparent); }
-.porque-quiz .pq-h { font-weight: 800; margin-bottom: 8px; }
-.porque-quiz .pq-opts { display: grid; gap: 6px; }
-.porque-quiz .pq-opt { text-align: left; padding: 9px 12px; border-radius: 10px; color: inherit; font-size: .92rem; line-height: 1.35;
-  background: color-mix(in srgb, currentColor 5%, transparent); border: 1.5px solid color-mix(in srgb, currentColor 28%, transparent); }
-.porque-quiz .pq-opt:disabled { cursor: default; opacity: .6; }
-.porque-quiz .pq-opt.right { opacity: 1; border-color: #1f9d55; box-shadow: inset 4px 0 0 #1f9d55; }
-.porque-quiz .pq-opt.wrong { opacity: 1; border-color: #d0492a; box-shadow: inset 4px 0 0 #d0492a; }
-.porque-quiz .pq-verdict { margin: 8px 0 2px; font-weight: 700; }
-/* Escritura plus: tres vueltas y reformulación (docs/js/escritura_plus.js) */
-.ep-entry .tab { flex: 1 1 auto; }
-.ep-head h2 { font-size: 1.2rem; }
-.ep-task { font-weight: 600; }
-.ep-timerrow { display: flex; align-items: center; justify-content: space-between; margin-top: 10px; }
-.ep-round { font-weight: 700; }
-.ep-timer { font-family: var(--mono); font-size: 1.6rem; font-weight: 800; letter-spacing: .02em; }
-.ep-timer.low { color: #d9432a; animation: ep-pulse 1s ease-in-out infinite; }
-@keyframes ep-pulse { 50% { opacity: .55; } }
-table.ep-cmp td:first-child { text-align: left; }
-table.ep-cmp td, table.ep-cmp th { text-align: center; padding: 4px 6px; }
-.ep-up { color: #1d9b58; font-weight: 800; }
-.ep-down { color: #d9432a; font-weight: 800; }
-.ep-lines { padding-left: 18px; margin: 10px 0; }
-.ep-lines li { margin: 4px 0; }
-.ep-texts summary { cursor: pointer; font-weight: 700; margin-top: 8px; }
-.ep-mine { line-height: 1.7; }
-.ep-diff { line-height: 2; overflow-wrap: anywhere; }
-.ep-diff .w { padding: 2px 1px; display: inline-block; }
-.ep-diff .w.ep-missed { text-decoration: underline dashed; text-underline-offset: 4px; }
-.ep-diff .w.ep-nope { animation: ep-shake .35s ease; background: color-mix(in srgb, currentColor 10%, transparent); }
-@keyframes ep-shake { 25% { transform: translateX(-3px); } 75% { transform: translateX(3px); } }
-@media (prefers-color-scheme: dark) { .ep-up { color: #34c47a; } .ep-down, .ep-timer.low { color: #f0674a; } }
-/* ------------------------------------------------ escritura guiada (feat_ejercicios)
-   C-test y cloze sobre lecturas ya leídas, «Ordená el texto»: escritos.js */
-.esc-text { line-height: 2.1; font-size: 1.05rem; }
-.esc-gap { background: none; color: inherit; white-space: nowrap; border-radius: 4px; padding: 0 1px; }
-.esc-in { font: inherit; color: inherit; background: transparent; border: none; border-bottom: 2px solid currentColor;
-  padding: 0 1px; margin: 0; min-width: 2ch; min-height: 0; height: auto; line-height: inherit; box-shadow: none;
-  opacity: .95; border-radius: 0; }
-.esc-in:focus { outline: 2px solid color-mix(in srgb, currentColor 35%, transparent); outline-offset: 1px; }
-.esc-in:disabled { border-bottom-style: dotted; opacity: 1; }
-.esc-close { background: color-mix(in srgb, #e0a100 28%, transparent); }
-.esc-tag { font-size: .62rem; opacity: .6; vertical-align: super; margin-left: 1px; }
-.esc-sol { display: inline-block; font-size: .78rem; font-weight: 700; margin-left: 3px; opacity: .85; }
+/* ------------------------------------------------ escritura guiada
+   «Ordená el texto»: escritos.js */
 .esc-order .esc-piece, .esc-pool .esc-piece { text-align: left; white-space: normal; line-height: 1.4; font-weight: 500; font-size: .98rem; }
 .esc-order .anchor { opacity: .8; }
 .esc-pool { display: grid; gap: 8px; }
@@ -566,8 +416,6 @@ mark.esc-clue.ref { background: none; text-decoration: underline dotted; text-un
 .esc-hints ul { margin: 6px 0 0; padding-left: 18px; }
 .esc-model { padding-left: 20px; line-height: 1.5; }
 .esc-model li { margin-bottom: 6px; }
-.mission.esc-pick { cursor: default; }
-.mission.esc-pick .row { display: flex; gap: 6px; margin-top: 6px; flex-wrap: wrap; }
 
 /* --- tema_it: la tarjeta del italiano en el selector, con la estética de la
    Costiera Amalfitana (el Tirreno, la mayólica, un limón, la placa de cerámica) --- */
@@ -645,15 +493,8 @@ ul.errlog details p { margin: 6px 0 0; font-size: .9rem; }
 .feedback .diag.trap p, .feedback .diag.selfrepair p { margin: 4px 0 0; }
 .feedback .diff { overflow-wrap: anywhere; }
 /* «✓ Vale» con su nota, la regla la primera vez, el enlace a la regla desde la quinta */
-.feedback .diag.oknote p, .feedback .diag .capa { margin: 4px 0 0; }
+.feedback .diag .capa { margin: 4px 0 0; }
 .feedback .diag .capa { font-size: .9rem; opacity: .9; }
-button.linkish { background: none; border: none; padding: 6px 0; min-height: 40px; font: inherit; font-size: .9rem;
-  font-weight: 700; color: inherit; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
-/* Scrivi por unión: lo del corrector (seguro), lo de la IA, lo plegado y las dos opiniones */
-ol.findings .src { font-size: .72rem; font-weight: 700; opacity: .65; margin-left: 4px; white-space: nowrap; }
-ol.findings li.conflict { border-left: 3px solid color-mix(in srgb, currentColor 35%, transparent); padding-left: 8px; }
-details.minorf { margin: 6px 0 0; }
-details.minorf summary { cursor: pointer; font-weight: 700; opacity: .85; padding: 4px 0; }
 details.nube { margin: 14px 0 0; border-top: 1px solid var(--k-line); padding-top: 6px; }
 details.nube > summary { cursor: pointer; font-weight: 700; padding: 12px 0; }
 details.nube .row { margin: 10px 0 4px; }
@@ -676,13 +517,6 @@ details.nube .set { margin-top: 6px; }
 .w[role="button"] { cursor: pointer; }
 select { max-width: 100%; }
 input[type="checkbox"], input[type="radio"] { min-width: 22px; min-height: 22px; }
-@media (prefers-reduced-motion: reduce) {
-  .shake { animation: none; }
-  .ep-timer.low { animation: none; }
-}
-.objs li { list-style: none; }
-.objbtn { all: unset; cursor: pointer; display: block; min-height: 32px; padding: 4px 0; }
-.objbtn:focus-visible { outline: 3px solid currentColor; outline-offset: 2px; }
 
 /* ------------------------------------------------ hoy, el primer arranque, tu progreso
    (inicio.js, progreso.js).  Los colores salen del tema de cada idioma: los
@@ -776,15 +610,9 @@ details.fold[open] > summary { margin-bottom: 10px; }
 
 /* tu progreso */
 .lead-s { margin: 4px 0; font-size: 1.05rem; }
-.prog-bands { display: grid; gap: 8px; }
 .pb { display: grid; grid-template-columns: 32px minmax(0, 1fr) auto; gap: 4px 10px; align-items: center; font-size: .88rem; }
 .pb > small { grid-column: 3; text-align: right; }
 .pb > b { font-family: var(--mono); font-size: .82rem; white-space: nowrap; }
-.spark { width: 100%; height: 34px; display: block; }
-.spark polyline { fill: none; stroke: var(--k-in); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
-.spark circle { fill: var(--k-in); stroke: var(--k-paper); stroke-width: 2; }
-.pb-bar { display: block; height: 8px; border-radius: 99px; background: var(--k-line); overflow: hidden; }
-.pb-bar i { display: block; height: 100%; background: var(--k-in); border-radius: 99px; }
 .prog-weeks { display: grid; grid-template-columns: repeat(8, 1fr); gap: 6px; height: 130px; align-items: end; margin: 12px 0 6px; }
 .pw { display: flex; flex-direction: column; justify-content: flex-end; align-items: center; height: 100%; gap: 4px; }
 .pw small { font-size: .7rem; color: var(--k-muted); font-family: var(--mono); }
@@ -842,9 +670,8 @@ h3.cq-h3 { margin: 12px 0 4px; font-size: .95rem; opacity: .8; }
 .cq-chips .chip { display: inline-block; font-size: .76rem; font-weight: 700; padding: 2px 8px; border-radius: 999px;
   background: color-mix(in srgb, currentColor 9%, transparent); }
 .cq-word h3 { margin: 14px 0 4px; font-size: 1rem; }
-ul.cq-lines, ul.cq-coll { margin: 4px 0; padding-left: 20px; }
-ul.cq-lines li, ul.cq-coll li { margin: 4px 0; line-height: 1.4; }
-.cq-tools { margin-top: 12px; }
+ul.cq-coll { margin: 4px 0; padding-left: 20px; }
+ul.cq-coll li { margin: 4px 0; line-height: 1.4; }
 .ref-blink { margin: 10px 0 0; }
 .ref-blink .tab { font-size: .85rem; }
 .ref-lesnote { text-align: left; }
@@ -853,39 +680,6 @@ details.ref-item.ahead { opacity: .85; }
 details.ref-ahead { margin: 18px 0 6px; }
 details.ref-ahead > summary { cursor: pointer; font-weight: 700; padding: 8px 0; }
 .refsheet { z-index: 68; }
-.speed-line { margin: 10px 2px 8px; }
-.speed-note { margin-top: 10px; }
-svg.speed-curve { width: 100%; max-width: 420px; height: auto; display: block; margin: 6px 0 2px; }
-svg.speed-curve path { fill: none; stroke: currentColor; stroke-width: 2; opacity: .75; }
-svg.speed-curve circle { fill: currentColor; }
-svg.speed-curve line.ax { stroke: currentColor; opacity: .25; }
-svg.speed-curve text { font-size: 9px; fill: currentColor; opacity: .6; }
-
-/* Fuera de la app (fuera.js): la ficha de la semana */
-.fu-card .fu-go { text-align: center; text-decoration: none; margin: 10px 0 4px; }
-.fu-words { list-style: none; padding: 0; margin: 4px 0; columns: 2 14rem; column-gap: 18px; }
-.fu-words li { padding: 3px 0; break-inside: avoid; }
-.fu-q { padding-left: 1.3em; }
-.fu-q li { margin: 8px 0; line-height: 1.45; }
-.fu-q .chip { min-height: 36px; margin-left: 6px; border: 1.5px solid var(--k-line); border-radius: 99px; padding: 4px 12px; background: none; color: inherit; font: inherit; font-size: .875rem; }
-.fu-q .chip.on { border-color: var(--k-acc); background: var(--k-acc); color: #fff; }
-
-/* Para el trabajo (trabajo.js): la escena */
-.tr-dlg { list-style: none; padding: 0; margin: 10px 0 6px; }
-.tr-dlg li { margin: 0 0 10px; line-height: 1.5; }
-.tr-who { display: inline-block; min-width: 4.5em; }
-.tr-es { display: block; font-size: .9rem; margin-top: 2px; }
-.tr-say, .tr-punti .chip { min-height: 36px; min-width: 36px; border: 1.5px solid var(--k-line); border-radius: 99px; padding: 2px 8px; background: none; color: inherit; font: inherit; font-size: .875rem; cursor: pointer; }
-.tr-punti { list-style: none; padding: 0; margin: 4px 0 10px; }
-.tr-punti li { margin: 6px 0; line-height: 1.45; }
-.tr-punti .chip.on { border-color: var(--k-acc); background: var(--k-acc); color: #fff; }
-.tr-frasi { margin: 6px 0 12px; }
-.tr-f { border-bottom: 1px solid var(--k-line); padding: 8px 0; }
-.tr-f summary { cursor: pointer; line-height: 1.45; }
-.tr-f summary .muted { display: block; font-size: .9rem; }
-.tr-f .note { margin-top: 6px; }
-.tr-gloss ul { columns: 2 14rem; column-gap: 18px; padding-left: 1.1em; }
-.tr-model p { white-space: pre-line; line-height: 1.55; }
 
 /* Las palabras de la semana, primero y como las misiones (3.4) */
 .mission.word { cursor: default; }
@@ -893,10 +687,6 @@ svg.speed-curve text { font-size: 9px; fill: currentColor; opacity: .6; }
 .mission.word .mi { border: 0; cursor: pointer; font: inherit; font-size: 1.3rem; color: inherit; }
 .mission.word.done .mi { color: #fff; }
 .mission.word small i { font-weight: 500; }
-
-/* «Para practicar más» dentro de la semana del percorso (3.3) */
-.wextras h3 { margin: 14px 0 6px; font-size: .95rem; }
-.wextras .labs { margin-bottom: 4px; }
 
 /* ---------- el teclado de la app (js/teclado.js): la lengua del curso en pantalla */
 .kbapp { position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; padding: 6px 4px calc(6px + env(safe-area-inset-bottom));

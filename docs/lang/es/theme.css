@@ -558,16 +558,13 @@ p.version { text-align: center; margin: 18px 0 8px; opacity: .8; }
 .bigbtn.ripasso { --tono: var(--mar); grid-column: span 2; min-height: 84px;
   background: var(--ondas-claras) repeat 0 0 / 80px 36px, linear-gradient(160deg, var(--mar-claro), var(--mar) 60%, var(--mar-escuro)); }
 .bigbtn.parole { --tono: var(--mata); background: linear-gradient(160deg, var(--mata-claro), var(--mata) 60%, var(--mata-escuro)); }
-.bigbtn.lampo { --tono: var(--mar-escuro); background: linear-gradient(160deg, var(--mar-claro), var(--mar) 65%, var(--mar-escuro)); }
-.bigbtn.scena { --tono: var(--coral); background: linear-gradient(160deg, var(--coral-claro), var(--coral)); }
 .weekcard > b { font-size: 1.25rem; font-weight: 800; }
-.weekcard .prog, .scene .prog { height: 5px; background: var(--cinza-claro); border-radius: 99px; overflow: hidden; margin-top: 6px; }
-.weekcard .prog i, .scene .prog i { display: block; height: 100%; background: var(--mata-claro); }
+.weekcard .prog { height: 5px; background: var(--cinza-claro); border-radius: 99px; overflow: hidden; margin-top: 6px; }
+.weekcard .prog i { display: block; height: 100%; background: var(--mata-claro); }
 .weekcard.first { border-left: 4px solid var(--coral); }
 /* la tarjeta de la semana */
 .weekcard.hero { background: var(--ondas-tinta) repeat 0 0 / 80px 36px, var(--papel); }
 .weekcard.first > b { color: var(--coral); }
-.weekcard.clin, .lab.clin { border-color: var(--coral); }
 
 .fdg { border-left: 5px solid var(--sol); }
 .fdg .fit, .fit { font-size: 1.35rem; font-weight: 700; color: var(--mata); margin: 4px 0 2px; letter-spacing: -.005em; }
@@ -622,7 +619,6 @@ p.version { text-align: center; margin: 18px 0 8px; opacity: .8; }
 .week .meta { font-size: .72rem; color: var(--cinza); }
 .week.done { border-color: var(--mata); }
 .week.done::after { content: "✓"; position: absolute; top: 10px; right: 12px; color: var(--mata); font-weight: 800; }
-.week.bossweek { border-color: var(--sol); }
 .week .prog { height: 4px; background: var(--cinza-claro); border-radius: 99px; overflow: hidden; margin-top: 6px; }
 .week .prog i { display: block; height: 100%; background: var(--mata-claro); }
 .mission { display: grid; grid-template-columns: 44px 1fr auto; gap: 12px; align-items: center; text-align: left;
@@ -635,13 +631,12 @@ p.version { text-align: center; margin: 18px 0 8px; opacity: .8; }
 .mission small { display: block; color: var(--cinza); font-weight: 600; font-size: .78rem; line-height: 1.3; }
 .mission .go { font-size: 1.4rem; color: var(--coral); font-weight: 800; }
 .mission.boss { border-color: var(--coral); }
-.scene, .lab, .ep { background: var(--papel); border: 1px solid var(--cinza-claro); border-radius: 12px;
+.lab, .ep { background: var(--papel); border: 1px solid var(--cinza-claro); border-radius: 12px;
   padding: 13px 14px; text-align: left; color: inherit; display: flex; flex-direction: column; gap: 3px; position: relative;
   transition: transform .08s; }
-.scene b, .lab b, .ep b { font-weight: 800; font-size: 1.05rem; }
-.scene .meta, .lab .meta { font-size: .72rem; color: var(--cinza); margin-top: 4px; }
-.scene.done, .ep.done { border-color: var(--mata); }
-.scene.done::after { content: "✓"; position: absolute; top: 12px; right: 14px; color: var(--mata); font-weight: 800; }
+.lab b, .ep b { font-weight: 800; font-size: 1.05rem; }
+.lab .meta { font-size: .72rem; color: var(--cinza); margin-top: 4px; }
+.ep.done { border-color: var(--mata); }
 .lab { display: grid; grid-template-columns: auto 1fr; column-gap: 12px; align-items: center; }
 .ep { flex-direction: row; align-items: center; gap: 12px; }
 .ep b { display: block; }
@@ -804,7 +799,6 @@ html[data-theme="dark"] .diag .tag { color: var(--coral-claro); }
 .scorebig b { font-family: var(--serif); font-size: 3.4rem; line-height: 1; font-weight: 900; letter-spacing: -.02em; color: var(--mar); }
 .scorebig span { color: var(--cinza); font-weight: 700; background: var(--areia); padding: 4px 12px; border-radius: 99px; }
 .lesdone .bigstar { font-size: 5rem; line-height: 1; color: var(--sol); animation: starpop .7s cubic-bezier(.3,1.6,.5,1); }
-.lampobar i { background: linear-gradient(90deg, var(--coral), var(--sol)); transition: width .1s linear; }
 
 /* ------------------------------------------------------------------- teoría */
 
@@ -840,29 +834,15 @@ ul.vocab li small { flex-basis: 100%; color: var(--cinza); padding-left: 34px; }
 html[data-theme="dark"] .call.tip b { color: var(--sol); }
 .text p { margin: 0 0 12px; }
 .text .gl { border-bottom: 2px dotted var(--mata); cursor: pointer; }
-.text.hunt .w.on { background: color-mix(in srgb, var(--sol) 35%, transparent); }
-.text.hunt .w.hit { background: color-mix(in srgb, var(--mata) 25%, transparent); }
-.text.hunt .w.missed { text-decoration: underline 3px var(--sol); }
-.text.hunt .w.bad { background: color-mix(in srgb, var(--coral) 20%, transparent); text-decoration: line-through; }
-#qtext { margin: 8px 0 12px; padding: 10px 12px; border-radius: 10px; background: var(--areia); }
-.glossbox { position: fixed; left: 50%; transform: translate(-50%, -12px); opacity: 0;
-  top: calc(84px + env(safe-area-inset-top)); z-index: 65; pointer-events: none;
-  background: var(--tinta); color: var(--areia); padding: 10px 16px; border-radius: 12px;
-  font-weight: 600; max-width: 92vw; transition: all .18s ease; }
-ul.reqs li { padding: 3px 0; color: var(--cinza); }
-ul.reqs li.ok { color: var(--mata); font-weight: 700; }
 textarea.scrivi { width: 100%; box-sizing: border-box; min-height: 160px; resize: none; overflow: hidden;
   font: inherit; font-size: 1.05rem; line-height: 1.5; padding: 14px; border-radius: 12px;
   border: 1.5px solid var(--cinza-claro); background: var(--papel); color: var(--tinta); }
 textarea.scrivi:focus { border-color: var(--coral); }
-.scrivi-marked mark.bad { background: color-mix(in srgb, var(--coral) 22%, transparent); text-decoration: underline wavy var(--coral); }
-.scrivi-marked mark.soft { background: color-mix(in srgb, var(--sol) 20%, transparent); }
 ol.findings li { padding: 6px 0; border-top: 1px solid var(--cinza-claro); }
 ol.findings li.soft { color: var(--cinza); }
 p.model { font-size: 1.02rem; line-height: 1.6; }
-details.aibox input, .card input#aikey, .card input#gemkey, .card input#gisttoken { display: block; width: 100%; box-sizing: border-box; min-width: 0;
+.card input#aikey, .card input#gisttoken { display: block; width: 100%; box-sizing: border-box; min-width: 0;
   padding: 10px 12px; border-radius: 12px; border: 1.5px solid var(--cinza-claro); background: var(--papel); color: var(--tinta); font: inherit; }
-.aiout { border-top: 1px solid var(--cinza-claro); margin-top: 10px; padding-top: 8px; }
 
 /* ------------------------------------------------------------------- varios */
 
@@ -901,23 +881,12 @@ details.aibox input, .card input#aikey, .card input#gemkey, .card input#gisttoke
 .stem.big { font-size: 1.9rem; text-align: center; }
 .seg .tab.on { background: var(--mar); color: #fff; border-color: var(--mar); }
 .text .w.now { background: color-mix(in srgb, var(--sol) 45%, transparent); border-radius: 4px; }
-.text.enh .w.form { background: color-mix(in srgb, var(--mar) 22%, transparent); border-radius: 4px; padding: 0 2px; font-weight: 700; }
-body.kar-partial .text .w:not(.gl):not(.now) { color: transparent; border-bottom: 2px solid var(--cinza-claro); }
-.note.flood { border-left: 3px solid var(--mar); }
 .bubble.ia { align-self: flex-start; background: var(--pedra); border-bottom-left-radius: 4px; }
 .bubble.me { align-self: flex-end; background: color-mix(in srgb, var(--mar) 18%, transparent); border-bottom-right-radius: 4px; }
 .chips .tab.on { background: var(--mar); color: #fff; border-color: var(--mar); }
 .weekcard.ritorno { border-left: 4px solid var(--sol); }
-.dgnotes textarea { width: 100%; margin-top: 4px; }
-.dgnotesview { white-space: pre-wrap; padding: 8px 10px; border-radius: 8px;
-  background: color-mix(in srgb, var(--sol) 12%, transparent); }
-mark.dgok { background: color-mix(in srgb, var(--mata) 26%, transparent); color: inherit; border-radius: 3px; }
-mark.dgmiss { background: color-mix(in srgb, var(--coral) 24%, transparent); color: inherit; border-radius: 3px; }
-mark.dgcasi { background: color-mix(in srgb, var(--sol, #f5c518) 38%, transparent); color: inherit; border-radius: 3px; }
 
 /* Glosas de opción múltiple en las lecturas */
-.text .w.mcg { background: color-mix(in srgb, var(--sol) 30%, transparent); border-radius: 4px; padding: 0 2px;
-  border-bottom: 2px dotted var(--sol-escuro); cursor: pointer; }
 .mcbox { position: fixed; left: 50%; bottom: 84px; z-index: 60; width: min(92vw, 420px);
   transform: translate(-50%, 16px); opacity: 0; pointer-events: none; transition: opacity .18s, transform .18s;
   background: var(--papel); border: 1px solid var(--cinza-claro); border-radius: 14px; padding: 12px 14px 10px; box-shadow: var(--sombra); }
@@ -933,10 +902,6 @@ ul.exs.look .it { font-size: 1.08rem; color: var(--tinta); font-weight: 600; }
 .rowcard .rc-h { font-weight: 800; font-size: 1.1rem; margin-bottom: 4px; color: var(--mata-escuro); }
 .rowcard .rc-line { display: flex; align-items: baseline; gap: 10px; padding: 5px 0; border-top: 1px dashed var(--cinza-claro); }
 .rowcard .rc-k { display: block; font-size: .7rem; text-transform: uppercase; letter-spacing: .08em; color: var(--cinza); }
-
-/* ---- mapas de preposiciones (docs/js/mapas.js): los colores del dibujo ---- */
-:root { --mapa-tr: var(--coral); --mapa-lm: var(--mar); --mapa-soft: var(--ceu-claro);
-        --mapa-ink: var(--tinta); --mapa-bg: var(--papel); --mapa-line: var(--cinza-claro); }
 
 /* --- Biblioteca: los colores del lector (docs/css/app.css usa --bx-*) --- */
 :root { --bx-ok: var(--mata-escuro); --bx-mid: var(--sol-escuro); --bx-hard: var(--coral-escuro); --bx-sub: var(--coral); --bx-line: var(--cinza-claro); }

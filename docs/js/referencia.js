@@ -1,10 +1,9 @@
 /*
  * Referencia: «¿Cómo se usa de verdad?» y «Mi gramática».
  *
- * Concordancias.  Al tocar una palabra (el glosario de tocar, el «Palabra
- * por palabra», las palabras de la semana) se ven de 5 a 8 oraciones reales
- * del curso —lecturas, frases, banco, ejemplos de las lecciones y de las
- * palabras— con la forma resaltada, solo de lo que el alumno ya puede leer
+ * Concordancias.  Al tocar un concepto (los de la semana, el diccionario
+ * de «Consultar») se ven de 5 a 8 oraciones reales del curso —ejemplos de
+ * las lecciones y de los conceptos— con la forma resaltada, solo de lo que el alumno ya puede leer
  * (semana ≤ la desbloqueada), y un mini ejercicio: de dos usos, cuál está
  * bien.  Aprendizaje basado en datos: mirar muchos usos reales de una forma
  * enseña su gramática y sus combinaciones mejor que una regla sola (Boulton
@@ -14,16 +13,15 @@
  * semana actual (los bloques de las lecciones: título, regla corta, tabla),
  * cada una con ejemplos de las lecturas, cuántas veces se acertó y se falló
  * (tarjetas de los ejercicios de esa semana que usan sus formas, el registro
- * de errores, el banco y los mini ejercicios de acá) y un estado: vista,
+ * de errores y los mini ejercicios de acá) y un estado: vista,
  * practicada o dominada.  Se puede buscar.
  *
- * Todo sale de lo que ya trae el paquete del idioma (course.json,
- * bank.json, glosario, Letture, Frasi, el conjugador, Lezione.traps): el
- * núcleo no nombra ningún idioma.  La lógica no necesita el DOM y se prueba
- * en node (tools/lib/test_referencia.js); la parte de pantalla se activa
- * cuando app.js llama a Referencia.attach(hooks).
+ * Todo sale de lo que ya trae el paquete de la edición (course.json, con
+ * sus conceptos, y Lezione.traps): el núcleo no nombra ninguna edición.
+ * La lógica no necesita el DOM; la parte de pantalla se activa cuando
+ * app.js llama a Referencia.attach(hooks).
  *
- *   Referencia.setData({ course, bank, gloss })
+ *   Referencia.setData({ course })
  *   Referencia.concordance("andato", { week: 12 })
  *     → { term, lemma, es, forms, hits: [{ t, es, w, src, label, marks }], total, later }
  *   Referencia.grammar(12)  → [{ id, week, h, r, table, forms, … }]
@@ -33,10 +31,10 @@
 (function (root) {
   "use strict";
 
-  var D = { course: null, bank: null, gloss: null };
+  var D = { course: null };
   var CORPUS = null;          // [{ t, low, es, w, src, label, ref, toks: [[form, start, end]], seq: [form] }]
   var INDEX = null;           // form → [sentence index]
-  var LEMMA = null;           // lemma → [forms from the glossary]
+  var VOCAB = null;           // the concepts of the course: lower(term) → { term, es, week }
   var BLOCKS = null;          // every block of every lesson, with its forms
   var ITEMS_BY_WEEK = null;
   var COLL = null;            // the combinations the notes of the course teach (collIndex)
@@ -44,11 +42,8 @@
   var L = "a-zà-öø-ÿ";
   var TOKEN_RE = new RegExp("[" + L + "]+(?:-[" + L + "]+)*'?", "gi");
 
-  var SRC = {
-    lettura: ["📖", "Lectura"], frase: ["💬", "Frase"], banco: ["🏦", "Banco"],
-    leccion: ["📘", "Lección"], palabra: ["📚", "Palabra"]
-  };
-  var SRC_ORDER = ["lettura", "frase", "banco", "leccion", "palabra"];
+  var SRC = { leccion: ["📘", "Lección"], palabra: ["📚", "Concepto"] };
+  var SRC_ORDER = ["leccion", "palabra"];
 
   function lower(s) { return String(s == null ? "" : s).replace(/[’`]/g, "'").toLowerCase(); }
   function plain(s) { return lower(s).normalize("NFD").replace(/[̀-ͯ]/g, ""); }
@@ -58,13 +53,20 @@
 
   function setData(d) {
     d = d || {};
-    // only what depends on what changed is rebuilt (the glossary arrives
-    // after the course: the corpus stays)
-    if (d.course !== undefined && d.course !== D.course) { D.course = d.course; CORPUS = INDEX = BLOCKS = ITEMS_BY_WEEK = null; COLL = null; }
-    if (d.bank !== undefined && d.bank !== D.bank) { D.bank = d.bank; CORPUS = INDEX = BLOCKS = null; }
-    if (d.gloss !== undefined && d.gloss !== D.gloss) { D.gloss = d.gloss; LEMMA = null; }
+    if (d.course !== undefined && d.course !== D.course) { D.course = d.course; CORPUS = INDEX = BLOCKS = ITEMS_BY_WEEK = VOCAB = null; COLL = null; }
   }
-  function bank() { return D.bank || (root.Banca && root.Banca.loaded && root.Banca.loaded() ? root.Banca.bank() : null); }
+  // The concepts of every week (week.vocab: [term, meaning, example, tip]).
+  function vocab() {
+    if (VOCAB) return VOCAB;
+    VOCAB = {};
+    ((D.course && D.course.weeks) || []).forEach(function (w) {
+      (w.vocab || []).forEach(function (v) {
+        var k = lower(v[0]);
+        if (v[0] && !VOCAB[k]) VOCAB[k] = { term: v[0], es: v[1] || "", week: w.week };
+      });
+    });
+    return VOCAB;
+  }
 
   /* ------------------------------------------------------------ el corpus */
 
@@ -89,12 +91,6 @@
     return { toks: out, seq: seq };
   }
 
-  function sentencesOf(par) {
-    return (String(par).match(/[^.!?…]+(?:[.!?…]+[»"”)]*|$)/g) || [])
-      .map(function (s) { return s.replace(/^[\s—–\-»"”]+/, "").trim(); })
-      .filter(Boolean);
-  }
-
   function add(list, seen, t, es, w, src, label, ref) {
     t = strip(t).replace(/\s+/g, " ");
     if (!t || /_{2,}| \/ /.test(t)) return;
@@ -109,25 +105,6 @@
   function corpus() {
     if (CORPUS) return CORPUS;
     var list = [], seen = {};
-    // Readings: every sentence of every text (the story, culture, «La settimana»).
-    var LT = root.Letture;
-    ((LT && LT.EPISODI) || []).forEach(function (ep) {
-      String(ep.text || "").split(/\n+/).forEach(function (par) {
-        sentencesOf(par).forEach(function (s) { add(list, seen, s, "", ep.week, "lettura", ep.title, ep.id); });
-      });
-    });
-    // Conversation phrases.
-    var FR = root.Frasi;
-    ((FR && FR.ALL) || []).forEach(function (f) {
-      var sc = FR.scene ? FR.scene(f.scene) : null;
-      add(list, seen, f.t || f.it, f.es, f.week || 1, "frase", sc ? sc.name : "", f.id);
-    });
-    // Sentences of the bank (the first accepted version).
-    var B = bank();
-    ((B && B.sentences) || []).forEach(function (s, i) {
-      var t = s.it && s.it[0];
-      if (t) add(list, seen, t, s.es, s.w || s.wg || 1, "banco", "", "b:" + i);
-    });
     // The lessons' examples and the examples of the week's words.
     var C = D.course;
     ((C && C.weeks) || []).forEach(function (w) {
@@ -150,18 +127,6 @@
 
   /* -------------------------------------------------------- las formas */
 
-  function lemmaIndex() {
-    if (LEMMA) return LEMMA;
-    LEMMA = {};
-    var g = D.gloss || {};
-    Object.keys(g).forEach(function (k) {
-      var e = g[k];
-      if (!e || !e[0] || / /.test(k)) return;
-      (LEMMA[lower(e[0])] = LEMMA[lower(e[0])] || []).push(lower(k));
-    });
-    return LEMMA;
-  }
-
   function articles() {
     var R = root.LANG && root.LANG.rules, d = R && R.distract, out = {};
     ((d && d.artSg) || []).concat((d && d.artPl) || []).forEach(function (a) { out[lower(a)] = 1; });
@@ -176,35 +141,12 @@
     return ws.join(" ");
   }
 
-  function verbForms(inf) {
-    var C = root.Conj, out = [];
-    if (!C || !inf || / /.test(inf)) return out;
-    var known = false;
-    try { known = !!(C.info && C.info(inf)); } catch (e) { known = false; }
-    if (!known) return out;
-    (C.SIMPLE_TENSES || []).forEach(function (t) {
-      var fs;
-      try { fs = C.conjugate(inf, t, { partial: true }); } catch (e) { return; }
-      (fs || []).forEach(function (f) { if (f) out.push(lower(String(f).split(" ").pop())); });
-    });
-    try { var pp = C.participle(inf); if (pp) out.push(lower(pp)); } catch (e) { /* sin participio */ }
-    try { var ge = C.gerund && C.gerund(inf); if (ge) out.push(lower(ge)); } catch (e) { /* sin gerundio */ }
-    return out;
-  }
-
-  /* The forms of a word: the word, its lemma, the other forms the glossary
-     knows for the lemma and, for a verb, its conjugation. */
+  /* The forms of a word: the word as it is written, and its meaning when
+     it is a concept of the course. */
   function formsOf(term) {
-    var t = bareTerm(term), g = D.gloss || {};
-    var e = g[lower(term)] || g[t] || null;
-    var lemma = e ? bareTerm(e[0]) : t;
-    var out = [t];
-    var push = function (f) { f = lower(f).trim(); if (f && out.indexOf(f) < 0) out.push(f); };
-    push(lemma);
-    (lemmaIndex()[lower(e ? e[0] : t)] || []).forEach(push);
-    if (lemma !== lower(e ? e[0] : t)) (lemmaIndex()[lemma] || []).forEach(push);
-    verbForms(lemma).forEach(push);
-    return { term: t, lemma: lemma, es: e ? e[1] : "", forms: out };
+    var t = bareTerm(term), V = vocab();
+    var e = V[lower(term)] || V[t] || null;
+    return { term: t, lemma: t, es: e ? e.es : "", forms: [t] };
   }
 
   /* ------------------------------------------------------- concordancias */
@@ -245,7 +187,7 @@
 
   /* Up to opts.max sentences (8) with the forms, only from week ≤ opts.week:
      the exact form first, then the other forms; sources taken in turns so
-     the page shows readings, phrases and the bank; short sentences first. */
+     the page shows lessons and concepts; short sentences first. */
   function pickHits(forms, opts) {
     opts = opts || {};
     var week = opts.week || 999, max = opts.max || 8, exact = opts.exact || [];
@@ -320,8 +262,7 @@
     out = out.filter(function (f) { return f.split(" ").every(function (w) { return INDEX[w]; }); });
     // Subject pronouns and the little words the lessons never highlight
     // (LANG.hlStop) are not the construction: they are in every sentence.
-    var skip = {}, C = root.Conj, LG = root.LANG || {};
-    ((C && C.PERSONS) || []).forEach(function (p) { String(p).split("/").forEach(function (x) { skip[lower(x).trim()] = 1; }); });
+    var skip = {}, LG = root.LANG || {};
     Object.keys(LG.hlStop || {}).forEach(function (w) { skip[lower(w)] = 1; });
     var real = out.filter(function (f) { return !skip[f]; });
     if (real.length) out = real;
@@ -400,7 +341,7 @@
   }
 
   /* How often the block was answered right and wrong: the review cards of
-     that week's exercises (course and bank) that use its forms, the errors
+     that week's exercises that use its forms, the errors
      of the log that were about them, and the mini exercises of this page. */
   function blockStats(b, state) {
     state = state || {};
@@ -416,15 +357,6 @@
     if (forms.length) {
       itemsOfWeek(b.week).forEach(function (it) {
         if (cards[it.id] && textHas([it.stem, it.answer].join(" "), forms)) count(it.id);
-      });
-      var B = bank();
-      ((B && B.sentences) || []).forEach(function (s, i) {
-        if ((s.wg || s.w) !== b.week || !s.it) return;
-        if (!cards["b:tr:" + i] && !cards["b:gap:" + i]) return;
-        if (textHas(s.it[0], forms)) { count("b:tr:" + i); count("b:gap:" + i); }
-      });
-      ((B && B.errors) || []).forEach(function (e, i) {
-        if (e.w === b.week && cards["b:err:" + i] && textHas(e.right, forms)) count("b:err:" + i);
       });
       // the error log: only forms long enough not to be everywhere
       var long = forms.filter(function (f) { return f.length >= 4 || / /.test(f); });
@@ -461,36 +393,21 @@
     return j;
   }
 
-  /* Two uses, one right: an error of the bank's clinic whose right sentence
-     has the form (the typical error of a Spanish speaker, with its why), or
-     one of the concordance sentences with a trap of the lessons
-     (Lezione.traps, only the changes that are always wrong) on the form. */
-  function exercise(q, week, rnd, opts) {
+  /* Two uses, one right: one of the concordance sentences with a trap of
+     the lessons (Lezione.traps, only the changes that are always wrong) on
+     the form. */
+  function exercise(q, week, rnd) {
     rnd = rnd || Math.random;
-    opts = opts || {};
     week = week || 999;
     var forms = q.forms || [], hits = q.hits || [];
-    var B = bank(), errs = [];
-    ((B && B.errors) || []).forEach(function (e) {
-      if (!e || !e.right || !e.wrong || (e.w || 1) > week) return;
-      if (!forms.length || !textHas(e.right, forms)) return;
-      errs.push(e);
-    });
-    var own = opts.blockWeek ? errs.filter(function (e) { return e.w === opts.blockWeek; }) : [];
-    var fromErr = function (list) {
-      if (!list.length) return null;
-      var e = shuffle(list, rnd)[0];
-      return { right: e.right, wrong: e.wrong, why: e.why || "", good: e.good || "", bad: e.bad || "", src: "banco" };
-    };
     var fromTraps = function (onForm) {
-      var LZ = root.Lezione, g = D.gloss || {};
+      var LZ = root.Lezione;
       if (!LZ || !LZ.traps) return null;
-      var isWord = function (w) { return !!g[lower(w)]; };
       // the exact form the learner tapped first
       var hs = shuffle(hits, rnd).sort(function (a, b) { return (b.exact ? 1 : 0) - (a.exact ? 1 : 0); });
       for (var i = 0; i < hs.length; i++) {
         var t = hs[i].t, tr;
-        try { tr = LZ.traps(t, rnd, week, isWord, true) || []; } catch (e) { tr = []; }
+        try { tr = LZ.traps(t, rnd, week, null, true) || []; } catch (e) { tr = []; }
         for (var k = 0; k < tr.length; k++) {
           if (tr[k] === t) continue;
           var d = diff(t, tr[k]);
@@ -503,7 +420,7 @@
       }
       return null;
     };
-    var r = fromErr(own) || fromTraps(true) || fromErr(errs) || fromTraps(false);
+    var r = fromTraps(true) || fromTraps(false);
     return r && r.right !== r.wrong ? r : null;
   }
 
@@ -520,11 +437,9 @@
 
   /* ------------------------------------------------------- el diccionario */
 
-  /* «Consultar»: una palabra con todo lo que el curso sabe de ella —la glosa
-     (glossario.json), la semana en que se enseña, el nivel y la frecuencia
-     (Freq), la forma verbal (Desglose), la ficha del banco (género, plural,
-     auxiliar, nota), las combinaciones que las notas del curso enseñan
-     («Tener hambre → avere fame») y 3-5 usos reales ya leídos. */
+  /* «Consultar»: un concepto con lo que el curso sabe de él —qué
+     significa, la semana en que se enseña, las combinaciones que las notas
+     del curso enseñan y 3-5 usos reales ya leídos. */
   // COLL: [{ l: left, r: right, rl: [words of the right], w, topic }]
   function arts() { return articles(); }
   function collIndex() {
@@ -554,73 +469,38 @@
     var set = {};
     forms.forEach(function (f) { if (!/ /.test(f)) set[f] = 1; });
     var out = collIndex().filter(function (c) { return c.rl.some(function (w) { return set[w]; }); });
-    // the bank's verbs with their preposition (a «regencia» table, when the package has one)
-    var B = bank(), reg = B && B.regencia;
-    if (reg && typeof reg === "object" && !Array.isArray(reg)) forms.forEach(function (f) {
-      if (reg[f] && !out.some(function (c) { return c.r === f + " " + reg[f]; })) out.push({ l: "", r: f + " " + reg[f], rl: [f, reg[f]], w: 1, topic: "régimen" });
-    });
     return out.sort(function (a, b) { return a.w - b.w; }).slice(0, max || 6);
   }
-  // The bank's card for a lemma: gender and plural, auxiliary, the note.
-  function bankEntry(lemma) {
-    var B = bank();
-    if (!B || !lemma) return null;
-    var l = lower(lemma), i, x;
-    for (i = 0; B.nouns && i < B.nouns.length; i++) {
-      x = B.nouns[i];
-      if (lower(x[0]) === l || lower(x[2]) === l) return { kind: "noun", lemma: x[0], g: x[1], pl: x[2], es: x[3], level: x[5], note: x[6] || "" };
-    }
-    for (i = 0; B.verbs && i < B.verbs.length; i++) {
-      x = B.verbs[i];
-      if (lower(x[0]) === l) return { kind: "verb", lemma: x[0], es: x[1], aux: x[2], level: x[5], note: x[6] || "" };
-    }
-    for (i = 0; B.adjectives && i < B.adjectives.length; i++) {
-      x = B.adjectives[i];
-      if ([x[0], x[1], x[2], x[3]].some(function (f) { return lower(f) === l; }))
-        return { kind: "adj", lemma: x[0], forms: [x[0], x[1], x[2], x[3]], es: x[4], level: x[5], note: x[6] || "" };
-    }
-    return null;
-  }
-
   function lookup(term, opts) {
     opts = opts || {};
-    var week = opts.week || 999, f = formsOf(term), g = D.gloss || {};
-    var e = g[lower(term)] || g[f.term] || g[f.lemma] || null;
-    var F = root.Freq, De = root.Desglose, info = null;
-    if (F && F.loaded && F.loaded()) { try { info = F.info(f.term) || F.info(f.lemma); } catch (x) { info = null; } }
-    var lines = [];
-    if (De && De.lines) { try { lines = De.lines(f.term, { gloss: g, week: week, max: 3 }) || []; } catch (x) { lines = []; } }
+    var week = opts.week || 999, f = formsOf(term), V = vocab();
+    var e = V[lower(term)] || V[f.term] || null;
     var r = pickHits(f.forms, { week: week, max: opts.max || 5, exact: [f.term] });
-    var bk = bankEntry(f.lemma) || bankEntry(f.term);
-    return { term: f.term, lemma: f.lemma, es: f.es || (bk && bk.es) || "", taught: e ? +e[2] || 0 : 0,
-             level: info ? info[2] || "" : (bk && bk.level) || "", zipf: info ? Math.max(info[0], info[1]) : 0,
-             lines: lines, colloc: collocations(f.forms), bank: bk, hits: r.hits, total: r.total, later: r.later,
-             forms: f.forms, known: !!(e || info || bk || r.total) };
+    return { term: f.term, lemma: f.lemma, es: f.es, taught: e ? e.week : 0,
+             colloc: collocations(f.forms), hits: r.hits, total: r.total, later: r.later,
+             forms: f.forms, known: !!(e || r.total) };
   }
 
-  /* Suggestions for the search box: words of the glossary that start with
-     the query (the lemma first), and, if the query is Spanish, the words
-     whose meaning has it. → [{ w, lemma, es, week }] */
+  /* Suggestions for the search box: the concepts that start with the
+     query, and then the ones whose meaning has it. → [{ w, lemma, es, week }] */
   function suggest(q, n) {
     n = n || 8;
-    var g = D.gloss || {}, p = plain(q).trim();
+    var V = vocab(), p = plain(q).trim();
     if (!p || p.length < 2) return [];
     var out = [], seen = {};
     var add = function (k) {
-      var e = g[k], lemma = e ? lower(e[0]) : k;
-      if (seen[lemma]) return;
-      seen[lemma] = 1;
-      out.push({ w: k, lemma: lemma, es: e ? e[1] : "", week: e ? +e[2] || 0 : 0 });
+      var e = V[k];
+      if (seen[k]) return;
+      seen[k] = 1;
+      out.push({ w: e.term, lemma: e.term, es: e.es, week: e.week });
     };
-    var keys = Object.keys(g);
-    var starts = keys.filter(function (k) { return plain(bareTerm(k)).indexOf(p) === 0; });
-    starts.sort(function (a, b) {
-      var la = lower(g[a][0]) === lower(a) ? 0 : 1, lb = lower(g[b][0]) === lower(b) ? 0 : 1;
-      return la - lb || a.length - b.length;
-    }).forEach(function (k) { if (out.length < n) add(k); });
+    var keys = Object.keys(V);
+    keys.filter(function (k) { return plain(k).indexOf(p) === 0; })
+      .sort(function (a, b) { return a.length - b.length; })
+      .forEach(function (k) { if (out.length < n) add(k); });
     if (out.length < n) {
       var re = new RegExp("(^|[^a-zñ])" + p.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "([^a-zñ]|$)");
-      keys.filter(function (k) { return re.test(plain(g[k][1])); })
+      keys.filter(function (k) { return re.test(plain(V[k].es)); })
         .sort(function (a, b) { return a.length - b.length; })
         .forEach(function (k) { if (out.length < n) add(k); });
     }
@@ -657,8 +537,8 @@
   function curWeek() { return Math.min(Math.max(st().unlocked || 1, 1), root.Engine.weeks()); }
   function refresh() {
     if (!H) return;
-    var g = H.glossary && H.glossary(), c = H.course && H.course();
-    if ((g && g !== D.gloss) || (c && c !== D.course)) setData({ gloss: g || D.gloss, course: c || D.course });
+    var c = H.course && H.course();
+    if (c && c !== D.course) setData({ course: c });
   }
 
   function hlHtml(h) {
@@ -738,7 +618,7 @@
     var b = blockById(id);
     if (!b) return;
     var q = blockConcordance(b, { week: curWeek() });
-    q.ex = exercise(q, curWeek(), null, { blockWeek: b.week });
+    q.ex = exercise(q, curWeek());
     showSheet(q);
   }
 
@@ -757,8 +637,6 @@
     box.scrollTop = 0;
     box.classList.add("on");
     document.body.classList.add("ref-open");
-    var gb = document.getElementById("glossbox");
-    if (gb) gb.classList.remove("on");
   }
   function closeSheet() {
     var box = document.getElementById("refsheet");
@@ -794,29 +672,11 @@
   function again() {
     var q = sheetQ;
     if (!q) return;
-    var b = q.kind === "block" ? blockById(q.id) : null;
-    q.ex = exercise(q, curWeek(), null, b ? { blockWeek: b.week } : null);
+    q.ex = exercise(q, curWeek());
     showSheet(q);
   }
 
-  /* The glossary box: «¿Cómo se usa?» under the meaning, when the word has
-     uses in what the learner can already read.  txt is «palabra — significado». */
-  function onGloss(box, txt) {
-    if (!box) return false;
-    box.classList.remove("has-ref");
-    var term = String(txt || "").split(/\s+[—–-]\s+/)[0].trim();
-    if (!term || !has(term)) return false;
-    var b = document.createElement("button");
-    b.className = "ref-go ref-gl";
-    b.setAttribute("data-ref", term);
-    b.textContent = "¿Cómo se usa? →";
-    box.appendChild(document.createTextNode(" "));
-    box.appendChild(b);
-    box.classList.add("has-ref");
-    return true;
-  }
-
-  // A small button next to a word (the week's words, the desglose).
+  // A small button next to a word (the concepts of the week).
   function button(term) {
     return '<button class="ref-go" data-ref="' + esc(term) + '" aria-label="Cómo se usa ' + esc(term) + '">usos</button>';
   }
@@ -1021,9 +881,9 @@
     setData: setData, corpus: corpus, tokenize: tokenize, formsOf: formsOf, concordance: concordance,
     blocks: blocks, grammar: grammar, blockById: blockById, blockForms: blockForms, blockConcordance: blockConcordance,
     search: search, blockStats: blockStats, exercise: exercise, record: record, diff: diff,
-    blockIdOf: blockIdOf, lookup: lookup, suggest: suggest, collocations: collocations, bankEntry: bankEntry,
+    blockIdOf: blockIdOf, lookup: lookup, suggest: suggest, collocations: collocations,
     // pantalla
-    attach: attach, onGloss: onGloss, button: button, entry: entry, page: page,
+    attach: attach, button: button, entry: entry, page: page,
     openWord: openWord, openBlock: openBlock, close: closeSheet, has: has,
     blockLink: blockLink, lessonNote: lessonNote, openGram: openGram, hitsHtml: hitsHtml,
     ready: function () { refresh(); return !!D.course; }

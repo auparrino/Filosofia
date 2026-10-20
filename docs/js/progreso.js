@@ -3,8 +3,8 @@
  *
  *   · el nivel estimado y la fecha de cada jefe al ritmo actual (y la de
  *     llegada al final);
- *   · las palabras que sabés por banda de frecuencia, como serie: un punto
- *     por semana en state.history (pocos números por punto);
+ *   · la serie semanal: un punto por semana en state.history (pocos
+ *     números por punto);
  *   · las horas de estudio por semana y por destreza (input, output, forma,
  *     fluidez), medidas mientras la app está abierta y se usa;
  *   · lo que más te cuesta (state.errs), con su tendencia.
@@ -16,7 +16,7 @@
  *
  * Las funciones de cálculo no tocan el DOM (tools/lib/test_progreso.js).  La
  * pantalla («progreso») y el reloj de estudio se enganchan con app.js por
- * Progreso.attach(host), como tramo.js o referencia.js.
+ * Progreso.attach(host), como referencia.js.
  *
  * Guarda: state.tiempo {"aaaa-m-d": [input, output, forma, fluidez] en
  * segundos, 120 días}, state.history [{w, u, n, b, m, i, e}] (un punto por
@@ -27,7 +27,6 @@
 
   var DAY = 864e5;
   var STRANDS = ["input", "output", "forma", "fluidez"];
-  var BANDS = ["A1", "A2", "B1", "B2", "C1"];
   // The exams: one at the end of every season of 13 weeks, and the final
   // one, as long as the syllabus (Engine.finalWeek()); [week, level].
   function BOSSLIST() {
@@ -134,26 +133,13 @@
     return n;
   }
 
-  /* Input minutes this week: the time measured in reading and listening,
-     or what the records say was read and heard (listening seconds, pages of
-     the Library, readings and long listenings finished, dictogloss, the
-     minutes logged out of the app), the
-     larger of the two.  ctx.words(id): words of a reading. */
-  function inputWeek(state, ctx, now) {
+  /* Input minutes this week: the time measured reading, or what the
+     records say was read (the pages of the Library), the larger of the two. */
+  function inputWeek(state, now) {
     now = now || new Date();
-    ctx = ctx || {};
     var wk = weekKey(now), measured = thisWeek(state, now).input / 60, rec = 0;
-    var inWeek = function (t) { return t && weekKey(new Date(t)) === wk; };
-    Object.keys(state.ascolto || {}).forEach(function (k) { if (weekKey(parseKey(k)) === wk) rec += (state.ascolto[k].sec || 0) / 60; });
     var bd = (state.biblio && state.biblio.days) || {};
     Object.keys(bd).forEach(function (k) { if (weekKey(parseKey(k)) === wk) rec += (bd[k].s || 0) / 60; });
-    Object.keys(state.letture || {}).forEach(function (id) {
-      var l = state.letture[id];
-      if (l && inWeek(l.at)) rec += ctx.words ? Math.max(2, (ctx.words(id) || 200) / 100) : 3;
-    });
-    Object.keys(state.dictogloss || {}).forEach(function (w) { if (inWeek((state.dictogloss[w] || {}).at)) rec += 6; });
-    var fd = (state.fuera && state.fuera.d) || {};   // the minutes logged out of the app (fuera.js)
-    Object.keys(fd).forEach(function (k) { if (weekKey(parseKey(k)) === wk) rec += (fd[k] || [])[0] || 0; });
     return Math.round(Math.max(measured, rec));
   }
   function inputTarget(level) {
@@ -226,7 +212,7 @@
   /* ------------------------------------------------------------ palabras */
 
   function wordCards(state) {
-    return Object.keys(state.cards || {}).filter(function (id) { return id.indexOf("v:") === 0 || id.indexOf("b:voc:") === 0; }).length;
+    return Object.keys(state.cards || {}).filter(function (id) { return id.indexOf("v:") === 0; }).length;
   }
   // New words this calendar week, from the review log (first review of a word).
   function newWordsWeek(state, now) {
@@ -234,18 +220,16 @@
     (state.log || []).forEach(function (x) { if (Array.isArray(x) && x[5] === "v" && x[4] === 0 && x[1] >= t0) n++; });
     return n;
   }
-  /* The weekly share of words, as the course teaches them: the words of
-     the week plus one session of «Parole / Palavras» (12), not the gap to
-     the boss divided by the weeks left (Engine.subGoals asked ten times
-     that).  And what the course teaches up to the next boss. */
-  var BANK_SESSION = 12;
-  function wordQuota(course, state, now, bank) {
+  /* The weekly share of concepts, as the course teaches them: the
+     concepts of the week, not the gap to the boss divided by the weeks left
+     (Engine.subGoals asked ten times that).  And what the course teaches up
+     to the next boss. */
+  function wordQuota(course, state, now) {
     var u = Math.min(state.unlocked || 1, root.Engine.weeks()), weeks = (course && course.weeks) || [], BL = BOSSLIST();
     var w = weeks[u - 1] || {}, boss = BL.filter(function (b) { return b[0] >= u; })[0] || BL[BL.length - 1];
-    var plus = bank === false ? 0 : BANK_SESSION;
     var taught = 0;
-    weeks.forEach(function (x) { if (x.week <= boss[0]) taught += ((x.vocab || []).length || 0) + (x.boss || bank === false ? 0 : BANK_SESSION); });
-    return { target: ((w.vocab || []).length || 0) + plus, done: newWordsWeek(state, now), nWords: wordCards(state),
+    weeks.forEach(function (x) { if (x.week <= boss[0]) taught += (x.vocab || []).length || 0; });
+    return { target: (w.vocab || []).length || 0, done: newWordsWeek(state, now), nWords: wordCards(state),
              boss: boss[0], level: boss[1], byBoss: taught, weekWords: (w.vocab || []).length || 0 };
   }
 
@@ -318,7 +302,6 @@
     catch (e) { return dayKey(d); }
   }
   function fmtH(sec) { var m = Math.round(sec / 60); return m < 60 ? m + " min" : (Math.round(m / 6) / 10).toString().replace(".", ",") + " h"; }
-  function num(n) { return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, "."); }
   function paceWord(p) { return (Math.round(p * 10) / 10).toString().replace(".", ","); }
   function semanas(p) { var w = paceWord(p); return w === "1" ? "una semana" : w + " semanas"; }
 
@@ -341,20 +324,9 @@
       '<div class="row"><button class="btn" id="toprog">Ver tu progreso</button></div></div>';
   }
 
-  // A small line (one series): the band's known words over the weeks.
-  function spark(vals, max, label) {
-    var W = 150, Hh = 34, n = vals.length;
-    if (n < 2) return "";
-    var pts = vals.map(function (v, i) { return [Math.round(i / (n - 1) * (W - 8)) + 4, Math.round(Hh - 4 - (v / Math.max(1, max)) * (Hh - 8))]; });
-    return '<svg class="spark" viewBox="0 0 ' + W + " " + Hh + '" role="img" aria-label="' + esc(label) + '">' +
-      '<polyline points="' + pts.map(function (p) { return p.join(","); }).join(" ") + '" />' +
-      '<circle cx="' + pts[n - 1][0] + '" cy="' + pts[n - 1][1] + '" r="3" /></svg>';
-  }
-
   function render() {
     var st = S(), course = H.course(), now = new Date();
-    var cov = H.coverage ? H.coverage() : null;
-    snapshot(st, cov ? { b: BANDS.map(function (l) { return cov.levels[l] ? cov.levels[l][0] : 0; }) } : null, now);
+    snapshot(st, null, now);
     var E = eta(st, now), lv = levelNow(course, st), T = target(st, now), R = ritmo(st);
     var html = '<button class="btn ghost" id="progback">← Volver</button><h1>📈 Tu progreso</h1>';
 
@@ -369,21 +341,7 @@
       }).join("") + "</table>" +
       (T ? '<p class="muted small">' + targetText(T) + "</p>" : "") + "</div>";
 
-    // 2. words by band, over the weeks
-    var hist = (st.history || []).filter(function (p) { return Array.isArray(p.b); }).slice(-26);
-    if (cov) {
-      html += '<div class="card"><h2>📚 Palabras que sabés</h2>' +
-        '<p class="muted small">Por banda de frecuencia: A1 son las más comunes. Un punto por semana.</p>' +
-        '<div class="prog-bands">' + BANDS.map(function (l, i) {
-          var c = cov.levels[l] || [0, 0], vals = hist.map(function (p) { return p.b[i] || 0; });
-          var first = vals.length ? vals[0] : c[0];
-          return '<div class="pb"><span>' + l + "</span>" + (vals.length >= 2 && Math.max.apply(null, vals) > 0 ? spark(vals, c[1], l + ": " + vals.join(", ")) : '<i class="pb-bar"><i style="width:' + Math.round(c[0] / Math.max(1, c[1]) * 100) + '%"></i></i>') +
-            "<b>" + num(c[0]) + " / " + num(c[1]) + "</b>" + (vals.length >= 2 && c[0] > first ? '<small class="muted">+' + num(c[0] - first) + "</small>" : "<small></small>") + "</div>";
-        }).join("") + "</div>" +
-        (hist.length < 2 ? '<p class="muted small">La serie empieza esta semana: la próxima ya se ve la línea.</p>' : "") + "</div>";
-    }
-
-    // 3. hours a week and by strand
+    // 2. hours a week and by strand
     var series = weeksSeries(st, 8, now), max = Math.max.apply(null, series.map(function (r) { return r.sec; }).concat([60]));
     var four = timeIn(st, 0, 28, now), hrs = hours(st);
     html += '<div class="card"><h2>⏱️ Horas de estudio</h2>' +
@@ -400,13 +358,13 @@
       '<p class="muted small">En total, unas <b>' + String(hrs.h).replace(".", ",") + " horas</b>" + (hrs.measured ? "." : " (estimadas por tu xp: el reloj empezó hace poco).") + "</p></div>";
 
     // input this week against the level's goal
-    var inW = inputWeek(st, { words: H.words }, now), inT = inputTarget(lv);
-    html += '<div class="card"><h2>🎧 Input de la semana</h2>' +
+    var inW = inputWeek(st, now), inT = inputTarget(lv);
+    html += '<div class="card"><h2>📖 Lectura de la semana</h2>' +
       '<div class="goalbar"><i style="width:' + Math.min(100, Math.round(inW / inT * 100)) + '%"></i></div>' +
-      '<p class="muted">' + inW + " / " + inT + " minutos leyendo y escuchando (la meta de " + esc(lv.slice(0, 2)) + "). " +
-      "Suman las lecturas, las escuchas, la Biblioteca, Ascolto facile y el dictogloss.</p></div>";
+      '<p class="muted">' + inW + " / " + inT + " minutos leyendo (la meta de " + esc(lv.slice(0, 2)) + "). " +
+      "Suman la lección, el seminario y la Biblioteca.</p></div>";
 
-    // 4. what costs the most, and its trend
+    // 3. what costs the most, and its trend
     var tr = errTrend(st, now, 6);
     if (tr.length) {
       var TW = { baja: "↓ baja", sube: "↑ sube", igual: "= igual", reciente: "nuevo", quieto: "quieto", "sin datos": "" };
@@ -416,8 +374,7 @@
           return "<tr><td>" + esc(H.label(t.cat)) + '<br><small class="muted">' + t.n + " en total" + (t.fixed ? " · " + t.fixed + " corregidos por vos" : "") +
             (t.quiet != null && t.quiet > 14 ? " · hace " + t.quiet + " días que no aparece" : "") + "</small></td><td>" +
             (t.recent != null ? t.recent + " en 4 sem. " : "") + '<b class="tr-' + (t.trend === "sube" ? "up" : t.trend === "baja" || t.trend === "quieto" ? "down" : "eq") + '">' + (TW[t.trend] || "") + "</b></td></tr>";
-        }).join("") + "</table>" +
-        '<div class="row" style="margin-top:10px"><button class="btn ghost" data-bank="clinica">🩺 Practicarlos en la Clínica</button></div></div>';
+        }).join("") + "</table></div>";
     }
     html += H.cards ? H.cards() : "";
     return html;
@@ -442,14 +399,11 @@
   /* ------------------------------------------------------------ el reloj */
 
   var SCREEN_STRAND = {
-    lettura: "input", dictogloss: "input", "tramo-asc": "input", lector: "input", libro: "input", storia: "input",
-    "esame-asc": "input", "esame-let": "input",
-    scrivi: "output", parla: "output", "tramo-scr": "output", eplus: "output", escritos: "output", "esame-scr": "output",
-    lampo: "fluidez", lezione: "forma", teoria: "forma", gramatica: "forma", ubicacion: "forma", sfide: "forma"
+    lector: "input", libro: "input", escritos: "output",
+    lezione: "forma", teoria: "forma", gramatica: "forma", ubicacion: "forma", sfide: "forma"
   };
-  var ROUND_STRAND = { lettura: "input", suoni: "input", capire: "input", "b-tr": "output", variaciones: "output",
-                       scene: "fluidez", lista: "forma" };
-  var READING = { lettura: 1, lector: 1, libro: 1, "tramo-asc": 1, dictogloss: 1, storia: 1, "esame-let": 1, "esame-asc": 1, scrivi: 1, "tramo-scr": 1 };
+  var ROUND_STRAND = { lista: "forma" };
+  var READING = { lector: 1, libro: 1 };
   function strandFor(screen, roundKind, listening) {
     if (screen === "gioco") return ROUND_STRAND[roundKind] || "forma";
     if (SCREEN_STRAND[screen]) return SCREEN_STRAND[screen];
@@ -481,7 +435,7 @@
   function owns(s) { return s === "progreso"; }
 
   var api = {
-    STRANDS: STRANDS, BANDS: BANDS, BOSSES: BOSSLIST, WEEK_MIN: WEEK_MIN, MINUTES: MINUTES, GOAL_XP: GOAL_XP,
+    STRANDS: STRANDS, BOSSES: BOSSLIST, WEEK_MIN: WEEK_MIN, MINUTES: MINUTES, GOAL_XP: GOAL_XP,
     dayKey: dayKey, weekKey: weekKey, ritmo: ritmo, setRitmo: setRitmo, weekMinutes: weekMinutes,
     addTime: addTime, timeIn: timeIn, todaySec: todaySec, thisWeek: thisWeek, weeksSeries: weeksSeries, daysThisWeek: daysThisWeek,
     inputWeek: inputWeek, inputTarget: inputTarget, observedPace: observedPace, plannedPace: plannedPace, pace: pace,

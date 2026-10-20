@@ -1,10 +1,9 @@
 /*
  * Errores: el modelo de error común (auditoría 3.0, C9 y P1).
  *
- * Todo lo que corrige (las respuestas cerradas, Scrivi con sus reglas,
- * LanguageTool y la IA, el dictogloss, la tarea del tramo, Escritura plus,
- * la revisión final de Parla) arma el mismo objeto y lo anota con
- * Errores.record, así «Tus errores», la Clínica y el repaso leen lo mismo:
+ * Todo lo que corrige (las respuestas cerradas y, cuando las haya, las
+ * correcciones de la IA) arma el mismo objeto y lo anota con
+ * Errores.record, así «Tus errores» y el repaso leen lo mismo:
  *
  *   { cat,        la categoría (la del diagnóstico del idioma)
  *     nivel,      "incorrecto" | "desliz" | "poco_natural" | "aceptable"
@@ -35,9 +34,8 @@
 (function (root) {
   "use strict";
 
-  function Dg() { return root.Diagnosi || null; }
   function LG() { return root.LANG || {}; }
-  function groups() { var D = Dg(); return (D && D.GROUPS) || LG().diagGroups || {}; }
+  function groups() { return LG().diagGroups || {}; }
   function str(x, n) { return x == null ? "" : String(x).replace(/\s+/g, " ").trim().slice(0, n || 280); }
   function strip(s) { return String(s == null ? "" : s).replace(/\*\*([^*]+)\*\*/g, "$1").replace(/\*([^*]+)\*/g, "$1"); }
 
@@ -85,18 +83,11 @@
   function clinicCat(cat) {
     if (!cat || OUT[cat] || unrecorded(cat)) return null;
     if (ALIAS[cat]) cat = ALIAS[cat];
-    var D = Dg(), L = D && D.LABEL;
-    if (L && !L[cat]) return null;
     return cat;
   }
-  function label(cat) {
-    var D = Dg(), S = root.Scrivi;
-    return (D && D.LABEL && D.LABEL[cat]) || (S && S.AI_TYPES && S.AI_TYPES[cat]) || cat || "";
-  }
+  function label(cat) { return cat || ""; }
   // The explanation in layers of a category: {regla, es, ej} (porque_data.js).
   function capa(cat) {
-    var D = Dg();
-    if (D && typeof D.capa === "function") { try { var c = D.capa(cat); if (c) return c; } catch (e) { /* */ } }
     var P = root.PORQUE_DATA;
     return (P && P.capas && P.capas[cat]) || null;
   }
@@ -139,7 +130,7 @@
     };
   }
 
-  // From the diagnosis of a closed answer (Diagnosi.diagnose / explainChoice).
+  // From the diagnosis of a closed answer ({cat, explain, hint, target, label}).
   function fromDiag(d, given, o) {
     o = o || {};
     if (!d || !d.cat) return null;
@@ -157,17 +148,13 @@
     var colon = String(msg).indexOf(":"), after = segs.filter(function (q) { return q.at > colon; })[0];
     return (after || segs[segs.length - 1]).x;
   }
-  /* From a finding of Scrivi (local rules, LanguageTool or the AI): the
-     fields bad / good / why when the checker gives them; if not, what was
-     written is taken from the text and the correction from the message. */
+  /* From a finding of a checker of texts (rules or the AI): the fields
+     bad / good / why when the checker gives them; if not, the correction
+     from the message. */
   function fromFinding(f, text, o) {
     o = o || {};
     if (!f || !f.cat) return null;
     var bad = f.bad;
-    if (bad == null && text != null && root.Scrivi && root.Scrivi.toks && f.i >= 0) {
-      var tk = root.Scrivi.toks(text), a = tk[f.i], z = tk[Math.min(tk.length - 1, f.i + (f.n || 1) - 1)];
-      bad = a && z && a.at != null && z.at != null ? String(text).replace(/[’‘`´]/g, "'").slice(a.at, z.at + (z.len || 0)) : (a && a.o) || "";
-    }
     var good = f.good !== undefined ? f.good : guessGood(f.msg || "", bad);
     var fuente = f.ai ? "ia" : f.lt ? "lt" : o.fuente || "reglas";
     var lv = f.level === "poco_natural" || f.soft ? "poco_natural" : SLIP_LV[f.level] ? "desliz" : NOTE_LV[f.level] ? "aceptable" : "incorrecto";
@@ -177,12 +164,10 @@
                   contraste: c && c.es && !ES_MENTION.test(why) ? c.es : "", fuente: fuente,
                   seguro: fuente === "reglas", label: label(f.cat) });
   }
-  // A row [what was written, the correction, the note, the type] (Parla, the rubric of the tramo).
+  // A row [what was written, the correction, the note, the type] (a correction of the AI).
   function fromRow(mal, bien, nota, tipo, o) {
     o = o || {};
     var cat = String(tipo || "").trim().toLowerCase() || "ia";
-    var S = root.Scrivi;
-    if (S && S.AI_TYPES && !S.AI_TYPES[cat] && !(Dg() && Dg().LABEL && Dg().LABEL[cat])) cat = "ia";
     return make({ cat: cat, nivel: cat === "estilo" || cat === "stile" ? "poco_natural" : "incorrecto", registro: o.registro,
                   mal: mal, bien: bien, regla: nota, fuente: o.fuente || "ia", seguro: false, label: label(cat) });
   }
@@ -223,7 +208,7 @@
     if (i >= 0) state.errLog.splice(i, 1);
     if (row.k && state.errs && state.errs[row.cat]) state.errs[row.cat].n = Math.max(0, state.errs[row.cat].n - 1);
   }
-  // Several findings of a text at once (Scrivi, dictogloss, tramo, Escritura plus).
+  // Several findings of a text at once.
   function recordFindings(state, findings, text, o) {
     var out = [];
     (findings || []).forEach(function (f) {
@@ -295,22 +280,20 @@
   }
 
   /* -------------------------------------------- el curso, para la IA
-     Lo que el pedido tiene que saber del alumno: la semana y el nivel, la
-     gramática vista hasta ahí, las estructuras y categorías de la semana,
-     sus tres categorías flojas y lo que ya marcó la app (seguro). */
+     Lo que el pedido tiene que saber del alumno: la semana y el nivel, lo
+     visto hasta ahí, las categorías de la semana, sus tres categorías
+     flojas y lo que ya marcó la app (seguro). */
   function levelOfWeek(w) { return w <= 8 ? "A1" : w <= 18 ? "A2" : w <= 30 ? "B1" : w <= 42 ? "B2" : "C1"; }
   function courseCtx(course, state, week, extra) {
     week = Math.max(1, Math.min(root.Engine.weeks(), +week || 1));
     var weeks = (course && course.weeks) || [], w = weeks[week - 1] || {};
-    var C = root.Conj, TL = (C && C.TENSE_LABELS) || {};
     var titles = weeks.slice(0, week).filter(function (x) { return x && !x.boss && x.title; }).map(function (x) { return x.title; });
-    var tenses = (w.known || w.tenses || []).map(function (t) { return strip(TL[t] || t).replace(/\s*\(.*?\)/g, ""); });
-    var B = root.Banca, weak = B && B.weakest ? B.weakest(state || {}, 3).map(function (x) { return x.cat; }) : [];
-    var S = root.Scrivi, task = S && S.TASKS ? S.TASKS[week] : null;
-    var P = root.PORQUE_DATA, D = Dg(), wc = [];
-    if (P && P.weeks && D && D.LABEL) Object.keys(P.weeks).forEach(function (k) { if (P.weeks[k] === week && D.LABEL[k]) wc.push(k); });
-    var o = { week: week, level: w.level || levelOfWeek(week), grammar: titles.slice(-14), tenses: tenses,
-              weak: weak, weekCats: wc, structs: task && task.use ? task.use.map(function (u) { return u[2]; }) : [] };
+    var errs = (state && state.errs) || {};
+    var weak = Object.keys(errs).filter(function (c) { return clinicCat(c) && errs[c].n > 0; })
+      .sort(function (a, b) { return errs[b].n - errs[a].n; }).slice(0, 3);
+    var P = root.PORQUE_DATA, wc = [];
+    if (P && P.weeks) Object.keys(P.weeks).forEach(function (k) { if (P.weeks[k] === week) wc.push(k); });
+    var o = { week: week, level: w.level || levelOfWeek(week), grammar: titles.slice(-14), weak: weak, weekCats: wc };
     Object.keys(extra || {}).forEach(function (k) { o[k] = extra[k]; });
     return o;
   }
@@ -319,9 +302,7 @@
     if (typeof c === "string") return c;
     var lines = [];
     if (c.week) lines.push("El alumno está en la semana " + c.week + " de " + root.Engine.planned() + " (nivel " + (c.level || levelOfWeek(c.week)) + ").");
-    if (c.grammar && c.grammar.length) lines.push("Gramática vista hasta ahora (las últimas lecciones): " + c.grammar.join("; ") + ".");
-    if (c.tenses && c.tenses.length) lines.push("Tiempos verbales que ya conoce: " + c.tenses.join(", ") + ". No uses nombres de tiempos que todavía no vio: describilos con palabras simples.");
-    if (c.structs && c.structs.length) lines.push("Lo que practica esta semana: " + c.structs.join("; ") + ".");
+    if (c.grammar && c.grammar.length) lines.push("Lo visto hasta ahora (las últimas lecciones): " + c.grammar.join("; ") + ".");
     if (c.weekCats && c.weekCats.length) lines.push("Categorías de error de esta semana: " + c.weekCats.map(label).join(", ") + ".");
     if (c.weak && c.weak.length) lines.push("Sus categorías más flojas (se equivoca seguido): " + c.weak.map(label).join(", ") + ".");
     if (c.cat) lines.push("Categoría del error según la app: " + label(c.cat) + ".");
