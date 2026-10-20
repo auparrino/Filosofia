@@ -80,3 +80,22 @@ edición cotejada.
 - **Conceptos vecinos:**
   - «prohaíresis (en Epicteto)», en la semana 23, y «proaíresis», en la 18;
   - «placer cinético», en la 21, y «placer en movimiento», en la 20.
+
+## Semanas 5, 6 y 7
+
+- **Murakami:** se dice que popularizó la frase apócrifa «el dolor es
+  inevitable, el sufrimiento es opcional». No está verificado.
+- **Gandhi y Raychandbhai:** falta confirmar que Gandhi lo ligue a la ahimsa.
+- **Analectas:** la numeración cambia según la edición (14.34/14.36,
+  11.12/11.11).
+- **Citas en resumen:**
+  - Sexto VII 79 y 84-86;
+  - Antifonte, DK 87 B 44;
+  - Aristófanes, *Las nubes* 112-118;
+  - Tucídides II 37;
+  - Xunzi, cap. 17;
+  - Mozi, caps. 15 y 35;
+  - Han Feizi, caps. 7 y 49.
+- **Milindapañha:** la división II 1, 1 / II 2, 1 es la de Rhys Davids.
+- **Brecht:** en literatura.py se le atribuye «lo blando vence a lo duro» en
+  el poema de Laozi. Hay que verificar la letra.
