@@ -86,7 +86,7 @@ Para ver las ocho épocas, agregá a la URL un número del 1 al 8: `?era=1`,
 
 Es una app web instalable (PWA): después de abrirla una vez con internet,
 se lee entera sin conexión, y guarda tu progreso en el teléfono.
-- **En Android (Chrome):** abrí https://auparrino.github.io/Filosofia/ y
+- **En Android (Chrome):** abrí https://auparrino.github.io/agora/ y
   tocá *Instalar app* (o, en el menú ⋮, *Agregar a la pantalla principal*).
 - **En el iPhone (Safari):** abrila, tocá *Compartir* y *Agregar a
   inicio*.
@@ -94,8 +94,12 @@ se lee entera sin conexión, y guarda tu progreso en el teléfono.
 Para cambiar de teléfono, exportá el progreso en Ajustes y en el otro
 importá el archivo.
 
-Para publicarla, en GitHub andá a *Settings → Pages → Deploy from a
-branch*, elegí `main` y la carpeta `/docs`. Puede vivir en el mismo dominio
+La app se publica en **https://auparrino.github.io/agora/**, desde el repo
+[auparrino/agora](https://github.com/auparrino/agora) (GitHub Pages desde
+`main`, la raíz). Ese repo solo publica: `sh tools/publicar_agora.sh` copia
+ahí `docs/` y después se commitea y pushea en el clon de agora. (También
+queda en `auparrino.github.io/Filosofia/`, pero en Android Chrome quedó con
+una instalación trabada de esa dirección.) Puede vivir en el mismo dominio
 que La Via C1 (`auparrino.github.io`) sin tocarla: todo lo que guarda va con
 el prefijo `agora` (`agora.lector.v1`) y sus cachés se llaman `agora-…`.
 
