@@ -337,7 +337,7 @@
     if (w.dilemas && w.dilemas.length) {
       secs.push(["caso", w.dilemas.map(function (d, i) {
         return '<div class="caso">' + (w.dilemas.length > 1 ? '<h3><span class="sobre">Caso ' + (i + 1) + "</span></h3>" : "") +
-          parrafos(d.caso) + '<p class="cuestion">' + md(d.pregunta) + "</p>" +
+          parrafos(d.caso) +
           '<p class="muted">Las posiciones posibles, quién las sostendría y qué tienen que responder:</p>' +
           '<div class="posiciones">' + d.opciones.map(function (o) {
             return '<article class="posicion"><h4>' + md(o.texto) + "</h4>" +

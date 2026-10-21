@@ -99,7 +99,7 @@ def week_json(w, ed, missing):
         "lesson": {"intro": lesson["intro"],
                    "parts": [{"h": p["h"], "blocks": [blocks[i] for i in p["blocks"]]} for p in lesson["parts"]]},
         "seminario": seminario_json(g("seminario", None)),
-        "dilemas": g("dilemas", []),
+        "dilemas": [{k: v for k, v in d.items() if k != "pregunta"} for d in g("dilemas", [])],
         "vocab": [list(v) for v in g("vocab", [])],
         "literatura": [{"autor": o["autor"], "obra": pick(o["obra"], ed, tag + " literatura", missing),
                         "año": o["año"], "tipo": o["tipo"],
