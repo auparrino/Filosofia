@@ -1,19 +1,16 @@
 {
   "name": "agora",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "private": true,
-  "description": "Ágora: la historia de la filosofía en 52 semanas, de los presocráticos a hoy, con sus ramas, como curso-juego. En castellano (después, también en italiano, portugués y alemán). Sitio estático sin dependencias.",
+  "description": "Ágora: la historia de la filosofía para leer, en 117 semanas, de los presocráticos a hoy, con sus ramas, y un repaso para releer lo leído. En castellano. Sitio estático sin dependencias.",
   "engines": {
     "node": "22.x"
   },
   "scripts": {
-    "test": "npm run test:curso && npm run test:lib",
-    "test:curso": "python3 tools/curso/check_curso.py && node tools/curso/test_curso.js",
-    "test:lib": "node tools/lib/test_version.js && node tools/lib/test_rutas.js && node tools/lib/test_estado.js && node tools/lib/test_racha.js && node tools/lib/test_dos.js && node tools/lib/test_huecos.js && node tools/lib/test_ia.js && node tools/lib/test_nube.js && node tools/lib/test_plan.js",
+    "test": "python3 tools/curso/check_curso.py && node tools/lib/test_lector.js && node tools/lib/test_version.js && node tools/lib/test_rutas.js",
     "build": "python3 tools/curso/build_course.py",
-    "sim": "node tools/lib/sim_carriera.js es",
-    "smoke": "NODE_PATH=$(npm root -g) node tools/lib/smoke_curso.js",
-    "lint": "npx --yes eslint@10 docs",
+    "smoke": "NODE_PATH=$(npm root -g) node tools/lib/smoke.js",
+    "lint": "npx --yes eslint@10 docs tools/lib",
     "start": "cd docs && python3 -m http.server 8000"
   },
   "license": "UNLICENSED"

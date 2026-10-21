@@ -3,18 +3,19 @@
 Corre sola sobre una o más semanas, sin compilar el curso:
     python3 tools/curso/validar_semana.py 4 5 6
 
-Lo que pide una semana (CONTENIDO.md):
-- título, foco, fare, tema, de 4 a 8 claves, ramas conocidas;
-- la lección: 3 partes, al menos 9 bloques, cada uno con idea y chequeo;
-  las citas («…») de los ejemplos, con su fuente;
-- al menos 45 ejercicios, cada uno con su nota; al menos el 40 % de
-  aplicación o análisis (ap(...)); los «¿Quién lo dijo?», con fuente;
+La app es de lectura: lo que pide una semana es lo que se lee (CONTENIDO.md).
+- título, foco, tema, de 4 a 8 claves, ramas conocidas;
+- la lección: 3 partes, al menos 9 bloques, cada uno con título (h) e idea
+  (r); las citas («…») de los ejemplos, con su fuente;
 - al menos 12 conceptos completos y que no se repitan entre semanas;
-- el seminario: de 3 a 6 tramos de 80 a 320 palabras, cada uno con
-  preguntas; el mapa del argumento; la consigna con rúbrica y un modelo; al
-  menos 4 preguntas socráticas; con derechos «breve», ninguna cita textual
-  de más de 60 palabras;
+- el seminario: autor, obra, pasaje, contexto y derechos; de 3 a 6 tramos
+  de 80 a 320 palabras; el mapa del argumento; el texto modelo («una
+  lectura posible»); con derechos «breve», ninguna cita textual de más de
+  60 palabras;
 - al menos un dilema con dos o más posiciones completas.
+Los ejercicios (items), los chequeos (q) y las preguntas, la consigna, la
+rúbrica y las socráticas del seminario pueden estar en la fuente, pero ya no
+se piden ni se muestran.
 """
 import importlib.util
 import os
@@ -29,9 +30,8 @@ RAMAS = {"introducción", "lógica", "metafísica", "epistemología", "ética", 
          "filosofía de la historia", "filosofía de la religión", "hermenéutica", "pensamiento argentino y latinoamericano"}
 # A source: a work in italics, a fragment number, a chapter, «atribuido», «apócrifa», «según».
 SOURCE = re.compile(r"\*[^*]+\*|\bDK\b|\b[IVX]+ \d|\bcap\.|§|\d+[a-e]\b|atribuid|apócrif|según|resum|citad|parágrafo|carta|libro|fragmento", re.I)
-TYPES = {"choice", "cloze", "typed"}
 
-MIN = {"blocks": 9, "items": 45, "apl": 0.4, "vocab": 12, "tramos": (3, 6), "palabras": (80, 320), "socraticas": 4}
+MIN = {"blocks": 9, "vocab": 12, "tramos": (3, 6), "palabras": (80, 320), "modelo": 80}
 
 
 def words(s):
@@ -42,7 +42,7 @@ def check_week(w, err, seen_vocab=None):
     """Every rule for one authored week; err(where, what) for each problem."""
     seen_vocab = {} if seen_vocab is None else seen_vocab
     tag = "semana %d" % w["week"]
-    for k in ("title", "focus", "fare", "tema"):
+    for k in ("title", "focus", "tema"):
         if not w.get(k):
             err(tag, "falta %s" % k)
     nk = len(w.get("keys", []))
@@ -66,44 +66,12 @@ def check_week(w, err, seen_vocab=None):
     for i, b in enumerate(blocks):
         bt = "%s bloque %d" % (tag, i)
         if not (b.get("h") and b.get("r")):
-            err(bt, "título y regla")
-        if not b.get("q"):
-            err(bt, "sin chequeo")
-        for q in b.get("q", []):
-            if q["answer"] not in q["options"] or len(set(q["options"])) != len(q["options"]):
-                err(bt, "chequeo «%s»: la respuesta entre opciones distintas" % q["prompt"][:50])
+            err(bt, "título (h) e idea (r)")
         for e in b.get("ex", []):
             if len(e) != 2:
                 err(bt, "un ejemplo es [texto, comentario]")
             elif e[0].lstrip().startswith("«") and not SOURCE.search(e[1] or ""):
                 err(bt, "cita sin fuente: %s" % e[0][:60])
-    # the exercises
-    items = w["items"]
-    if len(items) < MIN["items"]:
-        err(tag, "ejercicios: %d (mínimo %d)" % (len(items), MIN["items"]))
-    napl = sum(1 for it in items if it.get("apl"))
-    if items and napl / len(items) < MIN["apl"]:
-        err(tag, "ejercicios de aplicación: %d de %d (mínimo el %d %%)" % (napl, len(items), MIN["apl"] * 100))
-    for k, it in enumerate(items, 1):
-        it_tag = "%s ejercicio %d" % (tag, k)
-        if it.get("type") not in TYPES:
-            err(it_tag, "tipo %r" % it.get("type"))
-            continue
-        if it.get("part", 0) not in range(len(lesson["parts"])):
-            err(it_tag, "parte %r" % it.get("part"))
-        if not (it.get("prompt") and it.get("stem") and it.get("answer")):
-            err(it_tag, "consigna, enunciado y respuesta")
-        if not it.get("note"):
-            err(it_tag, "sin explicación (note)")
-        if it.get("options"):
-            if it["answer"] not in it["options"]:
-                err(it_tag, "la respuesta no está entre las opciones")
-            if len({o.lower() for o in it["options"]}) != len(it["options"]):
-                err(it_tag, "opciones repetidas")
-        if it["type"] == "cloze" and "___" not in it["stem"]:
-            err(it_tag, "cloze sin ___")
-        if "Quién lo dijo" in it.get("prompt", "") and not SOURCE.search(it.get("note", "")):
-            err(it_tag, "«¿Quién lo dijo?» sin fuente en la nota")
     # the concepts
     for v in w.get("vocab", []):
         if len(v) != 4 or not all(v):
@@ -132,23 +100,16 @@ def check_week(w, err, seen_vocab=None):
             nw = words(t.get("texto"))
             if not MIN["palabras"][0] <= nw <= MIN["palabras"][1]:
                 err(st, "tramo %d: %d palabras (de %d a %d)" % ((i + 1, nw) + MIN["palabras"]))
-            if not t.get("preguntas"):
-                err(st, "tramo %d sin preguntas" % (i + 1))
             if sm.get("derechos") == "breve":
                 for m in re.finditer(r"«([^»]*)»", t.get("texto", "")):
                     if words(m.group(1)) > 60:
                         err(st, "tramo %d: cita textual de %d palabras (con derechos «breve», hasta 60)" % (i + 1, words(m.group(1))))
-            for q in t.get("chequeo", []) or []:
-                if q["answer"] not in q["options"]:
-                    err(st, "tramo %d: el chequeo con la respuesta entre las opciones" % (i + 1))
         mp = sm.get("mapa") or {}
         if not (mp.get("conclusion") and len(mp.get("premisas", [])) >= 2 and mp.get("objecion") and mp.get("replica")):
             err(st, "el mapa: conclusión, al menos dos premisas, objeción y réplica")
-        es = sm.get("escribir") or {}
-        if not es.get("consigna") or len(es.get("rubrica", [])) < 3 or words(es.get("modelo")) < 80:
-            err(st, "la escritura: consigna, al menos 3 criterios de rúbrica y un modelo de 80 palabras o más")
-        if len(sm.get("socraticas", [])) < MIN["socraticas"]:
-            err(st, "preguntas socráticas: %d (mínimo %d)" % (len(sm.get("socraticas", [])), MIN["socraticas"]))
+        modelo = (sm.get("escribir") or {}).get("modelo")
+        if words(modelo) < MIN["modelo"]:
+            err(st, "el texto modelo («una lectura posible»): %d palabras (mínimo %d)" % (words(modelo), MIN["modelo"]))
     # the dilemmas
     dl = w.get("dilemas") or []
     if not dl:
@@ -159,7 +120,7 @@ def check_week(w, err, seen_vocab=None):
         for o in d.get("opciones", []):
             if not all(o.get(k) for k in ("texto", "escuela", "porque", "objecion")):
                 err(tag, "dilema %d: cada posición con texto, escuela, porqué y objeción" % (i + 1))
-    return {"blocks": len(blocks), "items": len(items), "apl": napl, "vocab": len(w.get("vocab", [])),
+    return {"blocks": len(blocks), "vocab": len(w.get("vocab", [])),
             "tramos": len((sm or {}).get("tramos", [])), "dilemas": len(dl)}
 
 
@@ -177,6 +138,9 @@ def main(args):
     for a in args:
         n = int(a)
         t = temario.TEMARIO[n - 1]
+        if t["exam"]:
+            print("· semana %d: es el repaso de la estación, no se escribe (la arma el build)" % n)
+            continue
         problems = []
         w = load(n)
         if w["week"] != n:

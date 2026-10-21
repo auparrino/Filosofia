@@ -1,11 +1,11 @@
-/* Lint mínimo de la app (docs/): lo que es un error seguro (claves
-   repetidas, variables redeclaradas, nombres sin definir) y, como aviso,
-   las variables sin uso.  Sin dependencias: `npx eslint` (o un eslint
-   global) con este archivo.  `npm run lint`.
+/* Lint mínimo: lo que es un error seguro (claves repetidas, variables
+   redeclaradas, nombres sin definir) y, como aviso, las variables sin uso.
+   Sin dependencias: `npx eslint` con este archivo.  `npm run lint`.
 
-   Los globals de la app se sacan de los mismos archivos: cada módulo se
-   publica con `root.Nombre = …` (o window./self./globalThis.), así un
-   módulo nuevo no obliga a tocar esta lista. */
+   La app (docs/) es JavaScript plano para el navegador: sus módulos se
+   publican con `root.Nombre = …` o `window.Nombre = …`, y los globals se
+   sacan de los mismos archivos, así un módulo nuevo no obliga a tocar esta
+   lista.  Los tests (tools/lib/) corren en Node. */
 "use strict";
 const fs = require("fs");
 const path = require("path");
@@ -25,35 +25,40 @@ for (const f of jsFiles(path.join(__dirname, "docs"))) {
 
 // Lo que la app usa del navegador (y del service worker).
 const browser = [
-  "window", "self", "globalThis", "document", "navigator", "location", "history", "localStorage", "sessionStorage",
-  "console", "alert", "confirm", "prompt", "fetch", "Request", "Response", "Headers", "URL", "URLSearchParams",
-  "Blob", "File", "FileReader", "FormData", "AbortController", "Audio", "Image", "Event", "CustomEvent",
-  "MediaMetadata", "SpeechSynthesisUtterance", "speechSynthesis", "matchMedia", "getComputedStyle",
-  "requestAnimationFrame", "cancelAnimationFrame", "setTimeout", "clearTimeout", "setInterval", "clearInterval",
-  "performance", "crypto", "indexedDB", "caches", "clients", "importScripts", "structuredClone",
-  "TextEncoder", "TextDecoder", "IntersectionObserver", "ResizeObserver", "MutationObserver",
-  "HTMLElement", "Node", "Element", "DOMParser", "queueMicrotask",
+  "window", "self", "globalThis", "document", "navigator", "location", "history", "localStorage",
+  "console", "fetch", "Request", "Response", "URL", "Blob", "FileReader", "setTimeout", "clearTimeout",
+  "caches", "clients", "importScripts",
 ];
-// Lo que pone el paquete de una edición y una edición puede no tener todavía
-// (Boot.LANGS.<código>.missing): el núcleo los nombra donde ya los controla.
-const optional = ["Scrivi", "Diagnosi", "Conj", "VociCV", "TresLenguas", "TRAMO_DATA"];
-for (const g of optional) if (!app[g]) app[g] = "writable";
 const globals = Object.assign({}, app);
 for (const g of browser) globals[g] = "readonly";
-// Los módulos también se cargan en node para los tests (typeof module…).
+// js/nucleo.js también se carga en node para los tests (typeof module…).
 globals.module = "readonly";
-globals.require = "readonly";
+
+const node = {
+  require: "readonly", module: "writable", process: "readonly", console: "readonly", __dirname: "readonly",
+  setTimeout: "readonly", clearTimeout: "readonly", URL: "readonly", Buffer: "readonly", globalThis: "readonly",
+  // lo que corre dentro de la página en el smoke (page.evaluate)
+  document: "readonly", window: "readonly", localStorage: "readonly", location: "readonly", navigator: "readonly",
+  caches: "readonly", getComputedStyle: "readonly", Response: "readonly",
+};
+
+const rules = {
+  "no-dupe-keys": "error",
+  "no-redeclare": "error",
+  "no-undef": "error",
+  "no-unused-vars": ["warn", { vars: "all", args: "none", caughtErrors: "none" }],
+};
 
 module.exports = [
   {
     files: ["docs/**/*.js"],
     languageOptions: { ecmaVersion: 2022, sourceType: "script", globals },
     linterOptions: { reportUnusedDisableDirectives: "off" },
-    rules: {
-      "no-dupe-keys": "error",
-      "no-redeclare": "error",
-      "no-undef": "error",
-      "no-unused-vars": ["warn", { vars: "all", args: "none", caughtErrors: "none" }],
-    },
+    rules,
+  },
+  {
+    files: ["tools/**/*.js"],
+    languageOptions: { ecmaVersion: 2022, sourceType: "commonjs", globals: node },
+    rules,
   },
 ];

@@ -1,7 +1,7 @@
 {
   "name": "Ágora — filosofía",
   "short_name": "Ágora",
-  "description": "La historia de la filosofía en 52 semanas, de los presocráticos a hoy, con sus ramas: lecciones cortas, citas, argumentos, repaso espaciado y pausas de 3 minutos. Funciona sin internet.",
+  "description": "La historia de la filosofía para leer desde el celular: 117 semanas, de los presocráticos a hoy, con sus textos, argumentos, casos y conceptos, y un repaso para releer lo leído. Funciona sin internet.",
   "lang": "es",
   "id": "./",
   "start_url": "./",
@@ -35,9 +35,9 @@
   ],
   "shortcuts": [
     {
-      "name": "Hoy: tu semana",
-      "short_name": "Hoy",
-      "url": "./#hoy",
+      "name": "Seguir leyendo",
+      "short_name": "Leer",
+      "url": "./#inicio",
       "icons": [
         {
           "src": "icons/icon-192.png",
@@ -46,9 +46,9 @@
       ]
     },
     {
-      "name": "Pausa de 3 minutos",
-      "short_name": "Pausa",
-      "url": "./#pausa",
+      "name": "Para repasar hoy",
+      "short_name": "Repaso",
+      "url": "./#repaso",
       "icons": [
         {
           "src": "icons/icon-192.png",
@@ -57,9 +57,9 @@
       ]
     },
     {
-      "name": "Repaso de 2 minutos",
-      "short_name": "2 min",
-      "url": "./#micro",
+      "name": "Glosario",
+      "short_name": "Glosario",
+      "url": "./#glosario",
       "icons": [
         {
           "src": "icons/icon-192.png",

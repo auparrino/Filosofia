@@ -1,5 +1,10 @@
 # ¿Sirve el formato de La Via para aprender filosofía?
 
+> **Nota (v0.3.0).** Esta investigación llevó al formato híbrido del
+> curso-juego. Después el dueño cambió de rumbo: Ágora es ahora una app de
+> lectura, sin preguntas ni ejercicios (ver [PLAN.md](PLAN.md), §7). Queda
+> como antecedente.
+
 Este documento resume una investigación de octubre de 2026 sobre qué formato
 conviene para una app de filosofía autodidacta. La pregunta era si el motor
 de La Via (lecciones en pasos, opción múltiple, repaso espaciado, racha, xp,

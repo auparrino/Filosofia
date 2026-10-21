@@ -19,7 +19,7 @@ WEEK = {
         "Palabras como *porque*, *ya que*, *por lo tanto*, *luego* avisan qué es premisa y qué es conclusión.",
     ],
     "lesson": {
-        "intro": "Esta semana no hay todavía un autor que estudiar: hay una pregunta (¿qué es esto que vamos a hacer?) y una herramienta (el argumento) que vas a usar las 52 semanas.",
+        "intro": "Esta semana no hay todavía un autor que estudiar: hay una pregunta (¿qué es esto que vamos a hacer?) y una herramienta (el argumento) que vas a usar en todo el curso.",
         "parts": [
             {"h": "El asombro y el amor a la sabiduría", "blocks": [0, 1, 2]},
             {"h": "Las preguntas de la filosofía", "blocks": [3, 4]},

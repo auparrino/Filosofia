@@ -29,9 +29,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version-file: .python-version
-      - name: Tests de lógica, datos y contenido (npm test)
+      - name: Contenido, datos, lector, versión y rutas (npm test)
         run: npm test
-      - name: Lint (eslint sobre docs/)
+      - name: Lint (eslint sobre docs/ y tools/lib/)
         run: npm run lint
 
   build:
@@ -62,22 +62,6 @@ jobs:
             exit 1
           fi
 
-  sim:
-    name: un año simulado por edición
-    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name != github.repository
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version-file: package.json
-      - name: npm run sim
-        run: npm run sim > sim.log || { tail -n 60 sim.log; exit 1; }
-      - name: Resumen
-        if: always()
-        run: grep -E "^sim |no dominadas" sim.log || true
-
   smoke:
     name: prueba de humo en Chromium
     if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name != github.repository
@@ -88,12 +72,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version-file: package.json
-      - uses: actions/setup-python@v5
-        with:
-          python-version-file: .python-version
       - name: Playwright y Chromium
         run: |
           npm install --no-save --no-package-lock playwright@1.56
           npx playwright install --with-deps chromium
-      - name: Ágora en Chromium (tools/lib/smoke_curso.js)
-        run: node tools/lib/smoke_curso.js
+      - name: Ágora en Chromium, en un celular (tools/lib/smoke.js)
+        run: node tools/lib/smoke.js
