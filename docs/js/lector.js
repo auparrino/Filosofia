@@ -17,7 +17,7 @@
 (function () {
   "use strict";
   var N = window.Nucleo;
-  var APP_VERSION = "v0.3.0";
+  var APP_VERSION = "v0.3.1";
   var DATA = "lang/es/data/";
   var html = document.documentElement;
   var $app = document.getElementById("app");

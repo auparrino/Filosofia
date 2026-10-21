@@ -3,7 +3,7 @@
   "short_name": "Ágora",
   "description": "La historia de la filosofía para leer desde el celular: 117 semanas, de los presocráticos a hoy, con sus textos, argumentos, casos y conceptos, y un repaso para releer lo leído. Funciona sin internet.",
   "lang": "es",
-  "id": "./",
+  "id": "./?app=agora-lector",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
