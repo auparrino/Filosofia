@@ -1,4 +1,4 @@
-# Plan: de La Via C1 a Ágora, un curso-juego de filosofía
+# Plan: de La Via C1 a Ágora, una app para leer filosofía
 
 ## Estado
 
@@ -11,22 +11,27 @@
 | 5 | La literatura de cada semana | **hecho** (§4) |
 | 6 | El formato: investigar ([FORMATO.md](FORMATO.md)) y elegir | **hecho**: el híbrido |
 | 7 | El motor sin 52 semanas: un examen cada 13 y el final en la última | **hecho** |
-| 8 | El seminario semanal, los dilemas y la tarjeta de literatura (`docs/js/seminario.js`) | **hecho** |
+| 8 | El seminario semanal, los dilemas y la tarjeta de literatura | **hecho** (hoy, dentro de la semana que se lee) |
 | 9 | Ocho épocas en la estética | **hecho** (§3) |
-| 10 | El contenido: 108 semanas de contenido (las 9 de examen se arman solas) | **hecho**: 5691 ejercicios, 1748 conceptos; falta revisar a mano `REVISAR.md` |
-| 11 | Limpiar el núcleo: sacar los módulos de idioma, renombrar los modos y pasar los errores a malentendidos | **en curso**: módulos de idioma sacados (v0.2.0, §6) |
-| 12 | Ejercicios nuevos: relacioná, tabla de verdad, la premisa floja | pendiente |
-| 13 | Ediciones it y pt desde la misma fuente, con un test de paridad; después de | pendiente |
-| 14 | Leer las obras de dominio público dentro de la app (la Biblioteca) | pendiente |
+| 10 | El contenido: 108 semanas de contenido (las 9 de repaso se arman solas) | **hecho**: 1748 conceptos (y 5691 ejercicios que quedan en la fuente); falta revisar a mano `REVISAR.md` |
+| 11 | Limpiar el núcleo: sacar los módulos de idioma | **hecho** en parte (v0.2.0); el resto (renombrar los modos, los malentendidos) queda **descartado** por el paso 15 |
+| 12 | Ejercicios nuevos: relacioná, tabla de verdad, la premisa floja | **descartado** (paso 15) |
+| 15 | **El cambio de rumbo:** de curso-juego a app de lectura, sin preguntas: leer la semana de corrido y releer lo leído | **hecho** (v0.3.0, §7) |
+| 13 | Ediciones it, pt y de desde la misma fuente, con un test de paridad | pendiente |
+| 14 | Leer las obras de dominio público completas dentro de la app | pendiente |
+
+El paso 15 se hizo antes que el 13 y el 14, que son los que siguen.
 
 **Decisiones tomadas:**
 - **La base** es `main` v3.11.4 de La Via C1.
 - **El nombre** es Ágora.
 - **El temario** sale de comparar los planes de estudio de las carreras de
   Filosofía, más las tradiciones no occidentales en su momento.
-- **El formato** es el híbrido: lo diario corto, con preguntas de
-  aplicación, y un seminario semanal con un tutor socrático que no da
-  respuestas.
+- **El formato** fue primero el híbrido (lo diario corto, con preguntas, y
+  un seminario semanal con un tutor socrático). Desde la v0.3.0 es **de
+  lectura**: el dueño pidió sacar todo lo que fueran preguntas y que la app
+  explique conceptos y haga leer, no que ejercite como si fuese un idioma
+  (§7).
 - **La estética** avanza con la historia.
 - **Una sola fuente de contenido** para las cuatro ediciones, y la interfaz
   en castellano.
@@ -36,19 +41,21 @@
 
 Cada semana es un archivo `tools/curso/semanas/wNN.py`. Las reglas están en
 [CONTENIDO.md](CONTENIDO.md), y `tools/curso/validar_semana.py NN` controla
-cada semana. Una semana tiene:
+cada semana. Una semana tiene lo que se lee:
+- lo esencial: el foco y de 4 a 8 claves;
 - una lección de al menos 9 bloques en 3 partes;
-- al menos 45 ejercicios, con el 40 % de aplicación;
 - al menos 12 conceptos;
-- uno o más dilemas;
-- el seminario: de 3 a 6 tramos de texto, el mapa del argumento, la
-  escritura con rúbrica y modelo, y las preguntas socráticas.
+- el seminario: de 3 a 6 tramos de texto con sus glosas, el mapa del
+  argumento y el texto modelo («una lectura posible»);
+- uno o más dilemas, que se leen como casos;
+- su literatura.
 
-Las semanas se escriben en paralelo, por estación. Cada una se valida sola,
-y después `npm test` y `npm run sim` controlan el curso entero. Lo que
-queda por revisar a mano son las citas, las fechas y las referencias: los
-agentes que escriben anotan las que no pudieron verificar, en
-`REVISAR.md`.
+Los ejercicios, los chequeos, las preguntas de los tramos, la consigna, la
+rúbrica y las socráticas siguen en la fuente, pero ya no se piden ni se
+muestran. Las semanas se escriben en paralelo, por estación. Cada una se
+valida sola, y después `npm test` controla el curso entero. Lo que queda
+por revisar a mano son las citas, las fechas y las referencias: los agentes
+que escriben anotan las que no pudieron verificar, en `REVISAR.md`.
 
 ## 2. El temario: 117 semanas
 
@@ -415,7 +422,10 @@ semanas de examen no traen obra nueva.
 | 115 | Kazuo Ishiguro, *Nunca me abandones*; Mary Shelley, *Frankenstein* 📖 |
 | 116 | Kazuo Ishiguro, *Klara y el sol*; Douglas Adams, *Guía del autoestopista galáctico* |
 
-## 5. El formato híbrido
+## 5. El formato híbrido (hasta la v0.2.0)
+
+> Reemplazado en la v0.3.0 por la app de lectura (§7). Queda como
+> historia: así estaba hecho el curso-juego.
 
 La investigación está en [FORMATO.md](FORMATO.md), y en la app quedó así:
 - **Lo diario:** la lección, las rondas, el repaso espaciado y los
@@ -441,7 +451,10 @@ La investigación está en [FORMATO.md](FORMATO.md), y en la app quedó así:
   un bloque de repaso por semana. Tienen dos partes (para escribir y de
   opción múltiple), cada una con su mínimo.
 
-## 6. Lo que queda de La Via C1 en el núcleo
+## 6. Lo que quedaba de La Via C1 en el núcleo (hasta la v0.2.0)
+
+> En la v0.3.0 el núcleo entero se reemplazó por el lector (§7): lo que
+> sigue queda como historia.
 
 **Primera parte, hecha (v0.2.0): los módulos de idioma, afuera.** Se
 borraron del núcleo 17 módulos que solo servían para aprender un idioma y
@@ -480,3 +493,34 @@ podían ganar.
 Los tests de La Via que probaban esos módulos con contenido de idioma se
 borraron en el paso 3, y se reescriben cuando cada módulo tenga contenido de
 filosofía.
+
+## 7. El cambio de rumbo: una app de lectura (v0.3.0)
+
+El dueño pidió: «Sacá todo lo que sea preguntas. Que sea de lectura y
+repaso de la lectura la app. Que se enfoque en explicar conceptos y leer, no
+ejercitar como si fuese un idioma.» Se hizo así:
+
+- **El núcleo del juego se borró** (el motor, las rondas, los ejercicios, el
+  seminario con escrito y tutor, la IA, la nube, el teclado, la racha, las
+  medallas, los exámenes) con sus tests y la simulación. La historia de git
+  lo conserva. En su lugar hay un lector chico en JavaScript plano:
+  `docs/js/nucleo.js` (el estado, la agenda, el buscador y la copia, sin
+  pantalla) y `docs/js/lector.js` (las pantallas).
+- **La semana se lee de corrido**, como un capítulo: lo esencial, la
+  lección, el texto (con sus glosas como notas), el argumento, una lectura
+  posible, los casos, los conceptos y la literatura, con un índice interno
+  y la app recordando dónde quedaste. Las semanas 13, 26, …, 117 son el
+  repaso de su estación.
+- **El repaso es releer**, sin preguntas ni puntaje: al terminar una semana
+  vuelven su resumen y cada concepto a +1, +7, +30 y +90 días, y después
+  cada 180; hasta 20 por día, primero las más viejas.
+- **El glosario** junta los 1748 conceptos, con un buscador que ignora
+  tildes y mayúsculas.
+- **Los datos** son solo lo que se lee: un índice chico
+  (`docs/lang/es/data/course.json`, 38 KB) y un archivo por estación
+  (`estacion-N.json`). Antes era un solo `course.json` de 8,2 MB; ahora son
+  3,8 MB en total, y la primera carga baja solo el índice. El service
+  worker guarda todo para leer sin internet.
+- **Las ocho épocas** siguen (`docs/lang/es/theme.css`).
+- **El contenido no se tocó**: los ejercicios siguen en `wNN.py` por si
+  algún día vuelven, pero el build no los saca y los chequeos no los piden.

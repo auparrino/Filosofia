@@ -1,30 +1,39 @@
 <!doctype html>
-<html lang="es">
+<html lang="es" data-era="1" data-letra="1">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Ágora — filosofía</title>
-<meta name="description" content="La historia de la filosofía en 117 semanas, de los presocráticos a hoy, desde el celular:
-lecciones cortas, citas, argumentos, repaso espaciado y pausas de 3 minutos. Funciona sin internet.">
+<meta name="description" content="La historia de la filosofía para leer desde el celular: 117 semanas, de los presocráticos a hoy, con sus textos, argumentos, casos y conceptos, y un repaso para releer lo leído. Funciona sin internet.">
 <meta name="theme-color" content="#efe6d6" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1a1612" media="(prefers-color-scheme: dark)">
-<link rel="preload" href="fonts/atkinson-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Ágora">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preload" href="fonts/atkinson-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="lang/es/data/course.json" as="fetch" crossorigin>
+<link rel="stylesheet" href="lang/es/theme.css">
 <link rel="stylesheet" href="css/app.css">
+<script src="js/arranque.js"></script>
 </head>
 <body>
-<header class="top" id="hdr"></header>
-<main class="wrap" id="app">
-  <div class="card"><p class="muted">Cargando…</p></div>
+<a class="saltar" href="#app">Saltar al contenido</a>
+<header class="top">
+  <div class="barra">
+    <a class="marca" href="#inicio"><img src="icons/icon.svg" alt="" width="30" height="30"><span>Ágora</span></a>
+    <span class="donde" id="donde"></span>
+  </div>
+</header>
+<main class="wrap" id="app" tabindex="-1">
+  <p class="muted">Cargando…</p>
 </main>
-<nav class="nav" id="nav"></nav>
-<!-- boot.js elige la edición y carga su paquete (docs/lang/<código>/) y el núcleo (docs/js/) -->
-<script src="js/boot.js"></script>
+<nav class="nav" id="nav" aria-label="Pantallas de la app"></nav>
+<noscript><p class="wrap">Ágora necesita JavaScript para mostrar las lecturas.</p></noscript>
+<script src="js/nucleo.js"></script>
+<script src="js/lector.js"></script>
 </body>
 </html>
