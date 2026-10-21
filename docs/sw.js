@@ -14,7 +14,7 @@
  * caché vieja.  Las cachés llevan el prefijo «agora-»: en el mismo origen
  * viven otras apps y sus cachés no se tocan nunca.
  */
-var VERSION = "agora-v0.3.0";
+var VERSION = "agora-v0.3.1";
 var PREFIX = "agora-";
 var DATA = "lang/es/data/";
 

@@ -315,12 +315,12 @@ async function full(browser, base) {
   step("sin red");
   await page.evaluate(function () { return navigator.serviceWorker.ready; });
   await page.waitForFunction(function () {
-    return caches.open("agora-v0.3.0").then(function (c) { return c.keys(); }).then(function (k) {
+    return caches.open("agora-v0.3.1").then(function (c) { return c.keys(); }).then(function (k) {
       window.__n = k.length; return k.length >= 27;
     });
   }, null, { timeout: 30000 }).catch(function () { /* the check below says it */ });
   var cached = await page.evaluate(function () {
-    return caches.open("agora-v0.3.0").then(function (c) { return c.keys(); }).then(function (k) { return k.map(function (r) { return r.url; }); });
+    return caches.open("agora-v0.3.1").then(function (c) { return c.keys(); }).then(function (k) { return k.map(function (r) { return r.url; }); });
   });
   ok(cached.filter(function (u) { return /estacion-\d\.json$/.test(u); }).length === 9, "el service worker guardó las 9 estaciones (" + cached.length + " archivos)");
   await onlyAgora(page, "con el service worker");
